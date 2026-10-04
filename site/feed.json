@@ -1,10 +1,89 @@
 {
-  "generatedAt": "2026-10-04T21:13:51.458Z",
-  "items": [],
+  "generatedAt": "2026-10-04T21:22:42.721Z",
+  "items": [
+    {
+      "id": "feed-637d3dfa247fa8",
+      "title": "Albertsons Adopts ChatGPT Enterprise and OpenAI API",
+      "summary": "Albertsons Cos. is utilizing ChatGPT Enterprise and the OpenAI API to help its teams work faster and streamline grocery shopping for millions of customers.",
+      "keyPoints": [
+        "Albertsons Cos. is deploying ChatGPT Enterprise and the OpenAI API.",
+        "The tools are intended to help internal teams work faster.",
+        "The effort aims to make grocery shopping easier for millions of customers."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/albertsons-reimagining-retail",
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Albertsons Adopts ChatGPT Enterprise and OpenAI API",
+          "summary": "Albertsons Cos. is utilizing ChatGPT Enterprise and the OpenAI API to help its teams work faster and streamline grocery shopping for millions of customers.",
+          "keyPoints": [
+            "Albertsons Cos. is deploying ChatGPT Enterprise and the OpenAI API.",
+            "The tools are intended to help internal teams work faster.",
+            "The effort aims to make grocery shopping easier for millions of customers."
+          ]
+        },
+        "fr": {
+          "title": "Albertsons adopte ChatGPT Enterprise et l'API OpenAI",
+          "summary": "Albertsons Cos. utilise ChatGPT Enterprise et l'API OpenAI afin d'accélérer le travail de ses équipes et de simplifier les courses pour des millions de clients.",
+          "keyPoints": [
+            "Albertsons Cos. a recours à ChatGPT Enterprise et à l'API OpenAI.",
+            "Ces technologies visent à aider les équipes de l'entreprise à travailler plus rapidement.",
+            "L'initiative a pour objectif de faciliter les courses de millions de clients."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.7,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-2167384f51e2a4",
+      "title": "The Den Saves 10 to 15 Hours Weekly with ChatGPT Work",
+      "summary": "As social club The Den opens a new location, it uses ChatGPT Work to free up 10 to 15 hours per week. The tool enables the club to prepare grant applications in 2 hours instead of 3 days and complete liquor-license materials in 3 hours instead of 4 days.",
+      "keyPoints": [
+        "The Den frees up 10 to 15 hours per week using ChatGPT Work.",
+        "Grant applications are prepared in 2 hours instead of 3 days.",
+        "Liquor-license materials are completed in 3 hours instead of 4 days."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/the-den-family-social",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "The Den Saves 10 to 15 Hours Weekly with ChatGPT Work",
+          "summary": "As social club The Den opens a new location, it uses ChatGPT Work to free up 10 to 15 hours per week. The tool enables the club to prepare grant applications in 2 hours instead of 3 days and complete liquor-license materials in 3 hours instead of 4 days.",
+          "keyPoints": [
+            "The Den frees up 10 to 15 hours per week using ChatGPT Work.",
+            "Grant applications are prepared in 2 hours instead of 3 days.",
+            "Liquor-license materials are completed in 3 hours instead of 4 days."
+          ]
+        },
+        "fr": {
+          "title": "The Den gagne 10 à 15 heures par semaine grâce à ChatGPT Work",
+          "summary": "Alors qu'il ouvre un nouvel établissement, le club social The Den utilise ChatGPT Work pour libérer 10 à 15 heures par semaine. Il prépare désormais ses demandes de subventions en 2 heures au lieu de 3 jours, et ses dossiers de licence d'alcool en 3 heures au lieu de 4 jours.",
+          "keyPoints": [
+            "The Den gagne 10 à 15 heures par semaine grâce à ChatGPT Work.",
+            "Les demandes de subvention sont préparées en 2 heures au lieu de 3 jours.",
+            "Les dossiers de licence d'alcool prennent 3 heures au lieu de 4 jours."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    }
+  ],
   "meta": {
     "sourcesChecked": 5,
     "itemsCollected": 55,
-    "itemsPublished": 0,
+    "itemsPublished": 2,
     "model": "gemini-3.8-flash"
   }
 }
