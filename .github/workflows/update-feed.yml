@@ -24,6 +24,7 @@ jobs:
           GEMINI_MODEL: gemini-3.8-flash
           MAX_ITEMS: 24
           MAX_AGE_DAYS: 14
+          BATCH_SIZE: 10
         run: node pipeline/update-feed.mjs
 
       - name: Commit generated feed

@@ -13,6 +13,12 @@ Dans le dépôt GitHub public `FeedPulse-AI-Web` :
 
 Le workflow utilise `gemini-3.8-flash` et écrit le résultat dans `site/feed.json`. La clé reste dans GitHub Actions et n’est jamais incluse dans l’application mobile.
 
+## Traitement par lots
+
+Les articles sont envoyés à Gemini par lots de 10 (`BATCH_SIZE=10`) au lieu d’un appel par article. Avec 24 articles maximum, le workflow effectue au maximum 3 appels Gemini. Chaque réponse doit contenir exactement un briefing par identifiant d’article ; les URLs et IDs sont contrôlés avant publication.
+
+Le lot est volontairement fixé à 10 pour rester dans les limites de contexte et limiter les erreurs de quota. Il peut être augmenté jusqu’à 20 avec la variable `BATCH_SIZE`, mais 10 est le réglage recommandé pour le quota gratuit.
+
 ## Test local sans clé
 
 ```bash

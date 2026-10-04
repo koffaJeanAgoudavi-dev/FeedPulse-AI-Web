@@ -9,6 +9,7 @@ const MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 const DRY_RUN = process.argv.includes('--dry-run');
 const MAX_ITEMS = Number(process.env.MAX_ITEMS || 24);
 const MAX_AGE_DAYS = Number(process.env.MAX_AGE_DAYS || 14);
+const BATCH_SIZE = Math.min(20, Math.max(10, Number(process.env.BATCH_SIZE || 10)));
 
 function decode(value = '') {
   return value.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'");
@@ -64,11 +65,18 @@ function dryBriefing(item) {
     category: categoryFallback(`${item.title} ${item.description}`), confidence: 0.45, needsReview: true,
   };
 }
-async function generateBriefing(item) {
-  if (DRY_RUN) return dryBriefing(item);
+async function generateBriefingBatch(items) {
+  if (DRY_RUN) return new Map(items.map((item) => [stableId(item.canonicalUrl), dryBriefing(item)]));
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new Error('GEMINI_API_KEY is required. Use --dry-run for a pipeline smoke test.');
-  const prompt = `You are the strict editorial engine for FeedPulse AI. Use only the source text below. Never invent facts. Return JSON only with this exact shape: {"en":{"title":"string","summary":"string","keyPoints":["string","string","string"]},"fr":{"title":"string","summary":"string","keyPoints":["string","string","string"]},"category":"Modèles|Open Source|Business|Outils","confidence":0.0,"needsReview":false}. Keep each title under 100 characters, each summary under 400 characters, exactly 3 key points per language, and preserve names, numbers and uncertainty. Set needsReview true if evidence is insufficient.\n\nSOURCE: ${item.sourceName}\nTITLE: ${item.title}\nURL: ${item.canonicalUrl}\nTEXT: ${item.description.slice(0, 7000)}`;
+  const itemsText = items.map((item) => JSON.stringify({
+    id: stableId(item.canonicalUrl),
+    sourceName: item.sourceName,
+    title: item.title,
+    sourceUrl: item.canonicalUrl,
+    text: item.description.slice(0, 3500),
+  })).join('\n');
+  const prompt = `You are the strict editorial engine for FeedPulse AI. Process every item in the batch below. Use only its source text. Never invent facts and never omit an item. Return a JSON array only. Each array element must have this exact shape: {"id":"the exact input id","en":{"title":"string","summary":"string","keyPoints":["string","string","string"]},"fr":{"title":"string","summary":"string","keyPoints":["string","string","string"]},"category":"Modèles|Open Source|Business|Outils","confidence":0.0,"needsReview":false}. Keep each title under 100 characters, each summary under 400 characters, exactly 3 key points per language, and preserve names, numbers and uncertainty. Set needsReview true if evidence is insufficient. Return exactly ${items.length} array elements, one for each input id.\n\nBATCH:\n${itemsText}`;
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${encodeURIComponent(key)}`, {
     method: 'POST', headers: { 'content-type': 'application/json' },
     body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { responseMimeType: 'application/json', temperature: 0.1 } }),
@@ -76,7 +84,9 @@ async function generateBriefing(item) {
   if (!response.ok) throw new Error(`Gemini ${response.status}: ${await response.text()}`);
   const body = await response.json();
   const text = body.candidates?.[0]?.content?.parts?.map((part) => part.text || '').join('') || '';
-  return JSON.parse(text.replace(/^```json\s*|\s*```$/g, '').trim());
+  const result = JSON.parse(text.replace(/^```json\s*|\s*```$/g, '').trim());
+  if (!Array.isArray(result) || result.length !== items.length) throw new Error(`batch returned ${Array.isArray(result) ? result.length : 'non-array'} briefings for ${items.length} items`);
+  return new Map(result.map((briefing) => [briefing.id, briefing]));
 }
 function validate(item, briefing) {
   const allowed = new Set(['Modèles', 'Open Source', 'Business', 'Outils']);
@@ -108,15 +118,20 @@ const candidates = unique.filter((item) => {
   return item.description.length >= 40;
 }).slice(0, MAX_ITEMS);
 const published = [];
-for (const item of candidates) {
+for (let start = 0; start < candidates.length; start += BATCH_SIZE) {
+  const batch = candidates.slice(start, start + BATCH_SIZE);
   try {
-    const briefing = await generateBriefing(item);
-    if (!validate(item, briefing)) throw new Error('schema validation failed');
-    published.push({ id: stableId(item.canonicalUrl), title: briefing.en.title, summary: briefing.en.summary, keyPoints: briefing.en.keyPoints, category: briefing.category, sourceName: item.sourceName, sourceUrl: item.canonicalUrl, publishedAt: item.publishedAt, imageUrl: item.imageUrl, translations: { en: briefing.en, fr: briefing.fr }, quality: { confidence: briefing.confidence, needsReview: briefing.needsReview } });
-    console.log(`published: ${item.title}`);
+    const briefings = await generateBriefingBatch(batch);
+    for (const item of batch) {
+      const briefing = briefings.get(stableId(item.canonicalUrl));
+      if (!briefing || !validate(item, briefing)) throw new Error(`schema validation failed for ${item.title}`);
+      published.push({ id: stableId(item.canonicalUrl), title: briefing.en.title, summary: briefing.en.summary, keyPoints: briefing.en.keyPoints, category: briefing.category, sourceName: item.sourceName, sourceUrl: item.canonicalUrl, publishedAt: item.publishedAt, imageUrl: item.imageUrl, translations: { en: briefing.en, fr: briefing.fr }, quality: { confidence: briefing.confidence, needsReview: briefing.needsReview } });
+      console.log(`published: ${item.title}`);
+    }
+    console.log(`batch ${Math.floor(start / BATCH_SIZE) + 1}: ${batch.length} items processed`);
   } catch (error) {
-    console.warn(`rejected: ${item.title} (${error.message})`);
+    console.warn(`batch ${Math.floor(start / BATCH_SIZE) + 1} rejected (${error.message})`);
   }
 }
-await writeFile(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), items: published, meta: { sourcesChecked: SOURCES.length, itemsCollected: collected.length, itemsPublished: published.length, model: DRY_RUN ? 'dry-run' : MODEL } }, null, 2) + '\n');
+await writeFile(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), items: published, meta: { sourcesChecked: SOURCES.length, itemsCollected: collected.length, itemsPublished: published.length, batches: Math.ceil(candidates.length / BATCH_SIZE), batchSize: BATCH_SIZE, model: DRY_RUN ? 'dry-run' : MODEL } }, null, 2) + '\n');
 console.log(`feed written: ${published.length} items -> ${OUT}`);
