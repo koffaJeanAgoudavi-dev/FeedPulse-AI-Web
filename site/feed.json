@@ -1,12 +1,14 @@
 {
-  "generatedAt": "2026-10-04T21:36:09.588Z",
+  "generatedAt": "2026-10-04T21:38:20.398Z",
   "items": [],
   "meta": {
     "sourcesChecked": 5,
     "itemsCollected": 55,
     "itemsPublished": 0,
+    "newItems": 0,
     "batches": 3,
     "batchSize": 10,
-    "model": "gemini-3.8-flash"
+    "model": "gemini-3.8-flash",
+    "status": "updated"
   }
 }
