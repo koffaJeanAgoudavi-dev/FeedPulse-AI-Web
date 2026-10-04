@@ -1,10 +1,10 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-10-04T12:26:48.603Z",
   "items": [],
   "meta": {
-    "sourcesChecked": 0,
-    "itemsCollected": 0,
+    "sourcesChecked": 5,
+    "itemsCollected": 55,
     "itemsPublished": 0,
-    "status": "waiting-for-first-pipeline-run"
+    "model": "gemini-3.8-flash"
   }
 }
