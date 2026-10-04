@@ -1,0 +1,37 @@
+[
+  {
+    "id": "openai-news",
+    "name": "OpenAI News",
+    "url": "https://openai.com/news/rss.xml",
+    "language": "en",
+    "confidence": 0.98
+  },
+  {
+    "id": "huggingface-blog",
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "language": "en",
+    "confidence": 0.94
+  },
+  {
+    "id": "arxiv-ai",
+    "name": "arXiv cs.AI",
+    "url": "https://export.arxiv.org/rss/cs.AI",
+    "language": "en",
+    "confidence": 0.93
+  },
+  {
+    "id": "google-ai",
+    "name": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/rss/",
+    "language": "en",
+    "confidence": 0.96
+  },
+  {
+    "id": "deepmind-blog",
+    "name": "Google DeepMind Blog",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "language": "en",
+    "confidence": 0.97
+  }
+]
