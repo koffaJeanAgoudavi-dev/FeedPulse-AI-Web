@@ -19,6 +19,8 @@ Les articles sont envoyés à Gemini par lots de 10 (`BATCH_SIZE=10`) au lieu d�
 
 Le lot est volontairement fixé à 10 pour rester dans les limites de contexte et limiter les erreurs de quota. Il peut être augmenté jusqu’à 20 avec la variable `BATCH_SIZE`, mais 10 est le réglage recommandé pour le quota gratuit.
 
+Les erreurs temporaires `429`, `500`, `502`, `503` et `504` sont retentées jusqu’à trois fois avec un délai progressif. Si tous les lots échouent, le workflow conserve le dernier flux valide au lieu de publier un flux vide.
+
 ## Test local sans clé
 
 ```bash

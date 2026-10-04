@@ -10,6 +10,9 @@ const DRY_RUN = process.argv.includes('--dry-run');
 const MAX_ITEMS = Number(process.env.MAX_ITEMS || 24);
 const MAX_AGE_DAYS = Number(process.env.MAX_AGE_DAYS || 14);
 const BATCH_SIZE = Math.min(20, Math.max(10, Number(process.env.BATCH_SIZE || 10)));
+const MAX_RETRIES = 3;
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function decode(value = '') {
   return value.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'");
@@ -77,11 +80,22 @@ async function generateBriefingBatch(items) {
     text: item.description.slice(0, 3500),
   })).join('\n');
   const prompt = `You are the strict editorial engine for FeedPulse AI. Process every item in the batch below. Use only its source text. Never invent facts and never omit an item. Return a JSON array only. Each array element must have this exact shape: {"id":"the exact input id","en":{"title":"string","summary":"string","keyPoints":["string","string","string"]},"fr":{"title":"string","summary":"string","keyPoints":["string","string","string"]},"category":"Modèles|Open Source|Business|Outils","confidence":0.0,"needsReview":false}. Keep each title under 100 characters, each summary under 400 characters, exactly 3 key points per language, and preserve names, numbers and uncertainty. Set needsReview true if evidence is insufficient. Return exactly ${items.length} array elements, one for each input id.\n\nBATCH:\n${itemsText}`;
-  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${encodeURIComponent(key)}`, {
-    method: 'POST', headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { responseMimeType: 'application/json', temperature: 0.1 } }),
-  });
-  if (!response.ok) throw new Error(`Gemini ${response.status}: ${await response.text()}`);
+  let response;
+  let responseText = '';
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt += 1) {
+    response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${encodeURIComponent(key)}`, {
+      method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { responseMimeType: 'application/json', temperature: 0.1 } }),
+    });
+    if (response.ok) break;
+    responseText = await response.text();
+    if (![429, 500, 502, 503, 504].includes(response.status) || attempt === MAX_RETRIES) {
+      throw new Error(`Gemini ${response.status}: ${responseText}`);
+    }
+    const waitMs = attempt * 5000;
+    console.warn(`Gemini ${response.status}; retry ${attempt}/${MAX_RETRIES - 1} in ${waitMs}ms`);
+    await sleep(waitMs);
+  }
   const body = await response.json();
   const text = body.candidates?.[0]?.content?.parts?.map((part) => part.text || '').join('') || '';
   const result = JSON.parse(text.replace(/^```json\s*|\s*```$/g, '').trim());
@@ -133,5 +147,15 @@ for (let start = 0; start < candidates.length; start += BATCH_SIZE) {
     console.warn(`batch ${Math.floor(start / BATCH_SIZE) + 1} rejected (${error.message})`);
   }
 }
-await writeFile(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), items: published, meta: { sourcesChecked: SOURCES.length, itemsCollected: collected.length, itemsPublished: published.length, batches: Math.ceil(candidates.length / BATCH_SIZE), batchSize: BATCH_SIZE, model: DRY_RUN ? 'dry-run' : MODEL } }, null, 2) + '\n');
-console.log(`feed written: ${published.length} items -> ${OUT}`);
+let previousItems = [];
+try {
+  const previous = JSON.parse(await readFile(OUT, 'utf8'));
+  previousItems = Array.isArray(previous.items) ? previous.items : [];
+} catch {
+  // No previous feed exists on the first run.
+}
+const publishedIds = new Set(published.map((item) => item.id));
+const mergedItems = [...published, ...previousItems.filter((item) => item?.id && !publishedIds.has(item.id))].slice(0, MAX_ITEMS);
+const status = published.length > 0 || previousItems.length === 0 ? 'updated' : 'generation-failed-preserved-previous-feed';
+await writeFile(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), items: mergedItems, meta: { sourcesChecked: SOURCES.length, itemsCollected: collected.length, itemsPublished: mergedItems.length, newItems: published.length, batches: Math.ceil(candidates.length / BATCH_SIZE), batchSize: BATCH_SIZE, model: DRY_RUN ? 'dry-run' : MODEL, status } }, null, 2) + '\n');
+console.log(`feed written: ${mergedItems.length} items (${published.length} new) -> ${OUT}`);
