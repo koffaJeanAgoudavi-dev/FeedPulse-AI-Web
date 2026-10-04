@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update-feed:
@@ -31,3 +33,17 @@ jobs:
           git add site/feed.json
           git diff --cached --quiet || git commit -m "Update AI news feed"
           git push
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload generated site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy generated feed
+        id: deployment
+        uses: actions/deploy-pages@v4
