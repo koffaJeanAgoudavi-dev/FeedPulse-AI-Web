@@ -1,11 +1,402 @@
 {
-  "generatedAt": "2026-10-04T21:38:20.398Z",
-  "items": [],
+  "generatedAt": "2026-10-05T00:37:59.624Z",
+  "items": [
+    {
+      "id": "feed-c38af6e5cae43e",
+      "title": "A Model Guide for the GPT-6 Family",
+      "summary": "OpenAI provides guidance for startups on selecting GPT-6 models, adjusting reasoning effort, optimizing prompts and skills, orchestrating tools, and preparing production workflows.",
+      "keyPoints": [
+        "Guidance on choosing models within the GPT-6 family for startups.",
+        "Techniques for tuning reasoning effort, prompts, and skills.",
+        "Strategies for coordinating tools and readying workflows for production."
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/practical-guide-building-gpt-6",
+      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "A Model Guide for the GPT-6 Family",
+          "summary": "OpenAI provides guidance for startups on selecting GPT-6 models, adjusting reasoning effort, optimizing prompts and skills, orchestrating tools, and preparing production workflows.",
+          "keyPoints": [
+            "Guidance on choosing models within the GPT-6 family for startups.",
+            "Techniques for tuning reasoning effort, prompts, and skills.",
+            "Strategies for coordinating tools and readying workflows for production."
+          ]
+        },
+        "fr": {
+          "title": "Guide des modèles de la famille GPT-6",
+          "summary": "OpenAI propose un guide aux startups pour choisir les modèles GPT-6, calibrer l'effort de raisonnement, optimiser invites et compétences, coordonner les outils et préparer la production.",
+          "keyPoints": [
+            "Conseils pour choisir les modèles de la famille GPT-6 pour les startups.",
+            "Méthodes pour ajuster l'effort de raisonnement, les invites et les compétences.",
+            "Coordination des outils et préparation des flux de travail pour la production."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-6a7bb4e3e69d69",
+      "title": "Google AI Updates Announced in September 2026",
+      "summary": "Google shares its latest artificial intelligence news and product announcements released in September 2026.",
+      "keyPoints": [
+        "Covers Google AI announcements from September 2026.",
+        "Presents recent artificial intelligence updates from Google.",
+        "Specific details and product names are not detailed in the source note."
+      ],
+      "category": "Business",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp",
+      "translations": {
+        "en": {
+          "title": "Google AI Updates Announced in September 2026",
+          "summary": "Google shares its latest artificial intelligence news and product announcements released in September 2026.",
+          "keyPoints": [
+            "Covers Google AI announcements from September 2026.",
+            "Presents recent artificial intelligence updates from Google.",
+            "Specific details and product names are not detailed in the source note."
+          ]
+        },
+        "fr": {
+          "title": "Dernières actualités IA de Google annoncées en septembre 2026",
+          "summary": "Google présente un aperçu de ses dernières annonces et mises à jour en matière d'intelligence artificielle publiées en septembre 2026.",
+          "keyPoints": [
+            "Regroupe les annonces IA de Google de septembre 2026.",
+            "Présente les dernières actualités IA de l'entreprise.",
+            "Les détails spécifiques et produits ne sont pas précisés dans le texte source."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.4,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-882596cbc7639e",
+      "title": "Chatham Scales Capital Markets Expertise With OpenAI",
+      "summary": "Chatham Financial leverages Codex and GPT-5.6 to build technology and redesign workflows, reducing trade validation times from 30 minutes to under 4 minutes.",
+      "keyPoints": [
+        "Chatham Financial utilizes Codex and GPT-5.6 for tech development.",
+        "Workflows have been redesigned to improve operational efficiency.",
+        "Trade validation time dropped from 30 minutes to under 4 minutes."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/chatham-financial",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Chatham Scales Capital Markets Expertise With OpenAI",
+          "summary": "Chatham Financial leverages Codex and GPT-5.6 to build technology and redesign workflows, reducing trade validation times from 30 minutes to under 4 minutes.",
+          "keyPoints": [
+            "Chatham Financial utilizes Codex and GPT-5.6 for tech development.",
+            "Workflows have been redesigned to improve operational efficiency.",
+            "Trade validation time dropped from 30 minutes to under 4 minutes."
+          ]
+        },
+        "fr": {
+          "title": "Chatham optimise son expertise des marchés de capitaux avec OpenAI",
+          "summary": "Chatham Financial s'appuie sur Codex et GPT-5.6 pour développer des technologies et repenser ses processus, faisant passer la validation des transactions de 30 minutes à moins de 4.",
+          "keyPoints": [
+            "Chatham Financial utilise Codex et GPT-5.6 pour bâtir ses technologies.",
+            "Refonte des flux opérationnels pour accroître l'efficacité.",
+            "Délai de validation des transactions réduit de 30 minutes à moins de 4."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b8087b88cb63ae",
+      "title": "The Eternal Complement: AI and Routine Execution",
+      "summary": "Advanced AI may be most impactful on routine tasks supporting breakthrough ideas, exploring how execution could influence the future economy and pace of progress.",
+      "keyPoints": [
+        "Advanced AI may have its greatest impact on routine work behind major ideas.",
+        "Execution is examined as a primary driver of the next economy.",
+        "The analysis explores factors influencing the overall pace of progress."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/the-eternal-complement",
+      "publishedAt": "2026-10-01T17:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "The Eternal Complement: AI and Routine Execution",
+          "summary": "Advanced AI may be most impactful on routine tasks supporting breakthrough ideas, exploring how execution could influence the future economy and pace of progress.",
+          "keyPoints": [
+            "Advanced AI may have its greatest impact on routine work behind major ideas.",
+            "Execution is examined as a primary driver of the next economy.",
+            "The analysis explores factors influencing the overall pace of progress."
+          ]
+        },
+        "fr": {
+          "title": "Le complément éternel : l'IA et l'exécution de routine",
+          "summary": "L'IA avancée pourrait avoir son plus grand impact sur les tâches de routine nécessaires aux idées novatrices, montrant comment l'exécution façonnera la future économie.",
+          "keyPoints": [
+            "L'IA avancée pourrait surtout impacter le travail de routine lié aux percées.",
+            "L'exécution est identifiée comme un levier clé de la prochaine économie.",
+            "Réflexion sur les éléments déterminant le rythme du progrès."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.85,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-637d3dfa247fa8",
+      "title": "Albertsons Reimagines Retail Operations With OpenAI",
+      "summary": "Albertsons Cos. deploys ChatGPT Enterprise and the OpenAI API to accelerate team workflows and streamline grocery shopping for millions of customers.",
+      "keyPoints": [
+        "Albertsons Cos. adopts ChatGPT Enterprise and the OpenAI API.",
+        "Aims to accelerate internal team workflows.",
+        "Intended to enhance the grocery shopping experience for millions of shoppers."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/albertsons-reimagining-retail",
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Albertsons Reimagines Retail Operations With OpenAI",
+          "summary": "Albertsons Cos. deploys ChatGPT Enterprise and the OpenAI API to accelerate team workflows and streamline grocery shopping for millions of customers.",
+          "keyPoints": [
+            "Albertsons Cos. adopts ChatGPT Enterprise and the OpenAI API.",
+            "Aims to accelerate internal team workflows.",
+            "Intended to enhance the grocery shopping experience for millions of shoppers."
+          ]
+        },
+        "fr": {
+          "title": "Albertsons réinvente le commerce de détail avec OpenAI",
+          "summary": "Albertsons Cos. utilise ChatGPT Enterprise et l'API OpenAI pour accélérer le travail de ses équipes et simplifier les courses de millions de clients.",
+          "keyPoints": [
+            "Albertsons Cos. déploie ChatGPT Enterprise et l'API OpenAI.",
+            "L'objectif est d'accélérer les processus des équipes internes.",
+            "Vise à faciliter les courses alimentaires pour des millions de clients."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2167384f51e2a4",
+      "title": "The Den Saves 10-15 Hours Weekly Using ChatGPT Work",
+      "summary": "Social club The Den saves 10 to 15 hours a week using ChatGPT Work, drafting grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "keyPoints": [
+        "The Den saves 10 to 15 hours per week while opening a new location.",
+        "Grant application preparation dropped from 3 days to 2 hours.",
+        "Liquor-license paperwork is completed in 3 hours instead of 4 days."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/the-den-family-social",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "The Den Saves 10-15 Hours Weekly Using ChatGPT Work",
+          "summary": "Social club The Den saves 10 to 15 hours a week using ChatGPT Work, drafting grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+          "keyPoints": [
+            "The Den saves 10 to 15 hours per week while opening a new location.",
+            "Grant application preparation dropped from 3 days to 2 hours.",
+            "Liquor-license paperwork is completed in 3 hours instead of 4 days."
+          ]
+        },
+        "fr": {
+          "title": "The Den gagne 10 à 15 heures par semaine avec ChatGPT Work",
+          "summary": "Le club The Den libère 10 à 15 heures par semaine grâce à ChatGPT Work, préparant ses demandes de subvention en 2 heures contre 3 jours et ses dossiers de licence d'alcool en 3 heures contre 4 jours.",
+          "keyPoints": [
+            "The Den gagne 10 à 15 heures hebdomadaires lors de l'ouverture d'un nouveau site.",
+            "Préparation des demandes de subventions passée de 3 jours à 2 heures.",
+            "Dossiers de licence de débit de boissons réalisés en 3 heures au lieu de 4 jours."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c696e8b1f34224",
+      "title": "Introducing SynthID Bio for Watermarking AI Proteins",
+      "summary": "Google DeepMind introduces SynthID Bio, a proof of concept designed to watermark AI-generated proteins while maintaining their biological function.",
+      "keyPoints": [
+        "Proof of concept for watermarking AI-generated proteins.",
+        "Designed to preserve underlying biological functions.",
+        "Developed under the SynthID initiative by Google DeepMind."
+      ],
+      "category": "Outils",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "publishedAt": "2026-09-30T15:03:07.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w528-h297-n-nu-rw-lo",
+      "translations": {
+        "en": {
+          "title": "Introducing SynthID Bio for Watermarking AI Proteins",
+          "summary": "Google DeepMind introduces SynthID Bio, a proof of concept designed to watermark AI-generated proteins while maintaining their biological function.",
+          "keyPoints": [
+            "Proof of concept for watermarking AI-generated proteins.",
+            "Designed to preserve underlying biological functions.",
+            "Developed under the SynthID initiative by Google DeepMind."
+          ]
+        },
+        "fr": {
+          "title": "Présentation de SynthID Bio pour le marquage des protéines générées par IA",
+          "summary": "Google DeepMind présente SynthID Bio, une preuve de concept pour intégrer des filigranes dans des protéines conçues par IA tout en conservant leur fonction biologique.",
+          "keyPoints": [
+            "Preuve de concept pour le tatouage numérique de protéines créées par IA.",
+            "Maintien garanti de la fonction biologique des protéines.",
+            "Développé par Google DeepMind dans le cadre du projet SynthID."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-90249c2a3882c6",
+      "title": "OpenAI Disrupts Coordinated Model-Distillation Campaign",
+      "summary": "OpenAI intervened against a coordinated effort to extract protected reasoning capabilities from its models and is reinforcing defenses against adversarial distillation.",
+      "keyPoints": [
+        "A coordinated campaign targeted the extraction of protected model reasoning.",
+        "OpenAI disrupted the adversarial extraction attempt.",
+        "Defenses against adversarial distillation are being strengthened."
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI Disrupts Coordinated Model-Distillation Campaign",
+          "summary": "OpenAI intervened against a coordinated effort to extract protected reasoning capabilities from its models and is reinforcing defenses against adversarial distillation.",
+          "keyPoints": [
+            "A coordinated campaign targeted the extraction of protected model reasoning.",
+            "OpenAI disrupted the adversarial extraction attempt.",
+            "Defenses against adversarial distillation are being strengthened."
+          ]
+        },
+        "fr": {
+          "title": "OpenAI neutralise une campagne de distillation coordonnée",
+          "summary": "OpenAI a déjoué une tentative coordonnée visant à extraire les capacités de raisonnement protégées de ses modèles et renforce ses défenses contre la distillation malveillante.",
+          "keyPoints": [
+            "Une campagne coordonnée ciblait l'extraction du raisonnement protégé des modèles.",
+            "OpenAI a neutralisé cette opération d'extraction.",
+            "Renforcement en cours des défenses contre la distillation contradictoire."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-061338e668ed69",
+      "title": "OpenAI Partners With America's SBDC for Small Businesses",
+      "summary": "OpenAI is collaborating with America’s SBDC to provide practical AI training and local guidance to small businesses, accompanying a new report on small-team AI adoption.",
+      "keyPoints": [
+        "Partnership formed between OpenAI and America’s SBDC.",
+        "Provides hands-on AI training and local support for small businesses.",
+        "Accompanied by a new report analyzing how small teams utilize AI."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI Partners With America's SBDC for Small Businesses",
+          "summary": "OpenAI is collaborating with America’s SBDC to provide practical AI training and local guidance to small businesses, accompanying a new report on small-team AI adoption.",
+          "keyPoints": [
+            "Partnership formed between OpenAI and America’s SBDC.",
+            "Provides hands-on AI training and local support for small businesses.",
+            "Accompanied by a new report analyzing how small teams utilize AI."
+          ]
+        },
+        "fr": {
+          "title": "OpenAI s'associe à America's SBDC pour soutenir les PME",
+          "summary": "OpenAI collabore avec America’s SBDC pour déployer des formations pratiques à l'IA et un soutien local aux PME, parallèlement à un rapport sur l'utilisation de l'IA par les petites équipes.",
+          "keyPoints": [
+            "Partenariat conclu entre OpenAI et America’s SBDC.",
+            "Formations pratiques et accompagnement local destinés aux petites entreprises.",
+            "Publication conjointe d'un rapport sur l'usage de l'IA par les petites équipes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-6071f63e21f642",
+      "title": "OpenAI DevDay 2026 Recap and Major Announcements",
+      "summary": "OpenAI revealed over 20 announcements at DevDay 2026, highlighting GPT-6 Astra, ChatGPT, Codex, APIs, enhanced security measures, and new tools for builders.",
+      "keyPoints": [
+        "Over 20 announcements unveiled during OpenAI DevDay 2026.",
+        "Introduced GPT-6 Astra alongside updates to ChatGPT and Codex.",
+        "Announced API updates, security enhancements, and new builder tools."
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/devday-2026-recap",
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI DevDay 2026 Recap and Major Announcements",
+          "summary": "OpenAI revealed over 20 announcements at DevDay 2026, highlighting GPT-6 Astra, ChatGPT, Codex, APIs, enhanced security measures, and new tools for builders.",
+          "keyPoints": [
+            "Over 20 announcements unveiled during OpenAI DevDay 2026.",
+            "Introduced GPT-6 Astra alongside updates to ChatGPT and Codex.",
+            "Announced API updates, security enhancements, and new builder tools."
+          ]
+        },
+        "fr": {
+          "title": "Récapitulatif des annonces de l'OpenAI DevDay 2026",
+          "summary": "OpenAI a dévoilé plus de 20 nouveautés lors du DevDay 2026, incluant GPT-6 Astra, ChatGPT, Codex, des API, des mesures de sécurité et de nouveaux outils pour les développeurs.",
+          "keyPoints": [
+            "Plus de 20 annonces présentées lors de l'OpenAI DevDay 2026.",
+            "Mise en avant de GPT-6 Astra, de ChatGPT et de Codex.",
+            "Nouveautés sur les API, la sécurité et des outils pour les créateurs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    }
+  ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 55,
-    "itemsPublished": 0,
-    "newItems": 0,
+    "itemsCollected": 53,
+    "itemsPublished": 10,
+    "newItems": 10,
     "batches": 3,
     "batchSize": 10,
     "model": "gemini-3.8-flash",
