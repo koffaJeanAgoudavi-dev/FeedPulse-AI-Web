@@ -227,13 +227,29 @@ const processedUrls = new Set([
 ]);
 const previousUrls = new Set(previousItems.map((item) => item.sourceUrl).filter(Boolean));
 const titleSeen = new Set();
-const candidateSeed = unique.filter((item) => {
+const eligibleCandidates = unique.filter((item) => {
   if (processedUrls.has(item.canonicalUrl)) return false;
   const title = normalizeTitle(item.title);
   if (titleSeen.has(title)) return false;
   titleSeen.add(title);
   return item.description.length >= 40;
-}).slice(0, MAX_ITEMS);
+});
+const bySource = new Map();
+for (const item of eligibleCandidates) {
+  const sourceItems = bySource.get(item.sourceId) || [];
+  sourceItems.push(item);
+  bySource.set(item.sourceId, sourceItems);
+}
+const candidateSeed = [];
+while (candidateSeed.length < MAX_ITEMS && bySource.size > 0) {
+  for (const [sourceId, sourceItems] of bySource) {
+    const next = sourceItems.shift();
+    if (next) candidateSeed.push(next);
+    if (sourceItems.length === 0) bySource.delete(sourceId);
+    if (candidateSeed.length >= MAX_ITEMS) break;
+  }
+}
+console.log(`source-balanced candidates: ${candidateSeed.map((item) => item.sourceId).join(', ')}`);
 const imageTargets = [...new Map([
   ...unique.filter((item) => previousUrls.has(item.canonicalUrl)),
   ...candidateSeed,
