@@ -1,76 +1,37 @@
 {
-  "generatedAt": "2026-10-05T13:45:52.395Z",
+  "generatedAt": "2026-10-05T13:49:12.649Z",
   "items": [
     {
-      "id": "feed-0e5aeef72de43d",
-      "title": "DataWeave: Human-LLM Analytics for Exploratory Data Analysis",
-      "summary": "DataWeave is a system designed for journalists to perform exploratory structured data analysis by combining conversational interaction, schema grounding, and query generation. Rather than treating LLMs as autonomous answer engines, DataWeave frames them as interactive partners. A case study using the U.S. Department of Education's IPEDS dataset demonstrates how iterative refinement shapes trustworthy human-LLM collaboration.",
+      "id": "feed-79fad930abba8a",
+      "title": "DNAlign: Dynamic Null-Space Safe Alignment for LLMs",
+      "summary": "The authors propose DNAlign, a lightweight alignment framework addressing the trade-off between LLM safety and utility. By combining control-theoretic optimization and null-space projection derived from neutral hidden states, DNAlign steers generation toward safe behaviors while preserving core knowledge, fluency, and factual accuracy without sacrificing diversity.",
       "keyPoints": [
-        "Addresses real newsroom workflow failures like schema mismatches and domain semantics.",
-        "Combines conversational interaction, schema grounding, and analytical planning.",
-        "Tested using a case study with professional journalists analyzing the U.S. IPEDS dataset."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02679",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DataWeave: Human-LLM Analytics for Exploratory Data Analysis",
-          "summary": "DataWeave is a system designed for journalists to perform exploratory structured data analysis by combining conversational interaction, schema grounding, and query generation. Rather than treating LLMs as autonomous answer engines, DataWeave frames them as interactive partners. A case study using the U.S. Department of Education's IPEDS dataset demonstrates how iterative refinement shapes trustworthy human-LLM collaboration.",
-          "keyPoints": [
-            "Addresses real newsroom workflow failures like schema mismatches and domain semantics.",
-            "Combines conversational interaction, schema grounding, and analytical planning.",
-            "Tested using a case study with professional journalists analyzing the U.S. IPEDS dataset."
-          ]
-        },
-        "fr": {
-          "title": "DataWeave : Analyses humain-LLM pour l'analyse de données",
-          "summary": "DataWeave est un système conçu pour les journalistes afin de réaliser des analyses exploratoires de données structurées en combinant interaction conversationnelle, ancrage de schéma et génération de requêtes. Le système traite les LLM comme des partenaires interactifs dont les sorties peuvent être inspectées et corrigées. Une étude de cas avec des journalistes professionnels analyse l'ensemble de données IPEDS.",
-          "keyPoints": [
-            "Remédie aux échecs des flux de travail en salle de rédaction tels que les erreurs de schéma.",
-            "Combine interaction conversationnelle, ancrage de schéma et planification analytique.",
-            "Évalué via une étude de cas avec des journalistes professionnels sur les données IPEDS."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-680fab0575d1f8",
-      "title": "LLMs Exhibit Unreliable Updating of Clinical Judgment",
-      "summary": "This study evaluates whether large language models appropriately revise clinical judgments as patient evidence evolves over time using electronic health records. Results show that conditioning on a preceding judgment often increased prediction error, revealing two main failure modes related to asymmetric responses and prior risk influence. An Evidence-Validated Longitudinal Update method identified fewer, more reliable revisions.",
-      "keyPoints": [
-        "Evaluated longitudinal belief updating using intensive-care electronic health records.",
-        "Identified failure modes regarding asymmetric responses to evidence and prior risk influence.",
-        "Introduced Evidence-Validated Longitudinal Update to find more reliable revisions."
+        "Introduces DNAlign to resolve the persistent trade-off between LLM safety and utility.",
+        "Uses control-theoretic optimization and null-space projection to restrict perturbations to harmful-related subspaces.",
+        "Demonstrates consistent reduction of harmful outputs while maintaining fluency, coherence, and factual utility across LLM backbones."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02684",
+      "sourceUrl": "https://arxiv.org/abs/2610.02844",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LLMs Exhibit Unreliable Updating of Clinical Judgment",
-          "summary": "This study evaluates whether large language models appropriately revise clinical judgments as patient evidence evolves over time using electronic health records. Results show that conditioning on a preceding judgment often increased prediction error, revealing two main failure modes related to asymmetric responses and prior risk influence. An Evidence-Validated Longitudinal Update method identified fewer, more reliable revisions.",
+          "title": "DNAlign: Dynamic Null-Space Safe Alignment for LLMs",
+          "summary": "The authors propose DNAlign, a lightweight alignment framework addressing the trade-off between LLM safety and utility. By combining control-theoretic optimization and null-space projection derived from neutral hidden states, DNAlign steers generation toward safe behaviors while preserving core knowledge, fluency, and factual accuracy without sacrificing diversity.",
           "keyPoints": [
-            "Evaluated longitudinal belief updating using intensive-care electronic health records.",
-            "Identified failure modes regarding asymmetric responses to evidence and prior risk influence.",
-            "Introduced Evidence-Validated Longitudinal Update to find more reliable revisions."
+            "Introduces DNAlign to resolve the persistent trade-off between LLM safety and utility.",
+            "Uses control-theoretic optimization and null-space projection to restrict perturbations to harmful-related subspaces.",
+            "Demonstrates consistent reduction of harmful outputs while maintaining fluency, coherence, and factual utility across LLM backbones."
           ]
         },
         "fr": {
-          "title": "Mise à jour non fiable du jugement clinique par les LLM",
-          "summary": "Cette étude évalue si les grands modèles de langage révisent de manière appropriée les jugements cliniques à mesure que l'état des patients évolue, en utilisant des dossiers médicaux. Les résultats montrent que le conditionnement sur un jugement précédent augmente souvent l'erreur de prédiction, révélant deux modes d'échec principaux. La méthode EVLU identifie des révisions plus fiables.",
+          "title": "DNAlign : Alignement sûr dynamique dans le sous-espace nul pour les LLM",
+          "summary": "Les auteurs proposent DNAlign, un cadre d'alignement léger répondant au compromis entre la sécurité et l'utilité des LLM. En combinant l'optimisation théorique du contrôle et la projection dans le sous-espace nul, DNAlign guide la génération vers des comportements sûrs tout en préservant les connaissances de base et la précision.",
           "keyPoints": [
-            "Évaluation de la mise à jour des croyances longitudinales à partir de dossiers médicaux.",
-            "Identification de modes d'échec liés à des réponses asymétriques et à l'influence des risques.",
-            "Introduction d'une méthode de mise à jour longitudinale validée par les preuves (EVLU)."
+            "Présente DNAlign pour résoudre le compromis entre la sécurité et l'utilité des LLM.",
+            "Utilise une optimisation par théorie du contrôle et une projection dans le sous-espace nul.",
+            "Démontre une réduction cohérente des sorties nocives tout en maintenant la fluidité et l'utilité factuelle."
           ]
         }
       },
@@ -80,36 +41,36 @@
       }
     },
     {
-      "id": "feed-fcde78ec6cf0ff",
-      "title": "Structured Memory for Token-Efficient Test-Time Continual Learning",
-      "summary": "To address token cost and context limits in continual LLM adaptation, this paper introduces GraphMemory, a lightweight graph-based memory that accumulates and organizes reusable strategies. For each query, GraphMemory retrieves only the relevant subgraph, enabling online context adaptation. Experiments show it achieves competitive performance while using significantly fewer memory-construction tokens.",
+      "id": "feed-3c8f65e7825cd7",
+      "title": "Certified Safety and Jailbreak Detection via State Space Models",
+      "summary": "This paper investigates the formal robustness properties of State Space Model (SSM)-based safety heads. The researchers prove that exact interval bound propagation certification requires the l-infinity norm of the state transition matrix to be strictly less than one. Enforcing this contraction condition via a hinge penalty improves the certified fraction on toxic data and enables zero-shot transfer for jailbreak detection.",
       "keyPoints": [
-        "Proposes GraphMemory, a lightweight graph-based memory for online context adaptation.",
-        "Retrieves only relevant subgraphs to keep memory size constant as examples grow.",
-        "Achieves competitive performance while using 81-85% fewer construction tokens."
+        "Proves that exact interval bound propagation certification for SSM safety heads requires the contraction condition.",
+        "Enforces contraction with a hinge penalty, improving the certified fraction on toxic comment data from 41% to 59%.",
+        "Achieves zero-shot transfer on AdvBench and HarmBench using a contraction-regularized S4 head."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02687",
+      "sourceUrl": "https://arxiv.org/abs/2610.02853",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Structured Memory for Token-Efficient Test-Time Continual Learning",
-          "summary": "To address token cost and context limits in continual LLM adaptation, this paper introduces GraphMemory, a lightweight graph-based memory that accumulates and organizes reusable strategies. For each query, GraphMemory retrieves only the relevant subgraph, enabling online context adaptation. Experiments show it achieves competitive performance while using significantly fewer memory-construction tokens.",
+          "title": "Certified Safety and Jailbreak Detection via State Space Models",
+          "summary": "This paper investigates the formal robustness properties of State Space Model (SSM)-based safety heads. The researchers prove that exact interval bound propagation certification requires the l-infinity norm of the state transition matrix to be strictly less than one. Enforcing this contraction condition via a hinge penalty improves the certified fraction on toxic data and enables zero-shot transfer for jailbreak detection.",
           "keyPoints": [
-            "Proposes GraphMemory, a lightweight graph-based memory for online context adaptation.",
-            "Retrieves only relevant subgraphs to keep memory size constant as examples grow.",
-            "Achieves competitive performance while using 81-85% fewer construction tokens."
+            "Proves that exact interval bound propagation certification for SSM safety heads requires the contraction condition.",
+            "Enforces contraction with a hinge penalty, improving the certified fraction on toxic comment data from 41% to 59%.",
+            "Achieves zero-shot transfer on AdvBench and HarmBench using a contraction-regularized S4 head."
           ]
         },
         "fr": {
-          "title": "Mémoire structurée pour l'apprentissage continu à l'inférence",
-          "summary": "Pour répondre aux coûts en jetons et aux limites de contexte, cet article présente GraphMemory, une mémoire à base de graphes qui organise des stratégies réutilisables. Pour chaque requête, GraphMemory récupère uniquement le sous-graphe pertinent. Les expériences montrent qu'il atteint des performances compétitives tout en réduisant nettement l'utilisation de jetons.",
+          "title": "Sécurité certifiée et détection de contournement via des modèles d'espace d'états",
+          "summary": "Cet article étudie les propriétés de robustesse formelle des têtes de sécurité basées sur des modèles d'espace d'états. Les chercheurs prouvent qu'une certification exacte nécessite que la norme l-infinitie de la matrice de transition d'états soit inférieure à un. L'application de cette condition améliore la fraction certifiée sur des données toxiques.",
           "keyPoints": [
-            "Propose GraphMemory, une mémoire légère basée sur les graphes pour l'adaptation contextuelle.",
-            "Récupère uniquement le sous-graphe pertinent pour maintenir la taille de la mémoire constante.",
-            "Réduit l'utilisation des jetons de construction de mémoire de 81 à 85 %."
+            "Prouve que la certification exacte nécessite une condition de contraction sur la matrice de transition.",
+            "Applique la contraction avec une pénalité de charnière, améliorant la fraction certifiée de 41 % à 59 %.",
+            "Permet un transfert zéro-shot pour la détection de contournement sur AdvBench et HarmBench."
           ]
         }
       },
@@ -119,36 +80,36 @@
       }
     },
     {
-      "id": "feed-5a3c309489338f",
-      "title": "Learning to Revise Reasoning with Segment-wise On-Policy Distillation",
-      "summary": "The paper introduces Segment-wise On-Policy Distillation (Seg-OPD) to improve LLM reasoning revision by targeting intermediate steps. Seg-OPD selects student segments using an uncertainty metric, obtains teacher redrafts, and trains the student to prefer these redrafts while retaining token-wise supervision. Experiments demonstrate a 5.22% average relative improvement in reasoning accuracy across tasks.",
+      "id": "feed-93b88a8ac77201",
+      "title": "Harness-Aware Distillation for Small Language Model Agents",
+      "summary": "The authors introduce Harness-Aware Distillation (HAD), a method for distilling large language model agents into smaller ones without requiring task rewards or success labels. HAD focuses on what the teacher adds beyond the software harness by incorporating action preferences and validity checks, ultimately reducing unproductive loops and improving error recovery.",
       "keyPoints": [
-        "Introduces Segment-wise On-Policy Distillation (Seg-OPD) for reasoning revision.",
-        "Uses an uncertainty metric to select student segments for teacher redrafts.",
-        "Achieves an average relative improvement of 5.22% in reasoning accuracy across tasks."
+        "Proposes Harness-Aware Distillation (HAD) to distill agent capabilities without needing task rewards or success labels.",
+        "Combines contrastive action preferences and validity checks to utilize information beyond the harness.",
+        "Outperforms on-policy distillation baselines on long-horizon agent benchmarks by reducing unproductive loops."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02703",
+      "sourceUrl": "https://arxiv.org/abs/2610.02858",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Learning to Revise Reasoning with Segment-wise On-Policy Distillation",
-          "summary": "The paper introduces Segment-wise On-Policy Distillation (Seg-OPD) to improve LLM reasoning revision by targeting intermediate steps. Seg-OPD selects student segments using an uncertainty metric, obtains teacher redrafts, and trains the student to prefer these redrafts while retaining token-wise supervision. Experiments demonstrate a 5.22% average relative improvement in reasoning accuracy across tasks.",
+          "title": "Harness-Aware Distillation for Small Language Model Agents",
+          "summary": "The authors introduce Harness-Aware Distillation (HAD), a method for distilling large language model agents into smaller ones without requiring task rewards or success labels. HAD focuses on what the teacher adds beyond the software harness by incorporating action preferences and validity checks, ultimately reducing unproductive loops and improving error recovery.",
           "keyPoints": [
-            "Introduces Segment-wise On-Policy Distillation (Seg-OPD) for reasoning revision.",
-            "Uses an uncertainty metric to select student segments for teacher redrafts.",
-            "Achieves an average relative improvement of 5.22% in reasoning accuracy across tasks."
+            "Proposes Harness-Aware Distillation (HAD) to distill agent capabilities without needing task rewards or success labels.",
+            "Combines contrastive action preferences and validity checks to utilize information beyond the harness.",
+            "Outperforms on-policy distillation baselines on long-horizon agent benchmarks by reducing unproductive loops."
           ]
         },
         "fr": {
-          "title": "Apprentissage de la révision du raisonnement avec Seg-OPD",
-          "summary": "L'article présente la distillation en politique par segments (Seg-OPD) pour améliorer la révision du raisonnement des LLM. Seg-OPD sélectionne des segments d'étudiants à l'aide d'une métrique d'incertitude et obtient des rédactions de l'enseignant. Les expériences démontrent une amélioration relative moyenne de 5,22 % de la précision du raisonnement.",
+          "title": "Distillation consciente du harnais pour les agents de petits modèles de langue",
+          "summary": "Les auteurs présentent la distillation consciente du harnais (HAD), une méthode pour distiller de grands agents de modèles de langue en de plus petits sans nécessiter de récompenses de tâches. HAD se concentre sur ce que l'enseignant ajoute au-delà du logiciel en intégrant des préférences d'action et des contrôles de validité.",
           "keyPoints": [
-            "Introduit la distillation en politique par segments (Seg-OPD) pour la révision.",
-            "Utilise une métrique d'incertitude pour sélectionner les segments des étudiants.",
-            "Atteint une amélioration relative moyenne de 5,22 % de la précision du raisonnement."
+            "Propose la distillation consciente du harnais (HAD) sans nécessiter de récompenses de tâches.",
+            "Combine des préférences d'action contrastées et des contrôles de validité.",
+            "Surpasse les bases de référence de distillation sur les benchmarks d'agents à long horizon."
           ]
         }
       },
@@ -158,36 +119,36 @@
       }
     },
     {
-      "id": "feed-49e484b89a4943",
-      "title": "Label-Efficient Time Series Classification with Dual-Stream OSSE-LSTM",
-      "summary": "Addressing the challenge of expensive time-volume annotations, the authors propose Dual-Stream OSSE-LSTM, an episodic metric-learning framework combining an Omni-Scale CNN and a Bidirectional LSTM. They also introduce Counterfactual Integrated Gradients (C-IG) for explainable prototype margins. On 19 UCR datasets, OSSE-LSTM attains the highest average accuracy across support sizes.",
+      "id": "feed-5e5f3413370a1d",
+      "title": "TACD: Distilling Efficient Text-to-Motion Models via Terminal Amplification",
+      "summary": "This paper presents Terminal-Amplification-Controlled Distillation (TACD), an on-policy approach to train efficient text-to-motion generators from pretrained teachers without real-motion data. TACD ties the teacher query to the student's step size to bound effective loss weights, yielding substantial end-to-end speedups and memory reductions while improving generation quality.",
       "keyPoints": [
-        "Proposes Dual-Stream OSSE-LSTM combining Omni-Scale CNN and Bidirectional LSTM.",
-        "Introduces Counterfactual Integrated Gradients (C-IG) for prototype attribution.",
-        "Attains highest average accuracy across support sizes on 19 univariate UCR datasets."
+        "Introduces TACD for efficient text-to-motion distillation without real-motion training data.",
+        "Ties the latest teacher query to the student's step size to bound loss weights near the denoising endpoint.",
+        "Achieves 7.7-11.9x end-to-end speedups and reduces peak GPU memory by 3.8-6.7x on compact student models."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02704",
+      "sourceUrl": "https://arxiv.org/abs/2610.02867",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Label-Efficient Time Series Classification with Dual-Stream OSSE-LSTM",
-          "summary": "Addressing the challenge of expensive time-volume annotations, the authors propose Dual-Stream OSSE-LSTM, an episodic metric-learning framework combining an Omni-Scale CNN and a Bidirectional LSTM. They also introduce Counterfactual Integrated Gradients (C-IG) for explainable prototype margins. On 19 UCR datasets, OSSE-LSTM attains the highest average accuracy across support sizes.",
+          "title": "TACD: Distilling Efficient Text-to-Motion Models via Terminal Amplification",
+          "summary": "This paper presents Terminal-Amplification-Controlled Distillation (TACD), an on-policy approach to train efficient text-to-motion generators from pretrained teachers without real-motion data. TACD ties the teacher query to the student's step size to bound effective loss weights, yielding substantial end-to-end speedups and memory reductions while improving generation quality.",
           "keyPoints": [
-            "Proposes Dual-Stream OSSE-LSTM combining Omni-Scale CNN and Bidirectional LSTM.",
-            "Introduces Counterfactual Integrated Gradients (C-IG) for prototype attribution.",
-            "Attains highest average accuracy across support sizes on 19 univariate UCR datasets."
+            "Introduces TACD for efficient text-to-motion distillation without real-motion training data.",
+            "Ties the latest teacher query to the student's step size to bound loss weights near the denoising endpoint.",
+            "Achieves 7.7-11.9x end-to-end speedups and reduces peak GPU memory by 3.8-6.7x on compact student models."
           ]
         },
         "fr": {
-          "title": "Classification de séries temporelles avec Dual-Stream OSSE-LSTM",
-          "summary": "Pour faire face au coût des annotations de séries temporelles, les auteurs proposent Dual-Stream OSSE-LSTM, un cadre d'apprentissage métrique combinant un CNN multi-échelle et un LSTM bidirectionnel. Ils introduisent également les gradients intégrés contrefactuels pour l'explicabilité. Sur 19 jeux de données UCR, OSSE-LSTM obtient la précision moyenne la plus élevée.",
+          "title": "TACD : Distillation de modèles texte-mouvement efficaces via l'amplification terminale",
+          "summary": "Cet article présente la distillation contrôlée par amplification terminale (TACD), une approche pour former des générateurs de mouvement efficaces à partir d'enseignants pré-entraînés. TACD lie la requête de l'enseignant à la taille de pas de l'élève pour limiter les pondérations de perte, offrant des accélérations et des réductions de mémoire.",
           "keyPoints": [
-            "Propose Dual-Stream OSSE-LSTM associant CNN multi-échelle et LSTM bidirectionnel.",
-            "Introduit les gradients intégrés contrefactuels pour l'attribution des prototypes.",
-            "Atteint la précision moyenne la plus élevée sur 19 jeux de données UCR univariés."
+            "Présente TACD pour une distillation efficace du texte au mouvement sans données d'entraînement réelles.",
+            "Lie la requête de l'enseignant à la taille de pas de l'élève pour délimiter les pondérations de perte.",
+            "Permet des accélérations de 7,7 à 11,9x et réduit la mémoire GPU maximale de 3,8 à 6,7x."
           ]
         }
       },
@@ -197,36 +158,36 @@
       }
     },
     {
-      "id": "feed-8224749fae2f4d",
-      "title": "Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds",
-      "summary": "Ego2World is a benchmark that transforms annotated cooking videos into executable planning environments under partial observation. The compiler links actions to symbolic rules, persistent states, and task conditions. Experiments across multiple planners reveal how belief states impact action validity and visual-query attempts.",
+      "id": "feed-9752f967ba7158",
+      "title": "PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time",
+      "summary": "The authors introduce PsyEvo, an LLM-based counseling framework providing client-specific personalization and response-policy improvement at test time. Using a Hierarchical Bayesian Skill Policy, Inter-session Listwise Preference Optimization, and State-conditioned Ordinal Credit Assignment, PsyEvo adapts effectively in simulated-client evaluations.",
       "keyPoints": [
-        "Introduces Ego2World benchmark converting egocentric cooking videos into planning environments.",
-        "Maintains world state and agent belief separately for controlled evaluations.",
-        "Shows persistent belief improves action validity and reduces visual-query attempts."
+        "Introduces PsyEvo, a counseling framework that self-evolves and personalizes at test time.",
+        "Combines Hierarchical Bayesian Skill Policy, Inter-session Listwise Preference Optimization, and State-conditioned Ordinal Credit Assignment.",
+        "Achieves strong performance on PsychEval compared to component variants."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02715",
+      "sourceUrl": "https://arxiv.org/abs/2610.02885",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds",
-          "summary": "Ego2World is a benchmark that transforms annotated cooking videos into executable planning environments under partial observation. The compiler links actions to symbolic rules, persistent states, and task conditions. Experiments across multiple planners reveal how belief states impact action validity and visual-query attempts.",
+          "title": "PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time",
+          "summary": "The authors introduce PsyEvo, an LLM-based counseling framework providing client-specific personalization and response-policy improvement at test time. Using a Hierarchical Bayesian Skill Policy, Inter-session Listwise Preference Optimization, and State-conditioned Ordinal Credit Assignment, PsyEvo adapts effectively in simulated-client evaluations.",
           "keyPoints": [
-            "Introduces Ego2World benchmark converting egocentric cooking videos into planning environments.",
-            "Maintains world state and agent belief separately for controlled evaluations.",
-            "Shows persistent belief improves action validity and reduces visual-query attempts."
+            "Introduces PsyEvo, a counseling framework that self-evolves and personalizes at test time.",
+            "Combines Hierarchical Bayesian Skill Policy, Inter-session Listwise Preference Optimization, and State-conditioned Ordinal Credit Assignment.",
+            "Achieves strong performance on PsychEval compared to component variants."
           ]
         },
         "fr": {
-          "title": "Ego2World : Conversion de vidéos de cuisine en mondes exécutables",
-          "summary": "Ego2World est un banc d'essai qui transforme des vidéos de cuisine annotées en environnements de planification exécutables sous observation partielle. Le compilateur relie les actions à des règles symboliques et des états persistants. Des expériences montrent l'impact de l'état de croyance sur la validité des actions.",
+          "title": "PsyEvo : Un agent de conseil personnalisé qui s'auto-évolue au moment du test",
+          "summary": "Les auteurs présentent PsyEvo, un cadre de conseil basé sur les LLM offrant une personnalisation spécifique au client et une amélioration de la politique de réponse au moment du test. En utilisant une politique de compétences bayésienne hiérarchique et d'autres composants, PsyEvo s'adapte efficacement lors des évaluations.",
           "keyPoints": [
-            "Introduit le banc d'essai Ego2World pour convertir des vidéos égocentriques en environnements.",
-            "Maintient l'état du monde et la croyance de l'agent séparément pour des études contrôlées.",
-            "Montre que la croyance persistante améliore la validité des actions."
+            "Présente PsyEvo, un cadre de conseil qui s'auto-évolue et se personnalise au moment du test.",
+            "Combine des politiques bayésiennes, l'optimisation des préférences et l'attribution de crédit ordinal.",
+            "Atteint de solides performances sur PsychEval par rapport aux variantes."
           ]
         }
       },
@@ -236,75 +197,36 @@
       }
     },
     {
-      "id": "feed-a6fa9bb283e70f",
-      "title": "On the Chain-of-Thought Monitorability of Looped Language Models",
-      "summary": "This work evaluates chain-of-thought (CoT) monitorability in looped language models (LoopLMs) which repeatedly apply shared transformer layers. Comparing LoopLMs with non-looped models, the authors find task-dependent reductions in CoT monitorability under stress tests for specific logic and science tasks, but no general systematic reduction compared to matched models.",
+      "id": "feed-d9b6ddc017656b",
+      "title": "Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory",
+      "summary": "This study explores how long-running assistant memory should summarize event streams when serving multiple standing goals simultaneously. Comparing different writing policies, the authors find that goal-specific summaries outperform all-goal and neutral summaries on relevance, completeness, and accuracy, demonstrating that interpreting at write time pays off for future requests.",
       "keyPoints": [
-        "First systematic evaluation of Chain-of-Thought monitorability in looped language models.",
-        "Observes task-dependent reductions in monitorability under stress tests for specific tasks.",
-        "Finds no evidence that LoopLMs are systematically less monitorable than non-looped models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02741",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "On the Chain-of-Thought Monitorability of Looped Language Models",
-          "summary": "This work evaluates chain-of-thought (CoT) monitorability in looped language models (LoopLMs) which repeatedly apply shared transformer layers. Comparing LoopLMs with non-looped models, the authors find task-dependent reductions in CoT monitorability under stress tests for specific logic and science tasks, but no general systematic reduction compared to matched models.",
-          "keyPoints": [
-            "First systematic evaluation of Chain-of-Thought monitorability in looped language models.",
-            "Observes task-dependent reductions in monitorability under stress tests for specific tasks.",
-            "Finds no evidence that LoopLMs are systematically less monitorable than non-looped models."
-          ]
-        },
-        "fr": {
-          "title": "Sur la monitorabilité de la chaîne de pensée des modèles bouclés",
-          "summary": "Ce travail évalue la monitorabilité de la chaîne de pensée (CoT) dans les modèles de langage bouclés (LoopLMs) qui appliquent de manière répétée des couches de transformateur partagées. En comparant les LoopLMs à des modèles non bouclés, les auteurs observent des réductions de monitorabilité dépendantes des tâches lors de tests de stress, mais pas de baisse systématique globale.",
-          "keyPoints": [
-            "Première évaluation systématique de la monitorabilité CoT dans les modèles bouclés.",
-            "Observe des réductions de monitorabilité dépendantes des tâches lors de tests de stress.",
-            "Ne trouve aucune preuve que les LoopLMs sont systématiquement moins monitorables."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d0110221d0d426",
-      "title": "Dynamic LLM Routers are Often Misguided",
-      "summary": "The authors analyze six commercial dynamic LLM routers across 14 settings and find that none outperform a simple random router choosing between two well-chosen models. They trace this performance gap to four recurring patterns: difficulty blindness, length reversal, semantic matching, and roster suboptimality, proposing an alternative evaluation methodology.",
-      "keyPoints": [
-        "Analyzes six commercial dynamic LLM routers and finds limitations against random routing.",
-        "Traces gaps to four patterns: difficulty blindness, length reversal, semantic matching, roster suboptimality.",
-        "Proposes an alternative evaluation methodology that avoids rewarding these patterns."
+        "Investigates memory summarization policies for multi-goal assistant event streams.",
+        "Compares writing summaries with no goal, all goals, or per-goal strategies.",
+        "Shows that per-goal summaries outperform other options on relevance, completeness, and accuracy."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02762",
+      "sourceUrl": "https://arxiv.org/abs/2610.02897",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Dynamic LLM Routers are Often Misguided",
-          "summary": "The authors analyze six commercial dynamic LLM routers across 14 settings and find that none outperform a simple random router choosing between two well-chosen models. They trace this performance gap to four recurring patterns: difficulty blindness, length reversal, semantic matching, and roster suboptimality, proposing an alternative evaluation methodology.",
+          "title": "Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory",
+          "summary": "This study explores how long-running assistant memory should summarize event streams when serving multiple standing goals simultaneously. Comparing different writing policies, the authors find that goal-specific summaries outperform all-goal and neutral summaries on relevance, completeness, and accuracy, demonstrating that interpreting at write time pays off for future requests.",
           "keyPoints": [
-            "Analyzes six commercial dynamic LLM routers and finds limitations against random routing.",
-            "Traces gaps to four patterns: difficulty blindness, length reversal, semantic matching, roster suboptimality.",
-            "Proposes an alternative evaluation methodology that avoids rewarding these patterns."
+            "Investigates memory summarization policies for multi-goal assistant event streams.",
+            "Compares writing summaries with no goal, all goals, or per-goal strategies.",
+            "Shows that per-goal summaries outperform other options on relevance, completeness, and accuracy."
           ]
         },
         "fr": {
-          "title": "Les routeurs dynamiques de LLM sont souvent mal orientés",
-          "summary": "Les auteurs analysent six routeurs dynamiques commerciaux de LLM et constatent qu'aucun ne surpasse un routeur aléatoire simple. Ils relient cet écart à quatre motifs récurrents : l'aveuglement à la difficulté, l'inversion de longueur, la correspondance sémantique et la sous-optimalité de la liste, et proposent une méthodologie d'évaluation alternative.",
+          "title": "Interpréter au moment de l'écriture : une ablation de politique pour la mémoire d'agent",
+          "summary": "Cette étude explore la manière dont la mémoire d'un assistant de longue durée doit résumer les flux d'événements pour plusieurs objectifs simultanés. En comparant différentes politiques d'écriture, les auteurs démontrent que les résumés spécifiques aux objectifs surpassent les autres stratégies en termes de pertinence.",
           "keyPoints": [
-            "Analyse six routeurs commerciaux dynamiques et trouve des limites par rapport au routage aléatoire.",
-            "Relie les écarts à quatre motifs : aveuglement à la difficulté, inversion de longueur, etc.",
-            "Propose une méthodologie d'évaluation alternative."
+            "Examine les politiques de résumé de mémoire pour les flux d'événements d'assistants multi-objectifs.",
+            "Compare l'écriture de résumés sans objectif, pour tous les objectifs ou par objectif.",
+            "Montre que les résumés par objectif surpassent les autres options en pertinence et en précision."
           ]
         }
       },
@@ -314,36 +236,75 @@
       }
     },
     {
-      "id": "feed-b0112decea4be3",
-      "title": "Law And Order: Tax Law Autoformalization via Neuro-Symbolic AI",
-      "summary": "The paper introduces Law&Order, a neuro-symbolic framework that automatically formalizes tax forms and instructions into executable symbolic programs. By combining large language model synthesis with cell-level verification and localized error repair using OpenTaxSolver, Law&Order achieves 100% cell-level and form-level accuracy on held-out TaxCalcBench returns.",
+      "id": "feed-40ccc8f92cebf3",
+      "title": "LUMOS: Tracing Parametric Knowledge from Training Data to Outputs in LLMs",
+      "summary": "The authors introduce LUMOS, a diagnostic framework that traces parametric knowledge along the causal chain from verified training data exposure to behavioral output in LLMs like OLMo 2. The findings reveal that models encode rare facts internally with high separability yet fail to express them behaviorally, and their self-reflection collapses on unseen content.",
       "keyPoints": [
-        "Proposes Law&Order, a neuro-symbolic framework for tax law autoformalization.",
-        "Combines LLM synthesis with cell-level verification and iterative error repair.",
-        "Achieves 100% cell-level and form-level accuracy on held-out TaxCalcBench returns."
+        "Introduces LUMOS to trace parametric knowledge from verified training data to behavioral outputs.",
+        "Reveals that models internally encode rare facts with high separability but show lower behavioral expression.",
+        "Demonstrates that model self-reflection and confidence calibration drop to random baselines on unseen content."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02902",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LUMOS: Tracing Parametric Knowledge from Training Data to Outputs in LLMs",
+          "summary": "The authors introduce LUMOS, a diagnostic framework that traces parametric knowledge along the causal chain from verified training data exposure to behavioral output in LLMs like OLMo 2. The findings reveal that models encode rare facts internally with high separability yet fail to express them behaviorally, and their self-reflection collapses on unseen content.",
+          "keyPoints": [
+            "Introduces LUMOS to trace parametric knowledge from verified training data to behavioral outputs.",
+            "Reveals that models internally encode rare facts with high separability but show lower behavioral expression.",
+            "Demonstrates that model self-reflection and confidence calibration drop to random baselines on unseen content."
+          ]
+        },
+        "fr": {
+          "title": "LUMOS : Traçage des connaissances paramétriques des données d'entraînement aux sorties",
+          "summary": "Les auteurs présentent LUMOS, un cadre diagnostique qui trace les connaissances paramétriques le long de la chaîne causale, depuis l'exposition aux données d'entraînement vérifiées jusqu'aux sorties comportementales dans les LLM. Les résultats révèlent que les modèles encodent en interne des faits rares avec une forte séparabilité.",
+          "keyPoints": [
+            "Introduit LUMOS pour tracer les connaissances paramétriques des données d'entraînement vérifiées.",
+            "Révèle que les modèles encodent en interne des faits rares avec une séparabilité élevée.",
+            "Démontre que l'autoréflexion du modèle chute à des niveaux aléatoires sur du contenu non vu."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7c6537fba40d90",
+      "title": "Frequency Is Not Sensitivity: Identifying Safety-Sensitive Experts in MoEs",
+      "summary": "This paper investigates how to identify safety-sensitive experts to suppress in sparse Mixture-of-Experts (MoE) LLMs without retraining. Comparing activation frequency against router-gradient sensitivity, the authors show that gradient-selected expert suppression reduces harmful model refusals significantly more effectively across multiple architectures.",
+      "keyPoints": [
+        "Compares activation frequency and router-gradient sensitivity for identifying safety-sensitive experts in MoEs.",
+        "Shows that router-gradient selection reduces safety refusals more effectively than frequency-based methods.",
+        "Demonstrates substantive safety compliance improvements without degraded text generation quality."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02792",
+      "sourceUrl": "https://arxiv.org/abs/2610.02910",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Law And Order: Tax Law Autoformalization via Neuro-Symbolic AI",
-          "summary": "The paper introduces Law&Order, a neuro-symbolic framework that automatically formalizes tax forms and instructions into executable symbolic programs. By combining large language model synthesis with cell-level verification and localized error repair using OpenTaxSolver, Law&Order achieves 100% cell-level and form-level accuracy on held-out TaxCalcBench returns.",
+          "title": "Frequency Is Not Sensitivity: Identifying Safety-Sensitive Experts in MoEs",
+          "summary": "This paper investigates how to identify safety-sensitive experts to suppress in sparse Mixture-of-Experts (MoE) LLMs without retraining. Comparing activation frequency against router-gradient sensitivity, the authors show that gradient-selected expert suppression reduces harmful model refusals significantly more effectively across multiple architectures.",
           "keyPoints": [
-            "Proposes Law&Order, a neuro-symbolic framework for tax law autoformalization.",
-            "Combines LLM synthesis with cell-level verification and iterative error repair.",
-            "Achieves 100% cell-level and form-level accuracy on held-out TaxCalcBench returns."
+            "Compares activation frequency and router-gradient sensitivity for identifying safety-sensitive experts in MoEs.",
+            "Shows that router-gradient selection reduces safety refusals more effectively than frequency-based methods.",
+            "Demonstrates substantive safety compliance improvements without degraded text generation quality."
           ]
         },
         "fr": {
-          "title": "Law And Order : Autoformalisation du droit fiscal par IA neuro-symbolique",
-          "summary": "L'article présente Law&Order, un cadre neuro-symbolique qui formalise automatiquement les formulaires fiscaux en programmes exécutables. En combinant la synthèse par LLM avec une vérification au niveau des cellules et une correction d'erreurs itérative, Law&Order atteint une précision de 100 % sur des déclarations testées.",
+          "title": "La fréquence n'est pas la sensibilité : Identification des experts sensibles dans les MoE",
+          "summary": "Cet article étudie comment identifier les experts sensibles à la sécurité à supprimer dans les LLM à mélange d'experts (MoE) clairsemés sans réentraînement. En comparant la fréquence d'activation à la sensibilité du gradient du routeur, les auteurs montrent que la suppression par gradient réduit plus efficacement les refus.",
           "keyPoints": [
-            "Propose Law&Order, un cadre neuro-symbolique pour l'autoformalisation du droit fiscal.",
-            "Combine la synthèse par LLM avec la vérification au niveau des cellules et la correction d'erreurs.",
-            "Atteint 100 % de précision sur des déclarations de test TaxCalcBench."
+            "Compare la fréquence d'activation et la sensibilité du gradient pour identifier les experts sensibles.",
+            "Montre que la sélection par gradient du routeur réduit les refus de sécurité plus efficacement.",
+            "Démontre des améliorations de la conformité sans dégrader la qualité de la génération de texte."
           ]
         }
       },
@@ -353,192 +314,36 @@
       }
     },
     {
-      "id": "feed-5341d8a183d09c",
-      "title": "PAPER2LLM++: Continual Self-Evolution of LLMs from Research Papers",
-      "summary": "PAPER2LLM++ is a framework enabling the continual self-evolution of LLMs using scientific research papers as a stream of evidence and supervision. For each incoming paper, the system extracts findings, tests if limitations persist in the model, and converts findings into learning signals using a try-evaluate-commit procedure to prevent catastrophic forgetting.",
+      "id": "feed-7866a7550200ac",
+      "title": "HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence",
+      "summary": "The authors present HASTE, a multi-agent framework designed to automatically evolve agent harnesses against emerging attacks using sparse evidence like threat reports. HASTE leverages an adversarial interplay between safety-specification generation and attack-case generation to reduce attack success rates while preserving benign task utility.",
       "keyPoints": [
-        "Introduces PAPER2LLM++ for continual self-evolution of LLMs from research literature.",
-        "Extracts evidence-grounded findings and tests if reported limitations persist in models.",
-        "Uses a try-evaluate-commit procedure to integrate updates without degrading general capabilities."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02793",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PAPER2LLM++: Continual Self-Evolution of LLMs from Research Papers",
-          "summary": "PAPER2LLM++ is a framework enabling the continual self-evolution of LLMs using scientific research papers as a stream of evidence and supervision. For each incoming paper, the system extracts findings, tests if limitations persist in the model, and converts findings into learning signals using a try-evaluate-commit procedure to prevent catastrophic forgetting.",
-          "keyPoints": [
-            "Introduces PAPER2LLM++ for continual self-evolution of LLMs from research literature.",
-            "Extracts evidence-grounded findings and tests if reported limitations persist in models.",
-            "Uses a try-evaluate-commit procedure to integrate updates without degrading general capabilities."
-          ]
-        },
-        "fr": {
-          "title": "PAPER2LLM++ : Auto-évolution continue des LLM à partir de papiers de recherche",
-          "summary": "PAPER2LLM++ est un cadre permettant l'auto-évolution continue des LLM en utilisant des articles de recherche scientifique comme source de supervision. Pour chaque article, le système extrait des conclusions, teste si les limites persistent dans le modèle et convertit ces conclusions en signaux d'apprentissage via une procédure d'évaluation.",
-          "keyPoints": [
-            "Introduit PAPER2LLM++ pour l'auto-évolution continue des LLM à partir de la littérature.",
-            "Extrait des conclusions factuelles et teste la persistance des limites dans les modèles.",
-            "Utilise une procédure d'évaluation pour intégrer les mises à jour sans oublier les acquis."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-de2d70104457a6",
-      "title": "Modeling Shared and Individual Structure for Cross-Subject Affect Regression",
-      "summary": "This research explores a zero-shot cross-subject approach to predict continuous valence and arousal trajectories from EEG-fNIRS recordings. By decomposing affect trajectories into a shared stimulus-driven structure and an individual structure scaled via an alpha-band synchrony marker, the model achieves notable improvements in mean absolute error over baseline models.",
-      "keyPoints": [
-        "Studies zero-shot cross-subject valence and arousal estimation using synchronized EEG-fNIRS.",
-        "Decomposes affect into shared stimulus structure and individual structure via an alpha-synchrony marker.",
-        "Achieves an overall MAE well below EEGNet and ASAC-Net baselines on the same split."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02796",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Modeling Shared and Individual Structure for Cross-Subject Affect Regression",
-          "summary": "This research explores a zero-shot cross-subject approach to predict continuous valence and arousal trajectories from EEG-fNIRS recordings. By decomposing affect trajectories into a shared stimulus-driven structure and an individual structure scaled via an alpha-band synchrony marker, the model achieves notable improvements in mean absolute error over baseline models.",
-          "keyPoints": [
-            "Studies zero-shot cross-subject valence and arousal estimation using synchronized EEG-fNIRS.",
-            "Decomposes affect into shared stimulus structure and individual structure via an alpha-synchrony marker.",
-            "Achieves an overall MAE well below EEGNet and ASAC-Net baselines on the same split."
-          ]
-        },
-        "fr": {
-          "title": "Modélisation de structures partagées et individuelles pour la régression d'affect",
-          "summary": "Cette recherche étudie une approche inter-sujets « zero-shot » pour prédire des trajectoires continues de valence et d'activation à partir d'enregistrements EEG-fNIRS. En décomposant la trajectoire en une structure partagée liée au stimulus et une structure individuelle mise à l'échelle via un marqueur de synchronisation alpha, le modèle réduit significativement l'erreur absolue moyenne.",
-          "keyPoints": [
-            "Étudie l'estimation de la valence et de l'activation inter-sujets en zero-shot avec des EEG-fNIRS.",
-            "Décompose l'affect en structure partagée et individuelle via un marqueur de synchronisation alpha.",
-            "Atteint une erreur absolue moyenne globale nettement inférieure aux bases de référence."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3916367e151c4c",
-      "title": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference",
-      "summary": "BitNest introduces a bit-nested speculative decoding framework that embeds low-precision drafts directly into higher-precision target representations, allowing both models to share a single physical weight representation. This method achieves a high speculative acceptance rate and delivers significant speedups for edge-friendly LLMs.",
-      "keyPoints": [
-        "Embeds low-precision drafts directly into higher-precision target representations for memory sharing.",
-        "Extends the progressive-precision design to the KV cache for long-context inference.",
-        "Achieves an average acceptance rate of 95.2% and 1.48 to 1.61x speedup over FP16 decoding."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02800",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference",
-          "summary": "BitNest introduces a bit-nested speculative decoding framework that embeds low-precision drafts directly into higher-precision target representations, allowing both models to share a single physical weight representation. This method achieves a high speculative acceptance rate and delivers significant speedups for edge-friendly LLMs.",
-          "keyPoints": [
-            "Embeds low-precision drafts directly into higher-precision target representations for memory sharing.",
-            "Extends the progressive-precision design to the KV cache for long-context inference.",
-            "Achieves an average acceptance rate of 95.2% and 1.48 to 1.61x speedup over FP16 decoding."
-          ]
-        },
-        "fr": {
-          "title": "BitNest : Décorchage spéculatif imbriqué pour l'inférence efficace de LLM",
-          "summary": "BitNest introduit un cadre de décodage spéculatif imbriqué par bits qui intègre des brouillons de basse précision directement dans des représentations cibles de plus haute précision, permettant aux deux modèles de partager un poids physique unique. Cette méthode offre un taux d'acceptation élevé et des accélérations notables.",
-          "keyPoints": [
-            "Intègre des brouillons de basse précision dans des cibles de haute précision pour partager la mémoire.",
-            "Étend la conception à précision progressive au cache KV pour l'inférence à contexte long.",
-            "Atteint un taux d'acceptation de 95,2 % et une accélération de 1,48 à 1,61x par rapport au décodage FP16."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f191dc66b7412f",
-      "title": "VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in MBRL",
-      "summary": "VIGOR is a model-based reinforcement learning framework designed to achieve zero-shot generalization to unseen visual distractions. By combining weak-to-strong augmentation, dynamics-level consistency, and encoder stabilization, it prevents error compounding and outperforms existing baselines on complex control suites.",
-      "keyPoints": [
-        "Addresses the two-level vulnerability of model-based RL under visual distractions.",
-        "Integrates asymmetric augmentation, dynamics-level consistency, and encoder stabilization.",
-        "Outperforms baseline models on the DeepMind Control Suite and Robosuite."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02801",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in MBRL",
-          "summary": "VIGOR is a model-based reinforcement learning framework designed to achieve zero-shot generalization to unseen visual distractions. By combining weak-to-strong augmentation, dynamics-level consistency, and encoder stabilization, it prevents error compounding and outperforms existing baselines on complex control suites.",
-          "keyPoints": [
-            "Addresses the two-level vulnerability of model-based RL under visual distractions.",
-            "Integrates asymmetric augmentation, dynamics-level consistency, and encoder stabilization.",
-            "Outperforms baseline models on the DeepMind Control Suite and Robosuite."
-          ]
-        },
-        "fr": {
-          "title": "VIGOR : Généralisation visuelle zero-shot via la cohérence de l'espace latent",
-          "summary": "VIGOR est un cadre d'apprentissage par renforcement basé sur un modèle conçu pour assurer une généralisation zero-shot face à des distractions visuelles inédites. En combinant l'augmentation faible-à-forte, la cohérence dynamique et la stabilisation de l'encodeur, il prévient la propagation d'erreurs.",
-          "keyPoints": [
-            "Traite la vulnérabilité à deux niveaux de l'apprentissage par renforcement sous distractions visuelles.",
-            "Intègre augmentation asymétrique, cohérence dynamique et stabilisation de l'encodeur.",
-            "Surpasse les modèles de référence sur DeepMind Control Suite et Robosuite."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-19ef6a33bcea37",
-      "title": "ROUTEAUDIT: Interaction-Aware Identification for Budgeted Multi-Verifier Routing",
-      "summary": "ROUTEAUDIT formulates verifier routing as a contract-conditioned identification problem to improve multi-verifier systems. By adding contract lattices, response tapes, and request-level bounds, the protocol provides Attributable routing performance and robust comparative metrics across tasks.",
-      "keyPoints": [
-        "Formulates verifier routing as a contract-conditioned identification problem.",
-        "Adds contract lattices, policy-independent response tapes, and request-level bounds.",
-        "Demonstrates controlled attribution recovery and reliable endpoint reconstruction errors."
+        "Introduces HASTE, a multi-agent framework for automated agent harness evolution from sparse threat evidence.",
+        "Employs an adversarial interplay between safety-specification generation and attack-case generation.",
+        "Consistently reduces attack success rates across multiple backbone models while maintaining benign utility."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02808",
+      "sourceUrl": "https://arxiv.org/abs/2610.02920",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ROUTEAUDIT: Interaction-Aware Identification for Budgeted Multi-Verifier Routing",
-          "summary": "ROUTEAUDIT formulates verifier routing as a contract-conditioned identification problem to improve multi-verifier systems. By adding contract lattices, response tapes, and request-level bounds, the protocol provides Attributable routing performance and robust comparative metrics across tasks.",
+          "title": "HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence",
+          "summary": "The authors present HASTE, a multi-agent framework designed to automatically evolve agent harnesses against emerging attacks using sparse evidence like threat reports. HASTE leverages an adversarial interplay between safety-specification generation and attack-case generation to reduce attack success rates while preserving benign task utility.",
           "keyPoints": [
-            "Formulates verifier routing as a contract-conditioned identification problem.",
-            "Adds contract lattices, policy-independent response tapes, and request-level bounds.",
-            "Demonstrates controlled attribution recovery and reliable endpoint reconstruction errors."
+            "Introduces HASTE, a multi-agent framework for automated agent harness evolution from sparse threat evidence.",
+            "Employs an adversarial interplay between safety-specification generation and attack-case generation.",
+            "Consistently reduces attack success rates across multiple backbone models while maintaining benign utility."
           ]
         },
         "fr": {
-          "title": "ROUTEAUDIT : Identification pour le routage de multi-vérificateurs budgétisés",
-          "summary": "ROUTEAUDIT formule le routage des vérificateurs comme un problème d'identification conditionné par contrat. En ajoutant des réseaux de contrats, des bandes de réponse et des bornes au niveau des requêtes, le protocole offre des performances de routage attribuables et des métriques comparatives robustes.",
+          "title": "HASTE : Évolution des harnais d'agents contre les attaques émergentes à l'aide de preuves",
+          "summary": "Les auteurs présentent HASTE, un cadre multi-agent conçu pour faire évoluer automatiquement les harnais d'agents contre les attaques émergentes à l'aide de preuves éparses. HASTE exploite une interaction contradictoire entre la génération de spécifications de sécurité et de cas d'attaque pour réduire les taux de réussite.",
           "keyPoints": [
-            "Formule le routage des vérificateurs comme un problème d'identification conditionné par contrat.",
-            "Ajoute des réseaux de contrats, des bandes de réponse et des bornes de requêtes.",
-            "Démontre une récupération d'attribution contrôlée et des erreurs de reconstruction faibles."
+            "Présente HASTE, un cadre multi-agent d'évolution automatique des harnais de sécurité.",
+            "Utilise une interaction contradictoire entre spécifications de sécurité et cas d'attaque.",
+            "Réduit de manière cohérente les taux de réussite des attaques tout en maintenant l'utilité."
           ]
         }
       },
@@ -548,153 +353,36 @@
       }
     },
     {
-      "id": "feed-6866bf93136cd7",
-      "title": "iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD",
-      "summary": "iS-KV addresses memory growth during long chain-of-thought reasoning by introducing an online low-rank KV-cache compression method. Using block-incremental SVD and coordinate synchronization, it preserves historical states without permanent deletion, outperforming token-eviction baselines.",
+      "id": "feed-2f58bd081c7283",
+      "title": "Positive-Unlabeled Learning for Agent Safety False Alarm Auditing",
+      "summary": "This paper tackles the challenge of auditing false alarms generated by conservative safety monitors for LLM agents. By framing the issue as a positive-unlabeled (PU) learning problem, the authors propose a two-stage framework featuring trust-aware PU supervision and reliability-gated rank distillation, significantly outperforming existing PU baselines.",
       "keyPoints": [
-        "Introduces online low-rank KV cache compression using block-incremental SVD.",
-        "Synchronizes historical coordinates with evolving bases to maintain representation consistency.",
-        "Maintains high accuracy under strong compression rates on models like DeepSeek-R1-Distill and Qwen3."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02815",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD",
-          "summary": "iS-KV addresses memory growth during long chain-of-thought reasoning by introducing an online low-rank KV-cache compression method. Using block-incremental SVD and coordinate synchronization, it preserves historical states without permanent deletion, outperforming token-eviction baselines.",
-          "keyPoints": [
-            "Introduces online low-rank KV cache compression using block-incremental SVD.",
-            "Synchronizes historical coordinates with evolving bases to maintain representation consistency.",
-            "Maintains high accuracy under strong compression rates on models like DeepSeek-R1-Distill and Qwen3."
-          ]
-        },
-        "fr": {
-          "title": "iS-KV : Compression de cache KV à bas rang en ligne via SVD incrémentielle",
-          "summary": "iS-KV résout la croissance de la mémoire lors de raisonnements longs en introduisant une méthode de compression du cache KV à bas rang en ligne. En utilisant une SVD incrémentielle par blocs et une synchronisation des coordonnées, il préserve les états historiques sans suppression définitive.",
-          "keyPoints": [
-            "Introduit la compression de cache KV à bas rang en ligne par SVD incrémentielle.",
-            "Synchronise les coordonnées historiques avec les bases évolutives pour maintenir la cohérence.",
-            "Maintient une haute précision sous de forts taux de compression sur de grands modèles."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-40acd3ae576038",
-      "title": "MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning",
-      "summary": "MetaRubric combats vacuous credit assignment in rubric-based reinforcement learning by alternating evidence-aware policy optimization with response-guided rubric adaptation. Using counterfactual prompt counterparts, it ensures rewards are only given when sufficient evidence is present.",
-      "keyPoints": [
-        "Addresses vacuous credit where rubric judges give high scores despite absent information.",
-        "Alternates evidence-aware policy optimization with response-guided rubric adaptation.",
-        "Improves accuracy significantly over static-judge GRPO across multiple medical benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02824",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning",
-          "summary": "MetaRubric combats vacuous credit assignment in rubric-based reinforcement learning by alternating evidence-aware policy optimization with response-guided rubric adaptation. Using counterfactual prompt counterparts, it ensures rewards are only given when sufficient evidence is present.",
-          "keyPoints": [
-            "Addresses vacuous credit where rubric judges give high scores despite absent information.",
-            "Alternates evidence-aware policy optimization with response-guided rubric adaptation.",
-            "Improves accuracy significantly over static-judge GRPO across multiple medical benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "MetaRubric : Apprentissage de récompense pour l'apprentissage par renforcement",
-          "summary": "MetaRubric combat l'attribution de crédit vacueux dans l'apprentissage par renforcement basé sur des rubriques en alternant l'optimisation de politique consciente des preuves et l'adaptation de rubriques guidée par les réponses. Il garantit que les récompenses ne sont attribuées qu'en présence de preuves suffisantes.",
-          "keyPoints": [
-            "Résout le crédit vacueux où les juges attribuent des scores élevés malgré l'absence d'informations.",
-            "Alterne l'optimisation des politiques et l'adaptation des rubriques guidée par les réponses.",
-            "Améliore nettement la précision par rapport au GRPO statique sur divers benchmarks médicaux."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ff37ab6e01e735",
-      "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
-      "summary": "Recursive Self-Rewrite (RSR) leverages a base model to discover solutions across diverse harnesses and reconstruct them into standardized training trajectories. By utilizing a planner, critic, and executor, RSR expands successful source trajectories to dramatically improve performance on challenging benchmark tasks.",
-      "keyPoints": [
-        "Proposes Recursive Self-Rewrite to reconstruct diverse harness solutions into training trajectories.",
-        "Employs a planner, a critic for screening, and an executor in fresh sandboxes.",
-        "Substantially increases pass rates across multiple terminal-based and software benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02826",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
-          "summary": "Recursive Self-Rewrite (RSR) leverages a base model to discover solutions across diverse harnesses and reconstruct them into standardized training trajectories. By utilizing a planner, critic, and executor, RSR expands successful source trajectories to dramatically improve performance on challenging benchmark tasks.",
-          "keyPoints": [
-            "Proposes Recursive Self-Rewrite to reconstruct diverse harness solutions into training trajectories.",
-            "Employs a planner, a critic for screening, and an executor in fresh sandboxes.",
-            "Substantially increases pass rates across multiple terminal-based and software benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Mise à l'échelle de trajectoires pour tâches complexes par réécriture récursive",
-          "summary": "Recursive Self-Rewrite (RSR) exploite un modèle de base pour découvrir des solutions à travers divers environnements et les reconstruire en trajectoires d'entraînement standardisées. En utilisant un planificateur, un critique et un exécuteur, RSR améliore considérablement les performances sur des tâches complexes.",
-          "keyPoints": [
-            "Propose la réécriture récursive pour transformer des solutions hétérogènes en trajectoires d'entraînement.",
-            "Utilise un planificateur, un critique de filtrage et un exécuteur dans des environnements isolés.",
-            "Augmente substantiellement les taux de réussite sur plusieurs benchmarks de terminaux et de logiciels."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4d6b4613a79443",
-      "title": "MLCommons Jailbreak Benchmark v1.0",
-      "summary": "The MLCommons Jailbreak Benchmark v1.0 offers an end-to-end methodology to evaluate the robustness of large language models against single-turn, text-based jailbreak attacks. Combining criteria-driven selection, human annotation, and standardized assessment, it measures safety performance via the Resilience Gap.",
-      "keyPoints": [
-        "Provides an end-to-end benchmarking pipeline for evaluating LLM text-based jailbreak robustness.",
-        "Evaluates eight open-weight systems using 264 seed prompts across eleven hazard categories.",
-        "Measures safety degradation using the Resilience Gap, averaging 7.57% across tested systems."
+        "Addresses false alarm auditing in LLM agent safety monitors via positive-unlabeled learning.",
+        "Proposes a framework with trust-aware PU supervision and reliability-gated rank distillation.",
+        "Outperforms evaluated PU baselines by substantial margins and recovers significantly more false alarms."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02827",
+      "sourceUrl": "https://arxiv.org/abs/2610.02925",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "MLCommons Jailbreak Benchmark v1.0",
-          "summary": "The MLCommons Jailbreak Benchmark v1.0 offers an end-to-end methodology to evaluate the robustness of large language models against single-turn, text-based jailbreak attacks. Combining criteria-driven selection, human annotation, and standardized assessment, it measures safety performance via the Resilience Gap.",
+          "title": "Positive-Unlabeled Learning for Agent Safety False Alarm Auditing",
+          "summary": "This paper tackles the challenge of auditing false alarms generated by conservative safety monitors for LLM agents. By framing the issue as a positive-unlabeled (PU) learning problem, the authors propose a two-stage framework featuring trust-aware PU supervision and reliability-gated rank distillation, significantly outperforming existing PU baselines.",
           "keyPoints": [
-            "Provides an end-to-end benchmarking pipeline for evaluating LLM text-based jailbreak robustness.",
-            "Evaluates eight open-weight systems using 264 seed prompts across eleven hazard categories.",
-            "Measures safety degradation using the Resilience Gap, averaging 7.57% across tested systems."
+            "Addresses false alarm auditing in LLM agent safety monitors via positive-unlabeled learning.",
+            "Proposes a framework with trust-aware PU supervision and reliability-gated rank distillation.",
+            "Outperforms evaluated PU baselines by substantial margins and recovers significantly more false alarms."
           ]
         },
         "fr": {
-          "title": "MLCommons Jailbreak Benchmark v1.0",
-          "summary": "Le benchmark MLCommons Jailbreak v1.0 propose une méthodologie complète pour évaluer la robustesse des grands modèles de langage face aux attaques par contournement textuelles. En combinant sélection multicritère, annotation humaine et évaluation standardisée, il mesure la sécurité via l'écart de résilience.",
+          "title": "Apprentissage positif-non étiqueté pour l'audit des fausses alarmes de sécurité",
+          "summary": "Cet article aborde le défi de l'audit des fausses alarmes générées par les moniteurs de sécurité conservateurs pour les agents LLM. En formulant le problème comme un apprentissage positif-non étiqueté (PU), les auteurs proposent un cadre en deux étapes comprenant une supervision PU et une distillation de rang.",
           "keyPoints": [
-            "Fournit un pipeline de test complet pour évaluer la robustesse des LLM contre les attaques textuelles.",
-            "Évalue huit systèmes open-weights utilisant 264 invites réparties sur onze catégories de risques.",
-            "Mesure la dégradation de la sécurité via l'écart de résilience, atteignant une moyenne de 7,57 %."
+            "Traite l'audit des fausses alarmes des moniteurs de sécurité via l'apprentissage positif-non étiqueté.",
+            "Propose un cadre avec supervision PU consciente de la confiance et distillation de rang.",
+            "Surpasse les bases de référence PU évaluées et récupère un nombre significatif de fausses alarmes."
           ]
         }
       },
@@ -704,80 +392,392 @@
       }
     },
     {
-      "id": "feed-608d4480937e3b",
-      "title": "FSPO: Policy-Consistent Risk and Pareto-Feasible Control for Budgeted LLM RL",
-      "summary": "FSPO introduces a feedback-state controller for budgeted LLM reinforcement learning post-training. By combining a policy-consistent risk-to-go model, decision-conditioned trajectory calibration, and a Pareto resource continuation certificate, it effectively manages multi-resource constraints and improves downstream accuracy.",
+      "id": "feed-9f5b8f19585d91",
+      "title": "Measuring Payback and Making Compilation Decisions for Agents",
+      "summary": "Compiling repeatedly executed GUI procedures into programs can reduce agent token costs. However, compilation costs are uncertain and future reuse is unknown. To address this, researchers propose PACE, a system featuring a measurement protocol and an online compilation algorithm that compares estimated future savings with compilation costs. Simulations show PACE reduces token costs by 17.3% to 24.9% compared to baseline adaptations.",
       "keyPoints": [
-        "Introduces FSPO, a feedback-state controller for budgeted LLM reinforcement learning.",
-        "Learns a policy-consistent risk model and utilizes decision-conditioned trajectory calibration.",
-        "Outperforms adaptive baselines on held-out and out-of-distribution evaluation tasks."
+        "PACE uses a measurement protocol to track successful and failed compilation costs.",
+        "An online algorithm compares future savings against cumulative budgets before executing actions.",
+        "Simulations show token cost reductions of 17.3% to 24.9% compared to various baselines."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02828",
+      "sourceUrl": "https://arxiv.org/abs/2610.02932",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "FSPO: Policy-Consistent Risk and Pareto-Feasible Control for Budgeted LLM RL",
-          "summary": "FSPO introduces a feedback-state controller for budgeted LLM reinforcement learning post-training. By combining a policy-consistent risk-to-go model, decision-conditioned trajectory calibration, and a Pareto resource continuation certificate, it effectively manages multi-resource constraints and improves downstream accuracy.",
+          "title": "Measuring Payback and Making Compilation Decisions for Agents",
+          "summary": "Compiling repeatedly executed GUI procedures into programs can reduce agent token costs. However, compilation costs are uncertain and future reuse is unknown. To address this, researchers propose PACE, a system featuring a measurement protocol and an online compilation algorithm that compares estimated future savings with compilation costs. Simulations show PACE reduces token costs by 17.3% to 24.9% compared to baseline adaptations.",
           "keyPoints": [
-            "Introduces FSPO, a feedback-state controller for budgeted LLM reinforcement learning.",
-            "Learns a policy-consistent risk model and utilizes decision-conditioned trajectory calibration.",
-            "Outperforms adaptive baselines on held-out and out-of-distribution evaluation tasks."
+            "PACE uses a measurement protocol to track successful and failed compilation costs.",
+            "An online algorithm compares future savings against cumulative budgets before executing actions.",
+            "Simulations show token cost reductions of 17.3% to 24.9% compared to various baselines."
           ]
         },
         "fr": {
-          "title": "FSPO : Risque cohérent avec la politique et contrôle de Pareto pour l'apprentissage",
-          "summary": "FSPO introduit un contrôleur d'état de rétroaction pour l'entraînement post-apprentissage budgétisé des LLM par renforcement. En combinant un modèle de risque cohérent, une calibration de trajectoire et un certificat de continuation de Pareto, il gère efficacement les contraintes de ressources.",
+          "title": "Mesure du retour sur investissement et compilation d'agents",
+          "summary": "La compilation de procédures d'interface graphique en programmes peut réduire les coûts de jetons des agents. Cependant, ces coûts sont incertains et la réutilisation future est inconnue. Pour résoudre ce problème, les chercheurs proposent PACE, un système comprenant un protocole de mesure et un algorithme de compilation en ligne. Les simulations montrent que PACE réduit les coûts de jetons de 17,3 % à 24,9 %.",
           "keyPoints": [
-            "Introduit FSPO, un contrôleur d'état de rétroaction pour l'apprentissage par renforcement budgétisé.",
-            "Apprend un modèle de risque cohérent avec la politique et utilise une calibration de trajectoire.",
-            "Surpasse les bases de référence adaptatives sur les tâches d'évaluation."
+            "PACE utilise un protocole de mesure pour suivre les coûts de compilation.",
+            "Un algorithme en ligne compare les économies futures aux budgets cumulés.",
+            "Les simulations démontrent des réductions de coûts de jetons de 17,3 % à 24,9 %."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-bf79ddf5f23e3d",
-      "title": "AMBER: Multi-View Adaptive Budget Allocation for Listwise VLM Reranking",
-      "summary": "AMBER is an online, budgeted multi-view reranking framework that dynamically optimizes global resource allocation for vision-language models. By treating VLM outputs as local tournaments with continuous Elo updates, it efficiently schedules queries and constructs candidate views to maximize information gain.",
+      "id": "feed-d90f6364ce9b75",
+      "title": "Continual Graph Memory for Mathematical Research Agents",
+      "summary": "Solving frontier mathematical problems requires parallel agents generating huge volumes of intermediate results. Researchers present Ansatz, an agent built around Continual Graph Memory, an evolvable memory system that organizes proof searches. Ansatz closed all ten research tasks on a specific benchmark and produced solutions to several major mathematical problems without human intervention.",
       "keyPoints": [
-        "Proposes AMBER, an online budgeted multi-view reranking framework for vision-language models.",
-        "Uses continuous Elo updates on local tournaments to maintain a lightweight global ranking state.",
-        "Demonstrates strong retrieval performance across CIRR, CIRCO, and PhotoBench datasets."
+        "Ansatz uses Continual Graph Memory to organize intermediate proof results across problems.",
+        "Features include a unified graph memory, dependency-aware retrieval, and an evidence-sensitive curator.",
+        "Successfully solved all ten First Proof Second Batch tasks and several known mathematical problems."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02831",
+      "sourceUrl": "https://arxiv.org/abs/2610.02945",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "AMBER: Multi-View Adaptive Budget Allocation for Listwise VLM Reranking",
-          "summary": "AMBER is an online, budgeted multi-view reranking framework that dynamically optimizes global resource allocation for vision-language models. By treating VLM outputs as local tournaments with continuous Elo updates, it efficiently schedules queries and constructs candidate views to maximize information gain.",
+          "title": "Continual Graph Memory for Mathematical Research Agents",
+          "summary": "Solving frontier mathematical problems requires parallel agents generating huge volumes of intermediate results. Researchers present Ansatz, an agent built around Continual Graph Memory, an evolvable memory system that organizes proof searches. Ansatz closed all ten research tasks on a specific benchmark and produced solutions to several major mathematical problems without human intervention.",
           "keyPoints": [
-            "Proposes AMBER, an online budgeted multi-view reranking framework for vision-language models.",
-            "Uses continuous Elo updates on local tournaments to maintain a lightweight global ranking state.",
-            "Demonstrates strong retrieval performance across CIRR, CIRCO, and PhotoBench datasets."
+            "Ansatz uses Continual Graph Memory to organize intermediate proof results across problems.",
+            "Features include a unified graph memory, dependency-aware retrieval, and an evidence-sensitive curator.",
+            "Successfully solved all ten First Proof Second Batch tasks and several known mathematical problems."
           ]
         },
         "fr": {
-          "title": "AMBER : Allocation budgétaire adaptative multi-vue pour le reranking VLM",
-          "summary": "AMBER est un cadre de reranking multi-vue budgétisé en ligne qui optimise dynamiquement l'allocation globale des ressources pour les modèles vision-langage. En traitant les sorties comme des tournois locaux avec des mises à jour Elo, il planifie efficacement les requêtes pour maximiser le gain d'information.",
+          "title": "Mémoire graphique continuelle pour agents de recherche mathématique",
+          "summary": "Résoudre des problèmes mathématiques de pointe nécessite des agents parallèles générant de nombreux résultats intermédiaires. Les chercheurs présentent Ansatz, un agent doté d'une mémoire graphique continuelle et évolutive. Ansatz a résolu dix tâches de recherche de référence et a produit des solutions à plusieurs problèmes mathématiques sans intervention humaine.",
           "keyPoints": [
-            "Propose AMBER, un cadre de reranking multi-vue budgétisé pour les modèles vision-langage.",
-            "Utilise des mises à jour Elo continues sur des tournois locaux pour maintenir un classement mondial.",
-            "Démontre de fortes performances de recherche sur les jeux de données CIRR, CIRCO et PhotoBench."
+            "Ansatz utilise une mémoire graphique continuelle pour organiser les résultats de démonstration.",
+            "Le système intègre une récupération sensible aux dépendances et un conservateur d'preuves.",
+            "Il a résolu avec succès dix tâches de référence et plusieurs problèmes mathématiques connus."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-331d126b4c07e2",
+      "title": "Verifiable Preference Proofs for LLM-Based Recommendation",
+      "summary": "LLMs can infer user preferences, but generated rationales may lack grounding or influence, a failure known as the grounding-influence gap. Researchers introduce PROVE-REC, a verifiable preference reasoning framework. It converts history into a compact preference proof and predicts the next item using only the proof and selected evidence, improving baseline performance by up to 7.45%.",
+      "keyPoints": [
+        "PROVE-REC addresses the grounding-influence gap in LLM-based recommendations.",
+        "Pass A converts interaction history into preference proofs while Pass B predicts the next item.",
+        "Experiments show consistent improvements of up to 7.45% over strong baselines."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02968",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Verifiable Preference Proofs for LLM-Based Recommendation",
+          "summary": "LLMs can infer user preferences, but generated rationales may lack grounding or influence, a failure known as the grounding-influence gap. Researchers introduce PROVE-REC, a verifiable preference reasoning framework. It converts history into a compact preference proof and predicts the next item using only the proof and selected evidence, improving baseline performance by up to 7.45%.",
+          "keyPoints": [
+            "PROVE-REC addresses the grounding-influence gap in LLM-based recommendations.",
+            "Pass A converts interaction history into preference proofs while Pass B predicts the next item.",
+            "Experiments show consistent improvements of up to 7.45% over strong baselines."
+          ]
+        },
+        "fr": {
+          "title": "Preuves de préférence vérifiables pour la recommandation par LLM",
+          "summary": "Les grands modèles de langage peuvent déduire les préférences des utilisateurs, mais leurs justifications manquent parfois de fondement. Les chercheurs présentent PROVE-REC, un cadre de raisonnement de préférence vérifiable. Il convertit l'historique en une preuve de préférence compacte, améliorant les performances de référence jusqu'à 7,45 %.",
+          "keyPoints": [
+            "PROVE-REC comble l'écart entre le fondement et l'influence dans les recommandations.",
+            "La première passe convertit l'historique en preuves et la seconde prédit l'élément suivant.",
+            "Les expériences montrent des améliorations constantes allant jusqu'à 7,45 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4465410234e481",
+      "title": "Domain-Theory-Informed Bayesian Routing for LLM CV Screening",
+      "summary": "Screening CVs with high-capability LLMs is costly. Researchers present CreateScore, a Bayesian network for criterion-level LLM routing that resolves low-uncertainty decisions using a local 8B model and escalates uncertain ones to a 120B reference model. On synthetic CV data, routed escalation reduced token use by 65.2% compared to adjudicating every criterion with the reference model.",
+      "keyPoints": [
+        "CreateScore uses a Bayesian network to route CV screening tasks based on uncertainty.",
+        "Low-uncertainty decisions go to a local 8B model, while uncertain ones escalate to a 120B model.",
+        "The approach reduced token usage by 65.2% compared to using the 120B model exclusively."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02972",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Domain-Theory-Informed Bayesian Routing for LLM CV Screening",
+          "summary": "Screening CVs with high-capability LLMs is costly. Researchers present CreateScore, a Bayesian network for criterion-level LLM routing that resolves low-uncertainty decisions using a local 8B model and escalates uncertain ones to a 120B reference model. On synthetic CV data, routed escalation reduced token use by 65.2% compared to adjudicating every criterion with the reference model.",
+          "keyPoints": [
+            "CreateScore uses a Bayesian network to route CV screening tasks based on uncertainty.",
+            "Low-uncertainty decisions go to a local 8B model, while uncertain ones escalate to a 120B model.",
+            "The approach reduced token usage by 65.2% compared to using the 120B model exclusively."
+          ]
+        },
+        "fr": {
+          "title": "Routage bayésien informé par la théorie pour le tri de CV par LLM",
+          "summary": "L'évaluation de CV par des LLM puissants est coûteuse. Les chercheurs présentent CreateScore, un réseau bayésien de routage qui traite les décisions à faible incertitude via un modèle local de 8B et escalade les autres vers un modèle de 120B. Cette méthode a réduit l'utilisation de jetons de 65,2 %.",
+          "keyPoints": [
+            "CreateScore utilise un réseau bayésien pour acheminer les tâches de tri selon l'incertitude.",
+            "Les cas simples sont traités en local par un modèle 8B, les complexes par un modèle 120B.",
+            "La méthode a réduit l'utilisation des jetons de 65,2 % par rapport au modèle de référence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d25f019836e0f7",
+      "title": "Reliable Self-Evolution with Imperfect Proxy Rewards",
+      "summary": "Self-evolving LLM search can rely on low-cost proxy rewards that produce false positives. To combat this, researchers propose Conformal Interval-Driven Self-Evolution (CISE), which constructs candidate-specific reward intervals using conditional conformal inference. Experiments in materials science show that CISE returns only true positives, unlike baselines which include false positives.",
+      "keyPoints": [
+        "CISE uses conditional conformal inference to build candidate-specific reward intervals.",
+        "Conservative interval-based rewards guide evolutionary feedback reliably.",
+        "Experiments in materials science confirm that CISE avoids false positives returned by baselines."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02975",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Reliable Self-Evolution with Imperfect Proxy Rewards",
+          "summary": "Self-evolving LLM search can rely on low-cost proxy rewards that produce false positives. To combat this, researchers propose Conformal Interval-Driven Self-Evolution (CISE), which constructs candidate-specific reward intervals using conditional conformal inference. Experiments in materials science show that CISE returns only true positives, unlike baselines which include false positives.",
+          "keyPoints": [
+            "CISE uses conditional conformal inference to build candidate-specific reward intervals.",
+            "Conservative interval-based rewards guide evolutionary feedback reliably.",
+            "Experiments in materials science confirm that CISE avoids false positives returned by baselines."
+          ]
+        },
+        "fr": {
+          "title": "Auto-évolution fiable avec des récompenses proxy imparfaites",
+          "summary": "La recherche auto-évolutive basée sur les LLM peut s'appuyer sur des récompenses proxy imparfaites générant des faux positifs. Pour contrer cela, les chercheurs proposent CISE, qui élabore des intervalles de récompense spécifiques aux candidats à l'aide d'une inférence conforme. Les expériences en science des matériaux montrent que CISE ne retourne que des vrais positifs.",
+          "keyPoints": [
+            "CISE utilise une inférence conforme conditionnelle pour créer des intervalles de récompense.",
+            "Des récompenses prudentes basées sur ces intervalles guident le retour évolutif.",
+            "Les expériences confirment que CISE évite les faux positifs générés par les méthodes de référence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-21060ddfd31171",
+      "title": "Relevant Evidence Decoding for Audio-Visual Hallucination Mitigation",
+      "summary": "Audio-Visual Large Language Models suffer from cross-modal hallucinations where modalities incorrectly affect predictions. Researchers introduce Relevant Evidence Decoding (RED), a training-free method using pointwise mutual information to quantify and strengthen question-relevant evidence. RED improves accuracy by up to 7% across benchmarks compared to standard decoding.",
+      "keyPoints": [
+        "RED addresses cross-modal hallucinations in Audio-Visual LLMs without requiring retraining.",
+        "It uses pointwise mutual information to isolate and boost audio or video contributions.",
+        "Evaluations show accuracy improvements of up to 7% across multiple benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02976",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Relevant Evidence Decoding for Audio-Visual Hallucination Mitigation",
+          "summary": "Audio-Visual Large Language Models suffer from cross-modal hallucinations where modalities incorrectly affect predictions. Researchers introduce Relevant Evidence Decoding (RED), a training-free method using pointwise mutual information to quantify and strengthen question-relevant evidence. RED improves accuracy by up to 7% across benchmarks compared to standard decoding.",
+          "keyPoints": [
+            "RED addresses cross-modal hallucinations in Audio-Visual LLMs without requiring retraining.",
+            "It uses pointwise mutual information to isolate and boost audio or video contributions.",
+            "Evaluations show accuracy improvements of up to 7% across multiple benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "Décoration de preuves pertinentes pour atténuer les hallucinations audiovisuelles",
+          "summary": "Les grands modèles de langage audiovisuels souffrent d'hallucinations intermodales. Les chercheurs présentent RED (Relevant Evidence Decoding), une méthode sans entraînement utilisant l'information mutuelle ponctuelle pour identifier et renforcer les preuves pertinentes. RED améliore la précision jusqu'à 7 % par rapport au décodage standard.",
+          "keyPoints": [
+            "RED corrige les hallucinations intermodales des modèles audiovisuels sans réentraînement.",
+            "Il utilise l'information mutuelle ponctuelle pour isoler et renforcer les contributions audio ou vidéo.",
+            "Les évaluations montrent des gains de précision allant jusqu'à 7 % sur plusieurs critères."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1f200ad6a4e709",
+      "title": "Reward-Aligned Summarization of Clinical Notes for EHR Outcomes",
+      "summary": "Unstructured discharge notes contain critical patient evidence that is often buried in noisy text. Researchers propose RASPER, a Reward-Aligned Summarizer for Prediction in EHR that optimizes note summarization directly against downstream clinical tasks using reinforcement learning. RASPER outperforms strong baselines on readmission prediction and medication recommendation.",
+      "keyPoints": [
+        "RASPER extracts task-relevant evidence from unstructured clinical discharge notes.",
+        "It uses reinforcement learning from prediction feedback to optimize summarization quality.",
+        "The system outperforms baseline methods on readmission and medication tasks using MIMIC datasets."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02979",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Reward-Aligned Summarization of Clinical Notes for EHR Outcomes",
+          "summary": "Unstructured discharge notes contain critical patient evidence that is often buried in noisy text. Researchers propose RASPER, a Reward-Aligned Summarizer for Prediction in EHR that optimizes note summarization directly against downstream clinical tasks using reinforcement learning. RASPER outperforms strong baselines on readmission prediction and medication recommendation.",
+          "keyPoints": [
+            "RASPER extracts task-relevant evidence from unstructured clinical discharge notes.",
+            "It uses reinforcement learning from prediction feedback to optimize summarization quality.",
+            "The system outperforms baseline methods on readmission and medication tasks using MIMIC datasets."
+          ]
+        },
+        "fr": {
+          "title": "Résumé de notes cliniques aligné sur les récompenses pour les dossiers médicaux",
+          "summary": "Les notes de sortie non structurées contiennent des informations cruciales souvent noyées dans du texte redondant. Les chercheurs proposent RASPER, un résumeur optimisé par apprentissage par renforcement pour la prédiction clinique. RASPER surpasse les méthodes de référence pour la prédiction de réadmission et la recommandation de médicaments.",
+          "keyPoints": [
+            "RASPER extrait les informations pertinentes des notes de sortie cliniques non structurées.",
+            "Il utilise l'apprentissage par renforcement basé sur les retours de prédiction pour optimiser les résumés.",
+            "Le système surpasse les bases de référence sur les jeux de données MIMIC."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fd89f51f91e84b",
+      "title": "Safeguarding Mutual Correction in Source-Free Domain Adaptation",
+      "summary": "Source-Free Domain Adaptation adapts models to unlabeled target domains without original source access. While Vision-Language models help, unidirectional paradigms risk error propagation. Researchers propose SafeCut, using the cut statistic as a label-free reliability measure to safely gate cross-model supervision and suppress miscorrections.",
+      "keyPoints": [
+        "SafeCut uses the cut statistic as a label-free measure of prediction reliability.",
+        "It dynamically controls cross-model supervision between source-pretrained and Vision-Language models.",
+        "Experiments across diverse SFDA benchmarks demonstrate state-of-the-art performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02981",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Safeguarding Mutual Correction in Source-Free Domain Adaptation",
+          "summary": "Source-Free Domain Adaptation adapts models to unlabeled target domains without original source access. While Vision-Language models help, unidirectional paradigms risk error propagation. Researchers propose SafeCut, using the cut statistic as a label-free reliability measure to safely gate cross-model supervision and suppress miscorrections.",
+          "keyPoints": [
+            "SafeCut uses the cut statistic as a label-free measure of prediction reliability.",
+            "It dynamically controls cross-model supervision between source-pretrained and Vision-Language models.",
+            "Experiments across diverse SFDA benchmarks demonstrate state-of-the-art performance."
+          ]
+        },
+        "fr": {
+          "title": "Sécurisation de la correction mutuelle en adaptation de domaine sans source",
+          "summary": "L'adaptation de domaine sans source permet d'adapter des modèles à des cibles non étiquetées. Pour éviter la propagation d'erreurs entre modèles visuels et textuels, les chercheurs proposent SafeCut. Cette approche utilise la statistique de coupure comme mesure de fiabilité sans étiquette pour réguler la supervision croisée.",
+          "keyPoints": [
+            "SafeCut utilise la statistique de coupure pour évaluer la fiabilité des prédictions sans étiquette.",
+            "Il contrôle dynamiquement la supervision croisée entre les différents modèles.",
+            "Les expériences démontrent des performances de pointe sur divers benchmarks SFDA."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-62ed4992a0a9c0",
+      "title": "PLCWorld: Benchmarking LLM-Generated PLC Programs in Simulation",
+      "summary": "Evaluating LLM-generated Programmable Logic Controller programs requires observing their effects on equipment states. Researchers introduce PLCWorld, a closed-loop environment coupling Structured Text execution with simulated plant responses. Testing across 100 synthetic tasks showed GPT-5.5 achieved 82.70% Task Success on Easy cases but 25.10% on Hard cases.",
+      "keyPoints": [
+        "PLCWorld is a closed-loop execution environment and benchmark for LLM-generated PLC code.",
+        "It contains 100 synthetic tasks across Motion Control and Material Handling.",
+        "Evaluations show varying performance, with GPT-5.5 scoring 82.70% on easy tasks and 25.10% on hard tasks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02982",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "PLCWorld: Benchmarking LLM-Generated PLC Programs in Simulation",
+          "summary": "Evaluating LLM-generated Programmable Logic Controller programs requires observing their effects on equipment states. Researchers introduce PLCWorld, a closed-loop environment coupling Structured Text execution with simulated plant responses. Testing across 100 synthetic tasks showed GPT-5.5 achieved 82.70% Task Success on Easy cases but 25.10% on Hard cases.",
+          "keyPoints": [
+            "PLCWorld is a closed-loop execution environment and benchmark for LLM-generated PLC code.",
+            "It contains 100 synthetic tasks across Motion Control and Material Handling.",
+            "Evaluations show varying performance, with GPT-5.5 scoring 82.70% on easy tasks and 25.10% on hard tasks."
+          ]
+        },
+        "fr": {
+          "title": "PLCWorld : Évaluation de programmes PLC générés par LLM en simulation",
+          "summary": "L'évaluation de programmes pour automates programmables industriels générés par LLM nécessite d'observer leurs effets. Les chercheurs présentent PLCWorld, un environnement en boucle fermée couplant l'exécution de texte structuré avec des réponses simulées. Les tests sur 100 tâches montrent que GPT-5.5 atteint 82,70 % de réussite sur les cas faciles et 25,10 % sur les difficiles.",
+          "keyPoints": [
+            "PLCWorld est un environnement de simulation en boucle fermée pour le code PLC généré par LLM.",
+            "Il intègre 100 tâches synthétiques couvrant le contrôle de mouvement et la manutention.",
+            "Les évaluations montrent une réussite de 82,70 % sur les cas faciles contre 25,10 % sur les difficiles pour GPT-5.5."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d06293d7618dd8",
+      "title": "Personalized ASR for a Dysarthric Speaker Using Artificial Conversations",
+      "summary": "Researchers present a personalized automatic speech recognition system for a Czech speaker with severe dysarthria and a tracheal stoma. Using 33 hours of data collected via an artificial conversation protocol and a multi-stage training pipeline based on Whisper Base, the system achieved a 50% relative reduction in Character Error Rate compared to the baseline.",
+      "keyPoints": [
+        "The system personalizes ASR for a Czech speaker with severe dysarthria and a tracheal stoma.",
+        "A public dataset containing 33 hours of speech was collected via an artificial conversation protocol.",
+        "Evaluations show a 50% relative reduction in Character Error Rate compared to the Whisper Base baseline."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.03017",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Personalized ASR for a Dysarthric Speaker Using Artificial Conversations",
+          "summary": "Researchers present a personalized automatic speech recognition system for a Czech speaker with severe dysarthria and a tracheal stoma. Using 33 hours of data collected via an artificial conversation protocol and a multi-stage training pipeline based on Whisper Base, the system achieved a 50% relative reduction in Character Error Rate compared to the baseline.",
+          "keyPoints": [
+            "The system personalizes ASR for a Czech speaker with severe dysarthria and a tracheal stoma.",
+            "A public dataset containing 33 hours of speech was collected via an artificial conversation protocol.",
+            "Evaluations show a 50% relative reduction in Character Error Rate compared to the Whisper Base baseline."
+          ]
+        },
+        "fr": {
+          "title": "Reconnaissance vocale personnalisée pour une personne dysarthrique",
+          "summary": "Les chercheurs présentent un système de reconnaissance automatique de la parole personnalisé pour un locuteur tchèque atteint de dysarthrie sévère et d'une stomie trachéale. En s'appuyant sur 33 heures de données collectées via un protocole de conversation artificielle et Whisper Base, le système réduit le taux d'erreur de 50 %.",
+          "keyPoints": [
+            "Le système personnalise la reconnaissance vocale pour un locuteur atteint de dysarthrie sévère.",
+            "Un ensemble de données publiques de 33 heures a été recueilli via un protocole de conversation artificielle.",
+            "Les évaluations montrent une réduction relative de 50 % du taux d'erreur par rapport à la base de référence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
