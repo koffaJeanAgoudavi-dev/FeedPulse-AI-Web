@@ -32,6 +32,7 @@ function parseFeed(xml, source) {
     const linkMatch = block.match(/<link[^>]+href=["']([^"']+)["'][^>]*\/?\s*>/i);
     const rawLink = linkMatch?.[1] || tag(block, 'link') || tag(block, 'guid');
     const imageMatch = block.match(/<(?:media:content|media:thumbnail|enclosure)[^>]+url=["']([^"']+)["'][^>]*>/i);
+    const inlineImageMatch = block.match(/<img[^>]+(?:src|data-src)=["']([^"']+)["'][^>]*>/i);
     const published = tag(block, 'pubDate') || tag(block, 'published') || tag(block, 'updated');
     const date = new Date(published);
     return {
@@ -42,10 +43,62 @@ function parseFeed(xml, source) {
       description: tag(block, 'description') || tag(block, 'summary') || tag(block, 'content'),
       canonicalUrl: rawLink.trim(),
       publishedAt: Number.isNaN(date.getTime()) ? new Date().toISOString() : date.toISOString(),
-      imageUrl: imageMatch?.[1] || '',
+      imageUrl: normalizeImageUrl(imageMatch?.[1] || inlineImageMatch?.[1], rawLink.trim()),
       language: source.language,
     };
   }).filter((item) => item.title && /^https?:\/\//.test(item.canonicalUrl));
+}
+function normalizeImageUrl(rawUrl, articleUrl) {
+  if (!rawUrl || /^data:/i.test(rawUrl)) return '';
+  try {
+    const url = new URL(rawUrl.trim(), articleUrl);
+    return /^https?:$/i.test(url.protocol) ? url.href : '';
+  } catch {
+    return '';
+  }
+}
+function metaImage(html, articleUrl) {
+  const patterns = [
+    /<meta[^>]+(?:property|name)=["'](?:og:image|og:image:url|twitter:image|twitter:image:src)["'][^>]+content=["']([^"']+)["'][^>]*>/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|og:image:url|twitter:image|twitter:image:src)["'][^>]*>/i,
+    /<link[^>]+rel=["']image_src["'][^>]+href=["']([^"']+)["'][^>]*>/i,
+  ];
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
+    const imageUrl = normalizeImageUrl(match?.[1], articleUrl);
+    if (imageUrl) return imageUrl;
+  }
+  return '';
+}
+function isGenericImage(imageUrl) {
+  return /arxiv-logo|default-image|placeholder-image/i.test(imageUrl);
+}
+async function fetchArticleImage(item) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 8000);
+  try {
+    const response = await fetch(item.canonicalUrl, {
+      signal: controller.signal,
+      headers: { 'user-agent': 'FeedPulseAI/1.0 article image resolver' },
+    });
+    if (!response.ok) return item.imageUrl || '';
+    const html = await response.text();
+    const pageImage = metaImage(html, item.canonicalUrl);
+    return pageImage && !isGenericImage(pageImage) ? pageImage : item.imageUrl || '';
+  } catch {
+    return item.imageUrl || '';
+  } finally {
+    clearTimeout(timer);
+  }
+}
+async function enrichImages(items) {
+  const enriched = await Promise.all(items.map(async (item) => ({
+    ...item,
+    imageUrl: await fetchArticleImage(item),
+  })));
+  const found = enriched.filter((item) => item.imageUrl).length;
+  console.log(`article images resolved: ${found}/${items.length}`);
+  return new Map(enriched.map((item) => [item.canonicalUrl, item]));
 }
 function normalizeTitle(value) {
   return value.toLowerCase().replace(/[^a-z0-9à-ÿ]+/gi, ' ').trim();
@@ -144,14 +197,25 @@ const processedUrls = new Set([
   ...previousItems.map((item) => item.sourceUrl).filter(Boolean),
   ...Object.keys(state.processed || {}),
 ]);
+const previousUrls = new Set(previousItems.map((item) => item.sourceUrl).filter(Boolean));
 const titleSeen = new Set();
-const candidates = unique.filter((item) => {
+const candidateSeed = unique.filter((item) => {
   if (processedUrls.has(item.canonicalUrl)) return false;
   const title = normalizeTitle(item.title);
   if (titleSeen.has(title)) return false;
   titleSeen.add(title);
   return item.description.length >= 40;
 }).slice(0, MAX_ITEMS);
+const imageTargets = [...new Map([
+  ...unique.filter((item) => previousUrls.has(item.canonicalUrl)),
+  ...candidateSeed,
+].map((item) => [item.canonicalUrl, item])).values()];
+const imageByUrl = await enrichImages(imageTargets);
+const refreshedPreviousItems = previousItems.map((item) => {
+  const refreshed = imageByUrl.get(item.sourceUrl);
+  return refreshed?.imageUrl ? { ...item, imageUrl: refreshed.imageUrl } : item;
+});
+const candidates = candidateSeed.map((item) => imageByUrl.get(item.canonicalUrl) || item);
 console.log(`new candidates: ${candidates.length} (skipped already processed: ${unique.length - candidates.length})`);
 const published = [];
 for (let start = 0; start < candidates.length; start += BATCH_SIZE) {
@@ -175,7 +239,7 @@ for (let start = 0; start < candidates.length; start += BATCH_SIZE) {
 }
 for (const item of published) state.processed[item.sourceUrl] = new Date().toISOString();
 const publishedIds = new Set(published.map((item) => item.id));
-const mergedItems = [...published, ...previousItems.filter((item) => item?.id && !publishedIds.has(item.id))].slice(0, MAX_ITEMS);
+const mergedItems = [...published, ...refreshedPreviousItems.filter((item) => item?.id && !publishedIds.has(item.id))].slice(0, MAX_ITEMS);
 const status = candidates.length === 0 ? 'no-new-items' : published.length > 0 || previousItems.length === 0 ? 'updated' : 'generation-failed-preserved-previous-feed';
 await writeFile(OUT, JSON.stringify({ generatedAt: new Date().toISOString(), items: mergedItems, meta: { sourcesChecked: SOURCES.length, itemsCollected: collected.length, itemsPublished: mergedItems.length, newItems: published.length, candidates: candidates.length, batches: Math.ceil(candidates.length / BATCH_SIZE), batchSize: BATCH_SIZE, model: DRY_RUN ? 'dry-run' : MODEL, status } }, null, 2) + '\n');
 await writeFile(STATE_OUT, JSON.stringify(state, null, 2) + '\n');
