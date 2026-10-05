@@ -70,6 +70,14 @@ function metaImage(html, articleUrl) {
   }
   return '';
 }
+function firstContentImage(html, articleUrl) {
+  const images = [...html.matchAll(/<img[^>]+(?:src|data-src)=["']([^"']+)["'][^>]*>/gi)];
+  for (const match of images) {
+    const imageUrl = normalizeImageUrl(match[1], articleUrl);
+    if (imageUrl && !/\/static\/|logo|icon|avatar|favicon|pixel|tracking|funders|sponsors/i.test(imageUrl)) return imageUrl;
+  }
+  return '';
+}
 function isGenericImage(imageUrl) {
   return /arxiv-logo|default-image|placeholder-image/i.test(imageUrl);
 }
@@ -83,8 +91,28 @@ async function fetchArticleImage(item) {
     });
     if (!response.ok) return item.imageUrl || '';
     const html = await response.text();
-    const pageImage = metaImage(html, item.canonicalUrl);
-    return pageImage && !isGenericImage(pageImage) ? pageImage : item.imageUrl || '';
+    const pageImage = metaImage(html, item.canonicalUrl) || firstContentImage(html, item.canonicalUrl);
+    if (pageImage && !isGenericImage(pageImage)) return pageImage;
+    const arxivId = item.canonicalUrl.match(/arxiv\.org\/abs\/([^?#/]+)/i)?.[1];
+    if (arxivId) {
+      const figureController = new AbortController();
+      const figureTimer = setTimeout(() => figureController.abort(), 8000);
+      try {
+        const figureResponse = await fetch(`https://ar5iv.labs.arxiv.org/html/${encodeURIComponent(arxivId)}`, {
+          signal: figureController.signal,
+          headers: { 'user-agent': 'FeedPulseAI/1.0 article figure resolver' },
+        });
+        if (figureResponse.ok) {
+          const figureImage = firstContentImage(await figureResponse.text(), `https://ar5iv.labs.arxiv.org/html/${arxivId}`);
+          if (figureImage) return figureImage;
+        }
+      } catch {
+        // ar5iv is an optional enrichment source; keep the normal fallback.
+      } finally {
+        clearTimeout(figureTimer);
+      }
+    }
+    return item.imageUrl || '';
   } catch {
     return item.imageUrl || '';
   } finally {
