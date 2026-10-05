@@ -1,405 +1,796 @@
 {
-  "generatedAt": "2026-10-05T12:36:10.225Z",
+  "generatedAt": "2026-10-05T13:13:40.404Z",
   "items": [
     {
-      "id": "feed-c38af6e5cae43e",
-      "title": "A Model Guide for the GPT-6 Family",
-      "summary": "OpenAI provides guidance for startups on selecting GPT-6 models, adjusting reasoning effort, optimizing prompts and skills, orchestrating tools, and preparing production workflows.",
+      "id": "feed-2d8e70fb45cef7",
+      "title": "OpenAI Introduces New Advertising Formats in ChatGPT",
+      "summary": "OpenAI announces a new visual ad format in ChatGPT alongside expanded measurement tools, attribution partnerships, and brand suitability options for advertisers.",
       "keyPoints": [
-        "Guidance on choosing models within the GPT-6 family for startups.",
-        "Techniques for tuning reasoning effort, prompts, and skills.",
-        "Strategies for coordinating tools and readying workflows for production."
+        "Introduces a new visual ad format in ChatGPT",
+        "Expands measurement tools and attribution partnerships",
+        "Adds brand suitability options for advertisers"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI Introduces New Advertising Formats in ChatGPT",
+          "summary": "OpenAI announces a new visual ad format in ChatGPT alongside expanded measurement tools, attribution partnerships, and brand suitability options for advertisers.",
+          "keyPoints": [
+            "Introduces a new visual ad format in ChatGPT",
+            "Expands measurement tools and attribution partnerships",
+            "Adds brand suitability options for advertisers"
+          ]
+        },
+        "fr": {
+          "title": "OpenAI lance de nouveaux formats publicitaires dans ChatGPT",
+          "summary": "OpenAI annonce un nouveau format publicitaire visuel dans ChatGPT, ainsi que des outils de mesure élargis, des partenariats d'attribution et des options de pertinence de marque.",
+          "keyPoints": [
+            "Introduit un nouveau format publicitaire visuel dans ChatGPT",
+            "Élargit les outils de mesure et les partenariats d'attribution",
+            "Ajoute des options de pertinence de marque pour les annonceurs"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-bc14691a892bd7",
+      "title": "MintFlow: Minimal Trajectory Intervention for Flow Matching",
+      "summary": "MintFlow is a training-free constrained sampling framework that formulates constraint enforcement as a minimal intervention on pretrained flow trajectories, avoiding expensive iterative optimization while preserving generative distributions.",
+      "keyPoints": [
+        "Introduces MintFlow for training-free constrained sampling",
+        "Uses an adjoint formulation for closed-form perturbations",
+        "Preserves the pretrained generative distribution across tasks"
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/practical-guide-building-gpt-6",
-      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02260",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "A Model Guide for the GPT-6 Family",
-          "summary": "OpenAI provides guidance for startups on selecting GPT-6 models, adjusting reasoning effort, optimizing prompts and skills, orchestrating tools, and preparing production workflows.",
+          "title": "MintFlow: Minimal Trajectory Intervention for Flow Matching",
+          "summary": "MintFlow is a training-free constrained sampling framework that formulates constraint enforcement as a minimal intervention on pretrained flow trajectories, avoiding expensive iterative optimization while preserving generative distributions.",
           "keyPoints": [
-            "Guidance on choosing models within the GPT-6 family for startups.",
-            "Techniques for tuning reasoning effort, prompts, and skills.",
-            "Strategies for coordinating tools and readying workflows for production."
+            "Introduces MintFlow for training-free constrained sampling",
+            "Uses an adjoint formulation for closed-form perturbations",
+            "Preserves the pretrained generative distribution across tasks"
           ]
         },
         "fr": {
-          "title": "Guide des modèles de la famille GPT-6",
-          "summary": "OpenAI propose un guide aux startups pour choisir les modèles GPT-6, calibrer l'effort de raisonnement, optimiser invites et compétences, coordonner les outils et préparer la production.",
+          "title": "MintFlow : Intervention sur trajectoire pour le Flow Matching",
+          "summary": "MintFlow est un cadre d'échantillonnage contraint sans entraînement qui formule le respect des contraintes comme une intervention minimale sur les trajectoires de flux pré-entraînées.",
           "keyPoints": [
-            "Conseils pour choisir les modèles de la famille GPT-6 pour les startups.",
-            "Méthodes pour ajuster l'effort de raisonnement, les invites et les compétences.",
-            "Coordination des outils et préparation des flux de travail pour la production."
+            "Introduit MintFlow pour l'échantillonnage contraint sans entraînement",
+            "Utilise une formulation adjointe pour des perturbations fermées",
+            "Préserve la distribution générative pré-entraînée"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-6a7bb4e3e69d69",
-      "title": "Google AI Updates Announced in September 2026",
-      "summary": "Google shares its latest artificial intelligence news and product announcements released in September 2026.",
+      "id": "feed-4d611d68a5a28f",
+      "title": "Evaluating System-1 Decision Models for LLM Agent Harnesses",
+      "summary": "Researchers present a paired evaluation of open-weight and hosted System-1 decision models on 11 agent decision points, highlighting accuracy differences, sensitivity to option order, and pipeline analysis errors.",
       "keyPoints": [
-        "Covers Google AI announcements from September 2026.",
-        "Presents recent artificial intelligence updates from Google.",
-        "Specific details and product names are not detailed in the source note."
+        "Evaluates open-weight Laya and hosted Jev System-1 models",
+        "Finds significant accuracy and sensitivity variations between models",
+        "Identifies and audits pipeline analysis errors affecting claims"
       ],
-      "category": "Business",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "publishedAt": "2026-10-02T15:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp",
-      "translations": {
-        "en": {
-          "title": "Google AI Updates Announced in September 2026",
-          "summary": "Google shares its latest artificial intelligence news and product announcements released in September 2026.",
-          "keyPoints": [
-            "Covers Google AI announcements from September 2026.",
-            "Presents recent artificial intelligence updates from Google.",
-            "Specific details and product names are not detailed in the source note."
-          ]
-        },
-        "fr": {
-          "title": "Dernières actualités IA de Google annoncées en septembre 2026",
-          "summary": "Google présente un aperçu de ses dernières annonces et mises à jour en matière d'intelligence artificielle publiées en septembre 2026.",
-          "keyPoints": [
-            "Regroupe les annonces IA de Google de septembre 2026.",
-            "Présente les dernières actualités IA de l'entreprise.",
-            "Les détails spécifiques et produits ne sont pas précisés dans le texte source."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.4,
-        "needsReview": true
-      }
-    },
-    {
-      "id": "feed-882596cbc7639e",
-      "title": "Chatham Scales Capital Markets Expertise With OpenAI",
-      "summary": "Chatham Financial leverages Codex and GPT-5.6 to build technology and redesign workflows, reducing trade validation times from 30 minutes to under 4 minutes.",
-      "keyPoints": [
-        "Chatham Financial utilizes Codex and GPT-5.6 for tech development.",
-        "Workflows have been redesigned to improve operational efficiency.",
-        "Trade validation time dropped from 30 minutes to under 4 minutes."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/chatham-financial",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02267",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Chatham Scales Capital Markets Expertise With OpenAI",
-          "summary": "Chatham Financial leverages Codex and GPT-5.6 to build technology and redesign workflows, reducing trade validation times from 30 minutes to under 4 minutes.",
+          "title": "Evaluating System-1 Decision Models for LLM Agent Harnesses",
+          "summary": "Researchers present a paired evaluation of open-weight and hosted System-1 decision models on 11 agent decision points, highlighting accuracy differences, sensitivity to option order, and pipeline analysis errors.",
           "keyPoints": [
-            "Chatham Financial utilizes Codex and GPT-5.6 for tech development.",
-            "Workflows have been redesigned to improve operational efficiency.",
-            "Trade validation time dropped from 30 minutes to under 4 minutes."
+            "Evaluates open-weight Laya and hosted Jev System-1 models",
+            "Finds significant accuracy and sensitivity variations between models",
+            "Identifies and audits pipeline analysis errors affecting claims"
           ]
         },
         "fr": {
-          "title": "Chatham optimise son expertise des marchés de capitaux avec OpenAI",
-          "summary": "Chatham Financial s'appuie sur Codex et GPT-5.6 pour développer des technologies et repenser ses processus, faisant passer la validation des transactions de 30 minutes à moins de 4.",
+          "title": "Évaluation des modèles de décision Système-1 pour agents LLM",
+          "summary": "Des chercheurs présentent une évaluation de modèles de décision Système-1 sur 11 points de décision d'agents, mettant en lumière les différences de précision et les erreurs d'analyse.",
           "keyPoints": [
-            "Chatham Financial utilise Codex et GPT-5.6 pour bâtir ses technologies.",
-            "Refonte des flux opérationnels pour accroître l'efficacité.",
-            "Délai de validation des transactions réduit de 30 minutes à moins de 4."
+            "Évalue les modèles Système-1 Laya et Jev",
+            "Met en évidence des variations de précision et de sensibilité",
+            "Identifie et audite des erreurs d'analyse de pipeline"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-b8087b88cb63ae",
-      "title": "The Eternal Complement: AI and Routine Execution",
-      "summary": "Advanced AI may be most impactful on routine tasks supporting breakthrough ideas, exploring how execution could influence the future economy and pace of progress.",
+      "id": "feed-145277f1a30cc0",
+      "title": "The AI Risk Observatory: Analyzing AI Disclosures in Reports",
+      "summary": "An analysis of 9,821 annual reports from UK companies reveals that while AI risk mentions rose from 2.8% to 41.2% between 2020 and 2025, only 4.3% contained substantive disclosures.",
       "keyPoints": [
-        "Advanced AI may have its greatest impact on routine work behind major ideas.",
-        "Execution is examined as a primary driver of the next economy.",
-        "The analysis explores factors influencing the overall pace of progress."
+        "Analyzes 9,821 annual reports from 1,362 UK listed companies",
+        "Shows AI risk mentions increased from 2.8% in 2020 to 41.2% in 2025",
+        "Finds that only 4.3% of 2025 reports contain substantive disclosures"
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/the-eternal-complement",
-      "publishedAt": "2026-10-01T17:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02281",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The Eternal Complement: AI and Routine Execution",
-          "summary": "Advanced AI may be most impactful on routine tasks supporting breakthrough ideas, exploring how execution could influence the future economy and pace of progress.",
+          "title": "The AI Risk Observatory: Analyzing AI Disclosures in Reports",
+          "summary": "An analysis of 9,821 annual reports from UK companies reveals that while AI risk mentions rose from 2.8% to 41.2% between 2020 and 2025, only 4.3% contained substantive disclosures.",
           "keyPoints": [
-            "Advanced AI may have its greatest impact on routine work behind major ideas.",
-            "Execution is examined as a primary driver of the next economy.",
-            "The analysis explores factors influencing the overall pace of progress."
+            "Analyzes 9,821 annual reports from 1,362 UK listed companies",
+            "Shows AI risk mentions increased from 2.8% in 2020 to 41.2% in 2025",
+            "Finds that only 4.3% of 2025 reports contain substantive disclosures"
           ]
         },
         "fr": {
-          "title": "Le complément éternel : l'IA et l'exécution de routine",
-          "summary": "L'IA avancée pourrait avoir son plus grand impact sur les tâches de routine nécessaires aux idées novatrices, montrant comment l'exécution façonnera la future économie.",
+          "title": "L'Observatoire des risques liés à l'IA : analyse des rapports",
+          "summary": "Une analyse de 9 821 rapports annuels d'entreprises britanniques révèle que les mentions de risques liés à l'IA sont passées de 2,8 % à 41,2 % entre 2020 et 2025.",
           "keyPoints": [
-            "L'IA avancée pourrait surtout impacter le travail de routine lié aux percées.",
-            "L'exécution est identifiée comme un levier clé de la prochaine économie.",
-            "Réflexion sur les éléments déterminant le rythme du progrès."
+            "Analyse 9 821 rapports annuels de 1 362 entreprises britanniques",
+            "Montre que les mentions de risques liés à l'IA sont passées de 2,8 % à 41,2 %",
+            "Indique que seuls 4,3 % des rapports de 2025 contiennent des divulgations substantielles"
           ]
         }
       },
       "quality": {
-        "confidence": 0.85,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-637d3dfa247fa8",
-      "title": "Albertsons Reimagines Retail Operations With OpenAI",
-      "summary": "Albertsons Cos. deploys ChatGPT Enterprise and the OpenAI API to accelerate team workflows and streamline grocery shopping for millions of customers.",
+      "id": "feed-5fd89b8ccb4f8e",
+      "title": "CALM: Analyzing Limits of Global Unsafety in Image Generation",
+      "summary": "Researchers propose CALM, a training-free safeguard that uses prompt-local counterfactual correction instead of uniform global removal to suppress unsafe content in text-to-image generation.",
       "keyPoints": [
-        "Albertsons Cos. adopts ChatGPT Enterprise and the OpenAI API.",
-        "Aims to accelerate internal team workflows.",
-        "Intended to enhance the grocery shopping experience for millions of shoppers."
+        "Analyzes the coverage-selectivity trade-off in global safety signals",
+        "Introduces CALM for prompt-local counterfactual correction",
+        "Improves unsafe content suppression while preserving benign utility"
       ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/albertsons-reimagining-retail",
-      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02300",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Albertsons Reimagines Retail Operations With OpenAI",
-          "summary": "Albertsons Cos. deploys ChatGPT Enterprise and the OpenAI API to accelerate team workflows and streamline grocery shopping for millions of customers.",
+          "title": "CALM: Analyzing Limits of Global Unsafety in Image Generation",
+          "summary": "Researchers propose CALM, a training-free safeguard that uses prompt-local counterfactual correction instead of uniform global removal to suppress unsafe content in text-to-image generation.",
           "keyPoints": [
-            "Albertsons Cos. adopts ChatGPT Enterprise and the OpenAI API.",
-            "Aims to accelerate internal team workflows.",
-            "Intended to enhance the grocery shopping experience for millions of shoppers."
+            "Analyzes the coverage-selectivity trade-off in global safety signals",
+            "Introduces CALM for prompt-local counterfactual correction",
+            "Improves unsafe content suppression while preserving benign utility"
           ]
         },
         "fr": {
-          "title": "Albertsons réinvente le commerce de détail avec OpenAI",
-          "summary": "Albertsons Cos. utilise ChatGPT Enterprise et l'API OpenAI pour accélérer le travail de ses équipes et simplifier les courses de millions de clients.",
+          "title": "CALM : Analyse des limites de l'insécurité globale en image",
+          "summary": "Les chercheurs proposent CALM, une protection sans entraînement utilisant une correction contrefactuelle locale pour supprimer le contenu non sécurisé dans la génération d'images.",
           "keyPoints": [
-            "Albertsons Cos. déploie ChatGPT Enterprise et l'API OpenAI.",
-            "L'objectif est d'accélérer les processus des équipes internes.",
-            "Vise à faciliter les courses alimentaires pour des millions de clients."
+            "Analyse le compromis de couverture et de sélectivité",
+            "Présente CALM pour la correction contrefactuelle locale",
+            "Améliore la suppression du contenu non sécurisé tout en préservant l'utilité"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-2167384f51e2a4",
-      "title": "The Den Saves 10-15 Hours Weekly Using ChatGPT Work",
-      "summary": "Social club The Den saves 10 to 15 hours a week using ChatGPT Work, drafting grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "id": "feed-616afaf76617f3",
+      "title": "CITA: Comparative Value Estimation for Long-Horizon Agents",
+      "summary": "CITA trains a Comparative Inference Model using paired signals to estimate the long-horizon value of potential tool invocations before execution, improving tool-use agent performance.",
       "keyPoints": [
-        "The Den saves 10 to 15 hours per week while opening a new location.",
-        "Grant application preparation dropped from 3 days to 2 hours.",
-        "Liquor-license paperwork is completed in 3 hours instead of 4 days."
+        "Proposes Comparative Inference for Tool-use Agents (CITA)",
+        "Trains a Comparative Inference Model on paired signals",
+        "Improves Tool F1 and task success across benchmarks"
       ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/the-den-family-social",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02330",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The Den Saves 10-15 Hours Weekly Using ChatGPT Work",
-          "summary": "Social club The Den saves 10 to 15 hours a week using ChatGPT Work, drafting grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+          "title": "CITA: Comparative Value Estimation for Long-Horizon Agents",
+          "summary": "CITA trains a Comparative Inference Model using paired signals to estimate the long-horizon value of potential tool invocations before execution, improving tool-use agent performance.",
           "keyPoints": [
-            "The Den saves 10 to 15 hours per week while opening a new location.",
-            "Grant application preparation dropped from 3 days to 2 hours.",
-            "Liquor-license paperwork is completed in 3 hours instead of 4 days."
+            "Proposes Comparative Inference for Tool-use Agents (CITA)",
+            "Trains a Comparative Inference Model on paired signals",
+            "Improves Tool F1 and task success across benchmarks"
           ]
         },
         "fr": {
-          "title": "The Den gagne 10 à 15 heures par semaine avec ChatGPT Work",
-          "summary": "Le club The Den libère 10 à 15 heures par semaine grâce à ChatGPT Work, préparant ses demandes de subvention en 2 heures contre 3 jours et ses dossiers de licence d'alcool en 3 heures contre 4 jours.",
+          "title": "CITA : Estimation de valeur comparative pour agents à long terme",
+          "summary": "CITA entraîne un modèle d'inférence comparative pour estimer la valeur à long terme d'invocations d'outils potentielles avant leur exécution, améliorant les performances des agents.",
           "keyPoints": [
-            "The Den gagne 10 à 15 heures hebdomadaires lors de l'ouverture d'un nouveau site.",
-            "Préparation des demandes de subventions passée de 3 jours à 2 heures.",
-            "Dossiers de licence de débit de boissons réalisés en 3 heures au lieu de 4 jours."
+            "Propose CITA pour les agents utilisant des outils",
+            "Entraîne un modèle d'inférence comparative sur des signaux appariés",
+            "Améliore le score F1 des outils et la réussite des tâches"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-c696e8b1f34224",
-      "title": "Introducing SynthID Bio for Watermarking AI Proteins",
-      "summary": "Google DeepMind introduces SynthID Bio, a proof of concept designed to watermark AI-generated proteins while maintaining their biological function.",
+      "id": "feed-e210849485e3a2",
+      "title": "World Editing: Intervening on Executable Worlds at Depth",
+      "summary": "Introducing IGMBench to study world editing through game modding, showing that coding agents can successfully modify executable worlds while facing challenges with intervention depth and visual consistency.",
       "keyPoints": [
-        "Proof of concept for watermarking AI-generated proteins.",
-        "Designed to preserve underlying biological functions.",
-        "Developed under the SynthID initiative by Google DeepMind."
+        "Formulates world editing with intervention depth axes",
+        "Introduces IGMBench with 110 tasks across Minecraft and Terraria",
+        "Finds coding agents solve 78.2% of tasks under strict criteria"
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02331",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "World Editing: Intervening on Executable Worlds at Depth",
+          "summary": "Introducing IGMBench to study world editing through game modding, showing that coding agents can successfully modify executable worlds while facing challenges with intervention depth and visual consistency.",
+          "keyPoints": [
+            "Formulates world editing with intervention depth axes",
+            "Introduces IGMBench with 110 tasks across Minecraft and Terraria",
+            "Finds coding agents solve 78.2% of tasks under strict criteria"
+          ]
+        },
+        "fr": {
+          "title": "Édition de mondes : intervention sur des mondes exécutables",
+          "summary": "Présentation d'IGMBench pour étudier l'édition de mondes à travers le modding de jeux, démontrant que les agents de codage peuvent modifier des environnements exécutables.",
+          "keyPoints": [
+            "Formule l'édition de mondes avec des axes de profondeur d'intervention",
+            "Introduit IGMBench avec 110 tâches sur Minecraft et Terraria",
+            "Montre que les agents de codage résolvent 78,2 % des tâches"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-13fa2f494027f0",
+      "title": "Importance and Performance Analysis of Topological Metrics",
+      "summary": "A study evaluates 21 Natural Visibility Graph topological metrics for cyber-attack detection, finding that a compact subset of three metrics improves accuracy while reducing runtime by 96.06%.",
+      "keyPoints": [
+        "Evaluates 21 Natural Visibility Graph topological metrics",
+        "Uses a Consensus Ranking strategy with four importance methods",
+        "Top3 configuration achieves 97.148% accuracy and 96.06% faster runtime"
       ],
       "category": "Outils",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "publishedAt": "2026-09-30T15:03:07.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/wNhpZFcXYLXFb6alIt0H5NRvEoso2ONZDhPKz6MYEcGltHPbDeHddzkvv5GXl3abW1PZ5ci1Y9lKoYOIjMuHLxATXfWp88-Al6eEmDENrpejIFeimw=w528-h297-n-nu-rw-lo",
-      "translations": {
-        "en": {
-          "title": "Introducing SynthID Bio for Watermarking AI Proteins",
-          "summary": "Google DeepMind introduces SynthID Bio, a proof of concept designed to watermark AI-generated proteins while maintaining their biological function.",
-          "keyPoints": [
-            "Proof of concept for watermarking AI-generated proteins.",
-            "Designed to preserve underlying biological functions.",
-            "Developed under the SynthID initiative by Google DeepMind."
-          ]
-        },
-        "fr": {
-          "title": "Présentation de SynthID Bio pour le marquage des protéines générées par IA",
-          "summary": "Google DeepMind présente SynthID Bio, une preuve de concept pour intégrer des filigranes dans des protéines conçues par IA tout en conservant leur fonction biologique.",
-          "keyPoints": [
-            "Preuve de concept pour le tatouage numérique de protéines créées par IA.",
-            "Maintien garanti de la fonction biologique des protéines.",
-            "Développé par Google DeepMind dans le cadre du projet SynthID."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-90249c2a3882c6",
-      "title": "OpenAI Disrupts Coordinated Model-Distillation Campaign",
-      "summary": "OpenAI intervened against a coordinated effort to extract protected reasoning capabilities from its models and is reinforcing defenses against adversarial distillation.",
-      "keyPoints": [
-        "A coordinated campaign targeted the extraction of protected model reasoning.",
-        "OpenAI disrupted the adversarial extraction attempt.",
-        "Defenses against adversarial distillation are being strengthened."
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02342",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Disrupts Coordinated Model-Distillation Campaign",
-          "summary": "OpenAI intervened against a coordinated effort to extract protected reasoning capabilities from its models and is reinforcing defenses against adversarial distillation.",
+          "title": "Importance and Performance Analysis of Topological Metrics",
+          "summary": "A study evaluates 21 Natural Visibility Graph topological metrics for cyber-attack detection, finding that a compact subset of three metrics improves accuracy while reducing runtime by 96.06%.",
           "keyPoints": [
-            "A coordinated campaign targeted the extraction of protected model reasoning.",
-            "OpenAI disrupted the adversarial extraction attempt.",
-            "Defenses against adversarial distillation are being strengthened."
+            "Evaluates 21 Natural Visibility Graph topological metrics",
+            "Uses a Consensus Ranking strategy with four importance methods",
+            "Top3 configuration achieves 97.148% accuracy and 96.06% faster runtime"
           ]
         },
         "fr": {
-          "title": "OpenAI neutralise une campagne de distillation coordonnée",
-          "summary": "OpenAI a déjoué une tentative coordonnée visant à extraire les capacités de raisonnement protégées de ses modèles et renforce ses défenses contre la distillation malveillante.",
+          "title": "Analyse de performance de métriques topologiques pour la cybersécurité",
+          "summary": "Une étude évalue 21 métriques topologiques de graphues de visibilité naturelle, montrant qu'un sous-ensemble compact améliore la précision et réduit le temps d'exécution de 96,06 %.",
           "keyPoints": [
-            "Une campagne coordonnée ciblait l'extraction du raisonnement protégé des modèles.",
-            "OpenAI a neutralisé cette opération d'extraction.",
-            "Renforcement en cours des défenses contre la distillation contradictoire."
+            "Évalue 21 métriques topologiques de graphes de visibilité",
+            "Utilise une stratégie de classement par consensus",
+            "La configuration Top3 atteint 97,148 % de précision"
           ]
         }
       },
       "quality": {
-        "confidence": 0.9,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-061338e668ed69",
-      "title": "OpenAI Partners With America's SBDC for Small Businesses",
-      "summary": "OpenAI is collaborating with America’s SBDC to provide practical AI training and local guidance to small businesses, accompanying a new report on small-team AI adoption.",
+      "id": "feed-25f0cb851e6be8",
+      "title": "DeReAct: Decomposed Reasoning and Acting for Reliable Agents",
+      "summary": "DeReAct is a modular agent architecture that externalizes a Critic and a Context Manager to validate actions and certify completion, improving reliability in weaker LLM agents.",
       "keyPoints": [
-        "Partnership formed between OpenAI and America’s SBDC.",
-        "Provides hands-on AI training and local support for small businesses.",
-        "Accompanied by a new report analyzing how small teams utilize AI."
+        "Introduces DeReAct with externalized Critic and Context Manager gating",
+        "Improves Pass@1 most significantly for weaker brain models",
+        "Enhances evidence-complete trajectories and constraint satisfaction"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02351",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DeReAct: Decomposed Reasoning and Acting for Reliable Agents",
+          "summary": "DeReAct is a modular agent architecture that externalizes a Critic and a Context Manager to validate actions and certify completion, improving reliability in weaker LLM agents.",
+          "keyPoints": [
+            "Introduces DeReAct with externalized Critic and Context Manager gating",
+            "Improves Pass@1 most significantly for weaker brain models",
+            "Enhances evidence-complete trajectories and constraint satisfaction"
+          ]
+        },
+        "fr": {
+          "title": "DeReAct : Raisonnement et action décomposés pour agents fiables",
+          "summary": "DeReAct est une architecture d'agent modulaire externalisant un critique et un gestionnaire de contexte pour valider les actions et certifier l'achèvement des tâches.",
+          "keyPoints": [
+            "Introduit DeReAct avec un système de validation externe",
+            "Améliore le score Pass@1 pour les modèles plus faibles",
+            "Améliore la satisfaction des contraintes et la complétude"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-942a9179dcab44",
+      "title": "SatisDive: Traversing Satisfaction-Diversity Frontier in Diffusion",
+      "summary": "SatisDive is a training-free inference-time method that formulates text-to-image generation as satisficing, balancing reward floors and batch diversity along a Pareto frontier.",
+      "keyPoints": [
+        "Formulates image generation as satisfying reward and diversity cutoffs",
+        "Introduces SatisDive as a training-free inference-time method",
+        "Pareto-dominates existing steering methods on benchmark datasets"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02372",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SatisDive: Traversing Satisfaction-Diversity Frontier in Diffusion",
+          "summary": "SatisDive is a training-free inference-time method that formulates text-to-image generation as satisficing, balancing reward floors and batch diversity along a Pareto frontier.",
+          "keyPoints": [
+            "Formulates image generation as satisfying reward and diversity cutoffs",
+            "Introduces SatisDive as a training-free inference-time method",
+            "Pareto-dominates existing steering methods on benchmark datasets"
+          ]
+        },
+        "fr": {
+          "title": "SatisDive : Frontière satisfaction-diversité en diffusion",
+          "summary": "SatisDive est une méthode sans entraînement qui formule la génération d'images comme un problème de satisfaction, équilibrant les seuils de récompense et la diversité des lots.",
+          "keyPoints": [
+            "Formule la génération d'images avec des seuils de récompense et de diversité",
+            "Introduit SatisDive comme méthode d'inférence sans entraînement",
+            "Domine les méthodes de guidage existantes sur les bancs d'essai"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3b7b94aae18172",
+      "title": "THPL: Vision-to-Language Decision Support for Rainbow Trout Feeding",
+      "summary": "The authors propose THPL, a generative feeding decision framework for rainbow trout in Recirculating Aquaculture Systems that combines computer vision trajectory extraction, a hierarchical behavior encoder, and an LLM fine-tuned with LoRA and counterfactual multimodal Direct Preference Optimization.",
+      "keyPoints": [
+        "Fishsort extracts trajectories to establish an Activity Coefficient quantifying feeding intensity.",
+        "Dual-evidence physical and implicit soft tokens improve decision accuracy from 33.33% to 93.33%.",
+        "Counterfactual mDPO further increases decision accuracy to 96.67% and improves linguistic metrics."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02378",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "THPL: Vision-to-Language Decision Support for Rainbow Trout Feeding",
+          "summary": "The authors propose THPL, a generative feeding decision framework for rainbow trout in Recirculating Aquaculture Systems that combines computer vision trajectory extraction, a hierarchical behavior encoder, and an LLM fine-tuned with LoRA and counterfactual multimodal Direct Preference Optimization.",
+          "keyPoints": [
+            "Fishsort extracts trajectories to establish an Activity Coefficient quantifying feeding intensity.",
+            "Dual-evidence physical and implicit soft tokens improve decision accuracy from 33.33% to 93.33%.",
+            "Counterfactual mDPO further increases decision accuracy to 96.67% and improves linguistic metrics."
+          ]
+        },
+        "fr": {
+          "title": "THPL : Aide à la décision vision-langage pour l'alimentation des truites",
+          "summary": "Les auteurs proposent THPL, un cadre de décision génératif pour l'alimentation des truites arc-en-ciel en système d'aquaculture en circuit fermé, combinant extraction de trajectoires par vision, encodeur comportemental hiérarchique et LLM optimisé.",
+          "keyPoints": [
+            "Fishsort extrait les trajectoires pour établir un coefficient d'activité quantifiant l'intensité d'alimentation.",
+            "Les jetons physiques et souples à double évidence améliorent la précision des décisions de 33,33 % à 93,33 %.",
+            "Le mDPO contrefactuel porte la précision à 96,67 % et améliore les métriques linguistiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c30014b87bec91",
+      "title": "FlashSinkhorn 2: Block-Sparse Entropic Optimal Transport",
+      "summary": "FlashSinkhorn 2 (FS2) is a streaming GPU solver for squared-Euclidean cost on low-dimensional point clouds that solves large discrete entropic optimal transport problems on a single GPU by combining coarse centroid and block-sparse fine stages.",
+      "keyPoints": [
+        "FS2 couples a coarse stage on cell centroids with a block-sparse fine stage using Morton-ordered blocks.",
+        "On an A100 GPU, FS2 solves discrete EOT between two 1.34x10^8-particle measures in under 2.5 hours.",
+        "An open-source implementation is available via GitHub for reproducibility."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02395",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "FlashSinkhorn 2: Block-Sparse Entropic Optimal Transport",
+          "summary": "FlashSinkhorn 2 (FS2) is a streaming GPU solver for squared-Euclidean cost on low-dimensional point clouds that solves large discrete entropic optimal transport problems on a single GPU by combining coarse centroid and block-sparse fine stages.",
+          "keyPoints": [
+            "FS2 couples a coarse stage on cell centroids with a block-sparse fine stage using Morton-ordered blocks.",
+            "On an A100 GPU, FS2 solves discrete EOT between two 1.34x10^8-particle measures in under 2.5 hours.",
+            "An open-source implementation is available via GitHub for reproducibility."
+          ]
+        },
+        "fr": {
+          "title": "FlashSinkhorn 2 : Transport optimal entropique par blocs creux",
+          "summary": "FlashSinkhorn 2 (FS2) est un solveur GPU en flux continu pour le coût euclidien au carré sur des nuages de points de basse dimension, résolvant de grands problèmes de transport optimal entropique discret sur un seul GPU.",
+          "keyPoints": [
+            "FS2 associe une étape grossière sur les centroïdes à une étape fine par blocs creux ordonnés selon Morton.",
+            "Sur un GPU A100, FS2 résout un EOT discret entre deux mesures de 1,34x10^8 particules en moins de 2,5 heures.",
+            "Une implémentation open source est disponible sur GitHub pour la reproductibilité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-62014dc549ec96",
+      "title": "Demystifying Data Generation and Verification in Terminal-Agent Training",
+      "summary": "This work analyzes failures in meta-agent pipelines that use frontier models like Claude Opus to generate terminal tasks and verifiers for reinforcement learning training, categorizing them into benchmark invalidity, harness brittleness, and reward misalignment.",
+      "keyPoints": [
+        "Prompt redesign and context extension raise baseline solvability 5.6 times, but a 9B model saturates at 81.3% mean pass@2.",
+        "Adding hard tasks reduces mean pass@2 to 20.6%, showing solvability bands are model-specific.",
+        "Meta-agent reliability requires solvability-band calibration, verifier audits, and infrastructure error accounting."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02405",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Demystifying Data Generation and Verification in Terminal-Agent Training",
+          "summary": "This work analyzes failures in meta-agent pipelines that use frontier models like Claude Opus to generate terminal tasks and verifiers for reinforcement learning training, categorizing them into benchmark invalidity, harness brittleness, and reward misalignment.",
+          "keyPoints": [
+            "Prompt redesign and context extension raise baseline solvability 5.6 times, but a 9B model saturates at 81.3% mean pass@2.",
+            "Adding hard tasks reduces mean pass@2 to 20.6%, showing solvability bands are model-specific.",
+            "Meta-agent reliability requires solvability-band calibration, verifier audits, and infrastructure error accounting."
+          ]
+        },
+        "fr": {
+          "title": "Démystifier la génération de données et la vérification pour les agents",
+          "summary": "Ce travail analyse les défaillances des pipelines de méta-agents utilisant des modèles de frontières pour générer des tâches de terminal et des vérificateurs pour l'apprentissage par renforcement, identifiant trois classes d'échecs.",
+          "keyPoints": [
+            "La refonte des invites multiplie la solvabilité par 5,6, mais un modèle 9B sature à 81,3 % de réussite moyenne.",
+            "L'ajout de tâches difficiles réduit le pass@2 moyen à 20,6 %, indiquant des seuils propres à chaque modèle.",
+            "La fiabilité des méta-agents exige une calibration de la solvabilité et des audits de vérificateurs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-713b5bd29d9a20",
+      "title": "Reinforcement Learning for Target Polarization in Nuclear Physics",
+      "summary": "A data-driven control framework combining surrogate modeling and reinforcement learning is presented to optimize dynamic target polarization in nuclear physics scattering experiments using operational data from the APOLLO cryogenic target system.",
+      "keyPoints": [
+        "Gaussian process regression models predict polarization and provide calibrated uncertainty estimates.",
+        "An RL agent is trained using a lower-confidence-bound reward formulation balancing performance and uncertainty.",
+        "The approach achieves an almost 2x improvement over manual expert operator actions."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02452",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Partners With America's SBDC for Small Businesses",
-          "summary": "OpenAI is collaborating with America’s SBDC to provide practical AI training and local guidance to small businesses, accompanying a new report on small-team AI adoption.",
+          "title": "Reinforcement Learning for Target Polarization in Nuclear Physics",
+          "summary": "A data-driven control framework combining surrogate modeling and reinforcement learning is presented to optimize dynamic target polarization in nuclear physics scattering experiments using operational data from the APOLLO cryogenic target system.",
           "keyPoints": [
-            "Partnership formed between OpenAI and America’s SBDC.",
-            "Provides hands-on AI training and local support for small businesses.",
-            "Accompanied by a new report analyzing how small teams utilize AI."
+            "Gaussian process regression models predict polarization and provide calibrated uncertainty estimates.",
+            "An RL agent is trained using a lower-confidence-bound reward formulation balancing performance and uncertainty.",
+            "The approach achieves an almost 2x improvement over manual expert operator actions."
           ]
         },
         "fr": {
-          "title": "OpenAI s'associe à America's SBDC pour soutenir les PME",
-          "summary": "OpenAI collabore avec America’s SBDC pour déployer des formations pratiques à l'IA et un soutien local aux PME, parallèlement à un rapport sur l'utilisation de l'IA par les petites équipes.",
+          "title": "Apprentissage par renforcement pour la polarisation cible en physique",
+          "summary": "Un cadre de contrôle fondé sur les données combine modélisation de substitution et apprentissage par renforcement pour optimiser la polarisation de cibles dynamiques dans des expériences de physique nucléaire.",
           "keyPoints": [
-            "Partenariat conclu entre OpenAI et America’s SBDC.",
-            "Formations pratiques et accompagnement local destinés aux petites entreprises.",
-            "Publication conjointe d'un rapport sur l'usage de l'IA par les petites équipes."
+            "Les modèles de régression par processus gaussien prédisent la polarisation avec des estimations d'incertitude.",
+            "Un agent RL est entraîné via une formulation de récompense équilibrant performance et incertitude.",
+            "L'approche réalise une amélioration de près de 2x par rapport aux actions manuelles des opérateurs."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-6071f63e21f642",
-      "title": "OpenAI DevDay 2026 Recap and Major Announcements",
-      "summary": "OpenAI revealed over 20 announcements at DevDay 2026, highlighting GPT-6 Astra, ChatGPT, Codex, APIs, enhanced security measures, and new tools for builders.",
+      "id": "feed-210970d6bcaadb",
+      "title": "Tropical Reinforcement Learning for Compositional Reasoning",
+      "summary": "The authors introduce Tropical Reinforcement Learning (TROPIC) by substituting the classical sum formulation of expected return with a tropical semiring maximum operation, improving compositional reasoning in large language models.",
       "keyPoints": [
-        "Over 20 announcements unveiled during OpenAI DevDay 2026.",
-        "Introduced GPT-6 Astra alongside updates to ChatGPT and Codex.",
-        "Announced API updates, security enhancements, and new builder tools."
+        "Tropical reinforcement learning takes the maximum of alternative solutions instead of adding probabilities.",
+        "States yield the log-probability of the most likely verified solution with an explicit, reusable path.",
+        "TROPIC outperforms strongest on-policy baselines by up to 16 percentage points on four agentic tasks."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/devday-2026-recap",
-      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02478",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI DevDay 2026 Recap and Major Announcements",
-          "summary": "OpenAI revealed over 20 announcements at DevDay 2026, highlighting GPT-6 Astra, ChatGPT, Codex, APIs, enhanced security measures, and new tools for builders.",
+          "title": "Tropical Reinforcement Learning for Compositional Reasoning",
+          "summary": "The authors introduce Tropical Reinforcement Learning (TROPIC) by substituting the classical sum formulation of expected return with a tropical semiring maximum operation, improving compositional reasoning in large language models.",
           "keyPoints": [
-            "Over 20 announcements unveiled during OpenAI DevDay 2026.",
-            "Introduced GPT-6 Astra alongside updates to ChatGPT and Codex.",
-            "Announced API updates, security enhancements, and new builder tools."
+            "Tropical reinforcement learning takes the maximum of alternative solutions instead of adding probabilities.",
+            "States yield the log-probability of the most likely verified solution with an explicit, reusable path.",
+            "TROPIC outperforms strongest on-policy baselines by up to 16 percentage points on four agentic tasks."
           ]
         },
         "fr": {
-          "title": "Récapitulatif des annonces de l'OpenAI DevDay 2026",
-          "summary": "OpenAI a dévoilé plus de 20 nouveautés lors du DevDay 2026, incluant GPT-6 Astra, ChatGPT, Codex, des API, des mesures de sécurité et de nouveaux outils pour les développeurs.",
+          "title": "Apprentissage par renforcement tropical pour le raisonnement",
+          "summary": "Les auteurs introduisent le TROPIC en remplaçant la formulation classique de la somme par le maximum d'un semi-anneau tropical, améliorant le raisonnement compositionnel dans les grands modèles de langage.",
           "keyPoints": [
-            "Plus de 20 annonces présentées lors de l'OpenAI DevDay 2026.",
-            "Mise en avant de GPT-6 Astra, de ChatGPT et de Codex.",
-            "Nouveautés sur les API, la sécurité et des outils pour les créateurs."
+            "L'apprentissage par renforcement tropical prend le maximum des solutions alternatives au lieu d'additionner les probabilités.",
+            "Les états fournissent la log-probabilité de la solution vérifiée la plus probable avec un chemin réutilisable.",
+            "TROPIC surpasse les bases de référence sur politique de 16 points de pourcentage sur quatre tâches d'agents."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-25179040a1b703",
+      "title": "MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations",
+      "summary": "MEA is a multi-agent framework designed to remove the explainability knowledge barrier by employing a Proposer agent to configure tools and an Actor agent optimized end-to-end against faithfulness across tabular, text, and vision modalities.",
+      "keyPoints": [
+        "Frontier LLMs systematically produce unfaithful explanations without task-specific optimization.",
+        "MEA optimizes against faithfulness rewards augmented with a modality-adaptive penalty.",
+        "The framework yields faithfulness gains of +28% for tabular, +21% for text, and +34% for vision data."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02480",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations",
+          "summary": "MEA is a multi-agent framework designed to remove the explainability knowledge barrier by employing a Proposer agent to configure tools and an Actor agent optimized end-to-end against faithfulness across tabular, text, and vision modalities.",
+          "keyPoints": [
+            "Frontier LLMs systematically produce unfaithful explanations without task-specific optimization.",
+            "MEA optimizes against faithfulness rewards augmented with a modality-adaptive penalty.",
+            "The framework yields faithfulness gains of +28% for tabular, +21% for text, and +34% for vision data."
+          ]
+        },
+        "fr": {
+          "title": "MEA : Un système multi-agent guidé par récompense pour des explications",
+          "summary": "MEA est un cadre multi-agent conçu pour éliminer la barrière des connaissances en explicabilité grâce à un agent proposant et un agent acteur optimisé de bout en bout sur la fidélité pour divers types de données.",
+          "keyPoints": [
+            "Les LLM de pointe produisent systématiquement des explications infidèles sans optimisation spécifique.",
+            "MEA optimise les récompenses de fidélité complétées par une pénalité adaptative à la modalité.",
+            "Le cadre génère des gains de fidélité de +28 % (tabulaire), +21 % (texte) et +34 % (vision)."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b4fa3916cc3638",
+      "title": "What Does a Token Cost? Measuring Sufficient Per-Token Compute",
+      "summary": "Using a Mixture-of-Agents approach with fifteen language models, this study measures the inference cost required for successful token generation, demonstrating that a small fraction of tokens accounts for the vast majority of computational costs.",
+      "keyPoints": [
+        "A 0.5B model successfully reproduces 92-95% of reference tokens across tested benchmarks.",
+        "The most expensive 10% of tokens account for 64-80% of estimated FLOPs.",
+        "A MoA-derived map reduces projected latency on MATH-500 problems from 7.59 to 5.12 seconds."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02491",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "What Does a Token Cost? Measuring Sufficient Per-Token Compute",
+          "summary": "Using a Mixture-of-Agents approach with fifteen language models, this study measures the inference cost required for successful token generation, demonstrating that a small fraction of tokens accounts for the vast majority of computational costs.",
+          "keyPoints": [
+            "A 0.5B model successfully reproduces 92-95% of reference tokens across tested benchmarks.",
+            "The most expensive 10% of tokens account for 64-80% of estimated FLOPs.",
+            "A MoA-derived map reduces projected latency on MATH-500 problems from 7.59 to 5.12 seconds."
+          ]
+        },
+        "fr": {
+          "title": "Quel est le coût d'un jeton ? Mesure du calcul suffisant par jeton",
+          "summary": "À l'aide d'une approche par mélange d'agents comprenant quinze modèles de langage, cette étude mesure le coût d'inférence requis pour générer chaque jeton avec succès.",
+          "keyPoints": [
+            "Un modèle de 0,5B reproduit avec succès 92 à 95 % des jetons de référence sur les bancs d'essai.",
+            "Les 10 % de jetons les plus coûteux représentent 64 à 80 % des FLOP estimés.",
+            "Une carte dérivée du mélange d'agents réduit la latence sur MATH-500 de 7,59 à 5,12 secondes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-652e18df3e1ccb",
+      "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI",
+      "summary": "Introducing O*NET-BENCH, an audit suite based on worker ratings, this paper evaluates 33 LLM judge configurations and demonstrates that ranking agreement alone does not guarantee agreement on acceptance rates or occupational aggregates.",
+      "keyPoints": [
+        "Twenty-five judge configurations achieve tie-aware pair accuracy of at least 0.60.",
+        "Judges estimate acceptance rates ranging from 3.0% to 97.9%, compared with 61.1% for actual workers.",
+        "Ranking agreement is insufficient for occupational measurement, and judges require calibration against target metrics."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02492",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI",
+          "summary": "Introducing O*NET-BENCH, an audit suite based on worker ratings, this paper evaluates 33 LLM judge configurations and demonstrates that ranking agreement alone does not guarantee agreement on acceptance rates or occupational aggregates.",
+          "keyPoints": [
+            "Twenty-five judge configurations achieve tie-aware pair accuracy of at least 0.60.",
+            "Judges estimate acceptance rates ranging from 3.0% to 97.9%, compared with 61.1% for actual workers.",
+            "Ranking agreement is insufficient for occupational measurement, and judges require calibration against target metrics."
+          ]
+        },
+        "fr": {
+          "title": "Bon ordre, mauvaise échelle : Auditer les juges LLM pour l'IA",
+          "summary": "Présentant O*NET-BENCH, une suite d'audit fondée sur des évaluations de travailleurs, cet article évalue 33 configurations de juges LLM et montre que l'accord de classement ne suffit pas pour les taux d'acceptation.",
+          "keyPoints": [
+            "Vingt-cinq configurations de juges atteignent une précision par paire d'au moins 0,60.",
+            "Les juges estiment des taux d'acceptation de 3,0 % à 97,9 %, contre 61,1 % pour les travailleurs.",
+            "L'accord de classement est insuffisant pour la mesure professionnelle sans calibration."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-5822658d335e9b",
+      "title": "Examining MT Risk Awareness Among Healthcare Staff Using Abbreviations",
+      "summary": "This study examines risk awareness of machine translation use among 21 UK healthcare staff through semi-structured interviews and clinical translation examples involving medical abbreviations.",
+      "keyPoints": [
+        "Healthcare staff frequently turn to machine translation tools like Google Translate to communicate across language barriers.",
+        "Medical abbreviations present well-documented patient safety risks even in monolingual contexts.",
+        "Contextualized clinical data examples were used to evaluate staff recognition of translation risks."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02496",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Examining MT Risk Awareness Among Healthcare Staff Using Abbreviations",
+          "summary": "This study examines risk awareness of machine translation use among 21 UK healthcare staff through semi-structured interviews and clinical translation examples involving medical abbreviations.",
+          "keyPoints": [
+            "Healthcare staff frequently turn to machine translation tools like Google Translate to communicate across language barriers.",
+            "Medical abbreviations present well-documented patient safety risks even in monolingual contexts.",
+            "Contextualized clinical data examples were used to evaluate staff recognition of translation risks."
+          ]
+        },
+        "fr": {
+          "title": "Examen de la conscience des risques de la traduction automatique",
+          "summary": "Cette étude analyse la conscience des risques liés à la traduction automatique chez 21 membres du personnel de santé britannique à l'aide d'entretiens et d'exemples cliniques impliquant des abréviations médicales.",
+          "keyPoints": [
+            "Le personnel de santé utilise fréquemment des outils de traduction automatique pour surmonter la barrière de la langue.",
+            "Les abréviations médicales posent des risques documentés pour la sécurité des patients, y compris en contexte unilingue.",
+            "Des exemples cliniques contextualisés ont servi à évaluer la perception des risques par le personnel."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-700a328b4a4b31",
+      "title": "HXAI: Hierarchical Privacy-Preserving Explainable AI in Energy Systems",
+      "summary": "The authors introduce HXAI, a hierarchical framework for distributed energy systems that preserves household privacy while generating explainable analyses for grid-level demand management through local models and zonal aggregation.",
+      "keyPoints": [
+        "HXAI consists of a secure local model for fine-grained explanations and an aggregating zonal model.",
+        "Privacy exposure is explicitly limited under repeated operator queries via flexible privacy-budget management.",
+        "Preserving the semantic structure of explanations is identified as key to XAI under differential privacy."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02504",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "HXAI: Hierarchical Privacy-Preserving Explainable AI in Energy Systems",
+          "summary": "The authors introduce HXAI, a hierarchical framework for distributed energy systems that preserves household privacy while generating explainable analyses for grid-level demand management through local models and zonal aggregation.",
+          "keyPoints": [
+            "HXAI consists of a secure local model for fine-grained explanations and an aggregating zonal model.",
+            "Privacy exposure is explicitly limited under repeated operator queries via flexible privacy-budget management.",
+            "Preserving the semantic structure of explanations is identified as key to XAI under differential privacy."
+          ]
+        },
+        "fr": {
+          "title": "HXAI : IA explicable hiérarchique et respectueuse de la vie privée",
+          "summary": "Les auteurs présentent HXAI, un cadre hiérarchique pour les systèmes énergétiques distribués qui préserve la confidentialité des ménages tout en générant des analyses explicables pour la gestion de la demande du réseau.",
+          "keyPoints": [
+            "HXAI comprend un modèle local sécurisé pour des explications fines et un modèle zonal d'agrégation.",
+            "L'exposition à la vie privée est explicitement limitée face aux requêtes répétées grâce à un budget de confidentialité.",
+            "Préserver la structure sémantique des explications est essentiel pour l'IA explicable sous confidentialité différentielle."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 452,
-    "itemsPublished": 10,
-    "newItems": 0,
-    "batches": 3,
+    "itemsCollected": 425,
+    "itemsPublished": 20,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
-    "model": "gemini-3.8-flash",
-    "status": "generation-failed-preserved-previous-feed"
+    "model": "gemini-3.5-flash-lite",
+    "status": "updated"
   }
 }
