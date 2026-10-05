@@ -1,783 +1,783 @@
 {
-  "generatedAt": "2026-10-05T13:20:18.383Z",
+  "generatedAt": "2026-10-05T13:45:52.395Z",
   "items": [
     {
-      "id": "feed-f8e6e153e2c775",
-      "title": "World Action Modeling with Progressive Visual Planning",
-      "summary": "ProWAM is a progressive world action model that jointly predicts actions and an ordered sequence of sparse visual sub-goals, providing explicit visual guidance for robotic control. It eliminates iterative full-video generation and caches sparse sub-goal features through a single video-backbone pass.",
+      "id": "feed-0e5aeef72de43d",
+      "title": "DataWeave: Human-LLM Analytics for Exploratory Data Analysis",
+      "summary": "DataWeave is a system designed for journalists to perform exploratory structured data analysis by combining conversational interaction, schema grounding, and query generation. Rather than treating LLMs as autonomous answer engines, DataWeave frames them as interactive partners. A case study using the U.S. Department of Education's IPEDS dataset demonstrates how iterative refinement shapes trustworthy human-LLM collaboration.",
       "keyPoints": [
-        "ProWAM predicts actions and sparse visual sub-goals jointly.",
-        "It achieves strong out-of-distribution robustness and new state-of-the-art results on simulation benchmarks.",
-        "In zero-shot real-world experiments, it achieves a 70.0% success rate on novel scenes."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02508",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "World Action Modeling with Progressive Visual Planning",
-          "summary": "ProWAM is a progressive world action model that jointly predicts actions and an ordered sequence of sparse visual sub-goals, providing explicit visual guidance for robotic control. It eliminates iterative full-video generation and caches sparse sub-goal features through a single video-backbone pass.",
-          "keyPoints": [
-            "ProWAM predicts actions and sparse visual sub-goals jointly.",
-            "It achieves strong out-of-distribution robustness and new state-of-the-art results on simulation benchmarks.",
-            "In zero-shot real-world experiments, it achieves a 70.0% success rate on novel scenes."
-          ]
-        },
-        "fr": {
-          "title": "Modélisation d'action mondiale avec planification visuelle progressive",
-          "summary": "ProWAM est un modèle d'action mondiale progressif qui prédit conjointement les actions et une séquence ordonnée de sous-objectifs visuels sporadiques, offrant un guidage visuel explicite pour le contrôle robotique. Il élimine la génération vidéo complète itérative.",
-          "keyPoints": [
-            "ProWAM prédit conjointement les actions et les sous-objectifs visuels sporadiques.",
-            "Il atteint une forte robustesse hors distribution et de nouveaux résultats de pointe.",
-            "Dans des expériences réelles zero-shot, il atteint un taux de réussite de 70,0 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-cb1488b2e2114c",
-      "title": "On-Premises Multi-Course RAG Tutoring for Business Education",
-      "summary": "CourseChat is an on-premises, multi-course RAG tutor for undergraduate business education deployed behind a campus web gateway and embedded in Moodle. It utilizes twin-edge AI hosts running FastAPI, a local vector database, and local LLMs served by Ollama to keep student dialogue and course materials institutional.",
-      "keyPoints": [
-        "CourseChat serves six isolated course offerings using local LLMs and vector databases.",
-        "Testing showed that an 8B model was retained for production after speed and accuracy evaluations.",
-        "Software changes improved follow-up topic resolution while decoupling practice from live generation."
+        "Addresses real newsroom workflow failures like schema mismatches and domain semantics.",
+        "Combines conversational interaction, schema grounding, and analytical planning.",
+        "Tested using a case study with professional journalists analyzing the U.S. IPEDS dataset."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02510",
+      "sourceUrl": "https://arxiv.org/abs/2610.02679",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "On-Premises Multi-Course RAG Tutoring for Business Education",
-          "summary": "CourseChat is an on-premises, multi-course RAG tutor for undergraduate business education deployed behind a campus web gateway and embedded in Moodle. It utilizes twin-edge AI hosts running FastAPI, a local vector database, and local LLMs served by Ollama to keep student dialogue and course materials institutional.",
+          "title": "DataWeave: Human-LLM Analytics for Exploratory Data Analysis",
+          "summary": "DataWeave is a system designed for journalists to perform exploratory structured data analysis by combining conversational interaction, schema grounding, and query generation. Rather than treating LLMs as autonomous answer engines, DataWeave frames them as interactive partners. A case study using the U.S. Department of Education's IPEDS dataset demonstrates how iterative refinement shapes trustworthy human-LLM collaboration.",
           "keyPoints": [
-            "CourseChat serves six isolated course offerings using local LLMs and vector databases.",
-            "Testing showed that an 8B model was retained for production after speed and accuracy evaluations.",
-            "Software changes improved follow-up topic resolution while decoupling practice from live generation."
+            "Addresses real newsroom workflow failures like schema mismatches and domain semantics.",
+            "Combines conversational interaction, schema grounding, and analytical planning.",
+            "Tested using a case study with professional journalists analyzing the U.S. IPEDS dataset."
           ]
         },
         "fr": {
-          "title": "Tutorat RAG multicours sur site pour l'enseignement commercial",
-          "summary": "CourseChat est un tuteur RAG multicours sur site pour l'enseignement de gestion de premier cycle, déployé derrière une passerelle Web de campus et intégré dans Moodle. Il utilise des hôtes d'IA jumeaux exécutant FastAPI, une base de données vectorielle locale et des LLM locaux.",
+          "title": "DataWeave : Analyses humain-LLM pour l'analyse de données",
+          "summary": "DataWeave est un système conçu pour les journalistes afin de réaliser des analyses exploratoires de données structurées en combinant interaction conversationnelle, ancrage de schéma et génération de requêtes. Le système traite les LLM comme des partenaires interactifs dont les sorties peuvent être inspectées et corrigées. Une étude de cas avec des journalistes professionnels analyse l'ensemble de données IPEDS.",
           "keyPoints": [
-            "CourseChat dessert six cours isolés en utilisant des LLM locaux et des bases de données vectorielles.",
-            "Un modèle de 8B a été conservé pour la production après des évaluations de vitesse et de précision.",
-            "Les modifications logicielles ont amélioré la résolution des sujets de suivi."
+            "Remédie aux échecs des flux de travail en salle de rédaction tels que les erreurs de schéma.",
+            "Combine interaction conversationnelle, ancrage de schéma et planification analytique.",
+            "Évalué via une étude de cas avec des journalistes professionnels sur les données IPEDS."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-11e9fbd537239b",
-      "title": "Hypothesis-Guided Discovery of Cognitive Algorithms",
-      "summary": "The paper proposes a hybrid system treating the discovery of cognitive algorithms as a program refinement problem. Human-created cognitive models are expressed as probabilistic programs, which LLM agents modify and verify based on behavioral data mismatches.",
+      "id": "feed-680fab0575d1f8",
+      "title": "LLMs Exhibit Unreliable Updating of Clinical Judgment",
+      "summary": "This study evaluates whether large language models appropriately revise clinical judgments as patient evidence evolves over time using electronic health records. Results show that conditioning on a preceding judgment often increased prediction error, revealing two main failure modes related to asymmetric responses and prior risk influence. An Evidence-Validated Longitudinal Update method identified fewer, more reliable revisions.",
       "keyPoints": [
-        "The hybrid system treats cognitive algorithm discovery as a program refinement problem.",
-        "LLM agents propose code-level modifications to human-created probabilistic programs.",
-        "Revised models consistently improve model fit relative to ancestral models on problem-solving tasks."
+        "Evaluated longitudinal belief updating using intensive-care electronic health records.",
+        "Identified failure modes regarding asymmetric responses to evidence and prior risk influence.",
+        "Introduced Evidence-Validated Longitudinal Update to find more reliable revisions."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02523",
+      "sourceUrl": "https://arxiv.org/abs/2610.02684",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Hypothesis-Guided Discovery of Cognitive Algorithms",
-          "summary": "The paper proposes a hybrid system treating the discovery of cognitive algorithms as a program refinement problem. Human-created cognitive models are expressed as probabilistic programs, which LLM agents modify and verify based on behavioral data mismatches.",
+          "title": "LLMs Exhibit Unreliable Updating of Clinical Judgment",
+          "summary": "This study evaluates whether large language models appropriately revise clinical judgments as patient evidence evolves over time using electronic health records. Results show that conditioning on a preceding judgment often increased prediction error, revealing two main failure modes related to asymmetric responses and prior risk influence. An Evidence-Validated Longitudinal Update method identified fewer, more reliable revisions.",
           "keyPoints": [
-            "The hybrid system treats cognitive algorithm discovery as a program refinement problem.",
-            "LLM agents propose code-level modifications to human-created probabilistic programs.",
-            "Revised models consistently improve model fit relative to ancestral models on problem-solving tasks."
+            "Evaluated longitudinal belief updating using intensive-care electronic health records.",
+            "Identified failure modes regarding asymmetric responses to evidence and prior risk influence.",
+            "Introduced Evidence-Validated Longitudinal Update to find more reliable revisions."
           ]
         },
         "fr": {
-          "title": "Découverte guidée par hypothèses d'algorithmes cognitifs",
-          "summary": "L'article propose un système hybride traitant la découverte d'algorithmes cognitifs comme un problème de raffinement de programme. Des modèles cognitifs créés par l'humain sont exprimés sous forme de programmes probabilistes modifiés par des agents LLM.",
+          "title": "Mise à jour non fiable du jugement clinique par les LLM",
+          "summary": "Cette étude évalue si les grands modèles de langage révisent de manière appropriée les jugements cliniques à mesure que l'état des patients évolue, en utilisant des dossiers médicaux. Les résultats montrent que le conditionnement sur un jugement précédent augmente souvent l'erreur de prédiction, révélant deux modes d'échec principaux. La méthode EVLU identifie des révisions plus fiables.",
           "keyPoints": [
-            "Le système hybride traite la découverte d'algorithmes cognitifs via le raffinement de programmes.",
-            "Des agents LLM proposent des modifications de code sur des programmes probabilistes.",
-            "Les modèles révisés améliorent systématiquement l'ajustement par rapport aux modèles ancestraux."
+            "Évaluation de la mise à jour des croyances longitudinales à partir de dossiers médicaux.",
+            "Identification de modes d'échec liés à des réponses asymétriques et à l'influence des risques.",
+            "Introduction d'une méthode de mise à jour longitudinale validée par les preuves (EVLU)."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-0cf18f180d63c3",
-      "title": "Meta-Reasoning for Long-Horizon Research Agents",
-      "summary": "MIRA is a hierarchical architecture separating research allocation from execution for long-horizon research agents. An outer-loop meta-reasoner curates context and writes work orders, while an inner-loop executor carries them out, improving long-horizon inference without policy training.",
+      "id": "feed-fcde78ec6cf0ff",
+      "title": "Structured Memory for Token-Efficient Test-Time Continual Learning",
+      "summary": "To address token cost and context limits in continual LLM adaptation, this paper introduces GraphMemory, a lightweight graph-based memory that accumulates and organizes reusable strategies. For each query, GraphMemory retrieves only the relevant subgraph, enabling online context adaptation. Experiments show it achieves competitive performance while using significantly fewer memory-construction tokens.",
       "keyPoints": [
-        "MIRA separates research allocation from execution using a hierarchical architecture.",
-        "It improves long-horizon inference and compute allocation in theorem proving and neural-architecture research.",
-        "MIRA-AC combines return forecasting and investigation choices to enable efficient long-horizon reinforcement learning."
+        "Proposes GraphMemory, a lightweight graph-based memory for online context adaptation.",
+        "Retrieves only relevant subgraphs to keep memory size constant as examples grow.",
+        "Achieves competitive performance while using 81-85% fewer construction tokens."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02525",
+      "sourceUrl": "https://arxiv.org/abs/2610.02687",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Meta-Reasoning for Long-Horizon Research Agents",
-          "summary": "MIRA is a hierarchical architecture separating research allocation from execution for long-horizon research agents. An outer-loop meta-reasoner curates context and writes work orders, while an inner-loop executor carries them out, improving long-horizon inference without policy training.",
+          "title": "Structured Memory for Token-Efficient Test-Time Continual Learning",
+          "summary": "To address token cost and context limits in continual LLM adaptation, this paper introduces GraphMemory, a lightweight graph-based memory that accumulates and organizes reusable strategies. For each query, GraphMemory retrieves only the relevant subgraph, enabling online context adaptation. Experiments show it achieves competitive performance while using significantly fewer memory-construction tokens.",
           "keyPoints": [
-            "MIRA separates research allocation from execution using a hierarchical architecture.",
-            "It improves long-horizon inference and compute allocation in theorem proving and neural-architecture research.",
-            "MIRA-AC combines return forecasting and investigation choices to enable efficient long-horizon reinforcement learning."
+            "Proposes GraphMemory, a lightweight graph-based memory for online context adaptation.",
+            "Retrieves only relevant subgraphs to keep memory size constant as examples grow.",
+            "Achieves competitive performance while using 81-85% fewer construction tokens."
           ]
         },
         "fr": {
-          "title": "Méta-raisonnement pour agents de recherche à long horizon",
-          "summary": "MIRA est une architecture hiérarchique séparant l'allocation de la recherche de l'exécution pour les agents de recherche à long horizon. Un méta-raisonneur de boucle externe gère le contexte tandis qu'un exécuteur de boucle interne les réalise.",
+          "title": "Mémoire structurée pour l'apprentissage continu à l'inférence",
+          "summary": "Pour répondre aux coûts en jetons et aux limites de contexte, cet article présente GraphMemory, une mémoire à base de graphes qui organise des stratégies réutilisables. Pour chaque requête, GraphMemory récupère uniquement le sous-graphe pertinent. Les expériences montrent qu'il atteint des performances compétitives tout en réduisant nettement l'utilisation de jetons.",
           "keyPoints": [
-            "MIRA sépare l'allocation de la recherche de l'exécution via une architecture hiérarchique.",
-            "Il améliore l'inférence à long horizon en démonstration de théorèmes et en recherche d'architecture.",
-            "MIRA-AC combine la prévision de rendement et le choix des investigations pour un apprentissage par renforcement efficace."
+            "Propose GraphMemory, une mémoire légère basée sur les graphes pour l'adaptation contextuelle.",
+            "Récupère uniquement le sous-graphe pertinent pour maintenir la taille de la mémoire constante.",
+            "Réduit l'utilisation des jetons de construction de mémoire de 81 à 85 %."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-121e23890ef022",
-      "title": "Fine-Tuning vs RAG for LM-based World Modeling",
-      "summary": "A systematic evaluation across five diverse environments compares fine-tuning and RAG-based approaches for LM-based world modeling. The study reveals that fine-tuning often outperforms RAG while RAG approaches are more data-efficient, leading to a hybrid system combining both paradigms.",
+      "id": "feed-5a3c309489338f",
+      "title": "Learning to Revise Reasoning with Segment-wise On-Policy Distillation",
+      "summary": "The paper introduces Segment-wise On-Policy Distillation (Seg-OPD) to improve LLM reasoning revision by targeting intermediate steps. Seg-OPD selects student segments using an uncertainty metric, obtains teacher redrafts, and trains the student to prefer these redrafts while retaining token-wise supervision. Experiments demonstrate a 5.22% average relative improvement in reasoning accuracy across tasks.",
       "keyPoints": [
-        "Fine-tuning often outperforms RAG, helping agents obtain higher rewards across multiple settings.",
-        "RAG-based approaches prove more data-efficient and benefit from counterfactual error estimation.",
-        "A hybrid system capturing core dynamics while relying on retrieval consistently outperforms other methods."
+        "Introduces Segment-wise On-Policy Distillation (Seg-OPD) for reasoning revision.",
+        "Uses an uncertainty metric to select student segments for teacher redrafts.",
+        "Achieves an average relative improvement of 5.22% in reasoning accuracy across tasks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02542",
+      "sourceUrl": "https://arxiv.org/abs/2610.02703",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Fine-Tuning vs RAG for LM-based World Modeling",
-          "summary": "A systematic evaluation across five diverse environments compares fine-tuning and RAG-based approaches for LM-based world modeling. The study reveals that fine-tuning often outperforms RAG while RAG approaches are more data-efficient, leading to a hybrid system combining both paradigms.",
+          "title": "Learning to Revise Reasoning with Segment-wise On-Policy Distillation",
+          "summary": "The paper introduces Segment-wise On-Policy Distillation (Seg-OPD) to improve LLM reasoning revision by targeting intermediate steps. Seg-OPD selects student segments using an uncertainty metric, obtains teacher redrafts, and trains the student to prefer these redrafts while retaining token-wise supervision. Experiments demonstrate a 5.22% average relative improvement in reasoning accuracy across tasks.",
           "keyPoints": [
-            "Fine-tuning often outperforms RAG, helping agents obtain higher rewards across multiple settings.",
-            "RAG-based approaches prove more data-efficient and benefit from counterfactual error estimation.",
-            "A hybrid system capturing core dynamics while relying on retrieval consistently outperforms other methods."
+            "Introduces Segment-wise On-Policy Distillation (Seg-OPD) for reasoning revision.",
+            "Uses an uncertainty metric to select student segments for teacher redrafts.",
+            "Achieves an average relative improvement of 5.22% in reasoning accuracy across tasks."
           ]
         },
         "fr": {
-          "title": "Fine-tuning vs RAG pour la modélisation du monde par LM",
-          "summary": "Une évaluation systématique dans cinq environnements compare le fine-tuning et les approches RAG pour la modélisation du monde par LM. L'étude révèle que le fine-tuning surpasse souvent le RAG, tandis que le RAG est plus efficace en données.",
+          "title": "Apprentissage de la révision du raisonnement avec Seg-OPD",
+          "summary": "L'article présente la distillation en politique par segments (Seg-OPD) pour améliorer la révision du raisonnement des LLM. Seg-OPD sélectionne des segments d'étudiants à l'aide d'une métrique d'incertitude et obtient des rédactions de l'enseignant. Les expériences démontrent une amélioration relative moyenne de 5,22 % de la précision du raisonnement.",
           "keyPoints": [
-            "Le fine-tuning surpasse souvent le RAG pour l'obtention de meilleures récompenses.",
-            "Les approches RAG s'avèrent plus efficaces en matière de données.",
-            "Un système hybride combinant dynamique paramétrique et récupération surpasse les autres méthodes."
+            "Introduit la distillation en politique par segments (Seg-OPD) pour la révision.",
+            "Utilise une métrique d'incertitude pour sélectionner les segments des étudiants.",
+            "Atteint une amélioration relative moyenne de 5,22 % de la précision du raisonnement."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-0552b74908d0e5",
-      "title": "An Instance-Optimal Protocol for AI Debate",
-      "summary": "The paper presents a new AI debate protocol that guarantees correctness in a worst-case sense rather than an average-case sense. It ensures that being honest is a dominant-strategy equilibrium and proves black-box lower bounds showing instance-wise optimality.",
+      "id": "feed-49e484b89a4943",
+      "title": "Label-Efficient Time Series Classification with Dual-Stream OSSE-LSTM",
+      "summary": "Addressing the challenge of expensive time-volume annotations, the authors propose Dual-Stream OSSE-LSTM, an episodic metric-learning framework combining an Omni-Scale CNN and a Bidirectional LSTM. They also introduce Counterfactual Integrated Gradients (C-IG) for explainable prototype margins. On 19 UCR datasets, OSSE-LSTM attains the highest average accuracy across support sizes.",
       "keyPoints": [
-        "The protocol provides worst-case correctness guarantees for problem subproblem decompositions.",
-        "Honesty and correctness are established as a dominant-strategy equilibrium for both debaters.",
-        "Black-box lower bounds demonstrate that the new protocol is instance-wise optimal."
+        "Proposes Dual-Stream OSSE-LSTM combining Omni-Scale CNN and Bidirectional LSTM.",
+        "Introduces Counterfactual Integrated Gradients (C-IG) for prototype attribution.",
+        "Attains highest average accuracy across support sizes on 19 univariate UCR datasets."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02704",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Label-Efficient Time Series Classification with Dual-Stream OSSE-LSTM",
+          "summary": "Addressing the challenge of expensive time-volume annotations, the authors propose Dual-Stream OSSE-LSTM, an episodic metric-learning framework combining an Omni-Scale CNN and a Bidirectional LSTM. They also introduce Counterfactual Integrated Gradients (C-IG) for explainable prototype margins. On 19 UCR datasets, OSSE-LSTM attains the highest average accuracy across support sizes.",
+          "keyPoints": [
+            "Proposes Dual-Stream OSSE-LSTM combining Omni-Scale CNN and Bidirectional LSTM.",
+            "Introduces Counterfactual Integrated Gradients (C-IG) for prototype attribution.",
+            "Attains highest average accuracy across support sizes on 19 univariate UCR datasets."
+          ]
+        },
+        "fr": {
+          "title": "Classification de séries temporelles avec Dual-Stream OSSE-LSTM",
+          "summary": "Pour faire face au coût des annotations de séries temporelles, les auteurs proposent Dual-Stream OSSE-LSTM, un cadre d'apprentissage métrique combinant un CNN multi-échelle et un LSTM bidirectionnel. Ils introduisent également les gradients intégrés contrefactuels pour l'explicabilité. Sur 19 jeux de données UCR, OSSE-LSTM obtient la précision moyenne la plus élevée.",
+          "keyPoints": [
+            "Propose Dual-Stream OSSE-LSTM associant CNN multi-échelle et LSTM bidirectionnel.",
+            "Introduit les gradients intégrés contrefactuels pour l'attribution des prototypes.",
+            "Atteint la précision moyenne la plus élevée sur 19 jeux de données UCR univariés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8224749fae2f4d",
+      "title": "Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds",
+      "summary": "Ego2World is a benchmark that transforms annotated cooking videos into executable planning environments under partial observation. The compiler links actions to symbolic rules, persistent states, and task conditions. Experiments across multiple planners reveal how belief states impact action validity and visual-query attempts.",
+      "keyPoints": [
+        "Introduces Ego2World benchmark converting egocentric cooking videos into planning environments.",
+        "Maintains world state and agent belief separately for controlled evaluations.",
+        "Shows persistent belief improves action validity and reduces visual-query attempts."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02715",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds",
+          "summary": "Ego2World is a benchmark that transforms annotated cooking videos into executable planning environments under partial observation. The compiler links actions to symbolic rules, persistent states, and task conditions. Experiments across multiple planners reveal how belief states impact action validity and visual-query attempts.",
+          "keyPoints": [
+            "Introduces Ego2World benchmark converting egocentric cooking videos into planning environments.",
+            "Maintains world state and agent belief separately for controlled evaluations.",
+            "Shows persistent belief improves action validity and reduces visual-query attempts."
+          ]
+        },
+        "fr": {
+          "title": "Ego2World : Conversion de vidéos de cuisine en mondes exécutables",
+          "summary": "Ego2World est un banc d'essai qui transforme des vidéos de cuisine annotées en environnements de planification exécutables sous observation partielle. Le compilateur relie les actions à des règles symboliques et des états persistants. Des expériences montrent l'impact de l'état de croyance sur la validité des actions.",
+          "keyPoints": [
+            "Introduit le banc d'essai Ego2World pour convertir des vidéos égocentriques en environnements.",
+            "Maintient l'état du monde et la croyance de l'agent séparément pour des études contrôlées.",
+            "Montre que la croyance persistante améliore la validité des actions."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a6fa9bb283e70f",
+      "title": "On the Chain-of-Thought Monitorability of Looped Language Models",
+      "summary": "This work evaluates chain-of-thought (CoT) monitorability in looped language models (LoopLMs) which repeatedly apply shared transformer layers. Comparing LoopLMs with non-looped models, the authors find task-dependent reductions in CoT monitorability under stress tests for specific logic and science tasks, but no general systematic reduction compared to matched models.",
+      "keyPoints": [
+        "First systematic evaluation of Chain-of-Thought monitorability in looped language models.",
+        "Observes task-dependent reductions in monitorability under stress tests for specific tasks.",
+        "Finds no evidence that LoopLMs are systematically less monitorable than non-looped models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02741",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "On the Chain-of-Thought Monitorability of Looped Language Models",
+          "summary": "This work evaluates chain-of-thought (CoT) monitorability in looped language models (LoopLMs) which repeatedly apply shared transformer layers. Comparing LoopLMs with non-looped models, the authors find task-dependent reductions in CoT monitorability under stress tests for specific logic and science tasks, but no general systematic reduction compared to matched models.",
+          "keyPoints": [
+            "First systematic evaluation of Chain-of-Thought monitorability in looped language models.",
+            "Observes task-dependent reductions in monitorability under stress tests for specific tasks.",
+            "Finds no evidence that LoopLMs are systematically less monitorable than non-looped models."
+          ]
+        },
+        "fr": {
+          "title": "Sur la monitorabilité de la chaîne de pensée des modèles bouclés",
+          "summary": "Ce travail évalue la monitorabilité de la chaîne de pensée (CoT) dans les modèles de langage bouclés (LoopLMs) qui appliquent de manière répétée des couches de transformateur partagées. En comparant les LoopLMs à des modèles non bouclés, les auteurs observent des réductions de monitorabilité dépendantes des tâches lors de tests de stress, mais pas de baisse systématique globale.",
+          "keyPoints": [
+            "Première évaluation systématique de la monitorabilité CoT dans les modèles bouclés.",
+            "Observe des réductions de monitorabilité dépendantes des tâches lors de tests de stress.",
+            "Ne trouve aucune preuve que les LoopLMs sont systématiquement moins monitorables."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d0110221d0d426",
+      "title": "Dynamic LLM Routers are Often Misguided",
+      "summary": "The authors analyze six commercial dynamic LLM routers across 14 settings and find that none outperform a simple random router choosing between two well-chosen models. They trace this performance gap to four recurring patterns: difficulty blindness, length reversal, semantic matching, and roster suboptimality, proposing an alternative evaluation methodology.",
+      "keyPoints": [
+        "Analyzes six commercial dynamic LLM routers and finds limitations against random routing.",
+        "Traces gaps to four patterns: difficulty blindness, length reversal, semantic matching, roster suboptimality.",
+        "Proposes an alternative evaluation methodology that avoids rewarding these patterns."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02557",
+      "sourceUrl": "https://arxiv.org/abs/2610.02762",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "An Instance-Optimal Protocol for AI Debate",
-          "summary": "The paper presents a new AI debate protocol that guarantees correctness in a worst-case sense rather than an average-case sense. It ensures that being honest is a dominant-strategy equilibrium and proves black-box lower bounds showing instance-wise optimality.",
+          "title": "Dynamic LLM Routers are Often Misguided",
+          "summary": "The authors analyze six commercial dynamic LLM routers across 14 settings and find that none outperform a simple random router choosing between two well-chosen models. They trace this performance gap to four recurring patterns: difficulty blindness, length reversal, semantic matching, and roster suboptimality, proposing an alternative evaluation methodology.",
           "keyPoints": [
-            "The protocol provides worst-case correctness guarantees for problem subproblem decompositions.",
-            "Honesty and correctness are established as a dominant-strategy equilibrium for both debaters.",
-            "Black-box lower bounds demonstrate that the new protocol is instance-wise optimal."
+            "Analyzes six commercial dynamic LLM routers and finds limitations against random routing.",
+            "Traces gaps to four patterns: difficulty blindness, length reversal, semantic matching, roster suboptimality.",
+            "Proposes an alternative evaluation methodology that avoids rewarding these patterns."
           ]
         },
         "fr": {
-          "title": "Un protocole optimal par instance pour le débat par IA",
-          "summary": "L'article présente un nouveau protocole de débat par IA garantissant l'exactitude dans le pire des cas plutôt que dans le cas moyen. Il garantit que l'honnêteté est un équilibre de stratégie dominante.",
+          "title": "Les routeurs dynamiques de LLM sont souvent mal orientés",
+          "summary": "Les auteurs analysent six routeurs dynamiques commerciaux de LLM et constatent qu'aucun ne surpasse un routeur aléatoire simple. Ils relient cet écart à quatre motifs récurrents : l'aveuglement à la difficulté, l'inversion de longueur, la correspondance sémantique et la sous-optimalité de la liste, et proposent une méthodologie d'évaluation alternative.",
           "keyPoints": [
-            "Le protocole offre des garanties d'exactitude dans le pire des cas.",
-            "L'honnêteté est un équilibre de stratégie dominante pour les deux débatteurs.",
-            "Des bornes inférieures de boîte noire démontrent l'optimalité par instance du protocole."
+            "Analyse six routeurs commerciaux dynamiques et trouve des limites par rapport au routage aléatoire.",
+            "Relie les écarts à quatre motifs : aveuglement à la difficulté, inversion de longueur, etc.",
+            "Propose une méthodologie d'évaluation alternative."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-75ddda4759aa54",
-      "title": "Mitigating Social Sycophancy via Pluralistic Preference Optimization",
-      "summary": "Pluralistic Preference Optimization (PlurPO) mitigates social sycophancy in language models by simulating relevant stakeholders in interpersonal conflicts. Trained to prefer responses acceptable to all stakeholders, PlurPO significantly reduces social sycophancy across datasets and model families.",
+      "id": "feed-b0112decea4be3",
+      "title": "Law And Order: Tax Law Autoformalization via Neuro-Symbolic AI",
+      "summary": "The paper introduces Law&Order, a neuro-symbolic framework that automatically formalizes tax forms and instructions into executable symbolic programs. By combining large language model synthesis with cell-level verification and localized error repair using OpenTaxSolver, Law&Order achieves 100% cell-level and form-level accuracy on held-out TaxCalcBench returns.",
       "keyPoints": [
-        "Social sycophancy occurs because LMs center on users and ignore other impacted stakeholders.",
-        "PlurPO trains models to simulate and prefer responses acceptable to all stakeholders without ground-truth labels.",
-        "PlurPO reduces harmful endorsement rates by 89% and cuts general advice gaps by more than half."
+        "Proposes Law&Order, a neuro-symbolic framework for tax law autoformalization.",
+        "Combines LLM synthesis with cell-level verification and iterative error repair.",
+        "Achieves 100% cell-level and form-level accuracy on held-out TaxCalcBench returns."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02568",
+      "sourceUrl": "https://arxiv.org/abs/2610.02792",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Mitigating Social Sycophancy via Pluralistic Preference Optimization",
-          "summary": "Pluralistic Preference Optimization (PlurPO) mitigates social sycophancy in language models by simulating relevant stakeholders in interpersonal conflicts. Trained to prefer responses acceptable to all stakeholders, PlurPO significantly reduces social sycophancy across datasets and model families.",
+          "title": "Law And Order: Tax Law Autoformalization via Neuro-Symbolic AI",
+          "summary": "The paper introduces Law&Order, a neuro-symbolic framework that automatically formalizes tax forms and instructions into executable symbolic programs. By combining large language model synthesis with cell-level verification and localized error repair using OpenTaxSolver, Law&Order achieves 100% cell-level and form-level accuracy on held-out TaxCalcBench returns.",
           "keyPoints": [
-            "Social sycophancy occurs because LMs center on users and ignore other impacted stakeholders.",
-            "PlurPO trains models to simulate and prefer responses acceptable to all stakeholders without ground-truth labels.",
-            "PlurPO reduces harmful endorsement rates by 89% and cuts general advice gaps by more than half."
+            "Proposes Law&Order, a neuro-symbolic framework for tax law autoformalization.",
+            "Combines LLM synthesis with cell-level verification and iterative error repair.",
+            "Achieves 100% cell-level and form-level accuracy on held-out TaxCalcBench returns."
           ]
         },
         "fr": {
-          "title": "Atténuation de la sycophanterie sociale via l'optimisation des préférences pluralistes",
-          "summary": "L'optimisation des préférences pluralistes (PlurPO) atténue la sycophanterie sociale dans les modèles de langage en simulant les parties prenantes concernées par des conflits interpersonnels. PlurPO réduit considérablement la sycophanterie sociale.",
+          "title": "Law And Order : Autoformalisation du droit fiscal par IA neuro-symbolique",
+          "summary": "L'article présente Law&Order, un cadre neuro-symbolique qui formalise automatiquement les formulaires fiscaux en programmes exécutables. En combinant la synthèse par LLM avec une vérification au niveau des cellules et une correction d'erreurs itérative, Law&Order atteint une précision de 100 % sur des déclarations testées.",
           "keyPoints": [
-            "La sycophanterie sociale survient lorsque les LM se centrent sur l'utilisateur en ignorant les autres parties prenantes.",
-            "PlurPO entraîne les modèles à préférer des réponses acceptables pour tous sans étiquettes de vérité terrain.",
-            "PlurPO réduit les taux d'approbation nuisibles de 89 % et diminue de moitié l'écart sur les conseils généraux."
+            "Propose Law&Order, un cadre neuro-symbolique pour l'autoformalisation du droit fiscal.",
+            "Combine la synthèse par LLM avec la vérification au niveau des cellules et la correction d'erreurs.",
+            "Atteint 100 % de précision sur des déclarations de test TaxCalcBench."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-bbfadaca6dec11",
-      "title": "Answering Clinicians' Questions Over Trial Evidence Tables",
-      "summary": "FD-SCoPE is a language-model framework that answers clinician queries over trial evidence tables, exposing queries, selected trials, and derivation rules while learning from expert corrections. Tested on oncology tables, it outperformed alternative approaches.",
+      "id": "feed-5341d8a183d09c",
+      "title": "PAPER2LLM++: Continual Self-Evolution of LLMs from Research Papers",
+      "summary": "PAPER2LLM++ is a framework enabling the continual self-evolution of LLMs using scientific research papers as a stream of evidence and supervision. For each incoming paper, the system extracts findings, tests if limitations persist in the model, and converts findings into learning signals using a try-evaluate-commit procedure to prevent catastrophic forgetting.",
       "keyPoints": [
-        "FD-SCoPE answers clinical questions and provides auditable derivation rules and queries.",
-        "It completed all 140 clinician-style tasks on an oncology evidence table of 159 trial records.",
-        "Expert corrections on simulated questions substantially raised performance on unseen questions."
+        "Introduces PAPER2LLM++ for continual self-evolution of LLMs from research literature.",
+        "Extracts evidence-grounded findings and tests if reported limitations persist in models.",
+        "Uses a try-evaluate-commit procedure to integrate updates without degrading general capabilities."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02793",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "PAPER2LLM++: Continual Self-Evolution of LLMs from Research Papers",
+          "summary": "PAPER2LLM++ is a framework enabling the continual self-evolution of LLMs using scientific research papers as a stream of evidence and supervision. For each incoming paper, the system extracts findings, tests if limitations persist in the model, and converts findings into learning signals using a try-evaluate-commit procedure to prevent catastrophic forgetting.",
+          "keyPoints": [
+            "Introduces PAPER2LLM++ for continual self-evolution of LLMs from research literature.",
+            "Extracts evidence-grounded findings and tests if reported limitations persist in models.",
+            "Uses a try-evaluate-commit procedure to integrate updates without degrading general capabilities."
+          ]
+        },
+        "fr": {
+          "title": "PAPER2LLM++ : Auto-évolution continue des LLM à partir de papiers de recherche",
+          "summary": "PAPER2LLM++ est un cadre permettant l'auto-évolution continue des LLM en utilisant des articles de recherche scientifique comme source de supervision. Pour chaque article, le système extrait des conclusions, teste si les limites persistent dans le modèle et convertit ces conclusions en signaux d'apprentissage via une procédure d'évaluation.",
+          "keyPoints": [
+            "Introduit PAPER2LLM++ pour l'auto-évolution continue des LLM à partir de la littérature.",
+            "Extrait des conclusions factuelles et teste la persistance des limites dans les modèles.",
+            "Utilise une procédure d'évaluation pour intégrer les mises à jour sans oublier les acquis."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-de2d70104457a6",
+      "title": "Modeling Shared and Individual Structure for Cross-Subject Affect Regression",
+      "summary": "This research explores a zero-shot cross-subject approach to predict continuous valence and arousal trajectories from EEG-fNIRS recordings. By decomposing affect trajectories into a shared stimulus-driven structure and an individual structure scaled via an alpha-band synchrony marker, the model achieves notable improvements in mean absolute error over baseline models.",
+      "keyPoints": [
+        "Studies zero-shot cross-subject valence and arousal estimation using synchronized EEG-fNIRS.",
+        "Decomposes affect into shared stimulus structure and individual structure via an alpha-synchrony marker.",
+        "Achieves an overall MAE well below EEGNet and ASAC-Net baselines on the same split."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02796",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Modeling Shared and Individual Structure for Cross-Subject Affect Regression",
+          "summary": "This research explores a zero-shot cross-subject approach to predict continuous valence and arousal trajectories from EEG-fNIRS recordings. By decomposing affect trajectories into a shared stimulus-driven structure and an individual structure scaled via an alpha-band synchrony marker, the model achieves notable improvements in mean absolute error over baseline models.",
+          "keyPoints": [
+            "Studies zero-shot cross-subject valence and arousal estimation using synchronized EEG-fNIRS.",
+            "Decomposes affect into shared stimulus structure and individual structure via an alpha-synchrony marker.",
+            "Achieves an overall MAE well below EEGNet and ASAC-Net baselines on the same split."
+          ]
+        },
+        "fr": {
+          "title": "Modélisation de structures partagées et individuelles pour la régression d'affect",
+          "summary": "Cette recherche étudie une approche inter-sujets « zero-shot » pour prédire des trajectoires continues de valence et d'activation à partir d'enregistrements EEG-fNIRS. En décomposant la trajectoire en une structure partagée liée au stimulus et une structure individuelle mise à l'échelle via un marqueur de synchronisation alpha, le modèle réduit significativement l'erreur absolue moyenne.",
+          "keyPoints": [
+            "Étudie l'estimation de la valence et de l'activation inter-sujets en zero-shot avec des EEG-fNIRS.",
+            "Décompose l'affect en structure partagée et individuelle via un marqueur de synchronisation alpha.",
+            "Atteint une erreur absolue moyenne globale nettement inférieure aux bases de référence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3916367e151c4c",
+      "title": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference",
+      "summary": "BitNest introduces a bit-nested speculative decoding framework that embeds low-precision drafts directly into higher-precision target representations, allowing both models to share a single physical weight representation. This method achieves a high speculative acceptance rate and delivers significant speedups for edge-friendly LLMs.",
+      "keyPoints": [
+        "Embeds low-precision drafts directly into higher-precision target representations for memory sharing.",
+        "Extends the progressive-precision design to the KV cache for long-context inference.",
+        "Achieves an average acceptance rate of 95.2% and 1.48 to 1.61x speedup over FP16 decoding."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02800",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference",
+          "summary": "BitNest introduces a bit-nested speculative decoding framework that embeds low-precision drafts directly into higher-precision target representations, allowing both models to share a single physical weight representation. This method achieves a high speculative acceptance rate and delivers significant speedups for edge-friendly LLMs.",
+          "keyPoints": [
+            "Embeds low-precision drafts directly into higher-precision target representations for memory sharing.",
+            "Extends the progressive-precision design to the KV cache for long-context inference.",
+            "Achieves an average acceptance rate of 95.2% and 1.48 to 1.61x speedup over FP16 decoding."
+          ]
+        },
+        "fr": {
+          "title": "BitNest : Décorchage spéculatif imbriqué pour l'inférence efficace de LLM",
+          "summary": "BitNest introduit un cadre de décodage spéculatif imbriqué par bits qui intègre des brouillons de basse précision directement dans des représentations cibles de plus haute précision, permettant aux deux modèles de partager un poids physique unique. Cette méthode offre un taux d'acceptation élevé et des accélérations notables.",
+          "keyPoints": [
+            "Intègre des brouillons de basse précision dans des cibles de haute précision pour partager la mémoire.",
+            "Étend la conception à précision progressive au cache KV pour l'inférence à contexte long.",
+            "Atteint un taux d'acceptation de 95,2 % et une accélération de 1,48 à 1,61x par rapport au décodage FP16."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f191dc66b7412f",
+      "title": "VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in MBRL",
+      "summary": "VIGOR is a model-based reinforcement learning framework designed to achieve zero-shot generalization to unseen visual distractions. By combining weak-to-strong augmentation, dynamics-level consistency, and encoder stabilization, it prevents error compounding and outperforms existing baselines on complex control suites.",
+      "keyPoints": [
+        "Addresses the two-level vulnerability of model-based RL under visual distractions.",
+        "Integrates asymmetric augmentation, dynamics-level consistency, and encoder stabilization.",
+        "Outperforms baseline models on the DeepMind Control Suite and Robosuite."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02801",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "VIGOR: Zero-Shot Visual Generalization via Latent-Space Consistency in MBRL",
+          "summary": "VIGOR is a model-based reinforcement learning framework designed to achieve zero-shot generalization to unseen visual distractions. By combining weak-to-strong augmentation, dynamics-level consistency, and encoder stabilization, it prevents error compounding and outperforms existing baselines on complex control suites.",
+          "keyPoints": [
+            "Addresses the two-level vulnerability of model-based RL under visual distractions.",
+            "Integrates asymmetric augmentation, dynamics-level consistency, and encoder stabilization.",
+            "Outperforms baseline models on the DeepMind Control Suite and Robosuite."
+          ]
+        },
+        "fr": {
+          "title": "VIGOR : Généralisation visuelle zero-shot via la cohérence de l'espace latent",
+          "summary": "VIGOR est un cadre d'apprentissage par renforcement basé sur un modèle conçu pour assurer une généralisation zero-shot face à des distractions visuelles inédites. En combinant l'augmentation faible-à-forte, la cohérence dynamique et la stabilisation de l'encodeur, il prévient la propagation d'erreurs.",
+          "keyPoints": [
+            "Traite la vulnérabilité à deux niveaux de l'apprentissage par renforcement sous distractions visuelles.",
+            "Intègre augmentation asymétrique, cohérence dynamique et stabilisation de l'encodeur.",
+            "Surpasse les modèles de référence sur DeepMind Control Suite et Robosuite."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-19ef6a33bcea37",
+      "title": "ROUTEAUDIT: Interaction-Aware Identification for Budgeted Multi-Verifier Routing",
+      "summary": "ROUTEAUDIT formulates verifier routing as a contract-conditioned identification problem to improve multi-verifier systems. By adding contract lattices, response tapes, and request-level bounds, the protocol provides Attributable routing performance and robust comparative metrics across tasks.",
+      "keyPoints": [
+        "Formulates verifier routing as a contract-conditioned identification problem.",
+        "Adds contract lattices, policy-independent response tapes, and request-level bounds.",
+        "Demonstrates controlled attribution recovery and reliable endpoint reconstruction errors."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02576",
+      "sourceUrl": "https://arxiv.org/abs/2610.02808",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Answering Clinicians' Questions Over Trial Evidence Tables",
-          "summary": "FD-SCoPE is a language-model framework that answers clinician queries over trial evidence tables, exposing queries, selected trials, and derivation rules while learning from expert corrections. Tested on oncology tables, it outperformed alternative approaches.",
+          "title": "ROUTEAUDIT: Interaction-Aware Identification for Budgeted Multi-Verifier Routing",
+          "summary": "ROUTEAUDIT formulates verifier routing as a contract-conditioned identification problem to improve multi-verifier systems. By adding contract lattices, response tapes, and request-level bounds, the protocol provides Attributable routing performance and robust comparative metrics across tasks.",
           "keyPoints": [
-            "FD-SCoPE answers clinical questions and provides auditable derivation rules and queries.",
-            "It completed all 140 clinician-style tasks on an oncology evidence table of 159 trial records.",
-            "Expert corrections on simulated questions substantially raised performance on unseen questions."
+            "Formulates verifier routing as a contract-conditioned identification problem.",
+            "Adds contract lattices, policy-independent response tapes, and request-level bounds.",
+            "Demonstrates controlled attribution recovery and reliable endpoint reconstruction errors."
           ]
         },
         "fr": {
-          "title": "Réponse aux questions des cliniciens sur des tables de preuves d'essais",
-          "summary": "FD-SCoPE est un cadre de modèle de langage qui répond aux requêtes des cliniciens sur des tables de données d'essais cliniques, exposant les requêtes et règles de dérivation tout en apprenant des corrections d'experts.",
+          "title": "ROUTEAUDIT : Identification pour le routage de multi-vérificateurs budgétisés",
+          "summary": "ROUTEAUDIT formule le routage des vérificateurs comme un problème d'identification conditionné par contrat. En ajoutant des réseaux de contrats, des bandes de réponse et des bornes au niveau des requêtes, le protocole offre des performances de routage attribuables et des métriques comparatives robustes.",
           "keyPoints": [
-            "FD-SCoPE répond aux questions cliniques avec des règles de dérivation auditable.",
-            "Il a complété avec succès toutes les tâches cliniques sur une table de données oncologiques.",
-            "Les corrections d'experts ont considérablement amélioré les performances sur les questions non vues."
+            "Formule le routage des vérificateurs comme un problème d'identification conditionné par contrat.",
+            "Ajoute des réseaux de contrats, des bandes de réponse et des bornes de requêtes.",
+            "Démontre une récupération d'attribution contrôlée et des erreurs de reconstruction faibles."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-f9cc2a0fc7c71e",
-      "title": "Labels Override Definitions in Jev-Style Typed Decision Models",
-      "summary": "Typed decision models using short option labels and written definitions exhibit option-label bias, where classification probabilities follow labels rather than definitions. Deleting definitions leaves accuracy largely unchanged, whereas renaming options significantly impacts performance.",
+      "id": "feed-6866bf93136cd7",
+      "title": "iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD",
+      "summary": "iS-KV addresses memory growth during long chain-of-thought reasoning by introducing an online low-rank KV-cache compression method. Using block-incremental SVD and coordinate synchronization, it preserves historical states without permanent deletion, outperforming token-eviction baselines.",
       "keyPoints": [
-        "Typed decision models often favor option labels over written rule definitions.",
-        "Deleting definitions leaves accuracy largely unchanged across multiple open-weight models.",
-        "Prompt rendering and expression formatting heavily influence whether labels override internal definitions."
+        "Introduces online low-rank KV cache compression using block-incremental SVD.",
+        "Synchronizes historical coordinates with evolving bases to maintain representation consistency.",
+        "Maintains high accuracy under strong compression rates on models like DeepSeek-R1-Distill and Qwen3."
       ],
-      "category": "Open Source",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02586",
+      "sourceUrl": "https://arxiv.org/abs/2610.02815",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Labels Override Definitions in Jev-Style Typed Decision Models",
-          "summary": "Typed decision models using short option labels and written definitions exhibit option-label bias, where classification probabilities follow labels rather than definitions. Deleting definitions leaves accuracy largely unchanged, whereas renaming options significantly impacts performance.",
+          "title": "iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD",
+          "summary": "iS-KV addresses memory growth during long chain-of-thought reasoning by introducing an online low-rank KV-cache compression method. Using block-incremental SVD and coordinate synchronization, it preserves historical states without permanent deletion, outperforming token-eviction baselines.",
           "keyPoints": [
-            "Typed decision models often favor option labels over written rule definitions.",
-            "Deleting definitions leaves accuracy largely unchanged across multiple open-weight models.",
-            "Prompt rendering and expression formatting heavily influence whether labels override internal definitions."
+            "Introduces online low-rank KV cache compression using block-incremental SVD.",
+            "Synchronizes historical coordinates with evolving bases to maintain representation consistency.",
+            "Maintains high accuracy under strong compression rates on models like DeepSeek-R1-Distill and Qwen3."
           ]
         },
         "fr": {
-          "title": "Les libellés priment sur les définitions dans les modèles de décision typés",
-          "summary": "Les modèles de décision typés affichent un biais de libellé d'option, où les probabilités de classification suivent les libellés plutôt que les définitions écrites. La suppression des définitions laisse la précision pratiquement inchangée.",
+          "title": "iS-KV : Compression de cache KV à bas rang en ligne via SVD incrémentielle",
+          "summary": "iS-KV résout la croissance de la mémoire lors de raisonnements longs en introduisant une méthode de compression du cache KV à bas rang en ligne. En utilisant une SVD incrémentielle par blocs et une synchronisation des coordonnées, il préserve les états historiques sans suppression définitive.",
           "keyPoints": [
-            "Les modèles de décision typés privilégient souvent les libellés d'options aux définitions de règles.",
-            "La suppression des définitions ne modifie guère la précision sur plusieurs modèles open-weights.",
-            "Le formatage des invites influence fortement la façon dont les libellés outrepassent les définitions."
+            "Introduit la compression de cache KV à bas rang en ligne par SVD incrémentielle.",
+            "Synchronise les coordonnées historiques avec les bases évolutives pour maintenir la cohérence.",
+            "Maintient une haute précision sous de forts taux de compression sur de grands modèles."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-af2223437f43b2",
-      "title": "Open-Endedness Bench: Measuring Epistemic Process from Agent Records",
-      "summary": "Open-Endedness Bench (OEB) is a benchmark-agnostic methodology that reads execution logs to evaluate the epistemic process of AI agents on open-ended tasks. OEB compiles logs into epistemic event graphs to score competence axes, revealing that only a small percentage of claimed improvements are real.",
+      "id": "feed-40acd3ae576038",
+      "title": "MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning",
+      "summary": "MetaRubric combats vacuous credit assignment in rubric-based reinforcement learning by alternating evidence-aware policy optimization with response-guided rubric adaptation. Using counterfactual prompt counterparts, it ensures rewards are only given when sufficient evidence is present.",
       "keyPoints": [
-        "OEB evaluates agent epistemic processes by cross-referencing stated propositions with executed actions.",
-        "It scores four competence axes and profiles six subjective persona traits from execution records.",
-        "Analysis of existing runs shows that only 16-29% of agent-claimed improvements are supported by evidence."
+        "Addresses vacuous credit where rubric judges give high scores despite absent information.",
+        "Alternates evidence-aware policy optimization with response-guided rubric adaptation.",
+        "Improves accuracy significantly over static-judge GRPO across multiple medical benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02824",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MetaRubric: Learning to Reward for Rubric-Based Reinforcement Learning",
+          "summary": "MetaRubric combats vacuous credit assignment in rubric-based reinforcement learning by alternating evidence-aware policy optimization with response-guided rubric adaptation. Using counterfactual prompt counterparts, it ensures rewards are only given when sufficient evidence is present.",
+          "keyPoints": [
+            "Addresses vacuous credit where rubric judges give high scores despite absent information.",
+            "Alternates evidence-aware policy optimization with response-guided rubric adaptation.",
+            "Improves accuracy significantly over static-judge GRPO across multiple medical benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "MetaRubric : Apprentissage de récompense pour l'apprentissage par renforcement",
+          "summary": "MetaRubric combat l'attribution de crédit vacueux dans l'apprentissage par renforcement basé sur des rubriques en alternant l'optimisation de politique consciente des preuves et l'adaptation de rubriques guidée par les réponses. Il garantit que les récompenses ne sont attribuées qu'en présence de preuves suffisantes.",
+          "keyPoints": [
+            "Résout le crédit vacueux où les juges attribuent des scores élevés malgré l'absence d'informations.",
+            "Alterne l'optimisation des politiques et l'adaptation des rubriques guidée par les réponses.",
+            "Améliore nettement la précision par rapport au GRPO statique sur divers benchmarks médicaux."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ff37ab6e01e735",
+      "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+      "summary": "Recursive Self-Rewrite (RSR) leverages a base model to discover solutions across diverse harnesses and reconstruct them into standardized training trajectories. By utilizing a planner, critic, and executor, RSR expands successful source trajectories to dramatically improve performance on challenging benchmark tasks.",
+      "keyPoints": [
+        "Proposes Recursive Self-Rewrite to reconstruct diverse harness solutions into training trajectories.",
+        "Employs a planner, a critic for screening, and an executor in fresh sandboxes.",
+        "Substantially increases pass rates across multiple terminal-based and software benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.02826",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+          "summary": "Recursive Self-Rewrite (RSR) leverages a base model to discover solutions across diverse harnesses and reconstruct them into standardized training trajectories. By utilizing a planner, critic, and executor, RSR expands successful source trajectories to dramatically improve performance on challenging benchmark tasks.",
+          "keyPoints": [
+            "Proposes Recursive Self-Rewrite to reconstruct diverse harness solutions into training trajectories.",
+            "Employs a planner, a critic for screening, and an executor in fresh sandboxes.",
+            "Substantially increases pass rates across multiple terminal-based and software benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "Mise à l'échelle de trajectoires pour tâches complexes par réécriture récursive",
+          "summary": "Recursive Self-Rewrite (RSR) exploite un modèle de base pour découvrir des solutions à travers divers environnements et les reconstruire en trajectoires d'entraînement standardisées. En utilisant un planificateur, un critique et un exécuteur, RSR améliore considérablement les performances sur des tâches complexes.",
+          "keyPoints": [
+            "Propose la réécriture récursive pour transformer des solutions hétérogènes en trajectoires d'entraînement.",
+            "Utilise un planificateur, un critique de filtrage et un exécuteur dans des environnements isolés.",
+            "Augmente substantiellement les taux de réussite sur plusieurs benchmarks de terminaux et de logiciels."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4d6b4613a79443",
+      "title": "MLCommons Jailbreak Benchmark v1.0",
+      "summary": "The MLCommons Jailbreak Benchmark v1.0 offers an end-to-end methodology to evaluate the robustness of large language models against single-turn, text-based jailbreak attacks. Combining criteria-driven selection, human annotation, and standardized assessment, it measures safety performance via the Resilience Gap.",
+      "keyPoints": [
+        "Provides an end-to-end benchmarking pipeline for evaluating LLM text-based jailbreak robustness.",
+        "Evaluates eight open-weight systems using 264 seed prompts across eleven hazard categories.",
+        "Measures safety degradation using the Resilience Gap, averaging 7.57% across tested systems."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02588",
+      "sourceUrl": "https://arxiv.org/abs/2610.02827",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Open-Endedness Bench: Measuring Epistemic Process from Agent Records",
-          "summary": "Open-Endedness Bench (OEB) is a benchmark-agnostic methodology that reads execution logs to evaluate the epistemic process of AI agents on open-ended tasks. OEB compiles logs into epistemic event graphs to score competence axes, revealing that only a small percentage of claimed improvements are real.",
+          "title": "MLCommons Jailbreak Benchmark v1.0",
+          "summary": "The MLCommons Jailbreak Benchmark v1.0 offers an end-to-end methodology to evaluate the robustness of large language models against single-turn, text-based jailbreak attacks. Combining criteria-driven selection, human annotation, and standardized assessment, it measures safety performance via the Resilience Gap.",
           "keyPoints": [
-            "OEB evaluates agent epistemic processes by cross-referencing stated propositions with executed actions.",
-            "It scores four competence axes and profiles six subjective persona traits from execution records.",
-            "Analysis of existing runs shows that only 16-29% of agent-claimed improvements are supported by evidence."
+            "Provides an end-to-end benchmarking pipeline for evaluating LLM text-based jailbreak robustness.",
+            "Evaluates eight open-weight systems using 264 seed prompts across eleven hazard categories.",
+            "Measures safety degradation using the Resilience Gap, averaging 7.57% across tested systems."
           ]
         },
         "fr": {
-          "title": "Open-Endedness Bench : Mesurer le processus épistémique des agents",
-          "summary": "Open-Endedness Bench (OEB) est une méthodologie agnostique qui lit les journaux d'exécution pour évaluer le processus épistémique des agents d'IA sur des tâches ouvertes. OEB compile les journaux pour noter les axes de compétence.",
+          "title": "MLCommons Jailbreak Benchmark v1.0",
+          "summary": "Le benchmark MLCommons Jailbreak v1.0 propose une méthodologie complète pour évaluer la robustesse des grands modèles de langage face aux attaques par contournement textuelles. En combinant sélection multicritère, annotation humaine et évaluation standardisée, il mesure la sécurité via l'écart de résilience.",
           "keyPoints": [
-            "OEB évalue les processus épistémiques des agents en croisant propositions et actions exécutées.",
-            "Il note quatre axes de compétence et établit le profil de six traits de personnalité subjectifs.",
-            "L'analyse montre que seulement 16 à 29 % des améliorations revendiquées sont réelles."
+            "Fournit un pipeline de test complet pour évaluer la robustesse des LLM contre les attaques textuelles.",
+            "Évalue huit systèmes open-weights utilisant 264 invites réparties sur onze catégories de risques.",
+            "Mesure la dégradation de la sécurité via l'écart de résilience, atteignant une moyenne de 7,57 %."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-9810b5ad2814e3",
-      "title": "TasteBench: Multimodal Benchmark for Sensory Prediction",
-      "summary": "Sustainable protein discovery lacks fast computational proxies for human sensory panels. TasteBench is a multimodal benchmark and privacy-preserving competition for sensory prediction spanning two tasks: a food-level ranking task across 215 plant-based foods and a molecular-level taste classification task. Best models achieve .661 pairwise accuracy, matching median human panelists.",
+      "id": "feed-608d4480937e3b",
+      "title": "FSPO: Policy-Consistent Risk and Pareto-Feasible Control for Budgeted LLM RL",
+      "summary": "FSPO introduces a feedback-state controller for budgeted LLM reinforcement learning post-training. By combining a policy-consistent risk-to-go model, decision-conditioned trajectory calibration, and a Pareto resource continuation certificate, it effectively manages multi-resource constraints and improves downstream accuracy.",
       "keyPoints": [
-        "Introduces TasteBench for predicting sensory properties of sustainable foods.",
-        "Comprises a food-level ranking task and a molecular-level taste classification task.",
-        "Top models achieve .661 pairwise accuracy, competitive with human panelists."
+        "Introduces FSPO, a feedback-state controller for budgeted LLM reinforcement learning.",
+        "Learns a policy-consistent risk model and utilizes decision-conditioned trajectory calibration.",
+        "Outperforms adaptive baselines on held-out and out-of-distribution evaluation tasks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02599",
+      "sourceUrl": "https://arxiv.org/abs/2610.02828",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "TasteBench: Multimodal Benchmark for Sensory Prediction",
-          "summary": "Sustainable protein discovery lacks fast computational proxies for human sensory panels. TasteBench is a multimodal benchmark and privacy-preserving competition for sensory prediction spanning two tasks: a food-level ranking task across 215 plant-based foods and a molecular-level taste classification task. Best models achieve .661 pairwise accuracy, matching median human panelists.",
+          "title": "FSPO: Policy-Consistent Risk and Pareto-Feasible Control for Budgeted LLM RL",
+          "summary": "FSPO introduces a feedback-state controller for budgeted LLM reinforcement learning post-training. By combining a policy-consistent risk-to-go model, decision-conditioned trajectory calibration, and a Pareto resource continuation certificate, it effectively manages multi-resource constraints and improves downstream accuracy.",
           "keyPoints": [
-            "Introduces TasteBench for predicting sensory properties of sustainable foods.",
-            "Comprises a food-level ranking task and a molecular-level taste classification task.",
-            "Top models achieve .661 pairwise accuracy, competitive with human panelists."
+            "Introduces FSPO, a feedback-state controller for budgeted LLM reinforcement learning.",
+            "Learns a policy-consistent risk model and utilizes decision-conditioned trajectory calibration.",
+            "Outperforms adaptive baselines on held-out and out-of-distribution evaluation tasks."
           ]
         },
         "fr": {
-          "title": "TasteBench : Un benchmark multimodal pour la prédiction sensorielle",
-          "summary": "La découverte de protéines durables manque de proxies informatiques rapides pour remplacer les panels sensoriels humains. TasteBench est un benchmark multimodal et une compétition pour la prédiction sensorielle comprenant deux tâches : un classement de produits alimentaires et une classification moléculaire du goût. Les meilleurs modèles atteignent une précision par paires de 0,661.",
+          "title": "FSPO : Risque cohérent avec la politique et contrôle de Pareto pour l'apprentissage",
+          "summary": "FSPO introduit un contrôleur d'état de rétroaction pour l'entraînement post-apprentissage budgétisé des LLM par renforcement. En combinant un modèle de risque cohérent, une calibration de trajectoire et un certificat de continuation de Pareto, il gère efficacement les contraintes de ressources.",
           "keyPoints": [
-            "Présente TasteBench pour prédire les propriétés sensorielles des aliments durables.",
-            "Comprend une tâche de classement des aliments et une classification moléculaire.",
-            "Les meilleurs modèles atteignent une précision comparable à la médiane humaine."
+            "Introduit FSPO, un contrôleur d'état de rétroaction pour l'apprentissage par renforcement budgétisé.",
+            "Apprend un modèle de risque cohérent avec la politique et utilise une calibration de trajectoire.",
+            "Surpasse les bases de référence adaptatives sur les tâches d'évaluation."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-ba1b400a537a6f",
-      "title": "Scenario-Grounded Stress Testing for Time Series Forecasting",
-      "summary": "Current time series forecasting evaluations rely heavily on held-out error and simple i.i.d. perturbations, obscuring real-world failure modes. The authors advocate for scenario-grounded stress testing where each test instance includes historical inputs, future targets, semantic scenarios, explicit failure operators, and measurable difficulty levels to make model evaluation interpretable and deployment-relevant.",
+      "id": "feed-bf79ddf5f23e3d",
+      "title": "AMBER: Multi-View Adaptive Budget Allocation for Listwise VLM Reranking",
+      "summary": "AMBER is an online, budgeted multi-view reranking framework that dynamically optimizes global resource allocation for vision-language models. By treating VLM outputs as local tournaments with continuous Elo updates, it efficiently schedules queries and constructs candidate views to maximize information gain.",
       "keyPoints": [
-        "Critiques narrow evaluation metrics and simple i.i.d. perturbations in forecasting.",
-        "Proposes scenario-grounded stress testing with explicit failure operators.",
-        "Aims to make model performance evaluations more interpretable and deployment-relevant."
+        "Proposes AMBER, an online budgeted multi-view reranking framework for vision-language models.",
+        "Uses continuous Elo updates on local tournaments to maintain a lightweight global ranking state.",
+        "Demonstrates strong retrieval performance across CIRR, CIRCO, and PhotoBench datasets."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02608",
+      "sourceUrl": "https://arxiv.org/abs/2610.02831",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Scenario-Grounded Stress Testing for Time Series Forecasting",
-          "summary": "Current time series forecasting evaluations rely heavily on held-out error and simple i.i.d. perturbations, obscuring real-world failure modes. The authors advocate for scenario-grounded stress testing where each test instance includes historical inputs, future targets, semantic scenarios, explicit failure operators, and measurable difficulty levels to make model evaluation interpretable and deployment-relevant.",
+          "title": "AMBER: Multi-View Adaptive Budget Allocation for Listwise VLM Reranking",
+          "summary": "AMBER is an online, budgeted multi-view reranking framework that dynamically optimizes global resource allocation for vision-language models. By treating VLM outputs as local tournaments with continuous Elo updates, it efficiently schedules queries and constructs candidate views to maximize information gain.",
           "keyPoints": [
-            "Critiques narrow evaluation metrics and simple i.i.d. perturbations in forecasting.",
-            "Proposes scenario-grounded stress testing with explicit failure operators.",
-            "Aims to make model performance evaluations more interpretable and deployment-relevant."
+            "Proposes AMBER, an online budgeted multi-view reranking framework for vision-language models.",
+            "Uses continuous Elo updates on local tournaments to maintain a lightweight global ranking state.",
+            "Demonstrates strong retrieval performance across CIRR, CIRCO, and PhotoBench datasets."
           ]
         },
         "fr": {
-          "title": "Tests de résistance ancrés dans des scénarios pour les séries temporelles",
-          "summary": "Les évaluations actuelles des prévisions de séries temporelles reposent sur des erreurs de validation et des perturbations i.i.d. simples, masquant les modes de défaillance réels. Les auteurs plaident pour des tests de résistance ancrés dans des scénarios incluant des scénarios sémantiques et des opérateurs de défaillance explicites.",
+          "title": "AMBER : Allocation budgétaire adaptative multi-vue pour le reranking VLM",
+          "summary": "AMBER est un cadre de reranking multi-vue budgétisé en ligne qui optimise dynamiquement l'allocation globale des ressources pour les modèles vision-langage. En traitant les sorties comme des tournois locaux avec des mises à jour Elo, il planifie efficacement les requêtes pour maximiser le gain d'information.",
           "keyPoints": [
-            "Critique les métriques d'évaluation étroites et les perturbations simples.",
-            "Propose des tests de résistance basés sur des scénarios avec des opérateurs de défaillance.",
-            "Rend l'évaluation des performances plus interprétable et pertinente pour le déploiement."
+            "Propose AMBER, un cadre de reranking multi-vue budgétisé pour les modèles vision-langage.",
+            "Utilise des mises à jour Elo continues sur des tournois locaux pour maintenir un classement mondial.",
+            "Démontre de fortes performances de recherche sur les jeux de données CIRR, CIRCO et PhotoBench."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ee825def7bc914",
-      "title": "VERSE: Verified Self-Evolving Optimizer for Agent Harnesses",
-      "summary": "We introduce VERSE, a verified self-evolving optimizer for agent harnesses that improves failure diagnosis, edits, and test procedures. By integrating execution-based verification, VERSE lets optimizers test draft edits and replay failures while keeping underlying model weights fixed. VERSE improves evaluated harness optimizers on held-out SWE-rebench and out-of-distribution tasks.",
-      "keyPoints": [
-        "Introduces VERSE, a verified self-evolving optimizer for LLM agent harnesses.",
-        "Relies on execution-based verification to test draft edits and replay failures safely.",
-        "Outperforms baseline optimizers on held-out SWE-rebench and out-of-distribution tasks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02616",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "VERSE: Verified Self-Evolving Optimizer for Agent Harnesses",
-          "summary": "We introduce VERSE, a verified self-evolving optimizer for agent harnesses that improves failure diagnosis, edits, and test procedures. By integrating execution-based verification, VERSE lets optimizers test draft edits and replay failures while keeping underlying model weights fixed. VERSE improves evaluated harness optimizers on held-out SWE-rebench and out-of-distribution tasks.",
-          "keyPoints": [
-            "Introduces VERSE, a verified self-evolving optimizer for LLM agent harnesses.",
-            "Relies on execution-based verification to test draft edits and replay failures safely.",
-            "Outperforms baseline optimizers on held-out SWE-rebench and out-of-distribution tasks."
-          ]
-        },
-        "fr": {
-          "title": "VERSE : Optimiseur auto-évolutif vérifié pour environnements d'agents",
-          "summary": "Nous présentons VERSE, un optimiseur auto-évolutif vérifié pour les environnements d'agents qui améliore le diagnostic des pannes et les tests. En intégrant une vérification basée sur l'exécution, VERSE permet aux optimisateurs de tester des modifications tout en maintenant les poids des modèles fixes. VERSE surpasse les optimiseurs de référence.",
-          "keyPoints": [
-            "Introduit VERSE, un optimiseur auto-évolutif pour les environnements d'agents LLM.",
-            "Utilise la vérification par l'exécution pour tester les modifications et rejouer les pannes.",
-            "Surpasse les optimiseurs de référence sur des tâches de référence tenues à l'écart."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-38de1f3aec0034",
-      "title": "CuBEs: Culturally-Situated Behavioral Evaluations for LLMs",
-      "summary": "Standard evaluations for LLM behaviors like sycophancy or political bias often ignore cultural context, limiting global generalizability. The authors propose CuBEs, injecting cultural context into behavioral test scenarios across 12 distinct cultures. Evaluating 13 LLMs shows that cultural situatedness creates significant shifts in behavioral metrics, such as revealing religious and colonial political issues instead of Western ones.",
-      "keyPoints": [
-        "Proposes CuBEs to evaluate LLM behaviors across diverse user cultures.",
-        "Evaluates 13 open- and closed-source LLMs using a dataset spanning 12 cultures.",
-        "Demonstrates that cultural context reveals entirely different axes of bias."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02622",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "CuBEs: Culturally-Situated Behavioral Evaluations for LLMs",
-          "summary": "Standard evaluations for LLM behaviors like sycophancy or political bias often ignore cultural context, limiting global generalizability. The authors propose CuBEs, injecting cultural context into behavioral test scenarios across 12 distinct cultures. Evaluating 13 LLMs shows that cultural situatedness creates significant shifts in behavioral metrics, such as revealing religious and colonial political issues instead of Western ones.",
-          "keyPoints": [
-            "Proposes CuBEs to evaluate LLM behaviors across diverse user cultures.",
-            "Evaluates 13 open- and closed-source LLMs using a dataset spanning 12 cultures.",
-            "Demonstrates that cultural context reveals entirely different axes of bias."
-          ]
-        },
-        "fr": {
-          "title": "CuBEs : Évaluations comportementales ancrées culturellement pour les LLM",
-          "summary": "Les évaluations standard des comportements des LLM ignorent souvent le contexte culturel, limitant la généralisation globale. Les auteurs proposent CuBEs, injectant un contexte culturel dans des scénarios de test à travers 12 cultures. L'évaluation de 13 LLM montre que le contexte culturel modifie significativement les biais observés.",
-          "keyPoints": [
-            "Propose CuBEs pour évaluer les comportements des LLM à travers diverses cultures.",
-            "Évalue 13 LLM en utilisant un ensemble de données couvrant 12 cultures distinctes.",
-            "Démontre que le contexte culturel met en évidence de nouveaux axes de biais."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e66f8e0882e3eb",
-      "title": "Communication Variation Disrupts Retrieval and Action in Email Agents",
-      "summary": "Most email assistant benchmarks test tasks using only a single canonical request. This paper evaluates how communication styles and English varieties affect performance across an RAG pipeline and two tool-using agents. Results show that indirect, formal, and verbose requests significantly disrupt retrieval and cause agents to omit required actions.",
-      "keyPoints": [
-        "Examines the impact of communication styles and dialects on email assistant benchmarks.",
-        "Finds that verbose requests harm lexical retrieval pipelines.",
-        "Shows that indirect and formal requests cause agentic models to omit required actions."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02627",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Communication Variation Disrupts Retrieval and Action in Email Agents",
-          "summary": "Most email assistant benchmarks test tasks using only a single canonical request. This paper evaluates how communication styles and English varieties affect performance across an RAG pipeline and two tool-using agents. Results show that indirect, formal, and verbose requests significantly disrupt retrieval and cause agents to omit required actions.",
-          "keyPoints": [
-            "Examines the impact of communication styles and dialects on email assistant benchmarks.",
-            "Finds that verbose requests harm lexical retrieval pipelines.",
-            "Shows that indirect and formal requests cause agentic models to omit required actions."
-          ]
-        },
-        "fr": {
-          "title": "La variation de communication perturbe la recherche et l'action des agents mail",
-          "summary": "La plupart des benchmarks d'assistants de messagerie utilisent une seule requête canonique. Cet article évalue l'impact des styles de communication sur les performances de pipelines RAG et d'agents. Les résultats montrent que les requêtes indirectes, formelles et verbeuses perturbent la recherche et font omettre des actions.",
-          "keyPoints": [
-            "Examine l'impact des styles de communication et des dialectes sur les assistants.",
-            "Montre que les requêtes verbeuses nuisent aux pipelines de récupération lexicale.",
-            "Indique que les requêtes indirectes et formelles font omettre des actions requises."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ecc44b539b9524",
-      "title": "Designing the Future of User Feedback for Generative AI",
-      "summary": "Post-deployment feedback is critical for monitoring and improving generative AI features. Through a collaboration with eBay, researchers identified issues with current industry feedback tools, including discoverability problems and unclear terminology. They developed best-practice recommendations and tested a prototype feedback tool designed for better user experience and actionable data collection.",
-      "keyPoints": [
-        "Conducts a multi-phase study with eBay on GenAI post-deployment user feedback.",
-        "Identifies current industry flaws such as poor discoverability and unclear terms.",
-        "Proposes best-practice recommendations and tests a prototype feedback collection tool."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02631",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Designing the Future of User Feedback for Generative AI",
-          "summary": "Post-deployment feedback is critical for monitoring and improving generative AI features. Through a collaboration with eBay, researchers identified issues with current industry feedback tools, including discoverability problems and unclear terminology. They developed best-practice recommendations and tested a prototype feedback tool designed for better user experience and actionable data collection.",
-          "keyPoints": [
-            "Conducts a multi-phase study with eBay on GenAI post-deployment user feedback.",
-            "Identifies current industry flaws such as poor discoverability and unclear terms.",
-            "Proposes best-practice recommendations and tests a prototype feedback collection tool."
-          ]
-        },
-        "fr": {
-          "title": "Concevoir l'avenir des retours utilisateurs pour l'IA générative",
-          "summary": "Les retours après déploiement sont essentiels pour améliorer l'IA générative. Via une collaboration avec eBay, des chercheurs ont identifié des problèmes dans les outils actuels, tels que le manque de découvrabilité. Ils ont développé des recommandations et testé un prototype d'outil de collecte de retours.",
-          "keyPoints": [
-            "Mène une étude multiphasée avec eBay sur les retours utilisateurs en IA générative.",
-            "Identifie les lacunes de l'industrie comme la mauvaise découvrabilité.",
-            "Propose des recommandations et teste un prototype d'outil de collecte."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f102b133982c85",
-      "title": "DuplexJev: Batched Speech Decisions Without Decoding",
-      "summary": "Full-duplex voice agents require fast decisions currently handled via slow autoregressive decoding. The authors propose DuplexJev, which feeds ASR-encoder hidden states into a frozen LLM to treat questions as single-token distributions without decoding. The system processes multiple decisions rapidly while accurately capturing both text content and speaker attributes like gender and emotion.",
-      "keyPoints": [
-        "Proposes DuplexJev for fast, non-autoregressive speech decisions in voice agents.",
-        "Pypasses slow decoding by reading question options as single-token distributions.",
-        "Maintains high spoken QA performance while accurately recognizing gender and emotion."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02638",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DuplexJev: Batched Speech Decisions Without Decoding",
-          "summary": "Full-duplex voice agents require fast decisions currently handled via slow autoregressive decoding. The authors propose DuplexJev, which feeds ASR-encoder hidden states into a frozen LLM to treat questions as single-token distributions without decoding. The system processes multiple decisions rapidly while accurately capturing both text content and speaker attributes like gender and emotion.",
-          "keyPoints": [
-            "Proposes DuplexJev for fast, non-autoregressive speech decisions in voice agents.",
-            "Pypasses slow decoding by reading question options as single-token distributions.",
-            "Maintains high spoken QA performance while accurately recognizing gender and emotion."
-          ]
-        },
-        "fr": {
-          "title": "DuplexJev : Décisions vocales par lots sans décodage",
-          "summary": "Les agents vocaux en duplex intégral nécessitent des décisions rapides, souvent freinées par le décodage autorégressif. Les auteurs proposent DuplexJev, qui alimente un LLM gelé avec des états cachés d'encodeur ASR pour traiter les questions sous forme de distributions à un seul jeton sans décodage.",
-          "keyPoints": [
-            "Propose DuplexJev pour des décisions vocales rapides et non autorégressives.",
-            "Évite le décodage lent en traitant les options comme des distributions de jetons uniques.",
-            "Maintient de hautes performances tout en reconnaissant le genre et l'émotion."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1aa2c91fc61c54",
-      "title": "Coherence-Driven Belief Formation and Contagion in LLM Agents",
-      "summary": "This paper measures belief adoption in LLM agents, discovering a sigmoid adoption kernel characteristic of complex contagion. The adoption threshold is sensitive to claim plausibility, source reliability, and agent disposition, which can be unified into belief coherence. Systems of these agents exhibit clustered network spread and hysteretic consensus dynamics.",
-      "keyPoints": [
-        "Measures belief adoption in LLM agents, finding a sigmoid complex contagion kernel.",
-        "Shows adoption thresholds depend on plausibility, source reliability, and disposition.",
-        "Demonstrates clustered network spread and self-sustaining hysteretic consensus."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02654",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Coherence-Driven Belief Formation and Contagion in LLM Agents",
-          "summary": "This paper measures belief adoption in LLM agents, discovering a sigmoid adoption kernel characteristic of complex contagion. The adoption threshold is sensitive to claim plausibility, source reliability, and agent disposition, which can be unified into belief coherence. Systems of these agents exhibit clustered network spread and hysteretic consensus dynamics.",
-          "keyPoints": [
-            "Measures belief adoption in LLM agents, finding a sigmoid complex contagion kernel.",
-            "Shows adoption thresholds depend on plausibility, source reliability, and disposition.",
-            "Demonstrates clustered network spread and self-sustaining hysteretic consensus."
-          ]
-        },
-        "fr": {
-          "title": "Formation de croyances guidée par la cohérence et contagion chez les agents LLM",
-          "summary": "Cet article mesure l'adoption de croyances chez des agents LLM, découvrant un noyau d'adoption sigmoïde caractéristique d'une contagion complexe. Le seuil d'adoption est sensible à la plausibilité, à la fiabilité de la source et à la disposition de l'agent, unifiées par la cohérence des croyances.",
-          "keyPoints": [
-            "Mesure l'adoption de croyances chez les agents LLM avec un noyau sigmoïde.",
-            "Montre que les seuils dépendent de la plausibilité, de la source et de la disposition.",
-            "Démontre une propagation en réseau et un consensus hystérétique auto-entretenu."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-052b82e6727568",
-      "title": "GHOST: Governance Hazards from Overlooked Safety Constraints",
-      "summary": "Extended interaction histories in long-horizon agents can lead to agents executing actions that violate safety constraints specified many turns earlier, a failure mode termed GHOST. Experiments show an 11.5% occurrence rate under benign conditions with GPT-5.5. The authors propose STAR-Guard, a two-layer defense combining historical semantic constraint restoration with a deterministic pre-execution audit.",
-      "keyPoints": [
-        "Identifies GHOST, a safety failure mode caused by overlooked safety constraints across turns.",
-        "Observes an 11.5% occurrence rate of GHOST events using GPT-5.5 under benign conditions.",
-        "Introduces STAR-Guard, a two-layer defense mechanism to restore constraints and audit proposals."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02664",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GHOST: Governance Hazards from Overlooked Safety Constraints",
-          "summary": "Extended interaction histories in long-horizon agents can lead to agents executing actions that violate safety constraints specified many turns earlier, a failure mode termed GHOST. Experiments show an 11.5% occurrence rate under benign conditions with GPT-5.5. The authors propose STAR-Guard, a two-layer defense combining historical semantic constraint restoration with a deterministic pre-execution audit.",
-          "keyPoints": [
-            "Identifies GHOST, a safety failure mode caused by overlooked safety constraints across turns.",
-            "Observes an 11.5% occurrence rate of GHOST events using GPT-5.5 under benign conditions.",
-            "Introduces STAR-Guard, a two-layer defense mechanism to restore constraints and audit proposals."
-          ]
-        },
-        "fr": {
-          "title": "GHOST : Risques de gouvernance liés aux contraintes de sécurité ignorées",
-          "summary": "Les historiques d'interaction prolongés des agents à long horizon peuvent entraîner des violations de contraintes de sécurité spécifiées de nombreux tours auparavant, un mode de défaillance nommé GHOST. Les expériences montrent un taux d'occurrence de 11,5 % avec GPT-5.5. Les auteurs proposent STAR-Guard, une défense à deux couches.",
-          "keyPoints": [
-            "Identifie GHOST, un problème de sécurité lié aux contraintes oubliées au fil des tours.",
-            "Constate un taux d'occurrence de 11,5 % des événements GHOST avec GPT-5.5.",
-            "Présente STAR-Guard, un mécanisme de défense à deux couches pour restaurer les contraintes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-5345cb97a38857",
-      "title": "Success-Referenced On-Policy Distillation for Language Models",
-      "summary": "On-policy distillation (OPD) requires costly dense token-level supervision from a teacher for every rollout. The authors introduce Success-Referenced On-Policy Distillation (SR-OPD), which uses a student's successful rollouts as references to selectively supervise failed ones. SR-OPD uses only 3.46-5.02% of vanilla teacher-input tokens while maintaining competitive mathematical reasoning performance.",
-      "keyPoints": [
-        "Introduces Success-Referenced On-Policy Distillation (SR-OPD) to reduce teacher computation costs.",
-        "Uses successful student rollouts as a natural reference to target supervision on failed rollouts.",
-        "Achieves comparable performance using only 3.46-5.02% of vanilla teacher input tokens."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02678",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Success-Referenced On-Policy Distillation for Language Models",
-          "summary": "On-policy distillation (OPD) requires costly dense token-level supervision from a teacher for every rollout. The authors introduce Success-Referenced On-Policy Distillation (SR-OPD), which uses a student's successful rollouts as references to selectively supervise failed ones. SR-OPD uses only 3.46-5.02% of vanilla teacher-input tokens while maintaining competitive mathematical reasoning performance.",
-          "keyPoints": [
-            "Introduces Success-Referenced On-Policy Distillation (SR-OPD) to reduce teacher computation costs.",
-            "Uses successful student rollouts as a natural reference to target supervision on failed rollouts.",
-            "Achieves comparable performance using only 3.46-5.02% of vanilla teacher input tokens."
-          ]
-        },
-        "fr": {
-          "title": "Distillation en ligne référencée par le succès pour les modèles de langage",
-          "summary": "La distillation en ligne (OPD) nécessite une supervision coûteuse de la part d'un professeur pour chaque exécution. Les auteurs présentent SR-OPD, qui utilise les exécutions réussies d'un étudiant comme références pour superviser sélectivement les échecs. SR-OPD réduit l'utilisation de jetons de professeur à 3,46-5,02 %.",
-          "keyPoints": [
-            "Introduit SR-OPD pour réduire les coûts de calcul des professeurs dans la distillation.",
-            "Utilise les réussites des étudiants comme référence pour cibler la supervision des échecs.",
-            "Maintient des performances comparables avec seulement 3,46-5,02 % des jetons de professeur."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     }
