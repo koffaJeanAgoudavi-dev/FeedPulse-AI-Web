@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T00:37:59.624Z",
+  "generatedAt": "2026-10-05T06:39:13.984Z",
   "items": [
     {
       "id": "feed-c38af6e5cae43e",
@@ -394,12 +394,12 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 53,
+    "itemsCollected": 455,
     "itemsPublished": 10,
-    "newItems": 10,
+    "newItems": 0,
     "batches": 3,
     "batchSize": 10,
     "model": "gemini-3.8-flash",
-    "status": "updated"
+    "status": "generation-failed-preserved-previous-feed"
   }
 }
