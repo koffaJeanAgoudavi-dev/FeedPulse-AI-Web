@@ -1,427 +1,310 @@
 {
-  "generatedAt": "2026-10-05T13:49:12.649Z",
+  "generatedAt": "2026-10-06T00:42:17.301Z",
   "items": [
     {
-      "id": "feed-79fad930abba8a",
-      "title": "DNAlign: Dynamic Null-Space Safe Alignment for LLMs",
-      "summary": "The authors propose DNAlign, a lightweight alignment framework addressing the trade-off between LLM safety and utility. By combining control-theoretic optimization and null-space projection derived from neutral hidden states, DNAlign steers generation toward safe behaviors while preserving core knowledge, fluency, and factual accuracy without sacrificing diversity.",
+      "id": "feed-d2b5b29b4c8155",
+      "title": "OpenAI's Approach to EU Text Provenance Rules",
+      "summary": "OpenAI details its strategy for complying with EU text watermarking rules, outlining where watermarks apply, how detection functions, and why access is initially provided to researchers.",
       "keyPoints": [
-        "Introduces DNAlign to resolve the persistent trade-off between LLM safety and utility.",
-        "Uses control-theoretic optimization and null-space projection to restrict perturbations to harmful-related subspaces.",
-        "Demonstrates consistent reduction of harmful outputs while maintaining fluency, coherence, and factual utility across LLM backbones."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02844",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DNAlign: Dynamic Null-Space Safe Alignment for LLMs",
-          "summary": "The authors propose DNAlign, a lightweight alignment framework addressing the trade-off between LLM safety and utility. By combining control-theoretic optimization and null-space projection derived from neutral hidden states, DNAlign steers generation toward safe behaviors while preserving core knowledge, fluency, and factual accuracy without sacrificing diversity.",
-          "keyPoints": [
-            "Introduces DNAlign to resolve the persistent trade-off between LLM safety and utility.",
-            "Uses control-theoretic optimization and null-space projection to restrict perturbations to harmful-related subspaces.",
-            "Demonstrates consistent reduction of harmful outputs while maintaining fluency, coherence, and factual utility across LLM backbones."
-          ]
-        },
-        "fr": {
-          "title": "DNAlign : Alignement sûr dynamique dans le sous-espace nul pour les LLM",
-          "summary": "Les auteurs proposent DNAlign, un cadre d'alignement léger répondant au compromis entre la sécurité et l'utilité des LLM. En combinant l'optimisation théorique du contrôle et la projection dans le sous-espace nul, DNAlign guide la génération vers des comportements sûrs tout en préservant les connaissances de base et la précision.",
-          "keyPoints": [
-            "Présente DNAlign pour résoudre le compromis entre la sécurité et l'utilité des LLM.",
-            "Utilise une optimisation par théorie du contrôle et une projection dans le sous-espace nul.",
-            "Démontre une réduction cohérente des sorties nocives tout en maintenant la fluidité et l'utilité factuelle."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3c8f65e7825cd7",
-      "title": "Certified Safety and Jailbreak Detection via State Space Models",
-      "summary": "This paper investigates the formal robustness properties of State Space Model (SSM)-based safety heads. The researchers prove that exact interval bound propagation certification requires the l-infinity norm of the state transition matrix to be strictly less than one. Enforcing this contraction condition via a hinge penalty improves the certified fraction on toxic data and enables zero-shot transfer for jailbreak detection.",
-      "keyPoints": [
-        "Proves that exact interval bound propagation certification for SSM safety heads requires the contraction condition.",
-        "Enforces contraction with a hinge penalty, improving the certified fraction on toxic comment data from 41% to 59%.",
-        "Achieves zero-shot transfer on AdvBench and HarmBench using a contraction-regularized S4 head."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02853",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Certified Safety and Jailbreak Detection via State Space Models",
-          "summary": "This paper investigates the formal robustness properties of State Space Model (SSM)-based safety heads. The researchers prove that exact interval bound propagation certification requires the l-infinity norm of the state transition matrix to be strictly less than one. Enforcing this contraction condition via a hinge penalty improves the certified fraction on toxic data and enables zero-shot transfer for jailbreak detection.",
-          "keyPoints": [
-            "Proves that exact interval bound propagation certification for SSM safety heads requires the contraction condition.",
-            "Enforces contraction with a hinge penalty, improving the certified fraction on toxic comment data from 41% to 59%.",
-            "Achieves zero-shot transfer on AdvBench and HarmBench using a contraction-regularized S4 head."
-          ]
-        },
-        "fr": {
-          "title": "Sécurité certifiée et détection de contournement via des modèles d'espace d'états",
-          "summary": "Cet article étudie les propriétés de robustesse formelle des têtes de sécurité basées sur des modèles d'espace d'états. Les chercheurs prouvent qu'une certification exacte nécessite que la norme l-infinitie de la matrice de transition d'états soit inférieure à un. L'application de cette condition améliore la fraction certifiée sur des données toxiques.",
-          "keyPoints": [
-            "Prouve que la certification exacte nécessite une condition de contraction sur la matrice de transition.",
-            "Applique la contraction avec une pénalité de charnière, améliorant la fraction certifiée de 41 % à 59 %.",
-            "Permet un transfert zéro-shot pour la détection de contournement sur AdvBench et HarmBench."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-93b88a8ac77201",
-      "title": "Harness-Aware Distillation for Small Language Model Agents",
-      "summary": "The authors introduce Harness-Aware Distillation (HAD), a method for distilling large language model agents into smaller ones without requiring task rewards or success labels. HAD focuses on what the teacher adds beyond the software harness by incorporating action preferences and validity checks, ultimately reducing unproductive loops and improving error recovery.",
-      "keyPoints": [
-        "Proposes Harness-Aware Distillation (HAD) to distill agent capabilities without needing task rewards or success labels.",
-        "Combines contrastive action preferences and validity checks to utilize information beyond the harness.",
-        "Outperforms on-policy distillation baselines on long-horizon agent benchmarks by reducing unproductive loops."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02858",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Harness-Aware Distillation for Small Language Model Agents",
-          "summary": "The authors introduce Harness-Aware Distillation (HAD), a method for distilling large language model agents into smaller ones without requiring task rewards or success labels. HAD focuses on what the teacher adds beyond the software harness by incorporating action preferences and validity checks, ultimately reducing unproductive loops and improving error recovery.",
-          "keyPoints": [
-            "Proposes Harness-Aware Distillation (HAD) to distill agent capabilities without needing task rewards or success labels.",
-            "Combines contrastive action preferences and validity checks to utilize information beyond the harness.",
-            "Outperforms on-policy distillation baselines on long-horizon agent benchmarks by reducing unproductive loops."
-          ]
-        },
-        "fr": {
-          "title": "Distillation consciente du harnais pour les agents de petits modèles de langue",
-          "summary": "Les auteurs présentent la distillation consciente du harnais (HAD), une méthode pour distiller de grands agents de modèles de langue en de plus petits sans nécessiter de récompenses de tâches. HAD se concentre sur ce que l'enseignant ajoute au-delà du logiciel en intégrant des préférences d'action et des contrôles de validité.",
-          "keyPoints": [
-            "Propose la distillation consciente du harnais (HAD) sans nécessiter de récompenses de tâches.",
-            "Combine des préférences d'action contrastées et des contrôles de validité.",
-            "Surpasse les bases de référence de distillation sur les benchmarks d'agents à long horizon."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-5e5f3413370a1d",
-      "title": "TACD: Distilling Efficient Text-to-Motion Models via Terminal Amplification",
-      "summary": "This paper presents Terminal-Amplification-Controlled Distillation (TACD), an on-policy approach to train efficient text-to-motion generators from pretrained teachers without real-motion data. TACD ties the teacher query to the student's step size to bound effective loss weights, yielding substantial end-to-end speedups and memory reductions while improving generation quality.",
-      "keyPoints": [
-        "Introduces TACD for efficient text-to-motion distillation without real-motion training data.",
-        "Ties the latest teacher query to the student's step size to bound loss weights near the denoising endpoint.",
-        "Achieves 7.7-11.9x end-to-end speedups and reduces peak GPU memory by 3.8-6.7x on compact student models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02867",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "TACD: Distilling Efficient Text-to-Motion Models via Terminal Amplification",
-          "summary": "This paper presents Terminal-Amplification-Controlled Distillation (TACD), an on-policy approach to train efficient text-to-motion generators from pretrained teachers without real-motion data. TACD ties the teacher query to the student's step size to bound effective loss weights, yielding substantial end-to-end speedups and memory reductions while improving generation quality.",
-          "keyPoints": [
-            "Introduces TACD for efficient text-to-motion distillation without real-motion training data.",
-            "Ties the latest teacher query to the student's step size to bound loss weights near the denoising endpoint.",
-            "Achieves 7.7-11.9x end-to-end speedups and reduces peak GPU memory by 3.8-6.7x on compact student models."
-          ]
-        },
-        "fr": {
-          "title": "TACD : Distillation de modèles texte-mouvement efficaces via l'amplification terminale",
-          "summary": "Cet article présente la distillation contrôlée par amplification terminale (TACD), une approche pour former des générateurs de mouvement efficaces à partir d'enseignants pré-entraînés. TACD lie la requête de l'enseignant à la taille de pas de l'élève pour limiter les pondérations de perte, offrant des accélérations et des réductions de mémoire.",
-          "keyPoints": [
-            "Présente TACD pour une distillation efficace du texte au mouvement sans données d'entraînement réelles.",
-            "Lie la requête de l'enseignant à la taille de pas de l'élève pour délimiter les pondérations de perte.",
-            "Permet des accélérations de 7,7 à 11,9x et réduit la mémoire GPU maximale de 3,8 à 6,7x."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9752f967ba7158",
-      "title": "PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time",
-      "summary": "The authors introduce PsyEvo, an LLM-based counseling framework providing client-specific personalization and response-policy improvement at test time. Using a Hierarchical Bayesian Skill Policy, Inter-session Listwise Preference Optimization, and State-conditioned Ordinal Credit Assignment, PsyEvo adapts effectively in simulated-client evaluations.",
-      "keyPoints": [
-        "Introduces PsyEvo, a counseling framework that self-evolves and personalizes at test time.",
-        "Combines Hierarchical Bayesian Skill Policy, Inter-session Listwise Preference Optimization, and State-conditioned Ordinal Credit Assignment.",
-        "Achieves strong performance on PsychEval compared to component variants."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02885",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time",
-          "summary": "The authors introduce PsyEvo, an LLM-based counseling framework providing client-specific personalization and response-policy improvement at test time. Using a Hierarchical Bayesian Skill Policy, Inter-session Listwise Preference Optimization, and State-conditioned Ordinal Credit Assignment, PsyEvo adapts effectively in simulated-client evaluations.",
-          "keyPoints": [
-            "Introduces PsyEvo, a counseling framework that self-evolves and personalizes at test time.",
-            "Combines Hierarchical Bayesian Skill Policy, Inter-session Listwise Preference Optimization, and State-conditioned Ordinal Credit Assignment.",
-            "Achieves strong performance on PsychEval compared to component variants."
-          ]
-        },
-        "fr": {
-          "title": "PsyEvo : Un agent de conseil personnalisé qui s'auto-évolue au moment du test",
-          "summary": "Les auteurs présentent PsyEvo, un cadre de conseil basé sur les LLM offrant une personnalisation spécifique au client et une amélioration de la politique de réponse au moment du test. En utilisant une politique de compétences bayésienne hiérarchique et d'autres composants, PsyEvo s'adapte efficacement lors des évaluations.",
-          "keyPoints": [
-            "Présente PsyEvo, un cadre de conseil qui s'auto-évolue et se personnalise au moment du test.",
-            "Combine des politiques bayésiennes, l'optimisation des préférences et l'attribution de crédit ordinal.",
-            "Atteint de solides performances sur PsychEval par rapport aux variantes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d9b6ddc017656b",
-      "title": "Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory",
-      "summary": "This study explores how long-running assistant memory should summarize event streams when serving multiple standing goals simultaneously. Comparing different writing policies, the authors find that goal-specific summaries outperform all-goal and neutral summaries on relevance, completeness, and accuracy, demonstrating that interpreting at write time pays off for future requests.",
-      "keyPoints": [
-        "Investigates memory summarization policies for multi-goal assistant event streams.",
-        "Compares writing summaries with no goal, all goals, or per-goal strategies.",
-        "Shows that per-goal summaries outperform other options on relevance, completeness, and accuracy."
+        "Focuses on text watermarking under EU regulations",
+        "Explains how watermarking detection works in practice",
+        "Begins rollout with access for researchers"
       ],
       "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02897",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/eu-text-provenance",
+      "publishedAt": "2026-10-05T15:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory",
-          "summary": "This study explores how long-running assistant memory should summarize event streams when serving multiple standing goals simultaneously. Comparing different writing policies, the authors find that goal-specific summaries outperform all-goal and neutral summaries on relevance, completeness, and accuracy, demonstrating that interpreting at write time pays off for future requests.",
+          "title": "OpenAI's Approach to EU Text Provenance Rules",
+          "summary": "OpenAI details its strategy for complying with EU text watermarking rules, outlining where watermarks apply, how detection functions, and why access is initially provided to researchers.",
           "keyPoints": [
-            "Investigates memory summarization policies for multi-goal assistant event streams.",
-            "Compares writing summaries with no goal, all goals, or per-goal strategies.",
-            "Shows that per-goal summaries outperform other options on relevance, completeness, and accuracy."
+            "Focuses on text watermarking under EU regulations",
+            "Explains how watermarking detection works in practice",
+            "Begins rollout with access for researchers"
           ]
         },
         "fr": {
-          "title": "Interpréter au moment de l'écriture : une ablation de politique pour la mémoire d'agent",
-          "summary": "Cette étude explore la manière dont la mémoire d'un assistant de longue durée doit résumer les flux d'événements pour plusieurs objectifs simultanés. En comparant différentes politiques d'écriture, les auteurs démontrent que les résumés spécifiques aux objectifs surpassent les autres stratégies en termes de pertinence.",
+          "title": "L'approche d'OpenAI face aux règles de provenance",
+          "summary": "OpenAI détaille sa stratégie pour se conformer aux règles de l'UE sur le filigrane textuel, expliquant où il s'applique, comment fonctionne la détection et pourquoi l'accès commence par les chercheurs.",
           "keyPoints": [
-            "Examine les politiques de résumé de mémoire pour les flux d'événements d'assistants multi-objectifs.",
-            "Compare l'écriture de résumés sans objectif, pour tous les objectifs ou par objectif.",
-            "Montre que les résumés par objectif surpassent les autres options en pertinence et en précision."
+            "Se concentre sur le filigrane textuel selon les règles de l'UE",
+            "Explique le fonctionnement pratique de la détection",
+            "Démarre le déploiement avec un accès pour les chercheurs"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-40ccc8f92cebf3",
-      "title": "LUMOS: Tracing Parametric Knowledge from Training Data to Outputs in LLMs",
-      "summary": "The authors introduce LUMOS, a diagnostic framework that traces parametric knowledge along the causal chain from verified training data exposure to behavioral output in LLMs like OLMo 2. The findings reveal that models encode rare facts internally with high separability yet fail to express them behaviorally, and their self-reflection collapses on unseen content.",
+      "id": "feed-7a5253736b372d",
+      "title": "DyadMem: A Long-Term Memory Benchmark for Agents",
+      "summary": "Researchers introduce DyadMem, a benchmark evaluating User-conditioned Relational Agent Memory (URAM). Testing 20 models reveals strong gold-memory QA but sharp performance drops in full-pipeline evaluations.",
       "keyPoints": [
-        "Introduces LUMOS to trace parametric knowledge from verified training data to behavioral outputs.",
-        "Reveals that models internally encode rare facts with high separability but show lower behavioral expression.",
-        "Demonstrates that model self-reflection and confidence calibration drop to random baselines on unseen content."
+        "Introduces URAM to capture relationship-specific agent memory",
+        "Includes 3,065 episodes, 50,961 sessions, and 61,210 QA instances",
+        "Shows large performance drops from gold-memory to full-pipeline QA"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.03020",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DyadMem: A Long-Term Memory Benchmark for Agents",
+          "summary": "Researchers introduce DyadMem, a benchmark evaluating User-conditioned Relational Agent Memory (URAM). Testing 20 models reveals strong gold-memory QA but sharp performance drops in full-pipeline evaluations.",
+          "keyPoints": [
+            "Introduces URAM to capture relationship-specific agent memory",
+            "Includes 3,065 episodes, 50,961 sessions, and 61,210 QA instances",
+            "Shows large performance drops from gold-memory to full-pipeline QA"
+          ]
+        },
+        "fr": {
+          "title": "DyadMem : Un benchmark de mémoire à long terme",
+          "summary": "Des chercheurs présentent DyadMem, un benchmark évaluant la mémoire relationnelle des agents conditionnée par l'utilisateur. Le test de 20 modèles montre de fortes performances en QA avec mémoire idéale, mais des chutes en pipeline complet.",
+          "keyPoints": [
+            "Introduit l'URAM pour capturer la mémoire relationnelle des agents",
+            "Comprend 3 065 épisodes, 50 961 sessions et 61 210 instances de QA",
+            "Révèle de fortes baisses entre la QA idéale et le pipeline complet"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d6b9f5e651b189",
+      "title": "Introducing GPT-6.1 Sol by OpenAI",
+      "summary": "OpenAI announces GPT-6.1 Sol, delivering near-Astra intelligence for coding, computer use, and professional tasks at one-fifth of Astra's standard token pricing.",
+      "keyPoints": [
+        "Offers near-Astra intelligence for professional tasks and coding",
+        "Enables computer use capabilities at a lower price point",
+        "Priced at one-fifth of Astra's standard input and output token costs"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing GPT-6.1 Sol by OpenAI",
+          "summary": "OpenAI announces GPT-6.1 Sol, delivering near-Astra intelligence for coding, computer use, and professional tasks at one-fifth of Astra's standard token pricing.",
+          "keyPoints": [
+            "Offers near-Astra intelligence for professional tasks and coding",
+            "Enables computer use capabilities at a lower price point",
+            "Priced at one-fifth of Astra's standard input and output token costs"
+          ]
+        },
+        "fr": {
+          "title": "Présentation de GPT-6.1 Sol par OpenAI",
+          "summary": "OpenAI annonce GPT-6.1 Sol, offrant une intelligence proche d'Astra pour le code et le travail professionnel à un cinquième du prix des jetons standards d'Astra.",
+          "keyPoints": [
+            "Offre une intelligence proche d'Astra pour les tâches professionnelles",
+            "Intègre des capacités d'utilisation de l'ordinateur à moindre coût",
+            "Tarifé à un cinquième des coûts de jetons d'entrée et de sortie d'Astra"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7c99e1b4730355",
+      "title": "Verifiable, Articulable, and Tacit Components of Preference",
+      "summary": "A study on AI preferences introduces CreativePreferences, a dataset with 2.8M texts across 7 domains. It highlights robust articulability and verifiability gaps in model alignment.",
+      "keyPoints": [
+        "Releases CreativePreferences with 2.8M texts and 317M human judgments",
+        "Identifies systemic articulability and verifiability gaps across domains",
+        "Shows that articulating preferences can shift them away from tacit dimensions"
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02902",
+      "sourceUrl": "https://arxiv.org/abs/2610.03025",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LUMOS: Tracing Parametric Knowledge from Training Data to Outputs in LLMs",
-          "summary": "The authors introduce LUMOS, a diagnostic framework that traces parametric knowledge along the causal chain from verified training data exposure to behavioral output in LLMs like OLMo 2. The findings reveal that models encode rare facts internally with high separability yet fail to express them behaviorally, and their self-reflection collapses on unseen content.",
+          "title": "Verifiable, Articulable, and Tacit Components of Preference",
+          "summary": "A study on AI preferences introduces CreativePreferences, a dataset with 2.8M texts across 7 domains. It highlights robust articulability and verifiability gaps in model alignment.",
           "keyPoints": [
-            "Introduces LUMOS to trace parametric knowledge from verified training data to behavioral outputs.",
-            "Reveals that models internally encode rare facts with high separability but show lower behavioral expression.",
-            "Demonstrates that model self-reflection and confidence calibration drop to random baselines on unseen content."
+            "Releases CreativePreferences with 2.8M texts and 317M human judgments",
+            "Identifies systemic articulability and verifiability gaps across domains",
+            "Shows that articulating preferences can shift them away from tacit dimensions"
           ]
         },
         "fr": {
-          "title": "LUMOS : Traçage des connaissances paramétriques des données d'entraînement aux sorties",
-          "summary": "Les auteurs présentent LUMOS, un cadre diagnostique qui trace les connaissances paramétriques le long de la chaîne causale, depuis l'exposition aux données d'entraînement vérifiées jusqu'aux sorties comportementales dans les LLM. Les résultats révèlent que les modèles encodent en interne des faits rares avec une forte séparabilité.",
+          "title": "Composantes vérifiables, articulables et tacites des préférences",
+          "summary": "Une étude sur les préférences des IA présente CreativePreferences, un ensemble de 2,8 millions de textes. Elle met en évidence des lacunes d'articulabilité et de vérifiabilité dans l'alignement des modèles.",
           "keyPoints": [
-            "Introduit LUMOS pour tracer les connaissances paramétriques des données d'entraînement vérifiées.",
-            "Révèle que les modèles encodent en interne des faits rares avec une séparabilité élevée.",
-            "Démontre que l'autoréflexion du modèle chute à des niveaux aléatoires sur du contenu non vu."
+            "Publie CreativePreferences contenant 2,8 millions de textes",
+            "Identifie des écarts systémiques d'articulabilité et de vérifiabilité",
+            "Montre que l'articulation des préférences les éloigne de la dimension tacite"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-7c6537fba40d90",
-      "title": "Frequency Is Not Sensitivity: Identifying Safety-Sensitive Experts in MoEs",
-      "summary": "This paper investigates how to identify safety-sensitive experts to suppress in sparse Mixture-of-Experts (MoE) LLMs without retraining. Comparing activation frequency against router-gradient sensitivity, the authors show that gradient-selected expert suppression reduces harmful model refusals significantly more effectively across multiple architectures.",
+      "id": "feed-9289aac6066b96",
+      "title": "SoftGene: Protein Language Model-Enhanced Soft Prompting",
+      "summary": "SoftGene integrates protein language models with LLMs for improved gene set annotation, using hierarchical attention and hybrid prompts across GO and MSigDB benchmarks.",
       "keyPoints": [
-        "Compares activation frequency and router-gradient sensitivity for identifying safety-sensitive experts in MoEs.",
-        "Shows that router-gradient selection reduces safety refusals more effectively than frequency-based methods.",
-        "Demonstrates substantive safety compliance improvements without degraded text generation quality."
+        "Uses an ESM-based hierarchical attention encoder for protein sequences",
+        "Combines soft prompts from embeddings with hard contextual prompts",
+        "Evaluated successfully on Gene Ontology and MSigDB benchmark datasets"
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.03029",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SoftGene: Protein Language Model-Enhanced Soft Prompting",
+          "summary": "SoftGene integrates protein language models with LLMs for improved gene set annotation, using hierarchical attention and hybrid prompts across GO and MSigDB benchmarks.",
+          "keyPoints": [
+            "Uses an ESM-based hierarchical attention encoder for protein sequences",
+            "Combines soft prompts from embeddings with hard contextual prompts",
+            "Evaluated successfully on Gene Ontology and MSigDB benchmark datasets"
+          ]
+        },
+        "fr": {
+          "title": "SoftGene : Annotation de gènes améliorée par modèle de protéines",
+          "summary": "SoftGene intègre des modèles de langage protéique aux LLM pour l'annotation de gènes, en utilisant une attention hiérarchique et des prompts hybrides sur les benchmarks GO et MSigDB.",
+          "keyPoints": [
+            "Utilise un encodeur à attention hiérarchique basé sur ESM pour les protéines",
+            "Combine des prompts souples issus de représentations avec du contexte textuel",
+            "Évalué avec succès sur les jeux de données Gene Ontology et MSigDB"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-12ee6876c05ca4",
+      "title": "Numerical Signalling and Strategic Behaviour Among LLMs",
+      "summary": "Research investigates how different message types impact cooperation in multi-agent systems using four LLMs, finding that structured messages alter payoffs without predictable patterns.",
+      "keyPoints": [
+        "Analyzes four LLMs playing games across natural language and numerical signals",
+        "Finds structured messages alter final payoffs without predictable patterns",
+        "Shows agent-generated numerical messages depart from complete randomness"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02910",
+      "sourceUrl": "https://arxiv.org/abs/2610.03033",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Frequency Is Not Sensitivity: Identifying Safety-Sensitive Experts in MoEs",
-          "summary": "This paper investigates how to identify safety-sensitive experts to suppress in sparse Mixture-of-Experts (MoE) LLMs without retraining. Comparing activation frequency against router-gradient sensitivity, the authors show that gradient-selected expert suppression reduces harmful model refusals significantly more effectively across multiple architectures.",
+          "title": "Numerical Signalling and Strategic Behaviour Among LLMs",
+          "summary": "Research investigates how different message types impact cooperation in multi-agent systems using four LLMs, finding that structured messages alter payoffs without predictable patterns.",
           "keyPoints": [
-            "Compares activation frequency and router-gradient sensitivity for identifying safety-sensitive experts in MoEs.",
-            "Shows that router-gradient selection reduces safety refusals more effectively than frequency-based methods.",
-            "Demonstrates substantive safety compliance improvements without degraded text generation quality."
+            "Analyzes four LLMs playing games across natural language and numerical signals",
+            "Finds structured messages alter final payoffs without predictable patterns",
+            "Shows agent-generated numerical messages depart from complete randomness"
           ]
         },
         "fr": {
-          "title": "La fréquence n'est pas la sensibilité : Identification des experts sensibles dans les MoE",
-          "summary": "Cet article étudie comment identifier les experts sensibles à la sécurité à supprimer dans les LLM à mélange d'experts (MoE) clairsemés sans réentraînement. En comparant la fréquence d'activation à la sensibilité du gradient du routeur, les auteurs montrent que la suppression par gradient réduit plus efficacement les refus.",
+          "title": "Signalisation numérique et comportement stratégique entre LLM",
+          "summary": "Une recherche examine l'impact de divers types de messages sur la coopération multi-agents avec quatre LLM, montrant que les messages structurés modifient les gains sans schéma prévisible.",
           "keyPoints": [
-            "Compare la fréquence d'activation et la sensibilité du gradient pour identifier les experts sensibles.",
-            "Montre que la sélection par gradient du routeur réduit les refus de sécurité plus efficacement.",
-            "Démontre des améliorations de la conformité sans dégrader la qualité de la génération de texte."
+            "Analyse quatre LLM jouant à des jeux via des signaux textuels ou numériques",
+            "Constate que les messages structurés modifient les gains sans logique prévisible",
+            "Montre que les messages numériques générés s'écartent du hasard complet"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-7866a7550200ac",
-      "title": "HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence",
-      "summary": "The authors present HASTE, a multi-agent framework designed to automatically evolve agent harnesses against emerging attacks using sparse evidence like threat reports. HASTE leverages an adversarial interplay between safety-specification generation and attack-case generation to reduce attack success rates while preserving benign task utility.",
+      "id": "feed-88cd4db756db01",
+      "title": "Hacktrace: Behavior-Supervised Reward Hacking Detection",
+      "summary": "Hacktrace offers behavior-supervised detection of reward hacking during code generation, using internal model states to achieve high accuracy and low overhead.",
       "keyPoints": [
-        "Introduces HASTE, a multi-agent framework for automated agent harness evolution from sparse threat evidence.",
-        "Employs an adversarial interplay between safety-specification generation and attack-case generation.",
-        "Consistently reduces attack success rates across multiple backbone models while maintaining benign utility."
+        "Releases 173,561 annotated coding trajectories from Qwen3-8B",
+        "Monitors internal model states for real-time shortcut detection",
+        "Reduces cheating share significantly while maintaining correct solutions"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02920",
+      "sourceUrl": "https://arxiv.org/abs/2610.03055",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence",
-          "summary": "The authors present HASTE, a multi-agent framework designed to automatically evolve agent harnesses against emerging attacks using sparse evidence like threat reports. HASTE leverages an adversarial interplay between safety-specification generation and attack-case generation to reduce attack success rates while preserving benign task utility.",
+          "title": "Hacktrace: Behavior-Supervised Reward Hacking Detection",
+          "summary": "Hacktrace offers behavior-supervised detection of reward hacking during code generation, using internal model states to achieve high accuracy and low overhead.",
           "keyPoints": [
-            "Introduces HASTE, a multi-agent framework for automated agent harness evolution from sparse threat evidence.",
-            "Employs an adversarial interplay between safety-specification generation and attack-case generation.",
-            "Consistently reduces attack success rates across multiple backbone models while maintaining benign utility."
+            "Releases 173,561 annotated coding trajectories from Qwen3-8B",
+            "Monitors internal model states for real-time shortcut detection",
+            "Reduces cheating share significantly while maintaining correct solutions"
           ]
         },
         "fr": {
-          "title": "HASTE : Évolution des harnais d'agents contre les attaques émergentes à l'aide de preuves",
-          "summary": "Les auteurs présentent HASTE, un cadre multi-agent conçu pour faire évoluer automatiquement les harnais d'agents contre les attaques émergentes à l'aide de preuves éparses. HASTE exploite une interaction contradictoire entre la génération de spécifications de sécurité et de cas d'attaque pour réduire les taux de réussite.",
+          "title": "Hacktrace : Détection du piratage de récompense par le comportement",
+          "summary": "Hacktrace propose une détection supervisée par le comportement du piratage de récompense lors de la génération de code, en exploitant les états internes du modèle pour plus de rapidité.",
           "keyPoints": [
-            "Présente HASTE, un cadre multi-agent d'évolution automatique des harnais de sécurité.",
-            "Utilise une interaction contradictoire entre spécifications de sécurité et cas d'attaque.",
-            "Réduit de manière cohérente les taux de réussite des attaques tout en maintenant l'utilité."
+            "Publie 173 561 trajectoires de code annotées à partir de Qwen3-8B",
+            "Surveille les états internes du modèle pour détecter les raccourcis en temps réel",
+            "Réduit considérablement la triche tout en préservant les solutions correctes"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-2f58bd081c7283",
-      "title": "Positive-Unlabeled Learning for Agent Safety False Alarm Auditing",
-      "summary": "This paper tackles the challenge of auditing false alarms generated by conservative safety monitors for LLM agents. By framing the issue as a positive-unlabeled (PU) learning problem, the authors propose a two-stage framework featuring trust-aware PU supervision and reliability-gated rank distillation, significantly outperforming existing PU baselines.",
+      "id": "feed-f55b9b62b3e06d",
+      "title": "MOF-Verify: Failure-Aware Agentic Harness for MOF Verification",
+      "summary": "MOF-Verify is a failure-aware agentic harness designed to improve hypothesis verification for metal-organic frameworks across structural, literature, and computational tasks.",
       "keyPoints": [
-        "Addresses false alarm auditing in LLM agent safety monitors via positive-unlabeled learning.",
-        "Proposes a framework with trust-aware PU supervision and reliability-gated rank distillation.",
-        "Outperforms evaluated PU baselines by substantial margins and recovers significantly more false alarms."
+        "Addresses bottlenecks in structural grounding and literature synthesis for MOFs",
+        "Introduces a diagnostic benchmark covering four distinct task families",
+        "Improves hypothesis verification performance over baseline models"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02925",
+      "sourceUrl": "https://arxiv.org/abs/2610.03056",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Positive-Unlabeled Learning for Agent Safety False Alarm Auditing",
-          "summary": "This paper tackles the challenge of auditing false alarms generated by conservative safety monitors for LLM agents. By framing the issue as a positive-unlabeled (PU) learning problem, the authors propose a two-stage framework featuring trust-aware PU supervision and reliability-gated rank distillation, significantly outperforming existing PU baselines.",
+          "title": "MOF-Verify: Failure-Aware Agentic Harness for MOF Verification",
+          "summary": "MOF-Verify is a failure-aware agentic harness designed to improve hypothesis verification for metal-organic frameworks across structural, literature, and computational tasks.",
           "keyPoints": [
-            "Addresses false alarm auditing in LLM agent safety monitors via positive-unlabeled learning.",
-            "Proposes a framework with trust-aware PU supervision and reliability-gated rank distillation.",
-            "Outperforms evaluated PU baselines by substantial margins and recovers significantly more false alarms."
+            "Addresses bottlenecks in structural grounding and literature synthesis for MOFs",
+            "Introduces a diagnostic benchmark covering four distinct task families",
+            "Improves hypothesis verification performance over baseline models"
           ]
         },
         "fr": {
-          "title": "Apprentissage positif-non étiqueté pour l'audit des fausses alarmes de sécurité",
-          "summary": "Cet article aborde le défi de l'audit des fausses alarmes générées par les moniteurs de sécurité conservateurs pour les agents LLM. En formulant le problème comme un apprentissage positif-non étiqueté (PU), les auteurs proposent un cadre en deux étapes comprenant une supervision PU et une distillation de rang.",
+          "title": "MOF-Verify : Un outil agentique pour la vérification de MOF",
+          "summary": "MOF-Verify est un système agentique conscient des échecs conçu pour améliorer la vérification d'hypothèses sur les réseaux organométalliques à travers des tâches structurelles et documentaires.",
           "keyPoints": [
-            "Traite l'audit des fausses alarmes des moniteurs de sécurité via l'apprentissage positif-non étiqueté.",
-            "Propose un cadre avec supervision PU consciente de la confiance et distillation de rang.",
-            "Surpasse les bases de référence PU évaluées et récupère un nombre significatif de fausses alarmes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9f5b8f19585d91",
-      "title": "Measuring Payback and Making Compilation Decisions for Agents",
-      "summary": "Compiling repeatedly executed GUI procedures into programs can reduce agent token costs. However, compilation costs are uncertain and future reuse is unknown. To address this, researchers propose PACE, a system featuring a measurement protocol and an online compilation algorithm that compares estimated future savings with compilation costs. Simulations show PACE reduces token costs by 17.3% to 24.9% compared to baseline adaptations.",
-      "keyPoints": [
-        "PACE uses a measurement protocol to track successful and failed compilation costs.",
-        "An online algorithm compares future savings against cumulative budgets before executing actions.",
-        "Simulations show token cost reductions of 17.3% to 24.9% compared to various baselines."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02932",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Measuring Payback and Making Compilation Decisions for Agents",
-          "summary": "Compiling repeatedly executed GUI procedures into programs can reduce agent token costs. However, compilation costs are uncertain and future reuse is unknown. To address this, researchers propose PACE, a system featuring a measurement protocol and an online compilation algorithm that compares estimated future savings with compilation costs. Simulations show PACE reduces token costs by 17.3% to 24.9% compared to baseline adaptations.",
-          "keyPoints": [
-            "PACE uses a measurement protocol to track successful and failed compilation costs.",
-            "An online algorithm compares future savings against cumulative budgets before executing actions.",
-            "Simulations show token cost reductions of 17.3% to 24.9% compared to various baselines."
-          ]
-        },
-        "fr": {
-          "title": "Mesure du retour sur investissement et compilation d'agents",
-          "summary": "La compilation de procédures d'interface graphique en programmes peut réduire les coûts de jetons des agents. Cependant, ces coûts sont incertains et la réutilisation future est inconnue. Pour résoudre ce problème, les chercheurs proposent PACE, un système comprenant un protocole de mesure et un algorithme de compilation en ligne. Les simulations montrent que PACE réduit les coûts de jetons de 17,3 % à 24,9 %.",
-          "keyPoints": [
-            "PACE utilise un protocole de mesure pour suivre les coûts de compilation.",
-            "Un algorithme en ligne compare les économies futures aux budgets cumulés.",
-            "Les simulations démontrent des réductions de coûts de jetons de 17,3 % à 24,9 %."
+            "Résout les goulots d'étranglement structurels et documentaires des MOF",
+            "Introduit un benchmark diagnostique couvrant quatre familles de tâches",
+            "Améliore les performances de vérification par rapport aux modèles de base"
           ]
         }
       },
@@ -431,36 +314,36 @@
       }
     },
     {
-      "id": "feed-d90f6364ce9b75",
-      "title": "Continual Graph Memory for Mathematical Research Agents",
-      "summary": "Solving frontier mathematical problems requires parallel agents generating huge volumes of intermediate results. Researchers present Ansatz, an agent built around Continual Graph Memory, an evolvable memory system that organizes proof searches. Ansatz closed all ten research tasks on a specific benchmark and produced solutions to several major mathematical problems without human intervention.",
+      "id": "feed-89a9d705d1ee0a",
+      "title": "RIFAR: Reliability and Forgetting-Aware Replay for Robots",
+      "summary": "RIFAR combines reliability screening with drift-aware replay selection to enhance continual robot learning, outperforming previous generative replay methods.",
       "keyPoints": [
-        "Ansatz uses Continual Graph Memory to organize intermediate proof results across problems.",
-        "Features include a unified graph memory, dependency-aware retrieval, and an evidence-sensitive curator.",
-        "Successfully solved all ten First Proof Second Batch tasks and several known mathematical problems."
+        "Uses a frozen inverse-dynamics model to check action-visual consistency",
+        "Employs drift-aware replay selection for continual skill transfer",
+        "Achieves 90.97 AUC on LIBERO-Goal while storing minimal demonstrations"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02945",
+      "sourceUrl": "https://arxiv.org/abs/2610.03079",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Continual Graph Memory for Mathematical Research Agents",
-          "summary": "Solving frontier mathematical problems requires parallel agents generating huge volumes of intermediate results. Researchers present Ansatz, an agent built around Continual Graph Memory, an evolvable memory system that organizes proof searches. Ansatz closed all ten research tasks on a specific benchmark and produced solutions to several major mathematical problems without human intervention.",
+          "title": "RIFAR: Reliability and Forgetting-Aware Replay for Robots",
+          "summary": "RIFAR combines reliability screening with drift-aware replay selection to enhance continual robot learning, outperforming previous generative replay methods.",
           "keyPoints": [
-            "Ansatz uses Continual Graph Memory to organize intermediate proof results across problems.",
-            "Features include a unified graph memory, dependency-aware retrieval, and an evidence-sensitive curator.",
-            "Successfully solved all ten First Proof Second Batch tasks and several known mathematical problems."
+            "Uses a frozen inverse-dynamics model to check action-visual consistency",
+            "Employs drift-aware replay selection for continual skill transfer",
+            "Achieves 90.97 AUC on LIBERO-Goal while storing minimal demonstrations"
           ]
         },
         "fr": {
-          "title": "Mémoire graphique continuelle pour agents de recherche mathématique",
-          "summary": "Résoudre des problèmes mathématiques de pointe nécessite des agents parallèles générant de nombreux résultats intermédiaires. Les chercheurs présentent Ansatz, un agent doté d'une mémoire graphique continuelle et évolutive. Ansatz a résolu dix tâches de recherche de référence et a produit des solutions à plusieurs problèmes mathématiques sans intervention humaine.",
+          "title": "RIFAR : Relecture consciente de la fiabilité pour la robotique",
+          "summary": "RIFAR associe un filtrage de fiabilité à une sélection de relecture sensible à la dérive pour améliorer l'apprentissage continu des robots, surpassant les méthodes génératives existantes.",
           "keyPoints": [
-            "Ansatz utilise une mémoire graphique continuelle pour organiser les résultats de démonstration.",
-            "Le système intègre une récupération sensible aux dépendances et un conservateur d'preuves.",
-            "Il a résolu avec succès dix tâches de référence et plusieurs problèmes mathématiques connus."
+            "Utilise un modèle de dynamique inverse pour vérifier la cohérence visuelle",
+            "Emploie une sélection de relecture sensible à la dérive pour l'apprentissage",
+            "Atteint 90,97 AUC sur LIBERO-Goal tout en stockant peu de démonstrations"
           ]
         }
       },
@@ -470,36 +353,36 @@
       }
     },
     {
-      "id": "feed-331d126b4c07e2",
-      "title": "Verifiable Preference Proofs for LLM-Based Recommendation",
-      "summary": "LLMs can infer user preferences, but generated rationales may lack grounding or influence, a failure known as the grounding-influence gap. Researchers introduce PROVE-REC, a verifiable preference reasoning framework. It converts history into a compact preference proof and predicts the next item using only the proof and selected evidence, improving baseline performance by up to 7.45%.",
+      "id": "feed-fd557ad3a97e89",
+      "title": "Peer Influence and Persuasion Across Heterogeneous AI Models",
+      "summary": "A study on AI peer influence across seven open-weight models shows that listener susceptibility heavily dictates persuasion shifts, allowing small models to overturn large ones.",
       "keyPoints": [
-        "PROVE-REC addresses the grounding-influence gap in LLM-based recommendations.",
-        "Pass A converts interaction history into preference proofs while Pass B predicts the next item.",
-        "Experiments show consistent improvements of up to 7.45% over strong baselines."
+        "Measures persuasion via probabilistic shifts in decisions after peer exchanges",
+        "Finds listener susceptibility matters more than speaker persuasiveness",
+        "Demonstrates that small models can successfully overturn large model judgments"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02968",
+      "sourceUrl": "https://arxiv.org/abs/2610.03095",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Verifiable Preference Proofs for LLM-Based Recommendation",
-          "summary": "LLMs can infer user preferences, but generated rationales may lack grounding or influence, a failure known as the grounding-influence gap. Researchers introduce PROVE-REC, a verifiable preference reasoning framework. It converts history into a compact preference proof and predicts the next item using only the proof and selected evidence, improving baseline performance by up to 7.45%.",
+          "title": "Peer Influence and Persuasion Across Heterogeneous AI Models",
+          "summary": "A study on AI peer influence across seven open-weight models shows that listener susceptibility heavily dictates persuasion shifts, allowing small models to overturn large ones.",
           "keyPoints": [
-            "PROVE-REC addresses the grounding-influence gap in LLM-based recommendations.",
-            "Pass A converts interaction history into preference proofs while Pass B predicts the next item.",
-            "Experiments show consistent improvements of up to 7.45% over strong baselines."
+            "Measures persuasion via probabilistic shifts in decisions after peer exchanges",
+            "Finds listener susceptibility matters more than speaker persuasiveness",
+            "Demonstrates that small models can successfully overturn large model judgments"
           ]
         },
         "fr": {
-          "title": "Preuves de préférence vérifiables pour la recommandation par LLM",
-          "summary": "Les grands modèles de langage peuvent déduire les préférences des utilisateurs, mais leurs justifications manquent parfois de fondement. Les chercheurs présentent PROVE-REC, un cadre de raisonnement de préférence vérifiable. Il convertit l'historique en une preuve de préférence compacte, améliorant les performances de référence jusqu'à 7,45 %.",
+          "title": "Influence des pairs entre modèles d'IA hétérogènes",
+          "summary": "Une étude sur l'influence mutuelle entre sept modèles ouverts montre que la vulnérabilité de l'auditeur dicte la persuasion, permettant à de petits modèles de renverser des modèles plus grands.",
           "keyPoints": [
-            "PROVE-REC comble l'écart entre le fondement et l'influence dans les recommandations.",
-            "La première passe convertit l'historique en preuves et la seconde prédit l'élément suivant.",
-            "Les expériences montrent des améliorations constantes allant jusqu'à 7,45 %."
+            "Mesure la persuasion via des changements de décision après un échange",
+            "Montre que la réceptivité de l'auditeur l'emporte sur l'éloquence du locuteur",
+            "Démontre que les petits modèles peuvent contredire les jugements des grands"
           ]
         }
       },
@@ -509,36 +392,192 @@
       }
     },
     {
-      "id": "feed-4465410234e481",
-      "title": "Domain-Theory-Informed Bayesian Routing for LLM CV Screening",
-      "summary": "Screening CVs with high-capability LLMs is costly. Researchers present CreateScore, a Bayesian network for criterion-level LLM routing that resolves low-uncertainty decisions using a local 8B model and escalates uncertain ones to a 120B reference model. On synthetic CV data, routed escalation reduced token use by 65.2% compared to adjudicating every criterion with the reference model.",
+      "id": "feed-886791aa3cf67c",
+      "title": "Predictor-Guided Latent Space Codon Optimization for Proteins",
+      "summary": "Researchers introduce Latent-Space Codon Optimization (LSCO) to improve mRNA translation and protein expression by mapping discrete codon sequences into a continuous latent space of a pretrained mRNA language model for gradient-based search.",
       "keyPoints": [
-        "CreateScore uses a Bayesian network to route CV screening tasks based on uncertainty.",
-        "Low-uncertainty decisions go to a local 8B model, while uncertain ones escalate to a 120B model.",
-        "The approach reduced token usage by 65.2% compared to using the 120B model exclusively."
+        "Combines an uncertainty-aware predictor, a Minimum-Free-Energy regularizer, a naturalness prior, and constrained decoding.",
+        "Outperforms simple frequency-based and modern deep generative baselines on a real-world antibody expression dataset.",
+        "Recasts discrete codon optimization into a continuous space using a pretrained mRNA language model."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.03098",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Predictor-Guided Latent Space Codon Optimization for Proteins",
+          "summary": "Researchers introduce Latent-Space Codon Optimization (LSCO) to improve mRNA translation and protein expression by mapping discrete codon sequences into a continuous latent space of a pretrained mRNA language model for gradient-based search.",
+          "keyPoints": [
+            "Combines an uncertainty-aware predictor, a Minimum-Free-Energy regularizer, a naturalness prior, and constrained decoding.",
+            "Outperforms simple frequency-based and modern deep generative baselines on a real-world antibody expression dataset.",
+            "Recasts discrete codon optimization into a continuous space using a pretrained mRNA language model."
+          ]
+        },
+        "fr": {
+          "title": "Optimisation de codons par espace latent guidée par prédicteur",
+          "summary": "Des chercheurs présentent la Latent-Space Codon Optimization (LSCO) pour améliorer la traduction d'ARNm et l'expression des protéines en mappant les séquences de codons dans l'espace latent d'un modèle de langage d'ARNm pré-entraîné.",
+          "keyPoints": [
+            "Combine un prédicteur d'incertitude, un régularisateur d'énergie libre minimale, un a priori de naturalnisme et un décodage contraint.",
+            "Surpasse les bases de référence par fréquence et les modèles génératifs profonds modernes sur un jeu de données réel.",
+            "Transforme l'optimisation discrète des codons en un problème continu via un modèle de langage d'ARNm."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c5c0c54f59f266",
+      "title": "TradeGrad: Trading Strategy Optimization via Textual Gradient",
+      "summary": "TradeGrad is an experience-guided textual-gradient framework for robust quantitative trading strategy design. It leverages accumulated experience, multi-scale revisions, and a Cross-Period Robust Objective to improve temporal robustness.",
+      "keyPoints": [
+        "Achieves top in-sample and out-of-sample performance across Chinese A-share and U.S. equity markets.",
+        "Features the Cross-Period Robust Objective (CPRO) to enhance temporal robustness in unfavorable periods.",
+        "The Chinese cross-sectional strategy yields a 27.99% annualized return and a Sharpe ratio of 1.63."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.03128",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "TradeGrad: Trading Strategy Optimization via Textual Gradient",
+          "summary": "TradeGrad is an experience-guided textual-gradient framework for robust quantitative trading strategy design. It leverages accumulated experience, multi-scale revisions, and a Cross-Period Robust Objective to improve temporal robustness.",
+          "keyPoints": [
+            "Achieves top in-sample and out-of-sample performance across Chinese A-share and U.S. equity markets.",
+            "Features the Cross-Period Robust Objective (CPRO) to enhance temporal robustness in unfavorable periods.",
+            "The Chinese cross-sectional strategy yields a 27.99% annualized return and a Sharpe ratio of 1.63."
+          ]
+        },
+        "fr": {
+          "title": "TradeGrad : Optimisation de stratégies de trading par gradient textuel",
+          "summary": "TradeGrad est un cadre de gradient textuel guidé par l'expérience pour la conception de stratégies de trading quantitatif robustes, utilisant l'expérience accumulée et un objectif robuste inter-périodes.",
+          "keyPoints": [
+            "Atteint les meilleures performances sur et hors échantillon sur les marchés chinois et américains.",
+            "Intègre l'objectif robuste inter-périodes (CPRO) pour favoriser la robustesse temporelle.",
+            "La stratégie transversale chinoise atteint un rendement annualisé de 27,99% et un ratio de Sharpe de 1,63."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cf7b47ce382b6d",
+      "title": "Keeping JEPA World Models Plannable When Little Frame Moves",
+      "summary": "The authors build SLIM, a pushing benchmark, and find that vanilla LeWM world models fail on language-goal planning when little moves. Adding an inverse-dynamics auxiliary loss restores encoder action-sensitivity and raises success rates.",
+      "keyPoints": [
+        "Vanilla LeWM world models succeed on under 1% of SLIM trials due to action-insensitive encoder latents.",
+        "An inverse-dynamics auxiliary loss successfully restores action-sensitivity and raises task success from 0.003 to 0.35.",
+        "A small language-goal head on the repaired latent plans effectively from sentences without retraining."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.03137",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Keeping JEPA World Models Plannable When Little Frame Moves",
+          "summary": "The authors build SLIM, a pushing benchmark, and find that vanilla LeWM world models fail on language-goal planning when little moves. Adding an inverse-dynamics auxiliary loss restores encoder action-sensitivity and raises success rates.",
+          "keyPoints": [
+            "Vanilla LeWM world models succeed on under 1% of SLIM trials due to action-insensitive encoder latents.",
+            "An inverse-dynamics auxiliary loss successfully restores action-sensitivity and raises task success from 0.003 to 0.35.",
+            "A small language-goal head on the repaired latent plans effectively from sentences without retraining."
+          ]
+        },
+        "fr": {
+          "title": "Maintenir la planifiabilité des modèles du monde JEPA",
+          "summary": "Les auteurs présentent SLIM et découvrent que les modèles du monde LeWM échouent dans la planification d'objectifs textuels lorsque les mouvements sont faibles, un problème résolu par une perte auxiliaire de dynamique inverse.",
+          "keyPoints": [
+            "Les modèles LeWM réussissent moins de 1 % des essais sur SLIM en raison de latents insensibles aux actions.",
+            "Une perte auxiliaire de dynamique inverse restaure la sensibilité à l'action et élève le succès à 0,35.",
+            "Une petite tête d'objectif textuel sur le latent réparé permet de planifier à partir de phrases sans réentraînement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d2f29cc8bef9b6",
+      "title": "Gains and Collapse in On-Policy Distillation: A RL Perspective",
+      "summary": "This paper analyzes on-policy distillation (OPD) in language model post-training through a reinforcement learning perspective, showing how implicit teacher rewards can cause generation collapse or performance gains.",
+      "keyPoints": [
+        "OPD can collapse into excessively long and repetitive generations due to preference misalignments in the teacher's implicit reward model.",
+        "Masking unhealthy responses and utilizing SFT initialization effectively mitigate model collapse.",
+        "OPD amplifies student behaviors favored by the teacher's implicit feedback without expanding overall capabilities."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.03185",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Gains and Collapse in On-Policy Distillation: A RL Perspective",
+          "summary": "This paper analyzes on-policy distillation (OPD) in language model post-training through a reinforcement learning perspective, showing how implicit teacher rewards can cause generation collapse or performance gains.",
+          "keyPoints": [
+            "OPD can collapse into excessively long and repetitive generations due to preference misalignments in the teacher's implicit reward model.",
+            "Masking unhealthy responses and utilizing SFT initialization effectively mitigate model collapse.",
+            "OPD amplifies student behaviors favored by the teacher's implicit feedback without expanding overall capabilities."
+          ]
+        },
+        "fr": {
+          "title": "Gains et effondrement dans la distillation sur politique : une perspective RL",
+          "summary": "Cet article analyse la distillation sur politique (OPD) dans le post-entraînement des modèles de langage via l'apprentissage par renforcement, expliquant comment les récompenses implicites du professeur provoquent l'effondrement.",
+          "keyPoints": [
+            "L'OPD peut s'effondrer en générations longues et répétitives à cause de désalignements de préférences.",
+            "Le masquage des réponses malsaines et l'initialisation SFT atténuent efficacement cet effondrement.",
+            "L'OPD amplifie les comportements étudiants favorisés par le retour implicite du professeur."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e884b525bef6df",
+      "title": "KV2: A Self-Refining KV Cache for Long-Context Models",
+      "summary": "KV2 is a query-agnostic KV-cache compression method based on selective reconstruction, using a lightweight proxy scorer to identify informative tokens before computing final eviction scores.",
+      "keyPoints": [
+        "Outperforms baselines significantly at tight budgets, improving RULER 16K average score by over 40 percentage points at a 2% budget.",
+        "Achieves high average scores on LongBench at lower runtime and peak memory than full-context reconstruction.",
+        "Eliminates the requirement to reprocess the full context for reusable KV-cache compression."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02972",
+      "sourceUrl": "https://arxiv.org/abs/2610.03198",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Domain-Theory-Informed Bayesian Routing for LLM CV Screening",
-          "summary": "Screening CVs with high-capability LLMs is costly. Researchers present CreateScore, a Bayesian network for criterion-level LLM routing that resolves low-uncertainty decisions using a local 8B model and escalates uncertain ones to a 120B reference model. On synthetic CV data, routed escalation reduced token use by 65.2% compared to adjudicating every criterion with the reference model.",
+          "title": "KV2: A Self-Refining KV Cache for Long-Context Models",
+          "summary": "KV2 is a query-agnostic KV-cache compression method based on selective reconstruction, using a lightweight proxy scorer to identify informative tokens before computing final eviction scores.",
           "keyPoints": [
-            "CreateScore uses a Bayesian network to route CV screening tasks based on uncertainty.",
-            "Low-uncertainty decisions go to a local 8B model, while uncertain ones escalate to a 120B model.",
-            "The approach reduced token usage by 65.2% compared to using the 120B model exclusively."
+            "Outperforms baselines significantly at tight budgets, improving RULER 16K average score by over 40 percentage points at a 2% budget.",
+            "Achieves high average scores on LongBench at lower runtime and peak memory than full-context reconstruction.",
+            "Eliminates the requirement to reprocess the full context for reusable KV-cache compression."
           ]
         },
         "fr": {
-          "title": "Routage bayésien informé par la théorie pour le tri de CV par LLM",
-          "summary": "L'évaluation de CV par des LLM puissants est coûteuse. Les chercheurs présentent CreateScore, un réseau bayésien de routage qui traite les décisions à faible incertitude via un modèle local de 8B et escalade les autres vers un modèle de 120B. Cette méthode a réduit l'utilisation de jetons de 65,2 %.",
+          "title": "KV2 : Un cache KV auto-affiné pour les modèles à long contexte",
+          "summary": "KV2 est une méthode de compression de cache KV agnostique aux requêtes basée sur la reconstruction sélective, utilisant un scoreur proxy léger pour identifier les jetons informatifs.",
           "keyPoints": [
-            "CreateScore utilise un réseau bayésien pour acheminer les tâches de tri selon l'incertitude.",
-            "Les cas simples sont traités en local par un modèle 8B, les complexes par un modèle 120B.",
-            "La méthode a réduit l'utilisation des jetons de 65,2 % par rapport au modèle de référence."
+            "Surpasse nettement les bases de référence avec un budget serré de 2% sur RULER 16K.",
+            "Atteint les meilleurs scores moyens sur LongBench avec un temps d'exécution et une mémoire réduits.",
+            "Élimine le besoin de retraiter l'intégralité du contexte pour la compression du cache KV."
           ]
         }
       },
@@ -548,36 +587,36 @@
       }
     },
     {
-      "id": "feed-d25f019836e0f7",
-      "title": "Reliable Self-Evolution with Imperfect Proxy Rewards",
-      "summary": "Self-evolving LLM search can rely on low-cost proxy rewards that produce false positives. To combat this, researchers propose Conformal Interval-Driven Self-Evolution (CISE), which constructs candidate-specific reward intervals using conditional conformal inference. Experiments in materials science show that CISE returns only true positives, unlike baselines which include false positives.",
+      "id": "feed-71add0372f7c6b",
+      "title": "Toward SLM-Based Agentic Task-Tool Intent Matching",
+      "summary": "This study investigates using Small Language Models (SLMs) as task-tool relevance classifiers to verify whether an AI agent's tool selections logically align with the assigned task intent.",
       "keyPoints": [
-        "CISE uses conditional conformal inference to build candidate-specific reward intervals.",
-        "Conservative interval-based rewards guide evolutionary feedback reliably.",
-        "Experiments in materials science confirm that CISE avoids false positives returned by baselines."
+        "Evaluates each selected tool independently against the task to provide a relevance signal for downstream enforcement.",
+        "Utilizes a novel dataset covering multi-tool tasks across distinct Model Context Protocol (MCP) servers.",
+        "Employs prompt-optimization, supervised fine-tuning, and reinforcement learning through GRPO to specialize SLMs."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02975",
+      "sourceUrl": "https://arxiv.org/abs/2610.03213",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Reliable Self-Evolution with Imperfect Proxy Rewards",
-          "summary": "Self-evolving LLM search can rely on low-cost proxy rewards that produce false positives. To combat this, researchers propose Conformal Interval-Driven Self-Evolution (CISE), which constructs candidate-specific reward intervals using conditional conformal inference. Experiments in materials science show that CISE returns only true positives, unlike baselines which include false positives.",
+          "title": "Toward SLM-Based Agentic Task-Tool Intent Matching",
+          "summary": "This study investigates using Small Language Models (SLMs) as task-tool relevance classifiers to verify whether an AI agent's tool selections logically align with the assigned task intent.",
           "keyPoints": [
-            "CISE uses conditional conformal inference to build candidate-specific reward intervals.",
-            "Conservative interval-based rewards guide evolutionary feedback reliably.",
-            "Experiments in materials science confirm that CISE avoids false positives returned by baselines."
+            "Evaluates each selected tool independently against the task to provide a relevance signal for downstream enforcement.",
+            "Utilizes a novel dataset covering multi-tool tasks across distinct Model Context Protocol (MCP) servers.",
+            "Employs prompt-optimization, supervised fine-tuning, and reinforcement learning through GRPO to specialize SLMs."
           ]
         },
         "fr": {
-          "title": "Auto-évolution fiable avec des récompenses proxy imparfaites",
-          "summary": "La recherche auto-évolutive basée sur les LLM peut s'appuyer sur des récompenses proxy imparfaites générant des faux positifs. Pour contrer cela, les chercheurs proposent CISE, qui élabore des intervalles de récompense spécifiques aux candidats à l'aide d'une inférence conforme. Les expériences en science des matériaux montrent que CISE ne retourne que des vrais positifs.",
+          "title": "Vers l'appariement d'intention tâche-outil agentique basé sur SLM",
+          "summary": "Cette étude examine l'utilisation de petits modèles de langage (SLM) comme classifieurs de pertinence tâche-outil pour vérifier si les sélections d'outils d'un agent IA s'alignent sur l'intention de la tâche.",
           "keyPoints": [
-            "CISE utilise une inférence conforme conditionnelle pour créer des intervalles de récompense.",
-            "Des récompenses prudentes basées sur ces intervalles guident le retour évolutif.",
-            "Les expériences confirment que CISE évite les faux positifs générés par les méthodes de référence."
+            "Évalue chaque outil sélectionné indépendamment pour fournir un signal de pertinence.",
+            "Utilise un nouveau jeu de données multi-outils s'étendant sur différents serveurs MCP.",
+            "Emploie l'optimisation de requêtes, le réglage fin supervisé et l'apprentissage par renforcement via GRPO."
           ]
         }
       },
@@ -587,36 +626,36 @@
       }
     },
     {
-      "id": "feed-21060ddfd31171",
-      "title": "Relevant Evidence Decoding for Audio-Visual Hallucination Mitigation",
-      "summary": "Audio-Visual Large Language Models suffer from cross-modal hallucinations where modalities incorrectly affect predictions. Researchers introduce Relevant Evidence Decoding (RED), a training-free method using pointwise mutual information to quantify and strengthen question-relevant evidence. RED improves accuracy by up to 7% across benchmarks compared to standard decoding.",
+      "id": "feed-7fa8c5122d7198",
+      "title": "Learning a Fact Is Not Learning How to Retrieve It",
+      "summary": "By training models in two stages, researchers demonstrate that a model can learn how to retrieve information through request-form experience before it fully learns the underlying facts.",
       "keyPoints": [
-        "RED addresses cross-modal hallucinations in Audio-Visual LLMs without requiring retraining.",
-        "It uses pointwise mutual information to isolate and boost audio or video contributions.",
-        "Evaluations show accuracy improvements of up to 7% across multiple benchmarks."
+        "Separates fact learning from retrieval learning by using distinct request-form training stages.",
+        "Shows that earlier request-form experience directly influences context states and subsequent fact retrieval.",
+        "Changing the hidden context state at retrieval time can either enable or prevent the retrieval of learned facts."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02976",
+      "sourceUrl": "https://arxiv.org/abs/2610.03251",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Relevant Evidence Decoding for Audio-Visual Hallucination Mitigation",
-          "summary": "Audio-Visual Large Language Models suffer from cross-modal hallucinations where modalities incorrectly affect predictions. Researchers introduce Relevant Evidence Decoding (RED), a training-free method using pointwise mutual information to quantify and strengthen question-relevant evidence. RED improves accuracy by up to 7% across benchmarks compared to standard decoding.",
+          "title": "Learning a Fact Is Not Learning How to Retrieve It",
+          "summary": "By training models in two stages, researchers demonstrate that a model can learn how to retrieve information through request-form experience before it fully learns the underlying facts.",
           "keyPoints": [
-            "RED addresses cross-modal hallucinations in Audio-Visual LLMs without requiring retraining.",
-            "It uses pointwise mutual information to isolate and boost audio or video contributions.",
-            "Evaluations show accuracy improvements of up to 7% across multiple benchmarks."
+            "Separates fact learning from retrieval learning by using distinct request-form training stages.",
+            "Shows that earlier request-form experience directly influences context states and subsequent fact retrieval.",
+            "Changing the hidden context state at retrieval time can either enable or prevent the retrieval of learned facts."
           ]
         },
         "fr": {
-          "title": "Décoration de preuves pertinentes pour atténuer les hallucinations audiovisuelles",
-          "summary": "Les grands modèles de langage audiovisuels souffrent d'hallucinations intermodales. Les chercheurs présentent RED (Relevant Evidence Decoding), une méthode sans entraînement utilisant l'information mutuelle ponctuelle pour identifier et renforcer les preuves pertinentes. RED améliore la précision jusqu'à 7 % par rapport au décodage standard.",
+          "title": "Apprendre un fait n'est pas apprendre à le récupérer",
+          "summary": "En entraînant des modèles en deux étapes, des chercheurs démontrent qu'un modèle peut apprendre à récupérer des informations via des formulaires de requête avant d'apprendre les faits sous-jacents.",
           "keyPoints": [
-            "RED corrige les hallucinations intermodales des modèles audiovisuels sans réentraînement.",
-            "Il utilise l'information mutuelle ponctuelle pour isoler et renforcer les contributions audio ou vidéo.",
-            "Les évaluations montrent des gains de précision allant jusqu'à 7 % sur plusieurs critères."
+            "Sépare l'apprentissage des faits de l'apprentissage de leur récupération à l'aide de deux étapes.",
+            "Montre que l'expérience préalable des formes de requête influence les états de contexte.",
+            "Modifier l'état du contexte caché au moment de la récupération permet d'activer ou d'empêcher l'accès aux faits."
           ]
         }
       },
@@ -626,36 +665,36 @@
       }
     },
     {
-      "id": "feed-1f200ad6a4e709",
-      "title": "Reward-Aligned Summarization of Clinical Notes for EHR Outcomes",
-      "summary": "Unstructured discharge notes contain critical patient evidence that is often buried in noisy text. Researchers propose RASPER, a Reward-Aligned Summarizer for Prediction in EHR that optimizes note summarization directly against downstream clinical tasks using reinforcement learning. RASPER outperforms strong baselines on readmission prediction and medication recommendation.",
+      "id": "feed-26237ba4502f6d",
+      "title": "EVOL: Simulator-Guided Evolutionary Expert Synthesis for LPR",
+      "summary": "EVOL is a framework addressing reinforcement learning challenges in learning path recommendation by using knowledge tracing simulators for evolutionary expert synthesis and deployment-free policy distillation.",
       "keyPoints": [
-        "RASPER extracts task-relevant evidence from unstructured clinical discharge notes.",
-        "It uses reinforcement learning from prediction feedback to optimize summarization quality.",
-        "The system outperforms baseline methods on readmission and medication tasks using MIMIC datasets."
+        "Synthesizes per-learner expert demonstrations via evolutionary search inside a knowledge tracing simulator.",
+        "Employs an asymmetric actor-critic architecture combining blind planning with a privileged simulator state.",
+        "Surpasses 8 baseline methods across three educational datasets containing 39 to 189 concepts."
       ],
-      "category": "Modèles",
+      "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02979",
+      "sourceUrl": "https://arxiv.org/abs/2610.03273",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Reward-Aligned Summarization of Clinical Notes for EHR Outcomes",
-          "summary": "Unstructured discharge notes contain critical patient evidence that is often buried in noisy text. Researchers propose RASPER, a Reward-Aligned Summarizer for Prediction in EHR that optimizes note summarization directly against downstream clinical tasks using reinforcement learning. RASPER outperforms strong baselines on readmission prediction and medication recommendation.",
+          "title": "EVOL: Simulator-Guided Evolutionary Expert Synthesis for LPR",
+          "summary": "EVOL is a framework addressing reinforcement learning challenges in learning path recommendation by using knowledge tracing simulators for evolutionary expert synthesis and deployment-free policy distillation.",
           "keyPoints": [
-            "RASPER extracts task-relevant evidence from unstructured clinical discharge notes.",
-            "It uses reinforcement learning from prediction feedback to optimize summarization quality.",
-            "The system outperforms baseline methods on readmission and medication tasks using MIMIC datasets."
+            "Synthesizes per-learner expert demonstrations via evolutionary search inside a knowledge tracing simulator.",
+            "Employs an asymmetric actor-critic architecture combining blind planning with a privileged simulator state.",
+            "Surpasses 8 baseline methods across three educational datasets containing 39 to 189 concepts."
           ]
         },
         "fr": {
-          "title": "Résumé de notes cliniques aligné sur les récompenses pour les dossiers médicaux",
-          "summary": "Les notes de sortie non structurées contiennent des informations cruciales souvent noyées dans du texte redondant. Les chercheurs proposent RASPER, un résumeur optimisé par apprentissage par renforcement pour la prédiction clinique. RASPER surpasse les méthodes de référence pour la prédiction de réadmission et la recommandation de médicaments.",
+          "title": "EVOL : Synthèse d'experts évolutionnistes guidée par simulateur pour la LPR",
+          "summary": "EVOL est un cadre abordant les défis de l'apprentissage par renforcement pour la recommandation de parcours d'apprentissage grâce à des simulateurs de traçage de connaissances.",
           "keyPoints": [
-            "RASPER extrait les informations pertinentes des notes de sortie cliniques non structurées.",
-            "Il utilise l'apprentissage par renforcement basé sur les retours de prédiction pour optimiser les résumés.",
-            "Le système surpasse les bases de référence sur les jeux de données MIMIC."
+            "Synthétise des démonstrations d'experts par recherche évolutionniste dans un simulateur.",
+            "Utilise une architecture acteur-critique asymétrique combinant planification aveugle et état privilégié.",
+            "Surpasse 8 méthodes de référence sur trois jeux de données pédagogiques."
           ]
         }
       },
@@ -665,75 +704,36 @@
       }
     },
     {
-      "id": "feed-fd89f51f91e84b",
-      "title": "Safeguarding Mutual Correction in Source-Free Domain Adaptation",
-      "summary": "Source-Free Domain Adaptation adapts models to unlabeled target domains without original source access. While Vision-Language models help, unidirectional paradigms risk error propagation. Researchers propose SafeCut, using the cut statistic as a label-free reliability measure to safely gate cross-model supervision and suppress miscorrections.",
+      "id": "feed-9ce67f27e2bcc9",
+      "title": "JOVE: Joint Execution and Verification for LLM Task Graphs",
+      "summary": "JOVE is an online framework that jointly assigns executor LLMs and selects intermediate outputs for paid verification in complex task graphs, optimizing the trade-off between execution cost and learning under constraints.",
       "keyPoints": [
-        "SafeCut uses the cut statistic as a label-free measure of prediction reliability.",
-        "It dynamically controls cross-model supervision between source-pretrained and Vision-Language models.",
-        "Experiments across diverse SFDA benchmarks demonstrate state-of-the-art performance."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02981",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Safeguarding Mutual Correction in Source-Free Domain Adaptation",
-          "summary": "Source-Free Domain Adaptation adapts models to unlabeled target domains without original source access. While Vision-Language models help, unidirectional paradigms risk error propagation. Researchers propose SafeCut, using the cut statistic as a label-free reliability measure to safely gate cross-model supervision and suppress miscorrections.",
-          "keyPoints": [
-            "SafeCut uses the cut statistic as a label-free measure of prediction reliability.",
-            "It dynamically controls cross-model supervision between source-pretrained and Vision-Language models.",
-            "Experiments across diverse SFDA benchmarks demonstrate state-of-the-art performance."
-          ]
-        },
-        "fr": {
-          "title": "Sécurisation de la correction mutuelle en adaptation de domaine sans source",
-          "summary": "L'adaptation de domaine sans source permet d'adapter des modèles à des cibles non étiquetées. Pour éviter la propagation d'erreurs entre modèles visuels et textuels, les chercheurs proposent SafeCut. Cette approche utilise la statistique de coupure comme mesure de fiabilité sans étiquette pour réguler la supervision croisée.",
-          "keyPoints": [
-            "SafeCut utilise la statistique de coupure pour évaluer la fiabilité des prédictions sans étiquette.",
-            "Il contrôle dynamiquement la supervision croisée entre les différents modèles.",
-            "Les expériences démontrent des performances de pointe sur divers benchmarks SFDA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-62ed4992a0a9c0",
-      "title": "PLCWorld: Benchmarking LLM-Generated PLC Programs in Simulation",
-      "summary": "Evaluating LLM-generated Programmable Logic Controller programs requires observing their effects on equipment states. Researchers introduce PLCWorld, a closed-loop environment coupling Structured Text execution with simulated plant responses. Testing across 100 synthetic tasks showed GPT-5.5 achieved 82.70% Task Success on Easy cases but 25.10% on Hard cases.",
-      "keyPoints": [
-        "PLCWorld is a closed-loop execution environment and benchmark for LLM-generated PLC code.",
-        "It contains 100 synthetic tasks across Motion Control and Material Handling.",
-        "Evaluations show varying performance, with GPT-5.5 scoring 82.70% on easy tasks and 25.10% on hard tasks."
+        "Solves a sequence of per-query mixed-integer linear programs to make execution and verification decisions.",
+        "Updates task-dependent estimates of LLM quality online using asynchronous verification feedback.",
+        "Reduces average cost and latency by at least 3.17 times while maintaining competitive accuracy across four benchmarks."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.02982",
+      "sourceUrl": "https://arxiv.org/abs/2610.03296",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "PLCWorld: Benchmarking LLM-Generated PLC Programs in Simulation",
-          "summary": "Evaluating LLM-generated Programmable Logic Controller programs requires observing their effects on equipment states. Researchers introduce PLCWorld, a closed-loop environment coupling Structured Text execution with simulated plant responses. Testing across 100 synthetic tasks showed GPT-5.5 achieved 82.70% Task Success on Easy cases but 25.10% on Hard cases.",
+          "title": "JOVE: Joint Execution and Verification for LLM Task Graphs",
+          "summary": "JOVE is an online framework that jointly assigns executor LLMs and selects intermediate outputs for paid verification in complex task graphs, optimizing the trade-off between execution cost and learning under constraints.",
           "keyPoints": [
-            "PLCWorld is a closed-loop execution environment and benchmark for LLM-generated PLC code.",
-            "It contains 100 synthetic tasks across Motion Control and Material Handling.",
-            "Evaluations show varying performance, with GPT-5.5 scoring 82.70% on easy tasks and 25.10% on hard tasks."
+            "Solves a sequence of per-query mixed-integer linear programs to make execution and verification decisions.",
+            "Updates task-dependent estimates of LLM quality online using asynchronous verification feedback.",
+            "Reduces average cost and latency by at least 3.17 times while maintaining competitive accuracy across four benchmarks."
           ]
         },
         "fr": {
-          "title": "PLCWorld : Évaluation de programmes PLC générés par LLM en simulation",
-          "summary": "L'évaluation de programmes pour automates programmables industriels générés par LLM nécessite d'observer leurs effets. Les chercheurs présentent PLCWorld, un environnement en boucle fermée couplant l'exécution de texte structuré avec des réponses simulées. Les tests sur 100 tâches montrent que GPT-5.5 atteint 82,70 % de réussite sur les cas faciles et 25,10 % sur les difficiles.",
+          "title": "JOVE : Exécution et vérification conjointes pour graphes de tâches de LLM",
+          "summary": "JOVE est un cadre en ligne qui attribue conjointement des LLM exécuteurs et sélectionne des sorties intermédiaires pour vérification, optimisant le compromis entre coût d'exécution et apprentissage.",
           "keyPoints": [
-            "PLCWorld est un environnement de simulation en boucle fermée pour le code PLC généré par LLM.",
-            "Il intègre 100 tâches synthétiques couvrant le contrôle de mouvement et la manutention.",
-            "Les évaluations montrent une réussite de 82,70 % sur les cas faciles contre 25,10 % sur les difficiles pour GPT-5.5."
+            "Résout une séquence de programmes linéaires mixtes en nombres entiers par requête.",
+            "Met à jour les estimations de qualité des LLM en ligne en utilisant un retour de vérification asynchrone.",
+            "Réduit le coût moyen et la latence d'au moins 3,17 fois tout en maintenant une précision compétitive."
           ]
         }
       },
@@ -743,36 +743,36 @@
       }
     },
     {
-      "id": "feed-d06293d7618dd8",
-      "title": "Personalized ASR for a Dysarthric Speaker Using Artificial Conversations",
-      "summary": "Researchers present a personalized automatic speech recognition system for a Czech speaker with severe dysarthria and a tracheal stoma. Using 33 hours of data collected via an artificial conversation protocol and a multi-stage training pipeline based on Whisper Base, the system achieved a 50% relative reduction in Character Error Rate compared to the baseline.",
+      "id": "feed-90df0e33be2f23",
+      "title": "Optimal Planning in a Dynamic World with Any-Start-Time",
+      "summary": "This paper addresses planning when state or action feasibility changes dynamically over time by introducing 'any-start-time planning' and compound arrival time functions (cATFs) encoded through heuristic graph search.",
       "keyPoints": [
-        "The system personalizes ASR for a Czech speaker with severe dysarthria and a tracheal stoma.",
-        "A public dataset containing 33 hours of speech was collected via an artificial conversation protocol.",
-        "Evaluations show a 50% relative reduction in Character Error Rate compared to the Whisper Base baseline."
+        "Defines any-start-time planning to handle environments where execution start times are initially unknown.",
+        "Introduces compound arrival time functions (cATFs) that compactly encode optimal plans as a function of start time.",
+        "Demonstrates through SIPP experiments that any-start-time algorithms quickly look up optimal plans where standard replanning fails."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.03017",
+      "sourceUrl": "https://arxiv.org/abs/2610.03312",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Personalized ASR for a Dysarthric Speaker Using Artificial Conversations",
-          "summary": "Researchers present a personalized automatic speech recognition system for a Czech speaker with severe dysarthria and a tracheal stoma. Using 33 hours of data collected via an artificial conversation protocol and a multi-stage training pipeline based on Whisper Base, the system achieved a 50% relative reduction in Character Error Rate compared to the baseline.",
+          "title": "Optimal Planning in a Dynamic World with Any-Start-Time",
+          "summary": "This paper addresses planning when state or action feasibility changes dynamically over time by introducing 'any-start-time planning' and compound arrival time functions (cATFs) encoded through heuristic graph search.",
           "keyPoints": [
-            "The system personalizes ASR for a Czech speaker with severe dysarthria and a tracheal stoma.",
-            "A public dataset containing 33 hours of speech was collected via an artificial conversation protocol.",
-            "Evaluations show a 50% relative reduction in Character Error Rate compared to the Whisper Base baseline."
+            "Defines any-start-time planning to handle environments where execution start times are initially unknown.",
+            "Introduces compound arrival time functions (cATFs) that compactly encode optimal plans as a function of start time.",
+            "Demonstrates through SIPP experiments that any-start-time algorithms quickly look up optimal plans where standard replanning fails."
           ]
         },
         "fr": {
-          "title": "Reconnaissance vocale personnalisée pour une personne dysarthrique",
-          "summary": "Les chercheurs présentent un système de reconnaissance automatique de la parole personnalisé pour un locuteur tchèque atteint de dysarthrie sévère et d'une stomie trachéale. En s'appuyant sur 33 heures de données collectées via un protocole de conversation artificielle et Whisper Base, le système réduit le taux d'erreur de 50 %.",
+          "title": "Planification optimale dans un monde dynamique à tout moment de départ",
+          "summary": "Cet article aborde la planification lorsque la faisabilité des états change dynamiquement en introduisant la planification à tout moment de départ et des fonctions de temps d'arrivée composées (cATF).",
           "keyPoints": [
-            "Le système personnalise la reconnaissance vocale pour un locuteur atteint de dysarthrie sévère.",
-            "Un ensemble de données publiques de 33 heures a été recueilli via un protocole de conversation artificielle.",
-            "Les évaluations montrent une réduction relative de 50 % du taux d'erreur par rapport à la base de référence."
+            "Définit la planification à tout moment de départ pour gérer des temps d'exécution initialement inconnus.",
+            "Présente les fonctions de temps d'arrivée composées (cATF) encodant les plans optimaux.",
+            "Démontre que les algorithmes cATF trouvent rapidement des plans optimaux là où le réexamen échoue."
           ]
         }
       },
@@ -784,7 +784,7 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 425,
+    "itemsCollected": 422,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
