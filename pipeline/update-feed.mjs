@@ -252,6 +252,15 @@ while (candidateSeed.length < MAX_ITEMS && bySource.size > 0) {
 console.log(`source-balanced candidates: ${candidateSeed.map((item) => item.sourceId).join(', ')}`);
 const imageTargets = [...new Map([
   ...unique.filter((item) => previousUrls.has(item.canonicalUrl)),
+  ...previousItems.filter((item) => item?.sourceUrl).map((item) => ({
+    sourceId: item.sourceId || 'previous-feed',
+    sourceName: item.sourceName || '',
+    title: item.title || '',
+    description: item.summary || '',
+    canonicalUrl: item.sourceUrl,
+    publishedAt: item.publishedAt,
+    imageUrl: item.imageUrl || '',
+  })),
   ...candidateSeed,
 ].map((item) => [item.canonicalUrl, item])).values()];
 const imageByUrl = await enrichImages(imageTargets);
