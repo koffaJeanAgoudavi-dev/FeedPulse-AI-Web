@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-07T12:40:19.977Z",
+  "generatedAt": "2026-10-08T00:42:31.433Z",
   "items": [
     {
-      "id": "feed-b6aec8c05cfc3e",
-      "title": "Introducing Playground: Create and play custom games",
-      "summary": "Playground is a new experimental gaming platform that lets users create, play, and share custom games.",
+      "id": "feed-661f64ddb5f472",
+      "title": "College Planner comes to ChatGPT for Teens",
+      "summary": "College Planner is launching in ChatGPT for Teens to assist students with college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "keyPoints": [
-        "New experimental gaming platform announced by Google AI Blog.",
-        "Enables users to create custom games.",
-        "Allows playing and sharing of user-created games."
+        "College Planner is coming to ChatGPT for Teens.",
+        "Tools include college application management, flashcards, and quizzes.",
+        "A teen AI council is also being introduced."
       ],
       "category": "Outils",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/teens-learn-and-plan",
       "publishedAt": "2026-10-07T12:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.width-1300.png",
+      "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Introducing Playground: Create and play custom games",
-          "summary": "Playground is a new experimental gaming platform that lets users create, play, and share custom games.",
+          "title": "College Planner comes to ChatGPT for Teens",
+          "summary": "College Planner is launching in ChatGPT for Teens to assist students with college applications, alongside new flashcards, quizzes, and a teen AI council.",
           "keyPoints": [
-            "New experimental gaming platform announced by Google AI Blog.",
-            "Enables users to create custom games.",
-            "Allows playing and sharing of user-created games."
+            "College Planner is coming to ChatGPT for Teens.",
+            "Tools include college application management, flashcards, and quizzes.",
+            "A teen AI council is also being introduced."
           ]
         },
         "fr": {
-          "title": "Présentation de Playground : Créez et jouez à des jeux personnalisés",
-          "summary": "Playground est une nouvelle plateforme de jeu expérimentale qui permet de créer, de jouer et de partager des jeux personnalisés.",
+          "title": "College Planner arrive sur ChatGPT pour les adolescents",
+          "summary": "College Planner est lancé dans ChatGPT pour les adolescents afin d'aider les étudiants dans leurs dossiers de candidature, aux côtés de nouvelles cartes mémoire, de quiz et d'un conseil d'IA pour adolescents.",
           "keyPoints": [
-            "Nouvelle plateforme de jeu expérimentale annoncée par Google AI Blog.",
-            "Permet aux utilisateurs de créer des jeux personnalisés.",
-            "Offre la possibilité de jouer et de partager ces jeux."
+            "College Planner arrive sur ChatGPT pour les adolescents.",
+            "Les outils incluent la gestion des candidatures, des cartes mémoire et des quiz.",
+            "Un conseil d'IA pour adolescents est également introduit."
           ]
         }
       },
@@ -41,36 +41,36 @@
       }
     },
     {
-      "id": "feed-a8ac830d507256",
-      "title": "GAMEGO: Training Game-Dev Agents with Real-World Assets",
-      "summary": "GameGo is a scalable framework transforming game seeds into comprehensive Product Requirements Documents using task-specific dynamic compression. Trained on 55,060 trajectories, GameGoCoder outperforms matched baselines across gamedev benchmarks.",
+      "id": "feed-bac1cd7ee3e9fb",
+      "title": "Small Language Models for Edge Data Model Classification",
+      "summary": "This study evaluates lightweight open-source language models to classify smart data models at the edge under resource constraints, comparing them against near-zero-cost similarity baselines.",
       "keyPoints": [
-        "GameGo transforms brief game seeds into complete Product Requirements Documents.",
-        "The dataset GameGoData includes 55,060 development trajectories across 2D, 2.5D, and 3D games.",
-        "GameGoCoder outperforms matched baselines and matches frontier models on benchmarks."
+        "Evaluates lightweight open-source language models for IoT edge data model classification.",
+        "Benchmarks general-purpose, reasoning-specialized, and code-specialized architectures across datasets.",
+        "Compares LLMs against near-zero-cost TF-IDF and sentence encoder similarity baselines."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06910",
+      "sourceUrl": "https://arxiv.org/abs/2610.07093",
       "publishedAt": "2026-10-07T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "GAMEGO: Training Game-Dev Agents with Real-World Assets",
-          "summary": "GameGo is a scalable framework transforming game seeds into comprehensive Product Requirements Documents using task-specific dynamic compression. Trained on 55,060 trajectories, GameGoCoder outperforms matched baselines across gamedev benchmarks.",
+          "title": "Small Language Models for Edge Data Model Classification",
+          "summary": "This study evaluates lightweight open-source language models to classify smart data models at the edge under resource constraints, comparing them against near-zero-cost similarity baselines.",
           "keyPoints": [
-            "GameGo transforms brief game seeds into complete Product Requirements Documents.",
-            "The dataset GameGoData includes 55,060 development trajectories across 2D, 2.5D, and 3D games.",
-            "GameGoCoder outperforms matched baselines and matches frontier models on benchmarks."
+            "Evaluates lightweight open-source language models for IoT edge data model classification.",
+            "Benchmarks general-purpose, reasoning-specialized, and code-specialized architectures across datasets.",
+            "Compares LLMs against near-zero-cost TF-IDF and sentence encoder similarity baselines."
           ]
         },
         "fr": {
-          "title": "GAMEGO : Entraînement d'agents de développement de jeux",
-          "summary": "GameGo est un cadre évolutif transformant des amorces de jeux en documents d'exigences de produits complets. Entraîné sur 55 060 trajectoires, GameGoCoder surpasse les bases de référence comparables.",
+          "title": "Petits modèles de langage pour la classification de données en périphérie",
+          "summary": "Cette étude évalue des modèles de langage open source légers pour classifier des modèles de données intelligents en périphérie sous contraintes de ressources, en les comparant à des bases de similarité à coût quasi nul.",
           "keyPoints": [
-            "GameGo transforme de brèves amorces de jeux en documents d'exigences complets.",
-            "Le jeu de données GameGoData comprend 55 060 trajectoires de développement en 2D, 2.5D et 3D.",
-            "GameGoCoder surpasse les modèles de référence correspondants sur les benchmarks."
+            "Évalue des modèles open source légers pour la classification de données IoT en périphérie.",
+            "Compare des architectures à usage général, spécialisées dans le raisonnement et dans le code.",
+            "Compare les LLM à des bases de similarité TF-IDF et encodeur de phrases."
           ]
         }
       },
@@ -80,36 +80,75 @@
       }
     },
     {
-      "id": "feed-9e90f3b0496f40",
-      "title": "Text2Dashboard: Governed Agent for Natural-Language Dashboards",
-      "summary": "Text2Dashboard is a DataBrain-specific prototype turning natural-language analytic requests into inspectable dashboards using schema-constrained decisions, typed tools, persistent state, and deterministic Hooks.",
+      "id": "feed-4e324623ab7ca6",
+      "title": "Radisson Hotel Group Integrates Discovery into ChatGPT",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, enabling travelers to find, compare, and book hotels while planning trips.",
       "keyPoints": [
-        "Transforms natural-language analytic requests into inspectable dashboards.",
-        "Uses schema-constrained decisions, typed tools, and deterministic Hooks for safety.",
-        "Evaluated on frozen real-DataBrain tasks and controlled Hook faults."
+        "Radisson partnered with Accenture to build a ChatGPT plugin.",
+        "The plugin uses OpenAI technology.",
+        "Travelers can find, compare, and book hotels during trip planning."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/radisson",
+      "publishedAt": "2026-10-07T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Radisson Hotel Group Integrates Discovery into ChatGPT",
+          "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, enabling travelers to find, compare, and book hotels while planning trips.",
+          "keyPoints": [
+            "Radisson partnered with Accenture to build a ChatGPT plugin.",
+            "The plugin uses OpenAI technology.",
+            "Travelers can find, compare, and book hotels during trip planning."
+          ]
+        },
+        "fr": {
+          "title": "Le groupe Radisson intègre la découverte d'hôtels dans ChatGPT",
+          "summary": "Radisson s'est associé à Accenture pour créer un plugin ChatGPT utilisant la technologie OpenAI, permettant aux voyageurs de trouver, comparer et réserver des hôtels lors de la planification de leurs voyages.",
+          "keyPoints": [
+            "Radisson s'est associé à Accenture pour créer un plugin ChatGPT.",
+            "Le plugin utilise la technologie OpenAI.",
+            "Les voyageurs peuvent trouver, comparer et réserver des hôtels."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-51a298727806b6",
+      "title": "Expert-Verified AI Study Materials and University Learning Gains",
+      "summary": "A university study evaluated expert-verified AI study materials in an economics course, finding a 2.34-mark advantage with significant gains originating in the bottom quintile.",
+      "keyPoints": [
+        "Tested expert-verified AI podcasts, FAQs, and study guides in a first-year economics course.",
+        "Access was linked to a 2.34-mark advantage on a 50-mark component.",
+        "Roughly three-quarters of the average effect originated in the bottom quintile."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06914",
+      "sourceUrl": "https://arxiv.org/abs/2610.07097",
       "publishedAt": "2026-10-07T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Text2Dashboard: Governed Agent for Natural-Language Dashboards",
-          "summary": "Text2Dashboard is a DataBrain-specific prototype turning natural-language analytic requests into inspectable dashboards using schema-constrained decisions, typed tools, persistent state, and deterministic Hooks.",
+          "title": "Expert-Verified AI Study Materials and University Learning Gains",
+          "summary": "A university study evaluated expert-verified AI study materials in an economics course, finding a 2.34-mark advantage with significant gains originating in the bottom quintile.",
           "keyPoints": [
-            "Transforms natural-language analytic requests into inspectable dashboards.",
-            "Uses schema-constrained decisions, typed tools, and deterministic Hooks for safety.",
-            "Evaluated on frozen real-DataBrain tasks and controlled Hook faults."
+            "Tested expert-verified AI podcasts, FAQs, and study guides in a first-year economics course.",
+            "Access was linked to a 2.34-mark advantage on a 50-mark component.",
+            "Roughly three-quarters of the average effect originated in the bottom quintile."
           ]
         },
         "fr": {
-          "title": "Text2Dashboard : Agent administré pour tableaux de bord",
-          "summary": "Text2Dashboard est un prototype spécifique à DataBrain qui transforme des requêtes analytiques en langage naturel en tableaux de bord inspectables grâce à des outils typés et des crochets déterministes.",
+          "title": "Matériel d'étude par IA vérifié par des experts et gains d'apprentissage",
+          "summary": "Une étude universitaire a évalué du matériel d'étude par IA vérifié par des experts dans un cours d'économie, constatant un avantage de 2,34 points avec des gains majeurs dans le quintile inférieur.",
           "keyPoints": [
-            "Transforme les requêtes analytiques en langage naturel en tableaux de bord inspectables.",
-            "Utilise des décisions contraintes par schéma, des outils typés et des crochets déterministes.",
-            "Évalué sur des tâches réelles DataBrain gelées et des pannes de crochets contrôlées."
+            "Test de podcasts, FAQ et guides d'étude générés par IA et vérifiés par des experts.",
+            "L'accès est associé à un avantage de 2,34 points sur une composante de 50 points.",
+            "Environ les trois quarts de l'effet proviennent du quintile inférieur."
           ]
         }
       },
@@ -119,36 +158,153 @@
       }
     },
     {
-      "id": "feed-a0e5f3129cf7b8",
-      "title": "FluidPD: In-Place Elasticity for Disaggregated LLM Serving",
-      "summary": "FluidPD is a prefill-decode disaggregated LLM serving system providing SLO-aware in-place elasticity via FluidToken for transient imbalance and FluidRole for sustained imbalance without reloading models.",
+      "id": "feed-a097ef0d441a72",
+      "title": "GPT-6 and Intelligent UI Rollout in ChatGPT",
+      "summary": "GPT-6 is rolling out globally in ChatGPT with Intelligent UI, offering faster responses alongside interactive visuals and experiences.",
       "keyPoints": [
-        "Provides SLO-aware in-place elasticity for disaggregated LLM serving.",
-        "Uses FluidToken to offload prefill computation during transient imbalances.",
-        "Improves overall SLO attainment over static SGLang by up to 94.6 percentage points."
+        "GPT-6 is rolling out globally in ChatGPT.",
+        "Features Intelligent UI for faster responses.",
+        "Includes interactive visuals and experiences for direct exploration."
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/gpt-6-for-everyone",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "GPT-6 and Intelligent UI Rollout in ChatGPT",
+          "summary": "GPT-6 is rolling out globally in ChatGPT with Intelligent UI, offering faster responses alongside interactive visuals and experiences.",
+          "keyPoints": [
+            "GPT-6 is rolling out globally in ChatGPT.",
+            "Features Intelligent UI for faster responses.",
+            "Includes interactive visuals and experiences for direct exploration."
+          ]
+        },
+        "fr": {
+          "title": "Déploiement mondial de GPT-6 et de l'interface intelligente",
+          "summary": "GPT-6 est déployé mondialement dans ChatGPT avec une interface intelligente, offrant des réponses plus rapides ainsi que des visuels et des expériences interactives.",
+          "keyPoints": [
+            "GPT-6 est déployé à l'échelle mondiale dans ChatGPT.",
+            "Intègre une interface intelligente pour des réponses plus rapides.",
+            "Comprend des visuels et des expériences interactives."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-05206e5c84f5f6",
+      "title": "Category-Conditioned Retention for Reliable Agent Memory",
+      "summary": "This research studies whether agent memory retention should use a confidence bar conditioned on semantic category rather than a global threshold to reduce unsupported retentions.",
+      "keyPoints": [
+        "Evaluates category-conditioned thresholds for persistent agent memory retention.",
+        "Demonstrates a reliability asymmetry where value assertions are less supported than others.",
+        "Stricter bars on values reduce unsupported retentions by approximately 36% relatively."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07100",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Category-Conditioned Retention for Reliable Agent Memory",
+          "summary": "This research studies whether agent memory retention should use a confidence bar conditioned on semantic category rather than a global threshold to reduce unsupported retentions.",
+          "keyPoints": [
+            "Evaluates category-conditioned thresholds for persistent agent memory retention.",
+            "Demonstrates a reliability asymmetry where value assertions are less supported than others.",
+            "Stricter bars on values reduce unsupported retentions by approximately 36% relatively."
+          ]
+        },
+        "fr": {
+          "title": "Rétention conditionnée par catégorie pour une mémoire d'agent fiable",
+          "summary": "Cette recherche étudie si la rétention en mémoire d'un agent doit utiliser un seuil de confiance conditionné par la catégorie sémantique plutôt qu'un seuil global pour réduire les rétentions non fondées.",
+          "keyPoints": [
+            "Évalue des seuils conditionnés par catégorie pour la rétention en mémoire.",
+            "Met en évidence une asymétrie de fiabilité des assertions de valeur.",
+            "Réduit les rétentions non fondées d'environ 36 % par rapport aux seuils globaux."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a965fdf2630424",
+      "title": "AMBER: Training Long-Horizon Web Agents with Append-Only Memory",
+      "summary": "AMBER is an append-only memory framework for long-horizon web agents that guarantees retention by construction and improves task success rates without curated SFT data.",
+      "keyPoints": [
+        "Introduces AMBER, an append-only memory bank for evidence retention in web agents.",
+        "Solves limitations of overwrite mechanisms by guaranteeing retention by construction.",
+        "Improves average success rates on WebArena Lite by 4.09 percentage points."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07118",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AMBER: Training Long-Horizon Web Agents with Append-Only Memory",
+          "summary": "AMBER is an append-only memory framework for long-horizon web agents that guarantees retention by construction and improves task success rates without curated SFT data.",
+          "keyPoints": [
+            "Introduces AMBER, an append-only memory bank for evidence retention in web agents.",
+            "Solves limitations of overwrite mechanisms by guaranteeing retention by construction.",
+            "Improves average success rates on WebArena Lite by 4.09 percentage points."
+          ]
+        },
+        "fr": {
+          "title": "AMBER : Entraînement d'agents web à long horizon avec mémoire séquentielle",
+          "summary": "AMBER est un cadre de mémoire à écriture seule pour les agents web à long horizon qui garantit la rétention par construction et améliore les taux de réussite sans données SFT supervisées.",
+          "keyPoints": [
+            "Présente AMBER, une banque de mémoire à écriture seule pour la rétention.",
+            "Résout les limites des mécanismes d'écrasement en garantissant la conservation.",
+            "Améliore le taux de réussite moyen sur WebArena Lite de 4,09 points de pourcentage."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-13df0eec528f06",
+      "title": "Investigating Play Behavior in Embodied AI Coding Assistants",
+      "summary": "Researchers placed an AI coding assistant in a virtual world without explicit tasks, observing spontaneous creative behaviors that resemble play over thirty-hour runs.",
+      "keyPoints": [
+        "Placed an AI coding assistant on a virtual island with minimal instructions.",
+        "Observed activities like climbing, stacking blocks, and drawing mandalas over 30 hours.",
+        "Examines whether such behavior satisfies classical criteria for play and development."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06917",
+      "sourceUrl": "https://arxiv.org/abs/2610.07130",
       "publishedAt": "2026-10-07T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "FluidPD: In-Place Elasticity for Disaggregated LLM Serving",
-          "summary": "FluidPD is a prefill-decode disaggregated LLM serving system providing SLO-aware in-place elasticity via FluidToken for transient imbalance and FluidRole for sustained imbalance without reloading models.",
+          "title": "Investigating Play Behavior in Embodied AI Coding Assistants",
+          "summary": "Researchers placed an AI coding assistant in a virtual world without explicit tasks, observing spontaneous creative behaviors that resemble play over thirty-hour runs.",
           "keyPoints": [
-            "Provides SLO-aware in-place elasticity for disaggregated LLM serving.",
-            "Uses FluidToken to offload prefill computation during transient imbalances.",
-            "Improves overall SLO attainment over static SGLang by up to 94.6 percentage points."
+            "Placed an AI coding assistant on a virtual island with minimal instructions.",
+            "Observed activities like climbing, stacking blocks, and drawing mandalas over 30 hours.",
+            "Examines whether such behavior satisfies classical criteria for play and development."
           ]
         },
         "fr": {
-          "title": "FluidPD : Élasticité sur place pour le service LLM",
-          "summary": "FluidPD est un système de service LLM désagrégé pré-remplissage/décodage offrant une élasticité sur place consciente des SLO grâce à FluidToken et FluidRole sans recharger les modèles.",
+          "title": "Étude du comportement de jeu chez les assistants de codage incarnés",
+          "summary": "Des chercheurs ont placé un assistant de codage IA dans un monde virtuel sans tâche explicite, observant des comportements créatifs spontanés ressemblant à du jeu sur des durées de trente heures.",
           "keyPoints": [
-            "Offre une élasticité sur place consciente des SLO pour le service LLM désagrégé.",
-            "Utilise FluidToken pour décharger le calcul lors de déséquilibres transitoires.",
-            "Améliore l'atteinte globale des SLO par rapport à SGLang statique jusqu'à 94,6 points de pourcentage."
+            "Placement d'un assistant de codage IA dans une île virtuelle avec des instructions minimales.",
+            "Observation d'activités telles que l'escalade et le dessin sur 30 heures.",
+            "Examine si ce comportement satisfait aux critères classiques du jeu."
           ]
         }
       },
@@ -158,633 +314,477 @@
       }
     },
     {
-      "id": "feed-f36a077fa43564",
-      "title": "Anchor Divergence for Semantic Geometry in Contrastive Learning",
-      "summary": "This paper introduces Anchor Divergences to specify context-specific semantic geometries on fixed representations by establishing a correspondence between probability distributions over anchors and Bregman geometries.",
+      "id": "feed-acf8abd5b68633",
+      "title": "Sim-to-Real Transfer for Vision-Language Navigation in Robots",
+      "summary": "This work presents a sim-to-real transfer method for vision-language navigation using an Ackermann-steered mobile robot in continuous environments without navigation graphs.",
       "keyPoints": [
-        "Explores how semantic context determines geometry in learned vector representations.",
-        "Uses contrastive learning, exponential families, and information geometry.",
-        "Defines Anchor Divergences for specifying context-specific semantic similarities on fixed representations."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06919",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Anchor Divergence for Semantic Geometry in Contrastive Learning",
-          "summary": "This paper introduces Anchor Divergences to specify context-specific semantic geometries on fixed representations by establishing a correspondence between probability distributions over anchors and Bregman geometries.",
-          "keyPoints": [
-            "Explores how semantic context determines geometry in learned vector representations.",
-            "Uses contrastive learning, exponential families, and information geometry.",
-            "Defines Anchor Divergences for specifying context-specific semantic similarities on fixed representations."
-          ]
-        },
-        "fr": {
-          "title": "Divergence d'ancrage pour la géométrie sémantique",
-          "summary": "Cet article présente les divergences d'ancrage pour spécifier des géométries sémantiques spécifiques au contexte sur des représentations fixes en établissant une correspondance entre les distributions de probabilité.",
-          "keyPoints": [
-            "Explore comment le contexte sémantique détermine la géométrie dans les représentations vectorielles.",
-            "Utilise l'apprentissage contrastif, les familles exponentielles et la géométrie de l'information.",
-            "Définit les divergences d'ancrage pour spécifier des similarités sémantiques dépendantes du contexte."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a7cb68e3a4062c",
-      "title": "RadOnc-Agent: LLM Framework for Radiotherapy Care Pathways",
-      "summary": "RadOnc-Agent is an agentic AI framework formalizing radiotherapy into four clinical phases with 26 callable functions through a conversational interface, driven by a large language model controller.",
-      "keyPoints": [
-        "Formalizes radiotherapy into four clinical phases using 26 callable functions.",
-        "Uses an LLM controller to map clinical intent to schema-constrained calls.",
-        "Evaluated on thousands of single-function, cross-stage, and real-patient workflow executions."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06923",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "RadOnc-Agent: LLM Framework for Radiotherapy Care Pathways",
-          "summary": "RadOnc-Agent is an agentic AI framework formalizing radiotherapy into four clinical phases with 26 callable functions through a conversational interface, driven by a large language model controller.",
-          "keyPoints": [
-            "Formalizes radiotherapy into four clinical phases using 26 callable functions.",
-            "Uses an LLM controller to map clinical intent to schema-constrained calls.",
-            "Evaluated on thousands of single-function, cross-stage, and real-patient workflow executions."
-          ]
-        },
-        "fr": {
-          "title": "RadOnc-Agent : Cadre LLM pour les parcours de radiothérapie",
-          "summary": "RadOnc-Agent est un cadre d'IA agentique formalisant la radiothérapie en quatre phases cliniques avec 26 fonctions appelables via une interface conversationnelle pilotée par un grand modèle de langage.",
-          "keyPoints": [
-            "Formalise la radiothérapie en quatre phases cliniques en utilisant 26 fonctions.",
-            "Utilise un contrôleur LLM pour mapper l'intention clinique à des appels contraints.",
-            "Évalué sur des milliers d'exécutions de flux de travail cliniques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2ba72ff428da09",
-      "title": "Metonymic Circuits for Abstract Concept Grounding in Vision Transformers",
-      "summary": "This study examines metonymic grounding mechanisms in Vision Transformers where abstract predictions are driven by concrete anchor concepts, using Transcoders on CLIP and DINO encoders.",
-      "keyPoints": [
-        "Studies how Vision Transformers ground abstract concepts with limited direct referential evidence.",
-        "Identifies structured metonymic circuits where perceptual primitives precede abstract targets.",
-        "Causal interventions validate the functional involvement of metonymic intermediates."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06928",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Metonymic Circuits for Abstract Concept Grounding in Vision Transformers",
-          "summary": "This study examines metonymic grounding mechanisms in Vision Transformers where abstract predictions are driven by concrete anchor concepts, using Transcoders on CLIP and DINO encoders.",
-          "keyPoints": [
-            "Studies how Vision Transformers ground abstract concepts with limited direct referential evidence.",
-            "Identifies structured metonymic circuits where perceptual primitives precede abstract targets.",
-            "Causal interventions validate the functional involvement of metonymic intermediates."
-          ]
-        },
-        "fr": {
-          "title": "Circuits métonymiques pour l'ancrage de concepts abstraits",
-          "summary": "Cette étude examine les mécanismes d'ancrage métonymique dans les Vision Transformers où les prédictions abstraites sont pilotées par des concepts d'ancrage concrets grâce à des transcodage sur CLIP et DINO.",
-          "keyPoints": [
-            "Étudie comment les Vision Transformers ancrant des concepts abstraits.",
-            "Met en évidence des circuits métonymiques structurés où les primitives perceptuelles précèdent les cibles abstraites.",
-            "Des interventions causales valident l'implication fonctionnelle des intermédiaires métonymiques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e630fdd4ef9261",
-      "title": "Agent Evolution via Knowledge Abstraction and SAGA",
-      "summary": "SAGA is a framework that progressively transforms interaction trajectories into episodic descriptions, reusable procedures, and principles to help LLM agents evolve from experience without parameter updates.",
-      "keyPoints": [
-        "Addresses the limitation of LLM agents continually evolving from experience.",
-        "Introduces SAGA for experience-grounded knowledge abstraction and utilization.",
-        "Transforms interaction trajectories into episodic descriptions and reusable principles."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06964",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Agent Evolution via Knowledge Abstraction and SAGA",
-          "summary": "SAGA is a framework that progressively transforms interaction trajectories into episodic descriptions, reusable procedures, and principles to help LLM agents evolve from experience without parameter updates.",
-          "keyPoints": [
-            "Addresses the limitation of LLM agents continually evolving from experience.",
-            "Introduces SAGA for experience-grounded knowledge abstraction and utilization.",
-            "Transforms interaction trajectories into episodic descriptions and reusable principles."
-          ]
-        },
-        "fr": {
-          "title": "Évolution d'agents par l'abstraction des connaissances",
-          "summary": "SAGA est un cadre transformant progressivement les trajectoires d'interaction en descriptions épisodiques, procédures réutilisables et principes pour aider les agents LLM à évoluer sans modification de paramètres.",
-          "keyPoints": [
-            "Aborde la limitation de l'évolution continue des agents LLM à partir de l'expérience.",
-            "Introduit SAGA pour l'abstraction et l'utilisation des connaissances ancrées.",
-            "Transforme les trajectoires d'interaction en principes réutilisables."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b82ad4d674ceed",
-      "title": "AegisFlow: Autonomous Remediation in Fragile Data Ecosystems",
-      "summary": "AegisFlow is a multi-agent framework closing the loop between detection and resolution in data pipelines using a Watchdog agent and a Repair agent with Parallel Shadow Patching.",
-      "keyPoints": [
-        "Designed for autonomous remediation and self-healing in fragile data pipelines.",
-        "Features a Watchdog agent for telemetry and a Repair agent for automated patches.",
-        "Demonstrated a 98.1 percent improvement in MTTR across experimental testing."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06971",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AegisFlow: Autonomous Remediation in Fragile Data Ecosystems",
-          "summary": "AegisFlow is a multi-agent framework closing the loop between detection and resolution in data pipelines using a Watchdog agent and a Repair agent with Parallel Shadow Patching.",
-          "keyPoints": [
-            "Designed for autonomous remediation and self-healing in fragile data pipelines.",
-            "Features a Watchdog agent for telemetry and a Repair agent for automated patches.",
-            "Demonstrated a 98.1 percent improvement in MTTR across experimental testing."
-          ]
-        },
-        "fr": {
-          "title": "AegisFlow : Remédiation autonome dans les écosystèmes de données",
-          "summary": "AegisFlow est un cadre multi-agents fermant la boucle entre la détection et la résolution dans les pipelines de données en utilisant un agent Watchdog et un agent de réparation avec Parallel Shadow Patching.",
-          "keyPoints": [
-            "Conçu pour la remédiation autonome et l'auto-guérison dans les pipelines de données fragiles.",
-            "Intègre un agent Watchdog pour la télémétrie et un agent de réparation pour les correctifs automatisés.",
-            "A démontré une amélioration de 98,1 pour cent du temps moyen de réparation (MTTR)."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-65e1b24b684787",
-      "title": "EPOCH: Reliable Discovery through Evidence-Governed Search",
-      "summary": "EPOCH is an evidence-governed architecture designed to improve AI research agents by combining explicit task contracts, typed memory, active falsification, and admission checks for reliable scientific discovery.",
-      "keyPoints": [
-        "Addresses the risk of fragile candidates being promoted as discoveries by AI agents.",
-        "Implements evidence governance with explicit task contracts, typed memory, and active falsification.",
-        "Achieves state-of-the-art aggregate performance on AlgoTune and leads on AgentHPO."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06986",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "EPOCH: Reliable Discovery through Evidence-Governed Search",
-          "summary": "EPOCH is an evidence-governed architecture designed to improve AI research agents by combining explicit task contracts, typed memory, active falsification, and admission checks for reliable scientific discovery.",
-          "keyPoints": [
-            "Addresses the risk of fragile candidates being promoted as discoveries by AI agents.",
-            "Implements evidence governance with explicit task contracts, typed memory, and active falsification.",
-            "Achieves state-of-the-art aggregate performance on AlgoTune and leads on AgentHPO."
-          ]
-        },
-        "fr": {
-          "title": "EPOCH : Découverte fiable par recherche régie par les preuves",
-          "summary": "EPOCH est une architecture régie par les preuves conçue pour améliorer les agents de recherche en IA en combinant des contrats de tâches explicites, une mémoire typée et une falsification active.",
-          "keyPoints": [
-            "Répond au risque de voir des candidats fragiles promus à tort comme des découvertes par l'IA.",
-            "Met en œuvre une gouvernance des preuves avec des contrats de tâches explicites et une mémoire typée.",
-            "Atteint des performances de pointe sur AlgoTune et AgentHPO."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e0be9573bc17fd",
-      "title": "When Better Traffic Forecasts Fail to Improve Signal Control",
-      "summary": "This study investigates why improved traffic forecasts do not always lead to better signal-control decisions. Using 29 days of reconstructed demand from Xuancheng, China, the authors evaluate point forecasts, intervals, scenarios, and closed-loop controllers, finding that forecast value depends heavily on temporal observability, action identifiability, dynamics consistency, and objective alignment.",
-      "keyPoints": [
-        "Evaluated 29 days of traffic demand data from Xuancheng, China with seven test dates.",
-        "Found that causal forecasts and event oracles unexpectedly increased queue vehicle-seconds by 6.09% and 3.39%.",
-        "Demonstrated that forecast effectiveness relies on temporal observability and action identifiability."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06992",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "When Better Traffic Forecasts Fail to Improve Signal Control",
-          "summary": "This study investigates why improved traffic forecasts do not always lead to better signal-control decisions. Using 29 days of reconstructed demand from Xuancheng, China, the authors evaluate point forecasts, intervals, scenarios, and closed-loop controllers, finding that forecast value depends heavily on temporal observability, action identifiability, dynamics consistency, and objective alignment.",
-          "keyPoints": [
-            "Evaluated 29 days of traffic demand data from Xuancheng, China with seven test dates.",
-            "Found that causal forecasts and event oracles unexpectedly increased queue vehicle-seconds by 6.09% and 3.39%.",
-            "Demonstrated that forecast effectiveness relies on temporal observability and action identifiability."
-          ]
-        },
-        "fr": {
-          "title": "Quand de meilleures prévisions de trafic échouent",
-          "summary": "Cette étude examine pourquoi de meilleures prévisions de trafic ne conduisent pas toujours à de meilleures décisions de contrôle des feux. En utilisant 29 jours de demande reconstruite à Xuancheng, en Chine, les auteurs évaluent les prévisions et contrôleurs, montrant que la valeur des prévisions dépend de l'observabilité temporelle et de l'alignement des objectifs.",
-          "keyPoints": [
-            "Évaluation de 29 jours de données de demande de trafic à Xuancheng, en Chine.",
-            "Découverte que les prévisions causales augmentent inopinément les véhicules-secondes de file d'attente de 6,09 %.",
-            "Démontre que l'efficacité des prévisions dépend de l'observabilité temporelle et de l'identifiabilité des actions."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-442b78263adece",
-      "title": "Joint Coverage and Route-Choice Utility in Urban Tasks",
-      "summary": "The authors evaluate whether more accurate traffic forecasts or higher uncertainty coverage improve route decisions using processed road speed data from Beijing and Chengdu. Results show that higher joint uncertainty coverage does not serve as a reliable surrogate for downstream route utility in these frozen offline tasks.",
-      "keyPoints": [
-        "Evaluated proxy tasks across 150 origin-destination pairs with data from Beijing and Chengdu.",
-        "Demonstrated that improved joint coverage increased lateness and mean travel time.",
-        "Concluded that offline joint coverage is not a reliable surrogate for online route utility."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.06995",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Joint Coverage and Route-Choice Utility in Urban Tasks",
-          "summary": "The authors evaluate whether more accurate traffic forecasts or higher uncertainty coverage improve route decisions using processed road speed data from Beijing and Chengdu. Results show that higher joint uncertainty coverage does not serve as a reliable surrogate for downstream route utility in these frozen offline tasks.",
-          "keyPoints": [
-            "Evaluated proxy tasks across 150 origin-destination pairs with data from Beijing and Chengdu.",
-            "Demonstrated that improved joint coverage increased lateness and mean travel time.",
-            "Concluded that offline joint coverage is not a reliable surrogate for online route utility."
-          ]
-        },
-        "fr": {
-          "title": "Couverture conjointe et utilité du choix d'itinéraire",
-          "summary": "Les auteurs évaluent si des prévisions plus précises améliorent les décisions d'itinéraire à l'aide de données de vitesse à Pékin et Chengdu. Les résultats montrent qu'une meilleure couverture conjointe de l'incertitude ne garantit pas une meilleure utilité des itinéraires en aval.",
-          "keyPoints": [
-            "Évaluation de tâches proxy sur 150 paires origine-destination à Pékin et Chengdu.",
-            "Démontre qu'une couverture conjointe accrue augmente les retards et le temps de trajet moyen.",
-            "Conclut que la couverture conjointe hors ligne ne remplace pas l'utilité des itinéraires en ligne."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7f10d5d20ad90f",
-      "title": "Topology-Consistent Task Planning for LLM-Based Agents",
-      "summary": "TopoPlanner is introduced as a topology-consistent planning framework that lifts tool dependency graphs into cellular workflow complexes. By using cosheaf-consistent cellular retrieval and structural reasoning, it improves LLM tool-sequence generation for complex workflows like loops and merges.",
-      "keyPoints": [
-        "Lifts tool dependency graphs into cellular workflow complexes for LLM agents.",
-        "Performs cosheaf-consistent cellular retrieval to establish topology-aware context.",
-        "Shows consistent improvements over baselines across four tool-planning benchmarks."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07004",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Topology-Consistent Task Planning for LLM-Based Agents",
-          "summary": "TopoPlanner is introduced as a topology-consistent planning framework that lifts tool dependency graphs into cellular workflow complexes. By using cosheaf-consistent cellular retrieval and structural reasoning, it improves LLM tool-sequence generation for complex workflows like loops and merges.",
-          "keyPoints": [
-            "Lifts tool dependency graphs into cellular workflow complexes for LLM agents.",
-            "Performs cosheaf-consistent cellular retrieval to establish topology-aware context.",
-            "Shows consistent improvements over baselines across four tool-planning benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Planification de tâches cohérente pour les agents LLM",
-          "summary": "TopoPlanner est présenté comme un cadre de planification cohérent qui élève les graphes de dépendance d'outils en complexes de flux de travail cellulaires. Il améliore la génération de séquences d'outils pour les flux complexes comme les boucles et les fusions.",
-          "keyPoints": [
-            "Élève les graphes de dépendance d'outils en complexes cellulaires pour les agents LLM.",
-            "Utilise une récupération cellulaire cohérente pour établir un contexte topologique.",
-            "Montre des améliorations constantes par rapport aux bases de référence sur quatre benchmarks."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-07fe27449d5c22",
-      "title": "Learning Multi-Perspective Self-Verification for VLMs",
-      "summary": "The authors propose MOTIVE, a multi-view self-verification framework for vision-language models that evaluates candidate answers from complementary perspectives. By learning a correctness-aligned reliability score, it governs accept-or-rethink decisions to improve multimodal reasoning accuracy and efficiency.",
-      "keyPoints": [
-        "Introduces MOTIVE for multi-view self-verification in vision-language models.",
-        "Evaluates answers from complementary perspectives using a reliability-guided selection mechanism.",
-        "Reduces unnecessary reasoning turns while outperforming standard self-verification baselines."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07018",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Learning Multi-Perspective Self-Verification for VLMs",
-          "summary": "The authors propose MOTIVE, a multi-view self-verification framework for vision-language models that evaluates candidate answers from complementary perspectives. By learning a correctness-aligned reliability score, it governs accept-or-rethink decisions to improve multimodal reasoning accuracy and efficiency.",
-          "keyPoints": [
-            "Introduces MOTIVE for multi-view self-verification in vision-language models.",
-            "Evaluates answers from complementary perspectives using a reliability-guided selection mechanism.",
-            "Reduces unnecessary reasoning turns while outperforming standard self-verification baselines."
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage de l'auto-vérification multi-perspective",
-          "summary": "Les auteurs proposent MOTIVE, un cadre d'auto-vérification multi-vue pour les modèles vision-langage qui évalue les réponses candidates sous des angles complémentaires. Il améliore la précision du raisonnement multimodal et réduit les tours de raisonnement inutiles.",
-          "keyPoints": [
-            "Présente MOTIVE pour l'auto-vérification multi-vue dans les modèles vision-langage.",
-            "Évalue les réponses à l'aide d'un score de fiabilité aligné sur l'exactitude.",
-            "Réduit les tours de raisonnement superflus tout en surpassant les bases de référence."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b2efb525286059",
-      "title": "Safe-Role Internalization for Robust LLM Safety Alignment",
-      "summary": "To address vulnerabilities in LLM safety alignment, the authors introduce Supervised Safe-Role Fine-Tuning (SSRFT). This framework reformulates safety alignment as the internalization of a predefined safe role using a synthesized dataset, achieving better generalization against jailbreak attacks.",
-      "keyPoints": [
-        "Introduces SSRFT (Supervised Safe-Role Fine-Tuning) to internalize safe roles.",
-        "Constructs a Safe-Role Question-Answer (SRQA) dataset from psychometric questions and jailbreak prompts.",
-        "Demonstrates superior robustness against jailbreak attacks and reduced over-refusal on benign queries."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07023",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Safe-Role Internalization for Robust LLM Safety Alignment",
-          "summary": "To address vulnerabilities in LLM safety alignment, the authors introduce Supervised Safe-Role Fine-Tuning (SSRFT). This framework reformulates safety alignment as the internalization of a predefined safe role using a synthesized dataset, achieving better generalization against jailbreak attacks.",
-          "keyPoints": [
-            "Introduces SSRFT (Supervised Safe-Role Fine-Tuning) to internalize safe roles.",
-            "Constructs a Safe-Role Question-Answer (SRQA) dataset from psychometric questions and jailbreak prompts.",
-            "Demonstrates superior robustness against jailbreak attacks and reduced over-refusal on benign queries."
-          ]
-        },
-        "fr": {
-          "title": "Internalisation de rôles sûrs pour l'alignement des LLM",
-          "summary": "Pour remédier aux vulnérabilités d'alignement des LLM, les auteurs présentent SSRFT, un cadre qui reformule l'alignement de sécurité comme l'internalisation d'un rôle sûr prédéfini à l'aide d'un ensemble de données synthétisé.",
-          "keyPoints": [
-            "Introduit le réglage fin supervisé axé sur le rôle sûr (SSRFT).",
-            "Construit un ensemble de données de questions-réponses sur les rôles sûrs.",
-            "Démontre une robustesse supérieure face aux attaques par contournement et réduit les refus excessifs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3d4487a11ba186",
-      "title": "Offline AI Modules: Voice-First Offline Architecture Stack",
-      "summary": "This workstream delivers a modular voice-first offline architecture, low-cost hardware reference materials, and a benchmarking pipeline for low-resource communities. Testing across NVIDIA Jetson Orin NX and Raspberry Pi5 hardware identifies Q4_K_M quantization as the optimal size-to-quality trade-off.",
-      "keyPoints": [
-        "Targets voice-first offline AI deployment for African language communities with unreliable internet.",
-        "Evaluated models across NVIDIA Jetson Orin NX and Raspberry Pi5 hardware tiers.",
-        "Found that Q4_K_M quantization provides the best size-to-quality trade-off for deployment."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07026",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Offline AI Modules: Voice-First Offline Architecture Stack",
-          "summary": "This workstream delivers a modular voice-first offline architecture, low-cost hardware reference materials, and a benchmarking pipeline for low-resource communities. Testing across NVIDIA Jetson Orin NX and Raspberry Pi5 hardware identifies Q4_K_M quantization as the optimal size-to-quality trade-off.",
-          "keyPoints": [
-            "Targets voice-first offline AI deployment for African language communities with unreliable internet.",
-            "Evaluated models across NVIDIA Jetson Orin NX and Raspberry Pi5 hardware tiers.",
-            "Found that Q4_K_M quantization provides the best size-to-quality trade-off for deployment."
-          ]
-        },
-        "fr": {
-          "title": "Modules IA hors ligne : architecture vocale et pile",
-          "summary": "Ce projet propose une architecture hors ligne modulaire axée sur la voix, du matériel à faible coût et un pipeline d'évaluation pour les communautés à ressources limitées. Les tests identifient la quantification Q4_K_M comme le meilleur compromis taille-qualité.",
-          "keyPoints": [
-            "Cible le déploiement d'IA hors ligne axé sur la voix pour les communautés africaines.",
-            "Évaluation des modèles sur des configurations NVIDIA Jetson Orin NX et Raspberry Pi5.",
-            "Montre que la quantification Q4_K_M offre le meilleur compromis taille/qualité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d3165753fb74a5",
-      "title": "JIVEAdapter: Multi-Task Additive Low-Rank Adapter",
-      "summary": "JIVEAdapter is introduced as a multi-task additive low-rank adapter inspired by statistical Joint and Individual Variation Explained. It decomposes weight updates into a shared Joint structure and per-task Individual structures, enabling efficient transfer and reuse across tasks without extra modules like MoE.",
-      "keyPoints": [
-        "Introduces JIVEAdapter for parameter-efficient multi-task fine-tuning.",
-        "Decomposes weight updates into a shared Joint structure and per-task Individual structures.",
-        "Achieves competitive performance on GLUE and SuperGLUE using DeBERTaV3-base."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07036",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "JIVEAdapter: Multi-Task Additive Low-Rank Adapter",
-          "summary": "JIVEAdapter is introduced as a multi-task additive low-rank adapter inspired by statistical Joint and Individual Variation Explained. It decomposes weight updates into a shared Joint structure and per-task Individual structures, enabling efficient transfer and reuse across tasks without extra modules like MoE.",
-          "keyPoints": [
-            "Introduces JIVEAdapter for parameter-efficient multi-task fine-tuning.",
-            "Decomposes weight updates into a shared Joint structure and per-task Individual structures.",
-            "Achieves competitive performance on GLUE and SuperGLUE using DeBERTaV3-base."
-          ]
-        },
-        "fr": {
-          "title": "JIVEAdapter : Adaptateur bas rang additif multi-tâche",
-          "summary": "JIVEAdapter est présenté comme un adaptateur multi-tâche inspiré de la méthode statistique JIVE. Il décompose les mises à jour de poids en une structure conjointe partagée et des structures individuelles par tâche pour un transfert efficace.",
-          "keyPoints": [
-            "Introduit JIVEAdapter pour l'affinage multiparamétrique efficace.",
-            "Décompose les mises à jour en une structure conjointe partagée et des structures individuelles.",
-            "Atteint des performances compétitives sur GLUE et SuperGLUE avec DeBERTaV3-base."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-549d5482b4d6d2",
-      "title": "Inference-Time Projection for Biomolecular Diffusion Models",
-      "summary": "To fix physically invalid outputs in biomolecular cofolding models like AlphaFold 3, the authors introduce closed-form projection operators applied during inference. These local and sparse operators correct clashing atom pairs and ligand distortions without network retraining.",
-      "keyPoints": [
-        "Treats physical validity as a constrained inference problem using closed-form projection operators.",
-        "Corrects inter-chain clashes and restores ligand geometry without retraining or fine-tuning.",
-        "Tested successfully across Boltz-2 and OpenFold-3 on multiple benchmarks with minimal overhead."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07037",
-      "publishedAt": "2026-10-07T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Inference-Time Projection for Biomolecular Diffusion Models",
-          "summary": "To fix physically invalid outputs in biomolecular cofolding models like AlphaFold 3, the authors introduce closed-form projection operators applied during inference. These local and sparse operators correct clashing atom pairs and ligand distortions without network retraining.",
-          "keyPoints": [
-            "Treats physical validity as a constrained inference problem using closed-form projection operators.",
-            "Corrects inter-chain clashes and restores ligand geometry without retraining or fine-tuning.",
-            "Tested successfully across Boltz-2 and OpenFold-3 on multiple benchmarks with minimal overhead."
-          ]
-        },
-        "fr": {
-          "title": "Projection à l'inférence pour modèles biomoléculaires",
-          "summary": "Pour corriger les sorties invalides des modèles de co-repliement biomoléculaire, les auteurs introduisent des opérateurs de projection en forme fermée appliqués lors de l'inférence. Ces opérateurs corrigent les collisions atomiques sans réentraînement.",
-          "keyPoints": [
-            "Traite la validité physique comme un problème d'inférence contrainte.",
-            "Corrige les collisions inter-chaînes et la géométrie des ligands sans réentraînement.",
-            "Testé avec succès sur Boltz-2 et OpenFold-3 sur plusieurs benchmarks."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9033cbfbde99b0",
-      "title": "CuratorMAS: Automating Dataset Curation via Multi-Agent Systems",
-      "summary": "CuratorMAS is proposed as a multi-agent collaboration framework designed to automate dataset curation through programmable execution stages. By combining dataset exploration, online domain knowledge retrieval, and evaluation filtering, it significantly reduces noise rates and improves downstream F1 scores.",
-      "keyPoints": [
-        "Introduces CuratorMAS for automated dataset curation using multi-agent orchestration.",
-        "Decomposes curation into five programmable execution stages including exploration and filtering.",
-        "Reduces dataset noise rates by up to 36.03 percentage points and improves downstream F1 scores."
+        "Adapts vision-language navigation for continuous real-world environments.",
+        "Employs a Cross-Modal Attention architecture fine-tuned with real robot data.",
+        "Evaluates performance using SPL and nDTW metrics on dedicated hardware."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07075",
+      "sourceUrl": "https://arxiv.org/abs/2610.07192",
       "publishedAt": "2026-10-07T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "CuratorMAS: Automating Dataset Curation via Multi-Agent Systems",
-          "summary": "CuratorMAS is proposed as a multi-agent collaboration framework designed to automate dataset curation through programmable execution stages. By combining dataset exploration, online domain knowledge retrieval, and evaluation filtering, it significantly reduces noise rates and improves downstream F1 scores.",
+          "title": "Sim-to-Real Transfer for Vision-Language Navigation in Robots",
+          "summary": "This work presents a sim-to-real transfer method for vision-language navigation using an Ackermann-steered mobile robot in continuous environments without navigation graphs.",
           "keyPoints": [
-            "Introduces CuratorMAS for automated dataset curation using multi-agent orchestration.",
-            "Decomposes curation into five programmable execution stages including exploration and filtering.",
-            "Reduces dataset noise rates by up to 36.03 percentage points and improves downstream F1 scores."
+            "Adapts vision-language navigation for continuous real-world environments.",
+            "Employs a Cross-Modal Attention architecture fine-tuned with real robot data.",
+            "Evaluates performance using SPL and nDTW metrics on dedicated hardware."
           ]
         },
         "fr": {
-          "title": "CuratorMAS : Automatisation de la conservation des données",
-          "summary": "CuratorMAS est proposé comme un cadre de collaboration multi-agents pour automatiser la conservation des jeux de données à travers des étapes d'exécution programmables. Il réduit considérablement les taux de bruit et améliore les scores F1 en aval.",
+          "title": "Transfert simulation-réalité pour la navigation vision-langage sur robots",
+          "summary": "Ce travail présente une méthode de transfert pour la navigation vision-langage utilisant un robot mobile à direction Ackermann dans des environnements continus sans graphlets de navigation.",
           "keyPoints": [
-            "Introduit CuratorMAS pour la conservation automatisée de données par multi-agents.",
-            "Décompose la conservation en cinq étapes programmables, incluant l'exploration et le filtrage.",
-            "Réduit le taux de bruit des données et améliore les scores F1 en aval."
+            "Adapte la navigation vision-langage aux environnements réels continus.",
+            "Utilise une architecture d'attention intermodale affinée avec des données réelles.",
+            "Évalue les performances à l'aide des métriques SPL et nDTW."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-c36c8cee3c9cd5",
-      "title": "Smart Content Ingestion for Generative AI Workloads",
-      "summary": "Addressing the heterogeneity of enterprise data formats in generative AI, this paper presents a production-ready content-extraction system. The pipeline features selective OCR routing, a reference-based extraction scorer, structure-aware chunking, and a read-only retrieval evaluator.",
+      "id": "feed-fa540502832a6f",
+      "title": "Energy-Conditioned Noise Schedule and Whitening for Diffusion",
+      "summary": "This paper introduces an energy-adaptive noise scheduling and whitening strategy for transform-domain diffusion models, reducing Fréchet Inception Distance on CIFAR-10.",
       "keyPoints": [
-        "Presents a production-ready content-extraction system for heterogeneous enterprise files.",
-        "Incorporates selective OCR routing, reference-based scoring, and structure-aware chunking.",
-        "Achieves high character accuracy and retrieval metrics across a 180-document test corpus."
+        "Proposes energy-adaptive noise scheduling and global spectral whitening.",
+        "Modulates noise according to transform coefficient energy over diffusion time.",
+        "Reduces FID from 142.48 to 100.45 on CIFAR-10 compared to a baseline U-Net."
       ],
-      "category": "Business",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07091",
+      "sourceUrl": "https://arxiv.org/abs/2610.07206",
       "publishedAt": "2026-10-07T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Smart Content Ingestion for Generative AI Workloads",
-          "summary": "Addressing the heterogeneity of enterprise data formats in generative AI, this paper presents a production-ready content-extraction system. The pipeline features selective OCR routing, a reference-based extraction scorer, structure-aware chunking, and a read-only retrieval evaluator.",
+          "title": "Energy-Conditioned Noise Schedule and Whitening for Diffusion",
+          "summary": "This paper introduces an energy-adaptive noise scheduling and whitening strategy for transform-domain diffusion models, reducing Fréchet Inception Distance on CIFAR-10.",
           "keyPoints": [
-            "Presents a production-ready content-extraction system for heterogeneous enterprise files.",
-            "Incorporates selective OCR routing, reference-based scoring, and structure-aware chunking.",
-            "Achieves high character accuracy and retrieval metrics across a 180-document test corpus."
+            "Proposes energy-adaptive noise scheduling and global spectral whitening.",
+            "Modulates noise according to transform coefficient energy over diffusion time.",
+            "Reduces FID from 142.48 to 100.45 on CIFAR-10 compared to a baseline U-Net."
           ]
         },
         "fr": {
-          "title": "Ingestion de contenu intelligente pour charges de travail IA",
-          "summary": "Répondant à l'hétérogénéité des formats de données d'entreprise en IA générative, cet article présente un système d'extraction de contenu prêt pour la production intégrant un routage OCR sélectif et un découpage intelligent.",
+          "title": "Calendrier de bruit conditionné par l'énergie et blanchiment pour la diffusion",
+          "summary": "Cet article présente une stratégie de planification du bruit et de blanchiment adaptative à l'énergie pour les modèles de diffusion, réduisant la distance de Fréchet Inception sur CIFAR-10.",
           "keyPoints": [
-            "Présente un système d'extraction de contenu pour des fichiers d'entreprise hétérogènes.",
-            "Intègre un routage OCR sélectif, un système de notation et un découpage conscient de la structure.",
-            "Atteint une haute précision de caractères sur un corpus de test de 180 documents."
+            "Propose une planification du bruit adaptative et un blanchiment spectral global.",
+            "Module le bruit selon l'énergie des coefficients de transformation.",
+            "Réduit le score FID de 142,48 à 100,45 sur CIFAR-10."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-301db799fb288a",
+      "title": "Cascadia: Running a 975B MoE Model on Eleven AI PCs",
+      "summary": "Researchers present Cascadia, a custom resident MoE execution engine that runs Inkling—a 975B-total/41B-active-parameter model—across eleven Intel Core Ultra X7 358H AI PCs. The system achieves 60.29 aggregate decode tokens/s at 88 streams and efficiently handles long prompts.",
+      "keyPoints": [
+        "Runs a 975B MoE model across eleven consumer-grade AI PCs with 64 GB memory each.",
+        "Custom resident engine reduces dense-layer call time from 8.1 to 4.5 ms.",
+        "Reaches 60.29 aggregate decode tokens/s at 88 streams."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07219",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Cascadia: Running a 975B MoE Model on Eleven AI PCs",
+          "summary": "Researchers present Cascadia, a custom resident MoE execution engine that runs Inkling—a 975B-total/41B-active-parameter model—across eleven Intel Core Ultra X7 358H AI PCs. The system achieves 60.29 aggregate decode tokens/s at 88 streams and efficiently handles long prompts.",
+          "keyPoints": [
+            "Runs a 975B MoE model across eleven consumer-grade AI PCs with 64 GB memory each.",
+            "Custom resident engine reduces dense-layer call time from 8.1 to 4.5 ms.",
+            "Reaches 60.29 aggregate decode tokens/s at 88 streams."
+          ]
+        },
+        "fr": {
+          "title": "Cascadia : Exécuter un modèle MoE de 975B sur onze PC IA",
+          "summary": "Des chercheurs présentent Cascadia, un moteur d'exécution MoE personnalisé qui fait tourner Inkling (un modèle de 975B au total / 41B actifs) sur onze PC IA Intel Core Ultra X7 358H. Le système atteint 60,29 tokens/s agrégés à 88 flux.",
+          "keyPoints": [
+            "Exécute un modèle MoE de 975B sur onze PC IA grand public dotés de 64 Go de mémoire chacun.",
+            "Le moteur personnalisé réduit le temps d'appel des couches denses de 8,1 à 4,5 ms.",
+            "Atteint 60,29 tokens de décodage agrégés par seconde à 88 flux."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f6178f496b75e6",
+      "title": "SPECTRUM for Looped Self-Distillation in Code Generation",
+      "summary": "The authors formulate Looped Self-Distillation for code generation and introduce SPECTRUM, a method utilizing proximal spectral modulation to retain solution diversity during self-improvement. Experiments show SPECTRUM retains 89.9% of initial AST richness on MBPP.",
+      "keyPoints": [
+        "Introduces Looped Self-Distillation for code generation without external assessment.",
+        "SPECTRUM uses proximal spectral modulation to prevent contraction of correct implementation breadth.",
+        "Retains 89.9% of initial correct AST richness on MBPP after five rounds."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07237",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SPECTRUM for Looped Self-Distillation in Code Generation",
+          "summary": "The authors formulate Looped Self-Distillation for code generation and introduce SPECTRUM, a method utilizing proximal spectral modulation to retain solution diversity during self-improvement. Experiments show SPECTRUM retains 89.9% of initial AST richness on MBPP.",
+          "keyPoints": [
+            "Introduces Looped Self-Distillation for code generation without external assessment.",
+            "SPECTRUM uses proximal spectral modulation to prevent contraction of correct implementation breadth.",
+            "Retains 89.9% of initial correct AST richness on MBPP after five rounds."
+          ]
+        },
+        "fr": {
+          "title": "SPECTRUM pour l'auto-distillation en boucles dans la génération de code",
+          "summary": "Les auteurs formulent l'auto-distillation en boucles pour la génération de code et présentent SPECTRUM, une méthode utilisant une modulation spectrale proximale pour préserver la diversité des solutions. Les expériences montrent une rétention de 89,9 % de la richesse AST sur MBPP.",
+          "keyPoints": [
+            "Introduit l'auto-distillation en boucles pour la génération de code sans évaluation externe.",
+            "SPECTRUM utilise une modulation spectrale proximale pour éviter la contraction de la diversité.",
+            "Retient 89,9 % de la richesse initiale des AST corrects sur MBPP après cinq cycles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-26fbb413932b36",
+      "title": "Can Semantic Geometry Teach an AI Judgement?",
+      "summary": "This paper investigates whether semantic geometry can help AI agents determine which rules to follow. While a lexical router recovered policies and reduced checks, finding policies did not solve interpreting them, pointing to the need for a consequence graph.",
+      "keyPoints": [
+        "Tests if geometric measurements of action and policy vectors can supply a basis for judgment.",
+        "A lexical router recovered governing and blocking policies but still escalated all test actions.",
+        "Concludes that AI judgment requires developing a consequence graph to connect actors and policies."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07249",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Can Semantic Geometry Teach an AI Judgement?",
+          "summary": "This paper investigates whether semantic geometry can help AI agents determine which rules to follow. While a lexical router recovered policies and reduced checks, finding policies did not solve interpreting them, pointing to the need for a consequence graph.",
+          "keyPoints": [
+            "Tests if geometric measurements of action and policy vectors can supply a basis for judgment.",
+            "A lexical router recovered governing and blocking policies but still escalated all test actions.",
+            "Concludes that AI judgment requires developing a consequence graph to connect actors and policies."
+          ]
+        },
+        "fr": {
+          "title": "La géométrie sémantique peut-elle enseigner le jugement à une IA ?",
+          "summary": "Cet article étudie si la géométrie sémantique peut aider les agents IA à déterminer quelles règles suivre. Bien qu'un routeur lexical ait récupéré les politiques, cela n'a pas résolu leur interprétation, soulignant le besoin d'un graphe de conséquences.",
+          "keyPoints": [
+            "Teste si des mesures géométriques de vecteurs d'action et de politique peuvent fonder le jugement.",
+            "Un routeur lexical a récupéré les politiques mais a quand même escaladé toutes les actions de test.",
+            "Conclut que le jugement de l'ia nécessite le développement d'un graphe de conséquences."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-baab6ff104fdef",
+      "title": "Internalizing Agent Experience into Diffusion Weights via D-OPCD",
+      "summary": "The authors propose Diffusion On-Policy Context Distillation (D-OPCD) to distill knowledge from agentic harnesses into diffusion model weights. Using an Auto Skill Evolver, D-OPCD raises average direct-generation scores from 60.52 to 65.09 across four benchmarks.",
+      "keyPoints": [
+        "D-OPCD internalizes agent-improved prompt context directly into diffusion model weights.",
+        "Raises average direct-generation scores from 60.52 to 65.09 across four benchmarks.",
+        "Enables continual co-evolution between the agent harness and the diffusion generator."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07250",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Internalizing Agent Experience into Diffusion Weights via D-OPCD",
+          "summary": "The authors propose Diffusion On-Policy Context Distillation (D-OPCD) to distill knowledge from agentic harnesses into diffusion model weights. Using an Auto Skill Evolver, D-OPCD raises average direct-generation scores from 60.52 to 65.09 across four benchmarks.",
+          "keyPoints": [
+            "D-OPCD internalizes agent-improved prompt context directly into diffusion model weights.",
+            "Raises average direct-generation scores from 60.52 to 65.09 across four benchmarks.",
+            "Enables continual co-evolution between the agent harness and the diffusion generator."
+          ]
+        },
+        "fr": {
+          "title": "Internalisation de l'expérience d'agent dans les poids de diffusion via D-OPCD",
+          "summary": "Les auteurs proposent la distillation de contexte sur politique pour la diffusion (D-OPCD) afin d'intégrer les connaissances d'un agent dans les poids du modèle. Grâce à l'évolution automatique de compétences, le score moyen de génération directe passe de 60,52 à 65,09.",
+          "keyPoints": [
+            "D-OPCD internalise le contexte d'invite amélioré par l'agent directement dans les poids de diffusion.",
+            "Augmente le score moyen de génération directe de 60,52 à 65,09 sur quatre benchmarks.",
+            "Permet une co-évolution continue entre le harnais d'agent et le générateur de diffusion."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d2f9434c16285d",
+      "title": "MemMux: Runtime Verification for Parallel Coding Agents",
+      "summary": "MemMux is a local runtime designed to govern memory and resources for fleets of parallel coding agents. Tested on Linux, MemMux keeps fleets under budget, prevents swap usage, and successfully tracks process subtrees and escaped children.",
+      "keyPoints": [
+        "Treats resource governance for parallel coding agents as a runtime-verification problem.",
+        "Keeps a fleet under a 7.5 GiB memory budget with zero swap, avoiding OOM issues.",
+        "Reclaims 100% of terminated agent process subtrees and detects escaped children."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07257",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MemMux: Runtime Verification for Parallel Coding Agents",
+          "summary": "MemMux is a local runtime designed to govern memory and resources for fleets of parallel coding agents. Tested on Linux, MemMux keeps fleets under budget, prevents swap usage, and successfully tracks process subtrees and escaped children.",
+          "keyPoints": [
+            "Treats resource governance for parallel coding agents as a runtime-verification problem.",
+            "Keeps a fleet under a 7.5 GiB memory budget with zero swap, avoiding OOM issues.",
+            "Reclaims 100% of terminated agent process subtrees and detects escaped children."
+          ]
+        },
+        "fr": {
+          "title": "MemMux : Vérification à l'exécution pour flottes d'agents de code parallèles",
+          "summary": "MemMux est un moteur d'exécution local conçu pour gérer la mémoire et les ressources de flottes d'agents de codage parallèles. Testé sous Linux, MemMux respecte les budgets mémoire, évite le swap et suit avec succès les sous-arbres de processus.",
+          "keyPoints": [
+            "Traite la gouvernance des ressources pour les agents parallèles comme un problème de vérification à l'exécution.",
+            "Maintient une flotte sous un budget de 7,5 Go sans swap, évitant les problèmes liés au manque de mémoire.",
+            "Récupère 100 % des sous-arbres de processus d'agents terminés et détecte les enfants échappés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d4e3b3d8fe42d4",
+      "title": "Verifying Coordination in Parallel Coding Agents with NP-Bench",
+      "summary": "To address coordination failures in parallel LLM coding agents, researchers introduce an upfront scheduling planner integrated into Nerveplane and evaluated via NP-Bench. The planner lifts clean-integration rates from 1/9 to 9/9 scenarios and eliminates merge conflicts.",
+      "keyPoints": [
+        "Frames agent coordination as an upfront scheduling problem to prevent merge collisions.",
+        "Evaluated via NP-Bench, a three-arm benchmark checking simulation and live agents.",
+        "Lifts clean-integration success to 9/9 scenarios and reduces merge conflicts from 13 to 0."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07261",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Verifying Coordination in Parallel Coding Agents with NP-Bench",
+          "summary": "To address coordination failures in parallel LLM coding agents, researchers introduce an upfront scheduling planner integrated into Nerveplane and evaluated via NP-Bench. The planner lifts clean-integration rates from 1/9 to 9/9 scenarios and eliminates merge conflicts.",
+          "keyPoints": [
+            "Frames agent coordination as an upfront scheduling problem to prevent merge collisions.",
+            "Evaluated via NP-Bench, a three-arm benchmark checking simulation and live agents.",
+            "Lifts clean-integration success to 9/9 scenarios and reduces merge conflicts from 13 to 0."
+          ]
+        },
+        "fr": {
+          "title": "Vérification de la coordination chez des agents de code parallèles avec NP-Bench",
+          "summary": "Pour résoudre les échecs de coordination des agents de code LLM, des chercheurs introduisent un planificateur d'ordonnancement intégré à Nerveplane et évalué via NP-Bench. Le planificateur porte les intégrations propres de 1/9 à 9/9 scénarios.",
+          "keyPoints": [
+            "Formule la coordination des agents comme un problème d'ordonnancement pour éviter les conflits.",
+            "Évalué via NP-Bench, un benchmark à trois branches testant des agents en simulation et en direct.",
+            "Porte le taux d'intégration propre à 9/9 scénarios et réduit les conflits de fusion de 13 à 0."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-adb255ef624b50",
+      "title": "Separating Steering from Mechanism in Large Language Models",
+      "summary": "This paper examines whether internal features in LLMs function as mechanisms when steered. Proposing an empirical contract with installation and removal tests, the authors show that concepts tracked by features do not necessarily mean the model uses them.",
+      "keyPoints": [
+        "Proposes an empirical contract to test features at natural input values via installation and removal.",
+        "Shows that a published unknown-entity latent transfers only a small fraction of natural abstention when installed.",
+        "Demonstrates that conceptual tracking and behavioral steering do not inherently show the model uses a feature."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07270",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Separating Steering from Mechanism in Large Language Models",
+          "summary": "This paper examines whether internal features in LLMs function as mechanisms when steered. Proposing an empirical contract with installation and removal tests, the authors show that concepts tracked by features do not necessarily mean the model uses them.",
+          "keyPoints": [
+            "Proposes an empirical contract to test features at natural input values via installation and removal.",
+            "Shows that a published unknown-entity latent transfers only a small fraction of natural abstention when installed.",
+            "Demonstrates that conceptual tracking and behavioral steering do not inherently show the model uses a feature."
+          ]
+        },
+        "fr": {
+          "title": "Séparer le guidage du mécanisme dans les grands modèles de langage",
+          "summary": "Cet article examine si les caractéristiques internes des LLM agissent comme des mécanismes lorsqu'elles sont pilotées. En proposant un contrat empirique avec des tests d'installation et de suppression, les auteurs montrent qu'un concept suivi n'implique pas son utilisation.",
+          "keyPoints": [
+            "Propose un contrat empirique pour tester les caractéristiques à des valeurs d'entrée naturelles.",
+            "Montre qu'une latente d'entité inconnue ne transfère qu'une petite fraction de l'abstention naturelle lors de son installation.",
+            "Démontre que le suivi conceptuel et le pilotage comportemental ne prouvent pas que le modèle utilise la caractéristique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c2161be43cf51c",
+      "title": "A Trust Layer for Agent Evaluation",
+      "summary": "The authors introduce a Trust Layer for Agent Evaluation, an additive post-hoc framework verifying whether benchmark scores are supported by logic, traceable computation, honest claims, and execution stability. Testing revealed that only 22.6% of recorded passes clear all checks.",
+      "keyPoints": [
+        "Introduces a post-hoc framework verifying four trust properties for agent evaluation scores.",
+        "Applies checks to five configurations on 108 tasks, finding widespread unverified passes and instability.",
+        "Shows that only 22.6% of recorded benchmark passes successfully clear all four trust checks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07274",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "A Trust Layer for Agent Evaluation",
+          "summary": "The authors introduce a Trust Layer for Agent Evaluation, an additive post-hoc framework verifying whether benchmark scores are supported by logic, traceable computation, honest claims, and execution stability. Testing revealed that only 22.6% of recorded passes clear all checks.",
+          "keyPoints": [
+            "Introduces a post-hoc framework verifying four trust properties for agent evaluation scores.",
+            "Applies checks to five configurations on 108 tasks, finding widespread unverified passes and instability.",
+            "Shows that only 22.6% of recorded benchmark passes successfully clear all four trust checks."
+          ]
+        },
+        "fr": {
+          "title": "Une couche de confiance pour l'évaluation des agents",
+          "summary": "Les auteurs présentent une couche de confiance pour l'évaluation des agents, un cadre post-hoc vérifiant si les scores des benchmarks reposent sur une logique, des calculs traçables, des déclarations honnêtes et la stabilité. Seuls 22,6 % des succès passent tous les tests.",
+          "keyPoints": [
+            "Introduit un cadre post-hoc vérifiant quatre propriétés de confiance pour les scores d'évaluation.",
+            "Applique les vérifications à cinq configurations sur 108 tâches, révélant des instabilités et des passes non tracées.",
+            "Montre que seulement 22,6 % des passages de benchmarks enregistrés satisfont aux quatre critères de confiance."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3f53b5e716ad06",
+      "title": "Verifying Retrieval Admissibility in Long-Term Agent Memory",
+      "summary": "This paper introduces a retrieval-admissibility verification framework to check if retrieved memories violate policies or belong to other principals. Evaluating public benchmarks, the authors show namespace routing improves anchor recall and maintains security.",
+      "keyPoints": [
+        "Introduces a verification framework classifying memory queries into admissible, inadmissible, or unresolved.",
+        "Evaluated on RHELM and MemOps benchmarks, top-20 anchor recall increases from 0.432 to 0.533.",
+        "Demonstrates that strict namespace routing prevents unauthorized memory exposure without hurting performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07309",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Verifying Retrieval Admissibility in Long-Term Agent Memory",
+          "summary": "This paper introduces a retrieval-admissibility verification framework to check if retrieved memories violate policies or belong to other principals. Evaluating public benchmarks, the authors show namespace routing improves anchor recall and maintains security.",
+          "keyPoints": [
+            "Introduces a verification framework classifying memory queries into admissible, inadmissible, or unresolved.",
+            "Evaluated on RHELM and MemOps benchmarks, top-20 anchor recall increases from 0.432 to 0.533.",
+            "Demonstrates that strict namespace routing prevents unauthorized memory exposure without hurting performance."
+          ]
+        },
+        "fr": {
+          "title": "Vérification de l'admissibilité de la récupération dans la mémoire à long terme des agents",
+          "summary": "Cet article introduit un cadre de vérification pour déterminer si les souvenirs récupérés violent des politiques ou appartiennent à d'autres entités. Évalué sur des benchmarks publics, le routage par espace de noms améliore le rappel des ancres.",
+          "keyPoints": [
+            "Introduit un cadre de vérification classant les requêtes en admissibles, inadmissibles ou non résolues.",
+            "Évalué sur les benchmarks RHELM et MemOps, le rappel des ancres du top-20 passe de 0,432 à 0,533.",
+            "Démontre que le routage par espace de noms évite l'exposition non autorisée de la mémoire."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1f8e34b2ac2d9d",
+      "title": "Understanding and Mitigating Inference-Time Overreliance on Memory",
+      "summary": "The authors study memory over-reliance, a failure mode where retrieved agent memories distort LLM inference despite being correct. They propose MEMTRIM, a plug-and-play framework that indexes memory at write time and controls reuse to reduce distortion.",
+      "keyPoints": [
+        "Identifies memory over-reliance as a failure mode driven by partial query-memory overlap.",
+        "Proposes MEMTRIM, a plug-and-play framework removing repeated or conflicting evidence at read time.",
+        "Requires no model retraining and applies to both embedding-based and structured memory systems."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07311",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Understanding and Mitigating Inference-Time Overreliance on Memory",
+          "summary": "The authors study memory over-reliance, a failure mode where retrieved agent memories distort LLM inference despite being correct. They propose MEMTRIM, a plug-and-play framework that indexes memory at write time and controls reuse to reduce distortion.",
+          "keyPoints": [
+            "Identifies memory over-reliance as a failure mode driven by partial query-memory overlap.",
+            "Proposes MEMTRIM, a plug-and-play framework removing repeated or conflicting evidence at read time.",
+            "Requires no model retraining and applies to both embedding-based and structured memory systems."
+          ]
+        },
+        "fr": {
+          "title": "Comprendre et atténuer la surconfiance dans la mémoire à l'inférence",
+          "summary": "Les auteurs étudient la surconfiance envers la mémoire, un mode de défaillance où les souvenirs récupérés faussent l'inférence des LLM malgré leur exactitude. Ils proposent MEMTRIM, un cadre plug-and-play indexant la mémoire pour contrôler sa réutilisation.",
+          "keyPoints": [
+            "Identifie la surconfiance mémorielle comme un échec causé par un chevauchement partiel requête-mémoire.",
+            "Propose MEMTRIM, un cadre plug-and-play supprimant les éléments contradictoires lors de la lecture.",
+            "Ne nécessite aucun réentraînement du modèle et s'applique aux systèmes de mémoire vectoriels ou structurés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 527,
+    "itemsCollected": 528,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
