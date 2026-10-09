@@ -1,739 +1,427 @@
 {
-  "generatedAt": "2026-10-09T00:45:13.135Z",
+  "generatedAt": "2026-10-09T12:38:07.711Z",
   "items": [
     {
-      "id": "feed-db7b9e6fe248e3",
-      "title": "Oracle speeds workflows with ChatGPT and Codex",
-      "summary": "Across recruiting, engineering, and operations, Oracle utilizes ChatGPT Work and Codex to transform specialist knowledge into fast, repeatable workflows.",
+      "id": "feed-570fe320455667",
+      "title": "Sophos Cuts Cyber-Threat Investigation Time by 96% Using OpenAI Daybreak",
+      "summary": "Sophos has integrated OpenAI's Daybreak to dramatically reduce cyber-threat investigation times by 96% while automating 52% of managed detection and response (MDR) cases, maintaining essential human oversight.",
       "keyPoints": [
-        "Implemented across recruiting, engineering, and operations",
-        "Uses ChatGPT Work and Codex",
-        "Turns specialist knowledge into repeatable workflows"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/oracle",
-      "publishedAt": "2026-10-08T16:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Oracle speeds workflows with ChatGPT and Codex",
-          "summary": "Across recruiting, engineering, and operations, Oracle utilizes ChatGPT Work and Codex to transform specialist knowledge into fast, repeatable workflows.",
-          "keyPoints": [
-            "Implemented across recruiting, engineering, and operations",
-            "Uses ChatGPT Work and Codex",
-            "Turns specialist knowledge into repeatable workflows"
-          ]
-        },
-        "fr": {
-          "title": "Oracle accélère ses flux avec ChatGPT et Codex",
-          "summary": "Dans le recrutement, l'ingénierie et les opérations, Oracle utilise ChatGPT Work and Codex pour transformer les connaissances spécialisées en flux rapides et répétables.",
-          "keyPoints": [
-            "Déployé en recrutement, ingénierie et opérations",
-            "Utilise ChatGPT Work et Codex",
-            "Transforme les connaissances en flux répétables"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d0976f44b3b7a8",
-      "title": "DeOrch: Decoupled Multi-Agent Orchestration",
-      "summary": "DeOrch introduces a decoupled multi-agent orchestration method that separates worker-agnostic planning from worker selection, using a contextual bandit matcher to adapt online and outperform prior methods.",
-      "keyPoints": [
-        "Separates worker-agnostic planning from concrete worker selection",
-        "Uses a contextual bandit matcher for online adaptation",
-        "Outperforms prior multi-agent orchestration methods with fewer worker calls"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07556",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DeOrch: Decoupled Multi-Agent Orchestration",
-          "summary": "DeOrch introduces a decoupled multi-agent orchestration method that separates worker-agnostic planning from worker selection, using a contextual bandit matcher to adapt online and outperform prior methods.",
-          "keyPoints": [
-            "Separates worker-agnostic planning from concrete worker selection",
-            "Uses a contextual bandit matcher for online adaptation",
-            "Outperforms prior multi-agent orchestration methods with fewer worker calls"
-          ]
-        },
-        "fr": {
-          "title": "DeOrch : Orchestration multi-agent découplée",
-          "summary": "DeOrch introduit une méthode d'orchestration multi-agent découplée qui sépare la planification indépendante des agents de leur sélection, surpassant les méthodes antérieures.",
-          "keyPoints": [
-            "Sépare la planification de la sélection concrète des agents",
-            "Utilise un bandit contextuel pour l'adaptation en ligne",
-            "Surpasse les méthodes d'orchestration antérieures avec moins d'appels"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-855092fba1df7e",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "summary": "Using GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "keyPoints": [
-        "Powered by GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5",
-        "Aids creators with bold ideas",
-        "Generates detailed images and cinematic video ads"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/pollo-ai",
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-          "summary": "Using GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-          "keyPoints": [
-            "Powered by GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5",
-            "Aids creators with bold ideas",
-            "Generates detailed images and cinematic video ads"
-          ]
-        },
-        "fr": {
-          "title": "Pollo AI transforme les idées créatives avec OpenAI",
-          "summary": "Grâce à GPT-5.6, GPT-6 Astra et GPT‑Image‑2.5, Pollo AI aide les créateurs à transformer des idées audacieuses en images détaillées et en publicités vidéo.",
-          "keyPoints": [
-            "Propulsé par GPT-5.6, GPT-6 Astra et GPT‑Image‑2.5",
-            "Assiste les créateurs d'idées audacieuses",
-            "Génère des images détaillées et des vidéos cinématiques"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-25f3b8c2aa67c9",
-      "title": "RouteFlow for Synthesizable Molecular Design",
-      "summary": "RouteFlow reformulates synthesizable molecular design as a search over a continuous route latent space using reward-guided flow matching and a cycle-consistency mechanism to preserve synthesizability.",
-      "keyPoints": [
-        "Reformulates design as a search over a continuous route latent space",
-        "Uses reward-guided flow matching and cycle-consistency",
-        "Achieves high sample efficiency and retrosynthesis success"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07560",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "RouteFlow for Synthesizable Molecular Design",
-          "summary": "RouteFlow reformulates synthesizable molecular design as a search over a continuous route latent space using reward-guided flow matching and a cycle-consistency mechanism to preserve synthesizability.",
-          "keyPoints": [
-            "Reformulates design as a search over a continuous route latent space",
-            "Uses reward-guided flow matching and cycle-consistency",
-            "Achieves high sample efficiency and retrosynthesis success"
-          ]
-        },
-        "fr": {
-          "title": "RouteFlow pour la conception moléculaire synthétisable",
-          "summary": "RouteFlow reformule la conception moléculaire en une recherche sur un espace latent continu en utilisant un appariement de flux guidé par récompense.",
-          "keyPoints": [
-            "Recherche dans un espace latent de routes continues",
-            "Utilise l'appariement de flux guidé par récompense et la cohérence de cycle",
-            "Atteint une haute efficacité d'échantillonnage"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-45d6a2b7993828",
-      "title": "LegalOn cuts Codex costs by 65 percent",
-      "summary": "LegalOn reduced estimated daily Codex costs by 65% while maintaining development speed by matching Astra, Sol, and Luna models to tasks and managing budgets strategically.",
-      "keyPoints": [
-        "Reduced estimated daily Codex costs by 65%",
-        "Maintained development speed",
-        "Matched Astra, Sol, and Luna models to tasks strategically"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/legalon-halves-codex-costs",
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "LegalOn cuts Codex costs by 65 percent",
-          "summary": "LegalOn reduced estimated daily Codex costs by 65% while maintaining development speed by matching Astra, Sol, and Luna models to tasks and managing budgets strategically.",
-          "keyPoints": [
-            "Reduced estimated daily Codex costs by 65%",
-            "Maintained development speed",
-            "Matched Astra, Sol, and Luna models to tasks strategically"
-          ]
-        },
-        "fr": {
-          "title": "LegalOn réduit les coûts de Codex de 65 pour cent",
-          "summary": "LegalOn a réduit ses coûts quotidiens estimés de Codex de 65 % tout en maintenant sa vitesse de développement grâce à une gestion stratégique des budgets.",
-          "keyPoints": [
-            "Réduction de 65 % des coûts quotidiens estimés de Codex",
-            "Maintien de la vitesse de développement",
-            "Assignation stratégique des modèles Astra, Sol et Luna"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-59f90402c17605",
-      "title": "ProbeGuard: Certified Abstention for Medical LLM Consensus",
-      "summary": "ProbeGuard is a certified abstention framework that analyzes how medical LLM consensus forms using process features, semantic entropy, and active probing to flag incorrect unanimous votes.",
-      "keyPoints": [
-        "Addresses fragile agreement-based signals in medical LLMs",
-        "Uses process features, semantic entropy, and active probing",
-        "Evaluated on medical QA benchmarks against baseline models"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07570",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ProbeGuard: Certified Abstention for Medical LLM Consensus",
-          "summary": "ProbeGuard is a certified abstention framework that analyzes how medical LLM consensus forms using process features, semantic entropy, and active probing to flag incorrect unanimous votes.",
-          "keyPoints": [
-            "Addresses fragile agreement-based signals in medical LLMs",
-            "Uses process features, semantic entropy, and active probing",
-            "Evaluated on medical QA benchmarks against baseline models"
-          ]
-        },
-        "fr": {
-          "title": "ProbeGuard : Abstention certifiée pour le consensus médical",
-          "summary": "ProbeGuard est un cadre d'abstention certifié qui analyse la formation du consensus des LLM médicaux à l'aide de caractéristiques de processus et d'un sondage actif.",
-          "keyPoints": [
-            "Traite la fragilité des signaux d'accord dans les LLM médicaux",
-            "Utilise des caractéristiques de processus et le sondage actif",
-            "Évalué sur des benchmarks de questions-réponses médicales"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d9e485b409fe85",
-      "title": "OpenAI disrupts AI-enabled false front operations",
-      "summary": "OpenAI successfully disrupted two AI-enabled influence operations that utilized false-front journalists and a think tank to spread geopolitical messaging.",
-      "keyPoints": [
-        "Disrupted two AI-enabled influence operations",
-        "Operations utilized false-front journalists",
-        "Involved a think tank spreading geopolitical messaging"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI disrupts AI-enabled false front operations",
-          "summary": "OpenAI successfully disrupted two AI-enabled influence operations that utilized false-front journalists and a think tank to spread geopolitical messaging.",
-          "keyPoints": [
-            "Disrupted two AI-enabled influence operations",
-            "Operations utilized false-front journalists",
-            "Involved a think tank spreading geopolitical messaging"
-          ]
-        },
-        "fr": {
-          "title": "OpenAI perturbe des opérations de faux façades assistées par IA",
-          "summary": "OpenAI a perturbé deux opérations d'influence utilisant de faux journalistes et un groupe de réflexion pour diffuser des messages géopolitiques.",
-          "keyPoints": [
-            "Perturbation de deux opérations d'influence par IA",
-            "Utilisation de faux journalistes et d'un groupe de réflexion",
-            "Diffusion de messages géopolitiques ciblés"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a6de4cf52aea83",
-      "title": "Staggered Participation Learning for MARL",
-      "summary": "Staggered Participation Learning (SPL) is a training-time augmentation designed for multi-agent reinforcement learning under staggered participation, improving task completion across diverse environments.",
-      "keyPoints": [
-        "Addresses staggered participation in multi-agent RL",
-        "Uses prospective acquisition and outcome-supervised receiver learning",
-        "Improves task completion across diverse environments"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07578",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Staggered Participation Learning for MARL",
-          "summary": "Staggered Participation Learning (SPL) is a training-time augmentation designed for multi-agent reinforcement learning under staggered participation, improving task completion across diverse environments.",
-          "keyPoints": [
-            "Addresses staggered participation in multi-agent RL",
-            "Uses prospective acquisition and outcome-supervised receiver learning",
-            "Improves task completion across diverse environments"
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage à participation échelonnée pour MARL",
-          "summary": "Le Staggered Participation Learning (SPL) est une augmentation d'apprentissage conçue pour le renforcement multi-agent sous participation échelonnée.",
-          "keyPoints": [
-            "Traite la participation échelonnée dans le renforcement multi-agent",
-            "Utilise l'acquisition prospective et l'apprentissage supervisé",
-            "Améliore l'achèvement des tâches dans divers environnements"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a04097270935f5",
-      "title": "LOGIC Benchmark for Aerospace Electrical Systems",
-      "summary": "LOGIC is a benchmark framework evaluating LLMs on intent-grounded change impact analysis in aerospace electrical systems by separating candidate selection from graph propagation.",
-      "keyPoints": [
-        "Evaluates LLMs on aerospace electrical-design revisions",
-        "Separates candidate selection from downstream propagation",
-        "Contains 168 scenarios including selection and abstention cases"
+        "Reduced threat investigation time by 96%",
+        "Automated 52% of MDR cases",
+        "Preserved human oversight during operations"
       ],
       "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07580",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/sophos",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LOGIC Benchmark for Aerospace Electrical Systems",
-          "summary": "LOGIC is a benchmark framework evaluating LLMs on intent-grounded change impact analysis in aerospace electrical systems by separating candidate selection from graph propagation.",
+          "title": "Sophos Cuts Cyber-Threat Investigation Time by 96% Using OpenAI Daybreak",
+          "summary": "Sophos has integrated OpenAI's Daybreak to dramatically reduce cyber-threat investigation times by 96% while automating 52% of managed detection and response (MDR) cases, maintaining essential human oversight.",
           "keyPoints": [
-            "Evaluates LLMs on aerospace electrical-design revisions",
-            "Separates candidate selection from downstream propagation",
-            "Contains 168 scenarios including selection and abstention cases"
+            "Reduced threat investigation time by 96%",
+            "Automated 52% of MDR cases",
+            "Preserved human oversight during operations"
           ]
         },
         "fr": {
-          "title": "Benchmark LOGIC pour les systèmes électriques aérospatiaux",
-          "summary": "LOGIC est un cadre d'évaluation des LLM sur l'analyse d'impact des modifications de conception électrique aérospatiale.",
+          "title": "Sophos réduit le temps d'enquête de 96% grâce à OpenAI Daybreak",
+          "summary": "Sophos utilise Daybreak d'OpenAI pour réduire de 96 % le temps d'enquête sur les cybermenaces et automatiser 52 % des cas MDR tout en maintenant une supervision humaine.",
           "keyPoints": [
-            "Évalue les LLM sur les révisions de conception électrique",
-            "Sépare la sélection des candidats de la propagation",
-            "Comprend 168 scénarios de test"
+            "Réduction du temps d'enquête de 96 %",
+            "Automatisation de 52 % des cas MDR",
+            "Préservation d'une supervision humaine"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-6bed67a6c24376",
-      "title": "Reliability Assessment in 3D Mitochondrial Morphometry",
-      "summary": "An empirical reliability assessment of three-dimensional mitochondrial morphometry investigates representation bias, correction transfer, and resolution sensitivity using biological datasets.",
+      "id": "feed-04a3afe8fc92fa",
+      "title": "Explainable Header-Centric Framework for Semantic Table Interpretation",
+      "summary": "Researchers introduce an explainable, header-centric framework for metadata-only column type annotation and data quality assessment. The system maps table headers to 39 FinalFormat types and introduces HeadersIQ to measure data quality across heterogeneous benchmarks.",
       "keyPoints": [
-        "Assesses reliability in 3D mitochondrial morphometry",
-        "Examines representation bias and resolution sensitivity",
-        "Uses data from the 3D Mitochondria Shape Library and MitoEM"
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07582",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Reliability Assessment in 3D Mitochondrial Morphometry",
-          "summary": "An empirical reliability assessment of three-dimensional mitochondrial morphometry investigates representation bias, correction transfer, and resolution sensitivity using biological datasets.",
-          "keyPoints": [
-            "Assesses reliability in 3D mitochondrial morphometry",
-            "Examines representation bias and resolution sensitivity",
-            "Uses data from the 3D Mitochondria Shape Library and MitoEM"
-          ]
-        },
-        "fr": {
-          "title": "Évaluation de la fiabilité en morphométrie mitochondriale 3D",
-          "summary": "Une évaluation empirique de la morphométrie mitochondriale 3D analyse le biais de représentation et la sensibilité à la résolution à l'aide de jeux de données.",
-          "keyPoints": [
-            "Évalue la fiabilité en morphométrie mitochondriale 3D",
-            "Examine le biais de représentation et la résolution",
-            "Utilise des données de la 3D Mitochondria Shape Library et MitoEM"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6e24c3d2ce5eb5",
-      "title": "Personal-Agent Mediated Recommendation with Cross-Platform History",
-      "summary": "This paper formalizes personal-agent mediated recommendation, where a personal LLM agent uses cross-platform user history to mediate platform ranking slates. To balance rescues against harmful overrides, the authors introduce the MediateRec benchmark and Personal Attribution Mediation Optimization (PAMO), proving PAMO preserves cutoff-level advantage mass.",
-      "keyPoints": [
-        "Introduces Personal-Agent Mediated Recommendation for user-governed personalization.",
-        "Proposes the MediateRec benchmark and PAMO training method.",
-        "PAMO improves rescue-harm balance over outcome-only reinforcement learning."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07588",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Personal-Agent Mediated Recommendation with Cross-Platform History",
-          "summary": "This paper formalizes personal-agent mediated recommendation, where a personal LLM agent uses cross-platform user history to mediate platform ranking slates. To balance rescues against harmful overrides, the authors introduce the MediateRec benchmark and Personal Attribution Mediation Optimization (PAMO), proving PAMO preserves cutoff-level advantage mass.",
-          "keyPoints": [
-            "Introduces Personal-Agent Mediated Recommendation for user-governed personalization.",
-            "Proposes the MediateRec benchmark and PAMO training method.",
-            "PAMO improves rescue-harm balance over outcome-only reinforcement learning."
-          ]
-        },
-        "fr": {
-          "title": "Recommandation médiée par agent personnel et historique multiplateforme",
-          "summary": "Cet article formalise la recommandation médiée par agent personnel, où un agent LLM utilise l'historique multiplateforme pour ajuster les classements. Pour équilibrer les corrections, les auteurs présentent le benchmark MediateRec et la méthode PAMO.",
-          "keyPoints": [
-            "Introduit la recommandation médiée par agent personnel pour la personnalisation.",
-            "Propose le benchmark MediateRec et la méthode d'optimisation PAMO.",
-            "PAMO améliore l'équilibre des corrections par rapport à l'apprentissage par renforcement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-85f8a9d7bcfae2",
-      "title": "LSC-DPO: Learning-Signal-Controlled Direct Preference Optimization",
-      "summary": "The authors study Direct Preference Optimization (DPO) from a loss-level geometric perspective and propose Learning-Signal-Controlled Direct Preference Optimization (LSC-DPO). LSC-DPO dynamically regulates the learning signal near a target regime to improve stability and performance across evaluations.",
-      "keyPoints": [
-        "Identifies the sigmoid factor in DPO as a local sensitivity learning signal.",
-        "Proposes LSC-DPO to dynamically regulate the learning signal.",
-        "Reduces performance variation and improves results on benchmarks like AlpacaEval 2."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07592",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "LSC-DPO: Learning-Signal-Controlled Direct Preference Optimization",
-          "summary": "The authors study Direct Preference Optimization (DPO) from a loss-level geometric perspective and propose Learning-Signal-Controlled Direct Preference Optimization (LSC-DPO). LSC-DPO dynamically regulates the learning signal near a target regime to improve stability and performance across evaluations.",
-          "keyPoints": [
-            "Identifies the sigmoid factor in DPO as a local sensitivity learning signal.",
-            "Proposes LSC-DPO to dynamically regulate the learning signal.",
-            "Reduces performance variation and improves results on benchmarks like AlpacaEval 2."
-          ]
-        },
-        "fr": {
-          "title": "LSC-DPO : Optimisation des préférences directes contrôlée par signal",
-          "summary": "Les auteurs étudient l'optimisation des préférences directes (DPO) sous un angle géométrique et proposent LSC-DPO. Cette méthode régule dynamiquement le signal d'apprentissage pour améliorer la stabilité et les performances.",
-          "keyPoints": [
-            "Identifie le facteur sigmoïde dans DPO comme un signal de sensibilité locale.",
-            "Propose LSC-DPO pour réguler dynamiquement le signal d'apprentissage.",
-            "Réduit la variation des performances et améliore les résultats sur les benchmarks."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-daf363daf74051",
-      "title": "Structured Verification from Rollout Groups for Video Temporal Grounding",
-      "summary": "This paper introduces SUTURE, a reinforcement learning verification framework for video temporal grounding that conditions scoring on the joint structure of a rollout group. SUTURE uses disagreement and position coverage to redistribute rewards, improving grounding performance across benchmarks.",
-      "keyPoints": [
-        "Introduces SUTURE to condition verification on rollout group structure.",
-        "Adopts disagreement and coverage to reweight targets and distribute reward mass.",
-        "Improves video temporal grounding performance across five benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07601",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Structured Verification from Rollout Groups for Video Temporal Grounding",
-          "summary": "This paper introduces SUTURE, a reinforcement learning verification framework for video temporal grounding that conditions scoring on the joint structure of a rollout group. SUTURE uses disagreement and position coverage to redistribute rewards, improving grounding performance across benchmarks.",
-          "keyPoints": [
-            "Introduces SUTURE to condition verification on rollout group structure.",
-            "Adopts disagreement and coverage to reweight targets and distribute reward mass.",
-            "Improves video temporal grounding performance across five benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Vérification structurée à partir de groupes de déploiement pour la localisation vidéo",
-          "summary": "Cet article présente SUTURE, un cadre de vérification par renforcement pour la localisation temporelle de vidéos qui conditionne la notation sur la structure conjointe d'un groupe de déploiement, améliorant ainsi les performances.",
-          "keyPoints": [
-            "Introduit SUTURE pour conditionner la vérification sur la structure de groupe.",
-            "Utilise le désaccord et la couverture pour redistribuer la masse de récompense.",
-            "Améliore les performances de localisation temporelle sur cinq benchmarks."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e7f7d11cacca3e",
-      "title": "VALSE: Vertical Adaptive Layer Skipping for Efficient Inference in LLMs",
-      "summary": "The authors establish a theoretical framework for vertical adaptive layer skipping and propose VALSE, a per-sample, non-contiguous layer skipping method for large language models. VALSE uses a lightweight difficulty estimator to selectively skip redundant layers and activate necessary depth.",
-      "keyPoints": [
-        "Establit un cadre théorique pour le saut de couche adaptatif vertical.",
-        "Propose VALSE pour un saut de couche non contigu par échantillon.",
-        "Utilise un estimateur de difficulté pour activer uniquement la profondeur nécessaire."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07606",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "VALSE: Vertical Adaptive Layer Skipping for Efficient Inference in LLMs",
-          "summary": "The authors establish a theoretical framework for vertical adaptive layer skipping and propose VALSE, a per-sample, non-contiguous layer skipping method for large language models. VALSE uses a lightweight difficulty estimator to selectively skip redundant layers and activate necessary depth.",
-          "keyPoints": [
-            "Establit un cadre théorique pour le saut de couche adaptatif vertical.",
-            "Propose VALSE pour un saut de couche non contigu par échantillon.",
-            "Utilise un estimateur de difficulté pour activer uniquement la profondeur nécessaire."
-          ]
-        },
-        "fr": {
-          "title": "VALSE : Saut de couche adaptatif vertical pour une inférence efficace",
-          "summary": "Les auteurs établissent un cadre théorique pour le saut de couche adaptatif vertical et proposent VALSE, une méthode de saut de couche non contigu par échantillon pour les grands modèles de langage, réduisant le coût de calcul.",
-          "keyPoints": [
-            "Établit un cadre théorique pour le saut de couche adaptatif vertical.",
-            "Propose VALSE pour le saut de couche non contigu par échantillon.",
-            "Utilise un estimateur de difficulté pour activer la profondeur nécessaire."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4cad4ce8d3dfff",
-      "title": "BioStudyBench: Evaluating AI Agents on Post-Cutoff Biomedical Studies",
-      "summary": "We introduce BioStudyBench, a benchmark of 25 post-cutoff biomedical analysis tasks designed to evaluate whether AI agents can match published study findings using public data. Testing across eight models shows that tool and data access significantly increases pass rates.",
-      "keyPoints": [
-        "Introduces BioStudyBench with 25 post-cutoff biomedical analysis tasks.",
-        "Evaluates eight models with and without data and tool access.",
-        "Data and tool access raises pass rates by 47 percentage points on average."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07614",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "BioStudyBench: Evaluating AI Agents on Post-Cutoff Biomedical Studies",
-          "summary": "We introduce BioStudyBench, a benchmark of 25 post-cutoff biomedical analysis tasks designed to evaluate whether AI agents can match published study findings using public data. Testing across eight models shows that tool and data access significantly increases pass rates.",
-          "keyPoints": [
-            "Introduces BioStudyBench with 25 post-cutoff biomedical analysis tasks.",
-            "Evaluates eight models with and without data and tool access.",
-            "Data and tool access raises pass rates by 47 percentage points on average."
-          ]
-        },
-        "fr": {
-          "title": "BioStudyBench : Évaluation d'agents sur des études biomédicales post-coupure",
-          "summary": "Nous présentons BioStudyBench, un benchmark de 25 tâches d'analyse biomédicale pour évaluer si les agents IA peuvent reproduire des études publiées en utilisant des données publiques. L'accès aux outils et aux données augmente considérablement les taux de réussite.",
-          "keyPoints": [
-            "Présente BioStudyBench avec 25 tâches d'analyse biomédicale post-coupure.",
-            "Évalue huit modèles avec et sans accès aux données et outils.",
-            "L'accès aux données et outils augmente les taux de réussite de 47 points."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d7641002792337",
-      "title": "Explore, Then Commit: Measurement-Efficient Scientific Law Discovery",
-      "summary": "The authors evaluate an explore-then-commit protocol for scientific law discovery where language models propose hypotheses and planners gather measurements. Trials on NewtonBench show that interpreter-enabled planners substantially reduce measurement counts while improving error metrics.",
-      "keyPoints": [
-        "Evaluates an explore-then-commit protocol for scientific law discovery.",
-        "Tests 576 trials across 12 physics modules using GPT-4 variants.",
-        "Interpreter-enabled planners reduce measurements and improve error metrics."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07620",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Explore, Then Commit: Measurement-Efficient Scientific Law Discovery",
-          "summary": "The authors evaluate an explore-then-commit protocol for scientific law discovery where language models propose hypotheses and planners gather measurements. Trials on NewtonBench show that interpreter-enabled planners substantially reduce measurement counts while improving error metrics.",
-          "keyPoints": [
-            "Evaluates an explore-then-commit protocol for scientific law discovery.",
-            "Tests 576 trials across 12 physics modules using GPT-4 variants.",
-            "Interpreter-enabled planners reduce measurements and improve error metrics."
-          ]
-        },
-        "fr": {
-          "title": "Explorer, puis s'engager : Découverte de lois scientifiques efficace",
-          "summary": "Les auteurs évaluent un protocole d'exploration-engagement pour la découverte de lois scientifiques où des modèles de langage proposent des hypothèses. Des essais montrent que les planificateurs avec interpréteur réduisent les mesures tout en améliorant les erreurs.",
-          "keyPoints": [
-            "Évalue un protocole d'exploration-engagement pour la découverte de lois.",
-            "Teste 576 essais à travers 12 modules de physique.",
-            "Les planificateurs avec interpréteur réduisent les mesures et améliorent les erreurs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-fec93abefc2bff",
-      "title": "Learning to Outgrow a Theory: Experimental Discovery Beyond Initial Space",
-      "summary": "This paper formulates experimental model-class revision, coupling a class-level distinguishability objective with sequential evidence to trigger structural revisions. The joint policy achieves 89.5% exact recovery on controlled dynamical environments while reducing executed experiments.",
-      "keyPoints": [
-        "Formulates experimental model-class revision for scientific discovery systems.",
-        "Couples distinguishability objectives with anytime-valid sequential evidence.",
-        "Reaches 89.5% exact recovery on 400 held-out dynamical environments."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07627",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Learning to Outgrow a Theory: Experimental Discovery Beyond Initial Space",
-          "summary": "This paper formulates experimental model-class revision, coupling a class-level distinguishability objective with sequential evidence to trigger structural revisions. The joint policy achieves 89.5% exact recovery on controlled dynamical environments while reducing executed experiments.",
-          "keyPoints": [
-            "Formulates experimental model-class revision for scientific discovery systems.",
-            "Couples distinguishability objectives with anytime-valid sequential evidence.",
-            "Reaches 89.5% exact recovery on 400 held-out dynamical environments."
-          ]
-        },
-        "fr": {
-          "title": "Apprendre à dépasser une théorie : Découverte expérimentale au-delà des hypothèses",
-          "summary": "Cet article formule la révision de classe de modèle expérimentale, associant un objectif de distinguabilité à des preuves séquentielles pour déclencher des révisions structurelles. La politique conjointe atteint 89,5 % de récupération exacte.",
-          "keyPoints": [
-            "Formule la révision de classe de modèle expérimentale pour la découverte.",
-            "Associe des objectifs de distinguabilité à des preuves séquentielles.",
-            "Atteint 89,5 % de récupération exacte sur 400 environnements dynamiques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f716265fb61d6c",
-      "title": "Measuring Climate Backlash in Twitter and Reddit Archives",
-      "summary": "The authors examine four Twitter and Reddit archives using lexical rules to study resistance to climate action, analyzing frame co-occurrence, response models, and participant turnover. Findings show how operational definitions and platform response fields shape conclusions about climate backlash.",
-      "keyPoints": [
-        "Examines Twitter and Reddit archives to study resistance to climate action.",
-        "Separates event-period changes among returning authors from participant turnover.",
-        "Demonstrates how operational definitions and response fields shape claims."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07634",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Measuring Climate Backlash in Twitter and Reddit Archives",
-          "summary": "The authors examine four Twitter and Reddit archives using lexical rules to study resistance to climate action, analyzing frame co-occurrence, response models, and participant turnover. Findings show how operational definitions and platform response fields shape conclusions about climate backlash.",
-          "keyPoints": [
-            "Examines Twitter and Reddit archives to study resistance to climate action.",
-            "Separates event-period changes among returning authors from participant turnover.",
-            "Demonstrates how operational definitions and response fields shape claims."
-          ]
-        },
-        "fr": {
-          "title": "Mesurer les réactions climatiques dans les archives de Twitter et Reddit",
-          "summary": "Les auteurs examinent quatre archives Twitter et Reddit pour étudier la résistance à l'action climatique en analysant le co-occurrence des cadres et le renouvellement des participants. L'étude montre comment les définitions opérationnelles façonnent les conclusions.",
-          "keyPoints": [
-            "Examine des archives Twitter et Reddit sur la résistance climatique.",
-            "Sépare les changements des auteurs récurrents du renouvellement des participants.",
-            "Démontre comment les définitions opérationnelles façonnent les affirmations."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2d95a1c57f5ff2",
-      "title": "Learning Explainable Representations of Complex Game-playing Strategies",
-      "summary": "The authors propose a strategy for training reinforcement learning agents to synthesize learned strategies and policies as executable procedures based on gameplay actions. Methods automatically learn such programs for chess and grid-based tasks from gameplay data.",
-      "keyPoints": [
-        "Proposes training RL agents to synthesize policies as executable procedures.",
-        "Synthesizes strategies based on action sequences mimicking human cognition.",
-        "Demonstrates effective learning of programs for chess and grid environments."
+        "Focuses on metadata-only Semantic Table Interpretation",
+        "Maps headers to 39 interpretable FinalFormat types",
+        "Introduces HeadersIQ as a quality metric"
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07638",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.10541",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Learning Explainable Representations of Complex Game-playing Strategies",
-          "summary": "The authors propose a strategy for training reinforcement learning agents to synthesize learned strategies and policies as executable procedures based on gameplay actions. Methods automatically learn such programs for chess and grid-based tasks from gameplay data.",
+          "title": "Explainable Header-Centric Framework for Semantic Table Interpretation",
+          "summary": "Researchers introduce an explainable, header-centric framework for metadata-only column type annotation and data quality assessment. The system maps table headers to 39 FinalFormat types and introduces HeadersIQ to measure data quality across heterogeneous benchmarks.",
           "keyPoints": [
-            "Proposes training RL agents to synthesize policies as executable procedures.",
-            "Synthesizes strategies based on action sequences mimicking human cognition.",
-            "Demonstrates effective learning of programs for chess and grid environments."
+            "Focuses on metadata-only Semantic Table Interpretation",
+            "Maps headers to 39 interpretable FinalFormat types",
+            "Introduces HeadersIQ as a quality metric"
           ]
         },
         "fr": {
-          "title": "Apprentissage de représentations explicables de stratégies de jeux complexes",
-          "summary": "Les auteurs proposent une stratégie pour entraîner des agents d'apprentissage par renforcement à synthétiser des politiques apprises sous forme de procédures exécutables basées sur des actions de jeu, pour les échecs et des grilles.",
+          "title": "Cadre explicable centré sur l'en-tête pour l'interprétation sémantique de tables",
+          "summary": "Une nouvelle approche métadonnée permet l'annotation de colonnes et l'évaluation de la qualité des données à partir des seuls en-têtes, en cartographiant 39 types et introduisant la métrique HeadersIQ.",
           "keyPoints": [
-            "Propose d'entraîner des agents à synthétiser des politiques exécutables.",
-            "Imite la cognition humaine pour structurer les séquences d'actions.",
-            "Démontre l'apprentissage efficace de programmes pour les échecs et des grilles."
+            "Axé sur l'interprétation de tables sémantiques basées sur les métadonnées",
+            "Mappe les en-têtes vers 39 types FinalFormat",
+            "Utilise la métrique HeadersIQ pour évaluer la qualité"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-30c38a4f4bf996",
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data",
+      "summary": "Authors present Synthesis Through Simulation (STS), a schema-free data synthesis paradigm where LLM agents generate enterprise data via simulated policy-enforcing APIs. The Generalist Populator agent achieves 0.88 average marginal fidelity and full constraint satisfaction.",
+      "keyPoints": [
+        "Introduces schema-free data synthesis via simulation",
+        "Generalist Populator achieves 0.88 marginal fidelity",
+        "Guarantees structural validity by construction"
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10549",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data",
+          "summary": "Authors present Synthesis Through Simulation (STS), a schema-free data synthesis paradigm where LLM agents generate enterprise data via simulated policy-enforcing APIs. The Generalist Populator agent achieves 0.88 average marginal fidelity and full constraint satisfaction.",
+          "keyPoints": [
+            "Introduces schema-free data synthesis via simulation",
+            "Generalist Populator achieves 0.88 marginal fidelity",
+            "Guarantees structural validity by construction"
+          ]
+        },
+        "fr": {
+          "title": "Synthèse par simulation : génération de données d'entreprise cohérentes",
+          "summary": "Présentation de STS, un paradigme de synthèse de données sans schéma où les agents LLM génèrent des données via des API simulées, garantissant la validité structurelle et de hautes performances de fidélité.",
+          "keyPoints": [
+            "Paradigme de synthèse sans schéma via simulation",
+            "Atteint 0,88 de fidélité marginale moyenne",
+            "Garantit la validité structurelle par construction"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ba63583808d70c",
+      "title": "Agent-Controlled Forgetting for Tool-Using Agents",
+      "summary": "This paper studies agent-controlled forgetting, allowing models to archive verbose tool observations and replace them with short notes. The method reduced cumulative input tokens by 50% and lowered estimated API costs in debugging tasks.",
+      "keyPoints": [
+        "Allows tool-using agents to selectively forget verbose output",
+        "Reduces cumulative input tokens by 50%",
+        "Demonstrates workload dependence and varying cost savings"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10590",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Agent-Controlled Forgetting for Tool-Using Agents",
+          "summary": "This paper studies agent-controlled forgetting, allowing models to archive verbose tool observations and replace them with short notes. The method reduced cumulative input tokens by 50% and lowered estimated API costs in debugging tasks.",
+          "keyPoints": [
+            "Allows tool-using agents to selectively forget verbose output",
+            "Reduces cumulative input tokens by 50%",
+            "Demonstrates workload dependence and varying cost savings"
+          ]
+        },
+        "fr": {
+          "title": "Oubli contrôlé par l'agent pour les agents utilisant des outils",
+          "summary": "Étude sur l'oubli contrôlé par l'agent, permettant aux modèles d'archiver les résultats d'outils verbeux au profit de notes courtes, réduisant l'utilisation des jetons d'entrée de 50 % lors de tâches de débogage.",
+          "keyPoints": [
+            "Permet d'archiver les observations d'outils redondantes",
+            "Réduit les jetons d'entrée cumulés de 50 %",
+            "Met en évidence la dépendance de la charge de travail"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1322a304a3c5e6",
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "summary": "The paper investigates the theoretical foundations and limits of verification and self-improvement in agentic AI. It compares different mechanisms through bounded verification with hidden terminal randomness and explores complexity-theoretic classes.",
+      "keyPoints": [
+        "Compares agent verification mechanisms using bounded protocols",
+        "Analyzes recursive self-improvement under fixed interpreters",
+        "Explores randomized-verifier complexity classes"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10611",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+          "summary": "The paper investigates the theoretical foundations and limits of verification and self-improvement in agentic AI. It compares different mechanisms through bounded verification with hidden terminal randomness and explores complexity-theoretic classes.",
+          "keyPoints": [
+            "Compares agent verification mechanisms using bounded protocols",
+            "Analyzes recursive self-improvement under fixed interpreters",
+            "Explores randomized-verifier complexity classes"
+          ]
+        },
+        "fr": {
+          "title": "Vérification et auto-amélioration dans l'IA agentique : fondations et limites",
+          "summary": "Cet article étudie les fondements théoriques et les limites de la vérification et de l'auto-amélioration dans l'IA agentique, analysant les protocoles de vérification bornée et les classes de complexité.",
+          "keyPoints": [
+            "Compare les mécanismes de vérification via des protocoles bornés",
+            "Analyse l'auto-amélioration récursive",
+            "Explore les classes de complexité des vérificateurs randomisés"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-20b6195dd6f81b",
+      "title": "Compliance-Bounded Self-Evolution of LLM Agents with a Measured Gate",
+      "summary": "To make self-improving LLM agents reviewable, self-evolution is restricted to the runtime harness while weights stay fixed. A dual-loop engine with a measured admission gate prevents harmful rule changes and maps to high-risk AI regulations.",
+      "keyPoints": [
+        "Restricts self-evolution to the runtime harness",
+        "Employs a hash-chained admission gate to block harmful changes",
+        "Connects mechanisms to EU AI Act high-risk credit provisions"
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10629",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Compliance-Bounded Self-Evolution of LLM Agents with a Measured Gate",
+          "summary": "To make self-improving LLM agents reviewable, self-evolution is restricted to the runtime harness while weights stay fixed. A dual-loop engine with a measured admission gate prevents harmful rule changes and maps to high-risk AI regulations.",
+          "keyPoints": [
+            "Restricts self-evolution to the runtime harness",
+            "Employs a hash-chained admission gate to block harmful changes",
+            "Connects mechanisms to EU AI Act high-risk credit provisions"
+          ]
+        },
+        "fr": {
+          "title": "Auto-évolution d'agents LLM liée à la conformité avec un sas mesuré",
+          "summary": "Pour rendre l'auto-évolution des agents reviewable, les modifications sont limitées au harnais d'exécution. Un moteur à double boucle avec sas d'admission empêche les changements nuisibles.",
+          "keyPoints": [
+            "Limite l'auto-évolution au harnais d'exécution",
+            "Utilise un sas d'admission pour bloquer les changements dangereux",
+            "S'aligne sur les dispositions de l'AI Act européen"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-dc072a92c6c9bd",
+      "title": "Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+      "summary": "Researchers address the instruction gap in aerial vision-and-language navigation by introducing the Trajectory-Grounded Instruction Translator (TGIT). TGIT translates intent-driven user commands into executable actions while keeping the navigator frozen.",
+      "keyPoints": [
+        "Introduces TGIT to solve the instruction gap in VLN agents",
+        "Keeps the base OpenFly navigator frozen during translation",
+        "Raises weak-input success rate from 15.27% to 37.93%"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10635",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+          "summary": "Researchers address the instruction gap in aerial vision-and-language navigation by introducing the Trajectory-Grounded Instruction Translator (TGIT). TGIT translates intent-driven user commands into executable actions while keeping the navigator frozen.",
+          "keyPoints": [
+            "Introduces TGIT to solve the instruction gap in VLN agents",
+            "Keeps the base OpenFly navigator frozen during translation",
+            "Raises weak-input success rate from 15.27% to 37.93%"
+          ]
+        },
+        "fr": {
+          "title": "Traduction d'instructions ancrées dans la trajectoire pour agents VLN aériens",
+          "summary": "Présentation du Traducteur d'Instructions Ancré dans la Trajectoire (TGIT) pour combler l'écart d'instructions dans la navigation visuelle et textuelle aérienne sans modifier le navigateur.",
+          "keyPoints": [
+            "Introduit TGIT pour résoudre l'écart d'instructions",
+            "Maintient le navigateur de base gelé",
+            "Améliore significativement le taux de réussite"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-de3301f4821ae8",
+      "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+      "summary": "Introducing Plan-and-Patch, a framework where diffusion language models (dLLMs) generate and efficiently repair structured plans. The method repairs affected regions while keeping surroundings fixed, nearly doubling plan repair success over autoregressive models.",
+      "keyPoints": [
+        "Uses diffusion language models for structured plan generation",
+        "Performs localized repairs by keeping prefix and suffix fixed",
+        "Doubles plan repair success rate compared to autoregressive baselines"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10786",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+          "summary": "Introducing Plan-and-Patch, a framework where diffusion language models (dLLMs) generate and efficiently repair structured plans. The method repairs affected regions while keeping surroundings fixed, nearly doubling plan repair success over autoregressive models.",
+          "keyPoints": [
+            "Uses diffusion language models for structured plan generation",
+            "Performs localized repairs by keeping prefix and suffix fixed",
+            "Doubles plan repair success rate compared to autoregressive baselines"
+          ]
+        },
+        "fr": {
+          "title": "Plan-and-Patch : modèles linguistiques de diffusion pour la planification",
+          "summary": "Présentation de Plan-and-Patch, un cadre où les modèles de diffusion génèrent et réparent efficacement des plans structurés en ciblant uniquement les régions affectées.",
+          "keyPoints": [
+            "Utilise des modèles de diffusion pour la planification",
+            "Répare les plans de manière ciblée sans tout réécrire",
+            "Double le taux de réussite de réparation par rapport aux modèles autorégressifs"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-5fbdf754feb46a",
+      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+      "summary": "This position paper argues that human interpretation in AI tasks is often inherently ambiguous and valid in multiple ways. The authors call for a shift toward modeling the space of plausible human judgments instead of reducing them to a single ground truth.",
+      "keyPoints": [
+        "Challenges the single ground truth assumption in AI",
+        "Emphasizes the importance of modeling human interpretation ambiguity",
+        "Calls for diversity-aware AI development and governance"
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10805",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+          "summary": "This position paper argues that human interpretation in AI tasks is often inherently ambiguous and valid in multiple ways. The authors call for a shift toward modeling the space of plausible human judgments instead of reducing them to a single ground truth.",
+          "keyPoints": [
+            "Challenges the single ground truth assumption in AI",
+            "Emphasizes the importance of modeling human interpretation ambiguity",
+            "Calls for diversity-aware AI development and governance"
+          ]
+        },
+        "fr": {
+          "title": "Quelle vérité terrain ? Embrasser l'ambiguïté dans l'IA centrée sur l'humain",
+          "summary": "Cet article de position soutient que l'interprétation humaine est souvent ambiguë et appelle à modéliser l'espace des jugements humains plausibles plutôt que de l'agréger en une seule vérité unique.",
+          "keyPoints": [
+            "Remet en question l'hypothèse d'une vérité terrain unique",
+            "Met en valeur la gestion de l'ambiguïté d'interprétation",
+            "Plaidit pour une gouvernance de l'IA consciente de la diversité"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2d399e565010d0",
+      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+      "summary": "Researchers evaluate small LLM agents operating under explicit wall-clock time budgets. Findings show that while harness enhancements and reinforcement learning improve budget adherence, agents often struggle to use extra time productively.",
+      "keyPoints": [
+        "Evaluates small LLM agents under explicit wall-clock time budgets",
+        "Harness mechanisms and RL successfully improve budget adherence",
+        "Identifies a persistent gap between time adherence and task performance"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10833",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+          "summary": "Researchers evaluate small LLM agents operating under explicit wall-clock time budgets. Findings show that while harness enhancements and reinforcement learning improve budget adherence, agents often struggle to use extra time productively.",
+          "keyPoints": [
+            "Evaluates small LLM agents under explicit wall-clock time budgets",
+            "Harness mechanisms and RL successfully improve budget adherence",
+            "Identifies a persistent gap between time adherence and task performance"
+          ]
+        },
+        "fr": {
+          "title": "À l'heure : vers des agents IA ponctuels et productifs contraints par le temps",
+          "summary": "Évaluation d'agents LLM fonctionnant sous des budgets de temps stricts, montrant que les mécanismes de renforcement améliorent la ponctualité, mais peinent à exploiter le temps supplémentaire pour progresser.",
+          "keyPoints": [
+            "Évalue des agents LLM sous contraintes de temps explicites",
+            "Le renforcement améliore l'adhésion au budget temporel",
+            "Met en évidence un écart entre respect du temps et performance"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-83dfccd4c450e4",
+      "title": "Self-Supervised Keyframe Discovery for Behavior Cloning",
+      "summary": "Behavior cloning in non-Markovian environments struggles with long horizons. To fix hidden-state collapse and context length limits, researchers propose Keyframe Mnemonics, a self-supervised method that discovers information-critical observations to serve as rewards for keyframe selection. Policies conditioned on these keyframes achieve 100% success on synthetic memory domains and outperform baselines in robot manipulation.",
+      "keyPoints": [
+        "Introduces Keyframe Mnemonics for self-supervised keyframe discovery in behavior cloning.",
+        "Provides infinite-horizon context retention guarantees under task assumptions.",
+        "Achieves 100% success rates on synthetic memory domains and 13.9% average absolute success improvement on robot manipulation tasks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10857",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Self-Supervised Keyframe Discovery for Behavior Cloning",
+          "summary": "Behavior cloning in non-Markovian environments struggles with long horizons. To fix hidden-state collapse and context length limits, researchers propose Keyframe Mnemonics, a self-supervised method that discovers information-critical observations to serve as rewards for keyframe selection. Policies conditioned on these keyframes achieve 100% success on synthetic memory domains and outperform baselines in robot manipulation.",
+          "keyPoints": [
+            "Introduces Keyframe Mnemonics for self-supervised keyframe discovery in behavior cloning.",
+            "Provides infinite-horizon context retention guarantees under task assumptions.",
+            "Achieves 100% success rates on synthetic memory domains and 13.9% average absolute success improvement on robot manipulation tasks."
+          ]
+        },
+        "fr": {
+          "title": "Découverte de clés auto-supervisée pour le clonage de comportement",
+          "summary": "Le clonage de comportement dans les environnements non markoviens souffre de horizons longs. Pour résoudre l'effondrement des états cachés et les limites de contexte, les chercheurs proposent Keyframe Mnemonics, une méthode auto-supervisée qui identifie des observations critiques. Les politiques conditionnées par ces images-clés atteignent un taux de réussite de 100 % sur des domaines synthétiques.",
+          "keyPoints": [
+            "Présente Keyframe Mnemonics pour la découverte de repères par auto-supervision.",
+            "Offre des garanties de rétention de contexte sur un horizon infini.",
+            "Atteint 100 % de réussite sur des domaines synthétiques et surpasse les bases en manipulation."
           ]
         }
       },
@@ -743,36 +431,348 @@
       }
     },
     {
-      "id": "feed-8db39ab082dba9",
-      "title": "Towards the Automatic Synthesis of Interpretable Chess Tactics",
-      "summary": "This preliminary work proposes a symbolic sub-policy model for playing chess, adapting patterns from an inductive logic programming system called PAL to incorporate domain knowledge. The model suggests moves of similar playing strength to a human beginner.",
+      "id": "feed-58375e71a9edc0",
+      "title": "Foundations and Challenges of Normative Competence in LLMs",
+      "summary": "Aligning autonomous AI with community norms requires normative competence: discerning enforceable rules from interaction alone. Researchers operationalize this in a multi-agent debate setting, finding that baseline LLMs fail to learn norms and indiscriminately copy idiosyncratic noise alongside actual rules. The work shows that current models excel at behavioral mimicry but lack social order capacity.",
       "keyPoints": [
-        "Proposes a symbolic sub-policy model for playing chess to improve interpretability.",
-        "Adapts patterns from an inductive logic programming system called PAL.",
-        "Suggests moves of similar playing strength to a human beginner."
+        "Operationalizes normative competence to evaluate how LLMs learn community norms.",
+        "Shows baseline LLMs fail to learn norms and copy idiosyncratic noise unselectively.",
+        "Demonstrates that current AI systems lack the capacity to discern socially enforced order."
       ],
-      "category": "Open Source",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07640",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.10906",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Towards the Automatic Synthesis of Interpretable Chess Tactics",
-          "summary": "This preliminary work proposes a symbolic sub-policy model for playing chess, adapting patterns from an inductive logic programming system called PAL to incorporate domain knowledge. The model suggests moves of similar playing strength to a human beginner.",
+          "title": "Foundations and Challenges of Normative Competence in LLMs",
+          "summary": "Aligning autonomous AI with community norms requires normative competence: discerning enforceable rules from interaction alone. Researchers operationalize this in a multi-agent debate setting, finding that baseline LLMs fail to learn norms and indiscriminately copy idiosyncratic noise alongside actual rules. The work shows that current models excel at behavioral mimicry but lack social order capacity.",
           "keyPoints": [
-            "Proposes a symbolic sub-policy model for playing chess to improve interpretability.",
-            "Adapts patterns from an inductive logic programming system called PAL.",
-            "Suggests moves of similar playing strength to a human beginner."
+            "Operationalizes normative competence to evaluate how LLMs learn community norms.",
+            "Shows baseline LLMs fail to learn norms and copy idiosyncratic noise unselectively.",
+            "Demonstrates that current AI systems lack the capacity to discern socially enforced order."
           ]
         },
         "fr": {
-          "title": "Vers la synthèse automatique de tactiques d'échecs interprétables",
-          "summary": "Ce travail préliminaire propose un modèle de sous-politique symbolique pour jouer aux échecs, en adaptant des motifs d'un système de programmation logique inductive nommé PAL. Le modèle suggère des coups comparables à un débutant.",
+          "title": "Fondations et défis de la compétence normative dans les LLM",
+          "summary": "L'alignement des IA autonomes sur les normes communautaires nécessite une compétence normative. Les chercheurs étudient cela dans un cadre de débat multi-agents et constatent que les LLM de base échouent à apprendre les normes et copient aveuglément le bruit idiosyncrasique. Les modèles actuels excellent dans le mimétisme mais manquent de discernement social.",
           "keyPoints": [
-            "Propose un modèle de sous-politique symbolique pour l'interprétabilité aux échecs.",
-            "Adapte les motifs d'un système de programmation logique inductive nommé PAL.",
-            "Suggère des coups comparables au niveau d'un débutant humain."
+            "Opérationnalise la compétence normative pour évaluer l'apprentissage des normes par les LLM.",
+            "Montre que les LLM échouent à apprendre les normes et copient le bruit inutile.",
+            "Démontre que les systèmes actuels manquent de capacité à discerner l'ordre social."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4a187203304350",
+      "title": "StoreBench: A Live-Commerce Environment for Autonomous Agents",
+      "summary": "StoreBench is a live-commerce environment where an agent runs an online apparel store on a production-grade backend, testing long-horizon planning and economic judgment. Evaluating frontier LLMs shows that no model matches the scripted smart-triage policy, though post-training via GRPO significantly improves performance on held-out tasks.",
+      "keyPoints": [
+        "Introduces StoreBench, a live-commerce environment testing long-horizon planning under uncertainty.",
+        "Evaluates seven frontier LLMs, finding none match the performance of scripted smart-triage policies.",
+        "Demonstrates significant performance gains using GRPO post-training on disjoint tasks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10942",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "StoreBench: A Live-Commerce Environment for Autonomous Agents",
+          "summary": "StoreBench is a live-commerce environment where an agent runs an online apparel store on a production-grade backend, testing long-horizon planning and economic judgment. Evaluating frontier LLMs shows that no model matches the scripted smart-triage policy, though post-training via GRPO significantly improves performance on held-out tasks.",
+          "keyPoints": [
+            "Introduces StoreBench, a live-commerce environment testing long-horizon planning under uncertainty.",
+            "Evaluates seven frontier LLMs, finding none match the performance of scripted smart-triage policies.",
+            "Demonstrates significant performance gains using GRPO post-training on disjoint tasks."
+          ]
+        },
+        "fr": {
+          "title": "StoreBench : Un environnement de commerce en direct pour agents",
+          "summary": "StoreBench est un environnement de commerce en direct où un agent gère une boutique en ligne sur un backend de production, testant la planification à long terme. L'évaluation des LLM de pointe montre qu'aucun modèle n'égale la politique de tri automatisée, bien que le post-entraînement via GRPO améliore nettement les performances.",
+          "keyPoints": [
+            "Introduit StoreBench pour tester la planification à long terme sous incertitude.",
+            "Évalue sept LLM de pointe, montrant qu'aucun n'égale les politiques scriptées.",
+            "Démontre des gains de performance notables grâce au post-entraînement GRPO."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b5d43e5e0471a6",
+      "title": "Learning Search Control for Plans with Exponentially Less Space",
+      "summary": "Heuristic search for plans can store exponentially many states. Researchers propose learning search control specified as an indexical policy with registers and a choose rule. Using structural termination, a depth-first procedure finds plans in polynomial space without storing visited states, solving thousands of test tasks from benchmark suites.",
+      "keyPoints": [
+        "Proposes learning search control via indexical policies with registers and a choose rule.",
+        "Bounds execution by a polynomial using structural termination, avoiding visited state lists.",
+        "Solves 1,709 of 1,890 test tasks from IPC 2023 and Autoscale Agile suites within one second."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.10954",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Learning Search Control for Plans with Exponentially Less Space",
+          "summary": "Heuristic search for plans can store exponentially many states. Researchers propose learning search control specified as an indexical policy with registers and a choose rule. Using structural termination, a depth-first procedure finds plans in polynomial space without storing visited states, solving thousands of test tasks from benchmark suites.",
+          "keyPoints": [
+            "Proposes learning search control via indexical policies with registers and a choose rule.",
+            "Bounds execution by a polynomial using structural termination, avoiding visited state lists.",
+            "Solves 1,709 of 1,890 test tasks from IPC 2023 and Autoscale Agile suites within one second."
+          ]
+        },
+        "fr": {
+          "title": "Apprentissage du contrôle de recherche pour des plans plus compacts",
+          "summary": "La recherche heuristique de plans peut stocker un nombre exponentiel d'états. Les chercheurs proposent d'apprendre un contrôle de recherche spécifié sous forme de politique indexicale. Grâce à une procédure en profondeur, un plan est trouvé en espace polynomial sans stocker les états visités, résolvant des milliers de tâches de test.",
+          "keyPoints": [
+            "Propose d'apprendre le contrôle de recherche via des politiques indexicales avec registres.",
+            "Limite l'exécution à un polynôme en évitant les listes d'états visités.",
+            "Résout 1 709 tâches de test sur 1 890 des suites IPC 2023 et Autoscale Agile en moins d'une seconde."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-5ca3b7efc7579d",
+      "title": "How Narrative Wrapping Affects LLM Refusal and Safety",
+      "summary": "Safety-aligned language models often refuse direct harmful requests but comply when placed inside role-play or narrative wrappers. The authors introduce GUISE, a cross-language benchmark measuring this vulnerability across English and Chinese variants, and propose AXIS, a preference optimization method that aligns representations with the refusal direction.",
+      "keyPoints": [
+        "Measures LLM vulnerability to narrative wrappers across English and Chinese languages.",
+        "Introduces GUISE, a benchmark for studying refusal bypass via role-play and narratives.",
+        "Proposes AXIS, combining preference optimization and rotation objectives to improve safety."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11005",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Narrative Wrapping Affects LLM Refusal and Safety",
+          "summary": "Safety-aligned language models often refuse direct harmful requests but comply when placed inside role-play or narrative wrappers. The authors introduce GUISE, a cross-language benchmark measuring this vulnerability across English and Chinese variants, and propose AXIS, a preference optimization method that aligns representations with the refusal direction.",
+          "keyPoints": [
+            "Measures LLM vulnerability to narrative wrappers across English and Chinese languages.",
+            "Introduces GUISE, a benchmark for studying refusal bypass via role-play and narratives.",
+            "Proposes AXIS, combining preference optimization and rotation objectives to improve safety."
+          ]
+        },
+        "fr": {
+          "title": "Impact des enveloppes narratives sur le refus et la sécurité des LLM",
+          "summary": "Les modèles de langage alignés refusent les requêtes nuisibles directes mais y répondent dans un cadre narratif. Les auteurs présentent GUISE, un banc d'essai mesurant cette vulnérabilité en anglais et en chinois, et proposent AXIS, une méthode d'optimisation alignant les représentations sur la direction du refus.",
+          "keyPoints": [
+            "Mesure la vulnérabilité des LLM aux emballages narratifs en anglais et en chinois.",
+            "Introduit GUISE pour étudier le contournement des refus par le jeu de rôle.",
+            "Propose AXIS pour améliorer la sécurité et la robustesse des modèles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d552aa93099035",
+      "title": "Curating Always-Loaded Context for LLM Agents",
+      "summary": "LLM agents load fixed context files at session starts, which can degrade performance if they grow too large. Researchers formulate context curation as a capacitated assortment problem with censored feedback, proving an upper bound on optimal file sizes and showing that deleting ignored instructions can inadvertently remove helpful ones.",
+      "keyPoints": [
+        "Formulates context file curation for LLM agents as a capacitated assortment problem.",
+        "Proves an upper bound on optimal file size and analyzes the impact of censored feedback.",
+        "Demonstrates that irrelevant rules reduce compliance and naive deletion removes helpful instructions."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11007",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Curating Always-Loaded Context for LLM Agents",
+          "summary": "LLM agents load fixed context files at session starts, which can degrade performance if they grow too large. Researchers formulate context curation as a capacitated assortment problem with censored feedback, proving an upper bound on optimal file sizes and showing that deleting ignored instructions can inadvertently remove helpful ones.",
+          "keyPoints": [
+            "Formulates context file curation for LLM agents as a capacitated assortment problem.",
+            "Proves an upper bound on optimal file size and analyzes the impact of censored feedback.",
+            "Demonstrates that irrelevant rules reduce compliance and naive deletion removes helpful instructions."
+          ]
+        },
+        "fr": {
+          "title": "Gestion du contexte permanent pour les agents LLM",
+          "summary": "Les agents LLM chargent des fichiers de contexte fixes au début de chaque session, ce qui peut nuire aux performances si leur taille augmente. Les chercheurs modélisent la curation du contexte comme un problème d'assortiment capacitaire avec rétroaction censurée, prouvant une limite supérieure pour la taille optimale des fichiers.",
+          "keyPoints": [
+            "Modélise la curation du contexte des agents LLM comme un problème d'assortiment capacitaire.",
+            "Prouve une limite supérieure sur la taille optimale des fichiers de contexte.",
+            "Démontre que les règles non pertinentes réduisent la conformité des agents."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-737be4302593a3",
+      "title": "Distillation for Incrimination and Distillation for Capabilities",
+      "summary": "Powerful misaligned AI models can hide flaws during evaluations. Distilling them into weaker student models creates a Distillation Double Bind. Researchers introduce Distillation for Incrimination (DFI) to transfer misalignment and reveal hidden behavior, and Distillation for Capabilities (DFC) to extract useful capabilities without transferring misalignment.",
+      "keyPoints": [
+        "Introduces the Distillation Double Bind for auditing potentially misaligned AI models.",
+        "Presents Distillation for Incrimination (DFI) to expose hidden misbehaviors via student models.",
+        "Presents Distillation for Capabilities (DFC) to extract useful capabilities without transferring misalignment."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11012",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Distillation for Incrimination and Distillation for Capabilities",
+          "summary": "Powerful misaligned AI models can hide flaws during evaluations. Distilling them into weaker student models creates a Distillation Double Bind. Researchers introduce Distillation for Incrimination (DFI) to transfer misalignment and reveal hidden behavior, and Distillation for Capabilities (DFC) to extract useful capabilities without transferring misalignment.",
+          "keyPoints": [
+            "Introduces the Distillation Double Bind for auditing potentially misaligned AI models.",
+            "Presents Distillation for Incrimination (DFI) to expose hidden misbehaviors via student models.",
+            "Presents Distillation for Capabilities (DFC) to extract useful capabilities without transferring misalignment."
+          ]
+        },
+        "fr": {
+          "title": "Distillation pour l'incrimination et distillation pour les capacités",
+          "summary": "Les modèles d'IA mal alignés peuvent masquer leurs failles lors des audits. Les chercheurs introduisent la distillation pour l'incrimination (DFI) pour transférer le mauvais alignement et révéler des comportements cachés, ainsi que la distillation pour les capacités (DFC) pour extraire les compétences utiles sans le mauvais alignement.",
+          "keyPoints": [
+            "Introduit le double piège de la distillation pour l'audit des modèles d'IA.",
+            "Présente la DFI pour exposer les comportements cachés via des modèles étudiants.",
+            "Présente la DFC pour extraire les compétences sans transférer les défauts de sécurité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-159bdd18a62dba",
+      "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Tasks",
+      "summary": "Computer-use agents require reliable automatic judges to evaluate long tasks spanning multiple applications. To address this, researchers introduce AgentHorizon, a benchmark of 1,373 tasks with paired instructions to test judges' ability to distinguish successful trajectories from failed ones, finding performance varies drastically across models.",
+      "keyPoints": [
+        "Introduces AgentHorizon, a benchmark of 1,373 computer-use tasks for evaluating agentic judges.",
+        "Uses a paired design with swapped instructions to test detection of subtle execution errors.",
+        "Finds that frontier models achieve moderate accuracy, but tool-use impacts open-weight judges negatively."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11050",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Tasks",
+          "summary": "Computer-use agents require reliable automatic judges to evaluate long tasks spanning multiple applications. To address this, researchers introduce AgentHorizon, a benchmark of 1,373 tasks with paired instructions to test judges' ability to distinguish successful trajectories from failed ones, finding performance varies drastically across models.",
+          "keyPoints": [
+            "Introduces AgentHorizon, a benchmark of 1,373 computer-use tasks for evaluating agentic judges.",
+            "Uses a paired design with swapped instructions to test detection of subtle execution errors.",
+            "Finds that frontier models achieve moderate accuracy, but tool-use impacts open-weight judges negatively."
+          ]
+        },
+        "fr": {
+          "title": "AgentHorizon : Évaluation de juges autonomes pour des tâches longues",
+          "summary": "Les agents informatiques nécessitent des juges automatiques fiables pour évaluer de longues tâches. Les chercheurs introduisent AgentHorizon, un banc d'essai de 1 373 tâches avec des paires d'instructions pour tester la capacité des juges à distinguer les trajectoires réussies des échecs, montrant des performances très variables selon les modèles.",
+          "keyPoints": [
+            "Introduit AgentHorizon, un banc d'essai de 1 373 tâches d'utilisation d'ordinateurs.",
+            "Utilise un design apparié avec des instructions croisées pour tester la détection d'erreurs.",
+            "Montre que les performances varient fortement selon les modèles et l'utilisation d'outils."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a1282f32e7ff72",
+      "title": "A Framework and Benchmark for LLM-Assisted Peer Review",
+      "summary": "Scientific publishing strains peer review, prompting interest in LLM assistants. This work introduces a verification-centric benchmark evaluating review systems' ability to identify logical contradictions inserted into conference papers. It also proposes a Multi-Layered Review framework that prioritizes manuscript comprehension before generation.",
+      "keyPoints": [
+        "Presents a verification-centric benchmark evaluating LLM review systems on error detection.",
+        "Uses synthetic error injection into conference papers for unambiguous evaluation targets.",
+        "Proposes a Multi-Layered Review framework to improve comprehension and token efficiency."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11087",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "A Framework and Benchmark for LLM-Assisted Peer Review",
+          "summary": "Scientific publishing strains peer review, prompting interest in LLM assistants. This work introduces a verification-centric benchmark evaluating review systems' ability to identify logical contradictions inserted into conference papers. It also proposes a Multi-Layered Review framework that prioritizes manuscript comprehension before generation.",
+          "keyPoints": [
+            "Presents a verification-centric benchmark evaluating LLM review systems on error detection.",
+            "Uses synthetic error injection into conference papers for unambiguous evaluation targets.",
+            "Proposes a Multi-Layered Review framework to improve comprehension and token efficiency."
+          ]
+        },
+        "fr": {
+          "title": "Un cadre et un banc d'essai pour l'évaluation par les pairs assistée par LLM",
+          "summary": "La croissance des publications scientifiques met à l'épreuve l'évaluation par les pairs. Ce travail introduit un banc d'essai centré sur la vérification pour évaluer la capacité des systèmes à identifier des contradictions logiques insérées dans des articles. Il propose également un cadre d'examen multicouche.",
+          "keyPoints": [
+            "Présente un banc d'essai axé sur la détection d'erreurs pour l'évaluation par les pairs.",
+            "Utilise l'injection d'erreurs synthétiques dans des articles pour des cibles d'évaluation claires.",
+            "Propose un cadre d'examen multicouche pour améliorer la compréhension et l'efficacité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-5a53c3bdb60bfc",
+      "title": "OpenProblemBench: Benchmarking AI on Foundational Theoretical Science",
+      "summary": "To assess AI progress on unresolved scientific problems, researchers introduce OpenProblemBench, containing 82 problems drawn from mathematics and theoretical physics. Evaluations show that frontier models achieve low solve rates, highlighting current capabilities and limitations in contributing to foundational theoretical science.",
+      "keyPoints": [
+        "Introduces OpenProblemBench with 82 unresolved math and theoretical physics problems.",
+        "Uses independent evaluator models to assess the correctness and completeness of submissions.",
+        "Shows GPT-6-Astra achieves a 14.0% mean judged solve rate, outperforming evaluated open models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11118",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenProblemBench: Benchmarking AI on Foundational Theoretical Science",
+          "summary": "To assess AI progress on unresolved scientific problems, researchers introduce OpenProblemBench, containing 82 problems drawn from mathematics and theoretical physics. Evaluations show that frontier models achieve low solve rates, highlighting current capabilities and limitations in contributing to foundational theoretical science.",
+          "keyPoints": [
+            "Introduces OpenProblemBench with 82 unresolved math and theoretical physics problems.",
+            "Uses independent evaluator models to assess the correctness and completeness of submissions.",
+            "Shows GPT-6-Astra achieves a 14.0% mean judged solve rate, outperforming evaluated open models."
+          ]
+        },
+        "fr": {
+          "title": "OpenProblemBench : Évaluation de l'IA en sciences théoriques fondamentales",
+          "summary": "Pour évaluer les progrès de l'IA sur des problèmes scientifiques non résolus, les chercheurs présentent OpenProblemBench, comprenant 82 problèmes de mathématiques et de physique théorique. Les évaluations montrent que les modèles de pointe atteignent de faibles taux de résolution, soulignant leurs limites actuelles.",
+          "keyPoints": [
+            "Introduit OpenProblemBench avec 82 problèmes ouverts de mathématiques et physique.",
+            "Utilise des modèles évaluateurs indépendants pour juger de la correction des soumissions.",
+            "Montre que GPT-6-Astra atteint un taux de résolution moyen de 14,0 %."
           ]
         }
       },
@@ -784,7 +784,7 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 531,
+    "itemsCollected": 496,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
