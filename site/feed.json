@@ -1,790 +1,790 @@
 {
-  "generatedAt": "2026-10-08T12:41:18.727Z",
+  "generatedAt": "2026-10-09T00:45:13.135Z",
   "items": [
     {
-      "id": "feed-086b7c4a6948d7",
-      "title": "Rule-Based Languages for Neurosymbolic AI",
-      "summary": "This paper surveys rule-based languages used as symbolic components in neurosymbolic AI, focusing on Datalog, answer set, and probabilistic logic programs. Over 50 recent systems and applications across four research areas are analyzed along four axes: semantics, expressiveness, neural integration, and evaluation mechanism.",
+      "id": "feed-db7b9e6fe248e3",
+      "title": "Oracle speeds workflows with ChatGPT and Codex",
+      "summary": "Across recruiting, engineering, and operations, Oracle utilizes ChatGPT Work and Codex to transform specialist knowledge into fast, repeatable workflows.",
       "keyPoints": [
-        "Surveys main rule-based languages like Datalog, answer set, and probabilistic logic programs.",
-        "Analyzes over 50 recent systems across databases, machine learning, vision, and robotics.",
-        "Evaluates systems along semantics, expressiveness, neural integration, and evaluation mechanisms."
+        "Implemented across recruiting, engineering, and operations",
+        "Uses ChatGPT Work and Codex",
+        "Turns specialist knowledge into repeatable workflows"
       ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07313",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/oracle",
+      "publishedAt": "2026-10-08T16:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Rule-Based Languages for Neurosymbolic AI",
-          "summary": "This paper surveys rule-based languages used as symbolic components in neurosymbolic AI, focusing on Datalog, answer set, and probabilistic logic programs. Over 50 recent systems and applications across four research areas are analyzed along four axes: semantics, expressiveness, neural integration, and evaluation mechanism.",
+          "title": "Oracle speeds workflows with ChatGPT and Codex",
+          "summary": "Across recruiting, engineering, and operations, Oracle utilizes ChatGPT Work and Codex to transform specialist knowledge into fast, repeatable workflows.",
           "keyPoints": [
-            "Surveys main rule-based languages like Datalog, answer set, and probabilistic logic programs.",
-            "Analyzes over 50 recent systems across databases, machine learning, vision, and robotics.",
-            "Evaluates systems along semantics, expressiveness, neural integration, and evaluation mechanisms."
+            "Implemented across recruiting, engineering, and operations",
+            "Uses ChatGPT Work and Codex",
+            "Turns specialist knowledge into repeatable workflows"
           ]
         },
         "fr": {
-          "title": "Langages à base de règles pour l'IA neurosymbolique",
-          "summary": "Cet article étudie les langages à base de règles utilisés comme composants symboliques dans l'IA neurosymbolique, en se concentrant sur Datalog, les ensembles de réponses et les programmes logiques probabilistes. Plus de 50 systèmes et applications récents répartis dans quatre domaines de recherche sont analysés.",
+          "title": "Oracle accélère ses flux avec ChatGPT et Codex",
+          "summary": "Dans le recrutement, l'ingénierie et les opérations, Oracle utilise ChatGPT Work and Codex pour transformer les connaissances spécialisées en flux rapides et répétables.",
           "keyPoints": [
-            "Examine les principaux langages à base de règles comme Datalog et les programmes logiques.",
-            "Analyse plus de 50 systèmes récents en bases de données, apprentissage automatique, vision et robotique.",
-            "Évalue les systèmes selon la sémantique, l'expressivité, l'intégration neuronale et l'évaluation."
+            "Déployé en recrutement, ingénierie et opérations",
+            "Utilise ChatGPT Work et Codex",
+            "Transforme les connaissances en flux répétables"
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-b91153e2a0a593",
-      "title": "Rationale-Guided Policy Optimization for Reasoning LLMs",
-      "summary": "The authors introduce Rationale-Guided Policy Optimization (RGPO), a framework addressing reward sparsity in reinforcement learning for large language models. RGPO uses ground-truth rationales as temporary scaffolds to guide response generation while transferring only higher-reward, model-generated solutions back, improving reasoning performance across text-only and multimodal models.",
+      "id": "feed-d0976f44b3b7a8",
+      "title": "DeOrch: Decoupled Multi-Agent Orchestration",
+      "summary": "DeOrch introduces a decoupled multi-agent orchestration method that separates worker-agnostic planning from worker selection, using a contextual bandit matcher to adapt online and outperform prior methods.",
       "keyPoints": [
-        "Introduces RGPO to mitigate reward sparsity in reinforcement learning for LLMs.",
-        "Uses ground-truth rationales as temporary scaffolds rather than fixed imitation targets.",
-        "Improves performance consistently across language-only and vision-language reasoning settings."
+        "Separates worker-agnostic planning from concrete worker selection",
+        "Uses a contextual bandit matcher for online adaptation",
+        "Outperforms prior multi-agent orchestration methods with fewer worker calls"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07342",
+      "sourceUrl": "https://arxiv.org/abs/2610.07556",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Rationale-Guided Policy Optimization for Reasoning LLMs",
-          "summary": "The authors introduce Rationale-Guided Policy Optimization (RGPO), a framework addressing reward sparsity in reinforcement learning for large language models. RGPO uses ground-truth rationales as temporary scaffolds to guide response generation while transferring only higher-reward, model-generated solutions back, improving reasoning performance across text-only and multimodal models.",
+          "title": "DeOrch: Decoupled Multi-Agent Orchestration",
+          "summary": "DeOrch introduces a decoupled multi-agent orchestration method that separates worker-agnostic planning from worker selection, using a contextual bandit matcher to adapt online and outperform prior methods.",
           "keyPoints": [
-            "Introduces RGPO to mitigate reward sparsity in reinforcement learning for LLMs.",
-            "Uses ground-truth rationales as temporary scaffolds rather than fixed imitation targets.",
-            "Improves performance consistently across language-only and vision-language reasoning settings."
+            "Separates worker-agnostic planning from concrete worker selection",
+            "Uses a contextual bandit matcher for online adaptation",
+            "Outperforms prior multi-agent orchestration methods with fewer worker calls"
           ]
         },
         "fr": {
-          "title": "Optimisation de politique guidée par les justifications pour les LLM",
-          "summary": "Les auteurs présentent RGPO, un cadre abordant la rareté des récompenses dans l'apprentissage par renforcement pour les grands modèles de langage. RGPO utilise les justifications de référence comme des échafaudages temporaires pour guider la génération de réponses.",
+          "title": "DeOrch : Orchestration multi-agent découplée",
+          "summary": "DeOrch introduit une méthode d'orchestration multi-agent découplée qui sépare la planification indépendante des agents de leur sélection, surpassant les méthodes antérieures.",
           "keyPoints": [
-            "Introduit RGPO pour atténuer la rareté des récompenses dans l'apprentissage par renforcement.",
-            "Utilise des justifications de référence comme échafaudages temporaires.",
-            "Améliore les performances de raisonnement dans les contextes textuels et multimodaux."
+            "Sépare la planification de la sélection concrète des agents",
+            "Utilise un bandit contextuel pour l'adaptation en ligne",
+            "Surpasse les méthodes d'orchestration antérieures avec moins d'appels"
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-694c8b4e6c5e68",
-      "title": "Trajectory-Retrieval Speculative Decoding",
-      "summary": "This work investigates how a model's long chain-of-thought history can supply useful drafts and introduces Trajectory-Local Adaptive Retrieval (TLAR). TLAR retrieves matched continuations from the current trajectory and uses recent verification outcomes to adapt candidate generation, improving token acceptance and throughput.",
+      "id": "feed-855092fba1df7e",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "summary": "Using GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "keyPoints": [
-        "Investigates the reuse of a model's own history to supply useful drafts during chain-of-thought reasoning.",
-        "Introduces Trajectory-Local Adaptive Retrieval (TLAR) to adapt retrieval activation and candidate width.",
-        "Combines retrieved continuations with model-generated drafts to improve end-to-end throughput."
+        "Powered by GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5",
+        "Aids creators with bold ideas",
+        "Generates detailed images and cinematic video ads"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/pollo-ai",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "summary": "Using GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+          "keyPoints": [
+            "Powered by GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5",
+            "Aids creators with bold ideas",
+            "Generates detailed images and cinematic video ads"
+          ]
+        },
+        "fr": {
+          "title": "Pollo AI transforme les idées créatives avec OpenAI",
+          "summary": "Grâce à GPT-5.6, GPT-6 Astra et GPT‑Image‑2.5, Pollo AI aide les créateurs à transformer des idées audacieuses en images détaillées et en publicités vidéo.",
+          "keyPoints": [
+            "Propulsé par GPT-5.6, GPT-6 Astra et GPT‑Image‑2.5",
+            "Assiste les créateurs d'idées audacieuses",
+            "Génère des images détaillées et des vidéos cinématiques"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-25f3b8c2aa67c9",
+      "title": "RouteFlow for Synthesizable Molecular Design",
+      "summary": "RouteFlow reformulates synthesizable molecular design as a search over a continuous route latent space using reward-guided flow matching and a cycle-consistency mechanism to preserve synthesizability.",
+      "keyPoints": [
+        "Reformulates design as a search over a continuous route latent space",
+        "Uses reward-guided flow matching and cycle-consistency",
+        "Achieves high sample efficiency and retrosynthesis success"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07560",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "RouteFlow for Synthesizable Molecular Design",
+          "summary": "RouteFlow reformulates synthesizable molecular design as a search over a continuous route latent space using reward-guided flow matching and a cycle-consistency mechanism to preserve synthesizability.",
+          "keyPoints": [
+            "Reformulates design as a search over a continuous route latent space",
+            "Uses reward-guided flow matching and cycle-consistency",
+            "Achieves high sample efficiency and retrosynthesis success"
+          ]
+        },
+        "fr": {
+          "title": "RouteFlow pour la conception moléculaire synthétisable",
+          "summary": "RouteFlow reformule la conception moléculaire en une recherche sur un espace latent continu en utilisant un appariement de flux guidé par récompense.",
+          "keyPoints": [
+            "Recherche dans un espace latent de routes continues",
+            "Utilise l'appariement de flux guidé par récompense et la cohérence de cycle",
+            "Atteint une haute efficacité d'échantillonnage"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-45d6a2b7993828",
+      "title": "LegalOn cuts Codex costs by 65 percent",
+      "summary": "LegalOn reduced estimated daily Codex costs by 65% while maintaining development speed by matching Astra, Sol, and Luna models to tasks and managing budgets strategically.",
+      "keyPoints": [
+        "Reduced estimated daily Codex costs by 65%",
+        "Maintained development speed",
+        "Matched Astra, Sol, and Luna models to tasks strategically"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/legalon-halves-codex-costs",
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LegalOn cuts Codex costs by 65 percent",
+          "summary": "LegalOn reduced estimated daily Codex costs by 65% while maintaining development speed by matching Astra, Sol, and Luna models to tasks and managing budgets strategically.",
+          "keyPoints": [
+            "Reduced estimated daily Codex costs by 65%",
+            "Maintained development speed",
+            "Matched Astra, Sol, and Luna models to tasks strategically"
+          ]
+        },
+        "fr": {
+          "title": "LegalOn réduit les coûts de Codex de 65 pour cent",
+          "summary": "LegalOn a réduit ses coûts quotidiens estimés de Codex de 65 % tout en maintenant sa vitesse de développement grâce à une gestion stratégique des budgets.",
+          "keyPoints": [
+            "Réduction de 65 % des coûts quotidiens estimés de Codex",
+            "Maintien de la vitesse de développement",
+            "Assignation stratégique des modèles Astra, Sol et Luna"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-59f90402c17605",
+      "title": "ProbeGuard: Certified Abstention for Medical LLM Consensus",
+      "summary": "ProbeGuard is a certified abstention framework that analyzes how medical LLM consensus forms using process features, semantic entropy, and active probing to flag incorrect unanimous votes.",
+      "keyPoints": [
+        "Addresses fragile agreement-based signals in medical LLMs",
+        "Uses process features, semantic entropy, and active probing",
+        "Evaluated on medical QA benchmarks against baseline models"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07570",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ProbeGuard: Certified Abstention for Medical LLM Consensus",
+          "summary": "ProbeGuard is a certified abstention framework that analyzes how medical LLM consensus forms using process features, semantic entropy, and active probing to flag incorrect unanimous votes.",
+          "keyPoints": [
+            "Addresses fragile agreement-based signals in medical LLMs",
+            "Uses process features, semantic entropy, and active probing",
+            "Evaluated on medical QA benchmarks against baseline models"
+          ]
+        },
+        "fr": {
+          "title": "ProbeGuard : Abstention certifiée pour le consensus médical",
+          "summary": "ProbeGuard est un cadre d'abstention certifié qui analyse la formation du consensus des LLM médicaux à l'aide de caractéristiques de processus et d'un sondage actif.",
+          "keyPoints": [
+            "Traite la fragilité des signaux d'accord dans les LLM médicaux",
+            "Utilise des caractéristiques de processus et le sondage actif",
+            "Évalué sur des benchmarks de questions-réponses médicales"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d9e485b409fe85",
+      "title": "OpenAI disrupts AI-enabled false front operations",
+      "summary": "OpenAI successfully disrupted two AI-enabled influence operations that utilized false-front journalists and a think tank to spread geopolitical messaging.",
+      "keyPoints": [
+        "Disrupted two AI-enabled influence operations",
+        "Operations utilized false-front journalists",
+        "Involved a think tank spreading geopolitical messaging"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI disrupts AI-enabled false front operations",
+          "summary": "OpenAI successfully disrupted two AI-enabled influence operations that utilized false-front journalists and a think tank to spread geopolitical messaging.",
+          "keyPoints": [
+            "Disrupted two AI-enabled influence operations",
+            "Operations utilized false-front journalists",
+            "Involved a think tank spreading geopolitical messaging"
+          ]
+        },
+        "fr": {
+          "title": "OpenAI perturbe des opérations de faux façades assistées par IA",
+          "summary": "OpenAI a perturbé deux opérations d'influence utilisant de faux journalistes et un groupe de réflexion pour diffuser des messages géopolitiques.",
+          "keyPoints": [
+            "Perturbation de deux opérations d'influence par IA",
+            "Utilisation de faux journalistes et d'un groupe de réflexion",
+            "Diffusion de messages géopolitiques ciblés"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a6de4cf52aea83",
+      "title": "Staggered Participation Learning for MARL",
+      "summary": "Staggered Participation Learning (SPL) is a training-time augmentation designed for multi-agent reinforcement learning under staggered participation, improving task completion across diverse environments.",
+      "keyPoints": [
+        "Addresses staggered participation in multi-agent RL",
+        "Uses prospective acquisition and outcome-supervised receiver learning",
+        "Improves task completion across diverse environments"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07578",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Staggered Participation Learning for MARL",
+          "summary": "Staggered Participation Learning (SPL) is a training-time augmentation designed for multi-agent reinforcement learning under staggered participation, improving task completion across diverse environments.",
+          "keyPoints": [
+            "Addresses staggered participation in multi-agent RL",
+            "Uses prospective acquisition and outcome-supervised receiver learning",
+            "Improves task completion across diverse environments"
+          ]
+        },
+        "fr": {
+          "title": "Apprentissage à participation échelonnée pour MARL",
+          "summary": "Le Staggered Participation Learning (SPL) est une augmentation d'apprentissage conçue pour le renforcement multi-agent sous participation échelonnée.",
+          "keyPoints": [
+            "Traite la participation échelonnée dans le renforcement multi-agent",
+            "Utilise l'acquisition prospective et l'apprentissage supervisé",
+            "Améliore l'achèvement des tâches dans divers environnements"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a04097270935f5",
+      "title": "LOGIC Benchmark for Aerospace Electrical Systems",
+      "summary": "LOGIC is a benchmark framework evaluating LLMs on intent-grounded change impact analysis in aerospace electrical systems by separating candidate selection from graph propagation.",
+      "keyPoints": [
+        "Evaluates LLMs on aerospace electrical-design revisions",
+        "Separates candidate selection from downstream propagation",
+        "Contains 168 scenarios including selection and abstention cases"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07350",
+      "sourceUrl": "https://arxiv.org/abs/2610.07580",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Trajectory-Retrieval Speculative Decoding",
-          "summary": "This work investigates how a model's long chain-of-thought history can supply useful drafts and introduces Trajectory-Local Adaptive Retrieval (TLAR). TLAR retrieves matched continuations from the current trajectory and uses recent verification outcomes to adapt candidate generation, improving token acceptance and throughput.",
+          "title": "LOGIC Benchmark for Aerospace Electrical Systems",
+          "summary": "LOGIC is a benchmark framework evaluating LLMs on intent-grounded change impact analysis in aerospace electrical systems by separating candidate selection from graph propagation.",
           "keyPoints": [
-            "Investigates the reuse of a model's own history to supply useful drafts during chain-of-thought reasoning.",
-            "Introduces Trajectory-Local Adaptive Retrieval (TLAR) to adapt retrieval activation and candidate width.",
-            "Combines retrieved continuations with model-generated drafts to improve end-to-end throughput."
+            "Evaluates LLMs on aerospace electrical-design revisions",
+            "Separates candidate selection from downstream propagation",
+            "Contains 168 scenarios including selection and abstention cases"
           ]
         },
         "fr": {
-          "title": "Décoration spéculative par récupération de trajectoire",
-          "summary": "Ce travail étudie comment l'historique de raisonnement d'un modèle peut fournir des brouillons utiles et introduit la récupération adaptative locale de trajectoire (TLAR). TLAR récupère des continuations adaptées pour améliorer le débit et l'acceptation des jetons.",
+          "title": "Benchmark LOGIC pour les systèmes électriques aérospatiaux",
+          "summary": "LOGIC est un cadre d'évaluation des LLM sur l'analyse d'impact des modifications de conception électrique aérospatiale.",
           "keyPoints": [
-            "Étudie la réutilisation de l'historique d'un modèle pour fournir des brouillons de raisonnement.",
-            "Introduit la méthode TLAR pour adapter l'activation de la récupération et la largeur des candidats.",
-            "Combine les continuations récupérées pour améliorer le débit global d'inférence."
+            "Évalue les LLM sur les révisions de conception électrique",
+            "Sépare la sélection des candidats de la propagation",
+            "Comprend 168 scénarios de test"
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-71a0fe5fc428fc",
-      "title": "Evaluating Escalation Signals and Pitfalls for LLM Routing",
-      "summary": "The paper tests semantic entropy as a cheap signal to route queries from small to large language models. It highlights several evaluation pitfalls, showing that simple question-difficulty rules can mimic complex signals and detailing checks to ensure routing signals provide true added value.",
+      "id": "feed-6bed67a6c24376",
+      "title": "Reliability Assessment in 3D Mitochondrial Morphometry",
+      "summary": "An empirical reliability assessment of three-dimensional mitochondrial morphometry investigates representation bias, correction transfer, and resolution sensitivity using biological datasets.",
       "keyPoints": [
-        "Tests semantic entropy to decide when to escalate queries from small to large language models.",
-        "Identifies five evaluation pitfalls, including misleading difficulty rules and benchmarking constraints.",
-        "Provides a general checklist to verify if routing signals add real predictive information."
+        "Assesses reliability in 3D mitochondrial morphometry",
+        "Examines representation bias and resolution sensitivity",
+        "Uses data from the 3D Mitochondria Shape Library and MitoEM"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07354",
+      "sourceUrl": "https://arxiv.org/abs/2610.07582",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Evaluating Escalation Signals and Pitfalls for LLM Routing",
-          "summary": "The paper tests semantic entropy as a cheap signal to route queries from small to large language models. It highlights several evaluation pitfalls, showing that simple question-difficulty rules can mimic complex signals and detailing checks to ensure routing signals provide true added value.",
+          "title": "Reliability Assessment in 3D Mitochondrial Morphometry",
+          "summary": "An empirical reliability assessment of three-dimensional mitochondrial morphometry investigates representation bias, correction transfer, and resolution sensitivity using biological datasets.",
           "keyPoints": [
-            "Tests semantic entropy to decide when to escalate queries from small to large language models.",
-            "Identifies five evaluation pitfalls, including misleading difficulty rules and benchmarking constraints.",
-            "Provides a general checklist to verify if routing signals add real predictive information."
+            "Assesses reliability in 3D mitochondrial morphometry",
+            "Examines representation bias and resolution sensitivity",
+            "Uses data from the 3D Mitochondria Shape Library and MitoEM"
           ]
         },
         "fr": {
-          "title": "Évaluation des signaux d'escalade et pièges pour le routage de LLM",
-          "summary": "L'article teste l'entropie sémantique comme signal bon marché pour acheminer les requêtes des petits vers les grands modèles de langage. Il met en évidence plusieurs pièges d'évaluation et propose une liste de contrôle générale.",
+          "title": "Évaluation de la fiabilité en morphométrie mitochondriale 3D",
+          "summary": "Une évaluation empirique de la morphométrie mitochondriale 3D analyse le biais de représentation et la sensibilité à la résolution à l'aide de jeux de données.",
           "keyPoints": [
-            "Teste l'entropie sémantique pour décider de l'escalade des requêtes entre modèles.",
-            "Identifie plusieurs pièges d'évaluation liés aux règles de difficulté et aux contraintes de tests.",
-            "Fournit une liste de contrôle pour vérifier l'apport réel des signaux de routage."
+            "Évalue la fiabilité en morphométrie mitochondriale 3D",
+            "Examine le biais de représentation et la résolution",
+            "Utilise des données de la 3D Mitochondria Shape Library et MitoEM"
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-294861f2e2a5d6",
-      "title": "Evaluating Independence of Deterministic and LLM Agent Gates",
-      "summary": "The authors test the assumption that runtime gates for agent tool calls fail independently by examining 1,119 labelled actions across three corpora. The study analyzes error multiplication layers and reveals how unrequested model versions and scoring definitions can alter conclusions.",
+      "id": "feed-6e24c3d2ce5eb5",
+      "title": "Personal-Agent Mediated Recommendation with Cross-Platform History",
+      "summary": "This paper formalizes personal-agent mediated recommendation, where a personal LLM agent uses cross-platform user history to mediate platform ranking slates. To balance rescues against harmful overrides, the authors introduce the MediateRec benchmark and Personal Attribution Mediation Optimization (PAMO), proving PAMO preserves cutoff-level advantage mass.",
       "keyPoints": [
-        "Tests the assumption that runtime gates for agent tool calls have mutually independent errors.",
-        "Examines 1,119 labelled agent actions combining a deterministic rule layer and multiple LLM judges.",
-        "Highlights how unrequested model version changes can overturn pre-declared analysis conclusions."
+        "Introduces Personal-Agent Mediated Recommendation for user-governed personalization.",
+        "Proposes the MediateRec benchmark and PAMO training method.",
+        "PAMO improves rescue-harm balance over outcome-only reinforcement learning."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07588",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Personal-Agent Mediated Recommendation with Cross-Platform History",
+          "summary": "This paper formalizes personal-agent mediated recommendation, where a personal LLM agent uses cross-platform user history to mediate platform ranking slates. To balance rescues against harmful overrides, the authors introduce the MediateRec benchmark and Personal Attribution Mediation Optimization (PAMO), proving PAMO preserves cutoff-level advantage mass.",
+          "keyPoints": [
+            "Introduces Personal-Agent Mediated Recommendation for user-governed personalization.",
+            "Proposes the MediateRec benchmark and PAMO training method.",
+            "PAMO improves rescue-harm balance over outcome-only reinforcement learning."
+          ]
+        },
+        "fr": {
+          "title": "Recommandation médiée par agent personnel et historique multiplateforme",
+          "summary": "Cet article formalise la recommandation médiée par agent personnel, où un agent LLM utilise l'historique multiplateforme pour ajuster les classements. Pour équilibrer les corrections, les auteurs présentent le benchmark MediateRec et la méthode PAMO.",
+          "keyPoints": [
+            "Introduit la recommandation médiée par agent personnel pour la personnalisation.",
+            "Propose le benchmark MediateRec et la méthode d'optimisation PAMO.",
+            "PAMO améliore l'équilibre des corrections par rapport à l'apprentissage par renforcement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-85f8a9d7bcfae2",
+      "title": "LSC-DPO: Learning-Signal-Controlled Direct Preference Optimization",
+      "summary": "The authors study Direct Preference Optimization (DPO) from a loss-level geometric perspective and propose Learning-Signal-Controlled Direct Preference Optimization (LSC-DPO). LSC-DPO dynamically regulates the learning signal near a target regime to improve stability and performance across evaluations.",
+      "keyPoints": [
+        "Identifies the sigmoid factor in DPO as a local sensitivity learning signal.",
+        "Proposes LSC-DPO to dynamically regulate the learning signal.",
+        "Reduces performance variation and improves results on benchmarks like AlpacaEval 2."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07592",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LSC-DPO: Learning-Signal-Controlled Direct Preference Optimization",
+          "summary": "The authors study Direct Preference Optimization (DPO) from a loss-level geometric perspective and propose Learning-Signal-Controlled Direct Preference Optimization (LSC-DPO). LSC-DPO dynamically regulates the learning signal near a target regime to improve stability and performance across evaluations.",
+          "keyPoints": [
+            "Identifies the sigmoid factor in DPO as a local sensitivity learning signal.",
+            "Proposes LSC-DPO to dynamically regulate the learning signal.",
+            "Reduces performance variation and improves results on benchmarks like AlpacaEval 2."
+          ]
+        },
+        "fr": {
+          "title": "LSC-DPO : Optimisation des préférences directes contrôlée par signal",
+          "summary": "Les auteurs étudient l'optimisation des préférences directes (DPO) sous un angle géométrique et proposent LSC-DPO. Cette méthode régule dynamiquement le signal d'apprentissage pour améliorer la stabilité et les performances.",
+          "keyPoints": [
+            "Identifie le facteur sigmoïde dans DPO comme un signal de sensibilité locale.",
+            "Propose LSC-DPO pour réguler dynamiquement le signal d'apprentissage.",
+            "Réduit la variation des performances et améliore les résultats sur les benchmarks."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-daf363daf74051",
+      "title": "Structured Verification from Rollout Groups for Video Temporal Grounding",
+      "summary": "This paper introduces SUTURE, a reinforcement learning verification framework for video temporal grounding that conditions scoring on the joint structure of a rollout group. SUTURE uses disagreement and position coverage to redistribute rewards, improving grounding performance across benchmarks.",
+      "keyPoints": [
+        "Introduces SUTURE to condition verification on rollout group structure.",
+        "Adopts disagreement and coverage to reweight targets and distribute reward mass.",
+        "Improves video temporal grounding performance across five benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07601",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Structured Verification from Rollout Groups for Video Temporal Grounding",
+          "summary": "This paper introduces SUTURE, a reinforcement learning verification framework for video temporal grounding that conditions scoring on the joint structure of a rollout group. SUTURE uses disagreement and position coverage to redistribute rewards, improving grounding performance across benchmarks.",
+          "keyPoints": [
+            "Introduces SUTURE to condition verification on rollout group structure.",
+            "Adopts disagreement and coverage to reweight targets and distribute reward mass.",
+            "Improves video temporal grounding performance across five benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "Vérification structurée à partir de groupes de déploiement pour la localisation vidéo",
+          "summary": "Cet article présente SUTURE, un cadre de vérification par renforcement pour la localisation temporelle de vidéos qui conditionne la notation sur la structure conjointe d'un groupe de déploiement, améliorant ainsi les performances.",
+          "keyPoints": [
+            "Introduit SUTURE pour conditionner la vérification sur la structure de groupe.",
+            "Utilise le désaccord et la couverture pour redistribuer la masse de récompense.",
+            "Améliore les performances de localisation temporelle sur cinq benchmarks."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e7f7d11cacca3e",
+      "title": "VALSE: Vertical Adaptive Layer Skipping for Efficient Inference in LLMs",
+      "summary": "The authors establish a theoretical framework for vertical adaptive layer skipping and propose VALSE, a per-sample, non-contiguous layer skipping method for large language models. VALSE uses a lightweight difficulty estimator to selectively skip redundant layers and activate necessary depth.",
+      "keyPoints": [
+        "Establit un cadre théorique pour le saut de couche adaptatif vertical.",
+        "Propose VALSE pour un saut de couche non contigu par échantillon.",
+        "Utilise un estimateur de difficulté pour activer uniquement la profondeur nécessaire."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07359",
+      "sourceUrl": "https://arxiv.org/abs/2610.07606",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Evaluating Independence of Deterministic and LLM Agent Gates",
-          "summary": "The authors test the assumption that runtime gates for agent tool calls fail independently by examining 1,119 labelled actions across three corpora. The study analyzes error multiplication layers and reveals how unrequested model versions and scoring definitions can alter conclusions.",
+          "title": "VALSE: Vertical Adaptive Layer Skipping for Efficient Inference in LLMs",
+          "summary": "The authors establish a theoretical framework for vertical adaptive layer skipping and propose VALSE, a per-sample, non-contiguous layer skipping method for large language models. VALSE uses a lightweight difficulty estimator to selectively skip redundant layers and activate necessary depth.",
           "keyPoints": [
-            "Tests the assumption that runtime gates for agent tool calls have mutually independent errors.",
-            "Examines 1,119 labelled agent actions combining a deterministic rule layer and multiple LLM judges.",
-            "Highlights how unrequested model version changes can overturn pre-declared analysis conclusions."
+            "Establit un cadre théorique pour le saut de couche adaptatif vertical.",
+            "Propose VALSE pour un saut de couche non contigu par échantillon.",
+            "Utilise un estimateur de difficulté pour activer uniquement la profondeur nécessaire."
           ]
         },
         "fr": {
-          "title": "Évaluation de l'indépendance des barrières d'agents déterministes et LLM",
-          "summary": "Les auteurs testent l'hypothèse selon laquelle les barrières d'exécution pour les appels d'outils d'agents échouent indépendamment en examinant 1 119 actions étiquetées. L'étude analyse la composition des couches d'erreur.",
+          "title": "VALSE : Saut de couche adaptatif vertical pour une inférence efficace",
+          "summary": "Les auteurs établissent un cadre théorique pour le saut de couche adaptatif vertical et proposent VALSE, une méthode de saut de couche non contigu par échantillon pour les grands modèles de langage, réduisant le coût de calcul.",
           "keyPoints": [
-            "Teste l'hypothèse d'indépendance des erreurs des barrières d'exécution d'agents.",
-            "Examine 1 119 actions d'agents étiquetées combinant une couche de règles et des juges LLM.",
-            "Met en lumière l'impact des modifications de versions de modèles non demandées sur les conclusions."
+            "Établit un cadre théorique pour le saut de couche adaptatif vertical.",
+            "Propose VALSE pour le saut de couche non contigu par échantillon.",
+            "Utilise un estimateur de difficulté pour activer la profondeur nécessaire."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-ca3d9b5cbfc2e5",
-      "title": "MemCo: Memory-Centric Collaboration for LLM Agents",
-      "summary": "MemCo is a memory-centric collaboration framework designed to generalize large language model agents to unseen interactive environments. By maintaining complementary local and global memory spaces, MemCo routes relevant experiences and reduces redundant exploration.",
+      "id": "feed-4cad4ce8d3dfff",
+      "title": "BioStudyBench: Evaluating AI Agents on Post-Cutoff Biomedical Studies",
+      "summary": "We introduce BioStudyBench, a benchmark of 25 post-cutoff biomedical analysis tasks designed to evaluate whether AI agents can match published study findings using public data. Testing across eight models shows that tool and data access significantly increases pass rates.",
       "keyPoints": [
-        "Introduces MemCo to help LLM agents generalize to unseen interactive environments.",
-        "Maintains complementary local and global memory spaces for specific and transferable workflows.",
-        "Improves task success rates and reduces redundant exploration compared to baseline memories."
+        "Introduces BioStudyBench with 25 post-cutoff biomedical analysis tasks.",
+        "Evaluates eight models with and without data and tool access.",
+        "Data and tool access raises pass rates by 47 percentage points on average."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07376",
+      "sourceUrl": "https://arxiv.org/abs/2610.07614",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "MemCo: Memory-Centric Collaboration for LLM Agents",
-          "summary": "MemCo is a memory-centric collaboration framework designed to generalize large language model agents to unseen interactive environments. By maintaining complementary local and global memory spaces, MemCo routes relevant experiences and reduces redundant exploration.",
+          "title": "BioStudyBench: Evaluating AI Agents on Post-Cutoff Biomedical Studies",
+          "summary": "We introduce BioStudyBench, a benchmark of 25 post-cutoff biomedical analysis tasks designed to evaluate whether AI agents can match published study findings using public data. Testing across eight models shows that tool and data access significantly increases pass rates.",
           "keyPoints": [
-            "Introduces MemCo to help LLM agents generalize to unseen interactive environments.",
-            "Maintains complementary local and global memory spaces for specific and transferable workflows.",
-            "Improves task success rates and reduces redundant exploration compared to baseline memories."
+            "Introduces BioStudyBench with 25 post-cutoff biomedical analysis tasks.",
+            "Evaluates eight models with and without data and tool access.",
+            "Data and tool access raises pass rates by 47 percentage points on average."
           ]
         },
         "fr": {
-          "title": "MemCo : Collaboration centrée sur la mémoire pour agents LLM",
-          "summary": "MemCo est un cadre de collaboration centré sur la mémoire conçu pour généraliser les agents de grands modèles de langage à des environnements interactifs inédits. En maintenant des espaces de mémoire locaux et globaux complémentaires, MemCo route les expériences.",
+          "title": "BioStudyBench : Évaluation d'agents sur des études biomédicales post-coupure",
+          "summary": "Nous présentons BioStudyBench, un benchmark de 25 tâches d'analyse biomédicale pour évaluer si les agents IA peuvent reproduire des études publiées en utilisant des données publiques. L'accès aux outils et aux données augmente considérablement les taux de réussite.",
           "keyPoints": [
-            "Présente MemCo pour généraliser les agents LLM à des environnements inédits.",
-            "Maintient des espaces de mémoire locaux et globaux complémentaires.",
-            "Améliore le taux de réussite des tâches et réduit l'exploration redondante."
+            "Présente BioStudyBench avec 25 tâches d'analyse biomédicale post-coupure.",
+            "Évalue huit modèles avec et sans accès aux données et outils.",
+            "L'accès aux données et outils augmente les taux de réussite de 47 points."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-b4c2ec0eba053b",
-      "title": "Defense-in-Depth for LLMs: Evaluating Memory Gates Against Sycophancy",
-      "summary": "The paper introduces a two-by-two defense-in-depth framework separating internal activation steering from external memory handling to mitigate memory-induced sycophancy in LLMs. Evaluating various configurations across open-weight models, the findings indicate that external memory filtering is the most reliable component.",
+      "id": "feed-d7641002792337",
+      "title": "Explore, Then Commit: Measurement-Efficient Scientific Law Discovery",
+      "summary": "The authors evaluate an explore-then-commit protocol for scientific law discovery where language models propose hypotheses and planners gather measurements. Trials on NewtonBench show that interpreter-enabled planners substantially reduce measurement counts while improving error metrics.",
       "keyPoints": [
-        "Proposes a defense-in-depth framework combining internal activation steering and external memory handling.",
-        "Evaluates multiple configurations including rewriting, dropping, and selective router gates.",
-        "Shows that external memory filtering effectively reduces sycophancy while preserving accuracy."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07403",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Defense-in-Depth for LLMs: Evaluating Memory Gates Against Sycophancy",
-          "summary": "The paper introduces a two-by-two defense-in-depth framework separating internal activation steering from external memory handling to mitigate memory-induced sycophancy in LLMs. Evaluating various configurations across open-weight models, the findings indicate that external memory filtering is the most reliable component.",
-          "keyPoints": [
-            "Proposes a defense-in-depth framework combining internal activation steering and external memory handling.",
-            "Evaluates multiple configurations including rewriting, dropping, and selective router gates.",
-            "Shows that external memory filtering effectively reduces sycophancy while preserving accuracy."
-          ]
-        },
-        "fr": {
-          "title": "Défense en profondeur pour LLM : Évaluation des barrières contre la sycophanterie",
-          "summary": "L'article présente un cadre de défense en profondeur séparant le pilotage par activation interne et la gestion externe de la mémoire pour atténuer la sycophanterie induite par la mémoire dans les LLM.",
-          "keyPoints": [
-            "Propose un cadre combinant pilotage interne par activation et gestion de la mémoire externe.",
-            "Évalue plusieurs configurations de filtrage et de réécriture de la mémoire.",
-            "Montre que le filtrage externe de la mémoire réduit efficacement la sycophanterie."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f744f76dcec9de",
-      "title": "2D-FET-Bench: Evaluating Layout Construction on Two-Dimensional Flakes",
-      "summary": "The authors introduce 2D-FET-Bench V2, a benchmark consisting of 128 layout tasks to test whether language-model agents can design field-effect transistors on exfoliated two-dimensional flakes. Evaluating multiple models and workflows, the best configuration achieved high coverage and consistency metrics.",
-      "keyPoints": [
-        "Introduces 2D-FET-Bench V2 with 128 layout tasks derived from microscopy flake contours.",
-        "Tests language-model agent capabilities in generating typed polygon and path operations for FET designs.",
-        "Evaluates multiple model configurations, showing performance metrics for coverage and consistency."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07423",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "2D-FET-Bench: Evaluating Layout Construction on Two-Dimensional Flakes",
-          "summary": "The authors introduce 2D-FET-Bench V2, a benchmark consisting of 128 layout tasks to test whether language-model agents can design field-effect transistors on exfoliated two-dimensional flakes. Evaluating multiple models and workflows, the best configuration achieved high coverage and consistency metrics.",
-          "keyPoints": [
-            "Introduces 2D-FET-Bench V2 with 128 layout tasks derived from microscopy flake contours.",
-            "Tests language-model agent capabilities in generating typed polygon and path operations for FET designs.",
-            "Evaluates multiple model configurations, showing performance metrics for coverage and consistency."
-          ]
-        },
-        "fr": {
-          "title": "2D-FET-Bench : Évaluation de la conception de dispositions sur des flocons 2D",
-          "summary": "Les auteurs présentent 2D-FET-Bench V2, un banc d'essai de 128 tâches de disposition pour tester si les agents de modèles de langage peuvent concevoir des transistors à effet de champ sur des flocons bidimensionnels exfoliés.",
-          "keyPoints": [
-            "Introduit 2D-FET-Bench V2 avec 128 tâches de disposition basées sur des contours de microscopie.",
-            "Teste les capacités des agents à générer des opérations de polygones pour la conception de FET.",
-            "Évalue plusieurs configurations de modèles en mesurant la couverture et la consistance."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-abd93a7a0d7df4",
-      "title": "Adaptive Gait Biofeedback with Participant-Specific Updating",
-      "summary": "This study evaluates an adaptive gait biofeedback framework using a temporal convolutional classifier for chronic ankle instability. Analyzing cross-validation performance and participant-specific model updates, the results detail discrimination metrics and frontal-plane ankle angle associations.",
-      "keyPoints": [
-        "Evaluates a temporal convolutional classifier for detecting GOOD/BAD gait cycles in chronic ankle instability.",
-        "Examines offline participant-specific model updating across multiple therapy sessions.",
-        "Reports a baseline-adjusted frontal-plane ankle angle difference between adaptive groups and controls."
+        "Evaluates an explore-then-commit protocol for scientific law discovery.",
+        "Tests 576 trials across 12 physics modules using GPT-4 variants.",
+        "Interpreter-enabled planners reduce measurements and improve error metrics."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07428",
+      "sourceUrl": "https://arxiv.org/abs/2610.07620",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Adaptive Gait Biofeedback with Participant-Specific Updating",
-          "summary": "This study evaluates an adaptive gait biofeedback framework using a temporal convolutional classifier for chronic ankle instability. Analyzing cross-validation performance and participant-specific model updates, the results detail discrimination metrics and frontal-plane ankle angle associations.",
+          "title": "Explore, Then Commit: Measurement-Efficient Scientific Law Discovery",
+          "summary": "The authors evaluate an explore-then-commit protocol for scientific law discovery where language models propose hypotheses and planners gather measurements. Trials on NewtonBench show that interpreter-enabled planners substantially reduce measurement counts while improving error metrics.",
           "keyPoints": [
-            "Evaluates a temporal convolutional classifier for detecting GOOD/BAD gait cycles in chronic ankle instability.",
-            "Examines offline participant-specific model updating across multiple therapy sessions.",
-            "Reports a baseline-adjusted frontal-plane ankle angle difference between adaptive groups and controls."
+            "Evaluates an explore-then-commit protocol for scientific law discovery.",
+            "Tests 576 trials across 12 physics modules using GPT-4 variants.",
+            "Interpreter-enabled planners reduce measurements and improve error metrics."
           ]
         },
         "fr": {
-          "title": "Biofeedback de démarche adaptatif avec mise à jour par participant",
-          "summary": "Cette étude évalue un cadre de biofeedback de démarche adaptatif utilisant un classificateur convolutif temporel pour l'instabilité chronique de la cheville. L'analyse détaille les performances de classification et les mises à jour de modèles.",
+          "title": "Explorer, puis s'engager : Découverte de lois scientifiques efficace",
+          "summary": "Les auteurs évaluent un protocole d'exploration-engagement pour la découverte de lois scientifiques où des modèles de langage proposent des hypothèses. Des essais montrent que les planificateurs avec interpréteur réduisent les mesures tout en améliorant les erreurs.",
           "keyPoints": [
-            "Évalue un classificateur convolutif temporel pour détecter les cycles de marche chez les patients.",
-            "Examine la mise à jour hors ligne des modèles spécifiques aux participants sur plusieurs sessions.",
-            "Rapporte une différence d'angle de cheville dans le plan frontal par rapport aux groupes témoins."
+            "Évalue un protocole d'exploration-engagement pour la découverte de lois.",
+            "Teste 576 essais à travers 12 modules de physique.",
+            "Les planificateurs avec interpréteur réduisent les mesures et améliorent les erreurs."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-577550a179d8de",
-      "title": "Role-Aware AI Supervision for Network Fraud Decision Management",
-      "summary": "The authors study a role-aware Decider-Supervisor framework with blockchain auditability for network fraud detection. Evaluating configurations combining centralized ML, federated meta-models, and LLM variants, the findings demonstrate that supervisory value depends on role assignment, calibration, and traffic composition.",
+      "id": "feed-fec93abefc2bff",
+      "title": "Learning to Outgrow a Theory: Experimental Discovery Beyond Initial Space",
+      "summary": "This paper formulates experimental model-class revision, coupling a class-level distinguishability objective with sequential evidence to trigger structural revisions. The joint policy achieves 89.5% exact recovery on controlled dynamical environments while reducing executed experiments.",
       "keyPoints": [
-        "Studies a Decider-Supervisor framework combined with blockchain auditability for network fraud management.",
-        "Evaluates configurations using centralized ML, FedAvg meta-models, and quantized LLM variants.",
-        "Shows that AI supervision utility depends heavily on role assignment, calibration, and traffic mixtures."
+        "Formulates experimental model-class revision for scientific discovery systems.",
+        "Couples distinguishability objectives with anytime-valid sequential evidence.",
+        "Reaches 89.5% exact recovery on 400 held-out dynamical environments."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.07627",
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Learning to Outgrow a Theory: Experimental Discovery Beyond Initial Space",
+          "summary": "This paper formulates experimental model-class revision, coupling a class-level distinguishability objective with sequential evidence to trigger structural revisions. The joint policy achieves 89.5% exact recovery on controlled dynamical environments while reducing executed experiments.",
+          "keyPoints": [
+            "Formulates experimental model-class revision for scientific discovery systems.",
+            "Couples distinguishability objectives with anytime-valid sequential evidence.",
+            "Reaches 89.5% exact recovery on 400 held-out dynamical environments."
+          ]
+        },
+        "fr": {
+          "title": "Apprendre à dépasser une théorie : Découverte expérimentale au-delà des hypothèses",
+          "summary": "Cet article formule la révision de classe de modèle expérimentale, associant un objectif de distinguabilité à des preuves séquentielles pour déclencher des révisions structurelles. La politique conjointe atteint 89,5 % de récupération exacte.",
+          "keyPoints": [
+            "Formule la révision de classe de modèle expérimentale pour la découverte.",
+            "Associe des objectifs de distinguabilité à des preuves séquentielles.",
+            "Atteint 89,5 % de récupération exacte sur 400 environnements dynamiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f716265fb61d6c",
+      "title": "Measuring Climate Backlash in Twitter and Reddit Archives",
+      "summary": "The authors examine four Twitter and Reddit archives using lexical rules to study resistance to climate action, analyzing frame co-occurrence, response models, and participant turnover. Findings show how operational definitions and platform response fields shape conclusions about climate backlash.",
+      "keyPoints": [
+        "Examines Twitter and Reddit archives to study resistance to climate action.",
+        "Separates event-period changes among returning authors from participant turnover.",
+        "Demonstrates how operational definitions and response fields shape claims."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07434",
+      "sourceUrl": "https://arxiv.org/abs/2610.07634",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Role-Aware AI Supervision for Network Fraud Decision Management",
-          "summary": "The authors study a role-aware Decider-Supervisor framework with blockchain auditability for network fraud detection. Evaluating configurations combining centralized ML, federated meta-models, and LLM variants, the findings demonstrate that supervisory value depends on role assignment, calibration, and traffic composition.",
+          "title": "Measuring Climate Backlash in Twitter and Reddit Archives",
+          "summary": "The authors examine four Twitter and Reddit archives using lexical rules to study resistance to climate action, analyzing frame co-occurrence, response models, and participant turnover. Findings show how operational definitions and platform response fields shape conclusions about climate backlash.",
           "keyPoints": [
-            "Studies a Decider-Supervisor framework combined with blockchain auditability for network fraud management.",
-            "Evaluates configurations using centralized ML, FedAvg meta-models, and quantized LLM variants.",
-            "Shows that AI supervision utility depends heavily on role assignment, calibration, and traffic mixtures."
+            "Examines Twitter and Reddit archives to study resistance to climate action.",
+            "Separates event-period changes among returning authors from participant turnover.",
+            "Demonstrates how operational definitions and response fields shape claims."
           ]
         },
         "fr": {
-          "title": "Supervision d'IA sensible aux rôles pour la gestion de la fraude réseau",
-          "summary": "Les auteurs étudient un cadre Décideur-Superviseur sensible aux rôles doté d'une auditabilité par blockchain pour la détection des fraudes sur les réseaux. L'évaluation montre que l'utilité de la supervision dépend de l'attribution des rôles et de la calibration.",
+          "title": "Mesurer les réactions climatiques dans les archives de Twitter et Reddit",
+          "summary": "Les auteurs examinent quatre archives Twitter et Reddit pour étudier la résistance à l'action climatique en analysant le co-occurrence des cadres et le renouvellement des participants. L'étude montre comment les définitions opérationnelles façonnent les conclusions.",
           "keyPoints": [
-            "Étudie un cadre Décideur-Superviseur avec auditabilité blockchain pour la gestion de la fraude.",
-            "Évalue des configurations combinant ML centralisé, méta-modèles fédérés et variantes de LLM.",
-            "Montre que l'apport de la supervision dépend de l'affectation des rôles et du trafic."
+            "Examine des archives Twitter et Reddit sur la résistance climatique.",
+            "Sépare les changements des auteurs récurrents du renouvellement des participants.",
+            "Démontre comment les définitions opérationnelles façonnent les affirmations."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-2add280b823f9a",
-      "title": "Auditable Claims about AI Agents",
-      "summary": "This paper examines how to make auditable claims about AI agents, addressing Article 12 of the EU AI Act. It proposes that a checkable claim must name its policy, scope, settling records, and writers before verdicts are decided, introducing a claim-check table and case study.",
+      "id": "feed-2d95a1c57f5ff2",
+      "title": "Learning Explainable Representations of Complex Game-playing Strategies",
+      "summary": "The authors propose a strategy for training reinforcement learning agents to synthesize learned strategies and policies as executable procedures based on gameplay actions. Methods automatically learn such programs for chess and grid-based tasks from gameplay data.",
       "keyPoints": [
-        "Addresses EU AI Act Article 12 requirements for high-risk AI systems event recording.",
-        "Defines auditable claims requiring predefined policies, scopes, records, and decision rules.",
-        "Applies method to common claims anchored in NIST, IETF, and OWASP drafts."
+        "Proposes training RL agents to synthesize policies as executable procedures.",
+        "Synthesizes strategies based on action sequences mimicking human cognition.",
+        "Demonstrates effective learning of programs for chess and grid environments."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07459",
+      "sourceUrl": "https://arxiv.org/abs/2610.07638",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Auditable Claims about AI Agents",
-          "summary": "This paper examines how to make auditable claims about AI agents, addressing Article 12 of the EU AI Act. It proposes that a checkable claim must name its policy, scope, settling records, and writers before verdicts are decided, introducing a claim-check table and case study.",
+          "title": "Learning Explainable Representations of Complex Game-playing Strategies",
+          "summary": "The authors propose a strategy for training reinforcement learning agents to synthesize learned strategies and policies as executable procedures based on gameplay actions. Methods automatically learn such programs for chess and grid-based tasks from gameplay data.",
           "keyPoints": [
-            "Addresses EU AI Act Article 12 requirements for high-risk AI systems event recording.",
-            "Defines auditable claims requiring predefined policies, scopes, records, and decision rules.",
-            "Applies method to common claims anchored in NIST, IETF, and OWASP drafts."
+            "Proposes training RL agents to synthesize policies as executable procedures.",
+            "Synthesizes strategies based on action sequences mimicking human cognition.",
+            "Demonstrates effective learning of programs for chess and grid environments."
           ]
         },
         "fr": {
-          "title": "Revendications auditables sur les agents IA",
-          "summary": "Cet article examine comment formuler des revendications auditables sur les agents IA, en abordant l'article 12 de la loi européenne sur l'IA. Il propose qu'une affirmation vérifiable nomme sa politique, sa portée, ses registres et ses rédacteurs avant toute décision.",
+          "title": "Apprentissage de représentations explicables de stratégies de jeux complexes",
+          "summary": "Les auteurs proposent une stratégie pour entraîner des agents d'apprentissage par renforcement à synthétiser des politiques apprises sous forme de procédures exécutables basées sur des actions de jeu, pour les échecs et des grilles.",
           "keyPoints": [
-            "Répond aux exigences de l'article 12 de l'AI Act de l'UE sur l'enregistrement des événements.",
-            "Définit des revendications auditables nécessitant des politiques et des règles de décision prédéfinies.",
-            "Applique la méthode à des revendications courantes ancrées dans des projets NIST, IETF et OWASP."
+            "Propose d'entraîner des agents à synthétiser des politiques exécutables.",
+            "Imite la cognition humaine pour structurer les séquences d'actions.",
+            "Démontre l'apprentissage efficace de programmes pour les échecs et des grilles."
           ]
         }
       },
       "quality": {
-        "confidence": 0.9,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-83e2f18d4e8cf0",
-      "title": "COMPASS: Finding Where Reasoning Lives in Language Models",
-      "summary": "The authors introduce COMPASS, an inference-time steering method that identifies specific attention heads responsible for reasoning using correctness signals. Across benchmarks, it improves GSM8K accuracy significantly while using fewer generated tokens.",
+      "id": "feed-8db39ab082dba9",
+      "title": "Towards the Automatic Synthesis of Interpretable Chess Tactics",
+      "summary": "This preliminary work proposes a symbolic sub-policy model for playing chess, adapting patterns from an inductive logic programming system called PAL to incorporate domain knowledge. The model suggests moves of similar playing strength to a human beginner.",
       "keyPoints": [
-        "Uses the correctness of a model's direct answer attempts as a signal to elicit latent reasoning directions.",
-        "Introduces COMPASS to identify and steer specific attention heads via logit-space attribution scores.",
-        "Improves GSM8K accuracy by 16 percentage points on average while reducing generated tokens by 20-70%."
+        "Proposes a symbolic sub-policy model for playing chess to improve interpretability.",
+        "Adapts patterns from an inductive logic programming system called PAL.",
+        "Suggests moves of similar playing strength to a human beginner."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07469",
+      "sourceUrl": "https://arxiv.org/abs/2610.07640",
       "publishedAt": "2026-10-08T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "COMPASS: Finding Where Reasoning Lives in Language Models",
-          "summary": "The authors introduce COMPASS, an inference-time steering method that identifies specific attention heads responsible for reasoning using correctness signals. Across benchmarks, it improves GSM8K accuracy significantly while using fewer generated tokens.",
+          "title": "Towards the Automatic Synthesis of Interpretable Chess Tactics",
+          "summary": "This preliminary work proposes a symbolic sub-policy model for playing chess, adapting patterns from an inductive logic programming system called PAL to incorporate domain knowledge. The model suggests moves of similar playing strength to a human beginner.",
           "keyPoints": [
-            "Uses the correctness of a model's direct answer attempts as a signal to elicit latent reasoning directions.",
-            "Introduces COMPASS to identify and steer specific attention heads via logit-space attribution scores.",
-            "Improves GSM8K accuracy by 16 percentage points on average while reducing generated tokens by 20-70%."
+            "Proposes a symbolic sub-policy model for playing chess to improve interpretability.",
+            "Adapts patterns from an inductive logic programming system called PAL.",
+            "Suggests moves of similar playing strength to a human beginner."
           ]
         },
         "fr": {
-          "title": "COMPASS : Trouver où réside le raisonnement dans les modèles de langage",
-          "summary": "Les auteurs présentent COMPASS, une méthode de pilotage à l'inférence qui identifie les têtes d'attention responsables du raisonnement à l'aide de signaux de correction. Elle améliore la précision des benchmarks tout en réduisant les jetons générés.",
+          "title": "Vers la synthèse automatique de tactiques d'échecs interprétables",
+          "summary": "Ce travail préliminaire propose un modèle de sous-politique symbolique pour jouer aux échecs, en adaptant des motifs d'un système de programmation logique inductive nommé PAL. Le modèle suggère des coups comparables à un débutant.",
           "keyPoints": [
-            "Utilise la correction des réponses directes comme signal pour susciter des directions de raisonnement latentes.",
-            "Introduit COMPASS pour identifier et piloter des têtes d'attention spécifiques via des scores d'attribution.",
-            "Améliore la précision de GSM8K de 16 points de pourcentage en moyenne tout en réduisant les jetons."
+            "Propose un modèle de sous-politique symbolique pour l'interprétabilité aux échecs.",
+            "Adapte les motifs d'un système de programmation logique inductive nommé PAL.",
+            "Suggère des coups comparables au niveau d'un débutant humain."
           ]
         }
       },
       "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-68293fd3dd922f",
-      "title": "PsyCIDRA: A Dual-Agent Framework for Psychiatric Interviewing",
-      "summary": "PsyCIDRA is a dual-agent framework combining free-form psychiatric interviewing with diagnostic reasoning for expert review. Evaluations across simulated and human studies show it achieves higher diagnostic agreement compared to direct prompting.",
-      "keyPoints": [
-        "Combines an interviewer agent using tools and ICD-11 references with a diagnostic reasoning agent.",
-        "Achieves higher diagnostic agreement and rank-1 accuracy in simulated evaluations compared to direct prompting.",
-        "Shows strong agreement with human psychologists in a blinded study involving 101 participants."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07473",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PsyCIDRA: A Dual-Agent Framework for Psychiatric Interviewing",
-          "summary": "PsyCIDRA is a dual-agent framework combining free-form psychiatric interviewing with diagnostic reasoning for expert review. Evaluations across simulated and human studies show it achieves higher diagnostic agreement compared to direct prompting.",
-          "keyPoints": [
-            "Combines an interviewer agent using tools and ICD-11 references with a diagnostic reasoning agent.",
-            "Achieves higher diagnostic agreement and rank-1 accuracy in simulated evaluations compared to direct prompting.",
-            "Shows strong agreement with human psychologists in a blinded study involving 101 participants."
-          ]
-        },
-        "fr": {
-          "title": "PsyCIDRA : Un cadre à double agent pour l'entretien psychiatrique",
-          "summary": "PsyCIDRA est un cadre à double agent combinant des entretiens psychiatriques libres et un raisonnement diagnostique pour examen par des experts. Les évaluations montrent qu'il surpasse les méthodes d'invite directe en termes d'accord.",
-          "keyPoints": [
-            "Associe un agent intervieweur utilisant des outils et l'ICD-11 à un agent de raisonnement diagnostique.",
-            "Atteint une plus grande précision et un meilleur accord diagnostique dans des évaluations simulées.",
-            "Montre un fort accord avec des psychologues humains dans le cadre d'une étude en aveugle."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-95e67535a94bef",
-      "title": "Enhancing Classical Document Automation with Generative AI",
-      "summary": "This article explores how symbolic document automation systems can enhance and be enhanced by current generative AI approaches. It discusses benefits, challenges, and preliminary experiments using large language models to fix texts written by laypeople.",
-      "keyPoints": [
-        "Explores the integration of symbolic approaches with generative AI for document automation.",
-        "Discusses potential benefits and challenges of combining expert systems with large language models.",
-        "Reports on preliminary experiments using LLMs to identify and fix issues in layperson-written texts."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07480",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Enhancing Classical Document Automation with Generative AI",
-          "summary": "This article explores how symbolic document automation systems can enhance and be enhanced by current generative AI approaches. It discusses benefits, challenges, and preliminary experiments using large language models to fix texts written by laypeople.",
-          "keyPoints": [
-            "Explores the integration of symbolic approaches with generative AI for document automation.",
-            "Discusses potential benefits and challenges of combining expert systems with large language models.",
-            "Reports on preliminary experiments using LLMs to identify and fix issues in layperson-written texts."
-          ]
-        },
-        "fr": {
-          "title": "Améliorer l'automatisation classique des documents grâce à l'IA générative",
-          "summary": "Cet article explore la manière dont les systèmes symboliques d'automatisation de documents peuvent être améliorés par l'IA générative. Il discute des avantages, des défis et d'expériences préliminaires utilisant des LLM.",
-          "keyPoints": [
-            "Explore l'intégration d'approches symboliques avec l'IA générative pour l'automatisation de documents.",
-            "Discute des avantages et des défis potentiels de la combinaison de systèmes experts et de LLM.",
-            "Rapporte des expériences préliminaires utilisant des LLM pour corriger des textes rédigés par des néophytes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-00464fc732ddd1",
-      "title": "Does Muon Need Fine-Grained Spectral Shaping?",
-      "summary": "The paper investigates whether Muon optimizers require fine-grained spectral maps or if a simpler approach suffices. It introduces BulkBoost, a two-band spectral reweighting framework that matches or outperforms existing complex alternatives.",
-      "keyPoints": [
-        "Analyzes Muon's flat profile and introduces BulkBoost, a two-band spectral reweighting framework.",
-        "Uses split-minibatch gradient differences to calibrate a Marchenko-Pastur reference edge.",
-        "Demonstrates that two-band reweighting is competitive with fine-grained profiles like Freon across pretraining settings."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07497",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Does Muon Need Fine-Grained Spectral Shaping?",
-          "summary": "The paper investigates whether Muon optimizers require fine-grained spectral maps or if a simpler approach suffices. It introduces BulkBoost, a two-band spectral reweighting framework that matches or outperforms existing complex alternatives.",
-          "keyPoints": [
-            "Analyzes Muon's flat profile and introduces BulkBoost, a two-band spectral reweighting framework.",
-            "Uses split-minibatch gradient differences to calibrate a Marchenko-Pastur reference edge.",
-            "Demonstrates that two-band reweighting is competitive with fine-grained profiles like Freon across pretraining settings."
-          ]
-        },
-        "fr": {
-          "title": "Muon a-t-il besoin d'un façonnage spectral fin ?",
-          "summary": "L'article examine si les optimiseurs Muon nécessitent des cartes spectrales fines. Il introduit BulkBoost, un cadre de réponde pondérée spectrale à deux bandes qui rivalise avec des alternatives complexes.",
-          "keyPoints": [
-            "Analyse le profil plat de Muon et présente BulkBoost, un cadre de repondération spectrale à deux bandes.",
-            "Utilise des différences de gradient de mini-lots pour calibrer une limite de référence de Marchenko-Pastur.",
-            "Démontre que la repondération à deux bandes rivalise avec des profils fins comme Freon."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1ddabd11596005",
-      "title": "MARS: Multi-resolution Adaptive Routing for Sequential Recommendation",
-      "summary": "To address temporal aliasing in long-history recommenders, the authors propose MARS, a multi-resolution user memory. MARS uses recurrent state tracks and a sparse routing reader to capture multi-scale semantic structures in user histories.",
-      "keyPoints": [
-        "Identifies temporal aliasing as a failure mode where monolithic cached memories preserve scales unevenly.",
-        "Proposes MARS, featuring a multi-resolution user memory with recurrent state tracks anchored to different half-lives.",
-        "Outperforms strong baselines on public datasets with gains growing alongside history length."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07505",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MARS: Multi-resolution Adaptive Routing for Sequential Recommendation",
-          "summary": "To address temporal aliasing in long-history recommenders, the authors propose MARS, a multi-resolution user memory. MARS uses recurrent state tracks and a sparse routing reader to capture multi-scale semantic structures in user histories.",
-          "keyPoints": [
-            "Identifies temporal aliasing as a failure mode where monolithic cached memories preserve scales unevenly.",
-            "Proposes MARS, featuring a multi-resolution user memory with recurrent state tracks anchored to different half-lives.",
-            "Outperforms strong baselines on public datasets with gains growing alongside history length."
-          ]
-        },
-        "fr": {
-          "title": "MARS : Routage adaptatif multirésolution pour la recommandation séquentielle",
-          "summary": "Pour remédier au repli temporel dans les systèmes de recommandation, les auteurs proposent MARS, une mémoire utilisateur multirésolution. MARS utilise des suivis d'état récurrents pour capturer des structures sémantiques.",
-          "keyPoints": [
-            "Identifie l'aliasing temporel comme un mode de défaillance des mémoires en cache monolithiques.",
-            "Propose MARS, doté d'une mémoire utilisateur multirésolution à suivis d'état récurrents.",
-            "Surpasse les modèles de référence sur des ensembles de données publics avec des gains accrus."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-12a4904af7aa08",
-      "title": "On Open-Ended Information Seeking for Information Elicitation Agents",
-      "summary": "This study investigates how different foundation models shape sequential information-seeking behavior during open-ended elicitation. Using 11 LLMs and a controlled simulation, the researchers analyze breadth-depth behavior and evaluation dynamics.",
-      "keyPoints": [
-        "Examines information value judgments across 11 LLMs spanning multiple scales and families.",
-        "Develops a controlled elicitation simulation to isolate information-seeking preferences.",
-        "Analyzes breadth-depth behavior and how interaction history changes prospective information selection."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07509",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "On Open-Ended Information Seeking for Information Elicitation Agents",
-          "summary": "This study investigates how different foundation models shape sequential information-seeking behavior during open-ended elicitation. Using 11 LLMs and a controlled simulation, the researchers analyze breadth-depth behavior and evaluation dynamics.",
-          "keyPoints": [
-            "Examines information value judgments across 11 LLMs spanning multiple scales and families.",
-            "Develops a controlled elicitation simulation to isolate information-seeking preferences.",
-            "Analyzes breadth-depth behavior and how interaction history changes prospective information selection."
-          ]
-        },
-        "fr": {
-          "title": "Sur la recherche d'informations ouverte pour les agents d'élicitation",
-          "summary": "Cette étude examine comment les modèles de fondation façonnent le comportement de recherche d'informations lors d'une élicitation ouverte. À l'aide de 11 LLM et d'une simulation, les chercheurs analysent les dynamiques d'évaluation.",
-          "keyPoints": [
-            "Examine les jugements de valeur de l'information à travers 11 LLM de différentes échelles.",
-            "Développe une simulation d'élicitation contrôlée pour isoler les préférences de recherche.",
-            "Analyse le comportement largeur-profondeur et l'impact de l'historique des interactions."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-bb9b39dbe4be9a",
-      "title": "From Local Evidence to Safety Verdicts: Causal Tracing in Vision-Language Models",
-      "summary": "The authors introduce SSU-Bench to study where joint safety judgments become accessible inside vision-language models. Through counterfactual interventions, they identify recurring transitions in how internal states influence safety verdicts.",
-      "keyPoints": [
-        "Introduces SSU-Bench dataset containing matched safe and unsafe image-text combinations.",
-        "Measures changes in safety verdicts by transferring internal states between paired inputs across models.",
-        "Finds that early decoder layers respond to changed input positions while final tokens influence verdicts later."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07514",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "From Local Evidence to Safety Verdicts: Causal Tracing in Vision-Language Models",
-          "summary": "The authors introduce SSU-Bench to study where joint safety judgments become accessible inside vision-language models. Through counterfactual interventions, they identify recurring transitions in how internal states influence safety verdicts.",
-          "keyPoints": [
-            "Introduces SSU-Bench dataset containing matched safe and unsafe image-text combinations.",
-            "Measures changes in safety verdicts by transferring internal states between paired inputs across models.",
-            "Finds that early decoder layers respond to changed input positions while final tokens influence verdicts later."
-          ]
-        },
-        "fr": {
-          "title": "Des preuves locales aux verdicts de sécurité : traçage causal dans les modèles vision-langage",
-          "summary": "Les auteurs présentent SSU-Bench pour étudier où les jugements de sécurité conjoints deviennent accessibles dans les modèles vision-langage. Grâce à des interventions contrefactuelles, ils identifient les transitions internes.",
-          "keyPoints": [
-            "Introduit le jeu de données SSU-Bench contenant des combinaisons image-texte sûres et dangereuses.",
-            "Mesure les changements de verdicts de sécurité en transférant des états internes entre entrées.",
-            "Montre que les couches de décodeur précoces réagissent aux positions modifiées tandis que les jetons finaux agissent plus tard."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f4feab91784ddc",
-      "title": "GroundAct: Rethinking Groundedness for Autonomous Driving",
-      "summary": "The paper introduces GroundAct, a framework that uses physical entities as the unit of grounding in autonomous driving models. By keeping entity states addressable through symbolic reasoning, it provides an explicit path from reasoning to planned actions.",
-      "keyPoints": [
-        "Defines entities as the unit of grounding for physical intelligence in autonomous driving.",
-        "Uses lightweight reference tokens to keep continuous states addressable via symbolic reasoning.",
-        "Demonstrates strong open-loop and closed-loop driving performance in simulation and various scenarios."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07521",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GroundAct: Rethinking Groundedness for Autonomous Driving",
-          "summary": "The paper introduces GroundAct, a framework that uses physical entities as the unit of grounding in autonomous driving models. By keeping entity states addressable through symbolic reasoning, it provides an explicit path from reasoning to planned actions.",
-          "keyPoints": [
-            "Defines entities as the unit of grounding for physical intelligence in autonomous driving.",
-            "Uses lightweight reference tokens to keep continuous states addressable via symbolic reasoning.",
-            "Demonstrates strong open-loop and closed-loop driving performance in simulation and various scenarios."
-          ]
-        },
-        "fr": {
-          "title": "GroundAct : Repenser l'ancrage pour la conduite autonome",
-          "summary": "L'article présente GroundAct, un cadre qui utilise les entités physiques comme unité d'ancrage dans les modèles de conduite autonome. En rendant les états accessibles par un raisonnement symbolique, il relie raisonnement et actions.",
-          "keyPoints": [
-            "Définit les entités comme unité d'ancrage pour l'intelligence physique en conduite autonome.",
-            "Utilise des jetons de référence pour maintenir les états continus accessibles par le raisonnement symbolique.",
-            "Démontre de solides performances de conduite en boucle ouverte et fermée en simulation."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a903b7507209ed",
-      "title": "A Systematic Investigation of Bias in Large Language Models for Advertising Relevance",
-      "summary": "This study systematically investigates fairness and bias in LLM relevance judgments for advertising queries. Using counterfactual frameworks and real-world logs, the authors find that advertiser identity, input language, and demographics can alter assessments.",
-      "keyPoints": [
-        "Examines fairness in LLM relevance judgments using counterfactual frameworks and real advertising logs.",
-        "Shows that changing advertiser identity, input language, or demographic wording can alter relevance assessments.",
-        "Evaluates mitigation strategies during training and inference to help practitioners manage fairness risks."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.07544",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "A Systematic Investigation of Bias in Large Language Models for Advertising Relevance",
-          "summary": "This study systematically investigates fairness and bias in LLM relevance judgments for advertising queries. Using counterfactual frameworks and real-world logs, the authors find that advertiser identity, input language, and demographics can alter assessments.",
-          "keyPoints": [
-            "Examines fairness in LLM relevance judgments using counterfactual frameworks and real advertising logs.",
-            "Shows that changing advertiser identity, input language, or demographic wording can alter relevance assessments.",
-            "Evaluates mitigation strategies during training and inference to help practitioners manage fairness risks."
-          ]
-        },
-        "fr": {
-          "title": "Étude systématique des biais dans les grands modèles de langage pour la pertinence publicitaire",
-          "summary": "Cette étude examine systématiquement l'équité et les biais dans les jugements de pertinence des LLM pour la publicité. À l'aide de cadres contrefactuels, les auteurs montrent que l'identité de l'annonceur et la langue modifient les évaluations.",
-          "keyPoints": [
-            "Examine l'équité des jugements de pertinence des LLM à l'aide de cadres contrefactuels et de journaux publicitaires.",
-            "Montre que l'identité de l'annonceur, la langue ou les formulations démographiques modifient les évaluations.",
-            "Évalue les stratégies d'atténuation lors de l'entraînement et de l'inférence pour gérer les risques d'équité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 528,
+    "itemsCollected": 531,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
