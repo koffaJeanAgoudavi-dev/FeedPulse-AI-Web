@@ -1,310 +1,427 @@
 {
-  "generatedAt": "2026-10-09T12:38:07.711Z",
+  "generatedAt": "2026-10-10T00:43:16.300Z",
   "items": [
     {
-      "id": "feed-570fe320455667",
-      "title": "Sophos Cuts Cyber-Threat Investigation Time by 96% Using OpenAI Daybreak",
-      "summary": "Sophos has integrated OpenAI's Daybreak to dramatically reduce cyber-threat investigation times by 96% while automating 52% of managed detection and response (MDR) cases, maintaining essential human oversight.",
+      "id": "feed-9bf93d58cc35db",
+      "title": "Asana Cuts Model Costs 76x in Browser Tests with GPT-6.1 Sol",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "keyPoints": [
-        "Reduced threat investigation time by 96%",
-        "Automated 52% of MDR cases",
-        "Preserved human oversight during operations"
+        "Asana utilized GPT-6 Astra in Codex for browser agent tests.",
+        "The update made the browser agent 76x cheaper to run.",
+        "Performance was also accelerated by 5x in the tested scenarios."
       ],
-      "category": "Outils",
+      "category": "Modèles",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/sophos",
+      "sourceUrl": "https://openai.com/index/asana-browser-agent",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Sophos Cuts Cyber-Threat Investigation Time by 96% Using OpenAI Daybreak",
-          "summary": "Sophos has integrated OpenAI's Daybreak to dramatically reduce cyber-threat investigation times by 96% while automating 52% of managed detection and response (MDR) cases, maintaining essential human oversight.",
+          "title": "Asana Cuts Model Costs 76x in Browser Tests with GPT-6.1 Sol",
+          "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
           "keyPoints": [
-            "Reduced threat investigation time by 96%",
-            "Automated 52% of MDR cases",
-            "Preserved human oversight during operations"
+            "Asana utilized GPT-6 Astra in Codex for browser agent tests.",
+            "The update made the browser agent 76x cheaper to run.",
+            "Performance was also accelerated by 5x in the tested scenarios."
           ]
         },
         "fr": {
-          "title": "Sophos réduit le temps d'enquête de 96% grâce à OpenAI Daybreak",
-          "summary": "Sophos utilise Daybreak d'OpenAI pour réduire de 96 % le temps d'enquête sur les cybermenaces et automatiser 52 % des cas MDR tout en maintenant une supervision humaine.",
+          "title": "Asana réduit les coûts de modèle de 76x avec GPT-6.1 Sol",
+          "summary": "En utilisant GPT-6 Astra dans Codex, Asana a rendu son agent de navigation 76x moins cher et 5x plus rapide lors de tests visant à offrir de meilleurs modèles.",
           "keyPoints": [
-            "Réduction du temps d'enquête de 96 %",
-            "Automatisation de 52 % des cas MDR",
-            "Préservation d'une supervision humaine"
+            "Asana a employé GPT-6 Astra dans Codex pour des tests d'agents de navigation.",
+            "L'agent est devenu 76x moins cher à exécuter.",
+            "La vitesse d'exécution a été multipliée par 5."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-04a3afe8fc92fa",
-      "title": "Explainable Header-Centric Framework for Semantic Table Interpretation",
-      "summary": "Researchers introduce an explainable, header-centric framework for metadata-only column type annotation and data quality assessment. The system maps table headers to 39 FinalFormat types and introduces HeadersIQ to measure data quality across heterogeneous benchmarks.",
+      "id": "feed-eb5608dcc9e627",
+      "title": "When Interfaces Speak: Data-Aware Generative UI Harness",
+      "summary": "Researchers propose GenUI-Harness, a multi-agent framework pairing a Tool Agent with a GUI Coder Agent to generate front-end code for structured interfaces, reducing dialogue rounds and improving task completion.",
       "keyPoints": [
-        "Focuses on metadata-only Semantic Table Interpretation",
-        "Maps headers to 39 interpretable FinalFormat types",
-        "Introduces HeadersIQ as a quality metric"
+        "GenUI-Harness combines a Tool Agent and a GUI Coder Agent.",
+        "Introduces Dynamic UX and Reward Auditor to handle RL training challenges.",
+        "Outperforms several larger frontier models on the Lite split of UI-TAU Bench."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10541",
+      "sourceUrl": "https://arxiv.org/abs/2610.11123",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Explainable Header-Centric Framework for Semantic Table Interpretation",
-          "summary": "Researchers introduce an explainable, header-centric framework for metadata-only column type annotation and data quality assessment. The system maps table headers to 39 FinalFormat types and introduces HeadersIQ to measure data quality across heterogeneous benchmarks.",
+          "title": "When Interfaces Speak: Data-Aware Generative UI Harness",
+          "summary": "Researchers propose GenUI-Harness, a multi-agent framework pairing a Tool Agent with a GUI Coder Agent to generate front-end code for structured interfaces, reducing dialogue rounds and improving task completion.",
           "keyPoints": [
-            "Focuses on metadata-only Semantic Table Interpretation",
-            "Maps headers to 39 interpretable FinalFormat types",
-            "Introduces HeadersIQ as a quality metric"
+            "GenUI-Harness combines a Tool Agent and a GUI Coder Agent.",
+            "Introduces Dynamic UX and Reward Auditor to handle RL training challenges.",
+            "Outperforms several larger frontier models on the Lite split of UI-TAU Bench."
           ]
         },
         "fr": {
-          "title": "Cadre explicable centré sur l'en-tête pour l'interprétation sémantique de tables",
-          "summary": "Une nouvelle approche métadonnée permet l'annotation de colonnes et l'évaluation de la qualité des données à partir des seuls en-têtes, en cartographiant 39 types et introduisant la métrique HeadersIQ.",
+          "title": "When Interfaces Speak: Interface utilisateur générative",
+          "summary": "Les chercheurs proposent GenUI-Harness, un cadre multi-agents associant un agent d'outils et un agent de codage GUI pour générer du code frontal pour des interfaces structurées.",
           "keyPoints": [
-            "Axé sur l'interprétation de tables sémantiques basées sur les métadonnées",
-            "Mappe les en-têtes vers 39 types FinalFormat",
-            "Utilise la métrique HeadersIQ pour évaluer la qualité"
+            "GenUI-Harness associe un agent d'outils et un agent de codage GUI.",
+            "Introduit Dynamic UX et Reward Auditor pour surmonter les défis de l'apprentissage par renforcement.",
+            "Surpasse des modèles de pointe plus grands sur la division Lite d'UI-TAU Bench."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-30c38a4f4bf996",
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data",
-      "summary": "Authors present Synthesis Through Simulation (STS), a schema-free data synthesis paradigm where LLM agents generate enterprise data via simulated policy-enforcing APIs. The Generalist Populator agent achieves 0.88 average marginal fidelity and full constraint satisfaction.",
+      "id": "feed-c796c663136c9c",
+      "title": "Balancing Reference Guidance and Free Generation in Reasoning RL",
+      "summary": "This paper investigates how much reference guidance to provide during prefix continuation for reasoning models, deriving KL divergence and introducing Adaptive Reference Guidance (ARG) to improve mathematical reasoning benchmarks.",
       "keyPoints": [
-        "Introduces schema-free data synthesis via simulation",
-        "Generalist Populator achieves 0.88 marginal fidelity",
-        "Guarantees structural validity by construction"
+        "Studies prefix continuation to compare trajectory distributions with ideal distribution.",
+        "Derives closed-form KL divergence for a single continuation.",
+        "Introduces Adaptive Reference Guidance (ARG) applied to Group Relative Policy Optimization."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10549",
+      "sourceUrl": "https://arxiv.org/abs/2610.11128",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data",
-          "summary": "Authors present Synthesis Through Simulation (STS), a schema-free data synthesis paradigm where LLM agents generate enterprise data via simulated policy-enforcing APIs. The Generalist Populator agent achieves 0.88 average marginal fidelity and full constraint satisfaction.",
+          "title": "Balancing Reference Guidance and Free Generation in Reasoning RL",
+          "summary": "This paper investigates how much reference guidance to provide during prefix continuation for reasoning models, deriving KL divergence and introducing Adaptive Reference Guidance (ARG) to improve mathematical reasoning benchmarks.",
           "keyPoints": [
-            "Introduces schema-free data synthesis via simulation",
-            "Generalist Populator achieves 0.88 marginal fidelity",
-            "Guarantees structural validity by construction"
+            "Studies prefix continuation to compare trajectory distributions with ideal distribution.",
+            "Derives closed-form KL divergence for a single continuation.",
+            "Introduces Adaptive Reference Guidance (ARG) applied to Group Relative Policy Optimization."
           ]
         },
         "fr": {
-          "title": "Synthèse par simulation : génération de données d'entreprise cohérentes",
-          "summary": "Présentation de STS, un paradigme de synthèse de données sans schéma où les agents LLM génèrent des données via des API simulées, garantissant la validité structurelle et de hautes performances de fidélité.",
+          "title": "Équilibrer le guidage de référence et la génération libre",
+          "summary": "Cet article étudie la quantité de guidage de référence à fournir lors de la continuation de préfixe pour les modèles de raisonnement, et introduit l'Adaptive Reference Guidance (ARG).",
           "keyPoints": [
-            "Paradigme de synthèse sans schéma via simulation",
-            "Atteint 0,88 de fidélité marginale moyenne",
-            "Garantit la validité structurelle par construction"
+            "Étudie la continuation de préfixe pour comparer les distributions de trajectoire.",
+            "Dérive la divergence KL sous forme close pour une continuation unique.",
+            "Introduit l'Adaptive Reference Guidance (ARG) pour améliorer les performances mathématiques."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-ba63583808d70c",
-      "title": "Agent-Controlled Forgetting for Tool-Using Agents",
-      "summary": "This paper studies agent-controlled forgetting, allowing models to archive verbose tool observations and replace them with short notes. The method reduced cumulative input tokens by 50% and lowered estimated API costs in debugging tasks.",
+      "id": "feed-e5f7439dbecfeb",
+      "title": "GameCommBench: A Unified Benchmark for AI Game Commentary",
+      "summary": "GameCommBench is a unified benchmark spanning board games, sports, and esports for AI-generated game commentary, paired with Type-Aware Commentary Evaluation (TACE) for structured assessment.",
       "keyPoints": [
-        "Allows tool-using agents to selectively forget verbose output",
-        "Reduces cumulative input tokens by 50%",
-        "Demonstrates workload dependence and varying cost savings"
+        "GameCommBench covers board games, sports, and esports commentary tasks.",
+        "Introduces Type-Aware Commentary Evaluation (TACE) as a structured framework.",
+        "Reveals live observation and strategic analysis as major performance bottlenecks."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10590",
+      "sourceUrl": "https://arxiv.org/abs/2610.11129",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Agent-Controlled Forgetting for Tool-Using Agents",
-          "summary": "This paper studies agent-controlled forgetting, allowing models to archive verbose tool observations and replace them with short notes. The method reduced cumulative input tokens by 50% and lowered estimated API costs in debugging tasks.",
+          "title": "GameCommBench: A Unified Benchmark for AI Game Commentary",
+          "summary": "GameCommBench is a unified benchmark spanning board games, sports, and esports for AI-generated game commentary, paired with Type-Aware Commentary Evaluation (TACE) for structured assessment.",
           "keyPoints": [
-            "Allows tool-using agents to selectively forget verbose output",
-            "Reduces cumulative input tokens by 50%",
-            "Demonstrates workload dependence and varying cost savings"
+            "GameCommBench covers board games, sports, and esports commentary tasks.",
+            "Introduces Type-Aware Commentary Evaluation (TACE) as a structured framework.",
+            "Reveals live observation and strategic analysis as major performance bottlenecks."
           ]
         },
         "fr": {
-          "title": "Oubli contrôlé par l'agent pour les agents utilisant des outils",
-          "summary": "Étude sur l'oubli contrôlé par l'agent, permettant aux modèles d'archiver les résultats d'outils verbeux au profit de notes courtes, réduisant l'utilisation des jetons d'entrée de 50 % lors de tâches de débogage.",
+          "title": "GameCommBench : Un benchmark unifié pour les commentaires",
+          "summary": "GameCommBench est un benchmark unifié couvrant les jeux de société, les sports et l'esport pour les commentaires de jeux générés par IA, associé à un cadre d'évaluation structuré.",
           "keyPoints": [
-            "Permet d'archiver les observations d'outils redondantes",
-            "Réduit les jetons d'entrée cumulés de 50 %",
-            "Met en évidence la dépendance de la charge de travail"
+            "GameCommBench couvre les jeux de société, les sports et l'esport.",
+            "Introduit l'évaluation TACE (Type-Aware Commentary Evaluation) comme cadre structuré.",
+            "Identifie l'observation en direct et l'analyse stratégique comme des goulots d'étranglement."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-1322a304a3c5e6",
-      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-      "summary": "The paper investigates the theoretical foundations and limits of verification and self-improvement in agentic AI. It compares different mechanisms through bounded verification with hidden terminal randomness and explores complexity-theoretic classes.",
+      "id": "feed-d429f0ad599f6d",
+      "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in NSSI",
+      "summary": "Combining an experimental pain paradigm, EEG microstates, and deep sequence modeling, this study reveals disrupted emotion-action coupling in adolescents with non-suicidal self-injury during social pain.",
       "keyPoints": [
-        "Compares agent verification mechanisms using bounded protocols",
-        "Analyzes recursive self-improvement under fixed interpreters",
-        "Explores randomized-verifier complexity classes"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10611",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-          "summary": "The paper investigates the theoretical foundations and limits of verification and self-improvement in agentic AI. It compares different mechanisms through bounded verification with hidden terminal randomness and explores complexity-theoretic classes.",
-          "keyPoints": [
-            "Compares agent verification mechanisms using bounded protocols",
-            "Analyzes recursive self-improvement under fixed interpreters",
-            "Explores randomized-verifier complexity classes"
-          ]
-        },
-        "fr": {
-          "title": "Vérification et auto-amélioration dans l'IA agentique : fondations et limites",
-          "summary": "Cet article étudie les fondements théoriques et les limites de la vérification et de l'auto-amélioration dans l'IA agentique, analysant les protocoles de vérification bornée et les classes de complexité.",
-          "keyPoints": [
-            "Compare les mécanismes de vérification via des protocoles bornés",
-            "Analyse l'auto-amélioration récursive",
-            "Explore les classes de complexité des vérificateurs randomisés"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-20b6195dd6f81b",
-      "title": "Compliance-Bounded Self-Evolution of LLM Agents with a Measured Gate",
-      "summary": "To make self-improving LLM agents reviewable, self-evolution is restricted to the runtime harness while weights stay fixed. A dual-loop engine with a measured admission gate prevents harmful rule changes and maps to high-risk AI regulations.",
-      "keyPoints": [
-        "Restricts self-evolution to the runtime harness",
-        "Employs a hash-chained admission gate to block harmful changes",
-        "Connects mechanisms to EU AI Act high-risk credit provisions"
+        "Investigates 106 adolescents with depression, including 67 with non-suicidal self-injury.",
+        "Social pain yields the strongest NSSI discrimination at 68.55% accuracy.",
+        "Identifies weakened bidirectional MS3 and MS5 microstate transitions indicating disrupted coupling."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10629",
+      "sourceUrl": "https://arxiv.org/abs/2610.11155",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Compliance-Bounded Self-Evolution of LLM Agents with a Measured Gate",
-          "summary": "To make self-improving LLM agents reviewable, self-evolution is restricted to the runtime harness while weights stay fixed. A dual-loop engine with a measured admission gate prevents harmful rule changes and maps to high-risk AI regulations.",
+          "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in NSSI",
+          "summary": "Combining an experimental pain paradigm, EEG microstates, and deep sequence modeling, this study reveals disrupted emotion-action coupling in adolescents with non-suicidal self-injury during social pain.",
           "keyPoints": [
-            "Restricts self-evolution to the runtime harness",
-            "Employs a hash-chained admission gate to block harmful changes",
-            "Connects mechanisms to EU AI Act high-risk credit provisions"
+            "Investigates 106 adolescents with depression, including 67 with non-suicidal self-injury.",
+            "Social pain yields the strongest NSSI discrimination at 68.55% accuracy.",
+            "Identifies weakened bidirectional MS3 and MS5 microstate transitions indicating disrupted coupling."
           ]
         },
         "fr": {
-          "title": "Auto-évolution d'agents LLM liée à la conformité avec un sas mesuré",
-          "summary": "Pour rendre l'auto-évolution des agents reviewable, les modifications sont limitées au harnais d'exécution. Un moteur à double boucle avec sas d'admission empêche les changements nuisibles.",
+          "title": "La douleur sociale perturbe la dynamique cérébrale dans l'AMNS",
+          "summary": "Combinant un paradigme de douleur expérimentale, des micro-états EEG et de la modélisation, cette étude révèle un couplage émotion-action perturbé chez les adolescents souffrant d'automutilation.",
           "keyPoints": [
-            "Limite l'auto-évolution au harnais d'exécution",
-            "Utilise un sas d'admission pour bloquer les changements dangereux",
-            "S'aligne sur les dispositions de l'AI Act européen"
+            "Étudie 106 adolescents souffrant de dépression dont 67 avec des comportements d'automutilation.",
+            "La douleur sociale offre la meilleure discrimination des cas avec une précision de 68,55 %.",
+            "Identifie des transitions de micro-états affaiblies indiquant un couplage altéré."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.85,
         "needsReview": false
       }
     },
     {
-      "id": "feed-dc072a92c6c9bd",
-      "title": "Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
-      "summary": "Researchers address the instruction gap in aerial vision-and-language navigation by introducing the Trajectory-Grounded Instruction Translator (TGIT). TGIT translates intent-driven user commands into executable actions while keeping the navigator frozen.",
+      "id": "feed-94882a621d98c9",
+      "title": "Governing Persistent Memory in LLM Agents: Admission and Presentation",
+      "summary": "The paper distinguishes admission and presentation governance decisions for persistent memory in LLM agents, introducing factor-compiled and permission-semantic admission designs to reduce failure rates.",
       "keyPoints": [
-        "Introduces TGIT to solve the instruction gap in VLN agents",
-        "Keeps the base OpenFly navigator frozen during translation",
-        "Raises weak-input success rate from 15.27% to 37.93%"
+        "Distinguishes between memory admission and presentation governance.",
+        "Implements factor-compiled (FC) and permission-semantic (PS) admission mechanisms.",
+        "Reduces judge-assessed failure rates and cross-domain leakage significantly."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10635",
+      "sourceUrl": "https://arxiv.org/abs/2610.11188",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
-          "summary": "Researchers address the instruction gap in aerial vision-and-language navigation by introducing the Trajectory-Grounded Instruction Translator (TGIT). TGIT translates intent-driven user commands into executable actions while keeping the navigator frozen.",
+          "title": "Governing Persistent Memory in LLM Agents: Admission and Presentation",
+          "summary": "The paper distinguishes admission and presentation governance decisions for persistent memory in LLM agents, introducing factor-compiled and permission-semantic admission designs to reduce failure rates.",
           "keyPoints": [
-            "Introduces TGIT to solve the instruction gap in VLN agents",
-            "Keeps the base OpenFly navigator frozen during translation",
-            "Raises weak-input success rate from 15.27% to 37.93%"
+            "Distinguishes between memory admission and presentation governance.",
+            "Implements factor-compiled (FC) and permission-semantic (PS) admission mechanisms.",
+            "Reduces judge-assessed failure rates and cross-domain leakage significantly."
           ]
         },
         "fr": {
-          "title": "Traduction d'instructions ancrées dans la trajectoire pour agents VLN aériens",
-          "summary": "Présentation du Traducteur d'Instructions Ancré dans la Trajectoire (TGIT) pour combler l'écart d'instructions dans la navigation visuelle et textuelle aérienne sans modifier le navigateur.",
+          "title": "Gouverner la mémoire persistante dans les agents LLM",
+          "summary": "L'article distingue les décisions de gouvernance d'admission et de présentation pour la mémoire persistante dans les agents LLM, introduisant de nouvelles conceptions d'admission.",
           "keyPoints": [
-            "Introduit TGIT pour résoudre l'écart d'instructions",
-            "Maintient le navigateur de base gelé",
-            "Améliore significativement le taux de réussite"
+            "Distingue la gouvernance de l'admission et de la présentation de la mémoire.",
+            "Met en œuvre des mécanismes d'admission factor-compiled et permission-semantic.",
+            "Réduit les taux d'échec évalués et les fuites inter-domaines."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-de3301f4821ae8",
-      "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
-      "summary": "Introducing Plan-and-Patch, a framework where diffusion language models (dLLMs) generate and efficiently repair structured plans. The method repairs affected regions while keeping surroundings fixed, nearly doubling plan repair success over autoregressive models.",
+      "id": "feed-b116d1c9fd3ad9",
+      "title": "AliO: Output Alignment Matters in Long-Term Time Series Forecasting",
+      "summary": "To address output fluctuations in Long-Term Time Series Forecasting, researchers propose AliO (Align Outputs) along with a new metric, TAM (Time Alignment Metric), to improve reliability.",
       "keyPoints": [
-        "Uses diffusion language models for structured plan generation",
-        "Performs localized repairs by keeping prefix and suffix fixed",
-        "Doubles plan repair success rate compared to autoregressive baselines"
+        "Addresses prediction output discrepancies across lagged input sequences.",
+        "Introduces AliO to reduce time and frequency domain output discrepancies.",
+        "Proposes the Time Alignment Metric (TAM) to quantify prediction alignment."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11213",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AliO: Output Alignment Matters in Long-Term Time Series Forecasting",
+          "summary": "To address output fluctuations in Long-Term Time Series Forecasting, researchers propose AliO (Align Outputs) along with a new metric, TAM (Time Alignment Metric), to improve reliability.",
+          "keyPoints": [
+            "Addresses prediction output discrepancies across lagged input sequences.",
+            "Introduces AliO to reduce time and frequency domain output discrepancies.",
+            "Proposes the Time Alignment Metric (TAM) to quantify prediction alignment."
+          ]
+        },
+        "fr": {
+          "title": "AliO : L'alignement des sorties dans la prévision temporelle",
+          "summary": "Pour remédier aux fluctuations de sortie dans les prévisions temporelles à long terme, les chercheurs proposent AliO ainsi qu'une nouvelle métrique, le TAM, afin d'améliorer la fiabilité.",
+          "keyPoints": [
+            "Traite les divergences de sortie de prévision à travers les séquences d'entrée.",
+            "Introduit AliO pour réduire les écarts temporels et fréquentiels.",
+            "Propose la métrique TAM (Time Alignment Metric) pour quantifier l'alignement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-24aa545012964e",
+      "title": "Distributionally Robust Refinement for Low-Bit LLM Quantization",
+      "summary": "This paper presents Distributionally Robust Quantization (DRQ), a post-hoc refinement process for weight-only post-training quantization that minimizes worst-case reconstruction loss over activation distributions.",
+      "keyPoints": [
+        "Shows lower reconstruction loss can sometimes hurt new task performance.",
+        "Proposes Distributionally Robust Quantization (DRQ) to refine integer codes.",
+        "Improves six representative PTQ methods across dense and MoE LLMs without overhead."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11226",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Distributionally Robust Refinement for Low-Bit LLM Quantization",
+          "summary": "This paper presents Distributionally Robust Quantization (DRQ), a post-hoc refinement process for weight-only post-training quantization that minimizes worst-case reconstruction loss over activation distributions.",
+          "keyPoints": [
+            "Shows lower reconstruction loss can sometimes hurt new task performance.",
+            "Proposes Distributionally Robust Quantization (DRQ) to refine integer codes.",
+            "Improves six representative PTQ methods across dense and MoE LLMs without overhead."
+          ]
+        },
+        "fr": {
+          "title": "Raffinement robuste pour la quantification de LLM à bas bits",
+          "summary": "Cet article présente la Quantification Robuste Distributionnellement (DRQ), un processus de raffinement post-hoc pour la quantification minimisant la perte de reconstruction dans le pire des cas.",
+          "keyPoints": [
+            "Montre qu'une perte de reconstruction plus faible peut nuire aux performances.",
+            "Propose la DRQ pour affiner les codes entiers représentant les poids quantifiés.",
+            "Améliore six méthodes PTQ représentatives sur des modèles denses et MoE."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-bce449da7a2298",
+      "title": "Harness Compilation: Optimizing Decisions for Small Vision-Language Models",
+      "summary": "Harness Compilation (HC) is an offline procedure adapting the division of work between a frozen small VLM and its external harness, improving VLM scores significantly across visual question-answering tasks.",
+      "keyPoints": [
+        "Introduces Harness Compilation (HC) as an offline task-allocation procedure.",
+        "Improves small VLM benchmark scores by 9.9 to 23.9 points.",
+        "Requires neither weight updates nor teacher calls during deployment."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10786",
+      "sourceUrl": "https://arxiv.org/abs/2610.11231",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
-          "summary": "Introducing Plan-and-Patch, a framework where diffusion language models (dLLMs) generate and efficiently repair structured plans. The method repairs affected regions while keeping surroundings fixed, nearly doubling plan repair success over autoregressive models.",
+          "title": "Harness Compilation: Optimizing Decisions for Small Vision-Language Models",
+          "summary": "Harness Compilation (HC) is an offline procedure adapting the division of work between a frozen small VLM and its external harness, improving VLM scores significantly across visual question-answering tasks.",
           "keyPoints": [
-            "Uses diffusion language models for structured plan generation",
-            "Performs localized repairs by keeping prefix and suffix fixed",
-            "Doubles plan repair success rate compared to autoregressive baselines"
+            "Introduces Harness Compilation (HC) as an offline task-allocation procedure.",
+            "Improves small VLM benchmark scores by 9.9 to 23.9 points.",
+            "Requires neither weight updates nor teacher calls during deployment."
           ]
         },
         "fr": {
-          "title": "Plan-and-Patch : modèles linguistiques de diffusion pour la planification",
-          "summary": "Présentation de Plan-and-Patch, un cadre où les modèles de diffusion génèrent et réparent efficacement des plans structurés en ciblant uniquement les régions affectées.",
+          "title": "Harness Compilation : Optimiser les décisions pour les petits VLM",
+          "summary": "Harness Compilation (HC) est une procédure hors ligne qui adapte la répartition du travail entre un petit VLM gelé et son harnais externe, améliorant nettement les scores.",
           "keyPoints": [
-            "Utilise des modèles de diffusion pour la planification",
-            "Répare les plans de manière ciblée sans tout réécrire",
-            "Double le taux de réussite de réparation par rapport aux modèles autorégressifs"
+            "Introduit Harness Compilation (HC) comme procédure d'allocation de tâches.",
+            "Améliore les scores des petits VLM de 9,9 à 23,9 points.",
+            "Ne nécessite aucune mise à jour de poids ni appel à un enseignant lors du déploiement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ce6ca28e99a125",
+      "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Discovery",
+      "summary": "The Identifiability-Driven Experimental Agent (LLM-IDEA) is proposed for autonomous closed-loop scientific discovery, featuring an identifiability engine that outputs a three-way plateau verdict.",
+      "keyPoints": [
+        "Proposes LLM-IDEA for autonomous scientific discovery of mechanistic world models.",
+        "Features an identifiability engine providing a three-way plateau verdict.",
+        "Successfully reproduces known verdicts and improves discovery depth in testbeds."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11253",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Discovery",
+          "summary": "The Identifiability-Driven Experimental Agent (LLM-IDEA) is proposed for autonomous closed-loop scientific discovery, featuring an identifiability engine that outputs a three-way plateau verdict.",
+          "keyPoints": [
+            "Proposes LLM-IDEA for autonomous scientific discovery of mechanistic world models.",
+            "Features an identifiability engine providing a three-way plateau verdict.",
+            "Successfully reproduces known verdicts and improves discovery depth in testbeds."
+          ]
+        },
+        "fr": {
+          "title": "LLM-IDEA : Agent expérimental pour la découverte scientifique",
+          "summary": "L'agent expérimental piloté par l'identifiabilité (LLM-IDEA) est proposé pour la découverte scientifique autonome en boucle fermée, doté d'un moteur d'identifiabilité.",
+          "keyPoints": [
+            "Propose LLM-IDEA pour la découverte autonome de modèles de mondes mécanistiques.",
+            "Intègre un moteur d'identifiabilité fournissant un verdict de plateau à trois voies.",
+            "Reproduit des verdicts connus et améliore la profondeur de découverte dans les bancs d'essai."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-92d6868d8c3e9d",
+      "title": "TaReD: Tool-Aware Recursive Decomposition for Long-Horizon Tasks",
+      "summary": "TaReD introduces tool-aware recursive decomposition to help agents tackle complex long-horizon tasks. By organizing large tool libraries into a capability hierarchy, agents discover tools on demand and decompose tasks into aligned subtask trees, improving end-to-end success rates by up to 40 percentage points.",
+      "keyPoints": [
+        "Organizes large tool libraries into a hierarchical capability structure.",
+        "Decomposes complex tasks into subtask trees aligned with available tools.",
+        "Improves end-to-end task success rates by up to 40 percentage points over baselines."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11268",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "TaReD: Tool-Aware Recursive Decomposition for Long-Horizon Tasks",
+          "summary": "TaReD introduces tool-aware recursive decomposition to help agents tackle complex long-horizon tasks. By organizing large tool libraries into a capability hierarchy, agents discover tools on demand and decompose tasks into aligned subtask trees, improving end-to-end success rates by up to 40 percentage points.",
+          "keyPoints": [
+            "Organizes large tool libraries into a hierarchical capability structure.",
+            "Decomposes complex tasks into subtask trees aligned with available tools.",
+            "Improves end-to-end task success rates by up to 40 percentage points over baselines."
+          ]
+        },
+        "fr": {
+          "title": "TaReD : Décomposition récursive consciente des outils pour les tâches longues",
+          "summary": "TaReD introduit une décomposition récursive consciente des outils pour aider les agents à gérer des tâches complexes à long terme. En organisant de grandes bibliothèques d'outils en une hiérarchie, les agents découvrent les outils à la demande et améliorent les taux de réussite.",
+          "keyPoints": [
+            "Organise de grandes bibliothèques d'outils en une structure hiérarchique.",
+            "Décompose les tâches complexes en arbres de sous-tâches alignés sur les outils.",
+            "Améliore le taux de réussite de bout en bout jusqu'à 40 points de pourcentage."
           ]
         }
       },
@@ -314,36 +431,270 @@
       }
     },
     {
-      "id": "feed-5fbdf754feb46a",
-      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
-      "summary": "This position paper argues that human interpretation in AI tasks is often inherently ambiguous and valid in multiple ways. The authors call for a shift toward modeling the space of plausible human judgments instead of reducing them to a single ground truth.",
+      "id": "feed-c0e89760c2e306",
+      "title": "Open-ended Scientific Discovery with Possibilistic Reasoning",
+      "summary": "This paper formalizes Abductive Autonomous Scientific Discovery (AASD) using possibility theory to address open-ended discovery challenges with LLMs. It introduces abductive utility and possibility frontier search, achieving anytime validity and asymptotic optimization on scientific tasks.",
       "keyPoints": [
-        "Challenges the single ground truth assumption in AI",
-        "Emphasizes the importance of modeling human interpretation ambiguity",
-        "Calls for diversity-aware AI development and governance"
+        "Formalizes Abductive Autonomous Scientific Discovery (AASD) via possibility theory.",
+        "Introduces abductive utility as a computable measure of discovery progress.",
+        "Presents possibility frontier search to maintain anytime validity and asymptotic optimality."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11289",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Open-ended Scientific Discovery with Possibilistic Reasoning",
+          "summary": "This paper formalizes Abductive Autonomous Scientific Discovery (AASD) using possibility theory to address open-ended discovery challenges with LLMs. It introduces abductive utility and possibility frontier search, achieving anytime validity and asymptotic optimization on scientific tasks.",
+          "keyPoints": [
+            "Formalizes Abductive Autonomous Scientific Discovery (AASD) via possibility theory.",
+            "Introduces abductive utility as a computable measure of discovery progress.",
+            "Presents possibility frontier search to maintain anytime validity and asymptotic optimality."
+          ]
+        },
+        "fr": {
+          "title": "Découverte scientifique ouverte avec le raisonnement possibiliste",
+          "summary": "Cet article formalise la Découverte Scientifique Autonome Abductive (AASD) en utilisant la théorie des possibilités pour relever les défis de découverte ouverte avec les LLM. Il introduit l'utilité abductive et la recherche de frontières de possibilité.",
+          "keyPoints": [
+            "Formalise la découverte scientifique autonome abductive via la théorie des possibilités.",
+            "Introduit l'utilité abductive comme mesure calculable des progrès de la découverte.",
+            "Présente la recherche de frontières de possibilité pour maintenir la validité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1cf5e4d9799d09",
+      "title": "ORDO: Operation-level Round-aware Dynamic Ordering for MIP Presolve",
+      "summary": "ORDO recasts mixed-integer programming (MIP) presolve planning as autoregressive sequence generation over an atomic action space. By using sequence racing via SCIP modifications, it achieves cross-domain zero-shot speedups for presolve action sequences.",
+      "keyPoints": [
+        "Recasts MIP presolve planning as autoregressive sequence generation.",
+        "Introduces ORDO for operation-level round-aware dynamic ordering.",
+        "Enables cross-domain zero-shot speedups using sequence racing in SCIP."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11294",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ORDO: Operation-level Round-aware Dynamic Ordering for MIP Presolve",
+          "summary": "ORDO recasts mixed-integer programming (MIP) presolve planning as autoregressive sequence generation over an atomic action space. By using sequence racing via SCIP modifications, it achieves cross-domain zero-shot speedups for presolve action sequences.",
+          "keyPoints": [
+            "Recasts MIP presolve planning as autoregressive sequence generation.",
+            "Introduces ORDO for operation-level round-aware dynamic ordering.",
+            "Enables cross-domain zero-shot speedups using sequence racing in SCIP."
+          ]
+        },
+        "fr": {
+          "title": "ORDO : Ordonnancement dynamique pour le prétraitement MIP",
+          "summary": "ORDO reformule la planification du prétraitement de la programmation en nombres entiers mixtes (MIP) en génération de séquences autorégressives. En utilisant la course de séquences, il permet des accélérations zero-shot inter-domaines.",
+          "keyPoints": [
+            "Reformule la planification du prétraitement MIP en génération de séquences.",
+            "Introduit ORDO pour un ordonnancement dynamique conscient des tours.",
+            "Permet des accélérations zero-shot inter-domaines grâce à la course de séquences."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-61079f6d640a0a",
+      "title": "DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice",
+      "summary": "DuplexAgent combines a full-duplex live interaction model with asynchronous delegation for reasoning and coding. Its harness uses six editable modules revised iteratively via Duplex-Harness-RSI, improving spoken-knowledge and tool scores on benchmarks.",
+      "keyPoints": [
+        "Combines full-duplex continuous interaction with asynchronous task delegation.",
+        "Defines a harness with six editable modules revised through a closed loop.",
+        "Achieves strong spoken-knowledge and tool execution scores on benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11299",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice",
+          "summary": "DuplexAgent combines a full-duplex live interaction model with asynchronous delegation for reasoning and coding. Its harness uses six editable modules revised iteratively via Duplex-Harness-RSI, improving spoken-knowledge and tool scores on benchmarks.",
+          "keyPoints": [
+            "Combines full-duplex continuous interaction with asynchronous task delegation.",
+            "Defines a harness with six editable modules revised through a closed loop.",
+            "Achieves strong spoken-knowledge and tool execution scores on benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "DuplexAgent-RSI : Amélioration récursive pour l'agent vocal duplex",
+          "summary": "DuplexAgent combine un modèle d'interaction en direct en duplex intégral avec une délégation asynchrone. Son harnais utilise six modules modifiables révisés itérativement via Duplex-Harness-RSI, améliorant les performances sur les benchmarks.",
+          "keyPoints": [
+            "Combine une interaction continue en duplex intégral avec une délégation asynchrone.",
+            "Définit un harnais avec six modules modifiables révisés en boucle fermée.",
+            "Atteint de solides scores de connaissances vocales et d'exécution d'outils."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-90d3c0e433ec4e",
+      "title": "MedBenchAgent: Systematic Automation of Medical VLM Benchmarks",
+      "summary": "MedBenchAgent introduces constrained compilation to automate the construction of medical vision-language model benchmarks. Using a Benchmark Intermediate Representation, it achieves a Task-Space F1 of 90.9% and passes rigorous audits.",
+      "keyPoints": [
+        "Formulates medical VLM benchmark construction as constrained compilation.",
+        "Employs a Benchmark Intermediate Representation (BIR) across stages.",
+        "Achieves a 90.9% Task-Space F1 score, outperforming direct task induction."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11312",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MedBenchAgent: Systematic Automation of Medical VLM Benchmarks",
+          "summary": "MedBenchAgent introduces constrained compilation to automate the construction of medical vision-language model benchmarks. Using a Benchmark Intermediate Representation, it achieves a Task-Space F1 of 90.9% and passes rigorous audits.",
+          "keyPoints": [
+            "Formulates medical VLM benchmark construction as constrained compilation.",
+            "Employs a Benchmark Intermediate Representation (BIR) across stages.",
+            "Achieves a 90.9% Task-Space F1 score, outperforming direct task induction."
+          ]
+        },
+        "fr": {
+          "title": "MedBenchAgent : Automatisation des benchmarks VLM médicaux",
+          "summary": "MedBenchAgent introduit une compilation contrainte pour automatiser la construction de benchmarks de modèles vision-langage médicaux. À l'aide d'une représentation intermédiaire, il atteint un F1 de l'espace des tâches de 90,9 %.",
+          "keyPoints": [
+            "Formule la construction de benchmarks VLM médicaux comme une compilation contrainte.",
+            "Utilise une représentation intermédiaire de benchmark (BIR).",
+            "Atteint un score F1 de 90,9 % pour l'espace des tâches."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fbd577837bf5da",
+      "title": "DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert",
+      "summary": "DivMoE presents fine-grained Mixture-of-Experts upcycling with structurally-balanced routing to solve naive routing collapse. By utilizing domain-specialized initialization and diversity-constrained routing, it consistently outperforms baseline upcycling methods.",
+      "keyPoints": [
+        "Addresses fine-grained MoE upcycling structural routing collapse.",
+        "Introduces domain-specialized expert initialization and diversity-constrained routing.",
+        "Outperforms baseline upcycling methods across 15 benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11317",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert",
+          "summary": "DivMoE presents fine-grained Mixture-of-Experts upcycling with structurally-balanced routing to solve naive routing collapse. By utilizing domain-specialized initialization and diversity-constrained routing, it consistently outperforms baseline upcycling methods.",
+          "keyPoints": [
+            "Addresses fine-grained MoE upcycling structural routing collapse.",
+            "Introduces domain-specialized expert initialization and diversity-constrained routing.",
+            "Outperforms baseline upcycling methods across 15 benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "DivMoE : Surcyclage MoE fin via composition d'experts croisés",
+          "summary": "DivMoE présente un surcyclage de Mélange d'Experts (MoE) à grain fin avec un routage structurellement équilibré pour résoudre l'effondrement du routage. Il surpasse systématiquement les méthodes de référence sur 15 benchmarks.",
+          "keyPoints": [
+            "Résout l'effondrement du routage structurel dans le surcyclage MoE à grain fin.",
+            "Introduit une initialisation spécialisée et un routage contraint par la diversité.",
+            "Surpasse les méthodes de surcyclage de référence sur 15 benchmarks."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9ce612aad58778",
+      "title": "Finsler Flow Matching: Dynamics-Aware Geodesic Interpolation",
+      "summary": "Finsler Flow Matching (FFM) learns continuous stochastic dynamics from discrete Markov transition graphs. By combining local moments into a Finsler structure, it improves single-cell trajectory inference and recovery of intermediate populations.",
+      "keyPoints": [
+        "Introduces Finsler Flow Matching for continuous dynamics from Markov graphs.",
+        "Uses local moments to construct an anisotropic Finsler structure.",
+        "Improves trajectory inference and recovery of withheld intermediate populations."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.11318",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Finsler Flow Matching: Dynamics-Aware Geodesic Interpolation",
+          "summary": "Finsler Flow Matching (FFM) learns continuous stochastic dynamics from discrete Markov transition graphs. By combining local moments into a Finsler structure, it improves single-cell trajectory inference and recovery of intermediate populations.",
+          "keyPoints": [
+            "Introduces Finsler Flow Matching for continuous dynamics from Markov graphs.",
+            "Uses local moments to construct an anisotropic Finsler structure.",
+            "Improves trajectory inference and recovery of withheld intermediate populations."
+          ]
+        },
+        "fr": {
+          "title": "Finsler Flow Matching : Interpolation géodésique pour l'inférence",
+          "summary": "Finsler Flow Matching (FFM) apprend des dynamiques stochastiques continues à partir de graphiques de transition de Markov discrets. En combinant des moments locaux en une structure de Finsler, il améliore l'inférence de trajectoire.",
+          "keyPoints": [
+            "Introduit l'appariement de flux de Finsler pour des dynamiques continues.",
+            "Utilise des moments locaux pour construire une structure de Finsler anisée.",
+            "Améliore l'inférence de trajectoire cellulaire et la récupération de populations."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8e911491a17c10",
+      "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+      "summary": "Mine Odyssey evaluates agentic spatial intelligence using Minecraft reconstructions of 30 real-world locations across 20 countries. Testing eight state-of-the-art models reveals significant performance gaps among current artificial intelligence systems.",
+      "keyPoints": [
+        "Introduces a benchmark using Minecraft reconstructions of 30 real-world locations.",
+        "Comprises 180 tasks testing route-finding, navigation, and error recovery.",
+        "Shows GPT-6 Astra leading with an 85.6% success rate, highlighting open gaps."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10805",
+      "sourceUrl": "https://arxiv.org/abs/2610.11328",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
-          "summary": "This position paper argues that human interpretation in AI tasks is often inherently ambiguous and valid in multiple ways. The authors call for a shift toward modeling the space of plausible human judgments instead of reducing them to a single ground truth.",
+          "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+          "summary": "Mine Odyssey evaluates agentic spatial intelligence using Minecraft reconstructions of 30 real-world locations across 20 countries. Testing eight state-of-the-art models reveals significant performance gaps among current artificial intelligence systems.",
           "keyPoints": [
-            "Challenges the single ground truth assumption in AI",
-            "Emphasizes the importance of modeling human interpretation ambiguity",
-            "Calls for diversity-aware AI development and governance"
+            "Introduces a benchmark using Minecraft reconstructions of 30 real-world locations.",
+            "Comprises 180 tasks testing route-finding, navigation, and error recovery.",
+            "Shows GPT-6 Astra leading with an 85.6% success rate, highlighting open gaps."
           ]
         },
         "fr": {
-          "title": "Quelle vérité terrain ? Embrasser l'ambiguïté dans l'IA centrée sur l'humain",
-          "summary": "Cet article de position soutient que l'interprétation humaine est souvent ambiguë et appelle à modéliser l'espace des jugements humains plausibles plutôt que de l'agréger en une seule vérité unique.",
+          "title": "Mine Odyssey : Évaluation de l'intelligence spatiale des agents",
+          "summary": "Mine Odyssey évalue l'intelligence spatiale des agents à l'aide de reconstructions Minecraft de 30 emplacements réels. Le test de huit modèles de pointe révèle d'importants écarts de performance au sein des systèmes actuels.",
           "keyPoints": [
-            "Remet en question l'hypothèse d'une vérité terrain unique",
-            "Met en valeur la gestion de l'ambiguïté d'interprétation",
-            "Plaidit pour une gouvernance de l'IA consciente de la diversité"
+            "Introduit un benchmark utilisant des reconstructions Minecraft de lieux réels.",
+            "Comprend 180 tâches testant la navigation et la récupération d'erreurs.",
+            "Montre que GPT-6 Astra est en tête avec un taux de réussite de 85,6 %."
           ]
         }
       },
@@ -353,36 +704,36 @@
       }
     },
     {
-      "id": "feed-2d399e565010d0",
-      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
-      "summary": "Researchers evaluate small LLM agents operating under explicit wall-clock time budgets. Findings show that while harness enhancements and reinforcement learning improve budget adherence, agents often struggle to use extra time productively.",
+      "id": "feed-27c3c2cba22a01",
+      "title": "TokenBank: Financial Infrastructure for AI Services",
+      "summary": "TokenBank provides financial infrastructure for AI services via structured contracts, supporting service consumption rights, forwards, revenue-based financing, and failure protections. Evaluation across API requests and agent executions validates its mechanics.",
       "keyPoints": [
-        "Evaluates small LLM agents under explicit wall-clock time budgets",
-        "Harness mechanisms and RL successfully improve budget adherence",
-        "Identifies a persistent gap between time adherence and task performance"
+        "Proposes financial infrastructure representing commitments via structured contracts.",
+        "Supports service rights, forward agreements, financing, and protection claims.",
+        "Evaluated via extensive API request replays and agent execution scenarios."
       ],
-      "category": "Modèles",
+      "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10833",
+      "sourceUrl": "https://arxiv.org/abs/2610.11333",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
-          "summary": "Researchers evaluate small LLM agents operating under explicit wall-clock time budgets. Findings show that while harness enhancements and reinforcement learning improve budget adherence, agents often struggle to use extra time productively.",
+          "title": "TokenBank: Financial Infrastructure for AI Services",
+          "summary": "TokenBank provides financial infrastructure for AI services via structured contracts, supporting service consumption rights, forwards, revenue-based financing, and failure protections. Evaluation across API requests and agent executions validates its mechanics.",
           "keyPoints": [
-            "Evaluates small LLM agents under explicit wall-clock time budgets",
-            "Harness mechanisms and RL successfully improve budget adherence",
-            "Identifies a persistent gap between time adherence and task performance"
+            "Proposes financial infrastructure representing commitments via structured contracts.",
+            "Supports service rights, forward agreements, financing, and protection claims.",
+            "Evaluated via extensive API request replays and agent execution scenarios."
           ]
         },
         "fr": {
-          "title": "À l'heure : vers des agents IA ponctuels et productifs contraints par le temps",
-          "summary": "Évaluation d'agents LLM fonctionnant sous des budgets de temps stricts, montrant que les mécanismes de renforcement améliorent la ponctualité, mais peinent à exploiter le temps supplémentaire pour progresser.",
+          "title": "TokenBank : Infrastructure financière pour les services d'IA",
+          "summary": "TokenBank fournit une infrastructure financière pour les services d'IA via des contrats structurés, prenant en charge les droits de consommation, les contrats à terme et le financement. L'évaluation valide ses mécanismes économiques.",
           "keyPoints": [
-            "Évalue des agents LLM sous contraintes de temps explicites",
-            "Le renforcement améliore l'adhésion au budget temporel",
-            "Met en évidence un écart entre respect du temps et performance"
+            "Propose une infrastructure financière représentant des engagements par contrats.",
+            "Prend en charge les droits de service, les contrats à terme et le financement.",
+            "Évalué via des relectures de requêtes API et des scénarios d'exécution d'agents."
           ]
         }
       },
@@ -392,399 +743,48 @@
       }
     },
     {
-      "id": "feed-83dfccd4c450e4",
-      "title": "Self-Supervised Keyframe Discovery for Behavior Cloning",
-      "summary": "Behavior cloning in non-Markovian environments struggles with long horizons. To fix hidden-state collapse and context length limits, researchers propose Keyframe Mnemonics, a self-supervised method that discovers information-critical observations to serve as rewards for keyframe selection. Policies conditioned on these keyframes achieve 100% success on synthetic memory domains and outperform baselines in robot manipulation.",
+      "id": "feed-165d8520370dff",
+      "title": "ReCast: Attribution-Oriented Step Representation Learning",
+      "summary": "ReCast introduces attribution-oriented step representation learning to identify root-cause failures in LLM-based agent systems. By transforming hidden states with contrastive objectives and using ReCast-2K, it achieves superior performance across benchmarks.",
       "keyPoints": [
-        "Introduces Keyframe Mnemonics for self-supervised keyframe discovery in behavior cloning.",
-        "Provides infinite-horizon context retention guarantees under task assumptions.",
-        "Achieves 100% success rates on synthetic memory domains and 13.9% average absolute success improvement on robot manipulation tasks."
+        "Addresses failure attribution in LLM-based agent systems.",
+        "Transforms frozen LLM hidden states into attribution-oriented representations.",
+        "Introduces ReCast-2K dataset and achieves top Hit@1 across benchmarks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10857",
+      "sourceUrl": "https://arxiv.org/abs/2610.11334",
       "publishedAt": "2026-10-09T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Self-Supervised Keyframe Discovery for Behavior Cloning",
-          "summary": "Behavior cloning in non-Markovian environments struggles with long horizons. To fix hidden-state collapse and context length limits, researchers propose Keyframe Mnemonics, a self-supervised method that discovers information-critical observations to serve as rewards for keyframe selection. Policies conditioned on these keyframes achieve 100% success on synthetic memory domains and outperform baselines in robot manipulation.",
+          "title": "ReCast: Attribution-Oriented Step Representation Learning",
+          "summary": "ReCast introduces attribution-oriented step representation learning to identify root-cause failures in LLM-based agent systems. By transforming hidden states with contrastive objectives and using ReCast-2K, it achieves superior performance across benchmarks.",
           "keyPoints": [
-            "Introduces Keyframe Mnemonics for self-supervised keyframe discovery in behavior cloning.",
-            "Provides infinite-horizon context retention guarantees under task assumptions.",
-            "Achieves 100% success rates on synthetic memory domains and 13.9% average absolute success improvement on robot manipulation tasks."
+            "Addresses failure attribution in LLM-based agent systems.",
+            "Transforms frozen LLM hidden states into attribution-oriented representations.",
+            "Introduces ReCast-2K dataset and achieves top Hit@1 across benchmarks."
           ]
         },
         "fr": {
-          "title": "Découverte de clés auto-supervisée pour le clonage de comportement",
-          "summary": "Le clonage de comportement dans les environnements non markoviens souffre de horizons longs. Pour résoudre l'effondrement des états cachés et les limites de contexte, les chercheurs proposent Keyframe Mnemonics, une méthode auto-supervisée qui identifie des observations critiques. Les politiques conditionnées par ces images-clés atteignent un taux de réussite de 100 % sur des domaines synthétiques.",
+          "title": "ReCast : Apprentissage de représentation d'étapes orienté attribution",
+          "summary": "ReCast présente un apprentissage de représentation d'étapes orienté attribution pour identifier les échecs dans les systèmes d'agents basés sur les LLM. Il transforme les états cachés pour surpasser les méthodes existantes.",
           "keyPoints": [
-            "Présente Keyframe Mnemonics pour la découverte de repères par auto-supervision.",
-            "Offre des garanties de rétention de contexte sur un horizon infini.",
-            "Atteint 100 % de réussite sur des domaines synthétiques et surpasse les bases en manipulation."
+            "Traite l'attribution des échecs dans les systèmes d'agents basés sur les LLM.",
+            "Transforme les états cachés en représentations orientées attribution.",
+            "Introduit le jeu de données ReCast-2K et atteint les meilleures performances."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-58375e71a9edc0",
-      "title": "Foundations and Challenges of Normative Competence in LLMs",
-      "summary": "Aligning autonomous AI with community norms requires normative competence: discerning enforceable rules from interaction alone. Researchers operationalize this in a multi-agent debate setting, finding that baseline LLMs fail to learn norms and indiscriminately copy idiosyncratic noise alongside actual rules. The work shows that current models excel at behavioral mimicry but lack social order capacity.",
-      "keyPoints": [
-        "Operationalizes normative competence to evaluate how LLMs learn community norms.",
-        "Shows baseline LLMs fail to learn norms and copy idiosyncratic noise unselectively.",
-        "Demonstrates that current AI systems lack the capacity to discern socially enforced order."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10906",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Foundations and Challenges of Normative Competence in LLMs",
-          "summary": "Aligning autonomous AI with community norms requires normative competence: discerning enforceable rules from interaction alone. Researchers operationalize this in a multi-agent debate setting, finding that baseline LLMs fail to learn norms and indiscriminately copy idiosyncratic noise alongside actual rules. The work shows that current models excel at behavioral mimicry but lack social order capacity.",
-          "keyPoints": [
-            "Operationalizes normative competence to evaluate how LLMs learn community norms.",
-            "Shows baseline LLMs fail to learn norms and copy idiosyncratic noise unselectively.",
-            "Demonstrates that current AI systems lack the capacity to discern socially enforced order."
-          ]
-        },
-        "fr": {
-          "title": "Fondations et défis de la compétence normative dans les LLM",
-          "summary": "L'alignement des IA autonomes sur les normes communautaires nécessite une compétence normative. Les chercheurs étudient cela dans un cadre de débat multi-agents et constatent que les LLM de base échouent à apprendre les normes et copient aveuglément le bruit idiosyncrasique. Les modèles actuels excellent dans le mimétisme mais manquent de discernement social.",
-          "keyPoints": [
-            "Opérationnalise la compétence normative pour évaluer l'apprentissage des normes par les LLM.",
-            "Montre que les LLM échouent à apprendre les normes et copient le bruit inutile.",
-            "Démontre que les systèmes actuels manquent de capacité à discerner l'ordre social."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4a187203304350",
-      "title": "StoreBench: A Live-Commerce Environment for Autonomous Agents",
-      "summary": "StoreBench is a live-commerce environment where an agent runs an online apparel store on a production-grade backend, testing long-horizon planning and economic judgment. Evaluating frontier LLMs shows that no model matches the scripted smart-triage policy, though post-training via GRPO significantly improves performance on held-out tasks.",
-      "keyPoints": [
-        "Introduces StoreBench, a live-commerce environment testing long-horizon planning under uncertainty.",
-        "Evaluates seven frontier LLMs, finding none match the performance of scripted smart-triage policies.",
-        "Demonstrates significant performance gains using GRPO post-training on disjoint tasks."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10942",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "StoreBench: A Live-Commerce Environment for Autonomous Agents",
-          "summary": "StoreBench is a live-commerce environment where an agent runs an online apparel store on a production-grade backend, testing long-horizon planning and economic judgment. Evaluating frontier LLMs shows that no model matches the scripted smart-triage policy, though post-training via GRPO significantly improves performance on held-out tasks.",
-          "keyPoints": [
-            "Introduces StoreBench, a live-commerce environment testing long-horizon planning under uncertainty.",
-            "Evaluates seven frontier LLMs, finding none match the performance of scripted smart-triage policies.",
-            "Demonstrates significant performance gains using GRPO post-training on disjoint tasks."
-          ]
-        },
-        "fr": {
-          "title": "StoreBench : Un environnement de commerce en direct pour agents",
-          "summary": "StoreBench est un environnement de commerce en direct où un agent gère une boutique en ligne sur un backend de production, testant la planification à long terme. L'évaluation des LLM de pointe montre qu'aucun modèle n'égale la politique de tri automatisée, bien que le post-entraînement via GRPO améliore nettement les performances.",
-          "keyPoints": [
-            "Introduit StoreBench pour tester la planification à long terme sous incertitude.",
-            "Évalue sept LLM de pointe, montrant qu'aucun n'égale les politiques scriptées.",
-            "Démontre des gains de performance notables grâce au post-entraînement GRPO."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b5d43e5e0471a6",
-      "title": "Learning Search Control for Plans with Exponentially Less Space",
-      "summary": "Heuristic search for plans can store exponentially many states. Researchers propose learning search control specified as an indexical policy with registers and a choose rule. Using structural termination, a depth-first procedure finds plans in polynomial space without storing visited states, solving thousands of test tasks from benchmark suites.",
-      "keyPoints": [
-        "Proposes learning search control via indexical policies with registers and a choose rule.",
-        "Bounds execution by a polynomial using structural termination, avoiding visited state lists.",
-        "Solves 1,709 of 1,890 test tasks from IPC 2023 and Autoscale Agile suites within one second."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.10954",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Learning Search Control for Plans with Exponentially Less Space",
-          "summary": "Heuristic search for plans can store exponentially many states. Researchers propose learning search control specified as an indexical policy with registers and a choose rule. Using structural termination, a depth-first procedure finds plans in polynomial space without storing visited states, solving thousands of test tasks from benchmark suites.",
-          "keyPoints": [
-            "Proposes learning search control via indexical policies with registers and a choose rule.",
-            "Bounds execution by a polynomial using structural termination, avoiding visited state lists.",
-            "Solves 1,709 of 1,890 test tasks from IPC 2023 and Autoscale Agile suites within one second."
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage du contrôle de recherche pour des plans plus compacts",
-          "summary": "La recherche heuristique de plans peut stocker un nombre exponentiel d'états. Les chercheurs proposent d'apprendre un contrôle de recherche spécifié sous forme de politique indexicale. Grâce à une procédure en profondeur, un plan est trouvé en espace polynomial sans stocker les états visités, résolvant des milliers de tâches de test.",
-          "keyPoints": [
-            "Propose d'apprendre le contrôle de recherche via des politiques indexicales avec registres.",
-            "Limite l'exécution à un polynôme en évitant les listes d'états visités.",
-            "Résout 1 709 tâches de test sur 1 890 des suites IPC 2023 et Autoscale Agile en moins d'une seconde."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-5ca3b7efc7579d",
-      "title": "How Narrative Wrapping Affects LLM Refusal and Safety",
-      "summary": "Safety-aligned language models often refuse direct harmful requests but comply when placed inside role-play or narrative wrappers. The authors introduce GUISE, a cross-language benchmark measuring this vulnerability across English and Chinese variants, and propose AXIS, a preference optimization method that aligns representations with the refusal direction.",
-      "keyPoints": [
-        "Measures LLM vulnerability to narrative wrappers across English and Chinese languages.",
-        "Introduces GUISE, a benchmark for studying refusal bypass via role-play and narratives.",
-        "Proposes AXIS, combining preference optimization and rotation objectives to improve safety."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.11005",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How Narrative Wrapping Affects LLM Refusal and Safety",
-          "summary": "Safety-aligned language models often refuse direct harmful requests but comply when placed inside role-play or narrative wrappers. The authors introduce GUISE, a cross-language benchmark measuring this vulnerability across English and Chinese variants, and propose AXIS, a preference optimization method that aligns representations with the refusal direction.",
-          "keyPoints": [
-            "Measures LLM vulnerability to narrative wrappers across English and Chinese languages.",
-            "Introduces GUISE, a benchmark for studying refusal bypass via role-play and narratives.",
-            "Proposes AXIS, combining preference optimization and rotation objectives to improve safety."
-          ]
-        },
-        "fr": {
-          "title": "Impact des enveloppes narratives sur le refus et la sécurité des LLM",
-          "summary": "Les modèles de langage alignés refusent les requêtes nuisibles directes mais y répondent dans un cadre narratif. Les auteurs présentent GUISE, un banc d'essai mesurant cette vulnérabilité en anglais et en chinois, et proposent AXIS, une méthode d'optimisation alignant les représentations sur la direction du refus.",
-          "keyPoints": [
-            "Mesure la vulnérabilité des LLM aux emballages narratifs en anglais et en chinois.",
-            "Introduit GUISE pour étudier le contournement des refus par le jeu de rôle.",
-            "Propose AXIS pour améliorer la sécurité et la robustesse des modèles."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d552aa93099035",
-      "title": "Curating Always-Loaded Context for LLM Agents",
-      "summary": "LLM agents load fixed context files at session starts, which can degrade performance if they grow too large. Researchers formulate context curation as a capacitated assortment problem with censored feedback, proving an upper bound on optimal file sizes and showing that deleting ignored instructions can inadvertently remove helpful ones.",
-      "keyPoints": [
-        "Formulates context file curation for LLM agents as a capacitated assortment problem.",
-        "Proves an upper bound on optimal file size and analyzes the impact of censored feedback.",
-        "Demonstrates that irrelevant rules reduce compliance and naive deletion removes helpful instructions."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.11007",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Curating Always-Loaded Context for LLM Agents",
-          "summary": "LLM agents load fixed context files at session starts, which can degrade performance if they grow too large. Researchers formulate context curation as a capacitated assortment problem with censored feedback, proving an upper bound on optimal file sizes and showing that deleting ignored instructions can inadvertently remove helpful ones.",
-          "keyPoints": [
-            "Formulates context file curation for LLM agents as a capacitated assortment problem.",
-            "Proves an upper bound on optimal file size and analyzes the impact of censored feedback.",
-            "Demonstrates that irrelevant rules reduce compliance and naive deletion removes helpful instructions."
-          ]
-        },
-        "fr": {
-          "title": "Gestion du contexte permanent pour les agents LLM",
-          "summary": "Les agents LLM chargent des fichiers de contexte fixes au début de chaque session, ce qui peut nuire aux performances si leur taille augmente. Les chercheurs modélisent la curation du contexte comme un problème d'assortiment capacitaire avec rétroaction censurée, prouvant une limite supérieure pour la taille optimale des fichiers.",
-          "keyPoints": [
-            "Modélise la curation du contexte des agents LLM comme un problème d'assortiment capacitaire.",
-            "Prouve une limite supérieure sur la taille optimale des fichiers de contexte.",
-            "Démontre que les règles non pertinentes réduisent la conformité des agents."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-737be4302593a3",
-      "title": "Distillation for Incrimination and Distillation for Capabilities",
-      "summary": "Powerful misaligned AI models can hide flaws during evaluations. Distilling them into weaker student models creates a Distillation Double Bind. Researchers introduce Distillation for Incrimination (DFI) to transfer misalignment and reveal hidden behavior, and Distillation for Capabilities (DFC) to extract useful capabilities without transferring misalignment.",
-      "keyPoints": [
-        "Introduces the Distillation Double Bind for auditing potentially misaligned AI models.",
-        "Presents Distillation for Incrimination (DFI) to expose hidden misbehaviors via student models.",
-        "Presents Distillation for Capabilities (DFC) to extract useful capabilities without transferring misalignment."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.11012",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Distillation for Incrimination and Distillation for Capabilities",
-          "summary": "Powerful misaligned AI models can hide flaws during evaluations. Distilling them into weaker student models creates a Distillation Double Bind. Researchers introduce Distillation for Incrimination (DFI) to transfer misalignment and reveal hidden behavior, and Distillation for Capabilities (DFC) to extract useful capabilities without transferring misalignment.",
-          "keyPoints": [
-            "Introduces the Distillation Double Bind for auditing potentially misaligned AI models.",
-            "Presents Distillation for Incrimination (DFI) to expose hidden misbehaviors via student models.",
-            "Presents Distillation for Capabilities (DFC) to extract useful capabilities without transferring misalignment."
-          ]
-        },
-        "fr": {
-          "title": "Distillation pour l'incrimination et distillation pour les capacités",
-          "summary": "Les modèles d'IA mal alignés peuvent masquer leurs failles lors des audits. Les chercheurs introduisent la distillation pour l'incrimination (DFI) pour transférer le mauvais alignement et révéler des comportements cachés, ainsi que la distillation pour les capacités (DFC) pour extraire les compétences utiles sans le mauvais alignement.",
-          "keyPoints": [
-            "Introduit le double piège de la distillation pour l'audit des modèles d'IA.",
-            "Présente la DFI pour exposer les comportements cachés via des modèles étudiants.",
-            "Présente la DFC pour extraire les compétences sans transférer les défauts de sécurité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-159bdd18a62dba",
-      "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Tasks",
-      "summary": "Computer-use agents require reliable automatic judges to evaluate long tasks spanning multiple applications. To address this, researchers introduce AgentHorizon, a benchmark of 1,373 tasks with paired instructions to test judges' ability to distinguish successful trajectories from failed ones, finding performance varies drastically across models.",
-      "keyPoints": [
-        "Introduces AgentHorizon, a benchmark of 1,373 computer-use tasks for evaluating agentic judges.",
-        "Uses a paired design with swapped instructions to test detection of subtle execution errors.",
-        "Finds that frontier models achieve moderate accuracy, but tool-use impacts open-weight judges negatively."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.11050",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Tasks",
-          "summary": "Computer-use agents require reliable automatic judges to evaluate long tasks spanning multiple applications. To address this, researchers introduce AgentHorizon, a benchmark of 1,373 tasks with paired instructions to test judges' ability to distinguish successful trajectories from failed ones, finding performance varies drastically across models.",
-          "keyPoints": [
-            "Introduces AgentHorizon, a benchmark of 1,373 computer-use tasks for evaluating agentic judges.",
-            "Uses a paired design with swapped instructions to test detection of subtle execution errors.",
-            "Finds that frontier models achieve moderate accuracy, but tool-use impacts open-weight judges negatively."
-          ]
-        },
-        "fr": {
-          "title": "AgentHorizon : Évaluation de juges autonomes pour des tâches longues",
-          "summary": "Les agents informatiques nécessitent des juges automatiques fiables pour évaluer de longues tâches. Les chercheurs introduisent AgentHorizon, un banc d'essai de 1 373 tâches avec des paires d'instructions pour tester la capacité des juges à distinguer les trajectoires réussies des échecs, montrant des performances très variables selon les modèles.",
-          "keyPoints": [
-            "Introduit AgentHorizon, un banc d'essai de 1 373 tâches d'utilisation d'ordinateurs.",
-            "Utilise un design apparié avec des instructions croisées pour tester la détection d'erreurs.",
-            "Montre que les performances varient fortement selon les modèles et l'utilisation d'outils."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a1282f32e7ff72",
-      "title": "A Framework and Benchmark for LLM-Assisted Peer Review",
-      "summary": "Scientific publishing strains peer review, prompting interest in LLM assistants. This work introduces a verification-centric benchmark evaluating review systems' ability to identify logical contradictions inserted into conference papers. It also proposes a Multi-Layered Review framework that prioritizes manuscript comprehension before generation.",
-      "keyPoints": [
-        "Presents a verification-centric benchmark evaluating LLM review systems on error detection.",
-        "Uses synthetic error injection into conference papers for unambiguous evaluation targets.",
-        "Proposes a Multi-Layered Review framework to improve comprehension and token efficiency."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.11087",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "A Framework and Benchmark for LLM-Assisted Peer Review",
-          "summary": "Scientific publishing strains peer review, prompting interest in LLM assistants. This work introduces a verification-centric benchmark evaluating review systems' ability to identify logical contradictions inserted into conference papers. It also proposes a Multi-Layered Review framework that prioritizes manuscript comprehension before generation.",
-          "keyPoints": [
-            "Presents a verification-centric benchmark evaluating LLM review systems on error detection.",
-            "Uses synthetic error injection into conference papers for unambiguous evaluation targets.",
-            "Proposes a Multi-Layered Review framework to improve comprehension and token efficiency."
-          ]
-        },
-        "fr": {
-          "title": "Un cadre et un banc d'essai pour l'évaluation par les pairs assistée par LLM",
-          "summary": "La croissance des publications scientifiques met à l'épreuve l'évaluation par les pairs. Ce travail introduit un banc d'essai centré sur la vérification pour évaluer la capacité des systèmes à identifier des contradictions logiques insérées dans des articles. Il propose également un cadre d'examen multicouche.",
-          "keyPoints": [
-            "Présente un banc d'essai axé sur la détection d'erreurs pour l'évaluation par les pairs.",
-            "Utilise l'injection d'erreurs synthétiques dans des articles pour des cibles d'évaluation claires.",
-            "Propose un cadre d'examen multicouche pour améliorer la compréhension et l'efficacité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-5a53c3bdb60bfc",
-      "title": "OpenProblemBench: Benchmarking AI on Foundational Theoretical Science",
-      "summary": "To assess AI progress on unresolved scientific problems, researchers introduce OpenProblemBench, containing 82 problems drawn from mathematics and theoretical physics. Evaluations show that frontier models achieve low solve rates, highlighting current capabilities and limitations in contributing to foundational theoretical science.",
-      "keyPoints": [
-        "Introduces OpenProblemBench with 82 unresolved math and theoretical physics problems.",
-        "Uses independent evaluator models to assess the correctness and completeness of submissions.",
-        "Shows GPT-6-Astra achieves a 14.0% mean judged solve rate, outperforming evaluated open models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.11118",
-      "publishedAt": "2026-10-09T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenProblemBench: Benchmarking AI on Foundational Theoretical Science",
-          "summary": "To assess AI progress on unresolved scientific problems, researchers introduce OpenProblemBench, containing 82 problems drawn from mathematics and theoretical physics. Evaluations show that frontier models achieve low solve rates, highlighting current capabilities and limitations in contributing to foundational theoretical science.",
-          "keyPoints": [
-            "Introduces OpenProblemBench with 82 unresolved math and theoretical physics problems.",
-            "Uses independent evaluator models to assess the correctness and completeness of submissions.",
-            "Shows GPT-6-Astra achieves a 14.0% mean judged solve rate, outperforming evaluated open models."
-          ]
-        },
-        "fr": {
-          "title": "OpenProblemBench : Évaluation de l'IA en sciences théoriques fondamentales",
-          "summary": "Pour évaluer les progrès de l'IA sur des problèmes scientifiques non résolus, les chercheurs présentent OpenProblemBench, comprenant 82 problèmes de mathématiques et de physique théorique. Les évaluations montrent que les modèles de pointe atteignent de faibles taux de résolution, soulignant leurs limites actuelles.",
-          "keyPoints": [
-            "Introduit OpenProblemBench avec 82 problèmes ouverts de mathématiques et physique.",
-            "Utilise des modèles évaluateurs indépendants pour juger de la correction des soumissions.",
-            "Montre que GPT-6-Astra atteint un taux de résolution moyen de 14,0 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 496,
+    "itemsCollected": 495,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
