@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-13T00:46:59.831Z",
+  "generatedAt": "2026-10-13T12:44:49.221Z",
   "items": [
     {
-      "id": "feed-ef0706f3d0161a",
-      "title": "DeFiRank: Federated Pairwise Ranking for Decentralized Networks",
-      "summary": "Existing governance approaches in decentralized finance rely on manual reviews that introduce bias and scalability bottlenecks. To address this, researchers propose DeFiRank, a federated learning-based pairwise ranking framework allowing institutions to train a model collaboratively without sharing private transaction data. Evaluated on a real-world blockchain dataset, the federated approach achieves ranking performance close to the centralized baseline while preserving data privacy and stability.",
+      "id": "feed-7faf581c58225e",
+      "title": "Black-Box Causal Audit Reveals Model-Dependent Audio Grounding",
+      "summary": "Large audio-language models often hallucinate absent sounds. Researchers introduce a black-box causal test combining CLAP similarity and spectral gating to isolate evidence regions, showing that localized ablation outperforms random removal while detection value remains model-dependent.",
       "keyPoints": [
-        "Proposes DeFiRank, a federated pairwise ranking framework for decentralized financial network governance.",
-        "Enables collaborative model training across institutions without exposing private transaction data.",
-        "Achieves near-centralized ranking performance and stability while making reliable provider promotion and demotion decisions."
+        "Introduces a black-box causal test using spectral gating and CLAP similarity.",
+        "Demonstrates that duration confounds affect raw AUROC comparisons.",
+        "Contrastive decoding combined with blank and language-priors raises Qwen2-Audio accuracy from 57.1% to 71.9%."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12916",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13112",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "DeFiRank: Federated Pairwise Ranking for Decentralized Networks",
-          "summary": "Existing governance approaches in decentralized finance rely on manual reviews that introduce bias and scalability bottlenecks. To address this, researchers propose DeFiRank, a federated learning-based pairwise ranking framework allowing institutions to train a model collaboratively without sharing private transaction data. Evaluated on a real-world blockchain dataset, the federated approach achieves ranking performance close to the centralized baseline while preserving data privacy and stability.",
+          "title": "Black-Box Causal Audit Reveals Model-Dependent Audio Grounding",
+          "summary": "Large audio-language models often hallucinate absent sounds. Researchers introduce a black-box causal test combining CLAP similarity and spectral gating to isolate evidence regions, showing that localized ablation outperforms random removal while detection value remains model-dependent.",
           "keyPoints": [
-            "Proposes DeFiRank, a federated pairwise ranking framework for decentralized financial network governance.",
-            "Enables collaborative model training across institutions without exposing private transaction data.",
-            "Achieves near-centralized ranking performance and stability while making reliable provider promotion and demotion decisions."
+            "Introduces a black-box causal test using spectral gating and CLAP similarity.",
+            "Demonstrates that duration confounds affect raw AUROC comparisons.",
+            "Contrastive decoding combined with blank and language-priors raises Qwen2-Audio accuracy from 57.1% to 71.9%."
           ]
         },
         "fr": {
-          "title": "DeFiRank : Classement par paires fédéré pour les réseaux décentralisés",
-          "summary": "Les approches de gouvernance existantes en finance décentralisée reposent sur des examens manuels biaisés et peu scalables. Pour y remédier, les chercheurs proposent DeFiRank, un cadre de classement par paires basé sur l'apprentissage fédéré qui permet aux institutions d'entraîner un modèle en collaboration sans partager leurs données privées. Évaluée sur des données blockchain réelles, cette approche atteint des performances proches d'une base centralisée tout en préservant la confidentialité.",
+          "title": "Un audit causal en boîte noire révèle l'ancrage audio des modèles",
+          "summary": "Les grands modèles audio-langage hallucinent souvent des sons absents. Des chercheurs introduisent un test causal en boîte noire combinant similarité CLAP et masquage spectral pour isoler les régions de preuve.",
           "keyPoints": [
-            "Propose DeFiRank, un cadre de classement par paires fédéré pour la gouvernance des réseaux financiers décentralisés.",
-            "Permet un entraînement collaboratif sans exposer les données de transaction privées des institutions.",
-            "Atteint des performances proches du modèle centralisé tout en garantissant la confidentialité et la stabilité."
+            "Introduit un test causal en boîte noire utilisant le masquage spectral.",
+            "Démontre que les confusions de durée affectent les comparaisons d'AUROC.",
+            "Le décodage contrastif combiné augmente la précision de Qwen2-Audio de 57,1 % à 71,9 %."
           ]
         }
       },
@@ -41,36 +41,36 @@
       }
     },
     {
-      "id": "feed-f14628c7e101ae",
-      "title": "AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization",
-      "summary": "This study examines retail assortment planning under AI mediation, where an intermediary forms a short-list for consumers based on deterministic or stochastic models. Combining empirical dataset estimations with synthetic customer preferences, the authors show that ignoring AI mediation yields mean revenue losses between 2.52% and 11.37%. A simpler deterministic plug-in performs substantially better with losses under 0.53%, prompting an analysis of computational complexity and approximation schemes.",
+      "id": "feed-83a32e28b246d1",
+      "title": "DRYLAB-Bench: Benchmarking Biosecurity Risk in LLM Mutation Design",
+      "summary": "Researchers introduce DRYLAB-Bench to evaluate high-risk biological mutation design capabilities of LLM agents across 30 hazardous scenarios, scoring designs against empirical wet-lab measurements using a new Biosecurity Risk Score.",
       "keyPoints": [
-        "Investigates retail assortment planning under deterministic and stochastic AI mediation models.",
-        "Demonstrates that ignoring AI mediation leads to mean revenue losses ranging from 2.52% to 11.37%.",
-        "Shows that a deterministic plug-in reduces mean revenue losses to at most 0.53%."
+        "Introduces DRYLAB-Bench to evaluate biological mutation design in LLM agents.",
+        "Evaluates models against 187,695 empirical wet-lab measurements from ProteinGym and ViroGym.",
+        "Finds that equipping models with biological design tools significantly amplifies biosecurity risks."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12917",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13116",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization",
-          "summary": "This study examines retail assortment planning under AI mediation, where an intermediary forms a short-list for consumers based on deterministic or stochastic models. Combining empirical dataset estimations with synthetic customer preferences, the authors show that ignoring AI mediation yields mean revenue losses between 2.52% and 11.37%. A simpler deterministic plug-in performs substantially better with losses under 0.53%, prompting an analysis of computational complexity and approximation schemes.",
+          "title": "DRYLAB-Bench: Benchmarking Biosecurity Risk in LLM Mutation Design",
+          "summary": "Researchers introduce DRYLAB-Bench to evaluate high-risk biological mutation design capabilities of LLM agents across 30 hazardous scenarios, scoring designs against empirical wet-lab measurements using a new Biosecurity Risk Score.",
           "keyPoints": [
-            "Investigates retail assortment planning under deterministic and stochastic AI mediation models.",
-            "Demonstrates that ignoring AI mediation leads to mean revenue losses ranging from 2.52% to 11.37%.",
-            "Shows that a deterministic plug-in reduces mean revenue losses to at most 0.53%."
+            "Introduces DRYLAB-Bench to evaluate biological mutation design in LLM agents.",
+            "Evaluates models against 187,695 empirical wet-lab measurements from ProteinGym and ViroGym.",
+            "Finds that equipping models with biological design tools significantly amplifies biosecurity risks."
           ]
         },
         "fr": {
-          "title": "Médiation par l'IA sur les marchés de détail : effets sur les revenus",
-          "summary": "Cette étude examine la planification des assortiments de détail sous l'effet de la médiation par l'IA, où un intermédiaire sélectionne des produits pour les consommateurs. En combinant des estimations empiriques et des préférences synthétiques, les auteurs montrent qu'ignorer la médiation de l'IA entraîne des pertes de revenus moyennes de 2,52 % à 11,37 %. Un modèle déterministe plus simple réduit ces pertes à un maximum de 0,53 %.",
+          "title": "DRYLAB-Bench : Évaluation du risque de biosécurité des agents LLM",
+          "summary": "Des chercheurs présentent DRYLAB-Bench pour évaluer les capacités de conception de mutations biologiques à haut risque des agents LLM à travers 30 scénarios dangereux.",
           "keyPoints": [
-            "Étudie la planification des assortiments de détail sous des modèles de médiation par l'IA déterministes et stochastiques.",
-            "Démontre qu'ignorer la médiation de l'IA entraîne des pertes de revenus moyennes de 2,52 % à 11,37 %.",
-            "Montre qu'un système déterministe simple limite les pertes moyennes à un maximum de 0,53 %."
+            "Introduit DRYLAB-Bench pour évaluer la conception de mutations biologiques par agents LLM.",
+            "Évalue les modèles par rapport à 187 695 mesures expérimentales de laboratoire.",
+            "Constate que l'utilisation d'outils de conception amplifie considérablement les risques de biosécurité."
           ]
         }
       },
@@ -80,153 +80,36 @@
       }
     },
     {
-      "id": "feed-c26ae049a2a527",
-      "title": "Teaching Neural Decoders with Language Supervision",
-      "summary": "Brain-computer interfaces often use class-label supervision, leaving relationships among classes implicit. The authors propose Language as Supervision (LaS), aligning neural features with natural-language class descriptions through learned projections and candidate text prototypes. Evaluated across visual, motor, and speech decoding tasks, LaS improves speech-decoding accuracy by up to 17.15 percentage points over matched class-label baselines.",
+      "id": "feed-2b6f1e274ee6bf",
+      "title": "KnowForge: Role-Specialized Tool Agents for Multimodal Document QA",
+      "summary": "KnowForge separates retrieval-augmented generation jobs into specialized agents including a Locator agent, a bridge judge, and a Deep Reader agent, achieving strong performance on M3DocVQA and MultiHop-RAG benchmarks.",
       "keyPoints": [
-        "Introduces Language as Supervision (LaS) to align neural features with natural-language class descriptions.",
-        "Improves speech-decoding accuracy by up to 17.15 percentage points compared to matched baselines.",
-        "Demonstrates that text descriptions serve as general-purpose references for neural decoding and interpretation."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12921",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Teaching Neural Decoders with Language Supervision",
-          "summary": "Brain-computer interfaces often use class-label supervision, leaving relationships among classes implicit. The authors propose Language as Supervision (LaS), aligning neural features with natural-language class descriptions through learned projections and candidate text prototypes. Evaluated across visual, motor, and speech decoding tasks, LaS improves speech-decoding accuracy by up to 17.15 percentage points over matched class-label baselines.",
-          "keyPoints": [
-            "Introduces Language as Supervision (LaS) to align neural features with natural-language class descriptions.",
-            "Improves speech-decoding accuracy by up to 17.15 percentage points compared to matched baselines.",
-            "Demonstrates that text descriptions serve as general-purpose references for neural decoding and interpretation."
-          ]
-        },
-        "fr": {
-          "title": "Enseigner aux décodeurs neuronaux grâce au langage naturel",
-          "summary": "Les interfaces cerveau-machine utilisent souvent une supervision par étiquettes de classe, laissant les relations implicites. Les auteurs proposent Language as Supervision (LaS), qui aligne les caractéristiques neuronales avec des descriptions textuelles en langage naturel. Évalué sur des tâches de décodage visuel, moteur et vocal, LaS améliore la précision du décodage de la parole jusqu'à 17,15 points de pourcentage.",
-          "keyPoints": [
-            "Introduit Language as Supervision (LaS) pour aligner les signaux neuronaux et les descriptions textuelles.",
-            "Améliore la précision du décodage vocal de jusqu'à 17,15 points de pourcentage par rapport aux bases de référence.",
-            "Démontre que les descriptions textuelles servent de références générales pour l'interprétation neuronale."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0fcd4629093f86",
-      "title": "Collaborative Learning and Reasoning over Model Slices",
-      "summary": "Single-model reasoning in large language models remains vulnerable to error propagation. To address this, the authors develop collaborative learning via model slicing, replacing a large model with heterogeneous smaller models under a comparable parameter budget. Pyramid supervision is used to refine reasoning and interaction decisions, allowing the heterogeneous setup to match or exceed the performance of the original large model while improving inference efficiency.",
-      "keyPoints": [
-        "Develops collaborative learning and model slicing to replace single large models with heterogeneous smaller ones.",
-        "Uses pyramid supervision combining protocol distillation with step-level supervision for interaction decisions.",
-        "Achieves performance comparable to or better than large models while offering higher inference efficiency."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12927",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Collaborative Learning and Reasoning over Model Slices",
-          "summary": "Single-model reasoning in large language models remains vulnerable to error propagation. To address this, the authors develop collaborative learning via model slicing, replacing a large model with heterogeneous smaller models under a comparable parameter budget. Pyramid supervision is used to refine reasoning and interaction decisions, allowing the heterogeneous setup to match or exceed the performance of the original large model while improving inference efficiency.",
-          "keyPoints": [
-            "Develops collaborative learning and model slicing to replace single large models with heterogeneous smaller ones.",
-            "Uses pyramid supervision combining protocol distillation with step-level supervision for interaction decisions.",
-            "Achieves performance comparable to or better than large models while offering higher inference efficiency."
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage et raisonnement collaboratifs sur des tranches de modèles",
-          "summary": "Le raisonnement à modèle unique dans les grands modèles de langage reste vulnérable à la propagation d'erreurs. Pour y remédier, les auteurs développent un apprentissage collaboratif via le découpage de modèles, remplaçant un grand modèle par des modèles plus petits et hétérogènes. Une supervision pyramidale affine les décisions de raisonnement, permettant à ce système d'égaler ou de dépasser les performances du modèle d'origine tout en améliorant l'efficacité.",
-          "keyPoints": [
-            "Développe l'apprentissage collaboratif et le découpage de modèles pour remplacer un grand modèle par des modèles hétérogènes.",
-            "Utilise une supervision pyramidale associant distillation de protocole et supervision au niveau des étapes.",
-            "Atteint des performances comparables ou supérieures au grand modèle tout en offrant une meilleure efficacité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8df6df601655f1",
-      "title": "Learning More by Training Less: Uncertainty-Guided Contraction",
-      "summary": "Scaling reasoning post-training with large corpora increases costs without proportional performance gains. The authors propose an uncertainty-guided progressive contraction framework that builds Monte Carlo reasoning trees to expose process-level uncertainty and concentrate supervision. Experiments show the method uses as little as 0.22% of the optimization budget of full-data SFT while maintaining or improving reasoning performance.",
-      "keyPoints": [
-        "Proposes an uncertainty-guided progressive contraction framework to compress reasoning supervision.",
-        "Constructs Monte Carlo reasoning trees around intermediate states to expose process-level uncertainty.",
-        "Uses as little as 0.22% of the optimization budget of full-data SFT while preserving or enhancing performance."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12933",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Learning More by Training Less: Uncertainty-Guided Contraction",
-          "summary": "Scaling reasoning post-training with large corpora increases costs without proportional performance gains. The authors propose an uncertainty-guided progressive contraction framework that builds Monte Carlo reasoning trees to expose process-level uncertainty and concentrate supervision. Experiments show the method uses as little as 0.22% of the optimization budget of full-data SFT while maintaining or improving reasoning performance.",
-          "keyPoints": [
-            "Proposes an uncertainty-guided progressive contraction framework to compress reasoning supervision.",
-            "Constructs Monte Carlo reasoning trees around intermediate states to expose process-level uncertainty.",
-            "Uses as little as 0.22% of the optimization budget of full-data SFT while preserving or enhancing performance."
-          ]
-        },
-        "fr": {
-          "title": "Apprendre plus en entraînant moins : contraction guidée par l'incertitude",
-          "summary": "Mettre à l'échelle l'entraînement au raisonnement avec de grands corpus augmente les coûts sans gains proportionnels. Les auteurs proposent un cadre de contraction progressive guidé par l'incertitude, qui construit des arbres de raisonnement de Monte Carlo pour cibler les trajectoires les plus utiles. Les expériences montrent que la méthode utilise seulement 0,22 % du budget d'optimisation d'un SFT complet tout en maintenant les performances.",
-          "keyPoints": [
-            "Propose un cadre de contraction progressive guidé par l'incertitude pour compresser la supervision du raisonnement.",
-            "Construit des arbres de raisonnement de Monte Carlo pour exposer l'incertitude au niveau des processus.",
-            "Utilise jusqu'à 0,22 % du budget d'optimisation d'un SFT standard tout en maintenant ou améliorant les performances."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-337bffa945c3c3",
-      "title": "MathVis: Can AI Reason through Drawing? A Benchmark for Math Figures",
-      "summary": "MathVis is a new benchmark designed to evaluate large language models on visualizing frontier mathematical problems and performing diagram-assisted reasoning. Consisting of 512 tasks with reference diagrams and executable code, evaluations show that top models achieve pass@1 scores between 22.85% and 31.25%. The study finds that LLM outputs remain dominated by formal languages rather than explicit diagram-mediated reasoning, often producing visually confusing results.",
-      "keyPoints": [
-        "Introduces MathVis, a 512-task benchmark for evaluating mathematical figure generation and visual reasoning.",
-        "Evaluates leading models like GPT-6-Astra, Claude Fable 5, and Gemini 3.1 Pro Preview with pass@1 scores up to 31.25%.",
-        "Reveals that current LLM outputs rely heavily on formal graphics code rather than clear diagram-mediated reasoning."
+        "Features job-separated agents for retrieval and reading tasks in document QA.",
+        "Reaches F1 47.5 on open-domain M3DocVQA with a self-hosted Qwen3.6-35B-A3B model.",
+        "Outperforms published RAG and GraphRAG results on MultiHop-RAG with 73.5 accuracy."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12954",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13128",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "MathVis: Can AI Reason through Drawing? A Benchmark for Math Figures",
-          "summary": "MathVis is a new benchmark designed to evaluate large language models on visualizing frontier mathematical problems and performing diagram-assisted reasoning. Consisting of 512 tasks with reference diagrams and executable code, evaluations show that top models achieve pass@1 scores between 22.85% and 31.25%. The study finds that LLM outputs remain dominated by formal languages rather than explicit diagram-mediated reasoning, often producing visually confusing results.",
+          "title": "KnowForge: Role-Specialized Tool Agents for Multimodal Document QA",
+          "summary": "KnowForge separates retrieval-augmented generation jobs into specialized agents including a Locator agent, a bridge judge, and a Deep Reader agent, achieving strong performance on M3DocVQA and MultiHop-RAG benchmarks.",
           "keyPoints": [
-            "Introduces MathVis, a 512-task benchmark for evaluating mathematical figure generation and visual reasoning.",
-            "Evaluates leading models like GPT-6-Astra, Claude Fable 5, and Gemini 3.1 Pro Preview with pass@1 scores up to 31.25%.",
-            "Reveals that current LLM outputs rely heavily on formal graphics code rather than clear diagram-mediated reasoning."
+            "Features job-separated agents for retrieval and reading tasks in document QA.",
+            "Reaches F1 47.5 on open-domain M3DocVQA with a self-hosted Qwen3.6-35B-A3B model.",
+            "Outperforms published RAG and GraphRAG results on MultiHop-RAG with 73.5 accuracy."
           ]
         },
         "fr": {
-          "title": "MathVis : l'IA peut-elle raisonner par le dessin ? Un benchmark mathématique",
-          "summary": "MathVis est un nouveau benchmark conçu pour évaluer la capacité des grands modèles de langage à visualiser des problèmes mathématiques et à effectuer un raisonnement assisté par diagramme. Composé de 512 tâches, il évalue des modèles de pointe obtenant des scores pass@1 entre 22,85 % et 31.25 %. L'étude montre que les sorties des IA sont dominées par des langages formels de graphisme plutôt que par un véritable raisonnement visuel explicite.",
+          "title": "KnowForge : Agents d'outils spécialisés pour la QA de documents multimodaux",
+          "summary": "KnowForge sépare les tâches de génération augmentée par récupération en agents spécialisés, atteignant de solides performances sur les benchmarks M3DocVQA et MultiHop-RAG.",
           "keyPoints": [
-            "Présente MathVis, un benchmark de 512 tâches pour évaluer la génération de figures mathématiques et le raisonnement visuel.",
-            "Évalue des modèles de pointe atteignant des scores pass@1 allant jusqu'à 31,25 %.",
-            "Révèle que les productions des modèles reposent davantage sur du code graphique formel que sur un raisonnement visuel clair."
+            "Propose des agents spécialisés pour les tâches de recherche et de lecture.",
+            "Atteint un score F1 de 47,5 sur M3DocVQA avec un modèle Qwen hébergé en interne.",
+            "Surpasse les résultats RAG publiés sur MultiHop-RAG avec une précision de 73,5."
           ]
         }
       },
@@ -236,75 +119,36 @@
       }
     },
     {
-      "id": "feed-3c0ea8efb29333",
-      "title": "SmartSalesBench: Evaluating LLM Sales Agents with Resistant Buyers",
-      "summary": "SmartSalesBench is the first multi-turn conversational benchmark designed to evaluate large language model sales agents against psychologically grounded, resistant buyer personas. Inverting assumptions of cooperative users, the benchmark features conversations lasting up to twenty turns across five agent profiles and twelve buyer personas. The evaluation combines automated LLM-as-judge scoring with human assessment.",
+      "id": "feed-c609c3ac34953c",
+      "title": "Anticipatory Generative Modeling for Road-Network Trajectories",
+      "summary": "To address limitations in urban trajectory generation, researchers introduce Foresight, a graph-constrained generative model utilizing an anticipate-select-update-re-anticipate loop for better intersection transition selection.",
       "keyPoints": [
-        "Presents SmartSalesBench, a multi-turn conversational benchmark evaluating LLM sales agents against resistant buyers.",
-        "Includes five agent profiles, twelve buyer personas, and fifteen products across six price tiers over 13,680 sessions.",
-        "Combines automated LLM-as-judge scoring with internal human assessment for robust validation."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12975",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SmartSalesBench: Evaluating LLM Sales Agents with Resistant Buyers",
-          "summary": "SmartSalesBench is the first multi-turn conversational benchmark designed to evaluate large language model sales agents against psychologically grounded, resistant buyer personas. Inverting assumptions of cooperative users, the benchmark features conversations lasting up to twenty turns across five agent profiles and twelve buyer personas. The evaluation combines automated LLM-as-judge scoring with human assessment.",
-          "keyPoints": [
-            "Presents SmartSalesBench, a multi-turn conversational benchmark evaluating LLM sales agents against resistant buyers.",
-            "Includes five agent profiles, twelve buyer personas, and fifteen products across six price tiers over 13,680 sessions.",
-            "Combines automated LLM-as-judge scoring with internal human assessment for robust validation."
-          ]
-        },
-        "fr": {
-          "title": "SmartSalesBench : Évaluation d'agents commerciaux virtuels face à des acheteurs résistants",
-          "summary": "SmartSalesBench est le premier benchmark conversationnel multi-tours conçu pour évaluer des agents commerciaux à base de grands modèles de langage face à des acheteurs résistants et psychologiquement ancrés. Contrairement aux benchmarks coopératifs, les conversations durent jusqu'à vingt tours. L'évaluation associe une notation automatisée par IA et une évaluation humaine.",
-          "keyPoints": [
-            "Présente SmartSalesBench, un benchmark conversationnel multi-tours pour agents commerciaux virtuels.",
-            "Intègre cinq profils d'agents, douze personas d'acheteurs et quinze produits sur 13 680 sessions.",
-            "Combine une notation automatisée par IA et une évaluation humaine pour garantir la robustesse des résultats."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-5eb56ffe342cbf",
-      "title": "Beyond Semantic IDs: Continuous-Query Generation in Generative Recommendation",
-      "summary": "Generative recommendation systems typically retrieve items by decoding discrete Semantic IDs using beam search. This work examines how this interface constrains returned items and introduces two continuous-query paradigms, CQG-Single and CQG-AR, which eliminate the discrete SID vocabulary and beam expansion. Both methods make items directly scoreable through dense retrieval, outperforming or matching strong baselines with fewer parameters.",
-      "keyPoints": [
-        "Examines how discrete Semantic IDs and finite-beam search constrain generative recommendation systems.",
-        "Introduces CQG-Single and CQG-AR continuous-query paradigms to remove discrete SID item-token vocabularies.",
-        "Demonstrates improved or comparable retrieval performance while utilizing significantly fewer trainable parameters."
+        "Shifts from location simulation to behavior modeling on road networks.",
+        "Introduces a generative model named Foresight for long-term route anticipation.",
+        "Outperforms state-of-the-art baselines in trajectory generation experiments."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12977",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13131",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Beyond Semantic IDs: Continuous-Query Generation in Generative Recommendation",
-          "summary": "Generative recommendation systems typically retrieve items by decoding discrete Semantic IDs using beam search. This work examines how this interface constrains returned items and introduces two continuous-query paradigms, CQG-Single and CQG-AR, which eliminate the discrete SID vocabulary and beam expansion. Both methods make items directly scoreable through dense retrieval, outperforming or matching strong baselines with fewer parameters.",
+          "title": "Anticipatory Generative Modeling for Road-Network Trajectories",
+          "summary": "To address limitations in urban trajectory generation, researchers introduce Foresight, a graph-constrained generative model utilizing an anticipate-select-update-re-anticipate loop for better intersection transition selection.",
           "keyPoints": [
-            "Examines how discrete Semantic IDs and finite-beam search constrain generative recommendation systems.",
-            "Introduces CQG-Single and CQG-AR continuous-query paradigms to remove discrete SID item-token vocabularies.",
-            "Demonstrates improved or comparable retrieval performance while utilizing significantly fewer trainable parameters."
+            "Shifts from location simulation to behavior modeling on road networks.",
+            "Introduces a generative model named Foresight for long-term route anticipation.",
+            "Outperforms state-of-the-art baselines in trajectory generation experiments."
           ]
         },
         "fr": {
-          "title": "Au-delà des ID sémantiques : génération de requêtes continues en recommandation générative",
-          "summary": "Les systèmes de recommandation générative récupèrent généralement des éléments en décodant des identifiants sémantiques discrets. Ce travail examine les contraintes de cette approche et introduit deux paradigmes de requêtes continues, CQG-Single et CQG-AR, qui éliminent le vocabulaire discret des identifiants. Les deux méthodes permettent de noter directement les éléments via une recherche dense, surpassant les bases de référence tout en utilisant moins de paramètres.",
+          "title": "Modélisation générative anticipative pour les trajectoires routières",
+          "summary": "Pour répondre aux limites de la génération de trajectoires urbaines, les chercheurs présentent Foresight, un modèle génératif contraint par graphe utilisant une boucle d'anticipation et de sélection.",
           "keyPoints": [
-            "Examine comment les ID sémantiques discrets contraignent les systèmes de recommandation générative.",
-            "Introduit les paradigmes de requêtes continues CQG-Single et CQG-AR pour s'affranchir des vocabulaires discrets.",
-            "Démontre des performances de récupération améliorées ou comparables avec moins de paramètres entraînables."
+            "Passe de la simulation de localisation à la modélisation comportementale sur réseaux routiers.",
+            "Introduit un modèle génératif nommé Foresight pour l'anticipation d'itinéraires.",
+            "Surpasse les références actuelles lors d'expériences de génération de trajectoires."
           ]
         }
       },
@@ -314,36 +158,75 @@
       }
     },
     {
-      "id": "feed-c1b31c8c05bd11",
-      "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skills",
-      "summary": "To address challenges when computer-use agents encounter unfamiliar software, the authors introduce Work2Skill, a framework capturing human GUI experience for reusable skill induction. Using WorkRecorder, they construct WorkDemo-350, a synchronized multimodal dataset of human desktop demonstrations. An agentic skill-induction method then produces reusable skills that improve task success rates across benchmark environments.",
+      "id": "feed-ba0f9462ae5fc6",
+      "title": "DP-MIND: Differentially Private Memory-Guided Long Context Inference",
+      "summary": "DP-MIND is a memory-guided framework that scales differentially private inference to million-token contexts by locally perturbing inputs and processing chunks with a compact memory optimized via reinforcement learning.",
       "keyPoints": [
-        "Introduces Work2Skill to capture human GUI interaction experience for reusable agent skill induction.",
-        "Constructs WorkDemo-350, a multimodal dataset of 350 synchronized human desktop GUI demonstrations.",
-        "Achieves consistent score and success rate improvements on MyPCBench and OSWorld-Verified benchmarks."
+        "Enables private long-context inference at the million-token scale.",
+        "Optimizes memory construction policies using reinforcement learning.",
+        "Outperforms existing differential privacy and long-context baselines in scalability and utility."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13132",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DP-MIND: Differentially Private Memory-Guided Long Context Inference",
+          "summary": "DP-MIND is a memory-guided framework that scales differentially private inference to million-token contexts by locally perturbing inputs and processing chunks with a compact memory optimized via reinforcement learning.",
+          "keyPoints": [
+            "Enables private long-context inference at the million-token scale.",
+            "Optimizes memory construction policies using reinforcement learning.",
+            "Outperforms existing differential privacy and long-context baselines in scalability and utility."
+          ]
+        },
+        "fr": {
+          "title": "DP-MIND : Inférence à long contexte guidée par la mémoire et différentiellement privée",
+          "summary": "DP-MIND est un cadre guidé par la mémoire qui met à l'échelle l'inférence privée à des contextes d'un million de jetons grâce à une perturbation locale et à une mémoire compacte optimisée.",
+          "keyPoints": [
+            "Permet une inférence privée à long contexte à l'échelle d'un million de jetons.",
+            "Optimise les politiques de construction de la mémoire par apprentissage par renforcement.",
+            "Surpasse les bases existantes en matière de confidentialité et de gestion de longs contextes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-bfe8ae07189841",
+      "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
+      "summary": "Researchers propose a two-stage competence-aware framework for multi-agent system orchestration that adapts role activation and communication graphs based on the backbone's competence for the current query.",
+      "keyPoints": [
+        "Proposes a two-stage framework for automatic multi-agent system orchestration.",
+        "Models task-conditioned competence to adapt communication graphs and role activation.",
+        "Improves accuracy while reducing token cost across multiple backbones and benchmarks."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12984",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13144",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skills",
-          "summary": "To address challenges when computer-use agents encounter unfamiliar software, the authors introduce Work2Skill, a framework capturing human GUI experience for reusable skill induction. Using WorkRecorder, they construct WorkDemo-350, a synchronized multimodal dataset of human desktop demonstrations. An agentic skill-induction method then produces reusable skills that improve task success rates across benchmark environments.",
+          "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
+          "summary": "Researchers propose a two-stage competence-aware framework for multi-agent system orchestration that adapts role activation and communication graphs based on the backbone's competence for the current query.",
           "keyPoints": [
-            "Introduces Work2Skill to capture human GUI interaction experience for reusable agent skill induction.",
-            "Constructs WorkDemo-350, a multimodal dataset of 350 synchronized human desktop GUI demonstrations.",
-            "Achieves consistent score and success rate improvements on MyPCBench and OSWorld-Verified benchmarks."
+            "Proposes a two-stage framework for automatic multi-agent system orchestration.",
+            "Models task-conditioned competence to adapt communication graphs and role activation.",
+            "Improves accuracy while reducing token cost across multiple backbones and benchmarks."
           ]
         },
         "fr": {
-          "title": "Work2Skill : Capturer l'expérience GUI humaine pour des compétences d'agents réutilisables",
-          "summary": "Pour aider les agents informatiques à naviguer dans des logiciels non familiers, les auteurs présentent Work2Skill, un cadre capturant l'expérience d'interface graphique humaine pour induire des compétences réutilisables. À l'aide de WorkRecorder, ils construisent WorkDemo-350, un ensemble de données multimodal synchronisé de démonstrations sur bureau. Cette méthode améliore les taux de réussite sur divers benchmarks.",
+          "title": "Orchestration sensible aux compétences pour les systèmes multi-agents à base de LLM",
+          "summary": "Des chercheurs proposent un cadre en deux étapes sensible aux compétences pour l'orchestration de systèmes multi-agents, adaptant l'activation des rôles en fonction de la requête.",
           "keyPoints": [
-            "Introduit Work2Skill pour capturer l'expérience d'interaction GUI humaine afin de créer des compétences d'agents réutilisables.",
-            "Construit WorkDemo-350, un jeu de données multimodal de 350 démonstrations de bureau synchronisées.",
-            "Améliore significativement les scores et les taux de réussite sur les benchmarks MyPCBench et OSWorld-Verified."
+            "Propose un cadre en deux étapes pour l'orchestration automatique de systèmes multi-agents.",
+            "Modélise la compétence conditionnée par la tâche pour adapter les graphes de communication.",
+            "Améliore la précision tout en réduisant le coût en jetons sur plusieurs benchmarks."
           ]
         }
       },
@@ -353,36 +236,36 @@
       }
     },
     {
-      "id": "feed-2e24bb1246e345",
-      "title": "Benchmarking Embedding Geometries for Unsupervised Patent Classification",
-      "summary": "This paper investigates whether an unsupervised representation trained on patent text can recover relevant connections that code-restricted search cannot, exploring hyperbolic space. Training hyperbolic and Euclidean VAEs on 45,000 US patents, the hyperbolic model retrieves genuinely cross-category prior art 52% more often than the Euclidean model. The study provides transparency metrics and checks on technology domains where the method is most valuable.",
+      "id": "feed-34dbc21467246d",
+      "title": "VIGOR: Verifiable Industrial Geometry Optimization in Scene Programs",
+      "summary": "Addressing the gap between executability and engineering feasibility in scene programs, VIGOR combines supervised generation with execution-grounded verification and staged geometric refinement to handle complex layout constraints.",
       "keyPoints": [
-        "Compares hyperbolic and Euclidean VAE representations for unsupervised patent claim classification and prior-art search.",
-        "Shows that the hyperbolic model retrieves cross-category prior art 52% more often than the Euclidean baseline.",
-        "Identifies classification breadth and subgroup density as predictive signals for determining method effectiveness."
+        "Identifies the executability-engineering-feasibility gap in industrial scene programs.",
+        "Introduces VIGOR, combining supervised generation, verification, and conflict-graph repair.",
+        "Achieves 96.86% Complete Feasibility on a newly constructed industrial dataset."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.12997",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13145",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Benchmarking Embedding Geometries for Unsupervised Patent Classification",
-          "summary": "This paper investigates whether an unsupervised representation trained on patent text can recover relevant connections that code-restricted search cannot, exploring hyperbolic space. Training hyperbolic and Euclidean VAEs on 45,000 US patents, the hyperbolic model retrieves genuinely cross-category prior art 52% more often than the Euclidean model. The study provides transparency metrics and checks on technology domains where the method is most valuable.",
+          "title": "VIGOR: Verifiable Industrial Geometry Optimization in Scene Programs",
+          "summary": "Addressing the gap between executability and engineering feasibility in scene programs, VIGOR combines supervised generation with execution-grounded verification and staged geometric refinement to handle complex layout constraints.",
           "keyPoints": [
-            "Compares hyperbolic and Euclidean VAE representations for unsupervised patent claim classification and prior-art search.",
-            "Shows that the hyperbolic model retrieves cross-category prior art 52% more often than the Euclidean baseline.",
-            "Identifies classification breadth and subgroup density as predictive signals for determining method effectiveness."
+            "Identifies the executability-engineering-feasibility gap in industrial scene programs.",
+            "Introduces VIGOR, combining supervised generation, verification, and conflict-graph repair.",
+            "Achieves 96.86% Complete Feasibility on a newly constructed industrial dataset."
           ]
         },
         "fr": {
-          "title": "Évaluation des géométries de plongement pour la classification de brevets non supervisée",
-          "summary": "Cet article étudie si une représentation non supervisée entraînée sur des textes de brevets peut identifier des connexions pertinentes inaccessibles aux recherches par codes. En entraînant des auto-encodeurs variationnels hyperboliques et euclidiens sur 45 000 brevets américains, le modèle hyperbolique récupère des antériorités trans-catégories 52 % plus souvent que le modèle euclidien, offrant de nouveaux repères pour la recherche d'antériorités.",
+          "title": "VIGOR : Optimisation de la géométrie industrielle vérifiable dans les programmes de scènes",
+          "summary": "Pour combler l'écart entre exécutabilité et faisabilité technique, VIGOR associe génération supervisée, vérification fondée sur l'exécution et raffinement géométrique étagé.",
           "keyPoints": [
-            "Compare des représentations VAE hyperboliques et euclidiennes pour la classification non supervisée de brevets.",
-            "Montre que le modèle hyperbolique récupère des brevets d'antériorité trans-catégories 52 % plus souvent.",
-            "Identifie l'étendue de la classification et la densité des sous-groupes comme indicateurs de performance."
+            "Identifie l'écart entre exécutabilité et faisabilité technique dans les programmes de scènes.",
+            "Introduit VIGOR pour combiner génération supervisée et réparation par graphe de conflits.",
+            "Atteint 96,86 % de faisabilité complète sur un nouveau jeu de données industriel."
           ]
         }
       },
@@ -392,153 +275,36 @@
       }
     },
     {
-      "id": "feed-990a9823b1d96f",
-      "title": "Hindsight Structured Advice Distillation for Language-Model Agents",
-      "summary": "This paper proposes hindsight structured advice distillation (HSAD) to steer executor agents using a small advisor model trained on failures and task characteristics. Without retraining the expensive closed or shared executor, the advisor generates dynamic input-specific guidance. On the FrontierFinance benchmark, an 8B advisor raises a proprietary research agent's qualification rate from 52.9% to 56.6% at a 37% lower cost per query.",
+      "id": "feed-3d39e111011767",
+      "title": "TQS: Structural Scoring Framework for Coding-Agent Trajectories",
+      "summary": "TQS is a linear-time structural scoring framework that evaluates coding-agent trajectory quality based on structure rather than final outcomes, enabling better dataset filtering for supervised fine-tuning.",
       "keyPoints": [
-        "HSAD uses a small advisor model to generate structured, input-specific advice appended to a frozen executor prompt.",
-        "The advisor is trained via supervised fine-tuning on teacher-generated advice derived from analyzing executor failures and task traces.",
-        "On FrontierFinance, an 8B advisor improves Samaya's proprietary research agent qualification rate from 52.9% to 56.6% with 37% lower query costs."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13000",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Hindsight Structured Advice Distillation for Language-Model Agents",
-          "summary": "This paper proposes hindsight structured advice distillation (HSAD) to steer executor agents using a small advisor model trained on failures and task characteristics. Without retraining the expensive closed or shared executor, the advisor generates dynamic input-specific guidance. On the FrontierFinance benchmark, an 8B advisor raises a proprietary research agent's qualification rate from 52.9% to 56.6% at a 37% lower cost per query.",
-          "keyPoints": [
-            "HSAD uses a small advisor model to generate structured, input-specific advice appended to a frozen executor prompt.",
-            "The advisor is trained via supervised fine-tuning on teacher-generated advice derived from analyzing executor failures and task traces.",
-            "On FrontierFinance, an 8B advisor improves Samaya's proprietary research agent qualification rate from 52.9% to 56.6% with 37% lower query costs."
-          ]
-        },
-        "fr": {
-          "title": "Distillation de conseils structurés a posteriori pour agents",
-          "summary": "Cet article propose la distillation de conseils structurés a posteriori (HSAD) pour guider des agents exécuteurs à l'aide d'un petit modèle conseiller formé sur les échecs. Sans réentraîner l'exécuteur, le conseiller génère des conseils dynamiques adaptés à chaque entrée. Sur le benchmark FrontierFinance, un conseiller 8B fait passer le taux de qualification d'un agent de recherche de 52,9 % à 56,6 % pour un coût inférieur de 37 %.",
-          "keyPoints": [
-            "HSAD utilise un petit modèle conseiller pour générer des conseils structurés ajoutés au prompt d'un exécuteur gelé.",
-            "Le conseiller est entraîné par apprentissage supervisé à partir de conseils d'enseignants basés sur l'analyse des échecs.",
-            "Sur FrontierFinance, un conseiller de 8B améliore l'agent de recherche de Samaya de 52,9 % à 56,6 % de réussite."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c22812f9b2beaa",
-      "title": "Scaling Empowered Agents through Skill Learning and Maximization",
-      "summary": "The authors explain the connection between skill learning and empowerment, introducing a scalable recipe for empowerment maximization where an agent reaches states that serve as good starting points for many executable skills. This approach scales empowerment to settings where theoretically predicted properties like gathering resources and building a house in Crafter emerge empirically.",
-      "keyPoints": [
-        "Empowerment measures an agent's capacity to actively control its environment and corresponds to reachable starting states for executable skills.",
-        "The introduced scalable recipe applies to arbitrary underlying skill learning methods beyond tabular settings.",
-        "Experiments demonstrate emergent properties such as building a house in Crafter."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13002",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Scaling Empowered Agents through Skill Learning and Maximization",
-          "summary": "The authors explain the connection between skill learning and empowerment, introducing a scalable recipe for empowerment maximization where an agent reaches states that serve as good starting points for many executable skills. This approach scales empowerment to settings where theoretically predicted properties like gathering resources and building a house in Crafter emerge empirically.",
-          "keyPoints": [
-            "Empowerment measures an agent's capacity to actively control its environment and corresponds to reachable starting states for executable skills.",
-            "The introduced scalable recipe applies to arbitrary underlying skill learning methods beyond tabular settings.",
-            "Experiments demonstrate emergent properties such as building a house in Crafter."
-          ]
-        },
-        "fr": {
-          "title": "Mise à l'échelle d'agents autonomes par l'apprentissage de compétences",
-          "summary": "Les auteurs expliquent le lien entre l'apprentissage de compétences et l'empowerment, introduisant une recette évolutive pour maximiser ce dernier en atteignant des états initiaux propices à de nombreuses compétences. Cette approche permet d'observer à grande échelle des propriétés émergentes telles que la collecte de ressources et la construction d'une maison dans Crafter.",
-          "keyPoints": [
-            "L'empowerment mesure la capacité d'un agent à contrôler activement son environnement à partir d'états exécutables.",
-            "La méthode proposée s'applique à des méthodes d'apprentissage de compétences arbitraires au-delà des contextes tabulaires.",
-            "Les expériences démontrent des propriétés émergentes comme la construction d'une maison dans Crafter."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-663ab8cc55c03e",
-      "title": "Provenance-Aware Belief Updating in Human-AI Feedback Loops",
-      "summary": "To address how repeated human-AI interactions can mistakenly treat single observations as independent corroborations, the authors introduce Latent Quotient Evidence Training (LQET). This relational objective combines sparse Bayesian supervision with constraints to ensure language models update beliefs according to evidence provenance rather than raw report count, reducing update error significantly.",
-      "keyPoints": [
-        "LQET combines sparse Bayesian supervision and constraints to track report lineage in human-AI feedback loops.",
-        "On a controlled binary benchmark, LQET reduces new-evidence update RMSE by 41-44% across Qwen3-4B and Phi-4-mini.",
-        "Log-odds drift after eight relay steps is reduced by 89-91% relative to standard task-only training."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13008",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Provenance-Aware Belief Updating in Human-AI Feedback Loops",
-          "summary": "To address how repeated human-AI interactions can mistakenly treat single observations as independent corroborations, the authors introduce Latent Quotient Evidence Training (LQET). This relational objective combines sparse Bayesian supervision with constraints to ensure language models update beliefs according to evidence provenance rather than raw report count, reducing update error significantly.",
-          "keyPoints": [
-            "LQET combines sparse Bayesian supervision and constraints to track report lineage in human-AI feedback loops.",
-            "On a controlled binary benchmark, LQET reduces new-evidence update RMSE by 41-44% across Qwen3-4B and Phi-4-mini.",
-            "Log-odds drift after eight relay steps is reduced by 89-91% relative to standard task-only training."
-          ]
-        },
-        "fr": {
-          "title": "Mise à jour des croyances basée sur la provenance dans les boucles",
-          "summary": "Pour contrer le fait que des interactions répétées transforment une observation unique en multiples rapports, les auteurs présentent le LQET. Cet objectif relationnel combine une supervision bayésienne et des contraintes pour que les modèles mettent à jour leurs croyances selon la provenance des preuves et non leur nombre, réduisant drastiquement l'erreur de mise à jour.",
-          "keyPoints": [
-            "Le LQET combine la supervision bayésienne et des contraintes pour suivre la traçabilité des rapports.",
-            "Sur un benchmark binaire, le LQET réduit le RMSE de mise à jour de 41 à 44 % pour Qwen3-4B et Phi-4-mini.",
-            "La dérive des log-cotes après huit étapes de relais chute de 89 à 91 % par rapport à l'entraînement standard."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-97aa05f1d051eb",
-      "title": "EmbodiedCLBench: Evaluating Continual Learning for Embodied Agents",
-      "summary": "The authors introduce EmbodiedCLBench, the first simulation benchmark for evaluating continual learning in self-evolving embodied agents. Using compositional generalization, the benchmark tests whether agents can combine basic skills to solve complex unseen tasks. Results show that basic experience helps stable improvement, but current agents fail to scale effectively with additional learning samples.",
-      "keyPoints": [
-        "EmbodiedCLBench evaluates continual learning and compositional generalization in self-evolving embodied simulation environments.",
-        "Experiments reveal that experience from basic tasks consistently improves performance on advanced tasks.",
-        "Current agents fail to scale their improvements properly when provided with increasing numbers of learning samples."
+        "Introduces Trajectory Quality Score (TQS) to evaluate coding-agent interaction patterns.",
+        "Operates in linear time without requiring an LLM judge.",
+        "Models trained on top-ranked trajectories outperform those trained on random subsets on SWE-Bench-Verified."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13021",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13152",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "EmbodiedCLBench: Evaluating Continual Learning for Embodied Agents",
-          "summary": "The authors introduce EmbodiedCLBench, the first simulation benchmark for evaluating continual learning in self-evolving embodied agents. Using compositional generalization, the benchmark tests whether agents can combine basic skills to solve complex unseen tasks. Results show that basic experience helps stable improvement, but current agents fail to scale effectively with additional learning samples.",
+          "title": "TQS: Structural Scoring Framework for Coding-Agent Trajectories",
+          "summary": "TQS is a linear-time structural scoring framework that evaluates coding-agent trajectory quality based on structure rather than final outcomes, enabling better dataset filtering for supervised fine-tuning.",
           "keyPoints": [
-            "EmbodiedCLBench evaluates continual learning and compositional generalization in self-evolving embodied simulation environments.",
-            "Experiments reveal that experience from basic tasks consistently improves performance on advanced tasks.",
-            "Current agents fail to scale their improvements properly when provided with increasing numbers of learning samples."
+            "Introduces Trajectory Quality Score (TQS) to evaluate coding-agent interaction patterns.",
+            "Operates in linear time without requiring an LLM judge.",
+            "Models trained on top-ranked trajectories outperform those trained on random subsets on SWE-Bench-Verified."
           ]
         },
         "fr": {
-          "title": "EmbodiedCLBench : Évaluation de l'apprentissage continu pour agents",
-          "summary": "Les auteurs présentent EmbodiedCLBench, le premier benchmark de simulation pour évaluer l'apprentissage continu d'agents incarnés autonomes. Basé sur la généralisation compositionnelle, il teste si les agents peuvent combiner des compétences de base pour résoudre des tâches complexes. Les résultats montrent que l'expérience de base aide, mais que les agents actuels ne gèrent pas l'échelle d'échantillons supplémentaires.",
+          "title": "TQS : Cadre de notation structurelle pour les trajectoires d'agents de codage",
+          "summary": "TQS est un cadre de notation structurelle en temps linéaire qui évalue la qualité des trajectoires des agents de codage en fonction de leur structure et non seulement des résultats finaux.",
           "keyPoints": [
-            "EmbodiedCLBench évalue l'apprentissage continu et la généralisation compositionnelle dans des environnements incarnés.",
-            "Les expériences révèlent que l'expérience des tâches de base améliore constamment les tâches avancées.",
-            "Les agents actuels ne parviennent pas à adapter leurs performances à un grand nombre d'échantillons d'apprentissage."
+            "Introduit le score de qualité de trajectoire (TQS) pour évaluer les interactions de codage.",
+            "Fonctionne en temps linéaire sans nécessiter de juge LLM.",
+            "Améliore les performances des modèles formés sur des sous-ensembles filtrés par rapport à SWE-Bench-Verified."
           ]
         }
       },
@@ -548,36 +314,36 @@
       }
     },
     {
-      "id": "feed-191d228d683329",
-      "title": "ReTRAIL: Retrospective Exploration and Evolving for Long Horizon Agents",
-      "summary": "ReTRAIL is a framework enabling long-horizon agents to rewind environment states to earlier points while preserving progress and carrying forward knowledge from abandoned exploration branches. Using State-Anchored GRPO and branch-advancement rewards, ReTRAIL helps agents recover from dead-end trajectories across interactive benchmarks like MineSweeper, Sokoban, ALFWorld, and ScienceWorld.",
+      "id": "feed-d32699b75785ca",
+      "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Roles",
+      "summary": "RoleWorld is a symbolic world modeling approach utilizing reusable prototypes and environment-specific parameters as functional role abstractions, enabling robust knowledge transfer and generalization across different environments.",
       "keyPoints": [
-        "ReTRAIL allows agents to rewind environments to prior valid states while keeping accumulated exploration knowledge.",
-        "It trains a shared policy using State-Anchored GRPO and branch-advancement rewards for structured reflection.",
-        "Experiments across MineSweeper, Sokoban, ALFWorld, and ScienceWorld demonstrate successful recovery from dead-end trajectories."
+        "Introduces RoleWorld for knowledge transfer using functional role abstractions.",
+        "Extracts role prototypes and executable transition rules from interaction trajectories.",
+        "Demonstrates robust generalization on the MARS benchmark with significantly altered object behavior."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13058",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13172",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ReTRAIL: Retrospective Exploration and Evolving for Long Horizon Agents",
-          "summary": "ReTRAIL is a framework enabling long-horizon agents to rewind environment states to earlier points while preserving progress and carrying forward knowledge from abandoned exploration branches. Using State-Anchored GRPO and branch-advancement rewards, ReTRAIL helps agents recover from dead-end trajectories across interactive benchmarks like MineSweeper, Sokoban, ALFWorld, and ScienceWorld.",
+          "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Roles",
+          "summary": "RoleWorld is a symbolic world modeling approach utilizing reusable prototypes and environment-specific parameters as functional role abstractions, enabling robust knowledge transfer and generalization across different environments.",
           "keyPoints": [
-            "ReTRAIL allows agents to rewind environments to prior valid states while keeping accumulated exploration knowledge.",
-            "It trains a shared policy using State-Anchored GRPO and branch-advancement rewards for structured reflection.",
-            "Experiments across MineSweeper, Sokoban, ALFWorld, and ScienceWorld demonstrate successful recovery from dead-end trajectories."
+            "Introduces RoleWorld for knowledge transfer using functional role abstractions.",
+            "Extracts role prototypes and executable transition rules from interaction trajectories.",
+            "Demonstrates robust generalization on the MARS benchmark with significantly altered object behavior."
           ]
         },
         "fr": {
-          "title": "ReTRAIL : Exploration rétrospective pour agents à long horizon",
-          "summary": "ReTRAIL est un cadre permettant aux agents à long horizon de rembobiner l'environnement vers des états antérieurs tout en préservant leurs progrès et en réutilisant les connaissances d'explorations abandonnées. Grâce au GRPO ancré sur l'état et à des récompenses d'avancement de branche, ReTRAIL aide les agents à récupérer face à des impasses sur des benchmarks interactifs.",
+          "title": "RoleWorld : Transfert de connaissances dans la modélisation du monde par rôles fonctionnels",
+          "summary": "RoleWorld est une approche symbolique de modélisation du monde utilisant des prototypes réévaluables comme abstractions de rôles fonctionnels pour permettre un transfert de connaissances robuste.",
           "keyPoints": [
-            "ReTRAIL permet de rembobiner l'environnement vers des états valides tout en conservant les connaissances acquises.",
-            "Il entraîne une politique partagée combinant GRPO ancré sur l'état et récompenses d'avancement de branche.",
-            "Les expériences sur MineSweeper, Sokoban, ALFWorld et ScienceWorld montrent une récupération efficace des impasses."
+            "Introduit RoleWorld pour le transfert de connaissances basé sur des rôles fonctionnels.",
+            "Extrait des prototypes de rôles et des règles de transition exécutables à partir de trajectoires.",
+            "Démontre une généralisation robuste sur le benchmark MARS avec des comportements d'objets modifiés."
           ]
         }
       },
@@ -587,204 +353,438 @@
       }
     },
     {
-      "id": "feed-b6bf0fdfa270c5",
-      "title": "LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora",
-      "summary": "LongHarness is a model-agnostic harness addressing corpus-level long-context reasoning failures like unbounded exploration and evidence-state drift. By implementing Evidence-Conclusion Coevolution and Evidence Lifecycle Management, LongHarness makes explicit the link between evidence and conclusions. It significantly outperforms baseline models and existing agent harnesses like Claude Code and Codex on long-context datasets.",
+      "id": "feed-3e6c7158193e99",
+      "title": "AdaC-GRPO: Mastering Long-Horizon Visual Sudoku via Adaptive Curriculum",
+      "summary": "To address reward sparsity in long-horizon multimodal tasks, researchers introduce FG-Sudoku and AdaC-GRPO, an adaptive curriculum reinforcement learning method that tracks training progress via online rollout accuracy.",
       "keyPoints": [
-        "LongHarness uses Evidence-Conclusion Coevolution to guide exploration toward missing information using unresolved conclusions.",
-        "Evidence Lifecycle Management keeps accumulated evidence current and traceable throughout interaction histories.",
-        "It improves GLM-5.3-Flash exact match on OfficeQA Pro V1 from 15.8% to 60.2%, outperforming Claude Code and Codex."
+        "Introduces FG-Sudoku, a fine-grained benchmark for visual Sudoku puzzles.",
+        "Proposes Adaptive Curriculum Group Relative Policy Optimization (AdaC-GRPO).",
+        "Enables Qwen2.5-VL-7B to approach Gemini-2.5-Flash performance and bridge the gap to Gemini-2.5-Pro."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13184",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AdaC-GRPO: Mastering Long-Horizon Visual Sudoku via Adaptive Curriculum",
+          "summary": "To address reward sparsity in long-horizon multimodal tasks, researchers introduce FG-Sudoku and AdaC-GRPO, an adaptive curriculum reinforcement learning method that tracks training progress via online rollout accuracy.",
+          "keyPoints": [
+            "Introduces FG-Sudoku, a fine-grained benchmark for visual Sudoku puzzles.",
+            "Proposes Adaptive Curriculum Group Relative Policy Optimization (AdaC-GRPO).",
+            "Enables Qwen2.5-VL-7B to approach Gemini-2.5-Flash performance and bridge the gap to Gemini-2.5-Pro."
+          ]
+        },
+        "fr": {
+          "title": "AdaC-GRPO : Maîtrise du Sudoku visuel à long horizon via un programme adaptatif",
+          "summary": "Pour surmonter la rareté des récompenses dans les tâches multimodales à long horizon, les chercheurs présentent FG-Sudoku et AdaC-GRPO, une méthode d'apprentissage par renforcement à curriculum adaptatif.",
+          "keyPoints": [
+            "Introduit FG-Sudoku, un benchmark granulaire pour les puzzles de Sudoku visuel.",
+            "Propose AdaC-GRPO pour gérer l'optimisation des politiques de groupe par curriculum adaptatif.",
+            "Permet à Qwen2.5-VL-7B de se rapprocher des performances de Gemini-2.5-Flash."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ff469b4c8e0c86",
+      "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
+      "summary": "The paper introduces JANUS, a framework designed to improve long-horizon autonomous research by uniting future outcome forecasting and past experience reflection through a Predict-Verify-Evolve loop. Driven by a co-evolving world model, the agent proposes and evaluates candidates prior to execution, distilling experience into hierarchical and exploration-strategy skills to achieve higher efficiency and ceiling.",
+      "keyPoints": [
+        "Unifies forecasting and reflection via a Predict-Verify-Evolve loop driven by a world model.",
+        "Evaluates and filters candidate research branches prior to costly executions.",
+        "Distills ground-truth feedback into evolving hierarchical and exploration skills."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13194",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
+          "summary": "The paper introduces JANUS, a framework designed to improve long-horizon autonomous research by uniting future outcome forecasting and past experience reflection through a Predict-Verify-Evolve loop. Driven by a co-evolving world model, the agent proposes and evaluates candidates prior to execution, distilling experience into hierarchical and exploration-strategy skills to achieve higher efficiency and ceiling.",
+          "keyPoints": [
+            "Unifies forecasting and reflection via a Predict-Verify-Evolve loop driven by a world model.",
+            "Evaluates and filters candidate research branches prior to costly executions.",
+            "Distills ground-truth feedback into evolving hierarchical and exploration skills."
+          ]
+        },
+        "fr": {
+          "title": "JANUS : Améliorer la recherche autonome à long terme avec des modèles du monde co-évolutifs",
+          "summary": "L'article présente JANUS, un cadre visant à améliorer la recherche autonome à long terme en unissant la prévision des résultats futurs et la réflexion sur l'expérience passée via une boucle de prédiction, de vérification et d'évolution. Piloté par un modèle du monde co-évolutif, l'agent évalue les candidats avant l'exécution pour atteindre une efficacité supérieure.",
+          "keyPoints": [
+            "Unifie la prévision et la réflexion via une boucle de prédiction, vérification et évolution.",
+            "Évalue et filtre les branches de recherche candidates avant les exécutions coûteuses.",
+            "Transforme les retours de vérité terrain en compétences hiérarchiques et d'exploration évolutives."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0cc7f3aa891c86",
+      "title": "DREAM: Neuro-Inspired Memory Repair for Poisoned LLM Agents",
+      "summary": "To combat memory-poisoning attacks in LLM agents without high computational overhead, the authors propose DREAM, a training-free framework inspired by neuroscientific forgetting mechanisms. DREAM uses perturbation-induced reactivation and adaptive anomaly diagnosis to selectively suppress malicious memories while preserving benign utility, achieving significant speedups and robustness.",
+      "keyPoints": [
+        "Introduces a neuro-inspired, training-free memory repair framework named DREAM.",
+        "Reduces backdoor poisoning attack success rates by over 95% while keeping benign utility strong.",
+        "Achieves up to 2.13x speedup and 37.7% reduction in token consumption."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13267",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DREAM: Neuro-Inspired Memory Repair for Poisoned LLM Agents",
+          "summary": "To combat memory-poisoning attacks in LLM agents without high computational overhead, the authors propose DREAM, a training-free framework inspired by neuroscientific forgetting mechanisms. DREAM uses perturbation-induced reactivation and adaptive anomaly diagnosis to selectively suppress malicious memories while preserving benign utility, achieving significant speedups and robustness.",
+          "keyPoints": [
+            "Introduces a neuro-inspired, training-free memory repair framework named DREAM.",
+            "Reduces backdoor poisoning attack success rates by over 95% while keeping benign utility strong.",
+            "Achieves up to 2.13x speedup and 37.7% reduction in token consumption."
+          ]
+        },
+        "fr": {
+          "title": "DREAM : Réparation de mémoire neuro-inspirée pour agents LLM empoisonnés",
+          "summary": "Pour contrer les attaques par empoisonnement de mémoire dans les agents LLM sans surcoût de calcul, les auteurs proposent DREAM, un cadre sans entraînement inspiré des mécanismes d'oubli neuroscientifiques. DREAM supprime sélectivement les mémoires malveillantes tout en préservant l'utilité bénigne.",
+          "keyPoints": [
+            "Introduit un cadre de réparation de mémoire sans entraînement et neuro-inspiré nommé DREAM.",
+            "Réduit les taux de réussite des attaques de plus de 95 % tout en préservant l'utilité.",
+            "Atteint jusqu'à 2,13x d'accélération et une réduction de 37,7 % de la consommation de jetons."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c176f7076321d2",
+      "title": "BoundaryEvo: Data-Model Co-Evolution for Long-Chain Reasoning Distillation",
+      "summary": "BoundaryEvo is a two-stage data-model co-evolution framework for distilling long-chain reasoning into small language models. By initially priming basic capabilities and subsequently adapting training data to the student's evolving capability boundary, the method consistently outperforms baselines across multiple reasoning benchmarks using minimal training examples.",
+      "keyPoints": [
+        "Employs a two-stage framework: capability priming and capability-boundary co-evolution.",
+        "Adapts the training data dynamically to the evolving capability boundary of the student.",
+        "Improves Qwen3.5-4B performance significantly on complex benchmarks with only 1,000 examples."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13285",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "BoundaryEvo: Data-Model Co-Evolution for Long-Chain Reasoning Distillation",
+          "summary": "BoundaryEvo is a two-stage data-model co-evolution framework for distilling long-chain reasoning into small language models. By initially priming basic capabilities and subsequently adapting training data to the student's evolving capability boundary, the method consistently outperforms baselines across multiple reasoning benchmarks using minimal training examples.",
+          "keyPoints": [
+            "Employs a two-stage framework: capability priming and capability-boundary co-evolution.",
+            "Adapts the training data dynamically to the evolving capability boundary of the student.",
+            "Improves Qwen3.5-4B performance significantly on complex benchmarks with only 1,000 examples."
+          ]
+        },
+        "fr": {
+          "title": "BoundaryEvo : Co-évolution données-modèle pour la distillation du raisonnement à longue chaîne",
+          "summary": "BoundaryEvo est un cadre de co-évolution de données et de modèles en deux étapes pour distiller le raisonnement à longue chaîne dans de petits modèles de langage. En amorçant les capacités de base puis en adaptant les données d'entraînement, la méthode surpasse les bases de référence.",
+          "keyPoints": [
+            "Utilise un cadre en deux étapes : amorçage des capacités et co-évolution aux frontières.",
+            "Adapte dynamiquement les données d'entraînement à la frontière de capacité évolutive de l'étudiant.",
+            "Améliore considérablement les performances de Qwen3.5-4B avec seulement 1 000 exemples."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f29f58ee0624f1",
+      "title": "ChemDiffAgent: Masked Diffusion Language Agents for Chemical Reasoning",
+      "summary": "ChemDiffAgent reformulates chemical reasoning as iterative denoising over interleaved reasoning and tool-use trajectories using a masked diffusion language agent paradigm. This design overcomes causal attention limitations, enabling better bidirectional molecular understanding and outperforming autoregressive agents across complex chemical benchmarks.",
+      "keyPoints": [
+        "Introduces the first masked diffusion language agent for tool-integrated chemical reasoning.",
+        "Reformulates reasoning as iterative denoising to enable flexible arbitrary-order decoding.",
+        "Achieves an overall performance improvement of roughly 20% compared to autoregressive agents."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13330",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ChemDiffAgent: Masked Diffusion Language Agents for Chemical Reasoning",
+          "summary": "ChemDiffAgent reformulates chemical reasoning as iterative denoising over interleaved reasoning and tool-use trajectories using a masked diffusion language agent paradigm. This design overcomes causal attention limitations, enabling better bidirectional molecular understanding and outperforming autoregressive agents across complex chemical benchmarks.",
+          "keyPoints": [
+            "Introduces the first masked diffusion language agent for tool-integrated chemical reasoning.",
+            "Reformulates reasoning as iterative denoising to enable flexible arbitrary-order decoding.",
+            "Achieves an overall performance improvement of roughly 20% compared to autoregressive agents."
+          ]
+        },
+        "fr": {
+          "title": "ChemDiffAgent : Agents de langage à diffusion masquée pour le raisonnement chimique",
+          "summary": "ChemDiffAgent reformule le raisonnement chimique comme un débruitage itératif sur des trajectoires entrelacées en utilisant un paradigme d'agent de langage à diffusion masquée. Cette conception surmonte les limites de l'attention causale et surpasse les agents autorégressifs.",
+          "keyPoints": [
+            "Présente le premier agent de langage à diffusion masquée pour le raisonnement chimique.",
+            "Reformule le raisonnement en débruitage itératif pour un décodage flexible.",
+            "Réalise une amélioration globale des performances d'environ 20 % par rapport aux agents autorégressifs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f5aefb680b3b6d",
+      "title": "AlphaNIST: Emergent Assembly Skills from Binary Task Rewards",
+      "summary": "AlphaNIST investigates whether sparse binary task rewards can enable a robot to discover assembly strategies from scratch on the NIST Assembly Task Board #1. Training a single policy without demonstrations or task-specific tuning, the framework achieves high success rates while discovering dexterous and planning-like behaviors.",
+      "keyPoints": [
+        "Trains a single policy across all 20 NIST assembly tasks using sparse binary rewards.",
+        "Reaches 98.2% training success without demonstrations, progress shaping, or scripted primitives.",
+        "Discovers complex dexterous and planning-like behaviors without explicit planners."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13354",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AlphaNIST: Emergent Assembly Skills from Binary Task Rewards",
+          "summary": "AlphaNIST investigates whether sparse binary task rewards can enable a robot to discover assembly strategies from scratch on the NIST Assembly Task Board #1. Training a single policy without demonstrations or task-specific tuning, the framework achieves high success rates while discovering dexterous and planning-like behaviors.",
+          "keyPoints": [
+            "Trains a single policy across all 20 NIST assembly tasks using sparse binary rewards.",
+            "Reaches 98.2% training success without demonstrations, progress shaping, or scripted primitives.",
+            "Discovers complex dexterous and planning-like behaviors without explicit planners."
+          ]
+        },
+        "fr": {
+          "title": "AlphaNIST : Compétences d'assemblage émergentes à partir de récompenses de tâches binaires",
+          "summary": "AlphaNIST étudie si des récompenses de tâches binaires éparses peuvent permettre à un robot de découvrir des stratégies d'assemblage à partir de zéro sur le panneau de tâches NIST #1. En entraînant une politique unique, le cadre atteint des taux de réussite élevés.",
+          "keyPoints": [
+            "Entraîne une politique unique sur les 20 tâches d'assemblage NIST avec des récompenses binaires.",
+            "Atteint 98,2 % de réussite à l'entraînement sans démonstrations ni guidage préalable.",
+            "Découvre des comportements de planification complexes sans planificateur explicite."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9a1b6f9e9bfc28",
+      "title": "SWE-Critix: Post-Training Generalist Verifiers for Coding-Agent Trajectories",
+      "summary": "SWE-Critix is a post-training pipeline combining supervised fine-tuning and reinforcement learning to build generalist verifiers for coding-agent trajectories. Trained on code repository interaction data, the models predict task completion labels and generate natural-language explanations, significantly improving classification accuracy.",
+      "keyPoints": [
+        "Introduces a post-training pipeline for generalist verifiers of coding-agent trajectories.",
+        "Combines supervised fine-tuning with reinforcement learning on 30B model architectures.",
+        "Improves trajectory evaluation classification accuracy from 57% to 78% on held-out test sets."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13356",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SWE-Critix: Post-Training Generalist Verifiers for Coding-Agent Trajectories",
+          "summary": "SWE-Critix is a post-training pipeline combining supervised fine-tuning and reinforcement learning to build generalist verifiers for coding-agent trajectories. Trained on code repository interaction data, the models predict task completion labels and generate natural-language explanations, significantly improving classification accuracy.",
+          "keyPoints": [
+            "Introduces a post-training pipeline for generalist verifiers of coding-agent trajectories.",
+            "Combines supervised fine-tuning with reinforcement learning on 30B model architectures.",
+            "Improves trajectory evaluation classification accuracy from 57% to 78% on held-out test sets."
+          ]
+        },
+        "fr": {
+          "title": "SWE-Critix : Vérificateurs généralistes post-entraînement pour les trajectoires d'agents de codage",
+          "summary": "SWE-Critix est un pipeline de post-entraînement combinant un réglage fin supervisé et l'apprentissage par renforcement pour créer des vérificateurs généralistes de trajectoires d'agents de codage. Les modèles prédisent l'achèvement des tâches et génèrent des explications en langage naturel.",
+          "keyPoints": [
+            "Introduit un pipeline de post-entraînement pour des vérificateurs généralistes de code.",
+            "Combine réglage fin supervisé et apprentissage par renforcement sur des modèles de 30B.",
+            "Améliore la précision de la classification des trajectoires de 57 % à 78 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-781175b9c814b9",
+      "title": "RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning",
+      "summary": "RegulaTutor is a theory-informed framework for long-term personalized tutoring grounded in self-regulated learning and CAMM principles. It connects historical learner data to explicit instructional policies, supported by an offline procedure called PairRoute that diagnoses harness and model errors to refine performance.",
+      "keyPoints": [
+        "Implements a cognitive, affective, metacognitive, and motivational pedagogical framework.",
+        "Uses an offline refinement procedure named PairRoute to systematically identify and fix errors.",
+        "Improves historical-evidence accuracy, learner diagnosis, and overall teaching quality."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13399",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning",
+          "summary": "RegulaTutor is a theory-informed framework for long-term personalized tutoring grounded in self-regulated learning and CAMM principles. It connects historical learner data to explicit instructional policies, supported by an offline procedure called PairRoute that diagnoses harness and model errors to refine performance.",
+          "keyPoints": [
+            "Implements a cognitive, affective, metacognitive, and motivational pedagogical framework.",
+            "Uses an offline refinement procedure named PairRoute to systematically identify and fix errors.",
+            "Improves historical-evidence accuracy, learner diagnosis, and overall teaching quality."
+          ]
+        },
+        "fr": {
+          "title": "RegulaTutor : Un cadre théorique pour l'apprentissage personnalisé à long terme",
+          "summary": "RegulaTutor est un cadre théorique pour le tutorat personnalisé à long terme ancré dans l'apprentissage auto-régulé. Il relie les données historiques des apprenants à des politiques pédagogiques explicites, soutenues par une procédure hors ligne nommée PairRoute.",
+          "keyPoints": [
+            "Met en œuvre un cadre pédagogique cognitif, affectif, métacognitif et motivationnel.",
+            "Utilise une procédure de raffinement hors ligne nommée PairRoute pour corriger les erreurs.",
+            "Améliore la précision des preuves historiques, le diagnostic des apprenants et la qualité de l'enseignement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-af64a0a381728d",
+      "title": "Web$hell: A Unified Interface for Agentic Web Access",
+      "summary": "Web$hell is a unified interface that consolidates search, browser actions, and filesystem access for LLM agents under a single model. By compiling live webpages into addressable information and action objects through WebContract and WebCache, the framework provides persistent and efficient agentic web access at lower costs.",
+      "keyPoints": [
+        "Unifies search, browser navigation, and deep research into a single access interface.",
+        "Compiles live webpages into addressable objects via WebContract and WebCache.",
+        "Achieves strong task performance and cost efficiency across multiple web benchmarks."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13075",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13416",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora",
-          "summary": "LongHarness is a model-agnostic harness addressing corpus-level long-context reasoning failures like unbounded exploration and evidence-state drift. By implementing Evidence-Conclusion Coevolution and Evidence Lifecycle Management, LongHarness makes explicit the link between evidence and conclusions. It significantly outperforms baseline models and existing agent harnesses like Claude Code and Codex on long-context datasets.",
+          "title": "Web$hell: A Unified Interface for Agentic Web Access",
+          "summary": "Web$hell is a unified interface that consolidates search, browser actions, and filesystem access for LLM agents under a single model. By compiling live webpages into addressable information and action objects through WebContract and WebCache, the framework provides persistent and efficient agentic web access at lower costs.",
           "keyPoints": [
-            "LongHarness uses Evidence-Conclusion Coevolution to guide exploration toward missing information using unresolved conclusions.",
-            "Evidence Lifecycle Management keeps accumulated evidence current and traceable throughout interaction histories.",
-            "It improves GLM-5.3-Flash exact match on OfficeQA Pro V1 from 15.8% to 60.2%, outperforming Claude Code and Codex."
+            "Unifies search, browser navigation, and deep research into a single access interface.",
+            "Compiles live webpages into addressable objects via WebContract and WebCache.",
+            "Achieves strong task performance and cost efficiency across multiple web benchmarks."
           ]
         },
         "fr": {
-          "title": "LongHarness : Raisonnement agentique sur des corpus de 100M de tokens",
-          "summary": "LongHarness est un framework agnostique qui résout les problèmes de raisonnement sur de longs contextes, tels que l'exploration non bornée. En associant la coévolution preuve-conclusion et la gestion du cycle de vie des preuves, LongHarness explicite le lien entre les éléments trouvés et les conclusions. Il surpasse largement les modèles de base et des agents comme Claude Code et Codex.",
+          "title": "Web$hell : Une interface unifiée pour l'accès web agentique",
+          "summary": "Web$hell est une interface unifiée qui regroupe la recherche, les actions de navigation et l'accès au système de fichiers pour les agents LLM sous un modèle unique. En compilant des pages web en objets d'information, le cadre offre un accès web persistant et efficace.",
           "keyPoints": [
-            "LongHarness utilise la coévolution preuve-conclusion pour guider l'exploration vers les informations manquantes.",
-            "La gestion du cycle de vie des preuves garde les éléments recueillis à jour et traçables.",
-            "Il améliore la correspondance exacte de GLM-5.3-Flash sur OfficeQA Pro V1 de 15,8 % à 60,2 %."
+            "Unifie la recherche, la navigation web et la recherche approfondie en une seule interface.",
+            "Compile les pages web en objets adressables via WebContract et WebCache.",
+            "Atteint de fortes performances et une efficacité des coûts sur plusieurs benchmarks web."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-f4734edbfc4b22",
-      "title": "Tracing the Attention-to-MLP Safety Pathway in LLMs",
-      "summary": "This work analyzes safety-aligned LLM vulnerabilities by tracing the attention-to-MLP safety pathway, separating harmfulness perception from refusal generation. Experiments across 18 Base-Instruct pairs show attention updates encode harmfulness while MLP updates drive refusal writing. The authors introduce Sentinel, combining attention and MLP signals to reduce overall error rates in handling jailbreaks and over-refusals.",
+      "id": "feed-1c95b54b4bccfe",
+      "title": "Local Diagnostics of Learned Event Representations for Anomaly Detection at the HL-LHC",
+      "summary": "This work evaluates neural embedding strategies for anomaly detection at the High-Luminosity Large Hadron Collider using the COLLIDE-2V dataset. Findings show that supervised objectives outperform self-supervised counterparts, and a local diagnostic pipeline using Gaussian Mixture Models effectively recovers defining kinematics of new physics processes.",
       "keyPoints": [
-        "Harmfulness is decoded more readily from early attention updates, whereas MLP updates contribute strongly to harm-selective refusal writing.",
-        "Post-training strengthens MLP refusal writing in deeper layers without systematically improving harmfulness decodability.",
-        "Sentinel combines attention-derived perception and MLP-derived decision scores to lower aggregate jailbreak and over-refusal errors."
+        "Evaluates neural embedding strategies on a 750-million-event LHC collision dataset.",
+        "Demonstrates that supervised training objectives outperform self-supervised autoencoders.",
+        "Introduces a local diagnostic pipeline using Gaussian Mixture Models to rank discriminating observables."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13078",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13437",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Tracing the Attention-to-MLP Safety Pathway in LLMs",
-          "summary": "This work analyzes safety-aligned LLM vulnerabilities by tracing the attention-to-MLP safety pathway, separating harmfulness perception from refusal generation. Experiments across 18 Base-Instruct pairs show attention updates encode harmfulness while MLP updates drive refusal writing. The authors introduce Sentinel, combining attention and MLP signals to reduce overall error rates in handling jailbreaks and over-refusals.",
+          "title": "Local Diagnostics of Learned Event Representations for Anomaly Detection at the HL-LHC",
+          "summary": "This work evaluates neural embedding strategies for anomaly detection at the High-Luminosity Large Hadron Collider using the COLLIDE-2V dataset. Findings show that supervised objectives outperform self-supervised counterparts, and a local diagnostic pipeline using Gaussian Mixture Models effectively recovers defining kinematics of new physics processes.",
           "keyPoints": [
-            "Harmfulness is decoded more readily from early attention updates, whereas MLP updates contribute strongly to harm-selective refusal writing.",
-            "Post-training strengthens MLP refusal writing in deeper layers without systematically improving harmfulness decodability.",
-            "Sentinel combines attention-derived perception and MLP-derived decision scores to lower aggregate jailbreak and over-refusal errors."
+            "Evaluates neural embedding strategies on a 750-million-event LHC collision dataset.",
+            "Demonstrates that supervised training objectives outperform self-supervised autoencoders.",
+            "Introduces a local diagnostic pipeline using Gaussian Mixture Models to rank discriminating observables."
           ]
         },
         "fr": {
-          "title": "Traçage du parcours de sécurité attention-MLP dans les grands modèles",
-          "summary": "Cette étude analyse les vulnérabilités des LLM alignés en séparant la perception de la nocivité de la génération de refus à travers le parcours attention-MLP. Les expériences sur 18 paires Base-Instruct montrent que l'attention encode la nocivité tandis que le MLP rédige le refus. Les auteurs présentent Sentinel, qui combine ces signaux pour réduire les erreurs de contournement et de sur-refus.",
+          "title": "Diagnostics locaux de représentations d'événements pour la détection d'anomalies au HL-LHC",
+          "summary": "Ce travail évalue les stratégies d'intégration neuronale pour la détection d'anomalies au Grand collisionneur de hadrons à haute luminosité. Les résultats montrent que les objectifs supervisés surpassent les approches auto-supervisées, et qu'un pipeline de diagnostic local identifie efficacement la physique nouvelle.",
           "keyPoints": [
-            "La nocivité est décodée plus facilement via les mises à jour de l'attention, tandis que le MLP gère la rédaction des refus.",
-            "Le post-entraînement renforce l'écriture des refus par les MLP dans les couches plus profondes.",
-            "Sentinel combine des scores de perception (attention) et de décision (MLP) pour limiter les erreurs de sécurité."
+            "Évalue les stratégies d'incorporation neuronale sur un jeu de données de 750 millions d'événements.",
+            "Démontre que les objectifs supervisés surpassent les auto-encodeurs auto-supervisés.",
+            "Introduit un pipeline de diagnostic local utilisant des modèles de mélange gaussien."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-cf42b98924406e",
-      "title": "SWEAR: Section-Wise Efficient Audio Reasoning via Self-Rated Difficulty",
-      "summary": "SWEAR is a difficulty-aware reasoning framework for large audio-language models that utilizes five-dimensional difficulty scores and compressed reasoning traces. By learning difficulty signals during supervised fine-tuning and applying reinforcement learning, SWEAR optimizes token allocation across stages, improving accuracy while significantly reducing generated tokens on easy instances.",
+      "id": "feed-9ea28aa2905705",
+      "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
+      "summary": "Rollout-Time Intervention (RTI) is a new technique designed to overcome the on-policy reasoning bottleneck in LLM agent reinforcement learning. By leveraging reward-side evaluation rubrics during rollout to convert erroneous trajectories into successful learning signals, RTI enables policies to surpass their original capability boundaries.",
       "keyPoints": [
-        "SWEAR derives five-dimensional difficulty scores and compressed reasoning traces from offline assessments.",
-        "It leverages supervised fine-tuning and reinforcement learning to adapt reasoning allocation across stages.",
-        "Experiments on MMAU-test-mini and MMAR demonstrate higher accuracy with reduced generated tokens on easy instances."
+        "Introduces Rollout-Time Intervention (RTI) to bypass on-policy reasoning bottlenecks in agent RL.",
+        "Uses evaluation rubrics during rollout to turn failed trajectories into positive training signals.",
+        "Consistently outperforms baseline reinforcement learning approaches across five evaluation benchmarks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13081",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.13438",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "SWEAR: Section-Wise Efficient Audio Reasoning via Self-Rated Difficulty",
-          "summary": "SWEAR is a difficulty-aware reasoning framework for large audio-language models that utilizes five-dimensional difficulty scores and compressed reasoning traces. By learning difficulty signals during supervised fine-tuning and applying reinforcement learning, SWEAR optimizes token allocation across stages, improving accuracy while significantly reducing generated tokens on easy instances.",
+          "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
+          "summary": "Rollout-Time Intervention (RTI) is a new technique designed to overcome the on-policy reasoning bottleneck in LLM agent reinforcement learning. By leveraging reward-side evaluation rubrics during rollout to convert erroneous trajectories into successful learning signals, RTI enables policies to surpass their original capability boundaries.",
           "keyPoints": [
-            "SWEAR derives five-dimensional difficulty scores and compressed reasoning traces from offline assessments.",
-            "It leverages supervised fine-tuning and reinforcement learning to adapt reasoning allocation across stages.",
-            "Experiments on MMAU-test-mini and MMAR demonstrate higher accuracy with reduced generated tokens on easy instances."
+            "Introduces Rollout-Time Intervention (RTI) to bypass on-policy reasoning bottlenecks in agent RL.",
+            "Uses evaluation rubrics during rollout to turn failed trajectories into positive training signals.",
+            "Consistently outperforms baseline reinforcement learning approaches across five evaluation benchmarks."
           ]
         },
         "fr": {
-          "title": "SWEAR : Raisonnement audio efficace par difficulté auto-évaluée",
-          "summary": "SWEAR est un cadre de raisonnement conscient de la difficulté pour les grands modèles audio-langagiers utilisant des scores de difficulté à cinq dimensions et des traces de raisonnement compressées. En apprenant ces signaux lors du fine-tuning supervisé et par apprentissage par renforcement, SWEAR optimise l'allocation des tokens, améliorant la précision tout en réduisant les coûts pour les cas simples.",
+          "title": "Intervention au moment du déploiement : Dépasser les limites de l'apprentissage par renforcement des agents",
+          "summary": "L'intervention au moment du déploiement (RTI) est une nouvelle technique conçue pour surmonter le goulot d'étranglement du raisonnement en ligne dans l'apprentissage par renforcement des agents LLM. En exploitant des grilles d'évaluation pour convertir les trajectoires erronées en signaux d'apprentissage, la RTI permet de dépasser les limites de capacité.",
           "keyPoints": [
-            "SWEAR calcule des scores de difficulté à cinq dimensions à partir d'évaluations hors ligne.",
-            "Il intègre un apprentissage supervisé et par renforcement pour adapter l'effort de raisonnement.",
-            "Les tests sur MMAU-test-mini et MMAR montrent une meilleure précision couplée à une réduction des tokens."
+            "Introduit la technique RTI pour contourner les goulots d'étranglement du raisonnement des agents.",
+            "Utilise des grilles d'évaluation pour transformer les trajectoires échouées en signaux d'entraînement.",
+            "Surpasse régulièrement les approches de référence d'apprentissage par renforcement sur cinq benchmarks."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-594615cd7f1a19",
-      "title": "Empirical Study of Jev in Agent Workflows for Decision Speed and Cost",
-      "summary": "The authors evaluate Jev integration in five agent workflows across ALFWorld and AndroidWorld to determine whether lower decision costs translate to reliable task completion. Across 4,500 executions, results show Jev lowers decision latency and cost, but success rates drop for mobile agents due to failed recoveries and premature completions, emphasizing the need for robust recovery mechanisms.",
-      "keyPoints": [
-        "Jev integration successfully reduces decision latency and cost across five different agents in ALFWorld and AndroidWorld.",
-        "Task success remains close to baseline in ALFWorld but drops more noticeably for two mobile app agents.",
-        "Auxiliary reasoning, failed recoveries, and premature completions can absorb local cost savings and worsen overall outcomes."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13092",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Empirical Study of Jev in Agent Workflows for Decision Speed and Cost",
-          "summary": "The authors evaluate Jev integration in five agent workflows across ALFWorld and AndroidWorld to determine whether lower decision costs translate to reliable task completion. Across 4,500 executions, results show Jev lowers decision latency and cost, but success rates drop for mobile agents due to failed recoveries and premature completions, emphasizing the need for robust recovery mechanisms.",
-          "keyPoints": [
-            "Jev integration successfully reduces decision latency and cost across five different agents in ALFWorld and AndroidWorld.",
-            "Task success remains close to baseline in ALFWorld but drops more noticeably for two mobile app agents.",
-            "Auxiliary reasoning, failed recoveries, and premature completions can absorb local cost savings and worsen overall outcomes."
-          ]
-        },
-        "fr": {
-          "title": "Étude empirique de Jev dans les flux de travail des agents",
-          "summary": "Les auteurs évaluent l'intégration de Jev dans cinq flux de travail d'agents sur ALFWorld et AndroidWorld pour voir si la baisse des coûts de décision améliore l'efficacité globale. Sur 4 500 exécutions, Jev réduit la latence et le coût, mais les taux de réussite chutent pour les agents mobiles en raison de récupérations ratées, soulignant l'importance de mécanismes de vérification solides.",
-          "keyPoints": [
-            "L'intégration de Jev réduit la latence et les coûts de décision pour cinq agents sur ALFWorld et AndroidWorld.",
-            "Le succès reste proche des bases sur ALFWorld mais baisse de manière marquée sur les agents mobiles.",
-            "Les échecs de récupération et les fins prématurées peuvent annuler les économies de coûts locales."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-48a4a3686c699c",
-      "title": "VETR: Execution-Grounded Self-Improving Agent for Symbolic Graphics",
-      "summary": "VETR (Verified Execution Trajectories for Refinement) is a self-improving framework for symbolic graphics reasoning agents. By capturing execution traces, an execution refiner compiles state changes into constrained alternative programs validated against runtime endpoints without extra LLM calls. Evaluations on BlenderGym and BlenderBench demonstrate consistent performance gains over existing refinement baselines.",
-      "keyPoints": [
-        "VETR uses an execution refiner to extract actionable evidence and alternative programs from runtime execution traces.",
-        "Repair construction validates endpoint preservation conditions against captured runtime state without additional LLM calls.",
-        "Evaluations on BlenderGym and BlenderBench show VETR consistently outperforms existing refinement strategies like BlenderAlchemy and VIGA."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13098",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "VETR: Execution-Grounded Self-Improving Agent for Symbolic Graphics",
-          "summary": "VETR (Verified Execution Trajectories for Refinement) is a self-improving framework for symbolic graphics reasoning agents. By capturing execution traces, an execution refiner compiles state changes into constrained alternative programs validated against runtime endpoints without extra LLM calls. Evaluations on BlenderGym and BlenderBench demonstrate consistent performance gains over existing refinement baselines.",
-          "keyPoints": [
-            "VETR uses an execution refiner to extract actionable evidence and alternative programs from runtime execution traces.",
-            "Repair construction validates endpoint preservation conditions against captured runtime state without additional LLM calls.",
-            "Evaluations on BlenderGym and BlenderBench show VETR consistently outperforms existing refinement strategies like BlenderAlchemy and VIGA."
-          ]
-        },
-        "fr": {
-          "title": "VETR : Agent à auto-amélioration ancré sur l'exécution pour le graphisme",
-          "summary": "VETR est un cadre d'auto-amélioration pour les agents de raisonnement graphique symbolique. En capturant les traces d'exécution, un raffineur compile les changements d'état en programmes alternatifs contraints validés par l'environnement d'exécution sans appel de LLM supplémentaire. Les évaluations sur BlenderGym et BlenderBench montrent des gains réguliers par rapport aux bases existantes.",
-          "keyPoints": [
-            "VETR utilise un raffineur d'exécution pour extraire des preuves exploitables des traces d'exécution.",
-            "La construction des corrections valide les conditions de préservation sans requérir d'appels LLM supplémentaires.",
-            "Les tests sur BlenderGym et BlenderBench prouvent la supériorité de VETR face à BlenderAlchemy et VIGA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 333,
+    "itemsCollected": 330,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
