@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-10-14T00:57:27.802Z",
+  "generatedAt": "2026-10-14T12:55:30.888Z",
   "items": [
+    {
+      "id": "feed-36a7e1c23fbbe3",
+      "title": "Google DeepMind and Singapore Collaborate on On-Device AI Scam Detection",
+      "summary": "Google DeepMind and GovTech Singapore are using lightweight on-device Gemma models to intercept conversational scams in private chats, ensuring zero cloud data egress.",
+      "keyPoints": [
+        "Google DeepMind partners with GovTech Singapore",
+        "Uses lightweight on-device Gemma models",
+        "Intercepts conversational scams with zero cloud data egress"
+      ],
+      "category": "Modèles",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "publishedAt": "2026-10-14T02:00:14.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/Tg_XLUHW-dkzDN6QUwQfnCVZar_kiyMdyhnW5tu0iEjhtykrQuXcLDMwWSIAzmEONrEWDyjK7ajNNDdSpxhvcDBtJRwHK-aSz6KydGGXOkgAasfz2A=w1440-h810-n-nu",
+      "translations": {
+        "en": {
+          "title": "Google DeepMind and Singapore Collaborate on On-Device AI Scam Detection",
+          "summary": "Google DeepMind and GovTech Singapore are using lightweight on-device Gemma models to intercept conversational scams in private chats, ensuring zero cloud data egress.",
+          "keyPoints": [
+            "Google DeepMind partners with GovTech Singapore",
+            "Uses lightweight on-device Gemma models",
+            "Intercepts conversational scams with zero cloud data egress"
+          ]
+        },
+        "fr": {
+          "title": "Google DeepMind et Singapour collaborent sur une IA de détection des arnaques",
+          "summary": "Google DeepMind et GovTech Singapore utilisent des modèles Gemma légers sur l'appareil pour intercepter les arnaques conversationnelles dans les discussions privées, sans transfert de données vers le cloud.",
+          "keyPoints": [
+            "Partenariat entre Google DeepMind et GovTech Singapore",
+            "Utilisation de modèles Gemma légers sur l'appareil",
+            "Interception des arnaques sans transfert de données vers le cloud"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-200a5d3dd39c6b",
+      "title": "The EU's Next Chapter in AI is Agentic",
+      "summary": "New analysis explores the growing adoption of agentic AI across EU enterprises and small businesses, highlighting areas where deeper implementation could unlock further value.",
+      "keyPoints": [
+        "New analysis on agentic AI adoption in the EU",
+        "Spanning both enterprises and small businesses",
+        "Identifies where deeper use could unlock more value"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "The EU's Next Chapter in AI is Agentic",
+          "summary": "New analysis explores the growing adoption of agentic AI across EU enterprises and small businesses, highlighting areas where deeper implementation could unlock further value.",
+          "keyPoints": [
+            "New analysis on agentic AI adoption in the EU",
+            "Spanning both enterprises and small businesses",
+            "Identifies where deeper use could unlock more value"
+          ]
+        },
+        "fr": {
+          "title": "Le prochain chapitre de l'IA dans l'UE est agentique",
+          "summary": "Une nouvelle analyse explore l'adoption croissante de l'IA agentique dans les entreprises et petites entreprises de l'UE, tout en soulignant où une utilisation plus approfondie pourrait libérer davantage de valeur.",
+          "keyPoints": [
+            "Nouvelle analyse sur l'adoption de l'IA agentique dans l'UE",
+            "Concerne les grandes et petites entreprises",
+            "Identifie les opportunités pour libérer plus de valeur"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-8d45898e533e59",
       "title": "Higgsfield takes AI video from 1 minute to over 10",
@@ -702,93 +780,15 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-a750d481558e37",
-      "title": "Critique-Conditioned On-Policy Self-Distillation for Reasoning",
-      "summary": "This paper analyzes self-distillation objectives for reasoning models, finding that standard scoring teachers fail to localize errors or provide corrective credit without explicit search. To solve this, the authors propose critique-conditioned self-distillation, where the teacher generates a critique first. This approach provides dense token credit, localizes errors, and enhances performance both at test time and in cold-start GRPO.",
-      "keyPoints": [
-        "Shows that standard scoring teachers fail to localize errors because error localization requires search.",
-        "Introduces critique-conditioned self-distillation to generate corrective, error-localizing supervision signals.",
-        "Improves math problem-solving at test time and enhances cold-start GRPO training advantages."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13744",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Critique-Conditioned On-Policy Self-Distillation for Reasoning",
-          "summary": "This paper analyzes self-distillation objectives for reasoning models, finding that standard scoring teachers fail to localize errors or provide corrective credit without explicit search. To solve this, the authors propose critique-conditioned self-distillation, where the teacher generates a critique first. This approach provides dense token credit, localizes errors, and enhances performance both at test time and in cold-start GRPO.",
-          "keyPoints": [
-            "Shows that standard scoring teachers fail to localize errors because error localization requires search.",
-            "Introduces critique-conditioned self-distillation to generate corrective, error-localizing supervision signals.",
-            "Improves math problem-solving at test time and enhances cold-start GRPO training advantages."
-          ]
-        },
-        "fr": {
-          "title": "Auto-distillation conditionnée par critique pour le raisonnement",
-          "summary": "Cet article analyse l'auto-distillation pour les modèles de raisonnement, montrant que les évaluateurs standards échouent à localiser les erreurs sans recherche explicite. Les auteurs proposent une auto-distillation conditionnée par une critique préalable, fournissant un signal correctif précis qui améliore les performances à l'inférence et lors de l'apprentissage par renforcement.",
-          "keyPoints": [
-            "Démontre que les évaluateurs classiques ne parviennent pas à localiser les erreurs de raisonnement.",
-            "Propose d'inclure une étape de critique textuelle avant le conditionnement du score de l'enseignant.",
-            "Améliore la résolution de problèmes mathématiques et renforce l'efficacité de l'entraînement GRPO."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-89dc8ff17b2fc7",
-      "title": "UkrMeme: Multimodal Persuasion Detection in Ukrainian Memes",
-      "summary": "Studying persuasive techniques in wartime online communication, the authors introduce UkrMeme, a dataset of 200 Ukrainian wartime memes annotated for persuasion, alongside PTM-UA, a translated benchmark. Using vision-language models in zero-shot setups, the study evaluates multimodal performance and compares explanation methods like Layer-wise Relevance Propagation with token attributions.",
-      "keyPoints": [
-        "Introduces UkrMeme, a dataset of 200 annotated Ukrainian wartime memes for persuasion detection.",
-        "Presents PTM-UA, a Ukrainian adaptation of a propaganda benchmark preserving original visual content.",
-        "Evaluates vision-language models and analyzes explanation methods such as Layer-wise Relevance Propagation."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13783",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "UkrMeme: Multimodal Persuasion Detection in Ukrainian Memes",
-          "summary": "Studying persuasive techniques in wartime online communication, the authors introduce UkrMeme, a dataset of 200 Ukrainian wartime memes annotated for persuasion, alongside PTM-UA, a translated benchmark. Using vision-language models in zero-shot setups, the study evaluates multimodal performance and compares explanation methods like Layer-wise Relevance Propagation with token attributions.",
-          "keyPoints": [
-            "Introduces UkrMeme, a dataset of 200 annotated Ukrainian wartime memes for persuasion detection.",
-            "Presents PTM-UA, a Ukrainian adaptation of a propaganda benchmark preserving original visual content.",
-            "Evaluates vision-language models and analyzes explanation methods such as Layer-wise Relevance Propagation."
-          ]
-        },
-        "fr": {
-          "title": "UkrMeme : Détection multimodale de la persuasion dans les mèmes ukrainiens",
-          "summary": "Étudiant les techniques de persuasion dans la communication en temps de guerre, les auteurs présentent UkrMeme, un jeu de données de 200 mèmes ukrainiens annotés, ainsi que PTM-UA, un benchmark traduit. À l'aide de modèles vision-langage, l'étude évalue les performances multimodales et compare des méthodes d'explicabilité.",
-          "keyPoints": [
-            "Introduction d'UkrMeme, un ensemble de 200 mèmes de guerre ukrainiens annotés.",
-            "Présentation de PTM-UA, une adaptation ukrainienne d'un benchmark de propagande.",
-            "Évaluation de modèles vision-langage et analyse de méthodes d'explication textuelle et visuelle."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 332,
+    "itemsCollected": 17,
     "itemsPublished": 20,
-    "newItems": 20,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 2,
+    "candidates": 2,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
