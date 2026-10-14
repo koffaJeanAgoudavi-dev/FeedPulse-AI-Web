@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-13T12:44:49.221Z",
+  "generatedAt": "2026-10-14T00:57:27.802Z",
   "items": [
     {
-      "id": "feed-7faf581c58225e",
-      "title": "Black-Box Causal Audit Reveals Model-Dependent Audio Grounding",
-      "summary": "Large audio-language models often hallucinate absent sounds. Researchers introduce a black-box causal test combining CLAP similarity and spectral gating to isolate evidence regions, showing that localized ablation outperforms random removal while detection value remains model-dependent.",
+      "id": "feed-8d45898e533e59",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "summary": "Higgsfield introduces longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a pathway to voice filmmaking via GPT-Live for creators.",
       "keyPoints": [
-        "Introduces a black-box causal test using spectral gating and CLAP similarity.",
-        "Demonstrates that duration confounds affect raw AUROC comparisons.",
-        "Contrastive decoding combined with blank and language-priors raises Qwen2-Audio accuracy from 57.1% to 71.9%."
+        "Offers longer videos up to over 10 minutes using GPT-6 Astra.",
+        "Provides precise visuals powered by GPT-Image-2.5.",
+        "Introduces a path to voice filmmaking with GPT-Live."
       ],
       "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13112",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "publishedAt": "2026-10-13T12:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Black-Box Causal Audit Reveals Model-Dependent Audio Grounding",
-          "summary": "Large audio-language models often hallucinate absent sounds. Researchers introduce a black-box causal test combining CLAP similarity and spectral gating to isolate evidence regions, showing that localized ablation outperforms random removal while detection value remains model-dependent.",
+          "title": "Higgsfield takes AI video from 1 minute to over 10",
+          "summary": "Higgsfield introduces longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a pathway to voice filmmaking via GPT-Live for creators.",
           "keyPoints": [
-            "Introduces a black-box causal test using spectral gating and CLAP similarity.",
-            "Demonstrates that duration confounds affect raw AUROC comparisons.",
-            "Contrastive decoding combined with blank and language-priors raises Qwen2-Audio accuracy from 57.1% to 71.9%."
+            "Offers longer videos up to over 10 minutes using GPT-6 Astra.",
+            "Provides precise visuals powered by GPT-Image-2.5.",
+            "Introduces a path to voice filmmaking with GPT-Live."
           ]
         },
         "fr": {
-          "title": "Un audit causal en boîte noire révèle l'ancrage audio des modèles",
-          "summary": "Les grands modèles audio-langage hallucinent souvent des sons absents. Des chercheurs introduisent un test causal en boîte noire combinant similarité CLAP et masquage spectral pour isoler les régions de preuve.",
+          "title": "Higgsfield prolonge la vidéo IA de 1 minute à plus de 10",
+          "summary": "Higgsfield propose des vidéos plus longues avec GPT-6 Astra, des visuels précis via GPT-Image-2.5 et une voie vers le cinéma vocal avec GPT-Live.",
           "keyPoints": [
-            "Introduit un test causal en boîte noire utilisant le masquage spectral.",
-            "Démontre que les confusions de durée affectent les comparaisons d'AUROC.",
-            "Le décodage contrastif combiné augmente la précision de Qwen2-Audio de 57,1 % à 71,9 %."
+            "Permet des vidéos de plus de 10 minutes grâce à GPT-6 Astra.",
+            "Fournit des visuels précis propulsés par GPT-Image-2.5.",
+            "Introduit une voie vers le cinéma vocal avec GPT-Live."
           ]
         }
       },
@@ -41,36 +41,309 @@
       }
     },
     {
-      "id": "feed-83a32e28b246d1",
-      "title": "DRYLAB-Bench: Benchmarking Biosecurity Risk in LLM Mutation Design",
-      "summary": "Researchers introduce DRYLAB-Bench to evaluate high-risk biological mutation design capabilities of LLM agents across 30 hazardous scenarios, scoring designs against empirical wet-lab measurements using a new Biosecurity Risk Score.",
+      "id": "feed-4193c43ec37ac6",
+      "title": "Agentic Large Language Models",
+      "summary": "This book explores agentic large language models, combining LLM reasoning with real-world action and interaction capabilities, discussing how they work and their implications for users.",
       "keyPoints": [
-        "Introduces DRYLAB-Bench to evaluate biological mutation design in LLM agents.",
-        "Evaluates models against 187,695 empirical wet-lab measurements from ProteinGym and ViroGym.",
-        "Finds that equipping models with biological design tools significantly amplifies biosecurity risks."
+        "Combines LLMs with the ability to act and interact in the real world.",
+        "Discusses how agentic LLMs operate and influence decision-making.",
+        "Examines the implications of autonomous agent actions for users."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13455",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Agentic Large Language Models",
+          "summary": "This book explores agentic large language models, combining LLM reasoning with real-world action and interaction capabilities, discussing how they work and their implications for users.",
+          "keyPoints": [
+            "Combines LLMs with the ability to act and interact in the real world.",
+            "Discusses how agentic LLMs operate and influence decision-making.",
+            "Examines the implications of autonomous agent actions for users."
+          ]
+        },
+        "fr": {
+          "title": "Modèles de langage de grande taille agentiques",
+          "summary": "Ce livre explore les modèles de langage agentiques, combinant le raisonnement des LLM avec des capacités d'action et d'interaction dans le monde réel.",
+          "keyPoints": [
+            "Combine les LLM avec la capacité d'agir et d'interagir dans le monde réel.",
+            "Discute du fonctionnement des LLM agentiques et de leur impact.",
+            "Examine les implications des actions d'agents autonomes pour les utilisateurs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a371112a5b7528",
+      "title": "SqueezeBench: Saturation-Resilient Evaluation of Math",
+      "summary": "SqueezeBench is a saturation-resilient benchmark for AI mathematical capabilities where successes raise the bar. It utilizes machine-checked Lean proofs to maintain bounds on integer functions.",
+      "keyPoints": [
+        "Resilient benchmark designed to prevent saturation in math evaluations.",
+        "Uses machine-checked Lean proofs verified by independent kernels.",
+        "Baseline agents successfully improved every record across ten problems."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13461",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SqueezeBench: Saturation-Resilient Evaluation of Math",
+          "summary": "SqueezeBench is a saturation-resilient benchmark for AI mathematical capabilities where successes raise the bar. It utilizes machine-checked Lean proofs to maintain bounds on integer functions.",
+          "keyPoints": [
+            "Resilient benchmark designed to prevent saturation in math evaluations.",
+            "Uses machine-checked Lean proofs verified by independent kernels.",
+            "Baseline agents successfully improved every record across ten problems."
+          ]
+        },
+        "fr": {
+          "title": "SqueezeBench : Évaluation des mathématiques résistante à la saturation",
+          "summary": "SqueezeBench est un banc d'essai résistant à la saturation pour les capacités mathématiques de l'IA, où les succès élèvent la barre à l'aide de preuves Lean.",
+          "keyPoints": [
+            "Banc d'essai conçu pour éviter la saturation dans l'évaluation mathématique.",
+            "Utilise des preuves Lean vérifiées par des noyaux indépendants.",
+            "Les agents de référence ont amélioré chaque record sur dix problèmes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7380dba17f5dbf",
+      "title": "Local Agentic AI Framework for Edge Case Generation",
+      "summary": "A laptop-based agentic AI framework uses local LMs in think, act, observe loops to generate diverse edge case scenarios for autonomous system safety assurance.",
+      "keyPoints": [
+        "Uses local LMs in a controlled, privacy-preserving laptop framework.",
+        "Employs independent LMs to critique and refine generated scenarios.",
+        "Aids safety assurance by identifying functional gaps and triggering conditions."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13479",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Local Agentic AI Framework for Edge Case Generation",
+          "summary": "A laptop-based agentic AI framework uses local LMs in think, act, observe loops to generate diverse edge case scenarios for autonomous system safety assurance.",
+          "keyPoints": [
+            "Uses local LMs in a controlled, privacy-preserving laptop framework.",
+            "Employs independent LMs to critique and refine generated scenarios.",
+            "Aids safety assurance by identifying functional gaps and triggering conditions."
+          ]
+        },
+        "fr": {
+          "title": "Cadre d'IA agentique local pour la génération de cas limites",
+          "summary": "Un cadre d'IA agentique sur ordinateur portable utilise des LM locaux pour générer des scénarios de cas limites diversifiés pour la sécurité des systèmes autonomes.",
+          "keyPoints": [
+            "Utilise des LM locaux dans un cadre contrôlé et respectueux de la vie privée.",
+            "Emploie des LM indépendants pour critiquer et affiner les scénarios générés.",
+            "Aide à l'assurance de la sécurité en identifiant les lacunes fonctionnelles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c52738e79c78d6",
+      "title": "Branching On-Policy Distillation for Efficient Training",
+      "summary": "BranchOPD selects informative decision points using student uncertainty and teacher disagreement, resampling student continuations from shared prefixes to reduce token costs.",
+      "keyPoints": [
+        "Reduces token generation costs via shared-prefix reuse on tasks like ALFWorld.",
+        "Improves accuracy in mathematics and agent success rates over Vanilla OPD.",
+        "Expands behavior coverage by branching at uncertain decision points."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13481",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Branching On-Policy Distillation for Efficient Training",
+          "summary": "BranchOPD selects informative decision points using student uncertainty and teacher disagreement, resampling student continuations from shared prefixes to reduce token costs.",
+          "keyPoints": [
+            "Reduces token generation costs via shared-prefix reuse on tasks like ALFWorld.",
+            "Improves accuracy in mathematics and agent success rates over Vanilla OPD.",
+            "Expands behavior coverage by branching at uncertain decision points."
+          ]
+        },
+        "fr": {
+          "title": "Distillation sur politique avec ramification pour un entraînement efficace",
+          "summary": "BranchOPD sélectionne des points de décision informatifs en utilisant l'incertitude des étudiants et le désaccord des enseignants pour réduire les coûts de jetons.",
+          "keyPoints": [
+            "Réduit les coûts de jetons grâce à la réutilisation de préfixes partagés.",
+            "Améliore la précision en mathématiques et le taux de réussite des agents.",
+            "Étend la couverture comportementale en bifurquant sur des décisions incertaines."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1a262793e5f32e",
+      "title": "Humanize MLE Agents: Multi-Agent Session Alternation",
+      "summary": "Humanize MLE Agents (HMA) alternates two agents on a shared workspace with context resets to overcome long-horizon deceleration in machine learning engineering tasks.",
+      "keyPoints": [
+        "Models alternating sessions as a context-reset semi-Markov decision process.",
+        "Reaches a state-of-the-art any-medal rate of 78.2% on MLE-bench Kaggle tasks.",
+        "Reduces time budget significantly while improving cross-pair performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13494",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Humanize MLE Agents: Multi-Agent Session Alternation",
+          "summary": "Humanize MLE Agents (HMA) alternates two agents on a shared workspace with context resets to overcome long-horizon deceleration in machine learning engineering tasks.",
+          "keyPoints": [
+            "Models alternating sessions as a context-reset semi-Markov decision process.",
+            "Reaches a state-of-the-art any-medal rate of 78.2% on MLE-bench Kaggle tasks.",
+            "Reduces time budget significantly while improving cross-pair performance."
+          ]
+        },
+        "fr": {
+          "title": "Humaniser les agents MLE : Alternance de sessions multi-agents",
+          "summary": "Humanize MLE Agents (HMA) alterne deux agents sur un espace de travail partagé avec réinitialisation du contexte pour surmonter la décélération à long horizon.",
+          "keyPoints": [
+            "Modélise les sessions alternées comme un processus de décision semi-markovien.",
+            "Atteint un taux de réussite de 78,2 % sur les tâches Kaggle de MLE-bench.",
+            "Réduit considérablement le budget de temps tout en améliorant les performances."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ef8eac1e5a0267",
+      "title": "PRISM: Retrieval-Augmented Multimodal Model for Prognosis",
+      "summary": "PRISM integrates structured measurements, longitudinal ECGs, and a population memory bank via representation-space retrieval to improve clinical prognosis tasks.",
+      "keyPoints": [
+        "Combines numerical tokenization, longitudinal ECG aggregation, and population memory.",
+        "Achieves strong performance on the MDS-ED benchmark for clinical prognosis.",
+        "Demonstrates the effectiveness of structure-aware multimodal integration."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13510",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "PRISM: Retrieval-Augmented Multimodal Model for Prognosis",
+          "summary": "PRISM integrates structured measurements, longitudinal ECGs, and a population memory bank via representation-space retrieval to improve clinical prognosis tasks.",
+          "keyPoints": [
+            "Combines numerical tokenization, longitudinal ECG aggregation, and population memory.",
+            "Achieves strong performance on the MDS-ED benchmark for clinical prognosis.",
+            "Demonstrates the effectiveness of structure-aware multimodal integration."
+          ]
+        },
+        "fr": {
+          "title": "PRISM : Modèle multimodal augmenté par la récupération pour le pronostic",
+          "summary": "PRISM intègre des mesures structurées, des ECG longitudinaux et une banque de mémoire de population pour améliorer les tâches de pronostic clinique.",
+          "keyPoints": [
+            "Combine la tokenisation numérique, l'agrégation d'ECG et la mémoire de population.",
+            "Atteint de fortes performances sur le banc d'essai MDS-ED pour le pronostic.",
+            "Démontre l'efficacité de l'intégration multimodale consciente de la structure."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-24d566e7bfe47e",
+      "title": "Causal Effect Identifiability in Causal Abstractions",
+      "summary": "This paper studies causal effect identifiability directly at the level of causal abstraction graph collections, formalizing a strict hierarchy of criteria.",
+      "keyPoints": [
+        "Addresses causal effect identifiability using partial causal information.",
+        "Organizes several notions of identifiability into a strict hierarchy.",
+        "Shows causal effects can be identified over graph collections without a uniform derivation."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13116",
+      "sourceUrl": "https://arxiv.org/abs/2610.13520",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "DRYLAB-Bench: Benchmarking Biosecurity Risk in LLM Mutation Design",
-          "summary": "Researchers introduce DRYLAB-Bench to evaluate high-risk biological mutation design capabilities of LLM agents across 30 hazardous scenarios, scoring designs against empirical wet-lab measurements using a new Biosecurity Risk Score.",
+          "title": "Causal Effect Identifiability in Causal Abstractions",
+          "summary": "This paper studies causal effect identifiability directly at the level of causal abstraction graph collections, formalizing a strict hierarchy of criteria.",
           "keyPoints": [
-            "Introduces DRYLAB-Bench to evaluate biological mutation design in LLM agents.",
-            "Evaluates models against 187,695 empirical wet-lab measurements from ProteinGym and ViroGym.",
-            "Finds that equipping models with biological design tools significantly amplifies biosecurity risks."
+            "Addresses causal effect identifiability using partial causal information.",
+            "Organizes several notions of identifiability into a strict hierarchy.",
+            "Shows causal effects can be identified over graph collections without a uniform derivation."
           ]
         },
         "fr": {
-          "title": "DRYLAB-Bench : Évaluation du risque de biosécurité des agents LLM",
-          "summary": "Des chercheurs présentent DRYLAB-Bench pour évaluer les capacités de conception de mutations biologiques à haut risque des agents LLM à travers 30 scénarios dangereux.",
+          "title": "Identifiabilité de l'effet causal dans les abstractions causales",
+          "summary": "Cet article étudie l'identifiabilité de l'effet causal au niveau des collections de graphiques d'abstraction causale, formalisant une hiérarchie stricte de critères.",
           "keyPoints": [
-            "Introduit DRYLAB-Bench pour évaluer la conception de mutations biologiques par agents LLM.",
-            "Évalue les modèles par rapport à 187 695 mesures expérimentales de laboratoire.",
-            "Constate que l'utilisation d'outils de conception amplifie considérablement les risques de biosécurité."
+            "Traite de l'identifiabilité des effets causaux en utilisant des informations partielles.",
+            "Organise plusieurs notions d'identifiabilité en une hiérarchie stricte.",
+            "Montre que les effets causaux peuvent être identifiés sans dérivation uniforme."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d7e42dab3dc75e",
+      "title": "Cross-Teacher Guarding for Multi-Teacher Distillation",
+      "summary": "Road MOPD introduces cross-teacher guarding using non-routed auxiliary teachers to coordinate multi-teacher supervision and mitigate gradient conflicts.",
+      "keyPoints": [
+        "Mitigates persistent gradient conflicts in multi-teacher on-policy distillation.",
+        "Uses cross-teacher-guided credit assignment to strengthen shared corrections.",
+        "Improves performance in disadvantaged domains and multi-domain settings."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13521",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Cross-Teacher Guarding for Multi-Teacher Distillation",
+          "summary": "Road MOPD introduces cross-teacher guarding using non-routed auxiliary teachers to coordinate multi-teacher supervision and mitigate gradient conflicts.",
+          "keyPoints": [
+            "Mitigates persistent gradient conflicts in multi-teacher on-policy distillation.",
+            "Uses cross-teacher-guided credit assignment to strengthen shared corrections.",
+            "Improves performance in disadvantaged domains and multi-domain settings."
+          ]
+        },
+        "fr": {
+          "title": "Protection inter-enseignants pour la distillation multi-enseignants",
+          "summary": "Road MOPD introduit une protection inter-enseignants utilisant des enseignants auxiliaires non routés pour coordonner la supervision et atténuer les conflits de gradients.",
+          "keyPoints": [
+            "Atténue les conflits de gradients persistants dans la distillation multi-enseignants.",
+            "Utilise l'attribution de crédit guidée pour renforcer les corrections partagées.",
+            "Améliore les performances dans les domaines défavorisés et multi-domaines."
           ]
         }
       },
@@ -80,36 +353,36 @@
       }
     },
     {
-      "id": "feed-2b6f1e274ee6bf",
-      "title": "KnowForge: Role-Specialized Tool Agents for Multimodal Document QA",
-      "summary": "KnowForge separates retrieval-augmented generation jobs into specialized agents including a Locator agent, a bridge judge, and a Deep Reader agent, achieving strong performance on M3DocVQA and MultiHop-RAG benchmarks.",
+      "id": "feed-80f4a2e5982523",
+      "title": "MAGMA-Bench: Evaluating Long-Horizon Embodied Agents",
+      "summary": "MAGMA-Bench is an architecture-agnostic benchmark evaluating long-horizon embodied agents under dynamic tasks, execution failures, and multi-robot coordination challenges.",
       "keyPoints": [
-        "Features job-separated agents for retrieval and reading tasks in document QA.",
-        "Reaches F1 47.5 on open-domain M3DocVQA with a self-hosted Qwen3.6-35B-A3B model.",
-        "Outperforms published RAG and GraphRAG results on MultiHop-RAG with 73.5 accuracy."
+        "Evaluates persistent task reasoning in dynamic multi-robot environments.",
+        "Tests agents under online perturbations like execution failures and task interruptions.",
+        "Releases benchmark data, training examples, and an expert-trace generation pipeline."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13128",
+      "sourceUrl": "https://arxiv.org/abs/2610.13534",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "KnowForge: Role-Specialized Tool Agents for Multimodal Document QA",
-          "summary": "KnowForge separates retrieval-augmented generation jobs into specialized agents including a Locator agent, a bridge judge, and a Deep Reader agent, achieving strong performance on M3DocVQA and MultiHop-RAG benchmarks.",
+          "title": "MAGMA-Bench: Evaluating Long-Horizon Embodied Agents",
+          "summary": "MAGMA-Bench is an architecture-agnostic benchmark evaluating long-horizon embodied agents under dynamic tasks, execution failures, and multi-robot coordination challenges.",
           "keyPoints": [
-            "Features job-separated agents for retrieval and reading tasks in document QA.",
-            "Reaches F1 47.5 on open-domain M3DocVQA with a self-hosted Qwen3.6-35B-A3B model.",
-            "Outperforms published RAG and GraphRAG results on MultiHop-RAG with 73.5 accuracy."
+            "Evaluates persistent task reasoning in dynamic multi-robot environments.",
+            "Tests agents under online perturbations like execution failures and task interruptions.",
+            "Releases benchmark data, training examples, and an expert-trace generation pipeline."
           ]
         },
         "fr": {
-          "title": "KnowForge : Agents d'outils spécialisés pour la QA de documents multimodaux",
-          "summary": "KnowForge sépare les tâches de génération augmentée par récupération en agents spécialisés, atteignant de solides performances sur les benchmarks M3DocVQA et MultiHop-RAG.",
+          "title": "MAGMA-Bench : Évaluation d'agents incarnés à long horizon",
+          "summary": "MAGMA-Bench est un banc d'essai évaluant des agents incarnés à long horizon face à des tâches dynamiques, des échecs d'exécution et des défis de coordination.",
           "keyPoints": [
-            "Propose des agents spécialisés pour les tâches de recherche et de lecture.",
-            "Atteint un score F1 de 47,5 sur M3DocVQA avec un modèle Qwen hébergé en interne.",
-            "Surpasse les résultats RAG publiés sur MultiHop-RAG avec une précision de 73,5."
+            "Évalue le raisonnement de tâches persistantes dans des environnements multi-robots.",
+            "Teste les agents sous des perturbations en ligne comme des pannes d'exécution.",
+            "Publie des données de référence, des exemples d'entraînement et un pipeline."
           ]
         }
       },
@@ -119,36 +392,36 @@
       }
     },
     {
-      "id": "feed-c609c3ac34953c",
-      "title": "Anticipatory Generative Modeling for Road-Network Trajectories",
-      "summary": "To address limitations in urban trajectory generation, researchers introduce Foresight, a graph-constrained generative model utilizing an anticipate-select-update-re-anticipate loop for better intersection transition selection.",
+      "id": "feed-854cc127b8a3cd",
+      "title": "Constructing Pareto Frontiers for Reasoning Model Overthinking",
+      "summary": "This paper examines 'overthinking' in reasoning models, where continued test-time scaling becomes ineffective or harmful. The authors introduce Step-wise Truncation Probing (STP) to measure overthinking ratio and accuracy degradation. By unifying termination strategies, they construct token-accuracy Pareto frontiers and present OTBench, a benchmark spanning 70.5B reasoning tokens across six models and four benchmark groups.",
       "keyPoints": [
-        "Shifts from location simulation to behavior modeling on road networks.",
-        "Introduces a generative model named Foresight for long-term route anticipation.",
-        "Outperforms state-of-the-art baselines in trajectory generation experiments."
+        "Introduces Step-wise Truncation Probing (STP) to characterize overthinking at the model-task level.",
+        "Proposes a unified framework for dynamic routing, fixed budgets, and dynamic early exits to build Pareto frontiers.",
+        "Releases OTBench, a benchmark featuring 70.5B reasoning tokens across multiple models and benchmarks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13131",
+      "sourceUrl": "https://arxiv.org/abs/2610.13570",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Anticipatory Generative Modeling for Road-Network Trajectories",
-          "summary": "To address limitations in urban trajectory generation, researchers introduce Foresight, a graph-constrained generative model utilizing an anticipate-select-update-re-anticipate loop for better intersection transition selection.",
+          "title": "Constructing Pareto Frontiers for Reasoning Model Overthinking",
+          "summary": "This paper examines 'overthinking' in reasoning models, where continued test-time scaling becomes ineffective or harmful. The authors introduce Step-wise Truncation Probing (STP) to measure overthinking ratio and accuracy degradation. By unifying termination strategies, they construct token-accuracy Pareto frontiers and present OTBench, a benchmark spanning 70.5B reasoning tokens across six models and four benchmark groups.",
           "keyPoints": [
-            "Shifts from location simulation to behavior modeling on road networks.",
-            "Introduces a generative model named Foresight for long-term route anticipation.",
-            "Outperforms state-of-the-art baselines in trajectory generation experiments."
+            "Introduces Step-wise Truncation Probing (STP) to characterize overthinking at the model-task level.",
+            "Proposes a unified framework for dynamic routing, fixed budgets, and dynamic early exits to build Pareto frontiers.",
+            "Releases OTBench, a benchmark featuring 70.5B reasoning tokens across multiple models and benchmarks."
           ]
         },
         "fr": {
-          "title": "Modélisation générative anticipative pour les trajectoires routières",
-          "summary": "Pour répondre aux limites de la génération de trajectoires urbaines, les chercheurs présentent Foresight, un modèle génératif contraint par graphe utilisant une boucle d'anticipation et de sélection.",
+          "title": "Frontières de Pareto pour l'excès de réflexion des modèles",
+          "summary": "Cet article étudie le phénomène de « surréflexion » dans les modèles de raisonnement, où un calcul prolongé devient inefficace ou nuisible. Les auteurs introduisent le sondage par troncature par étapes (STP) pour mesurer ce ratio et la dégradation de la précision. Ils formalisent un cadre unifié et présentent OTBench, un benchmark comprenant 70,5 milliards de jetons de raisonnement.",
           "keyPoints": [
-            "Passe de la simulation de localisation à la modélisation comportementale sur réseaux routiers.",
-            "Introduit un modèle génératif nommé Foresight pour l'anticipation d'itinéraires.",
-            "Surpasse les références actuelles lors d'expériences de génération de trajectoires."
+            "Introduction du sondage par troncature par étapes (STP) pour analyser la surréflexion.",
+            "Proposition d'un cadre unifié pour quantifier le potentiel d'atténuation de diverses stratégies.",
+            "Création d'OTBench, un benchmark basé sur 70,5 milliards de jetons issus de six modèles."
           ]
         }
       },
@@ -158,36 +431,36 @@
       }
     },
     {
-      "id": "feed-ba0f9462ae5fc6",
-      "title": "DP-MIND: Differentially Private Memory-Guided Long Context Inference",
-      "summary": "DP-MIND is a memory-guided framework that scales differentially private inference to million-token contexts by locally perturbing inputs and processing chunks with a compact memory optimized via reinforcement learning.",
+      "id": "feed-f5b8f03c149068",
+      "title": "MENTOR: Learning from Failure with On-Policy Pedagogical Intervention",
+      "summary": "Reinforcement Learning from Verifiable Rewards (RLVR) often suffers from 'zero-reward collapse' when tasks become too difficult. To recover from this, the authors introduce MENTOR, a multi-agent live mentor framework that diagnoses failures in real-time and generates targeted instructional prompts. Serving as a plug-and-play module for pipelines like GRPO, MENTOR achieves up to 78.3% relative gains on Llama-3.2-3B-Instruct for math and code generation.",
       "keyPoints": [
-        "Enables private long-context inference at the million-token scale.",
-        "Optimizes memory construction policies using reinforcement learning.",
-        "Outperforms existing differential privacy and long-context baselines in scalability and utility."
+        "Addresses 'zero-reward collapse' in reinforcement learning without discarding failed trajectories.",
+        "Introduces MENTOR, a multi-agent framework that provides real-time on-policy pedagogical intervention.",
+        "Achieves up to 78.3% average relative gains on Llama-3.2-3B-Instruct for math and code generation tasks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13132",
+      "sourceUrl": "https://arxiv.org/abs/2610.13594",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "DP-MIND: Differentially Private Memory-Guided Long Context Inference",
-          "summary": "DP-MIND is a memory-guided framework that scales differentially private inference to million-token contexts by locally perturbing inputs and processing chunks with a compact memory optimized via reinforcement learning.",
+          "title": "MENTOR: Learning from Failure with On-Policy Pedagogical Intervention",
+          "summary": "Reinforcement Learning from Verifiable Rewards (RLVR) often suffers from 'zero-reward collapse' when tasks become too difficult. To recover from this, the authors introduce MENTOR, a multi-agent live mentor framework that diagnoses failures in real-time and generates targeted instructional prompts. Serving as a plug-and-play module for pipelines like GRPO, MENTOR achieves up to 78.3% relative gains on Llama-3.2-3B-Instruct for math and code generation.",
           "keyPoints": [
-            "Enables private long-context inference at the million-token scale.",
-            "Optimizes memory construction policies using reinforcement learning.",
-            "Outperforms existing differential privacy and long-context baselines in scalability and utility."
+            "Addresses 'zero-reward collapse' in reinforcement learning without discarding failed trajectories.",
+            "Introduces MENTOR, a multi-agent framework that provides real-time on-policy pedagogical intervention.",
+            "Achieves up to 78.3% average relative gains on Llama-3.2-3B-Instruct for math and code generation tasks."
           ]
         },
         "fr": {
-          "title": "DP-MIND : Inférence à long contexte guidée par la mémoire et différentiellement privée",
-          "summary": "DP-MIND est un cadre guidé par la mémoire qui met à l'échelle l'inférence privée à des contextes d'un million de jetons grâce à une perturbation locale et à une mémoire compacte optimisée.",
+          "title": "MENTOR : Apprendre de l'échec grâce à des interventions pédagogiques",
+          "summary": "L'apprentissage par renforcement à partir de récompenses vérifiables souffre souvent d'un effondrement des récompenses. Pour y remédier, les auteurs présentent MENTOR, un cadre multi-agent agissant comme un tuteur en direct qui diagnostique les échecs et guide l'agent. Intégré à des pipelines comme GRPO, MENTOR génère des gains relatifs moyens allant jusqu'à 78,3 % sur Llama-3.2-3B-Instruct.",
           "keyPoints": [
-            "Permet une inférence privée à long contexte à l'échelle d'un million de jetons.",
-            "Optimise les politiques de construction de la mémoire par apprentissage par renforcement.",
-            "Surpasse les bases existantes en matière de confidentialité et de gestion de longs contextes."
+            "Résout l'effondrement des récompenses dans l'apprentissage par renforcement.",
+            "Propose MENTOR, un cadre multi-agent fournissant des interventions pédagogiques en temps réel.",
+            "Obtient des gains relatifs de 78,3 % sur Llama-3.2-3B-Instruct pour les mathématiques et le code."
           ]
         }
       },
@@ -197,36 +470,75 @@
       }
     },
     {
-      "id": "feed-bfe8ae07189841",
-      "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
-      "summary": "Researchers propose a two-stage competence-aware framework for multi-agent system orchestration that adapts role activation and communication graphs based on the backbone's competence for the current query.",
+      "id": "feed-4b152a91481f82",
+      "title": "HOA: Humanize Olympiad Agents with Multi-Session Workflows",
+      "summary": "To address the brittleness of single-agent sessions on complex tasks, the authors introduce HOA (Humanize Olympiads Agent), an open framework coordinating multiple agent sessions through reviewer feedback, structured wikis, and proof verifiers. Using GPT-5.6 Sol and open models like Kimi-K3, HOA achieves exceptional scores across international olympiads and benchmarks, proving that systematic feedback bridges capability gaps.",
       "keyPoints": [
-        "Proposes a two-stage framework for automatic multi-agent system orchestration.",
-        "Models task-conditioned competence to adapt communication graphs and role activation.",
-        "Improves accuracy while reducing token cost across multiple backbones and benchmarks."
+        "Introduces HOA, an open framework utilizing reviewer feedback, wikis, and verifiers for complex problem solving.",
+        "Achieves top performance on competitive benchmarks including IMO, IPhO, IOI 2026, and PutnamBench.",
+        "Demonstrates that open models like Kimi-K3 match or exceed closed-source baselines using structured feedback."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13632",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "HOA: Humanize Olympiad Agents with Multi-Session Workflows",
+          "summary": "To address the brittleness of single-agent sessions on complex tasks, the authors introduce HOA (Humanize Olympiads Agent), an open framework coordinating multiple agent sessions through reviewer feedback, structured wikis, and proof verifiers. Using GPT-5.6 Sol and open models like Kimi-K3, HOA achieves exceptional scores across international olympiads and benchmarks, proving that systematic feedback bridges capability gaps.",
+          "keyPoints": [
+            "Introduces HOA, an open framework utilizing reviewer feedback, wikis, and verifiers for complex problem solving.",
+            "Achieves top performance on competitive benchmarks including IMO, IPhO, IOI 2026, and PutnamBench.",
+            "Demonstrates that open models like Kimi-K3 match or exceed closed-source baselines using structured feedback."
+          ]
+        },
+        "fr": {
+          "title": "HOA : Agents pour olympiades avec des flux multi-sessions",
+          "summary": "Pour contrer la fragilité des sessions d'agents uniques, les auteurs présentent HOA, un cadre ouvert coordonnant plusieurs sessions via des retours d'évaluation, des wikis structurés et des vérificateurs de preuves. Utilisant GPT-5.6 Sol et Kimi-K3, HOA atteint des scores parfaits ou de niveau or dans plusieurs olympiades internationales de premier plan.",
+          "keyPoints": [
+            "Présente HOA, un cadre combinant évaluation par les pairs, wikis et vérification de preuves.",
+            "Atteint d'excellents résultats aux olympiades internationales et sur PutnamBench.",
+            "Montre que des modèles ouverts peuvent égaler ou surpasser les modèles fermés grâce à la rétroaction."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d8e8b02d32c62e",
+      "title": "Learning Size Independent Constraint Models from Data and Examples",
+      "summary": "This paper presents a Constraint Acquisition Tool that automatically builds size-independent constraint programs from input data and positive/negative solution examples. The system identifies size-specific patterns using global and binary constraints and generalizes them into MiniZinc code runnable on unseen data, successfully evaluated on PTHG21 Challenge problems.",
+      "keyPoints": [
+        "Describes a Constraint Acquisition Tool generating size-independent constraint programs.",
+        "Finds size-specific patterns across global and binary constraints to generalize models.",
+        "Outputs executable MiniZinc code and textual descriptions, evaluated on PTHG21 Challenge problems."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13144",
+      "sourceUrl": "https://arxiv.org/abs/2610.13640",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
-          "summary": "Researchers propose a two-stage competence-aware framework for multi-agent system orchestration that adapts role activation and communication graphs based on the backbone's competence for the current query.",
+          "title": "Learning Size Independent Constraint Models from Data and Examples",
+          "summary": "This paper presents a Constraint Acquisition Tool that automatically builds size-independent constraint programs from input data and positive/negative solution examples. The system identifies size-specific patterns using global and binary constraints and generalizes them into MiniZinc code runnable on unseen data, successfully evaluated on PTHG21 Challenge problems.",
           "keyPoints": [
-            "Proposes a two-stage framework for automatic multi-agent system orchestration.",
-            "Models task-conditioned competence to adapt communication graphs and role activation.",
-            "Improves accuracy while reducing token cost across multiple backbones and benchmarks."
+            "Describes a Constraint Acquisition Tool generating size-independent constraint programs.",
+            "Finds size-specific patterns across global and binary constraints to generalize models.",
+            "Outputs executable MiniZinc code and textual descriptions, evaluated on PTHG21 Challenge problems."
           ]
         },
         "fr": {
-          "title": "Orchestration sensible aux compétences pour les systèmes multi-agents à base de LLM",
-          "summary": "Des chercheurs proposent un cadre en deux étapes sensible aux compétences pour l'orchestration de systèmes multi-agents, adaptant l'activation des rôles en fonction de la requête.",
+          "title": "Apprentissage de modèles de contraintes indépendants de la taille",
+          "summary": "Cet article présente un outil d'acquisition de contraintes qui génère automatiquement des programmes de contraintes indépendants de la taille à partir de données d'entrée et d'exemples de solutions. Le système identifie des motifs spécifiques et les généralise en code MiniZinc exécutable sur de nouvelles données, validé sur les problèmes du défi PTHG21.",
           "keyPoints": [
-            "Propose un cadre en deux étapes pour l'orchestration automatique de systèmes multi-agents.",
-            "Modélise la compétence conditionnée par la tâche pour adapter les graphes de communication.",
-            "Améliore la précision tout en réduisant le coût en jetons sur plusieurs benchmarks."
+            "Décrit un outil d'acquisition de contraintes générant des programmes indépendants de la taille.",
+            "Identifie des motifs de contraintes pour généraliser les modèles à partir d'exemples.",
+            "Produit du code MiniZinc évalué avec succès sur les problèmes du défi PTHG21."
           ]
         }
       },
@@ -236,36 +548,36 @@
       }
     },
     {
-      "id": "feed-34dbc21467246d",
-      "title": "VIGOR: Verifiable Industrial Geometry Optimization in Scene Programs",
-      "summary": "Addressing the gap between executability and engineering feasibility in scene programs, VIGOR combines supervised generation with execution-grounded verification and staged geometric refinement to handle complex layout constraints.",
+      "id": "feed-ce99a1de56d1f9",
+      "title": "A Multi-Agent LLM System for Automated Tuning of Neural Networks",
+      "summary": "This work introduces a multi-agent LLM framework comprising an analyst, coder, and recorder to automate the tuning of key components within machine learning models. Operating in a sandboxed environment, the system successfully tunes spiking neural networks and Physics-Informed Neural Networks (PINNs) across five challenging tasks, significantly outperforming manual and standard baselines.",
       "keyPoints": [
-        "Identifies the executability-engineering-feasibility gap in industrial scene programs.",
-        "Introduces VIGOR, combining supervised generation, verification, and conflict-graph repair.",
-        "Achieves 96.86% Complete Feasibility on a newly constructed industrial dataset."
+        "Proposes a multi-agent LLM framework (analyst, coder, recorder) for automated component tuning.",
+        "Operates over an open, semantically narrow space to modify specific component code safely.",
+        "Demonstrates massive error reductions and accuracy gains on spiking neural networks and PINN tasks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13145",
+      "sourceUrl": "https://arxiv.org/abs/2610.13663",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "VIGOR: Verifiable Industrial Geometry Optimization in Scene Programs",
-          "summary": "Addressing the gap between executability and engineering feasibility in scene programs, VIGOR combines supervised generation with execution-grounded verification and staged geometric refinement to handle complex layout constraints.",
+          "title": "A Multi-Agent LLM System for Automated Tuning of Neural Networks",
+          "summary": "This work introduces a multi-agent LLM framework comprising an analyst, coder, and recorder to automate the tuning of key components within machine learning models. Operating in a sandboxed environment, the system successfully tunes spiking neural networks and Physics-Informed Neural Networks (PINNs) across five challenging tasks, significantly outperforming manual and standard baselines.",
           "keyPoints": [
-            "Identifies the executability-engineering-feasibility gap in industrial scene programs.",
-            "Introduces VIGOR, combining supervised generation, verification, and conflict-graph repair.",
-            "Achieves 96.86% Complete Feasibility on a newly constructed industrial dataset."
+            "Proposes a multi-agent LLM framework (analyst, coder, recorder) for automated component tuning.",
+            "Operates over an open, semantically narrow space to modify specific component code safely.",
+            "Demonstrates massive error reductions and accuracy gains on spiking neural networks and PINN tasks."
           ]
         },
         "fr": {
-          "title": "VIGOR : Optimisation de la géométrie industrielle vérifiable dans les programmes de scènes",
-          "summary": "Pour combler l'écart entre exécutabilité et faisabilité technique, VIGOR associe génération supervisée, vérification fondée sur l'exécution et raffinement géométrique étagé.",
+          "title": "Système LLM multi-agent pour l'optimisation automatisée de réseaux",
+          "summary": "Ce travail introduit un cadre LLM multi-agent comprenant un analyste, un codeur et un enregistreur pour automatiser l'optimisation des composants clés des modèles d'apprentissage automatique. Opérant dans un environnement sécurisé, le système ajuste avec succès des réseaux de neurones à impulsions et des PINN, surpassant nettement les bases de référence.",
           "keyPoints": [
-            "Identifie l'écart entre exécutabilité et faisabilité technique dans les programmes de scènes.",
-            "Introduit VIGOR pour combiner génération supervisée et réparation par graphe de conflits.",
-            "Atteint 96,86 % de faisabilité complète sur un nouveau jeu de données industriel."
+            "Propose un cadre LLM multi-agent pour l'ajustement automatisé de composants spécifiques.",
+            "Modifie uniquement le code des composants ciblés sans altérer la structure globale du réseau.",
+            "Démontre des améliorations majeures de précision et des réductions d'erreurs sur des tâches variées."
           ]
         }
       },
@@ -275,36 +587,75 @@
       }
     },
     {
-      "id": "feed-3d39e111011767",
-      "title": "TQS: Structural Scoring Framework for Coding-Agent Trajectories",
-      "summary": "TQS is a linear-time structural scoring framework that evaluates coding-agent trajectory quality based on structure rather than final outcomes, enabling better dataset filtering for supervised fine-tuning.",
+      "id": "feed-dda2412bc2d865",
+      "title": "Benefits and Limits of Curriculum Difficulty Progression in GRPO",
+      "summary": "This paper investigates curriculum learning strategies within Group Relative Policy Optimization (GRPO), examining whether progressing toward harder samples improves final performance. By dynamically re-estimating sample difficulty under the current policy, the authors show that a staged progression to moderately harder difficulties outperforms persistent medium-difficulty selection on GSM8K, though excessive progression reduces accuracy.",
       "keyPoints": [
-        "Introduces Trajectory Quality Score (TQS) to evaluate coding-agent interaction patterns.",
-        "Operates in linear time without requiring an LLM judge.",
-        "Models trained on top-ranked trajectories outperform those trained on random subsets on SWE-Bench-Verified."
+        "Re-estimates sample difficulty dynamically as the policy evolves during GRPO training.",
+        "Demonstrates that staged progression to harder samples improves GSM8K test accuracy over fixed-medium selection.",
+        "Reveals a non-monotonic benefit, where excessive progression to overly difficult samples degrades performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.13669",
+      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Benefits and Limits of Curriculum Difficulty Progression in GRPO",
+          "summary": "This paper investigates curriculum learning strategies within Group Relative Policy Optimization (GRPO), examining whether progressing toward harder samples improves final performance. By dynamically re-estimating sample difficulty under the current policy, the authors show that a staged progression to moderately harder difficulties outperforms persistent medium-difficulty selection on GSM8K, though excessive progression reduces accuracy.",
+          "keyPoints": [
+            "Re-estimates sample difficulty dynamically as the policy evolves during GRPO training.",
+            "Demonstrates that staged progression to harder samples improves GSM8K test accuracy over fixed-medium selection.",
+            "Reveals a non-monotonic benefit, where excessive progression to overly difficult samples degrades performance."
+          ]
+        },
+        "fr": {
+          "title": "Bénéfices et limites de la progression de la difficulté dans GRPO",
+          "summary": "Cet article étudie les stratégies d'apprentissage par curriculum dans GRPO. En réestimant dynamiquement la difficulté des échantillons à mesure que la politique évolue, les auteurs démontrent qu'une progression vers des exemples modérément plus difficiles améliore la précision sur GSM8K, tandis qu'une progression excessive réduit les performances.",
+          "keyPoints": [
+            "Réestime dynamiquement la difficulté des échantillons au fil de l'évolution de la politique.",
+            "Montre qu'une progression par étapes vers des échantillons plus difficiles surpasse la sélection moyenne fixe.",
+            "Met en évidence un effet non monétaire, une difficulté excessive dégradant les performances finales."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ee64bdcb074f2a",
+      "title": "A Baseline Assessment for the Agentic Web Technology Stack",
+      "summary": "To help developers navigate the complex ecosystem of LLM-based agent technologies, the authors propose MASTIF (Multi-Agent System TestIng Framework). Evaluating 3 LLMs, 3 protocols, and 4 agent frameworks against 300 Mind2Web benchmark tasks, the study provides a baseline assessment showing how tech stack selection affects task completion rates, efficiency, and verbosity.",
+      "keyPoints": [
+        "Introduces MASTIF (Multi-Agent System TestIng Framework) for evaluating Agentic Web technologies.",
+        "Evaluates combinations of 3 LLMs, 3 protocols, and 4 agent frameworks across 300 Mind2Web tasks.",
+        "Provides metric baselines showing that task-specific stack selection significantly improves completion and efficiency."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13152",
+      "sourceUrl": "https://arxiv.org/abs/2610.13703",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "TQS: Structural Scoring Framework for Coding-Agent Trajectories",
-          "summary": "TQS is a linear-time structural scoring framework that evaluates coding-agent trajectory quality based on structure rather than final outcomes, enabling better dataset filtering for supervised fine-tuning.",
+          "title": "A Baseline Assessment for the Agentic Web Technology Stack",
+          "summary": "To help developers navigate the complex ecosystem of LLM-based agent technologies, the authors propose MASTIF (Multi-Agent System TestIng Framework). Evaluating 3 LLMs, 3 protocols, and 4 agent frameworks against 300 Mind2Web benchmark tasks, the study provides a baseline assessment showing how tech stack selection affects task completion rates, efficiency, and verbosity.",
           "keyPoints": [
-            "Introduces Trajectory Quality Score (TQS) to evaluate coding-agent interaction patterns.",
-            "Operates in linear time without requiring an LLM judge.",
-            "Models trained on top-ranked trajectories outperform those trained on random subsets on SWE-Bench-Verified."
+            "Introduces MASTIF (Multi-Agent System TestIng Framework) for evaluating Agentic Web technologies.",
+            "Evaluates combinations of 3 LLMs, 3 protocols, and 4 agent frameworks across 300 Mind2Web tasks.",
+            "Provides metric baselines showing that task-specific stack selection significantly improves completion and efficiency."
           ]
         },
         "fr": {
-          "title": "TQS : Cadre de notation structurelle pour les trajectoires d'agents de codage",
-          "summary": "TQS est un cadre de notation structurelle en temps linéaire qui évalue la qualité des trajectoires des agents de codage en fonction de leur structure et non seulement des résultats finaux.",
+          "title": "Évaluation de référence pour la pile technologique du Web agentique",
+          "summary": "Pour aider les développeurs à s'y retrouver dans l'écosystème des agents basés sur les LLM, les auteurs proposent MASTIF. En évaluant 3 LLMs, 3 protocoles et 4 cadres d'agents sur 300 tâches de Mind2Web, l'étude fournit une référence montrant l'impact du choix de la pile technologique sur l'efficacité et le taux de réussite.",
           "keyPoints": [
-            "Introduit le score de qualité de trajectoire (TQS) pour évaluer les interactions de codage.",
-            "Fonctionne en temps linéaire sans nécessiter de juge LLM.",
-            "Améliore les performances des modèles formés sur des sous-ensembles filtrés par rapport à SWE-Bench-Verified."
+            "Présente MASTIF pour évaluer les technologies du Web agentique.",
+            "Analyse diverses combinaisons de LLMs, de protocoles et de cadres d'agents sur 300 tâches.",
+            "Fournit des repères métriques démontrant l'importance du choix de la pile logicielle."
           ]
         }
       },
@@ -314,477 +665,126 @@
       }
     },
     {
-      "id": "feed-d32699b75785ca",
-      "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Roles",
-      "summary": "RoleWorld is a symbolic world modeling approach utilizing reusable prototypes and environment-specific parameters as functional role abstractions, enabling robust knowledge transfer and generalization across different environments.",
+      "id": "feed-a3908f9b5e65d5",
+      "title": "Adaptive DHiSparse: Speculative Decoding over KV Hierarchies",
+      "summary": "Adaptive DHiSparse introduces speculative decoding over a load-adaptive hierarchical sparse KV cache to improve long-context serving. By retaining history during low load and performing exact fused retrieval under pressure, the system maintains proposal rules while supporting high concurrency and long contexts, achieving up to 1.85x output improvements on DeepSeek-V4.1-Flash.",
       "keyPoints": [
-        "Introduces RoleWorld for knowledge transfer using functional role abstractions.",
-        "Extracts role prototypes and executable transition rules from interaction trajectories.",
-        "Demonstrates robust generalization on the MARS benchmark with significantly altered object behavior."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13172",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Roles",
-          "summary": "RoleWorld is a symbolic world modeling approach utilizing reusable prototypes and environment-specific parameters as functional role abstractions, enabling robust knowledge transfer and generalization across different environments.",
-          "keyPoints": [
-            "Introduces RoleWorld for knowledge transfer using functional role abstractions.",
-            "Extracts role prototypes and executable transition rules from interaction trajectories.",
-            "Demonstrates robust generalization on the MARS benchmark with significantly altered object behavior."
-          ]
-        },
-        "fr": {
-          "title": "RoleWorld : Transfert de connaissances dans la modélisation du monde par rôles fonctionnels",
-          "summary": "RoleWorld est une approche symbolique de modélisation du monde utilisant des prototypes réévaluables comme abstractions de rôles fonctionnels pour permettre un transfert de connaissances robuste.",
-          "keyPoints": [
-            "Introduit RoleWorld pour le transfert de connaissances basé sur des rôles fonctionnels.",
-            "Extrait des prototypes de rôles et des règles de transition exécutables à partir de trajectoires.",
-            "Démontre une généralisation robuste sur le benchmark MARS avec des comportements d'objets modifiés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3e6c7158193e99",
-      "title": "AdaC-GRPO: Mastering Long-Horizon Visual Sudoku via Adaptive Curriculum",
-      "summary": "To address reward sparsity in long-horizon multimodal tasks, researchers introduce FG-Sudoku and AdaC-GRPO, an adaptive curriculum reinforcement learning method that tracks training progress via online rollout accuracy.",
-      "keyPoints": [
-        "Introduces FG-Sudoku, a fine-grained benchmark for visual Sudoku puzzles.",
-        "Proposes Adaptive Curriculum Group Relative Policy Optimization (AdaC-GRPO).",
-        "Enables Qwen2.5-VL-7B to approach Gemini-2.5-Flash performance and bridge the gap to Gemini-2.5-Pro."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13184",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AdaC-GRPO: Mastering Long-Horizon Visual Sudoku via Adaptive Curriculum",
-          "summary": "To address reward sparsity in long-horizon multimodal tasks, researchers introduce FG-Sudoku and AdaC-GRPO, an adaptive curriculum reinforcement learning method that tracks training progress via online rollout accuracy.",
-          "keyPoints": [
-            "Introduces FG-Sudoku, a fine-grained benchmark for visual Sudoku puzzles.",
-            "Proposes Adaptive Curriculum Group Relative Policy Optimization (AdaC-GRPO).",
-            "Enables Qwen2.5-VL-7B to approach Gemini-2.5-Flash performance and bridge the gap to Gemini-2.5-Pro."
-          ]
-        },
-        "fr": {
-          "title": "AdaC-GRPO : Maîtrise du Sudoku visuel à long horizon via un programme adaptatif",
-          "summary": "Pour surmonter la rareté des récompenses dans les tâches multimodales à long horizon, les chercheurs présentent FG-Sudoku et AdaC-GRPO, une méthode d'apprentissage par renforcement à curriculum adaptatif.",
-          "keyPoints": [
-            "Introduit FG-Sudoku, un benchmark granulaire pour les puzzles de Sudoku visuel.",
-            "Propose AdaC-GRPO pour gérer l'optimisation des politiques de groupe par curriculum adaptatif.",
-            "Permet à Qwen2.5-VL-7B de se rapprocher des performances de Gemini-2.5-Flash."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ff469b4c8e0c86",
-      "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
-      "summary": "The paper introduces JANUS, a framework designed to improve long-horizon autonomous research by uniting future outcome forecasting and past experience reflection through a Predict-Verify-Evolve loop. Driven by a co-evolving world model, the agent proposes and evaluates candidates prior to execution, distilling experience into hierarchical and exploration-strategy skills to achieve higher efficiency and ceiling.",
-      "keyPoints": [
-        "Unifies forecasting and reflection via a Predict-Verify-Evolve loop driven by a world model.",
-        "Evaluates and filters candidate research branches prior to costly executions.",
-        "Distills ground-truth feedback into evolving hierarchical and exploration skills."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13194",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
-          "summary": "The paper introduces JANUS, a framework designed to improve long-horizon autonomous research by uniting future outcome forecasting and past experience reflection through a Predict-Verify-Evolve loop. Driven by a co-evolving world model, the agent proposes and evaluates candidates prior to execution, distilling experience into hierarchical and exploration-strategy skills to achieve higher efficiency and ceiling.",
-          "keyPoints": [
-            "Unifies forecasting and reflection via a Predict-Verify-Evolve loop driven by a world model.",
-            "Evaluates and filters candidate research branches prior to costly executions.",
-            "Distills ground-truth feedback into evolving hierarchical and exploration skills."
-          ]
-        },
-        "fr": {
-          "title": "JANUS : Améliorer la recherche autonome à long terme avec des modèles du monde co-évolutifs",
-          "summary": "L'article présente JANUS, un cadre visant à améliorer la recherche autonome à long terme en unissant la prévision des résultats futurs et la réflexion sur l'expérience passée via une boucle de prédiction, de vérification et d'évolution. Piloté par un modèle du monde co-évolutif, l'agent évalue les candidats avant l'exécution pour atteindre une efficacité supérieure.",
-          "keyPoints": [
-            "Unifie la prévision et la réflexion via une boucle de prédiction, vérification et évolution.",
-            "Évalue et filtre les branches de recherche candidates avant les exécutions coûteuses.",
-            "Transforme les retours de vérité terrain en compétences hiérarchiques et d'exploration évolutives."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0cc7f3aa891c86",
-      "title": "DREAM: Neuro-Inspired Memory Repair for Poisoned LLM Agents",
-      "summary": "To combat memory-poisoning attacks in LLM agents without high computational overhead, the authors propose DREAM, a training-free framework inspired by neuroscientific forgetting mechanisms. DREAM uses perturbation-induced reactivation and adaptive anomaly diagnosis to selectively suppress malicious memories while preserving benign utility, achieving significant speedups and robustness.",
-      "keyPoints": [
-        "Introduces a neuro-inspired, training-free memory repair framework named DREAM.",
-        "Reduces backdoor poisoning attack success rates by over 95% while keeping benign utility strong.",
-        "Achieves up to 2.13x speedup and 37.7% reduction in token consumption."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13267",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DREAM: Neuro-Inspired Memory Repair for Poisoned LLM Agents",
-          "summary": "To combat memory-poisoning attacks in LLM agents without high computational overhead, the authors propose DREAM, a training-free framework inspired by neuroscientific forgetting mechanisms. DREAM uses perturbation-induced reactivation and adaptive anomaly diagnosis to selectively suppress malicious memories while preserving benign utility, achieving significant speedups and robustness.",
-          "keyPoints": [
-            "Introduces a neuro-inspired, training-free memory repair framework named DREAM.",
-            "Reduces backdoor poisoning attack success rates by over 95% while keeping benign utility strong.",
-            "Achieves up to 2.13x speedup and 37.7% reduction in token consumption."
-          ]
-        },
-        "fr": {
-          "title": "DREAM : Réparation de mémoire neuro-inspirée pour agents LLM empoisonnés",
-          "summary": "Pour contrer les attaques par empoisonnement de mémoire dans les agents LLM sans surcoût de calcul, les auteurs proposent DREAM, un cadre sans entraînement inspiré des mécanismes d'oubli neuroscientifiques. DREAM supprime sélectivement les mémoires malveillantes tout en préservant l'utilité bénigne.",
-          "keyPoints": [
-            "Introduit un cadre de réparation de mémoire sans entraînement et neuro-inspiré nommé DREAM.",
-            "Réduit les taux de réussite des attaques de plus de 95 % tout en préservant l'utilité.",
-            "Atteint jusqu'à 2,13x d'accélération et une réduction de 37,7 % de la consommation de jetons."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c176f7076321d2",
-      "title": "BoundaryEvo: Data-Model Co-Evolution for Long-Chain Reasoning Distillation",
-      "summary": "BoundaryEvo is a two-stage data-model co-evolution framework for distilling long-chain reasoning into small language models. By initially priming basic capabilities and subsequently adapting training data to the student's evolving capability boundary, the method consistently outperforms baselines across multiple reasoning benchmarks using minimal training examples.",
-      "keyPoints": [
-        "Employs a two-stage framework: capability priming and capability-boundary co-evolution.",
-        "Adapts the training data dynamically to the evolving capability boundary of the student.",
-        "Improves Qwen3.5-4B performance significantly on complex benchmarks with only 1,000 examples."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13285",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "BoundaryEvo: Data-Model Co-Evolution for Long-Chain Reasoning Distillation",
-          "summary": "BoundaryEvo is a two-stage data-model co-evolution framework for distilling long-chain reasoning into small language models. By initially priming basic capabilities and subsequently adapting training data to the student's evolving capability boundary, the method consistently outperforms baselines across multiple reasoning benchmarks using minimal training examples.",
-          "keyPoints": [
-            "Employs a two-stage framework: capability priming and capability-boundary co-evolution.",
-            "Adapts the training data dynamically to the evolving capability boundary of the student.",
-            "Improves Qwen3.5-4B performance significantly on complex benchmarks with only 1,000 examples."
-          ]
-        },
-        "fr": {
-          "title": "BoundaryEvo : Co-évolution données-modèle pour la distillation du raisonnement à longue chaîne",
-          "summary": "BoundaryEvo est un cadre de co-évolution de données et de modèles en deux étapes pour distiller le raisonnement à longue chaîne dans de petits modèles de langage. En amorçant les capacités de base puis en adaptant les données d'entraînement, la méthode surpasse les bases de référence.",
-          "keyPoints": [
-            "Utilise un cadre en deux étapes : amorçage des capacités et co-évolution aux frontières.",
-            "Adapte dynamiquement les données d'entraînement à la frontière de capacité évolutive de l'étudiant.",
-            "Améliore considérablement les performances de Qwen3.5-4B avec seulement 1 000 exemples."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f29f58ee0624f1",
-      "title": "ChemDiffAgent: Masked Diffusion Language Agents for Chemical Reasoning",
-      "summary": "ChemDiffAgent reformulates chemical reasoning as iterative denoising over interleaved reasoning and tool-use trajectories using a masked diffusion language agent paradigm. This design overcomes causal attention limitations, enabling better bidirectional molecular understanding and outperforming autoregressive agents across complex chemical benchmarks.",
-      "keyPoints": [
-        "Introduces the first masked diffusion language agent for tool-integrated chemical reasoning.",
-        "Reformulates reasoning as iterative denoising to enable flexible arbitrary-order decoding.",
-        "Achieves an overall performance improvement of roughly 20% compared to autoregressive agents."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13330",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ChemDiffAgent: Masked Diffusion Language Agents for Chemical Reasoning",
-          "summary": "ChemDiffAgent reformulates chemical reasoning as iterative denoising over interleaved reasoning and tool-use trajectories using a masked diffusion language agent paradigm. This design overcomes causal attention limitations, enabling better bidirectional molecular understanding and outperforming autoregressive agents across complex chemical benchmarks.",
-          "keyPoints": [
-            "Introduces the first masked diffusion language agent for tool-integrated chemical reasoning.",
-            "Reformulates reasoning as iterative denoising to enable flexible arbitrary-order decoding.",
-            "Achieves an overall performance improvement of roughly 20% compared to autoregressive agents."
-          ]
-        },
-        "fr": {
-          "title": "ChemDiffAgent : Agents de langage à diffusion masquée pour le raisonnement chimique",
-          "summary": "ChemDiffAgent reformule le raisonnement chimique comme un débruitage itératif sur des trajectoires entrelacées en utilisant un paradigme d'agent de langage à diffusion masquée. Cette conception surmonte les limites de l'attention causale et surpasse les agents autorégressifs.",
-          "keyPoints": [
-            "Présente le premier agent de langage à diffusion masquée pour le raisonnement chimique.",
-            "Reformule le raisonnement en débruitage itératif pour un décodage flexible.",
-            "Réalise une amélioration globale des performances d'environ 20 % par rapport aux agents autorégressifs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f5aefb680b3b6d",
-      "title": "AlphaNIST: Emergent Assembly Skills from Binary Task Rewards",
-      "summary": "AlphaNIST investigates whether sparse binary task rewards can enable a robot to discover assembly strategies from scratch on the NIST Assembly Task Board #1. Training a single policy without demonstrations or task-specific tuning, the framework achieves high success rates while discovering dexterous and planning-like behaviors.",
-      "keyPoints": [
-        "Trains a single policy across all 20 NIST assembly tasks using sparse binary rewards.",
-        "Reaches 98.2% training success without demonstrations, progress shaping, or scripted primitives.",
-        "Discovers complex dexterous and planning-like behaviors without explicit planners."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13354",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AlphaNIST: Emergent Assembly Skills from Binary Task Rewards",
-          "summary": "AlphaNIST investigates whether sparse binary task rewards can enable a robot to discover assembly strategies from scratch on the NIST Assembly Task Board #1. Training a single policy without demonstrations or task-specific tuning, the framework achieves high success rates while discovering dexterous and planning-like behaviors.",
-          "keyPoints": [
-            "Trains a single policy across all 20 NIST assembly tasks using sparse binary rewards.",
-            "Reaches 98.2% training success without demonstrations, progress shaping, or scripted primitives.",
-            "Discovers complex dexterous and planning-like behaviors without explicit planners."
-          ]
-        },
-        "fr": {
-          "title": "AlphaNIST : Compétences d'assemblage émergentes à partir de récompenses de tâches binaires",
-          "summary": "AlphaNIST étudie si des récompenses de tâches binaires éparses peuvent permettre à un robot de découvrir des stratégies d'assemblage à partir de zéro sur le panneau de tâches NIST #1. En entraînant une politique unique, le cadre atteint des taux de réussite élevés.",
-          "keyPoints": [
-            "Entraîne une politique unique sur les 20 tâches d'assemblage NIST avec des récompenses binaires.",
-            "Atteint 98,2 % de réussite à l'entraînement sans démonstrations ni guidage préalable.",
-            "Découvre des comportements de planification complexes sans planificateur explicite."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9a1b6f9e9bfc28",
-      "title": "SWE-Critix: Post-Training Generalist Verifiers for Coding-Agent Trajectories",
-      "summary": "SWE-Critix is a post-training pipeline combining supervised fine-tuning and reinforcement learning to build generalist verifiers for coding-agent trajectories. Trained on code repository interaction data, the models predict task completion labels and generate natural-language explanations, significantly improving classification accuracy.",
-      "keyPoints": [
-        "Introduces a post-training pipeline for generalist verifiers of coding-agent trajectories.",
-        "Combines supervised fine-tuning with reinforcement learning on 30B model architectures.",
-        "Improves trajectory evaluation classification accuracy from 57% to 78% on held-out test sets."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13356",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SWE-Critix: Post-Training Generalist Verifiers for Coding-Agent Trajectories",
-          "summary": "SWE-Critix is a post-training pipeline combining supervised fine-tuning and reinforcement learning to build generalist verifiers for coding-agent trajectories. Trained on code repository interaction data, the models predict task completion labels and generate natural-language explanations, significantly improving classification accuracy.",
-          "keyPoints": [
-            "Introduces a post-training pipeline for generalist verifiers of coding-agent trajectories.",
-            "Combines supervised fine-tuning with reinforcement learning on 30B model architectures.",
-            "Improves trajectory evaluation classification accuracy from 57% to 78% on held-out test sets."
-          ]
-        },
-        "fr": {
-          "title": "SWE-Critix : Vérificateurs généralistes post-entraînement pour les trajectoires d'agents de codage",
-          "summary": "SWE-Critix est un pipeline de post-entraînement combinant un réglage fin supervisé et l'apprentissage par renforcement pour créer des vérificateurs généralistes de trajectoires d'agents de codage. Les modèles prédisent l'achèvement des tâches et génèrent des explications en langage naturel.",
-          "keyPoints": [
-            "Introduit un pipeline de post-entraînement pour des vérificateurs généralistes de code.",
-            "Combine réglage fin supervisé et apprentissage par renforcement sur des modèles de 30B.",
-            "Améliore la précision de la classification des trajectoires de 57 % à 78 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-781175b9c814b9",
-      "title": "RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning",
-      "summary": "RegulaTutor is a theory-informed framework for long-term personalized tutoring grounded in self-regulated learning and CAMM principles. It connects historical learner data to explicit instructional policies, supported by an offline procedure called PairRoute that diagnoses harness and model errors to refine performance.",
-      "keyPoints": [
-        "Implements a cognitive, affective, metacognitive, and motivational pedagogical framework.",
-        "Uses an offline refinement procedure named PairRoute to systematically identify and fix errors.",
-        "Improves historical-evidence accuracy, learner diagnosis, and overall teaching quality."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13399",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning",
-          "summary": "RegulaTutor is a theory-informed framework for long-term personalized tutoring grounded in self-regulated learning and CAMM principles. It connects historical learner data to explicit instructional policies, supported by an offline procedure called PairRoute that diagnoses harness and model errors to refine performance.",
-          "keyPoints": [
-            "Implements a cognitive, affective, metacognitive, and motivational pedagogical framework.",
-            "Uses an offline refinement procedure named PairRoute to systematically identify and fix errors.",
-            "Improves historical-evidence accuracy, learner diagnosis, and overall teaching quality."
-          ]
-        },
-        "fr": {
-          "title": "RegulaTutor : Un cadre théorique pour l'apprentissage personnalisé à long terme",
-          "summary": "RegulaTutor est un cadre théorique pour le tutorat personnalisé à long terme ancré dans l'apprentissage auto-régulé. Il relie les données historiques des apprenants à des politiques pédagogiques explicites, soutenues par une procédure hors ligne nommée PairRoute.",
-          "keyPoints": [
-            "Met en œuvre un cadre pédagogique cognitif, affectif, métacognitif et motivationnel.",
-            "Utilise une procédure de raffinement hors ligne nommée PairRoute pour corriger les erreurs.",
-            "Améliore la précision des preuves historiques, le diagnostic des apprenants et la qualité de l'enseignement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-af64a0a381728d",
-      "title": "Web$hell: A Unified Interface for Agentic Web Access",
-      "summary": "Web$hell is a unified interface that consolidates search, browser actions, and filesystem access for LLM agents under a single model. By compiling live webpages into addressable information and action objects through WebContract and WebCache, the framework provides persistent and efficient agentic web access at lower costs.",
-      "keyPoints": [
-        "Unifies search, browser navigation, and deep research into a single access interface.",
-        "Compiles live webpages into addressable objects via WebContract and WebCache.",
-        "Achieves strong task performance and cost efficiency across multiple web benchmarks."
+        "Integrates speculative decoding with hierarchical sparse KV caching, adapting residency to current load.",
+        "Protects working sets and handles host memory retrieval dynamically to optimize throughput.",
+        "Delivers significant speedups and high concurrency support on GLM-5.3 and DeepSeek-V4.1-Flash."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13416",
+      "sourceUrl": "https://arxiv.org/abs/2610.13708",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Web$hell: A Unified Interface for Agentic Web Access",
-          "summary": "Web$hell is a unified interface that consolidates search, browser actions, and filesystem access for LLM agents under a single model. By compiling live webpages into addressable information and action objects through WebContract and WebCache, the framework provides persistent and efficient agentic web access at lower costs.",
+          "title": "Adaptive DHiSparse: Speculative Decoding over KV Hierarchies",
+          "summary": "Adaptive DHiSparse introduces speculative decoding over a load-adaptive hierarchical sparse KV cache to improve long-context serving. By retaining history during low load and performing exact fused retrieval under pressure, the system maintains proposal rules while supporting high concurrency and long contexts, achieving up to 1.85x output improvements on DeepSeek-V4.1-Flash.",
           "keyPoints": [
-            "Unifies search, browser navigation, and deep research into a single access interface.",
-            "Compiles live webpages into addressable objects via WebContract and WebCache.",
-            "Achieves strong task performance and cost efficiency across multiple web benchmarks."
+            "Integrates speculative decoding with hierarchical sparse KV caching, adapting residency to current load.",
+            "Protects working sets and handles host memory retrieval dynamically to optimize throughput.",
+            "Delivers significant speedups and high concurrency support on GLM-5.3 and DeepSeek-V4.1-Flash."
           ]
         },
         "fr": {
-          "title": "Web$hell : Une interface unifiée pour l'accès web agentique",
-          "summary": "Web$hell est une interface unifiée qui regroupe la recherche, les actions de navigation et l'accès au système de fichiers pour les agents LLM sous un modèle unique. En compilant des pages web en objets d'information, le cadre offre un accès web persistant et efficace.",
+          "title": "Adaptive DHiSparse : Décoration spéculative sur hiérarchie KV",
+          "summary": "Adaptive DHiSparse introduit le décodage spéculatif sur un cache KV hiérarchique et clairsemé adapté à la charge pour optimiser le service à long contexte. En conservant l'historique en cas de faible charge et en récupérant les données sous pression, le système améliore considérablement le débit et la concurrence sur des modèles récents.",
           "keyPoints": [
-            "Unifie la recherche, la navigation web et la recherche approfondie en une seule interface.",
-            "Compile les pages web en objets adressables via WebContract et WebCache.",
-            "Atteint de fortes performances et une efficacité des coûts sur plusieurs benchmarks web."
+            "Associe décodage spéculatif et cache KV hiérarchique clairsemé adaptable à la charge.",
+            "Gère dynamiquement la mémoire hôte et GPU pour maximiser le débit des jetons de sortie.",
+            "Permet des gains majeurs de performance et de concurrence sur GLM-5.3 et DeepSeek-V4.1-Flash."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-1c95b54b4bccfe",
-      "title": "Local Diagnostics of Learned Event Representations for Anomaly Detection at the HL-LHC",
-      "summary": "This work evaluates neural embedding strategies for anomaly detection at the High-Luminosity Large Hadron Collider using the COLLIDE-2V dataset. Findings show that supervised objectives outperform self-supervised counterparts, and a local diagnostic pipeline using Gaussian Mixture Models effectively recovers defining kinematics of new physics processes.",
+      "id": "feed-a750d481558e37",
+      "title": "Critique-Conditioned On-Policy Self-Distillation for Reasoning",
+      "summary": "This paper analyzes self-distillation objectives for reasoning models, finding that standard scoring teachers fail to localize errors or provide corrective credit without explicit search. To solve this, the authors propose critique-conditioned self-distillation, where the teacher generates a critique first. This approach provides dense token credit, localizes errors, and enhances performance both at test time and in cold-start GRPO.",
       "keyPoints": [
-        "Evaluates neural embedding strategies on a 750-million-event LHC collision dataset.",
-        "Demonstrates that supervised training objectives outperform self-supervised autoencoders.",
-        "Introduces a local diagnostic pipeline using Gaussian Mixture Models to rank discriminating observables."
+        "Shows that standard scoring teachers fail to localize errors because error localization requires search.",
+        "Introduces critique-conditioned self-distillation to generate corrective, error-localizing supervision signals.",
+        "Improves math problem-solving at test time and enhances cold-start GRPO training advantages."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13437",
+      "sourceUrl": "https://arxiv.org/abs/2610.13744",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Local Diagnostics of Learned Event Representations for Anomaly Detection at the HL-LHC",
-          "summary": "This work evaluates neural embedding strategies for anomaly detection at the High-Luminosity Large Hadron Collider using the COLLIDE-2V dataset. Findings show that supervised objectives outperform self-supervised counterparts, and a local diagnostic pipeline using Gaussian Mixture Models effectively recovers defining kinematics of new physics processes.",
+          "title": "Critique-Conditioned On-Policy Self-Distillation for Reasoning",
+          "summary": "This paper analyzes self-distillation objectives for reasoning models, finding that standard scoring teachers fail to localize errors or provide corrective credit without explicit search. To solve this, the authors propose critique-conditioned self-distillation, where the teacher generates a critique first. This approach provides dense token credit, localizes errors, and enhances performance both at test time and in cold-start GRPO.",
           "keyPoints": [
-            "Evaluates neural embedding strategies on a 750-million-event LHC collision dataset.",
-            "Demonstrates that supervised training objectives outperform self-supervised autoencoders.",
-            "Introduces a local diagnostic pipeline using Gaussian Mixture Models to rank discriminating observables."
+            "Shows that standard scoring teachers fail to localize errors because error localization requires search.",
+            "Introduces critique-conditioned self-distillation to generate corrective, error-localizing supervision signals.",
+            "Improves math problem-solving at test time and enhances cold-start GRPO training advantages."
           ]
         },
         "fr": {
-          "title": "Diagnostics locaux de représentations d'événements pour la détection d'anomalies au HL-LHC",
-          "summary": "Ce travail évalue les stratégies d'intégration neuronale pour la détection d'anomalies au Grand collisionneur de hadrons à haute luminosité. Les résultats montrent que les objectifs supervisés surpassent les approches auto-supervisées, et qu'un pipeline de diagnostic local identifie efficacement la physique nouvelle.",
+          "title": "Auto-distillation conditionnée par critique pour le raisonnement",
+          "summary": "Cet article analyse l'auto-distillation pour les modèles de raisonnement, montrant que les évaluateurs standards échouent à localiser les erreurs sans recherche explicite. Les auteurs proposent une auto-distillation conditionnée par une critique préalable, fournissant un signal correctif précis qui améliore les performances à l'inférence et lors de l'apprentissage par renforcement.",
           "keyPoints": [
-            "Évalue les stratégies d'incorporation neuronale sur un jeu de données de 750 millions d'événements.",
-            "Démontre que les objectifs supervisés surpassent les auto-encodeurs auto-supervisés.",
-            "Introduit un pipeline de diagnostic local utilisant des modèles de mélange gaussien."
+            "Démontre que les évaluateurs classiques ne parviennent pas à localiser les erreurs de raisonnement.",
+            "Propose d'inclure une étape de critique textuelle avant le conditionnement du score de l'enseignant.",
+            "Améliore la résolution de problèmes mathématiques et renforce l'efficacité de l'entraînement GRPO."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-9ea28aa2905705",
-      "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
-      "summary": "Rollout-Time Intervention (RTI) is a new technique designed to overcome the on-policy reasoning bottleneck in LLM agent reinforcement learning. By leveraging reward-side evaluation rubrics during rollout to convert erroneous trajectories into successful learning signals, RTI enables policies to surpass their original capability boundaries.",
+      "id": "feed-89dc8ff17b2fc7",
+      "title": "UkrMeme: Multimodal Persuasion Detection in Ukrainian Memes",
+      "summary": "Studying persuasive techniques in wartime online communication, the authors introduce UkrMeme, a dataset of 200 Ukrainian wartime memes annotated for persuasion, alongside PTM-UA, a translated benchmark. Using vision-language models in zero-shot setups, the study evaluates multimodal performance and compares explanation methods like Layer-wise Relevance Propagation with token attributions.",
       "keyPoints": [
-        "Introduces Rollout-Time Intervention (RTI) to bypass on-policy reasoning bottlenecks in agent RL.",
-        "Uses evaluation rubrics during rollout to turn failed trajectories into positive training signals.",
-        "Consistently outperforms baseline reinforcement learning approaches across five evaluation benchmarks."
+        "Introduces UkrMeme, a dataset of 200 annotated Ukrainian wartime memes for persuasion detection.",
+        "Presents PTM-UA, a Ukrainian adaptation of a propaganda benchmark preserving original visual content.",
+        "Evaluates vision-language models and analyzes explanation methods such as Layer-wise Relevance Propagation."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13438",
+      "sourceUrl": "https://arxiv.org/abs/2610.13783",
       "publishedAt": "2026-10-13T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
-          "summary": "Rollout-Time Intervention (RTI) is a new technique designed to overcome the on-policy reasoning bottleneck in LLM agent reinforcement learning. By leveraging reward-side evaluation rubrics during rollout to convert erroneous trajectories into successful learning signals, RTI enables policies to surpass their original capability boundaries.",
+          "title": "UkrMeme: Multimodal Persuasion Detection in Ukrainian Memes",
+          "summary": "Studying persuasive techniques in wartime online communication, the authors introduce UkrMeme, a dataset of 200 Ukrainian wartime memes annotated for persuasion, alongside PTM-UA, a translated benchmark. Using vision-language models in zero-shot setups, the study evaluates multimodal performance and compares explanation methods like Layer-wise Relevance Propagation with token attributions.",
           "keyPoints": [
-            "Introduces Rollout-Time Intervention (RTI) to bypass on-policy reasoning bottlenecks in agent RL.",
-            "Uses evaluation rubrics during rollout to turn failed trajectories into positive training signals.",
-            "Consistently outperforms baseline reinforcement learning approaches across five evaluation benchmarks."
+            "Introduces UkrMeme, a dataset of 200 annotated Ukrainian wartime memes for persuasion detection.",
+            "Presents PTM-UA, a Ukrainian adaptation of a propaganda benchmark preserving original visual content.",
+            "Evaluates vision-language models and analyzes explanation methods such as Layer-wise Relevance Propagation."
           ]
         },
         "fr": {
-          "title": "Intervention au moment du déploiement : Dépasser les limites de l'apprentissage par renforcement des agents",
-          "summary": "L'intervention au moment du déploiement (RTI) est une nouvelle technique conçue pour surmonter le goulot d'étranglement du raisonnement en ligne dans l'apprentissage par renforcement des agents LLM. En exploitant des grilles d'évaluation pour convertir les trajectoires erronées en signaux d'apprentissage, la RTI permet de dépasser les limites de capacité.",
+          "title": "UkrMeme : Détection multimodale de la persuasion dans les mèmes ukrainiens",
+          "summary": "Étudiant les techniques de persuasion dans la communication en temps de guerre, les auteurs présentent UkrMeme, un jeu de données de 200 mèmes ukrainiens annotés, ainsi que PTM-UA, un benchmark traduit. À l'aide de modèles vision-langage, l'étude évalue les performances multimodales et compare des méthodes d'explicabilité.",
           "keyPoints": [
-            "Introduit la technique RTI pour contourner les goulots d'étranglement du raisonnement des agents.",
-            "Utilise des grilles d'évaluation pour transformer les trajectoires échouées en signaux d'entraînement.",
-            "Surpasse régulièrement les approches de référence d'apprentissage par renforcement sur cinq benchmarks."
+            "Introduction d'UkrMeme, un ensemble de 200 mèmes de guerre ukrainiens annotés.",
+            "Présentation de PTM-UA, une adaptation ukrainienne d'un benchmark de propagande.",
+            "Évaluation de modèles vision-langage et analyse de méthodes d'explication textuelle et visuelle."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 330,
+    "itemsCollected": 332,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
