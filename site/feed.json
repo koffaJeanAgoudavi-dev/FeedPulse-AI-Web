@@ -1,6 +1,396 @@
 {
-  "generatedAt": "2026-10-15T04:42:45.558Z",
+  "generatedAt": "2026-10-15T17:03:52.427Z",
   "items": [
+    {
+      "id": "feed-02336069bfc68c",
+      "title": "Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos",
+      "summary": "Reels-RSI is an open-source reel director that performs self-improvement at the program level rather than through weights or prompts. Using logged code snapshots, retrospectives, and unit-tested rules compiled from static checks, it optimizes code-rendered explainer videos while ensuring human oversight.",
+      "keyPoints": [
+        "Performs self-improvement at the program level instead of in weights or prompts.",
+        "Logs every revision pass with code snapshots and compiles lessons into unit-tested rules.",
+        "Evaluated across 111 reels, showing that rules catch latent defects and audit directors."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14495",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos",
+          "summary": "Reels-RSI is an open-source reel director that performs self-improvement at the program level rather than through weights or prompts. Using logged code snapshots, retrospectives, and unit-tested rules compiled from static checks, it optimizes code-rendered explainer videos while ensuring human oversight.",
+          "keyPoints": [
+            "Performs self-improvement at the program level instead of in weights or prompts.",
+            "Logs every revision pass with code snapshots and compiles lessons into unit-tested rules.",
+            "Evaluated across 111 reels, showing that rules catch latent defects and audit directors."
+          ]
+        },
+        "fr": {
+          "title": "Reels-RSI : Auto-amélioration au niveau des programmes pour les vidéos explicatives",
+          "summary": "Reels-RSI est un directeur de clips open-source qui réalise l'auto-amélioration au niveau du programme plutôt que par les poids ou les invites. Utilisant des instantanés de code et des règles testées, il optimise les vidéos explicatives tout en maintenant une supervision humaine.",
+          "keyPoints": [
+            "Effectue l'auto-amélioration au niveau du programme plutôt que dans les poids ou les invites.",
+            "Enregistre chaque révision et compile les leçons en règles testées.",
+            "Évalué sur 111 clips, montrant que les règles détectent les défauts latents et auditent les directeurs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a7d8ed9c3d1cf8",
+      "title": "MontageFlow: Physically Valid High Fidelity EEG Generation",
+      "summary": "MontageFlow is a flow-matching generative model designed to fix the categorical failure of current EEG generators that violate exact linear identities between electrodes. By enforcing these identities and conditioning on physiological state vectors, it improves TS-FID by 1.6-3.6 times across benchmarks.",
+      "keyPoints": [
+        "Addresses the unnoticed failure of current EEG generators to satisfy electrode linear identities.",
+        "Proposes MontageFlow, a flow-matching model that restricts outputs to physically valid signals.",
+        "Improves TS-FID by 1.6-3.6 times over the closest rival across large-scale benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14507",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MontageFlow: Physically Valid High Fidelity EEG Generation",
+          "summary": "MontageFlow is a flow-matching generative model designed to fix the categorical failure of current EEG generators that violate exact linear identities between electrodes. By enforcing these identities and conditioning on physiological state vectors, it improves TS-FID by 1.6-3.6 times across benchmarks.",
+          "keyPoints": [
+            "Addresses the unnoticed failure of current EEG generators to satisfy electrode linear identities.",
+            "Proposes MontageFlow, a flow-matching model that restricts outputs to physically valid signals.",
+            "Improves TS-FID by 1.6-3.6 times over the closest rival across large-scale benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "MontageFlow : Génération EEG haute fidélité et physiquement valide",
+          "summary": "MontageFlow est un modèle génératif conçu pour corriger l'échec des générateurs EEG actuels qui violent les identités linéaires entre électrodes. En appliquant ces identités et en conditionnant sur des vecteurs physiologiques, il améliore le TS-FID de 1,6 à 3,6 fois.",
+          "keyPoints": [
+            "Résout l'échec des générateurs EEG à satisfaire les identités linéaires des électrodes.",
+            "Propose MontageFlow, un modèle limitant les sorties à des signaux physiquement valides.",
+            "Améliore le TS-FID de 1,6 à 3,6 fois par rapport au rival le plus proche sur des benchmarks."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-351f77aa044818",
+      "title": "ScienceBuddy-PV: Verifier-Governed Protocol for Panvascular Intervention Research",
+      "summary": "ScienceBuddy-PV adapts the ScienceBuddy recursive-in-recursive design to panvascular intervention research. Using a fixed component audit with separate ARCADE syntax and stenosis tasks, it evaluates a shared convolutional model and heuristic support gate, achieving specific Dice scores and establishing a reproducible protocol.",
+      "keyPoints": [
+        "Adapts the ScienceBuddy framework to panvascular intervention research via structured evidence ledgers.",
+        "Audits a fixed component using separate syntax and stenosis tasks on locked test sets.",
+        "Provides a reproducible protocol for future collaborative agent studies without claiming clinical validity."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14523",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ScienceBuddy-PV: Verifier-Governed Protocol for Panvascular Intervention Research",
+          "summary": "ScienceBuddy-PV adapts the ScienceBuddy recursive-in-recursive design to panvascular intervention research. Using a fixed component audit with separate ARCADE syntax and stenosis tasks, it evaluates a shared convolutional model and heuristic support gate, achieving specific Dice scores and establishing a reproducible protocol.",
+          "keyPoints": [
+            "Adapts the ScienceBuddy framework to panvascular intervention research via structured evidence ledgers.",
+            "Audits a fixed component using separate syntax and stenosis tasks on locked test sets.",
+            "Provides a reproducible protocol for future collaborative agent studies without claiming clinical validity."
+          ]
+        },
+        "fr": {
+          "title": "ScienceBuddy-PV : Protocole géré par vérificateur pour la recherche en intervention",
+          "summary": "ScienceBuddy-PV adapte la conception récursive de ScienceBuddy à la recherche sur les interventions panvasculaires. À l'aide d'un audit de composants fixes et de tâches ARCADE, il évalue un modèle convolutionnel partagé et établit un protocole reproductible.",
+          "keyPoints": [
+            "Adapte le cadre ScienceBuddy à la recherche sur les interventions panvasculaires.",
+            "Audite un composant fixe en utilisant des tâches de syntaxe et de sténose distinctes.",
+            "Fournit un protocole reproductible pour de futures études d'agents sans prétendre à une validité clinique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d20bb21bfca9c7",
+      "title": "Energy Ring: Stabilizing Feature Energy for Reliable Test-Time Discovery",
+      "summary": "Energy Ring is a test-time discovery method that stabilizes the natural energy gap between known and unknown classes by anchoring them on separate energy rings. A lightweight adapter and perturbation consistency module help separate features, improving performance during continual stream adaptation.",
+      "keyPoints": [
+        "Revisits test-time discovery from an energy perspective to address feature collapse.",
+        "Proposes Energy Ring to anchor known and unknown classes on separate energy rings.",
+        "Uses a lightweight adapter and perturbation consistency module to improve separation and performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14525",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Energy Ring: Stabilizing Feature Energy for Reliable Test-Time Discovery",
+          "summary": "Energy Ring is a test-time discovery method that stabilizes the natural energy gap between known and unknown classes by anchoring them on separate energy rings. A lightweight adapter and perturbation consistency module help separate features, improving performance during continual stream adaptation.",
+          "keyPoints": [
+            "Revisits test-time discovery from an energy perspective to address feature collapse.",
+            "Proposes Energy Ring to anchor known and unknown classes on separate energy rings.",
+            "Uses a lightweight adapter and perturbation consistency module to improve separation and performance."
+          ]
+        },
+        "fr": {
+          "title": "Energy Ring : Stabilisation de l'énergie des caractéristiques pour la découverte",
+          "summary": "Energy Ring est une méthode de découverte en temps de test qui stabilise l'écart énergétique entre classes connues et inconnues en les ancrant sur des anneaux distincts. Un adaptateur léger et un module de cohérence aident à améliorer les performances.",
+          "keyPoints": [
+            "Revoit la découverte en temps de test sous un angle énergétique pour contrer l'effondrement.",
+            "Propose Energy Ring pour ancrer les classes connues et inconnues sur des anneaux distincts.",
+            "Utilise un adaptateur léger et un module de cohérence pour améliorer la séparation des caractéristiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8610e5ac613aaf",
+      "title": "FDE-Bench: Evaluating End-to-End Delivery from Underspecified Business Requests",
+      "summary": "FDE-Bench is the first benchmark built from real customer projects to evaluate agents on end-to-end delivery tasks requiring interactive requirement clarification and iterative optimization. Testing 18 agent configurations revealed that reliable FDE-level delivery remains out of reach.",
+      "keyPoints": [
+        "Introduces FDE-Bench based on real customer projects requiring interactive clarification and optimization.",
+        "Spans 49 cases across combinatorial optimization and machine learning from real projects.",
+        "Shows that evaluated agents achieve a maximum delivery success rate of only 6.12%."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14539",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "FDE-Bench: Evaluating End-to-End Delivery from Underspecified Business Requests",
+          "summary": "FDE-Bench is the first benchmark built from real customer projects to evaluate agents on end-to-end delivery tasks requiring interactive requirement clarification and iterative optimization. Testing 18 agent configurations revealed that reliable FDE-level delivery remains out of reach.",
+          "keyPoints": [
+            "Introduces FDE-Bench based on real customer projects requiring interactive clarification and optimization.",
+            "Spans 49 cases across combinatorial optimization and machine learning from real projects.",
+            "Shows that evaluated agents achieve a maximum delivery success rate of only 6.12%."
+          ]
+        },
+        "fr": {
+          "title": "FDE-Bench : Évaluation de la livraison de bout en bout pour des requêtes d'affaires",
+          "summary": "FDE-Bench est le premier benchmark issu de projets clients réels pour évaluer les agents sur des tâches de livraison de bout en bout nécessitant une clarification interactive. Le test de 18 configurations montre que la livraison fiable reste hors de portée.",
+          "keyPoints": [
+            "Introduit FDE-Bench basé sur des projets clients réels exigeant une clarification interactive.",
+            "Couvre 49 cas en optimisation combinatoire et en apprentissage automatique.",
+            "Démontre que les agents évalués atteignent un taux de réussite de livraison maximal de seulement 6,12 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0f2155926c31b7",
+      "title": "Are Multimodal Benchmarks Really Useful? Item-Level Diagnosis via SRCoD",
+      "summary": "SRCoD is a structure-response co-calibrated diagnosis framework designed to evaluate modality dependence in multimodal benchmarks at the item level. By estimating multimodal information structure and using it as a soft structural anchor, SRCoD outperforms state-of-the-art benchmark diagnosis methods.",
+      "keyPoints": [
+        "Introduces SRCoD for item-level diagnosis of modality dependence in multimodal benchmarks.",
+        "Estimates sample-wise multimodal information structure as a soft structural anchor.",
+        "Outperforms state-of-the-art benchmark diagnosis methods across two complementary validation protocols."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14542",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Are Multimodal Benchmarks Really Useful? Item-Level Diagnosis via SRCoD",
+          "summary": "SRCoD is a structure-response co-calibrated diagnosis framework designed to evaluate modality dependence in multimodal benchmarks at the item level. By estimating multimodal information structure and using it as a soft structural anchor, SRCoD outperforms state-of-the-art benchmark diagnosis methods.",
+          "keyPoints": [
+            "Introduces SRCoD for item-level diagnosis of modality dependence in multimodal benchmarks.",
+            "Estimates sample-wise multimodal information structure as a soft structural anchor.",
+            "Outperforms state-of-the-art benchmark diagnosis methods across two complementary validation protocols."
+          ]
+        },
+        "fr": {
+          "title": "Les benchmarks multimodaux sont-ils utiles ? Diagnostic via SRCoD",
+          "summary": "SRCoD est un cadre de diagnostic co-calibré structure-réponse conçu pour évaluer la dépendance modale dans les benchmarks multimodaux au niveau des éléments. Il surpasse les méthodes de diagnostic de pointe grâce à une modélisation adaptée.",
+          "keyPoints": [
+            "Introduit SRCoD pour le diagnostic au niveau des éléments de la dépendance modale.",
+            "Estime la structure de l'information multimodale par échantillon comme ancrage structurel.",
+            "Surpasse les méthodes de diagnostic de pointe selon deux protocoles de validation."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-309a136c41d53a",
+      "title": "PsyMemBehav: Psychology-Informed Reasoning for Social-Media Simulation",
+      "summary": "PsyMemBehav maps psychology-informed profiles and retrieved memories to target-first platform behavior through two-level identity-to-action reasoning. Evaluated on PsyMemBehav-bench containing 5.57M observed behaviors, PsyMemBehav 27B ranks first in individual-level metrics and improves average response quality.",
+      "keyPoints": [
+        "Introduces PsyMemBehav for evidence-grounded user modeling and social simulation.",
+        "Constructs PsyMemBehav-bench from over 5.57 million observed behaviors across multiple platforms.",
+        "PsyMemBehav 27B ranks first in 11 of 12 individual-level metrics, outperforming GPT-5.4."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14570",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "PsyMemBehav: Psychology-Informed Reasoning for Social-Media Simulation",
+          "summary": "PsyMemBehav maps psychology-informed profiles and retrieved memories to target-first platform behavior through two-level identity-to-action reasoning. Evaluated on PsyMemBehav-bench containing 5.57M observed behaviors, PsyMemBehav 27B ranks first in individual-level metrics and improves average response quality.",
+          "keyPoints": [
+            "Introduces PsyMemBehav for evidence-grounded user modeling and social simulation.",
+            "Constructs PsyMemBehav-bench from over 5.57 million observed behaviors across multiple platforms.",
+            "PsyMemBehav 27B ranks first in 11 of 12 individual-level metrics, outperforming GPT-5.4."
+          ]
+        },
+        "fr": {
+          "title": "PsyMemBehav : Raisonnement éclairé par la psychologie pour la simulation sociale",
+          "summary": "PsyMemBehav associe des profils psychologiques et des mémoires récupérées à un comportement de plateforme via un raisonnement à deux niveaux. Évalué sur PsyMemBehav-bench avec 5,57 millions de comportements, le modèle 27B se classe premier.",
+          "keyPoints": [
+            "Introduit PsyMemBehav pour la modélisation d'utilisateurs et la simulation sociale.",
+            "Construit le benchmark PsyMemBehav-bench à partir de 5,57 millions de comportements observés.",
+            "PsyMemBehav 27B surpasse GPT-5.4 en se classant premier sur la majorité des métriques individuelles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e6e6349175214c",
+      "title": "Learning after Execution with Action-Specific Credit in Executable Tasks",
+      "summary": "Learning after execution treats execution results as intermediate states supporting additional learning interactions for the same policy. Action-specific credit assigns initial action credit from final outcomes and corrective action credit for improvements, strengthening single-call inference and corrective capabilities.",
+      "keyPoints": [
+        "Uses execution results as intermediate states for further learning interactions.",
+        "Applies action-specific credit to separate initial outcome credit from corrective improvements.",
+        "Reaches 92.70% single-call render success on Image-to-TikZ, outperforming continued single-stage GRPO."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14573",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Learning after Execution with Action-Specific Credit in Executable Tasks",
+          "summary": "Learning after execution treats execution results as intermediate states supporting additional learning interactions for the same policy. Action-specific credit assigns initial action credit from final outcomes and corrective action credit for improvements, strengthening single-call inference and corrective capabilities.",
+          "keyPoints": [
+            "Uses execution results as intermediate states for further learning interactions.",
+            "Applies action-specific credit to separate initial outcome credit from corrective improvements.",
+            "Reaches 92.70% single-call render success on Image-to-TikZ, outperforming continued single-stage GRPO."
+          ]
+        },
+        "fr": {
+          "title": "Apprentissage après exécution avec crédit spécifique à l'action",
+          "summary": "L'apprentissage après exécution utilise les résultats d'exécution comme états intermédiaires pour soutenir des interactions d'apprentissage supplémentaires. Le crédit spécifique à l'action renforce l'inférence à un seul appel et les capacités correctives.",
+          "keyPoints": [
+            "Utilise les résultats d'exécution comme états intermédiaires pour de nouvelles interactions.",
+            "Applique un crédit spécifique pour séparer le résultat initial des améliorations correctives.",
+            "Atteint 92,70 % de réussite sur Image-to-TikZ, surpassant le GRPO mono-étape continué."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1104aeada88a7e",
+      "title": "CB-Agent: Concept-Based In-Context Learning for Sequential Action Selection",
+      "summary": "CB-Agent extends concept-based in-context learning to sequential action selection by extracting environment-action decisions from expert trajectories and fitting a concept vector via maximum likelihood. It allows agents to select actions without including full demonstrations in the action-scoring context.",
+      "keyPoints": [
+        "Extends concept-based in-context learning to sequential action selection.",
+        "Fits a concept vector using maximum likelihood from expert trajectory decisions.",
+        "Achieves top cross-benchmark averages across TextWorld, ALFWorld, and ScienceWorld."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14574",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "CB-Agent: Concept-Based In-Context Learning for Sequential Action Selection",
+          "summary": "CB-Agent extends concept-based in-context learning to sequential action selection by extracting environment-action decisions from expert trajectories and fitting a concept vector via maximum likelihood. It allows agents to select actions without including full demonstrations in the action-scoring context.",
+          "keyPoints": [
+            "Extends concept-based in-context learning to sequential action selection.",
+            "Fits a concept vector using maximum likelihood from expert trajectory decisions.",
+            "Achieves top cross-benchmark averages across TextWorld, ALFWorld, and ScienceWorld."
+          ]
+        },
+        "fr": {
+          "title": "CB-Agent : Apprentissage contextuel basé sur les concepts pour la sélection d'actions",
+          "summary": "CB-Agent étend l'apprentissage contextuel basé sur les concepts à la sélection d'actions séquentielles en extrayant des décisions de trajectoires d'experts et en ajustant un vecteur de concept. Il permet aux agents de sélectionner des actions sans démonstrations complètes.",
+          "keyPoints": [
+            "Étend l'apprentissage contextuel basé sur les concepts à la sélection d'actions séquentielles.",
+            "Ajuste un vecteur de concept par maximum de vraisemblance à partir de trajectoires expertes.",
+            "Obtient les meilleures moyennes inter-benchmarks sur TextWorld, ALFWorld et ScienceWorld."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0e8b8c47eeb76b",
+      "title": "Iterate on an LLM, Serve on an SLM: A Production Lifecycle Blueprint",
+      "summary": "This method proposes developing desired behavior on a frontier LLM using live traffic feedback, and then distilling the recorded production behavior into a small language model (SLM) via supervised fine-tuning. A LoRA-tuned Qwen3-8B trained on production decisions achieved high agreement and lower latency than its teacher.",
+      "keyPoints": [
+        "Develops behavior on frontier LLMs with live feedback before distilling into SLMs.",
+        "Demonstrates success using a scheduling agent where a Qwen3-8B student matched teacher performance.",
+        "Offers lower median latency and cheaper inference, establishing a blueprint for production systems."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14576",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Iterate on an LLM, Serve on an SLM: A Production Lifecycle Blueprint",
+          "summary": "This method proposes developing desired behavior on a frontier LLM using live traffic feedback, and then distilling the recorded production behavior into a small language model (SLM) via supervised fine-tuning. A LoRA-tuned Qwen3-8B trained on production decisions achieved high agreement and lower latency than its teacher.",
+          "keyPoints": [
+            "Develops behavior on frontier LLMs with live feedback before distilling into SLMs.",
+            "Demonstrates success using a scheduling agent where a Qwen3-8B student matched teacher performance.",
+            "Offers lower median latency and cheaper inference, establishing a blueprint for production systems."
+          ]
+        },
+        "fr": {
+          "title": "Itérer sur un LLM, servir sur un SLM : Un modèle de cycle de vie de production",
+          "summary": "Cette méthode propose de développer les comportements sur un LLM frontal avec des retours en direct, puis de distiller ces comportements dans un petit modèle de langage par fine-tuning supervisé. Un Qwen3-8B ajusté atteint une haute cohérence avec une latence réduite.",
+          "keyPoints": [
+            "Développe le comportement sur des LLM frontaux avec retours avant distillation dans un SLM.",
+            "Montre le succès via un agent de planification où un modèle Qwen3-8B égale l'enseignant.",
+            "Offre une latence médiane plus faible et une inférence économique pour les systèmes de production."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-c9d380c0b10dcf",
       "title": "Artificiality's First Exam: LLM-Referenced C-test for Supraintelligence",
@@ -390,403 +780,13 @@
         "confidence": 0.9,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-fc3118d0cb024e",
-      "title": "Unconstrained CTI-REALM with Open-Weights",
-      "summary": "We study open-weight versus closed frontier models on CTI-REALM, a benchmark for threat-intelligence agents. Evaluating 26 models, we find open-weight models can match the strongest closed models at less than a tenth of the cost when the message limit is relaxed. We also introduce stage-level metrics to evaluate individual workflow stages.",
-      "keyPoints": [
-        "Open-weight models can match the best closed models at under a tenth of the cost.",
-        "Published agent message limits artificially handicap models that need more time.",
-        "Stage-level metrics suggest routing different workflow steps to specialized models."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14180",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Unconstrained CTI-REALM with Open-Weights",
-          "summary": "We study open-weight versus closed frontier models on CTI-REALM, a benchmark for threat-intelligence agents. Evaluating 26 models, we find open-weight models can match the strongest closed models at less than a tenth of the cost when the message limit is relaxed. We also introduce stage-level metrics to evaluate individual workflow stages.",
-          "keyPoints": [
-            "Open-weight models can match the best closed models at under a tenth of the cost.",
-            "Published agent message limits artificially handicap models that need more time.",
-            "Stage-level metrics suggest routing different workflow steps to specialized models."
-          ]
-        },
-        "fr": {
-          "title": "CTI-REALM sans contrainte avec poids ouverts",
-          "summary": "Nous étudions les modèles à poids ouverts par rapport aux modèles fermés sur CTI-REALM, un benchmark pour les agents de renseignement sur les menaces. En évaluant 26 modèles, nous constatons que les modèles ouverts peuvent égaler les modèles fermés les plus puissants pour moins d'un dixième du coût lorsque la limite de messages est assouplie.",
-          "keyPoints": [
-            "Les modèles à poids ouverts peuvent égaler les meilleurs modèles fermés pour un dixième du coût.",
-            "Les limites de messages des agents pénalisent artificiellement les modèles nécessitant plus de temps.",
-            "Des métriques par étape suggèrent de router différentes étapes de travail vers des modèles spécialisés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-dc7bf030489751",
-      "title": "Visualizing the World Model in an Agent's Value Function",
-      "summary": "We apply counterfactual interventions to investigate whether a Proximal Policy Optimization agent's value function forms an environmental world model in Crafter. Despite being trained solely for rewards, the value function learns concepts like collectible diamonds, inventory heuristics, and health impacts.",
-      "keyPoints": [
-        "Counterfactual interventions test if value functions learn environment models.",
-        "Trained only for reward, the value function discovers rules like inventory heuristics.",
-        "Findings inform safety implications and limitations of current reinforcement learning agents."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14186",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Visualizing the World Model in an Agent's Value Function",
-          "summary": "We apply counterfactual interventions to investigate whether a Proximal Policy Optimization agent's value function forms an environmental world model in Crafter. Despite being trained solely for rewards, the value function learns concepts like collectible diamonds, inventory heuristics, and health impacts.",
-          "keyPoints": [
-            "Counterfactual interventions test if value functions learn environment models.",
-            "Trained only for reward, the value function discovers rules like inventory heuristics.",
-            "Findings inform safety implications and limitations of current reinforcement learning agents."
-          ]
-        },
-        "fr": {
-          "title": "Visualisation du modèle du monde dans la fonction de valeur d'un agent",
-          "summary": "Nous appliquons des interventions contrefactuelles pour examiner si la fonction de valeur d'un agent PPO forme un modèle du monde de l'environnement Crafter. Bien qu'elle soit entraînée uniquement pour les récompenses, la fonction de valeur apprend des concepts tels que les règles sur les diamants et l'impact de la santé.",
-          "keyPoints": [
-            "Les interventions contrefactuelles testent si les fonctions de valeur modélisent l'environnement.",
-            "Entraînée pour la récompense, la fonction de valeur découvre des règles comme l'inventaire.",
-            "Les résultats éclairent les implications de sécurité et les limites des agents actuels."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-728b011562c91b",
-      "title": "Cross-Modal Latent Influence for Vision-Language Models",
-      "summary": "We introduce MOSAIC, a method for patch-level training sample attribution in vision-language models. MOSAIC learns a shared sparse image-text latent space and decomposes training-example influence to localize contributions to specific text phrases and image regions.",
-      "keyPoints": [
-        "MOSAIC connects model behavior to multimodal evidence through a shared latent space.",
-        "It provides patch-level training attribution for vision-language models like Qwen and Gemma.",
-        "Ablating influence-ranked latents alters model outputs more than traditional activation methods."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14190",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Cross-Modal Latent Influence for Vision-Language Models",
-          "summary": "We introduce MOSAIC, a method for patch-level training sample attribution in vision-language models. MOSAIC learns a shared sparse image-text latent space and decomposes training-example influence to localize contributions to specific text phrases and image regions.",
-          "keyPoints": [
-            "MOSAIC connects model behavior to multimodal evidence through a shared latent space.",
-            "It provides patch-level training attribution for vision-language models like Qwen and Gemma.",
-            "Ablating influence-ranked latents alters model outputs more than traditional activation methods."
-          ]
-        },
-        "fr": {
-          "title": "Influence latente intermodale pour les modèles vision-langage",
-          "summary": "Nous présentons MOSAIC, une méthode d'attribution d'exemples d'entraînement au niveau des patchs pour les modèles vision-langage. MOSAIC apprend un espace latent partagé et éparse pour localiser les contributions aux phrases textuelles et régions d'images.",
-          "keyPoints": [
-            "MOSAIC relie le comportement du modèle à des preuves multimodales via un espace latent partagé.",
-            "Il fournit une attribution d'entraînement pour des modèles comme Qwen et Gemma.",
-            "L'ablation des latents modifie davantage les sorties du modèle que les méthodes d'activation."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-020914d4401604",
-      "title": "Local Models as Interpreters in Cloud-Written Agent Programs",
-      "summary": "We explore an intermediate architecture where cloud-written programs defer bounded questions to a small local model via ordinary function calls. On AppWorld, this improves success rates by up to 14.9pp while keeping user data private on local edge devices.",
-      "keyPoints": [
-        "Cloud models write programs while small local models handle runtime data interpretation.",
-        "The approach improves edge agent success rates by up to 14.9 percentage points.",
-        "User data remains secure on local devices without sacrificing substantial performance."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14209",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Local Models as Interpreters in Cloud-Written Agent Programs",
-          "summary": "We explore an intermediate architecture where cloud-written programs defer bounded questions to a small local model via ordinary function calls. On AppWorld, this improves success rates by up to 14.9pp while keeping user data private on local edge devices.",
-          "keyPoints": [
-            "Cloud models write programs while small local models handle runtime data interpretation.",
-            "The approach improves edge agent success rates by up to 14.9 percentage points.",
-            "User data remains secure on local devices without sacrificing substantial performance."
-          ]
-        },
-        "fr": {
-          "title": "Modèles locaux comme interprètes dans les programmes d'agents cloud",
-          "summary": "Nous explorons une architecture intermédiaire où les programmes écrits par le cloud déléguent des questions bornées à un petit modèle local. Sur AppWorld, cela améliore les taux de réussite jusqu'à 14,9 points tout en gardant les données utilisateur privées sur les appareils.",
-          "keyPoints": [
-            "Les modèles cloud écrivent des programmes et les petits modèles locaux gèrent l'interprétation.",
-            "L'approche améliore les taux de réussite des agents périphériques de 14,9 points.",
-            "Les données utilisateur restent sécurisées sur les appareils locaux sans perte majeure."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9e49e6d93707d1",
-      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
-      "summary": "We introduce Harness^2, a recursive agent harnessing framework to automatically evolve execution harnesses without ground-truth verifiers. Using a contrastive Propose-Probe-Compose step and continual harnessing-level recursion, it yields significant gains across multiple benchmarks.",
-      "keyPoints": [
-        "Harness^2 introduces task-level and harnessing-level recursion for open-world agents.",
-        "It eliminates the need for ground-truth verifiers using contrastive editing.",
-        "Consistent performance gains are demonstrated on WorkBuddy-Bench, JobBench, and LAB."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14224",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Harness^2: Recursive Agent Harnessing for an Open World",
-          "summary": "We introduce Harness^2, a recursive agent harnessing framework to automatically evolve execution harnesses without ground-truth verifiers. Using a contrastive Propose-Probe-Compose step and continual harnessing-level recursion, it yields significant gains across multiple benchmarks.",
-          "keyPoints": [
-            "Harness^2 introduces task-level and harnessing-level recursion for open-world agents.",
-            "It eliminates the need for ground-truth verifiers using contrastive editing.",
-            "Consistent performance gains are demonstrated on WorkBuddy-Bench, JobBench, and LAB."
-          ]
-        },
-        "fr": {
-          "title": "Harness^2 : Harnessing d'agent récursif pour un monde ouvert",
-          "summary": "Nous présentons Harness^2, un cadre de harnachement d'agent récursif pour faire évoluer automatiquement les environnements d'exécution sans vérificateurs de vérité terrain. En utilisant une étape contrastée et une récurrence continue, il génère des gains importants sur plusieurs benchmarks.",
-          "keyPoints": [
-            "Harness^2 introduit une récursion au niveau des tâches et du harnachement.",
-            "Il élimine le besoin de vérificateurs de vérité terrain grâce à l'édition contrastive.",
-            "Des gains de performance constants sont démontrés sur WorkBuddy-Bench, JobBench et LAB."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f1022d584e2a85",
-      "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication",
-      "summary": "We present Echo, a 4-bit all-reduce communication method for LLM training and inference that controls accumulated errors. Echo achieves up to 2.09x speedup over 16-bit NCCL on 1 GB messages while preserving model accuracy and final pretraining loss without specialized hardware.",
-      "keyPoints": [
-        "Echo uses 4-bit transmission and high-precision summation to reduce communication overhead.",
-        "It feeds back injection errors into later calls so old errors cancel out.",
-        "Echo speeds up 1 GB message transfers by 2.09x without requiring FP8 or FP4 hardware."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14277",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication",
-          "summary": "We present Echo, a 4-bit all-reduce communication method for LLM training and inference that controls accumulated errors. Echo achieves up to 2.09x speedup over 16-bit NCCL on 1 GB messages while preserving model accuracy and final pretraining loss without specialized hardware.",
-          "keyPoints": [
-            "Echo uses 4-bit transmission and high-precision summation to reduce communication overhead.",
-            "It feeds back injection errors into later calls so old errors cancel out.",
-            "Echo speeds up 1 GB message transfers by 2.09x without requiring FP8 or FP4 hardware."
-          ]
-        },
-        "fr": {
-          "title": "Echo : Communication tensorielle parallèle 4 bits à erreur compensée",
-          "summary": "Nous présentons Echo, une méthode de communication all-reduce 4 bits pour l'entraînement et l'inférence de LLM qui contrôle les erreurs cumulées. Echo offre une accélération allant jusqu'à 2,09x par rapport au NCCL 16 bits sans nécessiter de matériel spécialisé.",
-          "keyPoints": [
-            "Echo utilise une transmission 4 bits et une sommation de haute précision.",
-            "Il réinjecte les erreurs d'injection dans les appels ultérieurs pour qu'elles s'annulent.",
-            "Echo accélère les transferts de messages de 1 Go de 2,09x sans matériel FP8 ou FP4."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7eef65c93bc570",
-      "title": "Controllable Diverse Sampling through Pullback Directions",
-      "summary": "We propose a training-free method leveraging local pullback geometry to improve diversity in conditional diffusion models. By steering trajectories along directions of maximal output sensitivity, it generates distinct outputs while preserving prompt alignment.",
-      "keyPoints": [
-        "The method uses local pullback geometry to identify maximal output sensitivity directions.",
-        "It increases sample diversity in conditional diffusion models without additional training.",
-        "Evaluations on MS-COCO and BrushNet demonstrate improved performance in image generation and inpainting."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14294",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Controllable Diverse Sampling through Pullback Directions",
-          "summary": "We propose a training-free method leveraging local pullback geometry to improve diversity in conditional diffusion models. By steering trajectories along directions of maximal output sensitivity, it generates distinct outputs while preserving prompt alignment.",
-          "keyPoints": [
-            "The method uses local pullback geometry to identify maximal output sensitivity directions.",
-            "It increases sample diversity in conditional diffusion models without additional training.",
-            "Evaluations on MS-COCO and BrushNet demonstrate improved performance in image generation and inpainting."
-          ]
-        },
-        "fr": {
-          "title": "Échantillonnage diversifié contrôlable via les directions de pullback",
-          "summary": "Nous proposons une méthode sans entraînement exploitant la géométrie de pullback locale pour améliorer la diversité des modèles de diffusion conditionnelle. En guidant les trajectoires le long de directions de sensibilité maximale, elle génère des sorties distinctes tout en préservant l'alignement.",
-          "keyPoints": [
-            "La méthode utilise la géométrie de pullback locale pour identifier les directions de sensibilité.",
-            "Elle augmente la diversité des échantillons sans entraînement supplémentaire.",
-            "Les évaluations sur MS-COCO et BrushNet démontrent des améliorations en génération d'images."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-79014dd89c495e",
-      "title": "ConicFlow: Constrained Inference-Time Optimal Control for Flow Matching",
-      "summary": "We propose ConicFlow, framing constrained sampling from flow matching models as an optimal control problem using receding-horizon control and primal-dual algorithms. It achieves high reward and strong constraint satisfaction while minimizing deviation from pretrained flows.",
-      "keyPoints": [
-        "ConicFlow treats inference-time constrained sampling as an optimal control problem.",
-        "It adapts receding-horizon primal-dual algorithms to handle terminal constraints.",
-        "Experiments show high reward and robust constraint satisfaction with minimal trajectory deviation."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14307",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ConicFlow: Constrained Inference-Time Optimal Control for Flow Matching",
-          "summary": "We propose ConicFlow, framing constrained sampling from flow matching models as an optimal control problem using receding-horizon control and primal-dual algorithms. It achieves high reward and strong constraint satisfaction while minimizing deviation from pretrained flows.",
-          "keyPoints": [
-            "ConicFlow treats inference-time constrained sampling as an optimal control problem.",
-            "It adapts receding-horizon primal-dual algorithms to handle terminal constraints.",
-            "Experiments show high reward and robust constraint satisfaction with minimal trajectory deviation."
-          ]
-        },
-        "fr": {
-          "title": "ConicFlow : Contrôle optimal contraint à l'inférence pour le Flow Matching",
-          "summary": "Nous proposons ConicFlow, formulant l'échantillonnage contraint de modèles de type flow matching comme un problème de contrôle optimal. Il utilise un contrôle à horizon glissant et des algorithmes primal-dual pour satisfaire les contraintes terminales.",
-          "keyPoints": [
-            "ConicFlow traite l'échantillonnage contraint à l'inférence comme un contrôle optimal.",
-            "Il adapte des algorithmes primal-dual à horizon glissant pour gérer les contraintes.",
-            "Les expériences montrent une forte satisfaction des contraintes et un coût minimal."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b84ea2ee2efdb6",
-      "title": "Which Metadata Matters for LLM Tool Selection in MCP?",
-      "summary": "We analyze metadata for 367,174 MCP tools and conduct controlled factor-level interventions across five LLMs and tasks. We find that parameter-schema changes produce the largest tool selection shifts, with models favoring separate top-level parameters over composite forms.",
-      "keyPoints": [
-        "Parameter-schema changes create the most consistent tool selection shifts for LLMs.",
-        "Descriptions explaining parameters also increase selection likelihood compared to names.",
-        "When explicit requirements match a single schema, all tested models select the correct tool."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14334",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Which Metadata Matters for LLM Tool Selection in MCP?",
-          "summary": "We analyze metadata for 367,174 MCP tools and conduct controlled factor-level interventions across five LLMs and tasks. We find that parameter-schema changes produce the largest tool selection shifts, with models favoring separate top-level parameters over composite forms.",
-          "keyPoints": [
-            "Parameter-schema changes create the most consistent tool selection shifts for LLMs.",
-            "Descriptions explaining parameters also increase selection likelihood compared to names.",
-            "When explicit requirements match a single schema, all tested models select the correct tool."
-          ]
-        },
-        "fr": {
-          "title": "Quelles métadonnées comptent pour la sélection d'outils LLM dans MCP ?",
-          "summary": "Nous analysons les métadonnées de 367 174 outils MCP et réalisons des interventions contrôlées sur cinq LLM. Nous constatons que les modifications de schémas de paramètres génèrent les plus grands changements de sélection d'outils.",
-          "keyPoints": [
-            "Les modifications de schémas de paramètres provoquent les plus grands changements de sélection.",
-            "Les descriptions expliquant les paramètres augmentent également la probabilité de sélection.",
-            "Lorsque des critères explicites correspondent à un schéma, tous les modèles choisissent le bon outil."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0363b991dd5525",
-      "title": "Actionable Meta-Requirements for AI Robustness Auditing",
-      "summary": "We derive 44 meta-requirements across 16 categories for AI robustness auditing frameworks through a systematic literature review and validation with 128 practitioners. The resulting framework helps organizations implement and evaluate robustness auditing systems.",
-      "keyPoints": [
-        "A systematic literature review and practitioner evaluation yielded 44 meta-requirements.",
-        "Over 81% of practitioner ratings indicated agreement across 16 audited categories.",
-        "Feedback added requirements concerning external components and supply chain dependencies."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14356",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Actionable Meta-Requirements for AI Robustness Auditing",
-          "summary": "We derive 44 meta-requirements across 16 categories for AI robustness auditing frameworks through a systematic literature review and validation with 128 practitioners. The resulting framework helps organizations implement and evaluate robustness auditing systems.",
-          "keyPoints": [
-            "A systematic literature review and practitioner evaluation yielded 44 meta-requirements.",
-            "Over 81% of practitioner ratings indicated agreement across 16 audited categories.",
-            "Feedback added requirements concerning external components and supply chain dependencies."
-          ]
-        },
-        "fr": {
-          "title": "Méta-exigences opérationnelles pour l'audit de robustesse de l'IA",
-          "summary": "Nous dérivons 44 méta-exigences réparties en 16 catégories pour l'audit de robustesse des systèmes d'IA grâce à une revue de littérature et une validation auprès de 128 praticiens. Ce cadre aide les organisations à évaluer leurs systèmes de robustesse.",
-          "keyPoints": [
-            "Une revue de littérature et une évaluation de praticiens ont produit 44 méta-exigences.",
-            "Plus de 81 % des notations des praticiens ont exprimé un accord dans 16 catégories.",
-            "Les retours ont ajouté de nouvelles exigences concernant les composants externes et la chaîne d'approvisionnement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 1371,
+    "itemsCollected": 1372,
     "itemsPublished": 20,
-    "newItems": 20,
+    "newItems": 10,
     "candidates": 20,
     "batches": 2,
     "batchSize": 10,
