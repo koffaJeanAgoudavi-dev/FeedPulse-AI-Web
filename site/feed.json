@@ -1,115 +1,37 @@
 {
-  "generatedAt": "2026-10-14T12:55:30.888Z",
+  "generatedAt": "2026-10-15T04:42:45.558Z",
   "items": [
     {
-      "id": "feed-36a7e1c23fbbe3",
-      "title": "Google DeepMind and Singapore Collaborate on On-Device AI Scam Detection",
-      "summary": "Google DeepMind and GovTech Singapore are using lightweight on-device Gemma models to intercept conversational scams in private chats, ensuring zero cloud data egress.",
+      "id": "feed-c9d380c0b10dcf",
+      "title": "Artificiality's First Exam: LLM-Referenced C-test for Supraintelligence",
+      "summary": "This paper presents a new test based on Levin's Kt using large language models as representational machines to evaluate models that may surpass human capabilities. By generating fresh test items at high difficulties measured in bits, the framework produces agent characteristic curves that enter the uncharted supra-intelligence window.",
       "keyPoints": [
-        "Google DeepMind partners with GovTech Singapore",
-        "Uses lightweight on-device Gemma models",
-        "Intercepts conversational scams with zero cloud data egress"
+        "Proposes an LLM-referenced C-test based on Levin's Kt to evaluate supraintelligence.",
+        "Generates fresh test items at high difficulties measured in bits before humans or models solve them.",
+        "Administered a battery of certified items to twelve LLMs, revealing decreasing agent characteristic curves."
       ],
       "category": "Modèles",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "publishedAt": "2026-10-14T02:00:14.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/Tg_XLUHW-dkzDN6QUwQfnCVZar_kiyMdyhnW5tu0iEjhtykrQuXcLDMwWSIAzmEONrEWDyjK7ajNNDdSpxhvcDBtJRwHK-aSz6KydGGXOkgAasfz2A=w1440-h810-n-nu",
-      "translations": {
-        "en": {
-          "title": "Google DeepMind and Singapore Collaborate on On-Device AI Scam Detection",
-          "summary": "Google DeepMind and GovTech Singapore are using lightweight on-device Gemma models to intercept conversational scams in private chats, ensuring zero cloud data egress.",
-          "keyPoints": [
-            "Google DeepMind partners with GovTech Singapore",
-            "Uses lightweight on-device Gemma models",
-            "Intercepts conversational scams with zero cloud data egress"
-          ]
-        },
-        "fr": {
-          "title": "Google DeepMind et Singapour collaborent sur une IA de détection des arnaques",
-          "summary": "Google DeepMind et GovTech Singapore utilisent des modèles Gemma légers sur l'appareil pour intercepter les arnaques conversationnelles dans les discussions privées, sans transfert de données vers le cloud.",
-          "keyPoints": [
-            "Partenariat entre Google DeepMind et GovTech Singapore",
-            "Utilisation de modèles Gemma légers sur l'appareil",
-            "Interception des arnaques sans transfert de données vers le cloud"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-200a5d3dd39c6b",
-      "title": "The EU's Next Chapter in AI is Agentic",
-      "summary": "New analysis explores the growing adoption of agentic AI across EU enterprises and small businesses, highlighting areas where deeper implementation could unlock further value.",
-      "keyPoints": [
-        "New analysis on agentic AI adoption in the EU",
-        "Spanning both enterprises and small businesses",
-        "Identifies where deeper use could unlock more value"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14005",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The EU's Next Chapter in AI is Agentic",
-          "summary": "New analysis explores the growing adoption of agentic AI across EU enterprises and small businesses, highlighting areas where deeper implementation could unlock further value.",
+          "title": "Artificiality's First Exam: LLM-Referenced C-test for Supraintelligence",
+          "summary": "This paper presents a new test based on Levin's Kt using large language models as representational machines to evaluate models that may surpass human capabilities. By generating fresh test items at high difficulties measured in bits, the framework produces agent characteristic curves that enter the uncharted supra-intelligence window.",
           "keyPoints": [
-            "New analysis on agentic AI adoption in the EU",
-            "Spanning both enterprises and small businesses",
-            "Identifies where deeper use could unlock more value"
+            "Proposes an LLM-referenced C-test based on Levin's Kt to evaluate supraintelligence.",
+            "Generates fresh test items at high difficulties measured in bits before humans or models solve them.",
+            "Administered a battery of certified items to twelve LLMs, revealing decreasing agent characteristic curves."
           ]
         },
         "fr": {
-          "title": "Le prochain chapitre de l'IA dans l'UE est agentique",
-          "summary": "Une nouvelle analyse explore l'adoption croissante de l'IA agentique dans les entreprises et petites entreprises de l'UE, tout en soulignant où une utilisation plus approfondie pourrait libérer davantage de valeur.",
+          "title": "Premier examen de l'artificialité : test C référencé par LLM pour la supraintelligence",
+          "summary": "Cet article présente un nouveau test basé sur le Kt de Levin utilisant de grands modèles de langage comme machines représentationnelles pour évaluer les modèles dépassant les capacités humaines. En générant de nouveaux tests à haute difficulté mesurée en bits, le cadre produit des courbes caractéristiques d'agents.",
           "keyPoints": [
-            "Nouvelle analyse sur l'adoption de l'IA agentique dans l'UE",
-            "Concerne les grandes et petites entreprises",
-            "Identifie les opportunités pour libérer plus de valeur"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8d45898e533e59",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "summary": "Higgsfield introduces longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a pathway to voice filmmaking via GPT-Live for creators.",
-      "keyPoints": [
-        "Offers longer videos up to over 10 minutes using GPT-6 Astra.",
-        "Provides precise visuals powered by GPT-Image-2.5.",
-        "Introduces a path to voice filmmaking with GPT-Live."
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "publishedAt": "2026-10-13T12:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Higgsfield takes AI video from 1 minute to over 10",
-          "summary": "Higgsfield introduces longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a pathway to voice filmmaking via GPT-Live for creators.",
-          "keyPoints": [
-            "Offers longer videos up to over 10 minutes using GPT-6 Astra.",
-            "Provides precise visuals powered by GPT-Image-2.5.",
-            "Introduces a path to voice filmmaking with GPT-Live."
-          ]
-        },
-        "fr": {
-          "title": "Higgsfield prolonge la vidéo IA de 1 minute à plus de 10",
-          "summary": "Higgsfield propose des vidéos plus longues avec GPT-6 Astra, des visuels précis via GPT-Image-2.5 et une voie vers le cinéma vocal avec GPT-Live.",
-          "keyPoints": [
-            "Permet des vidéos de plus de 10 minutes grâce à GPT-6 Astra.",
-            "Fournit des visuels précis propulsés par GPT-Image-2.5.",
-            "Introduit une voie vers le cinéma vocal avec GPT-Live."
+            "Propose un test C référencé par LLM basé sur le Kt de Levin pour évaluer la supraintelligence.",
+            "Génère de nouveaux éléments de test à haute difficulté mesurée en bits avant leur résolution.",
+            "Administre une batterie d'éléments certifiés à douze LLM montrant des courbes de performance décroissantes."
           ]
         }
       },
@@ -119,36 +41,36 @@
       }
     },
     {
-      "id": "feed-4193c43ec37ac6",
-      "title": "Agentic Large Language Models",
-      "summary": "This book explores agentic large language models, combining LLM reasoning with real-world action and interaction capabilities, discussing how they work and their implications for users.",
+      "id": "feed-57c3309db5bedc",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "summary": "Amp expands the frontier of AI agent capabilities using GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to handle tasks beyond coding.",
       "keyPoints": [
-        "Combines LLMs with the ability to act and interact in the real world.",
-        "Discusses how agentic LLMs operate and influence decision-making.",
-        "Examines the implications of autonomous agent actions for users."
+        "Amp pushes agent capabilities past coding limits.",
+        "Utilizes OpenAI models including GPT-6 Astra, Ultrafast, and GPT-Live-1.",
+        "Integrates Sign in with ChatGPT functionality."
       ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13455",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/amp-beyond-coding",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Agentic Large Language Models",
-          "summary": "This book explores agentic large language models, combining LLM reasoning with real-world action and interaction capabilities, discussing how they work and their implications for users.",
+          "title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "summary": "Amp expands the frontier of AI agent capabilities using GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to handle tasks beyond coding.",
           "keyPoints": [
-            "Combines LLMs with the ability to act and interact in the real world.",
-            "Discusses how agentic LLMs operate and influence decision-making.",
-            "Examines the implications of autonomous agent actions for users."
+            "Amp pushes agent capabilities past coding limits.",
+            "Utilizes OpenAI models including GPT-6 Astra, Ultrafast, and GPT-Live-1.",
+            "Integrates Sign in with ChatGPT functionality."
           ]
         },
         "fr": {
-          "title": "Modèles de langage de grande taille agentiques",
-          "summary": "Ce livre explore les modèles de langage agentiques, combinant le raisonnement des LLM avec des capacités d'action et d'interaction dans le monde réel.",
+          "title": "Amp met les agents IA au travail au-delà du code avec les modèles OpenAI",
+          "summary": "Amp repousse les limites des agents IA en utilisant GPT-6 Astra, Ultrafast, GPT-Live-1 et Sign in avec ChatGPT pour accomplir des tâches au-delà du code.",
           "keyPoints": [
-            "Combine les LLM avec la capacité d'agir et d'interagir dans le monde réel.",
-            "Discute du fonctionnement des LLM agentiques et de leur impact.",
-            "Examine les implications des actions d'agents autonomes pour les utilisateurs."
+            "Amp repousse les capacités des agents au-delà du codage.",
+            "Utilise des modèles OpenAI dont GPT-6 Astra, Ultrafast et GPT-Live-1.",
+            "Intègre la fonctionnalité Sign in with ChatGPT."
           ]
         }
       },
@@ -158,114 +80,36 @@
       }
     },
     {
-      "id": "feed-a371112a5b7528",
-      "title": "SqueezeBench: Saturation-Resilient Evaluation of Math",
-      "summary": "SqueezeBench is a saturation-resilient benchmark for AI mathematical capabilities where successes raise the bar. It utilizes machine-checked Lean proofs to maintain bounds on integer functions.",
+      "id": "feed-45a31fcfe6d3c3",
+      "title": "The Silent Failures in Agentic Data Science",
+      "summary": "Research evaluates agentic data science beyond accuracy, highlighting that many systems suffer from methodological flaws like data leakage. Analyzing 220 tasks reveals that agents lack domain knowledge and creativity compared to expert data scientists.",
       "keyPoints": [
-        "Resilient benchmark designed to prevent saturation in math evaluations.",
-        "Uses machine-checked Lean proofs verified by independent kernels.",
-        "Baseline agents successfully improved every record across ten problems."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13461",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SqueezeBench: Saturation-Resilient Evaluation of Math",
-          "summary": "SqueezeBench is a saturation-resilient benchmark for AI mathematical capabilities where successes raise the bar. It utilizes machine-checked Lean proofs to maintain bounds on integer functions.",
-          "keyPoints": [
-            "Resilient benchmark designed to prevent saturation in math evaluations.",
-            "Uses machine-checked Lean proofs verified by independent kernels.",
-            "Baseline agents successfully improved every record across ten problems."
-          ]
-        },
-        "fr": {
-          "title": "SqueezeBench : Évaluation des mathématiques résistante à la saturation",
-          "summary": "SqueezeBench est un banc d'essai résistant à la saturation pour les capacités mathématiques de l'IA, où les succès élèvent la barre à l'aide de preuves Lean.",
-          "keyPoints": [
-            "Banc d'essai conçu pour éviter la saturation dans l'évaluation mathématique.",
-            "Utilise des preuves Lean vérifiées par des noyaux indépendants.",
-            "Les agents de référence ont amélioré chaque record sur dix problèmes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7380dba17f5dbf",
-      "title": "Local Agentic AI Framework for Edge Case Generation",
-      "summary": "A laptop-based agentic AI framework uses local LMs in think, act, observe loops to generate diverse edge case scenarios for autonomous system safety assurance.",
-      "keyPoints": [
-        "Uses local LMs in a controlled, privacy-preserving laptop framework.",
-        "Employs independent LMs to critique and refine generated scenarios.",
-        "Aids safety assurance by identifying functional gaps and triggering conditions."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13479",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Local Agentic AI Framework for Edge Case Generation",
-          "summary": "A laptop-based agentic AI framework uses local LMs in think, act, observe loops to generate diverse edge case scenarios for autonomous system safety assurance.",
-          "keyPoints": [
-            "Uses local LMs in a controlled, privacy-preserving laptop framework.",
-            "Employs independent LMs to critique and refine generated scenarios.",
-            "Aids safety assurance by identifying functional gaps and triggering conditions."
-          ]
-        },
-        "fr": {
-          "title": "Cadre d'IA agentique local pour la génération de cas limites",
-          "summary": "Un cadre d'IA agentique sur ordinateur portable utilise des LM locaux pour générer des scénarios de cas limites diversifiés pour la sécurité des systèmes autonomes.",
-          "keyPoints": [
-            "Utilise des LM locaux dans un cadre contrôlé et respectueux de la vie privée.",
-            "Emploie des LM indépendants pour critiquer et affiner les scénarios générés.",
-            "Aide à l'assurance de la sécurité en identifiant les lacunes fonctionnelles."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c52738e79c78d6",
-      "title": "Branching On-Policy Distillation for Efficient Training",
-      "summary": "BranchOPD selects informative decision points using student uncertainty and teacher disagreement, resampling student continuations from shared prefixes to reduce token costs.",
-      "keyPoints": [
-        "Reduces token generation costs via shared-prefix reuse on tasks like ALFWorld.",
-        "Improves accuracy in mathematics and agent success rates over Vanilla OPD.",
-        "Expands behavior coverage by branching at uncertain decision points."
+        "Evaluates agentic data science across 220 tasks to uncover methodological failures like data leakage.",
+        "Identifies a positive correlation between data leakage failures and predictive performance.",
+        "Shows that data science agents lack problem-solving creativity and domain knowledge compared to experts."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13481",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.14115",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Branching On-Policy Distillation for Efficient Training",
-          "summary": "BranchOPD selects informative decision points using student uncertainty and teacher disagreement, resampling student continuations from shared prefixes to reduce token costs.",
+          "title": "The Silent Failures in Agentic Data Science",
+          "summary": "Research evaluates agentic data science beyond accuracy, highlighting that many systems suffer from methodological flaws like data leakage. Analyzing 220 tasks reveals that agents lack domain knowledge and creativity compared to expert data scientists.",
           "keyPoints": [
-            "Reduces token generation costs via shared-prefix reuse on tasks like ALFWorld.",
-            "Improves accuracy in mathematics and agent success rates over Vanilla OPD.",
-            "Expands behavior coverage by branching at uncertain decision points."
+            "Evaluates agentic data science across 220 tasks to uncover methodological failures like data leakage.",
+            "Identifies a positive correlation between data leakage failures and predictive performance.",
+            "Shows that data science agents lack problem-solving creativity and domain knowledge compared to experts."
           ]
         },
         "fr": {
-          "title": "Distillation sur politique avec ramification pour un entraînement efficace",
-          "summary": "BranchOPD sélectionne des points de décision informatifs en utilisant l'incertitude des étudiants et le désaccord des enseignants pour réduire les coûts de jetons.",
+          "title": "Les échecs silencieux de la science des données agentique",
+          "summary": "Cette recherche évalue la science des données agentique au-delà de la précision, soulignant que de nombreux systèmes souffrent de défauts méthodologiques. L'analyse de 220 tâches révèle que les agents manquent de connaissances du domaine et de créativité.",
           "keyPoints": [
-            "Réduit les coûts de jetons grâce à la réutilisation de préfixes partagés.",
-            "Améliore la précision en mathématiques et le taux de réussite des agents.",
-            "Étend la couverture comportementale en bifurquant sur des décisions incertaines."
+            "Évalue la science des données agentique sur 220 tâches pour détecter des failles comme la fuite de données.",
+            "Identifie une corrélation positive entre les échecs de fuite de données et la performance prédictive.",
+            "Montre que les agents manquent de créativité et de connaissances sectorielles par rapport aux experts."
           ]
         }
       },
@@ -275,114 +119,36 @@
       }
     },
     {
-      "id": "feed-1a262793e5f32e",
-      "title": "Humanize MLE Agents: Multi-Agent Session Alternation",
-      "summary": "Humanize MLE Agents (HMA) alternates two agents on a shared workspace with context resets to overcome long-horizon deceleration in machine learning engineering tasks.",
+      "id": "feed-004cd593adabcd",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "summary": "SentinelOne utilizes OpenAI Daybreak to reduce the time required for malware analysis from weeks down to hours, significantly increasing their capacity to investigate threats.",
       "keyPoints": [
-        "Models alternating sessions as a context-reset semi-Markov decision process.",
-        "Reaches a state-of-the-art any-medal rate of 78.2% on MLE-bench Kaggle tasks.",
-        "Reduces time budget significantly while improving cross-pair performance."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13494",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Humanize MLE Agents: Multi-Agent Session Alternation",
-          "summary": "Humanize MLE Agents (HMA) alternates two agents on a shared workspace with context resets to overcome long-horizon deceleration in machine learning engineering tasks.",
-          "keyPoints": [
-            "Models alternating sessions as a context-reset semi-Markov decision process.",
-            "Reaches a state-of-the-art any-medal rate of 78.2% on MLE-bench Kaggle tasks.",
-            "Reduces time budget significantly while improving cross-pair performance."
-          ]
-        },
-        "fr": {
-          "title": "Humaniser les agents MLE : Alternance de sessions multi-agents",
-          "summary": "Humanize MLE Agents (HMA) alterne deux agents sur un espace de travail partagé avec réinitialisation du contexte pour surmonter la décélération à long horizon.",
-          "keyPoints": [
-            "Modélise les sessions alternées comme un processus de décision semi-markovien.",
-            "Atteint un taux de réussite de 78,2 % sur les tâches Kaggle de MLE-bench.",
-            "Réduit considérablement le budget de temps tout en améliorant les performances."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ef8eac1e5a0267",
-      "title": "PRISM: Retrieval-Augmented Multimodal Model for Prognosis",
-      "summary": "PRISM integrates structured measurements, longitudinal ECGs, and a population memory bank via representation-space retrieval to improve clinical prognosis tasks.",
-      "keyPoints": [
-        "Combines numerical tokenization, longitudinal ECG aggregation, and population memory.",
-        "Achieves strong performance on the MDS-ED benchmark for clinical prognosis.",
-        "Demonstrates the effectiveness of structure-aware multimodal integration."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13510",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PRISM: Retrieval-Augmented Multimodal Model for Prognosis",
-          "summary": "PRISM integrates structured measurements, longitudinal ECGs, and a population memory bank via representation-space retrieval to improve clinical prognosis tasks.",
-          "keyPoints": [
-            "Combines numerical tokenization, longitudinal ECG aggregation, and population memory.",
-            "Achieves strong performance on the MDS-ED benchmark for clinical prognosis.",
-            "Demonstrates the effectiveness of structure-aware multimodal integration."
-          ]
-        },
-        "fr": {
-          "title": "PRISM : Modèle multimodal augmenté par la récupération pour le pronostic",
-          "summary": "PRISM intègre des mesures structurées, des ECG longitudinaux et une banque de mémoire de population pour améliorer les tâches de pronostic clinique.",
-          "keyPoints": [
-            "Combine la tokenisation numérique, l'agrégation d'ECG et la mémoire de population.",
-            "Atteint de fortes performances sur le banc d'essai MDS-ED pour le pronostic.",
-            "Démontre l'efficacité de l'intégration multimodale consciente de la structure."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-24d566e7bfe47e",
-      "title": "Causal Effect Identifiability in Causal Abstractions",
-      "summary": "This paper studies causal effect identifiability directly at the level of causal abstraction graph collections, formalizing a strict hierarchy of criteria.",
-      "keyPoints": [
-        "Addresses causal effect identifiability using partial causal information.",
-        "Organizes several notions of identifiability into a strict hierarchy.",
-        "Shows causal effects can be identified over graph collections without a uniform derivation."
+        "Partnered with OpenAI Daybreak for security workflows.",
+        "Reduces malware analysis duration from weeks to hours.",
+        "Increases capacity to investigate a higher volume of threats."
       ],
       "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13520",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/sentinelone",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Causal Effect Identifiability in Causal Abstractions",
-          "summary": "This paper studies causal effect identifiability directly at the level of causal abstraction graph collections, formalizing a strict hierarchy of criteria.",
+          "title": "SentinelOne cuts malware analysis from weeks to hours",
+          "summary": "SentinelOne utilizes OpenAI Daybreak to reduce the time required for malware analysis from weeks down to hours, significantly increasing their capacity to investigate threats.",
           "keyPoints": [
-            "Addresses causal effect identifiability using partial causal information.",
-            "Organizes several notions of identifiability into a strict hierarchy.",
-            "Shows causal effects can be identified over graph collections without a uniform derivation."
+            "Partnered with OpenAI Daybreak for security workflows.",
+            "Reduces malware analysis duration from weeks to hours.",
+            "Increases capacity to investigate a higher volume of threats."
           ]
         },
         "fr": {
-          "title": "Identifiabilité de l'effet causal dans les abstractions causales",
-          "summary": "Cet article étudie l'identifiabilité de l'effet causal au niveau des collections de graphiques d'abstraction causale, formalisant une hiérarchie stricte de critères.",
+          "title": "SentinelOne réduit l'analyse des logiciels malveillants de plusieurs semaines à quelques heures",
+          "summary": "SentinelOne utilise OpenAI Daybreak pour réduire le temps d'analyse des logiciels malveillants de plusieurs semaines à quelques heures, augmentant ainsi sa capacité d'investigation.",
           "keyPoints": [
-            "Traite de l'identifiabilité des effets causaux en utilisant des informations partielles.",
-            "Organise plusieurs notions d'identifiabilité en une hiérarchie stricte.",
-            "Montre que les effets causaux peuvent être identifiés sans dérivation uniforme."
+            "Utilise OpenAI Daybreak pour les flux de travail de sécurité.",
+            "Réduit la durée d'analyse des logiciels malveillants de semaines à des heures.",
+            "Accroît la capacité à enquêter sur un plus grand nombre de menaces."
           ]
         }
       },
@@ -392,192 +158,36 @@
       }
     },
     {
-      "id": "feed-d7e42dab3dc75e",
-      "title": "Cross-Teacher Guarding for Multi-Teacher Distillation",
-      "summary": "Road MOPD introduces cross-teacher guarding using non-routed auxiliary teachers to coordinate multi-teacher supervision and mitigate gradient conflicts.",
+      "id": "feed-6d32cf3f2a6a67",
+      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "summary": "ClawLoop is a self-improving framework for harness-based agents that operates without an external teacher model. It combines Task Synthesis, Training, and Diagnosis and Feedback into a continuous cycle, demonstrating performance gains across multiple benchmarks.",
       "keyPoints": [
-        "Mitigates persistent gradient conflicts in multi-teacher on-policy distillation.",
-        "Uses cross-teacher-guided credit assignment to strengthen shared corrections.",
-        "Improves performance in disadvantaged domains and multi-domain settings."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13521",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Cross-Teacher Guarding for Multi-Teacher Distillation",
-          "summary": "Road MOPD introduces cross-teacher guarding using non-routed auxiliary teachers to coordinate multi-teacher supervision and mitigate gradient conflicts.",
-          "keyPoints": [
-            "Mitigates persistent gradient conflicts in multi-teacher on-policy distillation.",
-            "Uses cross-teacher-guided credit assignment to strengthen shared corrections.",
-            "Improves performance in disadvantaged domains and multi-domain settings."
-          ]
-        },
-        "fr": {
-          "title": "Protection inter-enseignants pour la distillation multi-enseignants",
-          "summary": "Road MOPD introduit une protection inter-enseignants utilisant des enseignants auxiliaires non routés pour coordonner la supervision et atténuer les conflits de gradients.",
-          "keyPoints": [
-            "Atténue les conflits de gradients persistants dans la distillation multi-enseignants.",
-            "Utilise l'attribution de crédit guidée pour renforcer les corrections partagées.",
-            "Améliore les performances dans les domaines défavorisés et multi-domaines."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-80f4a2e5982523",
-      "title": "MAGMA-Bench: Evaluating Long-Horizon Embodied Agents",
-      "summary": "MAGMA-Bench is an architecture-agnostic benchmark evaluating long-horizon embodied agents under dynamic tasks, execution failures, and multi-robot coordination challenges.",
-      "keyPoints": [
-        "Evaluates persistent task reasoning in dynamic multi-robot environments.",
-        "Tests agents under online perturbations like execution failures and task interruptions.",
-        "Releases benchmark data, training examples, and an expert-trace generation pipeline."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13534",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MAGMA-Bench: Evaluating Long-Horizon Embodied Agents",
-          "summary": "MAGMA-Bench is an architecture-agnostic benchmark evaluating long-horizon embodied agents under dynamic tasks, execution failures, and multi-robot coordination challenges.",
-          "keyPoints": [
-            "Evaluates persistent task reasoning in dynamic multi-robot environments.",
-            "Tests agents under online perturbations like execution failures and task interruptions.",
-            "Releases benchmark data, training examples, and an expert-trace generation pipeline."
-          ]
-        },
-        "fr": {
-          "title": "MAGMA-Bench : Évaluation d'agents incarnés à long horizon",
-          "summary": "MAGMA-Bench est un banc d'essai évaluant des agents incarnés à long horizon face à des tâches dynamiques, des échecs d'exécution et des défis de coordination.",
-          "keyPoints": [
-            "Évalue le raisonnement de tâches persistantes dans des environnements multi-robots.",
-            "Teste les agents sous des perturbations en ligne comme des pannes d'exécution.",
-            "Publie des données de référence, des exemples d'entraînement et un pipeline."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-854cc127b8a3cd",
-      "title": "Constructing Pareto Frontiers for Reasoning Model Overthinking",
-      "summary": "This paper examines 'overthinking' in reasoning models, where continued test-time scaling becomes ineffective or harmful. The authors introduce Step-wise Truncation Probing (STP) to measure overthinking ratio and accuracy degradation. By unifying termination strategies, they construct token-accuracy Pareto frontiers and present OTBench, a benchmark spanning 70.5B reasoning tokens across six models and four benchmark groups.",
-      "keyPoints": [
-        "Introduces Step-wise Truncation Probing (STP) to characterize overthinking at the model-task level.",
-        "Proposes a unified framework for dynamic routing, fixed budgets, and dynamic early exits to build Pareto frontiers.",
-        "Releases OTBench, a benchmark featuring 70.5B reasoning tokens across multiple models and benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13570",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Constructing Pareto Frontiers for Reasoning Model Overthinking",
-          "summary": "This paper examines 'overthinking' in reasoning models, where continued test-time scaling becomes ineffective or harmful. The authors introduce Step-wise Truncation Probing (STP) to measure overthinking ratio and accuracy degradation. By unifying termination strategies, they construct token-accuracy Pareto frontiers and present OTBench, a benchmark spanning 70.5B reasoning tokens across six models and four benchmark groups.",
-          "keyPoints": [
-            "Introduces Step-wise Truncation Probing (STP) to characterize overthinking at the model-task level.",
-            "Proposes a unified framework for dynamic routing, fixed budgets, and dynamic early exits to build Pareto frontiers.",
-            "Releases OTBench, a benchmark featuring 70.5B reasoning tokens across multiple models and benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Frontières de Pareto pour l'excès de réflexion des modèles",
-          "summary": "Cet article étudie le phénomène de « surréflexion » dans les modèles de raisonnement, où un calcul prolongé devient inefficace ou nuisible. Les auteurs introduisent le sondage par troncature par étapes (STP) pour mesurer ce ratio et la dégradation de la précision. Ils formalisent un cadre unifié et présentent OTBench, un benchmark comprenant 70,5 milliards de jetons de raisonnement.",
-          "keyPoints": [
-            "Introduction du sondage par troncature par étapes (STP) pour analyser la surréflexion.",
-            "Proposition d'un cadre unifié pour quantifier le potentiel d'atténuation de diverses stratégies.",
-            "Création d'OTBench, un benchmark basé sur 70,5 milliards de jetons issus de six modèles."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f5b8f03c149068",
-      "title": "MENTOR: Learning from Failure with On-Policy Pedagogical Intervention",
-      "summary": "Reinforcement Learning from Verifiable Rewards (RLVR) often suffers from 'zero-reward collapse' when tasks become too difficult. To recover from this, the authors introduce MENTOR, a multi-agent live mentor framework that diagnoses failures in real-time and generates targeted instructional prompts. Serving as a plug-and-play module for pipelines like GRPO, MENTOR achieves up to 78.3% relative gains on Llama-3.2-3B-Instruct for math and code generation.",
-      "keyPoints": [
-        "Addresses 'zero-reward collapse' in reinforcement learning without discarding failed trajectories.",
-        "Introduces MENTOR, a multi-agent framework that provides real-time on-policy pedagogical intervention.",
-        "Achieves up to 78.3% average relative gains on Llama-3.2-3B-Instruct for math and code generation tasks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13594",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MENTOR: Learning from Failure with On-Policy Pedagogical Intervention",
-          "summary": "Reinforcement Learning from Verifiable Rewards (RLVR) often suffers from 'zero-reward collapse' when tasks become too difficult. To recover from this, the authors introduce MENTOR, a multi-agent live mentor framework that diagnoses failures in real-time and generates targeted instructional prompts. Serving as a plug-and-play module for pipelines like GRPO, MENTOR achieves up to 78.3% relative gains on Llama-3.2-3B-Instruct for math and code generation.",
-          "keyPoints": [
-            "Addresses 'zero-reward collapse' in reinforcement learning without discarding failed trajectories.",
-            "Introduces MENTOR, a multi-agent framework that provides real-time on-policy pedagogical intervention.",
-            "Achieves up to 78.3% average relative gains on Llama-3.2-3B-Instruct for math and code generation tasks."
-          ]
-        },
-        "fr": {
-          "title": "MENTOR : Apprendre de l'échec grâce à des interventions pédagogiques",
-          "summary": "L'apprentissage par renforcement à partir de récompenses vérifiables souffre souvent d'un effondrement des récompenses. Pour y remédier, les auteurs présentent MENTOR, un cadre multi-agent agissant comme un tuteur en direct qui diagnostique les échecs et guide l'agent. Intégré à des pipelines comme GRPO, MENTOR génère des gains relatifs moyens allant jusqu'à 78,3 % sur Llama-3.2-3B-Instruct.",
-          "keyPoints": [
-            "Résout l'effondrement des récompenses dans l'apprentissage par renforcement.",
-            "Propose MENTOR, un cadre multi-agent fournissant des interventions pédagogiques en temps réel.",
-            "Obtient des gains relatifs de 78,3 % sur Llama-3.2-3B-Instruct pour les mathématiques et le code."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4b152a91481f82",
-      "title": "HOA: Humanize Olympiad Agents with Multi-Session Workflows",
-      "summary": "To address the brittleness of single-agent sessions on complex tasks, the authors introduce HOA (Humanize Olympiads Agent), an open framework coordinating multiple agent sessions through reviewer feedback, structured wikis, and proof verifiers. Using GPT-5.6 Sol and open models like Kimi-K3, HOA achieves exceptional scores across international olympiads and benchmarks, proving that systematic feedback bridges capability gaps.",
-      "keyPoints": [
-        "Introduces HOA, an open framework utilizing reviewer feedback, wikis, and verifiers for complex problem solving.",
-        "Achieves top performance on competitive benchmarks including IMO, IPhO, IOI 2026, and PutnamBench.",
-        "Demonstrates that open models like Kimi-K3 match or exceed closed-source baselines using structured feedback."
+        "Introduces ClawLoop, a self-improving training loop for harness-based agents without external teachers.",
+        "Comprises Task Synthesis, Training, and Diagnosis and Feedback phases.",
+        "Yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13632",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.14118",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "HOA: Humanize Olympiad Agents with Multi-Session Workflows",
-          "summary": "To address the brittleness of single-agent sessions on complex tasks, the authors introduce HOA (Humanize Olympiads Agent), an open framework coordinating multiple agent sessions through reviewer feedback, structured wikis, and proof verifiers. Using GPT-5.6 Sol and open models like Kimi-K3, HOA achieves exceptional scores across international olympiads and benchmarks, proving that systematic feedback bridges capability gaps.",
+          "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+          "summary": "ClawLoop is a self-improving framework for harness-based agents that operates without an external teacher model. It combines Task Synthesis, Training, and Diagnosis and Feedback into a continuous cycle, demonstrating performance gains across multiple benchmarks.",
           "keyPoints": [
-            "Introduces HOA, an open framework utilizing reviewer feedback, wikis, and verifiers for complex problem solving.",
-            "Achieves top performance on competitive benchmarks including IMO, IPhO, IOI 2026, and PutnamBench.",
-            "Demonstrates that open models like Kimi-K3 match or exceed closed-source baselines using structured feedback."
+            "Introduces ClawLoop, a self-improving training loop for harness-based agents without external teachers.",
+            "Comprises Task Synthesis, Training, and Diagnosis and Feedback phases.",
+            "Yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench."
           ]
         },
         "fr": {
-          "title": "HOA : Agents pour olympiades avec des flux multi-sessions",
-          "summary": "Pour contrer la fragilité des sessions d'agents uniques, les auteurs présentent HOA, un cadre ouvert coordonnant plusieurs sessions via des retours d'évaluation, des wikis structurés et des vérificateurs de preuves. Utilisant GPT-5.6 Sol et Kimi-K3, HOA atteint des scores parfaits ou de niveau or dans plusieurs olympiades internationales de premier plan.",
+          "title": "ClawLoop : agents auto-améliorés via une boucle d'entraînement native",
+          "summary": "ClawLoop est un cadre d'auto-amélioration pour les agents fonctionnant sans modèle enseignant externe. Il associe la synthèse des tâches, l'entraînement, le diagnostic et le retour d'information en un cycle continu.",
           "keyPoints": [
-            "Présente HOA, un cadre combinant évaluation par les pairs, wikis et vérification de preuves.",
-            "Atteint d'excellents résultats aux olympiades internationales et sur PutnamBench.",
-            "Montre que des modèles ouverts peuvent égaler ou surpasser les modèles fermés grâce à la rétroaction."
+            "Présente ClawLoop, une boucle d'entraînement auto-améliorée sans enseignant externe.",
+            "Combine les phases de synthèse de tâches, d'entraînement, de diagnostic et de rétroaction.",
+            "Apporte des améliorations constantes sur SkillsBench, Claw-Eval-Live et ClawGym-Bench."
           ]
         }
       },
@@ -587,36 +197,75 @@
       }
     },
     {
-      "id": "feed-d8e8b02d32c62e",
-      "title": "Learning Size Independent Constraint Models from Data and Examples",
-      "summary": "This paper presents a Constraint Acquisition Tool that automatically builds size-independent constraint programs from input data and positive/negative solution examples. The system identifies size-specific patterns using global and binary constraints and generalizes them into MiniZinc code runnable on unseen data, successfully evaluated on PTHG21 Challenge problems.",
+      "id": "feed-a8b8c31de89814",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "Third Moment Research leverages GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak to build cybersecurity agents capable of focusing for multiple days and continuously improving with use.",
       "keyPoints": [
-        "Describes a Constraint Acquisition Tool generating size-independent constraint programs.",
-        "Finds size-specific patterns across global and binary constraints to generalize models.",
-        "Outputs executable MiniZinc code and textual descriptions, evaluated on PTHG21 Challenge problems."
+        "Runs 10,000 simultaneous agents for over 36 hours.",
+        "Uses GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak.",
+        "Builds agents that maintain focus over days and improve over time."
       ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13640",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/third-moment-research",
+      "publishedAt": "2026-10-14T07:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Learning Size Independent Constraint Models from Data and Examples",
-          "summary": "This paper presents a Constraint Acquisition Tool that automatically builds size-independent constraint programs from input data and positive/negative solution examples. The system identifies size-specific patterns using global and binary constraints and generalizes them into MiniZinc code runnable on unseen data, successfully evaluated on PTHG21 Challenge problems.",
+          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+          "summary": "Third Moment Research leverages GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak to build cybersecurity agents capable of focusing for multiple days and continuously improving with use.",
           "keyPoints": [
-            "Describes a Constraint Acquisition Tool generating size-independent constraint programs.",
-            "Finds size-specific patterns across global and binary constraints to generalize models.",
-            "Outputs executable MiniZinc code and textual descriptions, evaluated on PTHG21 Challenge problems."
+            "Runs 10,000 simultaneous agents for over 36 hours.",
+            "Uses GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak.",
+            "Builds agents that maintain focus over days and improve over time."
           ]
         },
         "fr": {
-          "title": "Apprentissage de modèles de contraintes indépendants de la taille",
-          "summary": "Cet article présente un outil d'acquisition de contraintes qui génère automatiquement des programmes de contraintes indépendants de la taille à partir de données d'entrée et d'exemples de solutions. Le système identifie des motifs spécifiques et les généralise en code MiniZinc exécutable sur de nouvelles données, validé sur les problèmes du défi PTHG21.",
+          "title": "Comment Third Moment Research fait tourner 10 000 agents pendant plus de 36 heures",
+          "summary": "Third Moment Research s'appuie sur GPT-6 Astra, GPT-6.1 Sol, Codex et Daybreak pour créer des agents de cybersécurité capables de se concentrer pendant des jours et de s'améliorer.",
           "keyPoints": [
-            "Décrit un outil d'acquisition de contraintes générant des programmes indépendants de la taille.",
-            "Identifie des motifs de contraintes pour généraliser les modèles à partir d'exemples.",
-            "Produit du code MiniZinc évalué avec succès sur les problèmes du défi PTHG21."
+            "Exécute 10 000 agents simultanés pendant plus de 36 heures.",
+            "Utilise GPT-6 Astra, GPT-6.1 Sol, Codex et Daybreak.",
+            "Développe des agents capables de maintenir leur concentration sur plusieurs jours."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c4eeefc4e76f2f",
+      "title": "Correction Training for Diffusion Models",
+      "summary": "This paper introduces a correction step for diffusion models to mitigate error accumulation and exposure bias during iterative sampling. By training a corrector on base model predictions, the method improves sample quality and matches classifier-free guidance performance.",
+      "keyPoints": [
+        "Introduces a correction step to bridge the training-inference gap in diffusion models.",
+        "Iteratively refines clean-sample predictions to prevent early artifacts.",
+        "Achieves performance competitive with classifier-free guidance while enhancing diversity."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14136",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Correction Training for Diffusion Models",
+          "summary": "This paper introduces a correction step for diffusion models to mitigate error accumulation and exposure bias during iterative sampling. By training a corrector on base model predictions, the method improves sample quality and matches classifier-free guidance performance.",
+          "keyPoints": [
+            "Introduces a correction step to bridge the training-inference gap in diffusion models.",
+            "Iteratively refines clean-sample predictions to prevent early artifacts.",
+            "Achieves performance competitive with classifier-free guidance while enhancing diversity."
+          ]
+        },
+        "fr": {
+          "title": "Entraînement par correction pour les modèles de diffusion",
+          "summary": "Cet article introduit une étape de correction pour les modèles de diffusion afin d'atténuer l'accumulation d'erreurs lors de l'échantillonnage itératif. En entraînant un correcteur sur les prédictions du modèle de base, la méthode améliore la qualité.",
+          "keyPoints": [
+            "Introduit une étape de correction pour combler l'écart entre entraînement et inférence.",
+            "Affine de manière itérative les prédictions pour éviter les artefacts précoces.",
+            "Atteint des performances compétitives par rapport au guidage sans classificateur tout en augmentant la diversité."
           ]
         }
       },
@@ -626,36 +275,75 @@
       }
     },
     {
-      "id": "feed-ce99a1de56d1f9",
-      "title": "A Multi-Agent LLM System for Automated Tuning of Neural Networks",
-      "summary": "This work introduces a multi-agent LLM framework comprising an analyst, coder, and recorder to automate the tuning of key components within machine learning models. Operating in a sandboxed environment, the system successfully tunes spiking neural networks and Physics-Informed Neural Networks (PINNs) across five challenging tasks, significantly outperforming manual and standard baselines.",
+      "id": "feed-94ee28b93f9d2d",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "summary": "Block partners with OpenAI to develop advanced security tools, enabling its security team to investigate potential threats much faster and automatically propose security patches within minutes.",
       "keyPoints": [
-        "Proposes a multi-agent LLM framework (analyst, coder, recorder) for automated component tuning.",
-        "Operates over an open, semantically narrow space to modify specific component code safely.",
-        "Demonstrates massive error reductions and accuracy gains on spiking neural networks and PINN tasks."
+        "Block builds AI-powered security systems using OpenAI technology.",
+        "Enables faster threat investigation for security teams.",
+        "Automatically proposes security patches in minutes."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/block-ai-powered-security",
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Block is building AI-powered security with OpenAI technology",
+          "summary": "Block partners with OpenAI to develop advanced security tools, enabling its security team to investigate potential threats much faster and automatically propose security patches within minutes.",
+          "keyPoints": [
+            "Block builds AI-powered security systems using OpenAI technology.",
+            "Enables faster threat investigation for security teams.",
+            "Automatically proposes security patches in minutes."
+          ]
+        },
+        "fr": {
+          "title": "Comment Block intègre la sécurité pilotée par l'IA avec OpenAI",
+          "summary": "Block s'associe à OpenAI pour développer des outils de sécurité avancés, permettant à son équipe d'enquêter plus rapidement sur les menaces et de proposer des correctifs en quelques minutes.",
+          "keyPoints": [
+            "Block conçoit une sécurité alimentée par l'IA via la technologie OpenAI.",
+            "Permient aux équipes de sécurité d'enquêter plus rapidement sur les menaces.",
+            "Propose automatiquement des correctifs de sécurité en quelques minutes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-32b179101ee9f4",
+      "title": "Long-Horizon-Terminal-Bench 2.0: Measuring Sustained Agent Progress",
+      "summary": "LHTB 2.0 expands the original benchmark to 77 tasks across 13 domains, extending evaluation horizons to three hours and tracking dense progress ladders. Testing 15 frontier models shows that outcome-only evaluations miss substantial intermediate progress.",
+      "keyPoints": [
+        "Introduces Long-Horizon-Terminal-Bench 2.0 containing 77 tasks across 13 domains.",
+        "Extends evaluation horizons to 3 hours with checkpoints every 30 minutes.",
+        "Demonstrates that dense ladder scores reveal intermediate progress hidden by binary checks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13663",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.14146",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "A Multi-Agent LLM System for Automated Tuning of Neural Networks",
-          "summary": "This work introduces a multi-agent LLM framework comprising an analyst, coder, and recorder to automate the tuning of key components within machine learning models. Operating in a sandboxed environment, the system successfully tunes spiking neural networks and Physics-Informed Neural Networks (PINNs) across five challenging tasks, significantly outperforming manual and standard baselines.",
+          "title": "Long-Horizon-Terminal-Bench 2.0: Measuring Sustained Agent Progress",
+          "summary": "LHTB 2.0 expands the original benchmark to 77 tasks across 13 domains, extending evaluation horizons to three hours and tracking dense progress ladders. Testing 15 frontier models shows that outcome-only evaluations miss substantial intermediate progress.",
           "keyPoints": [
-            "Proposes a multi-agent LLM framework (analyst, coder, recorder) for automated component tuning.",
-            "Operates over an open, semantically narrow space to modify specific component code safely.",
-            "Demonstrates massive error reductions and accuracy gains on spiking neural networks and PINN tasks."
+            "Introduces Long-Horizon-Terminal-Bench 2.0 containing 77 tasks across 13 domains.",
+            "Extends evaluation horizons to 3 hours with checkpoints every 30 minutes.",
+            "Demonstrates that dense ladder scores reveal intermediate progress hidden by binary checks."
           ]
         },
         "fr": {
-          "title": "Système LLM multi-agent pour l'optimisation automatisée de réseaux",
-          "summary": "Ce travail introduit un cadre LLM multi-agent comprenant un analyste, un codeur et un enregistreur pour automatiser l'optimisation des composants clés des modèles d'apprentissage automatique. Opérant dans un environnement sécurisé, le système ajuste avec succès des réseaux de neurones à impulsions et des PINN, surpassant nettement les bases de référence.",
+          "title": "Long-Horizon-Terminal-Bench 2.0 : mesurer les progrès continus des agents",
+          "summary": "LHTB 2.0 étend le banc d'essai original à 77 tâches sur 13 domaines, portant l'horizon d'évaluation à trois heures et suivant des échelles de progression denses. L'évaluation de 15 modèles de frontières montre l'importance des progrès intermédiaires.",
           "keyPoints": [
-            "Propose un cadre LLM multi-agent pour l'ajustement automatisé de composants spécifiques.",
-            "Modifie uniquement le code des composants ciblés sans altérer la structure globale du réseau.",
-            "Démontre des améliorations majeures de précision et des réductions d'erreurs sur des tâches variées."
+            "Présente LHTB 2.0 contenant 77 tâches réparties sur 13 domaines.",
+            "Étend l'horizon d'évaluation à 3 heures avec des points de contrôle toutes les 30 minutes.",
+            "Montre que les scores denses révèlent des progrès intermédiaires ignorés par les tests binaires."
           ]
         }
       },
@@ -665,130 +353,442 @@
       }
     },
     {
-      "id": "feed-dda2412bc2d865",
-      "title": "Benefits and Limits of Curriculum Difficulty Progression in GRPO",
-      "summary": "This paper investigates curriculum learning strategies within Group Relative Policy Optimization (GRPO), examining whether progressing toward harder samples improves final performance. By dynamically re-estimating sample difficulty under the current policy, the authors show that a staged progression to moderately harder difficulties outperforms persistent medium-difficulty selection on GSM8K, though excessive progression reduces accuracy.",
+      "id": "feed-08d6ee7f7a96b8",
+      "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+      "summary": "VETNET establishes an ecosystem of live benchmark datasets and evaluation frameworks to accelerate AI development in veterinary medicine and animal science through multi-institutional collaboration.",
       "keyPoints": [
-        "Re-estimates sample difficulty dynamically as the policy evolves during GRPO training.",
-        "Demonstrates that staged progression to harder samples improves GSM8K test accuracy over fixed-medium selection.",
-        "Reveals a non-monotonic benefit, where excessive progression to overly difficult samples degrades performance."
+        "Introduces VETNET for AI-driven veterinary innovation and animal science.",
+        "Provides live benchmark datasets and evaluation frameworks.",
+        "Fosters multi-institutional collaboration across academic and non-academic sectors."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14149",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+          "summary": "VETNET establishes an ecosystem of live benchmark datasets and evaluation frameworks to accelerate AI development in veterinary medicine and animal science through multi-institutional collaboration.",
+          "keyPoints": [
+            "Introduces VETNET for AI-driven veterinary innovation and animal science.",
+            "Provides live benchmark datasets and evaluation frameworks.",
+            "Fosters multi-institutional collaboration across academic and non-academic sectors."
+          ]
+        },
+        "fr": {
+          "title": "VETNET : Assemblage de jeux de données de référence pour l'innovation vétérinaire",
+          "summary": "VETNET établit un écosystème de jeux de données de référence en direct pour accélérer l'innovation en médecine vétérinaire et en science animale grâce à une collaboration multi-institutionnelle.",
+          "keyPoints": [
+            "Présente VETNET pour l'innovation vétérinaire pilotée par l'IA et la science animale.",
+            "Fournit des ensembles de données de référence en direct et des cadres d'évaluation.",
+            "Encourage la collaboration multi-institutionnelle entre les secteurs académiques et non académiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fc3118d0cb024e",
+      "title": "Unconstrained CTI-REALM with Open-Weights",
+      "summary": "We study open-weight versus closed frontier models on CTI-REALM, a benchmark for threat-intelligence agents. Evaluating 26 models, we find open-weight models can match the strongest closed models at less than a tenth of the cost when the message limit is relaxed. We also introduce stage-level metrics to evaluate individual workflow stages.",
+      "keyPoints": [
+        "Open-weight models can match the best closed models at under a tenth of the cost.",
+        "Published agent message limits artificially handicap models that need more time.",
+        "Stage-level metrics suggest routing different workflow steps to specialized models."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14180",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Unconstrained CTI-REALM with Open-Weights",
+          "summary": "We study open-weight versus closed frontier models on CTI-REALM, a benchmark for threat-intelligence agents. Evaluating 26 models, we find open-weight models can match the strongest closed models at less than a tenth of the cost when the message limit is relaxed. We also introduce stage-level metrics to evaluate individual workflow stages.",
+          "keyPoints": [
+            "Open-weight models can match the best closed models at under a tenth of the cost.",
+            "Published agent message limits artificially handicap models that need more time.",
+            "Stage-level metrics suggest routing different workflow steps to specialized models."
+          ]
+        },
+        "fr": {
+          "title": "CTI-REALM sans contrainte avec poids ouverts",
+          "summary": "Nous étudions les modèles à poids ouverts par rapport aux modèles fermés sur CTI-REALM, un benchmark pour les agents de renseignement sur les menaces. En évaluant 26 modèles, nous constatons que les modèles ouverts peuvent égaler les modèles fermés les plus puissants pour moins d'un dixième du coût lorsque la limite de messages est assouplie.",
+          "keyPoints": [
+            "Les modèles à poids ouverts peuvent égaler les meilleurs modèles fermés pour un dixième du coût.",
+            "Les limites de messages des agents pénalisent artificiellement les modèles nécessitant plus de temps.",
+            "Des métriques par étape suggèrent de router différentes étapes de travail vers des modèles spécialisés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-dc7bf030489751",
+      "title": "Visualizing the World Model in an Agent's Value Function",
+      "summary": "We apply counterfactual interventions to investigate whether a Proximal Policy Optimization agent's value function forms an environmental world model in Crafter. Despite being trained solely for rewards, the value function learns concepts like collectible diamonds, inventory heuristics, and health impacts.",
+      "keyPoints": [
+        "Counterfactual interventions test if value functions learn environment models.",
+        "Trained only for reward, the value function discovers rules like inventory heuristics.",
+        "Findings inform safety implications and limitations of current reinforcement learning agents."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13669",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.14186",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Benefits and Limits of Curriculum Difficulty Progression in GRPO",
-          "summary": "This paper investigates curriculum learning strategies within Group Relative Policy Optimization (GRPO), examining whether progressing toward harder samples improves final performance. By dynamically re-estimating sample difficulty under the current policy, the authors show that a staged progression to moderately harder difficulties outperforms persistent medium-difficulty selection on GSM8K, though excessive progression reduces accuracy.",
+          "title": "Visualizing the World Model in an Agent's Value Function",
+          "summary": "We apply counterfactual interventions to investigate whether a Proximal Policy Optimization agent's value function forms an environmental world model in Crafter. Despite being trained solely for rewards, the value function learns concepts like collectible diamonds, inventory heuristics, and health impacts.",
           "keyPoints": [
-            "Re-estimates sample difficulty dynamically as the policy evolves during GRPO training.",
-            "Demonstrates that staged progression to harder samples improves GSM8K test accuracy over fixed-medium selection.",
-            "Reveals a non-monotonic benefit, where excessive progression to overly difficult samples degrades performance."
+            "Counterfactual interventions test if value functions learn environment models.",
+            "Trained only for reward, the value function discovers rules like inventory heuristics.",
+            "Findings inform safety implications and limitations of current reinforcement learning agents."
           ]
         },
         "fr": {
-          "title": "Bénéfices et limites de la progression de la difficulté dans GRPO",
-          "summary": "Cet article étudie les stratégies d'apprentissage par curriculum dans GRPO. En réestimant dynamiquement la difficulté des échantillons à mesure que la politique évolue, les auteurs démontrent qu'une progression vers des exemples modérément plus difficiles améliore la précision sur GSM8K, tandis qu'une progression excessive réduit les performances.",
+          "title": "Visualisation du modèle du monde dans la fonction de valeur d'un agent",
+          "summary": "Nous appliquons des interventions contrefactuelles pour examiner si la fonction de valeur d'un agent PPO forme un modèle du monde de l'environnement Crafter. Bien qu'elle soit entraînée uniquement pour les récompenses, la fonction de valeur apprend des concepts tels que les règles sur les diamants et l'impact de la santé.",
           "keyPoints": [
-            "Réestime dynamiquement la difficulté des échantillons au fil de l'évolution de la politique.",
-            "Montre qu'une progression par étapes vers des échantillons plus difficiles surpasse la sélection moyenne fixe.",
-            "Met en évidence un effet non monétaire, une difficulté excessive dégradant les performances finales."
+            "Les interventions contrefactuelles testent si les fonctions de valeur modélisent l'environnement.",
+            "Entraînée pour la récompense, la fonction de valeur découvre des règles comme l'inventaire.",
+            "Les résultats éclairent les implications de sécurité et les limites des agents actuels."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-ee64bdcb074f2a",
-      "title": "A Baseline Assessment for the Agentic Web Technology Stack",
-      "summary": "To help developers navigate the complex ecosystem of LLM-based agent technologies, the authors propose MASTIF (Multi-Agent System TestIng Framework). Evaluating 3 LLMs, 3 protocols, and 4 agent frameworks against 300 Mind2Web benchmark tasks, the study provides a baseline assessment showing how tech stack selection affects task completion rates, efficiency, and verbosity.",
+      "id": "feed-728b011562c91b",
+      "title": "Cross-Modal Latent Influence for Vision-Language Models",
+      "summary": "We introduce MOSAIC, a method for patch-level training sample attribution in vision-language models. MOSAIC learns a shared sparse image-text latent space and decomposes training-example influence to localize contributions to specific text phrases and image regions.",
       "keyPoints": [
-        "Introduces MASTIF (Multi-Agent System TestIng Framework) for evaluating Agentic Web technologies.",
-        "Evaluates combinations of 3 LLMs, 3 protocols, and 4 agent frameworks across 300 Mind2Web tasks.",
-        "Provides metric baselines showing that task-specific stack selection significantly improves completion and efficiency."
+        "MOSAIC connects model behavior to multimodal evidence through a shared latent space.",
+        "It provides patch-level training attribution for vision-language models like Qwen and Gemma.",
+        "Ablating influence-ranked latents alters model outputs more than traditional activation methods."
       ],
-      "category": "Outils",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13703",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.14190",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "A Baseline Assessment for the Agentic Web Technology Stack",
-          "summary": "To help developers navigate the complex ecosystem of LLM-based agent technologies, the authors propose MASTIF (Multi-Agent System TestIng Framework). Evaluating 3 LLMs, 3 protocols, and 4 agent frameworks against 300 Mind2Web benchmark tasks, the study provides a baseline assessment showing how tech stack selection affects task completion rates, efficiency, and verbosity.",
+          "title": "Cross-Modal Latent Influence for Vision-Language Models",
+          "summary": "We introduce MOSAIC, a method for patch-level training sample attribution in vision-language models. MOSAIC learns a shared sparse image-text latent space and decomposes training-example influence to localize contributions to specific text phrases and image regions.",
           "keyPoints": [
-            "Introduces MASTIF (Multi-Agent System TestIng Framework) for evaluating Agentic Web technologies.",
-            "Evaluates combinations of 3 LLMs, 3 protocols, and 4 agent frameworks across 300 Mind2Web tasks.",
-            "Provides metric baselines showing that task-specific stack selection significantly improves completion and efficiency."
+            "MOSAIC connects model behavior to multimodal evidence through a shared latent space.",
+            "It provides patch-level training attribution for vision-language models like Qwen and Gemma.",
+            "Ablating influence-ranked latents alters model outputs more than traditional activation methods."
           ]
         },
         "fr": {
-          "title": "Évaluation de référence pour la pile technologique du Web agentique",
-          "summary": "Pour aider les développeurs à s'y retrouver dans l'écosystème des agents basés sur les LLM, les auteurs proposent MASTIF. En évaluant 3 LLMs, 3 protocoles et 4 cadres d'agents sur 300 tâches de Mind2Web, l'étude fournit une référence montrant l'impact du choix de la pile technologique sur l'efficacité et le taux de réussite.",
+          "title": "Influence latente intermodale pour les modèles vision-langage",
+          "summary": "Nous présentons MOSAIC, une méthode d'attribution d'exemples d'entraînement au niveau des patchs pour les modèles vision-langage. MOSAIC apprend un espace latent partagé et éparse pour localiser les contributions aux phrases textuelles et régions d'images.",
           "keyPoints": [
-            "Présente MASTIF pour évaluer les technologies du Web agentique.",
-            "Analyse diverses combinaisons de LLMs, de protocoles et de cadres d'agents sur 300 tâches.",
-            "Fournit des repères métriques démontrant l'importance du choix de la pile logicielle."
+            "MOSAIC relie le comportement du modèle à des preuves multimodales via un espace latent partagé.",
+            "Il fournit une attribution d'entraînement pour des modèles comme Qwen et Gemma.",
+            "L'ablation des latents modifie davantage les sorties du modèle que les méthodes d'activation."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-a3908f9b5e65d5",
-      "title": "Adaptive DHiSparse: Speculative Decoding over KV Hierarchies",
-      "summary": "Adaptive DHiSparse introduces speculative decoding over a load-adaptive hierarchical sparse KV cache to improve long-context serving. By retaining history during low load and performing exact fused retrieval under pressure, the system maintains proposal rules while supporting high concurrency and long contexts, achieving up to 1.85x output improvements on DeepSeek-V4.1-Flash.",
+      "id": "feed-020914d4401604",
+      "title": "Local Models as Interpreters in Cloud-Written Agent Programs",
+      "summary": "We explore an intermediate architecture where cloud-written programs defer bounded questions to a small local model via ordinary function calls. On AppWorld, this improves success rates by up to 14.9pp while keeping user data private on local edge devices.",
       "keyPoints": [
-        "Integrates speculative decoding with hierarchical sparse KV caching, adapting residency to current load.",
-        "Protects working sets and handles host memory retrieval dynamically to optimize throughput.",
-        "Delivers significant speedups and high concurrency support on GLM-5.3 and DeepSeek-V4.1-Flash."
+        "Cloud models write programs while small local models handle runtime data interpretation.",
+        "The approach improves edge agent success rates by up to 14.9 percentage points.",
+        "User data remains secure on local devices without sacrificing substantial performance."
       ],
-      "category": "Outils",
+      "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.13708",
-      "publishedAt": "2026-10-13T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.14209",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Adaptive DHiSparse: Speculative Decoding over KV Hierarchies",
-          "summary": "Adaptive DHiSparse introduces speculative decoding over a load-adaptive hierarchical sparse KV cache to improve long-context serving. By retaining history during low load and performing exact fused retrieval under pressure, the system maintains proposal rules while supporting high concurrency and long contexts, achieving up to 1.85x output improvements on DeepSeek-V4.1-Flash.",
+          "title": "Local Models as Interpreters in Cloud-Written Agent Programs",
+          "summary": "We explore an intermediate architecture where cloud-written programs defer bounded questions to a small local model via ordinary function calls. On AppWorld, this improves success rates by up to 14.9pp while keeping user data private on local edge devices.",
           "keyPoints": [
-            "Integrates speculative decoding with hierarchical sparse KV caching, adapting residency to current load.",
-            "Protects working sets and handles host memory retrieval dynamically to optimize throughput.",
-            "Delivers significant speedups and high concurrency support on GLM-5.3 and DeepSeek-V4.1-Flash."
+            "Cloud models write programs while small local models handle runtime data interpretation.",
+            "The approach improves edge agent success rates by up to 14.9 percentage points.",
+            "User data remains secure on local devices without sacrificing substantial performance."
           ]
         },
         "fr": {
-          "title": "Adaptive DHiSparse : Décoration spéculative sur hiérarchie KV",
-          "summary": "Adaptive DHiSparse introduit le décodage spéculatif sur un cache KV hiérarchique et clairsemé adapté à la charge pour optimiser le service à long contexte. En conservant l'historique en cas de faible charge et en récupérant les données sous pression, le système améliore considérablement le débit et la concurrence sur des modèles récents.",
+          "title": "Modèles locaux comme interprètes dans les programmes d'agents cloud",
+          "summary": "Nous explorons une architecture intermédiaire où les programmes écrits par le cloud déléguent des questions bornées à un petit modèle local. Sur AppWorld, cela améliore les taux de réussite jusqu'à 14,9 points tout en gardant les données utilisateur privées sur les appareils.",
           "keyPoints": [
-            "Associe décodage spéculatif et cache KV hiérarchique clairsemé adaptable à la charge.",
-            "Gère dynamiquement la mémoire hôte et GPU pour maximiser le débit des jetons de sortie.",
-            "Permet des gains majeurs de performance et de concurrence sur GLM-5.3 et DeepSeek-V4.1-Flash."
+            "Les modèles cloud écrivent des programmes et les petits modèles locaux gèrent l'interprétation.",
+            "L'approche améliore les taux de réussite des agents périphériques de 14,9 points.",
+            "Les données utilisateur restent sécurisées sur les appareils locaux sans perte majeure."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9e49e6d93707d1",
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "summary": "We introduce Harness^2, a recursive agent harnessing framework to automatically evolve execution harnesses without ground-truth verifiers. Using a contrastive Propose-Probe-Compose step and continual harnessing-level recursion, it yields significant gains across multiple benchmarks.",
+      "keyPoints": [
+        "Harness^2 introduces task-level and harnessing-level recursion for open-world agents.",
+        "It eliminates the need for ground-truth verifiers using contrastive editing.",
+        "Consistent performance gains are demonstrated on WorkBuddy-Bench, JobBench, and LAB."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14224",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+          "summary": "We introduce Harness^2, a recursive agent harnessing framework to automatically evolve execution harnesses without ground-truth verifiers. Using a contrastive Propose-Probe-Compose step and continual harnessing-level recursion, it yields significant gains across multiple benchmarks.",
+          "keyPoints": [
+            "Harness^2 introduces task-level and harnessing-level recursion for open-world agents.",
+            "It eliminates the need for ground-truth verifiers using contrastive editing.",
+            "Consistent performance gains are demonstrated on WorkBuddy-Bench, JobBench, and LAB."
+          ]
+        },
+        "fr": {
+          "title": "Harness^2 : Harnessing d'agent récursif pour un monde ouvert",
+          "summary": "Nous présentons Harness^2, un cadre de harnachement d'agent récursif pour faire évoluer automatiquement les environnements d'exécution sans vérificateurs de vérité terrain. En utilisant une étape contrastée et une récurrence continue, il génère des gains importants sur plusieurs benchmarks.",
+          "keyPoints": [
+            "Harness^2 introduit une récursion au niveau des tâches et du harnachement.",
+            "Il élimine le besoin de vérificateurs de vérité terrain grâce à l'édition contrastive.",
+            "Des gains de performance constants sont démontrés sur WorkBuddy-Bench, JobBench et LAB."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f1022d584e2a85",
+      "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication",
+      "summary": "We present Echo, a 4-bit all-reduce communication method for LLM training and inference that controls accumulated errors. Echo achieves up to 2.09x speedup over 16-bit NCCL on 1 GB messages while preserving model accuracy and final pretraining loss without specialized hardware.",
+      "keyPoints": [
+        "Echo uses 4-bit transmission and high-precision summation to reduce communication overhead.",
+        "It feeds back injection errors into later calls so old errors cancel out.",
+        "Echo speeds up 1 GB message transfers by 2.09x without requiring FP8 or FP4 hardware."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14277",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication",
+          "summary": "We present Echo, a 4-bit all-reduce communication method for LLM training and inference that controls accumulated errors. Echo achieves up to 2.09x speedup over 16-bit NCCL on 1 GB messages while preserving model accuracy and final pretraining loss without specialized hardware.",
+          "keyPoints": [
+            "Echo uses 4-bit transmission and high-precision summation to reduce communication overhead.",
+            "It feeds back injection errors into later calls so old errors cancel out.",
+            "Echo speeds up 1 GB message transfers by 2.09x without requiring FP8 or FP4 hardware."
+          ]
+        },
+        "fr": {
+          "title": "Echo : Communication tensorielle parallèle 4 bits à erreur compensée",
+          "summary": "Nous présentons Echo, une méthode de communication all-reduce 4 bits pour l'entraînement et l'inférence de LLM qui contrôle les erreurs cumulées. Echo offre une accélération allant jusqu'à 2,09x par rapport au NCCL 16 bits sans nécessiter de matériel spécialisé.",
+          "keyPoints": [
+            "Echo utilise une transmission 4 bits et une sommation de haute précision.",
+            "Il réinjecte les erreurs d'injection dans les appels ultérieurs pour qu'elles s'annulent.",
+            "Echo accélère les transferts de messages de 1 Go de 2,09x sans matériel FP8 ou FP4."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7eef65c93bc570",
+      "title": "Controllable Diverse Sampling through Pullback Directions",
+      "summary": "We propose a training-free method leveraging local pullback geometry to improve diversity in conditional diffusion models. By steering trajectories along directions of maximal output sensitivity, it generates distinct outputs while preserving prompt alignment.",
+      "keyPoints": [
+        "The method uses local pullback geometry to identify maximal output sensitivity directions.",
+        "It increases sample diversity in conditional diffusion models without additional training.",
+        "Evaluations on MS-COCO and BrushNet demonstrate improved performance in image generation and inpainting."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14294",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Controllable Diverse Sampling through Pullback Directions",
+          "summary": "We propose a training-free method leveraging local pullback geometry to improve diversity in conditional diffusion models. By steering trajectories along directions of maximal output sensitivity, it generates distinct outputs while preserving prompt alignment.",
+          "keyPoints": [
+            "The method uses local pullback geometry to identify maximal output sensitivity directions.",
+            "It increases sample diversity in conditional diffusion models without additional training.",
+            "Evaluations on MS-COCO and BrushNet demonstrate improved performance in image generation and inpainting."
+          ]
+        },
+        "fr": {
+          "title": "Échantillonnage diversifié contrôlable via les directions de pullback",
+          "summary": "Nous proposons une méthode sans entraînement exploitant la géométrie de pullback locale pour améliorer la diversité des modèles de diffusion conditionnelle. En guidant les trajectoires le long de directions de sensibilité maximale, elle génère des sorties distinctes tout en préservant l'alignement.",
+          "keyPoints": [
+            "La méthode utilise la géométrie de pullback locale pour identifier les directions de sensibilité.",
+            "Elle augmente la diversité des échantillons sans entraînement supplémentaire.",
+            "Les évaluations sur MS-COCO et BrushNet démontrent des améliorations en génération d'images."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-79014dd89c495e",
+      "title": "ConicFlow: Constrained Inference-Time Optimal Control for Flow Matching",
+      "summary": "We propose ConicFlow, framing constrained sampling from flow matching models as an optimal control problem using receding-horizon control and primal-dual algorithms. It achieves high reward and strong constraint satisfaction while minimizing deviation from pretrained flows.",
+      "keyPoints": [
+        "ConicFlow treats inference-time constrained sampling as an optimal control problem.",
+        "It adapts receding-horizon primal-dual algorithms to handle terminal constraints.",
+        "Experiments show high reward and robust constraint satisfaction with minimal trajectory deviation."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14307",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ConicFlow: Constrained Inference-Time Optimal Control for Flow Matching",
+          "summary": "We propose ConicFlow, framing constrained sampling from flow matching models as an optimal control problem using receding-horizon control and primal-dual algorithms. It achieves high reward and strong constraint satisfaction while minimizing deviation from pretrained flows.",
+          "keyPoints": [
+            "ConicFlow treats inference-time constrained sampling as an optimal control problem.",
+            "It adapts receding-horizon primal-dual algorithms to handle terminal constraints.",
+            "Experiments show high reward and robust constraint satisfaction with minimal trajectory deviation."
+          ]
+        },
+        "fr": {
+          "title": "ConicFlow : Contrôle optimal contraint à l'inférence pour le Flow Matching",
+          "summary": "Nous proposons ConicFlow, formulant l'échantillonnage contraint de modèles de type flow matching comme un problème de contrôle optimal. Il utilise un contrôle à horizon glissant et des algorithmes primal-dual pour satisfaire les contraintes terminales.",
+          "keyPoints": [
+            "ConicFlow traite l'échantillonnage contraint à l'inférence comme un contrôle optimal.",
+            "Il adapte des algorithmes primal-dual à horizon glissant pour gérer les contraintes.",
+            "Les expériences montrent une forte satisfaction des contraintes et un coût minimal."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b84ea2ee2efdb6",
+      "title": "Which Metadata Matters for LLM Tool Selection in MCP?",
+      "summary": "We analyze metadata for 367,174 MCP tools and conduct controlled factor-level interventions across five LLMs and tasks. We find that parameter-schema changes produce the largest tool selection shifts, with models favoring separate top-level parameters over composite forms.",
+      "keyPoints": [
+        "Parameter-schema changes create the most consistent tool selection shifts for LLMs.",
+        "Descriptions explaining parameters also increase selection likelihood compared to names.",
+        "When explicit requirements match a single schema, all tested models select the correct tool."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14334",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Which Metadata Matters for LLM Tool Selection in MCP?",
+          "summary": "We analyze metadata for 367,174 MCP tools and conduct controlled factor-level interventions across five LLMs and tasks. We find that parameter-schema changes produce the largest tool selection shifts, with models favoring separate top-level parameters over composite forms.",
+          "keyPoints": [
+            "Parameter-schema changes create the most consistent tool selection shifts for LLMs.",
+            "Descriptions explaining parameters also increase selection likelihood compared to names.",
+            "When explicit requirements match a single schema, all tested models select the correct tool."
+          ]
+        },
+        "fr": {
+          "title": "Quelles métadonnées comptent pour la sélection d'outils LLM dans MCP ?",
+          "summary": "Nous analysons les métadonnées de 367 174 outils MCP et réalisons des interventions contrôlées sur cinq LLM. Nous constatons que les modifications de schémas de paramètres génèrent les plus grands changements de sélection d'outils.",
+          "keyPoints": [
+            "Les modifications de schémas de paramètres provoquent les plus grands changements de sélection.",
+            "Les descriptions expliquant les paramètres augmentent également la probabilité de sélection.",
+            "Lorsque des critères explicites correspondent à un schéma, tous les modèles choisissent le bon outil."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0363b991dd5525",
+      "title": "Actionable Meta-Requirements for AI Robustness Auditing",
+      "summary": "We derive 44 meta-requirements across 16 categories for AI robustness auditing frameworks through a systematic literature review and validation with 128 practitioners. The resulting framework helps organizations implement and evaluate robustness auditing systems.",
+      "keyPoints": [
+        "A systematic literature review and practitioner evaluation yielded 44 meta-requirements.",
+        "Over 81% of practitioner ratings indicated agreement across 16 audited categories.",
+        "Feedback added requirements concerning external components and supply chain dependencies."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.14356",
+      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Actionable Meta-Requirements for AI Robustness Auditing",
+          "summary": "We derive 44 meta-requirements across 16 categories for AI robustness auditing frameworks through a systematic literature review and validation with 128 practitioners. The resulting framework helps organizations implement and evaluate robustness auditing systems.",
+          "keyPoints": [
+            "A systematic literature review and practitioner evaluation yielded 44 meta-requirements.",
+            "Over 81% of practitioner ratings indicated agreement across 16 audited categories.",
+            "Feedback added requirements concerning external components and supply chain dependencies."
+          ]
+        },
+        "fr": {
+          "title": "Méta-exigences opérationnelles pour l'audit de robustesse de l'IA",
+          "summary": "Nous dérivons 44 méta-exigences réparties en 16 catégories pour l'audit de robustesse des systèmes d'IA grâce à une revue de littérature et une validation auprès de 128 praticiens. Ce cadre aide les organisations à évaluer leurs systèmes de robustesse.",
+          "keyPoints": [
+            "Une revue de littérature et une évaluation de praticiens ont produit 44 méta-exigences.",
+            "Plus de 81 % des notations des praticiens ont exprimé un accord dans 16 catégories.",
+            "Les retours ont ajouté de nouvelles exigences concernant les composants externes et la chaîne d'approvisionnement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 17,
+    "itemsCollected": 1371,
     "itemsPublished": 20,
-    "newItems": 2,
-    "candidates": 2,
-    "batches": 1,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
