@@ -1,154 +1,427 @@
 {
-  "generatedAt": "2026-10-15T17:03:52.427Z",
+  "generatedAt": "2026-10-16T04:35:10.669Z",
   "items": [
     {
-      "id": "feed-02336069bfc68c",
-      "title": "Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos",
-      "summary": "Reels-RSI is an open-source reel director that performs self-improvement at the program level rather than through weights or prompts. Using logged code snapshots, retrospectives, and unit-tested rules compiled from static checks, it optimizes code-rendered explainer videos while ensuring human oversight.",
+      "id": "feed-a828bd7f7dff23",
+      "title": "Evaluating and Teaching Agents Under a Live Clock",
+      "summary": "The paper introduces RealtimeBench with 180 tasks to evaluate LLM agents in continuously running environments where actions take time. It also proposes TORSI, a two-timescale self-improvement method where a slow teacher writes reusable instructions for a fast student, raising Jev's average test score from 13.51 to 24.19.",
       "keyPoints": [
-        "Performs self-improvement at the program level instead of in weights or prompts.",
-        "Logs every revision pass with code snapshots and compiles lessons into unit-tested rules.",
-        "Evaluated across 111 reels, showing that rules catch latent defects and audit directors."
+        "RealtimeBench evaluates agents across 180 tasks while games run continuously.",
+        "TORSI uses a slow teacher to train a fast student via reusable instructions.",
+        "Tests show Jev's average score increased from 13.51 to 24.19 across six game types."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.20665",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evaluating and Teaching Agents Under a Live Clock",
+          "summary": "The paper introduces RealtimeBench with 180 tasks to evaluate LLM agents in continuously running environments where actions take time. It also proposes TORSI, a two-timescale self-improvement method where a slow teacher writes reusable instructions for a fast student, raising Jev's average test score from 13.51 to 24.19.",
+          "keyPoints": [
+            "RealtimeBench evaluates agents across 180 tasks while games run continuously.",
+            "TORSI uses a slow teacher to train a fast student via reusable instructions.",
+            "Tests show Jev's average score increased from 13.51 to 24.19 across six game types."
+          ]
+        },
+        "fr": {
+          "title": "Évaluer et former des agents sous horloge en direct",
+          "summary": "L'article présente RealtimeBench avec 180 tâches pour évaluer des agents LLM dans des environnements continus. Il propose également TORSI, une méthode d'auto-amélioration où un enseignant lent écrit des instructions pour un étudiant rapide, augmentant le score de Jev de 13,51 à 24,19.",
+          "keyPoints": [
+            "RealtimeBench évalue les agents sur 180 tâches en cours d'exécution continue.",
+            "TORSI utilise un enseignant lent pour former un étudiant rapide avec des instructions.",
+            "Le score moyen de Jev est passé de 13,51 à 24,19 sur six types de jeux."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-32165ee6af8945",
+      "title": "Bringing GPT-Rosalind to Academic Labs",
+      "summary": "OpenAI introduces the Rosalind Academic Plan, which provides eligible academic research laboratories with sponsored access to GPT-Rosalind and specialized tools to advance life sciences research.",
+      "keyPoints": [
+        "Launch of the Rosalind Academic Plan by OpenAI.",
+        "Provides sponsored access to GPT-Rosalind for eligible academic labs.",
+        "Aims to advance research in the life sciences."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Bringing GPT-Rosalind to Academic Labs",
+          "summary": "OpenAI introduces the Rosalind Academic Plan, which provides eligible academic research laboratories with sponsored access to GPT-Rosalind and specialized tools to advance life sciences research.",
+          "keyPoints": [
+            "Launch of the Rosalind Academic Plan by OpenAI.",
+            "Provides sponsored access to GPT-Rosalind for eligible academic labs.",
+            "Aims to advance research in the life sciences."
+          ]
+        },
+        "fr": {
+          "title": "Amener GPT-Rosalind dans les laboratoires académiques",
+          "summary": "OpenAI présente le plan académique Rosalind, offrant aux laboratoires de recherche éligibles un accès parrainé à GPT-Rosalind et à des outils pour faire progresser la recherche en sciences de la vie.",
+          "keyPoints": [
+            "Lancement du plan académique Rosalind par OpenAI.",
+            "Fournit un accès parrainé à GPT-Rosalind pour les laboratoires éligibles.",
+            "Conçu pour faire progresser la recherche en sciences de la vie."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ad09b0946a60b7",
+      "title": "Accelerating Antimicrobial Peptide Search with Antigravity",
+      "summary": "Google DeepMind introduces the use of Google Antigravity for Science to accelerate the discovery and search process for novel antimicrobial peptides.",
+      "keyPoints": [
+        "Focuses on accelerating the search for novel antimicrobial peptides.",
+        "Utilizes Google Antigravity for Science.",
+        "Announced via the Google DeepMind Blog."
+      ],
+      "category": "Outils",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "publishedAt": "2026-10-15T16:08:03.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/cctih6oTmgTVb0qWHy2X0TLKnI9oZLOvQJKeiOFwwW29DCQCtketIeWf0CJQSrgwMvkxF_FpgBbgEhgBqjekmTsqmndhZ2_CzTlOeV1oNGh7LCNbog=w1440",
+      "translations": {
+        "en": {
+          "title": "Accelerating Antimicrobial Peptide Search with Antigravity",
+          "summary": "Google DeepMind introduces the use of Google Antigravity for Science to accelerate the discovery and search process for novel antimicrobial peptides.",
+          "keyPoints": [
+            "Focuses on accelerating the search for novel antimicrobial peptides.",
+            "Utilizes Google Antigravity for Science.",
+            "Announced via the Google DeepMind Blog."
+          ]
+        },
+        "fr": {
+          "title": "Accélération de la recherche de peptides antimicrobiens",
+          "summary": "Google DeepMind présente l'utilisation de Google Antigravity for Science pour accélérer la découverte et la recherche de nouveaux peptides antimicrobiens.",
+          "keyPoints": [
+            "Se concentre sur l'accélération de la recherche de nouveaux peptides antimicrobiens.",
+            "Utilise Google Antigravity for Science.",
+            "Annoncé sur le blog de Google DeepMind."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-64ab9f94b7d65c",
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "summary": "This paper investigates whether full transcripts from saturated benchmarks can still predict model capabilities. The authors find that pairwise judging performs best among evaluated protocols, reducing prediction error by 5.3 times compared to using benchmark scores alone.",
+      "keyPoints": [
+        "Saturated benchmarks retain capability information within their full task transcripts.",
+        "Pairwise judging reduces prediction error by 5.3 times over baseline scores.",
+        "Predictive power can be limited by distribution shifts, such as early 2025 reasoning models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.20667",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evaluating Model Capabilities After Benchmark Saturation",
+          "summary": "This paper investigates whether full transcripts from saturated benchmarks can still predict model capabilities. The authors find that pairwise judging performs best among evaluated protocols, reducing prediction error by 5.3 times compared to using benchmark scores alone.",
+          "keyPoints": [
+            "Saturated benchmarks retain capability information within their full task transcripts.",
+            "Pairwise judging reduces prediction error by 5.3 times over baseline scores.",
+            "Predictive power can be limited by distribution shifts, such as early 2025 reasoning models."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation des capacités après la saturation des benchmarks",
+          "summary": "Cet article examine si les transcriptions complètes de benchmarks saturés peuvent prédire les capacités des modèles. Les auteurs constatent que le jugement par paires réduit l'erreur de prédiction par rapport aux scores seuls.",
+          "keyPoints": [
+            "Les benchmarks saturés conservent des informations dans leurs transcriptions de tâches.",
+            "Le jugement par paires réduit l'erreur de prédiction par rapport au score de base.",
+            "La puissance prédictive peut être limitée par des décalages de distribution."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a60f4a701f887a",
+      "title": "Teaching Students to Think and Learn Through Questions",
+      "summary": "In celebration of Teachers' Day, OpenAI highlights AI for Educators in Brazilian Portuguese, demonstrating how Study Mode helps teachers support active and step-by-step student learning.",
+      "keyPoints": [
+        "Celebrates Teachers' Day with AI for Educators in Brazilian Portuguese.",
+        "Introduces Study Mode to support active student learning.",
+        "Helps teachers guide step-by-step learning processes."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Teaching Students to Think and Learn Through Questions",
+          "summary": "In celebration of Teachers' Day, OpenAI highlights AI for Educators in Brazilian Portuguese, demonstrating how Study Mode helps teachers support active and step-by-step student learning.",
+          "keyPoints": [
+            "Celebrates Teachers' Day with AI for Educators in Brazilian Portuguese.",
+            "Introduces Study Mode to support active student learning.",
+            "Helps teachers guide step-by-step learning processes."
+          ]
+        },
+        "fr": {
+          "title": "Enseigner aux étudiants à penser et apprendre par les questions",
+          "summary": "Pour la Journée des enseignants, OpenAI met en avant l'IA pour les éducateurs en portugais brésilien, démontrant comment le mode d'étude aide les enseignants à soutenir l'apprentissage actif.",
+          "keyPoints": [
+            "Célèbre la Journée des enseignants avec l'IA pour les éducateurs en portugais brésilien.",
+            "Présente le mode d'étude pour soutenir l'apprentissage actif.",
+            "Aide les enseignants à guider l'apprentissage étape par étape."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b8fdb77fd6619c",
+      "title": "VISTA: Value-Informed Schedule Trimming for Discrete Diffusion",
+      "summary": "The paper introduces VISTA, a training-free method that automatically selects guided timesteps for reward-guided discrete diffusion under a fixed budget. Across tasks, VISTA outperforms hand-designed schedules and achieves a 5.35x speedup in toxic-text generation.",
+      "keyPoints": [
+        "VISTA automates sparse guidance selection for discrete diffusion models.",
+        "Optimizes an upper bound on path deviation using dynamic programming.",
+        "Achieves a 5.35x speedup in toxic-text generation while maintaining a 0.99 unique-toxic ratio."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.20669",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "VISTA: Value-Informed Schedule Trimming for Discrete Diffusion",
+          "summary": "The paper introduces VISTA, a training-free method that automatically selects guided timesteps for reward-guided discrete diffusion under a fixed budget. Across tasks, VISTA outperforms hand-designed schedules and achieves a 5.35x speedup in toxic-text generation.",
+          "keyPoints": [
+            "VISTA automates sparse guidance selection for discrete diffusion models.",
+            "Optimizes an upper bound on path deviation using dynamic programming.",
+            "Achieves a 5.35x speedup in toxic-text generation while maintaining a 0.99 unique-toxic ratio."
+          ]
+        },
+        "fr": {
+          "title": "VISTA : Réduction de calendrier pour la diffusion discrète",
+          "summary": "L'article présente VISTA, une méthode sans entraînement qui sélectionne automatiquement les pas de temps guidés pour la diffusion discrète. VISTA surpasse les planifications manuelles et offre une accélération de 5,35x.",
+          "keyPoints": [
+            "VISTA automatise la sélection de guidage pour les modèles de diffusion discrète.",
+            "Optimise une borne supérieure de déviation de trajectoire par programmation dynamique.",
+            "Atteint une accélération de 5,35x sur la génération de textes toxiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-94eadcab22c41e",
+      "title": "Sullivan & Cromwell Brings Legal Expertise to Agreement Review",
+      "summary": "In collaboration with OpenAI, law firm Sullivan & Cromwell developed Agreement Analyzer, a specialized artificial intelligence tool designed to identify potential issues in draft agreements.",
+      "keyPoints": [
+        "Developed in collaboration between OpenAI and Sullivan & Cromwell.",
+        "Named Agreement Analyzer.",
+        "Designed to help identify issues in draft legal agreements."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/sullivan-cromwell",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Sullivan & Cromwell Brings Legal Expertise to Agreement Review",
+          "summary": "In collaboration with OpenAI, law firm Sullivan & Cromwell developed Agreement Analyzer, a specialized artificial intelligence tool designed to identify potential issues in draft agreements.",
+          "keyPoints": [
+            "Developed in collaboration between OpenAI and Sullivan & Cromwell.",
+            "Named Agreement Analyzer.",
+            "Designed to help identify issues in draft legal agreements."
+          ]
+        },
+        "fr": {
+          "title": "Sullivan & Cromwell intègre l'expertise juridique dans l'analyse",
+          "summary": "En collaboration avec OpenAI, le cabinet Sullivan & Cromwell a développé Agreement Analyzer, un outil d'IA conçu pour identifier les problèmes potentiels dans les projets d'accords.",
+          "keyPoints": [
+            "Développé en collaboration entre OpenAI et Sullivan & Cromwell.",
+            "Nommé Agreement Analyzer.",
+            "Conçu pour identifier les problèmes dans les projets d'accords."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-77ee249104a767",
+      "title": "AlphaDiana: Measurement System for Verifiable Reasoning Agents",
+      "summary": "The paper introduces AlphaDiana, a modular measurement system for evaluating LLM agents across datasets, environments, and scorers. Testing three open-source models and harnesses, the authors find that harnesses do not consistently improve reasoning accuracy.",
+      "keyPoints": [
+        "AlphaDiana is a modular measurement system for evaluating agent performance.",
+        "Evaluates three open-source models and harnesses on multiple benchmarks.",
+        "Finds that harnesses do not consistently improve task accuracy."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14495",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20675",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Reels-RSI: Program-Level Self-Improvement for Code-Rendered Explainer Videos",
-          "summary": "Reels-RSI is an open-source reel director that performs self-improvement at the program level rather than through weights or prompts. Using logged code snapshots, retrospectives, and unit-tested rules compiled from static checks, it optimizes code-rendered explainer videos while ensuring human oversight.",
+          "title": "AlphaDiana: Measurement System for Verifiable Reasoning Agents",
+          "summary": "The paper introduces AlphaDiana, a modular measurement system for evaluating LLM agents across datasets, environments, and scorers. Testing three open-source models and harnesses, the authors find that harnesses do not consistently improve reasoning accuracy.",
           "keyPoints": [
-            "Performs self-improvement at the program level instead of in weights or prompts.",
-            "Logs every revision pass with code snapshots and compiles lessons into unit-tested rules.",
-            "Evaluated across 111 reels, showing that rules catch latent defects and audit directors."
+            "AlphaDiana is a modular measurement system for evaluating agent performance.",
+            "Evaluates three open-source models and harnesses on multiple benchmarks.",
+            "Finds that harnesses do not consistently improve task accuracy."
           ]
         },
         "fr": {
-          "title": "Reels-RSI : Auto-amélioration au niveau des programmes pour les vidéos explicatives",
-          "summary": "Reels-RSI est un directeur de clips open-source qui réalise l'auto-amélioration au niveau du programme plutôt que par les poids ou les invites. Utilisant des instantanés de code et des règles testées, il optimise les vidéos explicatives tout en maintenant une supervision humaine.",
+          "title": "AlphaDiana : Système de mesure pour agents de raisonnement",
+          "summary": "L'article présente AlphaDiana, un système de mesure modulaire pour évaluer les agents LLM. En testant plusieurs modèles et harnais open source, les auteurs constatent que les harnais n'améliorent pas systématiquement la précision.",
           "keyPoints": [
-            "Effectue l'auto-amélioration au niveau du programme plutôt que dans les poids ou les invites.",
-            "Enregistre chaque révision et compile les leçons en règles testées.",
-            "Évalué sur 111 clips, montrant que les règles détectent les défauts latents et auditent les directeurs."
+            "AlphaDiana est un système de mesure modulaire pour évaluer les performances des agents.",
+            "Évalue trois modèles et harnais open source sur plusieurs benchmarks.",
+            "Constate que les harnais n'améliorent pas de manière cohérente la précision."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-a7d8ed9c3d1cf8",
-      "title": "MontageFlow: Physically Valid High Fidelity EEG Generation",
-      "summary": "MontageFlow is a flow-matching generative model designed to fix the categorical failure of current EEG generators that violate exact linear identities between electrodes. By enforcing these identities and conditioning on physiological state vectors, it improves TS-FID by 1.6-3.6 times across benchmarks.",
+      "id": "feed-eda0ac52e268cc",
+      "title": "Phase-Separated Completeness Auditing in Verus",
+      "summary": "The paper demonstrates that correctness feedback can suppress evidence during specification-completeness auditing in Verus/Rust tasks. Independent no-feedback discovery more than doubles certified-witness yield relative to corrective-feedback loops.",
       "keyPoints": [
-        "Addresses the unnoticed failure of current EEG generators to satisfy electrode linear identities.",
-        "Proposes MontageFlow, a flow-matching model that restricts outputs to physically valid signals.",
-        "Improves TS-FID by 1.6-3.6 times over the closest rival across large-scale benchmarks."
+        "Correctness feedback can erase evidence during specification-completeness auditing.",
+        "Evaluated on 12 Verus/Rust tasks across four model families.",
+        "No-feedback discovery more than doubles certified-witness yield (59.0% vs 27.1%)."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14507",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20676",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "MontageFlow: Physically Valid High Fidelity EEG Generation",
-          "summary": "MontageFlow is a flow-matching generative model designed to fix the categorical failure of current EEG generators that violate exact linear identities between electrodes. By enforcing these identities and conditioning on physiological state vectors, it improves TS-FID by 1.6-3.6 times across benchmarks.",
+          "title": "Phase-Separated Completeness Auditing in Verus",
+          "summary": "The paper demonstrates that correctness feedback can suppress evidence during specification-completeness auditing in Verus/Rust tasks. Independent no-feedback discovery more than doubles certified-witness yield relative to corrective-feedback loops.",
           "keyPoints": [
-            "Addresses the unnoticed failure of current EEG generators to satisfy electrode linear identities.",
-            "Proposes MontageFlow, a flow-matching model that restricts outputs to physically valid signals.",
-            "Improves TS-FID by 1.6-3.6 times over the closest rival across large-scale benchmarks."
+            "Correctness feedback can erase evidence during specification-completeness auditing.",
+            "Evaluated on 12 Verus/Rust tasks across four model families.",
+            "No-feedback discovery more than doubles certified-witness yield (59.0% vs 27.1%)."
           ]
         },
         "fr": {
-          "title": "MontageFlow : Génération EEG haute fidélité et physiquement valide",
-          "summary": "MontageFlow est un modèle génératif conçu pour corriger l'échec des générateurs EEG actuels qui violent les identités linéaires entre électrodes. En appliquant ces identités et en conditionnant sur des vecteurs physiologiques, il améliore le TS-FID de 1,6 à 3,6 fois.",
+          "title": "Audit d'exhaustivité à phases séparées dans Verus",
+          "summary": "L'article démontre que les retours de correction peuvent supprimer des preuves lors de l'audit d'exhaustivité dans Verus/Rust. La découverte sans rétroaction double le rendement des témoins certifiés.",
           "keyPoints": [
-            "Résout l'échec des générateurs EEG à satisfaire les identités linéaires des électrodes.",
-            "Propose MontageFlow, un modèle limitant les sorties à des signaux physiquement valides.",
-            "Améliore le TS-FID de 1,6 à 3,6 fois par rapport au rival le plus proche sur des benchmarks."
+            "Les retours de correction peuvent effacer des preuves lors des audits.",
+            "Évalué sur 12 tâches Verus/Rust à travers quatre familles de modèles.",
+            "La découverte sans rétroaction plus que double le rendement des témoins certifiés."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-351f77aa044818",
-      "title": "ScienceBuddy-PV: Verifier-Governed Protocol for Panvascular Intervention Research",
-      "summary": "ScienceBuddy-PV adapts the ScienceBuddy recursive-in-recursive design to panvascular intervention research. Using a fixed component audit with separate ARCADE syntax and stenosis tasks, it evaluates a shared convolutional model and heuristic support gate, achieving specific Dice scores and establishing a reproducible protocol.",
+      "id": "feed-a61630d2e5679d",
+      "title": "Counterfactual Neighborhood Risk Fields for VLM Safety",
+      "summary": "The paper introduces Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework for selective vision-language model safety. CNRF achieves an 86.06-89.30% macro defense success rate across three VLMs while retaining benign task utility.",
       "keyPoints": [
-        "Adapts the ScienceBuddy framework to panvascular intervention research via structured evidence ledgers.",
-        "Audits a fixed component using separate syntax and stenosis tasks on locked test sets.",
-        "Provides a reproducible protocol for future collaborative agent studies without claiming clinical validity."
+        "CNRF provides an evidence-grounded framework for selective VLM safety.",
+        "Constructs counterfactual pairs to establish risk directions and neighborhood support.",
+        "Achieves 86.06-89.30% macro defense success across three evaluated VLMs."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14523",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20679",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ScienceBuddy-PV: Verifier-Governed Protocol for Panvascular Intervention Research",
-          "summary": "ScienceBuddy-PV adapts the ScienceBuddy recursive-in-recursive design to panvascular intervention research. Using a fixed component audit with separate ARCADE syntax and stenosis tasks, it evaluates a shared convolutional model and heuristic support gate, achieving specific Dice scores and establishing a reproducible protocol.",
+          "title": "Counterfactual Neighborhood Risk Fields for VLM Safety",
+          "summary": "The paper introduces Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework for selective vision-language model safety. CNRF achieves an 86.06-89.30% macro defense success rate across three VLMs while retaining benign task utility.",
           "keyPoints": [
-            "Adapts the ScienceBuddy framework to panvascular intervention research via structured evidence ledgers.",
-            "Audits a fixed component using separate syntax and stenosis tasks on locked test sets.",
-            "Provides a reproducible protocol for future collaborative agent studies without claiming clinical validity."
+            "CNRF provides an evidence-grounded framework for selective VLM safety.",
+            "Constructs counterfactual pairs to establish risk directions and neighborhood support.",
+            "Achieves 86.06-89.30% macro defense success across three evaluated VLMs."
           ]
         },
         "fr": {
-          "title": "ScienceBuddy-PV : Protocole géré par vérificateur pour la recherche en intervention",
-          "summary": "ScienceBuddy-PV adapte la conception récursive de ScienceBuddy à la recherche sur les interventions panvasculaires. À l'aide d'un audit de composants fixes et de tâches ARCADE, il évalue un modèle convolutionnel partagé et établit un protocole reproductible.",
+          "title": "Champs de risque de voisinage contrefactuels pour la sécurité",
+          "summary": "L'article présente CNRF, un cadre fondé sur des preuves pour la sécurité sélective des modèles vision-langage. CNRF atteint un taux de succès de défense macro de 86,06 à 89,30 % tout en préservant l'utilité.",
           "keyPoints": [
-            "Adapte le cadre ScienceBuddy à la recherche sur les interventions panvasculaires.",
-            "Audite un composant fixe en utilisant des tâches de syntaxe et de sténose distinctes.",
-            "Fournit un protocole reproductible pour de futures études d'agents sans prétendre à une validité clinique."
+            "CNRF propose un cadre fondé sur des preuves pour la sécurité des VLM.",
+            "Construit des paires contrefactuelles pour établir des directions de risque.",
+            "Atteint 86,06 à 89,30 % de succès de défense macro sur trois VLM évalués."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-d20bb21bfca9c7",
-      "title": "Energy Ring: Stabilizing Feature Energy for Reliable Test-Time Discovery",
-      "summary": "Energy Ring is a test-time discovery method that stabilizes the natural energy gap between known and unknown classes by anchoring them on separate energy rings. A lightweight adapter and perturbation consistency module help separate features, improving performance during continual stream adaptation.",
+      "id": "feed-5d6ab34c3d75d5",
+      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+      "summary": "Researchers introduced IneqAgent, an agentic framework that combines LLM reasoning with symbolic computation for inequality proving in Lean 4. Using lemma-level Monte Carlo Tree Search and specialized backends, it achieves a 94.09% success rate on benchmarks and yields Lean-verified strengthenings of Dittert's conjecture.",
       "keyPoints": [
-        "Revisits test-time discovery from an energy perspective to address feature collapse.",
-        "Proposes Energy Ring to anchor known and unknown classes on separate energy rings.",
-        "Uses a lightweight adapter and perturbation consistency module to improve separation and performance."
+        "Combines LLM reasoning with symbolic computation backends like sum-of-squares and Bernstein.",
+        "Solves 175 of 186 benchmark problems (94.09%) using DeepSeek-V4-Flash.",
+        "Produces Lean-verified strengthenings of Dittert's conjecture and certifies the Holens-Djokovic inequality."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14525",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20681",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Energy Ring: Stabilizing Feature Energy for Reliable Test-Time Discovery",
-          "summary": "Energy Ring is a test-time discovery method that stabilizes the natural energy gap between known and unknown classes by anchoring them on separate energy rings. A lightweight adapter and perturbation consistency module help separate features, improving performance during continual stream adaptation.",
+          "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+          "summary": "Researchers introduced IneqAgent, an agentic framework that combines LLM reasoning with symbolic computation for inequality proving in Lean 4. Using lemma-level Monte Carlo Tree Search and specialized backends, it achieves a 94.09% success rate on benchmarks and yields Lean-verified strengthenings of Dittert's conjecture.",
           "keyPoints": [
-            "Revisits test-time discovery from an energy perspective to address feature collapse.",
-            "Proposes Energy Ring to anchor known and unknown classes on separate energy rings.",
-            "Uses a lightweight adapter and perturbation consistency module to improve separation and performance."
+            "Combines LLM reasoning with symbolic computation backends like sum-of-squares and Bernstein.",
+            "Solves 175 of 186 benchmark problems (94.09%) using DeepSeek-V4-Flash.",
+            "Produces Lean-verified strengthenings of Dittert's conjecture and certifies the Holens-Djokovic inequality."
           ]
         },
         "fr": {
-          "title": "Energy Ring : Stabilisation de l'énergie des caractéristiques pour la découverte",
-          "summary": "Energy Ring est une méthode de découverte en temps de test qui stabilise l'écart énergétique entre classes connues et inconnues en les ancrant sur des anneaux distincts. Un adaptateur léger et un module de cohérence aident à améliorer les performances.",
+          "title": "IneqAgent : Preuve d'inégalités par agents dans Lean avec calcul symbolique",
+          "summary": "Des chercheurs ont présenté IneqAgent, un cadre d'agents combinant le raisonnement par grand modèle de langage et le calcul symbolique pour prouver des inégalités dans Lean 4. Utilisant une recherche dans l'arbre de Monte Carlo au niveau des lemmes, il atteint un taux de réussite de 94,09 %.",
           "keyPoints": [
-            "Revoit la découverte en temps de test sous un angle énergétique pour contrer l'effondrement.",
-            "Propose Energy Ring pour ancrer les classes connues et inconnues sur des anneaux distincts.",
-            "Utilise un adaptateur léger et un module de cohérence pour améliorer la séparation des caractéristiques."
+            "Combine le raisonnement des LLM avec des moteurs de calcul symbolique.",
+            "Résout 175 problèmes sur 186 avec DeepSeek-V4-Flash.",
+            "Permet d'obtenir des renforcements vérifiés par Lean de la conjecture de Dittert."
           ]
         }
       },
@@ -158,36 +431,36 @@
       }
     },
     {
-      "id": "feed-8610e5ac613aaf",
-      "title": "FDE-Bench: Evaluating End-to-End Delivery from Underspecified Business Requests",
-      "summary": "FDE-Bench is the first benchmark built from real customer projects to evaluate agents on end-to-end delivery tasks requiring interactive requirement clarification and iterative optimization. Testing 18 agent configurations revealed that reliable FDE-level delivery remains out of reach.",
+      "id": "feed-91832747d64f65",
+      "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
+      "summary": "The paper proposes L2G-SR, a framework for LLM-based symbolic regression that guides equation searches with a learned structural verifier. Utilizing tree edit distance to account for alternative forms, the method achieves state-of-the-art numerical fit and equation-level accuracy on LLM-SRBench.",
       "keyPoints": [
-        "Introduces FDE-Bench based on real customer projects requiring interactive clarification and optimization.",
-        "Spans 49 cases across combinatorial optimization and machine learning from real projects.",
-        "Shows that evaluated agents achieve a maximum delivery success rate of only 6.12%."
+        "Introduces L2G-SR, integrating a learned structural verifier into symbolic regression.",
+        "Employs tree edit distance to account for commutative operators and expression forms.",
+        "Achieves state-of-the-art numerical fit and equation-level accuracy on LLM-SRBench."
       ],
-      "category": "Business",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14539",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20685",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "FDE-Bench: Evaluating End-to-End Delivery from Underspecified Business Requests",
-          "summary": "FDE-Bench is the first benchmark built from real customer projects to evaluate agents on end-to-end delivery tasks requiring interactive requirement clarification and iterative optimization. Testing 18 agent configurations revealed that reliable FDE-level delivery remains out of reach.",
+          "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
+          "summary": "The paper proposes L2G-SR, a framework for LLM-based symbolic regression that guides equation searches with a learned structural verifier. Utilizing tree edit distance to account for alternative forms, the method achieves state-of-the-art numerical fit and equation-level accuracy on LLM-SRBench.",
           "keyPoints": [
-            "Introduces FDE-Bench based on real customer projects requiring interactive clarification and optimization.",
-            "Spans 49 cases across combinatorial optimization and machine learning from real projects.",
-            "Shows that evaluated agents achieve a maximum delivery success rate of only 6.12%."
+            "Introduces L2G-SR, integrating a learned structural verifier into symbolic regression.",
+            "Employs tree edit distance to account for commutative operators and expression forms.",
+            "Achieves state-of-the-art numerical fit and equation-level accuracy on LLM-SRBench."
           ]
         },
         "fr": {
-          "title": "FDE-Bench : Évaluation de la livraison de bout en bout pour des requêtes d'affaires",
-          "summary": "FDE-Bench est le premier benchmark issu de projets clients réels pour évaluer les agents sur des tâches de livraison de bout en bout nécessitant une clarification interactive. Le test de 18 configurations montre que la livraison fiable reste hors de portée.",
+          "title": "L2G-SR : Apprendre à guider la régression symbolique basée sur les LLM",
+          "summary": "L'article propose L2G-SR, un cadre pour la régression symbolique par LLM qui guide la recherche d'équations à l'aide d'un vérificateur structurel appris. Il atteint des performances de pointe en termes d'ajustement numérique et de précision sur LLM-SRBench.",
           "keyPoints": [
-            "Introduit FDE-Bench basé sur des projets clients réels exigeant une clarification interactive.",
-            "Couvre 49 cas en optimisation combinatoire et en apprentissage automatique.",
-            "Démontre que les agents évalués atteignent un taux de réussite de livraison maximal de seulement 6,12 %."
+            "Intègre un vérificateur structurel appris dans la régression symbolique.",
+            "Utilise la distance d'édition d'arbres pour gérer les opérateurs commutatifs.",
+            "Atteint une précision de pointe au niveau des équations sur LLM-SRBench."
           ]
         }
       },
@@ -197,36 +470,75 @@
       }
     },
     {
-      "id": "feed-0f2155926c31b7",
-      "title": "Are Multimodal Benchmarks Really Useful? Item-Level Diagnosis via SRCoD",
-      "summary": "SRCoD is a structure-response co-calibrated diagnosis framework designed to evaluate modality dependence in multimodal benchmarks at the item level. By estimating multimodal information structure and using it as a soft structural anchor, SRCoD outperforms state-of-the-art benchmark diagnosis methods.",
+      "id": "feed-c37f1987521f74",
+      "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable AI",
+      "summary": "This study examines how quickly reality can change before an intelligent system fails to perceive and act reliably, introducing the effective Speed of Coherent Cognition metric. Testing an architecture called Co4 inspired by cellular mechanisms, researchers show it outperforms Transformer and gated-MLP baselines.",
       "keyPoints": [
-        "Introduces SRCoD for item-level diagnosis of modality dependence in multimodal benchmarks.",
-        "Estimates sample-wise multimodal information structure as a soft structural anchor.",
-        "Outperforms state-of-the-art benchmark diagnosis methods across two complementary validation protocols."
+        "Formulates the observation-reality gap challenge for intelligent systems.",
+        "Introduces the effective Speed of Coherent Cognition metric to measure behavioural reliability.",
+        "Demonstrates that the cellular-inspired Co4 architecture achieves substantially higher performance than baselines."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.20764",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable AI",
+          "summary": "This study examines how quickly reality can change before an intelligent system fails to perceive and act reliably, introducing the effective Speed of Coherent Cognition metric. Testing an architecture called Co4 inspired by cellular mechanisms, researchers show it outperforms Transformer and gated-MLP baselines.",
+          "keyPoints": [
+            "Formulates the observation-reality gap challenge for intelligent systems.",
+            "Introduces the effective Speed of Coherent Cognition metric to measure behavioural reliability.",
+            "Demonstrates that the cellular-inspired Co4 architecture achieves substantially higher performance than baselines."
+          ]
+        },
+        "fr": {
+          "title": "Quand la réalité devance la cognition : un nouveau principe de mise à l'échelle",
+          "summary": "Cette étude examine la vitesse à laquelle la réalité peut changer avant qu'un système intelligent n'échoue, introduisant la métrique de la vitesse effective de cognition cohérente. L'architecture Co4 surpasse les bases Transformers et MLP dans ces scénarios.",
+          "keyPoints": [
+            "Formule le défi de l'écart entre observation et réalité pour les systèmes intelligents.",
+            "Introduit la métrique de la vitesse effective de cognition cohérente.",
+            "Démontre que l'architecture Co4 surpasse nettement les modèles de référence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cffdb744dda380",
+      "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+      "summary": "Researchers present ARIA, a framework that leverages execution-verified repairs to train compact models to inspect and amend multi-agent systems at runtime. Built on a dataset of over 24,000 trajectories and 3,953 verified repair pairs, ARIA effectively handles ongoing multi-agent task execution.",
+      "keyPoints": [
+        "Introduces ARIA for runtime inspection and amendment in multi-agent systems.",
+        "Constructs a large dataset containing 3,953 verified repair pairs from diverse trajectories.",
+        "Trains a compact model to recognize when intervention is needed and correct ongoing runs."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14542",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20780",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Are Multimodal Benchmarks Really Useful? Item-Level Diagnosis via SRCoD",
-          "summary": "SRCoD is a structure-response co-calibrated diagnosis framework designed to evaluate modality dependence in multimodal benchmarks at the item level. By estimating multimodal information structure and using it as a soft structural anchor, SRCoD outperforms state-of-the-art benchmark diagnosis methods.",
+          "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+          "summary": "Researchers present ARIA, a framework that leverages execution-verified repairs to train compact models to inspect and amend multi-agent systems at runtime. Built on a dataset of over 24,000 trajectories and 3,953 verified repair pairs, ARIA effectively handles ongoing multi-agent task execution.",
           "keyPoints": [
-            "Introduces SRCoD for item-level diagnosis of modality dependence in multimodal benchmarks.",
-            "Estimates sample-wise multimodal information structure as a soft structural anchor.",
-            "Outperforms state-of-the-art benchmark diagnosis methods across two complementary validation protocols."
+            "Introduces ARIA for runtime inspection and amendment in multi-agent systems.",
+            "Constructs a large dataset containing 3,953 verified repair pairs from diverse trajectories.",
+            "Trains a compact model to recognize when intervention is needed and correct ongoing runs."
           ]
         },
         "fr": {
-          "title": "Les benchmarks multimodaux sont-ils utiles ? Diagnostic via SRCoD",
-          "summary": "SRCoD est un cadre de diagnostic co-calibré structure-réponse conçu pour évaluer la dépendance modale dans les benchmarks multimodaux au niveau des éléments. Il surpasse les méthodes de diagnostic de pointe grâce à une modélisation adaptée.",
+          "title": "ARIA : Inspection et correction à l'exécution pour les systèmes multi-agents",
+          "summary": "Les chercheurs présentent ARIA, un cadre qui exploite des réparations vérifiées pour entraîner des modèles compacts à inspecter et corriger les systèmes multi-agents en cours d'exécution. ARIA s'appuie sur un vaste ensemble de données de trajectoires.",
           "keyPoints": [
-            "Introduit SRCoD pour le diagnostic au niveau des éléments de la dépendance modale.",
-            "Estime la structure de l'information multimodale par échantillon comme ancrage structurel.",
-            "Surpasse les méthodes de diagnostic de pointe selon deux protocoles de validation."
+            "Présente ARIA pour l'inspection et la correction à l'exécution.",
+            "Construit un grand ensemble de données de paires de réparations vérifiées.",
+            "Entraîne un modèle compact à intervenir et corriger les exécutions en cours."
           ]
         }
       },
@@ -236,36 +548,36 @@
       }
     },
     {
-      "id": "feed-309a136c41d53a",
-      "title": "PsyMemBehav: Psychology-Informed Reasoning for Social-Media Simulation",
-      "summary": "PsyMemBehav maps psychology-informed profiles and retrieved memories to target-first platform behavior through two-level identity-to-action reasoning. Evaluated on PsyMemBehav-bench containing 5.57M observed behaviors, PsyMemBehav 27B ranks first in individual-level metrics and improves average response quality.",
+      "id": "feed-94d5d577ef0fe3",
+      "title": "Open-world AI: A Tale of Three Requirements",
+      "summary": "The paper analyzes open-world AI requirements, arguing that versatility demands inference-time learning, rich representations, and predictive disentanglement. Testing language models up to 8B parameters, the authors show that models meeting these criteria improve with related tasks while others degrade.",
       "keyPoints": [
-        "Introduces PsyMemBehav for evidence-grounded user modeling and social simulation.",
-        "Constructs PsyMemBehav-bench from over 5.57 million observed behaviors across multiple platforms.",
-        "PsyMemBehav 27B ranks first in 11 of 12 individual-level metrics, outperforming GPT-5.4."
+        "Identifies three core requirements for open-world AI: inference-time learning, rich representation, and disentanglement.",
+        "Derives requirements from modeling tasks as sharing latent factors.",
+        "Tests language models up to 8B parameters to validate qualitative performance changes."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14570",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20782",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "PsyMemBehav: Psychology-Informed Reasoning for Social-Media Simulation",
-          "summary": "PsyMemBehav maps psychology-informed profiles and retrieved memories to target-first platform behavior through two-level identity-to-action reasoning. Evaluated on PsyMemBehav-bench containing 5.57M observed behaviors, PsyMemBehav 27B ranks first in individual-level metrics and improves average response quality.",
+          "title": "Open-world AI: A Tale of Three Requirements",
+          "summary": "The paper analyzes open-world AI requirements, arguing that versatility demands inference-time learning, rich representations, and predictive disentanglement. Testing language models up to 8B parameters, the authors show that models meeting these criteria improve with related tasks while others degrade.",
           "keyPoints": [
-            "Introduces PsyMemBehav for evidence-grounded user modeling and social simulation.",
-            "Constructs PsyMemBehav-bench from over 5.57 million observed behaviors across multiple platforms.",
-            "PsyMemBehav 27B ranks first in 11 of 12 individual-level metrics, outperforming GPT-5.4."
+            "Identifies three core requirements for open-world AI: inference-time learning, rich representation, and disentanglement.",
+            "Derives requirements from modeling tasks as sharing latent factors.",
+            "Tests language models up to 8B parameters to validate qualitative performance changes."
           ]
         },
         "fr": {
-          "title": "PsyMemBehav : Raisonnement éclairé par la psychologie pour la simulation sociale",
-          "summary": "PsyMemBehav associe des profils psychologiques et des mémoires récupérées à un comportement de plateforme via un raisonnement à deux niveaux. Évalué sur PsyMemBehav-bench avec 5,57 millions de comportements, le modèle 27B se classe premier.",
+          "title": "IA en monde ouvert : l'histoire de trois exigences",
+          "summary": "L'article analyse les exigences de l'IA en monde ouvert, soutenant que la versatilité nécessite un apprentissage au moment de l'inférence, de riches représentations et un découplage prédictif. Les tests sur des modèles jusqu'à 8B confirment ces hypothèses.",
           "keyPoints": [
-            "Introduit PsyMemBehav pour la modélisation d'utilisateurs et la simulation sociale.",
-            "Construit le benchmark PsyMemBehav-bench à partir de 5,57 millions de comportements observés.",
-            "PsyMemBehav 27B surpasse GPT-5.4 en se classant premier sur la majorité des métriques individuelles."
+            "Identifie trois exigences fondamentales pour l'IA en monde ouvert.",
+            "Dérive ces exigences de la modélisation de tâches partageant des facteurs latents.",
+            "Teste des modèles de langage allant jusqu'à 8 milliards de paramètres."
           ]
         }
       },
@@ -275,36 +587,36 @@
       }
     },
     {
-      "id": "feed-e6e6349175214c",
-      "title": "Learning after Execution with Action-Specific Credit in Executable Tasks",
-      "summary": "Learning after execution treats execution results as intermediate states supporting additional learning interactions for the same policy. Action-specific credit assigns initial action credit from final outcomes and corrective action credit for improvements, strengthening single-call inference and corrective capabilities.",
+      "id": "feed-4faf84fcc2c0dc",
+      "title": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents",
+      "summary": "EvolvingBrain is proposed as an adaptive skill system that helps multi-modal agents self-evolve in open worlds. It features Stratified Skill Self-Evolution and State-Aware Adaptive Execution, improving task success rates and generalization on benchmarks like VAB-Minecraft and DiscoveryWorld.",
       "keyPoints": [
-        "Uses execution results as intermediate states for further learning interactions.",
-        "Applies action-specific credit to separate initial outcome credit from corrective improvements.",
-        "Reaches 92.70% single-call render success on Image-to-TikZ, outperforming continued single-stage GRPO."
+        "Introduces EvolvingBrain to drive multi-modal agent self-evolution.",
+        "Uses Stratified Skill Self-Evolution to extract procedural and problematic patterns into an architecture.",
+        "Employs State-Aware Adaptive Execution with structured abstractive memory for open-world tasks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14573",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20786",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Learning after Execution with Action-Specific Credit in Executable Tasks",
-          "summary": "Learning after execution treats execution results as intermediate states supporting additional learning interactions for the same policy. Action-specific credit assigns initial action credit from final outcomes and corrective action credit for improvements, strengthening single-call inference and corrective capabilities.",
+          "title": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents",
+          "summary": "EvolvingBrain is proposed as an adaptive skill system that helps multi-modal agents self-evolve in open worlds. It features Stratified Skill Self-Evolution and State-Aware Adaptive Execution, improving task success rates and generalization on benchmarks like VAB-Minecraft and DiscoveryWorld.",
           "keyPoints": [
-            "Uses execution results as intermediate states for further learning interactions.",
-            "Applies action-specific credit to separate initial outcome credit from corrective improvements.",
-            "Reaches 92.70% single-call render success on Image-to-TikZ, outperforming continued single-stage GRPO."
+            "Introduces EvolvingBrain to drive multi-modal agent self-evolution.",
+            "Uses Stratified Skill Self-Evolution to extract procedural and problematic patterns into an architecture.",
+            "Employs State-Aware Adaptive Execution with structured abstractive memory for open-world tasks."
           ]
         },
         "fr": {
-          "title": "Apprentissage après exécution avec crédit spécifique à l'action",
-          "summary": "L'apprentissage après exécution utilise les résultats d'exécution comme états intermédiaires pour soutenir des interactions d'apprentissage supplémentaires. Le crédit spécifique à l'action renforce l'inférence à un seul appel et les capacités correctives.",
+          "title": "EvolvingBrain : Un système de compétences adaptatives pour agents multimodaux",
+          "summary": "EvolvingBrain est proposé comme un système de compétences adaptatives favorisant l'auto-évolution des agents multimodaux en monde ouvert. Il intègre une évolution stratifiée des compétences et une exécution adaptative consciente de l'état.",
           "keyPoints": [
-            "Utilise les résultats d'exécution comme états intermédiaires pour de nouvelles interactions.",
-            "Applique un crédit spécifique pour séparer le résultat initial des améliorations correctives.",
-            "Atteint 92,70 % de réussite sur Image-to-TikZ, surpassant le GRPO mono-étape continué."
+            "Introduit EvolvingBrain pour l'auto-évolution des agents multimodaux.",
+            "Utilise l'évolution stratifiée des compétences pour structurer les connaissances.",
+            "Améliore les taux de réussite sur des benchmarks comme VAB-Minecraft et DiscoveryWorld."
           ]
         }
       },
@@ -314,36 +626,36 @@
       }
     },
     {
-      "id": "feed-1104aeada88a7e",
-      "title": "CB-Agent: Concept-Based In-Context Learning for Sequential Action Selection",
-      "summary": "CB-Agent extends concept-based in-context learning to sequential action selection by extracting environment-action decisions from expert trajectories and fitting a concept vector via maximum likelihood. It allows agents to select actions without including full demonstrations in the action-scoring context.",
+      "id": "feed-94f07ba05cddef",
+      "title": "When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes",
+      "summary": "This study explores how answer configuration affects whether language models follow provided evidence when reasoning traces conflict with it. Evaluating across multiple model families on HotpotQA and MuSiQue, the authors show that separate answer calls drastically increase evidence-following over continuation.",
       "keyPoints": [
-        "Extends concept-based in-context learning to sequential action selection.",
-        "Fits a concept vector using maximum likelihood from expert trajectory decisions.",
-        "Achieves top cross-benchmark averages across TextWorld, ALFWorld, and ScienceWorld."
+        "Examines the tension between retained reasoning traces and conflicting evidence.",
+        "Compares model continuation against separate answer calls across model families like gpt-oss, Gemma4, and Qwen3.",
+        "Finds that separate calls raise evidence-following by 29.9 to 60.6 points."
       ],
-      "category": "Outils",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14574",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20805",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "CB-Agent: Concept-Based In-Context Learning for Sequential Action Selection",
-          "summary": "CB-Agent extends concept-based in-context learning to sequential action selection by extracting environment-action decisions from expert trajectories and fitting a concept vector via maximum likelihood. It allows agents to select actions without including full demonstrations in the action-scoring context.",
+          "title": "When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes",
+          "summary": "This study explores how answer configuration affects whether language models follow provided evidence when reasoning traces conflict with it. Evaluating across multiple model families on HotpotQA and MuSiQue, the authors show that separate answer calls drastically increase evidence-following over continuation.",
           "keyPoints": [
-            "Extends concept-based in-context learning to sequential action selection.",
-            "Fits a concept vector using maximum likelihood from expert trajectory decisions.",
-            "Achieves top cross-benchmark averages across TextWorld, ALFWorld, and ScienceWorld."
+            "Examines the tension between retained reasoning traces and conflicting evidence.",
+            "Compares model continuation against separate answer calls across model families like gpt-oss, Gemma4, and Qwen3.",
+            "Finds that separate calls raise evidence-following by 29.9 to 60.6 points."
           ]
         },
         "fr": {
-          "title": "CB-Agent : Apprentissage contextuel basé sur les concepts pour la sélection d'actions",
-          "summary": "CB-Agent étend l'apprentissage contextuel basé sur les concepts à la sélection d'actions séquentielles en extrayant des décisions de trajectoires d'experts et en ajustant un vecteur de concept. Il permet aux agents de sélectionner des actions sans démonstrations complètes.",
+          "title": "Quand les traces de raisonnement entrent en conflit avec les preuves",
+          "summary": "Cette étude analyse l'impact de la configuration des réponses sur la prise en compte des preuves par les modèles de langage lorsque les traces de raisonnement divergent. Les appels de réponse séparés augmentent nettement le suivi des preuves.",
           "keyPoints": [
-            "Étend l'apprentissage contextuel basé sur les concepts à la sélection d'actions séquentielles.",
-            "Ajuste un vecteur de concept par maximum de vraisemblance à partir de trajectoires expertes.",
-            "Obtient les meilleures moyennes inter-benchmarks sur TextWorld, ALFWorld et ScienceWorld."
+            "Examine la tension entre les traces de raisonnement et les preuves contradictoires.",
+            "Compare la continuation du modèle et les appels de réponse séparés.",
+            "Démontre une hausse de 29,9 à 60,6 points du suivi des preuves avec les appels séparés."
           ]
         }
       },
@@ -353,36 +665,36 @@
       }
     },
     {
-      "id": "feed-0e8b8c47eeb76b",
-      "title": "Iterate on an LLM, Serve on an SLM: A Production Lifecycle Blueprint",
-      "summary": "This method proposes developing desired behavior on a frontier LLM using live traffic feedback, and then distilling the recorded production behavior into a small language model (SLM) via supervised fine-tuning. A LoRA-tuned Qwen3-8B trained on production decisions achieved high agreement and lower latency than its teacher.",
+      "id": "feed-90ec2464282416",
+      "title": "A Self-Improving Agent that Grows its Own DSL via Oracle-Free Induction",
+      "summary": "The authors present an agent that expands its domain-specific language (DSL) and answers exact questions without rewards, judges, or answer keys. Using nested loops, the model discovers missing capabilities and authors operators, successfully scaling its answerable sets across multiple domains.",
       "keyPoints": [
-        "Develops behavior on frontier LLMs with live feedback before distilling into SLMs.",
-        "Demonstrates success using a scheduling agent where a Qwen3-8B student matched teacher performance.",
-        "Offers lower median latency and cheaper inference, establishing a blueprint for production systems."
+        "Develops a self-improving agent that operates without rewards, judge models, or ground truth.",
+        "Employs nested loops where a frozen model authors and validates new operators using agreement and conservation laws.",
+        "Grows answerable question sets across business-ledger and clinical-encounter domains."
       ],
-      "category": "Business",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14576",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20809",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Iterate on an LLM, Serve on an SLM: A Production Lifecycle Blueprint",
-          "summary": "This method proposes developing desired behavior on a frontier LLM using live traffic feedback, and then distilling the recorded production behavior into a small language model (SLM) via supervised fine-tuning. A LoRA-tuned Qwen3-8B trained on production decisions achieved high agreement and lower latency than its teacher.",
+          "title": "A Self-Improving Agent that Grows its Own DSL via Oracle-Free Induction",
+          "summary": "The authors present an agent that expands its domain-specific language (DSL) and answers exact questions without rewards, judges, or answer keys. Using nested loops, the model discovers missing capabilities and authors operators, successfully scaling its answerable sets across multiple domains.",
           "keyPoints": [
-            "Develops behavior on frontier LLMs with live feedback before distilling into SLMs.",
-            "Demonstrates success using a scheduling agent where a Qwen3-8B student matched teacher performance.",
-            "Offers lower median latency and cheaper inference, establishing a blueprint for production systems."
+            "Develops a self-improving agent that operates without rewards, judge models, or ground truth.",
+            "Employs nested loops where a frozen model authors and validates new operators using agreement and conservation laws.",
+            "Grows answerable question sets across business-ledger and clinical-encounter domains."
           ]
         },
         "fr": {
-          "title": "Itérer sur un LLM, servir sur un SLM : Un modèle de cycle de vie de production",
-          "summary": "Cette méthode propose de développer les comportements sur un LLM frontal avec des retours en direct, puis de distiller ces comportements dans un petit modèle de langage par fine-tuning supervisé. Un Qwen3-8B ajusté atteint une haute cohérence avec une latence réduite.",
+          "title": "Un agent auto-améliorant qui développe son propre DSL sans oracle",
+          "summary": "Les auteurs présentent un agent qui étend son langage dédié et répond à des questions exactes sans récompenses ni clés de réponse. Le modèle découvre ses manques et crée de nouveaux opérateurs validés par des lois de conservation.",
           "keyPoints": [
-            "Développe le comportement sur des LLM frontaux avec retours avant distillation dans un SLM.",
-            "Montre le succès via un agent de planification où un modèle Qwen3-8B égale l'enseignant.",
-            "Offre une latence médiane plus faible et une inférence économique pour les systèmes de production."
+            "Développe un agent auto-améliorant fonctionnant sans oracle ni récompense.",
+            "Utilise des boucles imbriquées pour créer et valider de nouveaux opérateurs.",
+            "Multiplie les ensembles de questions solubles dans des domaines variés."
           ]
         }
       },
@@ -392,401 +704,89 @@
       }
     },
     {
-      "id": "feed-c9d380c0b10dcf",
-      "title": "Artificiality's First Exam: LLM-Referenced C-test for Supraintelligence",
-      "summary": "This paper presents a new test based on Levin's Kt using large language models as representational machines to evaluate models that may surpass human capabilities. By generating fresh test items at high difficulties measured in bits, the framework produces agent characteristic curves that enter the uncharted supra-intelligence window.",
+      "id": "feed-ae2eb56749d9d4",
+      "title": "Temporal Specification Guidance for Text-to-Video Generation",
+      "summary": "To address failures in text-to-video ordering and timing, researchers introduce Temporal Specification Guidance (TSG). This training-free inference framework uses quantitative semantics of temporal logic on attention traces to guide video generation during sampling, improving accuracy across five models.",
       "keyPoints": [
-        "Proposes an LLM-referenced C-test based on Levin's Kt to evaluate supraintelligence.",
-        "Generates fresh test items at high difficulties measured in bits before humans or models solve them.",
-        "Administered a battery of certified items to twelve LLMs, revealing decreasing agent characteristic curves."
+        "Proposes Temporal Specification Guidance (TSG) for text-to-video generation.",
+        "Translates temporal requirements into differentiable quantitative semantics evaluated on attention traces.",
+        "Improves specification satisfaction accuracy over classifier-free guidance by 9.5-20 percentage points."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14005",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20822",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Artificiality's First Exam: LLM-Referenced C-test for Supraintelligence",
-          "summary": "This paper presents a new test based on Levin's Kt using large language models as representational machines to evaluate models that may surpass human capabilities. By generating fresh test items at high difficulties measured in bits, the framework produces agent characteristic curves that enter the uncharted supra-intelligence window.",
+          "title": "Temporal Specification Guidance for Text-to-Video Generation",
+          "summary": "To address failures in text-to-video ordering and timing, researchers introduce Temporal Specification Guidance (TSG). This training-free inference framework uses quantitative semantics of temporal logic on attention traces to guide video generation during sampling, improving accuracy across five models.",
           "keyPoints": [
-            "Proposes an LLM-referenced C-test based on Levin's Kt to evaluate supraintelligence.",
-            "Generates fresh test items at high difficulties measured in bits before humans or models solve them.",
-            "Administered a battery of certified items to twelve LLMs, revealing decreasing agent characteristic curves."
+            "Proposes Temporal Specification Guidance (TSG) for text-to-video generation.",
+            "Translates temporal requirements into differentiable quantitative semantics evaluated on attention traces.",
+            "Improves specification satisfaction accuracy over classifier-free guidance by 9.5-20 percentage points."
           ]
         },
         "fr": {
-          "title": "Premier examen de l'artificialité : test C référencé par LLM pour la supraintelligence",
-          "summary": "Cet article présente un nouveau test basé sur le Kt de Levin utilisant de grands modèles de langage comme machines représentationnelles pour évaluer les modèles dépassant les capacités humaines. En générant de nouveaux tests à haute difficulté mesurée en bits, le cadre produit des courbes caractéristiques d'agents.",
+          "title": "Guidage par spécification temporelle pour la génération texte-vidéo",
+          "summary": "Pour résoudre les défaillances de timing et d'ordre dans la génération texte-vidéo, les chercheurs introduisent le guidage par spécification temporelle (TSG). Ce cadre d'inférence utilise la logique temporelle sur les traces d'attention pour guider l'échantillonnage.",
           "keyPoints": [
-            "Propose un test C référencé par LLM basé sur le Kt de Levin pour évaluer la supraintelligence.",
-            "Génère de nouveaux éléments de test à haute difficulté mesurée en bits avant leur résolution.",
-            "Administre une batterie d'éléments certifiés à douze LLM montrant des courbes de performance décroissantes."
+            "Propose le guidage par spécification temporelle (TSG) pour la génération vidéo.",
+            "S'appuie sur des sémantiques quantitatives différentiables sans modifier les transformateurs vidéo.",
+            "Améliore la précision de satisfaction des spécifications de 9,5 à 20 points de pourcentage."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-57c3309db5bedc",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "summary": "Amp expands the frontier of AI agent capabilities using GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to handle tasks beyond coding.",
+      "id": "feed-378a2a81580b50",
+      "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Reasoning",
+      "summary": "This paper formulates evaluator-guided test-time reasoning as a resource allocation problem using a compute-aware three-action controller. By calibrating confidence estimates and incorporating uncertainty penalties, the method improves utility while reducing online compute costs.",
       "keyPoints": [
-        "Amp pushes agent capabilities past coding limits.",
-        "Utilizes OpenAI models including GPT-6 Astra, Ultrafast, and GPT-Live-1.",
-        "Integrates Sign in with ChatGPT functionality."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/amp-beyond-coding",
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Amp puts AI agents to work beyond code with OpenAI models",
-          "summary": "Amp expands the frontier of AI agent capabilities using GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT to handle tasks beyond coding.",
-          "keyPoints": [
-            "Amp pushes agent capabilities past coding limits.",
-            "Utilizes OpenAI models including GPT-6 Astra, Ultrafast, and GPT-Live-1.",
-            "Integrates Sign in with ChatGPT functionality."
-          ]
-        },
-        "fr": {
-          "title": "Amp met les agents IA au travail au-delà du code avec les modèles OpenAI",
-          "summary": "Amp repousse les limites des agents IA en utilisant GPT-6 Astra, Ultrafast, GPT-Live-1 et Sign in avec ChatGPT pour accomplir des tâches au-delà du code.",
-          "keyPoints": [
-            "Amp repousse les capacités des agents au-delà du codage.",
-            "Utilise des modèles OpenAI dont GPT-6 Astra, Ultrafast et GPT-Live-1.",
-            "Intègre la fonctionnalité Sign in with ChatGPT."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-45a31fcfe6d3c3",
-      "title": "The Silent Failures in Agentic Data Science",
-      "summary": "Research evaluates agentic data science beyond accuracy, highlighting that many systems suffer from methodological flaws like data leakage. Analyzing 220 tasks reveals that agents lack domain knowledge and creativity compared to expert data scientists.",
-      "keyPoints": [
-        "Evaluates agentic data science across 220 tasks to uncover methodological failures like data leakage.",
-        "Identifies a positive correlation between data leakage failures and predictive performance.",
-        "Shows that data science agents lack problem-solving creativity and domain knowledge compared to experts."
+        "Formulates step-by-step evaluator-guided reasoning as a compute-aware three-action control problem.",
+        "Learns and calibrates action-specific confidence estimates with uncertainty penalties.",
+        "Improves observed utility while reducing normalized online compute by roughly 16% to 30%."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14115",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.20836",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The Silent Failures in Agentic Data Science",
-          "summary": "Research evaluates agentic data science beyond accuracy, highlighting that many systems suffer from methodological flaws like data leakage. Analyzing 220 tasks reveals that agents lack domain knowledge and creativity compared to expert data scientists.",
+          "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Reasoning",
+          "summary": "This paper formulates evaluator-guided test-time reasoning as a resource allocation problem using a compute-aware three-action controller. By calibrating confidence estimates and incorporating uncertainty penalties, the method improves utility while reducing online compute costs.",
           "keyPoints": [
-            "Evaluates agentic data science across 220 tasks to uncover methodological failures like data leakage.",
-            "Identifies a positive correlation between data leakage failures and predictive performance.",
-            "Shows that data science agents lack problem-solving creativity and domain knowledge compared to experts."
+            "Formulates step-by-step evaluator-guided reasoning as a compute-aware three-action control problem.",
+            "Learns and calibrates action-specific confidence estimates with uncertainty penalties.",
+            "Improves observed utility while reducing normalized online compute by roughly 16% to 30%."
           ]
         },
         "fr": {
-          "title": "Les échecs silencieux de la science des données agentique",
-          "summary": "Cette recherche évalue la science des données agentique au-delà de la précision, soulignant que de nombreux systèmes souffrent de défauts méthodologiques. L'analyse de 220 tâches révèle que les agents manquent de connaissances du domaine et de créativité.",
+          "title": "Expansion d'inférence calibrée en confiance pour le raisonnement guidé",
+          "summary": "Cet article formule le raisonnement guidé à l'inférence comme un problème d'allocation de ressources via un contrôleur à trois actions conscient du calcul. En calibrant la confiance, la méthode améliore l'utilité tout en réduisant les coûts de calcul.",
           "keyPoints": [
-            "Évalue la science des données agentique sur 220 tâches pour détecter des failles comme la fuite de données.",
-            "Identifie une corrélation positive entre les échecs de fuite de données et la performance prédictive.",
-            "Montre que les agents manquent de créativité et de connaissances sectorielles par rapport aux experts."
+            "Formule le raisonnement guidé comme un problème de contrôle à trois actions.",
+            "Apprend et calibre des estimations de confiance spécifiques avec des pénalités d'incertitude.",
+            "Améliore l'utilité observée tout en réduisant le calcul en ligne d'environ 16 % à 30 %."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-004cd593adabcd",
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "summary": "SentinelOne utilizes OpenAI Daybreak to reduce the time required for malware analysis from weeks down to hours, significantly increasing their capacity to investigate threats.",
-      "keyPoints": [
-        "Partnered with OpenAI Daybreak for security workflows.",
-        "Reduces malware analysis duration from weeks to hours.",
-        "Increases capacity to investigate a higher volume of threats."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/sentinelone",
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SentinelOne cuts malware analysis from weeks to hours",
-          "summary": "SentinelOne utilizes OpenAI Daybreak to reduce the time required for malware analysis from weeks down to hours, significantly increasing their capacity to investigate threats.",
-          "keyPoints": [
-            "Partnered with OpenAI Daybreak for security workflows.",
-            "Reduces malware analysis duration from weeks to hours.",
-            "Increases capacity to investigate a higher volume of threats."
-          ]
-        },
-        "fr": {
-          "title": "SentinelOne réduit l'analyse des logiciels malveillants de plusieurs semaines à quelques heures",
-          "summary": "SentinelOne utilise OpenAI Daybreak pour réduire le temps d'analyse des logiciels malveillants de plusieurs semaines à quelques heures, augmentant ainsi sa capacité d'investigation.",
-          "keyPoints": [
-            "Utilise OpenAI Daybreak pour les flux de travail de sécurité.",
-            "Réduit la durée d'analyse des logiciels malveillants de semaines à des heures.",
-            "Accroît la capacité à enquêter sur un plus grand nombre de menaces."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6d32cf3f2a6a67",
-      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
-      "summary": "ClawLoop is a self-improving framework for harness-based agents that operates without an external teacher model. It combines Task Synthesis, Training, and Diagnosis and Feedback into a continuous cycle, demonstrating performance gains across multiple benchmarks.",
-      "keyPoints": [
-        "Introduces ClawLoop, a self-improving training loop for harness-based agents without external teachers.",
-        "Comprises Task Synthesis, Training, and Diagnosis and Feedback phases.",
-        "Yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14118",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
-          "summary": "ClawLoop is a self-improving framework for harness-based agents that operates without an external teacher model. It combines Task Synthesis, Training, and Diagnosis and Feedback into a continuous cycle, demonstrating performance gains across multiple benchmarks.",
-          "keyPoints": [
-            "Introduces ClawLoop, a self-improving training loop for harness-based agents without external teachers.",
-            "Comprises Task Synthesis, Training, and Diagnosis and Feedback phases.",
-            "Yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench."
-          ]
-        },
-        "fr": {
-          "title": "ClawLoop : agents auto-améliorés via une boucle d'entraînement native",
-          "summary": "ClawLoop est un cadre d'auto-amélioration pour les agents fonctionnant sans modèle enseignant externe. Il associe la synthèse des tâches, l'entraînement, le diagnostic et le retour d'information en un cycle continu.",
-          "keyPoints": [
-            "Présente ClawLoop, une boucle d'entraînement auto-améliorée sans enseignant externe.",
-            "Combine les phases de synthèse de tâches, d'entraînement, de diagnostic et de rétroaction.",
-            "Apporte des améliorations constantes sur SkillsBench, Claw-Eval-Live et ClawGym-Bench."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a8b8c31de89814",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "summary": "Third Moment Research leverages GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak to build cybersecurity agents capable of focusing for multiple days and continuously improving with use.",
-      "keyPoints": [
-        "Runs 10,000 simultaneous agents for over 36 hours.",
-        "Uses GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak.",
-        "Builds agents that maintain focus over days and improve over time."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/third-moment-research",
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-          "summary": "Third Moment Research leverages GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak to build cybersecurity agents capable of focusing for multiple days and continuously improving with use.",
-          "keyPoints": [
-            "Runs 10,000 simultaneous agents for over 36 hours.",
-            "Uses GPT-6 Astra, GPT-6.1 Sol, Codex, and Daybreak.",
-            "Builds agents that maintain focus over days and improve over time."
-          ]
-        },
-        "fr": {
-          "title": "Comment Third Moment Research fait tourner 10 000 agents pendant plus de 36 heures",
-          "summary": "Third Moment Research s'appuie sur GPT-6 Astra, GPT-6.1 Sol, Codex et Daybreak pour créer des agents de cybersécurité capables de se concentrer pendant des jours et de s'améliorer.",
-          "keyPoints": [
-            "Exécute 10 000 agents simultanés pendant plus de 36 heures.",
-            "Utilise GPT-6 Astra, GPT-6.1 Sol, Codex et Daybreak.",
-            "Développe des agents capables de maintenir leur concentration sur plusieurs jours."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c4eeefc4e76f2f",
-      "title": "Correction Training for Diffusion Models",
-      "summary": "This paper introduces a correction step for diffusion models to mitigate error accumulation and exposure bias during iterative sampling. By training a corrector on base model predictions, the method improves sample quality and matches classifier-free guidance performance.",
-      "keyPoints": [
-        "Introduces a correction step to bridge the training-inference gap in diffusion models.",
-        "Iteratively refines clean-sample predictions to prevent early artifacts.",
-        "Achieves performance competitive with classifier-free guidance while enhancing diversity."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14136",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Correction Training for Diffusion Models",
-          "summary": "This paper introduces a correction step for diffusion models to mitigate error accumulation and exposure bias during iterative sampling. By training a corrector on base model predictions, the method improves sample quality and matches classifier-free guidance performance.",
-          "keyPoints": [
-            "Introduces a correction step to bridge the training-inference gap in diffusion models.",
-            "Iteratively refines clean-sample predictions to prevent early artifacts.",
-            "Achieves performance competitive with classifier-free guidance while enhancing diversity."
-          ]
-        },
-        "fr": {
-          "title": "Entraînement par correction pour les modèles de diffusion",
-          "summary": "Cet article introduit une étape de correction pour les modèles de diffusion afin d'atténuer l'accumulation d'erreurs lors de l'échantillonnage itératif. En entraînant un correcteur sur les prédictions du modèle de base, la méthode améliore la qualité.",
-          "keyPoints": [
-            "Introduit une étape de correction pour combler l'écart entre entraînement et inférence.",
-            "Affine de manière itérative les prédictions pour éviter les artefacts précoces.",
-            "Atteint des performances compétitives par rapport au guidage sans classificateur tout en augmentant la diversité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-94ee28b93f9d2d",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "summary": "Block partners with OpenAI to develop advanced security tools, enabling its security team to investigate potential threats much faster and automatically propose security patches within minutes.",
-      "keyPoints": [
-        "Block builds AI-powered security systems using OpenAI technology.",
-        "Enables faster threat investigation for security teams.",
-        "Automatically proposes security patches in minutes."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/block-ai-powered-security",
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How Block is building AI-powered security with OpenAI technology",
-          "summary": "Block partners with OpenAI to develop advanced security tools, enabling its security team to investigate potential threats much faster and automatically propose security patches within minutes.",
-          "keyPoints": [
-            "Block builds AI-powered security systems using OpenAI technology.",
-            "Enables faster threat investigation for security teams.",
-            "Automatically proposes security patches in minutes."
-          ]
-        },
-        "fr": {
-          "title": "Comment Block intègre la sécurité pilotée par l'IA avec OpenAI",
-          "summary": "Block s'associe à OpenAI pour développer des outils de sécurité avancés, permettant à son équipe d'enquêter plus rapidement sur les menaces et de proposer des correctifs en quelques minutes.",
-          "keyPoints": [
-            "Block conçoit une sécurité alimentée par l'IA via la technologie OpenAI.",
-            "Permient aux équipes de sécurité d'enquêter plus rapidement sur les menaces.",
-            "Propose automatiquement des correctifs de sécurité en quelques minutes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-32b179101ee9f4",
-      "title": "Long-Horizon-Terminal-Bench 2.0: Measuring Sustained Agent Progress",
-      "summary": "LHTB 2.0 expands the original benchmark to 77 tasks across 13 domains, extending evaluation horizons to three hours and tracking dense progress ladders. Testing 15 frontier models shows that outcome-only evaluations miss substantial intermediate progress.",
-      "keyPoints": [
-        "Introduces Long-Horizon-Terminal-Bench 2.0 containing 77 tasks across 13 domains.",
-        "Extends evaluation horizons to 3 hours with checkpoints every 30 minutes.",
-        "Demonstrates that dense ladder scores reveal intermediate progress hidden by binary checks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14146",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Long-Horizon-Terminal-Bench 2.0: Measuring Sustained Agent Progress",
-          "summary": "LHTB 2.0 expands the original benchmark to 77 tasks across 13 domains, extending evaluation horizons to three hours and tracking dense progress ladders. Testing 15 frontier models shows that outcome-only evaluations miss substantial intermediate progress.",
-          "keyPoints": [
-            "Introduces Long-Horizon-Terminal-Bench 2.0 containing 77 tasks across 13 domains.",
-            "Extends evaluation horizons to 3 hours with checkpoints every 30 minutes.",
-            "Demonstrates that dense ladder scores reveal intermediate progress hidden by binary checks."
-          ]
-        },
-        "fr": {
-          "title": "Long-Horizon-Terminal-Bench 2.0 : mesurer les progrès continus des agents",
-          "summary": "LHTB 2.0 étend le banc d'essai original à 77 tâches sur 13 domaines, portant l'horizon d'évaluation à trois heures et suivant des échelles de progression denses. L'évaluation de 15 modèles de frontières montre l'importance des progrès intermédiaires.",
-          "keyPoints": [
-            "Présente LHTB 2.0 contenant 77 tâches réparties sur 13 domaines.",
-            "Étend l'horizon d'évaluation à 3 heures avec des points de contrôle toutes les 30 minutes.",
-            "Montre que les scores denses révèlent des progrès intermédiaires ignorés par les tests binaires."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-08d6ee7f7a96b8",
-      "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
-      "summary": "VETNET establishes an ecosystem of live benchmark datasets and evaluation frameworks to accelerate AI development in veterinary medicine and animal science through multi-institutional collaboration.",
-      "keyPoints": [
-        "Introduces VETNET for AI-driven veterinary innovation and animal science.",
-        "Provides live benchmark datasets and evaluation frameworks.",
-        "Fosters multi-institutional collaboration across academic and non-academic sectors."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.14149",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
-          "summary": "VETNET establishes an ecosystem of live benchmark datasets and evaluation frameworks to accelerate AI development in veterinary medicine and animal science through multi-institutional collaboration.",
-          "keyPoints": [
-            "Introduces VETNET for AI-driven veterinary innovation and animal science.",
-            "Provides live benchmark datasets and evaluation frameworks.",
-            "Fosters multi-institutional collaboration across academic and non-academic sectors."
-          ]
-        },
-        "fr": {
-          "title": "VETNET : Assemblage de jeux de données de référence pour l'innovation vétérinaire",
-          "summary": "VETNET établit un écosystème de jeux de données de référence en direct pour accélérer l'innovation en médecine vétérinaire et en science animale grâce à une collaboration multi-institutionnelle.",
-          "keyPoints": [
-            "Présente VETNET pour l'innovation vétérinaire pilotée par l'IA et la science animale.",
-            "Fournit des ensembles de données de référence en direct et des cadres d'évaluation.",
-            "Encourage la collaboration multi-institutionnelle entre les secteurs académiques et non académiques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 1372,
+    "itemsCollected": 476,
     "itemsPublished": 20,
-    "newItems": 10,
+    "newItems": 20,
     "candidates": 20,
     "batches": 2,
     "batchSize": 10,
