@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-16T04:35:10.669Z",
+  "generatedAt": "2026-10-16T16:42:08.538Z",
   "items": [
     {
-      "id": "feed-a828bd7f7dff23",
-      "title": "Evaluating and Teaching Agents Under a Live Clock",
-      "summary": "The paper introduces RealtimeBench with 180 tasks to evaluate LLM agents in continuously running environments where actions take time. It also proposes TORSI, a two-timescale self-improvement method where a slow teacher writes reusable instructions for a fast student, raising Jev's average test score from 13.51 to 24.19.",
+      "id": "feed-b1dcae23eaacca",
+      "title": "The Skill-Policy Co-evolution Trap in Self-Improving Agents",
+      "summary": "This paper investigates skill-policy co-evolution in self-improving agents, revealing that cooperative acceptance rules make policies fragile to skill drift after deployment. To address this blind spot, the authors introduce the CO-evolution Drift Audit (CODA) protocol, showing that worst-case success drops significantly below peak performance.",
       "keyPoints": [
-        "RealtimeBench evaluates agents across 180 tasks while games run continuously.",
-        "TORSI uses a slow teacher to train a fast student via reusable instructions.",
-        "Tests show Jev's average score increased from 13.51 to 24.19 across six game types."
+        "Co-evolution ties a policy's competence to the specific bank it trained with.",
+        "Sensitivity to skill drift increases as co-evolution training progresses.",
+        "CODA introduces new metrics like consistency and resistance rates under drift."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20665",
+      "sourceUrl": "https://arxiv.org/abs/2610.20845",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Evaluating and Teaching Agents Under a Live Clock",
-          "summary": "The paper introduces RealtimeBench with 180 tasks to evaluate LLM agents in continuously running environments where actions take time. It also proposes TORSI, a two-timescale self-improvement method where a slow teacher writes reusable instructions for a fast student, raising Jev's average test score from 13.51 to 24.19.",
+          "title": "The Skill-Policy Co-evolution Trap in Self-Improving Agents",
+          "summary": "This paper investigates skill-policy co-evolution in self-improving agents, revealing that cooperative acceptance rules make policies fragile to skill drift after deployment. To address this blind spot, the authors introduce the CO-evolution Drift Audit (CODA) protocol, showing that worst-case success drops significantly below peak performance.",
           "keyPoints": [
-            "RealtimeBench evaluates agents across 180 tasks while games run continuously.",
-            "TORSI uses a slow teacher to train a fast student via reusable instructions.",
-            "Tests show Jev's average score increased from 13.51 to 24.19 across six game types."
+            "Co-evolution ties a policy's competence to the specific bank it trained with.",
+            "Sensitivity to skill drift increases as co-evolution training progresses.",
+            "CODA introduces new metrics like consistency and resistance rates under drift."
           ]
         },
         "fr": {
-          "title": "Évaluer et former des agents sous horloge en direct",
-          "summary": "L'article présente RealtimeBench avec 180 tâches pour évaluer des agents LLM dans des environnements continus. Il propose également TORSI, une méthode d'auto-amélioration où un enseignant lent écrit des instructions pour un étudiant rapide, augmentant le score de Jev de 13,51 à 24,19.",
+          "title": "Le piège de la co-évolution politique-compétence des agents",
+          "summary": "Cet article étudie la co-évolution des compétences et des politiques chez les agents auto-améliorants, révélant que les règles d'acceptation coopérative rendent les politiques fragiles face à la dérive des compétences. Pour combler cette lacune, les auteurs introduisent le protocole CODA.",
           "keyPoints": [
-            "RealtimeBench évalue les agents sur 180 tâches en cours d'exécution continue.",
-            "TORSI utilise un enseignant lent pour former un étudiant rapide avec des instructions.",
-            "Le score moyen de Jev est passé de 13,51 à 24,19 sur six types de jeux."
+            "La co-évolution lie la compétence d'une politique à sa banque d'entraînement.",
+            "La sensibilité à la dérive des compétences croît avec l'entraînement.",
+            "CODA introduit de nouvelles métriques de robustesse face à la dérive."
           ]
         }
       },
@@ -41,36 +41,36 @@
       }
     },
     {
-      "id": "feed-32165ee6af8945",
-      "title": "Bringing GPT-Rosalind to Academic Labs",
-      "summary": "OpenAI introduces the Rosalind Academic Plan, which provides eligible academic research laboratories with sponsored access to GPT-Rosalind and specialized tools to advance life sciences research.",
+      "id": "feed-956897892025dc",
+      "title": "Anticipatory Commonsense Reasoning for Moving Objects with ASP",
+      "summary": "The authors present a declarative framework for anticipatory reasoning regarding interactive motion in dynamic environments. Combining Answer Set Programming, semantically guided predictions, and energy-based optimization, the method generates inspectable event-level hypotheses evaluated on the Argoverse 2 benchmark.",
       "keyPoints": [
-        "Launch of the Rosalind Academic Plan by OpenAI.",
-        "Provides sponsored access to GPT-Rosalind for eligible academic labs.",
-        "Aims to advance research in the life sciences."
+        "Integrates an ASP model for interactive motion trajectories.",
+        "Uses energy-based optimization to evaluate and filter anticipations.",
+        "Evaluated on Argoverse 2 with explicit event-level hypotheses."
       ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.20867",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Bringing GPT-Rosalind to Academic Labs",
-          "summary": "OpenAI introduces the Rosalind Academic Plan, which provides eligible academic research laboratories with sponsored access to GPT-Rosalind and specialized tools to advance life sciences research.",
+          "title": "Anticipatory Commonsense Reasoning for Moving Objects with ASP",
+          "summary": "The authors present a declarative framework for anticipatory reasoning regarding interactive motion in dynamic environments. Combining Answer Set Programming, semantically guided predictions, and energy-based optimization, the method generates inspectable event-level hypotheses evaluated on the Argoverse 2 benchmark.",
           "keyPoints": [
-            "Launch of the Rosalind Academic Plan by OpenAI.",
-            "Provides sponsored access to GPT-Rosalind for eligible academic labs.",
-            "Aims to advance research in the life sciences."
+            "Integrates an ASP model for interactive motion trajectories.",
+            "Uses energy-based optimization to evaluate and filter anticipations.",
+            "Evaluated on Argoverse 2 with explicit event-level hypotheses."
           ]
         },
         "fr": {
-          "title": "Amener GPT-Rosalind dans les laboratoires académiques",
-          "summary": "OpenAI présente le plan académique Rosalind, offrant aux laboratoires de recherche éligibles un accès parrainé à GPT-Rosalind et à des outils pour faire progresser la recherche en sciences de la vie.",
+          "title": "Raisonnement anticipatif de bon sens pour objets en mouvement",
+          "summary": "Les auteurs présentent un cadre déclaratif pour le raisonnement anticipatif sur le mouvement interactif dans des environnements dynamiques. Combinant la programmation par ensembles de réponses et l'optimisation, la méthode génère des hypothèses inspectables.",
           "keyPoints": [
-            "Lancement du plan académique Rosalind par OpenAI.",
-            "Fournit un accès parrainé à GPT-Rosalind pour les laboratoires éligibles.",
-            "Conçu pour faire progresser la recherche en sciences de la vie."
+            "Intègre un modèle ASP pour les trajectoires de mouvement interactif.",
+            "Utilise l'optimisation énergétique pour filtrer les anticipations.",
+            "Évalué sur le benchmark Argoverse 2 avec des hypothèses explicites."
           ]
         }
       },
@@ -80,75 +80,114 @@
       }
     },
     {
-      "id": "feed-ad09b0946a60b7",
-      "title": "Accelerating Antimicrobial Peptide Search with Antigravity",
-      "summary": "Google DeepMind introduces the use of Google Antigravity for Science to accelerate the discovery and search process for novel antimicrobial peptides.",
+      "id": "feed-2f6017e5bedc29",
+      "title": "Multi-Tiered AI Accessibility Model (MAIAM) for Frontier Safety",
+      "summary": "This paper proposes the Multi-Tiered AI Accessibility Model (MAIAM), which sorts AI access by purpose, safety, and capability rather than release artifacts. By combining MAIAM with the SAFE AI Operating Point, the framework establishes capability boundaries and tiered access regimes administered by regulatory bodies.",
       "keyPoints": [
-        "Focuses on accelerating the search for novel antimicrobial peptides.",
-        "Utilizes Google Antigravity for Science.",
-        "Announced via the Google DeepMind Blog."
+        "Proposes sorting AI access into tiers based on purpose, safety, and capability.",
+        "Argues publishing frontier weights forfeits post-release safety levers.",
+        "Combines a Capability Boundary with an Accessibility Boundary."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.20921",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Multi-Tiered AI Accessibility Model (MAIAM) for Frontier Safety",
+          "summary": "This paper proposes the Multi-Tiered AI Accessibility Model (MAIAM), which sorts AI access by purpose, safety, and capability rather than release artifacts. By combining MAIAM with the SAFE AI Operating Point, the framework establishes capability boundaries and tiered access regimes administered by regulatory bodies.",
+          "keyPoints": [
+            "Proposes sorting AI access into tiers based on purpose, safety, and capability.",
+            "Argues publishing frontier weights forfeits post-release safety levers.",
+            "Combines a Capability Boundary with an Accessibility Boundary."
+          ]
+        },
+        "fr": {
+          "title": "Modèle d'accessibilité de l'IA à plusieurs niveaux pour la sécurité",
+          "summary": "Cet article propose le modèle MAIAM, qui trie l'accès à l'IA selon l'objectif, la sécurité et les capacités plutôt que par artefacts de publication. En combinant MAIAM et le point de fonctionnement SAFE AI, le cadre établit des limites de capacités.",
+          "keyPoints": [
+            "Classe l'accès à l'IA en plusieurs niveaux selon le risque et l'objectif.",
+            "Affirme que la publication de poids frontières supprime les leviers de sécurité.",
+            "Associe une limite de capacité à un régime d'accès gradué."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0b47abe4fe148a",
+      "title": "Defining and Generating Compositional Structure via Information Theory",
+      "summary": "The authors formalize compositional structure using algorithmic information theory, defining it as emerging when parts reveal shared structure not captured separately. Using tractable approximations, they optimize strings and images to exhibit hierarchical reuse and part-whole organization.",
+      "keyPoints": [
+        "Formalizes compositionality using algorithmic information theory.",
+        "Identifies structure when parts reveal shared information together.",
+        "Optimizes strings and images to exhibit hierarchical reuse."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.20922",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Defining and Generating Compositional Structure via Information Theory",
+          "summary": "The authors formalize compositional structure using algorithmic information theory, defining it as emerging when parts reveal shared structure not captured separately. Using tractable approximations, they optimize strings and images to exhibit hierarchical reuse and part-whole organization.",
+          "keyPoints": [
+            "Formalizes compositionality using algorithmic information theory.",
+            "Identifies structure when parts reveal shared information together.",
+            "Optimizes strings and images to exhibit hierarchical reuse."
+          ]
+        },
+        "fr": {
+          "title": "Définition et génération de structures compositionnelles",
+          "summary": "Les auteurs formalisent la structure compositionnelle à l'aide de la théorie de l'information algorithmique. En utilisant des approximations, ils optimisent des chaînes et des images pour présenter une réutilisation hiérarchique.",
+          "keyPoints": [
+            "Formalise la compositionnalité par la théorie de l'information.",
+            "Identifie la structure lorsque les parties révèlent une information partagée.",
+            "Optimise des chaînes et des images pour afficher une organisation hiérarchique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-62e687109ce559",
+      "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
+      "summary": "This paper introduces SkillNEO, a non-elitist evolutionary optimization method for agent skills that allows lower-reward versions to receive further edits. By comparing related versions, SkillNEO preserves working steps and raises model performance across eight domains on SkillsBench.",
+      "keyPoints": [
+        "Introduces SkillNEO for non-elitist evolutionary optimization of agent skills.",
+        "Allows lower-reward versions to receive further edits to prevent discarding progress.",
+        "Raises GPT-5.4 Mini's average reward significantly across SkillsBench tasks."
       ],
       "category": "Outils",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "publishedAt": "2026-10-15T16:08:03.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/cctih6oTmgTVb0qWHy2X0TLKnI9oZLOvQJKeiOFwwW29DCQCtketIeWf0CJQSrgwMvkxF_FpgBbgEhgBqjekmTsqmndhZ2_CzTlOeV1oNGh7LCNbog=w1440",
-      "translations": {
-        "en": {
-          "title": "Accelerating Antimicrobial Peptide Search with Antigravity",
-          "summary": "Google DeepMind introduces the use of Google Antigravity for Science to accelerate the discovery and search process for novel antimicrobial peptides.",
-          "keyPoints": [
-            "Focuses on accelerating the search for novel antimicrobial peptides.",
-            "Utilizes Google Antigravity for Science.",
-            "Announced via the Google DeepMind Blog."
-          ]
-        },
-        "fr": {
-          "title": "Accélération de la recherche de peptides antimicrobiens",
-          "summary": "Google DeepMind présente l'utilisation de Google Antigravity for Science pour accélérer la découverte et la recherche de nouveaux peptides antimicrobiens.",
-          "keyPoints": [
-            "Se concentre sur l'accélération de la recherche de nouveaux peptides antimicrobiens.",
-            "Utilise Google Antigravity for Science.",
-            "Annoncé sur le blog de Google DeepMind."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-64ab9f94b7d65c",
-      "title": "Evaluating Model Capabilities After Benchmark Saturation",
-      "summary": "This paper investigates whether full transcripts from saturated benchmarks can still predict model capabilities. The authors find that pairwise judging performs best among evaluated protocols, reducing prediction error by 5.3 times compared to using benchmark scores alone.",
-      "keyPoints": [
-        "Saturated benchmarks retain capability information within their full task transcripts.",
-        "Pairwise judging reduces prediction error by 5.3 times over baseline scores.",
-        "Predictive power can be limited by distribution shifts, such as early 2025 reasoning models."
-      ],
-      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20667",
+      "sourceUrl": "https://arxiv.org/abs/2610.20926",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Evaluating Model Capabilities After Benchmark Saturation",
-          "summary": "This paper investigates whether full transcripts from saturated benchmarks can still predict model capabilities. The authors find that pairwise judging performs best among evaluated protocols, reducing prediction error by 5.3 times compared to using benchmark scores alone.",
+          "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
+          "summary": "This paper introduces SkillNEO, a non-elitist evolutionary optimization method for agent skills that allows lower-reward versions to receive further edits. By comparing related versions, SkillNEO preserves working steps and raises model performance across eight domains on SkillsBench.",
           "keyPoints": [
-            "Saturated benchmarks retain capability information within their full task transcripts.",
-            "Pairwise judging reduces prediction error by 5.3 times over baseline scores.",
-            "Predictive power can be limited by distribution shifts, such as early 2025 reasoning models."
+            "Introduces SkillNEO for non-elitist evolutionary optimization of agent skills.",
+            "Allows lower-reward versions to receive further edits to prevent discarding progress.",
+            "Raises GPT-5.4 Mini's average reward significantly across SkillsBench tasks."
           ]
         },
         "fr": {
-          "title": "Évaluation des capacités après la saturation des benchmarks",
-          "summary": "Cet article examine si les transcriptions complètes de benchmarks saturés peuvent prédire les capacités des modèles. Les auteurs constatent que le jugement par paires réduit l'erreur de prédiction par rapport aux scores seuls.",
+          "title": "SkillNEO : Optimisation évolutionniste non élitiste des compétences",
+          "summary": "Cet article présente SkillNEO, une méthode d'optimisation évolutionniste non élitiste pour les compétences d'agents. En comparant des versions apparentées, SkillNEO préserve les étapes fonctionnelles et améliore les performances sur SkillsBench.",
           "keyPoints": [
-            "Les benchmarks saturés conservent des informations dans leurs transcriptions de tâches.",
-            "Le jugement par paires réduit l'erreur de prédiction par rapport au score de base.",
-            "La puissance prédictive peut être limitée par des décalages de distribution."
+            "Introduit SkillNEO pour l'optimisation non élitiste des compétences.",
+            "Permet aux versions à faible récompense de recevoir de nouvelles modifications.",
+            "Améliore considérablement les performances moyennes sur SkillsBench."
           ]
         }
       },
@@ -158,75 +197,36 @@
       }
     },
     {
-      "id": "feed-a60f4a701f887a",
-      "title": "Teaching Students to Think and Learn Through Questions",
-      "summary": "In celebration of Teachers' Day, OpenAI highlights AI for Educators in Brazilian Portuguese, demonstrating how Study Mode helps teachers support active and step-by-step student learning.",
+      "id": "feed-0e0776f86cfc7f",
+      "title": "RAC: A Relational Agent Contract for Constraint-Governed Tasks",
+      "summary": "The authors introduce RAC, a harness-agnostic contract for the action and feedback layer of engineering agents. By specifying semantic actions and delegating mechanically derivable outputs to specialized tools, RAC improves reliability in PCB placement and job-shop scheduling.",
       "keyPoints": [
-        "Celebrates Teachers' Day with AI for Educators in Brazilian Portuguese.",
-        "Introduces Study Mode to support active student learning.",
-        "Helps teachers guide step-by-step learning processes."
+        "Introduces RAC as a harness-agnostic contract for engineering agents.",
+        "Separates semantic decisions from precise tool-based realization.",
+        "Achieves high clean-pass rates on PCB placement and scheduling tasks."
       ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "publishedAt": "2026-10-15T13:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Teaching Students to Think and Learn Through Questions",
-          "summary": "In celebration of Teachers' Day, OpenAI highlights AI for Educators in Brazilian Portuguese, demonstrating how Study Mode helps teachers support active and step-by-step student learning.",
-          "keyPoints": [
-            "Celebrates Teachers' Day with AI for Educators in Brazilian Portuguese.",
-            "Introduces Study Mode to support active student learning.",
-            "Helps teachers guide step-by-step learning processes."
-          ]
-        },
-        "fr": {
-          "title": "Enseigner aux étudiants à penser et apprendre par les questions",
-          "summary": "Pour la Journée des enseignants, OpenAI met en avant l'IA pour les éducateurs en portugais brésilien, démontrant comment le mode d'étude aide les enseignants à soutenir l'apprentissage actif.",
-          "keyPoints": [
-            "Célèbre la Journée des enseignants avec l'IA pour les éducateurs en portugais brésilien.",
-            "Présente le mode d'étude pour soutenir l'apprentissage actif.",
-            "Aide les enseignants à guider l'apprentissage étape par étape."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b8fdb77fd6619c",
-      "title": "VISTA: Value-Informed Schedule Trimming for Discrete Diffusion",
-      "summary": "The paper introduces VISTA, a training-free method that automatically selects guided timesteps for reward-guided discrete diffusion under a fixed budget. Across tasks, VISTA outperforms hand-designed schedules and achieves a 5.35x speedup in toxic-text generation.",
-      "keyPoints": [
-        "VISTA automates sparse guidance selection for discrete diffusion models.",
-        "Optimizes an upper bound on path deviation using dynamic programming.",
-        "Achieves a 5.35x speedup in toxic-text generation while maintaining a 0.99 unique-toxic ratio."
-      ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20669",
+      "sourceUrl": "https://arxiv.org/abs/2610.20935",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "VISTA: Value-Informed Schedule Trimming for Discrete Diffusion",
-          "summary": "The paper introduces VISTA, a training-free method that automatically selects guided timesteps for reward-guided discrete diffusion under a fixed budget. Across tasks, VISTA outperforms hand-designed schedules and achieves a 5.35x speedup in toxic-text generation.",
+          "title": "RAC: A Relational Agent Contract for Constraint-Governed Tasks",
+          "summary": "The authors introduce RAC, a harness-agnostic contract for the action and feedback layer of engineering agents. By specifying semantic actions and delegating mechanically derivable outputs to specialized tools, RAC improves reliability in PCB placement and job-shop scheduling.",
           "keyPoints": [
-            "VISTA automates sparse guidance selection for discrete diffusion models.",
-            "Optimizes an upper bound on path deviation using dynamic programming.",
-            "Achieves a 5.35x speedup in toxic-text generation while maintaining a 0.99 unique-toxic ratio."
+            "Introduces RAC as a harness-agnostic contract for engineering agents.",
+            "Separates semantic decisions from precise tool-based realization.",
+            "Achieves high clean-pass rates on PCB placement and scheduling tasks."
           ]
         },
         "fr": {
-          "title": "VISTA : Réduction de calendrier pour la diffusion discrète",
-          "summary": "L'article présente VISTA, une méthode sans entraînement qui sélectionne automatiquement les pas de temps guidés pour la diffusion discrète. VISTA surpasse les planifications manuelles et offre une accélération de 5,35x.",
+          "title": "RAC : Un contrat d'agent relationnel pour les tâches contraintes",
+          "summary": "Les auteurs présentent RAC, un contrat indépendant du harnais pour la couche d'action des agents d'ingénierie. En séparant les décisions sémantiques de la réalisation technique, RAC améliore la fiabilité du placement de circuits et de l'ordonnancement.",
           "keyPoints": [
-            "VISTA automatise la sélection de guidage pour les modèles de diffusion discrète.",
-            "Optimise une borne supérieure de déviation de trajectoire par programmation dynamique.",
-            "Atteint une accélération de 5,35x sur la génération de textes toxiques."
+            "Introduit RAC comme contrat pour les agents d'ingénierie.",
+            "Sépare les décisions sémantiques de la réalisation par des outils spécialisés.",
+            "Atteint de taux de réussite élevés sur les tâches de placement de PCB."
           ]
         }
       },
@@ -236,75 +236,36 @@
       }
     },
     {
-      "id": "feed-94eadcab22c41e",
-      "title": "Sullivan & Cromwell Brings Legal Expertise to Agreement Review",
-      "summary": "In collaboration with OpenAI, law firm Sullivan & Cromwell developed Agreement Analyzer, a specialized artificial intelligence tool designed to identify potential issues in draft agreements.",
+      "id": "feed-783af372cbc4ac",
+      "title": "MAI-Gym: An Open Platform for GUI Agent Evaluation and RL Training",
+      "summary": "The authors introduce MAI-Gym, an open platform unifying GUI agent evaluation, data collection, and online RL training across mobile and computer environments. Training a 9B model on MAI-Gym achieves state-of-the-art open results and enables successful transfer from mocked apps to real-world environments.",
       "keyPoints": [
-        "Developed in collaboration between OpenAI and Sullivan & Cromwell.",
-        "Named Agreement Analyzer.",
-        "Designed to help identify issues in draft legal agreements."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/sullivan-cromwell",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Sullivan & Cromwell Brings Legal Expertise to Agreement Review",
-          "summary": "In collaboration with OpenAI, law firm Sullivan & Cromwell developed Agreement Analyzer, a specialized artificial intelligence tool designed to identify potential issues in draft agreements.",
-          "keyPoints": [
-            "Developed in collaboration between OpenAI and Sullivan & Cromwell.",
-            "Named Agreement Analyzer.",
-            "Designed to help identify issues in draft legal agreements."
-          ]
-        },
-        "fr": {
-          "title": "Sullivan & Cromwell intègre l'expertise juridique dans l'analyse",
-          "summary": "En collaboration avec OpenAI, le cabinet Sullivan & Cromwell a développé Agreement Analyzer, un outil d'IA conçu pour identifier les problèmes potentiels dans les projets d'accords.",
-          "keyPoints": [
-            "Développé en collaboration entre OpenAI et Sullivan & Cromwell.",
-            "Nommé Agreement Analyzer.",
-            "Conçu pour identifier les problèmes dans les projets d'accords."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-77ee249104a767",
-      "title": "AlphaDiana: Measurement System for Verifiable Reasoning Agents",
-      "summary": "The paper introduces AlphaDiana, a modular measurement system for evaluating LLM agents across datasets, environments, and scorers. Testing three open-source models and harnesses, the authors find that harnesses do not consistently improve reasoning accuracy.",
-      "keyPoints": [
-        "AlphaDiana is a modular measurement system for evaluating agent performance.",
-        "Evaluates three open-source models and harnesses on multiple benchmarks.",
-        "Finds that harnesses do not consistently improve task accuracy."
+        "Unifies GUI agent evaluation and RL training across environments.",
+        "Supports scaling up to 20,000 parallel environment instances.",
+        "Trains MAI-Gym-9B, achieving strong performance on MobileWorld and OSWorld."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20675",
+      "sourceUrl": "https://arxiv.org/abs/2610.20939",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "AlphaDiana: Measurement System for Verifiable Reasoning Agents",
-          "summary": "The paper introduces AlphaDiana, a modular measurement system for evaluating LLM agents across datasets, environments, and scorers. Testing three open-source models and harnesses, the authors find that harnesses do not consistently improve reasoning accuracy.",
+          "title": "MAI-Gym: An Open Platform for GUI Agent Evaluation and RL Training",
+          "summary": "The authors introduce MAI-Gym, an open platform unifying GUI agent evaluation, data collection, and online RL training across mobile and computer environments. Training a 9B model on MAI-Gym achieves state-of-the-art open results and enables successful transfer from mocked apps to real-world environments.",
           "keyPoints": [
-            "AlphaDiana is a modular measurement system for evaluating agent performance.",
-            "Evaluates three open-source models and harnesses on multiple benchmarks.",
-            "Finds that harnesses do not consistently improve task accuracy."
+            "Unifies GUI agent evaluation and RL training across environments.",
+            "Supports scaling up to 20,000 parallel environment instances.",
+            "Trains MAI-Gym-9B, achieving strong performance on MobileWorld and OSWorld."
           ]
         },
         "fr": {
-          "title": "AlphaDiana : Système de mesure pour agents de raisonnement",
-          "summary": "L'article présente AlphaDiana, un système de mesure modulaire pour évaluer les agents LLM. En testant plusieurs modèles et harnais open source, les auteurs constatent que les harnais n'améliorent pas systématiquement la précision.",
+          "title": "MAI-Gym : Une plateforme ouverte pour l'évaluation des agents GUI",
+          "summary": "Les auteurs présentent MAI-Gym, une plateforme ouverte unifiant l'évaluation des agents GUI, la collecte de données et l'apprentissage par renforcement en ligne. L'entraînement d'un modèle 9B permet d'atteindre des performances de pointe.",
           "keyPoints": [
-            "AlphaDiana est un système de mesure modulaire pour évaluer les performances des agents.",
-            "Évalue trois modèles et harnais open source sur plusieurs benchmarks.",
-            "Constate que les harnais n'améliorent pas de manière cohérente la précision."
+            "Unifie l'évaluation des agents d'interface et l'apprentissage par renforcement.",
+            "Prend en charge l'exécution de 20 000 instances d'environnements parallèles.",
+            "Entraîne MAI-Gym-9B avec de solides performances sur MobileWorld et OSWorld."
           ]
         }
       },
@@ -314,36 +275,36 @@
       }
     },
     {
-      "id": "feed-eda0ac52e268cc",
-      "title": "Phase-Separated Completeness Auditing in Verus",
-      "summary": "The paper demonstrates that correctness feedback can suppress evidence during specification-completeness auditing in Verus/Rust tasks. Independent no-feedback discovery more than doubles certified-witness yield relative to corrective-feedback loops.",
+      "id": "feed-f61e37e5153def",
+      "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+      "summary": "This paper presents LEV, a decision model that thinks deeper by rerunning its layers in a loop instead of generating text. By training all loop steps jointly, LEV allows on-demand depth adjustment per question, saving computation while outperforming dense models of similar latency.",
       "keyPoints": [
-        "Correctness feedback can erase evidence during specification-completeness auditing.",
-        "Evaluated on 12 Verus/Rust tasks across four model families.",
-        "No-feedback discovery more than doubles certified-witness yield (59.0% vs 27.1%)."
+        "Introduces LEV, using looped layers instead of token generation for deep thought.",
+        "Enables on-demand depth adjustment to save 15% to 24% of computation.",
+        "Outperforms dense non-looped models of similar latency on JevBench."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20676",
+      "sourceUrl": "https://arxiv.org/abs/2610.20951",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Phase-Separated Completeness Auditing in Verus",
-          "summary": "The paper demonstrates that correctness feedback can suppress evidence during specification-completeness auditing in Verus/Rust tasks. Independent no-feedback discovery more than doubles certified-witness yield relative to corrective-feedback loops.",
+          "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+          "summary": "This paper presents LEV, a decision model that thinks deeper by rerunning its layers in a loop instead of generating text. By training all loop steps jointly, LEV allows on-demand depth adjustment per question, saving computation while outperforming dense models of similar latency.",
           "keyPoints": [
-            "Correctness feedback can erase evidence during specification-completeness auditing.",
-            "Evaluated on 12 Verus/Rust tasks across four model families.",
-            "No-feedback discovery more than doubles certified-witness yield (59.0% vs 27.1%)."
+            "Introduces LEV, using looped layers instead of token generation for deep thought.",
+            "Enables on-demand depth adjustment to save 15% to 24% of computation.",
+            "Outperforms dense non-looped models of similar latency on JevBench."
           ]
         },
         "fr": {
-          "title": "Audit d'exhaustivité à phases séparées dans Verus",
-          "summary": "L'article démontre que les retours de correction peuvent supprimer des preuves lors de l'audit d'exhaustivité dans Verus/Rust. La découverte sans rétroaction double le rendement des témoins certifiés.",
+          "title": "LEV : Penser vite et profondément avec des modèles de décision bouclés",
+          "summary": "Cet article présente LEV, un modèle de décision qui approfondit sa réflexion en exécutant ses couches en boucle au lieu de générer du texte. En entraînant toutes les étapes en boucles conjointement, LEV permet un ajustement de la profondeur à la demande.",
           "keyPoints": [
-            "Les retours de correction peuvent effacer des preuves lors des audits.",
-            "Évalué sur 12 tâches Verus/Rust à travers quatre familles de modèles.",
-            "La découverte sans rétroaction plus que double le rendement des témoins certifiés."
+            "Introduit LEV, utilisant des couches bouclées au lieu de générer du texte.",
+            "Permet d'ajuster la profondeur à la demande pour économiser du calcul.",
+            "Surpasse les modèles denses non bouclés de latence similaire sur JevBench."
           ]
         }
       },
@@ -353,36 +314,36 @@
       }
     },
     {
-      "id": "feed-a61630d2e5679d",
-      "title": "Counterfactual Neighborhood Risk Fields for VLM Safety",
-      "summary": "The paper introduces Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework for selective vision-language model safety. CNRF achieves an 86.06-89.30% macro defense success rate across three VLMs while retaining benign task utility.",
+      "id": "feed-1bc24006a02e36",
+      "title": "StepSafe: Learning Timely Intervention with Context-Aware Safety",
+      "summary": "The authors propose StepSafe, a training framework for step-level timely intervention in agentic systems. Using prefix-level stage alignment and adaptive feedback self-distillation, StepSafe achieves state-of-the-art performance among open-source guardrails across five agent-safety benchmarks.",
       "keyPoints": [
-        "CNRF provides an evidence-grounded framework for selective VLM safety.",
-        "Constructs counterfactual pairs to establish risk directions and neighborhood support.",
-        "Achieves 86.06-89.30% macro defense success across three evaluated VLMs."
+        "Proposes a training framework for step-level timely intervention in agents.",
+        "Uses prefix-level stage alignment to credit decisions at their specific steps.",
+        "Achieves state-of-the-art performance among open-source guardrails."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20679",
+      "sourceUrl": "https://arxiv.org/abs/2610.20960",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Counterfactual Neighborhood Risk Fields for VLM Safety",
-          "summary": "The paper introduces Counterfactual Neighborhood Risk Fields (CNRF), an evidence-grounded framework for selective vision-language model safety. CNRF achieves an 86.06-89.30% macro defense success rate across three VLMs while retaining benign task utility.",
+          "title": "StepSafe: Learning Timely Intervention with Context-Aware Safety",
+          "summary": "The authors propose StepSafe, a training framework for step-level timely intervention in agentic systems. Using prefix-level stage alignment and adaptive feedback self-distillation, StepSafe achieves state-of-the-art performance among open-source guardrails across five agent-safety benchmarks.",
           "keyPoints": [
-            "CNRF provides an evidence-grounded framework for selective VLM safety.",
-            "Constructs counterfactual pairs to establish risk directions and neighborhood support.",
-            "Achieves 86.06-89.30% macro defense success across three evaluated VLMs."
+            "Proposes a training framework for step-level timely intervention in agents.",
+            "Uses prefix-level stage alignment to credit decisions at their specific steps.",
+            "Achieves state-of-the-art performance among open-source guardrails."
           ]
         },
         "fr": {
-          "title": "Champs de risque de voisinage contrefactuels pour la sécurité",
-          "summary": "L'article présente CNRF, un cadre fondé sur des preuves pour la sécurité sélective des modèles vision-langage. CNRF atteint un taux de succès de défense macro de 86,06 à 89,30 % tout en préservant l'utilité.",
+          "title": "StepSafe : Apprentissage d'une intervention opportune et sécurisée",
+          "summary": "Les auteurs proposent StepSafe, un cadre d'entraînement pour l'intervention opportune au niveau des étapes dans les systèmes d'agents. En utilisant l'alignement de préfixes et l'auto-distillation, StepSafe atteint des performances de pointe.",
           "keyPoints": [
-            "CNRF propose un cadre fondé sur des preuves pour la sécurité des VLM.",
-            "Construit des paires contrefactuelles pour établir des directions de risque.",
-            "Atteint 86,06 à 89,30 % de succès de défense macro sur trois VLM évalués."
+            "Propose un cadre d'entraînement pour l'intervention opportune des agents.",
+            "Utilise l'alignement au niveau des préfixes pour évaluer chaque décision.",
+            "Atteint les meilleures performances parmi les garde-fous open-source."
           ]
         }
       },
@@ -392,399 +353,438 @@
       }
     },
     {
-      "id": "feed-5d6ab34c3d75d5",
-      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-      "summary": "Researchers introduced IneqAgent, an agentic framework that combines LLM reasoning with symbolic computation for inequality proving in Lean 4. Using lemma-level Monte Carlo Tree Search and specialized backends, it achieves a 94.09% success rate on benchmarks and yields Lean-verified strengthenings of Dittert's conjecture.",
+      "id": "feed-9a3604c8101ed0",
+      "title": "MSP: Modality Self-Play for Training Multimodal LLMs",
+      "summary": "This paper introduces Modality Self-Play (MSP), a training framework for multimodal foundation models using proxy-mediated modality composition. By utilizing anchor-supporting proxy text descriptions instead of paired non-text data, MSP enables zero-shot cross-modal reasoning.",
       "keyPoints": [
-        "Combines LLM reasoning with symbolic computation backends like sum-of-squares and Bernstein.",
-        "Solves 175 of 186 benchmark problems (94.09%) using DeepSeek-V4-Flash.",
-        "Produces Lean-verified strengthenings of Dittert's conjecture and certifies the Holens-Djokovic inequality."
+        "Introduces Modality Self-Play (MSP) for multimodal models without paired cross-modal data.",
+        "Uses anchor-supporting proxy textual descriptions as semantic bridges.",
+        "Enables zero-shot cross-modal composition and reasoning at inference time."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20681",
+      "sourceUrl": "https://arxiv.org/abs/2610.20965",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-          "summary": "Researchers introduced IneqAgent, an agentic framework that combines LLM reasoning with symbolic computation for inequality proving in Lean 4. Using lemma-level Monte Carlo Tree Search and specialized backends, it achieves a 94.09% success rate on benchmarks and yields Lean-verified strengthenings of Dittert's conjecture.",
+          "title": "MSP: Modality Self-Play for Training Multimodal LLMs",
+          "summary": "This paper introduces Modality Self-Play (MSP), a training framework for multimodal foundation models using proxy-mediated modality composition. By utilizing anchor-supporting proxy text descriptions instead of paired non-text data, MSP enables zero-shot cross-modal reasoning.",
           "keyPoints": [
-            "Combines LLM reasoning with symbolic computation backends like sum-of-squares and Bernstein.",
-            "Solves 175 of 186 benchmark problems (94.09%) using DeepSeek-V4-Flash.",
-            "Produces Lean-verified strengthenings of Dittert's conjecture and certifies the Holens-Djokovic inequality."
+            "Introduces Modality Self-Play (MSP) for multimodal models without paired cross-modal data.",
+            "Uses anchor-supporting proxy textual descriptions as semantic bridges.",
+            "Enables zero-shot cross-modal composition and reasoning at inference time."
           ]
         },
         "fr": {
-          "title": "IneqAgent : Preuve d'inégalités par agents dans Lean avec calcul symbolique",
-          "summary": "Des chercheurs ont présenté IneqAgent, un cadre d'agents combinant le raisonnement par grand modèle de langage et le calcul symbolique pour prouver des inégalités dans Lean 4. Utilisant une recherche dans l'arbre de Monte Carlo au niveau des lemmes, il atteint un taux de réussite de 94,09 %.",
+          "title": "MSP : Auto-jeu de modalité pour l'entraînement de LLM multimodaux",
+          "summary": "Cet article présente Modality Self-Play (MSP), un cadre d'entraînement pour les modèles multimodaux utilisant une composition de modalités médiée par proxy. En utilisant des descriptions textuelles proxy, MSP permet un raisonnement croisé zero-shot.",
           "keyPoints": [
-            "Combine le raisonnement des LLM avec des moteurs de calcul symbolique.",
-            "Résout 175 problèmes sur 186 avec DeepSeek-V4-Flash.",
-            "Permet d'obtenir des renforcements vérifiés par Lean de la conjecture de Dittert."
+            "Introduit MSP pour les modèles multimodaux sans données appariées.",
+            "Utilise des descriptions textuelles proxy comme ponts sémantiques.",
+            "Permet une composition et un raisonnement multimodaux zero-shot."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-91832747d64f65",
-      "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
-      "summary": "The paper proposes L2G-SR, a framework for LLM-based symbolic regression that guides equation searches with a learned structural verifier. Utilizing tree edit distance to account for alternative forms, the method achieves state-of-the-art numerical fit and equation-level accuracy on LLM-SRBench.",
+      "id": "feed-b418ac75f0150a",
+      "title": "Deep Reinforcement Learning for HPC Job Scheduling",
+      "summary": "This study evaluates six Deep Reinforcement Learning (DRL) treatments against heuristics and a masked random control across Slurm workload traces. While unmasked treatments were truncated, MaskablePPO improved metrics on the heterogeneous trace, with waiting times comparable to heuristics and lower maximum bounded slowdown than LCFS.",
       "keyPoints": [
-        "Introduces L2G-SR, integrating a learned structural verifier into symbolic regression.",
-        "Employs tree edit distance to account for commutative operators and expression forms.",
-        "Achieves state-of-the-art numerical fit and equation-level accuracy on LLM-SRBench."
+        "Six DRL treatments and masked random controls were tested across homogeneous and heterogeneous Slurm workloads.",
+        "MaskablePPO improved metrics on the heterogeneous trace compared to controls, with lower maximum bounded slowdown than LCFS.",
+        "Findings highlight the importance of including masked random controls when assessing learned scheduling selection."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20685",
+      "sourceUrl": "https://arxiv.org/abs/2610.21008",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
-          "summary": "The paper proposes L2G-SR, a framework for LLM-based symbolic regression that guides equation searches with a learned structural verifier. Utilizing tree edit distance to account for alternative forms, the method achieves state-of-the-art numerical fit and equation-level accuracy on LLM-SRBench.",
+          "title": "Deep Reinforcement Learning for HPC Job Scheduling",
+          "summary": "This study evaluates six Deep Reinforcement Learning (DRL) treatments against heuristics and a masked random control across Slurm workload traces. While unmasked treatments were truncated, MaskablePPO improved metrics on the heterogeneous trace, with waiting times comparable to heuristics and lower maximum bounded slowdown than LCFS.",
           "keyPoints": [
-            "Introduces L2G-SR, integrating a learned structural verifier into symbolic regression.",
-            "Employs tree edit distance to account for commutative operators and expression forms.",
-            "Achieves state-of-the-art numerical fit and equation-level accuracy on LLM-SRBench."
+            "Six DRL treatments and masked random controls were tested across homogeneous and heterogeneous Slurm workloads.",
+            "MaskablePPO improved metrics on the heterogeneous trace compared to controls, with lower maximum bounded slowdown than LCFS.",
+            "Findings highlight the importance of including masked random controls when assessing learned scheduling selection."
           ]
         },
         "fr": {
-          "title": "L2G-SR : Apprendre à guider la régression symbolique basée sur les LLM",
-          "summary": "L'article propose L2G-SR, un cadre pour la régression symbolique par LLM qui guide la recherche d'équations à l'aide d'un vérificateur structurel appris. Il atteint des performances de pointe en termes d'ajustement numérique et de précision sur LLM-SRBench.",
+          "title": "Apprentissage par renforcement profond pour l'ordonnancement HPC",
+          "summary": "Cette étude évalue six traitements d'apprentissage par renforcement profond face à des heuristiques et un contrôle aléatoire masqué sur des traces de charge Slurm. Alors que les traitements non masqués ont été tronqués, MaskablePPO a amélioré les métriques sur la trace hétérogène.",
           "keyPoints": [
-            "Intègre un vérificateur structurel appris dans la régression symbolique.",
-            "Utilise la distance d'édition d'arbres pour gérer les opérateurs commutatifs.",
-            "Atteint une précision de pointe au niveau des équations sur LLM-SRBench."
+            "Six traitements DRL et des contrôles aléatoires masqués ont été testés sur des charges de travail Slurm homogènes et hétérogènes.",
+            "MaskablePPO a amélioré les métriques sur la trace hétérogène par rapport aux contrôles, avec un ralentissement borné maximal inférieur à LCFS.",
+            "Ces résultats soulignent l'importance d'inclure des contrôles aléatoires masqués lors de l'évaluation de la sélection apprise."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-c37f1987521f74",
-      "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable AI",
-      "summary": "This study examines how quickly reality can change before an intelligent system fails to perceive and act reliably, introducing the effective Speed of Coherent Cognition metric. Testing an architecture called Co4 inspired by cellular mechanisms, researchers show it outperforms Transformer and gated-MLP baselines.",
+      "id": "feed-7e6bda77810268",
+      "title": "Recovering Supervision with Grounding Hindsight in GRPO",
+      "summary": "When reasoning rollouts fail, standard GRPO learns nothing. Replay-Selected Hindsight Distillation (RSHD) turns failed attempts into supervised training data by having policies write corrective notes and re-solve problems, improving benchmarks without extra inference deployment.",
       "keyPoints": [
-        "Formulates the observation-reality gap challenge for intelligent systems.",
-        "Introduces the effective Speed of Coherent Cognition metric to measure behavioural reliability.",
-        "Demonstrates that the cellular-inspired Co4 architecture achieves substantially higher performance than baselines."
+        "RSHD converts failed reasoning attempts into tested supervision sources during GRPO training.",
+        "Policies write corrective notes and re-solve problems, with notes admitted only if replays succeed more often.",
+        "RSHD consistently improves performance over standard GRPO across model families, sizes, and training domains."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20764",
+      "sourceUrl": "https://arxiv.org/abs/2610.21018",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable AI",
-          "summary": "This study examines how quickly reality can change before an intelligent system fails to perceive and act reliably, introducing the effective Speed of Coherent Cognition metric. Testing an architecture called Co4 inspired by cellular mechanisms, researchers show it outperforms Transformer and gated-MLP baselines.",
+          "title": "Recovering Supervision with Grounding Hindsight in GRPO",
+          "summary": "When reasoning rollouts fail, standard GRPO learns nothing. Replay-Selected Hindsight Distillation (RSHD) turns failed attempts into supervised training data by having policies write corrective notes and re-solve problems, improving benchmarks without extra inference deployment.",
           "keyPoints": [
-            "Formulates the observation-reality gap challenge for intelligent systems.",
-            "Introduces the effective Speed of Coherent Cognition metric to measure behavioural reliability.",
-            "Demonstrates that the cellular-inspired Co4 architecture achieves substantially higher performance than baselines."
+            "RSHD converts failed reasoning attempts into tested supervision sources during GRPO training.",
+            "Policies write corrective notes and re-solve problems, with notes admitted only if replays succeed more often.",
+            "RSHD consistently improves performance over standard GRPO across model families, sizes, and training domains."
           ]
         },
         "fr": {
-          "title": "Quand la réalité devance la cognition : un nouveau principe de mise à l'échelle",
-          "summary": "Cette étude examine la vitesse à laquelle la réalité peut changer avant qu'un système intelligent n'échoue, introduisant la métrique de la vitesse effective de cognition cohérente. L'architecture Co4 surpasse les bases Transformers et MLP dans ces scénarios.",
+          "title": "Récupération de la supervision par rétrorospection dans le GRPO",
+          "summary": "Lorsque les déploiements de raisonnement échouent, le GRPO standard n'apprend rien. La méthode RSHD transforme les tentatives échouées en données d'entraînement supervisé en faisant rédiger des notes correctives par les politiques.",
           "keyPoints": [
-            "Formule le défi de l'écart entre observation et réalité pour les systèmes intelligents.",
-            "Introduit la métrique de la vitesse effective de cognition cohérente.",
-            "Démontre que l'architecture Co4 surpasse nettement les modèles de référence."
+            "RSHD convertit les tentatives de raisonnement échouées en sources de supervision testées pendant l'entraînement GRPO.",
+            "Les politiques rédigent des notes correctives et résolvent à nouveau les problèmes, validées par de nouveaux succès.",
+            "RSHD améliore constamment les performances par rapport au GRPO standard sur plusieurs familles de modèles et domaines."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-cffdb744dda380",
-      "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
-      "summary": "Researchers present ARIA, a framework that leverages execution-verified repairs to train compact models to inspect and amend multi-agent systems at runtime. Built on a dataset of over 24,000 trajectories and 3,953 verified repair pairs, ARIA effectively handles ongoing multi-agent task execution.",
+      "id": "feed-00950d1a9e12ae",
+      "title": "Recursive Reward Improvement via Adversarial Meta-Prompt Evolution",
+      "summary": "Open-ended expert tasks lack answer keys, making self-improvement difficult. Recursive Reward Improvement (RRI) introduces an adversary to game and supervise rubrics, improving adjusted scores on HealthBench Professional and other benchmarks.",
       "keyPoints": [
-        "Introduces ARIA for runtime inspection and amendment in multi-agent systems.",
-        "Constructs a large dataset containing 3,953 verified repair pairs from diverse trajectories.",
-        "Trains a compact model to recognize when intervention is needed and correct ongoing runs."
+        "RRI uses a reward hacking adversary to supervise rubrics for open-ended expert tasks without answer keys.",
+        "An adversary generates answers that game the rubric while being useless, prompting rubric revisions.",
+        "RRI improves adjusted scores significantly on HealthBench Professional for 9B and 27B models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.21040",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Recursive Reward Improvement via Adversarial Meta-Prompt Evolution",
+          "summary": "Open-ended expert tasks lack answer keys, making self-improvement difficult. Recursive Reward Improvement (RRI) introduces an adversary to game and supervise rubrics, improving adjusted scores on HealthBench Professional and other benchmarks.",
+          "keyPoints": [
+            "RRI uses a reward hacking adversary to supervise rubrics for open-ended expert tasks without answer keys.",
+            "An adversary generates answers that game the rubric while being useless, prompting rubric revisions.",
+            "RRI improves adjusted scores significantly on HealthBench Professional for 9B and 27B models."
+          ]
+        },
+        "fr": {
+          "title": "Amélioration récursive des récompenses par méta-prompt contradictoire",
+          "summary": "Les tâches d'experts ouvertes manquent de corrigés, ce qui complexifie l'auto-amélioration. L'approche RRI introduit un adversaire pour superviser les grilles d'évaluation, améliorant les scores sur HealthBench Professional.",
+          "keyPoints": [
+            "RRI utilise un adversaire de piratage de récompense pour superviser les grilles d'évaluation des tâches ouvertes.",
+            "L'adversaire génère des réponses qui contournent la grille tout en étant inutiles, forçant des révisions.",
+            "RRI améliore significativement les scores ajustés sur HealthBench Professional pour les modèles 9B et 27B."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2a0fb9b29f9173",
+      "title": "Learning When to Withdraw in Fine-Tuned Language Agents",
+      "summary": "Tool-using language agents must selectively withdraw actions when evidence changes. Evaluating LoRA checkpoints of Qwen2.5-3B-Instruct in NAQD-Env shows supervised fine-tuning improves withdrawal recall and decision agreement compared to baselines.",
+      "keyPoints": [
+        "The study investigates selective withdrawal and action suspension in language agents using NAQD-Env.",
+        "SFT checkpoints achieve higher decision agreement and withdrawal recall than instruction-tuned baselines.",
+        "Rule-level diagnostics reveal specific regressions, such as overly aggressive withdrawals or reduced combination narrowing."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.21045",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Learning When to Withdraw in Fine-Tuned Language Agents",
+          "summary": "Tool-using language agents must selectively withdraw actions when evidence changes. Evaluating LoRA checkpoints of Qwen2.5-3B-Instruct in NAQD-Env shows supervised fine-tuning improves withdrawal recall and decision agreement compared to baselines.",
+          "keyPoints": [
+            "The study investigates selective withdrawal and action suspension in language agents using NAQD-Env.",
+            "SFT checkpoints achieve higher decision agreement and withdrawal recall than instruction-tuned baselines.",
+            "Rule-level diagnostics reveal specific regressions, such as overly aggressive withdrawals or reduced combination narrowing."
+          ]
+        },
+        "fr": {
+          "title": "Apprendre quand se retirer dans les agents linguistiques ajustés",
+          "summary": "Les agents linguistiques utilisant des outils doivent suspendre sélectivement des actions lorsque les preuves changent. L'évaluation de points de contrôle LoRA de Qwen2.5-3B-Instruct montre que le fine-tuning améliore le rappel de retrait.",
+          "keyPoints": [
+            "L'étude examine le retrait sélectif et la suspension d'actions dans les agents linguistiques via NAQD-Env.",
+            "Les points de contrôle SFT atteignent un meilleur accord de décision et rappel de retrait que les bases de référence.",
+            "Des diagnostics au niveau des règles révèlent des régressions spécifiques, telles que des retraits trop agressifs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0d65398526cd64",
+      "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
+      "summary": "Athanor is an open agent-native system enabling autonomous post-training research on raw base models. A team of Claude Opus agents improved Qwen3-4B-Base to match or surpass the official instruct version across development and held-out suites.",
+      "keyPoints": [
+        "Athanor provides full research autonomy, engineering tools, and evaluation infrastructure for autonomous post-training.",
+        "A team of Claude Opus agents autonomously post-trained Qwen3-4B-Base without external teacher models over a 104-hour campaign.",
+        "The resulting model matched or surpassed the official Qwen3-4B-Instruct version on development and held-out suites."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.21055",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
+          "summary": "Athanor is an open agent-native system enabling autonomous post-training research on raw base models. A team of Claude Opus agents improved Qwen3-4B-Base to match or surpass the official instruct version across development and held-out suites.",
+          "keyPoints": [
+            "Athanor provides full research autonomy, engineering tools, and evaluation infrastructure for autonomous post-training.",
+            "A team of Claude Opus agents autonomously post-trained Qwen3-4B-Base without external teacher models over a 104-hour campaign.",
+            "The resulting model matched or surpassed the official Qwen3-4B-Instruct version on development and held-out suites."
+          ]
+        },
+        "fr": {
+          "title": "Athanor : Un système natif d'agents pour la recherche post-entraînement",
+          "summary": "Athanor est un système ouvert permettant la recherche post-entraînement autonome sur des modèles de base bruts. Une équipe d'agents Claude Opus a amélioré Qwen3-4B-Base pour surpasser la version officielle.",
+          "keyPoints": [
+            "Athanor offre une autonomie de recherche totale et une infrastructure d'évaluation pour le post-entraînement.",
+            "Une équipe d'agents Claude Opus a post-entraîné de manière autonome Qwen3-4B-Base sans modèles enseignants externes.",
+            "Le modèle obtenu égale ou dépasse la version officielle Qwen3-4B-Instruct sur les suites de test."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-37d0ad1d7adaa1",
+      "title": "OmicsBench: A Benchmark for AI Agents in Bioinformatics",
+      "summary": "OmicsBench evaluates AI agents on long-horizon, multi-turn bioinformatics research studies. Testing multiple models revealed that performance remains far from saturated, and multi-turn evaluation uncovers specific qualitative failure modes.",
+      "keyPoints": [
+        "OmicsBench links 662 dependent bioinformatics subtasks into 97 research-study-scale benchmark tasks.",
+        "Evaluations across 12 models show mean scores between 0.43 and 0.67, indicating significant room for improvement.",
+        "An unsupervised failure mode discovery pipeline exposes qualitative shortcomings like applied statistical filters from memory."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20780",
+      "sourceUrl": "https://arxiv.org/abs/2610.21074",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
-          "summary": "Researchers present ARIA, a framework that leverages execution-verified repairs to train compact models to inspect and amend multi-agent systems at runtime. Built on a dataset of over 24,000 trajectories and 3,953 verified repair pairs, ARIA effectively handles ongoing multi-agent task execution.",
+          "title": "OmicsBench: A Benchmark for AI Agents in Bioinformatics",
+          "summary": "OmicsBench evaluates AI agents on long-horizon, multi-turn bioinformatics research studies. Testing multiple models revealed that performance remains far from saturated, and multi-turn evaluation uncovers specific qualitative failure modes.",
           "keyPoints": [
-            "Introduces ARIA for runtime inspection and amendment in multi-agent systems.",
-            "Constructs a large dataset containing 3,953 verified repair pairs from diverse trajectories.",
-            "Trains a compact model to recognize when intervention is needed and correct ongoing runs."
+            "OmicsBench links 662 dependent bioinformatics subtasks into 97 research-study-scale benchmark tasks.",
+            "Evaluations across 12 models show mean scores between 0.43 and 0.67, indicating significant room for improvement.",
+            "An unsupervised failure mode discovery pipeline exposes qualitative shortcomings like applied statistical filters from memory."
           ]
         },
         "fr": {
-          "title": "ARIA : Inspection et correction à l'exécution pour les systèmes multi-agents",
-          "summary": "Les chercheurs présentent ARIA, un cadre qui exploite des réparations vérifiées pour entraîner des modèles compacts à inspecter et corriger les systèmes multi-agents en cours d'exécution. ARIA s'appuie sur un vaste ensemble de données de trajectoires.",
+          "title": "OmicsBench : Un benchmark pour agents IA en bioinformatique",
+          "summary": "OmicsBench évalue les agents IA sur des études de recherche bioinformatique à long horizon et multi-tours. Des tests sur plusieurs modèles montrent que les performances sont loin d'être saturées.",
           "keyPoints": [
-            "Présente ARIA pour l'inspection et la correction à l'exécution.",
-            "Construit un grand ensemble de données de paires de réparations vérifiées.",
-            "Entraîne un modèle compact à intervenir et corriger les exécutions en cours."
+            "OmicsBench relie 662 sous-tâches bioinformatiques interdépendantes à travers 97 tâches de référence.",
+            "Les évaluations sur 12 modèles affichent des scores moyens de 0,43 à 0,67, soulignant une marge de progression.",
+            "Un pipeline de découverte des modes d'échec met en évidence des lacunes qualitatives dans les analyses."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-94d5d577ef0fe3",
-      "title": "Open-world AI: A Tale of Three Requirements",
-      "summary": "The paper analyzes open-world AI requirements, arguing that versatility demands inference-time learning, rich representations, and predictive disentanglement. Testing language models up to 8B parameters, the authors show that models meeting these criteria improve with related tasks while others degrade.",
+      "id": "feed-f73eeee30c4bf9",
+      "title": "SciPiivot: Benchmarking Principal-Investigator Judgment for AI Agents",
+      "summary": "SciPiivot is a 248-case benchmark evaluating scientific judgment in autonomous research agents by comparing LLM decisions against human-corrected alternatives from actual research projects.",
       "keyPoints": [
-        "Identifies three core requirements for open-world AI: inference-time learning, rich representation, and disentanglement.",
-        "Derives requirements from modeling tasks as sharing latent factors.",
-        "Tests language models up to 8B parameters to validate qualitative performance changes."
+        "SciPiivot features 248 cases based on six months of human corrections for LLM research agents across multiple fields.",
+        "At medium reasoning effort with project records, frontier models frequently prefer original plans over human corrections.",
+        "Most tested models perform below human researchers, highlighting challenges in autonomous scientific judgment."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20782",
+      "sourceUrl": "https://arxiv.org/abs/2610.21082",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Open-world AI: A Tale of Three Requirements",
-          "summary": "The paper analyzes open-world AI requirements, arguing that versatility demands inference-time learning, rich representations, and predictive disentanglement. Testing language models up to 8B parameters, the authors show that models meeting these criteria improve with related tasks while others degrade.",
+          "title": "SciPiivot: Benchmarking Principal-Investigator Judgment for AI Agents",
+          "summary": "SciPiivot is a 248-case benchmark evaluating scientific judgment in autonomous research agents by comparing LLM decisions against human-corrected alternatives from actual research projects.",
           "keyPoints": [
-            "Identifies three core requirements for open-world AI: inference-time learning, rich representation, and disentanglement.",
-            "Derives requirements from modeling tasks as sharing latent factors.",
-            "Tests language models up to 8B parameters to validate qualitative performance changes."
+            "SciPiivot features 248 cases based on six months of human corrections for LLM research agents across multiple fields.",
+            "At medium reasoning effort with project records, frontier models frequently prefer original plans over human corrections.",
+            "Most tested models perform below human researchers, highlighting challenges in autonomous scientific judgment."
           ]
         },
         "fr": {
-          "title": "IA en monde ouvert : l'histoire de trois exigences",
-          "summary": "L'article analyse les exigences de l'IA en monde ouvert, soutenant que la versatilité nécessite un apprentissage au moment de l'inférence, de riches représentations et un découplage prédictif. Les tests sur des modèles jusqu'à 8B confirment ces hypothèses.",
+          "title": "SciPiivot : Évaluation du jugement d'investigateur pour agents IA",
+          "summary": "SciPiivot est un benchmark de 248 cas évaluant le jugement scientifique d'agents de recherche autonomes en comparant leurs choix à des corrections humaines issues de projets réels.",
           "keyPoints": [
-            "Identifie trois exigences fondamentales pour l'IA en monde ouvert.",
-            "Dérive ces exigences de la modélisation de tâches partageant des facteurs latents.",
-            "Teste des modèles de langage allant jusqu'à 8 milliards de paramètres."
+            "SciPiivot rassemble 248 cas basés sur des corrections humaines apportées à des agents de recherche sur six mois.",
+            "Avec un effort de raisonnement moyen, les modèles de frontières privilégient souvent les plans initiaux.",
+            "La plupart des modèles testés affichent des performances inférieures aux chercheurs humains."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-4faf84fcc2c0dc",
-      "title": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents",
-      "summary": "EvolvingBrain is proposed as an adaptive skill system that helps multi-modal agents self-evolve in open worlds. It features Stratified Skill Self-Evolution and State-Aware Adaptive Execution, improving task success rates and generalization on benchmarks like VAB-Minecraft and DiscoveryWorld.",
+      "id": "feed-b4d6c546816086",
+      "title": "Probe-and-Resume: Evaluating Terminal-Based Agent Execution",
+      "summary": "Probe-and-Resume introduces a critic policy that evaluates agent states only at completion using state forks, addressing limitations where intermediate environment states lack sufficient evaluation evidence.",
       "keyPoints": [
-        "Introduces EvolvingBrain to drive multi-modal agent self-evolution.",
-        "Uses Stratified Skill Self-Evolution to extract procedural and problematic patterns into an architecture.",
-        "Employs State-Aware Adaptive Execution with structured abstractive memory for open-world tasks."
+        "Standard Monte Carlo tree search and intermediate critics show poor performance in terminal-based computer environments.",
+        "Probe-and-Resume invokes critics only at final nodes, giving them read, write, and execute access to state forks.",
+        "On Terminal-Bench 2.1, this method increases task success by 8.4 percentage points over conventional MCTS critics."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20786",
+      "sourceUrl": "https://arxiv.org/abs/2610.21088",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents",
-          "summary": "EvolvingBrain is proposed as an adaptive skill system that helps multi-modal agents self-evolve in open worlds. It features Stratified Skill Self-Evolution and State-Aware Adaptive Execution, improving task success rates and generalization on benchmarks like VAB-Minecraft and DiscoveryWorld.",
+          "title": "Probe-and-Resume: Evaluating Terminal-Based Agent Execution",
+          "summary": "Probe-and-Resume introduces a critic policy that evaluates agent states only at completion using state forks, addressing limitations where intermediate environment states lack sufficient evaluation evidence.",
           "keyPoints": [
-            "Introduces EvolvingBrain to drive multi-modal agent self-evolution.",
-            "Uses Stratified Skill Self-Evolution to extract procedural and problematic patterns into an architecture.",
-            "Employs State-Aware Adaptive Execution with structured abstractive memory for open-world tasks."
+            "Standard Monte Carlo tree search and intermediate critics show poor performance in terminal-based computer environments.",
+            "Probe-and-Resume invokes critics only at final nodes, giving them read, write, and execute access to state forks.",
+            "On Terminal-Bench 2.1, this method increases task success by 8.4 percentage points over conventional MCTS critics."
           ]
         },
         "fr": {
-          "title": "EvolvingBrain : Un système de compétences adaptatives pour agents multimodaux",
-          "summary": "EvolvingBrain est proposé comme un système de compétences adaptatives favorisant l'auto-évolution des agents multimodaux en monde ouvert. Il intègre une évolution stratifiée des compétences et une exécution adaptative consciente de l'état.",
+          "title": "Probe-and-Resume : Évaluation de l'exécution d'agents en terminal",
+          "summary": "Probe-and-Resume propose une politique de critique qui évalue les états des agents uniquement en fin de parcours à l'aide de bifurcations d'état, surmontant les limites d'évaluation intermédiaire.",
           "keyPoints": [
-            "Introduit EvolvingBrain pour l'auto-évolution des agents multimodaux.",
-            "Utilise l'évolution stratifiée des compétences pour structurer les connaissances.",
-            "Améliore les taux de réussite sur des benchmarks comme VAB-Minecraft et DiscoveryWorld."
+            "La recherche arborescente de Monte Carlo standard montre de piètres performances dans les environnements informatiques.",
+            "Probe-and-Resume sollicite les critiques uniquement sur les nœuds finaux avec des accès complets aux bifurcations d'état.",
+            "Sur Terminal-Bench 2.1, cette méthode augmente le taux de réussite de 8,4 points par rapport aux critiques MCTS."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-94f07ba05cddef",
-      "title": "When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes",
-      "summary": "This study explores how answer configuration affects whether language models follow provided evidence when reasoning traces conflict with it. Evaluating across multiple model families on HotpotQA and MuSiQue, the authors show that separate answer calls drastically increase evidence-following over continuation.",
+      "id": "feed-33f42edf8c15a6",
+      "title": "MemComposer: Learning to Assemble Memories for LLM Agents via RL",
+      "summary": "MemComposer uses reinforcement learning to jointly examine queries and retrieved candidates to assemble memory contexts for LLM agents, improving downstream success while reducing token usage.",
       "keyPoints": [
-        "Examines the tension between retained reasoning traces and conflicting evidence.",
-        "Compares model continuation against separate answer calls across model families like gpt-oss, Gemma4, and Qwen3.",
-        "Finds that separate calls raise evidence-following by 29.9 to 60.6 points."
+        "MemComposer determines memory selection, quantity, and ordering based on queries and retrieved candidates.",
+        "Trained via Experience Policy Optimization, it outperforms strong baselines across multiple domains.",
+        "The method reduces average memory-token usage and transfers successfully to unseen domains and executors."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20805",
+      "sourceUrl": "https://arxiv.org/abs/2610.21091",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes",
-          "summary": "This study explores how answer configuration affects whether language models follow provided evidence when reasoning traces conflict with it. Evaluating across multiple model families on HotpotQA and MuSiQue, the authors show that separate answer calls drastically increase evidence-following over continuation.",
+          "title": "MemComposer: Learning to Assemble Memories for LLM Agents via RL",
+          "summary": "MemComposer uses reinforcement learning to jointly examine queries and retrieved candidates to assemble memory contexts for LLM agents, improving downstream success while reducing token usage.",
           "keyPoints": [
-            "Examines the tension between retained reasoning traces and conflicting evidence.",
-            "Compares model continuation against separate answer calls across model families like gpt-oss, Gemma4, and Qwen3.",
-            "Finds that separate calls raise evidence-following by 29.9 to 60.6 points."
+            "MemComposer determines memory selection, quantity, and ordering based on queries and retrieved candidates.",
+            "Trained via Experience Policy Optimization, it outperforms strong baselines across multiple domains.",
+            "The method reduces average memory-token usage and transfers successfully to unseen domains and executors."
           ]
         },
         "fr": {
-          "title": "Quand les traces de raisonnement entrent en conflit avec les preuves",
-          "summary": "Cette étude analyse l'impact de la configuration des réponses sur la prise en compte des preuves par les modèles de langage lorsque les traces de raisonnement divergent. Les appels de réponse séparés augmentent nettement le suivi des preuves.",
+          "title": "MemComposer : Assemblage de mémoires pour agents LLM par renforcement",
+          "summary": "MemComposer utilise l'apprentissage par renforcement pour analyser les requêtes et composer les contextes de mémoire des agents LLM, améliorant le succès des tâches tout en réduisant l'utilisation de jetons.",
           "keyPoints": [
-            "Examine la tension entre les traces de raisonnement et les preuves contradictoires.",
-            "Compare la continuation du modèle et les appels de réponse séparés.",
-            "Démontre une hausse de 29,9 à 60,6 points du suivi des preuves avec les appels séparés."
+            "MemComposer gère la sélection, la quantité et l'ordre des mémoires pour les agents LLM.",
+            "Entraîné via l'optimisation des politiques d'expérience, il surpasse les bases de référence sur plusieurs domaines.",
+            "La méthode réduit l'utilisation moyenne de jetons de mémoire et se transfère vers de nouveaux domaines."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-90ec2464282416",
-      "title": "A Self-Improving Agent that Grows its Own DSL via Oracle-Free Induction",
-      "summary": "The authors present an agent that expands its domain-specific language (DSL) and answers exact questions without rewards, judges, or answer keys. Using nested loops, the model discovers missing capabilities and authors operators, successfully scaling its answerable sets across multiple domains.",
+      "id": "feed-e50cde02740172",
+      "title": "Planning Commitment of LLMs under Partial Observability",
+      "summary": "This study analyzes aggressive versus conservative planning commitments in LLM agents under partial observability. Results reveal tradeoffs between safety and efficiency, with LLMs treating provided priors as absolute facts.",
       "keyPoints": [
-        "Develops a self-improving agent that operates without rewards, judge models, or ground truth.",
-        "Employs nested loops where a frozen model authors and validates new operators using agreement and conservation laws.",
-        "Grows answerable question sets across business-ledger and clinical-encounter domains."
+        "LLM agents exhibit either aggressive long-term planning or conservative short-term planning under partial observability.",
+        "Conservative methods offer higher safety with fewer failures, while aggressive methods require fewer API calls.",
+        "LLMs tend to treat provided priors as strict facts, risking failures when those priors are unreliable."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20809",
+      "sourceUrl": "https://arxiv.org/abs/2610.21108",
       "publishedAt": "2026-10-16T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "A Self-Improving Agent that Grows its Own DSL via Oracle-Free Induction",
-          "summary": "The authors present an agent that expands its domain-specific language (DSL) and answers exact questions without rewards, judges, or answer keys. Using nested loops, the model discovers missing capabilities and authors operators, successfully scaling its answerable sets across multiple domains.",
+          "title": "Planning Commitment of LLMs under Partial Observability",
+          "summary": "This study analyzes aggressive versus conservative planning commitments in LLM agents under partial observability. Results reveal tradeoffs between safety and efficiency, with LLMs treating provided priors as absolute facts.",
           "keyPoints": [
-            "Develops a self-improving agent that operates without rewards, judge models, or ground truth.",
-            "Employs nested loops where a frozen model authors and validates new operators using agreement and conservation laws.",
-            "Grows answerable question sets across business-ledger and clinical-encounter domains."
+            "LLM agents exhibit either aggressive long-term planning or conservative short-term planning under partial observability.",
+            "Conservative methods offer higher safety with fewer failures, while aggressive methods require fewer API calls.",
+            "LLMs tend to treat provided priors as strict facts, risking failures when those priors are unreliable."
           ]
         },
         "fr": {
-          "title": "Un agent auto-améliorant qui développe son propre DSL sans oracle",
-          "summary": "Les auteurs présentent un agent qui étend son langage dédié et répond à des questions exactes sans récompenses ni clés de réponse. Le modèle découvre ses manques et crée de nouveaux opérateurs validés par des lois de conservation.",
+          "title": "Engagement de planification des LLM sous observabilité partielle",
+          "summary": "Cette étude analyse les engagements de planification agressive ou conservatrice chez les agents LLM en environnement partiellement observable, mettant en évidence des compromis entre sécurité et efficacité.",
           "keyPoints": [
-            "Développe un agent auto-améliorant fonctionnant sans oracle ni récompense.",
-            "Utilise des boucles imbriquées pour créer et valider de nouveaux opérateurs.",
-            "Multiplie les ensembles de questions solubles dans des domaines variés."
+            "Les agents LLM adoptent une planification agressive à long terme ou conservatrice à court terme.",
+            "Les méthodes conservatrices offrent plus de sécurité, tandis que les méthodes agressives réduisent les appels API.",
+            "Les LLM ont tendance à traiter les priors fournis comme des faits absolus, risquant des échecs en cas d'erreur."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ae2eb56749d9d4",
-      "title": "Temporal Specification Guidance for Text-to-Video Generation",
-      "summary": "To address failures in text-to-video ordering and timing, researchers introduce Temporal Specification Guidance (TSG). This training-free inference framework uses quantitative semantics of temporal logic on attention traces to guide video generation during sampling, improving accuracy across five models.",
-      "keyPoints": [
-        "Proposes Temporal Specification Guidance (TSG) for text-to-video generation.",
-        "Translates temporal requirements into differentiable quantitative semantics evaluated on attention traces.",
-        "Improves specification satisfaction accuracy over classifier-free guidance by 9.5-20 percentage points."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20822",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Temporal Specification Guidance for Text-to-Video Generation",
-          "summary": "To address failures in text-to-video ordering and timing, researchers introduce Temporal Specification Guidance (TSG). This training-free inference framework uses quantitative semantics of temporal logic on attention traces to guide video generation during sampling, improving accuracy across five models.",
-          "keyPoints": [
-            "Proposes Temporal Specification Guidance (TSG) for text-to-video generation.",
-            "Translates temporal requirements into differentiable quantitative semantics evaluated on attention traces.",
-            "Improves specification satisfaction accuracy over classifier-free guidance by 9.5-20 percentage points."
-          ]
-        },
-        "fr": {
-          "title": "Guidage par spécification temporelle pour la génération texte-vidéo",
-          "summary": "Pour résoudre les défaillances de timing et d'ordre dans la génération texte-vidéo, les chercheurs introduisent le guidage par spécification temporelle (TSG). Ce cadre d'inférence utilise la logique temporelle sur les traces d'attention pour guider l'échantillonnage.",
-          "keyPoints": [
-            "Propose le guidage par spécification temporelle (TSG) pour la génération vidéo.",
-            "S'appuie sur des sémantiques quantitatives différentiables sans modifier les transformateurs vidéo.",
-            "Améliore la précision de satisfaction des spécifications de 9,5 à 20 points de pourcentage."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-378a2a81580b50",
-      "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Reasoning",
-      "summary": "This paper formulates evaluator-guided test-time reasoning as a resource allocation problem using a compute-aware three-action controller. By calibrating confidence estimates and incorporating uncertainty penalties, the method improves utility while reducing online compute costs.",
-      "keyPoints": [
-        "Formulates step-by-step evaluator-guided reasoning as a compute-aware three-action control problem.",
-        "Learns and calibrates action-specific confidence estimates with uncertainty penalties.",
-        "Improves observed utility while reducing normalized online compute by roughly 16% to 30%."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20836",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Confidence-Calibrated Inference Expansion for Evaluator-Guided Reasoning",
-          "summary": "This paper formulates evaluator-guided test-time reasoning as a resource allocation problem using a compute-aware three-action controller. By calibrating confidence estimates and incorporating uncertainty penalties, the method improves utility while reducing online compute costs.",
-          "keyPoints": [
-            "Formulates step-by-step evaluator-guided reasoning as a compute-aware three-action control problem.",
-            "Learns and calibrates action-specific confidence estimates with uncertainty penalties.",
-            "Improves observed utility while reducing normalized online compute by roughly 16% to 30%."
-          ]
-        },
-        "fr": {
-          "title": "Expansion d'inférence calibrée en confiance pour le raisonnement guidé",
-          "summary": "Cet article formule le raisonnement guidé à l'inférence comme un problème d'allocation de ressources via un contrôleur à trois actions conscient du calcul. En calibrant la confiance, la méthode améliore l'utilité tout en réduisant les coûts de calcul.",
-          "keyPoints": [
-            "Formule le raisonnement guidé comme un problème de contrôle à trois actions.",
-            "Apprend et calibre des estimations de confiance spécifiques avec des pénalités d'incertitude.",
-            "Améliore l'utilité observée tout en réduisant le calcul en ligne d'environ 16 % à 30 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 476,
+    "itemsCollected": 475,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
