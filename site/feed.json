@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-10-17T04:29:41.108Z",
+  "generatedAt": "2026-10-17T15:37:21.467Z",
   "items": [
+    {
+      "id": "feed-b6756c0a180ee5",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "summary": "Anant Kumar uses Codex for code review and faster follow-ups to build tools that compare loan valuations and analyze credit agreements at Benefit Street Partners.",
+      "keyPoints": [
+        "Anant Kumar builds tools to compare loan valuations and analyze credit agreements",
+        "Codex is used for code review",
+        "Codex helps achieve faster follow-ups"
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/benefit-street-partners",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Benefit Street Partners answers questions faster with Codex",
+          "summary": "Anant Kumar uses Codex for code review and faster follow-ups to build tools that compare loan valuations and analyze credit agreements at Benefit Street Partners.",
+          "keyPoints": [
+            "Anant Kumar builds tools to compare loan valuations and analyze credit agreements",
+            "Codex is used for code review",
+            "Codex helps achieve faster follow-ups"
+          ]
+        },
+        "fr": {
+          "title": "Benefit Street Partners répond plus vite avec Codex",
+          "summary": "Anant Kumar utilise Codex pour la révision de code et des suivis plus rapides afin de concevoir des outils de comparaison d'évaluations de prêts et d'analyse d'accords de crédit.",
+          "keyPoints": [
+            "Anant Kumar crée des outils pour comparer les évaluations de prêts",
+            "Codex est utilisé pour analyser les accords de crédit",
+            "Codex permet d'accélérer les revues de code et les suivis"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-9732b2763df5a6",
       "title": "How Itaú is building generative AI for its entire customer base",
@@ -741,53 +780,14 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-b4d6c546816086",
-      "title": "Probe-and-Resume: Evaluating Terminal-Based Agent Execution",
-      "summary": "Probe-and-Resume introduces a critic policy that evaluates agent states only at completion using state forks, addressing limitations where intermediate environment states lack sufficient evaluation evidence.",
-      "keyPoints": [
-        "Standard Monte Carlo tree search and intermediate critics show poor performance in terminal-based computer environments.",
-        "Probe-and-Resume invokes critics only at final nodes, giving them read, write, and execute access to state forks.",
-        "On Terminal-Bench 2.1, this method increases task success by 8.4 percentage points over conventional MCTS critics."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21088",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Probe-and-Resume: Evaluating Terminal-Based Agent Execution",
-          "summary": "Probe-and-Resume introduces a critic policy that evaluates agent states only at completion using state forks, addressing limitations where intermediate environment states lack sufficient evaluation evidence.",
-          "keyPoints": [
-            "Standard Monte Carlo tree search and intermediate critics show poor performance in terminal-based computer environments.",
-            "Probe-and-Resume invokes critics only at final nodes, giving them read, write, and execute access to state forks.",
-            "On Terminal-Bench 2.1, this method increases task success by 8.4 percentage points over conventional MCTS critics."
-          ]
-        },
-        "fr": {
-          "title": "Probe-and-Resume : Évaluation de l'exécution d'agents en terminal",
-          "summary": "Probe-and-Resume propose une politique de critique qui évalue les états des agents uniquement en fin de parcours à l'aide de bifurcations d'état, surmontant les limites d'évaluation intermédiaire.",
-          "keyPoints": [
-            "La recherche arborescente de Monte Carlo standard montre de piètres performances dans les environnements informatiques.",
-            "Probe-and-Resume sollicite les critiques uniquement sur les nœuds finaux avec des accès complets aux bifurcations d'état.",
-            "Sur Terminal-Bench 2.1, cette méthode augmente le taux de réussite de 8,4 points par rapport aux critiques MCTS."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 24,
+    "itemsCollected": 25,
     "itemsPublished": 20,
-    "newItems": 2,
-    "candidates": 2,
+    "newItems": 1,
+    "candidates": 1,
     "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
