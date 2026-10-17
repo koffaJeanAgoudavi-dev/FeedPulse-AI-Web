@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-10-16T16:42:08.538Z",
+  "generatedAt": "2026-10-17T04:29:41.108Z",
   "items": [
+    {
+      "id": "feed-9732b2763df5a6",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "summary": "Itaú is applying its AI First strategy to customers and employees in Brazil's regulated sector using ia.i, a conversational interface, and the IARA governance platform.",
+      "keyPoints": [
+        "Itaú launched the ia.i conversational interface.",
+        "The IARA platform provides governance for AI tools.",
+        "The strategy serves both customers and employees in Brazil."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/itau-generative-ai",
+      "publishedAt": "2026-10-16T19:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Itaú is building generative AI for its entire customer base",
+          "summary": "Itaú is applying its AI First strategy to customers and employees in Brazil's regulated sector using ia.i, a conversational interface, and the IARA governance platform.",
+          "keyPoints": [
+            "Itaú launched the ia.i conversational interface.",
+            "The IARA platform provides governance for AI tools.",
+            "The strategy serves both customers and employees in Brazil."
+          ]
+        },
+        "fr": {
+          "title": "Comment Itaú intègre l'IA générative pour l'ensemble de ses clients",
+          "summary": "Itaú applique sa stratégie AI First aux clients et employés du secteur réglementé brésilien grâce à l'interface conversationnelle ia.i et à la plateforme de gouvernance IARA.",
+          "keyPoints": [
+            "Itaú a lancé l'interface conversationnelle ia.i.",
+            "La plateforme IARA assure la gouvernance des outils d'IA.",
+            "La stratégie cible les clients et les employés au Brésil."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9e63539289a31c",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary": "Two engineers built Stack Overflow for Agents in a few weeks using Codex, while its ChatGPT plugin helped drive up to 10x growth in agent creation and tripled signups.",
+      "keyPoints": [
+        "Two engineers developed the platform in a few weeks using Codex.",
+        "The ChatGPT plugin helped drive up to 10x growth in agent creation.",
+        "Signups tripled following the integration."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+          "summary": "Two engineers built Stack Overflow for Agents in a few weeks using Codex, while its ChatGPT plugin helped drive up to 10x growth in agent creation and tripled signups.",
+          "keyPoints": [
+            "Two engineers developed the platform in a few weeks using Codex.",
+            "The ChatGPT plugin helped drive up to 10x growth in agent creation.",
+            "Signups tripled following the integration."
+          ]
+        },
+        "fr": {
+          "title": "Stack Overflow for Agents triple ses inscriptions avec le plugin ChatGPT",
+          "summary": "Deux ingénieurs ont conçu Stack Overflow for Agents en quelques semaines avec Codex, tandis que son plugin ChatGPT a stimulé la création d'agents et triplé les inscriptions.",
+          "keyPoints": [
+            "Deux ingénieurs ont développé la plateforme en quelques semaines avec Codex.",
+            "Le plugin ChatGPT a permis une croissance multipliée par 10 de la création d'agents.",
+            "Les inscriptions ont triplé grâce à cette initiative."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-b1dcae23eaacca",
       "title": "The Skill-Policy Co-evolution Trap in Self-Improving Agents",
@@ -702,93 +780,15 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-33f42edf8c15a6",
-      "title": "MemComposer: Learning to Assemble Memories for LLM Agents via RL",
-      "summary": "MemComposer uses reinforcement learning to jointly examine queries and retrieved candidates to assemble memory contexts for LLM agents, improving downstream success while reducing token usage.",
-      "keyPoints": [
-        "MemComposer determines memory selection, quantity, and ordering based on queries and retrieved candidates.",
-        "Trained via Experience Policy Optimization, it outperforms strong baselines across multiple domains.",
-        "The method reduces average memory-token usage and transfers successfully to unseen domains and executors."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21091",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MemComposer: Learning to Assemble Memories for LLM Agents via RL",
-          "summary": "MemComposer uses reinforcement learning to jointly examine queries and retrieved candidates to assemble memory contexts for LLM agents, improving downstream success while reducing token usage.",
-          "keyPoints": [
-            "MemComposer determines memory selection, quantity, and ordering based on queries and retrieved candidates.",
-            "Trained via Experience Policy Optimization, it outperforms strong baselines across multiple domains.",
-            "The method reduces average memory-token usage and transfers successfully to unseen domains and executors."
-          ]
-        },
-        "fr": {
-          "title": "MemComposer : Assemblage de mémoires pour agents LLM par renforcement",
-          "summary": "MemComposer utilise l'apprentissage par renforcement pour analyser les requêtes et composer les contextes de mémoire des agents LLM, améliorant le succès des tâches tout en réduisant l'utilisation de jetons.",
-          "keyPoints": [
-            "MemComposer gère la sélection, la quantité et l'ordre des mémoires pour les agents LLM.",
-            "Entraîné via l'optimisation des politiques d'expérience, il surpasse les bases de référence sur plusieurs domaines.",
-            "La méthode réduit l'utilisation moyenne de jetons de mémoire et se transfère vers de nouveaux domaines."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e50cde02740172",
-      "title": "Planning Commitment of LLMs under Partial Observability",
-      "summary": "This study analyzes aggressive versus conservative planning commitments in LLM agents under partial observability. Results reveal tradeoffs between safety and efficiency, with LLMs treating provided priors as absolute facts.",
-      "keyPoints": [
-        "LLM agents exhibit either aggressive long-term planning or conservative short-term planning under partial observability.",
-        "Conservative methods offer higher safety with fewer failures, while aggressive methods require fewer API calls.",
-        "LLMs tend to treat provided priors as strict facts, risking failures when those priors are unreliable."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21108",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Planning Commitment of LLMs under Partial Observability",
-          "summary": "This study analyzes aggressive versus conservative planning commitments in LLM agents under partial observability. Results reveal tradeoffs between safety and efficiency, with LLMs treating provided priors as absolute facts.",
-          "keyPoints": [
-            "LLM agents exhibit either aggressive long-term planning or conservative short-term planning under partial observability.",
-            "Conservative methods offer higher safety with fewer failures, while aggressive methods require fewer API calls.",
-            "LLMs tend to treat provided priors as strict facts, risking failures when those priors are unreliable."
-          ]
-        },
-        "fr": {
-          "title": "Engagement de planification des LLM sous observabilité partielle",
-          "summary": "Cette étude analyse les engagements de planification agressive ou conservatrice chez les agents LLM en environnement partiellement observable, mettant en évidence des compromis entre sécurité et efficacité.",
-          "keyPoints": [
-            "Les agents LLM adoptent une planification agressive à long terme ou conservatrice à court terme.",
-            "Les méthodes conservatrices offrent plus de sécurité, tandis que les méthodes agressives réduisent les appels API.",
-            "Les LLM ont tendance à traiter les priors fournis comme des faits absolus, risquant des échecs en cas d'erreur."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 475,
+    "itemsCollected": 24,
     "itemsPublished": 20,
-    "newItems": 20,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 2,
+    "candidates": 2,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
