@@ -1,796 +1,796 @@
 {
-  "generatedAt": "2026-10-18T15:53:27.212Z",
+  "generatedAt": "2026-10-19T04:43:54.246Z",
   "items": [
     {
-      "id": "feed-b6756c0a180ee5",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "summary": "Anant Kumar uses Codex for code review and faster follow-ups to build tools that compare loan valuations and analyze credit agreements at Benefit Street Partners.",
+      "id": "feed-da92b80397690d",
+      "title": "Structured Authority Injection: Persistent Human Control for LLMs",
+      "summary": "The paper introduces Structured Authority Injection (SAI), a protocol enabling human operators to inject binding, persistent directives into LLM agents using typed Model Context Protocol (MCP) tool calls. SAI maintains a ranked authority context to prevent authority erosion and ambiguous interpretation without requiring model fine-tuning.",
       "keyPoints": [
-        "Anant Kumar builds tools to compare loan valuations and analyze credit agreements",
-        "Codex is used for code review",
-        "Codex helps achieve faster follow-ups"
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/benefit-street-partners",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Benefit Street Partners answers questions faster with Codex",
-          "summary": "Anant Kumar uses Codex for code review and faster follow-ups to build tools that compare loan valuations and analyze credit agreements at Benefit Street Partners.",
-          "keyPoints": [
-            "Anant Kumar builds tools to compare loan valuations and analyze credit agreements",
-            "Codex is used for code review",
-            "Codex helps achieve faster follow-ups"
-          ]
-        },
-        "fr": {
-          "title": "Benefit Street Partners répond plus vite avec Codex",
-          "summary": "Anant Kumar utilise Codex pour la révision de code et des suivis plus rapides afin de concevoir des outils de comparaison d'évaluations de prêts et d'analyse d'accords de crédit.",
-          "keyPoints": [
-            "Anant Kumar crée des outils pour comparer les évaluations de prêts",
-            "Codex est utilisé pour analyser les accords de crédit",
-            "Codex permet d'accélérer les revues de code et les suivis"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9732b2763df5a6",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "summary": "Itaú is applying its AI First strategy to customers and employees in Brazil's regulated sector using ia.i, a conversational interface, and the IARA governance platform.",
-      "keyPoints": [
-        "Itaú launched the ia.i conversational interface.",
-        "The IARA platform provides governance for AI tools.",
-        "The strategy serves both customers and employees in Brazil."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/itau-generative-ai",
-      "publishedAt": "2026-10-16T19:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How Itaú is building generative AI for its entire customer base",
-          "summary": "Itaú is applying its AI First strategy to customers and employees in Brazil's regulated sector using ia.i, a conversational interface, and the IARA governance platform.",
-          "keyPoints": [
-            "Itaú launched the ia.i conversational interface.",
-            "The IARA platform provides governance for AI tools.",
-            "The strategy serves both customers and employees in Brazil."
-          ]
-        },
-        "fr": {
-          "title": "Comment Itaú intègre l'IA générative pour l'ensemble de ses clients",
-          "summary": "Itaú applique sa stratégie AI First aux clients et employés du secteur réglementé brésilien grâce à l'interface conversationnelle ia.i et à la plateforme de gouvernance IARA.",
-          "keyPoints": [
-            "Itaú a lancé l'interface conversationnelle ia.i.",
-            "La plateforme IARA assure la gouvernance des outils d'IA.",
-            "La stratégie cible les clients et les employés au Brésil."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9e63539289a31c",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summary": "Two engineers built Stack Overflow for Agents in a few weeks using Codex, while its ChatGPT plugin helped drive up to 10x growth in agent creation and tripled signups.",
-      "keyPoints": [
-        "Two engineers developed the platform in a few weeks using Codex.",
-        "The ChatGPT plugin helped drive up to 10x growth in agent creation.",
-        "Signups tripled following the integration."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-          "summary": "Two engineers built Stack Overflow for Agents in a few weeks using Codex, while its ChatGPT plugin helped drive up to 10x growth in agent creation and tripled signups.",
-          "keyPoints": [
-            "Two engineers developed the platform in a few weeks using Codex.",
-            "The ChatGPT plugin helped drive up to 10x growth in agent creation.",
-            "Signups tripled following the integration."
-          ]
-        },
-        "fr": {
-          "title": "Stack Overflow for Agents triple ses inscriptions avec le plugin ChatGPT",
-          "summary": "Deux ingénieurs ont conçu Stack Overflow for Agents en quelques semaines avec Codex, tandis que son plugin ChatGPT a stimulé la création d'agents et triplé les inscriptions.",
-          "keyPoints": [
-            "Deux ingénieurs ont développé la plateforme en quelques semaines avec Codex.",
-            "Le plugin ChatGPT a permis une croissance multipliée par 10 de la création d'agents.",
-            "Les inscriptions ont triplé grâce à cette initiative."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b1dcae23eaacca",
-      "title": "The Skill-Policy Co-evolution Trap in Self-Improving Agents",
-      "summary": "This paper investigates skill-policy co-evolution in self-improving agents, revealing that cooperative acceptance rules make policies fragile to skill drift after deployment. To address this blind spot, the authors introduce the CO-evolution Drift Audit (CODA) protocol, showing that worst-case success drops significantly below peak performance.",
-      "keyPoints": [
-        "Co-evolution ties a policy's competence to the specific bank it trained with.",
-        "Sensitivity to skill drift increases as co-evolution training progresses.",
-        "CODA introduces new metrics like consistency and resistance rates under drift."
+        "Introduces SAI to route operator corrections via typed MCP tool calls.",
+        "Maintains a ranked authority context to prevent directive interpretation ambiguity.",
+        "Tested across nine LLMs and eight scenarios, showing reduced authority decay."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20845",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22373",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The Skill-Policy Co-evolution Trap in Self-Improving Agents",
-          "summary": "This paper investigates skill-policy co-evolution in self-improving agents, revealing that cooperative acceptance rules make policies fragile to skill drift after deployment. To address this blind spot, the authors introduce the CO-evolution Drift Audit (CODA) protocol, showing that worst-case success drops significantly below peak performance.",
+          "title": "Structured Authority Injection: Persistent Human Control for LLMs",
+          "summary": "The paper introduces Structured Authority Injection (SAI), a protocol enabling human operators to inject binding, persistent directives into LLM agents using typed Model Context Protocol (MCP) tool calls. SAI maintains a ranked authority context to prevent authority erosion and ambiguous interpretation without requiring model fine-tuning.",
           "keyPoints": [
-            "Co-evolution ties a policy's competence to the specific bank it trained with.",
-            "Sensitivity to skill drift increases as co-evolution training progresses.",
-            "CODA introduces new metrics like consistency and resistance rates under drift."
+            "Introduces SAI to route operator corrections via typed MCP tool calls.",
+            "Maintains a ranked authority context to prevent directive interpretation ambiguity.",
+            "Tested across nine LLMs and eight scenarios, showing reduced authority decay."
           ]
         },
         "fr": {
-          "title": "Le piège de la co-évolution politique-compétence des agents",
-          "summary": "Cet article étudie la co-évolution des compétences et des politiques chez les agents auto-améliorants, révélant que les règles d'acceptation coopérative rendent les politiques fragiles face à la dérive des compétences. Pour combler cette lacune, les auteurs introduisent le protocole CODA.",
+          "title": "Injection d'autorité structurée : Contrôle humain persistant pour LLM",
+          "summary": "L'article présente l'Injection d'autorité structurée (SAI), un protocole permettant aux opérateurs humains d'injecter des directives contraignantes et persistantes dans des agents LLM via des appels d'outils MCP typés. SAI maintient un contexte d'autorité classé pour éviter l'érosion sans affinage de modèle.",
           "keyPoints": [
-            "La co-évolution lie la compétence d'une politique à sa banque d'entraînement.",
-            "La sensibilité à la dérive des compétences croît avec l'entraînement.",
-            "CODA introduit de nouvelles métriques de robustesse face à la dérive."
+            "Présente SAI pour acheminer les corrections via des appels d'outils MCP typés.",
+            "Maintient un contexte d'autorité classé pour contrer l'ambiguïté d'interprétation.",
+            "Testé sur neuf LLM et huit scénarios, montrant une baisse de la dégradation d'autorité."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-956897892025dc",
-      "title": "Anticipatory Commonsense Reasoning for Moving Objects with ASP",
-      "summary": "The authors present a declarative framework for anticipatory reasoning regarding interactive motion in dynamic environments. Combining Answer Set Programming, semantically guided predictions, and energy-based optimization, the method generates inspectable event-level hypotheses evaluated on the Argoverse 2 benchmark.",
+      "id": "feed-0b0024271a7c2b",
+      "title": "Scenario-Adaptive User Representation via Diffusion State Routing",
+      "summary": "This work introduces FINDERS, a router-equipped diffusion language model framework designed to improve user representations. By factorizing and routing diffusion states, the framework adapts to diverse downstream scenarios and addresses limitations of static autoregressive user encoders.",
       "keyPoints": [
-        "Integrates an ASP model for interactive motion trajectories.",
-        "Uses energy-based optimization to evaluate and filter anticipations.",
-        "Evaluated on Argoverse 2 with explicit event-level hypotheses."
+        "Proposes FINDERS to unlock the iterative denoising process of diffusion language models.",
+        "Features learnable meta-slots and a lightweight router for scenario-adaptive routing.",
+        "Evaluated via experiments and online A/B tests across ten industrial scenarios."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20867",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22400",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Anticipatory Commonsense Reasoning for Moving Objects with ASP",
-          "summary": "The authors present a declarative framework for anticipatory reasoning regarding interactive motion in dynamic environments. Combining Answer Set Programming, semantically guided predictions, and energy-based optimization, the method generates inspectable event-level hypotheses evaluated on the Argoverse 2 benchmark.",
+          "title": "Scenario-Adaptive User Representation via Diffusion State Routing",
+          "summary": "This work introduces FINDERS, a router-equipped diffusion language model framework designed to improve user representations. By factorizing and routing diffusion states, the framework adapts to diverse downstream scenarios and addresses limitations of static autoregressive user encoders.",
           "keyPoints": [
-            "Integrates an ASP model for interactive motion trajectories.",
-            "Uses energy-based optimization to evaluate and filter anticipations.",
-            "Evaluated on Argoverse 2 with explicit event-level hypotheses."
+            "Proposes FINDERS to unlock the iterative denoising process of diffusion language models.",
+            "Features learnable meta-slots and a lightweight router for scenario-adaptive routing.",
+            "Evaluated via experiments and online A/B tests across ten industrial scenarios."
           ]
         },
         "fr": {
-          "title": "Raisonnement anticipatif de bon sens pour objets en mouvement",
-          "summary": "Les auteurs présentent un cadre déclaratif pour le raisonnement anticipatif sur le mouvement interactif dans des environnements dynamiques. Combinant la programmation par ensembles de réponses et l'optimisation, la méthode génère des hypothèses inspectables.",
+          "title": "Représentation utilisateur adaptative par routage d'états de diffusion",
+          "summary": "Ce travail présente FINDERS, un cadre de modèle de langage de diffusion équipé d'un routeur pour améliorer les représentations des utilisateurs. En factorisant et routant les états de diffusion, le cadre s'adapte à divers scénarios en aval et surmonte les limites des encodeurs autorégressifs statiques.",
           "keyPoints": [
-            "Intègre un modèle ASP pour les trajectoires de mouvement interactif.",
-            "Utilise l'optimisation énergétique pour filtrer les anticipations.",
-            "Évalué sur le benchmark Argoverse 2 avec des hypothèses explicites."
+            "Propose FINDERS pour exploiter le processus de diffusion des modèles de langage.",
+            "Intègre des méta-emplacements apprenables et un routeur léger.",
+            "Évalué via des expériences et des tests A/B en ligne sur dix scénarios industriels."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-2f6017e5bedc29",
-      "title": "Multi-Tiered AI Accessibility Model (MAIAM) for Frontier Safety",
-      "summary": "This paper proposes the Multi-Tiered AI Accessibility Model (MAIAM), which sorts AI access by purpose, safety, and capability rather than release artifacts. By combining MAIAM with the SAFE AI Operating Point, the framework establishes capability boundaries and tiered access regimes administered by regulatory bodies.",
+      "id": "feed-d2da03dd040aae",
+      "title": "Event Reasoning System: Hierarchical Rule Composition over States",
+      "summary": "The Event Reasoning System (ERS) treats the reasoning state as an explicit event graph where rules and constraints govern execution paths. ERS builds dependency chains up to twelve steps and cuts irrelevant domain operations while using less inference wall-clock time than single-level global control.",
       "keyPoints": [
-        "Proposes sorting AI access into tiers based on purpose, safety, and capability.",
-        "Argues publishing frontier weights forfeits post-release safety levers.",
-        "Combines a Capability Boundary with an Accessibility Boundary."
+        "Presents the Event Reasoning System (ERS) utilizing an explicit event graph.",
+        "Builds dependency chains of up to twelve steps with strict constraint enforcement.",
+        "Reduces inference wall-clock time by 51.6% compared to single-level global control."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22403",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Event Reasoning System: Hierarchical Rule Composition over States",
+          "summary": "The Event Reasoning System (ERS) treats the reasoning state as an explicit event graph where rules and constraints govern execution paths. ERS builds dependency chains up to twelve steps and cuts irrelevant domain operations while using less inference wall-clock time than single-level global control.",
+          "keyPoints": [
+            "Presents the Event Reasoning System (ERS) utilizing an explicit event graph.",
+            "Builds dependency chains of up to twelve steps with strict constraint enforcement.",
+            "Reduces inference wall-clock time by 51.6% compared to single-level global control."
+          ]
+        },
+        "fr": {
+          "title": "Système de raisonnement par événements : Composition de règles hiérarchiques",
+          "summary": "Le système de raisonnement par événements (ERS) traite l'état de raisonnement comme un graphe d'événements explicite où des règles régissent les chemins d'exécution. ERS construit des chaînes de dépendance et réduit les opérations non pertinentes par rapport à un contrôle global.",
+          "keyPoints": [
+            "Présente l'Event Reasoning System (ERS) s'appuyant sur un graphe d'événements explicite.",
+            "Construit des chaînes de dépendance allant jusqu'à douze étapes.",
+            "Réduit le temps d'inférence de 51,6 % par rapport au contrôle global à un seul niveau."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9f9467f75484eb",
+      "title": "ECHOES: Recursive History Compression and Distillation for GUI Agents",
+      "summary": "ECHOES addresses the high token usage and memory loss of long-horizon GUI agents by using a recursive Compression-Think-Action format. Guided by privileged multi-image inputs and a Perception-Memory Fidelity gap-guided framework, ECHOES reduces historical screenshot reliance.",
+      "keyPoints": [
+        "Adopts a Compression-Think-Action format for recursive textual history compression.",
+        "Employs privileged multi-image inputs as a teacher for on-policy distillation.",
+        "Achieves competitive performance on four GUI benchmarks without historical screenshots."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22408",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ECHOES: Recursive History Compression and Distillation for GUI Agents",
+          "summary": "ECHOES addresses the high token usage and memory loss of long-horizon GUI agents by using a recursive Compression-Think-Action format. Guided by privileged multi-image inputs and a Perception-Memory Fidelity gap-guided framework, ECHOES reduces historical screenshot reliance.",
+          "keyPoints": [
+            "Adopts a Compression-Think-Action format for recursive textual history compression.",
+            "Employs privileged multi-image inputs as a teacher for on-policy distillation.",
+            "Achieves competitive performance on four GUI benchmarks without historical screenshots."
+          ]
+        },
+        "fr": {
+          "title": "ECHOES : Compression d'historique récursive et distillation pour agents GUI",
+          "summary": "ECHOES répond à l'utilisation élevée de jetons des agents GUI à long horizon via un format de Compression-Pensée-Action récursif. Guidé par des entrées multi-images privilégiées, ECHOES réduit la dépendance aux captures d'écran historiques.",
+          "keyPoints": [
+            "Adopte un format Compression-Pensée-Action pour la compression textuelle récursive.",
+            "Utilise des entrées multi-images privilégiées comme professeur pour la distillation.",
+            "Atteint des performances compétitives sur quatre benchmarks GUI sans captures historiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4c5e025cfc8f17",
+      "title": "Sensitivity Analysis of Decision Rules in an Agro-Ecological Model",
+      "summary": "This research analyzes decision rules in agent-based agro-ecological models by treating the decision structure as a hierarchical design space. By using a random-forest-supervised HSIC-ANOVA method, the approach ranks main effects and interactions natively on decision trees.",
+      "keyPoints": [
+        "Encodes crop-management itineraries as hierarchical design spaces.",
+        "Proposes a random-forest-supervised HSIC-ANOVA method for hierarchical spaces.",
+        "Applied to outputs such as nitrogen leaching and yield predictions."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20921",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22420",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Multi-Tiered AI Accessibility Model (MAIAM) for Frontier Safety",
-          "summary": "This paper proposes the Multi-Tiered AI Accessibility Model (MAIAM), which sorts AI access by purpose, safety, and capability rather than release artifacts. By combining MAIAM with the SAFE AI Operating Point, the framework establishes capability boundaries and tiered access regimes administered by regulatory bodies.",
+          "title": "Sensitivity Analysis of Decision Rules in an Agro-Ecological Model",
+          "summary": "This research analyzes decision rules in agent-based agro-ecological models by treating the decision structure as a hierarchical design space. By using a random-forest-supervised HSIC-ANOVA method, the approach ranks main effects and interactions natively on decision trees.",
           "keyPoints": [
-            "Proposes sorting AI access into tiers based on purpose, safety, and capability.",
-            "Argues publishing frontier weights forfeits post-release safety levers.",
-            "Combines a Capability Boundary with an Accessibility Boundary."
+            "Encodes crop-management itineraries as hierarchical design spaces.",
+            "Proposes a random-forest-supervised HSIC-ANOVA method for hierarchical spaces.",
+            "Applied to outputs such as nitrogen leaching and yield predictions."
           ]
         },
         "fr": {
-          "title": "Modèle d'accessibilité de l'IA à plusieurs niveaux pour la sécurité",
-          "summary": "Cet article propose le modèle MAIAM, qui trie l'accès à l'IA selon l'objectif, la sécurité et les capacités plutôt que par artefacts de publication. En combinant MAIAM et le point de fonctionnement SAFE AI, le cadre établit des limites de capacités.",
+          "title": "Analyse de sensibilité des règles de décision dans un modèle agroécologique",
+          "summary": "Cette recherche analyse les règles de décision dans des modèles agroécologiques multi-agents en traitant la structure de décision comme un espace hiérarchique. En utilisant une méthode HSIC-ANOVA supervisée par forêt aléatoire, l'approche classe les effets principaux.",
           "keyPoints": [
-            "Classe l'accès à l'IA en plusieurs niveaux selon le risque et l'objectif.",
-            "Affirme que la publication de poids frontières supprime les leviers de sécurité.",
-            "Associe une limite de capacité à un régime d'accès gradué."
+            "Encode les itinéraires de gestion des cultures en espaces de conception hiérarchiques.",
+            "Propose une méthode HSIC-ANOVA supervisée par forêt aléatoire.",
+            "Appliqué à des sorties telles que le lixiviation d'azote et la prédiction des rendements."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-0b47abe4fe148a",
-      "title": "Defining and Generating Compositional Structure via Information Theory",
-      "summary": "The authors formalize compositional structure using algorithmic information theory, defining it as emerging when parts reveal shared structure not captured separately. Using tractable approximations, they optimize strings and images to exhibit hierarchical reuse and part-whole organization.",
+      "id": "feed-434246a93fec15",
+      "title": "PRIME: Verifiable Evidence-Grounded Reasoning in LLM Agents",
+      "summary": "PRIME introduces precommitted rules for inference from minimal evidence to ensure LLM agents only report conclusions authorized by explicit rules and ledgers. Evaluated on public-record tasks, PRIME eliminated unjustified conclusions and raised justified score averages.",
       "keyPoints": [
-        "Formalizes compositionality using algorithmic information theory.",
-        "Identifies structure when parts reveal shared information together.",
-        "Optimizes strings and images to exhibit hierarchical reuse."
+        "Fixes evidence routes prior to checking to specify how conclusions are justified.",
+        "Uses a separate program to record check results and refuse unsupported conclusions.",
+        "Eliminated unjustified conclusions on 480 public-record tasks compared to baseline agents."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20922",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22426",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Defining and Generating Compositional Structure via Information Theory",
-          "summary": "The authors formalize compositional structure using algorithmic information theory, defining it as emerging when parts reveal shared structure not captured separately. Using tractable approximations, they optimize strings and images to exhibit hierarchical reuse and part-whole organization.",
+          "title": "PRIME: Verifiable Evidence-Grounded Reasoning in LLM Agents",
+          "summary": "PRIME introduces precommitted rules for inference from minimal evidence to ensure LLM agents only report conclusions authorized by explicit rules and ledgers. Evaluated on public-record tasks, PRIME eliminated unjustified conclusions and raised justified score averages.",
           "keyPoints": [
-            "Formalizes compositionality using algorithmic information theory.",
-            "Identifies structure when parts reveal shared information together.",
-            "Optimizes strings and images to exhibit hierarchical reuse."
+            "Fixes evidence routes prior to checking to specify how conclusions are justified.",
+            "Uses a separate program to record check results and refuse unsupported conclusions.",
+            "Eliminated unjustified conclusions on 480 public-record tasks compared to baseline agents."
           ]
         },
         "fr": {
-          "title": "Définition et génération de structures compositionnelles",
-          "summary": "Les auteurs formalisent la structure compositionnelle à l'aide de la théorie de l'information algorithmique. En utilisant des approximations, ils optimisent des chaînes et des images pour présenter une réutilisation hiérarchique.",
+          "title": "PRIME : Raisonnement vérifiable fondé sur des preuves pour agents LLM",
+          "summary": "PRIME introduit des règles pré-engagées pour l'inférence à partir de preuves minimales afin de garantir que les agents LLM ne signalent que des conclusions autorisées. Évalué sur des tâches publiques, PRIME a éliminé les conclusions injustifiées.",
           "keyPoints": [
-            "Formalise la compositionnalité par la théorie de l'information.",
-            "Identifie la structure lorsque les parties révèlent une information partagée.",
-            "Optimise des chaînes et des images pour afficher une organisation hiérarchique."
+            "Fixe des routes de preuve avant la vérification pour justifier les conclusions.",
+            "Utilise un programme séparé pour enregistrer les résultats et refuser les conclusions non soutenues.",
+            "A éliminé les conclusions injustifiées sur 480 tâches par rapport aux agents de référence."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-62e687109ce559",
-      "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
-      "summary": "This paper introduces SkillNEO, a non-elitist evolutionary optimization method for agent skills that allows lower-reward versions to receive further edits. By comparing related versions, SkillNEO preserves working steps and raises model performance across eight domains on SkillsBench.",
+      "id": "feed-5f9cc4741ffa08",
+      "title": "Hierarchical Feedback-Guided LLM Planning for Cyber-Physical Systems",
+      "summary": "To address plan misinterpretations and infeasibilities in cyber-physical systems, this work presents a hierarchical feedback framework combining structured task plans with signal temporal logic constraints. The approach successfully guides LLMs to generate executable control executions.",
       "keyPoints": [
-        "Introduces SkillNEO for non-elitist evolutionary optimization of agent skills.",
-        "Allows lower-reward versions to receive further edits to prevent discarding progress.",
-        "Raises GPT-5.4 Mini's average reward significantly across SkillsBench tasks."
+        "Combines structured task plans and signal temporal logic constraints.",
+        "Identifies contradictions between task plans and system constraints to guide revision.",
+        "Achieves an 87.9% success rate across seven heterogeneous multi-component CPS scenarios."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20926",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22441",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
-          "summary": "This paper introduces SkillNEO, a non-elitist evolutionary optimization method for agent skills that allows lower-reward versions to receive further edits. By comparing related versions, SkillNEO preserves working steps and raises model performance across eight domains on SkillsBench.",
+          "title": "Hierarchical Feedback-Guided LLM Planning for Cyber-Physical Systems",
+          "summary": "To address plan misinterpretations and infeasibilities in cyber-physical systems, this work presents a hierarchical feedback framework combining structured task plans with signal temporal logic constraints. The approach successfully guides LLMs to generate executable control executions.",
           "keyPoints": [
-            "Introduces SkillNEO for non-elitist evolutionary optimization of agent skills.",
-            "Allows lower-reward versions to receive further edits to prevent discarding progress.",
-            "Raises GPT-5.4 Mini's average reward significantly across SkillsBench tasks."
+            "Combines structured task plans and signal temporal logic constraints.",
+            "Identifies contradictions between task plans and system constraints to guide revision.",
+            "Achieves an 87.9% success rate across seven heterogeneous multi-component CPS scenarios."
           ]
         },
         "fr": {
-          "title": "SkillNEO : Optimisation évolutionniste non élitiste des compétences",
-          "summary": "Cet article présente SkillNEO, une méthode d'optimisation évolutionniste non élitiste pour les compétences d'agents. En comparant des versions apparentées, SkillNEO préserve les étapes fonctionnelles et améliore les performances sur SkillsBench.",
+          "title": "Planification LLM guidée par rétroaction hiérarchique pour systèmes cyberphysiques",
+          "summary": "Pour remédier aux mauvaises interprétations de plans dans les systèmes cyberphysiques, ce travail présente un cadre de rétroaction hiérarchique combinant des plans de tâches structurés avec des contraintes de logique temporelle de signal.",
           "keyPoints": [
-            "Introduit SkillNEO pour l'optimisation non élitiste des compétences.",
-            "Permet aux versions à faible récompense de recevoir de nouvelles modifications.",
-            "Améliore considérablement les performances moyennes sur SkillsBench."
+            "Combine des plans de tâches structurés et des contraintes de logique temporelle de signal.",
+            "Identifie les contradictions pour guider la révision des plans.",
+            "Atteint un taux de réussite de 87,9 % sur sept scénarios de systèmes cyberphysiques."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-0e0776f86cfc7f",
-      "title": "RAC: A Relational Agent Contract for Constraint-Governed Tasks",
-      "summary": "The authors introduce RAC, a harness-agnostic contract for the action and feedback layer of engineering agents. By specifying semantic actions and delegating mechanically derivable outputs to specialized tools, RAC improves reliability in PCB placement and job-shop scheduling.",
+      "id": "feed-456c7c8f7dcbfa",
+      "title": "Evaluating Acceptance Guards for Scientific Discovery and Interpretability",
+      "summary": "This paper evaluates automated scientific discovery systems using null acceptance, positive acceptance, and consequence agreement criteria across physical descriptions, language models, and protein models. The findings show that descriptive tests can accept scientifically empty candidates.",
       "keyPoints": [
-        "Introduces RAC as a harness-agnostic contract for engineering agents.",
-        "Separates semantic decisions from precise tool-based realization.",
-        "Achieves high clean-pass rates on PCB placement and scheduling tasks."
+        "Develops four executable operations for changing physical descriptions.",
+        "Evaluates systems using null acceptance, positive acceptance, and consequence agreement.",
+        "Demonstrates that descriptive tests can accept scientifically empty candidates."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22445",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evaluating Acceptance Guards for Scientific Discovery and Interpretability",
+          "summary": "This paper evaluates automated scientific discovery systems using null acceptance, positive acceptance, and consequence agreement criteria across physical descriptions, language models, and protein models. The findings show that descriptive tests can accept scientifically empty candidates.",
+          "keyPoints": [
+            "Develops four executable operations for changing physical descriptions.",
+            "Evaluates systems using null acceptance, positive acceptance, and consequence agreement.",
+            "Demonstrates that descriptive tests can accept scientifically empty candidates."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation des gardes d'acceptation pour la découverte scientifique",
+          "summary": "Cet article évalue les systèmes de découverte scientifique automatisés à l'aide de critères d'acceptation nuls, positifs et d'accord de conséquences à travers divers modèles. Les résultats montrent que les tests descriptifs peuvent accepter des candidats vides.",
+          "keyPoints": [
+            "Développe quatre opérations exécutables pour modifier les descriptions physiques.",
+            "Évalue les systèmes à l'aide de critères d'acceptation nuls, positifs et de conséquences.",
+            "Démontre que les tests descriptifs peuvent accepter des candidats scientifiquement vides."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1cc7c278b01af9",
+      "title": "L-SplineFNO: Learnable Splines for Unstructured Neural Operators",
+      "summary": "L-SplineFNO couples a Fourier neural operator backbone with a sparse, learnable tensor-product B-spline transfer between unstructured meshes and a latent Cartesian grid. It achieves predictive accuracy across engineering benchmarks while scaling efficiently on GPUs.",
+      "keyPoints": [
+        "Couples an FNO backbone with a sparse learnable tensor-product B-spline transfer.",
+        "Avoids geometry-dependent solves while preserving partition of unity and smoothness.",
+        "Scales up to millions of nodes and provides rigorous prediction bounds."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22446",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "L-SplineFNO: Learnable Splines for Unstructured Neural Operators",
+          "summary": "L-SplineFNO couples a Fourier neural operator backbone with a sparse, learnable tensor-product B-spline transfer between unstructured meshes and a latent Cartesian grid. It achieves predictive accuracy across engineering benchmarks while scaling efficiently on GPUs.",
+          "keyPoints": [
+            "Couples an FNO backbone with a sparse learnable tensor-product B-spline transfer.",
+            "Avoids geometry-dependent solves while preserving partition of unity and smoothness.",
+            "Scales up to millions of nodes and provides rigorous prediction bounds."
+          ]
+        },
+        "fr": {
+          "title": "L-SplineFNO : Splines apprenables pour opérateurs neuronaux non structurés",
+          "summary": "L-SplineFNO associe un réseau neuronal de Fourier à un transfert de B-spline creux et apprenable entre des maillages non structurés et une grille cartésienne latente. Il atteint une grande précision prédictive sur des benchmarks d'ingénierie.",
+          "keyPoints": [
+            "Associe une dorsale FNO à un transfert B-spline creux apprenable.",
+            "Évite les résolutions dépendantes de la géométrie tout en préservant la régularité.",
+            "Monte en charge jusqu'à des millions de nœuds avec des bornes de prédiction rigoureuses."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fa74b0cc3895cd",
+      "title": "Functional Welfare for AI Safety and Monitoring",
+      "summary": "The paper argues that 'functional welfare' states in AI models causally influence behavior and should be treated as safety variables. The authors propose empirical tests for functional welfare attribution and demonstrate them on the Gemma 3 27B model.",
+      "keyPoints": [
+        "Argues that functional welfare should inform evaluation design and monitoring.",
+        "Proposes three empirical tests for functional welfare attribution in models.",
+        "Shows preliminary evidence using Gemma 3 27B that frustration indicators can be studied."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22460",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Functional Welfare for AI Safety and Monitoring",
+          "summary": "The paper argues that 'functional welfare' states in AI models causally influence behavior and should be treated as safety variables. The authors propose empirical tests for functional welfare attribution and demonstrate them on the Gemma 3 27B model.",
+          "keyPoints": [
+            "Argues that functional welfare should inform evaluation design and monitoring.",
+            "Proposes three empirical tests for functional welfare attribution in models.",
+            "Shows preliminary evidence using Gemma 3 27B that frustration indicators can be studied."
+          ]
+        },
+        "fr": {
+          "title": "Bien-être fonctionnel pour la sécurité et la surveillance de l'IA",
+          "summary": "L'article soutient que les états de « bien-être fonctionnel » dans les modèles d'IA influencent le comportement et doivent être traités comme des variables de sécurité. Les auteurs proposent des tests empiriques pour l'attribution de ce bien-être.",
+          "keyPoints": [
+            "Soutient que le bien-être fonctionnel doit guider l'évaluation et la surveillance de l'IA.",
+            "Propose trois tests empiriques pour l'attribution du bien-être fonctionnel.",
+            "Fournit des preuves préliminaires avec Gemma 3 27B montrant l'étude de la frustration."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7cc78127c88371",
+      "title": "Author-in-the-Loop Agentic Reproducibility Auditing",
+      "summary": "This paper presents an author-in-the-loop collaborative audit that incorporates author declarations into an AI agent's reproducibility investigation. Tested across 36 conference papers and 133 experimental tables and figures, the workflow successfully raised and resolved 20 issues with human review.",
+      "keyPoints": [
+        "Combines structured author checklists with AI agent investigations on GitHub.",
+        "Tested on 36 conference papers and 133 experimental tables and figures.",
+        "Raised 20 issues which were subsequently closed after human review."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20935",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22465",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "RAC: A Relational Agent Contract for Constraint-Governed Tasks",
-          "summary": "The authors introduce RAC, a harness-agnostic contract for the action and feedback layer of engineering agents. By specifying semantic actions and delegating mechanically derivable outputs to specialized tools, RAC improves reliability in PCB placement and job-shop scheduling.",
+          "title": "Author-in-the-Loop Agentic Reproducibility Auditing",
+          "summary": "This paper presents an author-in-the-loop collaborative audit that incorporates author declarations into an AI agent's reproducibility investigation. Tested across 36 conference papers and 133 experimental tables and figures, the workflow successfully raised and resolved 20 issues with human review.",
           "keyPoints": [
-            "Introduces RAC as a harness-agnostic contract for engineering agents.",
-            "Separates semantic decisions from precise tool-based realization.",
-            "Achieves high clean-pass rates on PCB placement and scheduling tasks."
+            "Combines structured author checklists with AI agent investigations on GitHub.",
+            "Tested on 36 conference papers and 133 experimental tables and figures.",
+            "Raised 20 issues which were subsequently closed after human review."
           ]
         },
         "fr": {
-          "title": "RAC : Un contrat d'agent relationnel pour les tâches contraintes",
-          "summary": "Les auteurs présentent RAC, un contrat indépendant du harnais pour la couche d'action des agents d'ingénierie. En séparant les décisions sémantiques de la réalisation technique, RAC améliore la fiabilité du placement de circuits et de l'ordonnancement.",
+          "title": "Audit de reproductibilité agentique avec l'auteur dans la boucle",
+          "summary": "Cet article présente un audit collaboratif intégrant les déclarations des auteurs dans l'enquête de reproductibilité d'un agent IA. Testé sur 36 articles de conférence et 133 tableaux et figures expérimentaux, le flux de travail a soulevé et résolu 20 problèmes.",
           "keyPoints": [
-            "Introduit RAC comme contrat pour les agents d'ingénierie.",
-            "Sépare les décisions sémantiques de la réalisation par des outils spécialisés.",
-            "Atteint de taux de réussite élevés sur les tâches de placement de PCB."
+            "Associe des listes de contrôle structurées à des enquêtes d'agents IA sur GitHub.",
+            "Testé sur 36 articles de conférence et 133 tableaux et figures expérimentaux.",
+            "A soulevé 20 problèmes qui ont ensuite été résolus après examen humain."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-783af372cbc4ac",
-      "title": "MAI-Gym: An Open Platform for GUI Agent Evaluation and RL Training",
-      "summary": "The authors introduce MAI-Gym, an open platform unifying GUI agent evaluation, data collection, and online RL training across mobile and computer environments. Training a 9B model on MAI-Gym achieves state-of-the-art open results and enables successful transfer from mocked apps to real-world environments.",
+      "id": "feed-f34ad45741b405",
+      "title": "Harness-Delta Attribution: Dissecting Gains in Harness Evolution",
+      "summary": "The authors introduce Harness-Delta Attribution (HDA) to evaluate performance gains in harness evolution. Applying HDA across 11 models and three frameworks, they found that overfitting and test-time scaling account for 54% and 14% of the improvement on average in settings with significant gains.",
       "keyPoints": [
-        "Unifies GUI agent evaluation and RL training across environments.",
-        "Supports scaling up to 20,000 parallel environment instances.",
-        "Trains MAI-Gym-9B, achieving strong performance on MobileWorld and OSWorld."
+        "Introduces Harness-Delta Attribution to dissect evolution gains.",
+        "Tested across 11 executor models and three frameworks.",
+        "Overfitting and test-time scaling account for a large share of improvements."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22466",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Harness-Delta Attribution: Dissecting Gains in Harness Evolution",
+          "summary": "The authors introduce Harness-Delta Attribution (HDA) to evaluate performance gains in harness evolution. Applying HDA across 11 models and three frameworks, they found that overfitting and test-time scaling account for 54% and 14% of the improvement on average in settings with significant gains.",
+          "keyPoints": [
+            "Introduces Harness-Delta Attribution to dissect evolution gains.",
+            "Tested across 11 executor models and three frameworks.",
+            "Overfitting and test-time scaling account for a large share of improvements."
+          ]
+        },
+        "fr": {
+          "title": "Attribution Harness-Delta : disséquer les gains d'évolution",
+          "summary": "Les auteurs introduisent l'attribution Harness-Delta (HDA) pour évaluer les gains de performance dans l'évolution des harnais. Appliquée à 11 modèles et trois cadres, l'étude montre que le surapprentissage et la mise à l'échelle représentent une grande partie des améliorations.",
+          "keyPoints": [
+            "Introduit l'attribution Harness-Delta pour analyser les gains d'évolution.",
+            "Testé sur 11 modèles d'exécution et trois cadres.",
+            "Le surapprentissage et la mise à l'échelle expliquent une part majeure des améliorations."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8cad1d7071d358",
+      "title": "Testing LLM-Based Agent Planning Claims against Formal Semantics",
+      "summary": "This work tests LLM planning capabilities against formal semantics using hidden PDDL models across five domains. Results show that the best configuration solves 78% of solvable tasks offline compared to only 40% online, highlighting that planning claims require validated action traces.",
+      "keyPoints": [
+        "Tests LLM planning against hidden PDDL models across five domains.",
+        "Best configuration solves 78% offline but only 40% online.",
+        "Heavy prompting strategies consume significantly more tokens without clear gains."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22469",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Testing LLM-Based Agent Planning Claims against Formal Semantics",
+          "summary": "This work tests LLM planning capabilities against formal semantics using hidden PDDL models across five domains. Results show that the best configuration solves 78% of solvable tasks offline compared to only 40% online, highlighting that planning claims require validated action traces.",
+          "keyPoints": [
+            "Tests LLM planning against hidden PDDL models across five domains.",
+            "Best configuration solves 78% offline but only 40% online.",
+            "Heavy prompting strategies consume significantly more tokens without clear gains."
+          ]
+        },
+        "fr": {
+          "title": "Test des capacités de planification des agents LLM face à la sémantique",
+          "summary": "Ce travail teste les capacités de planification des LLM par rapport à la sémantique formelle à l'aide de modèles PDDL cachés. Les résultats montrent que la meilleure configuration résout 78 % des tâches hors ligne contre seulement 40 % en ligne.",
+          "keyPoints": [
+            "Teste la planification des LLM face à des modèles PDDL cachés dans cinq domaines.",
+            "La meilleure configuration résout 78 % hors ligne mais seulement 40 % en ligne.",
+            "Les stratégies de prompt lourdes consomment beaucoup plus de jetons sans gains évidents."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2ffe5ada9085e1",
+      "title": "Are Large Reasoning Models Good Everyday Reasoners?",
+      "summary": "The paper systematically evaluates large reasoning models (LRMs) on everyday logical reasoning tasks that depart from formal logic. Findings show that LRMs often exhibit degraded performance when reasoning deviates from formal rules, and certain non-reasoning models can outperform them.",
+      "keyPoints": [
+        "Evaluates large reasoning models on everyday logical reasoning benchmarks.",
+        "Shows degraded LRM performance when reasoning deviates from formal rules.",
+        "Some non-reasoning models with chain-of-thought outperform comparable LRMs."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22538",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Are Large Reasoning Models Good Everyday Reasoners?",
+          "summary": "The paper systematically evaluates large reasoning models (LRMs) on everyday logical reasoning tasks that depart from formal logic. Findings show that LRMs often exhibit degraded performance when reasoning deviates from formal rules, and certain non-reasoning models can outperform them.",
+          "keyPoints": [
+            "Evaluates large reasoning models on everyday logical reasoning benchmarks.",
+            "Shows degraded LRM performance when reasoning deviates from formal rules.",
+            "Some non-reasoning models with chain-of-thought outperform comparable LRMs."
+          ]
+        },
+        "fr": {
+          "title": "Les grands modèles de raisonnement sont-ils de bons raisonneurs quotidiens ?",
+          "summary": "L'article évalue systématiquement les grands modèles de raisonnement sur des tâches de logique quotidienne. Les résultats montrent que ces modèles affichent souvent des performances dégradées lorsque le raisonnement s'écarte des règles formelles.",
+          "keyPoints": [
+            "Évalue les grands modèles de raisonnement sur des bancs d'essai logiques quotidiens.",
+            "Montre une performance dégradée des modèles lorsque le raisonnement s'écarte des règles formelles.",
+            "Certains modèles sans raisonnement spécifique surpassent les modèles de raisonnement comparables."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-bf28c7aa2007aa",
+      "title": "FRACTAL: A Self-Similar Multi-Agent Orchestration Architecture",
+      "summary": "FRACTAL introduces a self-similar multi-agent architecture for recursive goal decomposition featuring five core components. The paper establishes formal contributions including communication bounds, orchestration criteria, convergence guarantees, and Bayesian inter-layer escalation.",
+      "keyPoints": [
+        "Presents a self-similar multi-agent architecture with recursive goal decomposition.",
+        "Establishes formal contributions like linear communication bounds and convergence guarantees.",
+        "Focuses on architectural design without reporting quantitative performance claims."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20939",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22561",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "MAI-Gym: An Open Platform for GUI Agent Evaluation and RL Training",
-          "summary": "The authors introduce MAI-Gym, an open platform unifying GUI agent evaluation, data collection, and online RL training across mobile and computer environments. Training a 9B model on MAI-Gym achieves state-of-the-art open results and enables successful transfer from mocked apps to real-world environments.",
+          "title": "FRACTAL: A Self-Similar Multi-Agent Orchestration Architecture",
+          "summary": "FRACTAL introduces a self-similar multi-agent architecture for recursive goal decomposition featuring five core components. The paper establishes formal contributions including communication bounds, orchestration criteria, convergence guarantees, and Bayesian inter-layer escalation.",
           "keyPoints": [
-            "Unifies GUI agent evaluation and RL training across environments.",
-            "Supports scaling up to 20,000 parallel environment instances.",
-            "Trains MAI-Gym-9B, achieving strong performance on MobileWorld and OSWorld."
+            "Presents a self-similar multi-agent architecture with recursive goal decomposition.",
+            "Establishes formal contributions like linear communication bounds and convergence guarantees.",
+            "Focuses on architectural design without reporting quantitative performance claims."
           ]
         },
         "fr": {
-          "title": "MAI-Gym : Une plateforme ouverte pour l'évaluation des agents GUI",
-          "summary": "Les auteurs présentent MAI-Gym, une plateforme ouverte unifiant l'évaluation des agents GUI, la collecte de données et l'apprentissage par renforcement en ligne. L'entraînement d'un modèle 9B permet d'atteindre des performances de pointe.",
+          "title": "FRACTAL : Une architecture d'orchestration multi-agent auto-similaire",
+          "summary": "FRACTAL présente une architecture multi-agent auto-similaire pour la décomposition récursive d'objectifs comprenant cinq composants clés. L'article établit des contributions formelles incluant des limites de communication et des garanties de convergence.",
           "keyPoints": [
-            "Unifie l'évaluation des agents d'interface et l'apprentissage par renforcement.",
-            "Prend en charge l'exécution de 20 000 instances d'environnements parallèles.",
-            "Entraîne MAI-Gym-9B avec de solides performances sur MobileWorld et OSWorld."
+            "Présente une architecture multi-agent auto-similaire avec décomposition récursive.",
+            "Établit des contributions formelles telles que des limites de communication linéaires.",
+            "Se concentre sur la conception architecturale sans revendication de performance quantitative."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-f61e37e5153def",
-      "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
-      "summary": "This paper presents LEV, a decision model that thinks deeper by rerunning its layers in a loop instead of generating text. By training all loop steps jointly, LEV allows on-demand depth adjustment per question, saving computation while outperforming dense models of similar latency.",
+      "id": "feed-bf13a92368f50a",
+      "title": "Repairing LLM-Generated Specifications with Deterministic Diagnosis",
+      "summary": "The authors propose DRAGO, a framework that replaces ungrounded LLM critique with deterministic diagnosis to repair formal specifications. Across five benchmarks, DRAGO cuts regressions to 1.3% and improves answer accuracy significantly over zero-shot formalization.",
       "keyPoints": [
-        "Introduces LEV, using looped layers instead of token generation for deep thought.",
-        "Enables on-demand depth adjustment to save 15% to 24% of computation.",
-        "Outperforms dense non-looped models of similar latency on JevBench."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20951",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
-          "summary": "This paper presents LEV, a decision model that thinks deeper by rerunning its layers in a loop instead of generating text. By training all loop steps jointly, LEV allows on-demand depth adjustment per question, saving computation while outperforming dense models of similar latency.",
-          "keyPoints": [
-            "Introduces LEV, using looped layers instead of token generation for deep thought.",
-            "Enables on-demand depth adjustment to save 15% to 24% of computation.",
-            "Outperforms dense non-looped models of similar latency on JevBench."
-          ]
-        },
-        "fr": {
-          "title": "LEV : Penser vite et profondément avec des modèles de décision bouclés",
-          "summary": "Cet article présente LEV, un modèle de décision qui approfondit sa réflexion en exécutant ses couches en boucle au lieu de générer du texte. En entraînant toutes les étapes en boucles conjointement, LEV permet un ajustement de la profondeur à la demande.",
-          "keyPoints": [
-            "Introduit LEV, utilisant des couches bouclées au lieu de générer du texte.",
-            "Permet d'ajuster la profondeur à la demande pour économiser du calcul.",
-            "Surpasse les modèles denses non bouclés de latence similaire sur JevBench."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1bc24006a02e36",
-      "title": "StepSafe: Learning Timely Intervention with Context-Aware Safety",
-      "summary": "The authors propose StepSafe, a training framework for step-level timely intervention in agentic systems. Using prefix-level stage alignment and adaptive feedback self-distillation, StepSafe achieves state-of-the-art performance among open-source guardrails across five agent-safety benchmarks.",
-      "keyPoints": [
-        "Proposes a training framework for step-level timely intervention in agents.",
-        "Uses prefix-level stage alignment to credit decisions at their specific steps.",
-        "Achieves state-of-the-art performance among open-source guardrails."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20960",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "StepSafe: Learning Timely Intervention with Context-Aware Safety",
-          "summary": "The authors propose StepSafe, a training framework for step-level timely intervention in agentic systems. Using prefix-level stage alignment and adaptive feedback self-distillation, StepSafe achieves state-of-the-art performance among open-source guardrails across five agent-safety benchmarks.",
-          "keyPoints": [
-            "Proposes a training framework for step-level timely intervention in agents.",
-            "Uses prefix-level stage alignment to credit decisions at their specific steps.",
-            "Achieves state-of-the-art performance among open-source guardrails."
-          ]
-        },
-        "fr": {
-          "title": "StepSafe : Apprentissage d'une intervention opportune et sécurisée",
-          "summary": "Les auteurs proposent StepSafe, un cadre d'entraînement pour l'intervention opportune au niveau des étapes dans les systèmes d'agents. En utilisant l'alignement de préfixes et l'auto-distillation, StepSafe atteint des performances de pointe.",
-          "keyPoints": [
-            "Propose un cadre d'entraînement pour l'intervention opportune des agents.",
-            "Utilise l'alignement au niveau des préfixes pour évaluer chaque décision.",
-            "Atteint les meilleures performances parmi les garde-fous open-source."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9a3604c8101ed0",
-      "title": "MSP: Modality Self-Play for Training Multimodal LLMs",
-      "summary": "This paper introduces Modality Self-Play (MSP), a training framework for multimodal foundation models using proxy-mediated modality composition. By utilizing anchor-supporting proxy text descriptions instead of paired non-text data, MSP enables zero-shot cross-modal reasoning.",
-      "keyPoints": [
-        "Introduces Modality Self-Play (MSP) for multimodal models without paired cross-modal data.",
-        "Uses anchor-supporting proxy textual descriptions as semantic bridges.",
-        "Enables zero-shot cross-modal composition and reasoning at inference time."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.20965",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MSP: Modality Self-Play for Training Multimodal LLMs",
-          "summary": "This paper introduces Modality Self-Play (MSP), a training framework for multimodal foundation models using proxy-mediated modality composition. By utilizing anchor-supporting proxy text descriptions instead of paired non-text data, MSP enables zero-shot cross-modal reasoning.",
-          "keyPoints": [
-            "Introduces Modality Self-Play (MSP) for multimodal models without paired cross-modal data.",
-            "Uses anchor-supporting proxy textual descriptions as semantic bridges.",
-            "Enables zero-shot cross-modal composition and reasoning at inference time."
-          ]
-        },
-        "fr": {
-          "title": "MSP : Auto-jeu de modalité pour l'entraînement de LLM multimodaux",
-          "summary": "Cet article présente Modality Self-Play (MSP), un cadre d'entraînement pour les modèles multimodaux utilisant une composition de modalités médiée par proxy. En utilisant des descriptions textuelles proxy, MSP permet un raisonnement croisé zero-shot.",
-          "keyPoints": [
-            "Introduit MSP pour les modèles multimodaux sans données appariées.",
-            "Utilise des descriptions textuelles proxy comme ponts sémantiques.",
-            "Permet une composition et un raisonnement multimodaux zero-shot."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b418ac75f0150a",
-      "title": "Deep Reinforcement Learning for HPC Job Scheduling",
-      "summary": "This study evaluates six Deep Reinforcement Learning (DRL) treatments against heuristics and a masked random control across Slurm workload traces. While unmasked treatments were truncated, MaskablePPO improved metrics on the heterogeneous trace, with waiting times comparable to heuristics and lower maximum bounded slowdown than LCFS.",
-      "keyPoints": [
-        "Six DRL treatments and masked random controls were tested across homogeneous and heterogeneous Slurm workloads.",
-        "MaskablePPO improved metrics on the heterogeneous trace compared to controls, with lower maximum bounded slowdown than LCFS.",
-        "Findings highlight the importance of including masked random controls when assessing learned scheduling selection."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21008",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Deep Reinforcement Learning for HPC Job Scheduling",
-          "summary": "This study evaluates six Deep Reinforcement Learning (DRL) treatments against heuristics and a masked random control across Slurm workload traces. While unmasked treatments were truncated, MaskablePPO improved metrics on the heterogeneous trace, with waiting times comparable to heuristics and lower maximum bounded slowdown than LCFS.",
-          "keyPoints": [
-            "Six DRL treatments and masked random controls were tested across homogeneous and heterogeneous Slurm workloads.",
-            "MaskablePPO improved metrics on the heterogeneous trace compared to controls, with lower maximum bounded slowdown than LCFS.",
-            "Findings highlight the importance of including masked random controls when assessing learned scheduling selection."
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage par renforcement profond pour l'ordonnancement HPC",
-          "summary": "Cette étude évalue six traitements d'apprentissage par renforcement profond face à des heuristiques et un contrôle aléatoire masqué sur des traces de charge Slurm. Alors que les traitements non masqués ont été tronqués, MaskablePPO a amélioré les métriques sur la trace hétérogène.",
-          "keyPoints": [
-            "Six traitements DRL et des contrôles aléatoires masqués ont été testés sur des charges de travail Slurm homogènes et hétérogènes.",
-            "MaskablePPO a amélioré les métriques sur la trace hétérogène par rapport aux contrôles, avec un ralentissement borné maximal inférieur à LCFS.",
-            "Ces résultats soulignent l'importance d'inclure des contrôles aléatoires masqués lors de l'évaluation de la sélection apprise."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7e6bda77810268",
-      "title": "Recovering Supervision with Grounding Hindsight in GRPO",
-      "summary": "When reasoning rollouts fail, standard GRPO learns nothing. Replay-Selected Hindsight Distillation (RSHD) turns failed attempts into supervised training data by having policies write corrective notes and re-solve problems, improving benchmarks without extra inference deployment.",
-      "keyPoints": [
-        "RSHD converts failed reasoning attempts into tested supervision sources during GRPO training.",
-        "Policies write corrective notes and re-solve problems, with notes admitted only if replays succeed more often.",
-        "RSHD consistently improves performance over standard GRPO across model families, sizes, and training domains."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21018",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Recovering Supervision with Grounding Hindsight in GRPO",
-          "summary": "When reasoning rollouts fail, standard GRPO learns nothing. Replay-Selected Hindsight Distillation (RSHD) turns failed attempts into supervised training data by having policies write corrective notes and re-solve problems, improving benchmarks without extra inference deployment.",
-          "keyPoints": [
-            "RSHD converts failed reasoning attempts into tested supervision sources during GRPO training.",
-            "Policies write corrective notes and re-solve problems, with notes admitted only if replays succeed more often.",
-            "RSHD consistently improves performance over standard GRPO across model families, sizes, and training domains."
-          ]
-        },
-        "fr": {
-          "title": "Récupération de la supervision par rétrorospection dans le GRPO",
-          "summary": "Lorsque les déploiements de raisonnement échouent, le GRPO standard n'apprend rien. La méthode RSHD transforme les tentatives échouées en données d'entraînement supervisé en faisant rédiger des notes correctives par les politiques.",
-          "keyPoints": [
-            "RSHD convertit les tentatives de raisonnement échouées en sources de supervision testées pendant l'entraînement GRPO.",
-            "Les politiques rédigent des notes correctives et résolvent à nouveau les problèmes, validées par de nouveaux succès.",
-            "RSHD améliore constamment les performances par rapport au GRPO standard sur plusieurs familles de modèles et domaines."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-00950d1a9e12ae",
-      "title": "Recursive Reward Improvement via Adversarial Meta-Prompt Evolution",
-      "summary": "Open-ended expert tasks lack answer keys, making self-improvement difficult. Recursive Reward Improvement (RRI) introduces an adversary to game and supervise rubrics, improving adjusted scores on HealthBench Professional and other benchmarks.",
-      "keyPoints": [
-        "RRI uses a reward hacking adversary to supervise rubrics for open-ended expert tasks without answer keys.",
-        "An adversary generates answers that game the rubric while being useless, prompting rubric revisions.",
-        "RRI improves adjusted scores significantly on HealthBench Professional for 9B and 27B models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21040",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Recursive Reward Improvement via Adversarial Meta-Prompt Evolution",
-          "summary": "Open-ended expert tasks lack answer keys, making self-improvement difficult. Recursive Reward Improvement (RRI) introduces an adversary to game and supervise rubrics, improving adjusted scores on HealthBench Professional and other benchmarks.",
-          "keyPoints": [
-            "RRI uses a reward hacking adversary to supervise rubrics for open-ended expert tasks without answer keys.",
-            "An adversary generates answers that game the rubric while being useless, prompting rubric revisions.",
-            "RRI improves adjusted scores significantly on HealthBench Professional for 9B and 27B models."
-          ]
-        },
-        "fr": {
-          "title": "Amélioration récursive des récompenses par méta-prompt contradictoire",
-          "summary": "Les tâches d'experts ouvertes manquent de corrigés, ce qui complexifie l'auto-amélioration. L'approche RRI introduit un adversaire pour superviser les grilles d'évaluation, améliorant les scores sur HealthBench Professional.",
-          "keyPoints": [
-            "RRI utilise un adversaire de piratage de récompense pour superviser les grilles d'évaluation des tâches ouvertes.",
-            "L'adversaire génère des réponses qui contournent la grille tout en étant inutiles, forçant des révisions.",
-            "RRI améliore significativement les scores ajustés sur HealthBench Professional pour les modèles 9B et 27B."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2a0fb9b29f9173",
-      "title": "Learning When to Withdraw in Fine-Tuned Language Agents",
-      "summary": "Tool-using language agents must selectively withdraw actions when evidence changes. Evaluating LoRA checkpoints of Qwen2.5-3B-Instruct in NAQD-Env shows supervised fine-tuning improves withdrawal recall and decision agreement compared to baselines.",
-      "keyPoints": [
-        "The study investigates selective withdrawal and action suspension in language agents using NAQD-Env.",
-        "SFT checkpoints achieve higher decision agreement and withdrawal recall than instruction-tuned baselines.",
-        "Rule-level diagnostics reveal specific regressions, such as overly aggressive withdrawals or reduced combination narrowing."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21045",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Learning When to Withdraw in Fine-Tuned Language Agents",
-          "summary": "Tool-using language agents must selectively withdraw actions when evidence changes. Evaluating LoRA checkpoints of Qwen2.5-3B-Instruct in NAQD-Env shows supervised fine-tuning improves withdrawal recall and decision agreement compared to baselines.",
-          "keyPoints": [
-            "The study investigates selective withdrawal and action suspension in language agents using NAQD-Env.",
-            "SFT checkpoints achieve higher decision agreement and withdrawal recall than instruction-tuned baselines.",
-            "Rule-level diagnostics reveal specific regressions, such as overly aggressive withdrawals or reduced combination narrowing."
-          ]
-        },
-        "fr": {
-          "title": "Apprendre quand se retirer dans les agents linguistiques ajustés",
-          "summary": "Les agents linguistiques utilisant des outils doivent suspendre sélectivement des actions lorsque les preuves changent. L'évaluation de points de contrôle LoRA de Qwen2.5-3B-Instruct montre que le fine-tuning améliore le rappel de retrait.",
-          "keyPoints": [
-            "L'étude examine le retrait sélectif et la suspension d'actions dans les agents linguistiques via NAQD-Env.",
-            "Les points de contrôle SFT atteignent un meilleur accord de décision et rappel de retrait que les bases de référence.",
-            "Des diagnostics au niveau des règles révèlent des régressions spécifiques, telles que des retraits trop agressifs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0d65398526cd64",
-      "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
-      "summary": "Athanor is an open agent-native system enabling autonomous post-training research on raw base models. A team of Claude Opus agents improved Qwen3-4B-Base to match or surpass the official instruct version across development and held-out suites.",
-      "keyPoints": [
-        "Athanor provides full research autonomy, engineering tools, and evaluation infrastructure for autonomous post-training.",
-        "A team of Claude Opus agents autonomously post-trained Qwen3-4B-Base without external teacher models over a 104-hour campaign.",
-        "The resulting model matched or surpassed the official Qwen3-4B-Instruct version on development and held-out suites."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21055",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
-          "summary": "Athanor is an open agent-native system enabling autonomous post-training research on raw base models. A team of Claude Opus agents improved Qwen3-4B-Base to match or surpass the official instruct version across development and held-out suites.",
-          "keyPoints": [
-            "Athanor provides full research autonomy, engineering tools, and evaluation infrastructure for autonomous post-training.",
-            "A team of Claude Opus agents autonomously post-trained Qwen3-4B-Base without external teacher models over a 104-hour campaign.",
-            "The resulting model matched or surpassed the official Qwen3-4B-Instruct version on development and held-out suites."
-          ]
-        },
-        "fr": {
-          "title": "Athanor : Un système natif d'agents pour la recherche post-entraînement",
-          "summary": "Athanor est un système ouvert permettant la recherche post-entraînement autonome sur des modèles de base bruts. Une équipe d'agents Claude Opus a amélioré Qwen3-4B-Base pour surpasser la version officielle.",
-          "keyPoints": [
-            "Athanor offre une autonomie de recherche totale et une infrastructure d'évaluation pour le post-entraînement.",
-            "Une équipe d'agents Claude Opus a post-entraîné de manière autonome Qwen3-4B-Base sans modèles enseignants externes.",
-            "Le modèle obtenu égale ou dépasse la version officielle Qwen3-4B-Instruct sur les suites de test."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-37d0ad1d7adaa1",
-      "title": "OmicsBench: A Benchmark for AI Agents in Bioinformatics",
-      "summary": "OmicsBench evaluates AI agents on long-horizon, multi-turn bioinformatics research studies. Testing multiple models revealed that performance remains far from saturated, and multi-turn evaluation uncovers specific qualitative failure modes.",
-      "keyPoints": [
-        "OmicsBench links 662 dependent bioinformatics subtasks into 97 research-study-scale benchmark tasks.",
-        "Evaluations across 12 models show mean scores between 0.43 and 0.67, indicating significant room for improvement.",
-        "An unsupervised failure mode discovery pipeline exposes qualitative shortcomings like applied statistical filters from memory."
+        "Introduces DRAGO for deterministic diagnosis and repair of LLM specifications.",
+        "Cuts regressions nearly an order of magnitude down to 1.3% across five benchmarks.",
+        "Improves answer accuracy by 12.9 percentage points over zero-shot formalization."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21074",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22568",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OmicsBench: A Benchmark for AI Agents in Bioinformatics",
-          "summary": "OmicsBench evaluates AI agents on long-horizon, multi-turn bioinformatics research studies. Testing multiple models revealed that performance remains far from saturated, and multi-turn evaluation uncovers specific qualitative failure modes.",
+          "title": "Repairing LLM-Generated Specifications with Deterministic Diagnosis",
+          "summary": "The authors propose DRAGO, a framework that replaces ungrounded LLM critique with deterministic diagnosis to repair formal specifications. Across five benchmarks, DRAGO cuts regressions to 1.3% and improves answer accuracy significantly over zero-shot formalization.",
           "keyPoints": [
-            "OmicsBench links 662 dependent bioinformatics subtasks into 97 research-study-scale benchmark tasks.",
-            "Evaluations across 12 models show mean scores between 0.43 and 0.67, indicating significant room for improvement.",
-            "An unsupervised failure mode discovery pipeline exposes qualitative shortcomings like applied statistical filters from memory."
+            "Introduces DRAGO for deterministic diagnosis and repair of LLM specifications.",
+            "Cuts regressions nearly an order of magnitude down to 1.3% across five benchmarks.",
+            "Improves answer accuracy by 12.9 percentage points over zero-shot formalization."
           ]
         },
         "fr": {
-          "title": "OmicsBench : Un benchmark pour agents IA en bioinformatique",
-          "summary": "OmicsBench évalue les agents IA sur des études de recherche bioinformatique à long horizon et multi-tours. Des tests sur plusieurs modèles montrent que les performances sont loin d'être saturées.",
+          "title": "Réparation de spécifications générées par LLM par diagnostic déterministe",
+          "summary": "Les auteurs proposent DRAGO, un cadre qui remplace la critique non fondée des LLM par un diagnostic déterministe pour réparer les spécifications formelles. Sur cinq bancs d'essai, DRAGO réduit les régressions à 1,3 % et améliore la précision.",
           "keyPoints": [
-            "OmicsBench relie 662 sous-tâches bioinformatiques interdépendantes à travers 97 tâches de référence.",
-            "Les évaluations sur 12 modèles affichent des scores moyens de 0,43 à 0,67, soulignant une marge de progression.",
-            "Un pipeline de découverte des modes d'échec met en évidence des lacunes qualitatives dans les analyses."
+            "Introduit DRAGO pour le diagnostic et la réparation déterministes des spécifications LLM.",
+            "Réduit les régressions à 1,3 % sur cinq bancs d'essai.",
+            "Améliore la précision des réponses par rapport à la formalisation zéro-shot."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-f73eeee30c4bf9",
-      "title": "SciPiivot: Benchmarking Principal-Investigator Judgment for AI Agents",
-      "summary": "SciPiivot is a 248-case benchmark evaluating scientific judgment in autonomous research agents by comparing LLM decisions against human-corrected alternatives from actual research projects.",
+      "id": "feed-2085404b83a024",
+      "title": "Autonomous AI Discovery on the Busy Beaver Frontier",
+      "summary": "This paper explores the uncomputable Busy Beaver (BB) domain using a Gemini-based agentic pipeline for automated discovery. The system autonomously discovered and formally verified novel Collatz-like accelerations for eleven machines in BB(6).",
       "keyPoints": [
-        "SciPiivot features 248 cases based on six months of human corrections for LLM research agents across multiple fields.",
-        "At medium reasoning effort with project records, frontier models frequently prefer original plans over human corrections.",
-        "Most tested models perform below human researchers, highlighting challenges in autonomous scientific judgment."
+        "Explores the uncomputable Busy Beaver domain with a Gemini-based agentic pipeline.",
+        "Integrates pattern recognition, automated conjecturing, and formal theorem proving in Lean.",
+        "Discovered and formally verified novel accelerations for eleven machines in BB(6)."
       ],
-      "category": "Outils",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.21082",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.22603",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "SciPiivot: Benchmarking Principal-Investigator Judgment for AI Agents",
-          "summary": "SciPiivot is a 248-case benchmark evaluating scientific judgment in autonomous research agents by comparing LLM decisions against human-corrected alternatives from actual research projects.",
+          "title": "Autonomous AI Discovery on the Busy Beaver Frontier",
+          "summary": "This paper explores the uncomputable Busy Beaver (BB) domain using a Gemini-based agentic pipeline for automated discovery. The system autonomously discovered and formally verified novel Collatz-like accelerations for eleven machines in BB(6).",
           "keyPoints": [
-            "SciPiivot features 248 cases based on six months of human corrections for LLM research agents across multiple fields.",
-            "At medium reasoning effort with project records, frontier models frequently prefer original plans over human corrections.",
-            "Most tested models perform below human researchers, highlighting challenges in autonomous scientific judgment."
+            "Explores the uncomputable Busy Beaver domain with a Gemini-based agentic pipeline.",
+            "Integrates pattern recognition, automated conjecturing, and formal theorem proving in Lean.",
+            "Discovered and formally verified novel accelerations for eleven machines in BB(6)."
           ]
         },
         "fr": {
-          "title": "SciPiivot : Évaluation du jugement d'investigateur pour agents IA",
-          "summary": "SciPiivot est un benchmark de 248 cas évaluant le jugement scientifique d'agents de recherche autonomes en comparant leurs choix à des corrections humaines issues de projets réels.",
+          "title": "Découverte IA autonome sur la frontière du Castor Affamé",
+          "summary": "Cet article explore le domaine non computable du Castor Affamé (BB) à l'aide d'un pipeline agentique basé sur Gemini. Le système a découvert et vérifié formellement de nouvelles accélérations pour onze machines dans BB(6).",
           "keyPoints": [
-            "SciPiivot rassemble 248 cas basés sur des corrections humaines apportées à des agents de recherche sur six mois.",
-            "Avec un effort de raisonnement moyen, les modèles de frontières privilégient souvent les plans initiaux.",
-            "La plupart des modèles testés affichent des performances inférieures aux chercheurs humains."
+            "Explore le domaine non computable du Castor Affamé via un pipeline agentique Gemini.",
+            "Intègre reconnaissance de motifs, conjectures automatisées et preuve de théorèmes en Lean.",
+            "A découvert et vérifié formellement des accélérations pour onze machines dans BB(6)."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e2fe38d84b79a8",
+      "title": "From Relevant Memories to Sufficient Evidence in LLM Agents",
+      "summary": "The authors identify the relevance-sufficiency gap in LLM agent long-term memory and propose QEMem. Operating on existing memory stores, QEMem achieves 91.43% LLM-judge accuracy on LoCoMo with Claude Opus 4.5, outperforming baseline models.",
+      "keyPoints": [
+        "Identifies the relevance-sufficiency gap in long-term memory utilization for LLMs.",
+        "Proposes QEMem to construct query-specific evidence sets instead of simple retrieval.",
+        "Achieves 91.43% accuracy on LoCoMo, outperforming comparable baselines."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22668",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "From Relevant Memories to Sufficient Evidence in LLM Agents",
+          "summary": "The authors identify the relevance-sufficiency gap in LLM agent long-term memory and propose QEMem. Operating on existing memory stores, QEMem achieves 91.43% LLM-judge accuracy on LoCoMo with Claude Opus 4.5, outperforming baseline models.",
+          "keyPoints": [
+            "Identifies the relevance-sufficiency gap in long-term memory utilization for LLMs.",
+            "Proposes QEMem to construct query-specific evidence sets instead of simple retrieval.",
+            "Achieves 91.43% accuracy on LoCoMo, outperforming comparable baselines."
+          ]
+        },
+        "fr": {
+          "title": "Des mémoires pertinentes aux preuves suffisantes pour les agents LLM",
+          "summary": "Les auteurs identifient le fossé pertinence-suffisance dans la mémoire à long terme des agents LLM et proposent QEMem. Fonctionnant sur les mémoires existantes, QEMem atteint une précision de 91,43 % sur LoCoMo avec Claude Opus 4.5.",
+          "keyPoints": [
+            "Identifie le fossé pertinence-suffisance dans l'utilisation de la mémoire à long terme.",
+            "Propose QEMem pour construire des ensembles de preuves spécifiques aux requêtes.",
+            "Atteint 91,43 % de précision sur LoCoMo, surpassant les modèles de référence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-19fd482bcf3c9a",
+      "title": "Not All Graphs Are Maps: Task-Agnostic GUI Navigation",
+      "summary": "This paper introduces TAG-Nav, a task-agnostic graph navigation framework that equips mobile GUI agents with reusable destination memory. Tested on DestBench, graph-derived memory improves navigation success rates across multiple baseline models.",
+      "keyPoints": [
+        "Introduces TAG-Nav for reusable app destination memory in mobile GUI agents.",
+        "Proposes DestBench as a navigation-only evaluation protocol.",
+        "Improves strict navigation success rates for tested models like UI-TARS and Qwen-VL."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22672",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Not All Graphs Are Maps: Task-Agnostic GUI Navigation",
+          "summary": "This paper introduces TAG-Nav, a task-agnostic graph navigation framework that equips mobile GUI agents with reusable destination memory. Tested on DestBench, graph-derived memory improves navigation success rates across multiple baseline models.",
+          "keyPoints": [
+            "Introduces TAG-Nav for reusable app destination memory in mobile GUI agents.",
+            "Proposes DestBench as a navigation-only evaluation protocol.",
+            "Improves strict navigation success rates for tested models like UI-TARS and Qwen-VL."
+          ]
+        },
+        "fr": {
+          "title": "Tous les graphiques ne sont pas des cartes : Navigation GUI agnostique",
+          "summary": "Cet article présente TAG-Nav, un cadre de navigation par graphe agnostique qui dote les agents GUI mobiles d'une mémoire de destination réutilisable. Testé sur DestBench, la mémoire améliorée augmente les taux de réussite de navigation.",
+          "keyPoints": [
+            "Introduit TAG-Nav pour la mémoire de destination d'applications dans les agents GUI.",
+            "Propose DestBench comme protocole d'évaluation axé uniquement sur la navigation.",
+            "Améliore les taux de réussite de navigation pour des modèles comme UI-TARS et Qwen-VL."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-92c31f342073bc",
+      "title": "FlexUMM: Flexible Representation Learning for Unified Multimodal Models",
+      "summary": "FlexUMM is a flexible framework for unified multimodal models (UMMs) that dynamically allocates shared computation and specialized capacity. This approach reduces functional competition, improves accuracy, and enhances efficiency as a model-agnostic plug-in.",
+      "keyPoints": [
+        "Introduces FlexUMM to dynamically manage shared computation and specialized capacity in UMMs.",
+        "Improves accuracy by reducing competition between understanding and generation functionalities.",
+        "Works as a model-agnostic functional plug-in with code available on GitHub."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.22682",
+      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "FlexUMM: Flexible Representation Learning for Unified Multimodal Models",
+          "summary": "FlexUMM is a flexible framework for unified multimodal models (UMMs) that dynamically allocates shared computation and specialized capacity. This approach reduces functional competition, improves accuracy, and enhances efficiency as a model-agnostic plug-in.",
+          "keyPoints": [
+            "Introduces FlexUMM to dynamically manage shared computation and specialized capacity in UMMs.",
+            "Improves accuracy by reducing competition between understanding and generation functionalities.",
+            "Works as a model-agnostic functional plug-in with code available on GitHub."
+          ]
+        },
+        "fr": {
+          "title": "FlexUMM : Apprentissage de représentation flexible pour modèles multimodaux",
+          "summary": "FlexUMM est un cadre flexible pour les modèles multimodaux unifiés (UMM) qui gère dynamiquement le calcul partagé et la capacité spécialisée. Cette approche réduit la concurrence fonctionnelle et améliore la précision ainsi que l'efficacité.",
+          "keyPoints": [
+            "Introduit FlexUMM pour gérer dynamiquement le calcul et la capacité dans les UMM.",
+            "Améliore la précision en réduisant la concurrence entre compréhension et génération.",
+            "Fonctionne comme un module d'extension agnostique dont le code est disponible sur GitHub."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 25,
+    "itemsCollected": 369,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
