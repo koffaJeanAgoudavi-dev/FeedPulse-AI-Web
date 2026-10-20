@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-10-19T18:44:21.558Z",
+  "generatedAt": "2026-10-20T04:53:33.005Z",
   "items": [
+    {
+      "id": "feed-1dbe22633003a2",
+      "title": "Advancing coding in low‑resource programming languages",
+      "summary": "OpenAI is improving ChatGPT across low-resource programming languages, introducing new evaluations for software engineering, SQLite, and COBOL migration.",
+      "keyPoints": [
+        "Improving ChatGPT across low-resource programming languages",
+        "Introducing new evaluations for software engineering and SQLite",
+        "Focusing on COBOL migration tasks"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/low-resource-programming-languages",
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Advancing coding in low‑resource programming languages",
+          "summary": "OpenAI is improving ChatGPT across low-resource programming languages, introducing new evaluations for software engineering, SQLite, and COBOL migration.",
+          "keyPoints": [
+            "Improving ChatGPT across low-resource programming languages",
+            "Introducing new evaluations for software engineering and SQLite",
+            "Focusing on COBOL migration tasks"
+          ]
+        },
+        "fr": {
+          "title": "Amélioration du codage dans les langages rares",
+          "summary": "OpenAI améliore ChatGPT pour les langages de programmation à faibles ressources, avec de nouvelles évaluations pour le génie logiciel, SQLite et la migration COBOL.",
+          "keyPoints": [
+            "Amélioration de ChatGPT sur les langages de programmation à faibles ressources",
+            "Nouvelles évaluations introduites pour le génie logiciel et SQLite",
+            "Attention portée sur la migration COBOL"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-bfffab3c6c3a17",
       "title": "The Cost of Hindsight in Formal Theorem Proving",
@@ -741,54 +780,15 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-b569b425c7b4ed",
-      "title": "Measuring Effective-Horizon Compression in Multi-Turn Jailbreaks",
-      "summary": "This study measures effective-horizon compression in multi-turn jailbreaks by removing early attacker queries and re-running interactions. Findings show that roughly half of the original query sequence is sufficient to recover attack progress.",
-      "keyPoints": [
-        "Investigates effective-horizon compression by truncating early attacker queries in multi-turn jailbreaks.",
-        "Finds that approximately half of the original query sequence is sufficient to recover attack progress.",
-        "Shows short reward-propagation windows preserve calibrated defense performance close to full-trajectory returns."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22928",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Measuring Effective-Horizon Compression in Multi-Turn Jailbreaks",
-          "summary": "This study measures effective-horizon compression in multi-turn jailbreaks by removing early attacker queries and re-running interactions. Findings show that roughly half of the original query sequence is sufficient to recover attack progress.",
-          "keyPoints": [
-            "Investigates effective-horizon compression by truncating early attacker queries in multi-turn jailbreaks.",
-            "Finds that approximately half of the original query sequence is sufficient to recover attack progress.",
-            "Shows short reward-propagation windows preserve calibrated defense performance close to full-trajectory returns."
-          ]
-        },
-        "fr": {
-          "title": "Mesure de la compression de l'horizon effectif dans les évasions multi-tours",
-          "summary": "Cette étude mesure la compression de l'horizon effectif dans les évasions de sécurité multi-tours en supprimant les premières requêtes de l'attaquant. Les résultats montrent qu'environ la moitié de la séquence suffit.",
-          "keyPoints": [
-            "Étudie la compression de l'horizon effectif en tronquant les requêtes précoces des attaquants.",
-            "Montre qu'environ la moitié de la séquence de requêtes initiale suffit pour récupérer la progression.",
-            "Indique que des fenêtres courtes préservent des performances de défense calibrées."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 370,
+    "itemsCollected": 28,
     "itemsPublished": 20,
-    "newItems": 20,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 1,
+    "candidates": 1,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
