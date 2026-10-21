@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-20T17:10:03.102Z",
+  "generatedAt": "2026-10-21T04:51:50.849Z",
   "items": [
     {
-      "id": "feed-1dbe22633003a2",
-      "title": "Advancing coding in low‑resource programming languages",
-      "summary": "OpenAI is improving ChatGPT across low-resource programming languages, introducing new evaluations for software engineering, SQLite, and COBOL migration.",
+      "id": "feed-321cffa584ccdd",
+      "title": "Navalia: Advancing Cowork Agents with Verifiable Task Synthesis",
+      "summary": "Navalia is a framework designed to improve Cowork Agents by combining verifiable task synthesis and long-horizon post-training. Using corporate financial reports, it selects supporting evidence and constructs computation chains. Initialized from Qwen3.6-35B-A3B, Navalia outperforms the base model across five benchmarks.",
       "keyPoints": [
-        "Improving ChatGPT across low-resource programming languages",
-        "Introducing new evaluations for software engineering and SQLite",
-        "Focusing on COBOL migration tasks"
+        "Combines verifiable task synthesis with long-horizon post-training.",
+        "Uses corporate financial reports to build verifiable analytical tasks.",
+        "Achieves consistent gains across five benchmarks using Qwen3.6-35B-A3B."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/low-resource-programming-languages",
-      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.26887",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Advancing coding in low‑resource programming languages",
-          "summary": "OpenAI is improving ChatGPT across low-resource programming languages, introducing new evaluations for software engineering, SQLite, and COBOL migration.",
+          "title": "Navalia: Advancing Cowork Agents with Verifiable Task Synthesis",
+          "summary": "Navalia is a framework designed to improve Cowork Agents by combining verifiable task synthesis and long-horizon post-training. Using corporate financial reports, it selects supporting evidence and constructs computation chains. Initialized from Qwen3.6-35B-A3B, Navalia outperforms the base model across five benchmarks.",
           "keyPoints": [
-            "Improving ChatGPT across low-resource programming languages",
-            "Introducing new evaluations for software engineering and SQLite",
-            "Focusing on COBOL migration tasks"
+            "Combines verifiable task synthesis with long-horizon post-training.",
+            "Uses corporate financial reports to build verifiable analytical tasks.",
+            "Achieves consistent gains across five benchmarks using Qwen3.6-35B-A3B."
           ]
         },
         "fr": {
-          "title": "Amélioration du codage dans les langages rares",
-          "summary": "OpenAI améliore ChatGPT pour les langages de programmation à faibles ressources, avec de nouvelles évaluations pour le génie logiciel, SQLite et la migration COBOL.",
+          "title": "Navalia : faire progresser les agents collaboratifs grâce à la synthèse",
+          "summary": "Navalia est un framework conçu pour améliorer les agents collaboratifs en combinant la synthèse de tâches vérifiables et le post-entraînement à long horizon. À partir de rapports financiers, il sélectionne des preuves et élabore des chaînes de calcul. Initialisé avec Qwen3.6-35B-A3B, Navalia surpasse le modèle de base.",
           "keyPoints": [
-            "Amélioration de ChatGPT sur les langages de programmation à faibles ressources",
-            "Nouvelles évaluations introduites pour le génie logiciel et SQLite",
-            "Attention portée sur la migration COBOL"
+            "Combine la synthèse de tâches vérifiables et le post-entraînement à long horizon.",
+            "Utilise des rapports financiers d'entreprise pour créer des tâches analytiques vérifiables.",
+            "Obtient des gains constants sur cinq benchmarks grâce à Qwen3.6-35B-A3B."
           ]
         }
       },
@@ -41,114 +41,387 @@
       }
     },
     {
-      "id": "feed-bfffab3c6c3a17",
-      "title": "The Cost of Hindsight in Formal Theorem Proving",
-      "summary": "This study examines verifier-guided self-repair in Lean theorem proving, testing Qwen3.6-27B and DeepSeek-Prover-V2-7B. Results show that showing models their failed proof attempts reduces success and increases copying, though compiler errors can sometimes recover performance. However, no feedback condition outperformed instruction-only resampling.",
+      "id": "feed-c7c1db1d24f97b",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "summary": "Widespread AI adoption is driving Southeast Asia's digital economy to reach a projected $368 billion in 2026 and an estimated $1 trillion by the year 2035.",
       "keyPoints": [
-        "Tested frozen general and specialized provers on MiniF2F problems.",
-        "Revealed that showing failed predecessors reduces success and increases copying.",
-        "Found no tested feedback condition beat simple instruction-only resampling."
+        "AI adoption is propelling Southeast Asia's digital economy.",
+        "Projected to hit $368 billion in 2026.",
+        "Expected to reach $1 trillion by 2035."
       ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22698",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
+      "category": "Business",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Image_e-Conomy_SEA_2026.width-1300.png",
       "translations": {
         "en": {
-          "title": "The Cost of Hindsight in Formal Theorem Proving",
-          "summary": "This study examines verifier-guided self-repair in Lean theorem proving, testing Qwen3.6-27B and DeepSeek-Prover-V2-7B. Results show that showing models their failed proof attempts reduces success and increases copying, though compiler errors can sometimes recover performance. However, no feedback condition outperformed instruction-only resampling.",
+          "title": "Southeast Asia’s digital economy to hit $368 billion",
+          "summary": "Widespread AI adoption is driving Southeast Asia's digital economy to reach a projected $368 billion in 2026 and an estimated $1 trillion by the year 2035.",
           "keyPoints": [
-            "Tested frozen general and specialized provers on MiniF2F problems.",
-            "Revealed that showing failed predecessors reduces success and increases copying.",
-            "Found no tested feedback condition beat simple instruction-only resampling."
+            "AI adoption is propelling Southeast Asia's digital economy.",
+            "Projected to hit $368 billion in 2026.",
+            "Expected to reach $1 trillion by 2035."
           ]
         },
         "fr": {
-          "title": "Le coût de la rétroaction dans la démonstration de théorèmes",
-          "summary": "Cette étude examine l'auto-correction guidée par vérificateur dans la démonstration de théorèmes Lean, en testant Qwen3.6-27B et DeepSeek-Prover-V2-7B. Les résultats montrent que montrer aux modèles leurs tentatives échouées réduit le succès et augmente le copiage, bien que les erreurs de compilation puissent parfois rétablir la performance. Cependant, aucune condition de réingénierie n'a surperformé le rééchantillonnage basé uniquement sur les instructions.",
+          "title": "L'économie numérique en Asie du Sud-Est atteindra 368 milliards de dollars",
+          "summary": "L'adoption généralisée de l'IA propulse l'économie numérique de l'Asie du Sud-Est vers une projection de 368 milliards de dollars en 2026 et 1 000 milliards d'ici 2035.",
           "keyPoints": [
-            "Test de modèles de démonstration généraux et spécialisés sur des problèmes MiniF2F.",
-            "Mise en évidence qu'exposer les échecs précédents réduit les succès et accroît le copiage.",
-            "Aucune condition de rétroaction testée n'a surpassé le rééchantillonnage simple par instruction."
+            "L'adoption de l'IA stimule l'économie numérique d'Asie du Sud-Est.",
+            "Prévue à 368 milliards de dollars en 2026.",
+            "Estimée à 1 000 milliards de dollars d'ici 2035."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-8d64204124eb18",
-      "title": "Brain-Aligned Multimodal LLMs for Cartoon Movies",
-      "summary": "Researchers evaluated multimodal large language models against continuous human Theory of Mind and affective valence ratings across cartoon movies. Results indicate model ratings capture human temporal variations with stronger valence alignment, and can predict regional fMRI responses, supporting their use as scalable brain-predictive annotations.",
+      "id": "feed-1725d137aa3deb",
+      "title": "Franchisee reconciles cash faster with ChatGPT Work",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee reduced menu repricing time by 95%, reconciled cash in 94% less time using ChatGPT Work, and built a workflow capable of freeing up $100K in cash flow.",
       "keyPoints": [
-        "Compared MLLMs with continuous human Theory of Mind and affective ratings.",
-        "Demonstrated that model ratings capture human temporal variations and predict fMRI responses.",
-        "Showed stronger alignment for affective valence than for Theory of Mind."
+        "Cut menu repricing time by 95% using ChatGPT Work.",
+        "Reconciled cash in 94% less time.",
+        "Built a workflow to free up $100K in cash flow."
       ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22706",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/ted-taylor-restaurant",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Brain-Aligned Multimodal LLMs for Cartoon Movies",
-          "summary": "Researchers evaluated multimodal large language models against continuous human Theory of Mind and affective valence ratings across cartoon movies. Results indicate model ratings capture human temporal variations with stronger valence alignment, and can predict regional fMRI responses, supporting their use as scalable brain-predictive annotations.",
+          "title": "Franchisee reconciles cash faster with ChatGPT Work",
+          "summary": "An independent Schlotzsky’s and Cinnabon franchisee reduced menu repricing time by 95%, reconciled cash in 94% less time using ChatGPT Work, and built a workflow capable of freeing up $100K in cash flow.",
           "keyPoints": [
-            "Compared MLLMs with continuous human Theory of Mind and affective ratings.",
-            "Demonstrated that model ratings capture human temporal variations and predict fMRI responses.",
-            "Showed stronger alignment for affective valence than for Theory of Mind."
+            "Cut menu repricing time by 95% using ChatGPT Work.",
+            "Reconciled cash in 94% less time.",
+            "Built a workflow to free up $100K in cash flow."
           ]
         },
         "fr": {
-          "title": "LLM multimodaux alignés sur le cerveau pour films de dessins animés",
-          "summary": "Des chercheurs ont évalué des modèles de langage multimodaux par rapport à des notations humaines continues de théorie de l'esprit et de valence affective à travers des dessins animés. Les résultats indiquent que les notations des modèles captent les variations temporelles humaines avec un meilleur alignement sur la valence, et peuvent prédire des réponses fMRI régionales, soutenant leur usage pour des annotations prédictives du cerveau.",
+          "title": "Un franchiseur réconcilie sa trésorerie plus vite avec ChatGPT Work",
+          "summary": "Un franchiseur indépendant de Schlotzsky’s et Cinnabon a réduit le temps de refixation des prix de 95 %, réconcilié sa trésorerie 94 % plus rapidement grâce à ChatGPT Work et créé un flux de travail libérant 100 000 $ de liquidités.",
           "keyPoints": [
-            "Comparaison de MLLM avec des notes humaines continues de théorie de l'esprit et de valence.",
-            "Démonstration que les notes des modèles captent les variations temporelles et prédisent des réponses fMRI.",
-            "Alignement plus fort observé pour la valence affective que pour la théorie de l'esprit."
+            "A réduit le temps de refixation des prix du menu de 95 %.",
+            "A réconcilié la trésorerie 94 % plus rapidement.",
+            "A conçu un flux de travail libérant 100 000 $ de trésorerie."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-c8f0a1e7ad6a90",
-      "title": "GlobeBench: Evaluating Text-Based World Models",
-      "summary": "GlobeBench is a new benchmark featuring 1,632 tasks across five domains to evaluate text-based world models. Testing 20 general-purpose LLMs and specialized text world models, GPT-6 Astra achieved the highest success rate at 49.57%, while highlighting significant capability gaps when actions propagate to dependent objects.",
+      "id": "feed-93731f42a7ad5e",
+      "title": "LLM and reinforcement learning based autonomous construction",
+      "summary": "A study proposes an autonomous construction method using large language models and reinforcement learning. An enhanced soft actor-critic algorithm plans mobile crane actions, while ChatGPT 5 updates progress, provides safety details, and generates progress reports.",
       "keyPoints": [
-        "Introduces GlobeBench with 1,632 tasks across five domains and 19 simulation skills.",
-        "Evaluated 20 general-purpose and specialized models, with GPT-6 Astra leading at 49.57% success.",
-        "Found that task success drops sharply when changes propagate to dependent objects."
+        "Proposes an autonomous construction method integrating LLMs and reinforcement learning.",
+        "Uses an enhanced soft actor-critic algorithm to plan mobile crane actions.",
+        "Employs ChatGPT 5 to update construction progress and generate reports."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.26899",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LLM and reinforcement learning based autonomous construction",
+          "summary": "A study proposes an autonomous construction method using large language models and reinforcement learning. An enhanced soft actor-critic algorithm plans mobile crane actions, while ChatGPT 5 updates progress, provides safety details, and generates progress reports.",
+          "keyPoints": [
+            "Proposes an autonomous construction method integrating LLMs and reinforcement learning.",
+            "Uses an enhanced soft actor-critic algorithm to plan mobile crane actions.",
+            "Employs ChatGPT 5 to update construction progress and generate reports."
+          ]
+        },
+        "fr": {
+          "title": "Construction autonome basée sur les LLM et l'apprentissage par renforcement",
+          "summary": "Une étude propose une méthode de construction autonome combinant grands modèles de langage et apprentissage par renforcement. Un algorithme planifie les actions d'une grue mobile, tandis que ChatGPT 5 met à jour l'avancement et génère des rapports.",
+          "keyPoints": [
+            "Propose une méthode de construction autonome intégrant LLM et apprentissage par renforcement.",
+            "Utilise un algorithme pour planifier les actions d'une grue mobile.",
+            "Emploie ChatGPT 5 pour actualiser l'avancement du chantier et rédiger des rapports."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-aa8847d44cbae3",
+      "title": "Terminal X matches senior investor judgment with GPT-6.1",
+      "summary": "Terminal X’s Eval Agent uses GPT-6.1 Sol and grades outputs against a 54-criterion rubric, matching senior investor judgment 88.6% of the time while catching 25% more deviances from investment mandates.",
+      "keyPoints": [
+        "Terminal X uses an Eval Agent powered by GPT-6.1 Sol.",
+        "Grades outputs against a 54-criterion rubric.",
+        "Matches senior investor judgment 88.6% of the time and catches 25% more mandate deviances."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/terminal-x",
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Terminal X matches senior investor judgment with GPT-6.1",
+          "summary": "Terminal X’s Eval Agent uses GPT-6.1 Sol and grades outputs against a 54-criterion rubric, matching senior investor judgment 88.6% of the time while catching 25% more deviances from investment mandates.",
+          "keyPoints": [
+            "Terminal X uses an Eval Agent powered by GPT-6.1 Sol.",
+            "Grades outputs against a 54-criterion rubric.",
+            "Matches senior investor judgment 88.6% of the time and catches 25% more mandate deviances."
+          ]
+        },
+        "fr": {
+          "title": "Terminal X égale le jugement d'investisseurs avec GPT-6.1",
+          "summary": "L'agent d'évaluation de Terminal X utilise GPT-6.1 Sol pour noter les résultats selon une grille de 54 critères, égalant à 88,6 % le jugement d'investisseurs expérimentés tout en détectant 25 % d'écarts supplémentaires par rapport au mandat.",
+          "keyPoints": [
+            "Utilise un agent d'évaluation propulsé par GPT-6.1 Sol.",
+            "Note les résultats selon une grille de 54 critères.",
+            "Égale le jugement d'investisseurs à 88,6 % et repère plus d'écarts."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-46178924d1dbab",
+      "title": "Pareto-Optimal RTL Code Generation via Multi-Objective RL and LLMs",
+      "summary": "Researchers propose a learning method for LLM-based circuit generation that optimizes the quality and diversity of an entire circuit set in the PPA objective space. Evaluated on RTLLM v2, the method achieves improved relative Hypervolume.",
+      "keyPoints": [
+        "Optimizes entire circuit set quality and diversity in the PPA objective space.",
+        "Uses a reward function based on Hypervolume Contribution (HVC).",
+        "Evaluated on the RTLLM v2 benchmark with strong relative Hypervolume results."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.26904",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Pareto-Optimal RTL Code Generation via Multi-Objective RL and LLMs",
+          "summary": "Researchers propose a learning method for LLM-based circuit generation that optimizes the quality and diversity of an entire circuit set in the PPA objective space. Evaluated on RTLLM v2, the method achieves improved relative Hypervolume.",
+          "keyPoints": [
+            "Optimizes entire circuit set quality and diversity in the PPA objective space.",
+            "Uses a reward function based on Hypervolume Contribution (HVC).",
+            "Evaluated on the RTLLM v2 benchmark with strong relative Hypervolume results."
+          ]
+        },
+        "fr": {
+          "title": "Génération de code RTL Pareto-optimale par apprentissage multi-objectif",
+          "summary": "Des chercheurs proposent une méthode d'apprentissage pour la génération de circuits par LLM qui optimise la qualité et la diversité d'un ensemble complet de circuits dans l'espace d'objectifs PPA. Évaluée sur RTLLM v2, elle améliore l'hypervolume relatif.",
+          "keyPoints": [
+            "Optimise la qualité et la diversité d'un ensemble de circuits dans l'espace PPA.",
+            "Utilise une fonction de récompense basée sur la contribution à l'hypervolume (HVC).",
+            "Évaluée sur le benchmark RTLLM v2 avec de solides résultats."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1cfb6291fa158d",
+      "title": "OpenAI acquires Orchestra Bio",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, assisting biopharma teams in accelerating drug development and advancing new treatments.",
+      "keyPoints": [
+        "OpenAI announces the acquisition of Orchestra Bio.",
+        "Aims to bring AI-powered operations to life sciences R&D.",
+        "Helps biopharma teams accelerate drug development and treatments."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI acquires Orchestra Bio",
+          "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, assisting biopharma teams in accelerating drug development and advancing new treatments.",
+          "keyPoints": [
+            "OpenAI announces the acquisition of Orchestra Bio.",
+            "Aims to bring AI-powered operations to life sciences R&D.",
+            "Helps biopharma teams accelerate drug development and treatments."
+          ]
+        },
+        "fr": {
+          "title": "OpenAI fait l'acquisition d'Orchestra Bio",
+          "summary": "OpenAI acquiert Orchestra Bio afin d'intégrer des opérations alimentées par l'intelligence artificielle dans la R&D des sciences de la vie, aidant les équipes biopharmaceutiques à accélérer le développement de médicaments.",
+          "keyPoints": [
+            "OpenAI procède à l'acquisition d'Orchestra Bio.",
+            "Intègre l'IA dans la R&D des sciences de la vie.",
+            "Aide les équipes biopharmaceutiques à accélérer le développement de traitements."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a75390adc4db43",
+      "title": "MedPAO-Assist: Edge-Deployable Agentic AI for Radiology Reports",
+      "summary": "MedPAO-Assist is an edge-deployable agentic framework that generates structured radiology reports from voice commands using a small language model. Requiring ~3.3 GB peak RAM, it runs locally on a standard laptop CPU.",
+      "keyPoints": [
+        "Edge-deployable agentic framework for structured radiology reports.",
+        "Runs on a small language model in the 0.6B-parameter range.",
+        "Requires ~3.3 GB peak RAM and executes on a standard laptop CPU."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22708",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.26913",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "GlobeBench: Evaluating Text-Based World Models",
-          "summary": "GlobeBench is a new benchmark featuring 1,632 tasks across five domains to evaluate text-based world models. Testing 20 general-purpose LLMs and specialized text world models, GPT-6 Astra achieved the highest success rate at 49.57%, while highlighting significant capability gaps when actions propagate to dependent objects.",
+          "title": "MedPAO-Assist: Edge-Deployable Agentic AI for Radiology Reports",
+          "summary": "MedPAO-Assist is an edge-deployable agentic framework that generates structured radiology reports from voice commands using a small language model. Requiring ~3.3 GB peak RAM, it runs locally on a standard laptop CPU.",
           "keyPoints": [
-            "Introduces GlobeBench with 1,632 tasks across five domains and 19 simulation skills.",
-            "Evaluated 20 general-purpose and specialized models, with GPT-6 Astra leading at 49.57% success.",
-            "Found that task success drops sharply when changes propagate to dependent objects."
+            "Edge-deployable agentic framework for structured radiology reports.",
+            "Runs on a small language model in the 0.6B-parameter range.",
+            "Requires ~3.3 GB peak RAM and executes on a standard laptop CPU."
           ]
         },
         "fr": {
-          "title": "GlobeBench : évaluation de modèles du monde textuels",
-          "summary": "GlobeBench est un nouveau banc d'essai comprenant 1 632 tâches à travers cinq domaines pour évaluer les modèles du monde textuels. En testant 20 LLM généralistes et modèles textuels spécialisés, GPT-6 Astra a atteint le taux de réussite le plus élevé avec 49,57 %, tout en soulignant d'importantes lacunes lorsque les actions se propagent aux objets dépendants.",
+          "title": "MedPAO-Assist : IA agentique déployable en périphérie pour la radiologie",
+          "summary": "MedPAO-Assist est un framework agentique déployable en périphérie qui génère des rapports radiologiques structurés à partir de commandes vocales grâce à un petit modèle de langage, s'exécutant sur un CPU d'ordinateur standard.",
           "keyPoints": [
-            "Présentation de GlobeBench avec 1 632 tâches réparties sur cinq domaines et 19 compétences de simulation.",
-            "Évaluation de 20 modèles, GPT-6 Astra obtenant le meilleur score avec 49,57 % de réussite.",
-            "Constat d'une chute brutale du succès lorsque les modifications se propagent à des objets dépendants."
+            "Framework agentique pour des rapports radiologiques structurés.",
+            "S'appuie sur un petit modèle de langage de la tranche de 0,6 milliard de paramètres.",
+            "Requiert environ 3,3 Go de RAM et tourne sur un processeur d'ordinateur portable standard."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2fbb462a3743ef",
+      "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+      "summary": "DataPraxis is an analytics task synthesis framework based on verified workspace evolution. It constructs tasks from accumulated findings and dependencies, yielding the DataPraxis-5K dataset and models like DataPraxis-27B.",
+      "keyPoints": [
+        "Framework based on verified workspace evolution for analytics tasks.",
+        "Constructs tasks from accumulated findings and dependencies.",
+        "Produces DataPraxis-5K dataset and trains high-performing DataPraxis models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.26924",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+          "summary": "DataPraxis is an analytics task synthesis framework based on verified workspace evolution. It constructs tasks from accumulated findings and dependencies, yielding the DataPraxis-5K dataset and models like DataPraxis-27B.",
+          "keyPoints": [
+            "Framework based on verified workspace evolution for analytics tasks.",
+            "Constructs tasks from accumulated findings and dependencies.",
+            "Produces DataPraxis-5K dataset and trains high-performing DataPraxis models."
+          ]
+        },
+        "fr": {
+          "title": "DataPraxis : mise à l'échelle des tâches d'analyse via l'évolution d'espaces",
+          "summary": "DataPraxis est un framework de synthèse de tâches analytiques basé sur l'évolution d'espaces de travail vérifiés. Il élabore des tâches à partir de découvertes accumulées, donnant naissance au jeu de données DataPraxis-5K et aux modèles DataPraxis.",
+          "keyPoints": [
+            "Framework basé sur l'évolution d'espaces de travail vérifiés pour l'analyse.",
+            "Construit des tâches à partir de conclusions et de dépendances accumulées.",
+            "Génère le jeu de données DataPraxis-5K et des modèles performants."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3410e52a9f5f60",
+      "title": "Industrial Agentic AI: LLM-Driven Agents for Smart Manufacturing",
+      "summary": "This article presents a systematic overview of LLM-driven industrial agents for smart manufacturing. It analyzes key challenges, establishes a unified taxonomy across five capability levels, and proposes a four-layer system architecture.",
+      "keyPoints": [
+        "Provides a systematic overview of LLM-driven industrial agents.",
+        "Establishes a unified taxonomy across five capability levels for smart manufacturing.",
+        "Proposes a four-layer system architecture for closed-loop task execution."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.26941",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Industrial Agentic AI: LLM-Driven Agents for Smart Manufacturing",
+          "summary": "This article presents a systematic overview of LLM-driven industrial agents for smart manufacturing. It analyzes key challenges, establishes a unified taxonomy across five capability levels, and proposes a four-layer system architecture.",
+          "keyPoints": [
+            "Provides a systematic overview of LLM-driven industrial agents.",
+            "Establishes a unified taxonomy across five capability levels for smart manufacturing.",
+            "Proposes a four-layer system architecture for closed-loop task execution."
+          ]
+        },
+        "fr": {
+          "title": "IA agentique industrielle : agents pilotés par LLM pour la fabrication",
+          "summary": "Cet article présente un aperçu systématique des agents industriels pilotés par des LLM pour la fabrication intelligente. Il analyse les défis clés, établit une taxonomie unifiée sur cinq niveaux et propose une architecture à quatre couches.",
+          "keyPoints": [
+            "Offre une vue d'ensemble systématique des agents industriels pilotés par LLM.",
+            "Établit une taxonomie unifiée sur cinq niveaux de capacité pour la fabrication.",
+            "Propose une architecture système à quatre couches pour l'exécution de tâches."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-66981a97c4d493",
+      "title": "Bounded Compiler-Guided Repair in Lean 4",
+      "summary": "This paper introduces a bounded, online step-level repair module for automated theorem provers in Lean 4. By feeding compiler error messages to a pretrained repair model instead of discarding failed tactics, the method achieves up to a 32% relative gain and solves 82 additional theorems on a LeanDojo subset.",
+      "keyPoints": [
+        "Introduces a step-level repair module using compiler error messages in Lean 4.",
+        "Achieves up to a 32% relative gain over sampling baselines across tested budgets.",
+        "Captures 84 to 96% of total gains on the first repair attempt, mainly fixing shallow execution failures."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.26942",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Bounded Compiler-Guided Repair in Lean 4",
+          "summary": "This paper introduces a bounded, online step-level repair module for automated theorem provers in Lean 4. By feeding compiler error messages to a pretrained repair model instead of discarding failed tactics, the method achieves up to a 32% relative gain and solves 82 additional theorems on a LeanDojo subset.",
+          "keyPoints": [
+            "Introduces a step-level repair module using compiler error messages in Lean 4.",
+            "Achieves up to a 32% relative gain over sampling baselines across tested budgets.",
+            "Captures 84 to 96% of total gains on the first repair attempt, mainly fixing shallow execution failures."
+          ]
+        },
+        "fr": {
+          "title": "Réparation guidée par le compilateur dans Lean 4",
+          "summary": "Cet article présente un module de réparation en ligne et borné pour les prouveurs de théorèmes automatisés dans Lean 4. En transmettant les messages d'erreur du compilateur à un modèle de réparation pré-entraîné au lieu d'ignorer les tactiques échouées, la méthode atteint un gain relatif allant jusqu'à 32 %.",
+          "keyPoints": [
+            "Introduit un module de réparation basé sur les erreurs du compilateur dans Lean 4.",
+            "Atteint jusqu'à 32 % de gain relatif par rapport aux bases de référence.",
+            "Capte 84 à 96 % des gains totaux dès la première tentative de réparation."
           ]
         }
       },
@@ -158,36 +431,36 @@
       }
     },
     {
-      "id": "feed-de0e85c7fd70bf",
-      "title": "LEMON: Zero-Shot Misbehavior Monitoring on New LLMs",
-      "summary": "LEMON (Language-model Equivariant MOnitoring Network) is a graph neural network-based monitor designed to detect model misbehaviors zero-shot across different LLMs. By treating cross-model attention mismatches as algebraic symmetries, LEMON outperforms baseline methods on hallucination and jailbreak monitoring tasks across 16 LLMs.",
+      "id": "feed-4dadc7afdfda6c",
+      "title": "MAMath-Bench for Multimodal Multi-Agent Mathematical Reasoning",
+      "summary": "The authors introduce MAMath-Bench, a process-aware benchmark comprising 1,003 problems across 11 categories to evaluate multimodal multi-agent systems. The evaluation reveals that multi-agent collaboration does not consistently improve final accuracy and systems remain vulnerable to adversarial perturbations.",
       "keyPoints": [
-        "Introduces LEMON, an equivariant online graph neural network monitor for LLMs.",
-        "Characterizes cross-model attention mismatches as algebraic symmetries.",
-        "Outperforms baselines on hallucination and jailbreak monitoring across 16 models."
+        "MAMath-Bench evaluates multimodal mathematical reasoning across 1,003 problems and 11 categories.",
+        "Multi-agent collaboration does not consistently improve final-answer accuracy over single LLMs.",
+        "Current systems remain vulnerable to adversarial reasoning-chain perturbations."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22723",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.26943",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LEMON: Zero-Shot Misbehavior Monitoring on New LLMs",
-          "summary": "LEMON (Language-model Equivariant MOnitoring Network) is a graph neural network-based monitor designed to detect model misbehaviors zero-shot across different LLMs. By treating cross-model attention mismatches as algebraic symmetries, LEMON outperforms baseline methods on hallucination and jailbreak monitoring tasks across 16 LLMs.",
+          "title": "MAMath-Bench for Multimodal Multi-Agent Mathematical Reasoning",
+          "summary": "The authors introduce MAMath-Bench, a process-aware benchmark comprising 1,003 problems across 11 categories to evaluate multimodal multi-agent systems. The evaluation reveals that multi-agent collaboration does not consistently improve final accuracy and systems remain vulnerable to adversarial perturbations.",
           "keyPoints": [
-            "Introduces LEMON, an equivariant online graph neural network monitor for LLMs.",
-            "Characterizes cross-model attention mismatches as algebraic symmetries.",
-            "Outperforms baselines on hallucination and jailbreak monitoring across 16 models."
+            "MAMath-Bench evaluates multimodal mathematical reasoning across 1,003 problems and 11 categories.",
+            "Multi-agent collaboration does not consistently improve final-answer accuracy over single LLMs.",
+            "Current systems remain vulnerable to adversarial reasoning-chain perturbations."
           ]
         },
         "fr": {
-          "title": "LEMON : Surveillance sans réentraînement des comportements déviants des LLM",
-          "summary": "LEMON (Language-model Equivariant MOnitoring Network) est un moniteur basé sur un réseau de neurones sur graphes conçu pour détecter les comportements indésirables de manière zéro-shot à travers différents LLM. En traitant les divergences d'attention inter-modèles comme des symétries algébriques, LEMON surpasse les méthodes de référence sur les tâches de hallucination et de contournement.",
+          "title": "MAMath-Bench pour le raisonnement mathématique multimodal multi-agent",
+          "summary": "Les auteurs présentent MAMath-Bench, un benchmark évaluant les systèmes multi-agents multimodaux à travers 1 003 problèmes. L'évaluation révèle que la collaboration multi-agent n'améliore pas systématiquement la précision finale et que les systèmes restent vulnérables aux perturbations.",
           "keyPoints": [
-            "Introduction de LEMON, un moniteur invariant par équivariance basé sur des graphes.",
-            "Caractérisation des décalages d'attention inter-modèles comme des symétries algébriques.",
-            "Supériorité face aux bases de référence sur la surveillance des hallucinations et du contournement sur 16 LLM."
+            "MAMath-Bench évalue le raisonnement mathématique multimodal sur 1 003 problèmes.",
+            "La collaboration multi-agent n'améliore pas toujours la précision des réponses finales.",
+            "Les systèmes actuels restent vulnérables aux perturbations contradictoires."
           ]
         }
       },
@@ -197,36 +470,36 @@
       }
     },
     {
-      "id": "feed-5df936050babca",
-      "title": "Graph Serializations for Reasoning LLMs",
-      "summary": "This study evaluates 15 graph representation formats across nine frontier LLM configurations on knowledge extraction and structural reasoning tasks. While knowledge extraction is insensitive to serialization, structural reasoning performance varies significantly, indicating that optimal graph representation depends on model, query, and task dynamics.",
+      "id": "feed-8ee03648982651",
+      "title": "LightCRS: Lightweight Multi-Domain Conversational Recommendation",
+      "summary": "This paper proposes LightCRS, a lightweight, query-conditioned framework for unified multi-domain multimodal conversational recommendation. Using a compact 5.3M-parameter module with shared parameters, LightCRS achieves state-of-the-art results while reducing per-query latency significantly.",
       "keyPoints": [
-        "Evaluated 15 graph serialization formats across nine frontier LLM setups.",
-        "Found knowledge extraction to be relatively insensitive to formatting choices.",
-        "Demonstrated that structural reasoning accuracy heavily depends on optimal graph representation selection."
+        "Proposes LightCRS for unified multi-domain conversational product recommendation.",
+        "Uses a compact 5.3M-parameter query-conditioned cross-attention module.",
+        "Improves HR@1 by 35.4% over baselines and reduces per-query latency drastically."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22734",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.26948",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Graph Serializations for Reasoning LLMs",
-          "summary": "This study evaluates 15 graph representation formats across nine frontier LLM configurations on knowledge extraction and structural reasoning tasks. While knowledge extraction is insensitive to serialization, structural reasoning performance varies significantly, indicating that optimal graph representation depends on model, query, and task dynamics.",
+          "title": "LightCRS: Lightweight Multi-Domain Conversational Recommendation",
+          "summary": "This paper proposes LightCRS, a lightweight, query-conditioned framework for unified multi-domain multimodal conversational recommendation. Using a compact 5.3M-parameter module with shared parameters, LightCRS achieves state-of-the-art results while reducing per-query latency significantly.",
           "keyPoints": [
-            "Evaluated 15 graph serialization formats across nine frontier LLM setups.",
-            "Found knowledge extraction to be relatively insensitive to formatting choices.",
-            "Demonstrated that structural reasoning accuracy heavily depends on optimal graph representation selection."
+            "Proposes LightCRS for unified multi-domain conversational product recommendation.",
+            "Uses a compact 5.3M-parameter query-conditioned cross-attention module.",
+            "Improves HR@1 by 35.4% over baselines and reduces per-query latency drastically."
           ]
         },
         "fr": {
-          "title": "Sérialisations de graphes pour les LLM de raisonnement",
-          "summary": "Cette étude évalue 15 formats de représentation de graphes à travers neuf configurations de LLM frontières sur des tâches d'extraction de connaissances et de raisonnement structurel. Alors que l'extraction est insensible à la sérialisation, la performance en raisonnement structurel varie considérablement, indiquant que la représentation optimale dépend du modèle, de la requête et de la tâche.",
+          "title": "LightCRS : Recommandation conversationnelle multi-domaine légère",
+          "summary": "Cet article propose LightCRS, un cadre léger conditionné par les requêtes pour la recommandation conversationnelle multimodale. Doté d'un module compact de 5,3 millions de paramètres, LightCRS atteint des performances de pointe tout en réduisant la latence.",
           "keyPoints": [
-            "Évaluation de 15 formats de sérialisation sur neuf configurations de LLM de pointe.",
-            "Constat d'une insensibilité de l'extraction de connaissances face aux choix de formats.",
-            "Démonstration que la précision du raisonnement structurel dépend fortement du choix de représentation."
+            "Propose LightCRS pour la recommandation de produits conversationnelle multi-domaine.",
+            "Utilise un module compact de 5,3 millions de paramètres partagés.",
+            "Améliore le HR@1 de 35,4 % par rapport aux références existantes."
           ]
         }
       },
@@ -236,36 +509,36 @@
       }
     },
     {
-      "id": "feed-e0e322c3332399",
-      "title": "R2Orch: Recursive Self-Improvement for Agent Orchestration",
-      "summary": "R2Orch is a recursive self-play orchestration paradigm featuring an inner loop that improves the orchestrator on self-chosen tasks and an outer loop enhancing the process via skill internalization. Tested across twelve datasets, R2Orch consistently outperforms baseline models in question answering, math, code, and interactive tasks.",
+      "id": "feed-10f476c8a9f7ea",
+      "title": "Separating Structural Complexity from Semantic Interpretability in LLM Planning",
+      "summary": "This study examines STRIPS planning domains to separate structural difficulty from semantic vocabulary interpretation in LLMs. Results show that symbolic heuristics estimate structural difficulty well, and LLM planning success drops significantly when predicates are progressively renamed.",
       "keyPoints": [
-        "Proposes R2Orch, integrating inner-loop self-play with outer-loop skill withdrawal.",
-        "Introduces Recursive Learnability to reward tasks with diverse rollout outcomes.",
-        "Outperforms baselines on twelve datasets across QA, math, coding, and interactive tasks."
+        "Investigates planning difficulty by separating structure from semantic interpretability.",
+        "The zero-training delete-relaxation heuristic h_add effectively predicts structural difficulty.",
+        "LLM planning success drops from 67.5% to 40.0% as predicates are progressively renamed."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22740",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.26964",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "R2Orch: Recursive Self-Improvement for Agent Orchestration",
-          "summary": "R2Orch is a recursive self-play orchestration paradigm featuring an inner loop that improves the orchestrator on self-chosen tasks and an outer loop enhancing the process via skill internalization. Tested across twelve datasets, R2Orch consistently outperforms baseline models in question answering, math, code, and interactive tasks.",
+          "title": "Separating Structural Complexity from Semantic Interpretability in LLM Planning",
+          "summary": "This study examines STRIPS planning domains to separate structural difficulty from semantic vocabulary interpretation in LLMs. Results show that symbolic heuristics estimate structural difficulty well, and LLM planning success drops significantly when predicates are progressively renamed.",
           "keyPoints": [
-            "Proposes R2Orch, integrating inner-loop self-play with outer-loop skill withdrawal.",
-            "Introduces Recursive Learnability to reward tasks with diverse rollout outcomes.",
-            "Outperforms baselines on twelve datasets across QA, math, coding, and interactive tasks."
+            "Investigates planning difficulty by separating structure from semantic interpretability.",
+            "The zero-training delete-relaxation heuristic h_add effectively predicts structural difficulty.",
+            "LLM planning success drops from 67.5% to 40.0% as predicates are progressively renamed."
           ]
         },
         "fr": {
-          "title": "R2Orch : Auto-amélioration récursive pour l'orchestration d'agents",
-          "summary": "R2Orch est un paradigme d'orchestration par auto-jeu récursif comprenant une boucle interne qui améliore l'orchestrateur sur des tâches choisies et une boucle externe améliorant le processus par internalisation des compétences. Testé sur douze ensembles de données, R2Orch surpasse systématiquement les modèles de base.",
+          "title": "Séparation de la complexité structurelle et de l'interprétabilité sémantique",
+          "summary": "Cette étude examine les domaines de planification STRIPS pour distinguer la difficulté structurelle de l'interprétation sémantique chez les LLM. Les résultats montrent que les heuristiques symboliques estiment bien la structure et que le succès baisse lors du renommage des prédicats.",
           "keyPoints": [
-            "Proposition de R2Orch combinant auto-jeu interne et retrait de compétences externe.",
-            "Introduction de l'apprenabilité récursive pour récompenser des tâches aux résultats variés.",
-            "Supériorité démontrée sur douze jeux de données en questions-réponses, mathématiques et code."
+            "Examine la difficulté de planification en séparant structure et sémantique.",
+            "L'heuristique h_add prédit efficacement la difficulté structurelle sans entraînement.",
+            "Le taux de réussite des LLM chute de 67,5 % à 40,0 % avec le renommage des prédicats."
           ]
         }
       },
@@ -275,36 +548,36 @@
       }
     },
     {
-      "id": "feed-04fad6ea9bff39",
-      "title": "Avoiding Over-Specification in Coding Benchmarks",
-      "summary": "AI coding benchmarks often suffer from under-specification causing guesswork or over-specification causing spoilers through leaked ground-truth hints. This paper examines specification levels across popular repository-level coding benchmarks and recommends techniques for deriving parsimonious hints to ensure reliable evaluations.",
+      "id": "feed-a7caf59272b369",
+      "title": "SPEM: Structure-Aware Procedural Memory for LLM Agents",
+      "summary": "The authors propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM agents. SPEM combines Atomic Skill Memory and Skill-DAG Memory to reduce token and runtime costs while maintaining high task success rates.",
       "keyPoints": [
-        "Analyzes task under-specification and over-specification in repository-level benchmarks.",
-        "Shows that leaking ground-truth info into task statements creates spoilers.",
-        "Provides recommendations and hints for obtaining reliable signals from benchmarks."
+        "Introduces SPEM to manage reusable skills efficiently in LLM-based agents.",
+        "Maintains Atomic Skill Memory and reusable Skill-DAG Memory compositions.",
+        "Reduces token and runtime costs while achieving strong success rates on benchmarks."
       ],
-      "category": "Outils",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22760",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.26995",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Avoiding Over-Specification in Coding Benchmarks",
-          "summary": "AI coding benchmarks often suffer from under-specification causing guesswork or over-specification causing spoilers through leaked ground-truth hints. This paper examines specification levels across popular repository-level coding benchmarks and recommends techniques for deriving parsimonious hints to ensure reliable evaluations.",
+          "title": "SPEM: Structure-Aware Procedural Memory for LLM Agents",
+          "summary": "The authors propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM agents. SPEM combines Atomic Skill Memory and Skill-DAG Memory to reduce token and runtime costs while maintaining high task success rates.",
           "keyPoints": [
-            "Analyzes task under-specification and over-specification in repository-level benchmarks.",
-            "Shows that leaking ground-truth info into task statements creates spoilers.",
-            "Provides recommendations and hints for obtaining reliable signals from benchmarks."
+            "Introduces SPEM to manage reusable skills efficiently in LLM-based agents.",
+            "Maintains Atomic Skill Memory and reusable Skill-DAG Memory compositions.",
+            "Reduces token and runtime costs while achieving strong success rates on benchmarks."
           ]
         },
         "fr": {
-          "title": "Éviter la sur-spécification dans les bancs d'essai de codage",
-          "summary": "Les bancs d'essai de code IA souffrent souvent de sous-spécification entraînant des suppositions ou de sur-spécification créant des spoilers via des indices fuité. Cet article examine les niveaux de spécification dans les benchmarks de code et recommande des techniques pour dériver des indices parcimonieux.",
+          "title": "SPEM : Mémoire procédurale sensible à la structure pour agents LLM",
+          "summary": "Les auteurs proposent SPEM, un cadre de mémoire procédurale léger et sensible à la structure pour une utilisation efficace des compétences. SPEM combine des mémoires de compétences atomiques et des graphes de tâches pour réduire les coûts.",
           "keyPoints": [
-            "Analyse de la sous-spécification et de la sur-spécification dans les benchmarks de code.",
-            "Démonstration que la fuite d'informations de vérité terrain engendre des spoilers.",
-            "Recommandations de techniques pour obtenir des signaux d'évaluation plus fiables."
+            "Introduit SPEM pour gérer les compétences réutilisables des agents LLM.",
+            "Combine une mémoire de compétences atomiques et des structures de graphes.",
+            "Réduit les coûts de jetons et d'exécution tout en obtenant de bons taux de réussite."
           ]
         }
       },
@@ -314,36 +587,153 @@
       }
     },
     {
-      "id": "feed-175b8fd8dc0272",
-      "title": "StoBasket: Joint Upsell and Cross-Sell Optimization",
-      "summary": "StoBasket introduces joint stochastic basket editing to optimize replacement and addition offers for retail contribution margins, coupling upsell and cross-sell response channels. Calibrated on public datasets, the exact optimizer captures nearly all attainable margin while solving real baskets within milliseconds.",
+      "id": "feed-52c93192312285",
+      "title": "Multi-Agent Collaboration and Clinical Hallucinations",
+      "summary": "This paper evaluates whether multi-agent LLM systems reduce hallucination in clinical tasks by scoring rationales across multiple models and topologies. The findings indicate that collaboration improves task performance but does not inherently lower hallucination as a general rule.",
       "keyPoints": [
-        "Presents joint stochastic basket editing for coupled upsell and cross-sell optimization.",
-        "Captures nearly all attainable margin in simulations on public basket datasets.",
-        "Provides an exact optimizer that solves tested real baskets within milliseconds."
+        "Evaluates hallucination within generated rationales across clinical tasks and topologies.",
+        "Finds that collaboration increases task performance but does not uniformly reduce hallucinations.",
+        "Shows that the model itself, rather than topology, dictates the level and direction of hallucination changes."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27027",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Multi-Agent Collaboration and Clinical Hallucinations",
+          "summary": "This paper evaluates whether multi-agent LLM systems reduce hallucination in clinical tasks by scoring rationales across multiple models and topologies. The findings indicate that collaboration improves task performance but does not inherently lower hallucination as a general rule.",
+          "keyPoints": [
+            "Evaluates hallucination within generated rationales across clinical tasks and topologies.",
+            "Finds that collaboration increases task performance but does not uniformly reduce hallucinations.",
+            "Shows that the model itself, rather than topology, dictates the level and direction of hallucination changes."
+          ]
+        },
+        "fr": {
+          "title": "Collaboration multi-agent et hallucinations cliniques",
+          "summary": "Cet article évaluent si les systèmes multi-agents réduisent les hallucinations dans les tâches cliniques en analysant les raisonnements. Les résultats indiquent que la collaboration améliore les performances mais ne réduit pas systématiquement les hallucinations.",
+          "keyPoints": [
+            "Évalue les hallucinations dans les justifications pour des tâches cliniques.",
+            "Montre que la collaboration améliore la performance sans baisser systématiquement les hallucinations.",
+            "Indique que le choix du modèle dicte principalement les variations d'hallucination."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cdc9b07e0aafe2",
+      "title": "Teaching AI Agents to Play Poker via Preference Optimization",
+      "summary": "The authors propose Strategic Preference Optimization with KL-anchored Equilibrium (SPOKE) to teach compact AI agents strategic poker behavior. Across experiments, SPOKE achieves lower mean exploitability and high policy agreement compared to baseline optimization methods.",
+      "keyPoints": [
+        "Proposes SPOKE combining value penalties, policy anchoring, and rationale supervision.",
+        "Aims to improve strategic behavior under hidden information like poker.",
+        "Achieves low mean exploitability and high top-1 agreement in evaluations."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27028",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Teaching AI Agents to Play Poker via Preference Optimization",
+          "summary": "The authors propose Strategic Preference Optimization with KL-anchored Equilibrium (SPOKE) to teach compact AI agents strategic poker behavior. Across experiments, SPOKE achieves lower mean exploitability and high policy agreement compared to baseline optimization methods.",
+          "keyPoints": [
+            "Proposes SPOKE combining value penalties, policy anchoring, and rationale supervision.",
+            "Aims to improve strategic behavior under hidden information like poker.",
+            "Achieves low mean exploitability and high top-1 agreement in evaluations."
+          ]
+        },
+        "fr": {
+          "title": "Apprendre à jouer au poker aux agents IA par optimisation des préférences",
+          "summary": "Les auteurs proposent SPOKE pour enseigner un comportement stratégique au poker à des agents IA compacts. Les expériences montrent que SPOKE obtient une exploitabilité moyenne plus faible et un accord élevé par rapport aux méthodes classiques.",
+          "keyPoints": [
+            "Propose SPOKE combinant pénalités de valeur et ancrage de politique.",
+            "Conçu pour améliorer le comportement stratégique sous information cachée.",
+            "Obtient une faible exploitabilité moyenne lors des évaluations."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-312ce490da179d",
+      "title": "M-Plan: Comprehensive Planning for LLM Agents with Memory Arrangement",
+      "summary": "This paper introduces M-Plan, a closed-loop multi-agent framework integrating long-term and short-term memory for long-horizon tasks. M-Plan uses global-local guidance and optimized long-term storage to enhance agent performance in complex environments.",
+      "keyPoints": [
+        "Proposes M-Plan, a closed-loop multi-agent framework for long-horizon tasks.",
+        "Integrates short-term global-local guidance with optimized long-term memory storage.",
+        "Addresses limitations of continuous decision-making and noise in multi-turn environments."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27032",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "M-Plan: Comprehensive Planning for LLM Agents with Memory Arrangement",
+          "summary": "This paper introduces M-Plan, a closed-loop multi-agent framework integrating long-term and short-term memory for long-horizon tasks. M-Plan uses global-local guidance and optimized long-term storage to enhance agent performance in complex environments.",
+          "keyPoints": [
+            "Proposes M-Plan, a closed-loop multi-agent framework for long-horizon tasks.",
+            "Integrates short-term global-local guidance with optimized long-term memory storage.",
+            "Addresses limitations of continuous decision-making and noise in multi-turn environments."
+          ]
+        },
+        "fr": {
+          "title": "M-Plan : Planification complète pour agents LLM avec gestion de la mémoire",
+          "summary": "Cet article présente M-Plan, un cadre multi-agent en boucle fermée intégrant mémoire à long terme et à court terme pour les tâches longues. M-Plan utilise des guidages globaux et locaux ainsi qu'un stockage optimisé.",
+          "keyPoints": [
+            "Propose M-Plan, un cadre multi-agent pour les tâches de longue durée.",
+            "Intègre des guidages à court terme et un stockage à long terme optimisé.",
+            "Résout les limites de prise de décision continue dans des environnements complexes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-acc51b4e38b492",
+      "title": "Physical AI: Concepts, Techniques, and Challenges",
+      "summary": "This monograph defines physical AI as artificial systems that perceive, model, and act upon the physical world through continuous feedback. It establishes a unified framework, reviews key methodologies, and examines challenges toward achieving physical AGI.",
+      "keyPoints": [
+        "Defines physical AI and establishes a unified technical framework.",
+        "Reviews methodologies including multimodal perception, world models, and motor control.",
+        "Examines challenges like sim-to-real transfer, safety, and governance for physical AGI."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22768",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27045",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "StoBasket: Joint Upsell and Cross-Sell Optimization",
-          "summary": "StoBasket introduces joint stochastic basket editing to optimize replacement and addition offers for retail contribution margins, coupling upsell and cross-sell response channels. Calibrated on public datasets, the exact optimizer captures nearly all attainable margin while solving real baskets within milliseconds.",
+          "title": "Physical AI: Concepts, Techniques, and Challenges",
+          "summary": "This monograph defines physical AI as artificial systems that perceive, model, and act upon the physical world through continuous feedback. It establishes a unified framework, reviews key methodologies, and examines challenges toward achieving physical AGI.",
           "keyPoints": [
-            "Presents joint stochastic basket editing for coupled upsell and cross-sell optimization.",
-            "Captures nearly all attainable margin in simulations on public basket datasets.",
-            "Provides an exact optimizer that solves tested real baskets within milliseconds."
+            "Defines physical AI and establishes a unified technical framework.",
+            "Reviews methodologies including multimodal perception, world models, and motor control.",
+            "Examines challenges like sim-to-real transfer, safety, and governance for physical AGI."
           ]
         },
         "fr": {
-          "title": "StoBasket : Optimisation conjointe de la vente incitative et croisée",
-          "summary": "StoBasket introduit l'édition conjointe de paniers stochastiques pour optimiser les offres de remplacement et d'ajout pour les marges de contribution en magasin, couplant les canaux d'incitation. Calibré sur des jeux de données publics, l'optimiseur exact capte presque toute la marge atteignable en quelques millisecondes.",
+          "title": "IA physique : Concepts, techniques et défis",
+          "summary": "Cette monographie définit l'IA physique comme des systèmes artificiels percevant et agissant sur le monde physique via une rétroaction continue. Elle établit un cadre unifié et examine les défis pour atteindre une intelligence générale physique.",
           "keyPoints": [
-            "Présentation de l'édition stochastique conjointe pour la vente incitative et croisée.",
-            "Capture de la quasi-totalité de la marge atteignable lors de simulations.",
-            "Fourniture d'un optimiseur exact résolvant les paniers réels en quelques millisecondes."
+            "Définit l'IA physique et établit un cadre technique unifié.",
+            "Passe en revue les méthodologies incluant perception multimodale et modèles du monde.",
+            "Examine les défis tels que le transfert sim-réel, la sécurité et la gouvernance."
           ]
         }
       },
@@ -353,444 +743,54 @@
       }
     },
     {
-      "id": "feed-4d3199c50c7134",
-      "title": "Stress-Testing Counterfactual Rationale Verification in Agents",
-      "summary": "When automated agents explain their design choices through counterfactual rationales, verifiers can check claims by negation and re-run. This paper introduces a pressure ratio and four falsifiable probes to stress-test these verifiers against agent optimization, revealing structural vulnerabilities where faithfulness declines unnoticed.",
+      "id": "feed-ac8ffa6199dc3b",
+      "title": "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems",
+      "summary": "The authors introduce ReuF2F, a Lean 4 benchmark featuring 244 formalized open undergraduate research problems. Using a standardized Docker harness, evaluation reveals that the best-performing model resolves only about 40% of the problems.",
       "keyPoints": [
-        "Introduces a pressure ratio and four probes to stress-test rationale verifiers in agents.",
-        "Evaluates the Rationale Consistency Score inside an LLM machine-learning pipeline designer.",
-        "Finds structural vulnerabilities where agent faithfulness declines without in-loop metrics noticing."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22779",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Stress-Testing Counterfactual Rationale Verification in Agents",
-          "summary": "When automated agents explain their design choices through counterfactual rationales, verifiers can check claims by negation and re-run. This paper introduces a pressure ratio and four falsifiable probes to stress-test these verifiers against agent optimization, revealing structural vulnerabilities where faithfulness declines unnoticed.",
-          "keyPoints": [
-            "Introduces a pressure ratio and four probes to stress-test rationale verifiers in agents.",
-            "Evaluates the Rationale Consistency Score inside an LLM machine-learning pipeline designer.",
-            "Finds structural vulnerabilities where agent faithfulness declines without in-loop metrics noticing."
-          ]
-        },
-        "fr": {
-          "title": "Tests de résistance de la vérification de rationalité contrefactuelle",
-          "summary": "Lorsque les agents automatisés expliquent leurs choix de conception par des rationalités contrefactuelles, les vérificateurs peuvent valider les revendications. Cet article introduit un ratio de pression et quatre sondes falsifiables pour tester ces vérificateurs face à l'optimisation des agents, révélant des vulnérabilités structurelles.",
-          "keyPoints": [
-            "Introduction d'un ratio de pression et de quatre sondes pour tester les vérificateurs de rationalité.",
-            "Évaluation du score de cohérence de rationalité au sein d'un agent de pipelines de ML.",
-            "Mise en évidence de baisses de fidélité non détectées par les métriques internes de boucle."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-84f0bfef9ee3de",
-      "title": "Emergent Misalignment in Reward Models via Preference Inversion",
-      "summary": "Fine-tuning reward models to prefer harmful responses in medical or financial domains generalizes across seven held-out domains. Mechanistically, this stems from geometric representation compression and scalar head rotation favoring harm tokens, showing reward models are vulnerable to preference inversions.",
-      "keyPoints": [
-        "Shows narrow harmful fine-tuning of reward models generalizes to seven held-out domains.",
-        "Demonstrates reward models are more vulnerable to preference inversions than language models.",
-        "Identifies geometric compression and head rotation as the underlying mechanism for harm preference."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22805",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Emergent Misalignment in Reward Models via Preference Inversion",
-          "summary": "Fine-tuning reward models to prefer harmful responses in medical or financial domains generalizes across seven held-out domains. Mechanistically, this stems from geometric representation compression and scalar head rotation favoring harm tokens, showing reward models are vulnerable to preference inversions.",
-          "keyPoints": [
-            "Shows narrow harmful fine-tuning of reward models generalizes to seven held-out domains.",
-            "Demonstrates reward models are more vulnerable to preference inversions than language models.",
-            "Identifies geometric compression and head rotation as the underlying mechanism for harm preference."
-          ]
-        },
-        "fr": {
-          "title": "Désalignement émergent dans les modèles de récompense par inversion",
-          "summary": "Le réglage fin des modèles de récompense pour préférer des réponses nuisibles dans les domaines médical ou financier se généralise à sept autres domaines. Mécaniquement, cela provient d'une compression géométrique des représentations et d'une rotation de la tête scalaire favorisant la nuisance, montrant leur vulnérabilité.",
-          "keyPoints": [
-            "Démontre qu'un fine-tuning malveillant ciblé de modèles de récompense se généralise à sept domaines.",
-            "Montre que les modèles de récompense sont plus vulnérables aux inversions de préférence que les LLM.",
-            "Identifie la compression géométrique et la rotation de tête comme mécanismes sous-jacents."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3e1d5c1af2c3a6",
-      "title": "World Action Critic Model for Joint Foresight and Policy Learning",
-      "summary": "The World Action Critic (WAC) model jointly learns candidate-conditioned future prediction and consequence evaluation for sequential decision-making. By allowing critic supervision to directly shape intermediate predictive representations, WAC achieves 93.4 PDMS on NAVSIM-v1 in autonomous driving tasks.",
-      "keyPoints": [
-        "Proposes multimodal action candidates and jointly learns future prediction and consequence evaluation.",
-        "Critic supervision shapes intermediate predictive representations without requiring observed futures for counterfactuals.",
-        "Achieves 93.4 PDMS on NAVSIM-v1 for autonomous driving applications."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22825",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "World Action Critic Model for Joint Foresight and Policy Learning",
-          "summary": "The World Action Critic (WAC) model jointly learns candidate-conditioned future prediction and consequence evaluation for sequential decision-making. By allowing critic supervision to directly shape intermediate predictive representations, WAC achieves 93.4 PDMS on NAVSIM-v1 in autonomous driving tasks.",
-          "keyPoints": [
-            "Proposes multimodal action candidates and jointly learns future prediction and consequence evaluation.",
-            "Critic supervision shapes intermediate predictive representations without requiring observed futures for counterfactuals.",
-            "Achieves 93.4 PDMS on NAVSIM-v1 for autonomous driving applications."
-          ]
-        },
-        "fr": {
-          "title": "Modèle World Action Critic pour la prévision conjointe et l'apprentissage",
-          "summary": "Le modèle World Action Critic (WAC) apprend conjointement la prédiction future conditionnée par les candidats et l'évaluation des conséquences pour la prise de décision. En permettant à la supervision du critique de façonner les représentations prédictives, WAC atteint 93.4 PDMS sur NAVSIM-v1.",
-          "keyPoints": [
-            "Propose des candidats d'action multimodaux et apprend la prédiction future et l'évaluation des conséquences.",
-            "La supervision du critique façonne les représentations prédictives intermédiaires sans futurs observés.",
-            "Atteint 93.4 PDMS sur NAVSIM-v1 pour des applications de conduite autonome."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e879b2e0560c53",
-      "title": "Evo-B&B: Behavior-Aware LLM-Guided Evolution for MILP Policies",
-      "summary": "Evo-B&B is an LLM-guided evolutionary framework that jointly evolves executable branching and node selection policies for Mixed-Integer Linear Programming using end-to-end SCIP solving feedback and a behavior-aware multi-island mechanism.",
-      "keyPoints": [
-        "Jointly evolves branching and node selection policies for MILP using LLM guidance and evolutionary frameworks.",
-        "Introduces a behavior-aware multi-island mechanism to preserve population diversity and reduce redundant evaluations.",
-        "Demonstrates competitive solving performance and generalization across four standard MILP benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22861",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evo-B&B: Behavior-Aware LLM-Guided Evolution for MILP Policies",
-          "summary": "Evo-B&B is an LLM-guided evolutionary framework that jointly evolves executable branching and node selection policies for Mixed-Integer Linear Programming using end-to-end SCIP solving feedback and a behavior-aware multi-island mechanism.",
-          "keyPoints": [
-            "Jointly evolves branching and node selection policies for MILP using LLM guidance and evolutionary frameworks.",
-            "Introduces a behavior-aware multi-island mechanism to preserve population diversity and reduce redundant evaluations.",
-            "Demonstrates competitive solving performance and generalization across four standard MILP benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Evo-B&B : Évolution guidée par LLM pour les politiques MILP",
-          "summary": "Evo-B&B est un cadre évolutif guidé par LLM qui fait évoluer conjointement des politiques de branchement et de sélection de nœuds pour la programmation linéaire en nombres entiers mixtes, en utilisant la rétroaction de résolution SCIP.",
-          "keyPoints": [
-            "Fait évoluer conjointement des politiques de branchement et de sélection de nœuds pour le MILP.",
-            "Introduit un mécanisme multi-île conscient du comportement pour préserver la diversité de la population.",
-            "Démontre des performances compétitives sur quatre bancs d'essai MILP standard."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2d6ccbaf012605",
-      "title": "MS-Eval: Benchmarking Sub-Agent Delegation and Orchestration",
-      "summary": "MS-Eval is a unified evaluation kit designed to assess sub-agent delegation and orchestration in MCP-intensive working scenarios. Evaluating several models reveals that sub-agent specialization is a key practical practice, with open-source models remaining competitive.",
-      "keyPoints": [
-        "Introduces MS-Eval, a unified evaluation kit comprising an MCP-intensive benchmark and tailored metrics.",
-        "Finds that sub-agent specialization is the best practical practice for Main-Agent Delegation frameworks.",
-        "Shows open-source models are largely competitive while MAD-SAE generally increases operational costs."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22869",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MS-Eval: Benchmarking Sub-Agent Delegation and Orchestration",
-          "summary": "MS-Eval is a unified evaluation kit designed to assess sub-agent delegation and orchestration in MCP-intensive working scenarios. Evaluating several models reveals that sub-agent specialization is a key practical practice, with open-source models remaining competitive.",
-          "keyPoints": [
-            "Introduces MS-Eval, a unified evaluation kit comprising an MCP-intensive benchmark and tailored metrics.",
-            "Finds that sub-agent specialization is the best practical practice for Main-Agent Delegation frameworks.",
-            "Shows open-source models are largely competitive while MAD-SAE generally increases operational costs."
-          ]
-        },
-        "fr": {
-          "title": "MS-Eval : Évaluation de la délégation et de l'orchestration de sous-agents",
-          "summary": "MS-Eval est un kit d'évaluation unifié conçu pour évaluer la délégation et l'orchestration de sous-agents dans des scénarios de travail intensifs en MCP. L'évaluation montre que la spécialisation des sous-agents est une bonne pratique essentielle.",
-          "keyPoints": [
-            "Introduit MS-Eval, un kit d'évaluation unifié comprenant un banc d'essai et des métriques adaptées.",
-            "Constate que la spécialisation des sous-agents est la meilleure pratique pour les cadres de délégation.",
-            "Montre que les modèles open source sont compétitifs tandis que les coûts augmentent généralement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d1e084b3b900ad",
-      "title": "ShadowFPT: Backdooring Federated Prompt Tuning via Shadow Triggers",
-      "summary": "ShadowFPT is a targeted backdoor attack against Federated Prompt Tuning that exploits frozen vision-language backbones. By pretraining a learnable Shadow Trigger against the encoder, the attack achieves high success rates while maintaining prompt-space stealthiness.",
-      "keyPoints": [
-        "Exploits frozen vision-language backbones as an underexplored backdoor surface in federated prompt tuning.",
-        "Pretrains a learnable Shadow Trigger to steer triggered inputs toward a target class in representation space.",
-        "Increases the attack success rate from 19.81% to 90.36% while preserving clean accuracy."
+        "Introduces ReuF2F, a Lean 4 benchmark of 244 formalized open research problems.",
+        "Designed to evaluate end-to-end coding agents on less prominent research tasks.",
+        "Evaluation shows the top model resolves approximately 40% of the problems."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22871",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27046",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ShadowFPT: Backdooring Federated Prompt Tuning via Shadow Triggers",
-          "summary": "ShadowFPT is a targeted backdoor attack against Federated Prompt Tuning that exploits frozen vision-language backbones. By pretraining a learnable Shadow Trigger against the encoder, the attack achieves high success rates while maintaining prompt-space stealthiness.",
+          "title": "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems",
+          "summary": "The authors introduce ReuF2F, a Lean 4 benchmark featuring 244 formalized open undergraduate research problems. Using a standardized Docker harness, evaluation reveals that the best-performing model resolves only about 40% of the problems.",
           "keyPoints": [
-            "Exploits frozen vision-language backbones as an underexplored backdoor surface in federated prompt tuning.",
-            "Pretrains a learnable Shadow Trigger to steer triggered inputs toward a target class in representation space.",
-            "Increases the attack success rate from 19.81% to 90.36% while preserving clean accuracy."
+            "Introduces ReuF2F, a Lean 4 benchmark of 244 formalized open research problems.",
+            "Designed to evaluate end-to-end coding agents on less prominent research tasks.",
+            "Evaluation shows the top model resolves approximately 40% of the problems."
           ]
         },
         "fr": {
-          "title": "ShadowFPT : Attaque porte dérobée dans le réglage de invites fédéré",
-          "summary": "ShadowFPT est une attaque par porte dérobée ciblée contre le réglage d'invite fédéré qui exploite les structures gelées de vision-langage. En pré-entraînant un déclencheur fantôme, l'attaque atteint des taux de réussite élevés.",
+          "title": "ReuF2F : Évaluation d'agents de codage sur des problèmes de recherche",
+          "summary": "Les auteurs présentent ReuF2F, un benchmark Lean 4 comprenant 244 problèmes de recherche ouverts et formalisés. À l'aide d'un conteneur d'évaluation standardisé, les tests montrent que le meilleur modèle résout environ 40 % des problèmes.",
           "keyPoints": [
-            "Exploite les dorsales gelées comme surface de porte dérobée dans le réglage d'invite fédéré.",
-            "Pré-entraîne un déclencheur fantôme pour orienter les entrées vers une classe cible dans l'espace de représentation.",
-            "Augmente le taux de réussite de l'attaque de 19,81 % à 90,36 % tout en maintenant la précision."
+            "Introduit ReuF2F, un benchmark Lean 4 de 244 problèmes de recherche ouverts.",
+            "Conçu pour évaluer les agents de codage sur des tâches de recherche formelles.",
+            "L'évaluation montre que le meilleur modèle résout environ 40 % des problèmes."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a1d39d14bb8655",
-      "title": "Error Feedback Calibration for Time Series Forecasting",
-      "summary": "Error Feedback Calibration (EFC) is a fully test-time framework for deterministic post-hoc correction of time series forecasting. It uses a Causal Error Diagonal constructed from historical forecast errors to correct future predictions without parameter updates.",
-      "keyPoints": [
-        "Introduces Error Feedback Calibration (EFC) as a test-time framework for time series forecasting correction.",
-        "Constructs a Causal Error Diagonal to capture recent failure behaviors of a frozen forecaster.",
-        "Improves forecasting performance across multiple backbones while controlling harmful over-correction."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22872",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Error Feedback Calibration for Time Series Forecasting",
-          "summary": "Error Feedback Calibration (EFC) is a fully test-time framework for deterministic post-hoc correction of time series forecasting. It uses a Causal Error Diagonal constructed from historical forecast errors to correct future predictions without parameter updates.",
-          "keyPoints": [
-            "Introduces Error Feedback Calibration (EFC) as a test-time framework for time series forecasting correction.",
-            "Constructs a Causal Error Diagonal to capture recent failure behaviors of a frozen forecaster.",
-            "Improves forecasting performance across multiple backbones while controlling harmful over-correction."
-          ]
-        },
-        "fr": {
-          "title": "Étalonnage par rétroaction des erreurs pour la prévision de séries temporelles",
-          "summary": "L'étalonnage par rétroaction des erreurs (EFC) est un cadre de test pour la correction post-hoc déterministe des prévisions de séries temporelles. Il utilise une diagonale d'erreur causale pour corriger les prédictions futures.",
-          "keyPoints": [
-            "Introduit l'EFC comme cadre d'évaluation pour corriger les prévisions de séries temporelles.",
-            "Construit une diagonale d'erreur causale pour capturer les comportements d'échec récents.",
-            "Améliore les performances de prévision tout en contrôlant la surcorrection nuisible."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0bf94ff2c86b97",
-      "title": "ToPA: Block-wise Toeplitz Adaptation for Efficient Fine-Tuning",
-      "summary": "ToPA introduces block-wise Toeplitz adaptation for parameter-efficient fine-tuning of large pre-trained models. By replacing standard Toeplitz matrices with block-wise variants, ToPA stabilizes training, shortens multiplication chains, and improves expressiveness.",
-      "keyPoints": [
-        "Proposes ToPA, using block-wise Toeplitz matrices to parameterize model updates compactly.",
-        "Avoids gradient instability from long multiplicative chains by utilizing block-wise structures.",
-        "Validates effectiveness across 21 NLP and CV datasets spanning 5 model architectures."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22883",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ToPA: Block-wise Toeplitz Adaptation for Efficient Fine-Tuning",
-          "summary": "ToPA introduces block-wise Toeplitz adaptation for parameter-efficient fine-tuning of large pre-trained models. By replacing standard Toeplitz matrices with block-wise variants, ToPA stabilizes training, shortens multiplication chains, and improves expressiveness.",
-          "keyPoints": [
-            "Proposes ToPA, using block-wise Toeplitz matrices to parameterize model updates compactly.",
-            "Avoids gradient instability from long multiplicative chains by utilizing block-wise structures.",
-            "Validates effectiveness across 21 NLP and CV datasets spanning 5 model architectures."
-          ]
-        },
-        "fr": {
-          "title": "ToPA : Adaptation de Toeplitz par blocs pour un réglage fin efficace",
-          "summary": "ToPA introduit l'adaptation de Toeplitz par blocs pour le réglage fin efficace en paramètres de grands modèles pré-entraînés. ToPA stabilise l'entraînement, raccourcit les chaînes de multiplication et améliore l'expressivité.",
-          "keyPoints": [
-            "Propose ToPA, utilisant des matrices de Toeplitz par blocs pour paramétrer les mises à jour.",
-            "Évite l'instabilité des gradients liée aux longues chaînes multiplicatives.",
-            "Valide l'efficacité sur 21 ensembles de données NLP et CV à travers 5 architectures."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-44ffd895960524",
-      "title": "Risk-Controlled Context Adaptation for Long-Horizon Agents",
-      "summary": "RECAP is a framework for long-horizon agents that decides when to retain, compress, or remove history blocks based on risk constraints. On Hunyuan-A13B, it matches baseline success rates while significantly reducing prompt token costs.",
-      "keyPoints": [
-        "Introduces RECAP to manage context adaptation for long-horizon agents under risk constraints.",
-        "Uses matched context interventions and execution-relational prediction to evaluate history value.",
-        "Reduces unconditional mean prompt costs on Hunyuan-A13B while matching continuation success."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22897",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Risk-Controlled Context Adaptation for Long-Horizon Agents",
-          "summary": "RECAP is a framework for long-horizon agents that decides when to retain, compress, or remove history blocks based on risk constraints. On Hunyuan-A13B, it matches baseline success rates while significantly reducing prompt token costs.",
-          "keyPoints": [
-            "Introduces RECAP to manage context adaptation for long-horizon agents under risk constraints.",
-            "Uses matched context interventions and execution-relational prediction to evaluate history value.",
-            "Reduces unconditional mean prompt costs on Hunyuan-A13B while matching continuation success."
-          ]
-        },
-        "fr": {
-          "title": "Adaptation de contexte contrôlée par le risque pour agents à long horizon",
-          "summary": "RECAP est un cadre pour les agents à long horizon qui décide quand conserver, compresser ou supprimer des blocs d'historique en fonction de contraintes de risque. Sur Hunyuan-A13B, il réduit les coûts en jetons.",
-          "keyPoints": [
-            "Introduit RECAP pour gérer l'adaptation du contexte sous contraintes de risque.",
-            "Utilise des interventions contextuelles appariées pour évaluer la valeur de l'historique.",
-            "Réduit les coûts moyens de jetons sur Hunyuan-A13B tout en maintenant le succès."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3f5ff0f0f2d712",
-      "title": "Reward Engine: Reward-Centric Self-Evolution for Open-Ended Tool Agents",
-      "summary": "Reward Engine constructs station-based evaluation rewards from existing experience to guide open-ended tool agents. By establishing testcases and rubrics, it improves execution consistency and aligns closely with benchmark graders.",
-      "keyPoints": [
-        "Constructs a RewardPack of testcases and rubrics from initial trajectories and tasks.",
-        "Guides agents to revise outputs and serves as a stationary reward for reinforcement learning.",
-        "Raises three-run consistency Pass^3 on baseline tasks from 45.0% to 54.0% and 78.4% to 83.7%."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22915",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Reward Engine: Reward-Centric Self-Evolution for Open-Ended Tool Agents",
-          "summary": "Reward Engine constructs station-based evaluation rewards from existing experience to guide open-ended tool agents. By establishing testcases and rubrics, it improves execution consistency and aligns closely with benchmark graders.",
-          "keyPoints": [
-            "Constructs a RewardPack of testcases and rubrics from initial trajectories and tasks.",
-            "Guides agents to revise outputs and serves as a stationary reward for reinforcement learning.",
-            "Raises three-run consistency Pass^3 on baseline tasks from 45.0% to 54.0% and 78.4% to 83.7%."
-          ]
-        },
-        "fr": {
-          "title": "Reward Engine : Auto-évolution centrée sur la récompense pour agents d'outils",
-          "summary": "Reward Engine construit des récompenses d'évaluation basées sur l'expérience existante pour guider les agents d'outils ouverts. En établissant des cas de test et des rubriques, il améliore la cohérence de l'exécution.",
-          "keyPoints": [
-            "Construit un RewardPack de cas de test et de rubriques à partir des trajectoires initiales.",
-            "Guide les agents pour réviser leurs sorties et sert de récompense pour l'apprentissage par renforcement.",
-            "Augmente la cohérence sur trois exécutions Pass^3 sur les tâches de base."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-45aad6aa478248",
-      "title": "Sep-Latent: Separator Tokens as Anchors for Implicit Reasoning",
-      "summary": "Sep-Latent is an adaptive implicit reasoning framework utilizing separator tokens as structural semantic anchors. By employing an Attention-Decay mechanism, it compresses reasoning logic while matching explicit chain-of-thought efficiency.",
-      "keyPoints": [
-        "Utilizes separator tokens as structural semantic anchors for adaptive implicit reasoning.",
-        "Employs an Attention-Decay mechanism to aggregate and compress reasoning logic during training.",
-        "Achieves 56.8% accuracy on GSM8k-Aug with an average of 5.4 tokens, outperforming fixed-length models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.22924",
-      "publishedAt": "2026-10-19T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Sep-Latent: Separator Tokens as Anchors for Implicit Reasoning",
-          "summary": "Sep-Latent is an adaptive implicit reasoning framework utilizing separator tokens as structural semantic anchors. By employing an Attention-Decay mechanism, it compresses reasoning logic while matching explicit chain-of-thought efficiency.",
-          "keyPoints": [
-            "Utilizes separator tokens as structural semantic anchors for adaptive implicit reasoning.",
-            "Employs an Attention-Decay mechanism to aggregate and compress reasoning logic during training.",
-            "Achieves 56.8% accuracy on GSM8k-Aug with an average of 5.4 tokens, outperforming fixed-length models."
-          ]
-        },
-        "fr": {
-          "title": "Sep-Latent : Jetons de séparation comme ancres pour le raisonnement implicite",
-          "summary": "Sep-Latent est un cadre de raisonnement implicite adaptatif utilisant des jetons de séparation comme ancres sémantiques structurelles. Grâce à un mécanisme de dégradation de l'attention, il compresse la logique de raisonnement.",
-          "keyPoints": [
-            "Utilise des jetons de séparation comme ancres sémantiques structurelles pour le raisonnement implicite.",
-            "Emploie un mécanisme d'attention pour agréger et compresser la logique de raisonnement.",
-            "Atteint 56,8 % de précision sur GSM8k-Aug avec une moyenne de seulement 5,4 jetons."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 27,
+    "itemsCollected": 501,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
