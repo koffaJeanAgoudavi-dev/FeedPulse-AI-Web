@@ -1,6 +1,396 @@
 {
-  "generatedAt": "2026-10-21T04:51:50.849Z",
+  "generatedAt": "2026-10-21T17:14:44.785Z",
   "items": [
+    {
+      "id": "feed-5d70820385a1a8",
+      "title": "MoSAIK: Motion Search with Artificial Intelligence in K-space",
+      "summary": "Motion artefacts remain a limitation in brain MRI. MoSAIK (Motion Search with AI in K-space) estimates in-plane rigid-body motion directly from standard multi-coil TSE k-space using a decoupled convolutional embedding and Transformer encoder. Evaluated on subjects with simulated motion, MoSAIK reduced visible artifacts and showed information gain in over 75% of slices without needing external navigators.",
+      "keyPoints": [
+        "Estimates motion from k-space self-consistency violations without extra acquisitions.",
+        "Uses a Transformer encoder to predict rotation and translations.",
+        "Demonstrated information gain in over 75% of in-vivo slices."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27156",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MoSAIK: Motion Search with Artificial Intelligence in K-space",
+          "summary": "Motion artefacts remain a limitation in brain MRI. MoSAIK (Motion Search with AI in K-space) estimates in-plane rigid-body motion directly from standard multi-coil TSE k-space using a decoupled convolutional embedding and Transformer encoder. Evaluated on subjects with simulated motion, MoSAIK reduced visible artifacts and showed information gain in over 75% of slices without needing external navigators.",
+          "keyPoints": [
+            "Estimates motion from k-space self-consistency violations without extra acquisitions.",
+            "Uses a Transformer encoder to predict rotation and translations.",
+            "Demonstrated information gain in over 75% of in-vivo slices."
+          ]
+        },
+        "fr": {
+          "title": "MoSAIK : Recherche de mouvement par IA dans l'espace K",
+          "summary": "Les artefacts de mouvement limitent l'IRM cérébrale. MoSAIK estime les mouvements de corps rigide directement à partir de l'espace k TSE à l'aide d'un encodeur Transformer. Évalué sur des sujets avec des mouvements simulés, MoSAIK réduit les artefacts visibles et montre un gain d'information sur plus de 75 % des coupes.",
+          "keyPoints": [
+            "Estime le mouvement à partir des violations de cohérence de l'espace k.",
+            "Utilise un encodeur Transformer pour prédire la rotation et les translations.",
+            "Démontre un gain d'information sur plus de 75 % des coupes in vivo."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-688132fc11e29d",
+      "title": "Learned Control Variates for Rare Grid-Outage Estimation",
+      "summary": "Public EV charging introduces synchronized loads that can cause severe grid outages. Plain Monte Carlo estimation requires many runs for rare probabilities. The authors propose a control variate built from a learned classifier, removing up to 60% of variance with a boosted-tree learner and reducing city-wide blackout days in Surabaya.",
+      "keyPoints": [
+        "Addresses rare feeder-overload estimation from EV charging loads.",
+        "Proposes a control variate based on a learned classifier to reduce variance.",
+        "Boosted-tree learners removed about 60% of variance in experiments."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27159",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Learned Control Variates for Rare Grid-Outage Estimation",
+          "summary": "Public EV charging introduces synchronized loads that can cause severe grid outages. Plain Monte Carlo estimation requires many runs for rare probabilities. The authors propose a control variate built from a learned classifier, removing up to 60% of variance with a boosted-tree learner and reducing city-wide blackout days in Surabaya.",
+          "keyPoints": [
+            "Addresses rare feeder-overload estimation from EV charging loads.",
+            "Proposes a control variate based on a learned classifier to reduce variance.",
+            "Boosted-tree learners removed about 60% of variance in experiments."
+          ]
+        },
+        "fr": {
+          "title": "Variables de contrôle apprises pour l'estimation des pannes rares",
+          "summary": "La recharge publique des VE ajoute des charges synchronisées pouvant causer de graves pannes. L'estimation de Monte Carlo nécessite de nombreux calculs pour les probabilités rares. Les auteurs proposent une variable de contrôle issue d'un classeteur, éliminant jusqu'à 60 % de la variance.",
+          "keyPoints": [
+            "Traite l'estimation des surcharges de réseau rares dues aux VE.",
+            "Propose une variable de contrôle basée sur un classeteur appris.",
+            "Les modèles à arbres optimisés suppriment environ 60 % de la variance."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-82ecde7dcc0076",
+      "title": "Layer-Specific Adaptation for Compositional Incremental Learning",
+      "summary": "Compositional Incremental Learning (composition-IL) involves visual concepts arising from primitives like states and objects. Standard CIL causes parameter entanglement and drift. The authors propose LSA-PAST, a parameter-efficient method using Low-Rank Adaptation and prototype transport to keep old prototypes compatible with new adapters.",
+      "keyPoints": [
+        "Formalizes compositional incremental learning for visual primitives.",
+        "Introduces LSA-PAST, combining Low-Rank Adaptation and prototype transport.",
+        "Achieves state-of-the-art accuracy-forgetting trade-off performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27203",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Layer-Specific Adaptation for Compositional Incremental Learning",
+          "summary": "Compositional Incremental Learning (composition-IL) involves visual concepts arising from primitives like states and objects. Standard CIL causes parameter entanglement and drift. The authors propose LSA-PAST, a parameter-efficient method using Low-Rank Adaptation and prototype transport to keep old prototypes compatible with new adapters.",
+          "keyPoints": [
+            "Formalizes compositional incremental learning for visual primitives.",
+            "Introduces LSA-PAST, combining Low-Rank Adaptation and prototype transport.",
+            "Achieves state-of-the-art accuracy-forgetting trade-off performance."
+          ]
+        },
+        "fr": {
+          "title": "Adaptation spécifique aux couches pour l'apprentissage incrémental",
+          "summary": "L'apprentissage incrémental compositionnel gère des concepts visuels issus de primitives. Les méthodes standard provoquent un enchevêtrement des paramètres. Les auteurs proposent LSA-PAST, combinant l'adaptation de rang faible et le transport de prototypes.",
+          "keyPoints": [
+            "Formalise l'apprentissage incrémental compositionnel pour les primitives visuelles.",
+            "Introduit LSA-PAST utilisant LoRA et le transport de prototypes.",
+            "Atteint des performances de pointe en compromis précision-oubli."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7b142d048639fd",
+      "title": "Sparse RL Relaxation for LLM Reasoning via Soft Token Superposition",
+      "summary": "Soft Chain-of-Thought reasoning replaces discrete tokens with continuous representations. Existing reinforcement learning approaches treat soft tokens as actions rather than differentiable steps. The authors propose SpaRLax, a sparse relaxation method with adaptive entmax sparsity, achieving highest average performance across nine reasoning benchmarks.",
+      "keyPoints": [
+        "Addresses limitations of RL on soft token Chain-of-Thought reasoning.",
+        "Proposes SpaRLax for differentiable soft-token reasoning over time steps.",
+        "Uses an adaptive entmax sparsity method to truncate long-tail noise."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27220",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Sparse RL Relaxation for LLM Reasoning via Soft Token Superposition",
+          "summary": "Soft Chain-of-Thought reasoning replaces discrete tokens with continuous representations. Existing reinforcement learning approaches treat soft tokens as actions rather than differentiable steps. The authors propose SpaRLax, a sparse relaxation method with adaptive entmax sparsity, achieving highest average performance across nine reasoning benchmarks.",
+          "keyPoints": [
+            "Addresses limitations of RL on soft token Chain-of-Thought reasoning.",
+            "Proposes SpaRLax for differentiable soft-token reasoning over time steps.",
+            "Uses an adaptive entmax sparsity method to truncate long-tail noise."
+          ]
+        },
+        "fr": {
+          "title": "Relaxation RL parcimonieuse pour le raisonnement des LLM",
+          "summary": "Le raisonnement par chaîne de pensée douce (soft CoT) utilise des représentations continues. La méthode proposée, SpaRLax, applique une relaxation parcimonieuse avec une parcimonie entmax adaptative, atteignant de meilleures performances moyennes sur neuf benchmarks.",
+          "keyPoints": [
+            "Traite les limites du renforcement sur les jetons continus.",
+            "Propose SpaRLax pour un raisonnement par jetons continus différentiable.",
+            "Utilise une méthode de parcimonie entmax adaptative."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a5fed54ae85d2e",
+      "title": "Magnolia: A Persistent-Memory Agent Framework for Chemistry",
+      "summary": "Magnolia is a persistent-memory AI agent framework integrating computational protocols and LLMs for computational chemistry. It utilizes a three-tier memory system spanning session observations, project entries, and cross-project rules. Across case studies, Magnolia successfully tracked runs and enabled memory-backed checks to pass.",
+      "keyPoints": [
+        "Persistent-memory agent framework for computational chemistry.",
+        "Features a three-tier memory system from sessions to cross-project rules.",
+        "Demonstrated success across docking, molecular dynamics, and quantum chemistry."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27230",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Magnolia: A Persistent-Memory Agent Framework for Chemistry",
+          "summary": "Magnolia is a persistent-memory AI agent framework integrating computational protocols and LLMs for computational chemistry. It utilizes a three-tier memory system spanning session observations, project entries, and cross-project rules. Across case studies, Magnolia successfully tracked runs and enabled memory-backed checks to pass.",
+          "keyPoints": [
+            "Persistent-memory agent framework for computational chemistry.",
+            "Features a three-tier memory system from sessions to cross-project rules.",
+            "Demonstrated success across docking, molecular dynamics, and quantum chemistry."
+          ]
+        },
+        "fr": {
+          "title": "Magnolia : Un cadre d'agent à mémoire persistante pour la chimie",
+          "summary": "Magnolia est un cadre d'agent IA à mémoire persistante intégrant des protocoles computationnels et des LLM pour la chimie. Il utilise un système de mémoire à trois niveaux allant des observations de session aux règles inter-projets.",
+          "keyPoints": [
+            "Cadre d'agent à mémoire persistante pour la chimie computationnelle.",
+            "Intègre un système de mémoire à trois niveaux.",
+            "Validé sur des cas de amarrage, dynamique moléculaire et chimie quantique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-bec21c86b67886",
+      "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+      "summary": "EGI-BENCH is a unified LLM agent benchmark suite consolidating eight enterprise-facing benchmarks behind a single CLI. It introduces the Enterprise General Intelligence (EGI) Score based on six dimensions. Evaluating fourteen frontier and cost-efficient LLMs, top-line EGI ranges from 39.6 to 65.6.",
+      "keyPoints": [
+        "Consolidates eight enterprise agent benchmarks into a unified suite.",
+        "Defines the Enterprise General Intelligence (EGI) Score across six dimensions.",
+        "Evaluates fourteen frontier LLMs with top-line scores ranging from 39.6 to 65.6."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27234",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+          "summary": "EGI-BENCH is a unified LLM agent benchmark suite consolidating eight enterprise-facing benchmarks behind a single CLI. It introduces the Enterprise General Intelligence (EGI) Score based on six dimensions. Evaluating fourteen frontier and cost-efficient LLMs, top-line EGI ranges from 39.6 to 65.6.",
+          "keyPoints": [
+            "Consolidates eight enterprise agent benchmarks into a unified suite.",
+            "Defines the Enterprise General Intelligence (EGI) Score across six dimensions.",
+            "Evaluates fourteen frontier LLMs with top-line scores ranging from 39.6 to 65.6."
+          ]
+        },
+        "fr": {
+          "title": "EGI-BENCH : Une suite de référence pour l'intelligence générale d'entreprise",
+          "summary": "EGI-BENCH est une suite unifiée de benchmarks d'agents pour l'entreprise regroupant huit évaluations. Elle introduit le score EGI sur six dimensions et évalue quatorze grands modèles de langage avec des scores allant de 39,6 à 65,6.",
+          "keyPoints": [
+            "Regroupe huit benchmarks d'agents d'entreprise en une suite unifiée.",
+            "Définit le score EGI basé sur six dimensions.",
+            "Évalue quatorze LLM avec des scores de 39,6 à 65,6."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fbeb0d4c3e8a6a",
+      "title": "TxnQA: Benchmarking Analytical Reasoning over Transaction Sequences",
+      "summary": "TxnQA is an analytical QA benchmark for merchant transaction histories, comprising 27 task families and a fraud-risk reasoning suite. Evaluations show that while adaptation enforces output schemas, joint accuracy requiring exact evidence attribution collapses to at most ~23%, revealing arithmetic and attribution bottlenecks.",
+      "keyPoints": [
+        "Introduces TxnQA for analytical reasoning over transaction event sequences.",
+        "Evaluates proprietary and adapted open-weight models across 27 task families.",
+        "Identifies evidence attribution and semantic calculation as primary bottlenecks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27256",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "TxnQA: Benchmarking Analytical Reasoning over Transaction Sequences",
+          "summary": "TxnQA is an analytical QA benchmark for merchant transaction histories, comprising 27 task families and a fraud-risk reasoning suite. Evaluations show that while adaptation enforces output schemas, joint accuracy requiring exact evidence attribution collapses to at most ~23%, revealing arithmetic and attribution bottlenecks.",
+          "keyPoints": [
+            "Introduces TxnQA for analytical reasoning over transaction event sequences.",
+            "Evaluates proprietary and adapted open-weight models across 27 task families.",
+            "Identifies evidence attribution and semantic calculation as primary bottlenecks."
+          ]
+        },
+        "fr": {
+          "title": "TxnQA : Évaluation du raisonnement analytique sur des flux de transactions",
+          "summary": "TxnQA est un benchmark de questions-réponses pour l'historique des transactions marchandes, comprenant 27 familles de tâches. Les évaluations révèlent que l'attribution exacte des preuves chute drastiquement, mettant en lumière des goulets d'étranglement.",
+          "keyPoints": [
+            "Introduit TxnQA pour l'analyse de séquences d'événements de transaction.",
+            "Évalue divers modèles sur 27 familles de tâches.",
+            "Identifie l'attribution des preuves comme un goulot d'étranglement majeur."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-38cdbc1072ef9f",
+      "title": "A Latent Control Model for Realistic Rodent Motion",
+      "summary": "SCAMPER is a system for training an embodied virtual rat model to produce natural movements during goal-directed behavior and random exploration. It uses a variational architecture with a motion prior for control and a behavior prior for exploration, effectively handling sparse rewards from neuroscience tasks.",
+      "keyPoints": [
+        "Introduces SCAMPER for training embodied virtual rat models.",
+        "Combines a motion prior for control and a behavior prior for exploration.",
+        "Enables realistic movement learning from sparse rewards."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27279",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "A Latent Control Model for Realistic Rodent Motion",
+          "summary": "SCAMPER is a system for training an embodied virtual rat model to produce natural movements during goal-directed behavior and random exploration. It uses a variational architecture with a motion prior for control and a behavior prior for exploration, effectively handling sparse rewards from neuroscience tasks.",
+          "keyPoints": [
+            "Introduces SCAMPER for training embodied virtual rat models.",
+            "Combines a motion prior for control and a behavior prior for exploration.",
+            "Enables realistic movement learning from sparse rewards."
+          ]
+        },
+        "fr": {
+          "title": "Un modèle de contrôle latent pour un mouvement réaliste de rongeur",
+          "summary": "SCAMPER est un système pour entraîner un modèle de rat virtuel incarné capable de mouvements naturels lors de comportements orientés vers un but et d'explorations aléatoires, en utilisant deux a priori variationnels.",
+          "keyPoints": [
+            "Introduit SCAMPER pour l'entraînement de modèles de rats virtuels.",
+            "Combine un a priori de mouvement pour le contrôle et un a priori comportemental.",
+            "Permet l'apprentissage à partir de récompenses rares."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7702d1a728b9e0",
+      "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
+      "summary": "TEX is a test-time scaling framework that uses execution-driven cross-validation for language model test-case generation. By parallelizing agents to cross-execute tests against patches to form a feedback matrix, TEX achieves 86.4% on SWT-Bench Verified, establishing a new state-of-the-art.",
+      "keyPoints": [
+        "Proposes TEX, a collaborative test-time scaling framework.",
+        "Uses execution-based cross-validation between generated tests and patches.",
+        "Achieves 86.4% on SWT-Bench Verified, surpassing previous single-agent baselines."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27290",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
+          "summary": "TEX is a test-time scaling framework that uses execution-driven cross-validation for language model test-case generation. By parallelizing agents to cross-execute tests against patches to form a feedback matrix, TEX achieves 86.4% on SWT-Bench Verified, establishing a new state-of-the-art.",
+          "keyPoints": [
+            "Proposes TEX, a collaborative test-time scaling framework.",
+            "Uses execution-based cross-validation between generated tests and patches.",
+            "Achieves 86.4% on SWT-Bench Verified, surpassing previous single-agent baselines."
+          ]
+        },
+        "fr": {
+          "title": "TEX : Mise à l'échelle des agents de test par validation croisée",
+          "summary": "TEX est un cadre de mise à l'échelle au moment du test utilisant la validation croisée pilotée par l'exécution pour la génération de cas de test. Il atteint 86,4 % sur SWT-Bench Verified, établissant un nouveau record.",
+          "keyPoints": [
+            "Propose TEX, un cadre de mise à l'échelle collaboratif au moment du test.",
+            "Utilise une validation croisée basée sur l'exécution.",
+            "Atteint 86,4 % sur SWT-Bench Verified."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d46c89193878df",
+      "title": "Vulnerability Analysis for Safe Multi-Agent Reinforcement Learning",
+      "summary": "Safe Multi-Agent Reinforcement Learning (SMARL) focuses on cooperative control under safety constraints, but its vulnerability remains unexplored. The authors investigate inference-time observation attacks, proposing the MinMax Attack framework to compromise agent observations while preserving stealth and task reward.",
+      "keyPoints": [
+        "Investigates inference-time observation attacks against SMARL algorithms.",
+        "Proposes MinMax Attack to jointly select adversarial targets against agents.",
+        "Demonstrates higher safety costs while preserving task reward and stealth."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27293",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Vulnerability Analysis for Safe Multi-Agent Reinforcement Learning",
+          "summary": "Safe Multi-Agent Reinforcement Learning (SMARL) focuses on cooperative control under safety constraints, but its vulnerability remains unexplored. The authors investigate inference-time observation attacks, proposing the MinMax Attack framework to compromise agent observations while preserving stealth and task reward.",
+          "keyPoints": [
+            "Investigates inference-time observation attacks against SMARL algorithms.",
+            "Proposes MinMax Attack to jointly select adversarial targets against agents.",
+            "Demonstrates higher safety costs while preserving task reward and stealth."
+          ]
+        },
+        "fr": {
+          "title": "Analyse de vulnérabilité pour l'apprentissage par renforcement multi-agent",
+          "summary": "L'apprentissage par renforcement multi-agent sécurisé (SMARL) vise à contrôler des politiques de coopération sous contraintes de sécurité. Les auteurs étudient les attaques par observation au moment de l'inférence et proposent le cadre MinMax Attack.",
+          "keyPoints": [
+            "Étudie les attaques par observation sur les algorithmes SMARL.",
+            "Propose le cadre d'attaque MinMax pour cibler les agents compromis.",
+            "Démontre des coûts de sécurité élevés tout en préservant la discrétion."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-321cffa584ccdd",
       "title": "Navalia: Advancing Cowork Agents with Verifiable Task Synthesis",
@@ -390,403 +780,13 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-66981a97c4d493",
-      "title": "Bounded Compiler-Guided Repair in Lean 4",
-      "summary": "This paper introduces a bounded, online step-level repair module for automated theorem provers in Lean 4. By feeding compiler error messages to a pretrained repair model instead of discarding failed tactics, the method achieves up to a 32% relative gain and solves 82 additional theorems on a LeanDojo subset.",
-      "keyPoints": [
-        "Introduces a step-level repair module using compiler error messages in Lean 4.",
-        "Achieves up to a 32% relative gain over sampling baselines across tested budgets.",
-        "Captures 84 to 96% of total gains on the first repair attempt, mainly fixing shallow execution failures."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26942",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Bounded Compiler-Guided Repair in Lean 4",
-          "summary": "This paper introduces a bounded, online step-level repair module for automated theorem provers in Lean 4. By feeding compiler error messages to a pretrained repair model instead of discarding failed tactics, the method achieves up to a 32% relative gain and solves 82 additional theorems on a LeanDojo subset.",
-          "keyPoints": [
-            "Introduces a step-level repair module using compiler error messages in Lean 4.",
-            "Achieves up to a 32% relative gain over sampling baselines across tested budgets.",
-            "Captures 84 to 96% of total gains on the first repair attempt, mainly fixing shallow execution failures."
-          ]
-        },
-        "fr": {
-          "title": "Réparation guidée par le compilateur dans Lean 4",
-          "summary": "Cet article présente un module de réparation en ligne et borné pour les prouveurs de théorèmes automatisés dans Lean 4. En transmettant les messages d'erreur du compilateur à un modèle de réparation pré-entraîné au lieu d'ignorer les tactiques échouées, la méthode atteint un gain relatif allant jusqu'à 32 %.",
-          "keyPoints": [
-            "Introduit un module de réparation basé sur les erreurs du compilateur dans Lean 4.",
-            "Atteint jusqu'à 32 % de gain relatif par rapport aux bases de référence.",
-            "Capte 84 à 96 % des gains totaux dès la première tentative de réparation."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4dadc7afdfda6c",
-      "title": "MAMath-Bench for Multimodal Multi-Agent Mathematical Reasoning",
-      "summary": "The authors introduce MAMath-Bench, a process-aware benchmark comprising 1,003 problems across 11 categories to evaluate multimodal multi-agent systems. The evaluation reveals that multi-agent collaboration does not consistently improve final accuracy and systems remain vulnerable to adversarial perturbations.",
-      "keyPoints": [
-        "MAMath-Bench evaluates multimodal mathematical reasoning across 1,003 problems and 11 categories.",
-        "Multi-agent collaboration does not consistently improve final-answer accuracy over single LLMs.",
-        "Current systems remain vulnerable to adversarial reasoning-chain perturbations."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26943",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MAMath-Bench for Multimodal Multi-Agent Mathematical Reasoning",
-          "summary": "The authors introduce MAMath-Bench, a process-aware benchmark comprising 1,003 problems across 11 categories to evaluate multimodal multi-agent systems. The evaluation reveals that multi-agent collaboration does not consistently improve final accuracy and systems remain vulnerable to adversarial perturbations.",
-          "keyPoints": [
-            "MAMath-Bench evaluates multimodal mathematical reasoning across 1,003 problems and 11 categories.",
-            "Multi-agent collaboration does not consistently improve final-answer accuracy over single LLMs.",
-            "Current systems remain vulnerable to adversarial reasoning-chain perturbations."
-          ]
-        },
-        "fr": {
-          "title": "MAMath-Bench pour le raisonnement mathématique multimodal multi-agent",
-          "summary": "Les auteurs présentent MAMath-Bench, un benchmark évaluant les systèmes multi-agents multimodaux à travers 1 003 problèmes. L'évaluation révèle que la collaboration multi-agent n'améliore pas systématiquement la précision finale et que les systèmes restent vulnérables aux perturbations.",
-          "keyPoints": [
-            "MAMath-Bench évalue le raisonnement mathématique multimodal sur 1 003 problèmes.",
-            "La collaboration multi-agent n'améliore pas toujours la précision des réponses finales.",
-            "Les systèmes actuels restent vulnérables aux perturbations contradictoires."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8ee03648982651",
-      "title": "LightCRS: Lightweight Multi-Domain Conversational Recommendation",
-      "summary": "This paper proposes LightCRS, a lightweight, query-conditioned framework for unified multi-domain multimodal conversational recommendation. Using a compact 5.3M-parameter module with shared parameters, LightCRS achieves state-of-the-art results while reducing per-query latency significantly.",
-      "keyPoints": [
-        "Proposes LightCRS for unified multi-domain conversational product recommendation.",
-        "Uses a compact 5.3M-parameter query-conditioned cross-attention module.",
-        "Improves HR@1 by 35.4% over baselines and reduces per-query latency drastically."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26948",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "LightCRS: Lightweight Multi-Domain Conversational Recommendation",
-          "summary": "This paper proposes LightCRS, a lightweight, query-conditioned framework for unified multi-domain multimodal conversational recommendation. Using a compact 5.3M-parameter module with shared parameters, LightCRS achieves state-of-the-art results while reducing per-query latency significantly.",
-          "keyPoints": [
-            "Proposes LightCRS for unified multi-domain conversational product recommendation.",
-            "Uses a compact 5.3M-parameter query-conditioned cross-attention module.",
-            "Improves HR@1 by 35.4% over baselines and reduces per-query latency drastically."
-          ]
-        },
-        "fr": {
-          "title": "LightCRS : Recommandation conversationnelle multi-domaine légère",
-          "summary": "Cet article propose LightCRS, un cadre léger conditionné par les requêtes pour la recommandation conversationnelle multimodale. Doté d'un module compact de 5,3 millions de paramètres, LightCRS atteint des performances de pointe tout en réduisant la latence.",
-          "keyPoints": [
-            "Propose LightCRS pour la recommandation de produits conversationnelle multi-domaine.",
-            "Utilise un module compact de 5,3 millions de paramètres partagés.",
-            "Améliore le HR@1 de 35,4 % par rapport aux références existantes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-10f476c8a9f7ea",
-      "title": "Separating Structural Complexity from Semantic Interpretability in LLM Planning",
-      "summary": "This study examines STRIPS planning domains to separate structural difficulty from semantic vocabulary interpretation in LLMs. Results show that symbolic heuristics estimate structural difficulty well, and LLM planning success drops significantly when predicates are progressively renamed.",
-      "keyPoints": [
-        "Investigates planning difficulty by separating structure from semantic interpretability.",
-        "The zero-training delete-relaxation heuristic h_add effectively predicts structural difficulty.",
-        "LLM planning success drops from 67.5% to 40.0% as predicates are progressively renamed."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26964",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Separating Structural Complexity from Semantic Interpretability in LLM Planning",
-          "summary": "This study examines STRIPS planning domains to separate structural difficulty from semantic vocabulary interpretation in LLMs. Results show that symbolic heuristics estimate structural difficulty well, and LLM planning success drops significantly when predicates are progressively renamed.",
-          "keyPoints": [
-            "Investigates planning difficulty by separating structure from semantic interpretability.",
-            "The zero-training delete-relaxation heuristic h_add effectively predicts structural difficulty.",
-            "LLM planning success drops from 67.5% to 40.0% as predicates are progressively renamed."
-          ]
-        },
-        "fr": {
-          "title": "Séparation de la complexité structurelle et de l'interprétabilité sémantique",
-          "summary": "Cette étude examine les domaines de planification STRIPS pour distinguer la difficulté structurelle de l'interprétation sémantique chez les LLM. Les résultats montrent que les heuristiques symboliques estiment bien la structure et que le succès baisse lors du renommage des prédicats.",
-          "keyPoints": [
-            "Examine la difficulté de planification en séparant structure et sémantique.",
-            "L'heuristique h_add prédit efficacement la difficulté structurelle sans entraînement.",
-            "Le taux de réussite des LLM chute de 67,5 % à 40,0 % avec le renommage des prédicats."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a7caf59272b369",
-      "title": "SPEM: Structure-Aware Procedural Memory for LLM Agents",
-      "summary": "The authors propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM agents. SPEM combines Atomic Skill Memory and Skill-DAG Memory to reduce token and runtime costs while maintaining high task success rates.",
-      "keyPoints": [
-        "Introduces SPEM to manage reusable skills efficiently in LLM-based agents.",
-        "Maintains Atomic Skill Memory and reusable Skill-DAG Memory compositions.",
-        "Reduces token and runtime costs while achieving strong success rates on benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26995",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SPEM: Structure-Aware Procedural Memory for LLM Agents",
-          "summary": "The authors propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM agents. SPEM combines Atomic Skill Memory and Skill-DAG Memory to reduce token and runtime costs while maintaining high task success rates.",
-          "keyPoints": [
-            "Introduces SPEM to manage reusable skills efficiently in LLM-based agents.",
-            "Maintains Atomic Skill Memory and reusable Skill-DAG Memory compositions.",
-            "Reduces token and runtime costs while achieving strong success rates on benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "SPEM : Mémoire procédurale sensible à la structure pour agents LLM",
-          "summary": "Les auteurs proposent SPEM, un cadre de mémoire procédurale léger et sensible à la structure pour une utilisation efficace des compétences. SPEM combine des mémoires de compétences atomiques et des graphes de tâches pour réduire les coûts.",
-          "keyPoints": [
-            "Introduit SPEM pour gérer les compétences réutilisables des agents LLM.",
-            "Combine une mémoire de compétences atomiques et des structures de graphes.",
-            "Réduit les coûts de jetons et d'exécution tout en obtenant de bons taux de réussite."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-52c93192312285",
-      "title": "Multi-Agent Collaboration and Clinical Hallucinations",
-      "summary": "This paper evaluates whether multi-agent LLM systems reduce hallucination in clinical tasks by scoring rationales across multiple models and topologies. The findings indicate that collaboration improves task performance but does not inherently lower hallucination as a general rule.",
-      "keyPoints": [
-        "Evaluates hallucination within generated rationales across clinical tasks and topologies.",
-        "Finds that collaboration increases task performance but does not uniformly reduce hallucinations.",
-        "Shows that the model itself, rather than topology, dictates the level and direction of hallucination changes."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27027",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Multi-Agent Collaboration and Clinical Hallucinations",
-          "summary": "This paper evaluates whether multi-agent LLM systems reduce hallucination in clinical tasks by scoring rationales across multiple models and topologies. The findings indicate that collaboration improves task performance but does not inherently lower hallucination as a general rule.",
-          "keyPoints": [
-            "Evaluates hallucination within generated rationales across clinical tasks and topologies.",
-            "Finds that collaboration increases task performance but does not uniformly reduce hallucinations.",
-            "Shows that the model itself, rather than topology, dictates the level and direction of hallucination changes."
-          ]
-        },
-        "fr": {
-          "title": "Collaboration multi-agent et hallucinations cliniques",
-          "summary": "Cet article évaluent si les systèmes multi-agents réduisent les hallucinations dans les tâches cliniques en analysant les raisonnements. Les résultats indiquent que la collaboration améliore les performances mais ne réduit pas systématiquement les hallucinations.",
-          "keyPoints": [
-            "Évalue les hallucinations dans les justifications pour des tâches cliniques.",
-            "Montre que la collaboration améliore la performance sans baisser systématiquement les hallucinations.",
-            "Indique que le choix du modèle dicte principalement les variations d'hallucination."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-cdc9b07e0aafe2",
-      "title": "Teaching AI Agents to Play Poker via Preference Optimization",
-      "summary": "The authors propose Strategic Preference Optimization with KL-anchored Equilibrium (SPOKE) to teach compact AI agents strategic poker behavior. Across experiments, SPOKE achieves lower mean exploitability and high policy agreement compared to baseline optimization methods.",
-      "keyPoints": [
-        "Proposes SPOKE combining value penalties, policy anchoring, and rationale supervision.",
-        "Aims to improve strategic behavior under hidden information like poker.",
-        "Achieves low mean exploitability and high top-1 agreement in evaluations."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27028",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Teaching AI Agents to Play Poker via Preference Optimization",
-          "summary": "The authors propose Strategic Preference Optimization with KL-anchored Equilibrium (SPOKE) to teach compact AI agents strategic poker behavior. Across experiments, SPOKE achieves lower mean exploitability and high policy agreement compared to baseline optimization methods.",
-          "keyPoints": [
-            "Proposes SPOKE combining value penalties, policy anchoring, and rationale supervision.",
-            "Aims to improve strategic behavior under hidden information like poker.",
-            "Achieves low mean exploitability and high top-1 agreement in evaluations."
-          ]
-        },
-        "fr": {
-          "title": "Apprendre à jouer au poker aux agents IA par optimisation des préférences",
-          "summary": "Les auteurs proposent SPOKE pour enseigner un comportement stratégique au poker à des agents IA compacts. Les expériences montrent que SPOKE obtient une exploitabilité moyenne plus faible et un accord élevé par rapport aux méthodes classiques.",
-          "keyPoints": [
-            "Propose SPOKE combinant pénalités de valeur et ancrage de politique.",
-            "Conçu pour améliorer le comportement stratégique sous information cachée.",
-            "Obtient une faible exploitabilité moyenne lors des évaluations."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-312ce490da179d",
-      "title": "M-Plan: Comprehensive Planning for LLM Agents with Memory Arrangement",
-      "summary": "This paper introduces M-Plan, a closed-loop multi-agent framework integrating long-term and short-term memory for long-horizon tasks. M-Plan uses global-local guidance and optimized long-term storage to enhance agent performance in complex environments.",
-      "keyPoints": [
-        "Proposes M-Plan, a closed-loop multi-agent framework for long-horizon tasks.",
-        "Integrates short-term global-local guidance with optimized long-term memory storage.",
-        "Addresses limitations of continuous decision-making and noise in multi-turn environments."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27032",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "M-Plan: Comprehensive Planning for LLM Agents with Memory Arrangement",
-          "summary": "This paper introduces M-Plan, a closed-loop multi-agent framework integrating long-term and short-term memory for long-horizon tasks. M-Plan uses global-local guidance and optimized long-term storage to enhance agent performance in complex environments.",
-          "keyPoints": [
-            "Proposes M-Plan, a closed-loop multi-agent framework for long-horizon tasks.",
-            "Integrates short-term global-local guidance with optimized long-term memory storage.",
-            "Addresses limitations of continuous decision-making and noise in multi-turn environments."
-          ]
-        },
-        "fr": {
-          "title": "M-Plan : Planification complète pour agents LLM avec gestion de la mémoire",
-          "summary": "Cet article présente M-Plan, un cadre multi-agent en boucle fermée intégrant mémoire à long terme et à court terme pour les tâches longues. M-Plan utilise des guidages globaux et locaux ainsi qu'un stockage optimisé.",
-          "keyPoints": [
-            "Propose M-Plan, un cadre multi-agent pour les tâches de longue durée.",
-            "Intègre des guidages à court terme et un stockage à long terme optimisé.",
-            "Résout les limites de prise de décision continue dans des environnements complexes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-acc51b4e38b492",
-      "title": "Physical AI: Concepts, Techniques, and Challenges",
-      "summary": "This monograph defines physical AI as artificial systems that perceive, model, and act upon the physical world through continuous feedback. It establishes a unified framework, reviews key methodologies, and examines challenges toward achieving physical AGI.",
-      "keyPoints": [
-        "Defines physical AI and establishes a unified technical framework.",
-        "Reviews methodologies including multimodal perception, world models, and motor control.",
-        "Examines challenges like sim-to-real transfer, safety, and governance for physical AGI."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27045",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Physical AI: Concepts, Techniques, and Challenges",
-          "summary": "This monograph defines physical AI as artificial systems that perceive, model, and act upon the physical world through continuous feedback. It establishes a unified framework, reviews key methodologies, and examines challenges toward achieving physical AGI.",
-          "keyPoints": [
-            "Defines physical AI and establishes a unified technical framework.",
-            "Reviews methodologies including multimodal perception, world models, and motor control.",
-            "Examines challenges like sim-to-real transfer, safety, and governance for physical AGI."
-          ]
-        },
-        "fr": {
-          "title": "IA physique : Concepts, techniques et défis",
-          "summary": "Cette monographie définit l'IA physique comme des systèmes artificiels percevant et agissant sur le monde physique via une rétroaction continue. Elle établit un cadre unifié et examine les défis pour atteindre une intelligence générale physique.",
-          "keyPoints": [
-            "Définit l'IA physique et établit un cadre technique unifié.",
-            "Passe en revue les méthodologies incluant perception multimodale et modèles du monde.",
-            "Examine les défis tels que le transfert sim-réel, la sécurité et la gouvernance."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ac8ffa6199dc3b",
-      "title": "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems",
-      "summary": "The authors introduce ReuF2F, a Lean 4 benchmark featuring 244 formalized open undergraduate research problems. Using a standardized Docker harness, evaluation reveals that the best-performing model resolves only about 40% of the problems.",
-      "keyPoints": [
-        "Introduces ReuF2F, a Lean 4 benchmark of 244 formalized open research problems.",
-        "Designed to evaluate end-to-end coding agents on less prominent research tasks.",
-        "Evaluation shows the top model resolves approximately 40% of the problems."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27046",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ReuF2F: Benchmarking Coding Agents on Formalized Undergraduate Research Problems",
-          "summary": "The authors introduce ReuF2F, a Lean 4 benchmark featuring 244 formalized open undergraduate research problems. Using a standardized Docker harness, evaluation reveals that the best-performing model resolves only about 40% of the problems.",
-          "keyPoints": [
-            "Introduces ReuF2F, a Lean 4 benchmark of 244 formalized open research problems.",
-            "Designed to evaluate end-to-end coding agents on less prominent research tasks.",
-            "Evaluation shows the top model resolves approximately 40% of the problems."
-          ]
-        },
-        "fr": {
-          "title": "ReuF2F : Évaluation d'agents de codage sur des problèmes de recherche",
-          "summary": "Les auteurs présentent ReuF2F, un benchmark Lean 4 comprenant 244 problèmes de recherche ouverts et formalisés. À l'aide d'un conteneur d'évaluation standardisé, les tests montrent que le meilleur modèle résout environ 40 % des problèmes.",
-          "keyPoints": [
-            "Introduit ReuF2F, un benchmark Lean 4 de 244 problèmes de recherche ouverts.",
-            "Conçu pour évaluer les agents de codage sur des tâches de recherche formelles.",
-            "L'évaluation montre que le meilleur modèle résout environ 40 % des problèmes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 501,
+    "itemsCollected": 503,
     "itemsPublished": 20,
-    "newItems": 20,
+    "newItems": 10,
     "candidates": 20,
     "batches": 2,
     "batchSize": 10,
