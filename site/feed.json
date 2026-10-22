@@ -1,6 +1,396 @@
 {
-  "generatedAt": "2026-10-22T04:50:58.666Z",
+  "generatedAt": "2026-10-22T17:13:02.238Z",
   "items": [
+    {
+      "id": "feed-7be1f38a8edb49",
+      "title": "RiseHarness Framework for Long-Horizon Terminal Agents",
+      "summary": "RiseHarness is a new framework designed to iteratively improve agent harnesses while model weights remain fixed. By analyzing successful and failed runs under the same configuration, the framework integrates insights from internal runtime traces and external frameworks to make agent execution more reliable across tasks.",
+      "keyPoints": [
+        "Focuses on flipping tasks with both successful and failed runs under the same configuration.",
+        "Combines agent trajectories with internal harness traces to analyze model action interactions.",
+        "Adapts relevant implementations from other harness frameworks as design references."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27435",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "RiseHarness Framework for Long-Horizon Terminal Agents",
+          "summary": "RiseHarness is a new framework designed to iteratively improve agent harnesses while model weights remain fixed. By analyzing successful and failed runs under the same configuration, the framework integrates insights from internal runtime traces and external frameworks to make agent execution more reliable across tasks.",
+          "keyPoints": [
+            "Focuses on flipping tasks with both successful and failed runs under the same configuration.",
+            "Combines agent trajectories with internal harness traces to analyze model action interactions.",
+            "Adapts relevant implementations from other harness frameworks as design references."
+          ]
+        },
+        "fr": {
+          "title": "Le cadre RiseHarness pour les agents terminaux à long horizon",
+          "summary": "RiseHarness est un nouveau cadre conçu pour améliorer itérativement les harnais d'agents tout en maintenant les poids des modèles fixes. En analysant les exécutions réussies et échouées sous la même configuration, le cadre intègre des analyses de traçage et de cadres externes pour rendre l'exécution plus fiable.",
+          "keyPoints": [
+            "Se concentre sur l'inversion des tâches ayant réussi et échoué sous la même configuration.",
+            "Combine les trajectoires des agents avec des traces internes pour analyser les interactions.",
+            "Adapte des implémentations pertinentes d'autres cadres de harnais comme références de conception."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-511a84f55bad4b",
+      "title": "Ask-to-Distill: Learning to Synthesize Data for On-Policy Distillation",
+      "summary": "Ask-to-Distill is a framework that treats synthetic questions as distribution elicitors to optimize teacher supervision for on-policy distillation without requiring reference answers. The method improves average performance and teacher-gap recovery across mathematical reasoning, code generation, and agentic tasks.",
+      "keyPoints": [
+        "Optimizes synthetic questions as distribution elicitors without access to correct answers.",
+        "Combines teacher-student disagreement, probability mass, and length/diversity controls.",
+        "Improves average performance and teacher-gap recovery across multiple task types."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27450",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Ask-to-Distill: Learning to Synthesize Data for On-Policy Distillation",
+          "summary": "Ask-to-Distill is a framework that treats synthetic questions as distribution elicitors to optimize teacher supervision for on-policy distillation without requiring reference answers. The method improves average performance and teacher-gap recovery across mathematical reasoning, code generation, and agentic tasks.",
+          "keyPoints": [
+            "Optimizes synthetic questions as distribution elicitors without access to correct answers.",
+            "Combines teacher-student disagreement, probability mass, and length/diversity controls.",
+            "Improves average performance and teacher-gap recovery across multiple task types."
+          ]
+        },
+        "fr": {
+          "title": "Ask-to-Distill : Apprentissage de synthèse de données pour la distillation sur politique",
+          "summary": "Ask-to-Distill est un cadre traitant les questions synthétiques comme des éliciteurs de distribution pour optimiser la supervision des enseignants pour la distillation sur politique sans réponses de référence. La méthode améliore les performances moyennes sur divers types de tâches.",
+          "keyPoints": [
+            "Optimise des questions synthétiques sans accès aux réponses correctes.",
+            "Combine le désaccord enseignant-élève, la masse de probabilité et les contrôles de diversité.",
+            "Améliore la performance moyenne et la récupération de l'écart enseignant."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-825130cf8cb2d5",
+      "title": "Recoverability and Verifier Strength in Agent Self-Improvement",
+      "summary": "This paper proposes two measured preconditions for unattended agent self-improvement: verifier strength and recoverability. Testing on an agent platform revealed that verifier strength must be carefully measured because LLM judges can approve anything without error, and recoverability depends on keeping a saved copy of the old behavior.",
+      "keyPoints": [
+        "Proposes verifier strength and recoverability as preconditions for unattended improvements.",
+        "Finds that LLM judges can sometimes approve anything while reporting no error.",
+        "Shows that only changes with saved old versions can be reversed without a human."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27465",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Recoverability and Verifier Strength in Agent Self-Improvement",
+          "summary": "This paper proposes two measured preconditions for unattended agent self-improvement: verifier strength and recoverability. Testing on an agent platform revealed that verifier strength must be carefully measured because LLM judges can approve anything without error, and recoverability depends on keeping a saved copy of the old behavior.",
+          "keyPoints": [
+            "Proposes verifier strength and recoverability as preconditions for unattended improvements.",
+            "Finds that LLM judges can sometimes approve anything while reporting no error.",
+            "Shows that only changes with saved old versions can be reversed without a human."
+          ]
+        },
+        "fr": {
+          "title": "Récupérabilité et robustesse des vérificateurs dans l'auto-amélioration des agents",
+          "summary": "Cet article propose deux conditions préalables mesurées pour l'auto-amélioration non supervisée des agents : la force du vérificateur et la récupérabilité. Les tests ont révélé que la force du vérificateur doit être mesurée et que la récupérabilité dépend de la conservation d'une copie.",
+          "keyPoints": [
+            "Propose la force du vérificateur et la récupérabilité comme conditions préalables.",
+            "Montre que les juges LLM peuvent parfois tout approuver sans signaler d'erreur.",
+            "Démontre que seuls les changements avec une ancienne version sauvegardée sont réversibles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-6c3e6ac2e2af8d",
+      "title": "Runtime Control for AI Agents: Closing the Evaluation-Execution Gap",
+      "summary": "This research introduces a state-bound runtime assurance layer to address the evaluation-execution gap in operational workflows where approvals can become invalid over time. In a scripted replay, the model successfully identified later-invalidated approvals and held affected actions before dispatch.",
+      "keyPoints": [
+        "Specifies a state-bound runtime assurance layer separating measurement from adjudication.",
+        "Invalidates execution allowances after relevant logged changes occur.",
+        "Identified 15 later-invalidated approvals in a scripted 42-case replay."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27480",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Runtime Control for AI Agents: Closing the Evaluation-Execution Gap",
+          "summary": "This research introduces a state-bound runtime assurance layer to address the evaluation-execution gap in operational workflows where approvals can become invalid over time. In a scripted replay, the model successfully identified later-invalidated approvals and held affected actions before dispatch.",
+          "keyPoints": [
+            "Specifies a state-bound runtime assurance layer separating measurement from adjudication.",
+            "Invalidates execution allowances after relevant logged changes occur.",
+            "Identified 15 later-invalidated approvals in a scripted 42-case replay."
+          ]
+        },
+        "fr": {
+          "title": "Contrôle d'exécution pour les agents IA : combler l'écart évaluation-exécution",
+          "summary": "Cette recherche introduit une couche d'assurance d'exécution liée à l'état pour combler l'écart entre l'évaluation et l'exécution dans les flux opérationnels. Dans un test scripté, le modèle a identifié avec succès des approbations invalidées ultérieurement.",
+          "keyPoints": [
+            "Spécifie une couche d'assurance d'exécution séparant la mesure de l'adjudication.",
+            "Invalide les autorisations d'exécution après des modifications enregistrées.",
+            "A identifié 15 approbations invalidées lors d'un test scripté de 42 cas."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2e778544b0e989",
+      "title": "Securing Agentic Commerce Through Behavior-Aware Fraud Detection",
+      "summary": "The Autonomous Commerce Agent Guard System (ACAGS) combines supervised machine learning, behavioral analytics, and explainable AI to secure AI-agent payment authorization. Utilizing XGBoost, the framework achieved high detection rates for abnormal agent behavior, impersonation, and authorization-scope violations.",
+      "keyPoints": [
+        "Introduces the Autonomous Commerce Agent Guard System (ACAGS) for payment security.",
+        "Combines behavioral analytics, XGBoost, and SHAP explanations for model interpretability.",
+        "Achieved 99.77% detection for abnormal behavior and 100% for malicious delegation."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27483",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Securing Agentic Commerce Through Behavior-Aware Fraud Detection",
+          "summary": "The Autonomous Commerce Agent Guard System (ACAGS) combines supervised machine learning, behavioral analytics, and explainable AI to secure AI-agent payment authorization. Utilizing XGBoost, the framework achieved high detection rates for abnormal agent behavior, impersonation, and authorization-scope violations.",
+          "keyPoints": [
+            "Introduces the Autonomous Commerce Agent Guard System (ACAGS) for payment security.",
+            "Combines behavioral analytics, XGBoost, and SHAP explanations for model interpretability.",
+            "Achieved 99.77% detection for abnormal behavior and 100% for malicious delegation."
+          ]
+        },
+        "fr": {
+          "title": "Sécurisation du commerce agentique par la détection des fraudes comportementales",
+          "summary": "Le système ACAGS combine l'apprentissage automatique supervisé, l'analyse comportementale et l'IA explicable pour sécuriser l'autorisation de paiement des agents IA. Utilisant XGBoost, le cadre a atteint des taux de détection élevés pour les comportements anormaux.",
+          "keyPoints": [
+            "Introduit le système ACAGS pour la sécurité des paiements par agents.",
+            "Combine l'analyse comportementale, XGBoost et les explications SHAP.",
+            "A atteint 99,77 % de détection pour les comportements anormaux."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-80b14f6a6fd391",
+      "title": "Single- vs Multi-Agent LLM Setups on a Financial Review Task",
+      "summary": "This study compares single-agent and multi-agent setups on a credit assessment review task using synthetic memos. While a three-agent team catches more defects with explanations, it also generates more false alarms and consumes significantly more tokens compared to a single agent.",
+      "keyPoints": [
+        "Compares single-agent and multi-agent LLM setups on credit assessment review tasks.",
+        "Multi-agent teams catch slightly more explained defects but raise more false alarms.",
+        "Multi-agent teams consume 2.2 to 2.4 times more tokens than single-agent setups."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27488",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Single- vs Multi-Agent LLM Setups on a Financial Review Task",
+          "summary": "This study compares single-agent and multi-agent setups on a credit assessment review task using synthetic memos. While a three-agent team catches more defects with explanations, it also generates more false alarms and consumes significantly more tokens compared to a single agent.",
+          "keyPoints": [
+            "Compares single-agent and multi-agent LLM setups on credit assessment review tasks.",
+            "Multi-agent teams catch slightly more explained defects but raise more false alarms.",
+            "Multi-agent teams consume 2.2 to 2.4 times more tokens than single-agent setups."
+          ]
+        },
+        "fr": {
+          "title": "Configurations de LLM à agent unique ou multi-agents sur une tâche financière",
+          "summary": "Cette étude compare des configurations à agent unique et multi-agents sur une tâche de révision de crédit utilisant des notes synthétiques. Bien qu'une équipe de trois agents détecte plus de défauts, elle génère également plus de fausses alarmes et consomme plus de jetons.",
+          "keyPoints": [
+            "Compare les configurations de LLM à agent unique et multi-agents.",
+            "Les équipes multi-agents détectent un peu plus de défauts mais augmentent les fausses alarmes.",
+            "Les équipes multi-agents consomment 2,2 à 2,4 fois plus de jetons."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-718c9b19303b9d",
+      "title": "Structured-Token Attention for Fine-Grained Liquid Identification",
+      "summary": "This paper investigates structured-token attention, named StructAttn, for fine-grained liquid identification using millimeter-wave measurements. Embedding complementary views into eleven tokens via a three-layer transformer, StructAttn achieves strong accuracy across public liquid datasets.",
+      "keyPoints": [
+        "Investigates structured-token attention for fine-grained millimeter-wave liquid identification.",
+        "Represents radar feature tensors through antenna, feature, branch, and global views.",
+        "Achieves 96.70% mean best-epoch accuracy on the FG-LiquID dataset."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27512",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Structured-Token Attention for Fine-Grained Liquid Identification",
+          "summary": "This paper investigates structured-token attention, named StructAttn, for fine-grained liquid identification using millimeter-wave measurements. Embedding complementary views into eleven tokens via a three-layer transformer, StructAttn achieves strong accuracy across public liquid datasets.",
+          "keyPoints": [
+            "Investigates structured-token attention for fine-grained millimeter-wave liquid identification.",
+            "Represents radar feature tensors through antenna, feature, branch, and global views.",
+            "Achieves 96.70% mean best-epoch accuracy on the FG-LiquID dataset."
+          ]
+        },
+        "fr": {
+          "title": "Attention à jetons structurés pour l'identification fine de liquides par ondes millimétriques",
+          "summary": "Cet article étudie l'attention à jetons structurés, appelée StructAttn, pour l'identification fine de liquides à l'aide de mesures en ondes millimétriques. En intégrant des vues complémentaires dans onze jetons, StructAttn atteint une forte précision sur les jeux de données.",
+          "keyPoints": [
+            "Étudie l'attention à jetons structurés pour l'identification de liquides par ondes millimétriques.",
+            "Représente les tenseurs de caractéristiques radar via des vues globales et de branches.",
+            "Atteint 96,70 % de précision moyenne sur le jeu de données FG-LiquID."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-da577697bf055c",
+      "title": "SelfDx: A Benchmark of Time-Critical Self-Diagnosis in Health Assistants",
+      "summary": "The authors introduce SelfDx, a benchmark assessing whether health assistants maintain epistemic independence when users supply self-diagnoses that could delay urgent care. Evaluating 27 frontier models reveals a strong tendency to inappropriately agree with users, though targeted post-training improves caution.",
+      "keyPoints": [
+        "Introduces SelfDx, a paired benchmark for time-critical self-diagnosis in health assistants.",
+        "Finds frontier models tend to inappropriately agree with user self-diagnoses in caution cases.",
+        "Demonstrates that supervised fine-tuning improves appropriate caution rates across models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27518",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SelfDx: A Benchmark of Time-Critical Self-Diagnosis in Health Assistants",
+          "summary": "The authors introduce SelfDx, a benchmark assessing whether health assistants maintain epistemic independence when users supply self-diagnoses that could delay urgent care. Evaluating 27 frontier models reveals a strong tendency to inappropriately agree with users, though targeted post-training improves caution.",
+          "keyPoints": [
+            "Introduces SelfDx, a paired benchmark for time-critical self-diagnosis in health assistants.",
+            "Finds frontier models tend to inappropriately agree with user self-diagnoses in caution cases.",
+            "Demonstrates that supervised fine-tuning improves appropriate caution rates across models."
+          ]
+        },
+        "fr": {
+          "title": "SelfDx : Un benchmark d'autodiagnostic critique pour les assistants de santé",
+          "summary": "Les auteurs présentent SelfDx, un benchmark évaluant si les assistants de santé maintiennent leur indépendance épistémique lorsque les utilisateurs fournissent des autodiagnostics. L'évaluation de 27 modèles montre une forte tendance à l'accord inapproprié.",
+          "keyPoints": [
+            "Introduit SelfDx, un benchmark pour l'autodiagnostic critique dans les assistants de santé.",
+            "Constate que les modèles de frontières ont tendance à approuver à tort les diagnostics utilisateurs.",
+            "Démontre que l'ajustement supervisé améliore les taux de prudence appropriés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-648d3adba52ea7",
+      "title": "MemDev-Bench: Benchmarking Memory Systems over Real Repository Histories",
+      "summary": "MemDev-Bench is introduced to evaluate how memory systems affect code agents over diverse repository histories. Systematic evaluations show that while memory aids fine-grained localization, it can cause failures by leading agents to reuse memory without reassessing its applicability.",
+      "keyPoints": [
+        "Introduces MemDev-Bench with controlled repository histories and relevance annotations.",
+        "Finds that memory improves fine-grained localization and functional correctness.",
+        "Shows that unassessed memory reuse can cause failures on otherwise solvable tasks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27524",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MemDev-Bench: Benchmarking Memory Systems over Real Repository Histories",
+          "summary": "MemDev-Bench is introduced to evaluate how memory systems affect code agents over diverse repository histories. Systematic evaluations show that while memory aids fine-grained localization, it can cause failures by leading agents to reuse memory without reassessing its applicability.",
+          "keyPoints": [
+            "Introduces MemDev-Bench with controlled repository histories and relevance annotations.",
+            "Finds that memory improves fine-grained localization and functional correctness.",
+            "Shows that unassessed memory reuse can cause failures on otherwise solvable tasks."
+          ]
+        },
+        "fr": {
+          "title": "MemDev-Bench : Évaluation des systèmes de mémoire sur l'historique des dépôts",
+          "summary": "MemDev-Bench est introduit pour évaluer l'impact des systèmes de mémoire sur les agents de code à travers divers historiques de dépôts. Les évaluations montrent que la mémoire aide à la localisation mais peut provoquer des échecs en l'absence de réévaluation.",
+          "keyPoints": [
+            "Introduit MemDev-Bench avec des historiques de dépôts contrôlés et annotés.",
+            "Montre que la mémoire améliore la localisation fine et la correction fonctionnelle.",
+            "Indique que la réutilisation non évaluée de la mémoire peut causer des échecs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-27769bce2ad813",
+      "title": "Automated Multi-Agent Organization Design: From Architecture Search to AMOD",
+      "summary": "This paper proposes Automated Multi-Agent Organization Design (AMOD), treating organization as a first-class design object. Formulated as an execution-driven design loop, AMOD assigns functional responsibilities and coordination rules to agent teams, dynamically revising them based on task outcomes.",
+      "keyPoints": [
+        "Proposes Automated Multi-Agent Organization Design (AMOD) as a first-class design object.",
+        "Formulates an execution-driven design loop to assign and revise functional responsibilities.",
+        "Provides a principled foundation for evidence-based and adaptive multi-agent structures."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27531",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Automated Multi-Agent Organization Design: From Architecture Search to AMOD",
+          "summary": "This paper proposes Automated Multi-Agent Organization Design (AMOD), treating organization as a first-class design object. Formulated as an execution-driven design loop, AMOD assigns functional responsibilities and coordination rules to agent teams, dynamically revising them based on task outcomes.",
+          "keyPoints": [
+            "Proposes Automated Multi-Agent Organization Design (AMOD) as a first-class design object.",
+            "Formulates an execution-driven design loop to assign and revise functional responsibilities.",
+            "Provides a principled foundation for evidence-based and adaptive multi-agent structures."
+          ]
+        },
+        "fr": {
+          "title": "Conception d'organisations multi-agents automatisées : de la recherche d'architecture à l'AMOD",
+          "summary": "Cet article propose l'AMOD (Automated Multi-Agent Organization Design), traitant l'organisation comme un objet de conception à part entière. Formulé comme une boucle d'exécution, l'AMOD attribue des responsabilités fonctionnelles et des règles de coordination.",
+          "keyPoints": [
+            "Propose l'AMOD comme un objet de conception organisationnelle à part entière.",
+            "Formule une boucle de conception pilotée par l'exécution pour attribuer les responsabilités.",
+            "Fournit une base rigoureuse pour des structures multi-agents adaptatives et fondées sur des preuves."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-37c8965d5759d1",
       "title": "Clinical System One (CS1): A 4B Parameter Model for Patient Records",
@@ -390,403 +780,13 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-47aec4fb283393",
-      "title": "Stronger AI breakthroughs hasten their own exhaustion",
-      "summary": "An analysis of 7.2 million papers shows that major AI breakthroughs narrow the field's attention and deplete the diverse ideas required for future progress.",
-      "keyPoints": [
-        "Analyzed 36 years of computer science data including 7.2 million papers.",
-        "Found that attention narrowed sharply after the Transformer model.",
-        "Bigger breakthroughs deplete the idea diversity needed for successors."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27296",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Stronger AI breakthroughs hasten their own exhaustion",
-          "summary": "An analysis of 7.2 million papers shows that major AI breakthroughs narrow the field's attention and deplete the diverse ideas required for future progress.",
-          "keyPoints": [
-            "Analyzed 36 years of computer science data including 7.2 million papers.",
-            "Found that attention narrowed sharply after the Transformer model.",
-            "Bigger breakthroughs deplete the idea diversity needed for successors."
-          ]
-        },
-        "fr": {
-          "title": "Les percées majeures en IA hâtent leur propre épuisement",
-          "summary": "Une analyse de 7,2 millions d'articles montre que les percées majeures en IA réduisent l'attention du domaine et épuisent la diversité d'idées.",
-          "keyPoints": [
-            "Analyse de 36 ans de données en informatique incluant 7,2 millions de papiers.",
-            "L'attention s'est fortement resserrée après l'introduction du Transformer.",
-            "Les grandes percées épuisent la diversité d'idées nécessaire aux successeurs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ea92da5c121ecb",
-      "title": "Building ChatGPT’s novel ad stack for trust and relevance",
-      "summary": "OpenAI outlines how it built ChatGPT’s LLM-powered ad stack to understand conversational intent while keeping advertisements separate from answers.",
-      "keyPoints": [
-        "Uses an LLM-powered ad stack to understand conversational intent.",
-        "Keeps advertisements separate from direct answers.",
-        "Delivers relevant ads at scale."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/building-chatgpt-ad-stack",
-      "publishedAt": "2026-10-21T07:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Building ChatGPT’s novel ad stack for trust and relevance",
-          "summary": "OpenAI outlines how it built ChatGPT’s LLM-powered ad stack to understand conversational intent while keeping advertisements separate from answers.",
-          "keyPoints": [
-            "Uses an LLM-powered ad stack to understand conversational intent.",
-            "Keeps advertisements separate from direct answers.",
-            "Delivers relevant ads at scale."
-          ]
-        },
-        "fr": {
-          "title": "Conception de la nouvelle pile publicitaire de ChatGPT",
-          "summary": "OpenAI détaille la création de sa pile publicitaire propulsée par LLM pour comprendre l'intention tout en séparant les pubs des réponses.",
-          "keyPoints": [
-            "Utilise une pile publicitaire alimentée par LLM pour l'intention conversationnelle.",
-            "Maintient les publicités séparées des réponses fournies.",
-            "Diffuse des publicités pertinentes à grande échelle."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a9b49b0e8b70d1",
-      "title": "Evaluating Operational Value and Attribution in AI Planning",
-      "summary": "Researchers propose an observable evidence standard to solve the attribution problem in industrial AI planning systems using forecast replay.",
-      "keyPoints": [
-        "Introduces an observable evidence standard for AI planning additions.",
-        "Tested using forecast-to-play replay on retail datasets like Walmart.",
-        "Identifies limits in single-indicator evaluations and composite policies."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27305",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evaluating Operational Value and Attribution in AI Planning",
-          "summary": "Researchers propose an observable evidence standard to solve the attribution problem in industrial AI planning systems using forecast replay.",
-          "keyPoints": [
-            "Introduces an observable evidence standard for AI planning additions.",
-            "Tested using forecast-to-play replay on retail datasets like Walmart.",
-            "Identifies limits in single-indicator evaluations and composite policies."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation de la valeur opérationnelle en planification IA",
-          "summary": "Des chercheurs proposent un standard de preuve observable pour résoudre le problème d'attribution dans les systèmes de planification industrielle.",
-          "keyPoints": [
-            "Introduit un standard de preuve observable pour les ajouts en planification IA.",
-            "Testé à l'aide de simulations sur des données de ventes au détail comme Walmart.",
-            "Met en évidence les limites des évaluations à indicateur unique."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-64ddfb139fec8a",
-      "title": "Using thousands of AI agents to uncover biological leads",
-      "summary": "OpenAI, PerturbAI, and Scripps Research utilized distributed AI agents to discover promising research leads from millions of brain cells.",
-      "keyPoints": [
-        "Employed thousands of distributed AI agents.",
-        "Uncovered new research leads in complex biological data.",
-        "Analyzed data from millions of brain cells in collaboration with Scripps."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "publishedAt": "2026-10-21T04:50:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Using thousands of AI agents to uncover biological leads",
-          "summary": "OpenAI, PerturbAI, and Scripps Research utilized distributed AI agents to discover promising research leads from millions of brain cells.",
-          "keyPoints": [
-            "Employed thousands of distributed AI agents.",
-            "Uncovered new research leads in complex biological data.",
-            "Analyzed data from millions of brain cells in collaboration with Scripps."
-          ]
-        },
-        "fr": {
-          "title": "Utilisation de milliers d'agents IA en biologie",
-          "summary": "OpenAI, PerturbAI et Scripps Research ont utilisé des agents IA distribués pour découvrir des pistes de recherche dans des millions de cellules.",
-          "keyPoints": [
-            "Utilisation de milliers d'agents IA distribués.",
-            "Découverte de pistes de recherche dans des données biologiques complexes.",
-            "Analyse de données provenant de millions de cellules cérébrales."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a08d8d7f457836",
-      "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
-      "summary": "TURTLE is an unsupervised environment design approach that uses LLM agents to evolve tasks for long-horizon tool use.",
-      "keyPoints": [
-        "Proposes TURTLE, an Unsupervised Environment Design (UED) approach.",
-        "Uses proposer, solver, and feedback generator LLM agents.",
-        "Increases task difficulty, diversity, and failure mode coverage."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27307",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
-          "summary": "TURTLE is an unsupervised environment design approach that uses LLM agents to evolve tasks for long-horizon tool use.",
-          "keyPoints": [
-            "Proposes TURTLE, an Unsupervised Environment Design (UED) approach.",
-            "Uses proposer, solver, and feedback generator LLM agents.",
-            "Increases task difficulty, diversity, and failure mode coverage."
-          ]
-        },
-        "fr": {
-          "title": "Benchmarks auto-ajustables pour l'utilisation d'outils",
-          "summary": "TURTLE est une approche de conception d'environnement non supervisée utilisant des agents LLM pour faire évoluer des tâches d'outils.",
-          "keyPoints": [
-            "Propose TURTLE, une approche de conception d'environnement non supervisée.",
-            "Utilise des agents LLM proposeur, solveur et générateur de rétroaction.",
-            "Accroît la difficulté des tâches, la diversité et la couverture des pannes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3fe372fb2e8166",
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "summary": "Cloudflare integrates OpenAI Daybreak for investigating vulnerabilities and Codex for building faster and improving code quality.",
-      "keyPoints": [
-        "Uses OpenAI Daybreak to investigate vulnerabilities and propose fixes.",
-        "Employs Codex for faster software development.",
-        "Improves overall code quality and security defense."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/cloudflare-cyber",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-          "summary": "Cloudflare integrates OpenAI Daybreak for investigating vulnerabilities and Codex for building faster and improving code quality.",
-          "keyPoints": [
-            "Uses OpenAI Daybreak to investigate vulnerabilities and propose fixes.",
-            "Employs Codex for faster software development.",
-            "Improves overall code quality and security defense."
-          ]
-        },
-        "fr": {
-          "title": "Cloudflare associe vulnérabilités et défense avec OpenAI",
-          "summary": "Cloudflare intègre OpenAI Daybreak pour enquêter sur les failles et utilise Codex pour accélérer le développement et améliorer le code.",
-          "keyPoints": [
-            "Utilise OpenAI Daybreak pour enquêter sur les failles et proposer des correctifs.",
-            "Emploie Codex pour accélérer le développement logiciel.",
-            "Améliore la qualité du code et la défense en cybersécurité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2c4c026c9ccf9b",
-      "title": "Unsupervised Tool Evolution for Coding Agents in Analytics",
-      "summary": "TEAL is an unsupervised framework that evolves reusable tools and skills for coding agents across data-lake analytics tasks.",
-      "keyPoints": [
-        "Introduces TEAL for unsupervised tool evolution over data lakes.",
-        "Uses an Explorer and a Critic agent to propose and refine tools.",
-        "Improves Worker LLM performance under strict step budgets."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27327",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Unsupervised Tool Evolution for Coding Agents in Analytics",
-          "summary": "TEAL is an unsupervised framework that evolves reusable tools and skills for coding agents across data-lake analytics tasks.",
-          "keyPoints": [
-            "Introduces TEAL for unsupervised tool evolution over data lakes.",
-            "Uses an Explorer and a Critic agent to propose and refine tools.",
-            "Improves Worker LLM performance under strict step budgets."
-          ]
-        },
-        "fr": {
-          "title": "Évolution d'outils non supervisée pour agents codeurs",
-          "summary": "TEAL est un cadre non supervisé qui développe des outils et compétences réutilisables pour les agents codeurs en analyse de lacs de données.",
-          "keyPoints": [
-            "Introduit TEAL pour l'évolution d'outils non supervisés sur des lacs de données.",
-            "Utilise des agents Explorateur et Critique pour proposer et affiner des outils.",
-            "Améliore les performances des LLM travailleurs sous de stricts budgets d'étapes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e270f5ba468803",
-      "title": "Democratic governance of frontier AI, part II: Cyber defense",
-      "summary": "OpenAI presents a blueprint to empower cyber defenders with frontier AI, stronger security safeguards, and modernized public institutions.",
-      "keyPoints": [
-        "Outlines a blueprint for empowering cyber defenders with frontier AI.",
-        "Focuses on stronger safeguards and modernized cybersecurity.",
-        "Aims to build more resilient public institutions."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/empowering-cyber-defenders",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Democratic governance of frontier AI, part II: Cyber defense",
-          "summary": "OpenAI presents a blueprint to empower cyber defenders with frontier AI, stronger security safeguards, and modernized public institutions.",
-          "keyPoints": [
-            "Outlines a blueprint for empowering cyber defenders with frontier AI.",
-            "Focuses on stronger safeguards and modernized cybersecurity.",
-            "Aims to build more resilient public institutions."
-          ]
-        },
-        "fr": {
-          "title": "Gouvernance démocratique de l'IA de front, partie II",
-          "summary": "OpenAI présente un plan directeur pour habiliter les cyberdéfenseurs grâce à l'IA de pointe, des mesures de sécurité et des institutions modernisées.",
-          "keyPoints": [
-            "Expose un plan pour doter les cyberdéfenseurs d'une IA de pointe.",
-            "Met l'accent sur des protections renforcées et une cybersécurité moderne.",
-            "Vise à bâtir des institutions publiques plus résilientes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-51ce772b7b376b",
-      "title": "Modeling Authentic Research Trajectories via Graphs",
-      "summary": "The Research Progress Graph (RPG) models complete research ideation trajectories by recording states, evidence, and cognitive transitions.",
-      "keyPoints": [
-        "Defines authentic research trajectories in scientific idea generation.",
-        "Proposes the Research Progress Graph (RPG) to track complete idea evolution.",
-        "Evaluates thirty-five research agents against the RPG representation."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27337",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Modeling Authentic Research Trajectories via Graphs",
-          "summary": "The Research Progress Graph (RPG) models complete research ideation trajectories by recording states, evidence, and cognitive transitions.",
-          "keyPoints": [
-            "Defines authentic research trajectories in scientific idea generation.",
-            "Proposes the Research Progress Graph (RPG) to track complete idea evolution.",
-            "Evaluates thirty-five research agents against the RPG representation."
-          ]
-        },
-        "fr": {
-          "title": "Modélisation des trajectoires de recherche par graphes",
-          "summary": "Le graphe de progression de la recherche (RPG) modélise les trajectoires d'idéation en enregistrant les états, preuves et transitions cognitives.",
-          "keyPoints": [
-            "Définit les trajectoires de recherche authentiques en génération d'idées.",
-            "Propose le RPG pour suivre l'évolution complète des idées scientifiques.",
-            "Évalue trente-cinq agents de recherche par rapport à la représentation RPG."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-59eca2e2ce85f5",
-      "title": "An LLM-Based Agent for Legal Compliance Assessment",
-      "summary": "ComplianceAgent evaluates texts for legal compliance using a large language model, fixed rubric, and corrective chains in a Canadian context.",
-      "keyPoints": [
-        "Part of COMPASS, a multi-agent framework evaluating text compliance.",
-        "Incorporates self-healing rewrites, explainability reports, and human escalation.",
-        "Evaluated on a Canadian and Quebec legal corpus with gold-standard data."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27347",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "An LLM-Based Agent for Legal Compliance Assessment",
-          "summary": "ComplianceAgent evaluates texts for legal compliance using a large language model, fixed rubric, and corrective chains in a Canadian context.",
-          "keyPoints": [
-            "Part of COMPASS, a multi-agent framework evaluating text compliance.",
-            "Incorporates self-healing rewrites, explainability reports, and human escalation.",
-            "Evaluated on a Canadian and Quebec legal corpus with gold-standard data."
-          ]
-        },
-        "fr": {
-          "title": "Agent basé sur les LLM pour la conformité juridique",
-          "summary": "ComplianceAgent évalue la conformité juridique des textes à l'aide d'un grand modèle de langage et de chaînes correctives dans un contexte canadien.",
-          "keyPoints": [
-            "Fait partie de COMPASS, un cadre multi-agents évaluant la conformité.",
-            "Intègre des réécritures correctives et une escalade vers un réviseur humain.",
-            "Évalué sur un corpus juridique canadien et québécois avec données étalons."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
     "itemsCollected": 505,
     "itemsPublished": 20,
-    "newItems": 20,
+    "newItems": 10,
     "candidates": 20,
     "batches": 2,
     "batchSize": 10,
