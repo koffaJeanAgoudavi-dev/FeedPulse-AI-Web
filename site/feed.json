@@ -1,115 +1,37 @@
 {
-  "generatedAt": "2026-10-21T17:14:44.785Z",
+  "generatedAt": "2026-10-22T04:50:58.666Z",
   "items": [
     {
-      "id": "feed-5d70820385a1a8",
-      "title": "MoSAIK: Motion Search with Artificial Intelligence in K-space",
-      "summary": "Motion artefacts remain a limitation in brain MRI. MoSAIK (Motion Search with AI in K-space) estimates in-plane rigid-body motion directly from standard multi-coil TSE k-space using a decoupled convolutional embedding and Transformer encoder. Evaluated on subjects with simulated motion, MoSAIK reduced visible artifacts and showed information gain in over 75% of slices without needing external navigators.",
+      "id": "feed-37c8965d5759d1",
+      "title": "Clinical System One (CS1): A 4B Parameter Model for Patient Records",
+      "summary": "Researchers introduce Clinical System One (CS1-4B), a 4-billion-parameter decision model trained on records from 3.6 million patients to provide fast, typed judgments. CS1 outperforms larger models on multiple tasks, enabling efficient clinical trial screening and multi-year patient history analysis when combined with language model agents.",
       "keyPoints": [
-        "Estimates motion from k-space self-consistency violations without extra acquisitions.",
-        "Uses a Transformer encoder to predict rotation and translations.",
-        "Demonstrated information gain in over 75% of in-vivo slices."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27156",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MoSAIK: Motion Search with Artificial Intelligence in K-space",
-          "summary": "Motion artefacts remain a limitation in brain MRI. MoSAIK (Motion Search with AI in K-space) estimates in-plane rigid-body motion directly from standard multi-coil TSE k-space using a decoupled convolutional embedding and Transformer encoder. Evaluated on subjects with simulated motion, MoSAIK reduced visible artifacts and showed information gain in over 75% of slices without needing external navigators.",
-          "keyPoints": [
-            "Estimates motion from k-space self-consistency violations without extra acquisitions.",
-            "Uses a Transformer encoder to predict rotation and translations.",
-            "Demonstrated information gain in over 75% of in-vivo slices."
-          ]
-        },
-        "fr": {
-          "title": "MoSAIK : Recherche de mouvement par IA dans l'espace K",
-          "summary": "Les artefacts de mouvement limitent l'IRM cérébrale. MoSAIK estime les mouvements de corps rigide directement à partir de l'espace k TSE à l'aide d'un encodeur Transformer. Évalué sur des sujets avec des mouvements simulés, MoSAIK réduit les artefacts visibles et montre un gain d'information sur plus de 75 % des coupes.",
-          "keyPoints": [
-            "Estime le mouvement à partir des violations de cohérence de l'espace k.",
-            "Utilise un encodeur Transformer pour prédire la rotation et les translations.",
-            "Démontre un gain d'information sur plus de 75 % des coupes in vivo."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-688132fc11e29d",
-      "title": "Learned Control Variates for Rare Grid-Outage Estimation",
-      "summary": "Public EV charging introduces synchronized loads that can cause severe grid outages. Plain Monte Carlo estimation requires many runs for rare probabilities. The authors propose a control variate built from a learned classifier, removing up to 60% of variance with a boosted-tree learner and reducing city-wide blackout days in Surabaya.",
-      "keyPoints": [
-        "Addresses rare feeder-overload estimation from EV charging loads.",
-        "Proposes a control variate based on a learned classifier to reduce variance.",
-        "Boosted-tree learners removed about 60% of variance in experiments."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27159",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Learned Control Variates for Rare Grid-Outage Estimation",
-          "summary": "Public EV charging introduces synchronized loads that can cause severe grid outages. Plain Monte Carlo estimation requires many runs for rare probabilities. The authors propose a control variate built from a learned classifier, removing up to 60% of variance with a boosted-tree learner and reducing city-wide blackout days in Surabaya.",
-          "keyPoints": [
-            "Addresses rare feeder-overload estimation from EV charging loads.",
-            "Proposes a control variate based on a learned classifier to reduce variance.",
-            "Boosted-tree learners removed about 60% of variance in experiments."
-          ]
-        },
-        "fr": {
-          "title": "Variables de contrôle apprises pour l'estimation des pannes rares",
-          "summary": "La recharge publique des VE ajoute des charges synchronisées pouvant causer de graves pannes. L'estimation de Monte Carlo nécessite de nombreux calculs pour les probabilités rares. Les auteurs proposent une variable de contrôle issue d'un classeteur, éliminant jusqu'à 60 % de la variance.",
-          "keyPoints": [
-            "Traite l'estimation des surcharges de réseau rares dues aux VE.",
-            "Propose une variable de contrôle basée sur un classeteur appris.",
-            "Les modèles à arbres optimisés suppriment environ 60 % de la variance."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-82ecde7dcc0076",
-      "title": "Layer-Specific Adaptation for Compositional Incremental Learning",
-      "summary": "Compositional Incremental Learning (composition-IL) involves visual concepts arising from primitives like states and objects. Standard CIL causes parameter entanglement and drift. The authors propose LSA-PAST, a parameter-efficient method using Low-Rank Adaptation and prototype transport to keep old prototypes compatible with new adapters.",
-      "keyPoints": [
-        "Formalizes compositional incremental learning for visual primitives.",
-        "Introduces LSA-PAST, combining Low-Rank Adaptation and prototype transport.",
-        "Achieves state-of-the-art accuracy-forgetting trade-off performance."
+        "Trained on 12.4 million Q&As from 3.6 million patients across a health system.",
+        "Outperformed open models up to 27B parameters on 13 of 14 independent tasks.",
+        "Screened trial candidates 4 times better than keyword search while using fewer tokens."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27203",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27099",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Layer-Specific Adaptation for Compositional Incremental Learning",
-          "summary": "Compositional Incremental Learning (composition-IL) involves visual concepts arising from primitives like states and objects. Standard CIL causes parameter entanglement and drift. The authors propose LSA-PAST, a parameter-efficient method using Low-Rank Adaptation and prototype transport to keep old prototypes compatible with new adapters.",
+          "title": "Clinical System One (CS1): A 4B Parameter Model for Patient Records",
+          "summary": "Researchers introduce Clinical System One (CS1-4B), a 4-billion-parameter decision model trained on records from 3.6 million patients to provide fast, typed judgments. CS1 outperforms larger models on multiple tasks, enabling efficient clinical trial screening and multi-year patient history analysis when combined with language model agents.",
           "keyPoints": [
-            "Formalizes compositional incremental learning for visual primitives.",
-            "Introduces LSA-PAST, combining Low-Rank Adaptation and prototype transport.",
-            "Achieves state-of-the-art accuracy-forgetting trade-off performance."
+            "Trained on 12.4 million Q&As from 3.6 million patients across a health system.",
+            "Outperformed open models up to 27B parameters on 13 of 14 independent tasks.",
+            "Screened trial candidates 4 times better than keyword search while using fewer tokens."
           ]
         },
         "fr": {
-          "title": "Adaptation spécifique aux couches pour l'apprentissage incrémental",
-          "summary": "L'apprentissage incrémental compositionnel gère des concepts visuels issus de primitives. Les méthodes standard provoquent un enchevêtrement des paramètres. Les auteurs proposent LSA-PAST, combinant l'adaptation de rang faible et le transport de prototypes.",
+          "title": "Clinical System One (CS1) : un modèle de 4 milliards de paramètres",
+          "summary": "Des chercheurs présentent Clinical System One (CS1-4B), un modèle de décision de 4 milliards de paramètres entraîné sur les dossiers de 3,6 millions de patients. CS1 surpasse des modèles plus grands sur plusieurs tâches, permettant un tri efficace pour les essais cliniques et l'analyse de dossiers pluriannuels.",
           "keyPoints": [
-            "Formalise l'apprentissage incrémental compositionnel pour les primitives visuelles.",
-            "Introduit LSA-PAST utilisant LoRA et le transport de prototypes.",
-            "Atteint des performances de pointe en compromis précision-oubli."
+            "Entraîné sur 12,4 millions de questions-réponses issues de 3,6 millions de patients.",
+            "A surpassé des modèles ouverts allant jusqu'à 27 milliards de paramètres sur 13 tâches.",
+            "A filtré les candidats aux essais 4 fois mieux que la recherche par mots-clés."
           ]
         }
       },
@@ -119,465 +41,36 @@
       }
     },
     {
-      "id": "feed-7b142d048639fd",
-      "title": "Sparse RL Relaxation for LLM Reasoning via Soft Token Superposition",
-      "summary": "Soft Chain-of-Thought reasoning replaces discrete tokens with continuous representations. Existing reinforcement learning approaches treat soft tokens as actions rather than differentiable steps. The authors propose SpaRLax, a sparse relaxation method with adaptive entmax sparsity, achieving highest average performance across nine reasoning benchmarks.",
+      "id": "feed-3f1a11956436b1",
+      "title": "Broad access through consistent standards with OpenAI",
+      "summary": "OpenAI outlines its approach to collaborating with distribution partners to maintain consistent safeguards, support responsible access, and clarify expectations within its Usage Policies.",
       "keyPoints": [
-        "Addresses limitations of RL on soft token Chain-of-Thought reasoning.",
-        "Proposes SpaRLax for differentiable soft-token reasoning over time steps.",
-        "Uses an adaptive entmax sparsity method to truncate long-tail noise."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27220",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Sparse RL Relaxation for LLM Reasoning via Soft Token Superposition",
-          "summary": "Soft Chain-of-Thought reasoning replaces discrete tokens with continuous representations. Existing reinforcement learning approaches treat soft tokens as actions rather than differentiable steps. The authors propose SpaRLax, a sparse relaxation method with adaptive entmax sparsity, achieving highest average performance across nine reasoning benchmarks.",
-          "keyPoints": [
-            "Addresses limitations of RL on soft token Chain-of-Thought reasoning.",
-            "Proposes SpaRLax for differentiable soft-token reasoning over time steps.",
-            "Uses an adaptive entmax sparsity method to truncate long-tail noise."
-          ]
-        },
-        "fr": {
-          "title": "Relaxation RL parcimonieuse pour le raisonnement des LLM",
-          "summary": "Le raisonnement par chaîne de pensée douce (soft CoT) utilise des représentations continues. La méthode proposée, SpaRLax, applique une relaxation parcimonieuse avec une parcimonie entmax adaptative, atteignant de meilleures performances moyennes sur neuf benchmarks.",
-          "keyPoints": [
-            "Traite les limites du renforcement sur les jetons continus.",
-            "Propose SpaRLax pour un raisonnement par jetons continus différentiable.",
-            "Utilise une méthode de parcimonie entmax adaptative."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a5fed54ae85d2e",
-      "title": "Magnolia: A Persistent-Memory Agent Framework for Chemistry",
-      "summary": "Magnolia is a persistent-memory AI agent framework integrating computational protocols and LLMs for computational chemistry. It utilizes a three-tier memory system spanning session observations, project entries, and cross-project rules. Across case studies, Magnolia successfully tracked runs and enabled memory-backed checks to pass.",
-      "keyPoints": [
-        "Persistent-memory agent framework for computational chemistry.",
-        "Features a three-tier memory system from sessions to cross-project rules.",
-        "Demonstrated success across docking, molecular dynamics, and quantum chemistry."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27230",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Magnolia: A Persistent-Memory Agent Framework for Chemistry",
-          "summary": "Magnolia is a persistent-memory AI agent framework integrating computational protocols and LLMs for computational chemistry. It utilizes a three-tier memory system spanning session observations, project entries, and cross-project rules. Across case studies, Magnolia successfully tracked runs and enabled memory-backed checks to pass.",
-          "keyPoints": [
-            "Persistent-memory agent framework for computational chemistry.",
-            "Features a three-tier memory system from sessions to cross-project rules.",
-            "Demonstrated success across docking, molecular dynamics, and quantum chemistry."
-          ]
-        },
-        "fr": {
-          "title": "Magnolia : Un cadre d'agent à mémoire persistante pour la chimie",
-          "summary": "Magnolia est un cadre d'agent IA à mémoire persistante intégrant des protocoles computationnels et des LLM pour la chimie. Il utilise un système de mémoire à trois niveaux allant des observations de session aux règles inter-projets.",
-          "keyPoints": [
-            "Cadre d'agent à mémoire persistante pour la chimie computationnelle.",
-            "Intègre un système de mémoire à trois niveaux.",
-            "Validé sur des cas de amarrage, dynamique moléculaire et chimie quantique."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-bec21c86b67886",
-      "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
-      "summary": "EGI-BENCH is a unified LLM agent benchmark suite consolidating eight enterprise-facing benchmarks behind a single CLI. It introduces the Enterprise General Intelligence (EGI) Score based on six dimensions. Evaluating fourteen frontier and cost-efficient LLMs, top-line EGI ranges from 39.6 to 65.6.",
-      "keyPoints": [
-        "Consolidates eight enterprise agent benchmarks into a unified suite.",
-        "Defines the Enterprise General Intelligence (EGI) Score across six dimensions.",
-        "Evaluates fourteen frontier LLMs with top-line scores ranging from 39.6 to 65.6."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27234",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
-          "summary": "EGI-BENCH is a unified LLM agent benchmark suite consolidating eight enterprise-facing benchmarks behind a single CLI. It introduces the Enterprise General Intelligence (EGI) Score based on six dimensions. Evaluating fourteen frontier and cost-efficient LLMs, top-line EGI ranges from 39.6 to 65.6.",
-          "keyPoints": [
-            "Consolidates eight enterprise agent benchmarks into a unified suite.",
-            "Defines the Enterprise General Intelligence (EGI) Score across six dimensions.",
-            "Evaluates fourteen frontier LLMs with top-line scores ranging from 39.6 to 65.6."
-          ]
-        },
-        "fr": {
-          "title": "EGI-BENCH : Une suite de référence pour l'intelligence générale d'entreprise",
-          "summary": "EGI-BENCH est une suite unifiée de benchmarks d'agents pour l'entreprise regroupant huit évaluations. Elle introduit le score EGI sur six dimensions et évalue quatorze grands modèles de langage avec des scores allant de 39,6 à 65,6.",
-          "keyPoints": [
-            "Regroupe huit benchmarks d'agents d'entreprise en une suite unifiée.",
-            "Définit le score EGI basé sur six dimensions.",
-            "Évalue quatorze LLM avec des scores de 39,6 à 65,6."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-fbeb0d4c3e8a6a",
-      "title": "TxnQA: Benchmarking Analytical Reasoning over Transaction Sequences",
-      "summary": "TxnQA is an analytical QA benchmark for merchant transaction histories, comprising 27 task families and a fraud-risk reasoning suite. Evaluations show that while adaptation enforces output schemas, joint accuracy requiring exact evidence attribution collapses to at most ~23%, revealing arithmetic and attribution bottlenecks.",
-      "keyPoints": [
-        "Introduces TxnQA for analytical reasoning over transaction event sequences.",
-        "Evaluates proprietary and adapted open-weight models across 27 task families.",
-        "Identifies evidence attribution and semantic calculation as primary bottlenecks."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27256",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "TxnQA: Benchmarking Analytical Reasoning over Transaction Sequences",
-          "summary": "TxnQA is an analytical QA benchmark for merchant transaction histories, comprising 27 task families and a fraud-risk reasoning suite. Evaluations show that while adaptation enforces output schemas, joint accuracy requiring exact evidence attribution collapses to at most ~23%, revealing arithmetic and attribution bottlenecks.",
-          "keyPoints": [
-            "Introduces TxnQA for analytical reasoning over transaction event sequences.",
-            "Evaluates proprietary and adapted open-weight models across 27 task families.",
-            "Identifies evidence attribution and semantic calculation as primary bottlenecks."
-          ]
-        },
-        "fr": {
-          "title": "TxnQA : Évaluation du raisonnement analytique sur des flux de transactions",
-          "summary": "TxnQA est un benchmark de questions-réponses pour l'historique des transactions marchandes, comprenant 27 familles de tâches. Les évaluations révèlent que l'attribution exacte des preuves chute drastiquement, mettant en lumière des goulets d'étranglement.",
-          "keyPoints": [
-            "Introduit TxnQA pour l'analyse de séquences d'événements de transaction.",
-            "Évalue divers modèles sur 27 familles de tâches.",
-            "Identifie l'attribution des preuves comme un goulot d'étranglement majeur."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-38cdbc1072ef9f",
-      "title": "A Latent Control Model for Realistic Rodent Motion",
-      "summary": "SCAMPER is a system for training an embodied virtual rat model to produce natural movements during goal-directed behavior and random exploration. It uses a variational architecture with a motion prior for control and a behavior prior for exploration, effectively handling sparse rewards from neuroscience tasks.",
-      "keyPoints": [
-        "Introduces SCAMPER for training embodied virtual rat models.",
-        "Combines a motion prior for control and a behavior prior for exploration.",
-        "Enables realistic movement learning from sparse rewards."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27279",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "A Latent Control Model for Realistic Rodent Motion",
-          "summary": "SCAMPER is a system for training an embodied virtual rat model to produce natural movements during goal-directed behavior and random exploration. It uses a variational architecture with a motion prior for control and a behavior prior for exploration, effectively handling sparse rewards from neuroscience tasks.",
-          "keyPoints": [
-            "Introduces SCAMPER for training embodied virtual rat models.",
-            "Combines a motion prior for control and a behavior prior for exploration.",
-            "Enables realistic movement learning from sparse rewards."
-          ]
-        },
-        "fr": {
-          "title": "Un modèle de contrôle latent pour un mouvement réaliste de rongeur",
-          "summary": "SCAMPER est un système pour entraîner un modèle de rat virtuel incarné capable de mouvements naturels lors de comportements orientés vers un but et d'explorations aléatoires, en utilisant deux a priori variationnels.",
-          "keyPoints": [
-            "Introduit SCAMPER pour l'entraînement de modèles de rats virtuels.",
-            "Combine un a priori de mouvement pour le contrôle et un a priori comportemental.",
-            "Permet l'apprentissage à partir de récompenses rares."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7702d1a728b9e0",
-      "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
-      "summary": "TEX is a test-time scaling framework that uses execution-driven cross-validation for language model test-case generation. By parallelizing agents to cross-execute tests against patches to form a feedback matrix, TEX achieves 86.4% on SWT-Bench Verified, establishing a new state-of-the-art.",
-      "keyPoints": [
-        "Proposes TEX, a collaborative test-time scaling framework.",
-        "Uses execution-based cross-validation between generated tests and patches.",
-        "Achieves 86.4% on SWT-Bench Verified, surpassing previous single-agent baselines."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27290",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "TEX: Test-Time Scaling Testing Agents via Execution-based Cross-Validation",
-          "summary": "TEX is a test-time scaling framework that uses execution-driven cross-validation for language model test-case generation. By parallelizing agents to cross-execute tests against patches to form a feedback matrix, TEX achieves 86.4% on SWT-Bench Verified, establishing a new state-of-the-art.",
-          "keyPoints": [
-            "Proposes TEX, a collaborative test-time scaling framework.",
-            "Uses execution-based cross-validation between generated tests and patches.",
-            "Achieves 86.4% on SWT-Bench Verified, surpassing previous single-agent baselines."
-          ]
-        },
-        "fr": {
-          "title": "TEX : Mise à l'échelle des agents de test par validation croisée",
-          "summary": "TEX est un cadre de mise à l'échelle au moment du test utilisant la validation croisée pilotée par l'exécution pour la génération de cas de test. Il atteint 86,4 % sur SWT-Bench Verified, établissant un nouveau record.",
-          "keyPoints": [
-            "Propose TEX, un cadre de mise à l'échelle collaboratif au moment du test.",
-            "Utilise une validation croisée basée sur l'exécution.",
-            "Atteint 86,4 % sur SWT-Bench Verified."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d46c89193878df",
-      "title": "Vulnerability Analysis for Safe Multi-Agent Reinforcement Learning",
-      "summary": "Safe Multi-Agent Reinforcement Learning (SMARL) focuses on cooperative control under safety constraints, but its vulnerability remains unexplored. The authors investigate inference-time observation attacks, proposing the MinMax Attack framework to compromise agent observations while preserving stealth and task reward.",
-      "keyPoints": [
-        "Investigates inference-time observation attacks against SMARL algorithms.",
-        "Proposes MinMax Attack to jointly select adversarial targets against agents.",
-        "Demonstrates higher safety costs while preserving task reward and stealth."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27293",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Vulnerability Analysis for Safe Multi-Agent Reinforcement Learning",
-          "summary": "Safe Multi-Agent Reinforcement Learning (SMARL) focuses on cooperative control under safety constraints, but its vulnerability remains unexplored. The authors investigate inference-time observation attacks, proposing the MinMax Attack framework to compromise agent observations while preserving stealth and task reward.",
-          "keyPoints": [
-            "Investigates inference-time observation attacks against SMARL algorithms.",
-            "Proposes MinMax Attack to jointly select adversarial targets against agents.",
-            "Demonstrates higher safety costs while preserving task reward and stealth."
-          ]
-        },
-        "fr": {
-          "title": "Analyse de vulnérabilité pour l'apprentissage par renforcement multi-agent",
-          "summary": "L'apprentissage par renforcement multi-agent sécurisé (SMARL) vise à contrôler des politiques de coopération sous contraintes de sécurité. Les auteurs étudient les attaques par observation au moment de l'inférence et proposent le cadre MinMax Attack.",
-          "keyPoints": [
-            "Étudie les attaques par observation sur les algorithmes SMARL.",
-            "Propose le cadre d'attaque MinMax pour cibler les agents compromis.",
-            "Démontre des coûts de sécurité élevés tout en préservant la discrétion."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-321cffa584ccdd",
-      "title": "Navalia: Advancing Cowork Agents with Verifiable Task Synthesis",
-      "summary": "Navalia is a framework designed to improve Cowork Agents by combining verifiable task synthesis and long-horizon post-training. Using corporate financial reports, it selects supporting evidence and constructs computation chains. Initialized from Qwen3.6-35B-A3B, Navalia outperforms the base model across five benchmarks.",
-      "keyPoints": [
-        "Combines verifiable task synthesis with long-horizon post-training.",
-        "Uses corporate financial reports to build verifiable analytical tasks.",
-        "Achieves consistent gains across five benchmarks using Qwen3.6-35B-A3B."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26887",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Navalia: Advancing Cowork Agents with Verifiable Task Synthesis",
-          "summary": "Navalia is a framework designed to improve Cowork Agents by combining verifiable task synthesis and long-horizon post-training. Using corporate financial reports, it selects supporting evidence and constructs computation chains. Initialized from Qwen3.6-35B-A3B, Navalia outperforms the base model across five benchmarks.",
-          "keyPoints": [
-            "Combines verifiable task synthesis with long-horizon post-training.",
-            "Uses corporate financial reports to build verifiable analytical tasks.",
-            "Achieves consistent gains across five benchmarks using Qwen3.6-35B-A3B."
-          ]
-        },
-        "fr": {
-          "title": "Navalia : faire progresser les agents collaboratifs grâce à la synthèse",
-          "summary": "Navalia est un framework conçu pour améliorer les agents collaboratifs en combinant la synthèse de tâches vérifiables et le post-entraînement à long horizon. À partir de rapports financiers, il sélectionne des preuves et élabore des chaînes de calcul. Initialisé avec Qwen3.6-35B-A3B, Navalia surpasse le modèle de base.",
-          "keyPoints": [
-            "Combine la synthèse de tâches vérifiables et le post-entraînement à long horizon.",
-            "Utilise des rapports financiers d'entreprise pour créer des tâches analytiques vérifiables.",
-            "Obtient des gains constants sur cinq benchmarks grâce à Qwen3.6-35B-A3B."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c7c1db1d24f97b",
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "summary": "Widespread AI adoption is driving Southeast Asia's digital economy to reach a projected $368 billion in 2026 and an estimated $1 trillion by the year 2035.",
-      "keyPoints": [
-        "AI adoption is propelling Southeast Asia's digital economy.",
-        "Projected to hit $368 billion in 2026.",
-        "Expected to reach $1 trillion by 2035."
-      ],
-      "category": "Business",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Image_e-Conomy_SEA_2026.width-1300.png",
-      "translations": {
-        "en": {
-          "title": "Southeast Asia’s digital economy to hit $368 billion",
-          "summary": "Widespread AI adoption is driving Southeast Asia's digital economy to reach a projected $368 billion in 2026 and an estimated $1 trillion by the year 2035.",
-          "keyPoints": [
-            "AI adoption is propelling Southeast Asia's digital economy.",
-            "Projected to hit $368 billion in 2026.",
-            "Expected to reach $1 trillion by 2035."
-          ]
-        },
-        "fr": {
-          "title": "L'économie numérique en Asie du Sud-Est atteindra 368 milliards de dollars",
-          "summary": "L'adoption généralisée de l'IA propulse l'économie numérique de l'Asie du Sud-Est vers une projection de 368 milliards de dollars en 2026 et 1 000 milliards d'ici 2035.",
-          "keyPoints": [
-            "L'adoption de l'IA stimule l'économie numérique d'Asie du Sud-Est.",
-            "Prévue à 368 milliards de dollars en 2026.",
-            "Estimée à 1 000 milliards de dollars d'ici 2035."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1725d137aa3deb",
-      "title": "Franchisee reconciles cash faster with ChatGPT Work",
-      "summary": "An independent Schlotzsky’s and Cinnabon franchisee reduced menu repricing time by 95%, reconciled cash in 94% less time using ChatGPT Work, and built a workflow capable of freeing up $100K in cash flow.",
-      "keyPoints": [
-        "Cut menu repricing time by 95% using ChatGPT Work.",
-        "Reconciled cash in 94% less time.",
-        "Built a workflow to free up $100K in cash flow."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/ted-taylor-restaurant",
-      "publishedAt": "2026-10-20T10:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Franchisee reconciles cash faster with ChatGPT Work",
-          "summary": "An independent Schlotzsky’s and Cinnabon franchisee reduced menu repricing time by 95%, reconciled cash in 94% less time using ChatGPT Work, and built a workflow capable of freeing up $100K in cash flow.",
-          "keyPoints": [
-            "Cut menu repricing time by 95% using ChatGPT Work.",
-            "Reconciled cash in 94% less time.",
-            "Built a workflow to free up $100K in cash flow."
-          ]
-        },
-        "fr": {
-          "title": "Un franchiseur réconcilie sa trésorerie plus vite avec ChatGPT Work",
-          "summary": "Un franchiseur indépendant de Schlotzsky’s et Cinnabon a réduit le temps de refixation des prix de 95 %, réconcilié sa trésorerie 94 % plus rapidement grâce à ChatGPT Work et créé un flux de travail libérant 100 000 $ de liquidités.",
-          "keyPoints": [
-            "A réduit le temps de refixation des prix du menu de 95 %.",
-            "A réconcilié la trésorerie 94 % plus rapidement.",
-            "A conçu un flux de travail libérant 100 000 $ de trésorerie."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-93731f42a7ad5e",
-      "title": "LLM and reinforcement learning based autonomous construction",
-      "summary": "A study proposes an autonomous construction method using large language models and reinforcement learning. An enhanced soft actor-critic algorithm plans mobile crane actions, while ChatGPT 5 updates progress, provides safety details, and generates progress reports.",
-      "keyPoints": [
-        "Proposes an autonomous construction method integrating LLMs and reinforcement learning.",
-        "Uses an enhanced soft actor-critic algorithm to plan mobile crane actions.",
-        "Employs ChatGPT 5 to update construction progress and generate reports."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26899",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "LLM and reinforcement learning based autonomous construction",
-          "summary": "A study proposes an autonomous construction method using large language models and reinforcement learning. An enhanced soft actor-critic algorithm plans mobile crane actions, while ChatGPT 5 updates progress, provides safety details, and generates progress reports.",
-          "keyPoints": [
-            "Proposes an autonomous construction method integrating LLMs and reinforcement learning.",
-            "Uses an enhanced soft actor-critic algorithm to plan mobile crane actions.",
-            "Employs ChatGPT 5 to update construction progress and generate reports."
-          ]
-        },
-        "fr": {
-          "title": "Construction autonome basée sur les LLM et l'apprentissage par renforcement",
-          "summary": "Une étude propose une méthode de construction autonome combinant grands modèles de langage et apprentissage par renforcement. Un algorithme planifie les actions d'une grue mobile, tandis que ChatGPT 5 met à jour l'avancement et génère des rapports.",
-          "keyPoints": [
-            "Propose une méthode de construction autonome intégrant LLM et apprentissage par renforcement.",
-            "Utilise un algorithme pour planifier les actions d'une grue mobile.",
-            "Emploie ChatGPT 5 pour actualiser l'avancement du chantier et rédiger des rapports."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-aa8847d44cbae3",
-      "title": "Terminal X matches senior investor judgment with GPT-6.1",
-      "summary": "Terminal X’s Eval Agent uses GPT-6.1 Sol and grades outputs against a 54-criterion rubric, matching senior investor judgment 88.6% of the time while catching 25% more deviances from investment mandates.",
-      "keyPoints": [
-        "Terminal X uses an Eval Agent powered by GPT-6.1 Sol.",
-        "Grades outputs against a 54-criterion rubric.",
-        "Matches senior investor judgment 88.6% of the time and catches 25% more mandate deviances."
+        "Focuses on maintaining consistent safeguards with distribution partners.",
+        "Supports responsible access to AI technologies.",
+        "Clarifies expectations outlined in OpenAI Usage Policies."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/terminal-x",
-      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/broad-access-through-consistent-standards",
+      "publishedAt": "2026-10-21T21:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Terminal X matches senior investor judgment with GPT-6.1",
-          "summary": "Terminal X’s Eval Agent uses GPT-6.1 Sol and grades outputs against a 54-criterion rubric, matching senior investor judgment 88.6% of the time while catching 25% more deviances from investment mandates.",
+          "title": "Broad access through consistent standards with OpenAI",
+          "summary": "OpenAI outlines its approach to collaborating with distribution partners to maintain consistent safeguards, support responsible access, and clarify expectations within its Usage Policies.",
           "keyPoints": [
-            "Terminal X uses an Eval Agent powered by GPT-6.1 Sol.",
-            "Grades outputs against a 54-criterion rubric.",
-            "Matches senior investor judgment 88.6% of the time and catches 25% more mandate deviances."
+            "Focuses on maintaining consistent safeguards with distribution partners.",
+            "Supports responsible access to AI technologies.",
+            "Clarifies expectations outlined in OpenAI Usage Policies."
           ]
         },
         "fr": {
-          "title": "Terminal X égale le jugement d'investisseurs avec GPT-6.1",
-          "summary": "L'agent d'évaluation de Terminal X utilise GPT-6.1 Sol pour noter les résultats selon une grille de 54 critères, égalant à 88,6 % le jugement d'investisseurs expérimentés tout en détectant 25 % d'écarts supplémentaires par rapport au mandat.",
+          "title": "Accès élargi grâce à des normes cohérentes avec OpenAI",
+          "summary": "OpenAI expose sa méthode de collaboration avec ses partenaires de distribution afin de maintenir des garde-fous cohérents, de soutenir un accès responsable et de clarifier les attentes dans ses politiques d'utilisation.",
           "keyPoints": [
-            "Utilise un agent d'évaluation propulsé par GPT-6.1 Sol.",
-            "Note les résultats selon une grille de 54 critères.",
-            "Égale le jugement d'investisseurs à 88,6 % et repère plus d'écarts."
+            "Se concentre sur le maintien de garde-fous cohérents avec les partenaires.",
+            "Soutient un accès responsable aux technologies d'IA.",
+            "Clarifie les attentes définies dans les règles d'utilisation d'OpenAI."
           ]
         }
       },
@@ -587,36 +80,36 @@
       }
     },
     {
-      "id": "feed-46178924d1dbab",
-      "title": "Pareto-Optimal RTL Code Generation via Multi-Objective RL and LLMs",
-      "summary": "Researchers propose a learning method for LLM-based circuit generation that optimizes the quality and diversity of an entire circuit set in the PPA objective space. Evaluated on RTLLM v2, the method achieves improved relative Hypervolume.",
+      "id": "feed-9d83a9e8965559",
+      "title": "Omni-Woodpecker: Hallucination Correction in Omni LLMs",
+      "summary": "Omni-Woodpecker (OWP) is a training-free framework designed to mitigate cross-modal hallucinations in Omni LLMs by shifting from output-level manipulation to conflict-conditioned representation rebalancing. Using orthogonal decomposition, OWP separates grounding evidence from competing priors to boost reasoning benchmark performance.",
       "keyPoints": [
-        "Optimizes entire circuit set quality and diversity in the PPA objective space.",
-        "Uses a reward function based on Hypervolume Contribution (HVC).",
-        "Evaluated on the RTLLM v2 benchmark with strong relative Hypervolume results."
+        "Training-free framework operating via conflict-conditioned representation rebalancing.",
+        "Employs orthogonal decomposition to separate grounding evidence from priors.",
+        "Improves performance across multiple audio-visual and general reasoning benchmarks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26904",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27103",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Pareto-Optimal RTL Code Generation via Multi-Objective RL and LLMs",
-          "summary": "Researchers propose a learning method for LLM-based circuit generation that optimizes the quality and diversity of an entire circuit set in the PPA objective space. Evaluated on RTLLM v2, the method achieves improved relative Hypervolume.",
+          "title": "Omni-Woodpecker: Hallucination Correction in Omni LLMs",
+          "summary": "Omni-Woodpecker (OWP) is a training-free framework designed to mitigate cross-modal hallucinations in Omni LLMs by shifting from output-level manipulation to conflict-conditioned representation rebalancing. Using orthogonal decomposition, OWP separates grounding evidence from competing priors to boost reasoning benchmark performance.",
           "keyPoints": [
-            "Optimizes entire circuit set quality and diversity in the PPA objective space.",
-            "Uses a reward function based on Hypervolume Contribution (HVC).",
-            "Evaluated on the RTLLM v2 benchmark with strong relative Hypervolume results."
+            "Training-free framework operating via conflict-conditioned representation rebalancing.",
+            "Employs orthogonal decomposition to separate grounding evidence from priors.",
+            "Improves performance across multiple audio-visual and general reasoning benchmarks."
           ]
         },
         "fr": {
-          "title": "Génération de code RTL Pareto-optimale par apprentissage multi-objectif",
-          "summary": "Des chercheurs proposent une méthode d'apprentissage pour la génération de circuits par LLM qui optimise la qualité et la diversité d'un ensemble complet de circuits dans l'espace d'objectifs PPA. Évaluée sur RTLLM v2, elle améliore l'hypervolume relatif.",
+          "title": "Omni-Woodpecker : Correction d'hallucinations pour grands modèles",
+          "summary": "Omni-Woodpecker (OWP) est un cadre sans entraînement conçu pour atténuer les hallucinations intermodales dans les grands modèles omni en rééquilibrant les représentations. Par décomposition orthogonale, OWP sépare les preuves d'ancrage des a priori concurrents pour améliorer les performances.",
           "keyPoints": [
-            "Optimise la qualité et la diversité d'un ensemble de circuits dans l'espace PPA.",
-            "Utilise une fonction de récompense basée sur la contribution à l'hypervolume (HVC).",
-            "Évaluée sur le benchmark RTLLM v2 avec de solides résultats."
+            "Cadre sans entraînement basé sur le rééquilibrage des représentations.",
+            "Utilise la décomposition orthogonale pour séparer les preuves des a priori.",
+            "Améliore les performances sur divers benchmarks de raisonnement audio-visuel."
           ]
         }
       },
@@ -626,36 +119,36 @@
       }
     },
     {
-      "id": "feed-1cfb6291fa158d",
-      "title": "OpenAI acquires Orchestra Bio",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, assisting biopharma teams in accelerating drug development and advancing new treatments.",
+      "id": "feed-39cad894cdd240",
+      "title": "AT&T Rethinks In-House Legal Work with OpenAI",
+      "summary": "AT&T is collaborating with OpenAI to streamline access to legal knowledge. The company's LegalEdge team is utilizing these capabilities to rethink intake workflows and scale legal judgment.",
       "keyPoints": [
-        "OpenAI announces the acquisition of Orchestra Bio.",
-        "Aims to bring AI-powered operations to life sciences R&D.",
-        "Helps biopharma teams accelerate drug development and treatments."
+        "AT&T partners with OpenAI to make legal knowledge more accessible.",
+        "The LegalEdge team is rethinking legal intake processes.",
+        "Aims to successfully scale legal judgment within the organization."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/att-legal",
+      "publishedAt": "2026-10-21T17:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI acquires Orchestra Bio",
-          "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, assisting biopharma teams in accelerating drug development and advancing new treatments.",
+          "title": "AT&T Rethinks In-House Legal Work with OpenAI",
+          "summary": "AT&T is collaborating with OpenAI to streamline access to legal knowledge. The company's LegalEdge team is utilizing these capabilities to rethink intake workflows and scale legal judgment.",
           "keyPoints": [
-            "OpenAI announces the acquisition of Orchestra Bio.",
-            "Aims to bring AI-powered operations to life sciences R&D.",
-            "Helps biopharma teams accelerate drug development and treatments."
+            "AT&T partners with OpenAI to make legal knowledge more accessible.",
+            "The LegalEdge team is rethinking legal intake processes.",
+            "Aims to successfully scale legal judgment within the organization."
           ]
         },
         "fr": {
-          "title": "OpenAI fait l'acquisition d'Orchestra Bio",
-          "summary": "OpenAI acquiert Orchestra Bio afin d'intégrer des opérations alimentées par l'intelligence artificielle dans la R&D des sciences de la vie, aidant les équipes biopharmaceutiques à accélérer le développement de médicaments.",
+          "title": "AT&T repense son travail juridique interne avec OpenAI",
+          "summary": "AT&T collabore avec OpenAI pour faciliter l'accès aux connaissances juridiques. Son équipe LegalEdge utilise ces capacités pour repenser les processus d'admission et à l'échelle du jugement juridique.",
           "keyPoints": [
-            "OpenAI procède à l'acquisition d'Orchestra Bio.",
-            "Intègre l'IA dans la R&D des sciences de la vie.",
-            "Aide les équipes biopharmaceutiques à accélérer le développement de traitements."
+            "AT&T s'associe à OpenAI pour rendre le savoir juridique plus accessible.",
+            "L'équipe LegalEdge repense les processus d'admission des dossiers.",
+            "Vise à adapter le jugement juridique à l'échelle de l'organisation."
           ]
         }
       },
@@ -665,36 +158,36 @@
       }
     },
     {
-      "id": "feed-a75390adc4db43",
-      "title": "MedPAO-Assist: Edge-Deployable Agentic AI for Radiology Reports",
-      "summary": "MedPAO-Assist is an edge-deployable agentic framework that generates structured radiology reports from voice commands using a small language model. Requiring ~3.3 GB peak RAM, it runs locally on a standard laptop CPU.",
+      "id": "feed-c879a325afeffa",
+      "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+      "summary": "PROVISO is a secure controller for LLM agents that evaluates proposed actions against alternatives using provenance-typed memory. By encoding trusted and external observations, PROVISO avoids security-utility trade-offs and outperforms existing agent security baselines.",
       "keyPoints": [
-        "Edge-deployable agentic framework for structured radiology reports.",
-        "Runs on a small language model in the 0.6B-parameter range.",
-        "Requires ~3.3 GB peak RAM and executes on a standard laptop CPU."
+        "Acts as a controller evaluated between agent action proposal and execution.",
+        "Uses provenance-typed memory to relate trusted and external observations.",
+        "Improves F1 scores significantly on skill detection and agent security benchmarks."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26913",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27115",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "MedPAO-Assist: Edge-Deployable Agentic AI for Radiology Reports",
-          "summary": "MedPAO-Assist is an edge-deployable agentic framework that generates structured radiology reports from voice commands using a small language model. Requiring ~3.3 GB peak RAM, it runs locally on a standard laptop CPU.",
+          "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+          "summary": "PROVISO is a secure controller for LLM agents that evaluates proposed actions against alternatives using provenance-typed memory. By encoding trusted and external observations, PROVISO avoids security-utility trade-offs and outperforms existing agent security baselines.",
           "keyPoints": [
-            "Edge-deployable agentic framework for structured radiology reports.",
-            "Runs on a small language model in the 0.6B-parameter range.",
-            "Requires ~3.3 GB peak RAM and executes on a standard laptop CPU."
+            "Acts as a controller evaluated between agent action proposal and execution.",
+            "Uses provenance-typed memory to relate trusted and external observations.",
+            "Improves F1 scores significantly on skill detection and agent security benchmarks."
           ]
         },
         "fr": {
-          "title": "MedPAO-Assist : IA agentique déployable en périphérie pour la radiologie",
-          "summary": "MedPAO-Assist est un framework agentique déployable en périphérie qui génère des rapports radiologiques structurés à partir de commandes vocales grâce à un petit modèle de langage, s'exécutant sur un CPU d'ordinateur standard.",
+          "title": "PROVISO : Sélection d'actions sécurisées pour agents LLM",
+          "summary": "PROVISO est un contrôleur de sécurité pour agents LLM qui évalue les actions proposées en utilisant une mémoire typée par provenance. En encodant les observations de confiance et externes, PROVISO évite les compromis entre sécurité et utilité.",
           "keyPoints": [
-            "Framework agentique pour des rapports radiologiques structurés.",
-            "S'appuie sur un petit modèle de langage de la tranche de 0,6 milliard de paramètres.",
-            "Requiert environ 3,3 Go de RAM et tourne sur un processeur d'ordinateur portable standard."
+            "Agit comme un contrôleur entre la proposition et l'exécution de l'action.",
+            "Utilise une mémoire typée par provenance pour lier les observations.",
+            "Améliore les scores F1 sur les benchmarks de sécurité et de compétences."
           ]
         }
       },
@@ -704,36 +197,36 @@
       }
     },
     {
-      "id": "feed-2fbb462a3743ef",
-      "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
-      "summary": "DataPraxis is an analytics task synthesis framework based on verified workspace evolution. It constructs tasks from accumulated findings and dependencies, yielding the DataPraxis-5K dataset and models like DataPraxis-27B.",
+      "id": "feed-b1215e1aefc04c",
+      "title": "ChatGPT Ads Expands to 26 New Countries",
+      "summary": "ChatGPT Ads has expanded its reach to 26 new countries, enabling over 100,000 advertisers—ranging from local businesses to global brands—to connect with users as they explore and make purchase decisions.",
       "keyPoints": [
-        "Framework based on verified workspace evolution for analytics tasks.",
-        "Constructs tasks from accumulated findings and dependencies.",
-        "Produces DataPraxis-5K dataset and trains high-performing DataPraxis models."
+        "Available in 26 new countries for expanded geographic coverage.",
+        "Adopted by over 100,000 advertisers globally.",
+        "Connects local and global businesses with users exploring choices in ChatGPT."
       ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26924",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "publishedAt": "2026-10-21T13:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
-          "summary": "DataPraxis is an analytics task synthesis framework based on verified workspace evolution. It constructs tasks from accumulated findings and dependencies, yielding the DataPraxis-5K dataset and models like DataPraxis-27B.",
+          "title": "ChatGPT Ads Expands to 26 New Countries",
+          "summary": "ChatGPT Ads has expanded its reach to 26 new countries, enabling over 100,000 advertisers—ranging from local businesses to global brands—to connect with users as they explore and make purchase decisions.",
           "keyPoints": [
-            "Framework based on verified workspace evolution for analytics tasks.",
-            "Constructs tasks from accumulated findings and dependencies.",
-            "Produces DataPraxis-5K dataset and trains high-performing DataPraxis models."
+            "Available in 26 new countries for expanded geographic coverage.",
+            "Adopted by over 100,000 advertisers globally.",
+            "Connects local and global businesses with users exploring choices in ChatGPT."
           ]
         },
         "fr": {
-          "title": "DataPraxis : mise à l'échelle des tâches d'analyse via l'évolution d'espaces",
-          "summary": "DataPraxis est un framework de synthèse de tâches analytiques basé sur l'évolution d'espaces de travail vérifiés. Il élabore des tâches à partir de découvertes accumulées, donnant naissance au jeu de données DataPraxis-5K et aux modèles DataPraxis.",
+          "title": "ChatGPT Ads s'étend à 26 nouveaux pays",
+          "summary": "ChatGPT Ads étend sa portée à 26 nouveaux pays, permettant à plus de 100 000 annonciateurs, des entreprises locales aux marques mondiales, de toucher les utilisateurs lorsqu'ils explorent et décident de leurs achats.",
           "keyPoints": [
-            "Framework basé sur l'évolution d'espaces de travail vérifiés pour l'analyse.",
-            "Construit des tâches à partir de conclusions et de dépendances accumulées.",
-            "Génère le jeu de données DataPraxis-5K et des modèles performants."
+            "Disponible dans 26 nouveaux pays pour une couverture géographique accrue.",
+            "Utilisé par plus de 100 000 annonceurs à travers le monde.",
+            "Permet de joindre les utilisateurs pendant leurs recherches d'achat."
           ]
         }
       },
@@ -743,50 +236,557 @@
       }
     },
     {
-      "id": "feed-3410e52a9f5f60",
-      "title": "Industrial Agentic AI: LLM-Driven Agents for Smart Manufacturing",
-      "summary": "This article presents a systematic overview of LLM-driven industrial agents for smart manufacturing. It analyzes key challenges, establishes a unified taxonomy across five capability levels, and proposes a four-layer system architecture.",
+      "id": "feed-3ebdb4c9a7b698",
+      "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+      "summary": "Paired Outcome-guided Reasoning Allocation (PORA) helps LLM agents decide between short and long reasoning before each step. By comparing trajectories during training, PORA optimizes budget allocation and enhances performance across memory, code, and math tasks.",
       "keyPoints": [
-        "Provides a systematic overview of LLM-driven industrial agents.",
-        "Establishes a unified taxonomy across five capability levels for smart manufacturing.",
-        "Proposes a four-layer system architecture for closed-loop task execution."
+        "Compares short and long reasoning paths from the same state during training.",
+        "Dynamically weighs downstream value against remaining-budget pressure during inference.",
+        "Reduces token usage and model requests while matching or exceeding long reasoning baselines."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.26941",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27119",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Industrial Agentic AI: LLM-Driven Agents for Smart Manufacturing",
-          "summary": "This article presents a systematic overview of LLM-driven industrial agents for smart manufacturing. It analyzes key challenges, establishes a unified taxonomy across five capability levels, and proposes a four-layer system architecture.",
+          "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+          "summary": "Paired Outcome-guided Reasoning Allocation (PORA) helps LLM agents decide between short and long reasoning before each step. By comparing trajectories during training, PORA optimizes budget allocation and enhances performance across memory, code, and math tasks.",
           "keyPoints": [
-            "Provides a systematic overview of LLM-driven industrial agents.",
-            "Establishes a unified taxonomy across five capability levels for smart manufacturing.",
-            "Proposes a four-layer system architecture for closed-loop task execution."
+            "Compares short and long reasoning paths from the same state during training.",
+            "Dynamically weighs downstream value against remaining-budget pressure during inference.",
+            "Reduces token usage and model requests while matching or exceeding long reasoning baselines."
           ]
         },
         "fr": {
-          "title": "IA agentique industrielle : agents pilotés par LLM pour la fabrication",
-          "summary": "Cet article présente un aperçu systématique des agents industriels pilotés par des LLM pour la fabrication intelligente. Il analyse les défis clés, établit une taxonomie unifiée sur cinq niveaux et propose une architecture à quatre couches.",
+          "title": "PORA : Optimiser le raisonnement des agents LLM",
+          "summary": "PORA aide les agents LLM à choisir entre un raisonnement court ou long avant chaque étape. En comparant les trajectoires lors de l'entraînement, PORA optimise l'allocation du budget et améliore les performances sur les tâches de code, de mémoire et de mathématiques.",
           "keyPoints": [
-            "Offre une vue d'ensemble systématique des agents industriels pilotés par LLM.",
-            "Établit une taxonomie unifiée sur cinq niveaux de capacité pour la fabrication.",
-            "Propose une architecture système à quatre couches pour l'exécution de tâches."
+            "Compare des parcours de raisonnement courts et longs depuis le même état d'entraînement.",
+            "Évalue la valeur future par rapport à la pression budgétaire restante.",
+            "Réduit l'utilisation de jetons et de requêtes tout en maintenant d'excellentes performances."
           ]
         }
       },
       "quality": {
         "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-95dedf578de78f",
+      "title": "OpenAI Models Are Coming to Google Cloud",
+      "summary": "OpenAI and Google Cloud are integrating frontier models and Codex workflows into Gemini’s Model Garden, making them accessible through the Google Cloud Marketplace.",
+      "keyPoints": [
+        "Partnership brings OpenAI frontier models to Google Cloud.",
+        "Includes integration of Codex workflows.",
+        "Available via Gemini’s Model Garden and Google Cloud Marketplace."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-models-google-cloud",
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI Models Are Coming to Google Cloud",
+          "summary": "OpenAI and Google Cloud are integrating frontier models and Codex workflows into Gemini’s Model Garden, making them accessible through the Google Cloud Marketplace.",
+          "keyPoints": [
+            "Partnership brings OpenAI frontier models to Google Cloud.",
+            "Includes integration of Codex workflows.",
+            "Available via Gemini’s Model Garden and Google Cloud Marketplace."
+          ]
+        },
+        "fr": {
+          "title": "Les modèles OpenAI arrivent sur Google Cloud",
+          "summary": "OpenAI et Google Cloud intègrent des modèles de pointe et des flux de travail Codex dans le Model Garden de Gemini, les rendant disponibles via le Google Cloud Marketplace.",
+          "keyPoints": [
+            "Le partenariat intègre les modèles phares d'OpenAI sur Google Cloud.",
+            "Comprend l'intégration des flux de travail Codex.",
+            "Disponible via le Model Garden de Gemini et le Google Cloud Marketplace."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-928b816a813ed9",
+      "title": "EDMA: Entropy-Driven Multimodal Answering for MLLMs",
+      "summary": "Entropy-Driven Multimodal Answering (EDMA) uses logical entropy to formalize multimodal QA as an iterative reduction process, quantifying the contribution of individual modalities. EDMA outperforms standard planning and Chain-of-Thought prompting baselines across benchmarks.",
+      "keyPoints": [
+        "Uses logical entropy to formulate multimodal QA as iterative entropy reduction.",
+        "Features modality-conditioned partitioning and entropy-driven multimodal fusion.",
+        "Outperforms standard prompting baselines with notable F1 and LLM-J score gains."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27120",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "EDMA: Entropy-Driven Multimodal Answering for MLLMs",
+          "summary": "Entropy-Driven Multimodal Answering (EDMA) uses logical entropy to formalize multimodal QA as an iterative reduction process, quantifying the contribution of individual modalities. EDMA outperforms standard planning and Chain-of-Thought prompting baselines across benchmarks.",
+          "keyPoints": [
+            "Uses logical entropy to formulate multimodal QA as iterative entropy reduction.",
+            "Features modality-conditioned partitioning and entropy-driven multimodal fusion.",
+            "Outperforms standard prompting baselines with notable F1 and LLM-J score gains."
+          ]
+        },
+        "fr": {
+          "title": "EDMA : Réponse multimodale pilotée par l'entropie",
+          "summary": "EDMA utilise l'entropie logique pour formaliser le question-réponse multimodal comme un processus de réduction itératif, quantifiant l'apport de chaque modalité. EDMA surpasse les méthodes de prompt de référence sur divers benchmarks.",
+          "keyPoints": [
+            "Utilise l'entropie logique pour formaliser la réduction d'entropie multimodale.",
+            "Intègre un partitionnement conditionné par modalité et une fusion multimodale.",
+            "Surpasse les méthodes de base avec des gains notables en score F1."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-de9db6f384cbc7",
+      "title": "Patch the Planet: Global Response Coordination for Vulnerabilities",
+      "summary": "Patch the Planet is an initiative connecting security researchers, maintainers, and incident responders to coordinate global responses as AI agents uncover critical vulnerabilities across open source ecosystems.",
+      "keyPoints": [
+        "Connects security researchers, maintainers, and incident responders.",
+        "Coordinates responses as AI agents uncover critical open source vulnerabilities.",
+        "Aims to secure critical vulnerabilities across open-source software."
+      ],
+      "category": "Open Source",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Patch the Planet: Global Response Coordination for Vulnerabilities",
+          "summary": "Patch the Planet is an initiative connecting security researchers, maintainers, and incident responders to coordinate global responses as AI agents uncover critical vulnerabilities across open source ecosystems.",
+          "keyPoints": [
+            "Connects security researchers, maintainers, and incident responders.",
+            "Coordinates responses as AI agents uncover critical open source vulnerabilities.",
+            "Aims to secure critical vulnerabilities across open-source software."
+          ]
+        },
+        "fr": {
+          "title": "Patch the Planet : Coordination mondiale face aux vulnérabilités",
+          "summary": "Patch the Planet est une initiative reliant chercheurs en sécurité, mainteneurs et répondeurs aux incidents pour coordonner une réponse mondiale alors que des agents IA découvrent des vulnérabilités critiques dans l'open source.",
+          "keyPoints": [
+            "Ressemble chercheurs, mainteneurs et intervenants d'incidents.",
+            "Coordonne les réponses face aux vulnérabilités découvertes par des agents IA.",
+            "Conçu pour sécuriser les failles critiques dans l'écosystème open source."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-47aec4fb283393",
+      "title": "Stronger AI breakthroughs hasten their own exhaustion",
+      "summary": "An analysis of 7.2 million papers shows that major AI breakthroughs narrow the field's attention and deplete the diverse ideas required for future progress.",
+      "keyPoints": [
+        "Analyzed 36 years of computer science data including 7.2 million papers.",
+        "Found that attention narrowed sharply after the Transformer model.",
+        "Bigger breakthroughs deplete the idea diversity needed for successors."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27296",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Stronger AI breakthroughs hasten their own exhaustion",
+          "summary": "An analysis of 7.2 million papers shows that major AI breakthroughs narrow the field's attention and deplete the diverse ideas required for future progress.",
+          "keyPoints": [
+            "Analyzed 36 years of computer science data including 7.2 million papers.",
+            "Found that attention narrowed sharply after the Transformer model.",
+            "Bigger breakthroughs deplete the idea diversity needed for successors."
+          ]
+        },
+        "fr": {
+          "title": "Les percées majeures en IA hâtent leur propre épuisement",
+          "summary": "Une analyse de 7,2 millions d'articles montre que les percées majeures en IA réduisent l'attention du domaine et épuisent la diversité d'idées.",
+          "keyPoints": [
+            "Analyse de 36 ans de données en informatique incluant 7,2 millions de papiers.",
+            "L'attention s'est fortement resserrée après l'introduction du Transformer.",
+            "Les grandes percées épuisent la diversité d'idées nécessaire aux successeurs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ea92da5c121ecb",
+      "title": "Building ChatGPT’s novel ad stack for trust and relevance",
+      "summary": "OpenAI outlines how it built ChatGPT’s LLM-powered ad stack to understand conversational intent while keeping advertisements separate from answers.",
+      "keyPoints": [
+        "Uses an LLM-powered ad stack to understand conversational intent.",
+        "Keeps advertisements separate from direct answers.",
+        "Delivers relevant ads at scale."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/building-chatgpt-ad-stack",
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Building ChatGPT’s novel ad stack for trust and relevance",
+          "summary": "OpenAI outlines how it built ChatGPT’s LLM-powered ad stack to understand conversational intent while keeping advertisements separate from answers.",
+          "keyPoints": [
+            "Uses an LLM-powered ad stack to understand conversational intent.",
+            "Keeps advertisements separate from direct answers.",
+            "Delivers relevant ads at scale."
+          ]
+        },
+        "fr": {
+          "title": "Conception de la nouvelle pile publicitaire de ChatGPT",
+          "summary": "OpenAI détaille la création de sa pile publicitaire propulsée par LLM pour comprendre l'intention tout en séparant les pubs des réponses.",
+          "keyPoints": [
+            "Utilise une pile publicitaire alimentée par LLM pour l'intention conversationnelle.",
+            "Maintient les publicités séparées des réponses fournies.",
+            "Diffuse des publicités pertinentes à grande échelle."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a9b49b0e8b70d1",
+      "title": "Evaluating Operational Value and Attribution in AI Planning",
+      "summary": "Researchers propose an observable evidence standard to solve the attribution problem in industrial AI planning systems using forecast replay.",
+      "keyPoints": [
+        "Introduces an observable evidence standard for AI planning additions.",
+        "Tested using forecast-to-play replay on retail datasets like Walmart.",
+        "Identifies limits in single-indicator evaluations and composite policies."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27305",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evaluating Operational Value and Attribution in AI Planning",
+          "summary": "Researchers propose an observable evidence standard to solve the attribution problem in industrial AI planning systems using forecast replay.",
+          "keyPoints": [
+            "Introduces an observable evidence standard for AI planning additions.",
+            "Tested using forecast-to-play replay on retail datasets like Walmart.",
+            "Identifies limits in single-indicator evaluations and composite policies."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation de la valeur opérationnelle en planification IA",
+          "summary": "Des chercheurs proposent un standard de preuve observable pour résoudre le problème d'attribution dans les systèmes de planification industrielle.",
+          "keyPoints": [
+            "Introduit un standard de preuve observable pour les ajouts en planification IA.",
+            "Testé à l'aide de simulations sur des données de ventes au détail comme Walmart.",
+            "Met en évidence les limites des évaluations à indicateur unique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-64ddfb139fec8a",
+      "title": "Using thousands of AI agents to uncover biological leads",
+      "summary": "OpenAI, PerturbAI, and Scripps Research utilized distributed AI agents to discover promising research leads from millions of brain cells.",
+      "keyPoints": [
+        "Employed thousands of distributed AI agents.",
+        "Uncovered new research leads in complex biological data.",
+        "Analyzed data from millions of brain cells in collaboration with Scripps."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "publishedAt": "2026-10-21T04:50:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Using thousands of AI agents to uncover biological leads",
+          "summary": "OpenAI, PerturbAI, and Scripps Research utilized distributed AI agents to discover promising research leads from millions of brain cells.",
+          "keyPoints": [
+            "Employed thousands of distributed AI agents.",
+            "Uncovered new research leads in complex biological data.",
+            "Analyzed data from millions of brain cells in collaboration with Scripps."
+          ]
+        },
+        "fr": {
+          "title": "Utilisation de milliers d'agents IA en biologie",
+          "summary": "OpenAI, PerturbAI et Scripps Research ont utilisé des agents IA distribués pour découvrir des pistes de recherche dans des millions de cellules.",
+          "keyPoints": [
+            "Utilisation de milliers d'agents IA distribués.",
+            "Découverte de pistes de recherche dans des données biologiques complexes.",
+            "Analyse de données provenant de millions de cellules cérébrales."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a08d8d7f457836",
+      "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+      "summary": "TURTLE is an unsupervised environment design approach that uses LLM agents to evolve tasks for long-horizon tool use.",
+      "keyPoints": [
+        "Proposes TURTLE, an Unsupervised Environment Design (UED) approach.",
+        "Uses proposer, solver, and feedback generator LLM agents.",
+        "Increases task difficulty, diversity, and failure mode coverage."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27307",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+          "summary": "TURTLE is an unsupervised environment design approach that uses LLM agents to evolve tasks for long-horizon tool use.",
+          "keyPoints": [
+            "Proposes TURTLE, an Unsupervised Environment Design (UED) approach.",
+            "Uses proposer, solver, and feedback generator LLM agents.",
+            "Increases task difficulty, diversity, and failure mode coverage."
+          ]
+        },
+        "fr": {
+          "title": "Benchmarks auto-ajustables pour l'utilisation d'outils",
+          "summary": "TURTLE est une approche de conception d'environnement non supervisée utilisant des agents LLM pour faire évoluer des tâches d'outils.",
+          "keyPoints": [
+            "Propose TURTLE, une approche de conception d'environnement non supervisée.",
+            "Utilise des agents LLM proposeur, solveur et générateur de rétroaction.",
+            "Accroît la difficulté des tâches, la diversité et la couverture des pannes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3fe372fb2e8166",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "summary": "Cloudflare integrates OpenAI Daybreak for investigating vulnerabilities and Codex for building faster and improving code quality.",
+      "keyPoints": [
+        "Uses OpenAI Daybreak to investigate vulnerabilities and propose fixes.",
+        "Employs Codex for faster software development.",
+        "Improves overall code quality and security defense."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/cloudflare-cyber",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+          "summary": "Cloudflare integrates OpenAI Daybreak for investigating vulnerabilities and Codex for building faster and improving code quality.",
+          "keyPoints": [
+            "Uses OpenAI Daybreak to investigate vulnerabilities and propose fixes.",
+            "Employs Codex for faster software development.",
+            "Improves overall code quality and security defense."
+          ]
+        },
+        "fr": {
+          "title": "Cloudflare associe vulnérabilités et défense avec OpenAI",
+          "summary": "Cloudflare intègre OpenAI Daybreak pour enquêter sur les failles et utilise Codex pour accélérer le développement et améliorer le code.",
+          "keyPoints": [
+            "Utilise OpenAI Daybreak pour enquêter sur les failles et proposer des correctifs.",
+            "Emploie Codex pour accélérer le développement logiciel.",
+            "Améliore la qualité du code et la défense en cybersécurité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2c4c026c9ccf9b",
+      "title": "Unsupervised Tool Evolution for Coding Agents in Analytics",
+      "summary": "TEAL is an unsupervised framework that evolves reusable tools and skills for coding agents across data-lake analytics tasks.",
+      "keyPoints": [
+        "Introduces TEAL for unsupervised tool evolution over data lakes.",
+        "Uses an Explorer and a Critic agent to propose and refine tools.",
+        "Improves Worker LLM performance under strict step budgets."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27327",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Unsupervised Tool Evolution for Coding Agents in Analytics",
+          "summary": "TEAL is an unsupervised framework that evolves reusable tools and skills for coding agents across data-lake analytics tasks.",
+          "keyPoints": [
+            "Introduces TEAL for unsupervised tool evolution over data lakes.",
+            "Uses an Explorer and a Critic agent to propose and refine tools.",
+            "Improves Worker LLM performance under strict step budgets."
+          ]
+        },
+        "fr": {
+          "title": "Évolution d'outils non supervisée pour agents codeurs",
+          "summary": "TEAL est un cadre non supervisé qui développe des outils et compétences réutilisables pour les agents codeurs en analyse de lacs de données.",
+          "keyPoints": [
+            "Introduit TEAL pour l'évolution d'outils non supervisés sur des lacs de données.",
+            "Utilise des agents Explorateur et Critique pour proposer et affiner des outils.",
+            "Améliore les performances des LLM travailleurs sous de stricts budgets d'étapes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e270f5ba468803",
+      "title": "Democratic governance of frontier AI, part II: Cyber defense",
+      "summary": "OpenAI presents a blueprint to empower cyber defenders with frontier AI, stronger security safeguards, and modernized public institutions.",
+      "keyPoints": [
+        "Outlines a blueprint for empowering cyber defenders with frontier AI.",
+        "Focuses on stronger safeguards and modernized cybersecurity.",
+        "Aims to build more resilient public institutions."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/empowering-cyber-defenders",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Democratic governance of frontier AI, part II: Cyber defense",
+          "summary": "OpenAI presents a blueprint to empower cyber defenders with frontier AI, stronger security safeguards, and modernized public institutions.",
+          "keyPoints": [
+            "Outlines a blueprint for empowering cyber defenders with frontier AI.",
+            "Focuses on stronger safeguards and modernized cybersecurity.",
+            "Aims to build more resilient public institutions."
+          ]
+        },
+        "fr": {
+          "title": "Gouvernance démocratique de l'IA de front, partie II",
+          "summary": "OpenAI présente un plan directeur pour habiliter les cyberdéfenseurs grâce à l'IA de pointe, des mesures de sécurité et des institutions modernisées.",
+          "keyPoints": [
+            "Expose un plan pour doter les cyberdéfenseurs d'une IA de pointe.",
+            "Met l'accent sur des protections renforcées et une cybersécurité moderne.",
+            "Vise à bâtir des institutions publiques plus résilientes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-51ce772b7b376b",
+      "title": "Modeling Authentic Research Trajectories via Graphs",
+      "summary": "The Research Progress Graph (RPG) models complete research ideation trajectories by recording states, evidence, and cognitive transitions.",
+      "keyPoints": [
+        "Defines authentic research trajectories in scientific idea generation.",
+        "Proposes the Research Progress Graph (RPG) to track complete idea evolution.",
+        "Evaluates thirty-five research agents against the RPG representation."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27337",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Modeling Authentic Research Trajectories via Graphs",
+          "summary": "The Research Progress Graph (RPG) models complete research ideation trajectories by recording states, evidence, and cognitive transitions.",
+          "keyPoints": [
+            "Defines authentic research trajectories in scientific idea generation.",
+            "Proposes the Research Progress Graph (RPG) to track complete idea evolution.",
+            "Evaluates thirty-five research agents against the RPG representation."
+          ]
+        },
+        "fr": {
+          "title": "Modélisation des trajectoires de recherche par graphes",
+          "summary": "Le graphe de progression de la recherche (RPG) modélise les trajectoires d'idéation en enregistrant les états, preuves et transitions cognitives.",
+          "keyPoints": [
+            "Définit les trajectoires de recherche authentiques en génération d'idées.",
+            "Propose le RPG pour suivre l'évolution complète des idées scientifiques.",
+            "Évalue trente-cinq agents de recherche par rapport à la représentation RPG."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-59eca2e2ce85f5",
+      "title": "An LLM-Based Agent for Legal Compliance Assessment",
+      "summary": "ComplianceAgent evaluates texts for legal compliance using a large language model, fixed rubric, and corrective chains in a Canadian context.",
+      "keyPoints": [
+        "Part of COMPASS, a multi-agent framework evaluating text compliance.",
+        "Incorporates self-healing rewrites, explainability reports, and human escalation.",
+        "Evaluated on a Canadian and Quebec legal corpus with gold-standard data."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27347",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "An LLM-Based Agent for Legal Compliance Assessment",
+          "summary": "ComplianceAgent evaluates texts for legal compliance using a large language model, fixed rubric, and corrective chains in a Canadian context.",
+          "keyPoints": [
+            "Part of COMPASS, a multi-agent framework evaluating text compliance.",
+            "Incorporates self-healing rewrites, explainability reports, and human escalation.",
+            "Evaluated on a Canadian and Quebec legal corpus with gold-standard data."
+          ]
+        },
+        "fr": {
+          "title": "Agent basé sur les LLM pour la conformité juridique",
+          "summary": "ComplianceAgent évalue la conformité juridique des textes à l'aide d'un grand modèle de langage et de chaînes correctives dans un contexte canadien.",
+          "keyPoints": [
+            "Fait partie de COMPASS, un cadre multi-agents évaluant la conformité.",
+            "Intègre des réécritures correctives et une escalade vers un réviseur humain.",
+            "Évalué sur un corpus juridique canadien et québécois avec données étalons."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 503,
+    "itemsCollected": 505,
     "itemsPublished": 20,
-    "newItems": 10,
+    "newItems": 20,
     "candidates": 20,
     "batches": 2,
     "batchSize": 10,
