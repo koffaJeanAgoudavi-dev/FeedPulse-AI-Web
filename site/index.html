@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>FeedPulse AI</title>
+    <meta name="description" content="FeedPulse AI compiled web application and AI news feed pipeline." />
+    <meta property="og:title" content="FeedPulse AI" />
+    <meta property="og:description" content="FeedPulse AI compiled web application and AI news feed pipeline." />
     <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
       /* These styles make the body full-height */
       html,
       body {
         height: 100%;
+        margin: 0;
+        padding: 0;
       }
       /* These styles disable body scrolling if you are using <ScrollView> */
       body {
@@ -23,15 +28,572 @@
         flex: 1;
       }
     </style>
-  <link rel="preload" href="/FeedPulse-AI-Web/_expo/static/css/modal.module-33361d5c796745334f151cac6c469469.css" as="style"><link rel="stylesheet" href="/FeedPulse-AI-Web/_expo/static/css/modal.module-33361d5c796745334f151cac6c469469.css"><link rel="icon" href="/FeedPulse-AI-Web/favicon.ico" /></head>
+    <link rel="preload" href="/FeedPulse-AI-Web/_expo/static/css/modal.module-33361d5c796745334f151cac6c469469.css" as="style">
+    <link rel="stylesheet" href="/FeedPulse-AI-Web/_expo/static/css/modal.module-33361d5c796745334f151cac6c469469.css">
+    <link rel="icon" href="/FeedPulse-AI-Web/favicon.ico" />
+
+    <style>
+      /* Switch toggle styles */
+      .fp-switch {
+        position: relative;
+        display: inline-block;
+        width: 44px;
+        height: 24px;
+        flex-shrink: 0;
+      }
+      .fp-switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      .fp-slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: #cbd5e1;
+        transition: .25s ease;
+        border-radius: 24px;
+      }
+      .fp-slider:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 18px;
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        transition: .25s ease;
+        border-radius: 50%;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+      }
+      .fp-switch input:checked + .fp-slider {
+        background-color: #8B4500;
+      }
+      .fp-switch input:checked + .fp-slider:before {
+        transform: translateX(20px);
+      }
+      /* Toast */
+      #fp-toast {
+        position: fixed;
+        bottom: 74px;
+        left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        background: #0f172a;
+        color: #f8fafc;
+        padding: 9px 18px;
+        border-radius: 12px;
+        font-size: 13px;
+        font-weight: 600;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        z-index: 99999;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      #fp-toast.visible {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+      /* Badge dynamic positioning */
+      .badge-bottom-right {
+        top: auto !important;
+        bottom: 75px !important;
+        right: 16px !important;
+      }
+      .badge-hidden {
+        display: none !important;
+      }
+      /* Responsive compact badge */
+      @media (max-width: 500px) {
+        #feedpulse-auth-widget {
+          max-width: calc(100vw - 32px);
+          gap: 6px !important;
+        }
+        #feedpulse-prefs-btn {
+          padding: 6px 10px !important;
+          font-size: 11px !important;
+        }
+        #feedpulse-auth-btn {
+          padding: 6px 10px !important;
+          font-size: 11px !important;
+        }
+      }
+    </style>
+
+    <script>
+      // Ensure Expo Router matches its compiled baseUrl regardless of the incoming path
+      if (window.location.pathname === '/settings') {
+        window.history.replaceState(null, '', '/FeedPulse-AI-Web/settings' + window.location.search + window.location.hash);
+      } else if (window.location.pathname === '/' || window.location.pathname === '') {
+        window.history.replaceState(null, '', '/FeedPulse-AI-Web/' + window.location.search + window.location.hash);
+      }
+    </script>
+  </head>
 
   <body>
-    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
     <noscript>
-      You need to enable JavaScript to run this app.
+      Vous devez activer JavaScript pour exécuter cette application.
     </noscript>
-    <!-- The root element for your Expo app. -->
+
+    <!-- The root element for Expo React Native Web (Mandatory for app to mount) -->
     <div id="root"></div>
-  <script src="/FeedPulse-AI-Web/_expo/static/js/web/entry-09e0ff764a736a6c4ed52e6723a0193d.js" defer></script>
-</body>
+
+    <!-- FeedPulse Auth & Navigation Bar -->
+    <div id="feedpulse-auth-widget" style="position: fixed; top: 12px; right: 16px; z-index: 9999; display: flex; align-items: center; gap: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; transition: all 0.25s ease;">
+      <!-- Veille Button -->
+      <a href="/preferences" id="feedpulse-prefs-btn" style="display: none; align-items: center; gap: 6px; padding: 7px 13px; background: #ffffff; color: #8B4500; border-radius: 9999px; text-decoration: none; font-size: 12px; font-weight: 700; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; transition: all 0.2s;" title="Personnaliser votre veille IA">
+        <span>🎯 Veille</span>
+      </a>
+
+      <!-- Profile & Favorites Button -->
+      <a href="/login" id="feedpulse-auth-btn" style="display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; background: #8B4500; color: white; border-radius: 9999px; text-decoration: none; font-size: 13px; font-weight: 600; box-shadow: 0 4px 14px rgba(139,69,0,0.3); transition: all 0.2s; border: 1px solid rgba(255,255,255,0.2);">
+        <svg style="width: 14px; height: 14px; fill: currentColor;" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+        <span id="feedpulse-auth-text">⚡ Se connecter</span>
+      </a>
+    </div>
+
+    <!-- Toast Notification Element -->
+    <div id="fp-toast">
+      <svg style="width: 16px; height: 16px; color: #34d399;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+      <span id="fp-toast-msg">Paramètres mis à jour !</span>
+    </div>
+
+    <script type="module">
+      import { initFirebase, saveUserPreferences, getUserPreferences, updateUserProfileName } from '/firebase-app.js';
+      import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js';
+      import { collection, query, onSnapshot } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js';
+
+      // Default settings for the top floating buttons
+      const DEFAULT_CONFIG = {
+        showVeille: true,
+        showFavoris: true,
+        compactMode: false,
+        hideOnSettings: true,
+        customName: '',
+        position: 'top-right' // 'top-right' | 'bottom-right' | 'hidden'
+      };
+
+      // Load settings from localStorage
+      let badgeConfig = { ...DEFAULT_CONFIG };
+      try {
+        const saved = localStorage.getItem('feedpulse_badge_settings');
+        if (saved) badgeConfig = { ...DEFAULT_CONFIG, ...JSON.parse(saved) };
+      } catch (e) {}
+
+      let currentUser = null;
+      let currentFavoritesCount = 0;
+
+      const widget = document.getElementById('feedpulse-auth-widget');
+      const prefsBtn = document.getElementById('feedpulse-prefs-btn');
+      const authBtn = document.getElementById('feedpulse-auth-btn');
+      const authText = document.getElementById('feedpulse-auth-text');
+      const toast = document.getElementById('fp-toast');
+      const toastMsg = document.getElementById('fp-toast-msg');
+
+      function showToast(msg) {
+        toastMsg.textContent = msg;
+        toast.classList.add('visible');
+        setTimeout(() => toast.classList.remove('visible'), 2800);
+      }
+
+      // Check if current screen is Settings
+      function isSettingsScreen() {
+        const path = window.location.pathname.toLowerCase();
+        if (path.includes('settings')) return true;
+        // In Expo Router tab navigation, check if Settings header or language label is in the DOM
+        const bodyText = document.body.innerText || '';
+        return bodyText.includes('Choisissez la langue') && bodyText.includes('Paramètres');
+      }
+
+      // Render the floating badge according to current user and badgeConfig
+      function updateBadgeDisplay() {
+        if (!widget) return;
+
+        // Check if on settings page and hideOnSettings is active
+        if (badgeConfig.hideOnSettings && isSettingsScreen()) {
+          widget.style.display = 'none';
+          return;
+        }
+
+        if (badgeConfig.position === 'hidden') {
+          widget.style.display = 'none';
+          return;
+        }
+
+        widget.style.display = 'flex';
+
+        // Apply position
+        if (badgeConfig.position === 'bottom-right') {
+          widget.classList.add('badge-bottom-right');
+        } else {
+          widget.classList.remove('badge-bottom-right');
+        }
+
+        // Apply Veille button visibility
+        if (currentUser && badgeConfig.showVeille) {
+          prefsBtn.style.display = 'inline-flex';
+        } else {
+          prefsBtn.style.display = 'none';
+        }
+
+        // Apply Profile & Favorites text
+        if (currentUser) {
+          authBtn.style.background = '#ffffff';
+          authBtn.style.color = '#1e293b';
+          authBtn.style.border = '1px solid #e2e8f0';
+          authBtn.style.boxShadow = '0 2px 10px rgba(0,0,0,0.08)';
+
+          const nameToDisplay = badgeConfig.customName.trim() || 
+                                currentUser.displayName || 
+                                currentUser.email?.split('@')[0] || 
+                                'Utilisateur';
+
+          if (badgeConfig.compactMode) {
+            // Compact mode: green status indicator + avatar + count (if enabled)
+            const favText = badgeConfig.showFavoris ? ` · <span style="color:#8B4500; font-weight:700;">⭐ ${currentFavoritesCount}</span>` : '';
+            authText.innerHTML = `<span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#10b981; margin-right:4px;"></span><b>${nameToDisplay.charAt(0).toUpperCase()}</b>${favText}`;
+          } else {
+            // Full name mode
+            const favText = badgeConfig.showFavoris ? ` · <span id="fav-count" style="color:#8B4500; font-weight:700;">⭐ ${currentFavoritesCount} favoris</span>` : '';
+            authText.innerHTML = `<span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#10b981; margin-right:4px;"></span> ${nameToDisplay}${favText}`;
+          }
+        } else {
+          authBtn.style.background = '#8B4500';
+          authBtn.style.color = '#ffffff';
+          authBtn.style.border = '1px solid rgba(255,255,255,0.2)';
+          authBtn.style.boxShadow = '0 4px 14px rgba(139,69,0,0.3)';
+          authText.innerHTML = `⚡ Se connecter`;
+          prefsBtn.style.display = 'none';
+        }
+      }
+
+      // Save badge settings locally and to Firestore
+      async function saveBadgeSettings(newConfig) {
+        badgeConfig = { ...badgeConfig, ...newConfig };
+        localStorage.setItem('feedpulse_badge_settings', JSON.stringify(badgeConfig));
+        updateBadgeDisplay();
+
+        if (currentUser) {
+          try {
+            await saveUserPreferences({ widgetSettings: badgeConfig });
+          } catch (err) {
+            console.warn('Sync to firestore:', err);
+          }
+        }
+      }
+
+      // Inject custom configuration sections into the Settings screen
+      function injectSettingsSections() {
+        if (!isSettingsScreen()) {
+          const existing = document.getElementById('feedpulse-settings-extension');
+          if (existing) existing.remove();
+          updateBadgeDisplay();
+          return;
+        }
+
+        // On settings screen: ensure overlap is eliminated
+        updateBadgeDisplay();
+
+        // Check if already injected
+        if (document.getElementById('feedpulse-settings-extension')) return;
+
+        // Find the settings container in Expo's rendered DOM
+        // Looking for the container that holds the language selector and about card
+        const allDivs = Array.from(document.querySelectorAll('#root div'));
+        let targetParent = null;
+
+        for (const div of allDivs) {
+          const text = div.innerText || '';
+          if (text.includes('Choisissez la langue') && text.includes('À propos') && div.children.length >= 2) {
+            targetParent = div;
+            break;
+          }
+        }
+
+        if (!targetParent) {
+          // Fallback: search for language section parent
+          for (const div of allDivs) {
+            if (div.innerText && div.innerText.includes('Choisissez la langue')) {
+              targetParent = div.parentElement;
+              break;
+            }
+          }
+        }
+
+        if (!targetParent) return;
+
+        // Build the Settings Extension Card
+        const extension = document.createElement('div');
+        extension.id = 'feedpulse-settings-extension';
+        extension.style.cssText = `
+          margin-top: 20px;
+          margin-bottom: 24px;
+          background: #ffffff;
+          border: 1px solid #e2e8f0;
+          border-radius: 16px;
+          padding: 18px;
+          box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        `;
+
+        const currentDisplayName = badgeConfig.customName.trim() || 
+                                   currentUser?.displayName || 
+                                   currentUser?.email?.split('@')[0] || 
+                                   'Johnny OKABE';
+
+        extension.innerHTML = `
+          <!-- Section 1 Header: Boutons d'accès rapide -->
+          <div style="display: flex; items-center; justify-content: space-between; border-bottom: 1px solid #f1f5f9; padding-bottom: 12px; margin-bottom: 14px;">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <div style="width: 36px; height: 36px; border-radius: 10px; background: #FFF7ED; color: #8B4500; display: flex; align-items: center; justify-content: center; font-size: 18px;">
+                ⚙️
+              </div>
+              <div>
+                <h3 style="font-size: 15px; font-weight: 700; color: #0f172a; margin: 0;">Barre d'accès rapide &amp; Badges</h3>
+                <p style="font-size: 12px; color: #64748b; margin: 2px 0 0 0;">Personnalisez ou masquez les boutons supérieurs</p>
+              </div>
+            </div>
+            <span style="font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 9999px; background: #DCFCE7; color: #15803D;">En direct</span>
+          </div>
+
+          <!-- Configuration options -->
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            
+            <!-- Option 1: Bouton Veille -->
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <div>
+                <div style="font-size: 13px; font-weight: 600; color: #1e293b; display: flex; align-items: center; gap: 6px;">
+                  <span>Bouton « Veille »</span>
+                  <span style="font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; background: #FFE4D6; color: #9A3412;">🎯 Veille</span>
+                </div>
+                <div style="font-size: 11px; color: #64748b; margin-top: 2px;">Accès direct à la calibration algorithmique des thématiques</div>
+              </div>
+              <label class="fp-switch">
+                <input type="checkbox" id="toggle-veille" ${badgeConfig.showVeille ? 'checked' : ''}>
+                <span class="fp-slider"></span>
+              </label>
+            </div>
+
+            <!-- Option 2: Compteur Favoris -->
+            <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #f8fafc; padding-top: 12px;">
+              <div>
+                <div style="font-size: 13px; font-weight: 600; color: #1e293b; display: flex; align-items: center; gap: 6px;">
+                  <span>Compteur « Favoris »</span>
+                  <span style="font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; background: #FEF3C7; color: #92400E;">⭐ ${currentFavoritesCount}</span>
+                </div>
+                <div style="font-size: 11px; color: #64748b; margin-top: 2px;">Affiche le nombre d'articles enregistrés dans le badge</div>
+              </div>
+              <label class="fp-switch">
+                <input type="checkbox" id="toggle-favoris" ${badgeConfig.showFavoris ? 'checked' : ''}>
+                <span class="fp-slider"></span>
+              </label>
+            </div>
+
+            <!-- Option 3: Mode Compact Profil -->
+            <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #f8fafc; padding-top: 12px;">
+              <div>
+                <div style="font-size: 13px; font-weight: 600; color: #1e293b;">Mode compact du profil</div>
+                <div style="font-size: 11px; color: #64748b; margin-top: 2px;">Affiche l'avatar seul plutôt que le nom complet étendu</div>
+              </div>
+              <label class="fp-switch">
+                <input type="checkbox" id="toggle-compact" ${badgeConfig.compactMode ? 'checked' : ''}>
+                <span class="fp-slider"></span>
+              </label>
+            </div>
+
+            <!-- Option 4: Anti-chevauchement sur Paramètres -->
+            <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #f8fafc; padding-top: 12px;">
+              <div>
+                <div style="font-size: 13px; font-weight: 600; color: #1e293b;">Masquer sur l'écran Paramètres</div>
+                <div style="font-size: 11px; color: #16a34a; font-weight: 500; margin-top: 2px;">✓ Recommandé : élimine la superposition avec le titre</div>
+              </div>
+              <label class="fp-switch">
+                <input type="checkbox" id="toggle-hide-settings" ${badgeConfig.hideOnSettings ? 'checked' : ''}>
+                <span class="fp-slider"></span>
+              </label>
+            </div>
+
+            <!-- Option 5: Modification du nom utilisateur -->
+            <div style="border-top: 1px solid #f8fafc; padding-top: 12px;">
+              <label style="font-size: 12px; font-weight: 700; color: #1e293b; display: block; margin-bottom: 6px;">Modifier le nom affiché sur le badge</label>
+              <div style="display: flex; gap: 8px;">
+                <input type="text" id="input-custom-name" value="${currentDisplayName}" placeholder="ex: Johnny OKABE" style="flex: 1; padding: 8px 12px; font-size: 13px; border: 1px solid #cbd5e1; border-radius: 8px; outline: none; background: #f8fafc;">
+                <button type="button" id="btn-save-name" style="padding: 8px 14px; background: #8B4500; color: white; border: none; border-radius: 8px; font-size: 12px; font-weight: 700; cursor: pointer; transition: background 0.2s;">
+                  Enregistrer
+                </button>
+              </div>
+            </div>
+
+            <!-- Option 6: Positionnement du badge -->
+            <div style="border-top: 1px solid #f8fafc; padding-top: 12px;">
+              <label style="font-size: 12px; font-weight: 700; color: #1e293b; display: block; margin-bottom: 6px;">Emplacement du badge</label>
+              <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px;">
+                <button type="button" class="btn-pos" data-pos="top-right" style="padding: 7px; font-size: 11px; font-weight: 600; border-radius: 8px; border: 1px solid ${badgeConfig.position === 'top-right' ? '#8B4500' : '#cbd5e1'}; background: ${badgeConfig.position === 'top-right' ? '#FFF7ED' : '#ffffff'}; color: ${badgeConfig.position === 'top-right' ? '#8B4500' : '#475569'}; cursor: pointer;">
+                  Haut-Droite
+                </button>
+                <button type="button" class="btn-pos" data-pos="bottom-right" style="padding: 7px; font-size: 11px; font-weight: 600; border-radius: 8px; border: 1px solid ${badgeConfig.position === 'bottom-right' ? '#8B4500' : '#cbd5e1'}; background: ${badgeConfig.position === 'bottom-right' ? '#FFF7ED' : '#ffffff'}; color: ${badgeConfig.position === 'bottom-right' ? '#8B4500' : '#475569'}; cursor: pointer;">
+                  Bas-Droite
+                </button>
+                <button type="button" class="btn-pos" data-pos="hidden" style="padding: 7px; font-size: 11px; font-weight: 600; border-radius: 8px; border: 1px solid ${badgeConfig.position === 'hidden' ? '#8B4500' : '#cbd5e1'}; background: ${badgeConfig.position === 'hidden' ? '#FFF7ED' : '#ffffff'}; color: ${badgeConfig.position === 'hidden' ? '#8B4500' : '#475569'}; cursor: pointer;">
+                  Masqué
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Section 2: Compte & Synchronisation Firestore -->
+          <div style="margin-top: 18px; border-top: 1px solid #e2e8f0; padding-top: 14px;">
+            <div style="font-size: 12px; font-weight: 700; text-transform: uppercase; color: #94a3b8; letter-spacing: 0.5px; margin-bottom: 8px;">
+              Compte &amp; Synchronisation Firestore
+            </div>
+            
+            <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 10px; margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;">
+              <div style="font-size: 12px; color: #334155;">
+                <strong>Statut :</strong> ${currentUser ? 'Connecté (' + (currentUser.email || 'Google') + ')' : 'Mode invité'}
+              </div>
+              <span style="font-size: 11px; font-weight: 700; color: #16A34A; display: flex; align-items: center; gap: 4px;">
+                <span style="width: 7px; height: 7px; border-radius: 50%; background: #16A34A;"></span> Actif
+              </span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+              <a href="/preferences" style="display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px 10px; border-radius: 8px; background: #FFF7ED; color: #8B4500; font-size: 12px; font-weight: 700; text-decoration: none; border: 1px solid #FFEDD5;">
+                🎯 Calibrer la veille
+              </a>
+              <a href="/login" style="display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px 10px; border-radius: 8px; background: #F1F5F9; color: #334155; font-size: 12px; font-weight: 700; text-decoration: none; border: 1px solid #E2E8F0;">
+                👤 Gérer le compte
+              </a>
+            </div>
+
+            <button type="button" id="btn-reset-badge" style="width: 100%; margin-top: 10px; background: none; border: none; font-size: 11px; color: #94a3b8; text-decoration: underline; cursor: pointer; text-align: center;">
+              Rétablir l'affichage des boutons par défaut
+            </button>
+          </div>
+        `;
+
+        // Insert into container
+        targetParent.appendChild(extension);
+
+        // Attach event listeners for the injected controls
+        document.getElementById('toggle-veille')?.addEventListener('change', (e) => {
+          saveBadgeSettings({ showVeille: e.target.checked });
+          showToast(e.target.checked ? "Bouton Veille activé" : "Bouton Veille masqué");
+        });
+
+        document.getElementById('toggle-favoris')?.addEventListener('change', (e) => {
+          saveBadgeSettings({ showFavoris: e.target.checked });
+          showToast(e.target.checked ? "Compteur Favoris activé" : "Compteur Favoris masqué");
+        });
+
+        document.getElementById('toggle-compact')?.addEventListener('change', (e) => {
+          saveBadgeSettings({ compactMode: e.target.checked });
+          showToast(e.target.checked ? "Mode compact activé" : "Mode complet activé");
+        });
+
+        document.getElementById('toggle-hide-settings')?.addEventListener('change', (e) => {
+          saveBadgeSettings({ hideOnSettings: e.target.checked });
+          showToast(e.target.checked ? "Anti-chevauchement actif sur Paramètres" : "Badge toujours visible sur Paramètres");
+        });
+
+        document.getElementById('btn-save-name')?.addEventListener('click', async () => {
+          const val = document.getElementById('input-custom-name')?.value.trim() || '';
+          await saveBadgeSettings({ customName: val });
+          if (currentUser && val) {
+            await updateUserProfileName(val);
+          }
+          showToast("Nom affiché mis à jour : " + (val || 'Par défaut'));
+        });
+
+        document.querySelectorAll('.btn-pos').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const pos = e.currentTarget.getAttribute('data-pos');
+            saveBadgeSettings({ position: pos });
+            document.querySelectorAll('.btn-pos').forEach(b => {
+              const active = b.getAttribute('data-pos') === pos;
+              b.style.borderColor = active ? '#8B4500' : '#cbd5e1';
+              b.style.backgroundColor = active ? '#FFF7ED' : '#ffffff';
+              b.style.color = active ? '#8B4500' : '#475569';
+            });
+            showToast("Position du badge modifiée : " + pos);
+          });
+        });
+
+        document.getElementById('btn-reset-badge')?.addEventListener('click', () => {
+          saveBadgeSettings(DEFAULT_CONFIG);
+          showToast("Réglages du badge réinitialisés par défaut !");
+          injectSettingsSections(); // refresh form values
+        });
+      }
+
+      // Initialize Firebase & Auth sync
+      initFirebase().then(({ auth, db }) => {
+        onAuthStateChanged(auth, async (user) => {
+          currentUser = user;
+
+          if (user) {
+            // Load cloud settings if any
+            try {
+              const prefs = await getUserPreferences();
+              if (prefs?.widgetSettings) {
+                badgeConfig = { ...badgeConfig, ...prefs.widgetSettings };
+                localStorage.setItem('feedpulse_badge_settings', JSON.stringify(badgeConfig));
+              }
+            } catch (e) {}
+
+            // Subscribe to Firestore favorites count
+            try {
+              const q = query(collection(db, 'users', user.uid, 'favorites'));
+              onSnapshot(q, (snap) => {
+                currentFavoritesCount = snap.size;
+                updateBadgeDisplay();
+              }, () => {});
+            } catch (e) {}
+          } else {
+            currentFavoritesCount = 0;
+          }
+
+          updateBadgeDisplay();
+          injectSettingsSections();
+        });
+      }).catch(err => console.warn('Firebase init in index.html:', err));
+
+      // Global Navigation & Mutation Observer
+      // Detects when the user navigates between Feed, Favorites, and Settings
+      let lastUrl = window.location.href;
+      function onRouteChanged() {
+        if (window.location.href !== lastUrl) {
+          lastUrl = window.location.href;
+        }
+        updateBadgeDisplay();
+        injectSettingsSections();
+      }
+
+      window.addEventListener('popstate', onRouteChanged);
+      window.addEventListener('hashchange', onRouteChanged);
+
+      // Periodically and mutationally inspect DOM to inject into settings and handle screen changes
+      const observer = new MutationObserver(() => {
+        injectSettingsSections();
+      });
+
+      observer.observe(document.body, { childList: true, subtree: true });
+
+      // Immediate check
+      setTimeout(() => {
+        updateBadgeDisplay();
+        injectSettingsSections();
+      }, 300);
+      setTimeout(() => {
+        updateBadgeDisplay();
+        injectSettingsSections();
+      }, 1000);
+    </script>
+
+    <!-- Main precompiled Expo React Native Web bundle -->
+    <script src="/FeedPulse-AI-Web/_expo/static/js/web/entry-09e0ff764a736a6c4ed52e6723a0193d.js" defer></script>
+  </body>
 </html>

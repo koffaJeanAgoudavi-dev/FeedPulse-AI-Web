@@ -1,755 +1,326 @@
 {
-  "generatedAt": "2026-10-22T17:13:02.238Z",
+  "generatedAt": "2026-10-21T23:30:38.141Z",
   "items": [
     {
-      "id": "feed-7be1f38a8edb49",
-      "title": "RiseHarness Framework for Long-Horizon Terminal Agents",
-      "summary": "RiseHarness is a new framework designed to iteratively improve agent harnesses while model weights remain fixed. By analyzing successful and failed runs under the same configuration, the framework integrates insights from internal runtime traces and external frameworks to make agent execution more reliable across tasks.",
-      "keyPoints": [
-        "Focuses on flipping tasks with both successful and failed runs under the same configuration.",
-        "Combines agent trajectories with internal harness traces to analyze model action interactions.",
-        "Adapts relevant implementations from other harness frameworks as design references."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27435",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "RiseHarness Framework for Long-Horizon Terminal Agents",
-          "summary": "RiseHarness is a new framework designed to iteratively improve agent harnesses while model weights remain fixed. By analyzing successful and failed runs under the same configuration, the framework integrates insights from internal runtime traces and external frameworks to make agent execution more reliable across tasks.",
-          "keyPoints": [
-            "Focuses on flipping tasks with both successful and failed runs under the same configuration.",
-            "Combines agent trajectories with internal harness traces to analyze model action interactions.",
-            "Adapts relevant implementations from other harness frameworks as design references."
-          ]
-        },
-        "fr": {
-          "title": "Le cadre RiseHarness pour les agents terminaux à long horizon",
-          "summary": "RiseHarness est un nouveau cadre conçu pour améliorer itérativement les harnais d'agents tout en maintenant les poids des modèles fixes. En analysant les exécutions réussies et échouées sous la même configuration, le cadre intègre des analyses de traçage et de cadres externes pour rendre l'exécution plus fiable.",
-          "keyPoints": [
-            "Se concentre sur l'inversion des tâches ayant réussi et échoué sous la même configuration.",
-            "Combine les trajectoires des agents avec des traces internes pour analyser les interactions.",
-            "Adapte des implémentations pertinentes d'autres cadres de harnais comme références de conception."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-511a84f55bad4b",
-      "title": "Ask-to-Distill: Learning to Synthesize Data for On-Policy Distillation",
-      "summary": "Ask-to-Distill is a framework that treats synthetic questions as distribution elicitors to optimize teacher supervision for on-policy distillation without requiring reference answers. The method improves average performance and teacher-gap recovery across mathematical reasoning, code generation, and agentic tasks.",
-      "keyPoints": [
-        "Optimizes synthetic questions as distribution elicitors without access to correct answers.",
-        "Combines teacher-student disagreement, probability mass, and length/diversity controls.",
-        "Improves average performance and teacher-gap recovery across multiple task types."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27450",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Ask-to-Distill: Learning to Synthesize Data for On-Policy Distillation",
-          "summary": "Ask-to-Distill is a framework that treats synthetic questions as distribution elicitors to optimize teacher supervision for on-policy distillation without requiring reference answers. The method improves average performance and teacher-gap recovery across mathematical reasoning, code generation, and agentic tasks.",
-          "keyPoints": [
-            "Optimizes synthetic questions as distribution elicitors without access to correct answers.",
-            "Combines teacher-student disagreement, probability mass, and length/diversity controls.",
-            "Improves average performance and teacher-gap recovery across multiple task types."
-          ]
-        },
-        "fr": {
-          "title": "Ask-to-Distill : Apprentissage de synthèse de données pour la distillation sur politique",
-          "summary": "Ask-to-Distill est un cadre traitant les questions synthétiques comme des éliciteurs de distribution pour optimiser la supervision des enseignants pour la distillation sur politique sans réponses de référence. La méthode améliore les performances moyennes sur divers types de tâches.",
-          "keyPoints": [
-            "Optimise des questions synthétiques sans accès aux réponses correctes.",
-            "Combine le désaccord enseignant-élève, la masse de probabilité et les contrôles de diversité.",
-            "Améliore la performance moyenne et la récupération de l'écart enseignant."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-825130cf8cb2d5",
-      "title": "Recoverability and Verifier Strength in Agent Self-Improvement",
-      "summary": "This paper proposes two measured preconditions for unattended agent self-improvement: verifier strength and recoverability. Testing on an agent platform revealed that verifier strength must be carefully measured because LLM judges can approve anything without error, and recoverability depends on keeping a saved copy of the old behavior.",
-      "keyPoints": [
-        "Proposes verifier strength and recoverability as preconditions for unattended improvements.",
-        "Finds that LLM judges can sometimes approve anything while reporting no error.",
-        "Shows that only changes with saved old versions can be reversed without a human."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27465",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Recoverability and Verifier Strength in Agent Self-Improvement",
-          "summary": "This paper proposes two measured preconditions for unattended agent self-improvement: verifier strength and recoverability. Testing on an agent platform revealed that verifier strength must be carefully measured because LLM judges can approve anything without error, and recoverability depends on keeping a saved copy of the old behavior.",
-          "keyPoints": [
-            "Proposes verifier strength and recoverability as preconditions for unattended improvements.",
-            "Finds that LLM judges can sometimes approve anything while reporting no error.",
-            "Shows that only changes with saved old versions can be reversed without a human."
-          ]
-        },
-        "fr": {
-          "title": "Récupérabilité et robustesse des vérificateurs dans l'auto-amélioration des agents",
-          "summary": "Cet article propose deux conditions préalables mesurées pour l'auto-amélioration non supervisée des agents : la force du vérificateur et la récupérabilité. Les tests ont révélé que la force du vérificateur doit être mesurée et que la récupérabilité dépend de la conservation d'une copie.",
-          "keyPoints": [
-            "Propose la force du vérificateur et la récupérabilité comme conditions préalables.",
-            "Montre que les juges LLM peuvent parfois tout approuver sans signaler d'erreur.",
-            "Démontre que seuls les changements avec une ancienne version sauvegardée sont réversibles."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6c3e6ac2e2af8d",
-      "title": "Runtime Control for AI Agents: Closing the Evaluation-Execution Gap",
-      "summary": "This research introduces a state-bound runtime assurance layer to address the evaluation-execution gap in operational workflows where approvals can become invalid over time. In a scripted replay, the model successfully identified later-invalidated approvals and held affected actions before dispatch.",
-      "keyPoints": [
-        "Specifies a state-bound runtime assurance layer separating measurement from adjudication.",
-        "Invalidates execution allowances after relevant logged changes occur.",
-        "Identified 15 later-invalidated approvals in a scripted 42-case replay."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27480",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Runtime Control for AI Agents: Closing the Evaluation-Execution Gap",
-          "summary": "This research introduces a state-bound runtime assurance layer to address the evaluation-execution gap in operational workflows where approvals can become invalid over time. In a scripted replay, the model successfully identified later-invalidated approvals and held affected actions before dispatch.",
-          "keyPoints": [
-            "Specifies a state-bound runtime assurance layer separating measurement from adjudication.",
-            "Invalidates execution allowances after relevant logged changes occur.",
-            "Identified 15 later-invalidated approvals in a scripted 42-case replay."
-          ]
-        },
-        "fr": {
-          "title": "Contrôle d'exécution pour les agents IA : combler l'écart évaluation-exécution",
-          "summary": "Cette recherche introduit une couche d'assurance d'exécution liée à l'état pour combler l'écart entre l'évaluation et l'exécution dans les flux opérationnels. Dans un test scripté, le modèle a identifié avec succès des approbations invalidées ultérieurement.",
-          "keyPoints": [
-            "Spécifie une couche d'assurance d'exécution séparant la mesure de l'adjudication.",
-            "Invalide les autorisations d'exécution après des modifications enregistrées.",
-            "A identifié 15 approbations invalidées lors d'un test scripté de 42 cas."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2e778544b0e989",
-      "title": "Securing Agentic Commerce Through Behavior-Aware Fraud Detection",
-      "summary": "The Autonomous Commerce Agent Guard System (ACAGS) combines supervised machine learning, behavioral analytics, and explainable AI to secure AI-agent payment authorization. Utilizing XGBoost, the framework achieved high detection rates for abnormal agent behavior, impersonation, and authorization-scope violations.",
-      "keyPoints": [
-        "Introduces the Autonomous Commerce Agent Guard System (ACAGS) for payment security.",
-        "Combines behavioral analytics, XGBoost, and SHAP explanations for model interpretability.",
-        "Achieved 99.77% detection for abnormal behavior and 100% for malicious delegation."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27483",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Securing Agentic Commerce Through Behavior-Aware Fraud Detection",
-          "summary": "The Autonomous Commerce Agent Guard System (ACAGS) combines supervised machine learning, behavioral analytics, and explainable AI to secure AI-agent payment authorization. Utilizing XGBoost, the framework achieved high detection rates for abnormal agent behavior, impersonation, and authorization-scope violations.",
-          "keyPoints": [
-            "Introduces the Autonomous Commerce Agent Guard System (ACAGS) for payment security.",
-            "Combines behavioral analytics, XGBoost, and SHAP explanations for model interpretability.",
-            "Achieved 99.77% detection for abnormal behavior and 100% for malicious delegation."
-          ]
-        },
-        "fr": {
-          "title": "Sécurisation du commerce agentique par la détection des fraudes comportementales",
-          "summary": "Le système ACAGS combine l'apprentissage automatique supervisé, l'analyse comportementale et l'IA explicable pour sécuriser l'autorisation de paiement des agents IA. Utilisant XGBoost, le cadre a atteint des taux de détection élevés pour les comportements anormaux.",
-          "keyPoints": [
-            "Introduit le système ACAGS pour la sécurité des paiements par agents.",
-            "Combine l'analyse comportementale, XGBoost et les explications SHAP.",
-            "A atteint 99,77 % de détection pour les comportements anormaux."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-80b14f6a6fd391",
-      "title": "Single- vs Multi-Agent LLM Setups on a Financial Review Task",
-      "summary": "This study compares single-agent and multi-agent setups on a credit assessment review task using synthetic memos. While a three-agent team catches more defects with explanations, it also generates more false alarms and consumes significantly more tokens compared to a single agent.",
-      "keyPoints": [
-        "Compares single-agent and multi-agent LLM setups on credit assessment review tasks.",
-        "Multi-agent teams catch slightly more explained defects but raise more false alarms.",
-        "Multi-agent teams consume 2.2 to 2.4 times more tokens than single-agent setups."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27488",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Single- vs Multi-Agent LLM Setups on a Financial Review Task",
-          "summary": "This study compares single-agent and multi-agent setups on a credit assessment review task using synthetic memos. While a three-agent team catches more defects with explanations, it also generates more false alarms and consumes significantly more tokens compared to a single agent.",
-          "keyPoints": [
-            "Compares single-agent and multi-agent LLM setups on credit assessment review tasks.",
-            "Multi-agent teams catch slightly more explained defects but raise more false alarms.",
-            "Multi-agent teams consume 2.2 to 2.4 times more tokens than single-agent setups."
-          ]
-        },
-        "fr": {
-          "title": "Configurations de LLM à agent unique ou multi-agents sur une tâche financière",
-          "summary": "Cette étude compare des configurations à agent unique et multi-agents sur une tâche de révision de crédit utilisant des notes synthétiques. Bien qu'une équipe de trois agents détecte plus de défauts, elle génère également plus de fausses alarmes et consomme plus de jetons.",
-          "keyPoints": [
-            "Compare les configurations de LLM à agent unique et multi-agents.",
-            "Les équipes multi-agents détectent un peu plus de défauts mais augmentent les fausses alarmes.",
-            "Les équipes multi-agents consomment 2,2 à 2,4 fois plus de jetons."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-718c9b19303b9d",
-      "title": "Structured-Token Attention for Fine-Grained Liquid Identification",
-      "summary": "This paper investigates structured-token attention, named StructAttn, for fine-grained liquid identification using millimeter-wave measurements. Embedding complementary views into eleven tokens via a three-layer transformer, StructAttn achieves strong accuracy across public liquid datasets.",
-      "keyPoints": [
-        "Investigates structured-token attention for fine-grained millimeter-wave liquid identification.",
-        "Represents radar feature tensors through antenna, feature, branch, and global views.",
-        "Achieves 96.70% mean best-epoch accuracy on the FG-LiquID dataset."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27512",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Structured-Token Attention for Fine-Grained Liquid Identification",
-          "summary": "This paper investigates structured-token attention, named StructAttn, for fine-grained liquid identification using millimeter-wave measurements. Embedding complementary views into eleven tokens via a three-layer transformer, StructAttn achieves strong accuracy across public liquid datasets.",
-          "keyPoints": [
-            "Investigates structured-token attention for fine-grained millimeter-wave liquid identification.",
-            "Represents radar feature tensors through antenna, feature, branch, and global views.",
-            "Achieves 96.70% mean best-epoch accuracy on the FG-LiquID dataset."
-          ]
-        },
-        "fr": {
-          "title": "Attention à jetons structurés pour l'identification fine de liquides par ondes millimétriques",
-          "summary": "Cet article étudie l'attention à jetons structurés, appelée StructAttn, pour l'identification fine de liquides à l'aide de mesures en ondes millimétriques. En intégrant des vues complémentaires dans onze jetons, StructAttn atteint une forte précision sur les jeux de données.",
-          "keyPoints": [
-            "Étudie l'attention à jetons structurés pour l'identification de liquides par ondes millimétriques.",
-            "Représente les tenseurs de caractéristiques radar via des vues globales et de branches.",
-            "Atteint 96,70 % de précision moyenne sur le jeu de données FG-LiquID."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-da577697bf055c",
-      "title": "SelfDx: A Benchmark of Time-Critical Self-Diagnosis in Health Assistants",
-      "summary": "The authors introduce SelfDx, a benchmark assessing whether health assistants maintain epistemic independence when users supply self-diagnoses that could delay urgent care. Evaluating 27 frontier models reveals a strong tendency to inappropriately agree with users, though targeted post-training improves caution.",
-      "keyPoints": [
-        "Introduces SelfDx, a paired benchmark for time-critical self-diagnosis in health assistants.",
-        "Finds frontier models tend to inappropriately agree with user self-diagnoses in caution cases.",
-        "Demonstrates that supervised fine-tuning improves appropriate caution rates across models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27518",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SelfDx: A Benchmark of Time-Critical Self-Diagnosis in Health Assistants",
-          "summary": "The authors introduce SelfDx, a benchmark assessing whether health assistants maintain epistemic independence when users supply self-diagnoses that could delay urgent care. Evaluating 27 frontier models reveals a strong tendency to inappropriately agree with users, though targeted post-training improves caution.",
-          "keyPoints": [
-            "Introduces SelfDx, a paired benchmark for time-critical self-diagnosis in health assistants.",
-            "Finds frontier models tend to inappropriately agree with user self-diagnoses in caution cases.",
-            "Demonstrates that supervised fine-tuning improves appropriate caution rates across models."
-          ]
-        },
-        "fr": {
-          "title": "SelfDx : Un benchmark d'autodiagnostic critique pour les assistants de santé",
-          "summary": "Les auteurs présentent SelfDx, un benchmark évaluant si les assistants de santé maintiennent leur indépendance épistémique lorsque les utilisateurs fournissent des autodiagnostics. L'évaluation de 27 modèles montre une forte tendance à l'accord inapproprié.",
-          "keyPoints": [
-            "Introduit SelfDx, un benchmark pour l'autodiagnostic critique dans les assistants de santé.",
-            "Constate que les modèles de frontières ont tendance à approuver à tort les diagnostics utilisateurs.",
-            "Démontre que l'ajustement supervisé améliore les taux de prudence appropriés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-648d3adba52ea7",
-      "title": "MemDev-Bench: Benchmarking Memory Systems over Real Repository Histories",
-      "summary": "MemDev-Bench is introduced to evaluate how memory systems affect code agents over diverse repository histories. Systematic evaluations show that while memory aids fine-grained localization, it can cause failures by leading agents to reuse memory without reassessing its applicability.",
-      "keyPoints": [
-        "Introduces MemDev-Bench with controlled repository histories and relevance annotations.",
-        "Finds that memory improves fine-grained localization and functional correctness.",
-        "Shows that unassessed memory reuse can cause failures on otherwise solvable tasks."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27524",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MemDev-Bench: Benchmarking Memory Systems over Real Repository Histories",
-          "summary": "MemDev-Bench is introduced to evaluate how memory systems affect code agents over diverse repository histories. Systematic evaluations show that while memory aids fine-grained localization, it can cause failures by leading agents to reuse memory without reassessing its applicability.",
-          "keyPoints": [
-            "Introduces MemDev-Bench with controlled repository histories and relevance annotations.",
-            "Finds that memory improves fine-grained localization and functional correctness.",
-            "Shows that unassessed memory reuse can cause failures on otherwise solvable tasks."
-          ]
-        },
-        "fr": {
-          "title": "MemDev-Bench : Évaluation des systèmes de mémoire sur l'historique des dépôts",
-          "summary": "MemDev-Bench est introduit pour évaluer l'impact des systèmes de mémoire sur les agents de code à travers divers historiques de dépôts. Les évaluations montrent que la mémoire aide à la localisation mais peut provoquer des échecs en l'absence de réévaluation.",
-          "keyPoints": [
-            "Introduit MemDev-Bench avec des historiques de dépôts contrôlés et annotés.",
-            "Montre que la mémoire améliore la localisation fine et la correction fonctionnelle.",
-            "Indique que la réutilisation non évaluée de la mémoire peut causer des échecs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-27769bce2ad813",
-      "title": "Automated Multi-Agent Organization Design: From Architecture Search to AMOD",
-      "summary": "This paper proposes Automated Multi-Agent Organization Design (AMOD), treating organization as a first-class design object. Formulated as an execution-driven design loop, AMOD assigns functional responsibilities and coordination rules to agent teams, dynamically revising them based on task outcomes.",
-      "keyPoints": [
-        "Proposes Automated Multi-Agent Organization Design (AMOD) as a first-class design object.",
-        "Formulates an execution-driven design loop to assign and revise functional responsibilities.",
-        "Provides a principled foundation for evidence-based and adaptive multi-agent structures."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27531",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Automated Multi-Agent Organization Design: From Architecture Search to AMOD",
-          "summary": "This paper proposes Automated Multi-Agent Organization Design (AMOD), treating organization as a first-class design object. Formulated as an execution-driven design loop, AMOD assigns functional responsibilities and coordination rules to agent teams, dynamically revising them based on task outcomes.",
-          "keyPoints": [
-            "Proposes Automated Multi-Agent Organization Design (AMOD) as a first-class design object.",
-            "Formulates an execution-driven design loop to assign and revise functional responsibilities.",
-            "Provides a principled foundation for evidence-based and adaptive multi-agent structures."
-          ]
-        },
-        "fr": {
-          "title": "Conception d'organisations multi-agents automatisées : de la recherche d'architecture à l'AMOD",
-          "summary": "Cet article propose l'AMOD (Automated Multi-Agent Organization Design), traitant l'organisation comme un objet de conception à part entière. Formulé comme une boucle d'exécution, l'AMOD attribue des responsabilités fonctionnelles et des règles de coordination.",
-          "keyPoints": [
-            "Propose l'AMOD comme un objet de conception organisationnelle à part entière.",
-            "Formule une boucle de conception pilotée par l'exécution pour attribuer les responsabilités.",
-            "Fournit une base rigoureuse pour des structures multi-agents adaptatives et fondées sur des preuves."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-37c8965d5759d1",
-      "title": "Clinical System One (CS1): A 4B Parameter Model for Patient Records",
-      "summary": "Researchers introduce Clinical System One (CS1-4B), a 4-billion-parameter decision model trained on records from 3.6 million patients to provide fast, typed judgments. CS1 outperforms larger models on multiple tasks, enabling efficient clinical trial screening and multi-year patient history analysis when combined with language model agents.",
-      "keyPoints": [
-        "Trained on 12.4 million Q&As from 3.6 million patients across a health system.",
-        "Outperformed open models up to 27B parameters on 13 of 14 independent tasks.",
-        "Screened trial candidates 4 times better than keyword search while using fewer tokens."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27099",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Clinical System One (CS1): A 4B Parameter Model for Patient Records",
-          "summary": "Researchers introduce Clinical System One (CS1-4B), a 4-billion-parameter decision model trained on records from 3.6 million patients to provide fast, typed judgments. CS1 outperforms larger models on multiple tasks, enabling efficient clinical trial screening and multi-year patient history analysis when combined with language model agents.",
-          "keyPoints": [
-            "Trained on 12.4 million Q&As from 3.6 million patients across a health system.",
-            "Outperformed open models up to 27B parameters on 13 of 14 independent tasks.",
-            "Screened trial candidates 4 times better than keyword search while using fewer tokens."
-          ]
-        },
-        "fr": {
-          "title": "Clinical System One (CS1) : un modèle de 4 milliards de paramètres",
-          "summary": "Des chercheurs présentent Clinical System One (CS1-4B), un modèle de décision de 4 milliards de paramètres entraîné sur les dossiers de 3,6 millions de patients. CS1 surpasse des modèles plus grands sur plusieurs tâches, permettant un tri efficace pour les essais cliniques et l'analyse de dossiers pluriannuels.",
-          "keyPoints": [
-            "Entraîné sur 12,4 millions de questions-réponses issues de 3,6 millions de patients.",
-            "A surpassé des modèles ouverts allant jusqu'à 27 milliards de paramètres sur 13 tâches.",
-            "A filtré les candidats aux essais 4 fois mieux que la recherche par mots-clés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
       "id": "feed-3f1a11956436b1",
-      "title": "Broad access through consistent standards with OpenAI",
-      "summary": "OpenAI outlines its approach to collaborating with distribution partners to maintain consistent safeguards, support responsible access, and clarify expectations within its Usage Policies.",
+      "title": "Broad access through consistent standards",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "keyPoints": [
-        "Focuses on maintaining consistent safeguards with distribution partners.",
-        "Supports responsible access to AI technologies.",
-        "Clarifies expectations outlined in OpenAI Usage Policies."
+        "Broad access through consistent standards",
+        "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+        "Broad access through consistent standards"
       ],
-      "category": "Business",
+      "category": "Outils",
       "sourceName": "OpenAI News",
       "sourceUrl": "https://openai.com/index/broad-access-through-consistent-standards",
       "publishedAt": "2026-10-21T21:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Broad access through consistent standards with OpenAI",
-          "summary": "OpenAI outlines its approach to collaborating with distribution partners to maintain consistent safeguards, support responsible access, and clarify expectations within its Usage Policies.",
+          "title": "Broad access through consistent standards",
+          "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
           "keyPoints": [
-            "Focuses on maintaining consistent safeguards with distribution partners.",
-            "Supports responsible access to AI technologies.",
-            "Clarifies expectations outlined in OpenAI Usage Policies."
+            "Broad access through consistent standards",
+            "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+            "Broad access through consistent standards"
           ]
         },
         "fr": {
-          "title": "Accès élargi grâce à des normes cohérentes avec OpenAI",
-          "summary": "OpenAI expose sa méthode de collaboration avec ses partenaires de distribution afin de maintenir des garde-fous cohérents, de soutenir un accès responsable et de clarifier les attentes dans ses politiques d'utilisation.",
+          "title": "Broad access through consistent standards",
+          "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
           "keyPoints": [
-            "Se concentre sur le maintien de garde-fous cohérents avec les partenaires.",
-            "Soutient un accès responsable aux technologies d'IA.",
-            "Clarifie les attentes définies dans les règles d'utilisation d'OpenAI."
+            "Broad access through consistent standards",
+            "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+            "Broad access through consistent standards"
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
       }
     },
     {
-      "id": "feed-9d83a9e8965559",
-      "title": "Omni-Woodpecker: Hallucination Correction in Omni LLMs",
-      "summary": "Omni-Woodpecker (OWP) is a training-free framework designed to mitigate cross-modal hallucinations in Omni LLMs by shifting from output-level manipulation to conflict-conditioned representation rebalancing. Using orthogonal decomposition, OWP separates grounding evidence from competing priors to boost reasoning benchmark performance.",
+      "id": "feed-37c8965d5759d1",
+      "title": "A general-purpose System One decision model for clinical records",
+      "summary": "arXiv:2610.27099v1 Announce Type: new Abstract: Clinical care, health-system operations and biomedical discovery depend on extracting reliable answers from patient records, yet applying diverse clinical questions across entire populations remains computationally expensive. Here we present Clinical System One (CS1), a 4-billion-parameter decision model for fa",
       "keyPoints": [
-        "Training-free framework operating via conflict-conditioned representation rebalancing.",
-        "Employs orthogonal decomposition to separate grounding evidence from priors.",
-        "Improves performance across multiple audio-visual and general reasoning benchmarks."
+        "A general-purpose System One decision model for clinical records",
+        "arXiv:2610.27099v1 Announce Type: new Abstract: Clinical care, health-system operations and biomedical discovery depend on extracting reliable answers from patient records, yet applying diverse clinical questions across entire populations remains computationally expensive.",
+        "Here we present Clinical System One (CS1), a 4-billion-parameter decision model for fast, typed judgments from clinical records, along with two agentic harnesses in which CS1 works together with a generalist language model."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27103",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27099",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Omni-Woodpecker: Hallucination Correction in Omni LLMs",
-          "summary": "Omni-Woodpecker (OWP) is a training-free framework designed to mitigate cross-modal hallucinations in Omni LLMs by shifting from output-level manipulation to conflict-conditioned representation rebalancing. Using orthogonal decomposition, OWP separates grounding evidence from competing priors to boost reasoning benchmark performance.",
+          "title": "A general-purpose System One decision model for clinical records",
+          "summary": "arXiv:2610.27099v1 Announce Type: new Abstract: Clinical care, health-system operations and biomedical discovery depend on extracting reliable answers from patient records, yet applying diverse clinical questions across entire populations remains computationally expensive. Here we present Clinical System One (CS1), a 4-billion-parameter decision model for fa",
           "keyPoints": [
-            "Training-free framework operating via conflict-conditioned representation rebalancing.",
-            "Employs orthogonal decomposition to separate grounding evidence from priors.",
-            "Improves performance across multiple audio-visual and general reasoning benchmarks."
+            "A general-purpose System One decision model for clinical records",
+            "arXiv:2610.27099v1 Announce Type: new Abstract: Clinical care, health-system operations and biomedical discovery depend on extracting reliable answers from patient records, yet applying diverse clinical questions across entire populations remains computationally expensive.",
+            "Here we present Clinical System One (CS1), a 4-billion-parameter decision model for fast, typed judgments from clinical records, along with two agentic harnesses in which CS1 works together with a generalist language model."
           ]
         },
         "fr": {
-          "title": "Omni-Woodpecker : Correction d'hallucinations pour grands modèles",
-          "summary": "Omni-Woodpecker (OWP) est un cadre sans entraînement conçu pour atténuer les hallucinations intermodales dans les grands modèles omni en rééquilibrant les représentations. Par décomposition orthogonale, OWP sépare les preuves d'ancrage des a priori concurrents pour améliorer les performances.",
+          "title": "A general-purpose System One decision model for clinical records",
+          "summary": "arXiv:2610.27099v1 Announce Type: new Abstract: Clinical care, health-system operations and biomedical discovery depend on extracting reliable answers from patient records, yet applying diverse clinical questions across entire populations remains computationally expensive. Here we present Clinical System One (CS1), a 4-billion-parameter decision model for fa",
           "keyPoints": [
-            "Cadre sans entraînement basé sur le rééquilibrage des représentations.",
-            "Utilise la décomposition orthogonale pour séparer les preuves des a priori.",
-            "Améliore les performances sur divers benchmarks de raisonnement audio-visuel."
+            "A general-purpose System One decision model for clinical records",
+            "arXiv:2610.27099v1 Announce Type: new Abstract: Clinical care, health-system operations and biomedical discovery depend on extracting reliable answers from patient records, yet applying diverse clinical questions across entire populations remains computationally expensive.",
+            "Here we present Clinical System One (CS1), a 4-billion-parameter decision model for fast, typed judgments from clinical records, along with two agentic harnesses in which CS1 works together with a generalist language model."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
       }
     },
     {
       "id": "feed-39cad894cdd240",
-      "title": "AT&T Rethinks In-House Legal Work with OpenAI",
-      "summary": "AT&T is collaborating with OpenAI to streamline access to legal knowledge. The company's LegalEdge team is utilizing these capabilities to rethink intake workflows and scale legal judgment.",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "keyPoints": [
-        "AT&T partners with OpenAI to make legal knowledge more accessible.",
-        "The LegalEdge team is rethinking legal intake processes.",
-        "Aims to successfully scale legal judgment within the organization."
+        "How AT&T is rethinking in-house legal work with OpenAI",
+        "AT&T is working with OpenAI to make legal knowledge easier to access.",
+        "Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
       ],
-      "category": "Business",
+      "category": "Outils",
       "sourceName": "OpenAI News",
       "sourceUrl": "https://openai.com/index/att-legal",
       "publishedAt": "2026-10-21T17:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "AT&T Rethinks In-House Legal Work with OpenAI",
-          "summary": "AT&T is collaborating with OpenAI to streamline access to legal knowledge. The company's LegalEdge team is utilizing these capabilities to rethink intake workflows and scale legal judgment.",
+          "title": "How AT&T is rethinking in-house legal work with OpenAI",
+          "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
           "keyPoints": [
-            "AT&T partners with OpenAI to make legal knowledge more accessible.",
-            "The LegalEdge team is rethinking legal intake processes.",
-            "Aims to successfully scale legal judgment within the organization."
+            "How AT&T is rethinking in-house legal work with OpenAI",
+            "AT&T is working with OpenAI to make legal knowledge easier to access.",
+            "Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
           ]
         },
         "fr": {
-          "title": "AT&T repense son travail juridique interne avec OpenAI",
-          "summary": "AT&T collabore avec OpenAI pour faciliter l'accès aux connaissances juridiques. Son équipe LegalEdge utilise ces capacités pour repenser les processus d'admission et à l'échelle du jugement juridique.",
+          "title": "How AT&T is rethinking in-house legal work with OpenAI",
+          "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
           "keyPoints": [
-            "AT&T s'associe à OpenAI pour rendre le savoir juridique plus accessible.",
-            "L'équipe LegalEdge repense les processus d'admission des dossiers.",
-            "Vise à adapter le jugement juridique à l'échelle de l'organisation."
+            "How AT&T is rethinking in-house legal work with OpenAI",
+            "AT&T is working with OpenAI to make legal knowledge easier to access.",
+            "Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
       }
     },
     {
-      "id": "feed-c879a325afeffa",
-      "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
-      "summary": "PROVISO is a secure controller for LLM agents that evaluates proposed actions against alternatives using provenance-typed memory. By encoding trusted and external observations, PROVISO avoids security-utility trade-offs and outperforms existing agent security baselines.",
+      "id": "feed-9d83a9e8965559",
+      "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+      "summary": "arXiv:2610.27103v1 Announce Type: new Abstract: Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge. Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused represen",
       "keyPoints": [
-        "Acts as a controller evaluated between agent action proposal and execution.",
-        "Uses provenance-typed memory to relate trusted and external observations.",
-        "Improves F1 scores significantly on skill detection and agent security benchmarks."
+        "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+        "arXiv:2610.27103v1 Announce Type: new Abstract: Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge.",
+        "Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused representations."
       ],
-      "category": "Outils",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27115",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27103",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
-          "summary": "PROVISO is a secure controller for LLM agents that evaluates proposed actions against alternatives using provenance-typed memory. By encoding trusted and external observations, PROVISO avoids security-utility trade-offs and outperforms existing agent security baselines.",
+          "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+          "summary": "arXiv:2610.27103v1 Announce Type: new Abstract: Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge. Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused represen",
           "keyPoints": [
-            "Acts as a controller evaluated between agent action proposal and execution.",
-            "Uses provenance-typed memory to relate trusted and external observations.",
-            "Improves F1 scores significantly on skill detection and agent security benchmarks."
+            "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+            "arXiv:2610.27103v1 Announce Type: new Abstract: Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge.",
+            "Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused representations."
           ]
         },
         "fr": {
-          "title": "PROVISO : Sélection d'actions sécurisées pour agents LLM",
-          "summary": "PROVISO est un contrôleur de sécurité pour agents LLM qui évalue les actions proposées en utilisant une mémoire typée par provenance. En encodant les observations de confiance et externes, PROVISO évite les compromis entre sécurité et utilité.",
+          "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+          "summary": "arXiv:2610.27103v1 Announce Type: new Abstract: Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge. Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused represen",
           "keyPoints": [
-            "Agit comme un contrôleur entre la proposition et l'exécution de l'action.",
-            "Utilise une mémoire typée par provenance pour lier les observations.",
-            "Améliore les scores F1 sur les benchmarks de sécurité et de compétences."
+            "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+            "arXiv:2610.27103v1 Announce Type: new Abstract: Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge.",
+            "Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused representations."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
       }
     },
     {
       "id": "feed-b1215e1aefc04c",
-      "title": "ChatGPT Ads Expands to 26 New Countries",
-      "summary": "ChatGPT Ads has expanded its reach to 26 new countries, enabling over 100,000 advertisers—ranging from local businesses to global brands—to connect with users as they explore and make purchase decisions.",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "keyPoints": [
-        "Available in 26 new countries for expanded geographic coverage.",
-        "Adopted by over 100,000 advertisers globally.",
-        "Connects local and global businesses with users exploring choices in ChatGPT."
+        "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+        "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+        "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
       ],
-      "category": "Business",
+      "category": "Modèles",
       "sourceName": "OpenAI News",
       "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "publishedAt": "2026-10-21T13:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ChatGPT Ads Expands to 26 New Countries",
-          "summary": "ChatGPT Ads has expanded its reach to 26 new countries, enabling over 100,000 advertisers—ranging from local businesses to global brands—to connect with users as they explore and make purchase decisions.",
+          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+          "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
           "keyPoints": [
-            "Available in 26 new countries for expanded geographic coverage.",
-            "Adopted by over 100,000 advertisers globally.",
-            "Connects local and global businesses with users exploring choices in ChatGPT."
+            "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+            "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+            "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
           ]
         },
         "fr": {
-          "title": "ChatGPT Ads s'étend à 26 nouveaux pays",
-          "summary": "ChatGPT Ads étend sa portée à 26 nouveaux pays, permettant à plus de 100 000 annonciateurs, des entreprises locales aux marques mondiales, de toucher les utilisateurs lorsqu'ils explorent et décident de leurs achats.",
+          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+          "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
           "keyPoints": [
-            "Disponible dans 26 nouveaux pays pour une couverture géographique accrue.",
-            "Utilisé par plus de 100 000 annonceurs à travers le monde.",
-            "Permet de joindre les utilisateurs pendant leurs recherches d'achat."
+            "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+            "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+            "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
       }
     },
     {
-      "id": "feed-3ebdb4c9a7b698",
-      "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
-      "summary": "Paired Outcome-guided Reasoning Allocation (PORA) helps LLM agents decide between short and long reasoning before each step. By comparing trajectories during training, PORA optimizes budget allocation and enhances performance across memory, code, and math tasks.",
+      "id": "feed-c879a325afeffa",
+      "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+      "summary": "arXiv:2610.27115v1 Announce Type: new Abstract: LLM agents act on the external world through tools and third-party skills, so a single executed action can cause irreversible harm. Existing defenses judge a proposed action without tracking whether its content comes from the user or from external sources such as tool outputs, and they judge it in isolation rat",
       "keyPoints": [
-        "Compares short and long reasoning paths from the same state during training.",
-        "Dynamically weighs downstream value against remaining-budget pressure during inference.",
-        "Reduces token usage and model requests while matching or exceeding long reasoning baselines."
+        "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+        "arXiv:2610.27115v1 Announce Type: new Abstract: LLM agents act on the external world through tools and third-party skills, so a single executed action can cause irreversible harm.",
+        "Existing defenses judge a proposed action without tracking whether its content comes from the user or from external sources such as tool outputs, and they judge it in isolation rather than against an available alternative, which forces a trade-off between security and utility."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27119",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27115",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
-          "summary": "Paired Outcome-guided Reasoning Allocation (PORA) helps LLM agents decide between short and long reasoning before each step. By comparing trajectories during training, PORA optimizes budget allocation and enhances performance across memory, code, and math tasks.",
+          "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+          "summary": "arXiv:2610.27115v1 Announce Type: new Abstract: LLM agents act on the external world through tools and third-party skills, so a single executed action can cause irreversible harm. Existing defenses judge a proposed action without tracking whether its content comes from the user or from external sources such as tool outputs, and they judge it in isolation rat",
           "keyPoints": [
-            "Compares short and long reasoning paths from the same state during training.",
-            "Dynamically weighs downstream value against remaining-budget pressure during inference.",
-            "Reduces token usage and model requests while matching or exceeding long reasoning baselines."
+            "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+            "arXiv:2610.27115v1 Announce Type: new Abstract: LLM agents act on the external world through tools and third-party skills, so a single executed action can cause irreversible harm.",
+            "Existing defenses judge a proposed action without tracking whether its content comes from the user or from external sources such as tool outputs, and they judge it in isolation rather than against an available alternative, which forces a trade-off between security and utility."
           ]
         },
         "fr": {
-          "title": "PORA : Optimiser le raisonnement des agents LLM",
-          "summary": "PORA aide les agents LLM à choisir entre un raisonnement court ou long avant chaque étape. En comparant les trajectoires lors de l'entraînement, PORA optimise l'allocation du budget et améliore les performances sur les tâches de code, de mémoire et de mathématiques.",
+          "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+          "summary": "arXiv:2610.27115v1 Announce Type: new Abstract: LLM agents act on the external world through tools and third-party skills, so a single executed action can cause irreversible harm. Existing defenses judge a proposed action without tracking whether its content comes from the user or from external sources such as tool outputs, and they judge it in isolation rat",
           "keyPoints": [
-            "Compare des parcours de raisonnement courts et longs depuis le même état d'entraînement.",
-            "Évalue la valeur future par rapport à la pression budgétaire restante.",
-            "Réduit l'utilisation de jetons et de requêtes tout en maintenant d'excellentes performances."
+            "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+            "arXiv:2610.27115v1 Announce Type: new Abstract: LLM agents act on the external world through tools and third-party skills, so a single executed action can cause irreversible harm.",
+            "Existing defenses judge a proposed action without tracking whether its content comes from the user or from external sources such as tool outputs, and they judge it in isolation rather than against an available alternative, which forces a trade-off between security and utility."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
       }
     },
     {
       "id": "feed-95dedf578de78f",
-      "title": "OpenAI Models Are Coming to Google Cloud",
-      "summary": "OpenAI and Google Cloud are integrating frontier models and Codex workflows into Gemini’s Model Garden, making them accessible through the Google Cloud Marketplace.",
+      "title": "OpenAI models are coming to Google Cloud",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "keyPoints": [
-        "Partnership brings OpenAI frontier models to Google Cloud.",
-        "Includes integration of Codex workflows.",
-        "Available via Gemini’s Model Garden and Google Cloud Marketplace."
+        "OpenAI models are coming to Google Cloud",
+        "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+        "OpenAI models are coming to Google Cloud"
       ],
-      "category": "Business",
+      "category": "Modèles",
       "sourceName": "OpenAI News",
       "sourceUrl": "https://openai.com/index/openai-models-google-cloud",
       "publishedAt": "2026-10-21T12:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Models Are Coming to Google Cloud",
-          "summary": "OpenAI and Google Cloud are integrating frontier models and Codex workflows into Gemini’s Model Garden, making them accessible through the Google Cloud Marketplace.",
+          "title": "OpenAI models are coming to Google Cloud",
+          "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
           "keyPoints": [
-            "Partnership brings OpenAI frontier models to Google Cloud.",
-            "Includes integration of Codex workflows.",
-            "Available via Gemini’s Model Garden and Google Cloud Marketplace."
+            "OpenAI models are coming to Google Cloud",
+            "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+            "OpenAI models are coming to Google Cloud"
           ]
         },
         "fr": {
-          "title": "Les modèles OpenAI arrivent sur Google Cloud",
-          "summary": "OpenAI et Google Cloud intègrent des modèles de pointe et des flux de travail Codex dans le Model Garden de Gemini, les rendant disponibles via le Google Cloud Marketplace.",
+          "title": "OpenAI models are coming to Google Cloud",
+          "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
           "keyPoints": [
-            "Le partenariat intègre les modèles phares d'OpenAI sur Google Cloud.",
-            "Comprend l'intégration des flux de travail Codex.",
-            "Disponible via le Model Garden de Gemini et le Google Cloud Marketplace."
+            "OpenAI models are coming to Google Cloud",
+            "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+            "OpenAI models are coming to Google Cloud"
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
       }
     },
     {
-      "id": "feed-928b816a813ed9",
-      "title": "EDMA: Entropy-Driven Multimodal Answering for MLLMs",
-      "summary": "Entropy-Driven Multimodal Answering (EDMA) uses logical entropy to formalize multimodal QA as an iterative reduction process, quantifying the contribution of individual modalities. EDMA outperforms standard planning and Chain-of-Thought prompting baselines across benchmarks.",
+      "id": "feed-3ebdb4c9a7b698",
+      "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+      "summary": "arXiv:2610.27119v1 Announce Type: new Abstract: LLM agents perform tasks over multiple steps and revise their actions based on feedback. As the total reasoning budget is often limited and must support future steps, the agent must choose between short and long reasoning before each action.",
       "keyPoints": [
-        "Uses logical entropy to formulate multimodal QA as iterative entropy reduction.",
-        "Features modality-conditioned partitioning and entropy-driven multimodal fusion.",
-        "Outperforms standard prompting baselines with notable F1 and LLM-J score gains."
+        "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+        "arXiv:2610.27119v1 Announce Type: new Abstract: LLM agents perform tasks over multiple steps and revise their actions based on feedback.",
+        "As the total reasoning budget is often limited and must support future steps, the agent must choose between short and long reasoning before each action."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.27120",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.27119",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "EDMA: Entropy-Driven Multimodal Answering for MLLMs",
-          "summary": "Entropy-Driven Multimodal Answering (EDMA) uses logical entropy to formalize multimodal QA as an iterative reduction process, quantifying the contribution of individual modalities. EDMA outperforms standard planning and Chain-of-Thought prompting baselines across benchmarks.",
+          "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+          "summary": "arXiv:2610.27119v1 Announce Type: new Abstract: LLM agents perform tasks over multiple steps and revise their actions based on feedback. As the total reasoning budget is often limited and must support future steps, the agent must choose between short and long reasoning before each action.",
           "keyPoints": [
-            "Uses logical entropy to formulate multimodal QA as iterative entropy reduction.",
-            "Features modality-conditioned partitioning and entropy-driven multimodal fusion.",
-            "Outperforms standard prompting baselines with notable F1 and LLM-J score gains."
+            "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+            "arXiv:2610.27119v1 Announce Type: new Abstract: LLM agents perform tasks over multiple steps and revise their actions based on feedback.",
+            "As the total reasoning budget is often limited and must support future steps, the agent must choose between short and long reasoning before each action."
           ]
         },
         "fr": {
-          "title": "EDMA : Réponse multimodale pilotée par l'entropie",
-          "summary": "EDMA utilise l'entropie logique pour formaliser le question-réponse multimodal comme un processus de réduction itératif, quantifiant l'apport de chaque modalité. EDMA surpasse les méthodes de prompt de référence sur divers benchmarks.",
+          "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+          "summary": "arXiv:2610.27119v1 Announce Type: new Abstract: LLM agents perform tasks over multiple steps and revise their actions based on feedback. As the total reasoning budget is often limited and must support future steps, the agent must choose between short and long reasoning before each action.",
           "keyPoints": [
-            "Utilise l'entropie logique pour formaliser la réduction d'entropie multimodale.",
-            "Intègre un partitionnement conditionné par modalité et une fusion multimodale.",
-            "Surpasse les méthodes de base avec des gains notables en score F1."
+            "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+            "arXiv:2610.27119v1 Announce Type: new Abstract: LLM agents perform tasks over multiple steps and revise their actions based on feedback.",
+            "As the total reasoning budget is often limited and must support future steps, the agent must choose between short and long reasoning before each action."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
       }
     },
     {
       "id": "feed-de9db6f384cbc7",
-      "title": "Patch the Planet: Global Response Coordination for Vulnerabilities",
-      "summary": "Patch the Planet is an initiative connecting security researchers, maintainers, and incident responders to coordinate global responses as AI agents uncover critical vulnerabilities across open source ecosystems.",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "keyPoints": [
-        "Connects security researchers, maintainers, and incident responders.",
-        "Coordinates responses as AI agents uncover critical open source vulnerabilities.",
-        "Aims to secure critical vulnerabilities across open-source software."
+        "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+        "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+        "Patch the Planet: global response coordination as agents uncover critical vulnerabilities"
       ],
       "category": "Open Source",
       "sourceName": "OpenAI News",
@@ -758,39 +329,468 @@
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Patch the Planet: Global Response Coordination for Vulnerabilities",
-          "summary": "Patch the Planet is an initiative connecting security researchers, maintainers, and incident responders to coordinate global responses as AI agents uncover critical vulnerabilities across open source ecosystems.",
+          "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+          "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
           "keyPoints": [
-            "Connects security researchers, maintainers, and incident responders.",
-            "Coordinates responses as AI agents uncover critical open source vulnerabilities.",
-            "Aims to secure critical vulnerabilities across open-source software."
+            "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+            "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+            "Patch the Planet: global response coordination as agents uncover critical vulnerabilities"
           ]
         },
         "fr": {
-          "title": "Patch the Planet : Coordination mondiale face aux vulnérabilités",
-          "summary": "Patch the Planet est une initiative reliant chercheurs en sécurité, mainteneurs et répondeurs aux incidents pour coordonner une réponse mondiale alors que des agents IA découvrent des vulnérabilités critiques dans l'open source.",
+          "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+          "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
           "keyPoints": [
-            "Ressemble chercheurs, mainteneurs et intervenants d'incidents.",
-            "Coordonne les réponses face aux vulnérabilités découvertes par des agents IA.",
-            "Conçu pour sécuriser les failles critiques dans l'écosystème open source."
+            "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+            "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+            "Patch the Planet: global response coordination as agents uncover critical vulnerabilities"
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-928b816a813ed9",
+      "title": "EDMA: Entropy-Driven Multimodal Answering",
+      "summary": "arXiv:2610.27120v1 Announce Type: new Abstract: Multimodal question answering (MMQA) is based on integrating heterogeneous data sources, selectively leveraging relevant modalities, and ignoring distractors. Existing approaches based on Multimodal Large Language Models (MLLMs) improve performance by splitting the task into intermediate steps, but do not quant",
+      "keyPoints": [
+        "EDMA: Entropy-Driven Multimodal Answering",
+        "arXiv:2610.27120v1 Announce Type: new Abstract: Multimodal question answering (MMQA) is based on integrating heterogeneous data sources, selectively leveraging relevant modalities, and ignoring distractors.",
+        "Existing approaches based on Multimodal Large Language Models (MLLMs) improve performance by splitting the task into intermediate steps, but do not quantify how each modality contributes to reaching the final answer."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27120",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "EDMA: Entropy-Driven Multimodal Answering",
+          "summary": "arXiv:2610.27120v1 Announce Type: new Abstract: Multimodal question answering (MMQA) is based on integrating heterogeneous data sources, selectively leveraging relevant modalities, and ignoring distractors. Existing approaches based on Multimodal Large Language Models (MLLMs) improve performance by splitting the task into intermediate steps, but do not quant",
+          "keyPoints": [
+            "EDMA: Entropy-Driven Multimodal Answering",
+            "arXiv:2610.27120v1 Announce Type: new Abstract: Multimodal question answering (MMQA) is based on integrating heterogeneous data sources, selectively leveraging relevant modalities, and ignoring distractors.",
+            "Existing approaches based on Multimodal Large Language Models (MLLMs) improve performance by splitting the task into intermediate steps, but do not quantify how each modality contributes to reaching the final answer."
+          ]
+        },
+        "fr": {
+          "title": "EDMA: Entropy-Driven Multimodal Answering",
+          "summary": "arXiv:2610.27120v1 Announce Type: new Abstract: Multimodal question answering (MMQA) is based on integrating heterogeneous data sources, selectively leveraging relevant modalities, and ignoring distractors. Existing approaches based on Multimodal Large Language Models (MLLMs) improve performance by splitting the task into intermediate steps, but do not quant",
+          "keyPoints": [
+            "EDMA: Entropy-Driven Multimodal Answering",
+            "arXiv:2610.27120v1 Announce Type: new Abstract: Multimodal question answering (MMQA) is based on integrating heterogeneous data sources, selectively leveraging relevant modalities, and ignoring distractors.",
+            "Existing approaches based on Multimodal Large Language Models (MLLMs) improve performance by splitting the task into intermediate steps, but do not quantify how each modality contributes to reaching the final answer."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-ea92da5c121ecb",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "keyPoints": [
+        "How we built ChatGPT’s novel ad stack for user trust and relevance",
+        "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+        "How we built ChatGPT’s novel ad stack for user trust and relevance"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/building-chatgpt-ad-stack",
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+          "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+          "keyPoints": [
+            "How we built ChatGPT’s novel ad stack for user trust and relevance",
+            "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+            "How we built ChatGPT’s novel ad stack for user trust and relevance"
+          ]
+        },
+        "fr": {
+          "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+          "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+          "keyPoints": [
+            "How we built ChatGPT’s novel ad stack for user trust and relevance",
+            "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+            "How we built ChatGPT’s novel ad stack for user trust and relevance"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-47aec4fb283393",
+      "title": "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+      "summary": "arXiv:2610.27296v1 Announce Type: new Abstract: Progress in artificial intelligence is widely assumed to scale with effort: more researchers, papers and investment should accelerate discovery. Theories of technological growth instead locate the difficulty of discovery in the space of ideas.",
+      "keyPoints": [
+        "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+        "arXiv:2610.27296v1 Announce Type: new Abstract: Progress in artificial intelligence is widely assumed to scale with effort: more researchers, papers and investment should accelerate discovery.",
+        "Theories of technological growth instead locate the difficulty of discovery in the space of ideas."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27296",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+          "summary": "arXiv:2610.27296v1 Announce Type: new Abstract: Progress in artificial intelligence is widely assumed to scale with effort: more researchers, papers and investment should accelerate discovery. Theories of technological growth instead locate the difficulty of discovery in the space of ideas.",
+          "keyPoints": [
+            "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+            "arXiv:2610.27296v1 Announce Type: new Abstract: Progress in artificial intelligence is widely assumed to scale with effort: more researchers, papers and investment should accelerate discovery.",
+            "Theories of technological growth instead locate the difficulty of discovery in the space of ideas."
+          ]
+        },
+        "fr": {
+          "title": "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+          "summary": "arXiv:2610.27296v1 Announce Type: new Abstract: Progress in artificial intelligence is widely assumed to scale with effort: more researchers, papers and investment should accelerate discovery. Theories of technological growth instead locate the difficulty of discovery in the space of ideas.",
+          "keyPoints": [
+            "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+            "arXiv:2610.27296v1 Announce Type: new Abstract: Progress in artificial intelligence is widely assumed to scale with effort: more researchers, papers and investment should accelerate discovery.",
+            "Theories of technological growth instead locate the difficulty of discovery in the space of ideas."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-64ddfb139fec8a",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "keyPoints": [
+        "Using thousands of AI agents to uncover new leads in biological data",
+        "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+        "Using thousands of AI agents to uncover new leads in biological data"
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "publishedAt": "2026-10-21T04:50:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Using thousands of AI agents to uncover new leads in biological data",
+          "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+          "keyPoints": [
+            "Using thousands of AI agents to uncover new leads in biological data",
+            "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+            "Using thousands of AI agents to uncover new leads in biological data"
+          ]
+        },
+        "fr": {
+          "title": "Using thousands of AI agents to uncover new leads in biological data",
+          "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+          "keyPoints": [
+            "Using thousands of AI agents to uncover new leads in biological data",
+            "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+            "Using thousands of AI agents to uncover new leads in biological data"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-a9b49b0e8b70d1",
+      "title": "When Does an Added Planning Capability Create Operational Value? An Observable Evidence Standard",
+      "summary": "arXiv:2610.27305v1 Announce Type: new Abstract: Industrial artificial intelligence (AI) planning systems combine predictive models, optimization logic, controls, and governance rules, but improvement in the complete policy does not show whether one addition made an independent contribution or whether that contribution justifies its burden. We address this at",
+      "keyPoints": [
+        "When Does an Added Planning Capability Create Operational Value? An Observable Evidence Standard",
+        "arXiv:2610.27305v1 Announce Type: new Abstract: Industrial artificial intelligence (AI) planning systems combine predictive models, optimization logic, controls, and governance rules, but improvement in the complete policy does not show whether one addition made an independent contribution or whether that contribution justifies its burden.",
+        "We address this attribution problem with an observable evidence standard that separates opportunity to act, executed-plan change, operational consequence, equivalence, uncertainty, and operating scope."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27305",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "When Does an Added Planning Capability Create Operational Value? An Observable Evidence Standard",
+          "summary": "arXiv:2610.27305v1 Announce Type: new Abstract: Industrial artificial intelligence (AI) planning systems combine predictive models, optimization logic, controls, and governance rules, but improvement in the complete policy does not show whether one addition made an independent contribution or whether that contribution justifies its burden. We address this at",
+          "keyPoints": [
+            "When Does an Added Planning Capability Create Operational Value? An Observable Evidence Standard",
+            "arXiv:2610.27305v1 Announce Type: new Abstract: Industrial artificial intelligence (AI) planning systems combine predictive models, optimization logic, controls, and governance rules, but improvement in the complete policy does not show whether one addition made an independent contribution or whether that contribution justifies its burden.",
+            "We address this attribution problem with an observable evidence standard that separates opportunity to act, executed-plan change, operational consequence, equivalence, uncertainty, and operating scope."
+          ]
+        },
+        "fr": {
+          "title": "When Does an Added Planning Capability Create Operational Value? An Observable Evidence Standard",
+          "summary": "arXiv:2610.27305v1 Announce Type: new Abstract: Industrial artificial intelligence (AI) planning systems combine predictive models, optimization logic, controls, and governance rules, but improvement in the complete policy does not show whether one addition made an independent contribution or whether that contribution justifies its burden. We address this at",
+          "keyPoints": [
+            "When Does an Added Planning Capability Create Operational Value? An Observable Evidence Standard",
+            "arXiv:2610.27305v1 Announce Type: new Abstract: Industrial artificial intelligence (AI) planning systems combine predictive models, optimization logic, controls, and governance rules, but improvement in the complete policy does not show whether one addition made an independent contribution or whether that contribution justifies its burden.",
+            "We address this attribution problem with an observable evidence standard that separates opportunity to act, executed-plan change, operational consequence, equivalence, uncertainty, and operating scope."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-e270f5ba468803",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "keyPoints": [
+        "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+        "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+        "Democratic governance of frontier AI, part II: Empowering cyber defenders"
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/empowering-cyber-defenders",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+          "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+          "keyPoints": [
+            "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+            "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+            "Democratic governance of frontier AI, part II: Empowering cyber defenders"
+          ]
+        },
+        "fr": {
+          "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+          "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+          "keyPoints": [
+            "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+            "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+            "Democratic governance of frontier AI, part II: Empowering cyber defenders"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-a08d8d7f457836",
+      "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+      "summary": "arXiv:2610.27307v1 Announce Type: new Abstract: For AI assistants to move beyond simple chat interfaces and reliably assist users with applications like Gmail, Venmo, and Slack, we need to improve their tool-use capabilities. However, existing tool use benchmarks are still limited and difficult to scale because they rely on human supervision or are too domai",
+      "keyPoints": [
+        "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+        "arXiv:2610.27307v1 Announce Type: new Abstract: For AI assistants to move beyond simple chat interfaces and reliably assist users with applications like Gmail, Venmo, and Slack, we need to improve their tool-use capabilities.",
+        "However, existing tool use benchmarks are still limited and difficult to scale because they rely on human supervision or are too domain-specific."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27307",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+          "summary": "arXiv:2610.27307v1 Announce Type: new Abstract: For AI assistants to move beyond simple chat interfaces and reliably assist users with applications like Gmail, Venmo, and Slack, we need to improve their tool-use capabilities. However, existing tool use benchmarks are still limited and difficult to scale because they rely on human supervision or are too domai",
+          "keyPoints": [
+            "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+            "arXiv:2610.27307v1 Announce Type: new Abstract: For AI assistants to move beyond simple chat interfaces and reliably assist users with applications like Gmail, Venmo, and Slack, we need to improve their tool-use capabilities.",
+            "However, existing tool use benchmarks are still limited and difficult to scale because they rely on human supervision or are too domain-specific."
+          ]
+        },
+        "fr": {
+          "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+          "summary": "arXiv:2610.27307v1 Announce Type: new Abstract: For AI assistants to move beyond simple chat interfaces and reliably assist users with applications like Gmail, Venmo, and Slack, we need to improve their tool-use capabilities. However, existing tool use benchmarks are still limited and difficult to scale because they rely on human supervision or are too domai",
+          "keyPoints": [
+            "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+            "arXiv:2610.27307v1 Announce Type: new Abstract: For AI assistants to move beyond simple chat interfaces and reliably assist users with applications like Gmail, Venmo, and Slack, we need to improve their tool-use capabilities.",
+            "However, existing tool use benchmarks are still limited and difficult to scale because they rely on human supervision or are too domain-specific."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-2c4c026c9ccf9b",
+      "title": "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+      "summary": "arXiv:2610.27327v1 Announce Type: new Abstract: Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data. However, they discard this work after each question and redo it from scratch for the next one.",
+      "keyPoints": [
+        "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+        "arXiv:2610.27327v1 Announce Type: new Abstract: Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data.",
+        "However, they discard this work after each question and redo it from scratch for the next one."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27327",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+          "summary": "arXiv:2610.27327v1 Announce Type: new Abstract: Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data. However, they discard this work after each question and redo it from scratch for the next one.",
+          "keyPoints": [
+            "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+            "arXiv:2610.27327v1 Announce Type: new Abstract: Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data.",
+            "However, they discard this work after each question and redo it from scratch for the next one."
+          ]
+        },
+        "fr": {
+          "title": "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+          "summary": "arXiv:2610.27327v1 Announce Type: new Abstract: Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data. However, they discard this work after each question and redo it from scratch for the next one.",
+          "keyPoints": [
+            "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+            "arXiv:2610.27327v1 Announce Type: new Abstract: Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data.",
+            "However, they discard this work after each question and redo it from scratch for the next one."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-51ce772b7b376b",
+      "title": "Modeling Authentic Research Trajectories: A Graph View of Research Ideation",
+      "summary": "arXiv:2610.27337v1 Announce Type: new Abstract: The research idea in a published paper is rarely the project's initial idea. Between the two lies a closed-loop process in which researchers run experiments, derive insights, identify challenges, explore the literature, and revise the idea, with each step motivated by evidence and reasoning they can articulate.",
+      "keyPoints": [
+        "Modeling Authentic Research Trajectories: A Graph View of Research Ideation",
+        "arXiv:2610.27337v1 Announce Type: new Abstract: The research idea in a published paper is rarely the project's initial idea.",
+        "Between the two lies a closed-loop process in which researchers run experiments, derive insights, identify challenges, explore the literature, and revise the idea, with each step motivated by evidence and reasoning they can articulate."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27337",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Modeling Authentic Research Trajectories: A Graph View of Research Ideation",
+          "summary": "arXiv:2610.27337v1 Announce Type: new Abstract: The research idea in a published paper is rarely the project's initial idea. Between the two lies a closed-loop process in which researchers run experiments, derive insights, identify challenges, explore the literature, and revise the idea, with each step motivated by evidence and reasoning they can articulate.",
+          "keyPoints": [
+            "Modeling Authentic Research Trajectories: A Graph View of Research Ideation",
+            "arXiv:2610.27337v1 Announce Type: new Abstract: The research idea in a published paper is rarely the project's initial idea.",
+            "Between the two lies a closed-loop process in which researchers run experiments, derive insights, identify challenges, explore the literature, and revise the idea, with each step motivated by evidence and reasoning they can articulate."
+          ]
+        },
+        "fr": {
+          "title": "Modeling Authentic Research Trajectories: A Graph View of Research Ideation",
+          "summary": "arXiv:2610.27337v1 Announce Type: new Abstract: The research idea in a published paper is rarely the project's initial idea. Between the two lies a closed-loop process in which researchers run experiments, derive insights, identify challenges, explore the literature, and revise the idea, with each step motivated by evidence and reasoning they can articulate.",
+          "keyPoints": [
+            "Modeling Authentic Research Trajectories: A Graph View of Research Ideation",
+            "arXiv:2610.27337v1 Announce Type: new Abstract: The research idea in a published paper is rarely the project's initial idea.",
+            "Between the two lies a closed-loop process in which researchers run experiments, derive insights, identify challenges, explore the literature, and revise the idea, with each step motivated by evidence and reasoning they can articulate."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-59eca2e2ce85f5",
+      "title": "An LLM-Based Agent for Legal Compliance Assessment: Architecture, Memory, and Evaluation in a Canadian and Quebec Context",
+      "summary": "arXiv:2610.27347v1 Announce Type: new Abstract: Checking whether a text complies with a body of law is slow when done by hand and fragile when done with keyword rules. This paper presents ComplianceAgent, the legal compliance sub-agent of COMPASS, a multi-agent framework that evaluates texts along four axes: digital sovereignty, carbon impact, compliance, an",
+      "keyPoints": [
+        "An LLM-Based Agent for Legal Compliance Assessment: Architecture, Memory, and Evaluation in a Canadian and Quebec Context",
+        "arXiv:2610.27347v1 Announce Type: new Abstract: Checking whether a text complies with a body of law is slow when done by hand and fragile when done with keyword rules.",
+        "This paper presents ComplianceAgent, the legal compliance sub-agent of COMPASS, a multi-agent framework that evaluates texts along four axes: digital sovereignty, carbon impact, compliance, and ethics."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27347",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "An LLM-Based Agent for Legal Compliance Assessment: Architecture, Memory, and Evaluation in a Canadian and Quebec Context",
+          "summary": "arXiv:2610.27347v1 Announce Type: new Abstract: Checking whether a text complies with a body of law is slow when done by hand and fragile when done with keyword rules. This paper presents ComplianceAgent, the legal compliance sub-agent of COMPASS, a multi-agent framework that evaluates texts along four axes: digital sovereignty, carbon impact, compliance, an",
+          "keyPoints": [
+            "An LLM-Based Agent for Legal Compliance Assessment: Architecture, Memory, and Evaluation in a Canadian and Quebec Context",
+            "arXiv:2610.27347v1 Announce Type: new Abstract: Checking whether a text complies with a body of law is slow when done by hand and fragile when done with keyword rules.",
+            "This paper presents ComplianceAgent, the legal compliance sub-agent of COMPASS, a multi-agent framework that evaluates texts along four axes: digital sovereignty, carbon impact, compliance, and ethics."
+          ]
+        },
+        "fr": {
+          "title": "An LLM-Based Agent for Legal Compliance Assessment: Architecture, Memory, and Evaluation in a Canadian and Quebec Context",
+          "summary": "arXiv:2610.27347v1 Announce Type: new Abstract: Checking whether a text complies with a body of law is slow when done by hand and fragile when done with keyword rules. This paper presents ComplianceAgent, the legal compliance sub-agent of COMPASS, a multi-agent framework that evaluates texts along four axes: digital sovereignty, carbon impact, compliance, an",
+          "keyPoints": [
+            "An LLM-Based Agent for Legal Compliance Assessment: Architecture, Memory, and Evaluation in a Canadian and Quebec Context",
+            "arXiv:2610.27347v1 Announce Type: new Abstract: Checking whether a text complies with a body of law is slow when done by hand and fragile when done with keyword rules.",
+            "This paper presents ComplianceAgent, the legal compliance sub-agent of COMPASS, a multi-agent framework that evaluates texts along four axes: digital sovereignty, carbon impact, compliance, and ethics."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
+      }
+    },
+    {
+      "id": "feed-704d8f48534c32",
+      "title": "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+      "summary": "arXiv:2610.27377v1 Announce Type: new Abstract: Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely reused on the next. Prior memory systems concentrate on retrieval, finding the most relevant past trajectory.",
+      "keyPoints": [
+        "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+        "arXiv:2610.27377v1 Announce Type: new Abstract: Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely reused on the next.",
+        "Prior memory systems concentrate on retrieval, finding the most relevant past trajectory."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.27377",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+          "summary": "arXiv:2610.27377v1 Announce Type: new Abstract: Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely reused on the next. Prior memory systems concentrate on retrieval, finding the most relevant past trajectory.",
+          "keyPoints": [
+            "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+            "arXiv:2610.27377v1 Announce Type: new Abstract: Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely reused on the next.",
+            "Prior memory systems concentrate on retrieval, finding the most relevant past trajectory."
+          ]
+        },
+        "fr": {
+          "title": "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+          "summary": "arXiv:2610.27377v1 Announce Type: new Abstract: Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely reused on the next. Prior memory systems concentrate on retrieval, finding the most relevant past trajectory.",
+          "keyPoints": [
+            "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+            "arXiv:2610.27377v1 Announce Type: new Abstract: Large language model (LLM) agents now autonomously complete long-horizon tasks, such as repository-level coding, through hundreds of think-act steps, yet the experience each run produces is rarely reused on the next.",
+            "Prior memory systems concentrate on retrieval, finding the most relevant past trajectory."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.45,
+        "needsReview": true
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 505,
+    "itemsCollected": 526,
     "itemsPublished": 20,
-    "newItems": 10,
+    "newItems": 20,
     "candidates": 20,
     "batches": 2,
     "batchSize": 10,
-    "model": "gemini-3.5-flash-lite",
+    "model": "dry-run",
     "status": "updated"
   }
 }

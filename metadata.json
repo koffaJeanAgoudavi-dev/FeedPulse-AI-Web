@@ -1,0 +1,8 @@
+{
+  "name": "FeedPulse AI Web",
+  "description": "FeedPulse AI compiled web application and AI news feed pipeline.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "permissions": []
+}

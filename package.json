@@ -1,0 +1,15 @@
+{
+  "name": "feedpulse-ai-web",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'No build required for precompiled site'",
+    "update-feed": "node pipeline/update-feed.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase": "^13.1.0"
+  }
+}

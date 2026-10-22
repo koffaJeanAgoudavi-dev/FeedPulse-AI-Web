@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Personnalisez votre veille IA - FeedPulse AI</title>
+  <meta name="description" content="Sélectionnez vos thématiques prioritaires et calibrez votre flux d'actualité IA." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="/FeedPulse-AI-Web/favicon.ico" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #F8FAFC;
+    }
+    .custom-shadow {
+      box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.03);
+    }
+  </style>
+</head>
+<body class="min-h-screen text-slate-900 antialiased p-4 sm:p-6 pb-12">
+
+  <div class="w-full max-w-md mx-auto">
+    <!-- Top Header -->
+    <header class="flex items-center justify-between py-2 mb-4">
+      <a href="/login" class="p-2 text-slate-700 hover:text-slate-950 rounded-full hover:bg-slate-100 transition-colors" title="Retour">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+        </svg>
+      </a>
+      
+      <div class="font-bold text-sm text-slate-800">
+        Topic Selection
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a href="/FeedPulse-AI-Web/" class="text-sm font-semibold text-slate-600 hover:text-slate-900">Passer</a>
+        <div id="topAvatar" class="w-8 h-8 rounded-full bg-[#8B4500] text-white flex items-center justify-center font-semibold text-xs shadow-sm overflow-hidden">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- Step Indicator -->
+    <div class="mb-5">
+      <div class="flex items-center justify-between text-xs mb-1.5">
+        <span class="font-bold tracking-wider text-[#8B4500]">ÉTAPE 1 SUR 2</span>
+        <span class="text-slate-400 font-medium">Calibration algorithme</span>
+      </div>
+      <div class="w-full h-1 bg-slate-200 rounded-full overflow-hidden">
+        <div class="w-1/2 h-full bg-[#8B4500] rounded-full transition-all duration-300"></div>
+      </div>
+    </div>
+
+    <!-- Hero / Headline -->
+    <div class="mb-5">
+      <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-slate-200/70 text-xs font-semibold text-slate-700 mb-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#8B4500]"></span>
+        <span>Calibration FeedPulse AI</span>
+      </div>
+      <h1 class="text-2xl font-extrabold text-slate-900 leading-tight mb-2">
+        Personnalisez votre veille IA
+      </h1>
+      <p class="text-xs text-slate-600 leading-relaxed mb-4">
+        Sélectionnez au moins 3 piliers d’intérêt. Notre IA élimine le bruit pour ne retenir que les signaux faibles et percées majeures.
+      </p>
+
+      <!-- Selection status pill -->
+      <div class="flex items-center justify-between p-2.5 bg-slate-100 rounded-xl text-xs">
+        <div class="flex items-center gap-2 font-medium text-slate-700">
+          <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+          </svg>
+          <span>Votre sélection thématique</span>
+        </div>
+        <div id="selectionPill" class="px-2.5 py-1 rounded-full bg-[#FFE3D1] text-[#9A3412] font-bold text-[11px] flex items-center gap-1">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
+          </svg>
+          <span id="selectionCounterText">3 sélectionnés (Prêt !)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form Section -->
+    <form id="preferencesForm" class="space-y-6">
+
+      <!-- 1. Thématiques prioritaires -->
+      <div>
+        <div class="flex items-center justify-between mb-3">
+          <h2 class="text-sm font-extrabold text-slate-900">1. Thématiques prioritaires</h2>
+          <span class="text-xs text-slate-400 font-medium">Min. 3 requis</span>
+        </div>
+
+        <div class="space-y-2.5" id="topicsContainer">
+          
+          <!-- Topic 1 -->
+          <label class="topic-item flex items-center justify-between p-3 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <span class="text-sm font-bold text-slate-900">LLM &amp; Raisonnement</span>
+                  <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-indigo-100 text-indigo-700">SOTA</span>
+                </div>
+                <p class="text-xs text-slate-500 line-clamp-1">DeepSeek, GPT-5, Claude 3.7, Gemini 2.5</p>
+              </div>
+            </div>
+            <input type="checkbox" name="topic" value="llm" checked class="hidden topic-checkbox">
+            <div class="check-indicator w-5 h-5 rounded-full bg-[#8B4500] text-white flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+            </div>
+          </label>
+
+          <!-- Topic 2 -->
+          <label class="topic-item flex items-center justify-between p-3 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <span class="text-sm font-bold text-slate-900">Agents Autonomes</span>
+                  <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-700">Action</span>
+                </div>
+                <p class="text-xs text-slate-500 line-clamp-1">LangGraph, AutoGPT, Computer-Use, Workfl...</p>
+              </div>
+            </div>
+            <input type="checkbox" name="topic" value="agents" checked class="hidden topic-checkbox">
+            <div class="check-indicator w-5 h-5 rounded-full bg-[#8B4500] text-white flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+            </div>
+          </label>
+
+          <!-- Topic 3 -->
+          <label class="topic-item flex items-center justify-between p-3 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <span class="text-sm font-bold text-slate-900">Open Source &amp; Poids Libres</span>
+                  <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800">Local</span>
+                </div>
+                <p class="text-xs text-slate-500 line-clamp-1">Llama 3.3, Mistral, Ollama, Hugging Face</p>
+              </div>
+            </div>
+            <input type="checkbox" name="topic" value="opensource" checked class="hidden topic-checkbox">
+            <div class="check-indicator w-5 h-5 rounded-full bg-[#8B4500] text-white flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+            </div>
+          </label>
+
+          <!-- Topic 4 -->
+          <label class="topic-item flex items-center justify-between p-3 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="text-sm font-bold text-slate-900">Génération Multimodale</span>
+                <p class="text-xs text-slate-500 line-clamp-1">Sora, Flux.1, Gen-3, Synthèse vocale &amp; avatars</p>
+              </div>
+            </div>
+            <input type="checkbox" name="topic" value="multimodal" class="hidden topic-checkbox">
+            <div class="check-indicator w-5 h-5 rounded-full border-2 border-indigo-100 flex items-center justify-center shrink-0"></div>
+          </label>
+
+          <!-- Topic 5 -->
+          <label class="topic-item flex items-center justify-between p-3 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="text-sm font-bold text-slate-900">Hardware &amp; Semi-conducteurs</span>
+                <p class="text-xs text-slate-500 line-clamp-1">NVIDIA Blackwell, TPUs, Groq, Efficacité watt</p>
+              </div>
+            </div>
+            <input type="checkbox" name="topic" value="hardware" class="hidden topic-checkbox">
+            <div class="check-indicator w-5 h-5 rounded-full border-2 border-indigo-100 flex items-center justify-center shrink-0"></div>
+          </label>
+
+          <!-- Topic 6 -->
+          <label class="topic-item flex items-center justify-between p-3 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="text-sm font-bold text-slate-900">IA en Entreprise &amp; ROI</span>
+                <p class="text-xs text-slate-500 line-clamp-1">Études de cas, déploiements SaaS, FinTech, S...</p>
+              </div>
+            </div>
+            <input type="checkbox" name="topic" value="enterprise" class="hidden topic-checkbox">
+            <div class="check-indicator w-5 h-5 rounded-full border-2 border-indigo-100 flex items-center justify-center shrink-0"></div>
+          </label>
+
+          <!-- Topic 7 -->
+          <label class="topic-item flex items-center justify-between p-3 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="text-sm font-bold text-slate-900">Robotique &amp; Embodied AI</span>
+                <p class="text-xs text-slate-500 line-clamp-1">Figure 02, Tesla Optimus, Vision-Language-A...</p>
+              </div>
+            </div>
+            <input type="checkbox" name="topic" value="robotics" class="hidden topic-checkbox">
+            <div class="check-indicator w-5 h-5 rounded-full border-2 border-indigo-100 flex items-center justify-center shrink-0"></div>
+          </label>
+
+        </div>
+      </div>
+
+      <!-- 2. Canaux & Sources de confiance -->
+      <div>
+        <div class="flex items-center justify-between mb-3">
+          <h2 class="text-sm font-extrabold text-slate-900">2. Canaux &amp; Sources de confiance</h2>
+          <span class="text-xs text-[#9A3412] font-semibold">Bruit filtré à 98%</span>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2.5" id="sourcesContainer">
+          
+          <!-- Source 1 -->
+          <label class="source-item p-3.5 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none flex flex-col justify-between">
+            <div class="flex items-start justify-between mb-2">
+              <div class="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+              </div>
+              <input type="checkbox" name="source" value="labos" checked class="hidden source-checkbox">
+              <div class="source-indicator w-5 h-5 rounded-full bg-[#8B4500] text-white flex items-center justify-center">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-slate-900 leading-tight">Labos de pointe</h4>
+              <p class="text-[11px] text-slate-500 mt-0.5">OpenAI, DeepMind, Anthropic</p>
+            </div>
+          </label>
+
+          <!-- Source 2 -->
+          <label class="source-item p-3.5 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none flex flex-col justify-between">
+            <div class="flex items-start justify-between mb-2">
+              <div class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"></path></svg>
+              </div>
+              <input type="checkbox" name="source" value="hubs" checked class="hidden source-checkbox">
+              <div class="source-indicator w-5 h-5 rounded-full bg-[#8B4500] text-white flex items-center justify-center">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-slate-900 leading-tight">Hubs Open Source</h4>
+              <p class="text-[11px] text-slate-500 mt-0.5">GitHub Trends, HuggingFace</p>
+            </div>
+          </label>
+
+          <!-- Source 3 -->
+          <label class="source-item p-3.5 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none flex flex-col justify-between">
+            <div class="flex items-start justify-between mb-2">
+              <div class="w-9 h-9 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path></svg>
+              </div>
+              <input type="checkbox" name="source" value="arxiv" class="hidden source-checkbox">
+              <div class="source-indicator w-5 h-5 rounded-full border-2 border-indigo-100 flex items-center justify-center"></div>
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-slate-900 leading-tight">Papiers ArXiv</h4>
+              <p class="text-[11px] text-slate-500 mt-0.5">Papers with Code, Research</p>
+            </div>
+          </label>
+
+          <!-- Source 4 -->
+          <label class="source-item p-3.5 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none flex flex-col justify-between">
+            <div class="flex items-start justify-between mb-2">
+              <div class="w-9 h-9 rounded-xl bg-slate-100 text-slate-600 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
+              </div>
+              <input type="checkbox" name="source" value="media" class="hidden source-checkbox">
+              <div class="source-indicator w-5 h-5 rounded-full border-2 border-indigo-100 flex items-center justify-center"></div>
+            </div>
+            <div>
+              <h4 class="text-xs font-bold text-slate-900 leading-tight">Tech Media Pro</h4>
+              <p class="text-[11px] text-slate-500 mt-0.5">The Verge, MIT Review</p>
+            </div>
+          </label>
+
+        </div>
+      </div>
+
+      <!-- 3. Rythme du briefing -->
+      <div>
+        <div class="mb-3">
+          <h2 class="text-sm font-extrabold text-slate-900">3. Rythme du briefing</h2>
+          <p class="text-xs text-slate-400">Format synthétisé sur mesure</p>
+        </div>
+
+        <div class="space-y-2.5" id="rhythmContainer">
+          
+          <!-- Option 1 -->
+          <label class="rhythm-item block p-3.5 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-start gap-3">
+              <input type="radio" name="frequency" value="morning" checked class="hidden rhythm-radio">
+              <div class="rhythm-indicator w-4 h-4 rounded-full border-2 border-[#8B4500] flex items-center justify-center mt-0.5 shrink-0">
+                <div class="w-2 h-2 rounded-full bg-[#8B4500]"></div>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <span class="text-xs font-bold text-slate-900">Synthèse Matinale Éclair</span>
+                  <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-[#FFE4D6] text-[#9A3412]">Populaire</span>
+                </div>
+                <p class="text-[11px] text-slate-500 mt-0.5">3 minutes chaque matin à 8h00 • 3 points clés par actu</p>
+              </div>
+            </div>
+          </label>
+
+          <!-- Option 2 -->
+          <label class="rhythm-item block p-3.5 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-start gap-3">
+              <input type="radio" name="frequency" value="realtime" class="hidden rhythm-radio">
+              <div class="rhythm-indicator w-4 h-4 rounded-full border-2 border-slate-300 flex items-center justify-center mt-0.5 shrink-0">
+                <div class="w-2 h-2 rounded-full bg-transparent"></div>
+              </div>
+              <div>
+                <span class="text-xs font-bold text-slate-900">Flux Continu &amp; Breaking News</span>
+                <p class="text-[11px] text-slate-500 mt-0.5">Mises à jour au fil de l’eau pour suivre les lancements en direct</p>
+              </div>
+            </div>
+          </label>
+
+          <!-- Option 3 -->
+          <label class="rhythm-item block p-3.5 bg-white rounded-2xl border border-slate-100 custom-shadow cursor-pointer transition-all hover:border-slate-300 select-none">
+            <div class="flex items-start gap-3">
+              <input type="radio" name="frequency" value="weekly" class="hidden rhythm-radio">
+              <div class="rhythm-indicator w-4 h-4 rounded-full border-2 border-slate-300 flex items-center justify-center mt-0.5 shrink-0">
+                <div class="w-2 h-2 rounded-full bg-transparent"></div>
+              </div>
+              <div>
+                <span class="text-xs font-bold text-slate-900">Deep Dive Hebdomadaire</span>
+                <p class="text-[11px] text-slate-500 mt-0.5">Chaque dimanche soir • Analyse de fond des 5 ruptures de la semaine</p>
+              </div>
+            </div>
+          </label>
+
+        </div>
+      </div>
+
+      <!-- Preview Card -->
+      <div class="bg-[#F8F7FF] rounded-2xl p-4 border border-indigo-50/70">
+        <div class="flex items-center gap-1.5 text-xs font-bold text-[#8B4500] mb-2">
+          <svg class="w-4 h-4 text-[#8B4500]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+          </svg>
+          <span>Aperçu de votre futur briefing</span>
+        </div>
+        
+        <p id="previewDescription" class="text-xs text-slate-600 leading-relaxed mb-3">
+          Votre flux contiendra environ 4 briefings condensés sur LLM &amp; Raisonnement, Agents Autonomes, Open Source &amp; Poids Libres livrés à 8h00.
+        </p>
+
+        <div class="bg-white rounded-xl p-3 border border-slate-100 custom-shadow flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-indigo-50 text-[#8B4500] flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center justify-between text-[10px] mb-0.5">
+              <span class="font-bold text-blue-600">Aperçu direct</span>
+              <span id="previewTiming" class="text-slate-400">Prêt pour demain 8h00</span>
+            </div>
+            <h5 class="text-xs font-bold text-slate-900 leading-tight">FeedPulse AI • Édition Personnalisée</h5>
+            <div class="flex items-center gap-1.5 text-[10px] text-slate-500 mt-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#8B4500]"></span>
+              <span id="previewSourcesCount">Signaux détectés : 14 sources calibrées</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div>
+        <button id="submitBtn" type="submit" class="w-full bg-[#8B4500] hover:bg-[#783900] active:scale-[0.99] text-white font-bold py-3.5 px-4 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2">
+          <span id="submitBtnText">Générer mon premier flux IA</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+          </svg>
+        </button>
+
+        <p class="text-center text-[11px] text-slate-500 mt-3 flex items-center justify-center gap-1">
+          <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+          </svg>
+          <span>Modifiable en 1 clic à tout moment dans Paramètres</span>
+        </p>
+      </div>
+
+    </form>
+  </div>
+
+  <!-- Toast notification -->
+  <div id="toast" class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-slate-900 text-white text-xs font-semibold px-4 py-2.5 rounded-xl shadow-2xl opacity-0 pointer-events-none transition-all duration-300 z-50 flex items-center gap-2">
+    <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+    <span id="toastMsg">Préférences enregistrées avec succès !</span>
+  </div>
+
+  <script type="module">
+    import { initFirebase, saveUserPreferences, getUserPreferences } from '/firebase-app.js';
+    import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js';
+
+    const form = document.getElementById('preferencesForm');
+    const topicCheckboxes = document.querySelectorAll('.topic-checkbox');
+    const sourceCheckboxes = document.querySelectorAll('.source-checkbox');
+    const rhythmRadios = document.querySelectorAll('.rhythm-radio');
+    const selectionCounterText = document.getElementById('selectionCounterText');
+    const selectionPill = document.getElementById('selectionPill');
+    const previewDescription = document.getElementById('previewDescription');
+    const previewTiming = document.getElementById('previewTiming');
+    const previewSourcesCount = document.getElementById('previewSourcesCount');
+    const submitBtn = document.getElementById('submitBtn');
+    const submitBtnText = document.getElementById('submitBtnText');
+    const toast = document.getElementById('toast');
+    const toastMsg = document.getElementById('toastMsg');
+    const topAvatar = document.getElementById('topAvatar');
+
+    function showToast(msg) {
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      toast.classList.add('opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 3000);
+    }
+
+    const topicLabels = {
+      llm: "LLM & Raisonnement",
+      agents: "Agents Autonomes",
+      opensource: "Open Source & Poids Libres",
+      multimodal: "Génération Multimodale",
+      hardware: "Hardware & Semi-conducteurs",
+      enterprise: "IA en Entreprise & ROI",
+      robotics: "Robotique & Embodied AI"
+    };
+
+    function updateUIState() {
+      // Topics
+      const selectedTopics = [];
+      topicCheckboxes.forEach(cb => {
+        const item = cb.closest('.topic-item');
+        const indicator = item.querySelector('.check-indicator');
+        if (cb.checked) {
+          selectedTopics.push(cb.value);
+          indicator.className = "check-indicator w-5 h-5 rounded-full bg-[#8B4500] text-white flex items-center justify-center shrink-0";
+          indicator.innerHTML = '<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>';
+        } else {
+          indicator.className = "check-indicator w-5 h-5 rounded-full border-2 border-indigo-100 flex items-center justify-center shrink-0";
+          indicator.innerHTML = '';
+        }
+      });
+
+      // Update counter pill
+      const count = selectedTopics.length;
+      if (count >= 3) {
+        selectionCounterText.textContent = `${count} sélectionnés (Prêt !)`;
+        selectionPill.className = "px-2.5 py-1 rounded-full bg-[#FFE3D1] text-[#9A3412] font-bold text-[11px] flex items-center gap-1";
+      } else {
+        selectionCounterText.textContent = `${count} sélectionné${count > 1 ? 's' : ''} (Min. 3)`;
+        selectionPill.className = "px-2.5 py-1 rounded-full bg-amber-50 text-amber-700 font-bold text-[11px] flex items-center gap-1";
+      }
+
+      // Sources
+      const selectedSources = [];
+      sourceCheckboxes.forEach(cb => {
+        const item = cb.closest('.source-item');
+        const indicator = item.querySelector('.source-indicator');
+        if (cb.checked) {
+          selectedSources.push(cb.value);
+          indicator.className = "source-indicator w-5 h-5 rounded-full bg-[#8B4500] text-white flex items-center justify-center";
+          indicator.innerHTML = '<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>';
+        } else {
+          indicator.className = "source-indicator w-5 h-5 rounded-full border-2 border-indigo-100 flex items-center justify-center";
+          indicator.innerHTML = '';
+        }
+      });
+
+      // Rhythm
+      let selectedFrequency = 'morning';
+      rhythmRadios.forEach(rb => {
+        const item = rb.closest('.rhythm-item');
+        const indicator = item.querySelector('.rhythm-indicator');
+        const dot = indicator.querySelector('div');
+        if (rb.checked) {
+          selectedFrequency = rb.value;
+          indicator.className = "rhythm-indicator w-4 h-4 rounded-full border-2 border-[#8B4500] flex items-center justify-center mt-0.5 shrink-0";
+          dot.className = "w-2 h-2 rounded-full bg-[#8B4500]";
+        } else {
+          indicator.className = "rhythm-indicator w-4 h-4 rounded-full border-2 border-slate-300 flex items-center justify-center mt-0.5 shrink-0";
+          dot.className = "w-2 h-2 rounded-full bg-transparent";
+        }
+      });
+
+      // Update Dynamic Preview
+      const topicsText = selectedTopics.map(k => topicLabels[k] || k).slice(0, 3).join(', ') + (selectedTopics.length > 3 ? ` et ${selectedTopics.length - 3} autres` : '');
+      const timeStr = selectedFrequency === 'morning' ? 'livrés à 8h00' : selectedFrequency === 'weekly' ? 'livrés chaque dimanche' : 'en temps réel';
+      previewDescription.textContent = `Votre flux contiendra environ ${Math.max(3, selectedTopics.length + 1)} briefings condensés sur ${topicsText || 'vos thèmes choisis'} ${timeStr}.`;
+      previewTiming.textContent = selectedFrequency === 'morning' ? 'Prêt pour demain 8h00' : selectedFrequency === 'weekly' ? 'Prêt dimanche 20h00' : 'Direct & Continu';
+      previewSourcesCount.textContent = `Signaux détectés : ${selectedSources.length * 7} sources calibrées`;
+    }
+
+    // Attach listeners
+    topicCheckboxes.forEach(cb => {
+      cb.addEventListener('change', updateUIState);
+    });
+
+    sourceCheckboxes.forEach(cb => {
+      cb.addEventListener('change', updateUIState);
+    });
+
+    rhythmRadios.forEach(rb => {
+      rb.addEventListener('change', updateUIState);
+    });
+
+    // Form submit
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const selectedTopics = Array.from(topicCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
+      if (selectedTopics.length < 3) {
+        showToast("Veuillez sélectionner au moins 3 thématiques prioritaires.");
+        return;
+      }
+
+      const selectedSources = Array.from(sourceCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
+      const selectedFrequency = Array.from(rhythmRadios).find(rb => rb.checked)?.value || 'morning';
+
+      const preferences = {
+        topics: selectedTopics,
+        sources: selectedSources,
+        frequency: selectedFrequency,
+        calibratedAt: new Date().toISOString()
+      };
+
+      submitBtnText.textContent = "Génération du flux...";
+      submitBtn.disabled = true;
+
+      try {
+        await saveUserPreferences(preferences);
+        localStorage.setItem('feedpulse_preferences', JSON.stringify(preferences));
+        showToast("Algorithme calibré ! Chargement du flux personnalisé...");
+        setTimeout(() => {
+          window.location.href = '/FeedPulse-AI-Web/';
+        }, 800);
+      } catch (err) {
+        console.warn('Saving to local storage as fallback:', err);
+        localStorage.setItem('feedpulse_preferences', JSON.stringify(preferences));
+        showToast("Préférences sauvegardées localement ! Redirection...");
+        setTimeout(() => {
+          window.location.href = '/FeedPulse-AI-Web/';
+        }, 800);
+      } finally {
+        submitBtnText.textContent = "Générer mon premier flux IA";
+        submitBtn.disabled = false;
+      }
+    });
+
+    // Init Firebase & Preload existing preferences
+    initFirebase().then(({ auth }) => {
+      onAuthStateChanged(auth, async (user) => {
+        if (user) {
+          topAvatar.textContent = (user.displayName || user.email || 'U').charAt(0).toUpperCase();
+          const existing = await getUserPreferences();
+          if (existing) {
+            if (Array.isArray(existing.topics)) {
+              topicCheckboxes.forEach(cb => {
+                cb.checked = existing.topics.includes(cb.value);
+              });
+            }
+            if (Array.isArray(existing.sources)) {
+              sourceCheckboxes.forEach(cb => {
+                cb.checked = existing.sources.includes(cb.value);
+              });
+            }
+            if (existing.frequency) {
+              rhythmRadios.forEach(rb => {
+                rb.checked = (rb.value === existing.frequency);
+              });
+            }
+            updateUIState();
+          }
+        }
+      });
+    }).catch(err => console.warn(err));
+
+    updateUIState();
+  </script>
+</body>
+</html>
