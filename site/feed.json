@@ -1,193 +1,37 @@
 {
-  "generatedAt": "2026-10-23T04:53:15.434Z",
+  "generatedAt": "2026-10-23T17:11:39.421Z",
   "items": [
     {
-      "id": "feed-c35b3ef79c9227",
-      "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for RAG",
-      "summary": "Researchers present ClariEdge, a dataset of roughly 3,900 examples for query clarification in retrieval-augmented generation systems. A lightweight fine-tuned LoRA achieves 96.6% classification accuracy and outperforms larger prompted baselines in recognizing ambiguous or ill-formed queries.",
+      "id": "feed-ee4c22366ef7e7",
+      "title": "Scaling Online Storage to Serve Over 1 Billion ChatGPT Users",
+      "summary": "OpenAI shares how it scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12 times faster reads for ChatGPT users.",
       "keyPoints": [
-        "Introduces ClariEdge, a 3,900-example dataset for query clarification.",
-        "A lightweight fine-tuned LoRA achieves 96.6% classification accuracy.",
-        "The model performs well in both pre-retrieval and post-retrieval scenarios."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28686",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for RAG",
-          "summary": "Researchers present ClariEdge, a dataset of roughly 3,900 examples for query clarification in retrieval-augmented generation systems. A lightweight fine-tuned LoRA achieves 96.6% classification accuracy and outperforms larger prompted baselines in recognizing ambiguous or ill-formed queries.",
-          "keyPoints": [
-            "Introduces ClariEdge, a 3,900-example dataset for query clarification.",
-            "A lightweight fine-tuned LoRA achieves 96.6% classification accuracy.",
-            "The model performs well in both pre-retrieval and post-retrieval scenarios."
-          ]
-        },
-        "fr": {
-          "title": "Un petit modèle pour mieux interroger : affinement pour la RAG",
-          "summary": "Des chercheurs présentent ClariEdge, un jeu de données d'environ 3 900 exemples pour la clarification de requêtes dans les systèmes RAG. Un modèle LoRA léger et affiné atteint 96,6 % de précision de classification et surpasse des modèles plus grands.",
-          "keyPoints": [
-            "Présente ClariEdge, un ensemble de 3 900 exemples pour la clarification.",
-            "Un LoRA léger et affiné atteint une précision de classification de 96,6 %.",
-            "Le modèle fonctionne bien dans les scénarios de pré-récupération et de post-récupération."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-891b7e0bbf66f8",
-      "title": "Build more responsive apps with the Decisions API",
-      "summary": "OpenAI announces the Decisions API, designed to provide fast, focused, and low-cost decisions for any application, enabling the creation of more responsive software.",
-      "keyPoints": [
-        "Introduces the Decisions API by OpenAI.",
-        "Offers fast, focused, and low-cost decision-making capabilities.",
-        "Aims to help developers build more responsive applications."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/decisions-api",
-      "publishedAt": "2026-10-22T19:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Build more responsive apps with the Decisions API",
-          "summary": "OpenAI announces the Decisions API, designed to provide fast, focused, and low-cost decisions for any application, enabling the creation of more responsive software.",
-          "keyPoints": [
-            "Introduces the Decisions API by OpenAI.",
-            "Offers fast, focused, and low-cost decision-making capabilities.",
-            "Aims to help developers build more responsive applications."
-          ]
-        },
-        "fr": {
-          "title": "Créez des applications plus réactives avec l'API Decisions",
-          "summary": "OpenAI annonce l'API Decisions, conçue pour fournir des décisions rapides, ciblées et économiques pour toute application, permettant de créer des logiciels plus réactifs.",
-          "keyPoints": [
-            "Présente l'API Decisions d'OpenAI.",
-            "Offre des capacités de décision rapides, ciblées et à faible coût.",
-            "Vise à aider les développeurs à créer des applications plus réactives."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-301925b8adfceb",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "summary": "Google DeepMind introduces a global map that categorizes every 10-meter patch of land on Earth into distinct forest types, moving beyond traditional tree cover metrics.",
-      "keyPoints": [
-        "Provides a global map of the world's forest types.",
-        "Categorizes every 10-meter patch of land on Earth.",
-        "Goes beyond basic tree cover measurement."
-      ],
-      "category": "Outils",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "publishedAt": "2026-10-22T14:30:24.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/WGEFKF0mS4Mon9B5jZmraPj5UVTfZ0HtW0VXaLS0Ijm67blWFirP4Opi5IX6QLWEbq9MSQituskRlxKgUpGfD8-C6kIbe7etM9bTbvLg3rmG5gTkwc4=w1440-h810-n-nu",
-      "translations": {
-        "en": {
-          "title": "Beyond tree cover: mapping the world’s forest types",
-          "summary": "Google DeepMind introduces a global map that categorizes every 10-meter patch of land on Earth into distinct forest types, moving beyond traditional tree cover metrics.",
-          "keyPoints": [
-            "Provides a global map of the world's forest types.",
-            "Categorizes every 10-meter patch of land on Earth.",
-            "Goes beyond basic tree cover measurement."
-          ]
-        },
-        "fr": {
-          "title": "Au-delà de la canopée : cartographie des types de forêts mondiales",
-          "summary": "Google DeepMind présente une carte mondiale qui catégorise chaque parcelle de terrain de 10 mètres sur Terre en types de forêts distincts, allant au-delà de la simple couverture arborée.",
-          "keyPoints": [
-            "Fournit une carte mondiale des types de forêts.",
-            "Catégorise chaque parcelle de terrain de 10 mètres sur Terre.",
-            "Va au-delà de la mesure traditionnelle de la couverture arborée."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f5ebfafb83c612",
-      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents",
-      "summary": "A study investigates continued pre-training for embodied agents across virtual worlds by varying data volume, diversity, and model size. Results show that diversity aids transfer to related worlds, while scale improves data efficiency.",
-      "keyPoints": [
-        "Investigates continued pre-training across 120 configurations and 4 model sizes.",
-        "Shows that data diversity improves transfer to related virtual worlds.",
-        "Highlights persistent performance gaps in distant worlds requiring richer training stages."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28698",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Scaling in Games: Continued Pre-Training For Embodied Agents",
-          "summary": "A study investigates continued pre-training for embodied agents across virtual worlds by varying data volume, diversity, and model size. Results show that diversity aids transfer to related worlds, while scale improves data efficiency.",
-          "keyPoints": [
-            "Investigates continued pre-training across 120 configurations and 4 model sizes.",
-            "Shows that data diversity improves transfer to related virtual worlds.",
-            "Highlights persistent performance gaps in distant worlds requiring richer training stages."
-          ]
-        },
-        "fr": {
-          "title": "Mise à l'échelle dans les jeux : pré-entraînement pour agents",
-          "summary": "Une étude examine le pré-entraînement continu d'agents incarnés dans des mondes virtuels en faisant varier le volume de données, la diversité et la taille des modèles. Les résultats montrent que la diversité aide le transfert vers des mondes liés.",
-          "keyPoints": [
-            "Étudie le pré-entraînement continu sur 120 configurations et 4 tailles de modèles.",
-            "Montre que la diversité des données améliore le transfert vers des mondes similaires.",
-            "Met en évidence des lacunes persistantes nécessitant des étapes d'entraînement plus riches."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6400feb6814725",
-      "title": "What Forward Deployed Engineering means at OpenAI",
-      "summary": "An overview explaining the role and definition of forward deployed engineering (FDE) within OpenAI.",
-      "keyPoints": [
-        "Explains the concept of FDE at OpenAI.",
-        "Outlines engineering practices and deployment roles.",
-        "Clarifies how forward deployed engineering operates."
+        "Scaled Habitat for over 1 billion ChatGPT users",
+        "Used reliable multi-tenancy and global caching",
+        "Achieved 12x faster reads using Azure Cosmos DB"
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/forward-deployed-engineering-means",
-      "publishedAt": "2026-10-22T06:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "What Forward Deployed Engineering means at OpenAI",
-          "summary": "An overview explaining the role and definition of forward deployed engineering (FDE) within OpenAI.",
+          "title": "Scaling Online Storage to Serve Over 1 Billion ChatGPT Users",
+          "summary": "OpenAI shares how it scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12 times faster reads for ChatGPT users.",
           "keyPoints": [
-            "Explains the concept of FDE at OpenAI.",
-            "Outlines engineering practices and deployment roles.",
-            "Clarifies how forward deployed engineering operates."
+            "Scaled Habitat for over 1 billion ChatGPT users",
+            "Used reliable multi-tenancy and global caching",
+            "Achieved 12x faster reads using Azure Cosmos DB"
           ]
         },
         "fr": {
-          "title": "Ce que signifie l'ingénierie déployée en avant chez OpenAI",
-          "summary": "Un aperçu expliquant le rôle et la définition de l'ingénierie déployée en avant (FDE) au sein d'OpenAI.",
+          "title": "Mise à l'échelle du stockage en ligne pour ChatGPT",
+          "summary": "OpenAI explique comment elle a mis à l'échelle Habitat avec une multi-location fiable, du cache global et Azure Cosmos DB pour offrir des lectures 12 fois plus rapides pour ChatGPT.",
           "keyPoints": [
-            "Explique le concept de FDE chez OpenAI.",
-            "Décrit les pratiques d'ingénierie et les rôles de déploiement.",
-            "Clarifie le fonctionnement de l'ingénierie déployée en avant."
+            "Mise à l'échelle d'Habitat pour plus d'un milliard d'utilisateurs",
+            "Utilisation d'une multi-location fiable et d'un cache global",
+            "Lectures 12 fois plus rapides grâce à Azure Cosmos DB"
           ]
         }
       },
@@ -197,36 +41,36 @@
       }
     },
     {
-      "id": "feed-071ab936456371",
-      "title": "SpecEvo: Speculative Evolution for Cost-Efficient Discovery",
-      "summary": "Researchers introduce Speculative Evolution (SpecEvo), a multi-LLM framework that coordinates lightweight and frontier models to reduce API costs by up to 80% in scientific discovery tasks.",
+      "id": "feed-4de5b7368a607f",
+      "title": "Self-Improving Agents with World Model Predictive Paths",
+      "summary": "Researchers propose a test-time framework inspired by Model Predictive Path Integral control that combines multi-branch predictive analysis with experience-based adaptation for LLM agents.",
       "keyPoints": [
-        "Introduces SpecEvo, a multi-LLM framework for scientific discovery.",
-        "Reduces API costs by up to 80% while matching frontier-model baselines.",
-        "Coordinates lightweight speculators with a frontier-model navigator."
+        "Introduces a test-time framework combining predictive analysis and experience adaptation",
+        "Uses a world model to imagine candidate action outcomes without execution",
+        "Demonstrates strong performance across ALFWorld and ScienceWorld benchmarks"
       ],
-      "category": "Open Source",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28706",
+      "sourceUrl": "https://arxiv.org/abs/2610.28945",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "SpecEvo: Speculative Evolution for Cost-Efficient Discovery",
-          "summary": "Researchers introduce Speculative Evolution (SpecEvo), a multi-LLM framework that coordinates lightweight and frontier models to reduce API costs by up to 80% in scientific discovery tasks.",
+          "title": "Self-Improving Agents with World Model Predictive Paths",
+          "summary": "Researchers propose a test-time framework inspired by Model Predictive Path Integral control that combines multi-branch predictive analysis with experience-based adaptation for LLM agents.",
           "keyPoints": [
-            "Introduces SpecEvo, a multi-LLM framework for scientific discovery.",
-            "Reduces API costs by up to 80% while matching frontier-model baselines.",
-            "Coordinates lightweight speculators with a frontier-model navigator."
+            "Introduces a test-time framework combining predictive analysis and experience adaptation",
+            "Uses a world model to imagine candidate action outcomes without execution",
+            "Demonstrates strong performance across ALFWorld and ScienceWorld benchmarks"
           ]
         },
         "fr": {
-          "title": "SpecEvo : Évolution spéculative pour la découverte scientifique",
-          "summary": "Des chercheurs présentent SpecEvo, un cadre multi-LLM qui coordonne des modèles légers et de pointe pour réduire les coûts d'API jusqu'à 80 % dans les tâches de découverte scientifique.",
+          "title": "Agents auto-améliorants avec des chemins prédictifs",
+          "summary": "Les chercheurs proposent un cadre d'inférence inspiré du contrôle prédictif qui combine une analyse prédictive multi-branche et une adaptation par l'expérience pour les agents LLM.",
           "keyPoints": [
-            "Présente SpecEvo, un cadre multi-LLM pour la découverte scientifique.",
-            "Réduit les coûts d'API jusqu'à 80 % tout en égalant les modèles de référence.",
-            "Coordonne des spéculateurs légers avec un navigateur de pointe."
+            "Introduit un cadre combinant analyse prédictive et adaptation par l'expérience",
+            "Utilise un modèle du monde pour simuler les issues des actions sans exécution",
+            "Démontre de solides performances sur ALFWorld et ScienceWorld"
           ]
         }
       },
@@ -236,36 +80,36 @@
       }
     },
     {
-      "id": "feed-eda525050cea8f",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees in partnership with OpenAI, assisting teams with research, data analysis, presentations, and complex workflows.",
+      "id": "feed-1a543055a02f98",
+      "title": "OpenAI and Poland's NASK Partner on AI Safety",
+      "summary": "OpenAI and Poland's NASK have announced a partnership focused on AI safety, security, and technical research to strengthen safeguards and support a resilient digital ecosystem.",
       "keyPoints": [
-        "Uber rolls out ChatGPT Work to over 30,000 employees.",
-        "Aims to assist teams with research, analysis, and presentations.",
-        "Partnership executed in collaboration with OpenAI."
+        "Partnership between OpenAI and Poland's NASK",
+        "Focuses on AI safety, security, and technical research",
+        "Aims to strengthen safeguards and digital ecosystem resilience"
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-          "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees in partnership with OpenAI, assisting teams with research, data analysis, presentations, and complex workflows.",
+          "title": "OpenAI and Poland's NASK Partner on AI Safety",
+          "summary": "OpenAI and Poland's NASK have announced a partnership focused on AI safety, security, and technical research to strengthen safeguards and support a resilient digital ecosystem.",
           "keyPoints": [
-            "Uber rolls out ChatGPT Work to over 30,000 employees.",
-            "Aims to assist teams with research, analysis, and presentations.",
-            "Partnership executed in collaboration with OpenAI."
+            "Partnership between OpenAI and Poland's NASK",
+            "Focuses on AI safety, security, and technical research",
+            "Aims to strengthen safeguards and digital ecosystem resilience"
           ]
         },
         "fr": {
-          "title": "Uber intègre ChatGPT Work pour tous ses employés avec OpenAI",
-          "summary": "Uber déploie ChatGPT Work auprès de plus de 30 000 employés en partenariat avec OpenAI, aidant les équipes à faire des recherches, analyser des données et créer des présentations.",
+          "title": "OpenAI et le NASK en Pologne s'associent pour la sécurité de l'IA",
+          "summary": "OpenAI et le NASK en Pologne s'associent sur la sécurité de l'IA et la recherche technique afin de renforcer les protections et de soutenir un écosystème numérique résilient.",
           "keyPoints": [
-            "Uber déploie ChatGPT Work pour plus de 30 000 salariés.",
-            "Aide les équipes pour la recherche, l'analyse et les présentations.",
-            "Partenariat réalisé en collaboration avec OpenAI."
+            "Partenariat entre OpenAI et le NASK polonais",
+            "Axé sur la sécurité de l'IA et la recherche technique",
+            "Vise à renforcer les protections et la résilience numérique"
           ]
         }
       },
@@ -275,114 +119,36 @@
       }
     },
     {
-      "id": "feed-d8639c0b4eb9ac",
-      "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills?",
-      "summary": "The paper introduces Agent4Sci, a long-horizon testbed evaluating frontier coding agents on scientific machine learning benchmarks across 11 domains.",
+      "id": "feed-6838e85e8517e0",
+      "title": "Evaluating Refusal Transfer Failure in LLM Agents",
+      "summary": "Researchers investigate whether text refusal behavior transfers to tool use in LLM agents, finding that text-refused requests frequently result in unsafe tool calls.",
       "keyPoints": [
-        "Introduces Agent4Sci to test frontier agents on scientific ML benchmarks.",
-        "Claude Opus achieves a 10.4% mean relative improvement using ML-engineering tricks.",
-        "Lightweight plug-in skills further improve agent performance to 20.1%."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28763",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills?",
-          "summary": "The paper introduces Agent4Sci, a long-horizon testbed evaluating frontier coding agents on scientific machine learning benchmarks across 11 domains.",
-          "keyPoints": [
-            "Introduces Agent4Sci to test frontier agents on scientific ML benchmarks.",
-            "Claude Opus achieves a 10.4% mean relative improvement using ML-engineering tricks.",
-            "Lightweight plug-in skills further improve agent performance to 20.1%."
-          ]
-        },
-        "fr": {
-          "title": "Automatisation du ML pour la science : les agents de pointe peuvent-ils progresser ?",
-          "summary": "L'article présente Agent4Sci, un banc d'essai évaluant des agents de codage de pointe sur des benchmarks de machine learning scientifique dans 11 domaines.",
-          "keyPoints": [
-            "Présente Agent4Sci pour tester les agents sur des benchmarks de ML scientifique.",
-            "Claude Opus atteint une amélioration relative moyenne de 10,4 %.",
-            "Des compétences complémentaires légères améliorent encore les performances."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3fe372fb2e8166",
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes, while developers use Codex to build faster and improve code quality.",
-      "keyPoints": [
-        "Cloudflare utilizes OpenAI Daybreak for vulnerability investigation.",
-        "Developers use Codex to accelerate building and improve code quality.",
-        "Connects vulnerability discovery directly with defense mechanisms."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/cloudflare-cyber",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-          "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes, while developers use Codex to build faster and improve code quality.",
-          "keyPoints": [
-            "Cloudflare utilizes OpenAI Daybreak for vulnerability investigation.",
-            "Developers use Codex to accelerate building and improve code quality.",
-            "Connects vulnerability discovery directly with defense mechanisms."
-          ]
-        },
-        "fr": {
-          "title": "Cloudflare associe la découverte de vulnérabilités à la défense avec OpenAI",
-          "summary": "Cloudflare utilise OpenAI Daybreak pour enquêter sur les vulnérabilités et proposer des correctifs, tandis que ses développeurs utilisent Codex pour coder plus rapidement.",
-          "keyPoints": [
-            "Cloudflare utilise OpenAI Daybreak pour examiner les vulnérabilités.",
-            "Les développeurs emploient Codex pour accélérer le développement et la qualité du code.",
-            "Lie directement la découverte des failles aux solutions de défense."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-50cf62209b129a",
-      "title": "Agentic Harness Evolution via Successive Scale Racing",
-      "summary": "Researchers propose Successive Scale Racing (SSR), a framework that optimizes agentic harnesses by adaptively searching for optimal evidence combinations and reducing validation executions.",
-      "keyPoints": [
-        "Proposes Successive Scale Racing (SSR) to optimize agentic harnesses.",
-        "Improves pass rates from 64.3% to 68.3% as the task pool grows from 40 to 200.",
-        "Reduces validation executions by 60% via its efficient racing mechanism."
+        "Examines refusal transfer from chat to tool-calling settings",
+        "Finds 10-52 percent of chat-refused requests result in unsafe tool calls",
+        "Identifies a refusal-associated direction in the residual stream of models"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28815",
+      "sourceUrl": "https://arxiv.org/abs/2610.28982",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Agentic Harness Evolution via Successive Scale Racing",
-          "summary": "Researchers propose Successive Scale Racing (SSR), a framework that optimizes agentic harnesses by adaptively searching for optimal evidence combinations and reducing validation executions.",
+          "title": "Evaluating Refusal Transfer Failure in LLM Agents",
+          "summary": "Researchers investigate whether text refusal behavior transfers to tool use in LLM agents, finding that text-refused requests frequently result in unsafe tool calls.",
           "keyPoints": [
-            "Proposes Successive Scale Racing (SSR) to optimize agentic harnesses.",
-            "Improves pass rates from 64.3% to 68.3% as the task pool grows from 40 to 200.",
-            "Reduces validation executions by 60% via its efficient racing mechanism."
+            "Examines refusal transfer from chat to tool-calling settings",
+            "Finds 10-52 percent of chat-refused requests result in unsafe tool calls",
+            "Identifies a refusal-associated direction in the residual stream of models"
           ]
         },
         "fr": {
-          "title": "Évolution de harnais agentiques via Successive Scale Racing",
-          "summary": "Des chercheurs proposent Successive Scale Racing (SSR), un cadre qui optimise les harnais d'agents en recherchant de manière adaptative des combinaisons de preuves optimales.",
+          "title": "Évaluation de l'échec du transfert de refus chez les agents LLM",
+          "summary": "Des chercheurs étudient si le comportement de refus textuel se transfère à l'utilisation d'outils, constatant que des requêtes refusées en texte génèrent souvent des appels d'outils non sécurisés.",
           "keyPoints": [
-            "Propose Successive Scale Racing (SSR) pour optimiser les harnais d'agents.",
-            "Améliore le taux de réussite de 64,3 % à 68,3 % lorsque la tâche s'élargit.",
-            "Réduit les exécutions de validation de 60 % grâce à son mécanisme de course."
+            "Examine le transfert de refus du chat vers l'utilisation d'outils",
+            "Constate que 10 à 52 % des requêtes refusées mènent à des appels non sécurisés",
+            "Identifie une direction associée au refus dans le flux résiduel des modèles"
           ]
         }
       },
@@ -392,75 +158,36 @@
       }
     },
     {
-      "id": "feed-74655899d2c02f",
-      "title": "Decision Language Models as Affordable LLM Judges in Clinical AI",
-      "summary": "This study evaluates Jev, a decision language model that returns structured judgments, as a faster and more affordable alternative to large language model (LLM) judges for clinical artificial intelligence. Tested across pediatric answers, HealthBench criteria, and MedHELM tasks, Jev matched or exceeded many frontier and open-weight LLM judges while cutting costs by 73-294 times and execution time by 7-57 times.",
+      "id": "feed-4cd0d3a23be15a",
+      "title": "PerMIT: Securing Persistent Memory for LLM Agents",
+      "summary": "PerMIT is a memory architecture with provable integrity guarantees for LLM agents, mediating untrusted environment values through a finite memory interface and machine-checked theorems.",
       "keyPoints": [
-        "Jev matched or exceeded the performance of 7 out of 12 LLM judges on pediatric answers.",
-        "Frontier judges cost 73-294 times more than Jev and took 7-57 times longer to run.",
-        "The model provides a scalable and efficient approach for clinical AI evaluation."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28826",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Decision Language Models as Affordable LLM Judges in Clinical AI",
-          "summary": "This study evaluates Jev, a decision language model that returns structured judgments, as a faster and more affordable alternative to large language model (LLM) judges for clinical artificial intelligence. Tested across pediatric answers, HealthBench criteria, and MedHELM tasks, Jev matched or exceeded many frontier and open-weight LLM judges while cutting costs by 73-294 times and execution time by 7-57 times.",
-          "keyPoints": [
-            "Jev matched or exceeded the performance of 7 out of 12 LLM judges on pediatric answers.",
-            "Frontier judges cost 73-294 times more than Jev and took 7-57 times longer to run.",
-            "The model provides a scalable and efficient approach for clinical AI evaluation."
-          ]
-        },
-        "fr": {
-          "title": "Modèles de langage de décision comme juges cliniques abordables",
-          "summary": "Cette étude évalue Jev, un modèle de langage de décision fournissant des jugements structurés, comme alternative plus rapide et économique aux grands modèles de langage pour évaluer l'intelligence artificielle clinique. Testé sur divers cas, Jev égale ou dépasse de nombreux juges LLM tout en réduisant les coûts de 73 à 294 fois.",
-          "keyPoints": [
-            "Jev égale ou surpasse la performance de 7 juges LLM sur 12 pour des réponses pédiatriques.",
-            "Les juges de pointe coûtent 73 à 294 fois plus cher que Jev et prennent 7 à 57 fois plus de temps.",
-            "Le modèle offre une approche évolutive et efficace pour l'évaluation clinique de l'IA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-15be2ff317bed2",
-      "title": "Sketch2Sim: Framework for Hand-Drawn Circuit Analysis",
-      "summary": "Sketch2Sim is an end-to-end framework that converts raw photographs of hand-drawn RLC electric circuits into executable SPICE-compatible netlists to compute nodal voltages and currents. Using YOLO detectors, a CRNN with CTC for text extraction, and image processing tools, the system offers a robust educational and professional tool across various handwriting styles and conditions.",
-      "keyPoints": [
-        "Converts hand-drawn circuit diagrams into executable SPICE-compatible netlists automatically.",
-        "Employs a pipeline combining YOLO detectors, CRNN for OCR, and image processing.",
-        "Tested on a curated dataset of 1,000 hand-drawn RLC circuits to aid students and engineers."
+        "Introduces PerMIT to secure persistent memory for LLM agents",
+        "Features integrity theorems machine-checked in Lean 4",
+        "Demonstrates zero observed attack success on Trojan Hippo in simulations"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28836",
+      "sourceUrl": "https://arxiv.org/abs/2610.28987",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Sketch2Sim: Framework for Hand-Drawn Circuit Analysis",
-          "summary": "Sketch2Sim is an end-to-end framework that converts raw photographs of hand-drawn RLC electric circuits into executable SPICE-compatible netlists to compute nodal voltages and currents. Using YOLO detectors, a CRNN with CTC for text extraction, and image processing tools, the system offers a robust educational and professional tool across various handwriting styles and conditions.",
+          "title": "PerMIT: Securing Persistent Memory for LLM Agents",
+          "summary": "PerMIT is a memory architecture with provable integrity guarantees for LLM agents, mediating untrusted environment values through a finite memory interface and machine-checked theorems.",
           "keyPoints": [
-            "Converts hand-drawn circuit diagrams into executable SPICE-compatible netlists automatically.",
-            "Employs a pipeline combining YOLO detectors, CRNN for OCR, and image processing.",
-            "Tested on a curated dataset of 1,000 hand-drawn RLC circuits to aid students and engineers."
+            "Introduces PerMIT to secure persistent memory for LLM agents",
+            "Features integrity theorems machine-checked in Lean 4",
+            "Demonstrates zero observed attack success on Trojan Hippo in simulations"
           ]
         },
         "fr": {
-          "title": "Sketch2Sim : Analyse de circuits dessinés à la main",
-          "summary": "Sketch2Sim est un cadre complet qui convertit des photographies de circuits électriques dessinés à la main en netlists compatibles SPICE pour calculer tensions et courants. Utilisant des détecteurs YOLO, un réseau CRNN et le traitement d'images, le système offre un outil pédagogique et professionnel robuste.",
+          "title": "PerMIT : Sécuriser la mémoire persistante des agents LLM",
+          "summary": "PerMIT est une architecture de mémoire avec des garanties d'intégrité prouvables pour les agents LLM, médiatisant les valeurs non fiables via une interface et des théorèmes vérifiés.",
           "keyPoints": [
-            "Convertit automatiquement des schémas de circuits manuscrits en netlists compatibles SPICE.",
-            "Utilise un pipeline combinant des détecteurs YOLO, la reconnaissance optique CRNN et le traitement d'images.",
-            "Testé sur un ensemble de 1 000 circuits RLC dessinés à la main pour aider étudiants et ingénieurs."
+            "Introduit PerMIT pour sécuriser la mémoire persistante des agents LLM",
+            "Intègre des théorèmes d'intégrité vérifiés sur machine en Lean 4",
+            "Démontre un succès d'attaque nul sur Trojan Hippo lors de simulations"
           ]
         }
       },
@@ -470,114 +197,36 @@
       }
     },
     {
-      "id": "feed-87880261304ab6",
-      "title": "Speedrunning Relational Foundation Model Pretraining",
-      "summary": "The authors introduce modded-nanoRT, a leaderboard designed to decentralize relational foundation model pretraining using a single GPU. By fixing database calibration and applying typed trilinear attention alongside Muon and SIGReg, their recipe hits quality targets in 305.63 seconds on an NVIDIA H200, achieving an 8.11x speedup over reference implementations.",
+      "id": "feed-a6442d2eaa69af",
+      "title": "AgentPolicyForge: Framework for Tool Policy Enforcement",
+      "summary": "AgentPolicyForge uses executable environments to construct policy benchmarks and iteratively train adaptive policy guards for customized LLM agent deployments.",
       "keyPoints": [
-        "Introduces modded-nanoRT as the first speedrun leaderboard for Relational Transformers.",
-        "Achieves a training target in 305.63 seconds on a single NVIDIA H200 GPU.",
-        "Delivers an 8.11x speedup compared to the reference implementation."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28855",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Speedrunning Relational Foundation Model Pretraining",
-          "summary": "The authors introduce modded-nanoRT, a leaderboard designed to decentralize relational foundation model pretraining using a single GPU. By fixing database calibration and applying typed trilinear attention alongside Muon and SIGReg, their recipe hits quality targets in 305.63 seconds on an NVIDIA H200, achieving an 8.11x speedup over reference implementations.",
-          "keyPoints": [
-            "Introduces modded-nanoRT as the first speedrun leaderboard for Relational Transformers.",
-            "Achieves a training target in 305.63 seconds on a single NVIDIA H200 GPU.",
-            "Delivers an 8.11x speedup compared to the reference implementation."
-          ]
-        },
-        "fr": {
-          "title": "Accélération du pré-entraînement de modèles relationnels",
-          "summary": "Les auteurs présentent modded-nanoRT, un classement visant à décentraliser le pré-entraînement de modèles relationnels de fondation sur un seul GPU. En appliquant une attention trilinéaire typée et d'autres optimisations, leur recette atteint la cible en 305,63 secondes sur un NVIDIA H200, soit 8,11 fois plus vite.",
-          "keyPoints": [
-            "Introduit modded-nanoRT comme premier classement de vitesse pour les transformateurs relationnels.",
-            "Atteint la cible d'entraînement en 305,63 secondes sur un seul GPU NVIDIA H200.",
-            "Fournit une accélération de 8,11 fois par rapport à l'implémentation de référence."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9050b7c4e37f6f",
-      "title": "To Manipulate or Not: Opinion Dynamics in LLM Interactions",
-      "summary": "This paper examines opinion dynamics in controlled LLM-to-LLM debates about climate-change attribution using models like GPT-6 Luna and Gemini 2.5 Flash Lite. The findings show that same-model interactions narrow opinion gaps while cross-model interactions widen them, and explicit instructions to persuade do not reliably increase conversational influence.",
-      "keyPoints": [
-        "Introduces a controlled LLM-LLM debate framework to study persuasion and opinion dynamics.",
-        "Demonstrates that same-model interactions narrow opinion gaps, whereas cross-model interactions widen them.",
-        "Finds that explicit instructions to persuade do not consistently boost a model's influence."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28875",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "To Manipulate or Not: Opinion Dynamics in LLM Interactions",
-          "summary": "This paper examines opinion dynamics in controlled LLM-to-LLM debates about climate-change attribution using models like GPT-6 Luna and Gemini 2.5 Flash Lite. The findings show that same-model interactions narrow opinion gaps while cross-model interactions widen them, and explicit instructions to persuade do not reliably increase conversational influence.",
-          "keyPoints": [
-            "Introduces a controlled LLM-LLM debate framework to study persuasion and opinion dynamics.",
-            "Demonstrates that same-model interactions narrow opinion gaps, whereas cross-model interactions widen them.",
-            "Finds that explicit instructions to persuade do not consistently boost a model's influence."
-          ]
-        },
-        "fr": {
-          "title": "Manipuler ou non : dynamique des opinions dans les interactions de LLM",
-          "summary": "Cet article analyse la dynamique des opinions dans des débats contrôlés entre grands modèles de langage sur le climat. Les résultats montrent que les interactions entre modèles similaires réduisent l'écart d'opinion tandis que les interactions inter-modèles l'élargissent, et qu'une consigne de persuasion n'augmente pas systématiquement l'influence.",
-          "keyPoints": [
-            "Présente un cadre de débat LLM-LLM contrôlé pour étudier la persuasion et la dynamique des opinions.",
-            "Démontre que les interactions entre modèles identiques réduisent l'écart d'opinion, contrairement aux interactions croisées.",
-            "Constate qu'une instruction explicite de persuader n'augmente pas de manière fiable l'influence."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-cedb0cbac88c02",
-      "title": "Fig: Automated Multiagent Behavior Elicitor",
-      "summary": "Fig (Finding Interactions in Games) is an agentic system that performs targeted interventions on game environments to elicit complex multiagent behaviors such as cooperation, deception, and sabotage. Tested across six behaviors, Fig's interventions increased attempt rates by an average of 10.9% compared to control games, showing that environments can serve as programmable test beds.",
-      "keyPoints": [
-        "Fig is an agentic system that systematically intervenes in game environments to elicit target behaviors.",
-        "Evaluated on six test behaviors including cooperation, deception, betrayal, and sabotage.",
-        "Interventions increased target behavior attempt rates by an average of 10.9% over control games."
+        "Introduces AgentPolicyForge for building policy benchmarks",
+        "Creates the PolicyGym dataset across ten policy families",
+        "Achieves a 40-44% relative reduction in attack success rate compared to prompting"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28891",
+      "sourceUrl": "https://arxiv.org/abs/2610.28989",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Fig: Automated Multiagent Behavior Elicitor",
-          "summary": "Fig (Finding Interactions in Games) is an agentic system that performs targeted interventions on game environments to elicit complex multiagent behaviors such as cooperation, deception, and sabotage. Tested across six behaviors, Fig's interventions increased attempt rates by an average of 10.9% compared to control games, showing that environments can serve as programmable test beds.",
+          "title": "AgentPolicyForge: Framework for Tool Policy Enforcement",
+          "summary": "AgentPolicyForge uses executable environments to construct policy benchmarks and iteratively train adaptive policy guards for customized LLM agent deployments.",
           "keyPoints": [
-            "Fig is an agentic system that systematically intervenes in game environments to elicit target behaviors.",
-            "Evaluated on six test behaviors including cooperation, deception, betrayal, and sabotage.",
-            "Interventions increased target behavior attempt rates by an average of 10.9% over control games."
+            "Introduces AgentPolicyForge for building policy benchmarks",
+            "Creates the PolicyGym dataset across ten policy families",
+            "Achieves a 40-44% relative reduction in attack success rate compared to prompting"
           ]
         },
         "fr": {
-          "title": "Fig : Élicitateur automatisé de comportements multi-agents",
-          "summary": "Fig (Finding Interactions in Games) est un système autonome qui effectue des interventions ciblées sur des environnements de jeux pour susciter des comportements complexes comme la coopération ou la tromperie. Testé sur six comportements, Fig a augmenté les taux de tentative de 10,9 % en moyenne par rapport aux témoins.",
+          "title": "AgentPolicyForge : Cadre d'application des politiques d'outils",
+          "summary": "AgentPolicyForge utilise des environnements exécutables pour construire des benchmarks de politiques et entraîner itérativement des gardes adaptatifs pour les agents LLM.",
           "keyPoints": [
-            "Fig est un système agentique qui intervient systématiquement dans les jeux pour provoquer des comportements cibles.",
-            "Évalué sur six comportements de test incluant la coopération, la tromperie et le sabotage.",
-            "Les interventions ont augmenté les taux de tentative de comportement de 10,9 % en moyenne."
+            "Présente AgentPolicyForge pour créer des benchmarks de politiques",
+            "Génère le jeu de données PolicyGym couvrant dix familles de politiques",
+            "Réduit de 40 à 44 % le taux de succès des attaques par rapport au prompt seul"
           ]
         }
       },
@@ -587,36 +236,36 @@
       }
     },
     {
-      "id": "feed-ed9e613c992f87",
-      "title": "Hidden Messages Between Diffusion Language Model Agents",
-      "summary": "This study investigates whether diffusion language model agents can pass compact hidden messages through continuous denoising states instead of decoded text. Experiments reveal that targeted communication significantly boosts performance on multi-step tasks, demonstrating that the timing of a late information transfer can matter more than recurrent exchanges.",
+      "id": "feed-07755911b2e46d",
+      "title": "Multi-Agent Compound AI System for Radiotherapy Planning",
+      "summary": "Researchers develop an evidence-driven multi-agent compound AI system combining DRL automated planning with LLM conversational refinement for proton radiotherapy.",
       "keyPoints": [
-        "Proposes a method for diffusion language model agents to communicate via continuous denoising states.",
-        "Removals and targeted substitutions of hidden messages provide causal evidence of latent communication.",
-        "Shows that a single late information transfer can outperform multiple recurrent message exchanges."
+        "Combines DRL-based automated planning with LLM conversational refinement",
+        "Features a planning agent, chatbot, and evaluation agent",
+        "Uses post-trained Qwen3-14B to improve reasoning and constraint management"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28905",
+      "sourceUrl": "https://arxiv.org/abs/2610.29010",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Hidden Messages Between Diffusion Language Model Agents",
-          "summary": "This study investigates whether diffusion language model agents can pass compact hidden messages through continuous denoising states instead of decoded text. Experiments reveal that targeted communication significantly boosts performance on multi-step tasks, demonstrating that the timing of a late information transfer can matter more than recurrent exchanges.",
+          "title": "Multi-Agent Compound AI System for Radiotherapy Planning",
+          "summary": "Researchers develop an evidence-driven multi-agent compound AI system combining DRL automated planning with LLM conversational refinement for proton radiotherapy.",
           "keyPoints": [
-            "Proposes a method for diffusion language model agents to communicate via continuous denoising states.",
-            "Removals and targeted substitutions of hidden messages provide causal evidence of latent communication.",
-            "Shows that a single late information transfer can outperform multiple recurrent message exchanges."
+            "Combines DRL-based automated planning with LLM conversational refinement",
+            "Features a planning agent, chatbot, and evaluation agent",
+            "Uses post-trained Qwen3-14B to improve reasoning and constraint management"
           ]
         },
         "fr": {
-          "title": "Messages cachés entre agents de modèles de langage par diffusion",
-          "summary": "Cette étude examine si des agents de modèles de langage par diffusion peuvent transmettre des messages cachés compacts via des états continus de débruitage plutôt que du texte. Les expériences révèlent qu'une communication ciblée améliore considérablement les performances, démontrant que le timing d'un transfert tardif prime parfois sur des échanges répétés.",
+          "title": "Système d'IA multi-agent pour la planification de radiothérapie",
+          "summary": "Des chercheurs développent un système d'IA multi-agent combinant la planification automatisée par apprentissage par renforcement et le raffinement conversationnel par LLM pour la protonthérapie.",
           "keyPoints": [
-            "Propose une méthode permettant aux agents de communiquer via des états de débruitage continus.",
-            "La suppression et la substitution ciblée des messages fournissent des preuves causales de communication latente.",
-            "Montre qu'un seul transfert d'information tardif peut surpasser plusieurs échanges récurrents."
+            "Combine planification automatisée par RL et raffinement par LLM",
+            "Comporte un agent de planification, un chatbot et un agent d'évaluation",
+            "Utilise Qwen3-14B post-entraîné pour améliorer le raisonnement clinique"
           ]
         }
       },
@@ -626,153 +275,504 @@
       }
     },
     {
-      "id": "feed-f991937645caaa",
-      "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
-      "summary": "DiffResearch is an open multi-agent deep research framework that replaces autoregressive models with diffusion language models (dLLMs) across all stages. Across 100 benchmark tasks, the diffusion backbone proved roughly 6 times faster end-to-end, and the introduction of dFast provided a 1.99x speedup for decomposition without losing report quality.",
+      "id": "feed-ff02c0290aa26d",
+      "title": "GenXR-Bench: Benchmarking Coding Agents for XR Development",
+      "summary": "GenXR-Bench is a new benchmark for evaluating coding agents in interactive extended reality development, featuring 112 expert-authored tasks spanning features, bugs, and generation.",
       "keyPoints": [
-        "Replaces autoregressive backbones with diffusion language models in a deep research framework.",
-        "Achieves roughly 6 times faster end-to-end latency across 100 Deep Research Bench tasks.",
-        "Introduces dFast to accelerate subquery decomposition by 1.99 times without sacrificing quality."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28909",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
-          "summary": "DiffResearch is an open multi-agent deep research framework that replaces autoregressive models with diffusion language models (dLLMs) across all stages. Across 100 benchmark tasks, the diffusion backbone proved roughly 6 times faster end-to-end, and the introduction of dFast provided a 1.99x speedup for decomposition without losing report quality.",
-          "keyPoints": [
-            "Replaces autoregressive backbones with diffusion language models in a deep research framework.",
-            "Achieves roughly 6 times faster end-to-end latency across 100 Deep Research Bench tasks.",
-            "Introduces dFast to accelerate subquery decomposition by 1.99 times without sacrificing quality."
-          ]
-        },
-        "fr": {
-          "title": "DiffResearch : Accélération de la recherche approfondie par diffusion",
-          "summary": "DiffResearch est un cadre de recherche approfondie multi-agents qui remplace les modèles autorégressifs par des modèles de langage par diffusion. Sur 100 tâches de référence, le modèle s'est avéré environ 6 fois plus rapide de bout en bout, et le mode dFasT a permis d'accélérer la décomposition sans perte de qualité.",
-          "keyPoints": [
-            "Remplace les modèles autorégressifs par des modèles de langage par diffusion dans la recherche approfondie.",
-            "Atteint une latence globale environ 6 fois plus rapide sur 100 tâches du benchmark.",
-            "Introduit dFasT pour accélérer la décomposition de requêtes de 1,99 fois sans perte de qualité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7abf54d264835d",
-      "title": "Simply Logical -- The First Three Decades",
-      "summary": "This paper charts the 30-year evolution of the Prolog textbook Simply Logical from its 1994 print and diskette release to an immersive, fully interactive online edition. Written by the three original authors, the article outlines the pedagogical philosophy, web programming realizations, and authoring toolkits used to shape modern interactive educational materials.",
-      "keyPoints": [
-        "Traces the evolution of the Prolog textbook Simply Logical over three decades.",
-        "Combines the perspectives of three authors on pedagogy, web implementation, and authoring tools.",
-        "Explores future opportunities for interactive Prolog teaching and educational web technologies."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28912",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Simply Logical -- The First Three Decades",
-          "summary": "This paper charts the 30-year evolution of the Prolog textbook Simply Logical from its 1994 print and diskette release to an immersive, fully interactive online edition. Written by the three original authors, the article outlines the pedagogical philosophy, web programming realizations, and authoring toolkits used to shape modern interactive educational materials.",
-          "keyPoints": [
-            "Traces the evolution of the Prolog textbook Simply Logical over three decades.",
-            "Combines the perspectives of three authors on pedagogy, web implementation, and authoring tools.",
-            "Explores future opportunities for interactive Prolog teaching and educational web technologies."
-          ]
-        },
-        "fr": {
-          "title": "Simply Logical -- Les trois premières décennies",
-          "summary": "Cet article retrace l'évolution sur 30 ans du manuel de Prolog Simply Logical, de sa version imprimée avec disquette en 1994 à une édition en ligne entièrement interactive. Rédigé par les trois auteurs, il expose la philosophie pédagogique, les réalisations web et les outils de création pour l'enseignement moderne.",
-          "keyPoints": [
-            "Retrace l'évolution du manuel de Prolog Simply Logical sur trois décennies.",
-            "Combine les points de vue de trois auteurs sur la pédagogie, l'implémentation web et les outils.",
-            "Explore les opportunités futures pour l'enseignement interactif de Prolog et les technologies web."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c33cf34840ad57",
-      "title": "D-Skill: Distilling Teacher Knowledge through Agent Skills",
-      "summary": "D-Skill is a framework that distills black-box teacher capabilities into interpretable natural-language skills by analyzing paired interaction traces without updating model weights. Across multiple benchmarks, D-Skill closes 75%-95% of the teacher-student performance gap, outperforming one-epoch supervised fine-tuning while reducing inference costs by 5.7x to 8.3x.",
-      "keyPoints": [
-        "Distills teacher model knowledge into natural-language skills without modifying student weights.",
-        "Closes 75% to 95% of the performance gap between teacher and student across multiple benchmarks.",
-        "Achieves 5.7x to 8.3x lower inference costs per task compared to the teacher model."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28914",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "D-Skill: Distilling Teacher Knowledge through Agent Skills",
-          "summary": "D-Skill is a framework that distills black-box teacher capabilities into interpretable natural-language skills by analyzing paired interaction traces without updating model weights. Across multiple benchmarks, D-Skill closes 75%-95% of the teacher-student performance gap, outperforming one-epoch supervised fine-tuning while reducing inference costs by 5.7x to 8.3x.",
-          "keyPoints": [
-            "Distills teacher model knowledge into natural-language skills without modifying student weights.",
-            "Closes 75% to 95% of the performance gap between teacher and student across multiple benchmarks.",
-            "Achieves 5.7x to 8.3x lower inference costs per task compared to the teacher model."
-          ]
-        },
-        "fr": {
-          "title": "D-Skill : Distillation des connaissances par compétences d'agent",
-          "summary": "D-Skill est un cadre qui distille les capacités d'un modèle enseignant en compétences textuelles interprétables en analysant des traces d'interaction, sans modifier les poids du modèle. Sur plusieurs benchmarks, D-Skill comble 75 % à 5 % de l'écart de performance tout en réduisant les coûts d'inférence de 5,7 à 8,3 fois.",
-          "keyPoints": [
-            "Distille les connaissances d'un modèle enseignant en compétences en langage naturel sans modifier les poids.",
-            "Comble 75 % à 95 % de l'écart de performance entre l'enseignant et l'élève sur plusieurs benchmarks.",
-            "Réduit les coûts d'inférence par tâche de 5,7 à 8,3 fois par rapport au modèle enseignant."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c3015f7c250cd7",
-      "title": "Back Up Before You Regret: Backup Awareness in Coding Agents",
-      "summary": "To address coding agents modifying state without preserving necessary artifacts, the authors introduce RegretBench, a benchmark of 205 tasks based on real-world regret moments. They propose BackUpper, a plugin backup layer that checks tool calls and preserves state prior to modification, achieving high recovery similarity at a minimal cost of $0.014 per task.",
-      "keyPoints": [
-        "Introduces RegretBench to measure backup awareness and regret moments in autonomous coding agents.",
-        "Proposes BackUpper, a lightweight plugin layer that automatically backs up modified states.",
-        "BackUpper achieves high state restoration similarity at a cost of only $0.014 per task."
+        "First benchmark for end-to-end evaluation of coding agents in XR",
+        "Contains 112 expert-authored tasks for feature, bug repair, and generation",
+        "Finds top model configuration achieves only 50.9% overall Pass@1"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28934",
+      "sourceUrl": "https://arxiv.org/abs/2610.29014",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Back Up Before You Regret: Backup Awareness in Coding Agents",
-          "summary": "To address coding agents modifying state without preserving necessary artifacts, the authors introduce RegretBench, a benchmark of 205 tasks based on real-world regret moments. They propose BackUpper, a plugin backup layer that checks tool calls and preserves state prior to modification, achieving high recovery similarity at a minimal cost of $0.014 per task.",
+          "title": "GenXR-Bench: Benchmarking Coding Agents for XR Development",
+          "summary": "GenXR-Bench is a new benchmark for evaluating coding agents in interactive extended reality development, featuring 112 expert-authored tasks spanning features, bugs, and generation.",
           "keyPoints": [
-            "Introduces RegretBench to measure backup awareness and regret moments in autonomous coding agents.",
-            "Proposes BackUpper, a lightweight plugin layer that automatically backs up modified states.",
-            "BackUpper achieves high state restoration similarity at a cost of only $0.014 per task."
+            "First benchmark for end-to-end evaluation of coding agents in XR",
+            "Contains 112 expert-authored tasks for feature, bug repair, and generation",
+            "Finds top model configuration achieves only 50.9% overall Pass@1"
           ]
         },
         "fr": {
-          "title": "Sauvegarder avant de regretter : la conscience des sauvegardes",
-          "summary": "Pour contrer le manque de précaution des agents de codage modifiant des environnements sans préserver l'état initial, les auteurs présentent RegretBench, un benchmark de 205 tâches. Ils proposent BackUpper, un module de sauvegarde automatique qui vérifie les appels d'outils et préserve l'état avant modification pour un coût minime de 0,014 $ par tâche.",
+          "title": "GenXR-Bench : Évaluation des agents de codage pour la réalité étendue",
+          "summary": "GenXR-Bench est un nouveau benchmark pour évaluer les agents de codage dans le développement interactif de réalité étendue, avec 112 tâches validées par des experts.",
           "keyPoints": [
-            "Introduit RegretBench pour mesurer la conscience des sauvegardes dans les agents de codage autonomes.",
-            "Propose BackUpper, un module léger qui sauvegarde automatiquement les états modifiés.",
-            "BackUpper restaure les états avec une haute similarité pour un coût de seulement 0,014 $ par tâche."
+            "Premier benchmark d'évaluation de bout en bout pour agents de codage en XR",
+            "Contient 112 tâches d'experts en fonctionnalités, corrections et génération",
+            "Montre que le meilleur modèle atteint seulement 50,9 % de réussite Pass@1"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4db8131df544b5",
+      "title": "Inheritance as an Admission Test for Prompt Merge Operators",
+      "summary": "This study proposes an admission test for LLM prompt merge operators based on inheritance and population scoring, evaluating methods like tactic append and free rewrite.",
+      "keyPoints": [
+        "Proposes an admission test based on population inheritance scoring",
+        "Tests merge operators including tactic append and free rewrite",
+        "Finds tactic-append runs beat the best generation-zero member"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29023",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Inheritance as an Admission Test for Prompt Merge Operators",
+          "summary": "This study proposes an admission test for LLM prompt merge operators based on inheritance and population scoring, evaluating methods like tactic append and free rewrite.",
+          "keyPoints": [
+            "Proposes an admission test based on population inheritance scoring",
+            "Tests merge operators including tactic append and free rewrite",
+            "Finds tactic-append runs beat the best generation-zero member"
+          ]
+        },
+        "fr": {
+          "title": "L'héritage comme test d'admission pour les opérateurs de fusion de prompts",
+          "summary": "Cette étude propose un test d'admission pour les opérateurs de fusion de prompts de LLM basé sur l'héritage et l'évaluation par population, testant diverses méthodes de fusion.",
+          "keyPoints": [
+            "Propose un test d'admission basé sur le score d'héritage de population",
+            "Évalue des opérateurs de fusion comme l'ajout de tactiques et la réécriture",
+            "Montre que l'ajout de tactiques surpasse les meilleurs membres de la génération zéro"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-30c10e5d8ae6fc",
+      "title": "GRAIL: From Saliency to Semantics in Time-Series Explanation",
+      "summary": "GRAIL is a region-based time-series explanation framework that uses domain-specific intervals and on-manifold conditional generators to produce faithful model explanations.",
+      "keyPoints": [
+        "Introduces GRAIL for region-based time-series explanation",
+        "Uses domain-specific intervals like ECG beats as semantic players",
+        "Employs on-manifold conditional generators for counterfactual baselines"
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29036",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "GRAIL: From Saliency to Semantics in Time-Series Explanation",
+          "summary": "GRAIL is a region-based time-series explanation framework that uses domain-specific intervals and on-manifold conditional generators to produce faithful model explanations.",
+          "keyPoints": [
+            "Introduces GRAIL for region-based time-series explanation",
+            "Uses domain-specific intervals like ECG beats as semantic players",
+            "Employs on-manifold conditional generators for counterfactual baselines"
+          ]
+        },
+        "fr": {
+          "title": "GRAIL : De la saillance à la sémantique dans l'explication de séries temporelles",
+          "summary": "GRAIL est un cadre d'explication de séries temporelles basé sur des régions qui utilise des intervalles spécifiques au domaine pour produire des explications de modèles fidèles.",
+          "keyPoints": [
+            "Introduit GRAIL pour l'explication de séries temporelles par région",
+            "Utilise des intervalles spécifiques au domaine comme les battements ECG",
+            "Emploie des générateurs conditionnels pour des bases contrefactuelles"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-dccae9368aa116",
+      "title": "AutoFraming: Synthesizing Dynamic Frames of C Code with LLMs",
+      "summary": "This paper proposes an LLM-based approach for synthesizing ACSL frame specifications alongside functional contracts from C code by analyzing code property graphs. Tested on 84 ACSL-compliant functions from real-world systems, the method successfully synthesizes error-free frame specifications for 92.9% of functions, marking a 179% relative improvement over state-of-the-art techniques.",
+      "keyPoints": [
+        "Analyzes code property graphs to extract frame-relevant information for LLM guidance.",
+        "Achieves a 92.9% success rate on a benchmark of 84 real-world functions.",
+        "Improves generation performance by up to 61.9% when integrated into existing frameworks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29046",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AutoFraming: Synthesizing Dynamic Frames of C Code with LLMs",
+          "summary": "This paper proposes an LLM-based approach for synthesizing ACSL frame specifications alongside functional contracts from C code by analyzing code property graphs. Tested on 84 ACSL-compliant functions from real-world systems, the method successfully synthesizes error-free frame specifications for 92.9% of functions, marking a 179% relative improvement over state-of-the-art techniques.",
+          "keyPoints": [
+            "Analyzes code property graphs to extract frame-relevant information for LLM guidance.",
+            "Achieves a 92.9% success rate on a benchmark of 84 real-world functions.",
+            "Improves generation performance by up to 61.9% when integrated into existing frameworks."
+          ]
+        },
+        "fr": {
+          "title": "AutoFraming : synthèse de cadres dynamiques de code C avec des LLM",
+          "summary": "Cet article propose une approche basée sur les LLM pour synthétiser des spécifications de cadres ACSL et des contrats fonctionnels à partir de code C en analysant les graphes de propriétés du code. Testée sur 84 fonctions conformes à ACSL, la méthode réussit à synthétiser des spécifications sans erreur pour 92,9 % d'entre elles, soit une amélioration relative de 179 %.",
+          "keyPoints": [
+            "Analyse les graphes de propriétés du code pour guider efficacement le LLM.",
+            "Atteint un taux de réussite de 92,9 % sur un banc d'essai de 84 fonctions réelles.",
+            "Améliore les performances de génération jusqu'à 61,9 % dans les cadres existants."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cb8fedecbe8959",
+      "title": "Order Effects and Instance Bias in LLM Multi-Instance Processing",
+      "summary": "This study evaluates fifteen LLMs across five datasets to investigate order sensitivity in multi-instance processing tasks. The findings reveal substantial accuracy differences of up to 90 percentage points depending on instance order patterns, demonstrating that input arrangements can systematically bias aggregated predictions.",
+      "keyPoints": [
+        "Evaluates 15 LLMs across 5 datasets and 7 instance order patterns.",
+        "Finds accuracy variations of about 90 percentage points between order extremes.",
+        "Shows models perform better when majority-label instances appear at the start."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29057",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Order Effects and Instance Bias in LLM Multi-Instance Processing",
+          "summary": "This study evaluates fifteen LLMs across five datasets to investigate order sensitivity in multi-instance processing tasks. The findings reveal substantial accuracy differences of up to 90 percentage points depending on instance order patterns, demonstrating that input arrangements can systematically bias aggregated predictions.",
+          "keyPoints": [
+            "Evaluates 15 LLMs across 5 datasets and 7 instance order patterns.",
+            "Finds accuracy variations of about 90 percentage points between order extremes.",
+            "Shows models perform better when majority-label instances appear at the start."
+          ]
+        },
+        "fr": {
+          "title": "Effets d'ordre et biais d'instance dans le traitement multi-instance des LLM",
+          "summary": "Cette étude évalue quinze LLM sur cinq jeux de données pour analyser la sensibilité à l'ordre dans les tâches de traitement multi-instance. Les résultats révèlent des variations d'exactitude allant jusqu'à 90 points de pourcentage selon l'ordre des instances, montrant que la disposition des entrées biaise les prédictions.",
+          "keyPoints": [
+            "Évalue 15 LLM sur 5 jeux de données et 7 motifs d'ordre d'instance.",
+            "Met en évidence des écarts d'exactitude d'environ 90 points de pourcentage.",
+            "Montre que les modèles réussissent mieux quand les instances majoritaires sont au début."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2ec9c99b923244",
+      "title": "Context-Augmented, Session-Calibrated Blood Pressure Tracking from PPG",
+      "summary": "This research distinguishes the contributions of acquisition context and photoplethysmography (PPG) to session-calibrated blood pressure tracking across 653 AuroraBP participants. The original wearable-state model achieved mean absolute errors of 7.697/6.139 mmHg for systolic and diastolic blood pressure, with added context yielding modest error reductions.",
+      "keyPoints": [
+        "Evaluates blood pressure tracking using data from 653 AuroraBP participants.",
+        "Achieves participant-level mean absolute errors of 7.697/6.139 mmHg for SBP/DBP.",
+        "Shows that added context and sensor history provide small performance improvements."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29091",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Context-Augmented, Session-Calibrated Blood Pressure Tracking from PPG",
+          "summary": "This research distinguishes the contributions of acquisition context and photoplethysmography (PPG) to session-calibrated blood pressure tracking across 653 AuroraBP participants. The original wearable-state model achieved mean absolute errors of 7.697/6.139 mmHg for systolic and diastolic blood pressure, with added context yielding modest error reductions.",
+          "keyPoints": [
+            "Evaluates blood pressure tracking using data from 653 AuroraBP participants.",
+            "Achieves participant-level mean absolute errors of 7.697/6.139 mmHg for SBP/DBP.",
+            "Shows that added context and sensor history provide small performance improvements."
+          ]
+        },
+        "fr": {
+          "title": "Suivi de la pression artérielle calibré par session et augmenté du contexte via PPG",
+          "summary": "Cette recherche analyse les contributions du contexte d'acquisition et de la photopléthysmographie (PPG) au suivi de la pression artérielle calibré sur 653 participants AuroraBP. Le modèle initial atteint des erreurs absolues moyennes de 7,697/6,139 mmHg pour la pression systolique et diastolique.",
+          "keyPoints": [
+            "Évalue le suivi de la pression artérielle auprès de 653 participants de l'étude AuroraBP.",
+            "Atteint des erreurs absolues moyennes de 7,697/6,139 mmHg pour la PA systolique/diastolique.",
+            "Démontre que le contexte et l'historique des capteurs apportent de faibles améliorations."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-63a341fd8a6543",
+      "title": "Trace-Level Divergence in Multilingual Large Language Models",
+      "summary": "Standard evaluations of multilingual LLMs often measure only final-answer agreement rather than supporting evidence across languages. Introducing a trace-level divergence framework across seven languages and six frontier LLMs, the authors find that standard holistic cosine similarity systematically overstates cross-lingual consistency.",
+      "keyPoints": [
+        "Proposes a trace-level divergence framework decomposing structural and holistic similarity.",
+        "Tests across 3 reasoning benchmarks, 7 languages, and 6 frontier LLMs.",
+        "Shows holistic embedding comparisons overstate cross-lingual agreement significantly."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29092",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Trace-Level Divergence in Multilingual Large Language Models",
+          "summary": "Standard evaluations of multilingual LLMs often measure only final-answer agreement rather than supporting evidence across languages. Introducing a trace-level divergence framework across seven languages and six frontier LLMs, the authors find that standard holistic cosine similarity systematically overstates cross-lingual consistency.",
+          "keyPoints": [
+            "Proposes a trace-level divergence framework decomposing structural and holistic similarity.",
+            "Tests across 3 reasoning benchmarks, 7 languages, and 6 frontier LLMs.",
+            "Shows holistic embedding comparisons overstate cross-lingual agreement significantly."
+          ]
+        },
+        "fr": {
+          "title": "Divergence au niveau des traces dans les grands modèles de langue multilingues",
+          "summary": "Les évaluations standard des LLM multilingues mesurent souvent la réponse finale plutôt que les preuves sous-jacentes. En introduisant un cadre de divergence au niveau des traces sur sept langues et six LLM de pointe, les auteurs montrent que la similarité cosmique globale surestime la cohérence.",
+          "keyPoints": [
+            "Propose un cadre de divergence décomposant la similarité structurelle et globale.",
+            "Évalué sur 3 bancs d'essai de raisonnement, 7 langues et 6 LLM de pointe.",
+            "Montre que les comparaisons globales standard surestiment l'accord interlingue."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cbb7fb1851d2fd",
+      "title": "GRAM: Group-wise Rank-Aware Model Merging via Subspace Alignment",
+      "summary": "To prevent subspace interference during multi-task model merging, this paper proposes Group-wise Rank-Aware Model Merging (GRAM). By leveraging the principal-angle geometry of task vectors to group compatible tasks, GRAM significantly mitigates interference and outperforms prior merging methods across language understanding, vision, and medical benchmarks.",
+      "keyPoints": [
+        "Addresses subspace interference caused by projecting misaligned task updates.",
+        "Introduces GRAM to group geometrically compatible tasks via principal-angle geometry.",
+        "Demonstrates consistent performance improvements across GLUE, CLIP, and medical instruction tuning."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29110",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "GRAM: Group-wise Rank-Aware Model Merging via Subspace Alignment",
+          "summary": "To prevent subspace interference during multi-task model merging, this paper proposes Group-wise Rank-Aware Model Merging (GRAM). By leveraging the principal-angle geometry of task vectors to group compatible tasks, GRAM significantly mitigates interference and outperforms prior merging methods across language understanding, vision, and medical benchmarks.",
+          "keyPoints": [
+            "Addresses subspace interference caused by projecting misaligned task updates.",
+            "Introduces GRAM to group geometrically compatible tasks via principal-angle geometry.",
+            "Demonstrates consistent performance improvements across GLUE, CLIP, and medical instruction tuning."
+          ]
+        },
+        "fr": {
+          "title": "GRAM : Fusion de modèles par groupe avec conscience du rang via l'alignement de sous-espaces",
+          "summary": "Pour éviter les interférences lors de la fusion de modèles multi-tâches, cet article propose GRAM (Group-wise Rank-Aware Model Merging). En exploitant la géométrie des vecteurs de tâches pour regrouper les tâches compatibles, GRAM surpasse les méthodes de fusion précédentes sur divers bancs d'essai.",
+          "keyPoints": [
+            "Traite l'interférence de sous-espaces causée par la projection de mises à jour non alignées.",
+            "Introduit GRAM pour regrouper les tâches géométriquement compatibles.",
+            "Démontre des améliorations de performance sur GLUE, CLIP et le réglage médical."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2017be142f7edd",
+      "title": "Recursive Self-Improvement on a Budget: Scoring Code Edits Before Running",
+      "summary": "This paper explores how coding agents can score proposed code edits prior to execution during recursive self-improvement. Using linear readouts on parent solve rates and diff coordinates, tests with GPT-4o and Claude Sonnet 4.5 demonstrate improved held-out performance on benchmarks like HumanEval+ and Polyglot compared to ablations.",
+      "keyPoints": [
+        "Evaluates scoring mechanisms for code edits before execution in coding agents.",
+        "Employs linear readouts on parent solve rates and proposed diff coordinates.",
+        "GPT-4o runs achieve 87.0% on held-out HumanEval+ using the proposed selection approach."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29121",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Recursive Self-Improvement on a Budget: Scoring Code Edits Before Running",
+          "summary": "This paper explores how coding agents can score proposed code edits prior to execution during recursive self-improvement. Using linear readouts on parent solve rates and diff coordinates, tests with GPT-4o and Claude Sonnet 4.5 demonstrate improved held-out performance on benchmarks like HumanEval+ and Polyglot compared to ablations.",
+          "keyPoints": [
+            "Evaluates scoring mechanisms for code edits before execution in coding agents.",
+            "Employs linear readouts on parent solve rates and proposed diff coordinates.",
+            "GPT-4o runs achieve 87.0% on held-out HumanEval+ using the proposed selection approach."
+          ]
+        },
+        "fr": {
+          "title": "Auto-amélioration récursive à budget restreint : noter les modifications de code avant exécution",
+          "summary": "Cet article explore la manière dont les agents de codage peuvent noter des modifications de code proposées avant leur exécution. En utilisant des lectures linéaires sur les taux de résolution et les coordonnées de différences, les tests menés avec GPT-4o et Claude Sonnet 4.5 améliorent les performances sur HumanEval+ et Polyglot.",
+          "keyPoints": [
+            "Évalue des mécanismes de notation pour les modifications de code avant exécution.",
+            "Utilise des lectures linéaires sur les taux de résolution et les coordonnées de diff.",
+            "Les exécutions de GPT-4o atteignent 87,0 % sur HumanEval+ avec l'approche proposée."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8ae5cfb1a46e38",
+      "title": "StochIKM: Automated IPD Reconstruction from Kaplan-Meier Curves",
+      "summary": "To address the scarcity of individual patient data (IPD) for time-to-event evidence, the authors propose StochIKM, a stochastic algorithm that digitizes published Kaplan-Meier curves using a vision-language model. By enforcing strict constraints based on risk tables and image resolution, StochIKM accurately reproduces published oncology trial data.",
+      "keyPoints": [
+        "Defines explicit fidelity constraints to ensure reconstructed datasets are admissible.",
+        "Utilizes a vision-capable language model to automate curve digitization.",
+        "Outperforms existing high-impact alternatives across 79 arms from oncology trials."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29122",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "StochIKM: Automated IPD Reconstruction from Kaplan-Meier Curves",
+          "summary": "To address the scarcity of individual patient data (IPD) for time-to-event evidence, the authors propose StochIKM, a stochastic algorithm that digitizes published Kaplan-Meier curves using a vision-language model. By enforcing strict constraints based on risk tables and image resolution, StochIKM accurately reproduces published oncology trial data.",
+          "keyPoints": [
+            "Defines explicit fidelity constraints to ensure reconstructed datasets are admissible.",
+            "Utilizes a vision-capable language model to automate curve digitization.",
+            "Outperforms existing high-impact alternatives across 79 arms from oncology trials."
+          ]
+        },
+        "fr": {
+          "title": "StochIKM : Reconstruction automatisée de données de patients à partir de courbes de Kaplan-Meier",
+          "summary": "Pour remédier à la rareté des données individuelles de patients, les auteurs proposent StochIKM, un algorithme stochastique qui numérise les courbes de Kaplan-Meier à l'aide d'un modèle multimodal. En appliquant des contraintes strictes, StochIKM reproduit fidèlement les données d'essais oncologiques.",
+          "keyPoints": [
+            "Définit des contraintes de fidélité explicites pour garantir des jeux de données admissibles.",
+            "Utilise un modèle de langage visuel pour automatiser la numérisation des courbes.",
+            "Surpasse les alternatives existantes sur 79 bras d'essais cliniques en oncologie."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-84ff67f6a714b9",
+      "title": "NormTune: Norm-Guided Parameter-Efficient Fine-Tuning for Reasoning Tasks",
+      "summary": "Parameter-efficient fine-tuning (PEFT) often underperforms full fine-tuning on reasoning-intensive tasks due to norm-related under-adaptation. To solve this, the authors introduce NormTune, a strategy that adaptively strengthens insufficiently updated layers based on weight-update norms, achieving performance comparable to full fine-tuning.",
+      "keyPoints": [
+        "Identifies norm-related under-adaptation as a cause of the PEFT reasoning performance gap.",
+        "Introduces NormTune to adaptively strengthen layers based on weight-update norms.",
+        "Delivers substantial accuracy gains across challenging benchmarks like AIME and MATH 500."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29134",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "NormTune: Norm-Guided Parameter-Efficient Fine-Tuning for Reasoning Tasks",
+          "summary": "Parameter-efficient fine-tuning (PEFT) often underperforms full fine-tuning on reasoning-intensive tasks due to norm-related under-adaptation. To solve this, the authors introduce NormTune, a strategy that adaptively strengthens insufficiently updated layers based on weight-update norms, achieving performance comparable to full fine-tuning.",
+          "keyPoints": [
+            "Identifies norm-related under-adaptation as a cause of the PEFT reasoning performance gap.",
+            "Introduces NormTune to adaptively strengthen layers based on weight-update norms.",
+            "Delivers substantial accuracy gains across challenging benchmarks like AIME and MATH 500."
+          ]
+        },
+        "fr": {
+          "title": "NormTune : Réglage fin efficace guidé par la norme pour les tâches de raisonnement",
+          "summary": "Le réglage fin paramétriquement efficace (PEFT) sous-performe souvent par rapport au réglage complet sur les tâches de raisonnement en raison d'une sous-adaptation liée aux normes. Pour y remédier, les auteurs présentent NormTune, une stratégie qui renforce les couches selon leurs normes de mise à jour.",
+          "keyPoints": [
+            "Identifie la sous-adaptation liée aux normes comme cause de l'écart de performance du PEFT.",
+            "Introduit NormTune pour renforcer de manière adaptative les couches insuffisamment mises à jour.",
+            "Offre des gains de précision substantiels sur des bancs d'essai exigeants comme AIME et MATH."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-999578327a07cb",
+      "title": "LaVGuard: Selective Decoding for Contextual Value Drift",
+      "summary": "Addressing contextual value drift where content-safe responses conflict with task priorities, the authors introduce LaVGuard. This selective decoding method separates an authorized profile from visible prefixes, using a density gate and signed progress to constrain logit tilts under strict budget bounds.",
+      "keyPoints": [
+        "Formulates contextual value drift as a task-relative decoding problem.",
+        "Employs a profile-relative density gate and signed progress to constrain logit tilts.",
+        "Raises boundary TPR at 5% FPR from .58 to .72 while maintaining explicit budget controls."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29135",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LaVGuard: Selective Decoding for Contextual Value Drift",
+          "summary": "Addressing contextual value drift where content-safe responses conflict with task priorities, the authors introduce LaVGuard. This selective decoding method separates an authorized profile from visible prefixes, using a density gate and signed progress to constrain logit tilts under strict budget bounds.",
+          "keyPoints": [
+            "Formulates contextual value drift as a task-relative decoding problem.",
+            "Employs a profile-relative density gate and signed progress to constrain logit tilts.",
+            "Raises boundary TPR at 5% FPR from .58 to .72 while maintaining explicit budget controls."
+          ]
+        },
+        "fr": {
+          "title": "LaVGuard : Décodage sélectif pour la dérive de valeurs contextuelles",
+          "summary": "Face à la dérive de valeurs contextuelles où les réponses sûres entrent en conflit avec les priorités de la tâche, les auteurs présentent LaVGuard. Cette méthode de décodage sélectif utilise une porte de densité et des budgets stricts pour contraindre les dérives de logits.",
+          "keyPoints": [
+            "Formule la dérive des valeurs contextuelles comme un problème de décodage relatif aux tâches.",
+            "Utilise une porte de densité relative au profil pour contraindre les ajustements de logits.",
+            "Améliore le taux de vrais positifs de .58 à .72 tout en maintenant des contrôles stricts."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c36a7ebcd0bd12",
+      "title": "Steering Black-Box LLM Agents with Pitfall Anticipation World Models",
+      "summary": "To help black-box LLM agents navigate multi-step environments without internalized knowledge, the authors propose the Pitfall Anticipation World Model (PAWM). PAWM selectively intervenes when potential pitfalls arise, predicting impending failures to steer agents away; it improves Claude Sonnet 4.5 performance significantly on ScienceWorld and WebArena-Lite.",
+      "keyPoints": [
+        "Introduces PAWM to selectively predict and anticipate pitfalls in bounded multi-step futures.",
+        "Trained via supervised fine-tuning on synthetic pitfall data followed by GRPO co-training.",
+        "Improves Claude Sonnet 4.5 performance by 24.3% on ScienceWorld and 7.7% on WebArena-Lite."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.29139",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Steering Black-Box LLM Agents with Pitfall Anticipation World Models",
+          "summary": "To help black-box LLM agents navigate multi-step environments without internalized knowledge, the authors propose the Pitfall Anticipation World Model (PAWM). PAWM selectively intervenes when potential pitfalls arise, predicting impending failures to steer agents away; it improves Claude Sonnet 4.5 performance significantly on ScienceWorld and WebArena-Lite.",
+          "keyPoints": [
+            "Introduces PAWM to selectively predict and anticipate pitfalls in bounded multi-step futures.",
+            "Trained via supervised fine-tuning on synthetic pitfall data followed by GRPO co-training.",
+            "Improves Claude Sonnet 4.5 performance by 24.3% on ScienceWorld and 7.7% on WebArena-Lite."
+          ]
+        },
+        "fr": {
+          "title": "Pilotage d'agents LLM en boîte noire avec des modèles du monde d'anticipation des pièges",
+          "summary": "Pour aider les agents LLM en boîte noire à naviguer dans des environnements complexes, les auteurs proposent le modèle PAWM (Pitfall Anticipation World Model). PAWM intervient sélectivement lors de l'apparition de pièges potentiels pour anticiper les échecs et améliorer les performances sur ScienceWorld et WebArena-Lite.",
+          "keyPoints": [
+            "Introduit PAWM pour anticiper sélectivement les pièges dans des environnements multi-étapes.",
+            "Entraîné par fine-tuning supervisé sur des données synthétiques et co-entraînement GRPO.",
+            "Améliore les performances de Claude Sonnet 4.5 de 24,3 % sur ScienceWorld et 7,7 % sur WebArena-Lite."
           ]
         }
       },
@@ -784,7 +784,7 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 400,
+    "itemsCollected": 403,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
