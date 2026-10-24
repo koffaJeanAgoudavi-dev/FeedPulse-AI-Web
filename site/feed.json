@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-10-23T17:11:39.421Z",
+  "generatedAt": "2026-10-24T04:39:21.537Z",
   "items": [
+    {
+      "id": "feed-f8c156dba78868",
+      "title": "Securing our frontier model training environment",
+      "summary": "OpenAI details the measures taken to strengthen containment for frontier model training and evaluation, incorporating offline environments and high-compute red-teaming.",
+      "keyPoints": [
+        "Strengthened containment for frontier model training",
+        "Implementation of offline environments",
+        "Use of high-compute red-teaming"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Securing our frontier model training environment",
+          "summary": "OpenAI details the measures taken to strengthen containment for frontier model training and evaluation, incorporating offline environments and high-compute red-teaming.",
+          "keyPoints": [
+            "Strengthened containment for frontier model training",
+            "Implementation of offline environments",
+            "Use of high-compute red-teaming"
+          ]
+        },
+        "fr": {
+          "title": "Sécurisation de notre environnement d'entraînement",
+          "summary": "OpenAI détaille les mesures prises pour renforcer le confinement lors de l'entraînement et de l'évaluation des modèles de pointe, incluant des environnements hors ligne et du red-teaming à haute puissance de calcul.",
+          "keyPoints": [
+            "Renforcement du confinement pour l'entraînement des modèles",
+            "Mise en place d'environnements hors ligne",
+            "Utilisation de red-teaming à haute puissance de calcul"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-ee4c22366ef7e7",
       "title": "Scaling Online Storage to Serve Over 1 Billion ChatGPT Users",
@@ -741,54 +780,15 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-c36a7ebcd0bd12",
-      "title": "Steering Black-Box LLM Agents with Pitfall Anticipation World Models",
-      "summary": "To help black-box LLM agents navigate multi-step environments without internalized knowledge, the authors propose the Pitfall Anticipation World Model (PAWM). PAWM selectively intervenes when potential pitfalls arise, predicting impending failures to steer agents away; it improves Claude Sonnet 4.5 performance significantly on ScienceWorld and WebArena-Lite.",
-      "keyPoints": [
-        "Introduces PAWM to selectively predict and anticipate pitfalls in bounded multi-step futures.",
-        "Trained via supervised fine-tuning on synthetic pitfall data followed by GRPO co-training.",
-        "Improves Claude Sonnet 4.5 performance by 24.3% on ScienceWorld and 7.7% on WebArena-Lite."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29139",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Steering Black-Box LLM Agents with Pitfall Anticipation World Models",
-          "summary": "To help black-box LLM agents navigate multi-step environments without internalized knowledge, the authors propose the Pitfall Anticipation World Model (PAWM). PAWM selectively intervenes when potential pitfalls arise, predicting impending failures to steer agents away; it improves Claude Sonnet 4.5 performance significantly on ScienceWorld and WebArena-Lite.",
-          "keyPoints": [
-            "Introduces PAWM to selectively predict and anticipate pitfalls in bounded multi-step futures.",
-            "Trained via supervised fine-tuning on synthetic pitfall data followed by GRPO co-training.",
-            "Improves Claude Sonnet 4.5 performance by 24.3% on ScienceWorld and 7.7% on WebArena-Lite."
-          ]
-        },
-        "fr": {
-          "title": "Pilotage d'agents LLM en boîte noire avec des modèles du monde d'anticipation des pièges",
-          "summary": "Pour aider les agents LLM en boîte noire à naviguer dans des environnements complexes, les auteurs proposent le modèle PAWM (Pitfall Anticipation World Model). PAWM intervient sélectivement lors de l'apparition de pièges potentiels pour anticiper les échecs et améliorer les performances sur ScienceWorld et WebArena-Lite.",
-          "keyPoints": [
-            "Introduit PAWM pour anticiper sélectivement les pièges dans des environnements multi-étapes.",
-            "Entraîné par fine-tuning supervisé sur des données synthétiques et co-entraînement GRPO.",
-            "Améliore les performances de Claude Sonnet 4.5 de 24,3 % sur ScienceWorld et 7,7 % sur WebArena-Lite."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 403,
+    "itemsCollected": 33,
     "itemsPublished": 20,
-    "newItems": 20,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 1,
+    "candidates": 1,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
