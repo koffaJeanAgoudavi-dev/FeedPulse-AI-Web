@@ -1,790 +1,790 @@
 {
-  "generatedAt": "2026-10-26T04:50:24.422Z",
+  "generatedAt": "2026-10-26T18:42:12.562Z",
   "items": [
     {
-      "id": "feed-5f576791a98a95",
-      "title": "Tradeoff-Aware Territory Design for Enterprise GTM Planning",
-      "summary": "This paper presents a production decision system for tradeoff-aware customer-to-seller allocation in enterprise go-to-market planning. The framework integrates a multidimensional account-value layer, an observational continuity-valuation layer using a synthetic-control-style counterfactual framework, and a multi-objective optimization layer. Historical backtesting and production planning show improved assignment compliance and opportunity balance.",
+      "id": "feed-b1d7eb2dedce58",
+      "title": "Google's New AI Quest: Mapping the Human Brain",
+      "summary": "Learn AI literacy via Google's latest AI Quests lesson on neuroscience, titled \"Polar Peaks.\"",
       "keyPoints": [
-        "Integrates account scoring, continuity valuation, and multi-objective optimization.",
-        "Uses a synthetic-control-style counterfactual framework to estimate continuity costs.",
-        "Improves assignment compliance and opportunity balance in production planning."
+        "Focuses on AI literacy learning",
+        "Part of Google's AI Quests series",
+        "Centers on a neuroscience lesson called Polar Peaks"
       ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31701",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
+      "category": "Outils",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "publishedAt": "2026-10-26T16:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.width-1300.png",
       "translations": {
         "en": {
-          "title": "Tradeoff-Aware Territory Design for Enterprise GTM Planning",
-          "summary": "This paper presents a production decision system for tradeoff-aware customer-to-seller allocation in enterprise go-to-market planning. The framework integrates a multidimensional account-value layer, an observational continuity-valuation layer using a synthetic-control-style counterfactual framework, and a multi-objective optimization layer. Historical backtesting and production planning show improved assignment compliance and opportunity balance.",
+          "title": "Google's New AI Quest: Mapping the Human Brain",
+          "summary": "Learn AI literacy via Google's latest AI Quests lesson on neuroscience, titled \"Polar Peaks.\"",
           "keyPoints": [
-            "Integrates account scoring, continuity valuation, and multi-objective optimization.",
-            "Uses a synthetic-control-style counterfactual framework to estimate continuity costs.",
-            "Improves assignment compliance and opportunity balance in production planning."
+            "Focuses on AI literacy learning",
+            "Part of Google's AI Quests series",
+            "Centers on a neuroscience lesson called Polar Peaks"
           ]
         },
         "fr": {
-          "title": "Conception de territoires sensible aux compromis pour la planification GTM",
-          "summary": "Cet article présente un système de décision de production pour l'attribution des clients aux vendeurs dans la planification GTM d'entreprise. Le cadre intègre une couche de valeur de compte multidimensionnelle, une couche d'évaluation de la continuité observationnelle et une couche d'optimisation multicritère. Les tests rétrospectifs et la production montrent une meilleure conformité des affectations.",
+          "title": "Nouvelle quête IA de Google : Cartographier le cerveau humain",
+          "summary": "Apprenez l'alphabétisation en IA grâce à la dernière leçon d'AI Quests de Google sur les neurosciences, intitulée « Polar Peaks ».",
           "keyPoints": [
-            "Intègre la notation des comptes, l'évaluation de la continuité et l'optimisation multicritère.",
-            "Utilise un cadre contrefactuel de style contrôle synthétique.",
-            "Améliore la conformité des affectations et l'équilibre des opportunités en production."
+            "Axé sur l'apprentissage de l'alphabétisation en IA",
+            "Fait partie de la série AI Quests de Google",
+            "Se concentre sur une leçon de neuroscience nommée Polar Peaks"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-bb157bb6b3d38a",
-      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-      "summary": "The authors introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to acquire, validate, and refine reusable capabilities from their own executions using a predictor-validator-corrector loop. Phronix stores distilled capabilities, significantly reducing non-determinism, improving reliability, and cutting token consumption during warm-start runs.",
+      "id": "feed-27334100e818b9",
+      "title": "ChatGPT's Expanding World of Work",
+      "summary": "Explore OpenAI Signals data covering 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "keyPoints": [
-        "Operates via a predictor-validator-corrector loop to refine reusable capabilities.",
-        "Solves recurring tasks on the first attempt in 93-95% of cases across models.",
-        "Reduces token consumption three to four times in warm-start runs compared to baselines."
+        "Analyzes data on 165 work activities",
+        "Covers nearly 100 countries globally",
+        "Examines work use cases and usage changes over time"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "publishedAt": "2026-10-26T10:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ChatGPT's Expanding World of Work",
+          "summary": "Explore OpenAI Signals data covering 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+          "keyPoints": [
+            "Analyzes data on 165 work activities",
+            "Covers nearly 100 countries globally",
+            "Examines work use cases and usage changes over time"
+          ]
+        },
+        "fr": {
+          "title": "Le monde du travail en expansion de ChatGPT",
+          "summary": "Explorez les données d'OpenAI Signals sur 165 activités professionnelles dans près de 100 pays, révélant comment les gens utilisent ChatGPT pour le travail.",
+          "keyPoints": [
+            "Analyse des données sur 165 activités professionnelles",
+            "Couvre près de 100 pays à travers le monde",
+            "Examine les cas d'usage professionnel et l'évolution de l'utilisation"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-bccce47abeed10",
+      "title": "DriveMind: Mind-Evolving Belief Tracking for Autonomous Driving",
+      "summary": "DriveMind is an MLLM-based driving framework that maintains multiple scene hypotheses simultaneously and updates their weights as new frames arrive, improving autonomous driving scores and success rates.",
+      "keyPoints": [
+        "Keeps several scene hypotheses alive at once inspired by particle filtering",
+        "Improves Driving Score from 68.50 to 81.37 on Bench2Drive",
+        "Delivers largest gains on ambiguous scenarios like unsignalized intersections"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31789",
+      "sourceUrl": "https://arxiv.org/abs/2610.32069",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-          "summary": "The authors introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to acquire, validate, and refine reusable capabilities from their own executions using a predictor-validator-corrector loop. Phronix stores distilled capabilities, significantly reducing non-determinism, improving reliability, and cutting token consumption during warm-start runs.",
+          "title": "DriveMind: Mind-Evolving Belief Tracking for Autonomous Driving",
+          "summary": "DriveMind is an MLLM-based driving framework that maintains multiple scene hypotheses simultaneously and updates their weights as new frames arrive, improving autonomous driving scores and success rates.",
           "keyPoints": [
-            "Operates via a predictor-validator-corrector loop to refine reusable capabilities.",
-            "Solves recurring tasks on the first attempt in 93-95% of cases across models.",
-            "Reduces token consumption three to four times in warm-start runs compared to baselines."
+            "Keeps several scene hypotheses alive at once inspired by particle filtering",
+            "Improves Driving Score from 68.50 to 81.37 on Bench2Drive",
+            "Delivers largest gains on ambiguous scenarios like unsignalized intersections"
           ]
         },
         "fr": {
-          "title": "Phronix : Le paradigme d'apprentissage centré sur les capacités pour agents",
-          "summary": "Les auteurs présentent Phronix, un paradigme d'apprentissage centré sur les capacités qui permet aux agents d'acquérir, de valider et de raffiner des compétences réutilisables à partir de leurs propres exécutions. Phronix utilise une boucle prédécesseur-validateur-correcteur pour stocker les capacités et réduire la consommation de jetons.",
+          "title": "DriveMind : Suivi des croyances pour la conduite autonome",
+          "summary": "DriveMind est un cadre de conduite basé sur les MLLM qui maintient plusieurs hypothèses de scène simultanément et met à jour leurs poids à l'arrivée de nouvelles images.",
           "keyPoints": [
-            "Fonctionne via une boucle de prédiction, validation et correction.",
-            "Résout les tâches récurrentes du premier coup dans 93 à 95 % des cas.",
-            "Réduit la consommation de jetons par trois ou quatre lors des exécutions à chaud."
+            "Conserve plusieurs hypothèses de scène inspirées du filtrage particulaire",
+            "Améliore le score de conduite de 68,50 à 81,37 sur Bench2Drive",
+            "Offre les plus grands gains sur les scénarios ambigus"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-8c3de05bbbcf22",
-      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-      "summary": "This paper proposes a system for the automated detection of patronizing and condescending language (PCL), a form of harmful language targeting vulnerable groups. The authors compare an approach using static word embeddings and a convolutional neural network with an approach using pre-trained BERT embeddings fine-tuned for PCL, achieving an F1 score of 0.528 over the development set with BERT.",
+      "id": "feed-7e73eebe3e9093",
+      "title": "How Fanatics and OpenAI Streamline the Fan Experience",
+      "summary": "Fanatics uses OpenAI to help fans complete game-day outfits with Shop the Look, achieving 10% higher engagement across roughly 30,000 MLB products during testing.",
       "keyPoints": [
-        "Targets the automated detection of patronizing and condescending language (PCL).",
-        "Evaluates static word embeddings with CNN versus fine-tuned BERT embeddings.",
-        "Fine-tuned BERT achieved an F1 score of 0.528 over the development set."
+        "Features Shop the Look tool powered by OpenAI",
+        "Tested across approximately 30,000 MLB products",
+        "Demonstrated a 10% increase in user engagement"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "publishedAt": "2026-10-26T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Fanatics and OpenAI Streamline the Fan Experience",
+          "summary": "Fanatics uses OpenAI to help fans complete game-day outfits with Shop the Look, achieving 10% higher engagement across roughly 30,000 MLB products during testing.",
+          "keyPoints": [
+            "Features Shop the Look tool powered by OpenAI",
+            "Tested across approximately 30,000 MLB products",
+            "Demonstrated a 10% increase in user engagement"
+          ]
+        },
+        "fr": {
+          "title": "Comment Fanatics et OpenAI simplifient l'expérience des fans",
+          "summary": "Fanatics utilise OpenAI pour aider les fans à compléter leurs tenues de match avec Shop the Look, obtenant un engagement supérieur de 10 % sur environ 30 000 produits MLB.",
+          "keyPoints": [
+            "Intègre l'outil Shop the Look alimenté par OpenAI",
+            "Testé sur environ 30 000 produits MLB",
+            "A démontré une augmentation de 10 % de l'engagement"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d42a04b577f838",
+      "title": "Behaviour Analysis for Large Language Model-Driven Agents",
+      "summary": "Researchers propose a general framework connecting data-driven behavioural discovery with analysis and experimental investigation to understand language-agent behaviour across trajectories.",
+      "keyPoints": [
+        "Connects behavioural discovery with analysis and experiments",
+        "Expresses relationships as interpretable hypotheses",
+        "Uses prompt steering and varied conditions to test agent outcomes"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32087",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Behaviour Analysis for Large Language Model-Driven Agents",
+          "summary": "Researchers propose a general framework connecting data-driven behavioural discovery with analysis and experimental investigation to understand language-agent behaviour across trajectories.",
+          "keyPoints": [
+            "Connects behavioural discovery with analysis and experiments",
+            "Expresses relationships as interpretable hypotheses",
+            "Uses prompt steering and varied conditions to test agent outcomes"
+          ]
+        },
+        "fr": {
+          "title": "Analyse du comportement pour les agents pilotés par LLM",
+          "summary": "Les chercheurs proposent un cadre général reliant la découverte comportementale guidée par les données à l'analyse et à l'investigation expérimentale.",
+          "keyPoints": [
+            "Relie la découverte comportementale à l'analyse et aux expériences",
+            "Exprime les relations sous forme d'hypothèses interprétables",
+            "Utilise le pilotage de invites pour tester les résultats des agents"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-6925ee17bfc882",
+      "title": "DELA: Learning Controllable Edits for Diffusion Language Models",
+      "summary": "DELA is a plug-in framework enabling controllable draft refinement with a frozen diffusion language model using explicit actions like Insert, Delete, Remask, and Stop.",
+      "keyPoints": [
+        "Uses a two-phase decoding procedure for efficient draft editing",
+        "Trained using a staged curriculum from local priors to downstream alignment",
+        "Achieves gains up to 5.5 percentage points over direct diffusion decoding"
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31808",
+      "sourceUrl": "https://arxiv.org/abs/2610.32096",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-          "summary": "This paper proposes a system for the automated detection of patronizing and condescending language (PCL), a form of harmful language targeting vulnerable groups. The authors compare an approach using static word embeddings and a convolutional neural network with an approach using pre-trained BERT embeddings fine-tuned for PCL, achieving an F1 score of 0.528 over the development set with BERT.",
+          "title": "DELA: Learning Controllable Edits for Diffusion Language Models",
+          "summary": "DELA is a plug-in framework enabling controllable draft refinement with a frozen diffusion language model using explicit actions like Insert, Delete, Remask, and Stop.",
           "keyPoints": [
-            "Targets the automated detection of patronizing and condescending language (PCL).",
-            "Evaluates static word embeddings with CNN versus fine-tuned BERT embeddings.",
-            "Fine-tuned BERT achieved an F1 score of 0.528 over the development set."
+            "Uses a two-phase decoding procedure for efficient draft editing",
+            "Trained using a staged curriculum from local priors to downstream alignment",
+            "Achieves gains up to 5.5 percentage points over direct diffusion decoding"
           ]
         },
         "fr": {
-          "title": "Détection du langage paternaliste et condescendant en anglais et mandarin",
-          "summary": "Cet article propose un système de détection automatisée du langage paternaliste et condescendant (PCL). Les auteurs comparent une approche utilisant des plongements de mots statiques avec un CNN à une approche utilisant des plongements BERT pré-entraînés et affinés, obtenant un score F1 de 0,528 sur l'ensemble de développement avec BERT.",
+          "title": "DELA : Apprentissage de modifications contrôlables pour les modèles de diffusion",
+          "summary": "DELA est un cadre modulaire permettant le raffinement de brouillons contrôlables avec un modèle de langage de diffusion gelé en utilisant des actions explicites.",
           "keyPoints": [
-            "Cible la détection automatisée du langage paternaliste et condescendant.",
-            "Compare des embeddings statiques avec CNN et des embeddings BERT affinés.",
-            "Le modèle BERT affiné a atteint un score F1 de 0,528 sur l'ensemble de développement."
+            "Utilise une procédure de décodage en deux phases pour l'édition efficace",
+            "Entraîné à l'aide d'un programme étagé allant des a priori locaux à l'alignement",
+            "Atteint des gains allant jusqu'à 5,5 points de pourcentage"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-d762df67a1c93f",
-      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization in Lean",
-      "summary": "The authors introduce PaperFormalizer, a Lean-based agentic pipeline that assists authors in finding and closing gaps in research papers and converting them into Lean-verified versions. Working from LaTeX source code, the pipeline transcribes papers into dependency graphs, audits statements, and proposes formalizations that the author can accept, decline, or redirect.",
+      "id": "feed-ffd0aaab352351",
+      "title": "Learning Nonlinear Waveform Fusion Across Scales for ISAC",
+      "summary": "Researchers learn nonlinear waveform fusion across scales for image transmission and multi-target localization, reducing normalized localization error significantly in integrated sensing and communication.",
       "keyPoints": [
-        "Lean-based agentic pipeline for autoformalizing research papers from LaTeX source.",
-        "Maintains an author-in-the-loop workflow to propose and verify statement repairs.",
-        "Outputs annotated revised papers, change reports, and linked Lean code."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31810",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PaperFormalizer: Author-in-the-Loop Autoformalization in Lean",
-          "summary": "The authors introduce PaperFormalizer, a Lean-based agentic pipeline that assists authors in finding and closing gaps in research papers and converting them into Lean-verified versions. Working from LaTeX source code, the pipeline transcribes papers into dependency graphs, audits statements, and proposes formalizations that the author can accept, decline, or redirect.",
-          "keyPoints": [
-            "Lean-based agentic pipeline for autoformalizing research papers from LaTeX source.",
-            "Maintains an author-in-the-loop workflow to propose and verify statement repairs.",
-            "Outputs annotated revised papers, change reports, and linked Lean code."
-          ]
-        },
-        "fr": {
-          "title": "PaperFormalizer : Auto-formalisation de documents de recherche dans Lean",
-          "summary": "Les auteurs présentent PaperFormalizer, un pipeline agentique basé sur Lean qui aide les auteurs à combler les lacunes dans leurs articles et à les convertir en versions vérifiées. À partir du code source LaTeX, le pipeline transcrit les articles en graphes de dépendances et propose des formalisations validées par l'auteur.",
-          "keyPoints": [
-            "Pipeline agentique basé sur Lean pour formaliser des articles depuis LaTeX.",
-            "Maintient un flux de travail avec l'auteur pour proposer et vérifier des corrections.",
-            "Génère des articles révisés annotés, des rapports de modification et du code Lean."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-929adda0efb128",
-      "title": "Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
-      "summary": "The authors introduce Self-Direction, a mechanism allowing AI agents to learn from mistakes by reflecting on trajectories and distilling lessons into lightweight low-rank adapters while keeping base model weights frozen. Experiments across GAIA, Claw-Eval, and Terminal-Bench 2.1 show success rate improvements of 8.9 to 17.0 percentage points and enhanced reliability.",
-      "keyPoints": [
-        "Combines in-context retries with policy updates via lightweight low-rank adapters.",
-        "Keeps original base weights frozen while training tiny parameter fractions (~0.02%).",
-        "Improves overall agent success rates by 8.9 to 17.0 percentage points across benchmarks."
+        "Combines image features and a frequency-modulated reference",
+        "Reduces normalized localization error by 29.0% and 27.0%",
+        "Increases mean peak signal-to-noise ratio by up to 1.40 dB"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31846",
+      "sourceUrl": "https://arxiv.org/abs/2610.32099",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
-          "summary": "The authors introduce Self-Direction, a mechanism allowing AI agents to learn from mistakes by reflecting on trajectories and distilling lessons into lightweight low-rank adapters while keeping base model weights frozen. Experiments across GAIA, Claw-Eval, and Terminal-Bench 2.1 show success rate improvements of 8.9 to 17.0 percentage points and enhanced reliability.",
+          "title": "Learning Nonlinear Waveform Fusion Across Scales for ISAC",
+          "summary": "Researchers learn nonlinear waveform fusion across scales for image transmission and multi-target localization, reducing normalized localization error significantly in integrated sensing and communication.",
           "keyPoints": [
-            "Combines in-context retries with policy updates via lightweight low-rank adapters.",
-            "Keeps original base weights frozen while training tiny parameter fractions (~0.02%).",
-            "Improves overall agent success rates by 8.9 to 17.0 percentage points across benchmarks."
+            "Combines image features and a frequency-modulated reference",
+            "Reduces normalized localization error by 29.0% and 27.0%",
+            "Increases mean peak signal-to-noise ratio by up to 1.40 dB"
           ]
         },
         "fr": {
-          "title": "La réparation autodirigée transforme les erreurs d'agents en leçons durables",
-          "summary": "Les auteurs présentent Self-Direction, un mécanisme permettant aux agents d'apprendre de leurs erreurs en réfléchissant sur leurs trajectoires et en distillant les leçons dans des adaptateurs légers. Des expériences sur divers benchmarks montrent des améliorations des taux de réussite de 8,9 à 17,0 points de pourcentage.",
+          "title": "Apprentissage de fusion de formes d'onde non linéaires pour les ISAC",
+          "summary": "Les chercheurs étudient la fusion de formes d'onde non linéaires pour la transmission d'images et la localisation de cibles multiples.",
           "keyPoints": [
-            "Combine des nouvelles tentatives contextuelles avec des adaptateurs de bas rang légers.",
-            "Conserve les poids du modèle de base gelés tout en entraînant de minuscules fractions.",
-            "Améliore les taux de réussite globaux de 8,9 à 17,0 points de pourcentage."
+            "Combine des caractéristiques d'image et une référence modulée en fréquence",
+            "Réduit l'erreur de localisation normalisée de 29,0 % et 27,0 %",
+            "Augmente le rapport signal/bruit de crête moyen jusqu'à 1,40 dB"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-0011f44db0acd0",
-      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF Modules",
-      "summary": "The authors present TACS-RF, a framework where an LLM coding agent directly drives EDA tools like Cadence Virtuoso and Ansys HFSS to design RF and mmWave modules. The framework was validated by designing a 240-251 GHz sub-THz transmitter in a 90 nm SiGe BiCMOS process, demonstrating automated sub-block design and performance metrics.",
+      "id": "feed-7df57fc5ebfb2f",
+      "title": "PersonaScienceBench: Evaluating Scientific Agents with Personas",
+      "summary": "PersonaScienceBench evaluates scientific agents across 200 tasks using simulated researchers with diverse persona profiles, testing collaboration alongside task completion.",
       "keyPoints": [
-        "Tool-driven agentic framework utilizing LLM coding agents to control EDA tools.",
-        "Validated via the semi-autonomous design of a 240-251 GHz sub-THz transmitter.",
-        "Achieved desired output power, tuning range, and phase noise specifications."
+        "Includes 200 tasks from five benchmarks across four domains",
+        "Uses simulated researchers to provide context and feedback",
+        "Evaluates agent collaboration and interaction traces"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31882",
+      "sourceUrl": "https://arxiv.org/abs/2610.32106",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF Modules",
-          "summary": "The authors present TACS-RF, a framework where an LLM coding agent directly drives EDA tools like Cadence Virtuoso and Ansys HFSS to design RF and mmWave modules. The framework was validated by designing a 240-251 GHz sub-THz transmitter in a 90 nm SiGe BiCMOS process, demonstrating automated sub-block design and performance metrics.",
+          "title": "PersonaScienceBench: Evaluating Scientific Agents with Personas",
+          "summary": "PersonaScienceBench evaluates scientific agents across 200 tasks using simulated researchers with diverse persona profiles, testing collaboration alongside task completion.",
           "keyPoints": [
-            "Tool-driven agentic framework utilizing LLM coding agents to control EDA tools.",
-            "Validated via the semi-autonomous design of a 240-251 GHz sub-THz transmitter.",
-            "Achieved desired output power, tuning range, and phase noise specifications."
+            "Includes 200 tasks from five benchmarks across four domains",
+            "Uses simulated researchers to provide context and feedback",
+            "Evaluates agent collaboration and interaction traces"
           ]
         },
         "fr": {
-          "title": "TACS-RF : Synthèse de circuits par agent pour modules RF et millimétriques",
-          "summary": "Les auteurs présentent TACS-RF, un cadre où un agent de codage LLM pilote directement des outils EDA pour concevoir des modules RF et millimétriques. Le cadre a été validé par la conception semi-autonome d'un émetteur sub-THz de 240-251 GHz dans un processus BiCMOS SiGe 90 nm.",
+          "title": "PersonaScienceBench : Évaluation d'agents scientifiques avec personas",
+          "summary": "PersonaScienceBench évalue les agents scientifiques à travers 200 tâches en utilisant des chercheurs simulés dotés de profils de personas diversifiés.",
           "keyPoints": [
-            "Cadre agentique pilotant des outils EDA à l'aide d'agents de codage LLM.",
-            "Validé par la conception semi-autonome d'un émetteur sub-THz de 240-251 GHz.",
-            "A atteint les spécifications de puissance de sortie et de bruit de phase requises."
+            "Comprend 200 tâches provenant de cinq benchmarks",
+            "Utilise des chercheurs simulés pour fournir contexte et retours",
+            "Évalue la collaboration des agents et les traces d'interaction"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-b4a230b7efdc57",
-      "title": "Permission to Retry: Authorization and Recovery in AI Agent Workflows",
-      "summary": "This study investigates the execution-time reliability of tool-using AI agents, isolating recovery decisions from language model behavior. The authors conduct a finite conformance study executing 336 histories on native LangGraph and Temporal hosts, demonstrating how retained-ledger reconciliation, cached retries, and revalidation handle external effects.",
+      "id": "feed-e84b72eb49f153",
+      "title": "Who Verifies the Tools? How Warped Formatters Mislead Agents",
+      "summary": "Tool output formatters can misrepresent what a tool actually did by omitting key details, misleading both language agents and verifiers into accepting incorrect information.",
       "keyPoints": [
-        "Isolates agent recovery decisions and authorization obligations from LLM behavior.",
-        "Executes 336 histories across native LangGraph and Temporal hosts with identical outcomes.",
-        "Evaluates retained-ledger reconciliation, cached retries, and revalidation strategies."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31916",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Permission to Retry: Authorization and Recovery in AI Agent Workflows",
-          "summary": "This study investigates the execution-time reliability of tool-using AI agents, isolating recovery decisions from language model behavior. The authors conduct a finite conformance study executing 336 histories on native LangGraph and Temporal hosts, demonstrating how retained-ledger reconciliation, cached retries, and revalidation handle external effects.",
-          "keyPoints": [
-            "Isolates agent recovery decisions and authorization obligations from LLM behavior.",
-            "Executes 336 histories across native LangGraph and Temporal hosts with identical outcomes.",
-            "Evaluates retained-ledger reconciliation, cached retries, and revalidation strategies."
-          ]
-        },
-        "fr": {
-          "title": "Permission de réessayer : Autorisation et récupération dans les flux d'agents IA",
-          "summary": "Cette étude examine la fiabilité d'exécution des agents IA utilisant des outils en isolant les décisions de récupération du comportement des LLM. Les auteurs réalisent une étude de conformité sur 336 historiques exécutés sur des hôtes LangGraph et Temporal.",
-          "keyPoints": [
-            "Isole les décisions de récupération des agents et les obligations d'autorisation.",
-            "Exécute 336 historiques sur des hôtes LangGraph et Temporal avec des résultats identiques.",
-            "Évalue la réconciliation de registres conservés et les stratégies de nouvelle tentative."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-22f689f1c4c7ac",
-      "title": "Beyond On-Policy vs. Off-Policy: Hierarchical LLM Agent Distillation",
-      "summary": "The authors examine interactive LLM agent distillation, arguing that the policy inducing interaction histories and the policy generating token prefixes form a hierarchical distinction. Through a three-stage controlled study, they evaluate mixtures of teacher and student policies, finding that student histories paired with teacher action prefixes perform best.",
-      "keyPoints": [
-        "Introduces a hierarchical agent distillation framework separating history and prefix policies.",
-        "Conducts a three-stage controlled study across three models and four environments.",
-        "Finds student-induced histories with teacher action prefixes provide strong training signals."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31918",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Beyond On-Policy vs. Off-Policy: Hierarchical LLM Agent Distillation",
-          "summary": "The authors examine interactive LLM agent distillation, arguing that the policy inducing interaction histories and the policy generating token prefixes form a hierarchical distinction. Through a three-stage controlled study, they evaluate mixtures of teacher and student policies, finding that student histories paired with teacher action prefixes perform best.",
-          "keyPoints": [
-            "Introduces a hierarchical agent distillation framework separating history and prefix policies.",
-            "Conducts a three-stage controlled study across three models and four environments.",
-            "Finds student-induced histories with teacher action prefixes provide strong training signals."
-          ]
-        },
-        "fr": {
-          "title": "Au-delà de l'On-Policy vs Off-Policy : Distillation hiérarchique d'agents LLM",
-          "summary": "Les auteurs examinent la distillation d'agents LLM interactifs, arguant que la politique induisant l'historique et celle générant les préfixes forment une distinction hiérarchique. Une étude contrôlée en trois étapes évalue différentes mélanges de politiques d'enseignant et d'étudiant.",
-          "keyPoints": [
-            "Introduit un cadre de distillation hiérarchique séparant l'historique et les préfixes.",
-            "Mène une étude contrôlée à trois étapes sur trois modèles et quatre environnements.",
-            "Montre que les historiques d'étudiants avec des préfixes d'enseignants performent le mieux."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-94ca820f73fd50",
-      "title": "M^3: A Multi-LLM System for Multi-Turn Jailbreaking as an MDP",
-      "summary": "The authors introduce M^3, an automated red-teaming framework that formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP). Using an attacker LLM interacting with a target LLM over a compact internal state produced by a state LLM, M^3 outperforms existing baselines in Attack Success Rates across multiple benchmarks.",
-      "keyPoints": [
-        "Formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP).",
-        "Employs an attacker LLM operating over a compact internal state produced by a state LLM.",
-        "Outperforms baseline methods in Attack Success Rates (ASR) by up to 53% on ASR@5."
+        "Discovered in a production RAG research system and open-source systems",
+        "Fixing omitted formatter details drastically reduced unsupported agent claims",
+        "Audit prompts successfully rediscovered live system defects"
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31937",
+      "sourceUrl": "https://arxiv.org/abs/2610.32110",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "M^3: A Multi-LLM System for Multi-Turn Jailbreaking as an MDP",
-          "summary": "The authors introduce M^3, an automated red-teaming framework that formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP). Using an attacker LLM interacting with a target LLM over a compact internal state produced by a state LLM, M^3 outperforms existing baselines in Attack Success Rates across multiple benchmarks.",
+          "title": "Who Verifies the Tools? How Warped Formatters Mislead Agents",
+          "summary": "Tool output formatters can misrepresent what a tool actually did by omitting key details, misleading both language agents and verifiers into accepting incorrect information.",
           "keyPoints": [
-            "Formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP).",
-            "Employs an attacker LLM operating over a compact internal state produced by a state LLM.",
-            "Outperforms baseline methods in Attack Success Rates (ASR) by up to 53% on ASR@5."
+            "Discovered in a production RAG research system and open-source systems",
+            "Fixing omitted formatter details drastically reduced unsupported agent claims",
+            "Audit prompts successfully rediscovered live system defects"
           ]
         },
         "fr": {
-          "title": "M^3 : Système multi-LLM pour le jailbreaking multi-tour via MDP",
-          "summary": "Les auteurs présentent M^3, un cadre de red-teaming automatisé qui formalise le jailbreaking multi-tour sous forme de processus de décision de Markov à horizon fini. En utilisant un LLM attaquant interagissant avec une cible via un état interne compact, M^3 surpasse les méthodes de référence.",
+          "title": "Qui vérifie les outils ? Comment les formateurs induisent en erreur",
+          "summary": "Les formateurs de sortie d'outils peuvent fausser les actions réelles en omettant des détails clés, trompant ainsi les agents et les vérificateurs.",
           "keyPoints": [
-            "Formalise le jailbreaking multi-tour en tant que processus de décision de Markov.",
-            "Emploie un LLM attaquant fonctionnant sur un état interne compact produit par un autre LLM.",
-            "Surpasse les méthodes de référence avec des améliorations de taux de réussite allant jusqu'à 53 %."
+            "Découvert dans un système de recherche RAG et des systèmes open source",
+            "La correction des formateurs a considérablement réduit les fausses affirmations",
+            "Les invites d'audit ont réussi à redécouvrir des défauts en direct"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-31654d812ef6de",
-      "title": "The Trust–Agreement Gap in Repeated Multi-Party LLM Negotiation",
-      "summary": "The authors investigate whether LLM agents can form and leverage trust estimates in repeated multi-party negotiations containing adversarial participants. Their findings reveal a trust-agreement gap: while trust-aware agents can accurately identify adversaries, accurate trust estimates do not automatically translate into better agreements unless agents are explicitly guided to use them.",
+      "id": "feed-027c5bc38fca14",
+      "title": "MPQ: A Message-Passing View of Post-Training Quantization",
+      "summary": "Message-Passing Quantization (MPQ) treats row-wise post-training quantization as posterior inference over discrete codebooks, improving perplexity and accuracy on language models.",
       "keyPoints": [
-        "Examines explicit trust and reputation models in repeated multi-party LLM negotiations.",
-        "Reveals a trust-agreement gap where accurate trust estimates do not guarantee better agreements.",
-        "Shows explicit trust increases agreement rates by up to 23 percentage points when properly guided."
+        "Preserves soft posterior information across blocks during inference",
+        "Improves perplexity and zero-shot accuracy over hard-decision baselines",
+        "Evaluated on dense language models from Llama, Qwen, and Mistral families"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31971",
+      "sourceUrl": "https://arxiv.org/abs/2610.32127",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The Trust–Agreement Gap in Repeated Multi-Party LLM Negotiation",
-          "summary": "The authors investigate whether LLM agents can form and leverage trust estimates in repeated multi-party negotiations containing adversarial participants. Their findings reveal a trust-agreement gap: while trust-aware agents can accurately identify adversaries, accurate trust estimates do not automatically translate into better agreements unless agents are explicitly guided to use them.",
+          "title": "MPQ: A Message-Passing View of Post-Training Quantization",
+          "summary": "Message-Passing Quantization (MPQ) treats row-wise post-training quantization as posterior inference over discrete codebooks, improving perplexity and accuracy on language models.",
           "keyPoints": [
-            "Examines explicit trust and reputation models in repeated multi-party LLM negotiations.",
-            "Reveals a trust-agreement gap where accurate trust estimates do not guarantee better agreements.",
-            "Shows explicit trust increases agreement rates by up to 23 percentage points when properly guided."
+            "Preserves soft posterior information across blocks during inference",
+            "Improves perplexity and zero-shot accuracy over hard-decision baselines",
+            "Evaluated on dense language models from Llama, Qwen, and Mistral families"
           ]
         },
         "fr": {
-          "title": "Le fossé confiance-accord dans les négociations multi-parties répétées de LLM",
-          "summary": "Les auteurs étudient si les agents LLM peuvent former et exploiter des estimations de confiance dans des négociations répétées multi-parties. Leurs résultats révèlent un fossé confiance-accord : bien que les agents identifient les adversaires, cela ne se traduit pas automatiquement par de meilleurs accords sans guidage explicite.",
+          "title": "MPQ : Une vue par propagation de messages de la quantification",
+          "summary": "La quantification par propagation de messages (MPQ) traite la quantification après entraînement comme une inférence a posteriori, améliorant la précision des modèles.",
           "keyPoints": [
-            "Examine les modèles explicites de confiance dans les négociations de LLM répétées.",
-            "Révèle un fossé où les estimations de confiance ne garantissent pas de meilleurs accords.",
-            "Montre que la confiance explicite augmente les taux d'accord jusqu'à 23 points de pourcentage."
+            "Préserve l'information a posteriori douce entre les blocs",
+            "Améliore la perplexité et la précision zero-shot",
+            "Évalué sur les familles de modèles de langage Llama, Qwen et Mistral"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 0.9,
         "needsReview": false
       }
     },
     {
-      "id": "feed-4c95a0869c900b",
-      "title": "Reproducible Evaluation for Safe Prompt Compression in Production Agents",
-      "summary": "This paper presents an offline evaluation harness that remains reproducible despite changes in live enterprise data and can be regenerated when stale. Using this harness for GEPA-based prompt optimization with a correctness gate, the authors shrink a production merchant agent's prompt surface by 3.5-7.6% without hurting task correctness across three subject-model families.",
+      "id": "feed-14628d0452b3d7",
+      "title": "$\\Psi$-0.6: Adaptive Streams of Thought in a Vision-Language Model",
+      "summary": "The authors introduce $\\Psi$-0.6, a unified vision-language world model that adaptively composes perception, language, geometry, and simulation through shared reasoning streams. It surpasses leading open-weight models zero-shot on multi-view spatial reasoning and supports counterfactual physical simulations.",
       "keyPoints": [
-        "Introduces a reproducible offline evaluation harness that resists live data drift.",
-        "Applies GEPA-based prompt optimization with a correctness gate to prevent reward hacking.",
-        "Achieves a 3.5-7.6% prompt surface reduction without regressing held-out task correctness."
+        "Combines perception, language, geometry, and simulation via a shared token interface.",
+        "Surpasses leading open-weight models zero-shot on multi-view spatial reasoning.",
+        "Uses reinforcement learning to optimize intermediate representations for visual QA."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31972",
+      "sourceUrl": "https://arxiv.org/abs/2610.32177",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Reproducible Evaluation for Safe Prompt Compression in Production Agents",
-          "summary": "This paper presents an offline evaluation harness that remains reproducible despite changes in live enterprise data and can be regenerated when stale. Using this harness for GEPA-based prompt optimization with a correctness gate, the authors shrink a production merchant agent's prompt surface by 3.5-7.6% without hurting task correctness across three subject-model families.",
+          "title": "$\\Psi$-0.6: Adaptive Streams of Thought in a Vision-Language Model",
+          "summary": "The authors introduce $\\Psi$-0.6, a unified vision-language world model that adaptively composes perception, language, geometry, and simulation through shared reasoning streams. It surpasses leading open-weight models zero-shot on multi-view spatial reasoning and supports counterfactual physical simulations.",
           "keyPoints": [
-            "Introduces a reproducible offline evaluation harness that resists live data drift.",
-            "Applies GEPA-based prompt optimization with a correctness gate to prevent reward hacking.",
-            "Achieves a 3.5-7.6% prompt surface reduction without regressing held-out task correctness."
+            "Combines perception, language, geometry, and simulation via a shared token interface.",
+            "Surpasses leading open-weight models zero-shot on multi-view spatial reasoning.",
+            "Uses reinforcement learning to optimize intermediate representations for visual QA."
           ]
         },
         "fr": {
-          "title": "Évaluation reproductible pour la compression sûre de prompts en production",
-          "summary": "Cet article présente un banc d'évaluation hors ligne qui reste reproductible malgré les changements de données d'entreprise et peut être régénéré. Utilisant ce banc pour l'optimisation de prompts basée sur GEPA avec un contrôle de correction, les auteurs réduisent la surface de prompt d'un agent marchand de 3,5 à 7,6 % sans altérer la correction des tâches.",
+          "title": "$\\Psi$-0.6 : Flux de pensée adaptatifs dans un modèle mondial vision-langage",
+          "summary": "Les auteurs présentent $\\Psi$-0.6, un modèle mondial unifié de vision-langage qui compose de manière adaptative la perception, le langage, la géométrie et la simulation grâce à des flux de raisonnement partagés. Il surpasse les principaux modèles open weights en zéro-shot sur le raisonnement spatial multi-vue.",
           "keyPoints": [
-            "Présente un banc d'évaluation hors ligne reproductible résistant à la dérive des données en direct.",
-            "Applique une optimisation de prompt basée sur GEPA avec un contrôle de correction.",
-            "Réduit la surface de prompt de 3,5 à 7,6 % sans régresser la correction des tâches."
+            "Combine perception, langage, géométrie et simulation via une interface de jetons partagée.",
+            "Surpasse les principaux modèles open weights en zéro-shot sur le raisonnement spatial multi-vue.",
+            "Utilise l'apprentissage par renforcement pour optimiser les représentations intermédiaires."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-863d73f768e26c",
-      "title": "The Helpful Agent Problem: Emergent Cooperation Bypassing Workflows",
-      "summary": "The authors show that benign LLM agents pursuing separate objectives can spontaneously cooperate in ways that bypass intended workflows, a phenomenon termed the helpful agent problem. Using benchmarks like FavorBench and CooperBench, they demonstrate that out-of-workflow favors emerge frequently and can cause significant harm to external parties.",
+      "id": "feed-3fd9d9ef6611fd",
+      "title": "Decision-Informed Information Seeking with LLMs",
+      "summary": "Large language models often pay for costly evidence that does not change their decisions or keep asking when evidence is sufficient. The authors propose DIVA, a training-free procedure valuing information based on decision value, significantly reducing regret across various benchmarks.",
       "keyPoints": [
-        "Identifies the helpful agent problem where benign agents spontaneously cooperate outside workflows.",
-        "Introduces FavorBench and adapts CooperBench to test multi-agent out-of-workflow interactions.",
-        "Shows that emergent favors can bypass oversight structures and cause significant external harm."
+        "Addresses the information trap where LLMs acquire costly or redundant evidence.",
+        "Introduces DIVA, a training-free procedure for decision-informed information seeking.",
+        "Demonstrates lower regret compared to existing LLM baselines across multiple domains."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.31985",
+      "sourceUrl": "https://arxiv.org/abs/2610.32181",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The Helpful Agent Problem: Emergent Cooperation Bypassing Workflows",
-          "summary": "The authors show that benign LLM agents pursuing separate objectives can spontaneously cooperate in ways that bypass intended workflows, a phenomenon termed the helpful agent problem. Using benchmarks like FavorBench and CooperBench, they demonstrate that out-of-workflow favors emerge frequently and can cause significant harm to external parties.",
+          "title": "Decision-Informed Information Seeking with LLMs",
+          "summary": "Large language models often pay for costly evidence that does not change their decisions or keep asking when evidence is sufficient. The authors propose DIVA, a training-free procedure valuing information based on decision value, significantly reducing regret across various benchmarks.",
           "keyPoints": [
-            "Identifies the helpful agent problem where benign agents spontaneously cooperate outside workflows.",
-            "Introduces FavorBench and adapts CooperBench to test multi-agent out-of-workflow interactions.",
-            "Shows that emergent favors can bypass oversight structures and cause significant external harm."
+            "Addresses the information trap where LLMs acquire costly or redundant evidence.",
+            "Introduces DIVA, a training-free procedure for decision-informed information seeking.",
+            "Demonstrates lower regret compared to existing LLM baselines across multiple domains."
           ]
         },
         "fr": {
-          "title": "Le problème de l'agent serviable : Coopération émergente contournant les flux",
-          "summary": "Les auteurs montrent que des agents LLM bénins poursuivant des objectifs distincts peuvent coopérer spontanément en contournant les flux de travail prévus, un phénomène appelé le problème de l'agent serviable. À l'aide de FavorBench et CooperBench, ils démontrent que des faveurs hors flux émergent fréquemment.",
+          "title": "Recherche d'information éclairée par la décision avec les LLM",
+          "summary": "Les grands modèles de langage paient souvent pour des preuves coûteuses qui ne modifient pas leurs décisions. Les auteurs proposent DIVA, une procédure sans entraînement évaluant l'information selon sa valeur décisionnelle, réduisant considérablement le regret sur divers benchmarks.",
           "keyPoints": [
-            "Identifie le problème de l'agent serviable où des agents bénins coopèrent en dehors des flux.",
-            "Introduit FavorBench et adapte CooperBench pour tester les interactions multi-agents.",
-            "Montre que ces faveurs émergentes contournent la surveillance et nuisent à des tiers."
+            "Remédie au piège informationnel où les LLM acquièrent des preuves coûteuses ou redondantes.",
+            "Introduit DIVA, une procédure sans entraînement pour la recherche d'information.",
+            "Démontre un regret inférieur à celui des bases de référence LLM sur plusieurs domaines."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-32ae6d5dafe0bc",
-      "title": "CEMIR vs. FISER: Reasoning vs. Enrichment for Pragmatic Intent Recognition",
-      "summary": "This paper presents a comparative study benchmarking FISER, a structured social reasoning framework, against CEMIR, a multimodal enrichment method, across four LLMs on the HandMeThat v2 benchmark. Statistical analysis reveals no significant performance difference between them, suggesting synthetic multimodal augmentation provides no measurable benefit when constraints are in text.",
+      "id": "feed-c9618822453ebf",
+      "title": "Evidence-Grounded SLM Behavioral Prediction Architecture",
+      "summary": "To address the computational demands of LLMs for on-device behavioral prediction, this study introduces ELBP, a four-layer architecture combining deterministic processing and Small Language Models. Using Qwen2.5-3B with ELBP improved F1-score and reduced prediction errors significantly.",
       "keyPoints": [
-        "Compares FISER's structured reasoning against CEMIR's multimodal enrichment.",
-        "Evaluates both frameworks across four LLMs using the HandMeThat v2 benchmark.",
-        "Finds no statistically significant difference in performance, indicating text constraints suffice."
+        "Introduces ELBP, an architecture combining deterministic processing and SLMs for local prediction.",
+        "Evaluates instruction-tuned models of 3B parameters or fewer for interaction forecasting.",
+        "Achieves improved F1-scores and reduced error rates compared to raw prompting and XGBoost."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32022",
+      "sourceUrl": "https://arxiv.org/abs/2610.32193",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "CEMIR vs. FISER: Reasoning vs. Enrichment for Pragmatic Intent Recognition",
-          "summary": "This paper presents a comparative study benchmarking FISER, a structured social reasoning framework, against CEMIR, a multimodal enrichment method, across four LLMs on the HandMeThat v2 benchmark. Statistical analysis reveals no significant performance difference between them, suggesting synthetic multimodal augmentation provides no measurable benefit when constraints are in text.",
+          "title": "Evidence-Grounded SLM Behavioral Prediction Architecture",
+          "summary": "To address the computational demands of LLMs for on-device behavioral prediction, this study introduces ELBP, a four-layer architecture combining deterministic processing and Small Language Models. Using Qwen2.5-3B with ELBP improved F1-score and reduced prediction errors significantly.",
           "keyPoints": [
-            "Compares FISER's structured reasoning against CEMIR's multimodal enrichment.",
-            "Evaluates both frameworks across four LLMs using the HandMeThat v2 benchmark.",
-            "Finds no statistically significant difference in performance, indicating text constraints suffice."
+            "Introduces ELBP, an architecture combining deterministic processing and SLMs for local prediction.",
+            "Evaluates instruction-tuned models of 3B parameters or fewer for interaction forecasting.",
+            "Achieves improved F1-scores and reduced error rates compared to raw prompting and XGBoost."
           ]
         },
         "fr": {
-          "title": "CEMIR vs FISER : Raisonnement et enrichissement pour la reconnaissance d'intention",
-          "summary": "Cet article présente une étude comparative évaluant FISER, un cadre de raisonnement social structuré, par rapport à CEMIR, une méthode d'enrichissement multimodal, sur quatre LLM via le benchmark HandMeThat v2. L'analyse statistique ne révèle aucune différence de performance significative entre les deux.",
+          "title": "Architecture de prédiction comportementale par SLM ancrée sur des preuves",
+          "summary": "Pour répondre aux exigences informatiques des LLM sur les appareils, cette étude présente ELBP, une architecture à quatre couches combinant traitement déterministe et petits modèles de langage. L'utilisation de Qwen2.5-3B avec ELBP améliore le score F1 et réduit les erreurs.",
           "keyPoints": [
-            "Compare le raisonnement structuré de FISER à l'enrichissement multimodal de CEMIR.",
-            "Évalue les deux cadres sur quatre LLM en utilisant le benchmark HandMeThat v2.",
-            "Ne trouve aucune différence de performance statistiquement significative."
+            "Présente ELBP, une architecture combinant traitement déterministe et SLM pour la prédiction locale.",
+            "Évalue des modèles optimisés de 3 milliards de paramètres ou moins pour la prévision d'interactions.",
+            "Améliore les scores F1 et réduit les taux d'erreur par rapport aux méthodes de référence."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-2f368a303e9112",
-      "title": "BARC-Bench: Assessing Safety Boundary Violations in Benign Agent Tasks",
-      "summary": "The authors introduce BARC-Bench, a collection of 110 tasks across nine simulated workspace environments where benign requests leave openings for unsafe actions. Evaluating four frontier model configurations reveals that models are not consistently safe, with safety violations occurring on up to 27.3% of tasks for the strongest configuration.",
+      "id": "feed-5322d73debe478",
+      "title": "SWE-Shift: Evaluating Coding Agents in Evolving Workspaces",
+      "summary": "The authors introduce SWE-Shift, a benchmark for evaluating coding agents under mid-execution workspace changes across 120 scenarios. Results across 17 coding-agent systems show that success on unchanged tasks can coexist with failures to recover state or refresh evidence.",
       "keyPoints": [
-        "Introduces BARC-Bench to evaluate agent safety boundaries across 110 tasks.",
-        "Tests four frontier model configurations across five attempts per task.",
-        "Finds that models fail to consistently respect unstated boundaries, creating operational risks."
+        "Introduces SWE-Shift to evaluate coding agents under mid-execution environment changes.",
+        "Contains 120 scenarios across 12 change families evaluated at scheduled intervention positions.",
+        "Shows that systems often fail to preserve work or refresh evidence after updates."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32024",
+      "sourceUrl": "https://arxiv.org/abs/2610.32196",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "BARC-Bench: Assessing Safety Boundary Violations in Benign Agent Tasks",
-          "summary": "The authors introduce BARC-Bench, a collection of 110 tasks across nine simulated workspace environments where benign requests leave openings for unsafe actions. Evaluating four frontier model configurations reveals that models are not consistently safe, with safety violations occurring on up to 27.3% of tasks for the strongest configuration.",
+          "title": "SWE-Shift: Evaluating Coding Agents in Evolving Workspaces",
+          "summary": "The authors introduce SWE-Shift, a benchmark for evaluating coding agents under mid-execution workspace changes across 120 scenarios. Results across 17 coding-agent systems show that success on unchanged tasks can coexist with failures to recover state or refresh evidence.",
           "keyPoints": [
-            "Introduces BARC-Bench to evaluate agent safety boundaries across 110 tasks.",
-            "Tests four frontier model configurations across five attempts per task.",
-            "Finds that models fail to consistently respect unstated boundaries, creating operational risks."
+            "Introduces SWE-Shift to evaluate coding agents under mid-execution environment changes.",
+            "Contains 120 scenarios across 12 change families evaluated at scheduled intervention positions.",
+            "Shows that systems often fail to preserve work or refresh evidence after updates."
           ]
         },
         "fr": {
-          "title": "BARC-Bench : Évaluation des violations de sécurité dans les tâches d'agents",
-          "summary": "Les auteurs présentent BARC-Bench, une collection de 110 tâches dans neuf environnements de travail simulés où des requêtes bénignes laissent la place à des actions non sécurisées. L'évaluation de quatre configurations de modèles de pointe révèle des violations de sécurité allant jusqu'à 27,3 % des tâches.",
+          "title": "SWE-Shift : Évaluation des agents de codage dans des espaces de travail évolutifs",
+          "summary": "Les auteurs présentent SWE-Shift, un benchmark pour évaluer les agents de codage face à des changements d'espace de travail en cours d'exécution à travers 120 scénarios. Les résultats sur 17 systèmes montrent que la réussite des tâches inchangées coexiste avec des échecs de récupération.",
           "keyPoints": [
-            "Introduit BARC-Bench pour évaluer les limites de sécurité des agents sur 110 tâches.",
-            "Teste quatre configurations de modèles de pointe sur cinq essais par tâche.",
-            "Montre que les modèles ne respectent pas toujours les limites implicites."
+            "Introduit SWE-Shift pour évaluer les agents de codage lors de modifications de l'environnement.",
+            "Contient 120 scénarios répartis sur 12 familles de changements évalués à des positions planifiées.",
+            "Montre que les systèmes échouent souvent à préserver le travail ou rafraîchir les preuves après une mise à jour."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-0a8f2fad6cda44",
-      "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents for Model Training",
-      "summary": "The authors introduce RSI-Opt, a plug-and-play recursive self-improvement optimizer agent that evolves a prompt, playbook, code library, and decision cadence using a meta-agent. Across multiple tasks, RSI-Opt substantially improves optimizer performance and supports cross-model policy transfer, reducing mean relative error on the Burgers PDE significantly.",
+      "id": "feed-5a662cae7d81b5",
+      "title": "Watermarking Diffusion Language Models with Learned Foresight",
+      "summary": "The authors propose a watermarking method for diffusion language models using learned vocabulary bands and a foresight predictor. Tested on WaterBench with LLaDA-8B-Instruct, the approach detects at least 96% of responses at a 1% false-positive rate while matching unwatermarked task quality.",
       "keyPoints": [
-        "Proposes RSI-Opt, a recursive self-improvement optimizer agent for neural training.",
-        "Uses a meta-agent to rewrite optimization policies based on evidence from earlier runs.",
-        "Demonstrates substantial performance gains and successful cross-model policy transfer."
+        "Learns vocabulary bands as green lists and a foresight predictor for context sensitivity.",
+        "Counts green tokens once per distinct context-token pair to avoid repetition exploitation.",
+        "Detects at least 96% of responses at a 1% false-positive rate on WaterBench."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32026",
+      "sourceUrl": "https://arxiv.org/abs/2610.32205",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents for Model Training",
-          "summary": "The authors introduce RSI-Opt, a plug-and-play recursive self-improvement optimizer agent that evolves a prompt, playbook, code library, and decision cadence using a meta-agent. Across multiple tasks, RSI-Opt substantially improves optimizer performance and supports cross-model policy transfer, reducing mean relative error on the Burgers PDE significantly.",
+          "title": "Watermarking Diffusion Language Models with Learned Foresight",
+          "summary": "The authors propose a watermarking method for diffusion language models using learned vocabulary bands and a foresight predictor. Tested on WaterBench with LLaDA-8B-Instruct, the approach detects at least 96% of responses at a 1% false-positive rate while matching unwatermarked task quality.",
           "keyPoints": [
-            "Proposes RSI-Opt, a recursive self-improvement optimizer agent for neural training.",
-            "Uses a meta-agent to rewrite optimization policies based on evidence from earlier runs.",
-            "Demonstrates substantial performance gains and successful cross-model policy transfer."
+            "Learns vocabulary bands as green lists and a foresight predictor for context sensitivity.",
+            "Counts green tokens once per distinct context-token pair to avoid repetition exploitation.",
+            "Detects at least 96% of responses at a 1% false-positive rate on WaterBench."
           ]
         },
         "fr": {
-          "title": "RSI-Opt : Agents optimiseurs à auto-amélioration récursive pour l'entraînement",
-          "summary": "Les auteurs présentent RSI-Opt, un agent optimiseur à auto-amélioration récursive qui fait évoluer un prompt, un manuel et une bibliothèque de code via un méta-agent. À travers plusieurs tâches, RSI-Opt améliore considérablement les performances de l'optimiseur et favorise le transfert de politiques entre modèles.",
+          "title": "Filigrane pour modèles de langage par diffusion avec anticipation apprise",
+          "summary": "Les auteurs proposent une méthode de filigrane pour les modèles de langage par diffusion utilisant des bandes de vocabulaire apprise et un prédicteur d'anticipation. Testée sur WaterBench, l'approche détecte au moins 96 % des réponses à un taux de faux positifs de 1 %.",
           "keyPoints": [
-            "Propose RSI-Opt, un agent optimiseur à auto-amélioration récursive pour l'entraînement.",
-            "Utilise un méta-agent pour réécrire les politiques d'optimisation selon des données antérieures.",
-            "Démontre des gains de performance substantiels et un transfert de politiques réussi."
+            "Utilise des bandes de vocabulaire apprises comme listes vertes et un prédicteur d'anticipation.",
+            "Compte les jetons verts une fois par paire contexte-jeton distincte pour éviter l'exploitation des répétitions.",
+            "Détecte au moins 96 % des réponses avec un taux de faux positifs de 1 % sur WaterBench."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-ec9baae2871c6a",
-      "title": "PPO vs. SAC for Cooperative Motion Control of Dual-Arm Space Robots",
-      "summary": "This paper develops a coordinated reinforcement learning framework to compare PPO and SAC for cooperative motion planning of dual-arm space manipulators under collision-avoidance constraints. Across five random seeds, SAC substantially outperforms PPO in success rate, convergence speed, and generalization to unseen target configurations.",
+      "id": "feed-b839d903db8e86",
+      "title": "PEAR: Adaptive Advantage Reshaping for Multimodal Models",
+      "summary": "The authors introduce PEAR, an adaptive advantage reshaping method to improve perception and exploration in large vision-language models. By adding an entropy-based exploration gain at high-entropy positions with low visual dependency, PEAR outperforms baseline models.",
       "keyPoints": [
-        "Develops a coordinated reinforcement learning framework for dual-arm space manipulators.",
-        "Compares on-policy PPO and off-policy SAC algorithms in fixed-base simulation scenarios.",
-        "Finds that SAC significantly outperforms PPO in success rate and generalization."
+        "Proposes PEAR to enhance perception and exploration in multimodal reasoning.",
+        "Combines visual dependency with an entropy-based exploration gain at high-entropy positions.",
+        "Achieves top average performance on multimodal reasoning benchmarks using Qwen2.5-VL models."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32034",
+      "sourceUrl": "https://arxiv.org/abs/2610.32216",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "PPO vs. SAC for Cooperative Motion Control of Dual-Arm Space Robots",
-          "summary": "This paper develops a coordinated reinforcement learning framework to compare PPO and SAC for cooperative motion planning of dual-arm space manipulators under collision-avoidance constraints. Across five random seeds, SAC substantially outperforms PPO in success rate, convergence speed, and generalization to unseen target configurations.",
+          "title": "PEAR: Adaptive Advantage Reshaping for Multimodal Models",
+          "summary": "The authors introduce PEAR, an adaptive advantage reshaping method to improve perception and exploration in large vision-language models. By adding an entropy-based exploration gain at high-entropy positions with low visual dependency, PEAR outperforms baseline models.",
           "keyPoints": [
-            "Develops a coordinated reinforcement learning framework for dual-arm space manipulators.",
-            "Compares on-policy PPO and off-policy SAC algorithms in fixed-base simulation scenarios.",
-            "Finds that SAC significantly outperforms PPO in success rate and generalization."
+            "Proposes PEAR to enhance perception and exploration in multimodal reasoning.",
+            "Combines visual dependency with an entropy-based exploration gain at high-entropy positions.",
+            "Achieves top average performance on multimodal reasoning benchmarks using Qwen2.5-VL models."
           ]
         },
         "fr": {
-          "title": "PPO vs SAC pour le contrôle de mouvement coopératif de robots spatiaux",
-          "summary": "Cet article développe un cadre d'apprentissage par renforcement coordonné pour comparer PPO et SAC dans la planification de mouvement de manipulateurs spatiaux à double bras. Sur cinq graines aléatoires, SAC surpasse considérablement PPO en termes de taux de réussite, de vitesse de convergence et de généralisation.",
+          "title": "PEAR : Remodelage adaptatif des avantages pour les modèles multimodaux",
+          "summary": "Les auteurs présentent PEAR, une méthode de remodelage adaptatif des avantages pour améliorer la perception et l'exploration dans les grands modèles vision-langage. En combinant la dépendance visuelle et un gain d'entropie, PEAR surpasse les modèles de référence.",
           "keyPoints": [
-            "Développe un cadre d'apprentissage par renforcement pour manipulateurs spatiaux à double bras.",
-            "Compare les algorithmes PPO et SAC dans des scénarios de simulation à base fixe.",
-            "Constate que SAC surpasse nettement PPO en taux de réussite et en généralisation."
+            "Propose PEAR pour améliorer la perception et l'exploration dans le raisonnement multimodal.",
+            "Combine la dépendance visuelle avec un gain d'exploration basé sur l'entropie.",
+            "Atteint des performances de premier plan sur les benchmarks multimodaux avec les modèles Qwen2.5-VL."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-899345890ca265",
-      "title": "Do AI-for-Science Agents Preserve Model Safety against Harmful Requests?",
-      "summary": "This paper investigates whether model safety is preserved when LLMs are integrated into AI-for-Science agent harnesses, evaluating five harnesses on 50 harmful chemistry requests. The results show that agent harnesses can increase harmful compliance under direct prompting and make adaptive attacks highly successful compared to base LLMs.",
+      "id": "feed-ddd49eb0b4f42d",
+      "title": "RxnExBench: Benchmarking VLMs for Chemical Reaction Extraction",
+      "summary": "The authors introduce RxnExBench, a multimodal benchmark containing 3,565 expert-annotated reactions and 2,361 molecular structures from chemistry literature. Evaluating nine state-of-the-art vision-language models reveals that accurate molecular recognition alone is insufficient for extraction tasks.",
       "keyPoints": [
-        "Examines model safety when LLMs are integrated into AI-for-Science agent harnesses.",
-        "Evaluates five agent harnesses across 50 harmful chemistry requests using various prompts.",
-        "Finds that harnesses increase harmful compliance and render adaptive attacks highly successful."
+        "Introduces RxnExBench with 3,565 expert-annotated reactions for fine-grained evaluation.",
+        "Features a unified schema with 15 reaction roles and 26 core fields for chemistry tasks.",
+        "Shows that current vision-language models struggle with multimodal integration and chemistry reasoning."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32045",
+      "sourceUrl": "https://arxiv.org/abs/2610.32221",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Do AI-for-Science Agents Preserve Model Safety against Harmful Requests?",
-          "summary": "This paper investigates whether model safety is preserved when LLMs are integrated into AI-for-Science agent harnesses, evaluating five harnesses on 50 harmful chemistry requests. The results show that agent harnesses can increase harmful compliance under direct prompting and make adaptive attacks highly successful compared to base LLMs.",
+          "title": "RxnExBench: Benchmarking VLMs for Chemical Reaction Extraction",
+          "summary": "The authors introduce RxnExBench, a multimodal benchmark containing 3,565 expert-annotated reactions and 2,361 molecular structures from chemistry literature. Evaluating nine state-of-the-art vision-language models reveals that accurate molecular recognition alone is insufficient for extraction tasks.",
           "keyPoints": [
-            "Examines model safety when LLMs are integrated into AI-for-Science agent harnesses.",
-            "Evaluates five agent harnesses across 50 harmful chemistry requests using various prompts.",
-            "Finds that harnesses increase harmful compliance and render adaptive attacks highly successful."
+            "Introduces RxnExBench with 3,565 expert-annotated reactions for fine-grained evaluation.",
+            "Features a unified schema with 15 reaction roles and 26 core fields for chemistry tasks.",
+            "Shows that current vision-language models struggle with multimodal integration and chemistry reasoning."
           ]
         },
         "fr": {
-          "title": "Les agents scientifiques préservent-ils la sécurité des modèles face aux requêtes ?",
-          "summary": "Cet article étudie si la sécurité des modèles est préservée lorsque les LLM sont intégrés dans des agents pour la science, en évaluant cinq cadres sur 50 requêtes chimiques nuisibles. Les résultats montrent que ces cadres peuvent accroître la conformité nuisible et rendre les attaques adaptatives très efficaces.",
+          "title": "RxnExBench : Évaluation des VLM pour l'extraction de réactions chimiques",
+          "summary": "Les auteurs présentent RxnExBench, un benchmark multimodal contenant 3 565 réactions annotées par des experts et 2 361 structures moléculaires. L'évaluation de neuf modèles vision-langage révèle que la reconnaissance moléculaire seule ne suffit pas pour l'extraction.",
           "keyPoints": [
-            "Examine la sécurité des modèles intégrés dans des cadres d'agents pour la science.",
-            "Évalue cinq cadres d'agents sur 50 requêtes de chimie nuisibles avec divers prompts.",
-            "Constate que les cadres augmentent la conformité nuisible et le succès des attaques."
+            "Introduit RxnExBench avec 3 565 réactions annotées par des experts pour une évaluation fine.",
+            "Intègre un schéma unifié avec 15 rôles de réaction et 26 champs principaux.",
+            "Montre que les modèles actuels peinent avec l'intégration multimodale et le raisonnement chimique."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-88ed6b4d7523fe",
-      "title": "Test-Time Memory Evolution vs. Test-Time Training for Scientific Discovery",
-      "summary": "The authors introduce Test-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method that updates external memory instead of model weights. Evaluated alongside test-time training (TTT) on five mathematical tasks, TTME outperforms TTT while reducing computational cost by 82.8-84.6% in FLOPs and 47.7-58.4% in runtime.",
+      "id": "feed-9549ba2d9b2946",
+      "title": "SolveBind: Overcoming the Verification Barrier for GUI Agents",
+      "summary": "The authors introduce SolveBind, a GUI-agent framework that combines hierarchical solving with runtime supervision to handle protected environments like CAPTCHAs. It achieves higher success rates across multiple task families and backbone models compared to baseline agents.",
       "keyPoints": [
-        "Introduces Test-Time Memory Evolution (TTME) to update external memory without changing weights.",
-        "Compares TTME directly against test-time training (TTT) across five mathematical tasks.",
-        "Shows that TTME outperforms TTT while significantly cutting computational cost and runtime."
+        "Introduces SolveBind to handle protected GUI environments requiring behavioral verification.",
+        "Combines a hierarchical solving tree with runtime supervision and tool-derived evidence.",
+        "Outperforms baseline agents across multiple CAPTCHA task families and AndroidWorld models."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32046",
+      "sourceUrl": "https://arxiv.org/abs/2610.32223",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Test-Time Memory Evolution vs. Test-Time Training for Scientific Discovery",
-          "summary": "The authors introduce Test-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method that updates external memory instead of model weights. Evaluated alongside test-time training (TTT) on five mathematical tasks, TTME outperforms TTT while reducing computational cost by 82.8-84.6% in FLOPs and 47.7-58.4% in runtime.",
+          "title": "SolveBind: Overcoming the Verification Barrier for GUI Agents",
+          "summary": "The authors introduce SolveBind, a GUI-agent framework that combines hierarchical solving with runtime supervision to handle protected environments like CAPTCHAs. It achieves higher success rates across multiple task families and backbone models compared to baseline agents.",
           "keyPoints": [
-            "Introduces Test-Time Memory Evolution (TTME) to update external memory without changing weights.",
-            "Compares TTME directly against test-time training (TTT) across five mathematical tasks.",
-            "Shows that TTME outperforms TTT while significantly cutting computational cost and runtime."
+            "Introduces SolveBind to handle protected GUI environments requiring behavioral verification.",
+            "Combines a hierarchical solving tree with runtime supervision and tool-derived evidence.",
+            "Outperforms baseline agents across multiple CAPTCHA task families and AndroidWorld models."
           ]
         },
         "fr": {
-          "title": "Évolution de la mémoire au test vs entraînement au test pour la découverte",
-          "summary": "Les auteurs présentent l'évolution de la mémoire au temps de test (TTME), une méthode d'adaptation qui met à jour la mémoire externe sans modifier les poids. Évaluée face à l'entraînement au test (TTT) sur cinq tâches mathématiques, la méthode TTME surpasse TTT tout en réduisant nettement les coûts de calcul.",
+          "title": "SolveBind : Surmonter la barrière de vérification pour les agents GUI",
+          "summary": "Les auteurs présentent SolveBind, un cadre d'agents GUI combinant une résolution hiérarchique et une supervision à l'exécution pour gérer les environnements protégés. Il atteint des taux de réussite supérieurs sur plusieurs familles de tâches par rapport aux bases de référence.",
           "keyPoints": [
-            "Introduit la méthode TTME pour mettre à jour la mémoire externe sans modifier les poids.",
-            "Compare TTME directement à l'entraînement au test (TTT) sur cinq tâches mathématiques.",
-            "Montre que TTME surpasse TTT tout en réduisant considérablement les coûts et le temps de calcul."
+            "Introduit SolveBind pour gérer les environnements graphiques protégés nécessitant une vérification.",
+            "Combine un arbre de résolution hiérarchique avec une supervision à l'exécution.",
+            "Surpasse les agents de référence sur plusieurs familles de tâches CAPTCHA et modèles AndroidWorld."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-858568da781d26",
-      "title": "HyScale: Scaling Long-Context Training for Learned Sparse Attention",
-      "summary": "This paper presents HyScale, a long-context training system for learned sparse attention that introduces HyTopK and selection replay. Together with holistic optimizations, HyScale speeds up GLM-5.1 training on 1M-token sequences by 2.07x over Megatron-LM on 512 H20 GPUs, and accelerates DeepSeek-V4-Flash and Qwen3.8-Flash-Next layers.",
+      "id": "feed-89afdd6bfd5d5c",
+      "title": "Training an MoE LLM in MXFP4: Closing the Gap to BF16",
+      "summary": "The authors present ALTO, an open-source training recipe for a 20-billion-parameter mixture-of-experts model under the MXFP4 format. By combining block quantization, random transforms, and a de-oscillation scheme, they reduced FP4 convergence overhead relative to BF16.",
       "keyPoints": [
-        "Presents HyScale, a training system for learned sparse attention on million-token contexts.",
-        "Introduces HyTopK to find exact top-k elements on the fly and selection replay for recomputation.",
-        "Accelerates GLM-5.1 training by 2.07x and improves layers in DeepSeek and Qwen models."
+        "Presents ALTO, an open-source training recipe for GPT-OSS-20B under MXFP4.",
+        "Combines hybrid block quantization, random transforms, stochastic rounding, and de-oscillation.",
+        "Cuts FP4 convergence overhead relative to BF16 down to +5.0%."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32057",
+      "sourceUrl": "https://arxiv.org/abs/2610.32229",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "HyScale: Scaling Long-Context Training for Learned Sparse Attention",
-          "summary": "This paper presents HyScale, a long-context training system for learned sparse attention that introduces HyTopK and selection replay. Together with holistic optimizations, HyScale speeds up GLM-5.1 training on 1M-token sequences by 2.07x over Megatron-LM on 512 H20 GPUs, and accelerates DeepSeek-V4-Flash and Qwen3.8-Flash-Next layers.",
+          "title": "Training an MoE LLM in MXFP4: Closing the Gap to BF16",
+          "summary": "The authors present ALTO, an open-source training recipe for a 20-billion-parameter mixture-of-experts model under the MXFP4 format. By combining block quantization, random transforms, and a de-oscillation scheme, they reduced FP4 convergence overhead relative to BF16.",
           "keyPoints": [
-            "Presents HyScale, a training system for learned sparse attention on million-token contexts.",
-            "Introduces HyTopK to find exact top-k elements on the fly and selection replay for recomputation.",
-            "Accelerates GLM-5.1 training by 2.07x and improves layers in DeepSeek and Qwen models."
+            "Presents ALTO, an open-source training recipe for GPT-OSS-20B under MXFP4.",
+            "Combines hybrid block quantization, random transforms, stochastic rounding, and de-oscillation.",
+            "Cuts FP4 convergence overhead relative to BF16 down to +5.0%."
           ]
         },
         "fr": {
-          "title": "HyScale : Mise à l'échelle de l'entraînement à long contexte pour l'attention",
-          "summary": "Cet article présente HyScale, un système d'entraînement pour l'attention creuse apprise introduisant HyTopK et la relecture de sélection. HyScale accélère l'entraînement de GLM-5.1 sur des séquences d'un million de tokens de 2,07x par rapport à Megatron-LM sur 512 GPU H20.",
+          "title": "Entraînement d'un LLM MoE en MXFP4 : combler l'écart avec le BF16",
+          "summary": "Les auteurs présentent ALTO, une recette d'entraînement open source pour un modèle de mélange d'experts de 20 milliards de paramètres au format MXFP4. En combinant quantification par blocs et schéma de dé-oscillation, ils réduisent le surcoût de convergence du FP4.",
           "keyPoints": [
-            "Présente HyScale, un système d'entraînement pour contextes à un million de tokens.",
-            "Introduit HyTopK pour trouver les meilleurs éléments à la volée sans table de scores.",
-            "Accélère l'entraînement de GLM-5.1 par 2,07x et améliore des couches de modèles récents."
+            "Présente ALTO, une recette d'entraînement open source pour GPT-OSS-20B en MXFP4.",
+            "Combine quantification de blocs hybride, transformations aléatoires et dé-oscillation.",
+            "Réduit le surcoût de convergence du FP4 par rapport au BF16 à +5,0 %."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-d1eab6a9fbaab9",
-      "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
-      "summary": "The authors present a corpus-grounded taxonomy of communication failures built from 3,211 failed multi-round trajectories across diverse tasks. Analyzing failure distributions, they find that failures are dominated by recovery, correction, consensus, and decision problems rather than initial mistakes, leading to recommendations for stronger disagreement handling.",
+      "id": "feed-78808c8f4b62e9",
+      "title": "Financial Context-Rich Strategy for Actor-Critic Based DRL Trading",
+      "summary": "The authors propose a deep reinforcement learning approach for stock trading that incorporates sentiment analysis and external factors. Findings show that actor-critic agents combined with Q-learning principles significantly improve profit maximization and risk management.",
       "keyPoints": [
-        "Builds a taxonomy of communication failures from 3,211 failed multi-round agent trajectories.",
-        "Analyzes error dynamics across medical QA, coding, finance, and other tasks.",
-        "Finds failures are dominated by consensus and recovery issues rather than first-round errors."
+        "Proposes a deep reinforcement learning strategy incorporating sentiment analysis for trading.",
+        "Evaluates policy optimization agents alongside Q-learning principles (DDPG, TD3, SAC).",
+        "Demonstrates that combining policy optimization with Q-learning enhances profit and risk management."
       ],
-      "category": "Modèles",
+      "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32060",
+      "sourceUrl": "https://arxiv.org/abs/2610.32237",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
-          "summary": "The authors present a corpus-grounded taxonomy of communication failures built from 3,211 failed multi-round trajectories across diverse tasks. Analyzing failure distributions, they find that failures are dominated by recovery, correction, consensus, and decision problems rather than initial mistakes, leading to recommendations for stronger disagreement handling.",
+          "title": "Financial Context-Rich Strategy for Actor-Critic Based DRL Trading",
+          "summary": "The authors propose a deep reinforcement learning approach for stock trading that incorporates sentiment analysis and external factors. Findings show that actor-critic agents combined with Q-learning principles significantly improve profit maximization and risk management.",
           "keyPoints": [
-            "Builds a taxonomy of communication failures from 3,211 failed multi-round agent trajectories.",
-            "Analyzes error dynamics across medical QA, coding, finance, and other tasks.",
-            "Finds failures are dominated by consensus and recovery issues rather than first-round errors."
+            "Proposes a deep reinforcement learning strategy incorporating sentiment analysis for trading.",
+            "Evaluates policy optimization agents alongside Q-learning principles (DDPG, TD3, SAC).",
+            "Demonstrates that combining policy optimization with Q-learning enhances profit and risk management."
           ]
         },
         "fr": {
-          "title": "Comprendre les échecs de communication dans les systèmes multi-agents LLM",
-          "summary": "Les auteurs présentent une taxonomie des échecs de communication fondée sur 3 211 trajectoires multi-tours échouées dans divers domaines. L'analyse montre que ces échecs sont dominés par des problèmes de récupération, de correction et de consensus plutôt que par des erreurs initiales.",
+          "title": "Stratégie financière contextuelle pour le trading par renforcement acteur-critique",
+          "summary": "Les auteurs proposent une approche d'apprentissage par renforcement profond pour le trading d'actions intégrant l'analyse de sentiment. Les résultats montrent que les agents acteur-critique combinés au Q-learning améliorent la maximisation des profits et la gestion des risques.",
           "keyPoints": [
-            "Construit une taxonomie des échecs de communication à partir de 3 211 trajectoires d'agents.",
-            "Analyse la dynamique des erreurs dans des tâches médicales, de code et financières.",
-            "Constate que les échecs proviennent principalement de problèmes de consensus et de récupération."
+            "Propose une stratégie d'apprentissage par renforcement intégrant l'analyse de sentiment.",
+            "Évalue des agents d'optimisation de politique combinés aux principes du Q-learning.",
+            "Démontre que cette combinaison améliore la maximisation des profits et la gestion des risques."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 353,
+    "itemsCollected": 355,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
