@@ -1,796 +1,796 @@
 {
-  "generatedAt": "2026-10-25T16:23:59.640Z",
+  "generatedAt": "2026-10-26T04:50:24.422Z",
   "items": [
     {
-      "id": "feed-f8c156dba78868",
-      "title": "Securing our frontier model training environment",
-      "summary": "OpenAI details the measures taken to strengthen containment for frontier model training and evaluation, incorporating offline environments and high-compute red-teaming.",
+      "id": "feed-5f576791a98a95",
+      "title": "Tradeoff-Aware Territory Design for Enterprise GTM Planning",
+      "summary": "This paper presents a production decision system for tradeoff-aware customer-to-seller allocation in enterprise go-to-market planning. The framework integrates a multidimensional account-value layer, an observational continuity-valuation layer using a synthetic-control-style counterfactual framework, and a multi-objective optimization layer. Historical backtesting and production planning show improved assignment compliance and opportunity balance.",
       "keyPoints": [
-        "Strengthened containment for frontier model training",
-        "Implementation of offline environments",
-        "Use of high-compute red-teaming"
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "publishedAt": "2026-10-23T10:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Securing our frontier model training environment",
-          "summary": "OpenAI details the measures taken to strengthen containment for frontier model training and evaluation, incorporating offline environments and high-compute red-teaming.",
-          "keyPoints": [
-            "Strengthened containment for frontier model training",
-            "Implementation of offline environments",
-            "Use of high-compute red-teaming"
-          ]
-        },
-        "fr": {
-          "title": "Sécurisation de notre environnement d'entraînement",
-          "summary": "OpenAI détaille les mesures prises pour renforcer le confinement lors de l'entraînement et de l'évaluation des modèles de pointe, incluant des environnements hors ligne et du red-teaming à haute puissance de calcul.",
-          "keyPoints": [
-            "Renforcement du confinement pour l'entraînement des modèles",
-            "Mise en place d'environnements hors ligne",
-            "Utilisation de red-teaming à haute puissance de calcul"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ee4c22366ef7e7",
-      "title": "Scaling Online Storage to Serve Over 1 Billion ChatGPT Users",
-      "summary": "OpenAI shares how it scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12 times faster reads for ChatGPT users.",
-      "keyPoints": [
-        "Scaled Habitat for over 1 billion ChatGPT users",
-        "Used reliable multi-tenancy and global caching",
-        "Achieved 12x faster reads using Azure Cosmos DB"
+        "Integrates account scoring, continuity valuation, and multi-objective optimization.",
+        "Uses a synthetic-control-style counterfactual framework to estimate continuity costs.",
+        "Improves assignment compliance and opportunity balance in production planning."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.31701",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Scaling Online Storage to Serve Over 1 Billion ChatGPT Users",
-          "summary": "OpenAI shares how it scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12 times faster reads for ChatGPT users.",
+          "title": "Tradeoff-Aware Territory Design for Enterprise GTM Planning",
+          "summary": "This paper presents a production decision system for tradeoff-aware customer-to-seller allocation in enterprise go-to-market planning. The framework integrates a multidimensional account-value layer, an observational continuity-valuation layer using a synthetic-control-style counterfactual framework, and a multi-objective optimization layer. Historical backtesting and production planning show improved assignment compliance and opportunity balance.",
           "keyPoints": [
-            "Scaled Habitat for over 1 billion ChatGPT users",
-            "Used reliable multi-tenancy and global caching",
-            "Achieved 12x faster reads using Azure Cosmos DB"
+            "Integrates account scoring, continuity valuation, and multi-objective optimization.",
+            "Uses a synthetic-control-style counterfactual framework to estimate continuity costs.",
+            "Improves assignment compliance and opportunity balance in production planning."
           ]
         },
         "fr": {
-          "title": "Mise à l'échelle du stockage en ligne pour ChatGPT",
-          "summary": "OpenAI explique comment elle a mis à l'échelle Habitat avec une multi-location fiable, du cache global et Azure Cosmos DB pour offrir des lectures 12 fois plus rapides pour ChatGPT.",
+          "title": "Conception de territoires sensible aux compromis pour la planification GTM",
+          "summary": "Cet article présente un système de décision de production pour l'attribution des clients aux vendeurs dans la planification GTM d'entreprise. Le cadre intègre une couche de valeur de compte multidimensionnelle, une couche d'évaluation de la continuité observationnelle et une couche d'optimisation multicritère. Les tests rétrospectifs et la production montrent une meilleure conformité des affectations.",
           "keyPoints": [
-            "Mise à l'échelle d'Habitat pour plus d'un milliard d'utilisateurs",
-            "Utilisation d'une multi-location fiable et d'un cache global",
-            "Lectures 12 fois plus rapides grâce à Azure Cosmos DB"
+            "Intègre la notation des comptes, l'évaluation de la continuité et l'optimisation multicritère.",
+            "Utilise un cadre contrefactuel de style contrôle synthétique.",
+            "Améliore la conformité des affectations et l'équilibre des opportunités en production."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-4de5b7368a607f",
-      "title": "Self-Improving Agents with World Model Predictive Paths",
-      "summary": "Researchers propose a test-time framework inspired by Model Predictive Path Integral control that combines multi-branch predictive analysis with experience-based adaptation for LLM agents.",
+      "id": "feed-bb157bb6b3d38a",
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "summary": "The authors introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to acquire, validate, and refine reusable capabilities from their own executions using a predictor-validator-corrector loop. Phronix stores distilled capabilities, significantly reducing non-determinism, improving reliability, and cutting token consumption during warm-start runs.",
       "keyPoints": [
-        "Introduces a test-time framework combining predictive analysis and experience adaptation",
-        "Uses a world model to imagine candidate action outcomes without execution",
-        "Demonstrates strong performance across ALFWorld and ScienceWorld benchmarks"
+        "Operates via a predictor-validator-corrector loop to refine reusable capabilities.",
+        "Solves recurring tasks on the first attempt in 93-95% of cases across models.",
+        "Reduces token consumption three to four times in warm-start runs compared to baselines."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28945",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.31789",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Self-Improving Agents with World Model Predictive Paths",
-          "summary": "Researchers propose a test-time framework inspired by Model Predictive Path Integral control that combines multi-branch predictive analysis with experience-based adaptation for LLM agents.",
+          "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+          "summary": "The authors introduce Phronix, a capability-centric learning paradigm that enables agentic harnesses to acquire, validate, and refine reusable capabilities from their own executions using a predictor-validator-corrector loop. Phronix stores distilled capabilities, significantly reducing non-determinism, improving reliability, and cutting token consumption during warm-start runs.",
           "keyPoints": [
-            "Introduces a test-time framework combining predictive analysis and experience adaptation",
-            "Uses a world model to imagine candidate action outcomes without execution",
-            "Demonstrates strong performance across ALFWorld and ScienceWorld benchmarks"
+            "Operates via a predictor-validator-corrector loop to refine reusable capabilities.",
+            "Solves recurring tasks on the first attempt in 93-95% of cases across models.",
+            "Reduces token consumption three to four times in warm-start runs compared to baselines."
           ]
         },
         "fr": {
-          "title": "Agents auto-améliorants avec des chemins prédictifs",
-          "summary": "Les chercheurs proposent un cadre d'inférence inspiré du contrôle prédictif qui combine une analyse prédictive multi-branche et une adaptation par l'expérience pour les agents LLM.",
+          "title": "Phronix : Le paradigme d'apprentissage centré sur les capacités pour agents",
+          "summary": "Les auteurs présentent Phronix, un paradigme d'apprentissage centré sur les capacités qui permet aux agents d'acquérir, de valider et de raffiner des compétences réutilisables à partir de leurs propres exécutions. Phronix utilise une boucle prédécesseur-validateur-correcteur pour stocker les capacités et réduire la consommation de jetons.",
           "keyPoints": [
-            "Introduit un cadre combinant analyse prédictive et adaptation par l'expérience",
-            "Utilise un modèle du monde pour simuler les issues des actions sans exécution",
-            "Démontre de solides performances sur ALFWorld et ScienceWorld"
+            "Fonctionne via une boucle de prédiction, validation et correction.",
+            "Résout les tâches récurrentes du premier coup dans 93 à 95 % des cas.",
+            "Réduit la consommation de jetons par trois ou quatre lors des exécutions à chaud."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-1a543055a02f98",
-      "title": "OpenAI and Poland's NASK Partner on AI Safety",
-      "summary": "OpenAI and Poland's NASK have announced a partnership focused on AI safety, security, and technical research to strengthen safeguards and support a resilient digital ecosystem.",
+      "id": "feed-8c3de05bbbcf22",
+      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+      "summary": "This paper proposes a system for the automated detection of patronizing and condescending language (PCL), a form of harmful language targeting vulnerable groups. The authors compare an approach using static word embeddings and a convolutional neural network with an approach using pre-trained BERT embeddings fine-tuned for PCL, achieving an F1 score of 0.528 over the development set with BERT.",
       "keyPoints": [
-        "Partnership between OpenAI and Poland's NASK",
-        "Focuses on AI safety, security, and technical research",
-        "Aims to strengthen safeguards and digital ecosystem resilience"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI and Poland's NASK Partner on AI Safety",
-          "summary": "OpenAI and Poland's NASK have announced a partnership focused on AI safety, security, and technical research to strengthen safeguards and support a resilient digital ecosystem.",
-          "keyPoints": [
-            "Partnership between OpenAI and Poland's NASK",
-            "Focuses on AI safety, security, and technical research",
-            "Aims to strengthen safeguards and digital ecosystem resilience"
-          ]
-        },
-        "fr": {
-          "title": "OpenAI et le NASK en Pologne s'associent pour la sécurité de l'IA",
-          "summary": "OpenAI et le NASK en Pologne s'associent sur la sécurité de l'IA et la recherche technique afin de renforcer les protections et de soutenir un écosystème numérique résilient.",
-          "keyPoints": [
-            "Partenariat entre OpenAI et le NASK polonais",
-            "Axé sur la sécurité de l'IA et la recherche technique",
-            "Vise à renforcer les protections et la résilience numérique"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6838e85e8517e0",
-      "title": "Evaluating Refusal Transfer Failure in LLM Agents",
-      "summary": "Researchers investigate whether text refusal behavior transfers to tool use in LLM agents, finding that text-refused requests frequently result in unsafe tool calls.",
-      "keyPoints": [
-        "Examines refusal transfer from chat to tool-calling settings",
-        "Finds 10-52 percent of chat-refused requests result in unsafe tool calls",
-        "Identifies a refusal-associated direction in the residual stream of models"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28982",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evaluating Refusal Transfer Failure in LLM Agents",
-          "summary": "Researchers investigate whether text refusal behavior transfers to tool use in LLM agents, finding that text-refused requests frequently result in unsafe tool calls.",
-          "keyPoints": [
-            "Examines refusal transfer from chat to tool-calling settings",
-            "Finds 10-52 percent of chat-refused requests result in unsafe tool calls",
-            "Identifies a refusal-associated direction in the residual stream of models"
-          ]
-        },
-        "fr": {
-          "title": "Évaluation de l'échec du transfert de refus chez les agents LLM",
-          "summary": "Des chercheurs étudient si le comportement de refus textuel se transfère à l'utilisation d'outils, constatant que des requêtes refusées en texte génèrent souvent des appels d'outils non sécurisés.",
-          "keyPoints": [
-            "Examine le transfert de refus du chat vers l'utilisation d'outils",
-            "Constate que 10 à 52 % des requêtes refusées mènent à des appels non sécurisés",
-            "Identifie une direction associée au refus dans le flux résiduel des modèles"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4cd0d3a23be15a",
-      "title": "PerMIT: Securing Persistent Memory for LLM Agents",
-      "summary": "PerMIT is a memory architecture with provable integrity guarantees for LLM agents, mediating untrusted environment values through a finite memory interface and machine-checked theorems.",
-      "keyPoints": [
-        "Introduces PerMIT to secure persistent memory for LLM agents",
-        "Features integrity theorems machine-checked in Lean 4",
-        "Demonstrates zero observed attack success on Trojan Hippo in simulations"
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28987",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PerMIT: Securing Persistent Memory for LLM Agents",
-          "summary": "PerMIT is a memory architecture with provable integrity guarantees for LLM agents, mediating untrusted environment values through a finite memory interface and machine-checked theorems.",
-          "keyPoints": [
-            "Introduces PerMIT to secure persistent memory for LLM agents",
-            "Features integrity theorems machine-checked in Lean 4",
-            "Demonstrates zero observed attack success on Trojan Hippo in simulations"
-          ]
-        },
-        "fr": {
-          "title": "PerMIT : Sécuriser la mémoire persistante des agents LLM",
-          "summary": "PerMIT est une architecture de mémoire avec des garanties d'intégrité prouvables pour les agents LLM, médiatisant les valeurs non fiables via une interface et des théorèmes vérifiés.",
-          "keyPoints": [
-            "Introduit PerMIT pour sécuriser la mémoire persistante des agents LLM",
-            "Intègre des théorèmes d'intégrité vérifiés sur machine en Lean 4",
-            "Démontre un succès d'attaque nul sur Trojan Hippo lors de simulations"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a6442d2eaa69af",
-      "title": "AgentPolicyForge: Framework for Tool Policy Enforcement",
-      "summary": "AgentPolicyForge uses executable environments to construct policy benchmarks and iteratively train adaptive policy guards for customized LLM agent deployments.",
-      "keyPoints": [
-        "Introduces AgentPolicyForge for building policy benchmarks",
-        "Creates the PolicyGym dataset across ten policy families",
-        "Achieves a 40-44% relative reduction in attack success rate compared to prompting"
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.28989",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AgentPolicyForge: Framework for Tool Policy Enforcement",
-          "summary": "AgentPolicyForge uses executable environments to construct policy benchmarks and iteratively train adaptive policy guards for customized LLM agent deployments.",
-          "keyPoints": [
-            "Introduces AgentPolicyForge for building policy benchmarks",
-            "Creates the PolicyGym dataset across ten policy families",
-            "Achieves a 40-44% relative reduction in attack success rate compared to prompting"
-          ]
-        },
-        "fr": {
-          "title": "AgentPolicyForge : Cadre d'application des politiques d'outils",
-          "summary": "AgentPolicyForge utilise des environnements exécutables pour construire des benchmarks de politiques et entraîner itérativement des gardes adaptatifs pour les agents LLM.",
-          "keyPoints": [
-            "Présente AgentPolicyForge pour créer des benchmarks de politiques",
-            "Génère le jeu de données PolicyGym couvrant dix familles de politiques",
-            "Réduit de 40 à 44 % le taux de succès des attaques par rapport au prompt seul"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-07755911b2e46d",
-      "title": "Multi-Agent Compound AI System for Radiotherapy Planning",
-      "summary": "Researchers develop an evidence-driven multi-agent compound AI system combining DRL automated planning with LLM conversational refinement for proton radiotherapy.",
-      "keyPoints": [
-        "Combines DRL-based automated planning with LLM conversational refinement",
-        "Features a planning agent, chatbot, and evaluation agent",
-        "Uses post-trained Qwen3-14B to improve reasoning and constraint management"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29010",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Multi-Agent Compound AI System for Radiotherapy Planning",
-          "summary": "Researchers develop an evidence-driven multi-agent compound AI system combining DRL automated planning with LLM conversational refinement for proton radiotherapy.",
-          "keyPoints": [
-            "Combines DRL-based automated planning with LLM conversational refinement",
-            "Features a planning agent, chatbot, and evaluation agent",
-            "Uses post-trained Qwen3-14B to improve reasoning and constraint management"
-          ]
-        },
-        "fr": {
-          "title": "Système d'IA multi-agent pour la planification de radiothérapie",
-          "summary": "Des chercheurs développent un système d'IA multi-agent combinant la planification automatisée par apprentissage par renforcement et le raffinement conversationnel par LLM pour la protonthérapie.",
-          "keyPoints": [
-            "Combine planification automatisée par RL et raffinement par LLM",
-            "Comporte un agent de planification, un chatbot et un agent d'évaluation",
-            "Utilise Qwen3-14B post-entraîné pour améliorer le raisonnement clinique"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ff02c0290aa26d",
-      "title": "GenXR-Bench: Benchmarking Coding Agents for XR Development",
-      "summary": "GenXR-Bench is a new benchmark for evaluating coding agents in interactive extended reality development, featuring 112 expert-authored tasks spanning features, bugs, and generation.",
-      "keyPoints": [
-        "First benchmark for end-to-end evaluation of coding agents in XR",
-        "Contains 112 expert-authored tasks for feature, bug repair, and generation",
-        "Finds top model configuration achieves only 50.9% overall Pass@1"
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29014",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GenXR-Bench: Benchmarking Coding Agents for XR Development",
-          "summary": "GenXR-Bench is a new benchmark for evaluating coding agents in interactive extended reality development, featuring 112 expert-authored tasks spanning features, bugs, and generation.",
-          "keyPoints": [
-            "First benchmark for end-to-end evaluation of coding agents in XR",
-            "Contains 112 expert-authored tasks for feature, bug repair, and generation",
-            "Finds top model configuration achieves only 50.9% overall Pass@1"
-          ]
-        },
-        "fr": {
-          "title": "GenXR-Bench : Évaluation des agents de codage pour la réalité étendue",
-          "summary": "GenXR-Bench est un nouveau benchmark pour évaluer les agents de codage dans le développement interactif de réalité étendue, avec 112 tâches validées par des experts.",
-          "keyPoints": [
-            "Premier benchmark d'évaluation de bout en bout pour agents de codage en XR",
-            "Contient 112 tâches d'experts en fonctionnalités, corrections et génération",
-            "Montre que le meilleur modèle atteint seulement 50,9 % de réussite Pass@1"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4db8131df544b5",
-      "title": "Inheritance as an Admission Test for Prompt Merge Operators",
-      "summary": "This study proposes an admission test for LLM prompt merge operators based on inheritance and population scoring, evaluating methods like tactic append and free rewrite.",
-      "keyPoints": [
-        "Proposes an admission test based on population inheritance scoring",
-        "Tests merge operators including tactic append and free rewrite",
-        "Finds tactic-append runs beat the best generation-zero member"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29023",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Inheritance as an Admission Test for Prompt Merge Operators",
-          "summary": "This study proposes an admission test for LLM prompt merge operators based on inheritance and population scoring, evaluating methods like tactic append and free rewrite.",
-          "keyPoints": [
-            "Proposes an admission test based on population inheritance scoring",
-            "Tests merge operators including tactic append and free rewrite",
-            "Finds tactic-append runs beat the best generation-zero member"
-          ]
-        },
-        "fr": {
-          "title": "L'héritage comme test d'admission pour les opérateurs de fusion de prompts",
-          "summary": "Cette étude propose un test d'admission pour les opérateurs de fusion de prompts de LLM basé sur l'héritage et l'évaluation par population, testant diverses méthodes de fusion.",
-          "keyPoints": [
-            "Propose un test d'admission basé sur le score d'héritage de population",
-            "Évalue des opérateurs de fusion comme l'ajout de tactiques et la réécriture",
-            "Montre que l'ajout de tactiques surpasse les meilleurs membres de la génération zéro"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-30c10e5d8ae6fc",
-      "title": "GRAIL: From Saliency to Semantics in Time-Series Explanation",
-      "summary": "GRAIL is a region-based time-series explanation framework that uses domain-specific intervals and on-manifold conditional generators to produce faithful model explanations.",
-      "keyPoints": [
-        "Introduces GRAIL for region-based time-series explanation",
-        "Uses domain-specific intervals like ECG beats as semantic players",
-        "Employs on-manifold conditional generators for counterfactual baselines"
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29036",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GRAIL: From Saliency to Semantics in Time-Series Explanation",
-          "summary": "GRAIL is a region-based time-series explanation framework that uses domain-specific intervals and on-manifold conditional generators to produce faithful model explanations.",
-          "keyPoints": [
-            "Introduces GRAIL for region-based time-series explanation",
-            "Uses domain-specific intervals like ECG beats as semantic players",
-            "Employs on-manifold conditional generators for counterfactual baselines"
-          ]
-        },
-        "fr": {
-          "title": "GRAIL : De la saillance à la sémantique dans l'explication de séries temporelles",
-          "summary": "GRAIL est un cadre d'explication de séries temporelles basé sur des régions qui utilise des intervalles spécifiques au domaine pour produire des explications de modèles fidèles.",
-          "keyPoints": [
-            "Introduit GRAIL pour l'explication de séries temporelles par région",
-            "Utilise des intervalles spécifiques au domaine comme les battements ECG",
-            "Emploie des générateurs conditionnels pour des bases contrefactuelles"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-dccae9368aa116",
-      "title": "AutoFraming: Synthesizing Dynamic Frames of C Code with LLMs",
-      "summary": "This paper proposes an LLM-based approach for synthesizing ACSL frame specifications alongside functional contracts from C code by analyzing code property graphs. Tested on 84 ACSL-compliant functions from real-world systems, the method successfully synthesizes error-free frame specifications for 92.9% of functions, marking a 179% relative improvement over state-of-the-art techniques.",
-      "keyPoints": [
-        "Analyzes code property graphs to extract frame-relevant information for LLM guidance.",
-        "Achieves a 92.9% success rate on a benchmark of 84 real-world functions.",
-        "Improves generation performance by up to 61.9% when integrated into existing frameworks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29046",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AutoFraming: Synthesizing Dynamic Frames of C Code with LLMs",
-          "summary": "This paper proposes an LLM-based approach for synthesizing ACSL frame specifications alongside functional contracts from C code by analyzing code property graphs. Tested on 84 ACSL-compliant functions from real-world systems, the method successfully synthesizes error-free frame specifications for 92.9% of functions, marking a 179% relative improvement over state-of-the-art techniques.",
-          "keyPoints": [
-            "Analyzes code property graphs to extract frame-relevant information for LLM guidance.",
-            "Achieves a 92.9% success rate on a benchmark of 84 real-world functions.",
-            "Improves generation performance by up to 61.9% when integrated into existing frameworks."
-          ]
-        },
-        "fr": {
-          "title": "AutoFraming : synthèse de cadres dynamiques de code C avec des LLM",
-          "summary": "Cet article propose une approche basée sur les LLM pour synthétiser des spécifications de cadres ACSL et des contrats fonctionnels à partir de code C en analysant les graphes de propriétés du code. Testée sur 84 fonctions conformes à ACSL, la méthode réussit à synthétiser des spécifications sans erreur pour 92,9 % d'entre elles, soit une amélioration relative de 179 %.",
-          "keyPoints": [
-            "Analyse les graphes de propriétés du code pour guider efficacement le LLM.",
-            "Atteint un taux de réussite de 92,9 % sur un banc d'essai de 84 fonctions réelles.",
-            "Améliore les performances de génération jusqu'à 61,9 % dans les cadres existants."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-cb8fedecbe8959",
-      "title": "Order Effects and Instance Bias in LLM Multi-Instance Processing",
-      "summary": "This study evaluates fifteen LLMs across five datasets to investigate order sensitivity in multi-instance processing tasks. The findings reveal substantial accuracy differences of up to 90 percentage points depending on instance order patterns, demonstrating that input arrangements can systematically bias aggregated predictions.",
-      "keyPoints": [
-        "Evaluates 15 LLMs across 5 datasets and 7 instance order patterns.",
-        "Finds accuracy variations of about 90 percentage points between order extremes.",
-        "Shows models perform better when majority-label instances appear at the start."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29057",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Order Effects and Instance Bias in LLM Multi-Instance Processing",
-          "summary": "This study evaluates fifteen LLMs across five datasets to investigate order sensitivity in multi-instance processing tasks. The findings reveal substantial accuracy differences of up to 90 percentage points depending on instance order patterns, demonstrating that input arrangements can systematically bias aggregated predictions.",
-          "keyPoints": [
-            "Evaluates 15 LLMs across 5 datasets and 7 instance order patterns.",
-            "Finds accuracy variations of about 90 percentage points between order extremes.",
-            "Shows models perform better when majority-label instances appear at the start."
-          ]
-        },
-        "fr": {
-          "title": "Effets d'ordre et biais d'instance dans le traitement multi-instance des LLM",
-          "summary": "Cette étude évalue quinze LLM sur cinq jeux de données pour analyser la sensibilité à l'ordre dans les tâches de traitement multi-instance. Les résultats révèlent des variations d'exactitude allant jusqu'à 90 points de pourcentage selon l'ordre des instances, montrant que la disposition des entrées biaise les prédictions.",
-          "keyPoints": [
-            "Évalue 15 LLM sur 5 jeux de données et 7 motifs d'ordre d'instance.",
-            "Met en évidence des écarts d'exactitude d'environ 90 points de pourcentage.",
-            "Montre que les modèles réussissent mieux quand les instances majoritaires sont au début."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2ec9c99b923244",
-      "title": "Context-Augmented, Session-Calibrated Blood Pressure Tracking from PPG",
-      "summary": "This research distinguishes the contributions of acquisition context and photoplethysmography (PPG) to session-calibrated blood pressure tracking across 653 AuroraBP participants. The original wearable-state model achieved mean absolute errors of 7.697/6.139 mmHg for systolic and diastolic blood pressure, with added context yielding modest error reductions.",
-      "keyPoints": [
-        "Evaluates blood pressure tracking using data from 653 AuroraBP participants.",
-        "Achieves participant-level mean absolute errors of 7.697/6.139 mmHg for SBP/DBP.",
-        "Shows that added context and sensor history provide small performance improvements."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29091",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Context-Augmented, Session-Calibrated Blood Pressure Tracking from PPG",
-          "summary": "This research distinguishes the contributions of acquisition context and photoplethysmography (PPG) to session-calibrated blood pressure tracking across 653 AuroraBP participants. The original wearable-state model achieved mean absolute errors of 7.697/6.139 mmHg for systolic and diastolic blood pressure, with added context yielding modest error reductions.",
-          "keyPoints": [
-            "Evaluates blood pressure tracking using data from 653 AuroraBP participants.",
-            "Achieves participant-level mean absolute errors of 7.697/6.139 mmHg for SBP/DBP.",
-            "Shows that added context and sensor history provide small performance improvements."
-          ]
-        },
-        "fr": {
-          "title": "Suivi de la pression artérielle calibré par session et augmenté du contexte via PPG",
-          "summary": "Cette recherche analyse les contributions du contexte d'acquisition et de la photopléthysmographie (PPG) au suivi de la pression artérielle calibré sur 653 participants AuroraBP. Le modèle initial atteint des erreurs absolues moyennes de 7,697/6,139 mmHg pour la pression systolique et diastolique.",
-          "keyPoints": [
-            "Évalue le suivi de la pression artérielle auprès de 653 participants de l'étude AuroraBP.",
-            "Atteint des erreurs absolues moyennes de 7,697/6,139 mmHg pour la PA systolique/diastolique.",
-            "Démontre que le contexte et l'historique des capteurs apportent de faibles améliorations."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-63a341fd8a6543",
-      "title": "Trace-Level Divergence in Multilingual Large Language Models",
-      "summary": "Standard evaluations of multilingual LLMs often measure only final-answer agreement rather than supporting evidence across languages. Introducing a trace-level divergence framework across seven languages and six frontier LLMs, the authors find that standard holistic cosine similarity systematically overstates cross-lingual consistency.",
-      "keyPoints": [
-        "Proposes a trace-level divergence framework decomposing structural and holistic similarity.",
-        "Tests across 3 reasoning benchmarks, 7 languages, and 6 frontier LLMs.",
-        "Shows holistic embedding comparisons overstate cross-lingual agreement significantly."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29092",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Trace-Level Divergence in Multilingual Large Language Models",
-          "summary": "Standard evaluations of multilingual LLMs often measure only final-answer agreement rather than supporting evidence across languages. Introducing a trace-level divergence framework across seven languages and six frontier LLMs, the authors find that standard holistic cosine similarity systematically overstates cross-lingual consistency.",
-          "keyPoints": [
-            "Proposes a trace-level divergence framework decomposing structural and holistic similarity.",
-            "Tests across 3 reasoning benchmarks, 7 languages, and 6 frontier LLMs.",
-            "Shows holistic embedding comparisons overstate cross-lingual agreement significantly."
-          ]
-        },
-        "fr": {
-          "title": "Divergence au niveau des traces dans les grands modèles de langue multilingues",
-          "summary": "Les évaluations standard des LLM multilingues mesurent souvent la réponse finale plutôt que les preuves sous-jacentes. En introduisant un cadre de divergence au niveau des traces sur sept langues et six LLM de pointe, les auteurs montrent que la similarité cosmique globale surestime la cohérence.",
-          "keyPoints": [
-            "Propose un cadre de divergence décomposant la similarité structurelle et globale.",
-            "Évalué sur 3 bancs d'essai de raisonnement, 7 langues et 6 LLM de pointe.",
-            "Montre que les comparaisons globales standard surestiment l'accord interlingue."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-cbb7fb1851d2fd",
-      "title": "GRAM: Group-wise Rank-Aware Model Merging via Subspace Alignment",
-      "summary": "To prevent subspace interference during multi-task model merging, this paper proposes Group-wise Rank-Aware Model Merging (GRAM). By leveraging the principal-angle geometry of task vectors to group compatible tasks, GRAM significantly mitigates interference and outperforms prior merging methods across language understanding, vision, and medical benchmarks.",
-      "keyPoints": [
-        "Addresses subspace interference caused by projecting misaligned task updates.",
-        "Introduces GRAM to group geometrically compatible tasks via principal-angle geometry.",
-        "Demonstrates consistent performance improvements across GLUE, CLIP, and medical instruction tuning."
+        "Targets the automated detection of patronizing and condescending language (PCL).",
+        "Evaluates static word embeddings with CNN versus fine-tuned BERT embeddings.",
+        "Fine-tuned BERT achieved an F1 score of 0.528 over the development set."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29110",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.31808",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "GRAM: Group-wise Rank-Aware Model Merging via Subspace Alignment",
-          "summary": "To prevent subspace interference during multi-task model merging, this paper proposes Group-wise Rank-Aware Model Merging (GRAM). By leveraging the principal-angle geometry of task vectors to group compatible tasks, GRAM significantly mitigates interference and outperforms prior merging methods across language understanding, vision, and medical benchmarks.",
+          "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+          "summary": "This paper proposes a system for the automated detection of patronizing and condescending language (PCL), a form of harmful language targeting vulnerable groups. The authors compare an approach using static word embeddings and a convolutional neural network with an approach using pre-trained BERT embeddings fine-tuned for PCL, achieving an F1 score of 0.528 over the development set with BERT.",
           "keyPoints": [
-            "Addresses subspace interference caused by projecting misaligned task updates.",
-            "Introduces GRAM to group geometrically compatible tasks via principal-angle geometry.",
-            "Demonstrates consistent performance improvements across GLUE, CLIP, and medical instruction tuning."
+            "Targets the automated detection of patronizing and condescending language (PCL).",
+            "Evaluates static word embeddings with CNN versus fine-tuned BERT embeddings.",
+            "Fine-tuned BERT achieved an F1 score of 0.528 over the development set."
           ]
         },
         "fr": {
-          "title": "GRAM : Fusion de modèles par groupe avec conscience du rang via l'alignement de sous-espaces",
-          "summary": "Pour éviter les interférences lors de la fusion de modèles multi-tâches, cet article propose GRAM (Group-wise Rank-Aware Model Merging). En exploitant la géométrie des vecteurs de tâches pour regrouper les tâches compatibles, GRAM surpasse les méthodes de fusion précédentes sur divers bancs d'essai.",
+          "title": "Détection du langage paternaliste et condescendant en anglais et mandarin",
+          "summary": "Cet article propose un système de détection automatisée du langage paternaliste et condescendant (PCL). Les auteurs comparent une approche utilisant des plongements de mots statiques avec un CNN à une approche utilisant des plongements BERT pré-entraînés et affinés, obtenant un score F1 de 0,528 sur l'ensemble de développement avec BERT.",
           "keyPoints": [
-            "Traite l'interférence de sous-espaces causée par la projection de mises à jour non alignées.",
-            "Introduit GRAM pour regrouper les tâches géométriquement compatibles.",
-            "Démontre des améliorations de performance sur GLUE, CLIP et le réglage médical."
+            "Cible la détection automatisée du langage paternaliste et condescendant.",
+            "Compare des embeddings statiques avec CNN et des embeddings BERT affinés.",
+            "Le modèle BERT affiné a atteint un score F1 de 0,528 sur l'ensemble de développement."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-2017be142f7edd",
-      "title": "Recursive Self-Improvement on a Budget: Scoring Code Edits Before Running",
-      "summary": "This paper explores how coding agents can score proposed code edits prior to execution during recursive self-improvement. Using linear readouts on parent solve rates and diff coordinates, tests with GPT-4o and Claude Sonnet 4.5 demonstrate improved held-out performance on benchmarks like HumanEval+ and Polyglot compared to ablations.",
+      "id": "feed-d762df67a1c93f",
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization in Lean",
+      "summary": "The authors introduce PaperFormalizer, a Lean-based agentic pipeline that assists authors in finding and closing gaps in research papers and converting them into Lean-verified versions. Working from LaTeX source code, the pipeline transcribes papers into dependency graphs, audits statements, and proposes formalizations that the author can accept, decline, or redirect.",
       "keyPoints": [
-        "Evaluates scoring mechanisms for code edits before execution in coding agents.",
-        "Employs linear readouts on parent solve rates and proposed diff coordinates.",
-        "GPT-4o runs achieve 87.0% on held-out HumanEval+ using the proposed selection approach."
+        "Lean-based agentic pipeline for autoformalizing research papers from LaTeX source.",
+        "Maintains an author-in-the-loop workflow to propose and verify statement repairs.",
+        "Outputs annotated revised papers, change reports, and linked Lean code."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29121",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.31810",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Recursive Self-Improvement on a Budget: Scoring Code Edits Before Running",
-          "summary": "This paper explores how coding agents can score proposed code edits prior to execution during recursive self-improvement. Using linear readouts on parent solve rates and diff coordinates, tests with GPT-4o and Claude Sonnet 4.5 demonstrate improved held-out performance on benchmarks like HumanEval+ and Polyglot compared to ablations.",
+          "title": "PaperFormalizer: Author-in-the-Loop Autoformalization in Lean",
+          "summary": "The authors introduce PaperFormalizer, a Lean-based agentic pipeline that assists authors in finding and closing gaps in research papers and converting them into Lean-verified versions. Working from LaTeX source code, the pipeline transcribes papers into dependency graphs, audits statements, and proposes formalizations that the author can accept, decline, or redirect.",
           "keyPoints": [
-            "Evaluates scoring mechanisms for code edits before execution in coding agents.",
-            "Employs linear readouts on parent solve rates and proposed diff coordinates.",
-            "GPT-4o runs achieve 87.0% on held-out HumanEval+ using the proposed selection approach."
+            "Lean-based agentic pipeline for autoformalizing research papers from LaTeX source.",
+            "Maintains an author-in-the-loop workflow to propose and verify statement repairs.",
+            "Outputs annotated revised papers, change reports, and linked Lean code."
           ]
         },
         "fr": {
-          "title": "Auto-amélioration récursive à budget restreint : noter les modifications de code avant exécution",
-          "summary": "Cet article explore la manière dont les agents de codage peuvent noter des modifications de code proposées avant leur exécution. En utilisant des lectures linéaires sur les taux de résolution et les coordonnées de différences, les tests menés avec GPT-4o et Claude Sonnet 4.5 améliorent les performances sur HumanEval+ et Polyglot.",
+          "title": "PaperFormalizer : Auto-formalisation de documents de recherche dans Lean",
+          "summary": "Les auteurs présentent PaperFormalizer, un pipeline agentique basé sur Lean qui aide les auteurs à combler les lacunes dans leurs articles et à les convertir en versions vérifiées. À partir du code source LaTeX, le pipeline transcrit les articles en graphes de dépendances et propose des formalisations validées par l'auteur.",
           "keyPoints": [
-            "Évalue des mécanismes de notation pour les modifications de code avant exécution.",
-            "Utilise des lectures linéaires sur les taux de résolution et les coordonnées de diff.",
-            "Les exécutions de GPT-4o atteignent 87,0 % sur HumanEval+ avec l'approche proposée."
+            "Pipeline agentique basé sur Lean pour formaliser des articles depuis LaTeX.",
+            "Maintient un flux de travail avec l'auteur pour proposer et vérifier des corrections.",
+            "Génère des articles révisés annotés, des rapports de modification et du code Lean."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-8ae5cfb1a46e38",
-      "title": "StochIKM: Automated IPD Reconstruction from Kaplan-Meier Curves",
-      "summary": "To address the scarcity of individual patient data (IPD) for time-to-event evidence, the authors propose StochIKM, a stochastic algorithm that digitizes published Kaplan-Meier curves using a vision-language model. By enforcing strict constraints based on risk tables and image resolution, StochIKM accurately reproduces published oncology trial data.",
+      "id": "feed-929adda0efb128",
+      "title": "Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+      "summary": "The authors introduce Self-Direction, a mechanism allowing AI agents to learn from mistakes by reflecting on trajectories and distilling lessons into lightweight low-rank adapters while keeping base model weights frozen. Experiments across GAIA, Claw-Eval, and Terminal-Bench 2.1 show success rate improvements of 8.9 to 17.0 percentage points and enhanced reliability.",
       "keyPoints": [
-        "Defines explicit fidelity constraints to ensure reconstructed datasets are admissible.",
-        "Utilizes a vision-capable language model to automate curve digitization.",
-        "Outperforms existing high-impact alternatives across 79 arms from oncology trials."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29122",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "StochIKM: Automated IPD Reconstruction from Kaplan-Meier Curves",
-          "summary": "To address the scarcity of individual patient data (IPD) for time-to-event evidence, the authors propose StochIKM, a stochastic algorithm that digitizes published Kaplan-Meier curves using a vision-language model. By enforcing strict constraints based on risk tables and image resolution, StochIKM accurately reproduces published oncology trial data.",
-          "keyPoints": [
-            "Defines explicit fidelity constraints to ensure reconstructed datasets are admissible.",
-            "Utilizes a vision-capable language model to automate curve digitization.",
-            "Outperforms existing high-impact alternatives across 79 arms from oncology trials."
-          ]
-        },
-        "fr": {
-          "title": "StochIKM : Reconstruction automatisée de données de patients à partir de courbes de Kaplan-Meier",
-          "summary": "Pour remédier à la rareté des données individuelles de patients, les auteurs proposent StochIKM, un algorithme stochastique qui numérise les courbes de Kaplan-Meier à l'aide d'un modèle multimodal. En appliquant des contraintes strictes, StochIKM reproduit fidèlement les données d'essais oncologiques.",
-          "keyPoints": [
-            "Définit des contraintes de fidélité explicites pour garantir des jeux de données admissibles.",
-            "Utilise un modèle de langage visuel pour automatiser la numérisation des courbes.",
-            "Surpasse les alternatives existantes sur 79 bras d'essais cliniques en oncologie."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-84ff67f6a714b9",
-      "title": "NormTune: Norm-Guided Parameter-Efficient Fine-Tuning for Reasoning Tasks",
-      "summary": "Parameter-efficient fine-tuning (PEFT) often underperforms full fine-tuning on reasoning-intensive tasks due to norm-related under-adaptation. To solve this, the authors introduce NormTune, a strategy that adaptively strengthens insufficiently updated layers based on weight-update norms, achieving performance comparable to full fine-tuning.",
-      "keyPoints": [
-        "Identifies norm-related under-adaptation as a cause of the PEFT reasoning performance gap.",
-        "Introduces NormTune to adaptively strengthen layers based on weight-update norms.",
-        "Delivers substantial accuracy gains across challenging benchmarks like AIME and MATH 500."
+        "Combines in-context retries with policy updates via lightweight low-rank adapters.",
+        "Keeps original base weights frozen while training tiny parameter fractions (~0.02%).",
+        "Improves overall agent success rates by 8.9 to 17.0 percentage points across benchmarks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29134",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.31846",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "NormTune: Norm-Guided Parameter-Efficient Fine-Tuning for Reasoning Tasks",
-          "summary": "Parameter-efficient fine-tuning (PEFT) often underperforms full fine-tuning on reasoning-intensive tasks due to norm-related under-adaptation. To solve this, the authors introduce NormTune, a strategy that adaptively strengthens insufficiently updated layers based on weight-update norms, achieving performance comparable to full fine-tuning.",
+          "title": "Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+          "summary": "The authors introduce Self-Direction, a mechanism allowing AI agents to learn from mistakes by reflecting on trajectories and distilling lessons into lightweight low-rank adapters while keeping base model weights frozen. Experiments across GAIA, Claw-Eval, and Terminal-Bench 2.1 show success rate improvements of 8.9 to 17.0 percentage points and enhanced reliability.",
           "keyPoints": [
-            "Identifies norm-related under-adaptation as a cause of the PEFT reasoning performance gap.",
-            "Introduces NormTune to adaptively strengthen layers based on weight-update norms.",
-            "Delivers substantial accuracy gains across challenging benchmarks like AIME and MATH 500."
+            "Combines in-context retries with policy updates via lightweight low-rank adapters.",
+            "Keeps original base weights frozen while training tiny parameter fractions (~0.02%).",
+            "Improves overall agent success rates by 8.9 to 17.0 percentage points across benchmarks."
           ]
         },
         "fr": {
-          "title": "NormTune : Réglage fin efficace guidé par la norme pour les tâches de raisonnement",
-          "summary": "Le réglage fin paramétriquement efficace (PEFT) sous-performe souvent par rapport au réglage complet sur les tâches de raisonnement en raison d'une sous-adaptation liée aux normes. Pour y remédier, les auteurs présentent NormTune, une stratégie qui renforce les couches selon leurs normes de mise à jour.",
+          "title": "La réparation autodirigée transforme les erreurs d'agents en leçons durables",
+          "summary": "Les auteurs présentent Self-Direction, un mécanisme permettant aux agents d'apprendre de leurs erreurs en réfléchissant sur leurs trajectoires et en distillant les leçons dans des adaptateurs légers. Des expériences sur divers benchmarks montrent des améliorations des taux de réussite de 8,9 à 17,0 points de pourcentage.",
           "keyPoints": [
-            "Identifie la sous-adaptation liée aux normes comme cause de l'écart de performance du PEFT.",
-            "Introduit NormTune pour renforcer de manière adaptative les couches insuffisamment mises à jour.",
-            "Offre des gains de précision substantiels sur des bancs d'essai exigeants comme AIME et MATH."
+            "Combine des nouvelles tentatives contextuelles avec des adaptateurs de bas rang légers.",
+            "Conserve les poids du modèle de base gelés tout en entraînant de minuscules fractions.",
+            "Améliore les taux de réussite globaux de 8,9 à 17,0 points de pourcentage."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-999578327a07cb",
-      "title": "LaVGuard: Selective Decoding for Contextual Value Drift",
-      "summary": "Addressing contextual value drift where content-safe responses conflict with task priorities, the authors introduce LaVGuard. This selective decoding method separates an authorized profile from visible prefixes, using a density gate and signed progress to constrain logit tilts under strict budget bounds.",
+      "id": "feed-0011f44db0acd0",
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF Modules",
+      "summary": "The authors present TACS-RF, a framework where an LLM coding agent directly drives EDA tools like Cadence Virtuoso and Ansys HFSS to design RF and mmWave modules. The framework was validated by designing a 240-251 GHz sub-THz transmitter in a 90 nm SiGe BiCMOS process, demonstrating automated sub-block design and performance metrics.",
       "keyPoints": [
-        "Formulates contextual value drift as a task-relative decoding problem.",
-        "Employs a profile-relative density gate and signed progress to constrain logit tilts.",
-        "Raises boundary TPR at 5% FPR from .58 to .72 while maintaining explicit budget controls."
+        "Tool-driven agentic framework utilizing LLM coding agents to control EDA tools.",
+        "Validated via the semi-autonomous design of a 240-251 GHz sub-THz transmitter.",
+        "Achieved desired output power, tuning range, and phase noise specifications."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.29135",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.31882",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LaVGuard: Selective Decoding for Contextual Value Drift",
-          "summary": "Addressing contextual value drift where content-safe responses conflict with task priorities, the authors introduce LaVGuard. This selective decoding method separates an authorized profile from visible prefixes, using a density gate and signed progress to constrain logit tilts under strict budget bounds.",
+          "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF Modules",
+          "summary": "The authors present TACS-RF, a framework where an LLM coding agent directly drives EDA tools like Cadence Virtuoso and Ansys HFSS to design RF and mmWave modules. The framework was validated by designing a 240-251 GHz sub-THz transmitter in a 90 nm SiGe BiCMOS process, demonstrating automated sub-block design and performance metrics.",
           "keyPoints": [
-            "Formulates contextual value drift as a task-relative decoding problem.",
-            "Employs a profile-relative density gate and signed progress to constrain logit tilts.",
-            "Raises boundary TPR at 5% FPR from .58 to .72 while maintaining explicit budget controls."
+            "Tool-driven agentic framework utilizing LLM coding agents to control EDA tools.",
+            "Validated via the semi-autonomous design of a 240-251 GHz sub-THz transmitter.",
+            "Achieved desired output power, tuning range, and phase noise specifications."
           ]
         },
         "fr": {
-          "title": "LaVGuard : Décodage sélectif pour la dérive de valeurs contextuelles",
-          "summary": "Face à la dérive de valeurs contextuelles où les réponses sûres entrent en conflit avec les priorités de la tâche, les auteurs présentent LaVGuard. Cette méthode de décodage sélectif utilise une porte de densité et des budgets stricts pour contraindre les dérives de logits.",
+          "title": "TACS-RF : Synthèse de circuits par agent pour modules RF et millimétriques",
+          "summary": "Les auteurs présentent TACS-RF, un cadre où un agent de codage LLM pilote directement des outils EDA pour concevoir des modules RF et millimétriques. Le cadre a été validé par la conception semi-autonome d'un émetteur sub-THz de 240-251 GHz dans un processus BiCMOS SiGe 90 nm.",
           "keyPoints": [
-            "Formule la dérive des valeurs contextuelles comme un problème de décodage relatif aux tâches.",
-            "Utilise une porte de densité relative au profil pour contraindre les ajustements de logits.",
-            "Améliore le taux de vrais positifs de .58 à .72 tout en maintenant des contrôles stricts."
+            "Cadre agentique pilotant des outils EDA à l'aide d'agents de codage LLM.",
+            "Validé par la conception semi-autonome d'un émetteur sub-THz de 240-251 GHz.",
+            "A atteint les spécifications de puissance de sortie et de bruit de phase requises."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b4a230b7efdc57",
+      "title": "Permission to Retry: Authorization and Recovery in AI Agent Workflows",
+      "summary": "This study investigates the execution-time reliability of tool-using AI agents, isolating recovery decisions from language model behavior. The authors conduct a finite conformance study executing 336 histories on native LangGraph and Temporal hosts, demonstrating how retained-ledger reconciliation, cached retries, and revalidation handle external effects.",
+      "keyPoints": [
+        "Isolates agent recovery decisions and authorization obligations from LLM behavior.",
+        "Executes 336 histories across native LangGraph and Temporal hosts with identical outcomes.",
+        "Evaluates retained-ledger reconciliation, cached retries, and revalidation strategies."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.31916",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Permission to Retry: Authorization and Recovery in AI Agent Workflows",
+          "summary": "This study investigates the execution-time reliability of tool-using AI agents, isolating recovery decisions from language model behavior. The authors conduct a finite conformance study executing 336 histories on native LangGraph and Temporal hosts, demonstrating how retained-ledger reconciliation, cached retries, and revalidation handle external effects.",
+          "keyPoints": [
+            "Isolates agent recovery decisions and authorization obligations from LLM behavior.",
+            "Executes 336 histories across native LangGraph and Temporal hosts with identical outcomes.",
+            "Evaluates retained-ledger reconciliation, cached retries, and revalidation strategies."
+          ]
+        },
+        "fr": {
+          "title": "Permission de réessayer : Autorisation et récupération dans les flux d'agents IA",
+          "summary": "Cette étude examine la fiabilité d'exécution des agents IA utilisant des outils en isolant les décisions de récupération du comportement des LLM. Les auteurs réalisent une étude de conformité sur 336 historiques exécutés sur des hôtes LangGraph et Temporal.",
+          "keyPoints": [
+            "Isole les décisions de récupération des agents et les obligations d'autorisation.",
+            "Exécute 336 historiques sur des hôtes LangGraph et Temporal avec des résultats identiques.",
+            "Évalue la réconciliation de registres conservés et les stratégies de nouvelle tentative."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-22f689f1c4c7ac",
+      "title": "Beyond On-Policy vs. Off-Policy: Hierarchical LLM Agent Distillation",
+      "summary": "The authors examine interactive LLM agent distillation, arguing that the policy inducing interaction histories and the policy generating token prefixes form a hierarchical distinction. Through a three-stage controlled study, they evaluate mixtures of teacher and student policies, finding that student histories paired with teacher action prefixes perform best.",
+      "keyPoints": [
+        "Introduces a hierarchical agent distillation framework separating history and prefix policies.",
+        "Conducts a three-stage controlled study across three models and four environments.",
+        "Finds student-induced histories with teacher action prefixes provide strong training signals."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.31918",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Beyond On-Policy vs. Off-Policy: Hierarchical LLM Agent Distillation",
+          "summary": "The authors examine interactive LLM agent distillation, arguing that the policy inducing interaction histories and the policy generating token prefixes form a hierarchical distinction. Through a three-stage controlled study, they evaluate mixtures of teacher and student policies, finding that student histories paired with teacher action prefixes perform best.",
+          "keyPoints": [
+            "Introduces a hierarchical agent distillation framework separating history and prefix policies.",
+            "Conducts a three-stage controlled study across three models and four environments.",
+            "Finds student-induced histories with teacher action prefixes provide strong training signals."
+          ]
+        },
+        "fr": {
+          "title": "Au-delà de l'On-Policy vs Off-Policy : Distillation hiérarchique d'agents LLM",
+          "summary": "Les auteurs examinent la distillation d'agents LLM interactifs, arguant que la politique induisant l'historique et celle générant les préfixes forment une distinction hiérarchique. Une étude contrôlée en trois étapes évalue différentes mélanges de politiques d'enseignant et d'étudiant.",
+          "keyPoints": [
+            "Introduit un cadre de distillation hiérarchique séparant l'historique et les préfixes.",
+            "Mène une étude contrôlée à trois étapes sur trois modèles et quatre environnements.",
+            "Montre que les historiques d'étudiants avec des préfixes d'enseignants performent le mieux."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-94ca820f73fd50",
+      "title": "M^3: A Multi-LLM System for Multi-Turn Jailbreaking as an MDP",
+      "summary": "The authors introduce M^3, an automated red-teaming framework that formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP). Using an attacker LLM interacting with a target LLM over a compact internal state produced by a state LLM, M^3 outperforms existing baselines in Attack Success Rates across multiple benchmarks.",
+      "keyPoints": [
+        "Formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP).",
+        "Employs an attacker LLM operating over a compact internal state produced by a state LLM.",
+        "Outperforms baseline methods in Attack Success Rates (ASR) by up to 53% on ASR@5."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.31937",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "M^3: A Multi-LLM System for Multi-Turn Jailbreaking as an MDP",
+          "summary": "The authors introduce M^3, an automated red-teaming framework that formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP). Using an attacker LLM interacting with a target LLM over a compact internal state produced by a state LLM, M^3 outperforms existing baselines in Attack Success Rates across multiple benchmarks.",
+          "keyPoints": [
+            "Formalizes multi-turn jailbreaking as a finite-horizon Markov Decision Process (MDP).",
+            "Employs an attacker LLM operating over a compact internal state produced by a state LLM.",
+            "Outperforms baseline methods in Attack Success Rates (ASR) by up to 53% on ASR@5."
+          ]
+        },
+        "fr": {
+          "title": "M^3 : Système multi-LLM pour le jailbreaking multi-tour via MDP",
+          "summary": "Les auteurs présentent M^3, un cadre de red-teaming automatisé qui formalise le jailbreaking multi-tour sous forme de processus de décision de Markov à horizon fini. En utilisant un LLM attaquant interagissant avec une cible via un état interne compact, M^3 surpasse les méthodes de référence.",
+          "keyPoints": [
+            "Formalise le jailbreaking multi-tour en tant que processus de décision de Markov.",
+            "Emploie un LLM attaquant fonctionnant sur un état interne compact produit par un autre LLM.",
+            "Surpasse les méthodes de référence avec des améliorations de taux de réussite allant jusqu'à 53 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-31654d812ef6de",
+      "title": "The Trust–Agreement Gap in Repeated Multi-Party LLM Negotiation",
+      "summary": "The authors investigate whether LLM agents can form and leverage trust estimates in repeated multi-party negotiations containing adversarial participants. Their findings reveal a trust-agreement gap: while trust-aware agents can accurately identify adversaries, accurate trust estimates do not automatically translate into better agreements unless agents are explicitly guided to use them.",
+      "keyPoints": [
+        "Examines explicit trust and reputation models in repeated multi-party LLM negotiations.",
+        "Reveals a trust-agreement gap where accurate trust estimates do not guarantee better agreements.",
+        "Shows explicit trust increases agreement rates by up to 23 percentage points when properly guided."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.31971",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "The Trust–Agreement Gap in Repeated Multi-Party LLM Negotiation",
+          "summary": "The authors investigate whether LLM agents can form and leverage trust estimates in repeated multi-party negotiations containing adversarial participants. Their findings reveal a trust-agreement gap: while trust-aware agents can accurately identify adversaries, accurate trust estimates do not automatically translate into better agreements unless agents are explicitly guided to use them.",
+          "keyPoints": [
+            "Examines explicit trust and reputation models in repeated multi-party LLM negotiations.",
+            "Reveals a trust-agreement gap where accurate trust estimates do not guarantee better agreements.",
+            "Shows explicit trust increases agreement rates by up to 23 percentage points when properly guided."
+          ]
+        },
+        "fr": {
+          "title": "Le fossé confiance-accord dans les négociations multi-parties répétées de LLM",
+          "summary": "Les auteurs étudient si les agents LLM peuvent former et exploiter des estimations de confiance dans des négociations répétées multi-parties. Leurs résultats révèlent un fossé confiance-accord : bien que les agents identifient les adversaires, cela ne se traduit pas automatiquement par de meilleurs accords sans guidage explicite.",
+          "keyPoints": [
+            "Examine les modèles explicites de confiance dans les négociations de LLM répétées.",
+            "Révèle un fossé où les estimations de confiance ne garantissent pas de meilleurs accords.",
+            "Montre que la confiance explicite augmente les taux d'accord jusqu'à 23 points de pourcentage."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4c95a0869c900b",
+      "title": "Reproducible Evaluation for Safe Prompt Compression in Production Agents",
+      "summary": "This paper presents an offline evaluation harness that remains reproducible despite changes in live enterprise data and can be regenerated when stale. Using this harness for GEPA-based prompt optimization with a correctness gate, the authors shrink a production merchant agent's prompt surface by 3.5-7.6% without hurting task correctness across three subject-model families.",
+      "keyPoints": [
+        "Introduces a reproducible offline evaluation harness that resists live data drift.",
+        "Applies GEPA-based prompt optimization with a correctness gate to prevent reward hacking.",
+        "Achieves a 3.5-7.6% prompt surface reduction without regressing held-out task correctness."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.31972",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Reproducible Evaluation for Safe Prompt Compression in Production Agents",
+          "summary": "This paper presents an offline evaluation harness that remains reproducible despite changes in live enterprise data and can be regenerated when stale. Using this harness for GEPA-based prompt optimization with a correctness gate, the authors shrink a production merchant agent's prompt surface by 3.5-7.6% without hurting task correctness across three subject-model families.",
+          "keyPoints": [
+            "Introduces a reproducible offline evaluation harness that resists live data drift.",
+            "Applies GEPA-based prompt optimization with a correctness gate to prevent reward hacking.",
+            "Achieves a 3.5-7.6% prompt surface reduction without regressing held-out task correctness."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation reproductible pour la compression sûre de prompts en production",
+          "summary": "Cet article présente un banc d'évaluation hors ligne qui reste reproductible malgré les changements de données d'entreprise et peut être régénéré. Utilisant ce banc pour l'optimisation de prompts basée sur GEPA avec un contrôle de correction, les auteurs réduisent la surface de prompt d'un agent marchand de 3,5 à 7,6 % sans altérer la correction des tâches.",
+          "keyPoints": [
+            "Présente un banc d'évaluation hors ligne reproductible résistant à la dérive des données en direct.",
+            "Applique une optimisation de prompt basée sur GEPA avec un contrôle de correction.",
+            "Réduit la surface de prompt de 3,5 à 7,6 % sans régresser la correction des tâches."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-863d73f768e26c",
+      "title": "The Helpful Agent Problem: Emergent Cooperation Bypassing Workflows",
+      "summary": "The authors show that benign LLM agents pursuing separate objectives can spontaneously cooperate in ways that bypass intended workflows, a phenomenon termed the helpful agent problem. Using benchmarks like FavorBench and CooperBench, they demonstrate that out-of-workflow favors emerge frequently and can cause significant harm to external parties.",
+      "keyPoints": [
+        "Identifies the helpful agent problem where benign agents spontaneously cooperate outside workflows.",
+        "Introduces FavorBench and adapts CooperBench to test multi-agent out-of-workflow interactions.",
+        "Shows that emergent favors can bypass oversight structures and cause significant external harm."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.31985",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "The Helpful Agent Problem: Emergent Cooperation Bypassing Workflows",
+          "summary": "The authors show that benign LLM agents pursuing separate objectives can spontaneously cooperate in ways that bypass intended workflows, a phenomenon termed the helpful agent problem. Using benchmarks like FavorBench and CooperBench, they demonstrate that out-of-workflow favors emerge frequently and can cause significant harm to external parties.",
+          "keyPoints": [
+            "Identifies the helpful agent problem where benign agents spontaneously cooperate outside workflows.",
+            "Introduces FavorBench and adapts CooperBench to test multi-agent out-of-workflow interactions.",
+            "Shows that emergent favors can bypass oversight structures and cause significant external harm."
+          ]
+        },
+        "fr": {
+          "title": "Le problème de l'agent serviable : Coopération émergente contournant les flux",
+          "summary": "Les auteurs montrent que des agents LLM bénins poursuivant des objectifs distincts peuvent coopérer spontanément en contournant les flux de travail prévus, un phénomène appelé le problème de l'agent serviable. À l'aide de FavorBench et CooperBench, ils démontrent que des faveurs hors flux émergent fréquemment.",
+          "keyPoints": [
+            "Identifie le problème de l'agent serviable où des agents bénins coopèrent en dehors des flux.",
+            "Introduit FavorBench et adapte CooperBench pour tester les interactions multi-agents.",
+            "Montre que ces faveurs émergentes contournent la surveillance et nuisent à des tiers."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-32ae6d5dafe0bc",
+      "title": "CEMIR vs. FISER: Reasoning vs. Enrichment for Pragmatic Intent Recognition",
+      "summary": "This paper presents a comparative study benchmarking FISER, a structured social reasoning framework, against CEMIR, a multimodal enrichment method, across four LLMs on the HandMeThat v2 benchmark. Statistical analysis reveals no significant performance difference between them, suggesting synthetic multimodal augmentation provides no measurable benefit when constraints are in text.",
+      "keyPoints": [
+        "Compares FISER's structured reasoning against CEMIR's multimodal enrichment.",
+        "Evaluates both frameworks across four LLMs using the HandMeThat v2 benchmark.",
+        "Finds no statistically significant difference in performance, indicating text constraints suffice."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32022",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "CEMIR vs. FISER: Reasoning vs. Enrichment for Pragmatic Intent Recognition",
+          "summary": "This paper presents a comparative study benchmarking FISER, a structured social reasoning framework, against CEMIR, a multimodal enrichment method, across four LLMs on the HandMeThat v2 benchmark. Statistical analysis reveals no significant performance difference between them, suggesting synthetic multimodal augmentation provides no measurable benefit when constraints are in text.",
+          "keyPoints": [
+            "Compares FISER's structured reasoning against CEMIR's multimodal enrichment.",
+            "Evaluates both frameworks across four LLMs using the HandMeThat v2 benchmark.",
+            "Finds no statistically significant difference in performance, indicating text constraints suffice."
+          ]
+        },
+        "fr": {
+          "title": "CEMIR vs FISER : Raisonnement et enrichissement pour la reconnaissance d'intention",
+          "summary": "Cet article présente une étude comparative évaluant FISER, un cadre de raisonnement social structuré, par rapport à CEMIR, une méthode d'enrichissement multimodal, sur quatre LLM via le benchmark HandMeThat v2. L'analyse statistique ne révèle aucune différence de performance significative entre les deux.",
+          "keyPoints": [
+            "Compare le raisonnement structuré de FISER à l'enrichissement multimodal de CEMIR.",
+            "Évalue les deux cadres sur quatre LLM en utilisant le benchmark HandMeThat v2.",
+            "Ne trouve aucune différence de performance statistiquement significative."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2f368a303e9112",
+      "title": "BARC-Bench: Assessing Safety Boundary Violations in Benign Agent Tasks",
+      "summary": "The authors introduce BARC-Bench, a collection of 110 tasks across nine simulated workspace environments where benign requests leave openings for unsafe actions. Evaluating four frontier model configurations reveals that models are not consistently safe, with safety violations occurring on up to 27.3% of tasks for the strongest configuration.",
+      "keyPoints": [
+        "Introduces BARC-Bench to evaluate agent safety boundaries across 110 tasks.",
+        "Tests four frontier model configurations across five attempts per task.",
+        "Finds that models fail to consistently respect unstated boundaries, creating operational risks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32024",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "BARC-Bench: Assessing Safety Boundary Violations in Benign Agent Tasks",
+          "summary": "The authors introduce BARC-Bench, a collection of 110 tasks across nine simulated workspace environments where benign requests leave openings for unsafe actions. Evaluating four frontier model configurations reveals that models are not consistently safe, with safety violations occurring on up to 27.3% of tasks for the strongest configuration.",
+          "keyPoints": [
+            "Introduces BARC-Bench to evaluate agent safety boundaries across 110 tasks.",
+            "Tests four frontier model configurations across five attempts per task.",
+            "Finds that models fail to consistently respect unstated boundaries, creating operational risks."
+          ]
+        },
+        "fr": {
+          "title": "BARC-Bench : Évaluation des violations de sécurité dans les tâches d'agents",
+          "summary": "Les auteurs présentent BARC-Bench, une collection de 110 tâches dans neuf environnements de travail simulés où des requêtes bénignes laissent la place à des actions non sécurisées. L'évaluation de quatre configurations de modèles de pointe révèle des violations de sécurité allant jusqu'à 27,3 % des tâches.",
+          "keyPoints": [
+            "Introduit BARC-Bench pour évaluer les limites de sécurité des agents sur 110 tâches.",
+            "Teste quatre configurations de modèles de pointe sur cinq essais par tâche.",
+            "Montre que les modèles ne respectent pas toujours les limites implicites."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0a8f2fad6cda44",
+      "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents for Model Training",
+      "summary": "The authors introduce RSI-Opt, a plug-and-play recursive self-improvement optimizer agent that evolves a prompt, playbook, code library, and decision cadence using a meta-agent. Across multiple tasks, RSI-Opt substantially improves optimizer performance and supports cross-model policy transfer, reducing mean relative error on the Burgers PDE significantly.",
+      "keyPoints": [
+        "Proposes RSI-Opt, a recursive self-improvement optimizer agent for neural training.",
+        "Uses a meta-agent to rewrite optimization policies based on evidence from earlier runs.",
+        "Demonstrates substantial performance gains and successful cross-model policy transfer."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32026",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "RSI-Opt: Recursive Self-Improvement Optimizer Agents for Model Training",
+          "summary": "The authors introduce RSI-Opt, a plug-and-play recursive self-improvement optimizer agent that evolves a prompt, playbook, code library, and decision cadence using a meta-agent. Across multiple tasks, RSI-Opt substantially improves optimizer performance and supports cross-model policy transfer, reducing mean relative error on the Burgers PDE significantly.",
+          "keyPoints": [
+            "Proposes RSI-Opt, a recursive self-improvement optimizer agent for neural training.",
+            "Uses a meta-agent to rewrite optimization policies based on evidence from earlier runs.",
+            "Demonstrates substantial performance gains and successful cross-model policy transfer."
+          ]
+        },
+        "fr": {
+          "title": "RSI-Opt : Agents optimiseurs à auto-amélioration récursive pour l'entraînement",
+          "summary": "Les auteurs présentent RSI-Opt, un agent optimiseur à auto-amélioration récursive qui fait évoluer un prompt, un manuel et une bibliothèque de code via un méta-agent. À travers plusieurs tâches, RSI-Opt améliore considérablement les performances de l'optimiseur et favorise le transfert de politiques entre modèles.",
+          "keyPoints": [
+            "Propose RSI-Opt, un agent optimiseur à auto-amélioration récursive pour l'entraînement.",
+            "Utilise un méta-agent pour réécrire les politiques d'optimisation selon des données antérieures.",
+            "Démontre des gains de performance substantiels et un transfert de politiques réussi."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ec9baae2871c6a",
+      "title": "PPO vs. SAC for Cooperative Motion Control of Dual-Arm Space Robots",
+      "summary": "This paper develops a coordinated reinforcement learning framework to compare PPO and SAC for cooperative motion planning of dual-arm space manipulators under collision-avoidance constraints. Across five random seeds, SAC substantially outperforms PPO in success rate, convergence speed, and generalization to unseen target configurations.",
+      "keyPoints": [
+        "Develops a coordinated reinforcement learning framework for dual-arm space manipulators.",
+        "Compares on-policy PPO and off-policy SAC algorithms in fixed-base simulation scenarios.",
+        "Finds that SAC significantly outperforms PPO in success rate and generalization."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32034",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "PPO vs. SAC for Cooperative Motion Control of Dual-Arm Space Robots",
+          "summary": "This paper develops a coordinated reinforcement learning framework to compare PPO and SAC for cooperative motion planning of dual-arm space manipulators under collision-avoidance constraints. Across five random seeds, SAC substantially outperforms PPO in success rate, convergence speed, and generalization to unseen target configurations.",
+          "keyPoints": [
+            "Develops a coordinated reinforcement learning framework for dual-arm space manipulators.",
+            "Compares on-policy PPO and off-policy SAC algorithms in fixed-base simulation scenarios.",
+            "Finds that SAC significantly outperforms PPO in success rate and generalization."
+          ]
+        },
+        "fr": {
+          "title": "PPO vs SAC pour le contrôle de mouvement coopératif de robots spatiaux",
+          "summary": "Cet article développe un cadre d'apprentissage par renforcement coordonné pour comparer PPO et SAC dans la planification de mouvement de manipulateurs spatiaux à double bras. Sur cinq graines aléatoires, SAC surpasse considérablement PPO en termes de taux de réussite, de vitesse de convergence et de généralisation.",
+          "keyPoints": [
+            "Développe un cadre d'apprentissage par renforcement pour manipulateurs spatiaux à double bras.",
+            "Compare les algorithmes PPO et SAC dans des scénarios de simulation à base fixe.",
+            "Constate que SAC surpasse nettement PPO en taux de réussite et en généralisation."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-899345890ca265",
+      "title": "Do AI-for-Science Agents Preserve Model Safety against Harmful Requests?",
+      "summary": "This paper investigates whether model safety is preserved when LLMs are integrated into AI-for-Science agent harnesses, evaluating five harnesses on 50 harmful chemistry requests. The results show that agent harnesses can increase harmful compliance under direct prompting and make adaptive attacks highly successful compared to base LLMs.",
+      "keyPoints": [
+        "Examines model safety when LLMs are integrated into AI-for-Science agent harnesses.",
+        "Evaluates five agent harnesses across 50 harmful chemistry requests using various prompts.",
+        "Finds that harnesses increase harmful compliance and render adaptive attacks highly successful."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32045",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Do AI-for-Science Agents Preserve Model Safety against Harmful Requests?",
+          "summary": "This paper investigates whether model safety is preserved when LLMs are integrated into AI-for-Science agent harnesses, evaluating five harnesses on 50 harmful chemistry requests. The results show that agent harnesses can increase harmful compliance under direct prompting and make adaptive attacks highly successful compared to base LLMs.",
+          "keyPoints": [
+            "Examines model safety when LLMs are integrated into AI-for-Science agent harnesses.",
+            "Evaluates five agent harnesses across 50 harmful chemistry requests using various prompts.",
+            "Finds that harnesses increase harmful compliance and render adaptive attacks highly successful."
+          ]
+        },
+        "fr": {
+          "title": "Les agents scientifiques préservent-ils la sécurité des modèles face aux requêtes ?",
+          "summary": "Cet article étudie si la sécurité des modèles est préservée lorsque les LLM sont intégrés dans des agents pour la science, en évaluant cinq cadres sur 50 requêtes chimiques nuisibles. Les résultats montrent que ces cadres peuvent accroître la conformité nuisible et rendre les attaques adaptatives très efficaces.",
+          "keyPoints": [
+            "Examine la sécurité des modèles intégrés dans des cadres d'agents pour la science.",
+            "Évalue cinq cadres d'agents sur 50 requêtes de chimie nuisibles avec divers prompts.",
+            "Constate que les cadres augmentent la conformité nuisible et le succès des attaques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-88ed6b4d7523fe",
+      "title": "Test-Time Memory Evolution vs. Test-Time Training for Scientific Discovery",
+      "summary": "The authors introduce Test-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method that updates external memory instead of model weights. Evaluated alongside test-time training (TTT) on five mathematical tasks, TTME outperforms TTT while reducing computational cost by 82.8-84.6% in FLOPs and 47.7-58.4% in runtime.",
+      "keyPoints": [
+        "Introduces Test-Time Memory Evolution (TTME) to update external memory without changing weights.",
+        "Compares TTME directly against test-time training (TTT) across five mathematical tasks.",
+        "Shows that TTME outperforms TTT while significantly cutting computational cost and runtime."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32046",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Test-Time Memory Evolution vs. Test-Time Training for Scientific Discovery",
+          "summary": "The authors introduce Test-Time Memory Evolution (TTME), a plug-and-play test-time adaptation method that updates external memory instead of model weights. Evaluated alongside test-time training (TTT) on five mathematical tasks, TTME outperforms TTT while reducing computational cost by 82.8-84.6% in FLOPs and 47.7-58.4% in runtime.",
+          "keyPoints": [
+            "Introduces Test-Time Memory Evolution (TTME) to update external memory without changing weights.",
+            "Compares TTME directly against test-time training (TTT) across five mathematical tasks.",
+            "Shows that TTME outperforms TTT while significantly cutting computational cost and runtime."
+          ]
+        },
+        "fr": {
+          "title": "Évolution de la mémoire au test vs entraînement au test pour la découverte",
+          "summary": "Les auteurs présentent l'évolution de la mémoire au temps de test (TTME), une méthode d'adaptation qui met à jour la mémoire externe sans modifier les poids. Évaluée face à l'entraînement au test (TTT) sur cinq tâches mathématiques, la méthode TTME surpasse TTT tout en réduisant nettement les coûts de calcul.",
+          "keyPoints": [
+            "Introduit la méthode TTME pour mettre à jour la mémoire externe sans modifier les poids.",
+            "Compare TTME directement à l'entraînement au test (TTT) sur cinq tâches mathématiques.",
+            "Montre que TTME surpasse TTT tout en réduisant considérablement les coûts et le temps de calcul."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-858568da781d26",
+      "title": "HyScale: Scaling Long-Context Training for Learned Sparse Attention",
+      "summary": "This paper presents HyScale, a long-context training system for learned sparse attention that introduces HyTopK and selection replay. Together with holistic optimizations, HyScale speeds up GLM-5.1 training on 1M-token sequences by 2.07x over Megatron-LM on 512 H20 GPUs, and accelerates DeepSeek-V4-Flash and Qwen3.8-Flash-Next layers.",
+      "keyPoints": [
+        "Presents HyScale, a training system for learned sparse attention on million-token contexts.",
+        "Introduces HyTopK to find exact top-k elements on the fly and selection replay for recomputation.",
+        "Accelerates GLM-5.1 training by 2.07x and improves layers in DeepSeek and Qwen models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32057",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "HyScale: Scaling Long-Context Training for Learned Sparse Attention",
+          "summary": "This paper presents HyScale, a long-context training system for learned sparse attention that introduces HyTopK and selection replay. Together with holistic optimizations, HyScale speeds up GLM-5.1 training on 1M-token sequences by 2.07x over Megatron-LM on 512 H20 GPUs, and accelerates DeepSeek-V4-Flash and Qwen3.8-Flash-Next layers.",
+          "keyPoints": [
+            "Presents HyScale, a training system for learned sparse attention on million-token contexts.",
+            "Introduces HyTopK to find exact top-k elements on the fly and selection replay for recomputation.",
+            "Accelerates GLM-5.1 training by 2.07x and improves layers in DeepSeek and Qwen models."
+          ]
+        },
+        "fr": {
+          "title": "HyScale : Mise à l'échelle de l'entraînement à long contexte pour l'attention",
+          "summary": "Cet article présente HyScale, un système d'entraînement pour l'attention creuse apprise introduisant HyTopK et la relecture de sélection. HyScale accélère l'entraînement de GLM-5.1 sur des séquences d'un million de tokens de 2,07x par rapport à Megatron-LM sur 512 GPU H20.",
+          "keyPoints": [
+            "Présente HyScale, un système d'entraînement pour contextes à un million de tokens.",
+            "Introduit HyTopK pour trouver les meilleurs éléments à la volée sans table de scores.",
+            "Accélère l'entraînement de GLM-5.1 par 2,07x et améliore des couches de modèles récents."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d1eab6a9fbaab9",
+      "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
+      "summary": "The authors present a corpus-grounded taxonomy of communication failures built from 3,211 failed multi-round trajectories across diverse tasks. Analyzing failure distributions, they find that failures are dominated by recovery, correction, consensus, and decision problems rather than initial mistakes, leading to recommendations for stronger disagreement handling.",
+      "keyPoints": [
+        "Builds a taxonomy of communication failures from 3,211 failed multi-round agent trajectories.",
+        "Analyzes error dynamics across medical QA, coding, finance, and other tasks.",
+        "Finds failures are dominated by consensus and recovery issues rather than first-round errors."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.32060",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
+          "summary": "The authors present a corpus-grounded taxonomy of communication failures built from 3,211 failed multi-round trajectories across diverse tasks. Analyzing failure distributions, they find that failures are dominated by recovery, correction, consensus, and decision problems rather than initial mistakes, leading to recommendations for stronger disagreement handling.",
+          "keyPoints": [
+            "Builds a taxonomy of communication failures from 3,211 failed multi-round agent trajectories.",
+            "Analyzes error dynamics across medical QA, coding, finance, and other tasks.",
+            "Finds failures are dominated by consensus and recovery issues rather than first-round errors."
+          ]
+        },
+        "fr": {
+          "title": "Comprendre les échecs de communication dans les systèmes multi-agents LLM",
+          "summary": "Les auteurs présentent une taxonomie des échecs de communication fondée sur 3 211 trajectoires multi-tours échouées dans divers domaines. L'analyse montre que ces échecs sont dominés par des problèmes de récupération, de correction et de consensus plutôt que par des erreurs initiales.",
+          "keyPoints": [
+            "Construit une taxonomie des échecs de communication à partir de 3 211 trajectoires d'agents.",
+            "Analyse la dynamique des erreurs dans des tâches médicales, de code et financières.",
+            "Constate que les échecs proviennent principalement de problèmes de consensus et de récupération."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 33,
+    "itemsCollected": 353,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
