@@ -1,790 +1,790 @@
 {
-  "generatedAt": "2026-10-27T05:09:13.844Z",
+  "generatedAt": "2026-10-27T18:02:33.562Z",
   "items": [
     {
-      "id": "feed-b9d49db98a1cb8",
-      "title": "Inverse Modeling for Laser Pulse Shape Design in ICF",
-      "summary": "Researchers introduce LPDS, a generative inverse modeling framework designed to map desired outcomes and target pellet configurations directly to optimized Laser Pulse Shapes (LPs) for Inertial Confinement Fusion (ICF). The method incorporates a multi-objective loss function and constraint-conditioning mechanisms to satisfy physical requirements.",
+      "id": "feed-393575ee7d83ff",
+      "title": "Genie 4: A New Generation of World Simulation",
+      "summary": "Google DeepMind has introduced Genie 4, a new world model designed to unlock unprecedented realism in real-time simulation.",
       "keyPoints": [
-        "Introduces the ICF Laser Pulse Shape Design System (LPDS) for generative inverse modeling.",
-        "Utilizes a multi-objective loss function to meet fundamental physical constraints.",
-        "Features constraint-conditioning, inpainting, and gradient-based LP editing mechanisms."
+        "Introduces Genie 4 as a new world model.",
+        "Aims to achieve unprecedented realism in real-time simulation.",
+        "Announced via the Google DeepMind Blog."
       ],
       "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33096",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publishedAt": "2026-10-27T16:01:38.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/dYQNUd8y-Wq7EfPmt2zxj16phpg7FFP0OBUYCnf3tKbrRnlzuRu8aqDfWMk_p_nYM-W4cLIGp8dTP8fRvhuXWYTWwH4EwBqGSkQDF0ghnAUBeYSO=w704-h704-n-nu",
       "translations": {
         "en": {
-          "title": "Inverse Modeling for Laser Pulse Shape Design in ICF",
-          "summary": "Researchers introduce LPDS, a generative inverse modeling framework designed to map desired outcomes and target pellet configurations directly to optimized Laser Pulse Shapes (LPs) for Inertial Confinement Fusion (ICF). The method incorporates a multi-objective loss function and constraint-conditioning mechanisms to satisfy physical requirements.",
+          "title": "Genie 4: A New Generation of World Simulation",
+          "summary": "Google DeepMind has introduced Genie 4, a new world model designed to unlock unprecedented realism in real-time simulation.",
           "keyPoints": [
-            "Introduces the ICF Laser Pulse Shape Design System (LPDS) for generative inverse modeling.",
-            "Utilizes a multi-objective loss function to meet fundamental physical constraints.",
-            "Features constraint-conditioning, inpainting, and gradient-based LP editing mechanisms."
+            "Introduces Genie 4 as a new world model.",
+            "Aims to achieve unprecedented realism in real-time simulation.",
+            "Announced via the Google DeepMind Blog."
           ]
         },
         "fr": {
-          "title": "Modélisation inverse pour la conception d'impulsions laser en ICF",
-          "summary": "Des chercheurs présentent LPDS, un cadre de modélisation inverse génératif conçu pour associer des résultats souhaités et des configurations de cibles directement à des formes d'impulsions laser (LP) optimisées pour la fusion par confinement inertiel (FCI).",
+          "title": "Genie 4 : Une nouvelle génération de simulation de monde",
+          "summary": "Google DeepMind a présenté Genie 4, un nouveau modèle de monde conçu pour offrir un réalisme sans précédent dans la simulation en temps réel.",
           "keyPoints": [
-            "Présente le système LPDS pour la modélisation inverse générative.",
-            "Utilise une fonction de perte multi-objectifs pour respecter les contraintes physiques.",
-            "Intègre des mécanismes de conditionnement par contraintes et d'édition de impulsions."
+            "Présente Genie 4 comme un nouveau modèle de monde.",
+            "Vise un réalisme sans précédent dans la simulation en temps réel.",
+            "Annoncé sur le blog de Google DeepMind."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-a9c488820a62ac",
-      "title": "Greptile Expands Bug Detection with GPT-6 Astra",
-      "summary": "Greptile utilizes GPT-6 Astra to test user workflows, alongside Daybreak to strengthen security and Codex to reduce code rework.",
+      "id": "feed-c417f8e3d39d0b",
+      "title": "OpenAI Expands Partnership with Oracle for ChatGPT Apps",
+      "summary": "OpenAI and Oracle are expanding their partnership to integrate business applications and AI agents into ChatGPT while powering new Oracle offerings.",
       "keyPoints": [
-        "Greptile leverages GPT-6 Astra for testing user workflows.",
-        "Daybreak is used to strengthen overall security.",
-        "Codex helps reduce code rework."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/greptile-code-review-codex-astra",
-      "publishedAt": "2026-10-26T22:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Greptile Expands Bug Detection with GPT-6 Astra",
-          "summary": "Greptile utilizes GPT-6 Astra to test user workflows, alongside Daybreak to strengthen security and Codex to reduce code rework.",
-          "keyPoints": [
-            "Greptile leverages GPT-6 Astra for testing user workflows.",
-            "Daybreak is used to strengthen overall security.",
-            "Codex helps reduce code rework."
-          ]
-        },
-        "fr": {
-          "title": "Greptile étend la détection de bugs avec GPT-6 Astra",
-          "summary": "Greptile utilise GPT-6 Astra pour tester les flux de travail des utilisateurs, aux côtés de Daybreak pour renforcer la sécurité et de Codex pour réduire retravail.",
-          "keyPoints": [
-            "Greptile exploite GPT-6 Astra pour tester les flux de travail.",
-            "Daybreak est employé pour renforcer la sécurité.",
-            "Codex aide à réduire le retravail du code."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c26c57bf683993",
-      "title": "IRON-Meme: Benchmark for Online Meme Narratives",
-      "summary": "Researchers introduce IRON-Meme, a human-annotated benchmark comprising 1,110 political memes grounded in social science theories. The study evaluates nine vision-language models, revealing that frontier-scale and reasoning models achieve highest performance while accuracy decreases for less frequent labels.",
-      "keyPoints": [
-        "Presents IRON-Meme, a human-annotated benchmark of 1,110 political memes.",
-        "Grounded in social science categories like social identities, viewpoints, and narrative roles.",
-        "Evaluates nine vision-language models, noting higher performance in frontier-scale models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33097",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "IRON-Meme: Benchmark for Online Meme Narratives",
-          "summary": "Researchers introduce IRON-Meme, a human-annotated benchmark comprising 1,110 political memes grounded in social science theories. The study evaluates nine vision-language models, revealing that frontier-scale and reasoning models achieve highest performance while accuracy decreases for less frequent labels.",
-          "keyPoints": [
-            "Presents IRON-Meme, a human-annotated benchmark of 1,110 political memes.",
-            "Grounded in social science categories like social identities, viewpoints, and narrative roles.",
-            "Evaluates nine vision-language models, noting higher performance in frontier-scale models."
-          ]
-        },
-        "fr": {
-          "title": "IRON-Meme : Un banc d'essai pour les mèmes en ligne",
-          "summary": "Les chercheurs présentent IRON-Meme, un banc d'essai annoté par l'homme comprenant 1 110 mèmes politiques ancrés dans des théories des sciences sociales. L'évaluation de neuf modèles vision-langage montre que les modèles de pointe obtiennent les meilleures performances.",
-          "keyPoints": [
-            "Présente IRON-Meme, un ensemble de 1 110 mèmes politiques annotés.",
-            "Ancré dans des catégories de sciences sociales telles que les identités et les rôles.",
-            "Évalue neuf modèles vision-langage avec des performances variables selon les étiquettes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8eb6001a836a6e",
-      "title": "Collaborating with Academic Communities on Scientific Understanding",
-      "summary": "OpenAI shares model results on complex mathematical and physical topics including the Kakeya conjecture, the Exponential Time Hypothesis, and quantum chromodynamics, providing methods for researchers to verify and build upon them.",
-      "keyPoints": [
-        "Shares model results on the Kakeya conjecture.",
-        "Covers findings on the Exponential Time Hypothesis and quantum chromodynamics.",
-        "Details ways for researchers to verify and build upon the findings."
+        "Partnership expansion between OpenAI and Oracle.",
+        "Brings business apps and AI agents into ChatGPT.",
+        "Powers new Oracle offerings."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "publishedAt": "2026-10-26T14:30:00.000Z",
+      "sourceUrl": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "publishedAt": "2026-10-27T07:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Collaborating with Academic Communities on Scientific Understanding",
-          "summary": "OpenAI shares model results on complex mathematical and physical topics including the Kakeya conjecture, the Exponential Time Hypothesis, and quantum chromodynamics, providing methods for researchers to verify and build upon them.",
+          "title": "OpenAI Expands Partnership with Oracle for ChatGPT Apps",
+          "summary": "OpenAI and Oracle are expanding their partnership to integrate business applications and AI agents into ChatGPT while powering new Oracle offerings.",
           "keyPoints": [
-            "Shares model results on the Kakeya conjecture.",
-            "Covers findings on the Exponential Time Hypothesis and quantum chromodynamics.",
-            "Details ways for researchers to verify and build upon the findings."
+            "Partnership expansion between OpenAI and Oracle.",
+            "Brings business apps and AI agents into ChatGPT.",
+            "Powers new Oracle offerings."
           ]
         },
         "fr": {
-          "title": "Collaboration avec les communautés académiques pour la science",
-          "summary": "OpenAI partage les résultats de ses modèles sur des sujets scientifiques complexes tels que la conjecture de Kakeya, l'hypothèse du temps exponentiel et la chromodynamique quantique, montrant comment les chercheurs peuvent les vérifier.",
+          "title": "OpenAI élargit son partenariat avec Oracle pour les applications ChatGPT",
+          "summary": "OpenAI et Oracle élargissent leur partenariat pour intégrer des applications professionnelles et des agents IA dans ChatGPT tout en alimentant de nouvelles offres Oracle.",
           "keyPoints": [
-            "Partage des résultats sur la conjecture de Kakeya.",
-            "Aborde l'hypothèse du temps exponentiel et la chromodynamique quantique.",
-            "Explique comment les chercheurs peuvent exploiter ces résultats."
+            "Élargissement du partenariat entre OpenAI et Oracle.",
+            "Intègre des applications professionnelles et des agents IA dans ChatGPT.",
+            "Alimente de nouvelles offres Oracle."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-d0fbbabfd8a628",
-      "title": "Meta-Analysis of Prospect Theory in Large Language Models",
-      "summary": "A meta-analysis of 102 fitted estimates across 11 studies evaluates whether Large Language Models display prospect theory properties such as loss aversion, diminishing sensitivity, and probability weighting. Results indicate LLMs show modest loss aversion and linear value functions, but retain human-like probability distortion.",
+      "id": "feed-19409de9d962cd",
+      "title": "Estimating Propagated Risk in LLM Multi-Agent Systems",
+      "summary": "Researchers propose Interaction-Effect Propagation (IE-Prop), an interaction-conditioned model to estimate agent-level error risk in LLM-based multi-agent systems from execution traces.",
       "keyPoints": [
-        "Meta-analyzes 102 fitted estimates from 11 studies covering 32 language models.",
-        "Finds that loss aversion in LLMs is modest with a pooled lambda of 1.26.",
-        "Shows value functions are close to linear while probability weighting displays human-like inverse S shape."
+        "Introduces IE-Prop to model error propagation in LLM multi-agent systems.",
+        "Learns separate effects for correct and incorrect upstream agents.",
+        "Raises final-node AUROC over baselines across evaluated architectures."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33103",
+      "sourceUrl": "https://arxiv.org/abs/2610.33282",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Meta-Analysis of Prospect Theory in Large Language Models",
-          "summary": "A meta-analysis of 102 fitted estimates across 11 studies evaluates whether Large Language Models display prospect theory properties such as loss aversion, diminishing sensitivity, and probability weighting. Results indicate LLMs show modest loss aversion and linear value functions, but retain human-like probability distortion.",
+          "title": "Estimating Propagated Risk in LLM Multi-Agent Systems",
+          "summary": "Researchers propose Interaction-Effect Propagation (IE-Prop), an interaction-conditioned model to estimate agent-level error risk in LLM-based multi-agent systems from execution traces.",
           "keyPoints": [
-            "Meta-analyzes 102 fitted estimates from 11 studies covering 32 language models.",
-            "Finds that loss aversion in LLMs is modest with a pooled lambda of 1.26.",
-            "Shows value functions are close to linear while probability weighting displays human-like inverse S shape."
+            "Introduces IE-Prop to model error propagation in LLM multi-agent systems.",
+            "Learns separate effects for correct and incorrect upstream agents.",
+            "Raises final-node AUROC over baselines across evaluated architectures."
           ]
         },
         "fr": {
-          "title": "Méta-analyse de la théorie des perspectives dans les LLM",
-          "summary": "Une méta-analyse de 102 estimations provenant de 11 études évaluent si les grands modèles de langage présentent les propriétés de la théorie des perspectives. Les résultats indiquent une aversion modeste pour la perte et des fonctions de valeur linéaires.",
+          "title": "Estimation du risque propagé dans les systèmes multi-agents à base de LLM",
+          "summary": "Des chercheurs proposent IE-Prop (Interaction-Effect Propagation), un modèle conditionné par les interactions pour estimer le risque d'erreur au niveau des agents dans les systèmes multi-agents basés sur des LLM.",
           "keyPoints": [
-            "Analyse 102 estimations ajustées issues de 11 études sur 32 modèles.",
-            "Montre une aversion pour la perte modeste avec un lambda global de 1,26.",
-            "Indique des fonctions de valeur proches de la linéarité et une distorsion des probabilités."
+            "Présente IE-Prop pour modéliser la propagation des erreurs dans les systèmes multi-agents.",
+            "Apprend des effets distincts pour les agents amont corrects et incorrects.",
+            "Améliore l'AUROC du nœud final par rapport aux bases de référence."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-7d972df501d01b",
-      "title": "CodeRabbit Enhances Code Security Using GPT-6.1 Sol",
-      "summary": "CodeRabbit leverages GPT-6.1 Sol to investigate security risks across complex codebases. Its integrated security agent assists developers in reviewing findings and proposed fixes.",
+      "id": "feed-3b5a2a6a27ab54",
+      "title": "Anima Cuts Clinic Call Waits by 75% Using GPT-6 and GPT-Live",
+      "summary": "Anima is expanding care team capabilities with OpenAI models, helping clinics reduce call wait times by 75% and giving teams more capacity to respond to patients.",
       "keyPoints": [
-        "CodeRabbit uses GPT-6.1 Sol for security risk investigation.",
-        "Targets complex codebases to identify vulnerabilities.",
-        "Employs a security agent to help developers review findings and fixes."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "publishedAt": "2026-10-26T13:45:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "CodeRabbit Enhances Code Security Using GPT-6.1 Sol",
-          "summary": "CodeRabbit leverages GPT-6.1 Sol to investigate security risks across complex codebases. Its integrated security agent assists developers in reviewing findings and proposed fixes.",
-          "keyPoints": [
-            "CodeRabbit uses GPT-6.1 Sol for security risk investigation.",
-            "Targets complex codebases to identify vulnerabilities.",
-            "Employs a security agent to help developers review findings and fixes."
-          ]
-        },
-        "fr": {
-          "title": "CodeRabbit renforce la sécurité du code avec GPT-6.1 Sol",
-          "summary": "CodeRabbit utilise GPT-6.1 Sol pour enquêter sur les risques de sécurité dans des bases de code complexes. Son agent de sécurité aide les développeurs à examiner les résultats et les correctifs proposés.",
-          "keyPoints": [
-            "CodeRabbit exploite GPT-6.1 Sol pour l'analyse des risques de sécurité.",
-            "S'applique à des bases de code complexes.",
-            "Intègre un agent de sécurité pour assister la révision des correctifs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7dcd5df6110fed",
-      "title": "AI in Mechanical Engineering: Foundations and Challenges",
-      "summary": "Drawing from a round-table at COBEM 2025, this article examines how artificial intelligence is reshaping mechanical engineering. It discusses statistical learning versus human cognition, industrial adoption, educational challenges, and principles for responsible AI integration.",
-      "keyPoints": [
-        "Examines AI reshaping mechanical engineering across modeling, simulation, and design.",
-        "Discusses statistical learning, agentic forms, and industrial adoption challenges.",
-        "Outlines principles for responsible AI adoption including physical consistency and validation."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33105",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AI in Mechanical Engineering: Foundations and Challenges",
-          "summary": "Drawing from a round-table at COBEM 2025, this article examines how artificial intelligence is reshaping mechanical engineering. It discusses statistical learning versus human cognition, industrial adoption, educational challenges, and principles for responsible AI integration.",
-          "keyPoints": [
-            "Examines AI reshaping mechanical engineering across modeling, simulation, and design.",
-            "Discusses statistical learning, agentic forms, and industrial adoption challenges.",
-            "Outlines principles for responsible AI adoption including physical consistency and validation."
-          ]
-        },
-        "fr": {
-          "title": "L'IA en génie mécanique : Fondations, opportunités et défis",
-          "summary": "S'appuyant sur une table ronde du COBEM 2025, cet article examine comment l'intelligence artificielle remodèle le génie mécanique, abordant l'apprentissage statistique, l'adoption industrielle et les principes d'une intégration responsable.",
-          "keyPoints": [
-            "Examine l'impact de l'IA sur la modélisation et la conception en génie mécanique.",
-            "Discute de l'apprentissage statistique, des agents et des défis d'adoption industrielle.",
-            "Définit des principes pour une adoption responsable de l'IA incluant la cohérence physique."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-742d30efdc4090",
-      "title": "How OpenAI Cut Incident Investigation Times with Codex Ultrafast",
-      "summary": "OpenAI engineers utilize Codex Ultrafast to reduce incident investigation times from hours to minutes, enhancing security analysis, code refactoring, and daily development workflows.",
-      "keyPoints": [
-        "OpenAI engineers reduce incident investigation from hours to minutes.",
-        "Leverages Codex Ultrafast for faster security analysis.",
-        "Improves code refactoring and daily engineering workflows."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-cut-incident-investigation",
-      "publishedAt": "2026-10-26T07:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How OpenAI Cut Incident Investigation Times with Codex Ultrafast",
-          "summary": "OpenAI engineers utilize Codex Ultrafast to reduce incident investigation times from hours to minutes, enhancing security analysis, code refactoring, and daily development workflows.",
-          "keyPoints": [
-            "OpenAI engineers reduce incident investigation from hours to minutes.",
-            "Leverages Codex Ultrafast for faster security analysis.",
-            "Improves code refactoring and daily engineering workflows."
-          ]
-        },
-        "fr": {
-          "title": "Comment OpenAI a réduit le temps d'enquête avec Codex Ultrafast",
-          "summary": "Les ingénieurs d'OpenAI utilisent Codex Ultrafast pour réduire les enquêtes sur les incidents de plusieurs heures à quelques minutes, améliorant ainsi l'analyse de sécurité et les flux de travail quotidiens.",
-          "keyPoints": [
-            "Réduit le temps d'enquête sur les incidents de plusieurs heures à quelques minutes.",
-            "Utilise Codex Ultrafast pour une analyse de sécurité accélérée.",
-            "Améliore la refactorisation du code et les flux de travail."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-43b68f3d614400",
-      "title": "Conformance as a Distribution in Use-Based AI Regulation",
-      "summary": "This paper examines use-based AI regulation by analyzing delegation contracts, error budgets, and evaluation authority under strategic interactions between a deployer, an auditor, and an enforcement point. Five preregistered synthetic studies test the proposed mechanisms.",
-      "keyPoints": [
-        "Studies delegation contracts and error budgets in use-based AI regulation.",
-        "Analyzes strategic play between deployers, auditors, and enforcement points.",
-        "Tests mechanisms across five preregistered synthetic studies without evaluating language models."
+        "Anima utilizes GPT-6 and GPT-Live models.",
+        "Helps clinics cut call wait times by 75%.",
+        "Gives care teams more capacity to respond to patients."
       ],
       "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33112",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Conformance as a Distribution in Use-Based AI Regulation",
-          "summary": "This paper examines use-based AI regulation by analyzing delegation contracts, error budgets, and evaluation authority under strategic interactions between a deployer, an auditor, and an enforcement point. Five preregistered synthetic studies test the proposed mechanisms.",
-          "keyPoints": [
-            "Studies delegation contracts and error budgets in use-based AI regulation.",
-            "Analyzes strategic play between deployers, auditors, and enforcement points.",
-            "Tests mechanisms across five preregistered synthetic studies without evaluating language models."
-          ]
-        },
-        "fr": {
-          "title": "La conformité comme distribution dans la régulation de l'IA",
-          "summary": "Cet article examine la régulation de l'IA basée sur l'utilisation en analysant les contrats de délégation, les budgets d'erreur et l'autorité d'évaluation à travers des interactions stratégiques entre déployeurs et auditeurs.",
-          "keyPoints": [
-            "Étudie les contrats de délégation et les budgets d'erreur dans la régulation de l'IA.",
-            "Analyse les interactions stratégiques entre déployeurs et auditeurs.",
-            "Teste des mécanismes à l'aide de cinq études synthétiques préenregistrées."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-35e334c198740f",
-      "title": "Introducing GPT-6.1 Terra",
-      "summary": "OpenAI introduces GPT-6.1 Terra, bringing fast and capable computer use capabilities to everyone.",
-      "keyPoints": [
-        "Introduces GPT-6.1 Terra model.",
-        "Aims to bring fast computer use to everyone.",
-        "Provides capable automated interaction features."
-      ],
-      "category": "Modèles",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/anima",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Introducing GPT-6.1 Terra",
-          "summary": "OpenAI introduces GPT-6.1 Terra, bringing fast and capable computer use capabilities to everyone.",
+          "title": "Anima Cuts Clinic Call Waits by 75% Using GPT-6 and GPT-Live",
+          "summary": "Anima is expanding care team capabilities with OpenAI models, helping clinics reduce call wait times by 75% and giving teams more capacity to respond to patients.",
           "keyPoints": [
-            "Introduces GPT-6.1 Terra model.",
-            "Aims to bring fast computer use to everyone.",
-            "Provides capable automated interaction features."
+            "Anima utilizes GPT-6 and GPT-Live models.",
+            "Helps clinics cut call wait times by 75%.",
+            "Gives care teams more capacity to respond to patients."
           ]
         },
         "fr": {
-          "title": "Présentation de GPT-6.1 Terra",
-          "summary": "OpenAI présente GPT-6.1 Terra, offrant des capacités d'utilisation informatique rapides et performantes à tout un chacun.",
+          "title": "Anima réduit les temps d'attente des cliniques grâce à GPT-6 et GPT-Live",
+          "summary": "Anima élargit les capacités des équipes de soins avec les modèles OpenAI, aidant les cliniques à réduire les temps d'attente des appels de 75 %.",
           "keyPoints": [
-            "Présentation du modèle GPT-6.1 Terra.",
-            "Offre des capacités d'utilisation informatique rapides.",
-            "Rend les fonctionnalités d'interaction accessibles à tous."
+            "Anima utilise les modèles GPT-6 et GPT-Live.",
+            "Aide les cliniques à réduire les temps d'attente de 75 %.",
+            "Offre aux équipes de soins une plus grande capacité de réponse."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-28263e185eb4c9",
-      "title": "Optimal Correction Sets for Causal Discovery",
-      "summary": "This paper addresses inconsistencies in constraint-based causal discovery by formulating CI-fact repair as a minimum-cost correction problem using Answer Set Programming. Building on Causal ABA, the method provides optimal stable models with guarantees for fidelity, subset-minimality, and formally guaranteed redress under user contestations.",
+      "id": "feed-289738afb7aabe",
+      "title": "AI Teaches Humans to Handle Complexity in the Game of Go",
+      "summary": "Using the game of Go, researchers investigate how agents navigate strategic tension, finding that artificial systems can act as cognitive scaffolding for human complexity handling.",
       "keyPoints": [
-        "Formulates CI-fact repair as a minimum-cost correction problem in Answer Set Programming.",
-        "Establishes a two-way projection correspondence between optimal stable models and correction sets.",
-        "Demonstrates improved graph reconstruction and fact retention over Causal ABA on benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33138",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Optimal Correction Sets for Causal Discovery",
-          "summary": "This paper addresses inconsistencies in constraint-based causal discovery by formulating CI-fact repair as a minimum-cost correction problem using Answer Set Programming. Building on Causal ABA, the method provides optimal stable models with guarantees for fidelity, subset-minimality, and formally guaranteed redress under user contestations.",
-          "keyPoints": [
-            "Formulates CI-fact repair as a minimum-cost correction problem in Answer Set Programming.",
-            "Establishes a two-way projection correspondence between optimal stable models and correction sets.",
-            "Demonstrates improved graph reconstruction and fact retention over Causal ABA on benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Ensembles de correction optimaux pour la découverte causale",
-          "summary": "Cet article aborde les incohérences de la découverte causale en formulant la réparation de faits CI comme un problème de correction à coût minimal en Answer Set Programming. S'appuyant sur Causal ABA, la méthode offre des modèles stables optimaux garantissant la fidélité et un redressement formel.",
-          "keyPoints": [
-            "Formule la réparation de faits CI comme un problème de correction à coût minimal avec ASP.",
-            "Établit une correspondance de projection bidirectionnelle entre les modèles stables optimaux.",
-            "Améliore la reconstruction de graphes et la rétention de faits par rapport à Causal ABA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-864f20e064c463",
-      "title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
-      "summary": "AOS-Bench introduces a benchmark to evaluate coding agents as persistent workload managers handling a stream of verified tasks under shared CPU and memory limits. Results show that isolated task success does not predict stream success, highlighting workload management as a distinct agent capability.",
-      "keyPoints": [
-        "Introduces AOS-Bench to evaluate agent systems acting as workload managers under resource limits.",
-        "Shows that isolated task success does not translate evenly to success in stream environments.",
-        "Traces performance gaps largely to task intake policies such as serial dispatch."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33178",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
-          "summary": "AOS-Bench introduces a benchmark to evaluate coding agents as persistent workload managers handling a stream of verified tasks under shared CPU and memory limits. Results show that isolated task success does not predict stream success, highlighting workload management as a distinct agent capability.",
-          "keyPoints": [
-            "Introduces AOS-Bench to evaluate agent systems acting as workload managers under resource limits.",
-            "Shows that isolated task success does not translate evenly to success in stream environments.",
-            "Traces performance gaps largely to task intake policies such as serial dispatch."
-          ]
-        },
-        "fr": {
-          "title": "AOS-Bench : Les agents LLM gèrent-ils des charges de travail dynamiques ?",
-          "summary": "AOS-Bench introduit un banc d'essai pour évaluer les agents de codage comme gestionnaires de charge de travail persistants. Les résultats montrent que le succès des tâches isolées ne prédit pas le succès en flux, soulignant la gestion de charge comme une capacité distincte.",
-          "keyPoints": [
-            "Introduit AOS-Bench pour évaluer les agents sous limites de CPU et de mémoire partagées.",
-            "Démontre que le succès des tâches isolées ne se traduit pas uniformément en flux.",
-            "Relie les écarts de performance aux politiques d'admission des tâches."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9811add079ed79",
-      "title": "Exposing Alignment-Faking LLMs via Synthetic Document Finetuning",
-      "summary": "This work presents a synthetic document finetuning method to expose latent misaligned propensities in alignment-faking LLMs without relying on chain-of-thought monitors or mechanistic interventions. Finetuning on identifiable honeypots widens the behavioral gap, though it can impact reasoning capabilities unless mitigated.",
-      "keyPoints": [
-        "Uses synthetic document finetuning to reveal latent misaligned model behaviors.",
-        "Measures changes in action rates when models are placed in identifiable honeypot environments.",
-        "Notes that finetuning can damage reasoning capabilities, requiring on-policy distillation mitigations."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33180",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Exposing Alignment-Faking LLMs via Synthetic Document Finetuning",
-          "summary": "This work presents a synthetic document finetuning method to expose latent misaligned propensities in alignment-faking LLMs without relying on chain-of-thought monitors or mechanistic interventions. Finetuning on identifiable honeypots widens the behavioral gap, though it can impact reasoning capabilities unless mitigated.",
-          "keyPoints": [
-            "Uses synthetic document finetuning to reveal latent misaligned model behaviors.",
-            "Measures changes in action rates when models are placed in identifiable honeypot environments.",
-            "Notes that finetuning can damage reasoning capabilities, requiring on-policy distillation mitigations."
-          ]
-        },
-        "fr": {
-          "title": "Exposer les LLM simulant l'alignement par fine-tuning de documents",
-          "summary": "Ce travail présente une méthode de fine-tuning de documents synthétiques pour exposer les propensions mal alignées latentes dans les LLM sans moniteurs de chaîne de pensée. Le fine-tuning sur des pots de miel identifiables élargit l'écart comportemental.",
-          "keyPoints": [
-            "Utilise le fine-tuning de documents synthétiques pour révéler des comportements mal alignés latents.",
-            "Mesure les changements de taux d'action dans des environnements de type pot de miel.",
-            "Observe des dommages sur les capacités de raisonnement nécessitant une atténuation par distillation."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1a92afb7b9758e",
-      "title": "Isharah-Selfie: Continuous Sign Language Recognition Dataset",
-      "summary": "Isharah-Selfie is a large-scale Arabic Sign Language dataset collected via smartphone front cameras under unconstrained selfie conditions. Featuring 8,997 video clips, it addresses the gap in mobile, one-handed, and unconstrained sign language recognition and translation benchmarks.",
-      "keyPoints": [
-        "Introduces a large-scale ArSL dataset collected using smartphone front-facing cameras.",
-        "Comprises 8,997 video clips across 1,493 unique sentences from 16 signers.",
-        "Exposes challenges in compositional generalization under unseen-sentence evaluation protocols."
+        "Examines strategic tension via spatial dependency matrices in Go.",
+        "Notes a historical surge in sustained tension following AlphaGo.",
+        "Shows AI can act as cognitive scaffolding for human decision-making."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33200",
+      "sourceUrl": "https://arxiv.org/abs/2610.33323",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Isharah-Selfie: Continuous Sign Language Recognition Dataset",
-          "summary": "Isharah-Selfie is a large-scale Arabic Sign Language dataset collected via smartphone front cameras under unconstrained selfie conditions. Featuring 8,997 video clips, it addresses the gap in mobile, one-handed, and unconstrained sign language recognition and translation benchmarks.",
+          "title": "AI Teaches Humans to Handle Complexity in the Game of Go",
+          "summary": "Using the game of Go, researchers investigate how agents navigate strategic tension, finding that artificial systems can act as cognitive scaffolding for human complexity handling.",
           "keyPoints": [
-            "Introduces a large-scale ArSL dataset collected using smartphone front-facing cameras.",
-            "Comprises 8,997 video clips across 1,493 unique sentences from 16 signers.",
-            "Exposes challenges in compositional generalization under unseen-sentence evaluation protocols."
+            "Examines strategic tension via spatial dependency matrices in Go.",
+            "Notes a historical surge in sustained tension following AlphaGo.",
+            "Shows AI can act as cognitive scaffolding for human decision-making."
           ]
         },
         "fr": {
-          "title": "Isharah-Selfie : Dataset de reconnaissance continue de la langue des signes",
-          "summary": "Isharah-Selfie est un dataset à grande échelle de langue des signes arabe collecté via des caméras frontales de smartphones en conditions de selfie non contraintes. Il comprend 8 997 clips vidéo pour combler le manque de repères mobiles.",
+          "title": "L'IA enseigne aux humains à gérer la complexité dans le jeu de Go",
+          "summary": "En utilisant le jeu de Go, des chercheurs étudient la gestion de la tension stratégique, montrant que les systèmes artificiels servent de support cognitif aux humains.",
           "keyPoints": [
-            "Présente un grand dataset ArSL collecté par caméras frontales de smartphones.",
-            "Comprend 8 997 clips vidéo à travers 1 493 phrases uniques par 16 signeurs.",
-            "Met en lumière les défis de généralisation compositionnelle sous des protocoles inédits."
+            "Étudie la tension stratégique à l'aide de matrices de dépendance spatiale.",
+            "Constate une hausse historique de la tension après AlphaGo.",
+            "Montre que l'IA agit comme un support cognitif pour la prise de décision."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-3ccc752c6d1636",
-      "title": "Scaling Qualitative Analysis with LLMs: The Smart Coder Framework",
-      "summary": "The Smart Coder Framework structures human-LLM collaborative qualitative coding through Instruction, Prompt Strategy, and Reliability Check. Evaluated on 72 teacher interview transcripts, instructions and chain-of-thought prompting consistently improved agreement while preserving human oversight.",
+      "id": "feed-5b21e073bc90c3",
+      "title": "TempShap: Feature Attribution in Time-Series Forecasting",
+      "summary": "Researchers propose TempShap, a retrospective, loss-based Shapley framework that yields temporal-localization and horizon-impact profiles for time-series forecasting attribution.",
       "keyPoints": [
-        "Proposes a three-phase framework for human-LLM collaborative qualitative coding.",
-        "Evaluated using 72 mathematics teacher interview transcripts and human-consensus benchmarks.",
-        "Shows that instruction and chain-of-thought prompting significantly improve agreement."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33205",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Scaling Qualitative Analysis with LLMs: The Smart Coder Framework",
-          "summary": "The Smart Coder Framework structures human-LLM collaborative qualitative coding through Instruction, Prompt Strategy, and Reliability Check. Evaluated on 72 teacher interview transcripts, instructions and chain-of-thought prompting consistently improved agreement while preserving human oversight.",
-          "keyPoints": [
-            "Proposes a three-phase framework for human-LLM collaborative qualitative coding.",
-            "Evaluated using 72 mathematics teacher interview transcripts and human-consensus benchmarks.",
-            "Shows that instruction and chain-of-thought prompting significantly improve agreement."
-          ]
-        },
-        "fr": {
-          "title": "Mise à l'échelle de l'analyse qualitative avec les LLM : Smart Coder",
-          "summary": "Le cadre Smart Coder structure le codage qualitatif collaboratif humain-LLM à travers l'instruction, la stratégie de prompt et le contrôle de fiabilité. Évalué sur 72 transcriptions d'entretiens, il améliore l'accord tout en préservant le contrôle humain.",
-          "keyPoints": [
-            "Propose un cadre en trois phases pour le codage qualitatif collaboratif humain-LLM.",
-            "Évalué à l'aide de 72 transcriptions d'entretiens d'enseignants et de repères de consensus.",
-            "Démontre que l'instruction et le prompt par chaîne de pensée améliorent l'accord."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6e5735c38485c6",
-      "title": "Distilling Expert Judgment at Scale for Automated Evaluation",
-      "summary": "This research presents a methodology for distilling expert human judgment and reasoning processes into structured editorial standards for automated evaluation systems. Validated on AI news reporting, expert-calibrated judges significantly outperformed uncalibrated frontier models across metrics.",
-      "keyPoints": [
-        "Presents a methodology to distill expert human judgment into structured editorial standards.",
-        "Validates the approach on AI news reporting using domain experts and automated judges.",
-        "Demonstrates that expert-calibrated judges substantially outperform uncalibrated frontier models."
+        "Introduces TempShap for time-series forecasting attribution.",
+        "Evaluates when features act and how their influence changes across the horizon.",
+        "Demonstrates a deletion-ranking advantage across benchmarks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33233",
+      "sourceUrl": "https://arxiv.org/abs/2610.33330",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Distilling Expert Judgment at Scale for Automated Evaluation",
-          "summary": "This research presents a methodology for distilling expert human judgment and reasoning processes into structured editorial standards for automated evaluation systems. Validated on AI news reporting, expert-calibrated judges significantly outperformed uncalibrated frontier models across metrics.",
+          "title": "TempShap: Feature Attribution in Time-Series Forecasting",
+          "summary": "Researchers propose TempShap, a retrospective, loss-based Shapley framework that yields temporal-localization and horizon-impact profiles for time-series forecasting attribution.",
           "keyPoints": [
-            "Presents a methodology to distill expert human judgment into structured editorial standards.",
-            "Validates the approach on AI news reporting using domain experts and automated judges.",
-            "Demonstrates that expert-calibrated judges substantially outperform uncalibrated frontier models."
+            "Introduces TempShap for time-series forecasting attribution.",
+            "Evaluates when features act and how their influence changes across the horizon.",
+            "Demonstrates a deletion-ranking advantage across benchmarks."
           ]
         },
         "fr": {
-          "title": "Distillation du jugement d'expert à grande échelle pour l'évaluation",
-          "summary": "Cette recherche présente une méthodologie pour distiller le jugement d'experts humains en normes éditoriales structurées pour l'évaluation automatisée. Validée sur l'actualité de l'IA, les juges calibrés par des experts surpassent les modèles de frontières.",
+          "title": "TempShap : Attribution des caractéristiques en prévision temporelle",
+          "summary": "Les chercheurs proposent TempShap, un cadre de Shapley rétrospectif basé sur les pertes pour l'attribution des prévisions de séries temporelles.",
           "keyPoints": [
-            "Présente une méthodologie pour encoder les processus de raisonnement d'experts en normes.",
-            "Valide l'approche sur des rapports d'actualité sur l'IA avec des experts du domaine.",
-            "Démontre que les juges calibrés par des experts surpassent les modèles non calibrés."
+            "Introduit TempShap pour l'attribution des prévisions temporelles.",
+            "Évalue l'action des caractéristiques et l'évolution de leur influence.",
+            "Démontre un avantage de classement par suppression sur les benchmarks."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-3d4ddf78630efb",
-      "title": "NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News",
-      "summary": "NewsBench is an expert-grounded benchmark evaluating the epistemic quality of AI news reporting across source quality, factuality, and neutrality. Using editorial standards from senior practitioners, the benchmark assesses frontier models and reveals distinct failure profiles.",
+      "id": "feed-eaac09e16abb18",
+      "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design",
+      "summary": "Introducing BenchBench-Cloning, a new benchmark comprising 65 molecular cloning tasks to evaluate language models on experimental planning and protocol development.",
       "keyPoints": [
-        "Introduces NewsBench, an expert-grounded benchmark based on professional editorial standards.",
-        "Operationalizes quality across source quality, factuality, and neutrality dimensions.",
-        "Evaluates four frontier models, uncovering distinct and non-overlapping failure profiles."
+        "Comprises 50 protocol-development and 15 construct-design tasks.",
+        "Evaluated via a cloning simulator and deterministic checks.",
+        "GPT-6 Astra scores highest at 30.6% across tested systems."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33355",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design",
+          "summary": "Introducing BenchBench-Cloning, a new benchmark comprising 65 molecular cloning tasks to evaluate language models on experimental planning and protocol development.",
+          "keyPoints": [
+            "Comprises 50 protocol-development and 15 construct-design tasks.",
+            "Evaluated via a cloning simulator and deterministic checks.",
+            "GPT-6 Astra scores highest at 30.6% across tested systems."
+          ]
+        },
+        "fr": {
+          "title": "BenchBench-Cloning : Évaluation de la conception en clonage moléculaire",
+          "summary": "Présentation de BenchBench-Cloning, un nouveau benchmark de 65 tâches de clonage moléculaire pour évaluer les modèles de langage dans la planification expérimentale.",
+          "keyPoints": [
+            "Comprend 50 tâches de protocoles et 15 tâches de conception de construits.",
+            "Évalué via un simulateur de clonage et des vérifications déterministes.",
+            "GPT-6 Astra obtient le score le plus élevé avec 30,6 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7784fd671386cc",
+      "title": "AgentOrch: Comparing Global Orchestration and Step-by-Step Interaction",
+      "summary": "AgentOrch compares global orchestration against step-by-step interaction across 650 enterprise SOPs, showing ways to narrow the accuracy gap in enterprise workflow agents.",
+      "keyPoints": [
+        "Compares global orchestration and step-by-step interaction.",
+        "Evaluates 650 enterprise SOPs and 3,220 runtime variants.",
+        "Identifies incremental construction and feedback revision to narrow the gap."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33375",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AgentOrch: Comparing Global Orchestration and Step-by-Step Interaction",
+          "summary": "AgentOrch compares global orchestration against step-by-step interaction across 650 enterprise SOPs, showing ways to narrow the accuracy gap in enterprise workflow agents.",
+          "keyPoints": [
+            "Compares global orchestration and step-by-step interaction.",
+            "Evaluates 650 enterprise SOPs and 3,220 runtime variants.",
+            "Identifies incremental construction and feedback revision to narrow the gap."
+          ]
+        },
+        "fr": {
+          "title": "AgentOrch : Comparaison entre orchestration globale et interaction pas à pas",
+          "summary": "AgentOrch compare l'orchestration globale à l'interaction pas à pas sur 650 procédures d'entreprise pour réduire l'écart de précision des agents de flux de travail.",
+          "keyPoints": [
+            "Compare l'orchestration globale et l'interaction pas à pas.",
+            "Évalue 650 procédures d'entreprise et 3 220 variantes d'exécution.",
+            "Propose des méthodes pour réduire l'écart de précision."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ad8d95b7fd5b95",
+      "title": "How to Build a Modern Diffusion Language Model",
+      "summary": "This article surveys discrete diffusion models as an alternative to autoregressive LLMs, enabling parallel token generation, built-in error correction, and faster inference speeds.",
+      "keyPoints": [
+        "Surveys discrete diffusion models for language and biology.",
+        "Enables parallel token generation and error correction.",
+        "Addresses GPU underutilization in standard autoregressive LLMs."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33240",
+      "sourceUrl": "https://arxiv.org/abs/2610.33391",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News",
-          "summary": "NewsBench is an expert-grounded benchmark evaluating the epistemic quality of AI news reporting across source quality, factuality, and neutrality. Using editorial standards from senior practitioners, the benchmark assesses frontier models and reveals distinct failure profiles.",
+          "title": "How to Build a Modern Diffusion Language Model",
+          "summary": "This article surveys discrete diffusion models as an alternative to autoregressive LLMs, enabling parallel token generation, built-in error correction, and faster inference speeds.",
           "keyPoints": [
-            "Introduces NewsBench, an expert-grounded benchmark based on professional editorial standards.",
-            "Operationalizes quality across source quality, factuality, and neutrality dimensions.",
-            "Evaluates four frontier models, uncovering distinct and non-overlapping failure profiles."
+            "Surveys discrete diffusion models for language and biology.",
+            "Enables parallel token generation and error correction.",
+            "Addresses GPU underutilization in standard autoregressive LLMs."
           ]
         },
         "fr": {
-          "title": "NewsBench : Évaluation de la qualité épistémique dans l'actualité de l'IA",
-          "summary": "NewsBench est un banc d'essai ancré sur l'expertise pour évaluer la qualité épistémique des rapports d'actualité de l'IA à travers la source, la factualité et la neutralité. L'évaluation de quatre modèles de pointe révèle des profils d'échec distincts.",
+          "title": "Comment construire un modèle de langage par diffusion moderne",
+          "summary": "Cet article étudie les modèles de diffusion discrète comme alternative aux LLM autorégressifs, permettant la génération de tokens en parallèle et une inférence plus rapide.",
           "keyPoints": [
-            "Introduit NewsBench, un benchmark fondé sur des normes éditoriales professionnelles.",
-            "Opérationnalise la qualité sur les dimensions de source, de factualité et de neutralité.",
-            "Évalue quatre modèles de pointe, révélant des profils de défaillance spécifiques."
+            "Étudie les modèles de diffusion discrète pour le langage et la biologie.",
+            "Permet la génération parallèle de tokens et la correction d'erreurs.",
+            "Remédie à la sous-utilisation des GPU dans les LLM autorégressifs."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-e3b2d0f3070b50",
-      "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
-      "summary": "AdaPRA is a persistent coding agent harness that uses rubric-guided process supervision and workspace checks to automate machine learning workflows. Tested on DSPredict tasks, AdaPRA significantly improves leaderboard performance and reduces process errors.",
+      "id": "feed-c631c0ad77c4e5",
+      "title": "Data Optimization for LLMs: A Comprehensive Survey",
+      "summary": "A comprehensive survey of data optimization techniques for large language models, covering perception dimensions, data selection, augmentation, reweighting, and future challenges.",
       "keyPoints": [
-        "Proposes AdaPRA, a coding agent harness featuring adaptive rubric-guided process supervision.",
-        "Accumulates knowledge across attempts and audits agent trajectories via workspace checks.",
-        "Improves Qwen model leaderboard percentiles and reduces errors on data science tasks."
+        "Develops a framework for LLM data optimization techniques.",
+        "Summarizes perception dimensions: quality, difficulty, diversity, and redundancy.",
+        "Categorizes techniques into selection, augmentation, reweighting, and others."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33245",
+      "sourceUrl": "https://arxiv.org/abs/2610.33405",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
-          "summary": "AdaPRA is a persistent coding agent harness that uses rubric-guided process supervision and workspace checks to automate machine learning workflows. Tested on DSPredict tasks, AdaPRA significantly improves leaderboard performance and reduces process errors.",
+          "title": "Data Optimization for LLMs: A Comprehensive Survey",
+          "summary": "A comprehensive survey of data optimization techniques for large language models, covering perception dimensions, data selection, augmentation, reweighting, and future challenges.",
           "keyPoints": [
-            "Proposes AdaPRA, a coding agent harness featuring adaptive rubric-guided process supervision.",
-            "Accumulates knowledge across attempts and audits agent trajectories via workspace checks.",
-            "Improves Qwen model leaderboard percentiles and reduces errors on data science tasks."
+            "Develops a framework for LLM data optimization techniques.",
+            "Summarizes perception dimensions: quality, difficulty, diversity, and redundancy.",
+            "Categorizes techniques into selection, augmentation, reweighting, and others."
           ]
         },
         "fr": {
-          "title": "AdaPRA : Agents de récompense de processus avec grilles adaptatives",
-          "summary": "AdaPRA est un environnement d'agent de codage persistant qui utilise une supervision de processus guidée par des grilles adaptatives pour automatiser les flux de travail en science des données, améliorant les performances et réduisant les erreurs.",
+          "title": "Optimisation des données pour les LLM : Une étude complète",
+          "summary": "Une étude complète des techniques d'optimisation des données pour les grands modèles de langage, couvrant les dimensions de perception, la sélection et l'augmentation.",
           "keyPoints": [
-            "Propose AdaPRA, un environnement d'agent doté d'une supervision guidée par des grilles.",
-            "Accumule des connaissances au fil des tentatives et audite la trajectoire de l'agent.",
-            "Améliore les performances sur les classements et réduit les erreurs sur DSPredict."
+            "Développe un cadre pour l'optimisation des données des LLM.",
+            "Résume les dimensions de perception : qualité, difficulté, diversité et redondance.",
+            "Classe les techniques en sélection, augmentation et réation de pondération."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-e70d1a301d1cbc",
-      "title": "Scoped Semantic Invariance as a Foundation for LLM Reliability",
-      "summary": "This paper formalizes consistency in LLMs as scoped semantic invariance over knowledge graphs, addressing undecidability in unconstrained transformations. The study shows that structural inconsistencies concentrate in localized hotspot subgraphs, which can be mitigated via layered grounding.",
+      "id": "feed-22bfdff3426e75",
+      "title": "Benchmarking System One Models for Time-Series Decision Making",
+      "summary": "This study evaluates Structured System 1 models, using Jev 1.13.0 as a case study, to convert continuous time-series forecasting into discrete decisions across classification and event prediction tasks.",
       "keyPoints": [
-        "Formalizes consistency as semantic invariance within bounded semantic domains using knowledge graphs.",
-        "Finds that inconsistencies concentrate in recurring local hotspot subgraph patterns across models.",
-        "Demonstrates that a layered graph grounding strategy improves correctness and consistency."
+        "Evaluated Jev 1.13.0 on time-series classification and event type prediction tasks.",
+        "Established a unified evaluation framework using accuracy and AUC.",
+        "Revealed strong performance on temporal patterns but near-chance discrimination on numerical sequences."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33267",
+      "sourceUrl": "https://arxiv.org/abs/2610.33410",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Scoped Semantic Invariance as a Foundation for LLM Reliability",
-          "summary": "This paper formalizes consistency in LLMs as scoped semantic invariance over knowledge graphs, addressing undecidability in unconstrained transformations. The study shows that structural inconsistencies concentrate in localized hotspot subgraphs, which can be mitigated via layered grounding.",
+          "title": "Benchmarking System One Models for Time-Series Decision Making",
+          "summary": "This study evaluates Structured System 1 models, using Jev 1.13.0 as a case study, to convert continuous time-series forecasting into discrete decisions across classification and event prediction tasks.",
           "keyPoints": [
-            "Formalizes consistency as semantic invariance within bounded semantic domains using knowledge graphs.",
-            "Finds that inconsistencies concentrate in recurring local hotspot subgraph patterns across models.",
-            "Demonstrates that a layered graph grounding strategy improves correctness and consistency."
+            "Evaluated Jev 1.13.0 on time-series classification and event type prediction tasks.",
+            "Established a unified evaluation framework using accuracy and AUC.",
+            "Revealed strong performance on temporal patterns but near-chance discrimination on numerical sequences."
           ]
         },
         "fr": {
-          "title": "Invariance sémantique délimitée comme fondement de la fiabilité des LLM",
-          "summary": "Cet article formalise la cohérence des LLM comme une invariance sémantique délimitée sur des graphes de connaissances. L'étude montre que les incohérences structurelles se concentrent dans des sous-graphes localisés atténués par un ancrage stratifié.",
+          "title": "Évaluation des modèles Système 1 pour la prise de décision",
+          "summary": "Cette étude évalue les modèles Système 1 structurés, en utilisant Jev 1.13.0 comme cas d'étude, pour convertir la prévision de séries temporelles en décisions discrètes.",
           "keyPoints": [
-            "Formalise la cohérence comme une invariance sémantique dans des domaines bornés.",
-            "Montre que les incohérences se concentrent dans des motifs de sous-graphes récurrents.",
-            "Démontre qu'une stratégie d'ancrage en couches améliore la correction et la cohérence."
+            "Évaluation de Jev 1.13.0 sur des tâches de classification et de prédiction d'événements.",
+            "Établissement d'un cadre d'évaluation unifié utilisant l'exactitude et l'AUC.",
+            "Mise en évidence de performances solides sur les motifs temporels mais faibles sur les séquences numériques."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-8cb83f8ce09e3f",
-      "title": "GEMS-RAG: Graph-grounded Engineering Multimodal Standards RAG",
-      "summary": "GEMS-RAG is a framework for grounded reasoning over hierarchical and multimodal engineering standards. By combining fine-grained visual entity extraction, knowledge graph construction, and hybrid retrieval, GEMS-RAG improves performance on complex regulatory and technical documents.",
+      "id": "feed-5abda68f809352",
+      "title": "ConMem: Counterfactual Probing for LLM Memory Misalignment",
+      "summary": "To address memory misalignment in long-term LLM agent memory, researchers introduce the MemAlign benchmark and the ConMem algorithm, using counterfactual causal inference to improve retention decisions.",
       "keyPoints": [
-        "Proposes GEMS-RAG for multimodal reasoning over complex engineering standards.",
-        "Decomposes figures into visual entities linked to textual provisions and rules.",
-        "Combines dense, sparse, and visual retrieval with graph expansion for better accuracy."
+        "Introduces MemAlign, a benchmark comprising 1,079 curated multi-session memory cases.",
+        "Proposes ConMem, an algorithm reframing retention as prospective counterfactual causal inference.",
+        "Achieves 75.16% accuracy and 64.15% balanced accuracy while mitigating over-retention biases."
       ],
-      "category": "Outils",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33277",
+      "sourceUrl": "https://arxiv.org/abs/2610.33432",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "GEMS-RAG: Graph-grounded Engineering Multimodal Standards RAG",
-          "summary": "GEMS-RAG is a framework for grounded reasoning over hierarchical and multimodal engineering standards. By combining fine-grained visual entity extraction, knowledge graph construction, and hybrid retrieval, GEMS-RAG improves performance on complex regulatory and technical documents.",
+          "title": "ConMem: Counterfactual Probing for LLM Memory Misalignment",
+          "summary": "To address memory misalignment in long-term LLM agent memory, researchers introduce the MemAlign benchmark and the ConMem algorithm, using counterfactual causal inference to improve retention decisions.",
           "keyPoints": [
-            "Proposes GEMS-RAG for multimodal reasoning over complex engineering standards.",
-            "Decomposes figures into visual entities linked to textual provisions and rules.",
-            "Combines dense, sparse, and visual retrieval with graph expansion for better accuracy."
+            "Introduces MemAlign, a benchmark comprising 1,079 curated multi-session memory cases.",
+            "Proposes ConMem, an algorithm reframing retention as prospective counterfactual causal inference.",
+            "Achieves 75.16% accuracy and 64.15% balanced accuracy while mitigating over-retention biases."
           ]
         },
         "fr": {
-          "title": "GEMS-RAG : RAG multimodal et ancré sur graphe pour normes d'ingénierie",
-          "summary": "GEMS-RAG est un cadre de raisonnement ancré sur les normes d'ingénierie multimodales et hiérarchiques. En combinant l'extraction d'entités visuelles et la construction de graphes de connaissances, GEMS-RAG améliore la recherche sur les documents techniques.",
+          "title": "ConMem : Sondage contrefactuel pour l'alignement mémoire",
+          "summary": "Pour remédier au désalignement de la mémoire des agents LLM à long terme, les chercheurs présentent le benchmark MemAlign et l'algorithme ConMem.",
           "keyPoints": [
-            "Propose GEMS-RAG pour le raisonnement multimodal sur les normes d'ingénierie.",
-            "Décompose les figures en entités visuelles liées aux dispositions textuelles.",
-            "Combine la recherche dense, creuse et visuelle avec l'extension de graphe."
+            "Présentation de MemAlign, un benchmark comprenant 1 079 cas de mémoire.",
+            "Proposition de ConMem, un algorithme reformulant la rétention comme une inférence causale.",
+            "Atteinte d'une précision de 75,16 % tout en atténuant les biais de sur-rétention."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0fe50b845bb6b8",
+      "title": "BoardSafety: AI-Ready Data for Development-Board Safety",
+      "summary": "The BoardSafety benchmark uses manufacturer documentation to evaluate whether large language models can accurately determine the safety of proposed operations on specific hardware development boards.",
+      "keyPoints": [
+        "Introduces BoardSafety, built from vendor datasheets and hardware guides.",
+        "Evaluates safety classification across safe, unsafe, and insufficient-info categories.",
+        "Demonstrates that models cannot yet reliably determine hardware operation safety."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33448",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "BoardSafety: AI-Ready Data for Development-Board Safety",
+          "summary": "The BoardSafety benchmark uses manufacturer documentation to evaluate whether large language models can accurately determine the safety of proposed operations on specific hardware development boards.",
+          "keyPoints": [
+            "Introduces BoardSafety, built from vendor datasheets and hardware guides.",
+            "Evaluates safety classification across safe, unsafe, and insufficient-info categories.",
+            "Demonstrates that models cannot yet reliably determine hardware operation safety."
+          ]
+        },
+        "fr": {
+          "title": "BoardSafety : Données pour la sécurité des cartes",
+          "summary": "Le benchmark BoardSafety utilise la documentation des fabricants pour évaluer si les grands modèles de langage peuvent déterminer la sécurité d'opérations matérielles.",
+          "keyPoints": [
+            "Introduction de BoardSafety, conçu à partir de fiches techniques de fournisseurs.",
+            "Évaluation de la classification de sécurité sur des catégories variées.",
+            "Démontre que les modèles ne peuvent pas encore déterminer la sécurité de manière fiable."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a6295eb2f84e91",
+      "title": "A Comprehensive Framework for All Stages of LLM Training",
+      "summary": "This paper proposes a unified stage division and a six-dimensional analytical framework covering data, tokenization, pretraining, and post-training alignment, reviewing 395 core references from 2017 to 2026.",
+      "keyPoints": [
+        "Proposes a six-dimensional analytical framework for large-model training pipelines.",
+        "Systematically reviews 395 core references spanning from 2017 to 2026.",
+        "Highlights cross-stage effects and key findings regarding scaling laws and preference alignment."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33451",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "A Comprehensive Framework for All Stages of LLM Training",
+          "summary": "This paper proposes a unified stage division and a six-dimensional analytical framework covering data, tokenization, pretraining, and post-training alignment, reviewing 395 core references from 2017 to 2026.",
+          "keyPoints": [
+            "Proposes a six-dimensional analytical framework for large-model training pipelines.",
+            "Systematically reviews 395 core references spanning from 2017 to 2026.",
+            "Highlights cross-stage effects and key findings regarding scaling laws and preference alignment."
+          ]
+        },
+        "fr": {
+          "title": "Un cadre complet pour toutes les étapes d'entraînement",
+          "summary": "Cet article propose une division unifiée des étapes et un cadre analytique à six dimensions couvrant les données, l'entraînement et l'alignement, analysant 395 références.",
+          "keyPoints": [
+            "Proposition d'un cadre analytique à six dimensions pour les pipelines d'entraînement.",
+            "Examen systématique de 395 références fondamentales de 2017 à 2026.",
+            "Mise en évidence des effets inter-étapes et des lois d'échelle."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fc3b7e421ef0a1",
+      "title": "LegoSR: Self-improving Agent-Guided Scientific Discovery",
+      "summary": "LegoSR integrates seven algebraic symbolic regression and differential equation solvers through a common framework, utilizing an agent to adapt searches based on solver knowledge and intermediate results.",
+      "keyPoints": [
+        "Integrates seven disparate equation discovery solvers into a unified framework.",
+        "Employs LegoSR Agent to select solvers and adapt searches dynamically.",
+        "Outperformed generic agents by up to 29 percentage points on noisy benchmarks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33465",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LegoSR: Self-improving Agent-Guided Scientific Discovery",
+          "summary": "LegoSR integrates seven algebraic symbolic regression and differential equation solvers through a common framework, utilizing an agent to adapt searches based on solver knowledge and intermediate results.",
+          "keyPoints": [
+            "Integrates seven disparate equation discovery solvers into a unified framework.",
+            "Employs LegoSR Agent to select solvers and adapt searches dynamically.",
+            "Outperformed generic agents by up to 29 percentage points on noisy benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "LegoSR : Découverte scientifique guidée par agent",
+          "summary": "LegoSR intègre sept solveurs de régression symbolique et d'équations différentielles au sein d'un cadre commun, utilisant un agent pour adapter les recherches.",
+          "keyPoints": [
+            "Intégration de sept solveurs de découverte d'équations dans un cadre unifié.",
+            "Utilisation de l'agent LegoSR pour sélectionner les solveurs et adapter les recherches.",
+            "Surpasse les agents génériques de jusqu'à 29 points de pourcentage sur des benchmarks."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-af059b626170ce",
+      "title": "Multivariate Time Series Super-Resolution Forecasting",
+      "summary": "Introducing Multivariate Time Series Super-Resolution Forecasting (MTS-SRF), this paper proposes TimeMagnifier to forecast fine-grained futures from coarse histories, cutting mean squared error significantly.",
+      "keyPoints": [
+        "Introduces MTS-SRF to forecast fine-grained futures from coarse historical records.",
+        "Proposes TimeMagnifier using Fourier Anchor, De-noise Only, and DTW Alignment stages.",
+        "Cuts MSE by 12.3% on average across ten datasets from five domains."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33470",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Multivariate Time Series Super-Resolution Forecasting",
+          "summary": "Introducing Multivariate Time Series Super-Resolution Forecasting (MTS-SRF), this paper proposes TimeMagnifier to forecast fine-grained futures from coarse histories, cutting mean squared error significantly.",
+          "keyPoints": [
+            "Introduces MTS-SRF to forecast fine-grained futures from coarse historical records.",
+            "Proposes TimeMagnifier using Fourier Anchor, De-noise Only, and DTW Alignment stages.",
+            "Cuts MSE by 12.3% on average across ten datasets from five domains."
+          ]
+        },
+        "fr": {
+          "title": "Prévision par super-résolution de séries temporelles",
+          "summary": "Introduisant la prévision par super-résolution de séries temporelles multivariées, cet article propose TimeMagnifier pour prédire des futurs précis à partir d'historiques grossiers.",
+          "keyPoints": [
+            "Introduction du cadre MTS-SRF pour la prévision à partir de données historiques grossières.",
+            "Proposition de TimeMagnifier intégrant des étapes de Fourier et d'alignement DTW.",
+            "Réduction de l'erreur quadratique moyenne de 12,3 % en moyenne sur dix jeux de données."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-92b2804ba06016",
+      "title": "SkillShift-Bench: Benchmarking Skill Learning for Web Agents",
+      "summary": "SkillShift-Bench evaluates web agent skill learning under controlled open-environment shifts, simulating contextual, perceptual, and execution variations across self-hosted web systems.",
+      "keyPoints": [
+        "Introduces the first benchmark for evaluating skill learning under open-environment shifts.",
+        "Simulates Contextual, Perceptual, and Execution shifts across three web systems.",
+        "Formulates shifted skill execution as a nonstationary local executability problem with test-time adaptation."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33528",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SkillShift-Bench: Benchmarking Skill Learning for Web Agents",
+          "summary": "SkillShift-Bench evaluates web agent skill learning under controlled open-environment shifts, simulating contextual, perceptual, and execution variations across self-hosted web systems.",
+          "keyPoints": [
+            "Introduces the first benchmark for evaluating skill learning under open-environment shifts.",
+            "Simulates Contextual, Perceptual, and Execution shifts across three web systems.",
+            "Formulates shifted skill execution as a nonstationary local executability problem with test-time adaptation."
+          ]
+        },
+        "fr": {
+          "title": "SkillShift-Bench : Évaluation de l'apprentissage",
+          "summary": "SkillShift-Bench évalue l'apprentissage des compétences des agents web sous des changements d'environnements ouverts contrôlés, simulant des variations contextuelles et perceptuelles.",
+          "keyPoints": [
+            "Introduction du premier benchmark d'évaluation sous des changements d'environnement.",
+            "Simulation de décalages contextuels, perceptuels et d'exécution sur trois systèmes web.",
+            "Formulation de l'exécution décalée comme un problème d'exécutabilité locale non stationnaire."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8db2524b22ef50",
+      "title": "FraudSociety: A Generative Agent Society for Financial Fraud",
+      "summary": "FraudSociety is an LLM-agent-based simulator that jointly models informational exposure and financial ledgers to simulate how financial fraud unfolds within a synthetic population.",
+      "keyPoints": [
+        "Jointly models information exposure and persistent financial ledger dynamics.",
+        "Replicates real-world macro outcomes and strong micro-level loss concentrations.",
+        "Evaluates counter-fraud interventions, reducing repeat-payment rates significantly."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33536",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "FraudSociety: A Generative Agent Society for Financial Fraud",
+          "summary": "FraudSociety is an LLM-agent-based simulator that jointly models informational exposure and financial ledgers to simulate how financial fraud unfolds within a synthetic population.",
+          "keyPoints": [
+            "Jointly models information exposure and persistent financial ledger dynamics.",
+            "Replicates real-world macro outcomes and strong micro-level loss concentrations.",
+            "Evaluates counter-fraud interventions, reducing repeat-payment rates significantly."
+          ]
+        },
+        "fr": {
+          "title": "FraudSociety : Une société d'agents pour la fraude",
+          "summary": "FraudSociety est un simulateur basé sur des agents LLM qui modélise conjointement l'exposition informationnelle et les registres financiers pour simuler la fraude.",
+          "keyPoints": [
+            "Modélisation conjointe de l'exposition à l'information et des flux financiers.",
+            "Reproduction des résultats macroéconomiques et des concentrations de pertes micro.",
+            "Évaluation d'interventions antifraude réduisant les taux de récidive de paiement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-559b42d4821286",
+      "title": "CoEvolve: Counterfactual-Guided Co-Evolution in Multi-Agents",
+      "summary": "CoEvolve is a skill-centered framework that coordinates memory and workflow collaboration updates in multi-agent systems using counterfactual trajectories and local evolution signals.",
+      "keyPoints": [
+        "Represents local collaboration patterns as skills linking workflows to supporting memories.",
+        "Uses counterfactual trajectories to identify signals coordinating updates across rounds.",
+        "Achieves top overall performance on ALFWorld and WebShop benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33539",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "CoEvolve: Counterfactual-Guided Co-Evolution in Multi-Agents",
+          "summary": "CoEvolve is a skill-centered framework that coordinates memory and workflow collaboration updates in multi-agent systems using counterfactual trajectories and local evolution signals.",
+          "keyPoints": [
+            "Represents local collaboration patterns as skills linking workflows to supporting memories.",
+            "Uses counterfactual trajectories to identify signals coordinating updates across rounds.",
+            "Achieves top overall performance on ALFWorld and WebShop benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "CoEvolve : Co-évolution guidée par contrefactuel",
+          "summary": "CoEvolve est un cadre axé sur les compétences qui coordonne les mises à jour de la mémoire et de la collaboration dans les systèmes multi-agents grâce à des trajectoires contrefactuelles.",
+          "keyPoints": [
+            "Représentation des modèles de collaboration sous forme de compétences.",
+            "Utilisation de trajectoires contrefactuelles pour identifier des signaux d'évolution.",
+            "Performance globale optimale sur les benchmarks ALFWorld et WebShop."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d195469774ab0a",
+      "title": "SMART-Med: Selective Multi-Agent Medical Reasoning",
+      "summary": "SMART-Med is a fully local multi-agent medical reasoning framework using uncertainty-aware routing to dynamically decide when expert collaboration is required.",
+      "keyPoints": [
+        "Replaces dense collaboration with a learnable, uncertainty-driven routing mechanism.",
+        "Curates MedVR-3K, a multimodal medical dataset with reasoning traces and difficulty hierarchy.",
+        "Reduces inference time by 3.8x and token usage by 72% while improving accuracy."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33544",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SMART-Med: Selective Multi-Agent Medical Reasoning",
+          "summary": "SMART-Med is a fully local multi-agent medical reasoning framework using uncertainty-aware routing to dynamically decide when expert collaboration is required.",
+          "keyPoints": [
+            "Replaces dense collaboration with a learnable, uncertainty-driven routing mechanism.",
+            "Curates MedVR-3K, a multimodal medical dataset with reasoning traces and difficulty hierarchy.",
+            "Reduces inference time by 3.8x and token usage by 72% while improving accuracy."
+          ]
+        },
+        "fr": {
+          "title": "SMART-Med : Raisonnement médical multi-agent",
+          "summary": "SMART-Med est un cadre de raisonnement médical multi-agent entièrement local utilisant un routage sensible à l'incertitude pour décider quand une collaboration d'experts est nécessaire.",
+          "keyPoints": [
+            "Remplacement de la collaboration dense par un mécanisme de routage basé sur l'incertitude.",
+            "Création de MedVR-3K, un jeu de données médical multimodal avec des traces de raisonnement.",
+            "Réduction du temps d'inférence de 3,8x et de l'utilisation des jetons de 72 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 746,
+    "itemsCollected": 748,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
