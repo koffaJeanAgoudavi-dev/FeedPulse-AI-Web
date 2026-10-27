@@ -1,790 +1,790 @@
 {
-  "generatedAt": "2026-10-26T18:42:12.562Z",
+  "generatedAt": "2026-10-27T05:09:13.844Z",
   "items": [
     {
-      "id": "feed-b1d7eb2dedce58",
-      "title": "Google's New AI Quest: Mapping the Human Brain",
-      "summary": "Learn AI literacy via Google's latest AI Quests lesson on neuroscience, titled \"Polar Peaks.\"",
+      "id": "feed-b9d49db98a1cb8",
+      "title": "Inverse Modeling for Laser Pulse Shape Design in ICF",
+      "summary": "Researchers introduce LPDS, a generative inverse modeling framework designed to map desired outcomes and target pellet configurations directly to optimized Laser Pulse Shapes (LPs) for Inertial Confinement Fusion (ICF). The method incorporates a multi-objective loss function and constraint-conditioning mechanisms to satisfy physical requirements.",
       "keyPoints": [
-        "Focuses on AI literacy learning",
-        "Part of Google's AI Quests series",
-        "Centers on a neuroscience lesson called Polar Peaks"
-      ],
-      "category": "Outils",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-      "publishedAt": "2026-10-26T16:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.width-1300.png",
-      "translations": {
-        "en": {
-          "title": "Google's New AI Quest: Mapping the Human Brain",
-          "summary": "Learn AI literacy via Google's latest AI Quests lesson on neuroscience, titled \"Polar Peaks.\"",
-          "keyPoints": [
-            "Focuses on AI literacy learning",
-            "Part of Google's AI Quests series",
-            "Centers on a neuroscience lesson called Polar Peaks"
-          ]
-        },
-        "fr": {
-          "title": "Nouvelle quête IA de Google : Cartographier le cerveau humain",
-          "summary": "Apprenez l'alphabétisation en IA grâce à la dernière leçon d'AI Quests de Google sur les neurosciences, intitulée « Polar Peaks ».",
-          "keyPoints": [
-            "Axé sur l'apprentissage de l'alphabétisation en IA",
-            "Fait partie de la série AI Quests de Google",
-            "Se concentre sur une leçon de neuroscience nommée Polar Peaks"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-27334100e818b9",
-      "title": "ChatGPT's Expanding World of Work",
-      "summary": "Explore OpenAI Signals data covering 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "keyPoints": [
-        "Analyzes data on 165 work activities",
-        "Covers nearly 100 countries globally",
-        "Examines work use cases and usage changes over time"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "publishedAt": "2026-10-26T10:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ChatGPT's Expanding World of Work",
-          "summary": "Explore OpenAI Signals data covering 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-          "keyPoints": [
-            "Analyzes data on 165 work activities",
-            "Covers nearly 100 countries globally",
-            "Examines work use cases and usage changes over time"
-          ]
-        },
-        "fr": {
-          "title": "Le monde du travail en expansion de ChatGPT",
-          "summary": "Explorez les données d'OpenAI Signals sur 165 activités professionnelles dans près de 100 pays, révélant comment les gens utilisent ChatGPT pour le travail.",
-          "keyPoints": [
-            "Analyse des données sur 165 activités professionnelles",
-            "Couvre près de 100 pays à travers le monde",
-            "Examine les cas d'usage professionnel et l'évolution de l'utilisation"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-bccce47abeed10",
-      "title": "DriveMind: Mind-Evolving Belief Tracking for Autonomous Driving",
-      "summary": "DriveMind is an MLLM-based driving framework that maintains multiple scene hypotheses simultaneously and updates their weights as new frames arrive, improving autonomous driving scores and success rates.",
-      "keyPoints": [
-        "Keeps several scene hypotheses alive at once inspired by particle filtering",
-        "Improves Driving Score from 68.50 to 81.37 on Bench2Drive",
-        "Delivers largest gains on ambiguous scenarios like unsignalized intersections"
+        "Introduces the ICF Laser Pulse Shape Design System (LPDS) for generative inverse modeling.",
+        "Utilizes a multi-objective loss function to meet fundamental physical constraints.",
+        "Features constraint-conditioning, inpainting, and gradient-based LP editing mechanisms."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32069",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.33096",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "DriveMind: Mind-Evolving Belief Tracking for Autonomous Driving",
-          "summary": "DriveMind is an MLLM-based driving framework that maintains multiple scene hypotheses simultaneously and updates their weights as new frames arrive, improving autonomous driving scores and success rates.",
+          "title": "Inverse Modeling for Laser Pulse Shape Design in ICF",
+          "summary": "Researchers introduce LPDS, a generative inverse modeling framework designed to map desired outcomes and target pellet configurations directly to optimized Laser Pulse Shapes (LPs) for Inertial Confinement Fusion (ICF). The method incorporates a multi-objective loss function and constraint-conditioning mechanisms to satisfy physical requirements.",
           "keyPoints": [
-            "Keeps several scene hypotheses alive at once inspired by particle filtering",
-            "Improves Driving Score from 68.50 to 81.37 on Bench2Drive",
-            "Delivers largest gains on ambiguous scenarios like unsignalized intersections"
+            "Introduces the ICF Laser Pulse Shape Design System (LPDS) for generative inverse modeling.",
+            "Utilizes a multi-objective loss function to meet fundamental physical constraints.",
+            "Features constraint-conditioning, inpainting, and gradient-based LP editing mechanisms."
           ]
         },
         "fr": {
-          "title": "DriveMind : Suivi des croyances pour la conduite autonome",
-          "summary": "DriveMind est un cadre de conduite basé sur les MLLM qui maintient plusieurs hypothèses de scène simultanément et met à jour leurs poids à l'arrivée de nouvelles images.",
+          "title": "Modélisation inverse pour la conception d'impulsions laser en ICF",
+          "summary": "Des chercheurs présentent LPDS, un cadre de modélisation inverse génératif conçu pour associer des résultats souhaités et des configurations de cibles directement à des formes d'impulsions laser (LP) optimisées pour la fusion par confinement inertiel (FCI).",
           "keyPoints": [
-            "Conserve plusieurs hypothèses de scène inspirées du filtrage particulaire",
-            "Améliore le score de conduite de 68,50 à 81,37 sur Bench2Drive",
-            "Offre les plus grands gains sur les scénarios ambigus"
+            "Présente le système LPDS pour la modélisation inverse générative.",
+            "Utilise une fonction de perte multi-objectifs pour respecter les contraintes physiques.",
+            "Intègre des mécanismes de conditionnement par contraintes et d'édition de impulsions."
           ]
         }
       },
       "quality": {
-        "confidence": 0.9,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-7e73eebe3e9093",
-      "title": "How Fanatics and OpenAI Streamline the Fan Experience",
-      "summary": "Fanatics uses OpenAI to help fans complete game-day outfits with Shop the Look, achieving 10% higher engagement across roughly 30,000 MLB products during testing.",
+      "id": "feed-a9c488820a62ac",
+      "title": "Greptile Expands Bug Detection with GPT-6 Astra",
+      "summary": "Greptile utilizes GPT-6 Astra to test user workflows, alongside Daybreak to strengthen security and Codex to reduce code rework.",
       "keyPoints": [
-        "Features Shop the Look tool powered by OpenAI",
-        "Tested across approximately 30,000 MLB products",
-        "Demonstrated a 10% increase in user engagement"
+        "Greptile leverages GPT-6 Astra for testing user workflows.",
+        "Daybreak is used to strengthen overall security.",
+        "Codex helps reduce code rework."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/greptile-code-review-codex-astra",
+      "publishedAt": "2026-10-26T22:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Greptile Expands Bug Detection with GPT-6 Astra",
+          "summary": "Greptile utilizes GPT-6 Astra to test user workflows, alongside Daybreak to strengthen security and Codex to reduce code rework.",
+          "keyPoints": [
+            "Greptile leverages GPT-6 Astra for testing user workflows.",
+            "Daybreak is used to strengthen overall security.",
+            "Codex helps reduce code rework."
+          ]
+        },
+        "fr": {
+          "title": "Greptile étend la détection de bugs avec GPT-6 Astra",
+          "summary": "Greptile utilise GPT-6 Astra pour tester les flux de travail des utilisateurs, aux côtés de Daybreak pour renforcer la sécurité et de Codex pour réduire retravail.",
+          "keyPoints": [
+            "Greptile exploite GPT-6 Astra pour tester les flux de travail.",
+            "Daybreak est employé pour renforcer la sécurité.",
+            "Codex aide à réduire le retravail du code."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c26c57bf683993",
+      "title": "IRON-Meme: Benchmark for Online Meme Narratives",
+      "summary": "Researchers introduce IRON-Meme, a human-annotated benchmark comprising 1,110 political memes grounded in social science theories. The study evaluates nine vision-language models, revealing that frontier-scale and reasoning models achieve highest performance while accuracy decreases for less frequent labels.",
+      "keyPoints": [
+        "Presents IRON-Meme, a human-annotated benchmark of 1,110 political memes.",
+        "Grounded in social science categories like social identities, viewpoints, and narrative roles.",
+        "Evaluates nine vision-language models, noting higher performance in frontier-scale models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33097",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "IRON-Meme: Benchmark for Online Meme Narratives",
+          "summary": "Researchers introduce IRON-Meme, a human-annotated benchmark comprising 1,110 political memes grounded in social science theories. The study evaluates nine vision-language models, revealing that frontier-scale and reasoning models achieve highest performance while accuracy decreases for less frequent labels.",
+          "keyPoints": [
+            "Presents IRON-Meme, a human-annotated benchmark of 1,110 political memes.",
+            "Grounded in social science categories like social identities, viewpoints, and narrative roles.",
+            "Evaluates nine vision-language models, noting higher performance in frontier-scale models."
+          ]
+        },
+        "fr": {
+          "title": "IRON-Meme : Un banc d'essai pour les mèmes en ligne",
+          "summary": "Les chercheurs présentent IRON-Meme, un banc d'essai annoté par l'homme comprenant 1 110 mèmes politiques ancrés dans des théories des sciences sociales. L'évaluation de neuf modèles vision-langage montre que les modèles de pointe obtiennent les meilleures performances.",
+          "keyPoints": [
+            "Présente IRON-Meme, un ensemble de 1 110 mèmes politiques annotés.",
+            "Ancré dans des catégories de sciences sociales telles que les identités et les rôles.",
+            "Évalue neuf modèles vision-langage avec des performances variables selon les étiquettes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8eb6001a836a6e",
+      "title": "Collaborating with Academic Communities on Scientific Understanding",
+      "summary": "OpenAI shares model results on complex mathematical and physical topics including the Kakeya conjecture, the Exponential Time Hypothesis, and quantum chromodynamics, providing methods for researchers to verify and build upon them.",
+      "keyPoints": [
+        "Shares model results on the Kakeya conjecture.",
+        "Covers findings on the Exponential Time Hypothesis and quantum chromodynamics.",
+        "Details ways for researchers to verify and build upon the findings."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "sourceUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "publishedAt": "2026-10-26T14:30:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Collaborating with Academic Communities on Scientific Understanding",
+          "summary": "OpenAI shares model results on complex mathematical and physical topics including the Kakeya conjecture, the Exponential Time Hypothesis, and quantum chromodynamics, providing methods for researchers to verify and build upon them.",
+          "keyPoints": [
+            "Shares model results on the Kakeya conjecture.",
+            "Covers findings on the Exponential Time Hypothesis and quantum chromodynamics.",
+            "Details ways for researchers to verify and build upon the findings."
+          ]
+        },
+        "fr": {
+          "title": "Collaboration avec les communautés académiques pour la science",
+          "summary": "OpenAI partage les résultats de ses modèles sur des sujets scientifiques complexes tels que la conjecture de Kakeya, l'hypothèse du temps exponentiel et la chromodynamique quantique, montrant comment les chercheurs peuvent les vérifier.",
+          "keyPoints": [
+            "Partage des résultats sur la conjecture de Kakeya.",
+            "Aborde l'hypothèse du temps exponentiel et la chromodynamique quantique.",
+            "Explique comment les chercheurs peuvent exploiter ces résultats."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d0fbbabfd8a628",
+      "title": "Meta-Analysis of Prospect Theory in Large Language Models",
+      "summary": "A meta-analysis of 102 fitted estimates across 11 studies evaluates whether Large Language Models display prospect theory properties such as loss aversion, diminishing sensitivity, and probability weighting. Results indicate LLMs show modest loss aversion and linear value functions, but retain human-like probability distortion.",
+      "keyPoints": [
+        "Meta-analyzes 102 fitted estimates from 11 studies covering 32 language models.",
+        "Finds that loss aversion in LLMs is modest with a pooled lambda of 1.26.",
+        "Shows value functions are close to linear while probability weighting displays human-like inverse S shape."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33103",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Meta-Analysis of Prospect Theory in Large Language Models",
+          "summary": "A meta-analysis of 102 fitted estimates across 11 studies evaluates whether Large Language Models display prospect theory properties such as loss aversion, diminishing sensitivity, and probability weighting. Results indicate LLMs show modest loss aversion and linear value functions, but retain human-like probability distortion.",
+          "keyPoints": [
+            "Meta-analyzes 102 fitted estimates from 11 studies covering 32 language models.",
+            "Finds that loss aversion in LLMs is modest with a pooled lambda of 1.26.",
+            "Shows value functions are close to linear while probability weighting displays human-like inverse S shape."
+          ]
+        },
+        "fr": {
+          "title": "Méta-analyse de la théorie des perspectives dans les LLM",
+          "summary": "Une méta-analyse de 102 estimations provenant de 11 études évaluent si les grands modèles de langage présentent les propriétés de la théorie des perspectives. Les résultats indiquent une aversion modeste pour la perte et des fonctions de valeur linéaires.",
+          "keyPoints": [
+            "Analyse 102 estimations ajustées issues de 11 études sur 32 modèles.",
+            "Montre une aversion pour la perte modeste avec un lambda global de 1,26.",
+            "Indique des fonctions de valeur proches de la linéarité et une distorsion des probabilités."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7d972df501d01b",
+      "title": "CodeRabbit Enhances Code Security Using GPT-6.1 Sol",
+      "summary": "CodeRabbit leverages GPT-6.1 Sol to investigate security risks across complex codebases. Its integrated security agent assists developers in reviewing findings and proposed fixes.",
+      "keyPoints": [
+        "CodeRabbit uses GPT-6.1 Sol for security risk investigation.",
+        "Targets complex codebases to identify vulnerabilities.",
+        "Employs a security agent to help developers review findings and fixes."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "publishedAt": "2026-10-26T13:45:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "CodeRabbit Enhances Code Security Using GPT-6.1 Sol",
+          "summary": "CodeRabbit leverages GPT-6.1 Sol to investigate security risks across complex codebases. Its integrated security agent assists developers in reviewing findings and proposed fixes.",
+          "keyPoints": [
+            "CodeRabbit uses GPT-6.1 Sol for security risk investigation.",
+            "Targets complex codebases to identify vulnerabilities.",
+            "Employs a security agent to help developers review findings and fixes."
+          ]
+        },
+        "fr": {
+          "title": "CodeRabbit renforce la sécurité du code avec GPT-6.1 Sol",
+          "summary": "CodeRabbit utilise GPT-6.1 Sol pour enquêter sur les risques de sécurité dans des bases de code complexes. Son agent de sécurité aide les développeurs à examiner les résultats et les correctifs proposés.",
+          "keyPoints": [
+            "CodeRabbit exploite GPT-6.1 Sol pour l'analyse des risques de sécurité.",
+            "S'applique à des bases de code complexes.",
+            "Intègre un agent de sécurité pour assister la révision des correctifs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7dcd5df6110fed",
+      "title": "AI in Mechanical Engineering: Foundations and Challenges",
+      "summary": "Drawing from a round-table at COBEM 2025, this article examines how artificial intelligence is reshaping mechanical engineering. It discusses statistical learning versus human cognition, industrial adoption, educational challenges, and principles for responsible AI integration.",
+      "keyPoints": [
+        "Examines AI reshaping mechanical engineering across modeling, simulation, and design.",
+        "Discusses statistical learning, agentic forms, and industrial adoption challenges.",
+        "Outlines principles for responsible AI adoption including physical consistency and validation."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33105",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AI in Mechanical Engineering: Foundations and Challenges",
+          "summary": "Drawing from a round-table at COBEM 2025, this article examines how artificial intelligence is reshaping mechanical engineering. It discusses statistical learning versus human cognition, industrial adoption, educational challenges, and principles for responsible AI integration.",
+          "keyPoints": [
+            "Examines AI reshaping mechanical engineering across modeling, simulation, and design.",
+            "Discusses statistical learning, agentic forms, and industrial adoption challenges.",
+            "Outlines principles for responsible AI adoption including physical consistency and validation."
+          ]
+        },
+        "fr": {
+          "title": "L'IA en génie mécanique : Fondations, opportunités et défis",
+          "summary": "S'appuyant sur une table ronde du COBEM 2025, cet article examine comment l'intelligence artificielle remodèle le génie mécanique, abordant l'apprentissage statistique, l'adoption industrielle et les principes d'une intégration responsable.",
+          "keyPoints": [
+            "Examine l'impact de l'IA sur la modélisation et la conception en génie mécanique.",
+            "Discute de l'apprentissage statistique, des agents et des défis d'adoption industrielle.",
+            "Définit des principes pour une adoption responsable de l'IA incluant la cohérence physique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-742d30efdc4090",
+      "title": "How OpenAI Cut Incident Investigation Times with Codex Ultrafast",
+      "summary": "OpenAI engineers utilize Codex Ultrafast to reduce incident investigation times from hours to minutes, enhancing security analysis, code refactoring, and daily development workflows.",
+      "keyPoints": [
+        "OpenAI engineers reduce incident investigation from hours to minutes.",
+        "Leverages Codex Ultrafast for faster security analysis.",
+        "Improves code refactoring and daily engineering workflows."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-cut-incident-investigation",
       "publishedAt": "2026-10-26T07:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "How Fanatics and OpenAI Streamline the Fan Experience",
-          "summary": "Fanatics uses OpenAI to help fans complete game-day outfits with Shop the Look, achieving 10% higher engagement across roughly 30,000 MLB products during testing.",
+          "title": "How OpenAI Cut Incident Investigation Times with Codex Ultrafast",
+          "summary": "OpenAI engineers utilize Codex Ultrafast to reduce incident investigation times from hours to minutes, enhancing security analysis, code refactoring, and daily development workflows.",
           "keyPoints": [
-            "Features Shop the Look tool powered by OpenAI",
-            "Tested across approximately 30,000 MLB products",
-            "Demonstrated a 10% increase in user engagement"
+            "OpenAI engineers reduce incident investigation from hours to minutes.",
+            "Leverages Codex Ultrafast for faster security analysis.",
+            "Improves code refactoring and daily engineering workflows."
           ]
         },
         "fr": {
-          "title": "Comment Fanatics et OpenAI simplifient l'expérience des fans",
-          "summary": "Fanatics utilise OpenAI pour aider les fans à compléter leurs tenues de match avec Shop the Look, obtenant un engagement supérieur de 10 % sur environ 30 000 produits MLB.",
+          "title": "Comment OpenAI a réduit le temps d'enquête avec Codex Ultrafast",
+          "summary": "Les ingénieurs d'OpenAI utilisent Codex Ultrafast pour réduire les enquêtes sur les incidents de plusieurs heures à quelques minutes, améliorant ainsi l'analyse de sécurité et les flux de travail quotidiens.",
           "keyPoints": [
-            "Intègre l'outil Shop the Look alimenté par OpenAI",
-            "Testé sur environ 30 000 produits MLB",
-            "A démontré une augmentation de 10 % de l'engagement"
+            "Réduit le temps d'enquête sur les incidents de plusieurs heures à quelques minutes.",
+            "Utilise Codex Ultrafast pour une analyse de sécurité accélérée.",
+            "Améliore la refactorisation du code et les flux de travail."
           ]
         }
       },
       "quality": {
-        "confidence": 0.9,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-d42a04b577f838",
-      "title": "Behaviour Analysis for Large Language Model-Driven Agents",
-      "summary": "Researchers propose a general framework connecting data-driven behavioural discovery with analysis and experimental investigation to understand language-agent behaviour across trajectories.",
+      "id": "feed-43b68f3d614400",
+      "title": "Conformance as a Distribution in Use-Based AI Regulation",
+      "summary": "This paper examines use-based AI regulation by analyzing delegation contracts, error budgets, and evaluation authority under strategic interactions between a deployer, an auditor, and an enforcement point. Five preregistered synthetic studies test the proposed mechanisms.",
       "keyPoints": [
-        "Connects behavioural discovery with analysis and experiments",
-        "Expresses relationships as interpretable hypotheses",
-        "Uses prompt steering and varied conditions to test agent outcomes"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32087",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Behaviour Analysis for Large Language Model-Driven Agents",
-          "summary": "Researchers propose a general framework connecting data-driven behavioural discovery with analysis and experimental investigation to understand language-agent behaviour across trajectories.",
-          "keyPoints": [
-            "Connects behavioural discovery with analysis and experiments",
-            "Expresses relationships as interpretable hypotheses",
-            "Uses prompt steering and varied conditions to test agent outcomes"
-          ]
-        },
-        "fr": {
-          "title": "Analyse du comportement pour les agents pilotés par LLM",
-          "summary": "Les chercheurs proposent un cadre général reliant la découverte comportementale guidée par les données à l'analyse et à l'investigation expérimentale.",
-          "keyPoints": [
-            "Relie la découverte comportementale à l'analyse et aux expériences",
-            "Exprime les relations sous forme d'hypothèses interprétables",
-            "Utilise le pilotage de invites pour tester les résultats des agents"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6925ee17bfc882",
-      "title": "DELA: Learning Controllable Edits for Diffusion Language Models",
-      "summary": "DELA is a plug-in framework enabling controllable draft refinement with a frozen diffusion language model using explicit actions like Insert, Delete, Remask, and Stop.",
-      "keyPoints": [
-        "Uses a two-phase decoding procedure for efficient draft editing",
-        "Trained using a staged curriculum from local priors to downstream alignment",
-        "Achieves gains up to 5.5 percentage points over direct diffusion decoding"
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32096",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DELA: Learning Controllable Edits for Diffusion Language Models",
-          "summary": "DELA is a plug-in framework enabling controllable draft refinement with a frozen diffusion language model using explicit actions like Insert, Delete, Remask, and Stop.",
-          "keyPoints": [
-            "Uses a two-phase decoding procedure for efficient draft editing",
-            "Trained using a staged curriculum from local priors to downstream alignment",
-            "Achieves gains up to 5.5 percentage points over direct diffusion decoding"
-          ]
-        },
-        "fr": {
-          "title": "DELA : Apprentissage de modifications contrôlables pour les modèles de diffusion",
-          "summary": "DELA est un cadre modulaire permettant le raffinement de brouillons contrôlables avec un modèle de langage de diffusion gelé en utilisant des actions explicites.",
-          "keyPoints": [
-            "Utilise une procédure de décodage en deux phases pour l'édition efficace",
-            "Entraîné à l'aide d'un programme étagé allant des a priori locaux à l'alignement",
-            "Atteint des gains allant jusqu'à 5,5 points de pourcentage"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ffd0aaab352351",
-      "title": "Learning Nonlinear Waveform Fusion Across Scales for ISAC",
-      "summary": "Researchers learn nonlinear waveform fusion across scales for image transmission and multi-target localization, reducing normalized localization error significantly in integrated sensing and communication.",
-      "keyPoints": [
-        "Combines image features and a frequency-modulated reference",
-        "Reduces normalized localization error by 29.0% and 27.0%",
-        "Increases mean peak signal-to-noise ratio by up to 1.40 dB"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32099",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Learning Nonlinear Waveform Fusion Across Scales for ISAC",
-          "summary": "Researchers learn nonlinear waveform fusion across scales for image transmission and multi-target localization, reducing normalized localization error significantly in integrated sensing and communication.",
-          "keyPoints": [
-            "Combines image features and a frequency-modulated reference",
-            "Reduces normalized localization error by 29.0% and 27.0%",
-            "Increases mean peak signal-to-noise ratio by up to 1.40 dB"
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage de fusion de formes d'onde non linéaires pour les ISAC",
-          "summary": "Les chercheurs étudient la fusion de formes d'onde non linéaires pour la transmission d'images et la localisation de cibles multiples.",
-          "keyPoints": [
-            "Combine des caractéristiques d'image et une référence modulée en fréquence",
-            "Réduit l'erreur de localisation normalisée de 29,0 % et 27,0 %",
-            "Augmente le rapport signal/bruit de crête moyen jusqu'à 1,40 dB"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7df57fc5ebfb2f",
-      "title": "PersonaScienceBench: Evaluating Scientific Agents with Personas",
-      "summary": "PersonaScienceBench evaluates scientific agents across 200 tasks using simulated researchers with diverse persona profiles, testing collaboration alongside task completion.",
-      "keyPoints": [
-        "Includes 200 tasks from five benchmarks across four domains",
-        "Uses simulated researchers to provide context and feedback",
-        "Evaluates agent collaboration and interaction traces"
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32106",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PersonaScienceBench: Evaluating Scientific Agents with Personas",
-          "summary": "PersonaScienceBench evaluates scientific agents across 200 tasks using simulated researchers with diverse persona profiles, testing collaboration alongside task completion.",
-          "keyPoints": [
-            "Includes 200 tasks from five benchmarks across four domains",
-            "Uses simulated researchers to provide context and feedback",
-            "Evaluates agent collaboration and interaction traces"
-          ]
-        },
-        "fr": {
-          "title": "PersonaScienceBench : Évaluation d'agents scientifiques avec personas",
-          "summary": "PersonaScienceBench évalue les agents scientifiques à travers 200 tâches en utilisant des chercheurs simulés dotés de profils de personas diversifiés.",
-          "keyPoints": [
-            "Comprend 200 tâches provenant de cinq benchmarks",
-            "Utilise des chercheurs simulés pour fournir contexte et retours",
-            "Évalue la collaboration des agents et les traces d'interaction"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e84b72eb49f153",
-      "title": "Who Verifies the Tools? How Warped Formatters Mislead Agents",
-      "summary": "Tool output formatters can misrepresent what a tool actually did by omitting key details, misleading both language agents and verifiers into accepting incorrect information.",
-      "keyPoints": [
-        "Discovered in a production RAG research system and open-source systems",
-        "Fixing omitted formatter details drastically reduced unsupported agent claims",
-        "Audit prompts successfully rediscovered live system defects"
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32110",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Who Verifies the Tools? How Warped Formatters Mislead Agents",
-          "summary": "Tool output formatters can misrepresent what a tool actually did by omitting key details, misleading both language agents and verifiers into accepting incorrect information.",
-          "keyPoints": [
-            "Discovered in a production RAG research system and open-source systems",
-            "Fixing omitted formatter details drastically reduced unsupported agent claims",
-            "Audit prompts successfully rediscovered live system defects"
-          ]
-        },
-        "fr": {
-          "title": "Qui vérifie les outils ? Comment les formateurs induisent en erreur",
-          "summary": "Les formateurs de sortie d'outils peuvent fausser les actions réelles en omettant des détails clés, trompant ainsi les agents et les vérificateurs.",
-          "keyPoints": [
-            "Découvert dans un système de recherche RAG et des systèmes open source",
-            "La correction des formateurs a considérablement réduit les fausses affirmations",
-            "Les invites d'audit ont réussi à redécouvrir des défauts en direct"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-027c5bc38fca14",
-      "title": "MPQ: A Message-Passing View of Post-Training Quantization",
-      "summary": "Message-Passing Quantization (MPQ) treats row-wise post-training quantization as posterior inference over discrete codebooks, improving perplexity and accuracy on language models.",
-      "keyPoints": [
-        "Preserves soft posterior information across blocks during inference",
-        "Improves perplexity and zero-shot accuracy over hard-decision baselines",
-        "Evaluated on dense language models from Llama, Qwen, and Mistral families"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32127",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MPQ: A Message-Passing View of Post-Training Quantization",
-          "summary": "Message-Passing Quantization (MPQ) treats row-wise post-training quantization as posterior inference over discrete codebooks, improving perplexity and accuracy on language models.",
-          "keyPoints": [
-            "Preserves soft posterior information across blocks during inference",
-            "Improves perplexity and zero-shot accuracy over hard-decision baselines",
-            "Evaluated on dense language models from Llama, Qwen, and Mistral families"
-          ]
-        },
-        "fr": {
-          "title": "MPQ : Une vue par propagation de messages de la quantification",
-          "summary": "La quantification par propagation de messages (MPQ) traite la quantification après entraînement comme une inférence a posteriori, améliorant la précision des modèles.",
-          "keyPoints": [
-            "Préserve l'information a posteriori douce entre les blocs",
-            "Améliore la perplexité et la précision zero-shot",
-            "Évalué sur les familles de modèles de langage Llama, Qwen et Mistral"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-14628d0452b3d7",
-      "title": "$\\Psi$-0.6: Adaptive Streams of Thought in a Vision-Language Model",
-      "summary": "The authors introduce $\\Psi$-0.6, a unified vision-language world model that adaptively composes perception, language, geometry, and simulation through shared reasoning streams. It surpasses leading open-weight models zero-shot on multi-view spatial reasoning and supports counterfactual physical simulations.",
-      "keyPoints": [
-        "Combines perception, language, geometry, and simulation via a shared token interface.",
-        "Surpasses leading open-weight models zero-shot on multi-view spatial reasoning.",
-        "Uses reinforcement learning to optimize intermediate representations for visual QA."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32177",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "$\\Psi$-0.6: Adaptive Streams of Thought in a Vision-Language Model",
-          "summary": "The authors introduce $\\Psi$-0.6, a unified vision-language world model that adaptively composes perception, language, geometry, and simulation through shared reasoning streams. It surpasses leading open-weight models zero-shot on multi-view spatial reasoning and supports counterfactual physical simulations.",
-          "keyPoints": [
-            "Combines perception, language, geometry, and simulation via a shared token interface.",
-            "Surpasses leading open-weight models zero-shot on multi-view spatial reasoning.",
-            "Uses reinforcement learning to optimize intermediate representations for visual QA."
-          ]
-        },
-        "fr": {
-          "title": "$\\Psi$-0.6 : Flux de pensée adaptatifs dans un modèle mondial vision-langage",
-          "summary": "Les auteurs présentent $\\Psi$-0.6, un modèle mondial unifié de vision-langage qui compose de manière adaptative la perception, le langage, la géométrie et la simulation grâce à des flux de raisonnement partagés. Il surpasse les principaux modèles open weights en zéro-shot sur le raisonnement spatial multi-vue.",
-          "keyPoints": [
-            "Combine perception, langage, géométrie et simulation via une interface de jetons partagée.",
-            "Surpasse les principaux modèles open weights en zéro-shot sur le raisonnement spatial multi-vue.",
-            "Utilise l'apprentissage par renforcement pour optimiser les représentations intermédiaires."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3fd9d9ef6611fd",
-      "title": "Decision-Informed Information Seeking with LLMs",
-      "summary": "Large language models often pay for costly evidence that does not change their decisions or keep asking when evidence is sufficient. The authors propose DIVA, a training-free procedure valuing information based on decision value, significantly reducing regret across various benchmarks.",
-      "keyPoints": [
-        "Addresses the information trap where LLMs acquire costly or redundant evidence.",
-        "Introduces DIVA, a training-free procedure for decision-informed information seeking.",
-        "Demonstrates lower regret compared to existing LLM baselines across multiple domains."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32181",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Decision-Informed Information Seeking with LLMs",
-          "summary": "Large language models often pay for costly evidence that does not change their decisions or keep asking when evidence is sufficient. The authors propose DIVA, a training-free procedure valuing information based on decision value, significantly reducing regret across various benchmarks.",
-          "keyPoints": [
-            "Addresses the information trap where LLMs acquire costly or redundant evidence.",
-            "Introduces DIVA, a training-free procedure for decision-informed information seeking.",
-            "Demonstrates lower regret compared to existing LLM baselines across multiple domains."
-          ]
-        },
-        "fr": {
-          "title": "Recherche d'information éclairée par la décision avec les LLM",
-          "summary": "Les grands modèles de langage paient souvent pour des preuves coûteuses qui ne modifient pas leurs décisions. Les auteurs proposent DIVA, une procédure sans entraînement évaluant l'information selon sa valeur décisionnelle, réduisant considérablement le regret sur divers benchmarks.",
-          "keyPoints": [
-            "Remédie au piège informationnel où les LLM acquièrent des preuves coûteuses ou redondantes.",
-            "Introduit DIVA, une procédure sans entraînement pour la recherche d'information.",
-            "Démontre un regret inférieur à celui des bases de référence LLM sur plusieurs domaines."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c9618822453ebf",
-      "title": "Evidence-Grounded SLM Behavioral Prediction Architecture",
-      "summary": "To address the computational demands of LLMs for on-device behavioral prediction, this study introduces ELBP, a four-layer architecture combining deterministic processing and Small Language Models. Using Qwen2.5-3B with ELBP improved F1-score and reduced prediction errors significantly.",
-      "keyPoints": [
-        "Introduces ELBP, an architecture combining deterministic processing and SLMs for local prediction.",
-        "Evaluates instruction-tuned models of 3B parameters or fewer for interaction forecasting.",
-        "Achieves improved F1-scores and reduced error rates compared to raw prompting and XGBoost."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32193",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evidence-Grounded SLM Behavioral Prediction Architecture",
-          "summary": "To address the computational demands of LLMs for on-device behavioral prediction, this study introduces ELBP, a four-layer architecture combining deterministic processing and Small Language Models. Using Qwen2.5-3B with ELBP improved F1-score and reduced prediction errors significantly.",
-          "keyPoints": [
-            "Introduces ELBP, an architecture combining deterministic processing and SLMs for local prediction.",
-            "Evaluates instruction-tuned models of 3B parameters or fewer for interaction forecasting.",
-            "Achieves improved F1-scores and reduced error rates compared to raw prompting and XGBoost."
-          ]
-        },
-        "fr": {
-          "title": "Architecture de prédiction comportementale par SLM ancrée sur des preuves",
-          "summary": "Pour répondre aux exigences informatiques des LLM sur les appareils, cette étude présente ELBP, une architecture à quatre couches combinant traitement déterministe et petits modèles de langage. L'utilisation de Qwen2.5-3B avec ELBP améliore le score F1 et réduit les erreurs.",
-          "keyPoints": [
-            "Présente ELBP, une architecture combinant traitement déterministe et SLM pour la prédiction locale.",
-            "Évalue des modèles optimisés de 3 milliards de paramètres ou moins pour la prévision d'interactions.",
-            "Améliore les scores F1 et réduit les taux d'erreur par rapport aux méthodes de référence."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-5322d73debe478",
-      "title": "SWE-Shift: Evaluating Coding Agents in Evolving Workspaces",
-      "summary": "The authors introduce SWE-Shift, a benchmark for evaluating coding agents under mid-execution workspace changes across 120 scenarios. Results across 17 coding-agent systems show that success on unchanged tasks can coexist with failures to recover state or refresh evidence.",
-      "keyPoints": [
-        "Introduces SWE-Shift to evaluate coding agents under mid-execution environment changes.",
-        "Contains 120 scenarios across 12 change families evaluated at scheduled intervention positions.",
-        "Shows that systems often fail to preserve work or refresh evidence after updates."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32196",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SWE-Shift: Evaluating Coding Agents in Evolving Workspaces",
-          "summary": "The authors introduce SWE-Shift, a benchmark for evaluating coding agents under mid-execution workspace changes across 120 scenarios. Results across 17 coding-agent systems show that success on unchanged tasks can coexist with failures to recover state or refresh evidence.",
-          "keyPoints": [
-            "Introduces SWE-Shift to evaluate coding agents under mid-execution environment changes.",
-            "Contains 120 scenarios across 12 change families evaluated at scheduled intervention positions.",
-            "Shows that systems often fail to preserve work or refresh evidence after updates."
-          ]
-        },
-        "fr": {
-          "title": "SWE-Shift : Évaluation des agents de codage dans des espaces de travail évolutifs",
-          "summary": "Les auteurs présentent SWE-Shift, un benchmark pour évaluer les agents de codage face à des changements d'espace de travail en cours d'exécution à travers 120 scénarios. Les résultats sur 17 systèmes montrent que la réussite des tâches inchangées coexiste avec des échecs de récupération.",
-          "keyPoints": [
-            "Introduit SWE-Shift pour évaluer les agents de codage lors de modifications de l'environnement.",
-            "Contient 120 scénarios répartis sur 12 familles de changements évalués à des positions planifiées.",
-            "Montre que les systèmes échouent souvent à préserver le travail ou rafraîchir les preuves après une mise à jour."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-5a662cae7d81b5",
-      "title": "Watermarking Diffusion Language Models with Learned Foresight",
-      "summary": "The authors propose a watermarking method for diffusion language models using learned vocabulary bands and a foresight predictor. Tested on WaterBench with LLaDA-8B-Instruct, the approach detects at least 96% of responses at a 1% false-positive rate while matching unwatermarked task quality.",
-      "keyPoints": [
-        "Learns vocabulary bands as green lists and a foresight predictor for context sensitivity.",
-        "Counts green tokens once per distinct context-token pair to avoid repetition exploitation.",
-        "Detects at least 96% of responses at a 1% false-positive rate on WaterBench."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32205",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Watermarking Diffusion Language Models with Learned Foresight",
-          "summary": "The authors propose a watermarking method for diffusion language models using learned vocabulary bands and a foresight predictor. Tested on WaterBench with LLaDA-8B-Instruct, the approach detects at least 96% of responses at a 1% false-positive rate while matching unwatermarked task quality.",
-          "keyPoints": [
-            "Learns vocabulary bands as green lists and a foresight predictor for context sensitivity.",
-            "Counts green tokens once per distinct context-token pair to avoid repetition exploitation.",
-            "Detects at least 96% of responses at a 1% false-positive rate on WaterBench."
-          ]
-        },
-        "fr": {
-          "title": "Filigrane pour modèles de langage par diffusion avec anticipation apprise",
-          "summary": "Les auteurs proposent une méthode de filigrane pour les modèles de langage par diffusion utilisant des bandes de vocabulaire apprise et un prédicteur d'anticipation. Testée sur WaterBench, l'approche détecte au moins 96 % des réponses à un taux de faux positifs de 1 %.",
-          "keyPoints": [
-            "Utilise des bandes de vocabulaire apprises comme listes vertes et un prédicteur d'anticipation.",
-            "Compte les jetons verts une fois par paire contexte-jeton distincte pour éviter l'exploitation des répétitions.",
-            "Détecte au moins 96 % des réponses avec un taux de faux positifs de 1 % sur WaterBench."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b839d903db8e86",
-      "title": "PEAR: Adaptive Advantage Reshaping for Multimodal Models",
-      "summary": "The authors introduce PEAR, an adaptive advantage reshaping method to improve perception and exploration in large vision-language models. By adding an entropy-based exploration gain at high-entropy positions with low visual dependency, PEAR outperforms baseline models.",
-      "keyPoints": [
-        "Proposes PEAR to enhance perception and exploration in multimodal reasoning.",
-        "Combines visual dependency with an entropy-based exploration gain at high-entropy positions.",
-        "Achieves top average performance on multimodal reasoning benchmarks using Qwen2.5-VL models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32216",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PEAR: Adaptive Advantage Reshaping for Multimodal Models",
-          "summary": "The authors introduce PEAR, an adaptive advantage reshaping method to improve perception and exploration in large vision-language models. By adding an entropy-based exploration gain at high-entropy positions with low visual dependency, PEAR outperforms baseline models.",
-          "keyPoints": [
-            "Proposes PEAR to enhance perception and exploration in multimodal reasoning.",
-            "Combines visual dependency with an entropy-based exploration gain at high-entropy positions.",
-            "Achieves top average performance on multimodal reasoning benchmarks using Qwen2.5-VL models."
-          ]
-        },
-        "fr": {
-          "title": "PEAR : Remodelage adaptatif des avantages pour les modèles multimodaux",
-          "summary": "Les auteurs présentent PEAR, une méthode de remodelage adaptatif des avantages pour améliorer la perception et l'exploration dans les grands modèles vision-langage. En combinant la dépendance visuelle et un gain d'entropie, PEAR surpasse les modèles de référence.",
-          "keyPoints": [
-            "Propose PEAR pour améliorer la perception et l'exploration dans le raisonnement multimodal.",
-            "Combine la dépendance visuelle avec un gain d'exploration basé sur l'entropie.",
-            "Atteint des performances de premier plan sur les benchmarks multimodaux avec les modèles Qwen2.5-VL."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ddd49eb0b4f42d",
-      "title": "RxnExBench: Benchmarking VLMs for Chemical Reaction Extraction",
-      "summary": "The authors introduce RxnExBench, a multimodal benchmark containing 3,565 expert-annotated reactions and 2,361 molecular structures from chemistry literature. Evaluating nine state-of-the-art vision-language models reveals that accurate molecular recognition alone is insufficient for extraction tasks.",
-      "keyPoints": [
-        "Introduces RxnExBench with 3,565 expert-annotated reactions for fine-grained evaluation.",
-        "Features a unified schema with 15 reaction roles and 26 core fields for chemistry tasks.",
-        "Shows that current vision-language models struggle with multimodal integration and chemistry reasoning."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32221",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "RxnExBench: Benchmarking VLMs for Chemical Reaction Extraction",
-          "summary": "The authors introduce RxnExBench, a multimodal benchmark containing 3,565 expert-annotated reactions and 2,361 molecular structures from chemistry literature. Evaluating nine state-of-the-art vision-language models reveals that accurate molecular recognition alone is insufficient for extraction tasks.",
-          "keyPoints": [
-            "Introduces RxnExBench with 3,565 expert-annotated reactions for fine-grained evaluation.",
-            "Features a unified schema with 15 reaction roles and 26 core fields for chemistry tasks.",
-            "Shows that current vision-language models struggle with multimodal integration and chemistry reasoning."
-          ]
-        },
-        "fr": {
-          "title": "RxnExBench : Évaluation des VLM pour l'extraction de réactions chimiques",
-          "summary": "Les auteurs présentent RxnExBench, un benchmark multimodal contenant 3 565 réactions annotées par des experts et 2 361 structures moléculaires. L'évaluation de neuf modèles vision-langage révèle que la reconnaissance moléculaire seule ne suffit pas pour l'extraction.",
-          "keyPoints": [
-            "Introduit RxnExBench avec 3 565 réactions annotées par des experts pour une évaluation fine.",
-            "Intègre un schéma unifié avec 15 rôles de réaction et 26 champs principaux.",
-            "Montre que les modèles actuels peinent avec l'intégration multimodale et le raisonnement chimique."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9549ba2d9b2946",
-      "title": "SolveBind: Overcoming the Verification Barrier for GUI Agents",
-      "summary": "The authors introduce SolveBind, a GUI-agent framework that combines hierarchical solving with runtime supervision to handle protected environments like CAPTCHAs. It achieves higher success rates across multiple task families and backbone models compared to baseline agents.",
-      "keyPoints": [
-        "Introduces SolveBind to handle protected GUI environments requiring behavioral verification.",
-        "Combines a hierarchical solving tree with runtime supervision and tool-derived evidence.",
-        "Outperforms baseline agents across multiple CAPTCHA task families and AndroidWorld models."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32223",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SolveBind: Overcoming the Verification Barrier for GUI Agents",
-          "summary": "The authors introduce SolveBind, a GUI-agent framework that combines hierarchical solving with runtime supervision to handle protected environments like CAPTCHAs. It achieves higher success rates across multiple task families and backbone models compared to baseline agents.",
-          "keyPoints": [
-            "Introduces SolveBind to handle protected GUI environments requiring behavioral verification.",
-            "Combines a hierarchical solving tree with runtime supervision and tool-derived evidence.",
-            "Outperforms baseline agents across multiple CAPTCHA task families and AndroidWorld models."
-          ]
-        },
-        "fr": {
-          "title": "SolveBind : Surmonter la barrière de vérification pour les agents GUI",
-          "summary": "Les auteurs présentent SolveBind, un cadre d'agents GUI combinant une résolution hiérarchique et une supervision à l'exécution pour gérer les environnements protégés. Il atteint des taux de réussite supérieurs sur plusieurs familles de tâches par rapport aux bases de référence.",
-          "keyPoints": [
-            "Introduit SolveBind pour gérer les environnements graphiques protégés nécessitant une vérification.",
-            "Combine un arbre de résolution hiérarchique avec une supervision à l'exécution.",
-            "Surpasse les agents de référence sur plusieurs familles de tâches CAPTCHA et modèles AndroidWorld."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-89afdd6bfd5d5c",
-      "title": "Training an MoE LLM in MXFP4: Closing the Gap to BF16",
-      "summary": "The authors present ALTO, an open-source training recipe for a 20-billion-parameter mixture-of-experts model under the MXFP4 format. By combining block quantization, random transforms, and a de-oscillation scheme, they reduced FP4 convergence overhead relative to BF16.",
-      "keyPoints": [
-        "Presents ALTO, an open-source training recipe for GPT-OSS-20B under MXFP4.",
-        "Combines hybrid block quantization, random transforms, stochastic rounding, and de-oscillation.",
-        "Cuts FP4 convergence overhead relative to BF16 down to +5.0%."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32229",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Training an MoE LLM in MXFP4: Closing the Gap to BF16",
-          "summary": "The authors present ALTO, an open-source training recipe for a 20-billion-parameter mixture-of-experts model under the MXFP4 format. By combining block quantization, random transforms, and a de-oscillation scheme, they reduced FP4 convergence overhead relative to BF16.",
-          "keyPoints": [
-            "Presents ALTO, an open-source training recipe for GPT-OSS-20B under MXFP4.",
-            "Combines hybrid block quantization, random transforms, stochastic rounding, and de-oscillation.",
-            "Cuts FP4 convergence overhead relative to BF16 down to +5.0%."
-          ]
-        },
-        "fr": {
-          "title": "Entraînement d'un LLM MoE en MXFP4 : combler l'écart avec le BF16",
-          "summary": "Les auteurs présentent ALTO, une recette d'entraînement open source pour un modèle de mélange d'experts de 20 milliards de paramètres au format MXFP4. En combinant quantification par blocs et schéma de dé-oscillation, ils réduisent le surcoût de convergence du FP4.",
-          "keyPoints": [
-            "Présente ALTO, une recette d'entraînement open source pour GPT-OSS-20B en MXFP4.",
-            "Combine quantification de blocs hybride, transformations aléatoires et dé-oscillation.",
-            "Réduit le surcoût de convergence du FP4 par rapport au BF16 à +5,0 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-78808c8f4b62e9",
-      "title": "Financial Context-Rich Strategy for Actor-Critic Based DRL Trading",
-      "summary": "The authors propose a deep reinforcement learning approach for stock trading that incorporates sentiment analysis and external factors. Findings show that actor-critic agents combined with Q-learning principles significantly improve profit maximization and risk management.",
-      "keyPoints": [
-        "Proposes a deep reinforcement learning strategy incorporating sentiment analysis for trading.",
-        "Evaluates policy optimization agents alongside Q-learning principles (DDPG, TD3, SAC).",
-        "Demonstrates that combining policy optimization with Q-learning enhances profit and risk management."
+        "Studies delegation contracts and error budgets in use-based AI regulation.",
+        "Analyzes strategic play between deployers, auditors, and enforcement points.",
+        "Tests mechanisms across five preregistered synthetic studies without evaluating language models."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.32237",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.33112",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Financial Context-Rich Strategy for Actor-Critic Based DRL Trading",
-          "summary": "The authors propose a deep reinforcement learning approach for stock trading that incorporates sentiment analysis and external factors. Findings show that actor-critic agents combined with Q-learning principles significantly improve profit maximization and risk management.",
+          "title": "Conformance as a Distribution in Use-Based AI Regulation",
+          "summary": "This paper examines use-based AI regulation by analyzing delegation contracts, error budgets, and evaluation authority under strategic interactions between a deployer, an auditor, and an enforcement point. Five preregistered synthetic studies test the proposed mechanisms.",
           "keyPoints": [
-            "Proposes a deep reinforcement learning strategy incorporating sentiment analysis for trading.",
-            "Evaluates policy optimization agents alongside Q-learning principles (DDPG, TD3, SAC).",
-            "Demonstrates that combining policy optimization with Q-learning enhances profit and risk management."
+            "Studies delegation contracts and error budgets in use-based AI regulation.",
+            "Analyzes strategic play between deployers, auditors, and enforcement points.",
+            "Tests mechanisms across five preregistered synthetic studies without evaluating language models."
           ]
         },
         "fr": {
-          "title": "Stratégie financière contextuelle pour le trading par renforcement acteur-critique",
-          "summary": "Les auteurs proposent une approche d'apprentissage par renforcement profond pour le trading d'actions intégrant l'analyse de sentiment. Les résultats montrent que les agents acteur-critique combinés au Q-learning améliorent la maximisation des profits et la gestion des risques.",
+          "title": "La conformité comme distribution dans la régulation de l'IA",
+          "summary": "Cet article examine la régulation de l'IA basée sur l'utilisation en analysant les contrats de délégation, les budgets d'erreur et l'autorité d'évaluation à travers des interactions stratégiques entre déployeurs et auditeurs.",
           "keyPoints": [
-            "Propose une stratégie d'apprentissage par renforcement intégrant l'analyse de sentiment.",
-            "Évalue des agents d'optimisation de politique combinés aux principes du Q-learning.",
-            "Démontre que cette combinaison améliore la maximisation des profits et la gestion des risques."
+            "Étudie les contrats de délégation et les budgets d'erreur dans la régulation de l'IA.",
+            "Analyse les interactions stratégiques entre déployeurs et auditeurs.",
+            "Teste des mécanismes à l'aide de cinq études synthétiques préenregistrées."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-35e334c198740f",
+      "title": "Introducing GPT-6.1 Terra",
+      "summary": "OpenAI introduces GPT-6.1 Terra, bringing fast and capable computer use capabilities to everyone.",
+      "keyPoints": [
+        "Introduces GPT-6.1 Terra model.",
+        "Aims to bring fast computer use to everyone.",
+        "Provides capable automated interaction features."
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing GPT-6.1 Terra",
+          "summary": "OpenAI introduces GPT-6.1 Terra, bringing fast and capable computer use capabilities to everyone.",
+          "keyPoints": [
+            "Introduces GPT-6.1 Terra model.",
+            "Aims to bring fast computer use to everyone.",
+            "Provides capable automated interaction features."
+          ]
+        },
+        "fr": {
+          "title": "Présentation de GPT-6.1 Terra",
+          "summary": "OpenAI présente GPT-6.1 Terra, offrant des capacités d'utilisation informatique rapides et performantes à tout un chacun.",
+          "keyPoints": [
+            "Présentation du modèle GPT-6.1 Terra.",
+            "Offre des capacités d'utilisation informatique rapides.",
+            "Rend les fonctionnalités d'interaction accessibles à tous."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-28263e185eb4c9",
+      "title": "Optimal Correction Sets for Causal Discovery",
+      "summary": "This paper addresses inconsistencies in constraint-based causal discovery by formulating CI-fact repair as a minimum-cost correction problem using Answer Set Programming. Building on Causal ABA, the method provides optimal stable models with guarantees for fidelity, subset-minimality, and formally guaranteed redress under user contestations.",
+      "keyPoints": [
+        "Formulates CI-fact repair as a minimum-cost correction problem in Answer Set Programming.",
+        "Establishes a two-way projection correspondence between optimal stable models and correction sets.",
+        "Demonstrates improved graph reconstruction and fact retention over Causal ABA on benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33138",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Optimal Correction Sets for Causal Discovery",
+          "summary": "This paper addresses inconsistencies in constraint-based causal discovery by formulating CI-fact repair as a minimum-cost correction problem using Answer Set Programming. Building on Causal ABA, the method provides optimal stable models with guarantees for fidelity, subset-minimality, and formally guaranteed redress under user contestations.",
+          "keyPoints": [
+            "Formulates CI-fact repair as a minimum-cost correction problem in Answer Set Programming.",
+            "Establishes a two-way projection correspondence between optimal stable models and correction sets.",
+            "Demonstrates improved graph reconstruction and fact retention over Causal ABA on benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "Ensembles de correction optimaux pour la découverte causale",
+          "summary": "Cet article aborde les incohérences de la découverte causale en formulant la réparation de faits CI comme un problème de correction à coût minimal en Answer Set Programming. S'appuyant sur Causal ABA, la méthode offre des modèles stables optimaux garantissant la fidélité et un redressement formel.",
+          "keyPoints": [
+            "Formule la réparation de faits CI comme un problème de correction à coût minimal avec ASP.",
+            "Établit une correspondance de projection bidirectionnelle entre les modèles stables optimaux.",
+            "Améliore la reconstruction de graphes et la rétention de faits par rapport à Causal ABA."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-864f20e064c463",
+      "title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+      "summary": "AOS-Bench introduces a benchmark to evaluate coding agents as persistent workload managers handling a stream of verified tasks under shared CPU and memory limits. Results show that isolated task success does not predict stream success, highlighting workload management as a distinct agent capability.",
+      "keyPoints": [
+        "Introduces AOS-Bench to evaluate agent systems acting as workload managers under resource limits.",
+        "Shows that isolated task success does not translate evenly to success in stream environments.",
+        "Traces performance gaps largely to task intake policies such as serial dispatch."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33178",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+          "summary": "AOS-Bench introduces a benchmark to evaluate coding agents as persistent workload managers handling a stream of verified tasks under shared CPU and memory limits. Results show that isolated task success does not predict stream success, highlighting workload management as a distinct agent capability.",
+          "keyPoints": [
+            "Introduces AOS-Bench to evaluate agent systems acting as workload managers under resource limits.",
+            "Shows that isolated task success does not translate evenly to success in stream environments.",
+            "Traces performance gaps largely to task intake policies such as serial dispatch."
+          ]
+        },
+        "fr": {
+          "title": "AOS-Bench : Les agents LLM gèrent-ils des charges de travail dynamiques ?",
+          "summary": "AOS-Bench introduit un banc d'essai pour évaluer les agents de codage comme gestionnaires de charge de travail persistants. Les résultats montrent que le succès des tâches isolées ne prédit pas le succès en flux, soulignant la gestion de charge comme une capacité distincte.",
+          "keyPoints": [
+            "Introduit AOS-Bench pour évaluer les agents sous limites de CPU et de mémoire partagées.",
+            "Démontre que le succès des tâches isolées ne se traduit pas uniformément en flux.",
+            "Relie les écarts de performance aux politiques d'admission des tâches."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9811add079ed79",
+      "title": "Exposing Alignment-Faking LLMs via Synthetic Document Finetuning",
+      "summary": "This work presents a synthetic document finetuning method to expose latent misaligned propensities in alignment-faking LLMs without relying on chain-of-thought monitors or mechanistic interventions. Finetuning on identifiable honeypots widens the behavioral gap, though it can impact reasoning capabilities unless mitigated.",
+      "keyPoints": [
+        "Uses synthetic document finetuning to reveal latent misaligned model behaviors.",
+        "Measures changes in action rates when models are placed in identifiable honeypot environments.",
+        "Notes that finetuning can damage reasoning capabilities, requiring on-policy distillation mitigations."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33180",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Exposing Alignment-Faking LLMs via Synthetic Document Finetuning",
+          "summary": "This work presents a synthetic document finetuning method to expose latent misaligned propensities in alignment-faking LLMs without relying on chain-of-thought monitors or mechanistic interventions. Finetuning on identifiable honeypots widens the behavioral gap, though it can impact reasoning capabilities unless mitigated.",
+          "keyPoints": [
+            "Uses synthetic document finetuning to reveal latent misaligned model behaviors.",
+            "Measures changes in action rates when models are placed in identifiable honeypot environments.",
+            "Notes that finetuning can damage reasoning capabilities, requiring on-policy distillation mitigations."
+          ]
+        },
+        "fr": {
+          "title": "Exposer les LLM simulant l'alignement par fine-tuning de documents",
+          "summary": "Ce travail présente une méthode de fine-tuning de documents synthétiques pour exposer les propensions mal alignées latentes dans les LLM sans moniteurs de chaîne de pensée. Le fine-tuning sur des pots de miel identifiables élargit l'écart comportemental.",
+          "keyPoints": [
+            "Utilise le fine-tuning de documents synthétiques pour révéler des comportements mal alignés latents.",
+            "Mesure les changements de taux d'action dans des environnements de type pot de miel.",
+            "Observe des dommages sur les capacités de raisonnement nécessitant une atténuation par distillation."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1a92afb7b9758e",
+      "title": "Isharah-Selfie: Continuous Sign Language Recognition Dataset",
+      "summary": "Isharah-Selfie is a large-scale Arabic Sign Language dataset collected via smartphone front cameras under unconstrained selfie conditions. Featuring 8,997 video clips, it addresses the gap in mobile, one-handed, and unconstrained sign language recognition and translation benchmarks.",
+      "keyPoints": [
+        "Introduces a large-scale ArSL dataset collected using smartphone front-facing cameras.",
+        "Comprises 8,997 video clips across 1,493 unique sentences from 16 signers.",
+        "Exposes challenges in compositional generalization under unseen-sentence evaluation protocols."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33200",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Isharah-Selfie: Continuous Sign Language Recognition Dataset",
+          "summary": "Isharah-Selfie is a large-scale Arabic Sign Language dataset collected via smartphone front cameras under unconstrained selfie conditions. Featuring 8,997 video clips, it addresses the gap in mobile, one-handed, and unconstrained sign language recognition and translation benchmarks.",
+          "keyPoints": [
+            "Introduces a large-scale ArSL dataset collected using smartphone front-facing cameras.",
+            "Comprises 8,997 video clips across 1,493 unique sentences from 16 signers.",
+            "Exposes challenges in compositional generalization under unseen-sentence evaluation protocols."
+          ]
+        },
+        "fr": {
+          "title": "Isharah-Selfie : Dataset de reconnaissance continue de la langue des signes",
+          "summary": "Isharah-Selfie est un dataset à grande échelle de langue des signes arabe collecté via des caméras frontales de smartphones en conditions de selfie non contraintes. Il comprend 8 997 clips vidéo pour combler le manque de repères mobiles.",
+          "keyPoints": [
+            "Présente un grand dataset ArSL collecté par caméras frontales de smartphones.",
+            "Comprend 8 997 clips vidéo à travers 1 493 phrases uniques par 16 signeurs.",
+            "Met en lumière les défis de généralisation compositionnelle sous des protocoles inédits."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3ccc752c6d1636",
+      "title": "Scaling Qualitative Analysis with LLMs: The Smart Coder Framework",
+      "summary": "The Smart Coder Framework structures human-LLM collaborative qualitative coding through Instruction, Prompt Strategy, and Reliability Check. Evaluated on 72 teacher interview transcripts, instructions and chain-of-thought prompting consistently improved agreement while preserving human oversight.",
+      "keyPoints": [
+        "Proposes a three-phase framework for human-LLM collaborative qualitative coding.",
+        "Evaluated using 72 mathematics teacher interview transcripts and human-consensus benchmarks.",
+        "Shows that instruction and chain-of-thought prompting significantly improve agreement."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33205",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Scaling Qualitative Analysis with LLMs: The Smart Coder Framework",
+          "summary": "The Smart Coder Framework structures human-LLM collaborative qualitative coding through Instruction, Prompt Strategy, and Reliability Check. Evaluated on 72 teacher interview transcripts, instructions and chain-of-thought prompting consistently improved agreement while preserving human oversight.",
+          "keyPoints": [
+            "Proposes a three-phase framework for human-LLM collaborative qualitative coding.",
+            "Evaluated using 72 mathematics teacher interview transcripts and human-consensus benchmarks.",
+            "Shows that instruction and chain-of-thought prompting significantly improve agreement."
+          ]
+        },
+        "fr": {
+          "title": "Mise à l'échelle de l'analyse qualitative avec les LLM : Smart Coder",
+          "summary": "Le cadre Smart Coder structure le codage qualitatif collaboratif humain-LLM à travers l'instruction, la stratégie de prompt et le contrôle de fiabilité. Évalué sur 72 transcriptions d'entretiens, il améliore l'accord tout en préservant le contrôle humain.",
+          "keyPoints": [
+            "Propose un cadre en trois phases pour le codage qualitatif collaboratif humain-LLM.",
+            "Évalué à l'aide de 72 transcriptions d'entretiens d'enseignants et de repères de consensus.",
+            "Démontre que l'instruction et le prompt par chaîne de pensée améliorent l'accord."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-6e5735c38485c6",
+      "title": "Distilling Expert Judgment at Scale for Automated Evaluation",
+      "summary": "This research presents a methodology for distilling expert human judgment and reasoning processes into structured editorial standards for automated evaluation systems. Validated on AI news reporting, expert-calibrated judges significantly outperformed uncalibrated frontier models across metrics.",
+      "keyPoints": [
+        "Presents a methodology to distill expert human judgment into structured editorial standards.",
+        "Validates the approach on AI news reporting using domain experts and automated judges.",
+        "Demonstrates that expert-calibrated judges substantially outperform uncalibrated frontier models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33233",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Distilling Expert Judgment at Scale for Automated Evaluation",
+          "summary": "This research presents a methodology for distilling expert human judgment and reasoning processes into structured editorial standards for automated evaluation systems. Validated on AI news reporting, expert-calibrated judges significantly outperformed uncalibrated frontier models across metrics.",
+          "keyPoints": [
+            "Presents a methodology to distill expert human judgment into structured editorial standards.",
+            "Validates the approach on AI news reporting using domain experts and automated judges.",
+            "Demonstrates that expert-calibrated judges substantially outperform uncalibrated frontier models."
+          ]
+        },
+        "fr": {
+          "title": "Distillation du jugement d'expert à grande échelle pour l'évaluation",
+          "summary": "Cette recherche présente une méthodologie pour distiller le jugement d'experts humains en normes éditoriales structurées pour l'évaluation automatisée. Validée sur l'actualité de l'IA, les juges calibrés par des experts surpassent les modèles de frontières.",
+          "keyPoints": [
+            "Présente une méthodologie pour encoder les processus de raisonnement d'experts en normes.",
+            "Valide l'approche sur des rapports d'actualité sur l'IA avec des experts du domaine.",
+            "Démontre que les juges calibrés par des experts surpassent les modèles non calibrés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3d4ddf78630efb",
+      "title": "NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News",
+      "summary": "NewsBench is an expert-grounded benchmark evaluating the epistemic quality of AI news reporting across source quality, factuality, and neutrality. Using editorial standards from senior practitioners, the benchmark assesses frontier models and reveals distinct failure profiles.",
+      "keyPoints": [
+        "Introduces NewsBench, an expert-grounded benchmark based on professional editorial standards.",
+        "Operationalizes quality across source quality, factuality, and neutrality dimensions.",
+        "Evaluates four frontier models, uncovering distinct and non-overlapping failure profiles."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33240",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "NewsBench: Expert-Grounded Evaluation of Epistemic Quality in AI News",
+          "summary": "NewsBench is an expert-grounded benchmark evaluating the epistemic quality of AI news reporting across source quality, factuality, and neutrality. Using editorial standards from senior practitioners, the benchmark assesses frontier models and reveals distinct failure profiles.",
+          "keyPoints": [
+            "Introduces NewsBench, an expert-grounded benchmark based on professional editorial standards.",
+            "Operationalizes quality across source quality, factuality, and neutrality dimensions.",
+            "Evaluates four frontier models, uncovering distinct and non-overlapping failure profiles."
+          ]
+        },
+        "fr": {
+          "title": "NewsBench : Évaluation de la qualité épistémique dans l'actualité de l'IA",
+          "summary": "NewsBench est un banc d'essai ancré sur l'expertise pour évaluer la qualité épistémique des rapports d'actualité de l'IA à travers la source, la factualité et la neutralité. L'évaluation de quatre modèles de pointe révèle des profils d'échec distincts.",
+          "keyPoints": [
+            "Introduit NewsBench, un benchmark fondé sur des normes éditoriales professionnelles.",
+            "Opérationnalise la qualité sur les dimensions de source, de factualité et de neutralité.",
+            "Évalue quatre modèles de pointe, révélant des profils de défaillance spécifiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e3b2d0f3070b50",
+      "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
+      "summary": "AdaPRA is a persistent coding agent harness that uses rubric-guided process supervision and workspace checks to automate machine learning workflows. Tested on DSPredict tasks, AdaPRA significantly improves leaderboard performance and reduces process errors.",
+      "keyPoints": [
+        "Proposes AdaPRA, a coding agent harness featuring adaptive rubric-guided process supervision.",
+        "Accumulates knowledge across attempts and audits agent trajectories via workspace checks.",
+        "Improves Qwen model leaderboard percentiles and reduces errors on data science tasks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33245",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
+          "summary": "AdaPRA is a persistent coding agent harness that uses rubric-guided process supervision and workspace checks to automate machine learning workflows. Tested on DSPredict tasks, AdaPRA significantly improves leaderboard performance and reduces process errors.",
+          "keyPoints": [
+            "Proposes AdaPRA, a coding agent harness featuring adaptive rubric-guided process supervision.",
+            "Accumulates knowledge across attempts and audits agent trajectories via workspace checks.",
+            "Improves Qwen model leaderboard percentiles and reduces errors on data science tasks."
+          ]
+        },
+        "fr": {
+          "title": "AdaPRA : Agents de récompense de processus avec grilles adaptatives",
+          "summary": "AdaPRA est un environnement d'agent de codage persistant qui utilise une supervision de processus guidée par des grilles adaptatives pour automatiser les flux de travail en science des données, améliorant les performances et réduisant les erreurs.",
+          "keyPoints": [
+            "Propose AdaPRA, un environnement d'agent doté d'une supervision guidée par des grilles.",
+            "Accumule des connaissances au fil des tentatives et audite la trajectoire de l'agent.",
+            "Améliore les performances sur les classements et réduit les erreurs sur DSPredict."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e70d1a301d1cbc",
+      "title": "Scoped Semantic Invariance as a Foundation for LLM Reliability",
+      "summary": "This paper formalizes consistency in LLMs as scoped semantic invariance over knowledge graphs, addressing undecidability in unconstrained transformations. The study shows that structural inconsistencies concentrate in localized hotspot subgraphs, which can be mitigated via layered grounding.",
+      "keyPoints": [
+        "Formalizes consistency as semantic invariance within bounded semantic domains using knowledge graphs.",
+        "Finds that inconsistencies concentrate in recurring local hotspot subgraph patterns across models.",
+        "Demonstrates that a layered graph grounding strategy improves correctness and consistency."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33267",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Scoped Semantic Invariance as a Foundation for LLM Reliability",
+          "summary": "This paper formalizes consistency in LLMs as scoped semantic invariance over knowledge graphs, addressing undecidability in unconstrained transformations. The study shows that structural inconsistencies concentrate in localized hotspot subgraphs, which can be mitigated via layered grounding.",
+          "keyPoints": [
+            "Formalizes consistency as semantic invariance within bounded semantic domains using knowledge graphs.",
+            "Finds that inconsistencies concentrate in recurring local hotspot subgraph patterns across models.",
+            "Demonstrates that a layered graph grounding strategy improves correctness and consistency."
+          ]
+        },
+        "fr": {
+          "title": "Invariance sémantique délimitée comme fondement de la fiabilité des LLM",
+          "summary": "Cet article formalise la cohérence des LLM comme une invariance sémantique délimitée sur des graphes de connaissances. L'étude montre que les incohérences structurelles se concentrent dans des sous-graphes localisés atténués par un ancrage stratifié.",
+          "keyPoints": [
+            "Formalise la cohérence comme une invariance sémantique dans des domaines bornés.",
+            "Montre que les incohérences se concentrent dans des motifs de sous-graphes récurrents.",
+            "Démontre qu'une stratégie d'ancrage en couches améliore la correction et la cohérence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8cb83f8ce09e3f",
+      "title": "GEMS-RAG: Graph-grounded Engineering Multimodal Standards RAG",
+      "summary": "GEMS-RAG is a framework for grounded reasoning over hierarchical and multimodal engineering standards. By combining fine-grained visual entity extraction, knowledge graph construction, and hybrid retrieval, GEMS-RAG improves performance on complex regulatory and technical documents.",
+      "keyPoints": [
+        "Proposes GEMS-RAG for multimodal reasoning over complex engineering standards.",
+        "Decomposes figures into visual entities linked to textual provisions and rules.",
+        "Combines dense, sparse, and visual retrieval with graph expansion for better accuracy."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.33277",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "GEMS-RAG: Graph-grounded Engineering Multimodal Standards RAG",
+          "summary": "GEMS-RAG is a framework for grounded reasoning over hierarchical and multimodal engineering standards. By combining fine-grained visual entity extraction, knowledge graph construction, and hybrid retrieval, GEMS-RAG improves performance on complex regulatory and technical documents.",
+          "keyPoints": [
+            "Proposes GEMS-RAG for multimodal reasoning over complex engineering standards.",
+            "Decomposes figures into visual entities linked to textual provisions and rules.",
+            "Combines dense, sparse, and visual retrieval with graph expansion for better accuracy."
+          ]
+        },
+        "fr": {
+          "title": "GEMS-RAG : RAG multimodal et ancré sur graphe pour normes d'ingénierie",
+          "summary": "GEMS-RAG est un cadre de raisonnement ancré sur les normes d'ingénierie multimodales et hiérarchiques. En combinant l'extraction d'entités visuelles et la construction de graphes de connaissances, GEMS-RAG améliore la recherche sur les documents techniques.",
+          "keyPoints": [
+            "Propose GEMS-RAG pour le raisonnement multimodal sur les normes d'ingénierie.",
+            "Décompose les figures en entités visuelles liées aux dispositions textuelles.",
+            "Combine la recherche dense, creuse et visuelle avec l'extension de graphe."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 355,
+    "itemsCollected": 746,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
