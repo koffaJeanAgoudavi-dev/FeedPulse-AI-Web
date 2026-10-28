@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-27T18:02:33.562Z",
+  "generatedAt": "2026-10-28T05:45:06.789Z",
   "items": [
     {
-      "id": "feed-393575ee7d83ff",
-      "title": "Genie 4: A New Generation of World Simulation",
-      "summary": "Google DeepMind has introduced Genie 4, a new world model designed to unlock unprecedented realism in real-time simulation.",
+      "id": "feed-6d883a1f362013",
+      "title": "Counting the Bandages: On measuring the time that AI saves",
+      "summary": "This paper argues that AI time savings should be measured through a ledger view factoring in error rates rather than a simple stopwatch view. It presents a model of checking time and defects, replicates METR developer study data showing slowdown ranges depending on estimands, and evaluates GPT-5 review time limits.",
       "keyPoints": [
-        "Introduces Genie 4 as a new world model.",
-        "Aims to achieve unprecedented realism in real-time simulation.",
-        "Announced via the Google DeepMind Blog."
+        "Defines a ledger view measuring time saved alongside excess escaped defects and break-even defect costs.",
+        "Replicates METR developer data showing a 19% or 24% slowdown depending on the estimand.",
+        "Shows review time alone caps GPT-5 speedups at 3.6x in GDPval workflows."
       ],
       "category": "Modèles",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "publishedAt": "2026-10-27T16:01:38.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/dYQNUd8y-Wq7EfPmt2zxj16phpg7FFP0OBUYCnf3tKbrRnlzuRu8aqDfWMk_p_nYM-W4cLIGp8dTP8fRvhuXWYTWwH4EwBqGSkQDF0ghnAUBeYSO=w704-h704-n-nu",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.35942",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Genie 4: A New Generation of World Simulation",
-          "summary": "Google DeepMind has introduced Genie 4, a new world model designed to unlock unprecedented realism in real-time simulation.",
+          "title": "Counting the Bandages: On measuring the time that AI saves",
+          "summary": "This paper argues that AI time savings should be measured through a ledger view factoring in error rates rather than a simple stopwatch view. It presents a model of checking time and defects, replicates METR developer study data showing slowdown ranges depending on estimands, and evaluates GPT-5 review time limits.",
           "keyPoints": [
-            "Introduces Genie 4 as a new world model.",
-            "Aims to achieve unprecedented realism in real-time simulation.",
-            "Announced via the Google DeepMind Blog."
+            "Defines a ledger view measuring time saved alongside excess escaped defects and break-even defect costs.",
+            "Replicates METR developer data showing a 19% or 24% slowdown depending on the estimand.",
+            "Shows review time alone caps GPT-5 speedups at 3.6x in GDPval workflows."
           ]
         },
         "fr": {
-          "title": "Genie 4 : Une nouvelle génération de simulation de monde",
-          "summary": "Google DeepMind a présenté Genie 4, un nouveau modèle de monde conçu pour offrir un réalisme sans précédent dans la simulation en temps réel.",
+          "title": "Compter les bandages : mesurer le temps que l'IA économise",
+          "summary": "Cet article soutient que les gains de temps de l'IA doivent être mesurés via une approche de registre intégrant les taux d'erreur plutôt qu'un simple chronomètre. Il présente un modèle de temps de vérification et de défauts, reproduit les données d'étude de développeur de METR et évalue les limites de révision de GPT-5.",
           "keyPoints": [
-            "Présente Genie 4 comme un nouveau modèle de monde.",
-            "Vise un réalisme sans précédent dans la simulation en temps réel.",
-            "Annoncé sur le blog de Google DeepMind."
+            "Définit une vue de registre mesurant le temps économisé avec les défauts échappés et les coûts d'équilibre.",
+            "Reproduit les données de développement de METR montrant un ralentissement de 19% ou 24% selon l'estimand.",
+            "Montre que le temps de révision seul limite l'accélération de GPT-5 à 3,6x dans les flux de travail GDPval."
           ]
         }
       },
@@ -41,36 +41,36 @@
       }
     },
     {
-      "id": "feed-c417f8e3d39d0b",
-      "title": "OpenAI Expands Partnership with Oracle for ChatGPT Apps",
-      "summary": "OpenAI and Oracle are expanding their partnership to integrate business applications and AI agents into ChatGPT while powering new Oracle offerings.",
+      "id": "feed-1e3ebf94e41ebe",
+      "title": "Retell uses OpenAI models to power 100M monthly calls",
+      "summary": "Retell utilizes OpenAI models to help power 100 million monthly calls. GPT-6 Astra tops Retell's voice agent benchmark, while Codex assists the company in achieving a $1.6M annual revenue run rate per employee.",
       "keyPoints": [
-        "Partnership expansion between OpenAI and Oracle.",
-        "Brings business apps and AI agents into ChatGPT.",
-        "Powers new Oracle offerings."
+        "Retell powers 100 million monthly calls using OpenAI models.",
+        "GPT-6 Astra tops Retell's voice agent benchmark.",
+        "Codex helps achieve a $1.6M annual revenue run rate per employee."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/retell-ai",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Expands Partnership with Oracle for ChatGPT Apps",
-          "summary": "OpenAI and Oracle are expanding their partnership to integrate business applications and AI agents into ChatGPT while powering new Oracle offerings.",
+          "title": "Retell uses OpenAI models to power 100M monthly calls",
+          "summary": "Retell utilizes OpenAI models to help power 100 million monthly calls. GPT-6 Astra tops Retell's voice agent benchmark, while Codex assists the company in achieving a $1.6M annual revenue run rate per employee.",
           "keyPoints": [
-            "Partnership expansion between OpenAI and Oracle.",
-            "Brings business apps and AI agents into ChatGPT.",
-            "Powers new Oracle offerings."
+            "Retell powers 100 million monthly calls using OpenAI models.",
+            "GPT-6 Astra tops Retell's voice agent benchmark.",
+            "Codex helps achieve a $1.6M annual revenue run rate per employee."
           ]
         },
         "fr": {
-          "title": "OpenAI élargit son partenariat avec Oracle pour les applications ChatGPT",
-          "summary": "OpenAI et Oracle élargissent leur partenariat pour intégrer des applications professionnelles et des agents IA dans ChatGPT tout en alimentant de nouvelles offres Oracle.",
+          "title": "Retell utilise les modèles OpenAI pour propulser 100M d'appels",
+          "summary": "Retell utilise les modèles d'OpenAI pour alimenter 100 millions d'appels mensuels. GPT-6 Astra domine le benchmark des agents vocaux de Retell, tandis que Codex aide l'entreprise à atteindre un chiffre d'affaires annuel par employé de 1,6 million de dollars.",
           "keyPoints": [
-            "Élargissement du partenariat entre OpenAI et Oracle.",
-            "Intègre des applications professionnelles et des agents IA dans ChatGPT.",
-            "Alimente de nouvelles offres Oracle."
+            "Retell alimente 100 millions d'appels mensuels grâce aux modèles OpenAI.",
+            "GPT-6 Astra arrive en tête du benchmark des agents vocaux de Retell.",
+            "Codex aide à atteindre un taux de revenus annuels de 1,6 million de dollars par employé."
           ]
         }
       },
@@ -80,36 +80,36 @@
       }
     },
     {
-      "id": "feed-19409de9d962cd",
-      "title": "Estimating Propagated Risk in LLM Multi-Agent Systems",
-      "summary": "Researchers propose Interaction-Effect Propagation (IE-Prop), an interaction-conditioned model to estimate agent-level error risk in LLM-based multi-agent systems from execution traces.",
+      "id": "feed-7955caaf89147e",
+      "title": "Enhancing Deep Learning Model Performance for Olive Tree Diseases",
+      "summary": "This work proposes a comprehensive data generation strategy using traditional augmentation, CutMix, MixUp, and DCGANs to classify olive tree diseases and overcome data scarcity. Evaluated with EfficientNetV2B0 across three scenarios, results show substantial improvements in classification accuracy.",
       "keyPoints": [
-        "Introduces IE-Prop to model error propagation in LLM multi-agent systems.",
-        "Learns separate effects for correct and incorrect upstream agents.",
-        "Raises final-node AUROC over baselines across evaluated architectures."
+        "Proposes a data generation strategy using traditional augmentation, CutMix, MixUp, and DCGANs.",
+        "Evaluates performance across three data distribution scenarios using EfficientNetV2B0.",
+        "Demonstrates substantial improvements in classification accuracy for plant disease detection."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33282",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.35984",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Estimating Propagated Risk in LLM Multi-Agent Systems",
-          "summary": "Researchers propose Interaction-Effect Propagation (IE-Prop), an interaction-conditioned model to estimate agent-level error risk in LLM-based multi-agent systems from execution traces.",
+          "title": "Enhancing Deep Learning Model Performance for Olive Tree Diseases",
+          "summary": "This work proposes a comprehensive data generation strategy using traditional augmentation, CutMix, MixUp, and DCGANs to classify olive tree diseases and overcome data scarcity. Evaluated with EfficientNetV2B0 across three scenarios, results show substantial improvements in classification accuracy.",
           "keyPoints": [
-            "Introduces IE-Prop to model error propagation in LLM multi-agent systems.",
-            "Learns separate effects for correct and incorrect upstream agents.",
-            "Raises final-node AUROC over baselines across evaluated architectures."
+            "Proposes a data generation strategy using traditional augmentation, CutMix, MixUp, and DCGANs.",
+            "Evaluates performance across three data distribution scenarios using EfficientNetV2B0.",
+            "Demonstrates substantial improvements in classification accuracy for plant disease detection."
           ]
         },
         "fr": {
-          "title": "Estimation du risque propagé dans les systèmes multi-agents à base de LLM",
-          "summary": "Des chercheurs proposent IE-Prop (Interaction-Effect Propagation), un modèle conditionné par les interactions pour estimer le risque d'erreur au niveau des agents dans les systèmes multi-agents basés sur des LLM.",
+          "title": "Amélioration des performances des modèles de deep learning",
+          "summary": "Ce travail propose une stratégie complète de génération de données utilisant l'augmentation traditionnelle, CutMix, MixUp et les DCGAN pour classifier les maladies des oliviers et surmonter la rareté des données. Évalué avec EfficientNetV2B0, il montre des améliorations substantielles de la précision.",
           "keyPoints": [
-            "Présente IE-Prop pour modéliser la propagation des erreurs dans les systèmes multi-agents.",
-            "Apprend des effets distincts pour les agents amont corrects et incorrects.",
-            "Améliore l'AUROC du nœud final par rapport aux bases de référence."
+            "Propose une stratégie de génération de données incluant l'augmentation traditionnelle, CutMix, MixUp et DCGAN.",
+            "Évalue les performances à travers trois scénarios de distribution de données avec EfficientNetV2B0.",
+            "Démontre des améliorations substantielles de la précision de classification pour la détection des maladies."
           ]
         }
       },
@@ -119,36 +119,153 @@
       }
     },
     {
-      "id": "feed-3b5a2a6a27ab54",
-      "title": "Anima Cuts Clinic Call Waits by 75% Using GPT-6 and GPT-Live",
-      "summary": "Anima is expanding care team capabilities with OpenAI models, helping clinics reduce call wait times by 75% and giving teams more capacity to respond to patients.",
+      "id": "feed-c44dc9ed271ff4",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "summary": "Check Point uses OpenAI Daybreak to accelerate research behind new security protections. This enables security analysts to convert vulnerability intelligence into customer defenses at a faster rate.",
       "keyPoints": [
-        "Anima utilizes GPT-6 and GPT-Live models.",
-        "Helps clinics cut call wait times by 75%.",
-        "Gives care teams more capacity to respond to patients."
+        "Check Point accelerates vulnerability research using OpenAI Daybreak.",
+        "Helps speed up the creation of new security protections.",
+        "Enables analysts to turn vulnerability intelligence into customer defenses faster."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/check-point-daybreak",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Check Point accelerates vulnerability research with Daybreak",
+          "summary": "Check Point uses OpenAI Daybreak to accelerate research behind new security protections. This enables security analysts to convert vulnerability intelligence into customer defenses at a faster rate.",
+          "keyPoints": [
+            "Check Point accelerates vulnerability research using OpenAI Daybreak.",
+            "Helps speed up the creation of new security protections.",
+            "Enables analysts to turn vulnerability intelligence into customer defenses faster."
+          ]
+        },
+        "fr": {
+          "title": "Comment Check Point accélère la recherche de vulnérabilités",
+          "summary": "Check Point utilise OpenAI Daybreak pour accélérer la recherche derrière de nouvelles protections de sécurité. Cela permet aux analystes de transformer plus rapidement les renseignements sur les vulnérabilités en défenses pour les clients.",
+          "keyPoints": [
+            "Check Point accélère la recherche sur les vulnérabilités grâce à OpenAI Daybreak.",
+            "Permet d'accélérer la création de nouvelles protections de sécurité.",
+            "Permet aux analystes de convertir plus vite l'intelligence des vulnérabilités en défenses."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8eb088ec74f3ec",
+      "title": "The Trinity: Capability-Driven Recursive Self-Improvement for Agents",
+      "summary": "The Trinity is a recursive self-improvement framework combining world generation and Harness evolution with Creator, Explorer, and Evolver roles. It organizes tasks into a hierarchical capability tree and uses a Capability-Aware Harness Router, improving performance across training and unseen benchmarks.",
+      "keyPoints": [
+        "Introduces The Trinity, a recursive self-improvement framework with Creator, Explorer, and Evolver roles.",
+        "Reorganizes tasks into a hierarchical capability tree via Capability-Driven Real2Sim2Real.",
+        "Improves mean performance by 34 points on training benchmarks and 26 points on unseen benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36077",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "The Trinity: Capability-Driven Recursive Self-Improvement for Agents",
+          "summary": "The Trinity is a recursive self-improvement framework combining world generation and Harness evolution with Creator, Explorer, and Evolver roles. It organizes tasks into a hierarchical capability tree and uses a Capability-Aware Harness Router, improving performance across training and unseen benchmarks.",
+          "keyPoints": [
+            "Introduces The Trinity, a recursive self-improvement framework with Creator, Explorer, and Evolver roles.",
+            "Reorganizes tasks into a hierarchical capability tree via Capability-Driven Real2Sim2Real.",
+            "Improves mean performance by 34 points on training benchmarks and 26 points on unseen benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "The Trinity : Auto-amélioration récursive pour agents multimodaux",
+          "summary": "The Trinity est un cadre d'auto-amélioration récursive couplant la génération de mondes et l'évolution de harnais via trois rôles : Creator, Explorer et Evolver. Il réorganise les tâches dans un arbre de capacités hiérarchique et améliore les performances sur des benchmarks d'entraînement et invisibles.",
+          "keyPoints": [
+            "Introduit The Trinity, un cadre d'auto-amélioration récursive avec les rôles Creator, Explorer et Evolver.",
+            "Réorganise les tâches en un arbre de capacités hiérarchique via Real2Sim2Real piloté par les capacités.",
+            "Améliore les performances moyennes de 34 points sur l'entraînement et de 26 points sur des tests invisibles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-18559cb38b7620",
+      "title": "CohortFlow: Steerable Clinical Cohort Curation Agent",
+      "summary": "CohortFlow is a steerable agent for clinical cohort curation that maps natural language corrections to localized updates on a structured specification. It reduces correction latency and model calls while maintaining strong accuracy compared to full regeneration.",
+      "keyPoints": [
+        "Represents natural language corrections as localized updates to a structured cohort specification.",
+        "Achieves 77.0% requirement micro-F1 compared to 76.4% for full regeneration using an 8B model.",
+        "Reduces mean correction latency by 64.8% after completion and uses 38.1% fewer model calls."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36100",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "CohortFlow: Steerable Clinical Cohort Curation Agent",
+          "summary": "CohortFlow is a steerable agent for clinical cohort curation that maps natural language corrections to localized updates on a structured specification. It reduces correction latency and model calls while maintaining strong accuracy compared to full regeneration.",
+          "keyPoints": [
+            "Represents natural language corrections as localized updates to a structured cohort specification.",
+            "Achieves 77.0% requirement micro-F1 compared to 76.4% for full regeneration using an 8B model.",
+            "Reduces mean correction latency by 64.8% after completion and uses 38.1% fewer model calls."
+          ]
+        },
+        "fr": {
+          "title": "CohortFlow : Agent de curation de cohortes cliniques pilotable",
+          "summary": "CohortFlow est un agent pilotable pour la curation de cohortes cliniques qui traduit les corrections en langage naturel en mises à jour localisées. Il réduit la latence de correction et les appels de modèles tout en maintenant une forte précision par rapport à une régénération complète.",
+          "keyPoints": [
+            "Représente les corrections en langage naturel sous forme de mises à jour localisées.",
+            "Atteint 77,0% de micro-F1 par rapport à 76,4% pour une régénération complète avec un modèle 8B.",
+            "Réduit la latence moyenne de correction de 64,8% et utilise 38,1% d'appels de modèles en moins."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cefc48cf69e7d9",
+      "title": "Why and How to Do Science When AI Is Better at It",
+      "summary": "This paper establishes a framework for human-led science when AI matches or exceeds human capabilities. It builds on human understanding and human direction as an indispensable two-part test for delegating research tasks to AI across all CRediT research phases.",
+      "keyPoints": [
+        "Argues that science must aim for durable, collective human understanding and human direction.",
+        "Proposes a two-part test requiring human understanding and direction for delegating tasks to AI.",
+        "Applies recommendations across the CRediT research phases including peer review and training."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/anima",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36116",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Anima Cuts Clinic Call Waits by 75% Using GPT-6 and GPT-Live",
-          "summary": "Anima is expanding care team capabilities with OpenAI models, helping clinics reduce call wait times by 75% and giving teams more capacity to respond to patients.",
+          "title": "Why and How to Do Science When AI Is Better at It",
+          "summary": "This paper establishes a framework for human-led science when AI matches or exceeds human capabilities. It builds on human understanding and human direction as an indispensable two-part test for delegating research tasks to AI across all CRediT research phases.",
           "keyPoints": [
-            "Anima utilizes GPT-6 and GPT-Live models.",
-            "Helps clinics cut call wait times by 75%.",
-            "Gives care teams more capacity to respond to patients."
+            "Argues that science must aim for durable, collective human understanding and human direction.",
+            "Proposes a two-part test requiring human understanding and direction for delegating tasks to AI.",
+            "Applies recommendations across the CRediT research phases including peer review and training."
           ]
         },
         "fr": {
-          "title": "Anima réduit les temps d'attente des cliniques grâce à GPT-6 et GPT-Live",
-          "summary": "Anima élargit les capacités des équipes de soins avec les modèles OpenAI, aidant les cliniques à réduire les temps d'attente des appels de 75 %.",
+          "title": "Pourquoi et comment faire de la science quand l'IA y excelle",
+          "summary": "Cet article établit un cadre pour la science dirigée par l'humain lorsque l'IA égale ou dépasse les capacités humaines. Il repose sur la compréhension humaine et la direction humaine comme test indispensable en deux parties pour déléguer des tâches de recherche à l'IA.",
           "keyPoints": [
-            "Anima utilise les modèles GPT-6 et GPT-Live.",
-            "Aide les cliniques à réduire les temps d'attente de 75 %.",
-            "Offre aux équipes de soins une plus grande capacité de réponse."
+            "Soutient que la science doit viser la compréhension humaine collective durable et la direction humaine.",
+            "Propose un test en deux parties exigeant la compréhension et la direction humaines pour déléguer à l'IA.",
+            "Applique des recommandations à travers toutes les phases de recherche CRediT, y compris l'évaluation par les pairs."
           ]
         }
       },
@@ -158,36 +275,114 @@
       }
     },
     {
-      "id": "feed-289738afb7aabe",
-      "title": "AI Teaches Humans to Handle Complexity in the Game of Go",
-      "summary": "Using the game of Go, researchers investigate how agents navigate strategic tension, finding that artificial systems can act as cognitive scaffolding for human complexity handling.",
+      "id": "feed-6c5e6a6d85af58",
+      "title": "StruPO: Learning Faithful Text-to-Image Prompt Editors",
+      "summary": "StruPO is a structure-aware prompt editor that uses a calibrated scene graph for policy conditioning and image-grounded supervision in text-to-image tasks. It improves the faithfulness-aesthetics trade-off and relational fidelity without requiring iterative critique-rewrite loops.",
       "keyPoints": [
-        "Examines strategic tension via spatial dependency matrices in Go.",
-        "Notes a historical surge in sustained tension following AlphaGo.",
-        "Shows AI can act as cognitive scaffolding for human decision-making."
+        "Proposes StruPO, a structure-aware prompt editor using a calibrated scene graph.",
+        "Uses smooth reward shaping and group-relative advantages to handle uncertain grounding.",
+        "Improves relational fidelity and faithfulness-aesthetics trade-offs in a single pass."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36146",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "StruPO: Learning Faithful Text-to-Image Prompt Editors",
+          "summary": "StruPO is a structure-aware prompt editor that uses a calibrated scene graph for policy conditioning and image-grounded supervision in text-to-image tasks. It improves the faithfulness-aesthetics trade-off and relational fidelity without requiring iterative critique-rewrite loops.",
+          "keyPoints": [
+            "Proposes StruPO, a structure-aware prompt editor using a calibrated scene graph.",
+            "Uses smooth reward shaping and group-relative advantages to handle uncertain grounding.",
+            "Improves relational fidelity and faithfulness-aesthetics trade-offs in a single pass."
+          ]
+        },
+        "fr": {
+          "title": "StruPO : Apprentissage d'éditeurs de prompts texte-image fidèles",
+          "summary": "StruPO est un éditeur de prompts conscient de la structure qui utilise un graphe de scène calibré pour le conditionnement de politique dans les tâches texte-image. Il améliore le compromis entre fidélité et esthétique sans nécessiter de boucles itératives de critique-réécriture.",
+          "keyPoints": [
+            "Propose StruPO, un éditeur de prompts utilisant un graphe de scène calibré.",
+            "Utilise le façonnage de récompense et des avantages relatifs pour gérer l'ancrage incertain.",
+            "Améliore la fidélité relationnelle et les compromis fidélité-esthétique en un seul passage."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-225fb5a9da194f",
+      "title": "Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule",
+      "summary": "Addressing knowledge conflicts between retrieved context and model memory, this paper demonstrates that fixed resolution rules fail. It introduces an approach where a model states its knowledge with calibrated confidence, applying an exact prior shift based on context reliability.",
+      "keyPoints": [
+        "Shows that fixed rules for resolving knowledge conflicts between contexts and models are sub-optimal.",
+        "Builds a system where a model voices knowledge as notes with calibrated confidence under a prior.",
+        "Outperforms best baselines by up to 26 points on the GRACE benchmark using Qwen3.5 and Llama-3.1."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36169",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule",
+          "summary": "Addressing knowledge conflicts between retrieved context and model memory, this paper demonstrates that fixed resolution rules fail. It introduces an approach where a model states its knowledge with calibrated confidence, applying an exact prior shift based on context reliability.",
+          "keyPoints": [
+            "Shows that fixed rules for resolving knowledge conflicts between contexts and models are sub-optimal.",
+            "Builds a system where a model voices knowledge as notes with calibrated confidence under a prior.",
+            "Outperforms best baselines by up to 26 points on the GRACE benchmark using Qwen3.5 and Llama-3.1."
+          ]
+        },
+        "fr": {
+          "title": "Conflits de connaissances : les priors plutôt que les règles",
+          "summary": "Traitant des conflits de connaissances entre le contexte récupéré et la mémoire du modèle, cet article démontre que les règles de résolution fixes échouent. Il introduit une approche où un modèle exprime ses connaissances avec confiance calibrée en appliquant un prior exact.",
+          "keyPoints": [
+            "Montre que les règles fixes pour résoudre les conflits de connaissances sont sous-optimales.",
+            "Construit un système où un modèle exprime ses connaissances sous forme de notes avec confiance calibrée.",
+            "Surpasse les meilleures bases de référence jusqu'à 26 points sur le benchmark GRACE."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cc8621241a3a68",
+      "title": "Learning Human Sports Motion Feasibility via Quantile Regression",
+      "summary": "This research studies time-to-arrival (TTA) in sports by casting it as a conditional quantile regression problem to estimate the lower envelope of locomotion times from optical tracking data. A lightweight MLP consistently outperforms physics-based baselines across matches.",
+      "keyPoints": [
+        "Casts time-to-arrival (TTA) in sports as a conditional quantile regression problem.",
+        "Trains a lightweight multilayer perceptron on optical tracking data from the FIFA World Cup 2022.",
+        "Outperforms physics-based baselines and transfers successfully to basketball and NFL tracking data."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33323",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.36183",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "AI Teaches Humans to Handle Complexity in the Game of Go",
-          "summary": "Using the game of Go, researchers investigate how agents navigate strategic tension, finding that artificial systems can act as cognitive scaffolding for human complexity handling.",
+          "title": "Learning Human Sports Motion Feasibility via Quantile Regression",
+          "summary": "This research studies time-to-arrival (TTA) in sports by casting it as a conditional quantile regression problem to estimate the lower envelope of locomotion times from optical tracking data. A lightweight MLP consistently outperforms physics-based baselines across matches.",
           "keyPoints": [
-            "Examines strategic tension via spatial dependency matrices in Go.",
-            "Notes a historical surge in sustained tension following AlphaGo.",
-            "Shows AI can act as cognitive scaffolding for human decision-making."
+            "Casts time-to-arrival (TTA) in sports as a conditional quantile regression problem.",
+            "Trains a lightweight multilayer perceptron on optical tracking data from the FIFA World Cup 2022.",
+            "Outperforms physics-based baselines and transfers successfully to basketball and NFL tracking data."
           ]
         },
         "fr": {
-          "title": "L'IA enseigne aux humains à gérer la complexité dans le jeu de Go",
-          "summary": "En utilisant le jeu de Go, des chercheurs étudient la gestion de la tension stratégique, montrant que les systèmes artificiels servent de support cognitif aux humains.",
+          "title": "Apprentissage de la faisabilité des mouvements sportifs par régression",
+          "summary": "Cette recherche étudie le temps d'arrivée (TTA) dans le sport en le formulant comme un problème de régression quantile conditionnelle à partir de données de suivi optique. Un perceptron multicouche léger surpasse systématiquement les bases de référence basées sur la physique.",
           "keyPoints": [
-            "Étudie la tension stratégique à l'aide de matrices de dépendance spatiale.",
-            "Constate une hausse historique de la tension après AlphaGo.",
-            "Montre que l'IA agit comme un support cognitif pour la prise de décision."
+            "Formule le temps d'arrivée (TTA) dans le sport comme un problème de régression quantile conditionnelle.",
+            "Entraîne un MLP léger sur les données de suivi optique de la Coupe du Monde FIFA 2022.",
+            "Surpasse les modèles physiques et se transfère avec succès aux données de basket-ball et de NFL."
           ]
         }
       },
@@ -197,36 +392,36 @@
       }
     },
     {
-      "id": "feed-5b21e073bc90c3",
-      "title": "TempShap: Feature Attribution in Time-Series Forecasting",
-      "summary": "Researchers propose TempShap, a retrospective, loss-based Shapley framework that yields temporal-localization and horizon-impact profiles for time-series forecasting attribution.",
+      "id": "feed-c08a0a2ef6db74",
+      "title": "Skill Dreaming: Evolving Repository Skills through PR Streams",
+      "summary": "Large language model agents rely on reusable skills that must evolve alongside code structures. This paper introduces Skill Dreaming, a framework that leverages pull request streams to continuously build and refine repository-specific skill libraries, guiding coding agents in implementation, testing, and maintenance.",
       "keyPoints": [
-        "Introduces TempShap for time-series forecasting attribution.",
-        "Evaluates when features act and how their influence changes across the horizon.",
-        "Demonstrates a deletion-ranking advantage across benchmarks."
+        "LLM agents require evolving skill libraries for software engineering tasks.",
+        "Skill Dreaming extracts executable knowledge from validated pull requests.",
+        "The framework creates a co-evolutionary cycle between PRs, repositories, and skills."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33330",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.36188",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "TempShap: Feature Attribution in Time-Series Forecasting",
-          "summary": "Researchers propose TempShap, a retrospective, loss-based Shapley framework that yields temporal-localization and horizon-impact profiles for time-series forecasting attribution.",
+          "title": "Skill Dreaming: Evolving Repository Skills through PR Streams",
+          "summary": "Large language model agents rely on reusable skills that must evolve alongside code structures. This paper introduces Skill Dreaming, a framework that leverages pull request streams to continuously build and refine repository-specific skill libraries, guiding coding agents in implementation, testing, and maintenance.",
           "keyPoints": [
-            "Introduces TempShap for time-series forecasting attribution.",
-            "Evaluates when features act and how their influence changes across the horizon.",
-            "Demonstrates a deletion-ranking advantage across benchmarks."
+            "LLM agents require evolving skill libraries for software engineering tasks.",
+            "Skill Dreaming extracts executable knowledge from validated pull requests.",
+            "The framework creates a co-evolutionary cycle between PRs, repositories, and skills."
           ]
         },
         "fr": {
-          "title": "TempShap : Attribution des caractéristiques en prévision temporelle",
-          "summary": "Les chercheurs proposent TempShap, un cadre de Shapley rétrospectif basé sur les pertes pour l'attribution des prévisions de séries temporelles.",
+          "title": "Skill Dreaming : faire évoluer les compétences de dépôt via les PR",
+          "summary": "Les agents de grands modèles de langage s'appuient sur des compétences réutilisables qui doivent évoluer avec le code. Cet article présente Skill Dreaming, un cadre qui exploite les flux de demandes de tirage (PR) pour construire et affiner en continu des bibliothèques de compétences.",
           "keyPoints": [
-            "Introduit TempShap pour l'attribution des prévisions temporelles.",
-            "Évalue l'action des caractéristiques et l'évolution de leur influence.",
-            "Démontre un avantage de classement par suppression sur les benchmarks."
+            "Les agents LLM ont besoin de bibliothèques de compétences évolutives.",
+            "Skill Dreaming extrait des connaissances exécutables de PR validées.",
+            "Le cadre crée un cycle de co-évolution entre les PR, les dépôts et les compétences."
           ]
         }
       },
@@ -236,36 +431,36 @@
       }
     },
     {
-      "id": "feed-eaac09e16abb18",
-      "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design",
-      "summary": "Introducing BenchBench-Cloning, a new benchmark comprising 65 molecular cloning tasks to evaluate language models on experimental planning and protocol development.",
+      "id": "feed-035f71ec032567",
+      "title": "MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor",
+      "summary": "Requirements engineering is crucial, yet off-the-shelf LLMs often miss expert-identified defects. This study presents MARQ, a modular prototype supplementing LLMs with expert-derived systems engineering knowledge to improve requirement quality evaluation across multiple models.",
       "keyPoints": [
-        "Comprises 50 protocol-development and 15 construct-design tasks.",
-        "Evaluated via a cloning simulator and deterministic checks.",
-        "GPT-6 Astra scores highest at 30.6% across tested systems."
+        "Off-the-shelf LLMs struggle with consistent requirement quality assessment.",
+        "MARQ integrates a criterion-specific knowledge stack based on INCOSE criteria.",
+        "Evaluations show improved median F1 scores across models like Claude Opus 5 and GPT-5.6 Sol."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33355",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.36234",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "BenchBench-Cloning: Evaluating Molecular Cloning Design",
-          "summary": "Introducing BenchBench-Cloning, a new benchmark comprising 65 molecular cloning tasks to evaluate language models on experimental planning and protocol development.",
+          "title": "MARQ: A Modular, LLM-Agnostic Requirement Quality Assessor",
+          "summary": "Requirements engineering is crucial, yet off-the-shelf LLMs often miss expert-identified defects. This study presents MARQ, a modular prototype supplementing LLMs with expert-derived systems engineering knowledge to improve requirement quality evaluation across multiple models.",
           "keyPoints": [
-            "Comprises 50 protocol-development and 15 construct-design tasks.",
-            "Evaluated via a cloning simulator and deterministic checks.",
-            "GPT-6 Astra scores highest at 30.6% across tested systems."
+            "Off-the-shelf LLMs struggle with consistent requirement quality assessment.",
+            "MARQ integrates a criterion-specific knowledge stack based on INCOSE criteria.",
+            "Evaluations show improved median F1 scores across models like Claude Opus 5 and GPT-5.6 Sol."
           ]
         },
         "fr": {
-          "title": "BenchBench-Cloning : Évaluation de la conception en clonage moléculaire",
-          "summary": "Présentation de BenchBench-Cloning, un nouveau benchmark de 65 tâches de clonage moléculaire pour évaluer les modèles de langage dans la planification expérimentale.",
+          "title": "MARQ : un évalueteur modulaire de la qualité des exigences",
+          "summary": "L'ingénierie des exigences est cruciale, mais les LLM standard ratent souvent des défauts identifiés par des experts. Cette étude présente MARQ, un prototype modulaire qui complète les LLM avec des connaissances en ingénierie système pour améliorer l'évaluation.",
           "keyPoints": [
-            "Comprend 50 tâches de protocoles et 15 tâches de conception de construits.",
-            "Évalué via un simulateur de clonage et des vérifications déterministes.",
-            "GPT-6 Astra obtient le score le plus élevé avec 30,6 %."
+            "Les LLM standard ont du mal à évaluer la qualité des exigences de manière cohérente.",
+            "MARQ intègre une pile de connaissances spécifique basée sur les critères INCOSE.",
+            "Les évaluations montrent des scores F1 médians améliorés sur plusieurs modèles."
           ]
         }
       },
@@ -275,36 +470,36 @@
       }
     },
     {
-      "id": "feed-7784fd671386cc",
-      "title": "AgentOrch: Comparing Global Orchestration and Step-by-Step Interaction",
-      "summary": "AgentOrch compares global orchestration against step-by-step interaction across 650 enterprise SOPs, showing ways to narrow the accuracy gap in enterprise workflow agents.",
+      "id": "feed-a4362185b5f0fe",
+      "title": "BehaveRec: When Does Long-Term Behavioral History Help?",
+      "summary": "Sequential recommendation models usually rely on recent interactions, limiting personalization when short-term signals are weak. This paper proposes BehaveRec, combining session transformers, user history encoders, and graph modules to evaluate when long-term behavioral history improves recommendation.",
       "keyPoints": [
-        "Compares global orchestration and step-by-step interaction.",
-        "Evaluates 650 enterprise SOPs and 3,220 runtime variants.",
-        "Identifies incremental construction and feedback revision to narrow the gap."
+        "BehaveRec combines session, history, and community signals via a learned gate.",
+        "A user-level stratification reveals a dose-response relationship with history richness.",
+        "Results help establish a practical deployment rule for long-term behavioral history."
       ],
-      "category": "Modèles",
+      "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33375",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.36239",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "AgentOrch: Comparing Global Orchestration and Step-by-Step Interaction",
-          "summary": "AgentOrch compares global orchestration against step-by-step interaction across 650 enterprise SOPs, showing ways to narrow the accuracy gap in enterprise workflow agents.",
+          "title": "BehaveRec: When Does Long-Term Behavioral History Help?",
+          "summary": "Sequential recommendation models usually rely on recent interactions, limiting personalization when short-term signals are weak. This paper proposes BehaveRec, combining session transformers, user history encoders, and graph modules to evaluate when long-term behavioral history improves recommendation.",
           "keyPoints": [
-            "Compares global orchestration and step-by-step interaction.",
-            "Evaluates 650 enterprise SOPs and 3,220 runtime variants.",
-            "Identifies incremental construction and feedback revision to narrow the gap."
+            "BehaveRec combines session, history, and community signals via a learned gate.",
+            "A user-level stratification reveals a dose-response relationship with history richness.",
+            "Results help establish a practical deployment rule for long-term behavioral history."
           ]
         },
         "fr": {
-          "title": "AgentOrch : Comparaison entre orchestration globale et interaction pas à pas",
-          "summary": "AgentOrch compare l'orchestration globale à l'interaction pas à pas sur 650 procédures d'entreprise pour réduire l'écart de précision des agents de flux de travail.",
+          "title": "BehaveRec : quand l'historique comportemental aide-t-il ?",
+          "summary": "Les modèles de recommandation séquentielle s'appuient généralement sur les interactions récentes. Cet article propose BehaveRec, combinant des transformateurs de session et des encodeurs d'historique pour évaluer l'utilité des signaux à long terme.",
           "keyPoints": [
-            "Compare l'orchestration globale et l'interaction pas à pas.",
-            "Évalue 650 procédures d'entreprise et 3 220 variantes d'exécution.",
-            "Propose des méthodes pour réduire l'écart de précision."
+            "BehaveRec combine des signaux de session, d'historique et de communauté.",
+            "Une stratification révèle une relation dose-réponse claire avec la richesse de l'historique.",
+            "Les résultats permettent de définir une règle de déploiement pratique."
           ]
         }
       },
@@ -314,36 +509,75 @@
       }
     },
     {
-      "id": "feed-ad8d95b7fd5b95",
-      "title": "How to Build a Modern Diffusion Language Model",
-      "summary": "This article surveys discrete diffusion models as an alternative to autoregressive LLMs, enabling parallel token generation, built-in error correction, and faster inference speeds.",
+      "id": "feed-8f95879ed507d2",
+      "title": "A Smart Instant Book Filter Model based on Dual-Objective Optimization",
+      "summary": "Online lodging platforms face challenges with booking delays and rejections in request-to-book listings. This paper presents a smart instant book filter system designed to maximize the instant book rate under the constraint that the overall booking rate does not decrease.",
       "keyPoints": [
-        "Surveys discrete diffusion models for language and biology.",
-        "Enables parallel token generation and error correction.",
-        "Addresses GPU underutilization in standard autoregressive LLMs."
+        "The system targets a dual-objective optimization problem in online lodging marketplaces.",
+        "It aims to maximize instant book rates without harming overall booking rates.",
+        "A/B testing demonstrates superior performance compared to previous human-expert-tuned models."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36287",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "A Smart Instant Book Filter Model based on Dual-Objective Optimization",
+          "summary": "Online lodging platforms face challenges with booking delays and rejections in request-to-book listings. This paper presents a smart instant book filter system designed to maximize the instant book rate under the constraint that the overall booking rate does not decrease.",
+          "keyPoints": [
+            "The system targets a dual-objective optimization problem in online lodging marketplaces.",
+            "It aims to maximize instant book rates without harming overall booking rates.",
+            "A/B testing demonstrates superior performance compared to previous human-expert-tuned models."
+          ]
+        },
+        "fr": {
+          "title": "Modèle de filtre de réservation instantanée par optimisation",
+          "summary": "Les plateformes de location en ligne font face à des retards de réponse. Cet article présente un système de filtrage intelligent des réservations instantanées visant à maximiser le taux de réservation instantanée sans nuire au taux global.",
+          "keyPoints": [
+            "Le système cible un problème d'optimisation à double objectif sur les marchés en ligne.",
+            "Il vise à maximiser les réservations instantanées sans pénaliser le taux global.",
+            "Les tests A/B démontrent de meilleures performances que les anciens modèles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0ed6edd9404f35",
+      "title": "Spiking Neural Networks Are Harder to Steal: A Benchmark Study",
+      "summary": "Model stealing attacks allow adversaries to rebuild machine learning models through black-box queries. This study benchmarks model stealing against spiking neural networks (SNNs), revealing that their temporal dynamics make SNNs consistently more difficult to steal than artificial neural networks.",
+      "keyPoints": [
+        "SNNs process information through sparse, discrete spikes and membrane potentials.",
+        "Four representative model stealing attacks were benchmarked across multiple datasets.",
+        "Surrogates of SNNs achieve significantly lower agreement and adversarial transferability."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33391",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.36298",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "How to Build a Modern Diffusion Language Model",
-          "summary": "This article surveys discrete diffusion models as an alternative to autoregressive LLMs, enabling parallel token generation, built-in error correction, and faster inference speeds.",
+          "title": "Spiking Neural Networks Are Harder to Steal: A Benchmark Study",
+          "summary": "Model stealing attacks allow adversaries to rebuild machine learning models through black-box queries. This study benchmarks model stealing against spiking neural networks (SNNs), revealing that their temporal dynamics make SNNs consistently more difficult to steal than artificial neural networks.",
           "keyPoints": [
-            "Surveys discrete diffusion models for language and biology.",
-            "Enables parallel token generation and error correction.",
-            "Addresses GPU underutilization in standard autoregressive LLMs."
+            "SNNs process information through sparse, discrete spikes and membrane potentials.",
+            "Four representative model stealing attacks were benchmarked across multiple datasets.",
+            "Surrogates of SNNs achieve significantly lower agreement and adversarial transferability."
           ]
         },
         "fr": {
-          "title": "Comment construire un modèle de langage par diffusion moderne",
-          "summary": "Cet article étudie les modèles de diffusion discrète comme alternative aux LLM autorégressifs, permettant la génération de tokens en parallèle et une inférence plus rapide.",
+          "title": "Les réseaux de neurones à impulsions sont plus difficiles à voler",
+          "summary": "Les attaques par vol de modèle permettent aux adversaires de reconstituer des modèles via des requêtes. Cette étude montre que la dynamique temporelle des réseaux de neurones à impulsions (SNN) les rend beaucoup plus résistants au vol.",
           "keyPoints": [
-            "Étudie les modèles de diffusion discrète pour le langage et la biologie.",
-            "Permet la génération parallèle de tokens et la correction d'erreurs.",
-            "Remédie à la sous-utilisation des GPU dans les LLM autorégressifs."
+            "Les SNN communiquent via des impulsions éparses et discrètes.",
+            "Quatre attaques par vol de modèle ont été évaluées sur plusieurs ensembles de données.",
+            "Les substituts des SNN atteignent une concordance nettement inférieure."
           ]
         }
       },
@@ -353,36 +587,153 @@
       }
     },
     {
-      "id": "feed-c631c0ad77c4e5",
-      "title": "Data Optimization for LLMs: A Comprehensive Survey",
-      "summary": "A comprehensive survey of data optimization techniques for large language models, covering perception dimensions, data selection, augmentation, reweighting, and future challenges.",
+      "id": "feed-a2ad1e8fe785e2",
+      "title": "When Retrieval Is Not Enough: Obsolete Facts in Agent Memory",
+      "summary": "Memory-agent benchmarks often obscure whether failures stem from missing updates or unused retrieved data. This study demonstrates that retrieving the correct fact is insufficient, as obsolete competing statements in agent memory can heavily impair performance.",
       "keyPoints": [
-        "Develops a framework for LLM data optimization techniques.",
-        "Summarizes perception dimensions: quality, difficulty, diversity, and redundancy.",
-        "Categorizes techniques into selection, augmentation, reweighting, and others."
+        "Accuracy drops as the retrieved evidence budget grows due to irrelevant or stale facts.",
+        "Replacing an unrelated statement with an obsolete statement sharply reduces model accuracy.",
+        "Obsolete competing statements can be more harmful than unrelated evidence of equal size."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36308",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "When Retrieval Is Not Enough: Obsolete Facts in Agent Memory",
+          "summary": "Memory-agent benchmarks often obscure whether failures stem from missing updates or unused retrieved data. This study demonstrates that retrieving the correct fact is insufficient, as obsolete competing statements in agent memory can heavily impair performance.",
+          "keyPoints": [
+            "Accuracy drops as the retrieved evidence budget grows due to irrelevant or stale facts.",
+            "Replacing an unrelated statement with an obsolete statement sharply reduces model accuracy.",
+            "Obsolete competing statements can be more harmful than unrelated evidence of equal size."
+          ]
+        },
+        "fr": {
+          "title": "Quand la recherche ne suffit pas : faits obsolètes dans la mémoire",
+          "summary": "Les benchmarks d'agents de mémoire masquent souvent l'origine des échecs. Cette étude démontre que récupérer le bon fait ne suffit pas, car des déclarations obsolètes concurrentes en mémoire peuvent nuire gravement aux performances.",
+          "keyPoints": [
+            "La précision diminue lorsque le budget de preuves récupérées augmente.",
+            "Remplacer une déclaration par une version obsolète réduit fortement la précision du modèle.",
+            "Les déclarations obsolètes sont plus nuisibles que des preuves non pertinentes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-202d9ab2851e24",
+      "title": "Ontology-Guided Multi-Agent Reasoning for Explainable Diagnosis",
+      "summary": "Large language models often rely on pattern recognition rather than clinical evidence for medical diagnosis. This paper proposes an ontology-guided, multi-agent framework that grounds diagnostic inference in a structured medical knowledge base to improve transparency and accuracy.",
+      "keyPoints": [
+        "LLMs in medicine often lack grounded clinical evidence and transparent reasoning.",
+        "The proposed multi-agent framework uses an expert-curated medical ontology.",
+        "The system decomposes diagnosis into explicit steps and generates targeted follow-up questions."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36325",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Ontology-Guided Multi-Agent Reasoning for Explainable Diagnosis",
+          "summary": "Large language models often rely on pattern recognition rather than clinical evidence for medical diagnosis. This paper proposes an ontology-guided, multi-agent framework that grounds diagnostic inference in a structured medical knowledge base to improve transparency and accuracy.",
+          "keyPoints": [
+            "LLMs in medicine often lack grounded clinical evidence and transparent reasoning.",
+            "The proposed multi-agent framework uses an expert-curated medical ontology.",
+            "The system decomposes diagnosis into explicit steps and generates targeted follow-up questions."
+          ]
+        },
+        "fr": {
+          "title": "Raisonnement multi-agent guidé par ontologie pour le diagnostic",
+          "summary": "Les grands modèles de langage reposent souvent sur la reconnaissance de motifs pour le diagnostic. Cet article propose un cadre multi-agent guidé par ontologie qui ancre l'inférence diagnostique dans une base de connaissances médicale structurée.",
+          "keyPoints": [
+            "Les LLM en médecine manquent souvent de preuves cliniques ancrées et transparentes.",
+            "Le cadre multi-agent proposé utilise une ontologie médicale experte.",
+            "Le système décompose le diagnostic en étapes explicites et génère des questions ciblées."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-71cf58516c356f",
+      "title": "How Stable Are LLM-Generated Proofs Under Program Refactoring?",
+      "summary": "Verifiable code generation benchmarks usually test proofs against fixed implementations. This paper introduces RefactorProof to evaluate whether Lean-certified proofs remain valid after behavior-preserving program refactorings, exposing substantial brittleness across proof sources.",
+      "keyPoints": [
+        "RefactorProof derives 458 Lean-certified variants to test proof stability under refactoring.",
+        "Structural refactorings expose substantial brittleness across different specialized provers.",
+        "Specialized provers showed higher unchanged-proof survival on matched tasks compared to references."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.36328",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Stable Are LLM-Generated Proofs Under Program Refactoring?",
+          "summary": "Verifiable code generation benchmarks usually test proofs against fixed implementations. This paper introduces RefactorProof to evaluate whether Lean-certified proofs remain valid after behavior-preserving program refactorings, exposing substantial brittleness across proof sources.",
+          "keyPoints": [
+            "RefactorProof derives 458 Lean-certified variants to test proof stability under refactoring.",
+            "Structural refactorings expose substantial brittleness across different specialized provers.",
+            "Specialized provers showed higher unchanged-proof survival on matched tasks compared to references."
+          ]
+        },
+        "fr": {
+          "title": "Quelle est la stabilité des preuves générées par LLM face au refactoring ?",
+          "summary": "Les benchmarks de génération de code vérifiable testent généralement les preuves sur une implémentation fixe. Cet article introduit RefactorProof pour évaluer si les preuves certifiées restent valides après un refactoring de code préservant le comportement.",
+          "keyPoints": [
+            "RefactorProof dérive 458 variantes certifiées pour tester la stabilité des preuves.",
+            "Les refactorisations structurelles révèlent une fragilité substantielle des sources de preuves.",
+            "Les prouveurs spécialisés affichent une meilleure survie des preuves inchangées."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4b87f2ecf88f8d",
+      "title": "Plenty of Room in the Middle: Fine-Grained GPU Cluster Monitoring",
+      "summary": "GPU clusters face high demand and long queuing delays, while traditional monitoring lacks the detail needed to optimize utilization. This paper presents a lightweight 100 ms monitoring tool that reveals significant underutilization and matching mismatches in research clusters.",
+      "keyPoints": [
+        "Over 70% of analyzed jobs use less than 20% of GPU memory on the cluster.",
+        "Eighty percent of jobs exhibit a drastic mismatch between requested and actual durations.",
+        "Substantial utilization gains are possible through improved job scheduling and GPU multitasking."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33405",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.36329",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Data Optimization for LLMs: A Comprehensive Survey",
-          "summary": "A comprehensive survey of data optimization techniques for large language models, covering perception dimensions, data selection, augmentation, reweighting, and future challenges.",
+          "title": "Plenty of Room in the Middle: Fine-Grained GPU Cluster Monitoring",
+          "summary": "GPU clusters face high demand and long queuing delays, while traditional monitoring lacks the detail needed to optimize utilization. This paper presents a lightweight 100 ms monitoring tool that reveals significant underutilization and matching mismatches in research clusters.",
           "keyPoints": [
-            "Develops a framework for LLM data optimization techniques.",
-            "Summarizes perception dimensions: quality, difficulty, diversity, and redundancy.",
-            "Categorizes techniques into selection, augmentation, reweighting, and others."
+            "Over 70% of analyzed jobs use less than 20% of GPU memory on the cluster.",
+            "Eighty percent of jobs exhibit a drastic mismatch between requested and actual durations.",
+            "Substantial utilization gains are possible through improved job scheduling and GPU multitasking."
           ]
         },
         "fr": {
-          "title": "Optimisation des données pour les LLM : Une étude complète",
-          "summary": "Une étude complète des techniques d'optimisation des données pour les grands modèles de langage, couvrant les dimensions de perception, la sélection et l'augmentation.",
+          "title": "Surveillance fine des clusters GPU : révéler les opportunités cachées",
+          "summary": "Les clusters GPU souffrent d'une forte demande et de délais d'attente. Cet article présente un outil de surveillance léger à 100 ms qui révèle une sous-utilisation importante des ressources et des inadéquations de durée dans les charges de travail.",
           "keyPoints": [
-            "Développe un cadre pour l'optimisation des données des LLM.",
-            "Résume les dimensions de perception : qualité, difficulté, diversité et redondance.",
-            "Classe les techniques en sélection, augmentation et réation de pondération."
+            "Plus de 70 % des tâches analysées utilisent moins de 20 % de la mémoire GPU.",
+            "Quatre-vingt pour cent des tâches présentent un décalage entre la durée demandée et réelle.",
+            "Des gains d'utilisation substantiels sont possibles grâce à une meilleure planification."
           ]
         }
       },
@@ -392,387 +743,36 @@
       }
     },
     {
-      "id": "feed-22bfdff3426e75",
-      "title": "Benchmarking System One Models for Time-Series Decision Making",
-      "summary": "This study evaluates Structured System 1 models, using Jev 1.13.0 as a case study, to convert continuous time-series forecasting into discrete decisions across classification and event prediction tasks.",
+      "id": "feed-10a0df171a06e2",
+      "title": "OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning",
+      "summary": "Retrieval-augmented generation helps mitigate LLM hallucinations but often overlooks logical relationships. This paper introduces OA-RAG, an agent integrating formal and informal domain ontology reasoning to provide reliable, evidence-grounded answers with assessed grounding levels.",
       "keyPoints": [
-        "Evaluated Jev 1.13.0 on time-series classification and event type prediction tasks.",
-        "Established a unified evaluation framework using accuracy and AUC.",
-        "Revealed strong performance on temporal patterns but near-chance discrimination on numerical sequences."
+        "OA-RAG combines formal and informal reasoning leveraging domain ontologies.",
+        "The agent reports ontology observations and model-assessed grounding levels as evidence.",
+        "Evaluations show OA-RAG outperforms popular RAG methods on medical question-answering."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33410",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.36335",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Benchmarking System One Models for Time-Series Decision Making",
-          "summary": "This study evaluates Structured System 1 models, using Jev 1.13.0 as a case study, to convert continuous time-series forecasting into discrete decisions across classification and event prediction tasks.",
+          "title": "OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning",
+          "summary": "Retrieval-augmented generation helps mitigate LLM hallucinations but often overlooks logical relationships. This paper introduces OA-RAG, an agent integrating formal and informal domain ontology reasoning to provide reliable, evidence-grounded answers with assessed grounding levels.",
           "keyPoints": [
-            "Evaluated Jev 1.13.0 on time-series classification and event type prediction tasks.",
-            "Established a unified evaluation framework using accuracy and AUC.",
-            "Revealed strong performance on temporal patterns but near-chance discrimination on numerical sequences."
+            "OA-RAG combines formal and informal reasoning leveraging domain ontologies.",
+            "The agent reports ontology observations and model-assessed grounding levels as evidence.",
+            "Evaluations show OA-RAG outperforms popular RAG methods on medical question-answering."
           ]
         },
         "fr": {
-          "title": "Évaluation des modèles Système 1 pour la prise de décision",
-          "summary": "Cette étude évalue les modèles Système 1 structurés, en utilisant Jev 1.13.0 comme cas d'étude, pour convertir la prévision de séries temporelles en décisions discrètes.",
+          "title": "OA-RAG : RAG agentique basé sur une ontologie pour des LLM fidèles",
+          "summary": "La génération augmentée par récupération atténue les hallucinations des LLM mais néglige souvent les relations logiques. Cet article présente OA-RAG, un agent intégrant un raisonnement ontologique pour fournir des réponses fiables et ancrées.",
           "keyPoints": [
-            "Évaluation de Jev 1.13.0 sur des tâches de classification et de prédiction d'événements.",
-            "Établissement d'un cadre d'évaluation unifié utilisant l'exactitude et l'AUC.",
-            "Mise en évidence de performances solides sur les motifs temporels mais faibles sur les séquences numériques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-5abda68f809352",
-      "title": "ConMem: Counterfactual Probing for LLM Memory Misalignment",
-      "summary": "To address memory misalignment in long-term LLM agent memory, researchers introduce the MemAlign benchmark and the ConMem algorithm, using counterfactual causal inference to improve retention decisions.",
-      "keyPoints": [
-        "Introduces MemAlign, a benchmark comprising 1,079 curated multi-session memory cases.",
-        "Proposes ConMem, an algorithm reframing retention as prospective counterfactual causal inference.",
-        "Achieves 75.16% accuracy and 64.15% balanced accuracy while mitigating over-retention biases."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33432",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ConMem: Counterfactual Probing for LLM Memory Misalignment",
-          "summary": "To address memory misalignment in long-term LLM agent memory, researchers introduce the MemAlign benchmark and the ConMem algorithm, using counterfactual causal inference to improve retention decisions.",
-          "keyPoints": [
-            "Introduces MemAlign, a benchmark comprising 1,079 curated multi-session memory cases.",
-            "Proposes ConMem, an algorithm reframing retention as prospective counterfactual causal inference.",
-            "Achieves 75.16% accuracy and 64.15% balanced accuracy while mitigating over-retention biases."
-          ]
-        },
-        "fr": {
-          "title": "ConMem : Sondage contrefactuel pour l'alignement mémoire",
-          "summary": "Pour remédier au désalignement de la mémoire des agents LLM à long terme, les chercheurs présentent le benchmark MemAlign et l'algorithme ConMem.",
-          "keyPoints": [
-            "Présentation de MemAlign, un benchmark comprenant 1 079 cas de mémoire.",
-            "Proposition de ConMem, un algorithme reformulant la rétention comme une inférence causale.",
-            "Atteinte d'une précision de 75,16 % tout en atténuant les biais de sur-rétention."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0fe50b845bb6b8",
-      "title": "BoardSafety: AI-Ready Data for Development-Board Safety",
-      "summary": "The BoardSafety benchmark uses manufacturer documentation to evaluate whether large language models can accurately determine the safety of proposed operations on specific hardware development boards.",
-      "keyPoints": [
-        "Introduces BoardSafety, built from vendor datasheets and hardware guides.",
-        "Evaluates safety classification across safe, unsafe, and insufficient-info categories.",
-        "Demonstrates that models cannot yet reliably determine hardware operation safety."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33448",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "BoardSafety: AI-Ready Data for Development-Board Safety",
-          "summary": "The BoardSafety benchmark uses manufacturer documentation to evaluate whether large language models can accurately determine the safety of proposed operations on specific hardware development boards.",
-          "keyPoints": [
-            "Introduces BoardSafety, built from vendor datasheets and hardware guides.",
-            "Evaluates safety classification across safe, unsafe, and insufficient-info categories.",
-            "Demonstrates that models cannot yet reliably determine hardware operation safety."
-          ]
-        },
-        "fr": {
-          "title": "BoardSafety : Données pour la sécurité des cartes",
-          "summary": "Le benchmark BoardSafety utilise la documentation des fabricants pour évaluer si les grands modèles de langage peuvent déterminer la sécurité d'opérations matérielles.",
-          "keyPoints": [
-            "Introduction de BoardSafety, conçu à partir de fiches techniques de fournisseurs.",
-            "Évaluation de la classification de sécurité sur des catégories variées.",
-            "Démontre que les modèles ne peuvent pas encore déterminer la sécurité de manière fiable."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a6295eb2f84e91",
-      "title": "A Comprehensive Framework for All Stages of LLM Training",
-      "summary": "This paper proposes a unified stage division and a six-dimensional analytical framework covering data, tokenization, pretraining, and post-training alignment, reviewing 395 core references from 2017 to 2026.",
-      "keyPoints": [
-        "Proposes a six-dimensional analytical framework for large-model training pipelines.",
-        "Systematically reviews 395 core references spanning from 2017 to 2026.",
-        "Highlights cross-stage effects and key findings regarding scaling laws and preference alignment."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33451",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "A Comprehensive Framework for All Stages of LLM Training",
-          "summary": "This paper proposes a unified stage division and a six-dimensional analytical framework covering data, tokenization, pretraining, and post-training alignment, reviewing 395 core references from 2017 to 2026.",
-          "keyPoints": [
-            "Proposes a six-dimensional analytical framework for large-model training pipelines.",
-            "Systematically reviews 395 core references spanning from 2017 to 2026.",
-            "Highlights cross-stage effects and key findings regarding scaling laws and preference alignment."
-          ]
-        },
-        "fr": {
-          "title": "Un cadre complet pour toutes les étapes d'entraînement",
-          "summary": "Cet article propose une division unifiée des étapes et un cadre analytique à six dimensions couvrant les données, l'entraînement et l'alignement, analysant 395 références.",
-          "keyPoints": [
-            "Proposition d'un cadre analytique à six dimensions pour les pipelines d'entraînement.",
-            "Examen systématique de 395 références fondamentales de 2017 à 2026.",
-            "Mise en évidence des effets inter-étapes et des lois d'échelle."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-fc3b7e421ef0a1",
-      "title": "LegoSR: Self-improving Agent-Guided Scientific Discovery",
-      "summary": "LegoSR integrates seven algebraic symbolic regression and differential equation solvers through a common framework, utilizing an agent to adapt searches based on solver knowledge and intermediate results.",
-      "keyPoints": [
-        "Integrates seven disparate equation discovery solvers into a unified framework.",
-        "Employs LegoSR Agent to select solvers and adapt searches dynamically.",
-        "Outperformed generic agents by up to 29 percentage points on noisy benchmarks."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33465",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "LegoSR: Self-improving Agent-Guided Scientific Discovery",
-          "summary": "LegoSR integrates seven algebraic symbolic regression and differential equation solvers through a common framework, utilizing an agent to adapt searches based on solver knowledge and intermediate results.",
-          "keyPoints": [
-            "Integrates seven disparate equation discovery solvers into a unified framework.",
-            "Employs LegoSR Agent to select solvers and adapt searches dynamically.",
-            "Outperformed generic agents by up to 29 percentage points on noisy benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "LegoSR : Découverte scientifique guidée par agent",
-          "summary": "LegoSR intègre sept solveurs de régression symbolique et d'équations différentielles au sein d'un cadre commun, utilisant un agent pour adapter les recherches.",
-          "keyPoints": [
-            "Intégration de sept solveurs de découverte d'équations dans un cadre unifié.",
-            "Utilisation de l'agent LegoSR pour sélectionner les solveurs et adapter les recherches.",
-            "Surpasse les agents génériques de jusqu'à 29 points de pourcentage sur des benchmarks."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-af059b626170ce",
-      "title": "Multivariate Time Series Super-Resolution Forecasting",
-      "summary": "Introducing Multivariate Time Series Super-Resolution Forecasting (MTS-SRF), this paper proposes TimeMagnifier to forecast fine-grained futures from coarse histories, cutting mean squared error significantly.",
-      "keyPoints": [
-        "Introduces MTS-SRF to forecast fine-grained futures from coarse historical records.",
-        "Proposes TimeMagnifier using Fourier Anchor, De-noise Only, and DTW Alignment stages.",
-        "Cuts MSE by 12.3% on average across ten datasets from five domains."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33470",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Multivariate Time Series Super-Resolution Forecasting",
-          "summary": "Introducing Multivariate Time Series Super-Resolution Forecasting (MTS-SRF), this paper proposes TimeMagnifier to forecast fine-grained futures from coarse histories, cutting mean squared error significantly.",
-          "keyPoints": [
-            "Introduces MTS-SRF to forecast fine-grained futures from coarse historical records.",
-            "Proposes TimeMagnifier using Fourier Anchor, De-noise Only, and DTW Alignment stages.",
-            "Cuts MSE by 12.3% on average across ten datasets from five domains."
-          ]
-        },
-        "fr": {
-          "title": "Prévision par super-résolution de séries temporelles",
-          "summary": "Introduisant la prévision par super-résolution de séries temporelles multivariées, cet article propose TimeMagnifier pour prédire des futurs précis à partir d'historiques grossiers.",
-          "keyPoints": [
-            "Introduction du cadre MTS-SRF pour la prévision à partir de données historiques grossières.",
-            "Proposition de TimeMagnifier intégrant des étapes de Fourier et d'alignement DTW.",
-            "Réduction de l'erreur quadratique moyenne de 12,3 % en moyenne sur dix jeux de données."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-92b2804ba06016",
-      "title": "SkillShift-Bench: Benchmarking Skill Learning for Web Agents",
-      "summary": "SkillShift-Bench evaluates web agent skill learning under controlled open-environment shifts, simulating contextual, perceptual, and execution variations across self-hosted web systems.",
-      "keyPoints": [
-        "Introduces the first benchmark for evaluating skill learning under open-environment shifts.",
-        "Simulates Contextual, Perceptual, and Execution shifts across three web systems.",
-        "Formulates shifted skill execution as a nonstationary local executability problem with test-time adaptation."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33528",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SkillShift-Bench: Benchmarking Skill Learning for Web Agents",
-          "summary": "SkillShift-Bench evaluates web agent skill learning under controlled open-environment shifts, simulating contextual, perceptual, and execution variations across self-hosted web systems.",
-          "keyPoints": [
-            "Introduces the first benchmark for evaluating skill learning under open-environment shifts.",
-            "Simulates Contextual, Perceptual, and Execution shifts across three web systems.",
-            "Formulates shifted skill execution as a nonstationary local executability problem with test-time adaptation."
-          ]
-        },
-        "fr": {
-          "title": "SkillShift-Bench : Évaluation de l'apprentissage",
-          "summary": "SkillShift-Bench évalue l'apprentissage des compétences des agents web sous des changements d'environnements ouverts contrôlés, simulant des variations contextuelles et perceptuelles.",
-          "keyPoints": [
-            "Introduction du premier benchmark d'évaluation sous des changements d'environnement.",
-            "Simulation de décalages contextuels, perceptuels et d'exécution sur trois systèmes web.",
-            "Formulation de l'exécution décalée comme un problème d'exécutabilité locale non stationnaire."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8db2524b22ef50",
-      "title": "FraudSociety: A Generative Agent Society for Financial Fraud",
-      "summary": "FraudSociety is an LLM-agent-based simulator that jointly models informational exposure and financial ledgers to simulate how financial fraud unfolds within a synthetic population.",
-      "keyPoints": [
-        "Jointly models information exposure and persistent financial ledger dynamics.",
-        "Replicates real-world macro outcomes and strong micro-level loss concentrations.",
-        "Evaluates counter-fraud interventions, reducing repeat-payment rates significantly."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33536",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "FraudSociety: A Generative Agent Society for Financial Fraud",
-          "summary": "FraudSociety is an LLM-agent-based simulator that jointly models informational exposure and financial ledgers to simulate how financial fraud unfolds within a synthetic population.",
-          "keyPoints": [
-            "Jointly models information exposure and persistent financial ledger dynamics.",
-            "Replicates real-world macro outcomes and strong micro-level loss concentrations.",
-            "Evaluates counter-fraud interventions, reducing repeat-payment rates significantly."
-          ]
-        },
-        "fr": {
-          "title": "FraudSociety : Une société d'agents pour la fraude",
-          "summary": "FraudSociety est un simulateur basé sur des agents LLM qui modélise conjointement l'exposition informationnelle et les registres financiers pour simuler la fraude.",
-          "keyPoints": [
-            "Modélisation conjointe de l'exposition à l'information et des flux financiers.",
-            "Reproduction des résultats macroéconomiques et des concentrations de pertes micro.",
-            "Évaluation d'interventions antifraude réduisant les taux de récidive de paiement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-559b42d4821286",
-      "title": "CoEvolve: Counterfactual-Guided Co-Evolution in Multi-Agents",
-      "summary": "CoEvolve is a skill-centered framework that coordinates memory and workflow collaboration updates in multi-agent systems using counterfactual trajectories and local evolution signals.",
-      "keyPoints": [
-        "Represents local collaboration patterns as skills linking workflows to supporting memories.",
-        "Uses counterfactual trajectories to identify signals coordinating updates across rounds.",
-        "Achieves top overall performance on ALFWorld and WebShop benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33539",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "CoEvolve: Counterfactual-Guided Co-Evolution in Multi-Agents",
-          "summary": "CoEvolve is a skill-centered framework that coordinates memory and workflow collaboration updates in multi-agent systems using counterfactual trajectories and local evolution signals.",
-          "keyPoints": [
-            "Represents local collaboration patterns as skills linking workflows to supporting memories.",
-            "Uses counterfactual trajectories to identify signals coordinating updates across rounds.",
-            "Achieves top overall performance on ALFWorld and WebShop benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "CoEvolve : Co-évolution guidée par contrefactuel",
-          "summary": "CoEvolve est un cadre axé sur les compétences qui coordonne les mises à jour de la mémoire et de la collaboration dans les systèmes multi-agents grâce à des trajectoires contrefactuelles.",
-          "keyPoints": [
-            "Représentation des modèles de collaboration sous forme de compétences.",
-            "Utilisation de trajectoires contrefactuelles pour identifier des signaux d'évolution.",
-            "Performance globale optimale sur les benchmarks ALFWorld et WebShop."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d195469774ab0a",
-      "title": "SMART-Med: Selective Multi-Agent Medical Reasoning",
-      "summary": "SMART-Med is a fully local multi-agent medical reasoning framework using uncertainty-aware routing to dynamically decide when expert collaboration is required.",
-      "keyPoints": [
-        "Replaces dense collaboration with a learnable, uncertainty-driven routing mechanism.",
-        "Curates MedVR-3K, a multimodal medical dataset with reasoning traces and difficulty hierarchy.",
-        "Reduces inference time by 3.8x and token usage by 72% while improving accuracy."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.33544",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SMART-Med: Selective Multi-Agent Medical Reasoning",
-          "summary": "SMART-Med is a fully local multi-agent medical reasoning framework using uncertainty-aware routing to dynamically decide when expert collaboration is required.",
-          "keyPoints": [
-            "Replaces dense collaboration with a learnable, uncertainty-driven routing mechanism.",
-            "Curates MedVR-3K, a multimodal medical dataset with reasoning traces and difficulty hierarchy.",
-            "Reduces inference time by 3.8x and token usage by 72% while improving accuracy."
-          ]
-        },
-        "fr": {
-          "title": "SMART-Med : Raisonnement médical multi-agent",
-          "summary": "SMART-Med est un cadre de raisonnement médical multi-agent entièrement local utilisant un routage sensible à l'incertitude pour décider quand une collaboration d'experts est nécessaire.",
-          "keyPoints": [
-            "Remplacement de la collaboration dense par un mécanisme de routage basé sur l'incertitude.",
-            "Création de MedVR-3K, un jeu de données médical multimodal avec des traces de raisonnement.",
-            "Réduction du temps d'inférence de 3,8x et de l'utilisation des jetons de 72 %."
+            "OA-RAG combine le raisonnement formel et informel en s'appuyant sur des ontologies.",
+            "L'agent rapporte des observations ontologiques et des niveaux d'ancrage évalués.",
+            "Les évaluations montrent qu'OA-RAG surpasse les méthodes RAG populaires en médecine."
           ]
         }
       },
@@ -784,7 +784,7 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 748,
+    "itemsCollected": 442,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
