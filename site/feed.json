@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-10-28T18:22:40.182Z",
+  "generatedAt": "2026-10-29T05:50:55.014Z",
   "items": [
+    {
+      "id": "feed-a395c7da350b50",
+      "title": "OpenAI and ServiceNow Expand Partnership",
+      "summary": "OpenAI and ServiceNow have expanded their partnership to integrate OpenAI models and agents into ServiceNow, while also bringing ServiceNow workflows into ChatGPT and Codex.",
+      "keyPoints": [
+        "OpenAI and ServiceNow expanded their partnership",
+        "OpenAI models and agents integrate into ServiceNow",
+        "ServiceNow workflows come to ChatGPT and Codex"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "publishedAt": "2026-10-28T13:15:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI and ServiceNow Expand Partnership",
+          "summary": "OpenAI and ServiceNow have expanded their partnership to integrate OpenAI models and agents into ServiceNow, while also bringing ServiceNow workflows into ChatGPT and Codex.",
+          "keyPoints": [
+            "OpenAI and ServiceNow expanded their partnership",
+            "OpenAI models and agents integrate into ServiceNow",
+            "ServiceNow workflows come to ChatGPT and Codex"
+          ]
+        },
+        "fr": {
+          "title": "OpenAI et ServiceNow étendent leur partenariat",
+          "summary": "OpenAI et ServiceNow étendent leur partenariat pour intégrer les modèles et agents OpenAI dans ServiceNow, ainsi que les flux de travail ServiceNow dans ChatGPT et Codex.",
+          "keyPoints": [
+            "OpenAI et ServiceNow étendent leur partenariat",
+            "Intégration des modèles et agents OpenAI dans ServiceNow",
+            "Intégration des flux ServiceNow dans ChatGPT et Codex"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-709cc8e2bd467b",
+      "title": "Legora Builds Agentic Operating System for Legal Work",
+      "summary": "Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "keyPoints": [
+        "Legora builds the agentic operating system for legal work",
+        "Uses OpenAI models, ChatGPT, and Codex",
+        "Accelerates legal workflows and contract analysis"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/legora",
+      "publishedAt": "2026-10-28T09:30:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Legora Builds Agentic Operating System for Legal Work",
+          "summary": "Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "keyPoints": [
+            "Legora builds the agentic operating system for legal work",
+            "Uses OpenAI models, ChatGPT, and Codex",
+            "Accelerates legal workflows and contract analysis"
+          ]
+        },
+        "fr": {
+          "title": "Legora construit le système d'exploitation pour le droit",
+          "summary": "Legora utilise les modèles OpenAI, ChatGPT et Codex pour accélérer les flux de travail juridiques, étendre l'analyse des contrats et libérer les avocats.",
+          "keyPoints": [
+            "Legora construit le système d'exploitation agentique pour le travail juridique",
+            "Utilise les modèles OpenAI, ChatGPT et Codex",
+            "Accélère les flux de travail juridiques et l'analyse des contrats"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-e2ed7680c50ae3",
       "title": "The Future of the Firm",
@@ -702,93 +780,15 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-c2610925d0b84f",
-      "title": "ATEMPO: Amortized Transfer Entropy Model Per-lag Over-Time",
-      "summary": "ATEMPO is a diffusion-based transfer entropy estimator amortized over lags and time, enabling a single score network to estimate the full transfer entropy surface without refitting. Across datasets, ATEMPO achieves superior lag-detection accuracy and improves downstream forecasting, reducing MSE on WEATHER-5K by 7.25%.",
-      "keyPoints": [
-        "Introduces ATEMPO, a diffusion-based transfer entropy estimator amortized across lags and time.",
-        "Estimates the full transfer entropy surface with a single score network fit.",
-        "Reduces MSE on WEATHER-5K by 7.25% using recovered delays for downstream forecasting."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36536",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ATEMPO: Amortized Transfer Entropy Model Per-lag Over-Time",
-          "summary": "ATEMPO is a diffusion-based transfer entropy estimator amortized over lags and time, enabling a single score network to estimate the full transfer entropy surface without refitting. Across datasets, ATEMPO achieves superior lag-detection accuracy and improves downstream forecasting, reducing MSE on WEATHER-5K by 7.25%.",
-          "keyPoints": [
-            "Introduces ATEMPO, a diffusion-based transfer entropy estimator amortized across lags and time.",
-            "Estimates the full transfer entropy surface with a single score network fit.",
-            "Reduces MSE on WEATHER-5K by 7.25% using recovered delays for downstream forecasting."
-          ]
-        },
-        "fr": {
-          "title": "ATEMPO : Modèle d'entropie de transfert amorti par décalage et dans le temps",
-          "summary": "ATEMPO est un estimateur d'entropie de transfert basé sur la diffusion et amorti sur les décalages et le temps, permettant à un seul réseau de score d'estimer toute la surface d'entropie. Sur divers jeux de données, ATEMPO atteint une excellente précision de détection de décalage et réduit l'erreur quadratique moyenne sur WEATHER-5K de 7,25 %.",
-          "keyPoints": [
-            "Présente ATEMPO, un estimateur d'entropie de transfert basé sur la diffusion.",
-            "Estime toute la surface d'entropie de transfert avec un seul ajustement de réseau.",
-            "Réduit l'erreur MSE sur WEATHER-5K de 7,25 % grâce aux retards récupérés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-583519ff11ee29",
-      "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for AI Agents",
-      "summary": "This paper demonstrates that classifier accuracy alone does not determine whether restarting an AI agent improves success. It introduces a decision-sufficiency criterion and a finite-sample decision audit to evaluate agent restart monitors through recovery opportunity and decision value, supported by findings from SWE-bench Verified evaluations.",
-      "keyPoints": [
-        "Shows analytically that monitor accuracy alone does not dictate agent restart success improvements.",
-        "Introduces a decision-sufficiency criterion based on Blackwell's comparison of experiments.",
-        "Proposes a model-free decision audit to certify restart or continue preferences using empirical traces."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36544",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for AI Agents",
-          "summary": "This paper demonstrates that classifier accuracy alone does not determine whether restarting an AI agent improves success. It introduces a decision-sufficiency criterion and a finite-sample decision audit to evaluate agent restart monitors through recovery opportunity and decision value, supported by findings from SWE-bench Verified evaluations.",
-          "keyPoints": [
-            "Shows analytically that monitor accuracy alone does not dictate agent restart success improvements.",
-            "Introduces a decision-sufficiency criterion based on Blackwell's comparison of experiments.",
-            "Proposes a model-free decision audit to certify restart or continue preferences using empirical traces."
-          ]
-        },
-        "fr": {
-          "title": "La précision des moniteurs ne suffit pas : Un cadre de décision pour les agents IA",
-          "summary": "Cet article démontre que la seule précision de classification ne suffit pas à garantir qu'un redémarrage améliore le succès d'un agent IA. Il introduit un critère de suffisance de décision et un audit de décision à échantillon fini pour évaluer les moniteurs de redémarrage à travers la valeur de décision, appuyé par des évaluations sur SWE-bench Verified.",
-          "keyPoints": [
-            "Montre que la précision du moniteur ne dicte pas à elle seule les gains de redémarrage des agents.",
-            "Introduit un critère de suffisance de décision inspiré de la comparaison des expériences de Blackwell.",
-            "Propose un audit de décision sans modèle pour certifier les préférences de redémarrage."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 438,
+    "itemsCollected": 29,
     "itemsPublished": 20,
-    "newItems": 20,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 2,
+    "candidates": 2,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
