@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-10-29T05:50:55.014Z",
+  "generatedAt": "2026-10-29T18:29:29.832Z",
   "items": [
+    {
+      "id": "feed-9349f418e7bc7a",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "summary": "OpenAI has released an updated Model Spec outlining five core values designed to guide more capable AI systems toward sound judgment, human agency, and faithfulness to human intent.",
+      "keyPoints": [
+        "Updated Model Spec published by OpenAI",
+        "Outlines five core guiding values",
+        "Aims for sound judgment and human intent faithfulness"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/updated-model-spec",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "summary": "OpenAI has released an updated Model Spec outlining five core values designed to guide more capable AI systems toward sound judgment, human agency, and faithfulness to human intent.",
+          "keyPoints": [
+            "Updated Model Spec published by OpenAI",
+            "Outlines five core guiding values",
+            "Aims for sound judgment and human intent faithfulness"
+          ]
+        },
+        "fr": {
+          "title": "Une spécification de modèle mise à jour pour une IA plus capable",
+          "summary": "OpenAI a publié une spécification de modèle mise à jour décrivant cinq valeurs fondamentales pour guider l'IA vers un jugement sûr, l'autonomie humaine et la fidélité à l'intention humaine.",
+          "keyPoints": [
+            "Spécification de modèle mise à jour par OpenAI",
+            "Présente cinq valeurs fondamentales directrices",
+            "Vise un jugement sûr et la fidélité humaine"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0f01adb2acab0a",
+      "title": "How we detect frontier model misalignment",
+      "summary": "OpenAI explains its use of layered monitoring to detect frontier model misalignment and unauthorized agent behavior, allowing responders to intervene before incidents escalate.",
+      "keyPoints": [
+        "Uses layered monitoring approaches",
+        "Detects frontier model misalignment",
+        "Identifies unauthorized agent behavior for early intervention"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How we detect frontier model misalignment",
+          "summary": "OpenAI explains its use of layered monitoring to detect frontier model misalignment and unauthorized agent behavior, allowing responders to intervene before incidents escalate.",
+          "keyPoints": [
+            "Uses layered monitoring approaches",
+            "Detects frontier model misalignment",
+            "Identifies unauthorized agent behavior for early intervention"
+          ]
+        },
+        "fr": {
+          "title": "Comment nous détectons le désalignement des modèles de frontières",
+          "summary": "OpenAI explique son utilisation d'une surveillance multicouche pour détecter le désalignement des modèles de pointe et les comportements d'agents non autorisés, permettant une intervention précoce.",
+          "keyPoints": [
+            "Utilise une surveillance multicouche",
+            "Détecte le désalignement des modèles de pointe",
+            "Identifie le comportement non autorisé des agents"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d948735545c20c",
+      "title": "How Ropes & Gray develops AI for transactional diligence",
+      "summary": "Ropes & Gray is partnering with OpenAI to develop AI for transactional diligence. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "keyPoints": [
+        "Ropes & Gray develops transactional diligence AI with OpenAI",
+        "Lawyers review grouped documents and summaries",
+        "Reports are examined prior to client advising"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/ropes-gray-ai-diligence",
+      "publishedAt": "2026-10-29T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Ropes & Gray develops AI for transactional diligence",
+          "summary": "Ropes & Gray is partnering with OpenAI to develop AI for transactional diligence. Lawyers review grouped documents, summaries, and reports before advising clients.",
+          "keyPoints": [
+            "Ropes & Gray develops transactional diligence AI with OpenAI",
+            "Lawyers review grouped documents and summaries",
+            "Reports are examined prior to client advising"
+          ]
+        },
+        "fr": {
+          "title": "Comment Ropes & Gray développe l'IA pour la diligence transactionnelle",
+          "summary": "Ropes & Gray développe une IA pour la diligence transactionnelle avec OpenAI. Les avocats examinent des documents groupés, des résumés et des rapports avant de conseiller leurs clients.",
+          "keyPoints": [
+            "Ropes & Gray développe une IA transactionnelle avec OpenAI",
+            "Les avocats examinent des documents groupés et des résumés",
+            "Les rapports sont analysés avant le conseil aux clients"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-a395c7da350b50",
       "title": "OpenAI and ServiceNow Expand Partnership",
@@ -663,131 +780,14 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-5f3dc98e7cb7ec",
-      "title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments",
-      "summary": "CogArena introduces a benchmark of ten experimental paradigms from social and behavioral sciences to test multimodal AI agents through standard web interfaces. Evaluating four multimodal models ten times per task reveals a gap between task completion and the reliable reproduction of human behavioral signatures.",
-      "keyPoints": [
-        "Introduces CogArena, featuring ten experimental paradigms from behavioral sciences via web browsers.",
-        "Evaluates multimodal agents using a three-level scoring procedure for task completion and human signatures.",
-        "Finds that models often complete experiments without reliably reproducing all human behavioral signatures."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36484",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments",
-          "summary": "CogArena introduces a benchmark of ten experimental paradigms from social and behavioral sciences to test multimodal AI agents through standard web interfaces. Evaluating four multimodal models ten times per task reveals a gap between task completion and the reliable reproduction of human behavioral signatures.",
-          "keyPoints": [
-            "Introduces CogArena, featuring ten experimental paradigms from behavioral sciences via web browsers.",
-            "Evaluates multimodal agents using a three-level scoring procedure for task completion and human signatures.",
-            "Finds that models often complete experiments without reliably reproducing all human behavioral signatures."
-          ]
-        },
-        "fr": {
-          "title": "CogArena : Évaluation d'agents multimodaux sur des expériences comportementales",
-          "summary": "CogArena introduit un benchmark de dix paradigmes expérimentaux issus des sciences sociales et comportementales pour tester des agents d'IA multimodaux via des interfaces web standard. L'évaluation de quatre modèles multimodaux révèle un fossé entre l'achèvement des tâches et la reproduction fidèle des signatures comportementales humaines.",
-          "keyPoints": [
-            "Introduit CogArena avec dix paradigmes expérimentaux comportementaux via des navigateurs web.",
-            "Évalue les agents multimodaux selon une procédure de notation à trois niveaux.",
-            "Montre que les modèles achèvent souvent les expériences sans reproduire fidèlement toutes les signatures."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-56099918e6c857",
-      "title": "AC-JEPA: Anchored Cross-Modal JEPA for Visual-to-Symbolic Translation",
-      "summary": "AC-JEPA is an SFT-compatible plug-in that predicts masked intermediate states in both cross-modal directions to improve visual-to-symbolic translation. Tested on optical chemical structure recognition, AC-JEPA trained on clean pairs achieves 76.07% accuracy, which rises to 80.23% using self-training on pseudo-labeled data, outperforming standard supervised fine-tuning.",
-      "keyPoints": [
-        "Proposes AC-JEPA, a joint-embedding predictive architecture for cross-modal translation.",
-        "Combines joint-embedding prediction with a causal SFT path for robust target supervision.",
-        "Reaches 80.23% accuracy on WildMol using pseudo-labeled self-training compared to 63.47% for SFT."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36493",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AC-JEPA: Anchored Cross-Modal JEPA for Visual-to-Symbolic Translation",
-          "summary": "AC-JEPA is an SFT-compatible plug-in that predicts masked intermediate states in both cross-modal directions to improve visual-to-symbolic translation. Tested on optical chemical structure recognition, AC-JEPA trained on clean pairs achieves 76.07% accuracy, which rises to 80.23% using self-training on pseudo-labeled data, outperforming standard supervised fine-tuning.",
-          "keyPoints": [
-            "Proposes AC-JEPA, a joint-embedding predictive architecture for cross-modal translation.",
-            "Combines joint-embedding prediction with a causal SFT path for robust target supervision.",
-            "Reaches 80.23% accuracy on WildMol using pseudo-labeled self-training compared to 63.47% for SFT."
-          ]
-        },
-        "fr": {
-          "title": "AC-JEPA : Architecture conjointe à embedding prédictif pour la traduction visuo-symbolique",
-          "summary": "AC-JEPA est un module compatible SFT qui prédit des états intermédiaires masqués dans les deux directions inter-modales pour améliorer la traduction visuo-symbolique. Testé sur la reconnaissance de structures chimiques optiques, AC-JEPA atteint une précision de 76,07 % sur des paires propres et monte à 80,23 % avec l'auto-entraînement sur données pseudo-étiquetées.",
-          "keyPoints": [
-            "Propose AC-JEPA, une architecture d'embedding prédictif pour la traduction inter-modale.",
-            "Combine une prédiction par embedding conjoint avec un chemin SFT causal.",
-            "Atteint 80,23 % de précision sur WildMol en auto-entraînement contre 63,47 % pour le SFT seul."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-26b3e231b17f57",
-      "title": "MedConstBench: Benchmarking How Constitutions Steer LLMs in Medical Ethics",
-      "summary": "MedConstBench evaluates how deployment constitutions steer open-source LLMs in medical ethics based on Beauchamp's four principles. Evaluating ten models under four constitutions shows that ethical effects are dimension-selective and model-dependent, leading to a proposed do-no-harm adaptive selector that matches per-model oracles.",
-      "keyPoints": [
-        "Introduces MedConstBench to analyze how deployment constitutions steer LLM medical ethics.",
-        "Evaluates ten open-source models under four distinct constitutional frameworks.",
-        "Proposes an adaptive selector matching per-model oracles while guaranteeing a safety floor."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36513",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MedConstBench: Benchmarking How Constitutions Steer LLMs in Medical Ethics",
-          "summary": "MedConstBench evaluates how deployment constitutions steer open-source LLMs in medical ethics based on Beauchamp's four principles. Evaluating ten models under four constitutions shows that ethical effects are dimension-selective and model-dependent, leading to a proposed do-no-harm adaptive selector that matches per-model oracles.",
-          "keyPoints": [
-            "Introduces MedConstBench to analyze how deployment constitutions steer LLM medical ethics.",
-            "Evaluates ten open-source models under four distinct constitutional frameworks.",
-            "Proposes an adaptive selector matching per-model oracles while guaranteeing a safety floor."
-          ]
-        },
-        "fr": {
-          "title": "MedConstBench : Évaluer l'impact des constitutions sur l'éthique médicale des LLM",
-          "summary": "MedConstBench évalue comment les constitutions de déploiement orientent les LLM open source en éthique médicale selon les quatre principes de Beauchamp. L'évaluation de dix modèles montre que les effets éthiques dépendent du modèle et de la dimension, ce qui conduit à proposer un sélecteur adaptatif garantissant un niveau minimal de sécurité.",
-          "keyPoints": [
-            "Introduit MedConstBench pour analyser l'impact des constitutions sur l'éthique médicale des LLM.",
-            "Évalue dix modèles open source sous quatre cadres constitutionnels distincts.",
-            "Propose un sélecteur adaptatif respectant les performances optimales par modèle."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 29,
+    "itemsCollected": 33,
     "itemsPublished": 20,
-    "newItems": 2,
-    "candidates": 2,
+    "newItems": 3,
+    "candidates": 3,
     "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
