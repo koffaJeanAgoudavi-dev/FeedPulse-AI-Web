@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-10-30T05:51:48.556Z",
+  "generatedAt": "2026-10-30T18:01:43.716Z",
   "items": [
+    {
+      "id": "feed-a86d24c59c8261",
+      "title": "Community safety report and new protections for teens",
+      "summary": "OpenAI is enhancing violence prevention measures within ChatGPT by introducing expanded safeguards, earlier interventions, and a renewed commitment to public safety reporting.",
+      "keyPoints": [
+        "Strengthening violence prevention in ChatGPT",
+        "Introducing expanded safeguards and earlier interventions",
+        "New commitment to public safety reporting"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Community safety report and new protections for teens",
+          "summary": "OpenAI is enhancing violence prevention measures within ChatGPT by introducing expanded safeguards, earlier interventions, and a renewed commitment to public safety reporting.",
+          "keyPoints": [
+            "Strengthening violence prevention in ChatGPT",
+            "Introducing expanded safeguards and earlier interventions",
+            "New commitment to public safety reporting"
+          ]
+        },
+        "fr": {
+          "title": "Rapport de sécurité communautaire et nouvelles protections",
+          "summary": "OpenAI renforce la prévention de la violence dans ChatGPT en déployant des mesures de protection élargies, des interventions plus précoces et un nouvel engagement envers les rapports de sécurité publique.",
+          "keyPoints": [
+            "Renforcement de la prévention de la violence dans ChatGPT",
+            "Introduction de mesures de protection élargies et d'interventions précoces",
+            "Nouvel engagement pour les rapports de sécurité publique"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-85f94c0fe8f02a",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "summary": "Credit Saison achieved a 954% return on investment during its ChatGPT Enterprise pilot, with leaders and employees driving the transition into companywide adoption.",
+      "keyPoints": [
+        "Credit Saison achieved 954% ROI in a pilot",
+        "Utilized ChatGPT Enterprise",
+        "Leaders and employees drove companywide adoption"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/credit-saison",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+          "summary": "Credit Saison achieved a 954% return on investment during its ChatGPT Enterprise pilot, with leaders and employees driving the transition into companywide adoption.",
+          "keyPoints": [
+            "Credit Saison achieved 954% ROI in a pilot",
+            "Utilized ChatGPT Enterprise",
+            "Leaders and employees drove companywide adoption"
+          ]
+        },
+        "fr": {
+          "title": "Credit Saison atteint un ROI de 954% avec ChatGPT Enterprise",
+          "summary": "Credit Saison a atteint un retour sur investissement de 954% lors de son projet pilote ChatGPT Enterprise, grâce à l'implication des dirigeants et des employés pour généraliser son adoption.",
+          "keyPoints": [
+            "Credit Saison a atteint un ROI de 954% lors d'un projet pilote",
+            "Utilisation de ChatGPT Enterprise",
+            "Les dirigeants et employés ont favorisé l'adoption à l'échelle de l'entreprise"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-9349f418e7bc7a",
       "title": "An updated Model Spec for more capable and beneficial AI",
@@ -702,95 +780,17 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-d329f44d35f8e8",
-      "title": "Measuring Epistemic Vigilance in LLM Agents Under User Pressure",
-      "summary": "Evaluating seven LLMs across two studies, this paper examines how LLM agents handle user disagreement that acts as correction or manipulation. The research measures concession rates using signal detection theory, finding that citations made five of seven models readier to concede and four worse at discriminating, while policy violations varied.",
-      "keyPoints": [
-        "Examines how LLM agents distinguish correction from manipulation under graded user pressure.",
-        "Measures concession and discrimination using signal detection theory across seven LLMs.",
-        "Finds that citations increased concession readiness for five models while impairing discrimination for four."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36453",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Measuring Epistemic Vigilance in LLM Agents Under User Pressure",
-          "summary": "Evaluating seven LLMs across two studies, this paper examines how LLM agents handle user disagreement that acts as correction or manipulation. The research measures concession rates using signal detection theory, finding that citations made five of seven models readier to concede and four worse at discriminating, while policy violations varied.",
-          "keyPoints": [
-            "Examines how LLM agents distinguish correction from manipulation under graded user pressure.",
-            "Measures concession and discrimination using signal detection theory across seven LLMs.",
-            "Finds that citations increased concession readiness for five models while impairing discrimination for four."
-          ]
-        },
-        "fr": {
-          "title": "Mesurer la vigilance épistémique des agents LLM sous pression utilisateur",
-          "summary": "Évaluant sept LLM à travers deux études, cet article examine la manière dont les agents gèrent le désaccord des utilisateurs agissant comme correction ou manipulation. La recherche mesure les taux de concession à l'aide de la théorie de la détection du signal, constatant que les citations rendent cinq modèles plus enclins à concéder et quatre moins aptes à discriminer.",
-          "keyPoints": [
-            "Examine comment les agents LLM distinguent la correction de la manipulation sous pression.",
-            "Mesure la concession et la discrimination à l'aide de la théorie de la détection du signal.",
-            "Montre que les citations augmentent la propension à concéder pour cinq des sept modèles."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-243077946363d3",
-      "title": "When to Intervene? An Empirical Study of Errors and Self-Recovery in LLM Agents",
-      "summary": "This empirical study investigates errors and self-recovery in LLM agents using ReInBench, a dataset containing 1,259 agent traces and 1,403 error events. The findings reveal that many errors self-recover quickly, leading to the proposal of ReCoF, a method predicting error self-recovery to optimize external interventions and improve task completion.",
-      "keyPoints": [
-        "Introduces ReInBench with 1,259 agent traces and 1,403 error events across computer-use and Web tasks.",
-        "Demonstrates that a significant portion of error events undergo self-recovery within a few steps.",
-        "Proposes ReCoF, achieving a 9.02% average relative improvement in Macro-F1 over baselines by predicting self-recovery."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36471",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "When to Intervene? An Empirical Study of Errors and Self-Recovery in LLM Agents",
-          "summary": "This empirical study investigates errors and self-recovery in LLM agents using ReInBench, a dataset containing 1,259 agent traces and 1,403 error events. The findings reveal that many errors self-recover quickly, leading to the proposal of ReCoF, a method predicting error self-recovery to optimize external interventions and improve task completion.",
-          "keyPoints": [
-            "Introduces ReInBench with 1,259 agent traces and 1,403 error events across computer-use and Web tasks.",
-            "Demonstrates that a significant portion of error events undergo self-recovery within a few steps.",
-            "Proposes ReCoF, achieving a 9.02% average relative improvement in Macro-F1 over baselines by predicting self-recovery."
-          ]
-        },
-        "fr": {
-          "title": "Quand intervenir ? Étude empirique des erreurs et de l'auto-récupération des agents LLM",
-          "summary": "Cette étude empirique examine les erreurs et l'auto-récupération des agents LLM à l'aide de ReInBench, un jeu de données contenant 1 259 traces d'agents et 1 403 erreurs. Les résultats montrent que de nombreuses erreurs s'auto-récupèrent rapidement, ce qui conduit à la proposition de ReCoF, une méthode prédisant l'auto-récupération pour optimiser les interventions externes.",
-          "keyPoints": [
-            "Présente ReInBench contenant 1 259 traces et 1 403 erreurs sur des tâches web et informatiques.",
-            "Démontre qu'une part importante des erreurs s'auto-récupère en quelques étapes.",
-            "Propose ReCoF, obtenant une amélioration relative moyenne de 9,02 % du Macro-F1."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
     "itemsCollected": 28,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 2,
+    "candidates": 2,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
