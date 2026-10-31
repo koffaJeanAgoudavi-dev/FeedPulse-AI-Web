@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-31T05:45:34.633Z",
+  "generatedAt": "2026-10-31T17:17:08.617Z",
   "items": [
     {
-      "id": "feed-2e338f4975c6ee",
-      "title": "LRMoE: Memory-Aware MoE Training System",
-      "summary": "LRMoE is a memory-aware Mixture-of-Experts training system that jointly recalibrates backward demand and balances retained workloads on memory-constrained nodes. Experiments show it reduces cumulative training time by 21.2-44.8% relative to SYMI.",
+      "id": "feed-0d4dbc3f227f24",
+      "title": "Understanding Large Language Models as Numerical Optimizers",
+      "summary": "This paper investigates how large language models (LLMs) function as numerical optimizers. The authors developed an evaluation framework to test LLMs on convex optimization, fractional programming, and constrained projection problems. Results show LLMs can produce near-optimal solutions, but reliability drops with higher problem dimensions. An iterative refinement mechanism substantially improves validity, though persistent errors indicate the need for hybrid approaches combining LLM reasoning with deterministic verification.",
       "keyPoints": [
-        "Addresses memory bottlenecks caused by expert replication competing with token buffers.",
-        "Uses backward demand estimation and physical compaction to reduce execution-buffer demand.",
-        "Reduces cumulative MoE-layer training time by 21.2-44.8% on Qwen3-30B-A3B and GLM4.5-106B-A12B."
+        "Evaluated LLMs on numerical optimization problems across various dimensions.",
+        "Iterative refinement significantly improves reliability and valid solution ranges.",
+        "Hybrid approaches combining LLM reasoning with deterministic solvers are recommended."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37720",
+      "sourceUrl": "https://arxiv.org/abs/2610.37932",
       "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LRMoE: Memory-Aware MoE Training System",
-          "summary": "LRMoE is a memory-aware Mixture-of-Experts training system that jointly recalibrates backward demand and balances retained workloads on memory-constrained nodes. Experiments show it reduces cumulative training time by 21.2-44.8% relative to SYMI.",
+          "title": "Understanding Large Language Models as Numerical Optimizers",
+          "summary": "This paper investigates how large language models (LLMs) function as numerical optimizers. The authors developed an evaluation framework to test LLMs on convex optimization, fractional programming, and constrained projection problems. Results show LLMs can produce near-optimal solutions, but reliability drops with higher problem dimensions. An iterative refinement mechanism substantially improves validity, though persistent errors indicate the need for hybrid approaches combining LLM reasoning with deterministic verification.",
           "keyPoints": [
-            "Addresses memory bottlenecks caused by expert replication competing with token buffers.",
-            "Uses backward demand estimation and physical compaction to reduce execution-buffer demand.",
-            "Reduces cumulative MoE-layer training time by 21.2-44.8% on Qwen3-30B-A3B and GLM4.5-106B-A12B."
+            "Evaluated LLMs on numerical optimization problems across various dimensions.",
+            "Iterative refinement significantly improves reliability and valid solution ranges.",
+            "Hybrid approaches combining LLM reasoning with deterministic solvers are recommended."
           ]
         },
         "fr": {
-          "title": "LRMoE : Système d'entraînement MoE conscient de la mémoire",
-          "summary": "LRMoE est un système d'entraînement de type Mixture-of-Experts qui recalibre la demande en rétropropagation et équilibre la charge de travail sur les nœuds contraints en mémoire. Les expériences montrent une réduction du temps d'entraînement de 21,2 à 44,8 % par rapport à SYMI.",
+          "title": "Comprendre les grands modèles de langage comme optimiseurs numériques",
+          "summary": "Cet article étudie la manière dont les grands modèles de langage (LLM) agissent comme des optimiseurs numériques. Les auteurs ont développé un cadre d'évaluation pour tester les LLM sur des problèmes d'optimisation convexe, de programmation fractionnaire et de projection contrainte. Les résultats montrent que les LLM peuvent produire des solutions quasi optimales, mais la fiabilité diminue avec des dimensions élevées. Un mécanisme de raffinement itératif améliore considérablement la validité.",
           "keyPoints": [
-            "Traite les goulots d'étranglement liés à la concurrence entre réplicas d'experts et tampons de jetons.",
-            "Utilise l'estimation de la demande et le compactage physique pour réduire la mémoire tampon.",
-            "Réduit le temps d'entraînement cumulé de 21,2 à 44,8 % sur Qwen3-30B-A3B et GLM4.5-106B-A12B."
+            "Évaluation des LLM sur des problèmes d'optimisation numérique à différentes dimensions.",
+            "Le raffinement itératif améliore considérablement la fiabilité et les plages de solutions valides.",
+            "Des approches hybrides combinant le raisonnement des LLM et des solveurs déterministes sont recommandées."
           ]
         }
       },
@@ -41,75 +41,114 @@
       }
     },
     {
-      "id": "feed-84abd1857de5df",
-      "title": "OpenAI Supports Shared Robots.txt for AI Training Preferences",
-      "summary": "OpenAI announces it will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "id": "feed-6884a6e823f1b5",
+      "title": "SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning",
+      "summary": "The authors introduce SkillMem, a framework that represents reusable skills as small external latent memories for latent multi-agent systems. Using a role-conditioned cross-attention reader, SkillMem guides different agents based on their roles and hidden states. Evaluated across six benchmarks and Qwen3 models from 4B to 14B parameters, SkillMem reduces total storage by over 38x and achieves up to a 4.23x end-to-end inference speedup.",
       "keyPoints": [
-        "OpenAI will honor a shared robots.txt signal.",
-        "Aims to help website operators communicate AI training preferences.",
-        "Involves participating AI providers."
+        "SkillMem uses small external latent memories to store reusable skills for multi-agent systems.",
+        "Employs a role-conditioned cross-attention reader to guide agents during reasoning.",
+        "Reduces total storage by over 38x and delivers up to a 4.23x inference speedup across benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37935",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning",
+          "summary": "The authors introduce SkillMem, a framework that represents reusable skills as small external latent memories for latent multi-agent systems. Using a role-conditioned cross-attention reader, SkillMem guides different agents based on their roles and hidden states. Evaluated across six benchmarks and Qwen3 models from 4B to 14B parameters, SkillMem reduces total storage by over 38x and achieves up to a 4.23x end-to-end inference speedup.",
+          "keyPoints": [
+            "SkillMem uses small external latent memories to store reusable skills for multi-agent systems.",
+            "Employs a role-conditioned cross-attention reader to guide agents during reasoning.",
+            "Reduces total storage by over 38x and delivers up to a 4.23x inference speedup across benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "SkillMem : Mémoire de compétences externe et compacte pour le raisonnement multi-agent",
+          "summary": "Les auteurs présentent SkillMem, un cadre qui représente les compétences réutilisables sous forme de petites mémoires latentes externes pour les systèmes multi-agents latents. À l'aide d'un lecteur d'attention croisée conditionné par les rôles, SkillMem guide différents agents en fonction de leurs rôles et états cachés. Évalué sur six benchmarks et des modèles Qwen3 de 4B à 14B paramètres, SkillMem réduit le stockage total de plus de 38x.",
+          "keyPoints": [
+            "SkillMem utilise de petites mémoires latentes externes pour stocker des compétences réutilisables.",
+            "Utilise un lecteur d'attention croisée conditionné par le rôle pour guider les agents.",
+            "Réduit le stockage total de plus de 38x et accélère l'inférence jusqu'à 4,23x."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c4b2d8a4c70c67",
+      "title": "GAUSS: Simulator for LLM Inference Serving",
+      "summary": "GAUSS is a workload-aware analytical and Monte-Carlo simulator designed to predict the full distributions of time-to-first-token and time-between-tokens, along with sustainable request rates for LLM inference. By pairing phase-specific latency surfaces with a Lindley-recurrence queueing model and ensemble Monte-Carlo sampling, GAUSS captures latency tails and helps operators evaluate routing policies, workloads, and hardware configurations that have never been deployed.",
+      "keyPoints": [
+        "GAUSS predicts full latency distributions (TTFT and TBT) for LLM inference serving.",
+        "Uses calibrated phase-specific latency surfaces combined with ensemble Monte-Carlo sampling.",
+        "Helps operators analyze un-deployed workloads, routing policies, and hardware configurations."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37989",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "GAUSS: Simulator for LLM Inference Serving",
+          "summary": "GAUSS is a workload-aware analytical and Monte-Carlo simulator designed to predict the full distributions of time-to-first-token and time-between-tokens, along with sustainable request rates for LLM inference. By pairing phase-specific latency surfaces with a Lindley-recurrence queueing model and ensemble Monte-Carlo sampling, GAUSS captures latency tails and helps operators evaluate routing policies, workloads, and hardware configurations that have never been deployed.",
+          "keyPoints": [
+            "GAUSS predicts full latency distributions (TTFT and TBT) for LLM inference serving.",
+            "Uses calibrated phase-specific latency surfaces combined with ensemble Monte-Carlo sampling.",
+            "Helps operators analyze un-deployed workloads, routing policies, and hardware configurations."
+          ]
+        },
+        "fr": {
+          "title": "GAUSS : Simulateur pour le service d'inférence de LLM",
+          "summary": "GAUSS est un simulateur analytique et de Monte-Carlo adapté aux charges de travail, conçu pour prédire les distributions complètes du temps jusqu'au premier jeton et du temps entre les jetons pour l'inférence de LLM. En associant des surfaces de latence spécifiques à chaque phase à un modèle de file d'attente à récurrence de Lindley et à un échantillonnage d'ensemble de Monte-Carlo, GAUSS capture les queues de latence.",
+          "keyPoints": [
+            "GAUSS prédit les distributions complètes de latence pour le service d'inférence de LLM.",
+            "Utilise des surfaces de latence par phase calibrées avec un échantillonnage de Monte-Carlo.",
+            "Aide les opérateurs à analyser les charges de travail et politiques de routage non déployées."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e314bdfc948afa",
+      "title": "Algorithmic Bias from the Perspectives of Healthcare Professionals",
+      "summary": "This study explores algorithmic bias in healthcare information systems through quantitative survey data and qualitative comments from healthcare professionals in various roles. The findings indicate that opinions on the causes of bias, algorithm assessment criteria, perceived fairness, and mitigation approaches depend significantly on professional roles, tasks, and algorithm characteristics. Further research is emphasized to ensure fairness and equality in healthcare.",
+      "keyPoints": [
+        "Investigates algorithmic bias in healthcare information systems using survey and interview data.",
+        "Shows that professional roles and tasks shape perceptions of fairness and bias causes.",
+        "Highlights the need for ongoing research to ensure fairness and equality in medical AI applications."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "publishedAt": "2026-10-30T09:30:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI Supports Shared Robots.txt for AI Training Preferences",
-          "summary": "OpenAI announces it will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-          "keyPoints": [
-            "OpenAI will honor a shared robots.txt signal.",
-            "Aims to help website operators communicate AI training preferences.",
-            "Involves participating AI providers."
-          ]
-        },
-        "fr": {
-          "title": "OpenAI soutient un signal robots.txt partagé pour l'entraînement",
-          "summary": "OpenAI annonce qu'elle respectera un signal robots.txt partagé afin d'aider les exploitants de sites web à communiquer leurs préférences d'entraînement en IA.",
-          "keyPoints": [
-            "OpenAI honorera un signal robots.txt partagé.",
-            "Aide les exploitants de sites web à exprimer leurs préférences d'entraînement.",
-            "Concerne les fournisseurs d'IA participants."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-17c024935e19a1",
-      "title": "Amortized Localized Posterior Inference for Model Calibration",
-      "summary": "This work constructs a family of localized posteriors using Gaussian localization weights and amortized variational inference to improve model calibration across a context domain, reducing errors in ocean turbulence closure and twin experiments.",
-      "keyPoints": [
-        "Constructs localized posteriors by weighting observation likelihoods by proximity to a target context.",
-        "Employs a conditional normalizing flow through amortized variational inference.",
-        "Reduces temperature and zonal-velocity errors in ocean model k-epsilon turbulence closure."
-      ],
-      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37731",
+      "sourceUrl": "https://arxiv.org/abs/2610.38006",
       "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Amortized Localized Posterior Inference for Model Calibration",
-          "summary": "This work constructs a family of localized posteriors using Gaussian localization weights and amortized variational inference to improve model calibration across a context domain, reducing errors in ocean turbulence closure and twin experiments.",
+          "title": "Algorithmic Bias from the Perspectives of Healthcare Professionals",
+          "summary": "This study explores algorithmic bias in healthcare information systems through quantitative survey data and qualitative comments from healthcare professionals in various roles. The findings indicate that opinions on the causes of bias, algorithm assessment criteria, perceived fairness, and mitigation approaches depend significantly on professional roles, tasks, and algorithm characteristics. Further research is emphasized to ensure fairness and equality in healthcare.",
           "keyPoints": [
-            "Constructs localized posteriors by weighting observation likelihoods by proximity to a target context.",
-            "Employs a conditional normalizing flow through amortized variational inference.",
-            "Reduces temperature and zonal-velocity errors in ocean model k-epsilon turbulence closure."
+            "Investigates algorithmic bias in healthcare information systems using survey and interview data.",
+            "Shows that professional roles and tasks shape perceptions of fairness and bias causes.",
+            "Highlights the need for ongoing research to ensure fairness and equality in medical AI applications."
           ]
         },
         "fr": {
-          "title": "Inférence a posteriori localisée et amortie pour la calibration",
-          "summary": "Cette étude construit une famille de lois a posteriori localisées à l'aide de poids gaussiens et d'inférence variationnelle amortie pour améliorer la calibration des modèles, réduisant les erreurs dans la fermeture de la turbulence océanique.",
+          "title": "Biais algorithmique du point de vue des professionnels de la santé",
+          "summary": "Cette étude explore le biais algorithmique dans les systèmes d'information de santé grâce à des données d'enquête quantitative et des commentaires qualitatifs de professionnels de la santé occupant divers rôles. Les résultats indiquent que les opinions sur les causes des biais, les critères d'évaluation et la perception de l'équité dépendent des rôles professionnels et des tâches.",
           "keyPoints": [
-            "Construit des lois a posteriori localisées en pondérant la vraisemblance selon la proximité contextuelle.",
-            "Utilise un flux normalisant conditionnel via l'inférence variationnelle amortie.",
-            "Réduit les erreurs de température et de vitesse zonale dans la fermeture de la turbulence k-epsilon."
+            "Étudie le biais algorithmique dans les systèmes de santé à l'aide d'enquêtes et d'entretiens.",
+            "Montre que les rôles professionnels influencent la perception de l'équité et des causes de biais.",
+            "Souligne la nécessité de recherches continues pour garantir l'équité dans les applications de santé."
           ]
         }
       },
@@ -119,75 +158,153 @@
       }
     },
     {
-      "id": "feed-574dbaf7fc8731",
-      "title": "OpenAI Highlights Court Briefs on Fair Use Benefits",
-      "summary": "OpenAI shares excerpts from legal briefs by creators, academics, and experts explaining how fair use supports AI training and innovation.",
+      "id": "feed-98417e767f015c",
+      "title": "Assessing Language Models for Scientific Applications: Inertial Confinement Fusion",
+      "summary": "The authors evaluate language models on scientific applications using an expert-curated benchmark of 250 inertial confinement fusion (ICF) questions. They compare closed-source and open-source models with Prospero, a domain-adapted and fine-tuned model for ICF. Prospero improved its aggregate score by 10.7 percentage points, though frontier models still exhibited critical physics errors in numerical calculations, indicating that benchmark gains alone do not prove scientific reliability.",
       "keyPoints": [
-        "Shares excerpts from court briefs by diverse experts and creators.",
-        "Explores how fair use supports AI training.",
-        "Highlights benefits to broader innovation."
+        "Created an expert-curated benchmark of 250 questions for inertial confinement fusion.",
+        "Prospero, a specialized ICF model, improved its aggregate score by 10.7 percentage points.",
+        "Frontier models achieved high scores but still suffered from critical physics and calculation errors."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38024",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Assessing Language Models for Scientific Applications: Inertial Confinement Fusion",
+          "summary": "The authors evaluate language models on scientific applications using an expert-curated benchmark of 250 inertial confinement fusion (ICF) questions. They compare closed-source and open-source models with Prospero, a domain-adapted and fine-tuned model for ICF. Prospero improved its aggregate score by 10.7 percentage points, though frontier models still exhibited critical physics errors in numerical calculations, indicating that benchmark gains alone do not prove scientific reliability.",
+          "keyPoints": [
+            "Created an expert-curated benchmark of 250 questions for inertial confinement fusion.",
+            "Prospero, a specialized ICF model, improved its aggregate score by 10.7 percentage points.",
+            "Frontier models achieved high scores but still suffered from critical physics and calculation errors."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation des modèles de langage pour les applications scientifiques : Fusion par confinement inertiel",
+          "summary": "Les auteurs évaluent les modèles de langage pour des applications scientifiques à l'aide d'un benchmark de 250 questions sur la fusion par confinement inertiel (FCI). Ils comparent des modèles propriétaires et open source avec Prospero, un modèle spécialisé pour la FCI. Prospero a amélioré son score global de 10,7 points de pourcentage, bien que les modèles de pointe présentent encore des erreurs de physique critiques.",
+          "keyPoints": [
+            "Création d'un benchmark d'experts de 250 questions sur la fusion par confinement inertiel.",
+            "Prospero, un modèle spécialisé, a amélioré son score global de 10,7 points de pourcentage.",
+            "Les modèles de pointe affichent de bons scores mais souffrent d'erreurs physiques et de calcul."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-58daaf289fa773",
+      "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting",
+      "summary": "This paper presents a framework for mental health chatbots that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to model inference. By dynamically constructing prompts based on emotional and risk insights, the approach improves contextual relevance, empathy, and safety. Experiments across multiple strategies and prompt variants show that the proposed prompt engineering approaches outperform DSFT and RLAIF by 1.8% and 1.1% respectively.",
+      "keyPoints": [
+        "Integrates sentiment and depression analysis with a rule-based filter before model inference.",
+        "Dynamically constructs prompts based on emotional and risk metrics to enhance empathy and safety.",
+        "Outperforms DSFT and RLAIF approaches by 1.8% and 1.1% in evaluations."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38044",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting",
+          "summary": "This paper presents a framework for mental health chatbots that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to model inference. By dynamically constructing prompts based on emotional and risk insights, the approach improves contextual relevance, empathy, and safety. Experiments across multiple strategies and prompt variants show that the proposed prompt engineering approaches outperform DSFT and RLAIF by 1.8% and 1.1% respectively.",
+          "keyPoints": [
+            "Integrates sentiment and depression analysis with a rule-based filter before model inference.",
+            "Dynamically constructs prompts based on emotional and risk metrics to enhance empathy and safety.",
+            "Outperforms DSFT and RLAIF approaches by 1.8% and 1.1% in evaluations."
+          ]
+        },
+        "fr": {
+          "title": "PromptSense : Chatbot de santé mentale sensible au sentiment avec prompt dynamique",
+          "summary": "Cet article présente un cadre pour les chatbots de santé mentale qui intègre une analyse des sentiments et de la dépression avec un mécanisme de filtrage basé sur des règles avant l'inférence. En construisant dynamiquement des invites basées sur des données émotionnelles, l'approche améliore la pertinence contextuelle, l'empathie et la sécurité. Les expériences montrent que cette approche surpasse DSFT et RLAIF de 1,8 % et 1,1 %.",
+          "keyPoints": [
+            "Intègre l'analyse des sentiments et de la dépression avec un filtre à règles avant inférence.",
+            "Construit dynamiquement des invites basées sur des mesures émotionnelles et de risque.",
+            "Surpasse les approches DSFT et RLAIF de 1,8 % et 1,1 % lors des évaluations."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8e0cd83e8282f0",
+      "title": "Evaluating Causal Reasoning in LLMs: Challenges of Procedural Generation",
+      "summary": "This study examines whether large language models genuinely perform formal causal reasoning when evaluated on datasets generated by CLadder. The authors identify superficial and highly predictive patterns embedded by the CLadder generator, noting that simple models like random forests also perform well. Furthermore, commercial LLM performance remains extremely brittle when critical text sections are removed, indicating they exploit superficial dataset patterns rather than complex causal reasoning.",
+      "keyPoints": [
+        "Investigates the validity of LLM causal reasoning evaluations using the CLadder benchmark.",
+        "Discovers that simple models (random forests) perform well on CLadder datasets due to superficial patterns.",
+        "Shows that removing critical text sections has almost no effect on commercial LLM performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38100",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evaluating Causal Reasoning in LLMs: Challenges of Procedural Generation",
+          "summary": "This study examines whether large language models genuinely perform formal causal reasoning when evaluated on datasets generated by CLadder. The authors identify superficial and highly predictive patterns embedded by the CLadder generator, noting that simple models like random forests also perform well. Furthermore, commercial LLM performance remains extremely brittle when critical text sections are removed, indicating they exploit superficial dataset patterns rather than complex causal reasoning.",
+          "keyPoints": [
+            "Investigates the validity of LLM causal reasoning evaluations using the CLadder benchmark.",
+            "Discovers that simple models (random forests) perform well on CLadder datasets due to superficial patterns.",
+            "Shows that removing critical text sections has almost no effect on commercial LLM performance."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation du raisonnement causal dans les LLM : Défis de la génération procédurale",
+          "summary": "Cette étude examine si les grands modèles de langage effectuent réellement un raisonnement causal formel lorsqu'ils sont évalués sur des ensembles de données générés par CLadder. Les auteurs identifient des motifs superficiels intégrés par le générateur CLadder, notant que des modèles simples comme les forêts aléatoires réussissent également. De plus, la performance des LLM commerciaux reste extrêmement fragile lorsque des sections de texte critiques sont supprimées.",
+          "keyPoints": [
+            "Étudie la validité des évaluations du raisonnement causal des LLM avec le benchmark CLadder.",
+            "Découvre que des modèles simples réussissent bien en raison de motifs superficiels.",
+            "Montre que la suppression de sections textuelles critiques n'a presque aucun effet sur les performances."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9faf06e69cb489",
+      "title": "AI-Driven Digital Twin Framework for Warehouse Logistics Automation Optimization",
+      "summary": "The authors present an AI-driven framework that integrates a reinforcement learning agent within a FlexSim-based Digital Twin environment to optimize real-time warehouse slotting. The agent adapts to streaming data in a simulated four-zone warehouse to reduce picking times and increase throughput. Experimental results demonstrate a 29.66% reduction in average picking time, a 35.42% increase in throughput, and an 18.54% decrease in travel distance.",
+      "keyPoints": [
+        "Integrates a reinforcement learning agent within a FlexSim Digital Twin environment for logistics.",
+        "Optimizes real-time product placement (slotting) in a simulated four-zone warehouse layout.",
+        "Achieved a 29.66% reduction in picking time, a 35.42% increase in throughput, and an 18.54% distance reduction."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/fair-use-benefits-everyone",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI Highlights Court Briefs on Fair Use Benefits",
-          "summary": "OpenAI shares excerpts from legal briefs by creators, academics, and experts explaining how fair use supports AI training and innovation.",
-          "keyPoints": [
-            "Shares excerpts from court briefs by diverse experts and creators.",
-            "Explores how fair use supports AI training.",
-            "Highlights benefits to broader innovation."
-          ]
-        },
-        "fr": {
-          "title": "OpenAI met en avant des mémoires judiciaires sur le fair use",
-          "summary": "OpenAI partage des extraits de mémoires juridiques rédigés par des créateurs, universitaires et experts sur la manière dont le fair use soutient l'entraînement de l'IA et l'innovation.",
-          "keyPoints": [
-            "Partage des extraits de mémoires de divers experts et créateurs.",
-            "Examine comment le fair use soutient l'entraînement en IA.",
-            "Souligne les avantages pour l'innovation générale."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3cf54c91cb07b4",
-      "title": "ThinkJev: Calibrated Typed Decisions with Hybrid-Thinking Models",
-      "summary": "ThinkJev builds a fast and slow decision system from a single open hybrid-thinking model, using statistical thresholds to route decisions and save thought tokens while maintaining accuracy.",
-      "keyPoints": [
-        "Combines direct answers and thought processes from a single hybrid model.",
-        "Uses a statistical test on dev data to guarantee error rates under a target percentage.",
-        "Achieves high accuracy on typed decisions while saving a significant amount of thought tokens."
-      ],
-      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37732",
+      "sourceUrl": "https://arxiv.org/abs/2610.38101",
       "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ThinkJev: Calibrated Typed Decisions with Hybrid-Thinking Models",
-          "summary": "ThinkJev builds a fast and slow decision system from a single open hybrid-thinking model, using statistical thresholds to route decisions and save thought tokens while maintaining accuracy.",
+          "title": "AI-Driven Digital Twin Framework for Warehouse Logistics Automation Optimization",
+          "summary": "The authors present an AI-driven framework that integrates a reinforcement learning agent within a FlexSim-based Digital Twin environment to optimize real-time warehouse slotting. The agent adapts to streaming data in a simulated four-zone warehouse to reduce picking times and increase throughput. Experimental results demonstrate a 29.66% reduction in average picking time, a 35.42% increase in throughput, and an 18.54% decrease in travel distance.",
           "keyPoints": [
-            "Combines direct answers and thought processes from a single hybrid model.",
-            "Uses a statistical test on dev data to guarantee error rates under a target percentage.",
-            "Achieves high accuracy on typed decisions while saving a significant amount of thought tokens."
+            "Integrates a reinforcement learning agent within a FlexSim Digital Twin environment for logistics.",
+            "Optimizes real-time product placement (slotting) in a simulated four-zone warehouse layout.",
+            "Achieved a 29.66% reduction in picking time, a 35.42% increase in throughput, and an 18.54% distance reduction."
           ]
         },
         "fr": {
-          "title": "ThinkJev : Décisions typées calibrées avec des modèles hybrides",
-          "summary": "ThinkJev construit un système de décision rapide et lent à partir d'un unique modèle de pensée hybride ouvert, utilisant des seuils statistiques pour acheminer les requêtes et économiser des jetons.",
+          "title": "Cadre de jumeau numérique piloté par l'IA pour l'optimisation de la logistique d'entrepôt",
+          "summary": "Les auteurs présentent un cadre piloté par l'IA qui intègre un agent d'apprentissage par renforcement dans un environnement de jumeau numérique basé sur FlexSim pour optimiser le placement des produits en entrepôt. L'agent s'adapte aux flux de données dans un entrepôt simulé à quatre zones pour réduire les temps de prélèvement. Les résultats expérimentaux démontrent une réduction de 29,66 % du temps de prélèvement moyen et une augmentation de 35,42 % du débit.",
           "keyPoints": [
-            "Combine des réponses directes et des processus de réflexion issus d'un modèle hybride.",
-            "Utilise un test statistique pour garantir des taux d'erreur sous un seuil cible.",
-            "Atteint une grande précision sur les décisions typées tout en économisant des jetons de réflexion."
+            "Intègre un agent d'apprentissage par renforcement dans un jumeau numérique FlexSim.",
+            "Optimise le placement en temps réel des produits dans un agencement d'entrepôt à quatre zones.",
+            "Réduit le temps de prélèvement de 29,66 % et augmente le débit de 35,42 %."
           ]
         }
       },
@@ -197,582 +314,465 @@
       }
     },
     {
-      "id": "feed-4131f32dcc0451",
-      "title": "OpenFrontiers: Benchmark for Scientific Rediscovery in LLMs",
-      "summary": "OpenFrontiers introduces a structured corpus of 12,151 open research problems and a benchmark of 200 mathematical problems to evaluate research-level scientific rediscovery in LLM agents.",
+      "id": "feed-16f997daece3d6",
+      "title": "Performance-Driven Challenge Adaptation in Virtual Reality Firefighter Training",
+      "summary": "To address limitations in fixed-scenario VR firefighter training, the authors present ProACT, a performance-driven adaptive training system. ProACT regulates scenario difficulty through closed-loop interactions between trainee performance and simulated fire dynamics using global scene-level adjustments and local object-level flammability updates. Evaluations demonstrate improvements in both objective training performance and subjective user experience over baseline systems.",
       "keyPoints": [
-        "Combines a corpus of 12,151 open research problems with a 200-problem benchmark.",
-        "Features Lean 4 statements checked by automated probes and independent reviews.",
-        "Evaluates seven LLM agents, showing closed-book rediscovery is rare."
+        "Introduces ProACT, an adaptive VR firefighter training system that regulates scenario difficulty.",
+        "Combines global scene-level fire spread dynamics with local object-level flammability updates.",
+        "Improves both objective trainee performance and subjective user experience compared to baselines."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38117",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Performance-Driven Challenge Adaptation in Virtual Reality Firefighter Training",
+          "summary": "To address limitations in fixed-scenario VR firefighter training, the authors present ProACT, a performance-driven adaptive training system. ProACT regulates scenario difficulty through closed-loop interactions between trainee performance and simulated fire dynamics using global scene-level adjustments and local object-level flammability updates. Evaluations demonstrate improvements in both objective training performance and subjective user experience over baseline systems.",
+          "keyPoints": [
+            "Introduces ProACT, an adaptive VR firefighter training system that regulates scenario difficulty.",
+            "Combines global scene-level fire spread dynamics with local object-level flammability updates.",
+            "Improves both objective trainee performance and subjective user experience compared to baselines."
+          ]
+        },
+        "fr": {
+          "title": "Adaptation de la difficulté en réalité virtuelle pour la formation des pompiers",
+          "summary": "Pour répondre aux limites des scénarios fixes en réalité virtuelle pour la formation des pompiers, les auteurs présentent ProACT, un système d'entraînement adaptatif basé sur les performances. ProACT régule la difficulté des scénarios grâce à des interactions en boucle fermée entre les performances du stagiaire et la dynamique du feu simulée. Les évaluations démontrent des améliorations des performances objectives et de l'expérience utilisateur.",
+          "keyPoints": [
+            "Présente ProACT, un système d'entraînement VR adaptatif qui régule la difficulté des scénarios.",
+            "Combine la dynamique globale de propagation du feu et des mises à jour locales d'inflammabilité.",
+            "Améliore les performances objectives et l'expérience utilisateur par rapport aux systèmes de base."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-45f867d7bb1864",
+      "title": "Post-Training Large Language Models with LLMON for Execution Control",
+      "summary": "This paper introduces LLMON (LLM Object Notation), a post-training methodology that separates instructions from passive data in LLMs to prevent prompt injection and ensure secure execution control. Using a 4.6B token structured corpus, the authors fine-tuned two Granite-4.1 base models (3B and 8B). Results show that LLMON-structured supervision reduces indirect prompt-injection attack success rates from 53-100% down to 0.02-5.6% while preserving general capabilities without architectural modifications.",
+      "keyPoints": [
+        "Introduces LLMON to separate executable instructions from passive data in LLM prompts.",
+        "Trained on a large-scale structured corpus of 4.6B tokens using supervised fine-tuning and RL.",
+        "Reduces indirect prompt-injection attack success rates from 53-100% to 0.02-5.6%."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38120",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Post-Training Large Language Models with LLMON for Execution Control",
+          "summary": "This paper introduces LLMON (LLM Object Notation), a post-training methodology that separates instructions from passive data in LLMs to prevent prompt injection and ensure secure execution control. Using a 4.6B token structured corpus, the authors fine-tuned two Granite-4.1 base models (3B and 8B). Results show that LLMON-structured supervision reduces indirect prompt-injection attack success rates from 53-100% down to 0.02-5.6% while preserving general capabilities without architectural modifications.",
+          "keyPoints": [
+            "Introduces LLMON to separate executable instructions from passive data in LLM prompts.",
+            "Trained on a large-scale structured corpus of 4.6B tokens using supervised fine-tuning and RL.",
+            "Reduces indirect prompt-injection attack success rates from 53-100% to 0.02-5.6%."
+          ]
+        },
+        "fr": {
+          "title": "Post-entraînement de grands modèles de langage avec LLMON pour le contrôle d'exécution",
+          "summary": "Cet article présente LLMON (LLM Object Notation), une méthodologie de post-entraînement qui sépare les instructions des données passives dans les LLM afin de prévenir les injections de invites et d'assurer le contrôle d'exécution. À l'aide d'un corpus structuré de 4,6 milliards de jetons, les auteurs ont affiné deux modèles de base Granite-4.1. Les résultats montrent que la supervision structurée par LLMON réduit les taux de réussite des attaques par injection de 53-100% à 0,02-5,6%.",
+          "keyPoints": [
+            "Présente LLMON pour séparer les instructions exécutables des données passives dans les invites de LLM.",
+            "Entraîné sur un corpus structuré à grande échelle de 4,6 milliards de jetons.",
+            "Réduit les taux de réussite des attaques par injection indirecte de 53-100% à 0,02-5,6%."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-de3c25a6f7c316",
+      "title": "Decompose, Don't Expand: Capability-Independent AI Systems by Construction",
+      "summary": "This paper examines whether to expand AI models or decompose tasks when a task is too hard. The authors claim that many tasks are deterministic with small generative cores. Decomposing tasks yields parity by construction, flattening the performance curve across model sizes without task-specific training or fine-tuning. This design discipline is demonstrated across physics setup, motion retargeting, object-model editing, and Web-CLI tools.",
+      "keyPoints": [
+        "Decomposing tasks into deterministic solutions and generative residue creates parity by construction.",
+        "Nine models tested showed flat performance curves on decomposed sub-tasks across a 30-fold parameter range.",
+        "The approach applies across diverse domains like physics setup, motion retargeting, and object-model editing."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38144",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Decompose, Don't Expand: Capability-Independent AI Systems by Construction",
+          "summary": "This paper examines whether to expand AI models or decompose tasks when a task is too hard. The authors claim that many tasks are deterministic with small generative cores. Decomposing tasks yields parity by construction, flattening the performance curve across model sizes without task-specific training or fine-tuning. This design discipline is demonstrated across physics setup, motion retargeting, object-model editing, and Web-CLI tools.",
+          "keyPoints": [
+            "Decomposing tasks into deterministic solutions and generative residue creates parity by construction.",
+            "Nine models tested showed flat performance curves on decomposed sub-tasks across a 30-fold parameter range.",
+            "The approach applies across diverse domains like physics setup, motion retargeting, and object-model editing."
+          ]
+        },
+        "fr": {
+          "title": "Décomposer, ne pas étendre : Systèmes d'IA indépendants des capacités",
+          "summary": "Cet article examine s'il faut étendre les modèles d'IA ou décomposer les tâches lorsqu'une tâche est trop difficile. Les auteurs affirment que de nombreuses tâches sont déterministes avec de petits noyaux génératifs. La décomposition des tâches produit une parité par construction, aplatissant la courbe de performance entre les tailles de modèle sans entraînement spécifique ni réglage fin. Cette discipline de conception est démontrée dans la configuration physique, le reciblage de mouvement, l'édition de modèles d'objets et les outils Web-CLI.",
+          "keyPoints": [
+            "La décomposition des tâches en solutions déterministes et résidu génératif crée une parité par construction.",
+            "Neuf modèles testés ont montré des courbes de performance plates sur des sous-tâches décomposées sur une plage de paramètres de trente fois.",
+            "L'approche s'applique à divers domaines tels que la configuration physique, le reciblage de mouvement et l'édition de modèles d'objets."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e89db84d8075f2",
+      "title": "SkillCT: A Multidimensional Benchmark for Agent Skill Assessment",
+      "summary": "SkillCT is a benchmark that broadens agent skill assessment from downstream utility to a multidimensional characterization of quality. It evaluates skills across nine complementary dimensions spanning static, dynamic, and human-assisted assessments. Additionally, the authors propose an execution-free quality evaluation baseline that predicts multidimensional quality profiles by retrieving reference skills without execution.",
+      "keyPoints": [
+        "SkillCT evaluates skills across nine dimensions spanning static, dynamic, and human-assisted assessments.",
+        "An execution-free quality evaluation baseline predicts quality profiles by retrieving similar reference skills without execution.",
+        "SkillCT-guided optimization improves downstream task success and execution efficiency."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38147",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SkillCT: A Multidimensional Benchmark for Agent Skill Assessment",
+          "summary": "SkillCT is a benchmark that broadens agent skill assessment from downstream utility to a multidimensional characterization of quality. It evaluates skills across nine complementary dimensions spanning static, dynamic, and human-assisted assessments. Additionally, the authors propose an execution-free quality evaluation baseline that predicts multidimensional quality profiles by retrieving reference skills without execution.",
+          "keyPoints": [
+            "SkillCT evaluates skills across nine dimensions spanning static, dynamic, and human-assisted assessments.",
+            "An execution-free quality evaluation baseline predicts quality profiles by retrieving similar reference skills without execution.",
+            "SkillCT-guided optimization improves downstream task success and execution efficiency."
+          ]
+        },
+        "fr": {
+          "title": "SkillCT : Un benchmark multidimensionnel pour l'évaluation des compétences d'agents",
+          "summary": "SkillCT est un benchmark qui élargit l'évaluation des compétences des agents, passant de l'utilité en aval à une caractérisation multidimensionnelle de la qualité. Il évalue les compétences à travers neuf dimensions complémentaires englobant des évaluations statiques, dynamiques et assistées par l'homme. De plus, les auteurs proposent une base d'évaluation de la qualité sans exécution qui prédit les profils de qualité multidimensionnels en récupérant des compétences de référence sans exécution.",
+          "keyPoints": [
+            "SkillCT évalue les compétences à travers neuf dimensions couvrant des évaluations statiques, dynamiques et assistées par l'homme.",
+            "Une base d'évaluation de la qualité sans exécution prédit les profils de qualité en récupérant des compétences de référence similaires.",
+            "L'optimisation guidée par SkillCT améliore le succès des tâches en aval et l'efficacité de l'exécution."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2afa3a43b93c92",
+      "title": "BridgeRouter: Gain-Aware Instance Routing over Cross-Modal Bridges",
+      "summary": "BridgeRouter formulates multi-bridge transfer as an instance-level algorithm-selection problem over a portfolio of frozen cross-modal pathways. Using anchor-relative gain prediction, it routes each instance to the pathway with the largest predicted gain over a validation-selected Single Best Solver. Evaluations on EEG-based freezing-of-gait and sleep classification demonstrate notable improvements over baseline single best solvers.",
+      "keyPoints": [
+        "BridgeRouter treats multi-bridge transfer as an instance-level algorithm-selection problem over frozen pathways.",
+        "It uses a lightweight MLP to predict route-specific gains from target-modality representations.",
+        "Evaluations show significant balanced accuracy improvements on FOG and sleep classification tasks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38152",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "BridgeRouter: Gain-Aware Instance Routing over Cross-Modal Bridges",
+          "summary": "BridgeRouter formulates multi-bridge transfer as an instance-level algorithm-selection problem over a portfolio of frozen cross-modal pathways. Using anchor-relative gain prediction, it routes each instance to the pathway with the largest predicted gain over a validation-selected Single Best Solver. Evaluations on EEG-based freezing-of-gait and sleep classification demonstrate notable improvements over baseline single best solvers.",
+          "keyPoints": [
+            "BridgeRouter treats multi-bridge transfer as an instance-level algorithm-selection problem over frozen pathways.",
+            "It uses a lightweight MLP to predict route-specific gains from target-modality representations.",
+            "Evaluations show significant balanced accuracy improvements on FOG and sleep classification tasks."
+          ]
+        },
+        "fr": {
+          "title": "BridgeRouter : Routage d'instances conscient du gain sur ponts cross-modaux",
+          "summary": "BridgeRouter formule le transfert multi-pont comme un problème de sélection d'algorithme au niveau des instances sur un portefeuille de voies inter-modales gelées. En utilisant la prédiction de gain relative à l'ancre, il achemine chaque instance vers la voie ayant le plus grand gain prédit par rapport à un meilleur solveur unique sélectionné par validation. Les évaluations sur la classification du sommeil et le blocage de la marche basés sur l'EEG démontrent des améliorations notables.",
+          "keyPoints": [
+            "BridgeRouter traite le transfert multi-pont comme un problème de sélection d'algorithme au niveau des instances sur des voies gelées.",
+            "Il utilise un MLP léger pour prédire les gains spécifiques aux routes à partir des représentations de la modalité cible.",
+            "Les évaluations montrent des améliorations significatives de la précision équilibrée sur les tâches de FOG et de classification du sommeil."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d6ef8265c0f077",
+      "title": "DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms",
+      "summary": "DecompGym is a benchmark of 81 instances from nine problem families designed to evaluate how coding agents implement Benders decomposition and column generation algorithms. Evaluating 12 models, the authors find that reflection turns 66% of retries into successes compared to 39% for independent regeneration. The study highlights that coding agents need checks on how solvers reach their answers and feedback locating errors.",
+      "keyPoints": [
+        "DecompGym contains 81 instances across nine problem families to evaluate LLM coding agents on decomposition algorithms.",
+        "Reflection turns 66% of retries into successes, outperforming independent regeneration.",
+        "Agents require checks on how solvers reach their answers and specific error-locating feedback."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38175",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms",
+          "summary": "DecompGym is a benchmark of 81 instances from nine problem families designed to evaluate how coding agents implement Benders decomposition and column generation algorithms. Evaluating 12 models, the authors find that reflection turns 66% of retries into successes compared to 39% for independent regeneration. The study highlights that coding agents need checks on how solvers reach their answers and feedback locating errors.",
+          "keyPoints": [
+            "DecompGym contains 81 instances across nine problem families to evaluate LLM coding agents on decomposition algorithms.",
+            "Reflection turns 66% of retries into successes, outperforming independent regeneration.",
+            "Agents require checks on how solvers reach their answers and specific error-locating feedback."
+          ]
+        },
+        "fr": {
+          "title": "DecompGym : Évaluation d'agents LLM sur la conception d'algorithmes de décomposition",
+          "summary": "DecompGym est un benchmark de 81 instances provenant de neuf familles de problèmes conçu pour évaluer comment les agents de codage implémentent la décomposition de Benders et les algorithmes de génération de colonnes. En évaluant 12 modèles, les auteurs constatent que la réflexion transforme 66 % des nouvelles tentatives en succès, contre 39 % pour la régénération indépendante. L'étude souligne que les agents de codage ont besoin de contrôles et d'un retour localisant les erreurs.",
+          "keyPoints": [
+            "DecompGym contient 81 instances à travers neuf familles de problèmes pour évaluer les agents de codage LLM.",
+            "La réflexion transforme 66 % des nouvelles tentatives en succès, surpassant la régénération indépendante.",
+            "Les agents nécessitent des contrôles sur la manière dont les solveurs atteignent leurs réponses et un retour localisant les erreurs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1fa8b55c3c17a2",
+      "title": "Bottle-SKU and ProDMM for Shampoo Bottle Surface Defect Detection",
+      "summary": "The authors introduce Bottle-SKU, a large-scale multi-SKU benchmark containing 13,119 images across 48 bottle SKUs for shampoo bottle surface defect detection. To address SKU-specific appearance variation, they propose Prototype-Guided Dynamic Domain Modulation (ProDMM). Experiments on Bottle-SKU and GC10-DET-SKU demonstrate the effectiveness of prototype-guided domain conditioning for industrial defect detection.",
+      "keyPoints": [
+        "Bottle-SKU provides 13,119 images and 48 bottle SKUs with instance-level defect annotations for industrial detection.",
+        "ProDMM constructs visual prototypes and dynamically modulates features to handle SKU-specific appearance variations.",
+        "Experiments confirm the effectiveness of prototype-guided domain conditioning on industrial defect datasets."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37739",
+      "sourceUrl": "https://arxiv.org/abs/2610.38194",
       "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenFrontiers: Benchmark for Scientific Rediscovery in LLMs",
-          "summary": "OpenFrontiers introduces a structured corpus of 12,151 open research problems and a benchmark of 200 mathematical problems to evaluate research-level scientific rediscovery in LLM agents.",
+          "title": "Bottle-SKU and ProDMM for Shampoo Bottle Surface Defect Detection",
+          "summary": "The authors introduce Bottle-SKU, a large-scale multi-SKU benchmark containing 13,119 images across 48 bottle SKUs for shampoo bottle surface defect detection. To address SKU-specific appearance variation, they propose Prototype-Guided Dynamic Domain Modulation (ProDMM). Experiments on Bottle-SKU and GC10-DET-SKU demonstrate the effectiveness of prototype-guided domain conditioning for industrial defect detection.",
           "keyPoints": [
-            "Combines a corpus of 12,151 open research problems with a 200-problem benchmark.",
-            "Features Lean 4 statements checked by automated probes and independent reviews.",
-            "Evaluates seven LLM agents, showing closed-book rediscovery is rare."
+            "Bottle-SKU provides 13,119 images and 48 bottle SKUs with instance-level defect annotations for industrial detection.",
+            "ProDMM constructs visual prototypes and dynamically modulates features to handle SKU-specific appearance variations.",
+            "Experiments confirm the effectiveness of prototype-guided domain conditioning on industrial defect datasets."
           ]
         },
         "fr": {
-          "title": "OpenFrontiers : Un benchmark pour la redécouverte scientifique",
-          "summary": "OpenFrontiers introduit un corpus structuré de 12 151 problèmes de recherche ouverts et un benchmark de 200 problèmes mathématiques pour évaluer la redécouverte scientifique par des agents LLM.",
+          "title": "Bottle-SKU et ProDMM pour la détection de défauts de surface de bouteilles de shampooing",
+          "summary": "Les auteurs présentent Bottle-SKU, un benchmark multi-SKU à grande échelle contenant 13 119 images à travers 48 SKU de bouteilles pour la détection de défauts de surface. Pour répondre aux variations d'apparence spécifiques aux SKU, ils proposent la modulation de domaine dynamique guidée par prototype (ProDMM). Des expériences sur Bottle-SKU et GC10-DET-SKU démontrent l'efficacité de cette approche.",
           "keyPoints": [
-            "Associe un corpus de 12 151 problèmes ouverts à un benchmark de 200 problèmes.",
-            "Intègre des déclarations Lean 4 vérifiées par des sondes automatisées et des révisions.",
-            "Évalue sept agents LLM, montrant que la redécouverte en milieu fermé est rare."
+            "Bottle-SKU fournit 13 119 images et 48 SKU de bouteilles avec des annotations de défauts au niveau des instances.",
+            "ProDMM construit des prototypes visuels et module dynamiquement les caractéristiques pour gérer les variations de SKU.",
+            "Les expériences confirment l'efficacité du conditionnement de domaine guidé par prototype sur des ensembles de données industriels."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-0b73660e31921f",
-      "title": "WebAnything: Automated Reconstruction of Web Agent Environments",
-      "summary": "WebAnything is an automated framework that reconstructs source-grounded, reusable website environments from real URLs to train and evaluate web agents without manual implementation.",
+      "id": "feed-4258df63026f41",
+      "title": "Automated Power Electronics Schematic Synthesis via Bounded Dual-Loop Framework",
+      "summary": "To address severe engineering hallucinations in standalone LLMs for power electronics design, the authors propose a Bounded Dual-Loop Automated Schematic Synthesis Framework. The workflow integrates requirement parsing, power stage synthesis, component selection via APIs, closed-loop ngspice transient verification, and KiCad schematic generation. Case studies demonstrate significant improvements in component verification coverage and nominal value consistency over vanilla LLMs.",
       "keyPoints": [
-        "Reconstructs reusable website environments from real URLs automatically.",
-        "Constructs 244 website artifacts across 14 application domains supporting 12,984 tasks.",
-        "Fine-tuning Qwen3.5-9B on interaction trajectories improves task success rates."
+        "A Bounded Dual-Loop framework translates natural language specifications into verified KiCad schematics.",
+        "The workflow integrates topology synthesis, component selection, and closed-loop ngspice transient verification.",
+        "End-to-end case studies demonstrate major improvements over vanilla LLM baselines."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37786",
+      "sourceUrl": "https://arxiv.org/abs/2610.38201",
       "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "WebAnything: Automated Reconstruction of Web Agent Environments",
-          "summary": "WebAnything is an automated framework that reconstructs source-grounded, reusable website environments from real URLs to train and evaluate web agents without manual implementation.",
+          "title": "Automated Power Electronics Schematic Synthesis via Bounded Dual-Loop Framework",
+          "summary": "To address severe engineering hallucinations in standalone LLMs for power electronics design, the authors propose a Bounded Dual-Loop Automated Schematic Synthesis Framework. The workflow integrates requirement parsing, power stage synthesis, component selection via APIs, closed-loop ngspice transient verification, and KiCad schematic generation. Case studies demonstrate significant improvements in component verification coverage and nominal value consistency over vanilla LLMs.",
           "keyPoints": [
-            "Reconstructs reusable website environments from real URLs automatically.",
-            "Constructs 244 website artifacts across 14 application domains supporting 12,984 tasks.",
-            "Fine-tuning Qwen3.5-9B on interaction trajectories improves task success rates."
+            "A Bounded Dual-Loop framework translates natural language specifications into verified KiCad schematics.",
+            "The workflow integrates topology synthesis, component selection, and closed-loop ngspice transient verification.",
+            "End-to-end case studies demonstrate major improvements over vanilla LLM baselines."
           ]
         },
         "fr": {
-          "title": "WebAnything : Reconstruction automatisée d'environnements pour agents web",
-          "summary": "WebAnything est un cadre automatisé qui reconstitue des environnements de sites web réutilisables à partir d'URL réelles pour entraîner et évaluer des agents web sans implémentation manuelle.",
+          "title": "Synthèse automatisée de schémas d'électronique de puissance via un cadre à double boucle",
+          "summary": "Pour remédier aux graves hallucinations d'ingénierie dans les LLM autonomes pour la conception en électronique de puissance, les auteurs proposent un cadre de synthèse de schémas automatisé à double boucle bornée. Le flux de travail intègre l'analyse des exigences, la synthèse d'étage de puissance, la sélection de composants via des API, la vérification transitoire ngspice et la génération de schémas KiCad.",
           "keyPoints": [
-            "Reconstitue automatiquement des environnements web réutilisables à partir d'URL réelles.",
-            "Génère 244 artéfacts de sites web dans 14 domaines d'application prenant en charge 12 984 tâches.",
-            "L'affinage de Qwen3.5-9B améliore les taux de réussite des tâches."
+            "Un cadre à double boucle bornée traduit les spécifications en langage naturel en schémas KiCad vérifiés.",
+            "Le flux de travail intègre la synthèse de topologie, la sélection de composants et la vérification transitoire ngspice.",
+            "Des études de cas démontrent des améliorations majeures par rapport aux modèles LLM de base."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-a1243665260df8",
-      "title": "Evaluating Ontology Checkers for LLM Agents over Knowledge Graphs",
-      "summary": "This study evaluates curated, LLM-generated, and data-derived ontologies as checkers for LLM agents querying knowledge graphs, analyzing error detection trade-offs and false alarms.",
+      "id": "feed-1bbee645176fec",
+      "title": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference",
+      "summary": "Group-Adaptive Additive Codec (GAAC) is a lossless key-value (KV) compression and serving system that exploits exponent redundancy to reduce storage and accelerate attention without introducing KV approximation. GAAC adapts code widths while preserving KV values bit-for-bit, and a fused attention kernel reconstructs KV tiles on the fly. Across tested models, GAAC achieves measurable lossless compression and accelerates decode attention and end-to-end decode steps.",
       "keyPoints": [
-        "Compares curated, LLM-generated, and data-derived ontologies used as agent checkers.",
-        "Analyzes how each source trades caught errors against false alarms.",
-        "Shows curated schemas can contradict underlying data and yield high false flags."
+        "GAAC is a lossless KV compression system that exploits exponent redundancy without approximation.",
+        "It adapts code widths across small groups while preserving KV values bit-for-bit.",
+        "GAAC accelerates decode attention and increases aggregate throughput while reducing resident KV memory."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37809",
+      "sourceUrl": "https://arxiv.org/abs/2610.38210",
       "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Evaluating Ontology Checkers for LLM Agents over Knowledge Graphs",
-          "summary": "This study evaluates curated, LLM-generated, and data-derived ontologies as checkers for LLM agents querying knowledge graphs, analyzing error detection trade-offs and false alarms.",
+          "title": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference",
+          "summary": "Group-Adaptive Additive Codec (GAAC) is a lossless key-value (KV) compression and serving system that exploits exponent redundancy to reduce storage and accelerate attention without introducing KV approximation. GAAC adapts code widths while preserving KV values bit-for-bit, and a fused attention kernel reconstructs KV tiles on the fly. Across tested models, GAAC achieves measurable lossless compression and accelerates decode attention and end-to-end decode steps.",
           "keyPoints": [
-            "Compares curated, LLM-generated, and data-derived ontologies used as agent checkers.",
-            "Analyzes how each source trades caught errors against false alarms.",
-            "Shows curated schemas can contradict underlying data and yield high false flags."
+            "GAAC is a lossless KV compression system that exploits exponent redundancy without approximation.",
+            "It adapts code widths across small groups while preserving KV values bit-for-bit.",
+            "GAAC accelerates decode attention and increases aggregate throughput while reducing resident KV memory."
           ]
         },
         "fr": {
-          "title": "Évaluation de validateurs ontologiques pour agents LLM sur graphes",
-          "summary": "Cette étude évalue des ontologies conservées, générées par LLM ou dérivées de données comme validateurs pour des agents interrogeant des graphes de connaissances, analysant les compromis de détection d'erreurs.",
+          "title": "GAAC : Compression KV sans perte pour une inférence de LLM efficace en bande passante",
+          "summary": "Group-Adaptive Additive Codec (GAAC) est un système de compression et de service de cache clé-valeur (KV) sans perte qui exploite la redondance des exposants pour réduire le stockage et accélérer l'attention sans introduire d'approximation KV. GAAC adapte les largeurs de code tout en préservant les valeurs KV bit par bit, et un noyau d'attention fusionné reconstruit les tuiles KV à la volée.",
           "keyPoints": [
-            "Compare des ontologies de sources diverses utilisées pour valider les agents.",
-            "Analyse le compromis entre erreurs détectées et fausses alarmes pour chaque source.",
-            "Montre que les schémas conservés peuvent contredire leurs propres données."
+            "GAAC est un système de compression KV sans perte qui exploite la redondance des exposants sans approximation.",
+            "Il adapte les largeurs de code sur de petits groupes tout en préservant les valeurs KV bit par bit.",
+            "GAAC accélère l'attention de décodage et augmente le débit global tout en réduisant la mémoire KV résidente."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-13238a09a124fa",
-      "title": "Measuring Intent Loss in Agentic Smart Contract Synthesis",
-      "summary": "This study evaluates how AI agents lose user intent when synthesizing smart contracts, proposing an elicitation-first architecture that queries clients with a checklist before coding.",
+      "id": "feed-1208cde52c31a4",
+      "title": "Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems",
+      "summary": "This study evaluates clinical large language models fielded as multi-agent teams on MIMIC-IV emergency cases. The findings reveal that standard deliberation fails to neutralize demographic bias, instead laundering it into plausible decisions. Late-stage fixes and demographic masking leave the gap untouched, whereas pooling diverse perspectives across all rounds reduces disparity significantly.",
       "keyPoints": [
-        "Replays transactions to measure discrepancies between AI-written and original smart contracts.",
-        "Finds common AI judges and analysis tools miss obvious structural mistakes.",
-        "Proposes an elicitation-first architecture to gather requirements before code generation."
+        "Multi-agent clinical systems fail to remove demographic bias, instead laundering it into consensus decisions.",
+        "Late-stage fixes, fairness instructions, and demographic masking fail to eliminate the performance gap.",
+        "Pooling diverse perspectives across all deliberation rounds reduces disparity by 67% to 94%."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.38215",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems",
+          "summary": "This study evaluates clinical large language models fielded as multi-agent teams on MIMIC-IV emergency cases. The findings reveal that standard deliberation fails to neutralize demographic bias, instead laundering it into plausible decisions. Late-stage fixes and demographic masking leave the gap untouched, whereas pooling diverse perspectives across all rounds reduces disparity significantly.",
+          "keyPoints": [
+            "Multi-agent clinical systems fail to remove demographic bias, instead laundering it into consensus decisions.",
+            "Late-stage fixes, fairness instructions, and demographic masking fail to eliminate the performance gap.",
+            "Pooling diverse perspectives across all deliberation rounds reduces disparity by 67% to 94%."
+          ]
+        },
+        "fr": {
+          "title": "Blanchiment de disparité : Consensus sans équité dans les systèmes multi-agents cliniques",
+          "summary": "Cette étude évalue des modèles de langage cliniques déployés en équipes multi-agents sur des cas d'urgence MIMIC-IV. Les résultats révèlent que la délibération standard ne parvient pas à neutraliser le biais démographique, le transformant plutôt en décisions plausibles. Les corrections tardives et le masquage démographique laissent l'écart intact, tandis que la mise en commun de perspectives diverses réduit considérablement la disparité.",
+          "keyPoints": [
+            "Les systèmes cliniques multi-agents ne parviennent pas à éliminer le biais démographique et le blanchissent en décisions.",
+            "Les corrections tardives et le masquage démographique ne parviennent pas à éliminer l'écart de performance.",
+            "La mise en commun de perspectives diverses à chaque tour de délibération réduit la disparité de 67 % à 94 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ada7f241f61497",
+      "title": "Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation",
+      "summary": "Rubricon is a pipeline that generates discriminative rubrics for LLM evaluation and training without requiring human preference labels. Using observed criterion pass rates and LLM self-critique, Rubricon samples, selects, adds, and prunes criteria. Evaluations across five benchmarks show that Rubricon produces rubrics with greater alignment to expert-authored rubrics than alternative synthetic methods.",
+      "keyPoints": [
+        "Rubricon generates discriminative rubrics without requiring human preference labels or annotators.",
+        "It uses observed pass rates and self-critique to refine and optimize rubric criteria.",
+        "Rubricon outperforms alternative synthetic rubric generation methods across multiple benchmarks."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37830",
+      "sourceUrl": "https://arxiv.org/abs/2610.38220",
       "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Measuring Intent Loss in Agentic Smart Contract Synthesis",
-          "summary": "This study evaluates how AI agents lose user intent when synthesizing smart contracts, proposing an elicitation-first architecture that queries clients with a checklist before coding.",
+          "title": "Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation",
+          "summary": "Rubricon is a pipeline that generates discriminative rubrics for LLM evaluation and training without requiring human preference labels. Using observed criterion pass rates and LLM self-critique, Rubricon samples, selects, adds, and prunes criteria. Evaluations across five benchmarks show that Rubricon produces rubrics with greater alignment to expert-authored rubrics than alternative synthetic methods.",
           "keyPoints": [
-            "Replays transactions to measure discrepancies between AI-written and original smart contracts.",
-            "Finds common AI judges and analysis tools miss obvious structural mistakes.",
-            "Proposes an elicitation-first architecture to gather requirements before code generation."
+            "Rubricon generates discriminative rubrics without requiring human preference labels or annotators.",
+            "It uses observed pass rates and self-critique to refine and optimize rubric criteria.",
+            "Rubricon outperforms alternative synthetic rubric generation methods across multiple benchmarks."
           ]
         },
         "fr": {
-          "title": "Mesure de la perte d'intention dans la synthèse de contrats intelligents",
-          "summary": "Cette étude évalue la perte d'intention des agents IA lors de la synthèse de contrats intelligents et propose une architecture axée sur l'élicitation préalable des besoins des clients.",
+          "title": "Rubricon : Génération et raffinement automatisés de rubriques pour l'évaluation des LLM",
+          "summary": "Rubricon est un pipeline qui génère des rubriques discriminantes pour l'évaluation et l'entraînement des LLM sans nécessiter d'étiquettes de préférence humaine. En utilisant les taux de réussite observés et l'auto-critique des LLM, Rubricon échantillonne, sélectionne, ajoute et élague des critères. Les évaluations montrent que Rubricon produit des rubriques plus alignées sur celles d'experts que les méthodes synthétiques alternatives.",
           "keyPoints": [
-            "Rejoue des transactions pour mesurer les écarts entre contrats générés et originaux.",
-            "Montre que les outils d'analyse standards ratent des erreurs évidentes.",
-            "Propose de recueillir les exigences manquantes avant toute génération de code."
+            "Rubricon génère des rubriques discriminantes sans nécessiter d'étiquettes de préférences humaines.",
+            "Il utilise les taux de réussite observés et l'auto-critique pour affiner et optimiser les critères.",
+            "Rubricon surpasse les méthodes de génération de rubriques synthétiques alternatives sur plusieurs benchmarks."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-fa47d733c17cb7",
-      "title": "Detecting Covert Collusion in AI Agents via PoPLi",
-      "summary": "Partner-Outsider Positive Listening (PoPLi) is proposed as a behavioral test to detect covert collusion or hidden communication conventions between AI agents by measuring reaction changes to reworded messages.",
+      "id": "feed-9d515f30a8da8d",
+      "title": "FACTS-MAS: A Multi-Agent Architecture for Adaptive Forecasting",
+      "summary": "FACTS-MAS is a domain-agnostic multi-agent forecasting framework that decomposes evidence into specialized channels for temporal dynamics, exogenous context, seasonality, structural information, and discrete events. Evaluated on housing inventory and unemployment insurance claims across 15 U.S. metropolitan areas, the method outperforms naive and foundation model baselines, functioning as a systematic protocol for recomposing evidence channels.",
       "keyPoints": [
-        "Introduces PoPLi to detect covert codes in agent communications via message rewording.",
-        "Evaluated in a simulated market across five specific conditions.",
-        "Demonstrates effectiveness in spotting private communication channels where message-only monitors fail."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37849",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Detecting Covert Collusion in AI Agents via PoPLi",
-          "summary": "Partner-Outsider Positive Listening (PoPLi) is proposed as a behavioral test to detect covert collusion or hidden communication conventions between AI agents by measuring reaction changes to reworded messages.",
-          "keyPoints": [
-            "Introduces PoPLi to detect covert codes in agent communications via message rewording.",
-            "Evaluated in a simulated market across five specific conditions.",
-            "Demonstrates effectiveness in spotting private communication channels where message-only monitors fail."
-          ]
-        },
-        "fr": {
-          "title": "Détection de collusion cachée entre agents IA via PoPLi",
-          "summary": "La méthode PoPLi est proposée comme test comportemental pour détecter la collusion cachée ou les conventions de communication secrètes entre agents IA en mesurant les réactions à des messages reformulés.",
-          "keyPoints": [
-            "Introduit PoPLi pour détecter les codes cachés par reformulation des messages.",
-            "Évalué dans un marché simulé à travers cinq conditions différentes.",
-            "Démontre son efficacité pour repérer les canaux privés là où les moniteurs textuels échouent."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8ebe7e238889a9",
-      "title": "Evaluating and improving AI agents for sequencing protocols",
-      "summary": "Existing benchmarks rarely test if agents can reconstruct exact molecular structures and generation workflows specified by sequencing protocols. Researchers introduce LibStructBench, showing frontier agents produce approximately correct reconstructions but struggle with exact molecular states and workflow connectivity.",
-      "keyPoints": [
-        "Introduces LibStructBench for sequencing-library structures.",
-        "Frontier agents struggle with exact molecular-state representation.",
-        "Switching language models produced larger performance shifts than agent harnesses."
+        "FACTS-MAS decomposes forecasting evidence into specialized channels for temporal, seasonal, and event data.",
+        "Historical validation measures predictive skill to weight and combine agent forecasts effectively.",
+        "The framework outperforms naive methods and the TimesFM foundation model on tested datasets."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37851",
+      "sourceUrl": "https://arxiv.org/abs/2610.38225",
       "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Evaluating and improving AI agents for sequencing protocols",
-          "summary": "Existing benchmarks rarely test if agents can reconstruct exact molecular structures and generation workflows specified by sequencing protocols. Researchers introduce LibStructBench, showing frontier agents produce approximately correct reconstructions but struggle with exact molecular states and workflow connectivity.",
+          "title": "FACTS-MAS: A Multi-Agent Architecture for Adaptive Forecasting",
+          "summary": "FACTS-MAS is a domain-agnostic multi-agent forecasting framework that decomposes evidence into specialized channels for temporal dynamics, exogenous context, seasonality, structural information, and discrete events. Evaluated on housing inventory and unemployment insurance claims across 15 U.S. metropolitan areas, the method outperforms naive and foundation model baselines, functioning as a systematic protocol for recomposing evidence channels.",
           "keyPoints": [
-            "Introduces LibStructBench for sequencing-library structures.",
-            "Frontier agents struggle with exact molecular-state representation.",
-            "Switching language models produced larger performance shifts than agent harnesses."
+            "FACTS-MAS decomposes forecasting evidence into specialized channels for temporal, seasonal, and event data.",
+            "Historical validation measures predictive skill to weight and combine agent forecasts effectively.",
+            "The framework outperforms naive methods and the TimesFM foundation model on tested datasets."
           ]
         },
         "fr": {
-          "title": "Évaluation et amélioration des agents IA pour le séquençage",
-          "summary": "Les benchmarks actuels évaluent rarement la reconstruction exacte des structures moléculaires par les agents. Les chercheurs présentent LibStructBench, révélant que les agents de pointe réussissent des reconstructions approximatives mais peinent sur les états moléculaires exacts.",
+          "title": "FACTS-MAS : Une architecture multi-agents pour la prévision adaptative",
+          "summary": "FACTS-MAS est un cadre de prévision multi-agents agnostique qui décompose les données probantes en canaux spécialisés pour la dynamique temporelle, le contexte exogène, la saisonnalité, l'information structurelle et les événements. Évalué sur l'inventaire immobilier et les demandes de chômage dans 15 zones métropolitaines américaines, la méthode surpasse les bases de référence naïves et les modèles de fondation.",
           "keyPoints": [
-            "Introduction de LibStructBench pour les structures de bibliothèques.",
-            "Les agents de pointe peinent sur la représentation des états moléculaires.",
-            "Changer de modèle linguistique a eu plus d'impact que de changer de harnais."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f644284bc0118e",
-      "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
-      "summary": "Language model agents often refine answers iteratively using feedback, yet models are ranked by Pass@1 or Pass@K metrics that ignore this capability. The authors introduce Seq@K to measure problem-solving within K sequential attempts with feedback, revealing a distinct model-selection landscape.",
-      "keyPoints": [
-        "Introduces Seq@K evaluation protocol for sequential feedback.",
-        "Evaluates 16 frontier models across 7 benchmarks.",
-        "Shows Seq@K reveals different model rankings and efficiency configurations."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37859",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
-          "summary": "Language model agents often refine answers iteratively using feedback, yet models are ranked by Pass@1 or Pass@K metrics that ignore this capability. The authors introduce Seq@K to measure problem-solving within K sequential attempts with feedback, revealing a distinct model-selection landscape.",
-          "keyPoints": [
-            "Introduces Seq@K evaluation protocol for sequential feedback.",
-            "Evaluates 16 frontier models across 7 benchmarks.",
-            "Shows Seq@K reveals different model rankings and efficiency configurations."
-          ]
-        },
-        "fr": {
-          "title": "Seq@K : Évaluation des modèles linguistiques sous rétroaction",
-          "summary": "Les agents affinent leurs réponses de manière itérative via des rétroactions, mais sont classés par des métriques ignorant cette capacité. Les auteurs présentent Seq@K pour mesurer la résolution de problèmes en K tentatives avec rétroaction.",
-          "keyPoints": [
-            "Introduction du protocole d'évaluation Seq@K.",
-            "Évaluation de 16 modèles de pointe sur 7 benchmarks.",
-            "Démontre des classements de modèles différents sous Seq@K."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-28225d56339f8a",
-      "title": "Food Similarity and Visual Representations in Indian Cuisine",
-      "summary": "Food similarity drives retrieval and recommendation, but representations are typically evaluated by identity preservation. Using an expanded Khana dataset and seven pretrained visual representations, researchers examine image-to-image retrieval and dish neighborhoods in Indian cuisine.",
-      "keyPoints": [
-        "Evaluates seven pretrained visual representations on Indian cuisine.",
-        "Finds image-level neighborhoods vary substantially across representations.",
-        "Dish-level visual similarity corresponds less strongly with recipe similarity."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37867",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Food Similarity and Visual Representations in Indian Cuisine",
-          "summary": "Food similarity drives retrieval and recommendation, but representations are typically evaluated by identity preservation. Using an expanded Khana dataset and seven pretrained visual representations, researchers examine image-to-image retrieval and dish neighborhoods in Indian cuisine.",
-          "keyPoints": [
-            "Evaluates seven pretrained visual representations on Indian cuisine.",
-            "Finds image-level neighborhoods vary substantially across representations.",
-            "Dish-level visual similarity corresponds less strongly with recipe similarity."
-          ]
-        },
-        "fr": {
-          "title": "Similarité alimentaire et représentations visuelles",
-          "summary": "La similarité alimentaire sous-tend la recherche et la recommandation. À l'aide de l'ensemble Khana et de sept représentations visuelles, les chercheurs examinent la récupération d'images et les voisinages de plats dans la cuisine indienne.",
-          "keyPoints": [
-            "Évaluation de sept représentations visuelles pré-entraînées.",
-            "Les voisinages d'images varient considérablement selon les représentations.",
-            "La similarité visuelle des plats correspond moins à la similarité des recettes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0a6bb401f79468",
-      "title": "Verification Learning Theory in AI-Assisted Judgment",
-      "summary": "Accurate AI assistance can improve immediate judgments while reducing practice for independent performance. Verification Learning Theory (VLT) formalizes this by linking perceived assistant reliability to evidence checking and retained rule use.",
-      "keyPoints": [
-        "Introduces Verification Learning Theory (VLT) for AI assistance.",
-        "Links perceived reliability to evidence checking and retained rule use.",
-        "Predicts perceived fallibility can improve delayed unaided judgment."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37875",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Verification Learning Theory in AI-Assisted Judgment",
-          "summary": "Accurate AI assistance can improve immediate judgments while reducing practice for independent performance. Verification Learning Theory (VLT) formalizes this by linking perceived assistant reliability to evidence checking and retained rule use.",
-          "keyPoints": [
-            "Introduces Verification Learning Theory (VLT) for AI assistance.",
-            "Links perceived reliability to evidence checking and retained rule use.",
-            "Predicts perceived fallibility can improve delayed unaided judgment."
-          ]
-        },
-        "fr": {
-          "title": "Théorie de l'apprentissage par vérification dans le jugement",
-          "summary": "L'assistance IA précise peut améliorer les jugements immédiats tout en réduisant la pratique indépendante. La théorie de l'apprentissage par vérification (VLT) formalise cela en liant la fiabilité perçue de l'assistant à la vérification des preuves.",
-          "keyPoints": [
-            "Introduction de la théorie de l'apprentissage par vérification (VLT).",
-            "Lie la fiabilité perçue à la vérification des preuves et à l'utilisation des règles.",
-            "Prévoit que la faillibilité perçue peut améliorer le jugement différé."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a877b05a39a95d",
-      "title": "Socio-Demographics and Reasoning in Pluralistic Offensiveness",
-      "summary": "Pluralistic modeling incorporates annotators' socio-demographic information to capture subjective offensiveness judgments. This study analyzes when socio-demographics help and the role of explicit reasoning in leveraging this information.",
-      "keyPoints": [
-        "Demographic gains are small for individuals but clearer at group levels.",
-        "Explicit reasoning decomposes judgment into baseline and demographic shifts.",
-        "Reasoning yields more accurate predictions than direct conditioning alone."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37896",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Socio-Demographics and Reasoning in Pluralistic Offensiveness",
-          "summary": "Pluralistic modeling incorporates annotators' socio-demographic information to capture subjective offensiveness judgments. This study analyzes when socio-demographics help and the role of explicit reasoning in leveraging this information.",
-          "keyPoints": [
-            "Demographic gains are small for individuals but clearer at group levels.",
-            "Explicit reasoning decomposes judgment into baseline and demographic shifts.",
-            "Reasoning yields more accurate predictions than direct conditioning alone."
-          ]
-        },
-        "fr": {
-          "title": "Socio-démographie et raisonnement dans la modélisation",
-          "summary": "La modélisation pluraliste intègre les informations sociodémographiques des annotateurs pour capturer les jugements subjectifs d'offense. Cette étude analyse l'utilité de ces données et le rôle du raisonnement explicite.",
-          "keyPoints": [
-            "Les gains démographiques sont faibles individuellement mais clairs au niveau des groupes.",
-            "Le raisonnement explicite décompose le jugement en de multiples composantes.",
-            "Le raisonnement donne des prédictions plus précises que le conditionnement direct."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-30b22eb6518963",
-      "title": "FilingLoop: LLM Agents for Corporate Disclosure Review",
-      "summary": "Public disclosure reviews require discovering unstated deficiencies and verifying revisions. The authors introduce FilingLoop, an interactive benchmark and self-evolving agent framework for corporate disclosure review grounded in SEC correspondence.",
-      "keyPoints": [
-        "Introduces FilingLoop benchmark based on SEC correspondence.",
-        "Framework couples iterative review with procedural learning across cases.",
-        "Evolution increases requirement fulfillment from 24.28% to 27.96%."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37905",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "FilingLoop: LLM Agents for Corporate Disclosure Review",
-          "summary": "Public disclosure reviews require discovering unstated deficiencies and verifying revisions. The authors introduce FilingLoop, an interactive benchmark and self-evolving agent framework for corporate disclosure review grounded in SEC correspondence.",
-          "keyPoints": [
-            "Introduces FilingLoop benchmark based on SEC correspondence.",
-            "Framework couples iterative review with procedural learning across cases.",
-            "Evolution increases requirement fulfillment from 24.28% to 27.96%."
-          ]
-        },
-        "fr": {
-          "title": "FilingLoop : Agents LLM pour la révision de divulgations",
-          "summary": "La révision de divulgations publiques nécessite de découvrir des lacunes. Les auteurs présentent FilingLoop, un benchmark interactif et un cadre d'agent auto-évolutif pour la révision de divulgations d'entreprise basé sur la correspondance SEC.",
-          "keyPoints": [
-            "Introduction du benchmark FilingLoop basé sur la correspondance SEC.",
-            "Associe révision itérative et apprentissage procédural.",
-            "L'évolution augmente la satisfaction des exigences de 24,28 % à 27,96 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7880bdd0fc2acf",
-      "title": "Frequency-Selective Spiking Reservoirs with Resonant Neurons",
-      "summary": "Spiking reservoir computing offers energy-efficient inference, but existing reservoirs rely on leaky integrate-and-fire neurons whose low-pass dynamics limit temporal frequency handling. The authors introduce HRF-Res using Harmonic Resonate-and-Fire neurons.",
-      "keyPoints": [
-        "Introduces HRF-Res replacing LIF neurons with Harmonic Resonate-and-Fire neurons.",
-        "Enables selective response to input frequencies for temporal patterns.",
-        "Achieves up to 19x lower energy consumption than non-spiking oscillatory reservoirs."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37906",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Frequency-Selective Spiking Reservoirs with Resonant Neurons",
-          "summary": "Spiking reservoir computing offers energy-efficient inference, but existing reservoirs rely on leaky integrate-and-fire neurons whose low-pass dynamics limit temporal frequency handling. The authors introduce HRF-Res using Harmonic Resonate-and-Fire neurons.",
-          "keyPoints": [
-            "Introduces HRF-Res replacing LIF neurons with Harmonic Resonate-and-Fire neurons.",
-            "Enables selective response to input frequencies for temporal patterns.",
-            "Achieves up to 19x lower energy consumption than non-spiking oscillatory reservoirs."
-          ]
-        },
-        "fr": {
-          "title": "Réservoirs à impulsions sélectifs en fréquence",
-          "summary": "Le calcul par réservoir à impulsions offre une inférence économe en énergie, mais les réservoirs existants dépendent de neurones aux dynamiques passe-bas. Les auteurs présentent HRF-Res utilisant des neurones harmoniques résonnants.",
-          "keyPoints": [
-            "Introduction de HRF-Res avec des neurones Harmoniques Résonnants.",
-            "Permet une réponse sélective aux fréquences d'entrée pour les motifs temporels.",
-            "Atterrit jusqu'à 19 fois moins de consommation d'énergie."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-91b3edf2f063b8",
-      "title": "SciGame: Evaluating Scientific Discovery Agents",
-      "summary": "Large language model agents are increasingly used for scientific discovery, but existing benchmarks mix law inference with programming. The authors introduce SciGame, a controlled benchmark converting scientific literature into structured scientific cards.",
-      "keyPoints": [
-        "Introduces SciGame benchmark with original and counterfactual environments.",
-        "Contains historical collections and live temporal collections past cutoffs.",
-        "Shows familiar priors hurt performance when governing relations change."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37919",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SciGame: Evaluating Scientific Discovery Agents",
-          "summary": "Large language model agents are increasingly used for scientific discovery, but existing benchmarks mix law inference with programming. The authors introduce SciGame, a controlled benchmark converting scientific literature into structured scientific cards.",
-          "keyPoints": [
-            "Introduces SciGame benchmark with original and counterfactual environments.",
-            "Contains historical collections and live temporal collections past cutoffs.",
-            "Shows familiar priors hurt performance when governing relations change."
-          ]
-        },
-        "fr": {
-          "title": "SciGame : Évaluation des agents de découverte scientifique",
-          "summary": "Les agents LLM sont de plus en plus utilisés pour la découverte scientifique, mais les benchmarks actuels mélangent l'inférence de lois et la programmation. Les auteurs présentent SciGame, un benchmark contrôlé convertissant la littérature en cartes.",
-          "keyPoints": [
-            "Introduction du benchmark SciGame avec environnements originaux et contrefactuels.",
-            "Contient des collections historiques et temporelles.",
-            "Montre que les a priori familiers nuisent lorsque les relations changent."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a7a5a2b9feb696",
-      "title": "VerifiedLab: Multi-Agent Framework for Knowledge Transition",
-      "summary": "As research agents deploy for laboratory experiments, knowledge transitions from human-written records to machine-readable systems. The authors introduce VerifiedLab, a multi-agent framework to verify and disseminate research output.",
-      "keyPoints": [
-        "Introduces VerifiedLab multi-agent harness framework for knowledge transition.",
-        "AI scientists verify records field by field with roles like PI and librarian.",
-        "Demonstrated on perovskite solar cells to recover trends and anticipate devices."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37923",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "VerifiedLab: Multi-Agent Framework for Knowledge Transition",
-          "summary": "As research agents deploy for laboratory experiments, knowledge transitions from human-written records to machine-readable systems. The authors introduce VerifiedLab, a multi-agent framework to verify and disseminate research output.",
-          "keyPoints": [
-            "Introduces VerifiedLab multi-agent harness framework for knowledge transition.",
-            "AI scientists verify records field by field with roles like PI and librarian.",
-            "Demonstrated on perovskite solar cells to recover trends and anticipate devices."
-          ]
-        },
-        "fr": {
-          "title": "VerifiedLab : Cadre multi-agent pour la transition des connaissances",
-          "summary": "À mesure que les agents de recherche se déployent, les connaissances passent de documents humains à des systèmes lisibles par machine. Les auteurs présentent VerifiedLab, un cadre multi-agent pour vérifier et diffuser les extrants de recherche.",
-          "keyPoints": [
-            "Introduction du cadre multi-agent VerifiedLab pour la transition des connaissances.",
-            "Des scientifiques IA vérifient les dossiers champ par champ.",
-            "Démontré sur des cellules solaires à pérovskite pour anticiper les dispositifs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-57f62f6021f7a6",
-      "title": "GARDEN: Autonomous Reward Design for Cooperative MARL",
-      "summary": "Cooperative multi-agent reinforcement learning relies heavily on manually designed reward functions. The authors propose GARDEN, where a single reward program is developed for a family of scenarios and transferred to unseen scenarios.",
-      "keyPoints": [
-        "Proposes GARDEN for generalist autonomous reward design in MARL.",
-        "Developed via LLM reward engineers investigating environment code and trials.",
-        "Increased task returns by 58.2% and 52.5% on Overcooked and SMAX benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37926",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GARDEN: Autonomous Reward Design for Cooperative MARL",
-          "summary": "Cooperative multi-agent reinforcement learning relies heavily on manually designed reward functions. The authors propose GARDEN, where a single reward program is developed for a family of scenarios and transferred to unseen scenarios.",
-          "keyPoints": [
-            "Proposes GARDEN for generalist autonomous reward design in MARL.",
-            "Developed via LLM reward engineers investigating environment code and trials.",
-            "Increased task returns by 58.2% and 52.5% on Overcooked and SMAX benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "GARDEN : Conception de récompenses autonomes pour l'apprentissage",
-          "summary": "L'apprentissage par renforcement multi-agent coopératif dépend de fonctions de récompense conçues manuellement. Les auteurs proposent GARDEN, où un seul programme de récompense est développé pour une famille de scénarios.",
-          "keyPoints": [
-            "Propose GARDEN pour la conception autonome de récompenses dans l'apprentissage multi-agent.",
-            "Développé via des ingénieurs de récompense LLM analysant le code et les essais.",
-            "A augmenté les retours de tâches de 58,2 % et 52,5 % sur les benchmarks Overcooked et SMAX."
+            "FACTS-MAS décompose les données de prévision en canaux spécialisés pour les données temporelles, saisonnières et d'événements.",
+            "La validation historique mesure la compétence prédictive pour pondérer et combiner efficacement les prévisions d'agents.",
+            "Le cadre surpasse les méthodes naïves et le modèle de fondation TimesFM sur les jeux de données testés."
           ]
         }
       },
