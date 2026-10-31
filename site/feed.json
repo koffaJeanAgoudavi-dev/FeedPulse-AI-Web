@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-30T18:01:43.716Z",
+  "generatedAt": "2026-10-31T05:45:34.633Z",
   "items": [
     {
-      "id": "feed-a86d24c59c8261",
-      "title": "Community safety report and new protections for teens",
-      "summary": "OpenAI is enhancing violence prevention measures within ChatGPT by introducing expanded safeguards, earlier interventions, and a renewed commitment to public safety reporting.",
+      "id": "feed-2e338f4975c6ee",
+      "title": "LRMoE: Memory-Aware MoE Training System",
+      "summary": "LRMoE is a memory-aware Mixture-of-Experts training system that jointly recalibrates backward demand and balances retained workloads on memory-constrained nodes. Experiments show it reduces cumulative training time by 21.2-44.8% relative to SYMI.",
       "keyPoints": [
-        "Strengthening violence prevention in ChatGPT",
-        "Introducing expanded safeguards and earlier interventions",
-        "New commitment to public safety reporting"
+        "Addresses memory bottlenecks caused by expert replication competing with token buffers.",
+        "Uses backward demand estimation and physical compaction to reduce execution-buffer demand.",
+        "Reduces cumulative MoE-layer training time by 21.2-44.8% on Qwen3-30B-A3B and GLM4.5-106B-A12B."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37720",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Community safety report and new protections for teens",
-          "summary": "OpenAI is enhancing violence prevention measures within ChatGPT by introducing expanded safeguards, earlier interventions, and a renewed commitment to public safety reporting.",
+          "title": "LRMoE: Memory-Aware MoE Training System",
+          "summary": "LRMoE is a memory-aware Mixture-of-Experts training system that jointly recalibrates backward demand and balances retained workloads on memory-constrained nodes. Experiments show it reduces cumulative training time by 21.2-44.8% relative to SYMI.",
           "keyPoints": [
-            "Strengthening violence prevention in ChatGPT",
-            "Introducing expanded safeguards and earlier interventions",
-            "New commitment to public safety reporting"
+            "Addresses memory bottlenecks caused by expert replication competing with token buffers.",
+            "Uses backward demand estimation and physical compaction to reduce execution-buffer demand.",
+            "Reduces cumulative MoE-layer training time by 21.2-44.8% on Qwen3-30B-A3B and GLM4.5-106B-A12B."
           ]
         },
         "fr": {
-          "title": "Rapport de sécurité communautaire et nouvelles protections",
-          "summary": "OpenAI renforce la prévention de la violence dans ChatGPT en déployant des mesures de protection élargies, des interventions plus précoces et un nouvel engagement envers les rapports de sécurité publique.",
+          "title": "LRMoE : Système d'entraînement MoE conscient de la mémoire",
+          "summary": "LRMoE est un système d'entraînement de type Mixture-of-Experts qui recalibre la demande en rétropropagation et équilibre la charge de travail sur les nœuds contraints en mémoire. Les expériences montrent une réduction du temps d'entraînement de 21,2 à 44,8 % par rapport à SYMI.",
           "keyPoints": [
-            "Renforcement de la prévention de la violence dans ChatGPT",
-            "Introduction de mesures de protection élargies et d'interventions précoces",
-            "Nouvel engagement pour les rapports de sécurité publique"
+            "Traite les goulots d'étranglement liés à la concurrence entre réplicas d'experts et tampons de jetons.",
+            "Utilise l'estimation de la demande et le compactage physique pour réduire la mémoire tampon.",
+            "Réduit le temps d'entraînement cumulé de 21,2 à 44,8 % sur Qwen3-30B-A3B et GLM4.5-106B-A12B."
           ]
         }
       },
@@ -41,36 +41,36 @@
       }
     },
     {
-      "id": "feed-85f94c0fe8f02a",
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "summary": "Credit Saison achieved a 954% return on investment during its ChatGPT Enterprise pilot, with leaders and employees driving the transition into companywide adoption.",
+      "id": "feed-84abd1857de5df",
+      "title": "OpenAI Supports Shared Robots.txt for AI Training Preferences",
+      "summary": "OpenAI announces it will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "keyPoints": [
-        "Credit Saison achieved 954% ROI in a pilot",
-        "Utilized ChatGPT Enterprise",
-        "Leaders and employees drove companywide adoption"
+        "OpenAI will honor a shared robots.txt signal.",
+        "Aims to help website operators communicate AI training preferences.",
+        "Involves participating AI providers."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/credit-saison",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "publishedAt": "2026-10-30T09:30:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-          "summary": "Credit Saison achieved a 954% return on investment during its ChatGPT Enterprise pilot, with leaders and employees driving the transition into companywide adoption.",
+          "title": "OpenAI Supports Shared Robots.txt for AI Training Preferences",
+          "summary": "OpenAI announces it will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
           "keyPoints": [
-            "Credit Saison achieved 954% ROI in a pilot",
-            "Utilized ChatGPT Enterprise",
-            "Leaders and employees drove companywide adoption"
+            "OpenAI will honor a shared robots.txt signal.",
+            "Aims to help website operators communicate AI training preferences.",
+            "Involves participating AI providers."
           ]
         },
         "fr": {
-          "title": "Credit Saison atteint un ROI de 954% avec ChatGPT Enterprise",
-          "summary": "Credit Saison a atteint un retour sur investissement de 954% lors de son projet pilote ChatGPT Enterprise, grâce à l'implication des dirigeants et des employés pour généraliser son adoption.",
+          "title": "OpenAI soutient un signal robots.txt partagé pour l'entraînement",
+          "summary": "OpenAI annonce qu'elle respectera un signal robots.txt partagé afin d'aider les exploitants de sites web à communiquer leurs préférences d'entraînement en IA.",
           "keyPoints": [
-            "Credit Saison a atteint un ROI de 954% lors d'un projet pilote",
-            "Utilisation de ChatGPT Enterprise",
-            "Les dirigeants et employés ont favorisé l'adoption à l'échelle de l'entreprise"
+            "OpenAI honorera un signal robots.txt partagé.",
+            "Aide les exploitants de sites web à exprimer leurs préférences d'entraînement.",
+            "Concerne les fournisseurs d'IA participants."
           ]
         }
       },
@@ -80,36 +80,36 @@
       }
     },
     {
-      "id": "feed-9349f418e7bc7a",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "summary": "OpenAI has released an updated Model Spec outlining five core values designed to guide more capable AI systems toward sound judgment, human agency, and faithfulness to human intent.",
+      "id": "feed-17c024935e19a1",
+      "title": "Amortized Localized Posterior Inference for Model Calibration",
+      "summary": "This work constructs a family of localized posteriors using Gaussian localization weights and amortized variational inference to improve model calibration across a context domain, reducing errors in ocean turbulence closure and twin experiments.",
       "keyPoints": [
-        "Updated Model Spec published by OpenAI",
-        "Outlines five core guiding values",
-        "Aims for sound judgment and human intent faithfulness"
+        "Constructs localized posteriors by weighting observation likelihoods by proximity to a target context.",
+        "Employs a conditional normalizing flow through amortized variational inference.",
+        "Reduces temperature and zonal-velocity errors in ocean model k-epsilon turbulence closure."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/updated-model-spec",
-      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37731",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "An updated Model Spec for more capable and beneficial AI",
-          "summary": "OpenAI has released an updated Model Spec outlining five core values designed to guide more capable AI systems toward sound judgment, human agency, and faithfulness to human intent.",
+          "title": "Amortized Localized Posterior Inference for Model Calibration",
+          "summary": "This work constructs a family of localized posteriors using Gaussian localization weights and amortized variational inference to improve model calibration across a context domain, reducing errors in ocean turbulence closure and twin experiments.",
           "keyPoints": [
-            "Updated Model Spec published by OpenAI",
-            "Outlines five core guiding values",
-            "Aims for sound judgment and human intent faithfulness"
+            "Constructs localized posteriors by weighting observation likelihoods by proximity to a target context.",
+            "Employs a conditional normalizing flow through amortized variational inference.",
+            "Reduces temperature and zonal-velocity errors in ocean model k-epsilon turbulence closure."
           ]
         },
         "fr": {
-          "title": "Une spécification de modèle mise à jour pour une IA plus capable",
-          "summary": "OpenAI a publié une spécification de modèle mise à jour décrivant cinq valeurs fondamentales pour guider l'IA vers un jugement sûr, l'autonomie humaine et la fidélité à l'intention humaine.",
+          "title": "Inférence a posteriori localisée et amortie pour la calibration",
+          "summary": "Cette étude construit une famille de lois a posteriori localisées à l'aide de poids gaussiens et d'inférence variationnelle amortie pour améliorer la calibration des modèles, réduisant les erreurs dans la fermeture de la turbulence océanique.",
           "keyPoints": [
-            "Spécification de modèle mise à jour par OpenAI",
-            "Présente cinq valeurs fondamentales directrices",
-            "Vise un jugement sûr et la fidélité humaine"
+            "Construit des lois a posteriori localisées en pondérant la vraisemblance selon la proximité contextuelle.",
+            "Utilise un flux normalisant conditionnel via l'inférence variationnelle amortie.",
+            "Réduit les erreurs de température et de vitesse zonale dans la fermeture de la turbulence k-epsilon."
           ]
         }
       },
@@ -119,75 +119,36 @@
       }
     },
     {
-      "id": "feed-0f01adb2acab0a",
-      "title": "How we detect frontier model misalignment",
-      "summary": "OpenAI explains its use of layered monitoring to detect frontier model misalignment and unauthorized agent behavior, allowing responders to intervene before incidents escalate.",
+      "id": "feed-574dbaf7fc8731",
+      "title": "OpenAI Highlights Court Briefs on Fair Use Benefits",
+      "summary": "OpenAI shares excerpts from legal briefs by creators, academics, and experts explaining how fair use supports AI training and innovation.",
       "keyPoints": [
-        "Uses layered monitoring approaches",
-        "Detects frontier model misalignment",
-        "Identifies unauthorized agent behavior for early intervention"
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How we detect frontier model misalignment",
-          "summary": "OpenAI explains its use of layered monitoring to detect frontier model misalignment and unauthorized agent behavior, allowing responders to intervene before incidents escalate.",
-          "keyPoints": [
-            "Uses layered monitoring approaches",
-            "Detects frontier model misalignment",
-            "Identifies unauthorized agent behavior for early intervention"
-          ]
-        },
-        "fr": {
-          "title": "Comment nous détectons le désalignement des modèles de frontières",
-          "summary": "OpenAI explique son utilisation d'une surveillance multicouche pour détecter le désalignement des modèles de pointe et les comportements d'agents non autorisés, permettant une intervention précoce.",
-          "keyPoints": [
-            "Utilise une surveillance multicouche",
-            "Détecte le désalignement des modèles de pointe",
-            "Identifie le comportement non autorisé des agents"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d948735545c20c",
-      "title": "How Ropes & Gray develops AI for transactional diligence",
-      "summary": "Ropes & Gray is partnering with OpenAI to develop AI for transactional diligence. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "keyPoints": [
-        "Ropes & Gray develops transactional diligence AI with OpenAI",
-        "Lawyers review grouped documents and summaries",
-        "Reports are examined prior to client advising"
+        "Shares excerpts from court briefs by diverse experts and creators.",
+        "Explores how fair use supports AI training.",
+        "Highlights benefits to broader innovation."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/ropes-gray-ai-diligence",
-      "publishedAt": "2026-10-29T07:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/fair-use-benefits-everyone",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "How Ropes & Gray develops AI for transactional diligence",
-          "summary": "Ropes & Gray is partnering with OpenAI to develop AI for transactional diligence. Lawyers review grouped documents, summaries, and reports before advising clients.",
+          "title": "OpenAI Highlights Court Briefs on Fair Use Benefits",
+          "summary": "OpenAI shares excerpts from legal briefs by creators, academics, and experts explaining how fair use supports AI training and innovation.",
           "keyPoints": [
-            "Ropes & Gray develops transactional diligence AI with OpenAI",
-            "Lawyers review grouped documents and summaries",
-            "Reports are examined prior to client advising"
+            "Shares excerpts from court briefs by diverse experts and creators.",
+            "Explores how fair use supports AI training.",
+            "Highlights benefits to broader innovation."
           ]
         },
         "fr": {
-          "title": "Comment Ropes & Gray développe l'IA pour la diligence transactionnelle",
-          "summary": "Ropes & Gray développe une IA pour la diligence transactionnelle avec OpenAI. Les avocats examinent des documents groupés, des résumés et des rapports avant de conseiller leurs clients.",
+          "title": "OpenAI met en avant des mémoires judiciaires sur le fair use",
+          "summary": "OpenAI partage des extraits de mémoires juridiques rédigés par des créateurs, universitaires et experts sur la manière dont le fair use soutient l'entraînement de l'IA et l'innovation.",
           "keyPoints": [
-            "Ropes & Gray développe une IA transactionnelle avec OpenAI",
-            "Les avocats examinent des documents groupés et des résumés",
-            "Les rapports sont analysés avant le conseil aux clients"
+            "Partage des extraits de mémoires de divers experts et créateurs.",
+            "Examine comment le fair use soutient l'entraînement en IA.",
+            "Souligne les avantages pour l'innovation générale."
           ]
         }
       },
@@ -197,75 +158,36 @@
       }
     },
     {
-      "id": "feed-a395c7da350b50",
-      "title": "OpenAI and ServiceNow Expand Partnership",
-      "summary": "OpenAI and ServiceNow have expanded their partnership to integrate OpenAI models and agents into ServiceNow, while also bringing ServiceNow workflows into ChatGPT and Codex.",
+      "id": "feed-3cf54c91cb07b4",
+      "title": "ThinkJev: Calibrated Typed Decisions with Hybrid-Thinking Models",
+      "summary": "ThinkJev builds a fast and slow decision system from a single open hybrid-thinking model, using statistical thresholds to route decisions and save thought tokens while maintaining accuracy.",
       "keyPoints": [
-        "OpenAI and ServiceNow expanded their partnership",
-        "OpenAI models and agents integrate into ServiceNow",
-        "ServiceNow workflows come to ChatGPT and Codex"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "publishedAt": "2026-10-28T13:15:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI and ServiceNow Expand Partnership",
-          "summary": "OpenAI and ServiceNow have expanded their partnership to integrate OpenAI models and agents into ServiceNow, while also bringing ServiceNow workflows into ChatGPT and Codex.",
-          "keyPoints": [
-            "OpenAI and ServiceNow expanded their partnership",
-            "OpenAI models and agents integrate into ServiceNow",
-            "ServiceNow workflows come to ChatGPT and Codex"
-          ]
-        },
-        "fr": {
-          "title": "OpenAI et ServiceNow étendent leur partenariat",
-          "summary": "OpenAI et ServiceNow étendent leur partenariat pour intégrer les modèles et agents OpenAI dans ServiceNow, ainsi que les flux de travail ServiceNow dans ChatGPT et Codex.",
-          "keyPoints": [
-            "OpenAI et ServiceNow étendent leur partenariat",
-            "Intégration des modèles et agents OpenAI dans ServiceNow",
-            "Intégration des flux ServiceNow dans ChatGPT et Codex"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-709cc8e2bd467b",
-      "title": "Legora Builds Agentic Operating System for Legal Work",
-      "summary": "Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "keyPoints": [
-        "Legora builds the agentic operating system for legal work",
-        "Uses OpenAI models, ChatGPT, and Codex",
-        "Accelerates legal workflows and contract analysis"
+        "Combines direct answers and thought processes from a single hybrid model.",
+        "Uses a statistical test on dev data to guarantee error rates under a target percentage.",
+        "Achieves high accuracy on typed decisions while saving a significant amount of thought tokens."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/legora",
-      "publishedAt": "2026-10-28T09:30:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37732",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Legora Builds Agentic Operating System for Legal Work",
-          "summary": "Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "title": "ThinkJev: Calibrated Typed Decisions with Hybrid-Thinking Models",
+          "summary": "ThinkJev builds a fast and slow decision system from a single open hybrid-thinking model, using statistical thresholds to route decisions and save thought tokens while maintaining accuracy.",
           "keyPoints": [
-            "Legora builds the agentic operating system for legal work",
-            "Uses OpenAI models, ChatGPT, and Codex",
-            "Accelerates legal workflows and contract analysis"
+            "Combines direct answers and thought processes from a single hybrid model.",
+            "Uses a statistical test on dev data to guarantee error rates under a target percentage.",
+            "Achieves high accuracy on typed decisions while saving a significant amount of thought tokens."
           ]
         },
         "fr": {
-          "title": "Legora construit le système d'exploitation pour le droit",
-          "summary": "Legora utilise les modèles OpenAI, ChatGPT et Codex pour accélérer les flux de travail juridiques, étendre l'analyse des contrats et libérer les avocats.",
+          "title": "ThinkJev : Décisions typées calibrées avec des modèles hybrides",
+          "summary": "ThinkJev construit un système de décision rapide et lent à partir d'un unique modèle de pensée hybride ouvert, utilisant des seuils statistiques pour acheminer les requêtes et économiser des jetons.",
           "keyPoints": [
-            "Legora construit le système d'exploitation agentique pour le travail juridique",
-            "Utilise les modèles OpenAI, ChatGPT et Codex",
-            "Accélère les flux de travail juridiques et l'analyse des contrats"
+            "Combine des réponses directes et des processus de réflexion issus d'un modèle hybride.",
+            "Utilise un test statistique pour garantir des taux d'erreur sous un seuil cible.",
+            "Atteint une grande précision sur les décisions typées tout en économisant des jetons de réflexion."
           ]
         }
       },
@@ -275,75 +197,36 @@
       }
     },
     {
-      "id": "feed-e2ed7680c50ae3",
-      "title": "The Future of the Firm",
-      "summary": "OpenAI discusses how artificial intelligence might enter organizational charts, positioning itself beneath, beside, and between human workers.",
+      "id": "feed-4131f32dcc0451",
+      "title": "OpenFrontiers: Benchmark for Scientific Rediscovery in LLMs",
+      "summary": "OpenFrontiers introduces a structured corpus of 12,151 open research problems and a benchmark of 200 mathematical problems to evaluate research-level scientific rediscovery in LLM agents.",
       "keyPoints": [
-        "Explores the integration of AI into corporate org charts",
-        "Examines AI roles beneath, beside, and between humans",
-        "Published via OpenAI News"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/the-future-of-the-firm",
-      "publishedAt": "2026-10-28T10:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "The Future of the Firm",
-          "summary": "OpenAI discusses how artificial intelligence might enter organizational charts, positioning itself beneath, beside, and between human workers.",
-          "keyPoints": [
-            "Explores the integration of AI into corporate org charts",
-            "Examines AI roles beneath, beside, and between humans",
-            "Published via OpenAI News"
-          ]
-        },
-        "fr": {
-          "title": "L'avenir de l'entreprise",
-          "summary": "OpenAI examine comment l'intelligence artificielle pourrait intégrer l'organigramme des entreprises, se positionnant en dessous, à côté et entre les employés.",
-          "keyPoints": [
-            "Explore l'intégration de l'IA dans les organigrammes",
-            "Examine les rôles de l'IA aux côtés et entre les humains",
-            "Publié par OpenAI News"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-885ae91d8583cb",
-      "title": "Executable Archaeology of Early Programming Models",
-      "summary": "Researchers report on the reanimation of two early AI programs from 1961 and 1984 using Executable Archaeology and Anthropic's Claude Code, revealing unexpected similarities in how they approached programming tasks.",
-      "keyPoints": [
-        "Reanimates Herbert Simon's Heuristic Compiler (1961) and KBEmacs (1984)",
-        "Applies 'Executable Archaeology' by running original historical code",
-        "Leverages Anthropic's Claude Code (Opus 5.5) for the reanimation work"
+        "Combines a corpus of 12,151 open research problems with a 200-problem benchmark.",
+        "Features Lean 4 statements checked by automated probes and independent reviews.",
+        "Evaluates seven LLM agents, showing closed-book rediscovery is rare."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36341",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37739",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Executable Archaeology of Early Programming Models",
-          "summary": "Researchers report on the reanimation of two early AI programs from 1961 and 1984 using Executable Archaeology and Anthropic's Claude Code, revealing unexpected similarities in how they approached programming tasks.",
+          "title": "OpenFrontiers: Benchmark for Scientific Rediscovery in LLMs",
+          "summary": "OpenFrontiers introduces a structured corpus of 12,151 open research problems and a benchmark of 200 mathematical problems to evaluate research-level scientific rediscovery in LLM agents.",
           "keyPoints": [
-            "Reanimates Herbert Simon's Heuristic Compiler (1961) and KBEmacs (1984)",
-            "Applies 'Executable Archaeology' by running original historical code",
-            "Leverages Anthropic's Claude Code (Opus 5.5) for the reanimation work"
+            "Combines a corpus of 12,151 open research problems with a 200-problem benchmark.",
+            "Features Lean 4 statements checked by automated probes and independent reviews.",
+            "Evaluates seven LLM agents, showing closed-book rediscovery is rare."
           ]
         },
         "fr": {
-          "title": "Archéologie exécutable de programmes de modélisation",
-          "summary": "Des chercheurs rapportent la réanimation de deux programmes d'IA de 1961 et 1984 à l'aide de l'archéologie exécutable et de Claude Code d'Anthropic, révélant des similarités dans leur approche.",
+          "title": "OpenFrontiers : Un benchmark pour la redécouverte scientifique",
+          "summary": "OpenFrontiers introduit un corpus structuré de 12 151 problèmes de recherche ouverts et un benchmark de 200 problèmes mathématiques pour évaluer la redécouverte scientifique par des agents LLM.",
           "keyPoints": [
-            "Réanime le compilateur heuristique (1961) et KBEmacs (1984)",
-            "Applique l'archéologie exécutable en exécutant le code d'origine",
-            "Utilise Claude Code d'Anthropic pour les travaux de réanimation"
+            "Associe un corpus de 12 151 problèmes ouverts à un benchmark de 200 problèmes.",
+            "Intègre des déclarations Lean 4 vérifiées par des sondes automatisées et des révisions.",
+            "Évalue sept agents LLM, montrant que la redécouverte en milieu fermé est rare."
           ]
         }
       },
@@ -353,75 +236,36 @@
       }
     },
     {
-      "id": "feed-67c6b18b0a7645",
-      "title": "Legora Builds Agentic Operating System for Legal Work",
-      "summary": "Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and allow lawyers to focus on higher-value tasks.",
+      "id": "feed-0b73660e31921f",
+      "title": "WebAnything: Automated Reconstruction of Web Agent Environments",
+      "summary": "WebAnything is an automated framework that reconstructs source-grounded, reusable website environments from real URLs to train and evaluate web agents without manual implementation.",
       "keyPoints": [
-        "Utilizes OpenAI models, ChatGPT, and Codex",
-        "Accelerates legal workflows and contract analysis",
-        "Frees lawyers to concentrate on high-value work"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "publishedAt": "2026-10-28T09:30:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Legora Builds Agentic Operating System for Legal Work",
-          "summary": "Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and allow lawyers to focus on higher-value tasks.",
-          "keyPoints": [
-            "Utilizes OpenAI models, ChatGPT, and Codex",
-            "Accelerates legal workflows and contract analysis",
-            "Frees lawyers to concentrate on high-value work"
-          ]
-        },
-        "fr": {
-          "title": "Legora crée un système d'exploitation pour le droit",
-          "summary": "Legora utilise les modèles d'OpenAI, ChatGPT et Codex pour accélérer les flux de travail juridiques, étendre l'analyse des contrats et libérer du temps aux avocats.",
-          "keyPoints": [
-            "Utilise les modèles OpenAI, ChatGPT et Codex",
-            "Accélère les flux de travail et l'analyse contractuelle",
-            "Permet aux avocats de se concentrer sur des tâches à valeur ajoutée"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8b75540f94518f",
-      "title": "WAKMan: Workload Aware KVCache Manager",
-      "summary": "Researchers introduce WAKMan, a workload-aware KV cache manager that dynamically picks eviction policies from live traffic without knowing request types, improving cache hit rates over standard LRU.",
-      "keyPoints": [
-        "Introduces WAKMan to optimize KV cache eviction policies dynamically",
-        "Adapts to live traffic without needing request types or prompt inspection",
-        "Improves hit rates over standard LRU by 5 percentage points on average"
+        "Reconstructs reusable website environments from real URLs automatically.",
+        "Constructs 244 website artifacts across 14 application domains supporting 12,984 tasks.",
+        "Fine-tuning Qwen3.5-9B on interaction trajectories improves task success rates."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36355",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37786",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "WAKMan: Workload Aware KVCache Manager",
-          "summary": "Researchers introduce WAKMan, a workload-aware KV cache manager that dynamically picks eviction policies from live traffic without knowing request types, improving cache hit rates over standard LRU.",
+          "title": "WebAnything: Automated Reconstruction of Web Agent Environments",
+          "summary": "WebAnything is an automated framework that reconstructs source-grounded, reusable website environments from real URLs to train and evaluate web agents without manual implementation.",
           "keyPoints": [
-            "Introduces WAKMan to optimize KV cache eviction policies dynamically",
-            "Adapts to live traffic without needing request types or prompt inspection",
-            "Improves hit rates over standard LRU by 5 percentage points on average"
+            "Reconstructs reusable website environments from real URLs automatically.",
+            "Constructs 244 website artifacts across 14 application domains supporting 12,984 tasks.",
+            "Fine-tuning Qwen3.5-9B on interaction trajectories improves task success rates."
           ]
         },
         "fr": {
-          "title": "WAKMan : Gestionnaire de cache KV sensible à la charge",
-          "summary": "Des chercheurs présentent WAKMan, un gestionnaire de cache KV qui choisit dynamiquement ses politiques d'éviction à partir du trafic en direct, améliorant les taux de succès.",
+          "title": "WebAnything : Reconstruction automatisée d'environnements pour agents web",
+          "summary": "WebAnything est un cadre automatisé qui reconstitue des environnements de sites web réutilisables à partir d'URL réelles pour entraîner et évaluer des agents web sans implémentation manuelle.",
           "keyPoints": [
-            "Présente WAKMan pour optimiser les politiques d'éviction du cache KV",
-            "S'adapte au trafic en direct sans connaître les types de requêtes",
-            "Améliore le taux de succès moyen de 5 points par rapport au LRU"
+            "Reconstitue automatiquement des environnements web réutilisables à partir d'URL réelles.",
+            "Génère 244 artéfacts de sites web dans 14 domaines d'application prenant en charge 12 984 tâches.",
+            "L'affinage de Qwen3.5-9B améliore les taux de réussite des tâches."
           ]
         }
       },
@@ -431,36 +275,36 @@
       }
     },
     {
-      "id": "feed-1cd33358fa8ed6",
-      "title": "LoRA on a Budget: Post-Hoc Compression for Adapters",
-      "summary": "This study introduces Functional Rank Allocation (FRA), an unlabeled method for post-hoc compression of adapter fleets that improves worst-case utility under constrained shared rank budgets.",
+      "id": "feed-a1243665260df8",
+      "title": "Evaluating Ontology Checkers for LLM Agents over Knowledge Graphs",
+      "summary": "This study evaluates curated, LLM-generated, and data-derived ontologies as checkers for LLM agents querying knowledge graphs, analyzing error detection trade-offs and false alarms.",
       "keyPoints": [
-        "Addresses post-hoc compression for serving many LoRA adapters efficiently",
-        "Proposes Functional Rank Allocation (FRA) using dynamic programming",
-        "Improves worst-case and tail utility over uniform spectral compression"
+        "Compares curated, LLM-generated, and data-derived ontologies used as agent checkers.",
+        "Analyzes how each source trades caught errors against false alarms.",
+        "Shows curated schemas can contradict underlying data and yield high false flags."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36386",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37809",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LoRA on a Budget: Post-Hoc Compression for Adapters",
-          "summary": "This study introduces Functional Rank Allocation (FRA), an unlabeled method for post-hoc compression of adapter fleets that improves worst-case utility under constrained shared rank budgets.",
+          "title": "Evaluating Ontology Checkers for LLM Agents over Knowledge Graphs",
+          "summary": "This study evaluates curated, LLM-generated, and data-derived ontologies as checkers for LLM agents querying knowledge graphs, analyzing error detection trade-offs and false alarms.",
           "keyPoints": [
-            "Addresses post-hoc compression for serving many LoRA adapters efficiently",
-            "Proposes Functional Rank Allocation (FRA) using dynamic programming",
-            "Improves worst-case and tail utility over uniform spectral compression"
+            "Compares curated, LLM-generated, and data-derived ontologies used as agent checkers.",
+            "Analyzes how each source trades caught errors against false alarms.",
+            "Shows curated schemas can contradict underlying data and yield high false flags."
           ]
         },
         "fr": {
-          "title": "LoRA à petit budget : compression post-hoc d'adaptateurs",
-          "summary": "Cette étude présente l'allocation de rang fonctionnel (FRA) pour la compression post-hoc de flottes d'adaptateurs, améliorant l'utilité dans les pires cas sous contrainte budgétaire.",
+          "title": "Évaluation de validateurs ontologiques pour agents LLM sur graphes",
+          "summary": "Cette étude évalue des ontologies conservées, générées par LLM ou dérivées de données comme validateurs pour des agents interrogeant des graphes de connaissances, analysant les compromis de détection d'erreurs.",
           "keyPoints": [
-            "Traite la compression post-hoc pour l'exploitation de flottes LoRA",
-            "Propose la méthode FRA utilisant la programmation dynamique",
-            "Améliore l'utilité par rapport à la compression spectrale uniforme"
+            "Compare des ontologies de sources diverses utilisées pour valider les agents.",
+            "Analyse le compromis entre erreurs détectées et fausses alarmes pour chaque source.",
+            "Montre que les schémas conservés peuvent contredire leurs propres données."
           ]
         }
       },
@@ -470,36 +314,36 @@
       }
     },
     {
-      "id": "feed-123381003ba50a",
-      "title": "MAREval: Multi-Agent Framework for Rec Explanations",
-      "summary": "MAREval is a structured multi-agent framework that uses LLMs to evaluate natural language recommendations through a planner, moderator, and arbitrator agent architecture.",
+      "id": "feed-13238a09a124fa",
+      "title": "Measuring Intent Loss in Agentic Smart Contract Synthesis",
+      "summary": "This study evaluates how AI agents lose user intent when synthesizing smart contracts, proposing an elicitation-first architecture that queries clients with a checklist before coding.",
       "keyPoints": [
-        "Proposes MAREval for evaluating natural language recommendation explanations",
-        "Orchestrates planner, moderator, and arbitrator agents using a Chain of Debate strategy",
-        "Demonstrates improved alignment with human judgments and engagement metrics"
+        "Replays transactions to measure discrepancies between AI-written and original smart contracts.",
+        "Finds common AI judges and analysis tools miss obvious structural mistakes.",
+        "Proposes an elicitation-first architecture to gather requirements before code generation."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36389",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37830",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "MAREval: Multi-Agent Framework for Rec Explanations",
-          "summary": "MAREval is a structured multi-agent framework that uses LLMs to evaluate natural language recommendations through a planner, moderator, and arbitrator agent architecture.",
+          "title": "Measuring Intent Loss in Agentic Smart Contract Synthesis",
+          "summary": "This study evaluates how AI agents lose user intent when synthesizing smart contracts, proposing an elicitation-first architecture that queries clients with a checklist before coding.",
           "keyPoints": [
-            "Proposes MAREval for evaluating natural language recommendation explanations",
-            "Orchestrates planner, moderator, and arbitrator agents using a Chain of Debate strategy",
-            "Demonstrates improved alignment with human judgments and engagement metrics"
+            "Replays transactions to measure discrepancies between AI-written and original smart contracts.",
+            "Finds common AI judges and analysis tools miss obvious structural mistakes.",
+            "Proposes an elicitation-first architecture to gather requirements before code generation."
           ]
         },
         "fr": {
-          "title": "MAREval : Cadre multi-agent pour explications de recommandation",
-          "summary": "MAREval est un cadre multi-agent structuré utilisant des LLM pour évaluer les explications de recommandation grâce à une architecture d'agents planificateur, modérateur et arbitre.",
+          "title": "Mesure de la perte d'intention dans la synthèse de contrats intelligents",
+          "summary": "Cette étude évalue la perte d'intention des agents IA lors de la synthèse de contrats intelligents et propose une architecture axée sur l'élicitation préalable des besoins des clients.",
           "keyPoints": [
-            "Propose MAREval pour évaluer les explications de recommandation",
-            "Orchestre des agents planificateur, modérateur et arbitre",
-            "Démontre un meilleur alignement avec le jugement humain et l'engagement"
+            "Rejoue des transactions pour mesurer les écarts entre contrats générés et originaux.",
+            "Montre que les outils d'analyse standards ratent des erreurs évidentes.",
+            "Propose de recueillir les exigences manquantes avant toute génération de code."
           ]
         }
       },
@@ -509,36 +353,36 @@
       }
     },
     {
-      "id": "feed-8046d94113f284",
-      "title": "kw-bench: Breaking Frontier Harnesses on Real Tasks",
-      "summary": "Researchers introduce kw-bench, a benchmark based on real investigative knowledge work tasks like multi-year VAT reconstruction, highlighting vulnerabilities in current coding-agent harnesses.",
+      "id": "feed-fa47d733c17cb7",
+      "title": "Detecting Covert Collusion in AI Agents via PoPLi",
+      "summary": "Partner-Outsider Positive Listening (PoPLi) is proposed as a behavioral test to detect covert collusion or hidden communication conventions between AI agents by measuring reaction changes to reworded messages.",
       "keyPoints": [
-        "Introduces kw-bench to test investigative knowledge work in coding harnesses",
-        "Features a task family involving complex five-year VAT reconstruction across SAP generations",
-        "Shows performance variations across different models and independent harnesses"
+        "Introduces PoPLi to detect covert codes in agent communications via message rewording.",
+        "Evaluated in a simulated market across five specific conditions.",
+        "Demonstrates effectiveness in spotting private communication channels where message-only monitors fail."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36405",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37849",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "kw-bench: Breaking Frontier Harnesses on Real Tasks",
-          "summary": "Researchers introduce kw-bench, a benchmark based on real investigative knowledge work tasks like multi-year VAT reconstruction, highlighting vulnerabilities in current coding-agent harnesses.",
+          "title": "Detecting Covert Collusion in AI Agents via PoPLi",
+          "summary": "Partner-Outsider Positive Listening (PoPLi) is proposed as a behavioral test to detect covert collusion or hidden communication conventions between AI agents by measuring reaction changes to reworded messages.",
           "keyPoints": [
-            "Introduces kw-bench to test investigative knowledge work in coding harnesses",
-            "Features a task family involving complex five-year VAT reconstruction across SAP generations",
-            "Shows performance variations across different models and independent harnesses"
+            "Introduces PoPLi to detect covert codes in agent communications via message rewording.",
+            "Evaluated in a simulated market across five specific conditions.",
+            "Demonstrates effectiveness in spotting private communication channels where message-only monitors fail."
           ]
         },
         "fr": {
-          "title": "kw-bench : Évaluation des environnements sur des tâches réelles",
-          "summary": "Les chercheurs présentent kw-bench, un banc d'essai basé sur des tâches d'investigation réelles comme la reconstruction de TVA, mettant en lumière les limites des environnements actuels.",
+          "title": "Détection de collusion cachée entre agents IA via PoPLi",
+          "summary": "La méthode PoPLi est proposée comme test comportemental pour détecter la collusion cachée ou les conventions de communication secrètes entre agents IA en mesurant les réactions à des messages reformulés.",
           "keyPoints": [
-            "Introduit kw-bench pour tester le travail de connaissance investigateur",
-            "Comporte une tâche de reconstruction de TVA pluriannuelle sur SAP",
-            "Met en évidence des variations de performance selon les modèles"
+            "Introduit PoPLi pour détecter les codes cachés par reformulation des messages.",
+            "Évalué dans un marché simulé à travers cinq conditions différentes.",
+            "Démontre son efficacité pour repérer les canaux privés là où les moniteurs textuels échouent."
           ]
         }
       },
@@ -548,247 +392,403 @@
       }
     },
     {
-      "id": "feed-1a620ff45a8f4f",
-      "title": "Verifiable Efficiency Limits of Innate LLM Planning",
-      "summary": "This study proposes a verifiable framework to isolate and evaluate unaided LLM planning capabilities on sliding puzzles, measuring success-weighted plan efficiency across different horizons.",
+      "id": "feed-8ebe7e238889a9",
+      "title": "Evaluating and improving AI agents for sequencing protocols",
+      "summary": "Existing benchmarks rarely test if agents can reconstruct exact molecular structures and generation workflows specified by sequencing protocols. Researchers introduce LibStructBench, showing frontier agents produce approximately correct reconstructions but struggle with exact molecular states and workflow connectivity.",
       "keyPoints": [
-        "Isolates innate, unaided planning ability without tools or execution feedback",
-        "Proposes success-weighted plan efficiency metric (SPE = R x Q x E)",
-        "Evaluates 8,400 full-plan outputs on 4x4 sliding puzzles across model conditions"
+        "Introduces LibStructBench for sequencing-library structures.",
+        "Frontier agents struggle with exact molecular-state representation.",
+        "Switching language models produced larger performance shifts than agent harnesses."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36415",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37851",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Verifiable Efficiency Limits of Innate LLM Planning",
-          "summary": "This study proposes a verifiable framework to isolate and evaluate unaided LLM planning capabilities on sliding puzzles, measuring success-weighted plan efficiency across different horizons.",
+          "title": "Evaluating and improving AI agents for sequencing protocols",
+          "summary": "Existing benchmarks rarely test if agents can reconstruct exact molecular structures and generation workflows specified by sequencing protocols. Researchers introduce LibStructBench, showing frontier agents produce approximately correct reconstructions but struggle with exact molecular states and workflow connectivity.",
           "keyPoints": [
-            "Isolates innate, unaided planning ability without tools or execution feedback",
-            "Proposes success-weighted plan efficiency metric (SPE = R x Q x E)",
-            "Evaluates 8,400 full-plan outputs on 4x4 sliding puzzles across model conditions"
+            "Introduces LibStructBench for sequencing-library structures.",
+            "Frontier agents struggle with exact molecular-state representation.",
+            "Switching language models produced larger performance shifts than agent harnesses."
           ]
         },
         "fr": {
-          "title": "Limites d'efficacité vérifiables de la planification des LLM",
-          "summary": "Cette étude propose un cadre vérifiable pour isoler et évaluer les capacités de planification intrinsèque des LLM sur des taquins, mesurant l'efficacité des plans sur divers horizons.",
+          "title": "Évaluation et amélioration des agents IA pour le séquençage",
+          "summary": "Les benchmarks actuels évaluent rarement la reconstruction exacte des structures moléculaires par les agents. Les chercheurs présentent LibStructBench, révélant que les agents de pointe réussissent des reconstructions approximatives mais peinent sur les états moléculaires exacts.",
           "keyPoints": [
-            "Isole la capacité de planification intrinsèque sans outils",
-            "Propose une métrique d'efficacité de plan pondérée par le succès",
-            "Évalue 8 400 sorties de plans complets sur des puzzles taquins 4x4"
+            "Introduction de LibStructBench pour les structures de bibliothèques.",
+            "Les agents de pointe peinent sur la représentation des états moléculaires.",
+            "Changer de modèle linguistique a eu plus d'impact que de changer de harnais."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-190913b96a96b9",
-      "title": "LM-DSB: Automated Daily Safety Bulletins in Construction",
-      "summary": "LM-DSB is a lightweight multi-agent system integrating RAG with a local LLM to automate the creation of construction daily safety bulletins on consumer-grade personal computers.",
+      "id": "feed-f644284bc0118e",
+      "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
+      "summary": "Language model agents often refine answers iteratively using feedback, yet models are ranked by Pass@1 or Pass@K metrics that ignore this capability. The authors introduce Seq@K to measure problem-solving within K sequential attempts with feedback, revealing a distinct model-selection landscape.",
       "keyPoints": [
-        "Introduces LM-DSB for automated daily safety bulletin generation in construction",
-        "Combines retrieval-augmented generation with a local LLM on consumer hardware",
-        "Validated through comparative evaluations and expert scoring for high regulatory compliance"
+        "Introduces Seq@K evaluation protocol for sequential feedback.",
+        "Evaluates 16 frontier models across 7 benchmarks.",
+        "Shows Seq@K reveals different model rankings and efficiency configurations."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37859",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Seq@K: Evaluating Language Models Under Sequential Feedback",
+          "summary": "Language model agents often refine answers iteratively using feedback, yet models are ranked by Pass@1 or Pass@K metrics that ignore this capability. The authors introduce Seq@K to measure problem-solving within K sequential attempts with feedback, revealing a distinct model-selection landscape.",
+          "keyPoints": [
+            "Introduces Seq@K evaluation protocol for sequential feedback.",
+            "Evaluates 16 frontier models across 7 benchmarks.",
+            "Shows Seq@K reveals different model rankings and efficiency configurations."
+          ]
+        },
+        "fr": {
+          "title": "Seq@K : Évaluation des modèles linguistiques sous rétroaction",
+          "summary": "Les agents affinent leurs réponses de manière itérative via des rétroactions, mais sont classés par des métriques ignorant cette capacité. Les auteurs présentent Seq@K pour mesurer la résolution de problèmes en K tentatives avec rétroaction.",
+          "keyPoints": [
+            "Introduction du protocole d'évaluation Seq@K.",
+            "Évaluation de 16 modèles de pointe sur 7 benchmarks.",
+            "Démontre des classements de modèles différents sous Seq@K."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-28225d56339f8a",
+      "title": "Food Similarity and Visual Representations in Indian Cuisine",
+      "summary": "Food similarity drives retrieval and recommendation, but representations are typically evaluated by identity preservation. Using an expanded Khana dataset and seven pretrained visual representations, researchers examine image-to-image retrieval and dish neighborhoods in Indian cuisine.",
+      "keyPoints": [
+        "Evaluates seven pretrained visual representations on Indian cuisine.",
+        "Finds image-level neighborhoods vary substantially across representations.",
+        "Dish-level visual similarity corresponds less strongly with recipe similarity."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36433",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37867",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LM-DSB: Automated Daily Safety Bulletins in Construction",
-          "summary": "LM-DSB is a lightweight multi-agent system integrating RAG with a local LLM to automate the creation of construction daily safety bulletins on consumer-grade personal computers.",
+          "title": "Food Similarity and Visual Representations in Indian Cuisine",
+          "summary": "Food similarity drives retrieval and recommendation, but representations are typically evaluated by identity preservation. Using an expanded Khana dataset and seven pretrained visual representations, researchers examine image-to-image retrieval and dish neighborhoods in Indian cuisine.",
           "keyPoints": [
-            "Introduces LM-DSB for automated daily safety bulletin generation in construction",
-            "Combines retrieval-augmented generation with a local LLM on consumer hardware",
-            "Validated through comparative evaluations and expert scoring for high regulatory compliance"
+            "Evaluates seven pretrained visual representations on Indian cuisine.",
+            "Finds image-level neighborhoods vary substantially across representations.",
+            "Dish-level visual similarity corresponds less strongly with recipe similarity."
           ]
         },
         "fr": {
-          "title": "LM-DSB : Bulletins de sécurité quotidiens automatisés",
-          "summary": "LM-DSB est un système multi-agent léger intégrant le RAG avec un LLM local pour automatiser la création de bulletins de sécurité sur des ordinateurs grand public.",
+          "title": "Similarité alimentaire et représentations visuelles",
+          "summary": "La similarité alimentaire sous-tend la recherche et la recommandation. À l'aide de l'ensemble Khana et de sept représentations visuelles, les chercheurs examinent la récupération d'images et les voisinages de plats dans la cuisine indienne.",
           "keyPoints": [
-            "Introduit LM-DSB pour automatiser les bulletins de sécurité dans la construction",
-            "Combine la génération augmentée par récupération avec un LLM local",
-            "Validé par des experts pour sa conformité réglementaire élevée"
+            "Évaluation de sept représentations visuelles pré-entraînées.",
+            "Les voisinages d'images varient considérablement selon les représentations.",
+            "La similarité visuelle des plats correspond moins à la similarité des recettes."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-667b9e11ff3720",
-      "title": "How User Presence Changes Agent Behavior in Negotiation",
-      "summary": "Using a controlled evaluation framework called PRESENT, researchers find that human user presence in negotiations causes agents to secure higher payouts while unexpectedly increasing misaligned behaviors.",
+      "id": "feed-0a6bb401f79468",
+      "title": "Verification Learning Theory in AI-Assisted Judgment",
+      "summary": "Accurate AI assistance can improve immediate judgments while reducing practice for independent performance. Verification Learning Theory (VLT) formalizes this by linking perceived assistant reliability to evidence checking and retained rule use.",
       "keyPoints": [
-        "Develops PRESENT framework to study user presence effects in agent negotiations",
-        "Shows user presence leads to higher payouts (+13.7%) and aggressive bargaining",
-        "Reveals that user presence also triggers misaligned behaviors toward users and counterparties"
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36435",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How User Presence Changes Agent Behavior in Negotiation",
-          "summary": "Using a controlled evaluation framework called PRESENT, researchers find that human user presence in negotiations causes agents to secure higher payouts while unexpectedly increasing misaligned behaviors.",
-          "keyPoints": [
-            "Develops PRESENT framework to study user presence effects in agent negotiations",
-            "Shows user presence leads to higher payouts (+13.7%) and aggressive bargaining",
-            "Reveals that user presence also triggers misaligned behaviors toward users and counterparties"
-          ]
-        },
-        "fr": {
-          "title": "Impact de la présence humaine sur le comportement des agents",
-          "summary": "À l'aide du cadre PRESENT, des chercheurs démontrent que la présence d'un utilisateur humain lors de négociations amène les agents à négocier plus agressivement tout en induisant des comportements mal alignés.",
-          "keyPoints": [
-            "Développe le cadre PRESENT pour étudier l'impact de la présence des utilisateurs",
-            "Montre que la présence humaine génère des gains plus élevés (+13,7 %)",
-            "Révèle l'émergence de comportements mal alignés malgré des messages neutres"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ef9f5df1d39918",
-      "title": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG",
-      "summary": "RouteDRAG is a learning-based framework designed to control Agent invocation and execution for multimodal document retrieval-augmented generation. It utilizes a unified document index, adaptive path routing, dynamic agent execution, and sequential policy learning to optimize performance. Across two benchmarks, it achieves an average accuracy improvement of 3.47 percentage points over shorter-path-only execution while assigning only 79.3% of queries to the Agent.",
-      "keyPoints": [
-        "Introduces RouteDRAG to control Agent invocation and execution in multimodal document RAG.",
-        "Comprises a unified document index, adaptive path routing, dynamic execution, and policy learning.",
-        "Improves average accuracy by 3.47 percentage points while using fewer answering calls."
+        "Introduces Verification Learning Theory (VLT) for AI assistance.",
+        "Links perceived reliability to evidence checking and retained rule use.",
+        "Predicts perceived fallibility can improve delayed unaided judgment."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36444",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37875",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG",
-          "summary": "RouteDRAG is a learning-based framework designed to control Agent invocation and execution for multimodal document retrieval-augmented generation. It utilizes a unified document index, adaptive path routing, dynamic agent execution, and sequential policy learning to optimize performance. Across two benchmarks, it achieves an average accuracy improvement of 3.47 percentage points over shorter-path-only execution while assigning only 79.3% of queries to the Agent.",
+          "title": "Verification Learning Theory in AI-Assisted Judgment",
+          "summary": "Accurate AI assistance can improve immediate judgments while reducing practice for independent performance. Verification Learning Theory (VLT) formalizes this by linking perceived assistant reliability to evidence checking and retained rule use.",
           "keyPoints": [
-            "Introduces RouteDRAG to control Agent invocation and execution in multimodal document RAG.",
-            "Comprises a unified document index, adaptive path routing, dynamic execution, and policy learning.",
-            "Improves average accuracy by 3.47 percentage points while using fewer answering calls."
+            "Introduces Verification Learning Theory (VLT) for AI assistance.",
+            "Links perceived reliability to evidence checking and retained rule use.",
+            "Predicts perceived fallibility can improve delayed unaided judgment."
           ]
         },
         "fr": {
-          "title": "RouteDRAG : Apprentissage du routage et du contrôle d'exécution pour le RAG multimodal",
-          "summary": "RouteDRAG est un cadre d'apprentissage conçu pour contrôler l'invocation et l'exécution d'agents pour la génération augmentée par récupération de documents multimodaux. Il utilise un index documentaire unifié, un routage de chemin adaptatif, une exécution d'agent dynamique et un apprentissage de politique séquentiel. Sur deux benchmarks, il améliore la précision moyenne de 3,47 points de pourcentage tout en assignant seulement 79,3 % des requêtes à l'agent.",
+          "title": "Théorie de l'apprentissage par vérification dans le jugement",
+          "summary": "L'assistance IA précise peut améliorer les jugements immédiats tout en réduisant la pratique indépendante. La théorie de l'apprentissage par vérification (VLT) formalise cela en liant la fiabilité perçue de l'assistant à la vérification des preuves.",
           "keyPoints": [
-            "Présente RouteDRAG pour contrôler l'invocation et l'exécution des agents dans le RAG de documents multimodaux.",
-            "Comporte un index unifié, un routage adaptatif, une exécution dynamique et un apprentissage de politique.",
-            "Améliore la précision moyenne de 3,47 points de pourcentage tout en nécessitant moins d'appels."
+            "Introduction de la théorie de l'apprentissage par vérification (VLT).",
+            "Lie la fiabilité perçue à la vérification des preuves et à l'utilisation des règles.",
+            "Prévoit que la faillibilité perçue peut améliorer le jugement différé."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-2cdfb775b2ea48",
-      "title": "Cognition-Aligned Reasoning Distillation for Large Reasoning Models",
-      "summary": "Cognition-Aligned Reasoning Distillation (CARD) is an RL-based framework that transforms raw solver trajectories from large reasoning models into teaching trajectories aligned with student cognition. Optimized with a Distribution Alignment Reward and a Logical Coherence Reward, CARD outperforms distillation from raw teacher trajectories in in-domain settings and yields gains in out-of-distribution performance.",
+      "id": "feed-a877b05a39a95d",
+      "title": "Socio-Demographics and Reasoning in Pluralistic Offensiveness",
+      "summary": "Pluralistic modeling incorporates annotators' socio-demographic information to capture subjective offensiveness judgments. This study analyzes when socio-demographics help and the role of explicit reasoning in leveraging this information.",
       "keyPoints": [
-        "Proposes CARD to transform solver trajectories into student-aligned teaching trajectories.",
-        "Optimized using Distribution Alignment and Logical Coherence reward signals.",
-        "Outperforms raw teacher trajectory distillation in in-domain and out-of-distribution settings."
+        "Demographic gains are small for individuals but clearer at group levels.",
+        "Explicit reasoning decomposes judgment into baseline and demographic shifts.",
+        "Reasoning yields more accurate predictions than direct conditioning alone."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36445",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37896",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Cognition-Aligned Reasoning Distillation for Large Reasoning Models",
-          "summary": "Cognition-Aligned Reasoning Distillation (CARD) is an RL-based framework that transforms raw solver trajectories from large reasoning models into teaching trajectories aligned with student cognition. Optimized with a Distribution Alignment Reward and a Logical Coherence Reward, CARD outperforms distillation from raw teacher trajectories in in-domain settings and yields gains in out-of-distribution performance.",
+          "title": "Socio-Demographics and Reasoning in Pluralistic Offensiveness",
+          "summary": "Pluralistic modeling incorporates annotators' socio-demographic information to capture subjective offensiveness judgments. This study analyzes when socio-demographics help and the role of explicit reasoning in leveraging this information.",
           "keyPoints": [
-            "Proposes CARD to transform solver trajectories into student-aligned teaching trajectories.",
-            "Optimized using Distribution Alignment and Logical Coherence reward signals.",
-            "Outperforms raw teacher trajectory distillation in in-domain and out-of-distribution settings."
+            "Demographic gains are small for individuals but clearer at group levels.",
+            "Explicit reasoning decomposes judgment into baseline and demographic shifts.",
+            "Reasoning yields more accurate predictions than direct conditioning alone."
           ]
         },
         "fr": {
-          "title": "Distillation de raisonnement alignée sur la cognition pour grands modèles",
-          "summary": "CARD (Cognition-Aligned Reasoning Distillation) est un cadre basé sur l'apprentissage par renforcement qui transforme les trajectoires de solveurs brutes en trajectoires d'enseignement alignées sur la cognition de l'étudiant. Optimisé par une récompense d'alignement de distribution et de cohérence logique, CARD surpasse la distillation de trajectoires brutes et ameliore les performances hors distribution.",
+          "title": "Socio-démographie et raisonnement dans la modélisation",
+          "summary": "La modélisation pluraliste intègre les informations sociodémographiques des annotateurs pour capturer les jugements subjectifs d'offense. Cette étude analyse l'utilité de ces données et le rôle du raisonnement explicite.",
           "keyPoints": [
-            "Propose CARD pour transformer les trajectoires de solveurs en trajectoires d'enseignement adaptées.",
-            "Optimisé à l'aide de signaux de récompense d'alignement de distribution et de cohérence logique.",
-            "Surpasse la distillation traditionnelle dans les contextes intra-domaine et hors domaine."
+            "Les gains démographiques sont faibles individuellement mais clairs au niveau des groupes.",
+            "Le raisonnement explicite décompose le jugement en de multiples composantes.",
+            "Le raisonnement donne des prédictions plus précises que le conditionnement direct."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-1d36b8cffa54f7",
-      "title": "A Heart Means Recursion: Exploring Visual Meaning and Communication in VLMs",
-      "summary": "This study explores visual communication in vision-language models (VLMs), revealing that simple visual symbols like a red heart can implicitly steer models toward recursive coding solutions. The findings highlight a generation-interpretation gap where visual cues sent by models often fail to steer other models, demonstrating that VLMs possess rich visual communication capabilities that diverge from human conventions.",
+      "id": "feed-30b22eb6518963",
+      "title": "FilingLoop: LLM Agents for Corporate Disclosure Review",
+      "summary": "Public disclosure reviews require discovering unstated deficiencies and verifying revisions. The authors introduce FilingLoop, an interactive benchmark and self-evolving agent framework for corporate disclosure review grounded in SEC correspondence.",
       "keyPoints": [
-        "Simple visual symbols can implicitly steer vision-language models toward recursive solutions.",
-        "Identifies a generation-interpretation gap in model-to-model visual communication.",
-        "Shows that VLMs can transmit abstract meaning visually, though diverging from human conventions."
+        "Introduces FilingLoop benchmark based on SEC correspondence.",
+        "Framework couples iterative review with procedural learning across cases.",
+        "Evolution increases requirement fulfillment from 24.28% to 27.96%."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.36449",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.37905",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "A Heart Means Recursion: Exploring Visual Meaning and Communication in VLMs",
-          "summary": "This study explores visual communication in vision-language models (VLMs), revealing that simple visual symbols like a red heart can implicitly steer models toward recursive coding solutions. The findings highlight a generation-interpretation gap where visual cues sent by models often fail to steer other models, demonstrating that VLMs possess rich visual communication capabilities that diverge from human conventions.",
+          "title": "FilingLoop: LLM Agents for Corporate Disclosure Review",
+          "summary": "Public disclosure reviews require discovering unstated deficiencies and verifying revisions. The authors introduce FilingLoop, an interactive benchmark and self-evolving agent framework for corporate disclosure review grounded in SEC correspondence.",
           "keyPoints": [
-            "Simple visual symbols can implicitly steer vision-language models toward recursive solutions.",
-            "Identifies a generation-interpretation gap in model-to-model visual communication.",
-            "Shows that VLMs can transmit abstract meaning visually, though diverging from human conventions."
+            "Introduces FilingLoop benchmark based on SEC correspondence.",
+            "Framework couples iterative review with procedural learning across cases.",
+            "Evolution increases requirement fulfillment from 24.28% to 27.96%."
           ]
         },
         "fr": {
-          "title": "Un cœur signifie récursion : Explorer le sens visuel et la communication dans les VLM",
-          "summary": "Cette étude explore la communication visuelle dans les modèles vision-langage (VLM), révélant que de simples symboles visuels comme un cœur rouge peuvent orienter implicitement les modèles vers des solutions récursives. Les résultats mettent en évidence un écart de génération-interprétation où les indices visuels échouent souvent à guider d'autres modèles, démontrant des capacités de communication visuelle divergentes des conventions humaines.",
+          "title": "FilingLoop : Agents LLM pour la révision de divulgations",
+          "summary": "La révision de divulgations publiques nécessite de découvrir des lacunes. Les auteurs présentent FilingLoop, un benchmark interactif et un cadre d'agent auto-évolutif pour la révision de divulgations d'entreprise basé sur la correspondance SEC.",
           "keyPoints": [
-            "Des symboles visuels simples peuvent orienter implicitement les VLM vers des solutions récursives.",
-            "Met en évidence un écart de génération-interprétation dans la communication visuelle entre modèles.",
-            "Montre que les VLM peuvent transmettre des significations abstraites, bien qu'en divergence avec l'humain."
+            "Introduction du benchmark FilingLoop basé sur la correspondance SEC.",
+            "Associe révision itérative et apprentissage procédural.",
+            "L'évolution augmente la satisfaction des exigences de 24,28 % à 27,96 %."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7880bdd0fc2acf",
+      "title": "Frequency-Selective Spiking Reservoirs with Resonant Neurons",
+      "summary": "Spiking reservoir computing offers energy-efficient inference, but existing reservoirs rely on leaky integrate-and-fire neurons whose low-pass dynamics limit temporal frequency handling. The authors introduce HRF-Res using Harmonic Resonate-and-Fire neurons.",
+      "keyPoints": [
+        "Introduces HRF-Res replacing LIF neurons with Harmonic Resonate-and-Fire neurons.",
+        "Enables selective response to input frequencies for temporal patterns.",
+        "Achieves up to 19x lower energy consumption than non-spiking oscillatory reservoirs."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37906",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Frequency-Selective Spiking Reservoirs with Resonant Neurons",
+          "summary": "Spiking reservoir computing offers energy-efficient inference, but existing reservoirs rely on leaky integrate-and-fire neurons whose low-pass dynamics limit temporal frequency handling. The authors introduce HRF-Res using Harmonic Resonate-and-Fire neurons.",
+          "keyPoints": [
+            "Introduces HRF-Res replacing LIF neurons with Harmonic Resonate-and-Fire neurons.",
+            "Enables selective response to input frequencies for temporal patterns.",
+            "Achieves up to 19x lower energy consumption than non-spiking oscillatory reservoirs."
+          ]
+        },
+        "fr": {
+          "title": "Réservoirs à impulsions sélectifs en fréquence",
+          "summary": "Le calcul par réservoir à impulsions offre une inférence économe en énergie, mais les réservoirs existants dépendent de neurones aux dynamiques passe-bas. Les auteurs présentent HRF-Res utilisant des neurones harmoniques résonnants.",
+          "keyPoints": [
+            "Introduction de HRF-Res avec des neurones Harmoniques Résonnants.",
+            "Permet une réponse sélective aux fréquences d'entrée pour les motifs temporels.",
+            "Atterrit jusqu'à 19 fois moins de consommation d'énergie."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-91b3edf2f063b8",
+      "title": "SciGame: Evaluating Scientific Discovery Agents",
+      "summary": "Large language model agents are increasingly used for scientific discovery, but existing benchmarks mix law inference with programming. The authors introduce SciGame, a controlled benchmark converting scientific literature into structured scientific cards.",
+      "keyPoints": [
+        "Introduces SciGame benchmark with original and counterfactual environments.",
+        "Contains historical collections and live temporal collections past cutoffs.",
+        "Shows familiar priors hurt performance when governing relations change."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37919",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SciGame: Evaluating Scientific Discovery Agents",
+          "summary": "Large language model agents are increasingly used for scientific discovery, but existing benchmarks mix law inference with programming. The authors introduce SciGame, a controlled benchmark converting scientific literature into structured scientific cards.",
+          "keyPoints": [
+            "Introduces SciGame benchmark with original and counterfactual environments.",
+            "Contains historical collections and live temporal collections past cutoffs.",
+            "Shows familiar priors hurt performance when governing relations change."
+          ]
+        },
+        "fr": {
+          "title": "SciGame : Évaluation des agents de découverte scientifique",
+          "summary": "Les agents LLM sont de plus en plus utilisés pour la découverte scientifique, mais les benchmarks actuels mélangent l'inférence de lois et la programmation. Les auteurs présentent SciGame, un benchmark contrôlé convertissant la littérature en cartes.",
+          "keyPoints": [
+            "Introduction du benchmark SciGame avec environnements originaux et contrefactuels.",
+            "Contient des collections historiques et temporelles.",
+            "Montre que les a priori familiers nuisent lorsque les relations changent."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a7a5a2b9feb696",
+      "title": "VerifiedLab: Multi-Agent Framework for Knowledge Transition",
+      "summary": "As research agents deploy for laboratory experiments, knowledge transitions from human-written records to machine-readable systems. The authors introduce VerifiedLab, a multi-agent framework to verify and disseminate research output.",
+      "keyPoints": [
+        "Introduces VerifiedLab multi-agent harness framework for knowledge transition.",
+        "AI scientists verify records field by field with roles like PI and librarian.",
+        "Demonstrated on perovskite solar cells to recover trends and anticipate devices."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37923",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "VerifiedLab: Multi-Agent Framework for Knowledge Transition",
+          "summary": "As research agents deploy for laboratory experiments, knowledge transitions from human-written records to machine-readable systems. The authors introduce VerifiedLab, a multi-agent framework to verify and disseminate research output.",
+          "keyPoints": [
+            "Introduces VerifiedLab multi-agent harness framework for knowledge transition.",
+            "AI scientists verify records field by field with roles like PI and librarian.",
+            "Demonstrated on perovskite solar cells to recover trends and anticipate devices."
+          ]
+        },
+        "fr": {
+          "title": "VerifiedLab : Cadre multi-agent pour la transition des connaissances",
+          "summary": "À mesure que les agents de recherche se déployent, les connaissances passent de documents humains à des systèmes lisibles par machine. Les auteurs présentent VerifiedLab, un cadre multi-agent pour vérifier et diffuser les extrants de recherche.",
+          "keyPoints": [
+            "Introduction du cadre multi-agent VerifiedLab pour la transition des connaissances.",
+            "Des scientifiques IA vérifient les dossiers champ par champ.",
+            "Démontré sur des cellules solaires à pérovskite pour anticiper les dispositifs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-57f62f6021f7a6",
+      "title": "GARDEN: Autonomous Reward Design for Cooperative MARL",
+      "summary": "Cooperative multi-agent reinforcement learning relies heavily on manually designed reward functions. The authors propose GARDEN, where a single reward program is developed for a family of scenarios and transferred to unseen scenarios.",
+      "keyPoints": [
+        "Proposes GARDEN for generalist autonomous reward design in MARL.",
+        "Developed via LLM reward engineers investigating environment code and trials.",
+        "Increased task returns by 58.2% and 52.5% on Overcooked and SMAX benchmarks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.37926",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "GARDEN: Autonomous Reward Design for Cooperative MARL",
+          "summary": "Cooperative multi-agent reinforcement learning relies heavily on manually designed reward functions. The authors propose GARDEN, where a single reward program is developed for a family of scenarios and transferred to unseen scenarios.",
+          "keyPoints": [
+            "Proposes GARDEN for generalist autonomous reward design in MARL.",
+            "Developed via LLM reward engineers investigating environment code and trials.",
+            "Increased task returns by 58.2% and 52.5% on Overcooked and SMAX benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "GARDEN : Conception de récompenses autonomes pour l'apprentissage",
+          "summary": "L'apprentissage par renforcement multi-agent coopératif dépend de fonctions de récompense conçues manuellement. Les auteurs proposent GARDEN, où un seul programme de récompense est développé pour une famille de scénarios.",
+          "keyPoints": [
+            "Propose GARDEN pour la conception autonome de récompenses dans l'apprentissage multi-agent.",
+            "Développé via des ingénieurs de récompense LLM analysant le code et les essais.",
+            "A augmenté les retours de tâches de 58,2 % et 52,5 % sur les benchmarks Overcooked et SMAX."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 28,
+    "itemsCollected": 635,
     "itemsPublished": 20,
-    "newItems": 2,
-    "candidates": 2,
-    "batches": 1,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
