@@ -1,6 +1,201 @@
 {
-  "generatedAt": "2026-11-02T06:08:42.066Z",
+  "generatedAt": "2026-11-02T21:43:13.452Z",
   "items": [
+    {
+      "id": "feed-c45a0b6d7de18a",
+      "title": "Google AI Updates in October 2026",
+      "summary": "Google announced its latest AI updates and news in October 2026.",
+      "keyPoints": [
+        "Google shared its latest AI news in October 2026",
+        "Updates cover technological advancements in AI",
+        "Announcements were detailed on the Google AI Blog"
+      ],
+      "category": "Modèles",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "publishedAt": "2026-11-02T17:45:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.width-1300.png",
+      "translations": {
+        "en": {
+          "title": "Google AI Updates in October 2026",
+          "summary": "Google announced its latest AI updates and news in October 2026.",
+          "keyPoints": [
+            "Google shared its latest AI news in October 2026",
+            "Updates cover technological advancements in AI",
+            "Announcements were detailed on the Google AI Blog"
+          ]
+        },
+        "fr": {
+          "title": "Mises à jour de l'IA Google en octobre 2026",
+          "summary": "Google a annoncé ses dernières actualités et mises à jour en matière d'intelligence artificielle en octobre 2026.",
+          "keyPoints": [
+            "Google a partagé ses dernières actualités en IA en octobre 2026",
+            "Les mises à jour concernent les avancées technologiques en IA",
+            "Les annonces ont été détaillées sur le blog Google AI"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.8,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-5d33ed0c66ace5",
+      "title": "Introducing the Grid Protectors Program",
+      "summary": "OpenAI announces the Grid Protectors Program to collaborate with utilities, supporting future compute campus grid reliability and protecting consumer electricity costs.",
+      "keyPoints": [
+        "Program works directly with utilities",
+        "Supports future compute campuses",
+        "Helps protect consumer electricity costs"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/grid-protectors-program",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing the Grid Protectors Program",
+          "summary": "OpenAI announces the Grid Protectors Program to collaborate with utilities, supporting future compute campus grid reliability and protecting consumer electricity costs.",
+          "keyPoints": [
+            "Program works directly with utilities",
+            "Supports future compute campuses",
+            "Helps protect consumer electricity costs"
+          ]
+        },
+        "fr": {
+          "title": "Présentation du programme Grid Protectors",
+          "summary": "OpenAI annonce le programme Grid Protectors pour collaborer avec les services publics, soutenant la fiabilité du réseau des futurs campus de calcul et protégeant les coûts d'électricité des consommateurs.",
+          "keyPoints": [
+            "Le programme collabore avec les services publics",
+            "Soutient les futurs campus de calcul",
+            "Aide à protéger les coûts d'électricité des consommateurs"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1b296d8bb11508",
+      "title": "Speeding up planning decisions with AI",
+      "summary": "Google DeepMind and the UK government are working together to reduce planning assessment times using artificial intelligence.",
+      "keyPoints": [
+        "Collaboration between Google DeepMind and UK government",
+        "Focuses on speeding up planning decisions",
+        "Aims to reduce planning assessment times"
+      ],
+      "category": "Modèles",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "publishedAt": "2026-10-30T14:18:30.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/Nm8KA22MQpfxdDUFgJTo8zlz4aMcmoQ-iAg3-8c66LGHXMCjk8D3tosCXqVI4rebDEAXwYbb9gJFSSinALwXmxNOxnjmFc80sKkAhHi4M2SceZye=w1440-h810-n-nu",
+      "translations": {
+        "en": {
+          "title": "Speeding up planning decisions with AI",
+          "summary": "Google DeepMind and the UK government are working together to reduce planning assessment times using artificial intelligence.",
+          "keyPoints": [
+            "Collaboration between Google DeepMind and UK government",
+            "Focuses on speeding up planning decisions",
+            "Aims to reduce planning assessment times"
+          ]
+        },
+        "fr": {
+          "title": "Accélérer les décisions d'urbanisme grâce à l'IA",
+          "summary": "Google DeepMind et le gouvernement britannique s'associent pour réduire les délais d'évaluation des dossiers d'urbanisme à l'aide de l'intelligence artificielle.",
+          "keyPoints": [
+            "Collaboration entre Google DeepMind et le gouvernement britannique",
+            "Met l'accent sur l'accélération des décisions d'urbanisme",
+            "vise à réduire les temps d'évaluation des plans"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-5a014341bc3fc0",
+      "title": "Introducing LifeVal",
+      "summary": "OpenAI introduces LifeVal, a new benchmark designed to measure how effectively AI assists people with everyday tasks, including finding childcare, managing finances, and handling government paperwork.",
+      "keyPoints": [
+        "LifeVal measures AI assistance in everyday tasks",
+        "Covers tasks like finding childcare and managing finances",
+        "Evaluates handling of government paperwork"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/lifeval",
+      "publishedAt": "2026-11-02T09:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing LifeVal",
+          "summary": "OpenAI introduces LifeVal, a new benchmark designed to measure how effectively AI assists people with everyday tasks, including finding childcare, managing finances, and handling government paperwork.",
+          "keyPoints": [
+            "LifeVal measures AI assistance in everyday tasks",
+            "Covers tasks like finding childcare and managing finances",
+            "Evaluates handling of government paperwork"
+          ]
+        },
+        "fr": {
+          "title": "Présentation de LifeVal",
+          "summary": "OpenAI présente LifeVal, un nouveau benchmark conçu pour mesurer l'efficacité avec laquelle l'IA aide les gens dans leurs tâches quotidiennes, telles que la recherche de garde d'enfants, la gestion des finances et les démarches administratives.",
+          "keyPoints": [
+            "LifeVal mesure l'aide de l'IA dans les tâches quotidiennes",
+            "Couvre des tâches comme la garde d'enfants et la gestion financière",
+            "Évalue la gestion des formalités administratives"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4094d4340f9e66",
+      "title": "Qodo builds context into AI code review with Codex",
+      "summary": "Qodo integrates company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "keyPoints": [
+        "Qodo integrates company knowledge and coding standards",
+        "Works with Codex for AI code review",
+        "Helps developers catch P0 issues before opening a pull request"
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/qodo-codex-plugin",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Qodo builds context into AI code review with Codex",
+          "summary": "Qodo integrates company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+          "keyPoints": [
+            "Qodo integrates company knowledge and coding standards",
+            "Works with Codex for AI code review",
+            "Helps developers catch P0 issues before opening a pull request"
+          ]
+        },
+        "fr": {
+          "title": "Qodo intègre le contexte dans la revue de code IA avec Codex",
+          "summary": "Qodo intègre la connaissance de l'entreprise et les normes de codage dans Codex, aidant les développeurs à détecter les problèmes P0 dans les dépôts avant d'ouvrir une demande de tirage.",
+          "keyPoints": [
+            "Qodo intègre les connaissances de l'entreprise et les normes de code",
+            "Fonctionne avec Codex pour la révision de code par IA",
+            "Aide à détecter les problèmes P0 avant la demande de fusion"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-0d4dbc3f227f24",
       "title": "Understanding Large Language Models as Numerical Optimizers",
@@ -585,212 +780,17 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-4258df63026f41",
-      "title": "Automated Power Electronics Schematic Synthesis via Bounded Dual-Loop Framework",
-      "summary": "To address severe engineering hallucinations in standalone LLMs for power electronics design, the authors propose a Bounded Dual-Loop Automated Schematic Synthesis Framework. The workflow integrates requirement parsing, power stage synthesis, component selection via APIs, closed-loop ngspice transient verification, and KiCad schematic generation. Case studies demonstrate significant improvements in component verification coverage and nominal value consistency over vanilla LLMs.",
-      "keyPoints": [
-        "A Bounded Dual-Loop framework translates natural language specifications into verified KiCad schematics.",
-        "The workflow integrates topology synthesis, component selection, and closed-loop ngspice transient verification.",
-        "End-to-end case studies demonstrate major improvements over vanilla LLM baselines."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38201",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Automated Power Electronics Schematic Synthesis via Bounded Dual-Loop Framework",
-          "summary": "To address severe engineering hallucinations in standalone LLMs for power electronics design, the authors propose a Bounded Dual-Loop Automated Schematic Synthesis Framework. The workflow integrates requirement parsing, power stage synthesis, component selection via APIs, closed-loop ngspice transient verification, and KiCad schematic generation. Case studies demonstrate significant improvements in component verification coverage and nominal value consistency over vanilla LLMs.",
-          "keyPoints": [
-            "A Bounded Dual-Loop framework translates natural language specifications into verified KiCad schematics.",
-            "The workflow integrates topology synthesis, component selection, and closed-loop ngspice transient verification.",
-            "End-to-end case studies demonstrate major improvements over vanilla LLM baselines."
-          ]
-        },
-        "fr": {
-          "title": "Synthèse automatisée de schémas d'électronique de puissance via un cadre à double boucle",
-          "summary": "Pour remédier aux graves hallucinations d'ingénierie dans les LLM autonomes pour la conception en électronique de puissance, les auteurs proposent un cadre de synthèse de schémas automatisé à double boucle bornée. Le flux de travail intègre l'analyse des exigences, la synthèse d'étage de puissance, la sélection de composants via des API, la vérification transitoire ngspice et la génération de schémas KiCad.",
-          "keyPoints": [
-            "Un cadre à double boucle bornée traduit les spécifications en langage naturel en schémas KiCad vérifiés.",
-            "Le flux de travail intègre la synthèse de topologie, la sélection de composants et la vérification transitoire ngspice.",
-            "Des études de cas démontrent des améliorations majeures par rapport aux modèles LLM de base."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1bbee645176fec",
-      "title": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference",
-      "summary": "Group-Adaptive Additive Codec (GAAC) is a lossless key-value (KV) compression and serving system that exploits exponent redundancy to reduce storage and accelerate attention without introducing KV approximation. GAAC adapts code widths while preserving KV values bit-for-bit, and a fused attention kernel reconstructs KV tiles on the fly. Across tested models, GAAC achieves measurable lossless compression and accelerates decode attention and end-to-end decode steps.",
-      "keyPoints": [
-        "GAAC is a lossless KV compression system that exploits exponent redundancy without approximation.",
-        "It adapts code widths across small groups while preserving KV values bit-for-bit.",
-        "GAAC accelerates decode attention and increases aggregate throughput while reducing resident KV memory."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38210",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference",
-          "summary": "Group-Adaptive Additive Codec (GAAC) is a lossless key-value (KV) compression and serving system that exploits exponent redundancy to reduce storage and accelerate attention without introducing KV approximation. GAAC adapts code widths while preserving KV values bit-for-bit, and a fused attention kernel reconstructs KV tiles on the fly. Across tested models, GAAC achieves measurable lossless compression and accelerates decode attention and end-to-end decode steps.",
-          "keyPoints": [
-            "GAAC is a lossless KV compression system that exploits exponent redundancy without approximation.",
-            "It adapts code widths across small groups while preserving KV values bit-for-bit.",
-            "GAAC accelerates decode attention and increases aggregate throughput while reducing resident KV memory."
-          ]
-        },
-        "fr": {
-          "title": "GAAC : Compression KV sans perte pour une inférence de LLM efficace en bande passante",
-          "summary": "Group-Adaptive Additive Codec (GAAC) est un système de compression et de service de cache clé-valeur (KV) sans perte qui exploite la redondance des exposants pour réduire le stockage et accélérer l'attention sans introduire d'approximation KV. GAAC adapte les largeurs de code tout en préservant les valeurs KV bit par bit, et un noyau d'attention fusionné reconstruit les tuiles KV à la volée.",
-          "keyPoints": [
-            "GAAC est un système de compression KV sans perte qui exploite la redondance des exposants sans approximation.",
-            "Il adapte les largeurs de code sur de petits groupes tout en préservant les valeurs KV bit par bit.",
-            "GAAC accélère l'attention de décodage et augmente le débit global tout en réduisant la mémoire KV résidente."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1208cde52c31a4",
-      "title": "Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems",
-      "summary": "This study evaluates clinical large language models fielded as multi-agent teams on MIMIC-IV emergency cases. The findings reveal that standard deliberation fails to neutralize demographic bias, instead laundering it into plausible decisions. Late-stage fixes and demographic masking leave the gap untouched, whereas pooling diverse perspectives across all rounds reduces disparity significantly.",
-      "keyPoints": [
-        "Multi-agent clinical systems fail to remove demographic bias, instead laundering it into consensus decisions.",
-        "Late-stage fixes, fairness instructions, and demographic masking fail to eliminate the performance gap.",
-        "Pooling diverse perspectives across all deliberation rounds reduces disparity by 67% to 94%."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38215",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Disparity Laundering: Consensus Without Fairness in Clinical Multi-Agent Systems",
-          "summary": "This study evaluates clinical large language models fielded as multi-agent teams on MIMIC-IV emergency cases. The findings reveal that standard deliberation fails to neutralize demographic bias, instead laundering it into plausible decisions. Late-stage fixes and demographic masking leave the gap untouched, whereas pooling diverse perspectives across all rounds reduces disparity significantly.",
-          "keyPoints": [
-            "Multi-agent clinical systems fail to remove demographic bias, instead laundering it into consensus decisions.",
-            "Late-stage fixes, fairness instructions, and demographic masking fail to eliminate the performance gap.",
-            "Pooling diverse perspectives across all deliberation rounds reduces disparity by 67% to 94%."
-          ]
-        },
-        "fr": {
-          "title": "Blanchiment de disparité : Consensus sans équité dans les systèmes multi-agents cliniques",
-          "summary": "Cette étude évalue des modèles de langage cliniques déployés en équipes multi-agents sur des cas d'urgence MIMIC-IV. Les résultats révèlent que la délibération standard ne parvient pas à neutraliser le biais démographique, le transformant plutôt en décisions plausibles. Les corrections tardives et le masquage démographique laissent l'écart intact, tandis que la mise en commun de perspectives diverses réduit considérablement la disparité.",
-          "keyPoints": [
-            "Les systèmes cliniques multi-agents ne parviennent pas à éliminer le biais démographique et le blanchissent en décisions.",
-            "Les corrections tardives et le masquage démographique ne parviennent pas à éliminer l'écart de performance.",
-            "La mise en commun de perspectives diverses à chaque tour de délibération réduit la disparité de 67 % à 94 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ada7f241f61497",
-      "title": "Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation",
-      "summary": "Rubricon is a pipeline that generates discriminative rubrics for LLM evaluation and training without requiring human preference labels. Using observed criterion pass rates and LLM self-critique, Rubricon samples, selects, adds, and prunes criteria. Evaluations across five benchmarks show that Rubricon produces rubrics with greater alignment to expert-authored rubrics than alternative synthetic methods.",
-      "keyPoints": [
-        "Rubricon generates discriminative rubrics without requiring human preference labels or annotators.",
-        "It uses observed pass rates and self-critique to refine and optimize rubric criteria.",
-        "Rubricon outperforms alternative synthetic rubric generation methods across multiple benchmarks."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38220",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation",
-          "summary": "Rubricon is a pipeline that generates discriminative rubrics for LLM evaluation and training without requiring human preference labels. Using observed criterion pass rates and LLM self-critique, Rubricon samples, selects, adds, and prunes criteria. Evaluations across five benchmarks show that Rubricon produces rubrics with greater alignment to expert-authored rubrics than alternative synthetic methods.",
-          "keyPoints": [
-            "Rubricon generates discriminative rubrics without requiring human preference labels or annotators.",
-            "It uses observed pass rates and self-critique to refine and optimize rubric criteria.",
-            "Rubricon outperforms alternative synthetic rubric generation methods across multiple benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Rubricon : Génération et raffinement automatisés de rubriques pour l'évaluation des LLM",
-          "summary": "Rubricon est un pipeline qui génère des rubriques discriminantes pour l'évaluation et l'entraînement des LLM sans nécessiter d'étiquettes de préférence humaine. En utilisant les taux de réussite observés et l'auto-critique des LLM, Rubricon échantillonne, sélectionne, ajoute et élague des critères. Les évaluations montrent que Rubricon produit des rubriques plus alignées sur celles d'experts que les méthodes synthétiques alternatives.",
-          "keyPoints": [
-            "Rubricon génère des rubriques discriminantes sans nécessiter d'étiquettes de préférences humaines.",
-            "Il utilise les taux de réussite observés et l'auto-critique pour affiner et optimiser les critères.",
-            "Rubricon surpasse les méthodes de génération de rubriques synthétiques alternatives sur plusieurs benchmarks."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9d515f30a8da8d",
-      "title": "FACTS-MAS: A Multi-Agent Architecture for Adaptive Forecasting",
-      "summary": "FACTS-MAS is a domain-agnostic multi-agent forecasting framework that decomposes evidence into specialized channels for temporal dynamics, exogenous context, seasonality, structural information, and discrete events. Evaluated on housing inventory and unemployment insurance claims across 15 U.S. metropolitan areas, the method outperforms naive and foundation model baselines, functioning as a systematic protocol for recomposing evidence channels.",
-      "keyPoints": [
-        "FACTS-MAS decomposes forecasting evidence into specialized channels for temporal, seasonal, and event data.",
-        "Historical validation measures predictive skill to weight and combine agent forecasts effectively.",
-        "The framework outperforms naive methods and the TimesFM foundation model on tested datasets."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38225",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "FACTS-MAS: A Multi-Agent Architecture for Adaptive Forecasting",
-          "summary": "FACTS-MAS is a domain-agnostic multi-agent forecasting framework that decomposes evidence into specialized channels for temporal dynamics, exogenous context, seasonality, structural information, and discrete events. Evaluated on housing inventory and unemployment insurance claims across 15 U.S. metropolitan areas, the method outperforms naive and foundation model baselines, functioning as a systematic protocol for recomposing evidence channels.",
-          "keyPoints": [
-            "FACTS-MAS decomposes forecasting evidence into specialized channels for temporal, seasonal, and event data.",
-            "Historical validation measures predictive skill to weight and combine agent forecasts effectively.",
-            "The framework outperforms naive methods and the TimesFM foundation model on tested datasets."
-          ]
-        },
-        "fr": {
-          "title": "FACTS-MAS : Une architecture multi-agents pour la prévision adaptative",
-          "summary": "FACTS-MAS est un cadre de prévision multi-agents agnostique qui décompose les données probantes en canaux spécialisés pour la dynamique temporelle, le contexte exogène, la saisonnalité, l'information structurelle et les événements. Évalué sur l'inventaire immobilier et les demandes de chômage dans 15 zones métropolitaines américaines, la méthode surpasse les bases de référence naïves et les modèles de fondation.",
-          "keyPoints": [
-            "FACTS-MAS décompose les données de prévision en canaux spécialisés pour les données temporelles, saisonnières et d'événements.",
-            "La validation historique mesure la compétence prédictive pour pondérer et combiner efficacement les prévisions d'agents.",
-            "Le cadre surpasse les méthodes naïves et le modèle de fondation TimesFM sur les jeux de données testés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 29,
+    "itemsCollected": 28,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 5,
+    "candidates": 5,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
