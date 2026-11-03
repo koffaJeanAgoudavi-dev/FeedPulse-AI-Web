@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-11-03T06:50:46.125Z",
+  "generatedAt": "2026-11-03T19:30:08.617Z",
   "items": [
+    {
+      "id": "feed-da38bc69716356",
+      "title": "Agentic Cheminformatics with Google Antigravity",
+      "summary": "Google introduces Google Antigravity and Cheminformatics Skills designed to accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "keyPoints": [
+        "Accelerates drug discovery workflows",
+        "Searches compounds efficiently",
+        "Proposes novel rigidified macrocycles"
+      ],
+      "category": "Outils",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "publishedAt": "2026-11-03T17:01:49.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/xPSpWQxbjrJMyHBI5jfRNm0AND2P0itnDlVpkJnKY-TkfZDR90Apc8tYmitx1ocedXUHJtQNi1v17fnN_aEyz5Iw7Zge1vblv0DMp_mgxt7E8Wjmwg=w1440",
+      "translations": {
+        "en": {
+          "title": "Agentic Cheminformatics with Google Antigravity",
+          "summary": "Google introduces Google Antigravity and Cheminformatics Skills designed to accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+          "keyPoints": [
+            "Accelerates drug discovery workflows",
+            "Searches compounds efficiently",
+            "Proposes novel rigidified macrocycles"
+          ]
+        },
+        "fr": {
+          "title": "Chiminformatique agentique avec Google Antigravity",
+          "summary": "Google présente Google Antigravity et ses compétences en chiminformatique pour accélérer les flux de découverte de médicaments, rechercher des composés et proposer de nouveaux macrocycles rigidifiés.",
+          "keyPoints": [
+            "Accélère les flux de découverte de médicaments",
+            "Recherche efficacement des composés",
+            "Propose de nouveaux macrocycles rigidifiés"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-25493a43cba550",
+      "title": "Accelerating Engineering for the Physical World",
+      "summary": "ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "keyPoints": [
+        "Accelerates CAD design workflows",
+        "Improves PCB design processes",
+        "Enhances engineering simulations"
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Accelerating Engineering for the Physical World",
+          "summary": "ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+          "keyPoints": [
+            "Accelerates CAD design workflows",
+            "Improves PCB design processes",
+            "Enhances engineering simulations"
+          ]
+        },
+        "fr": {
+          "title": "Accélérer l'ingénierie pour le monde physique",
+          "summary": "ChatGPT and Codex aident les ingénieurs à accélérer la conception CAO, la conception de circuits imprimés (PCB), la simulation et d'autres flux de travail dans le monde physique.",
+          "keyPoints": [
+            "Accélère les flux de conception CAO",
+            "Améliore les processus de conception de PCB",
+            "Optimise les simulations d'ingénierie"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fc87a45dcfbf03",
+      "title": "Heimstaden Transforms Real Estate Management with AI",
+      "summary": "Heimstaden uses OpenAI's ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "keyPoints": [
+        "Transforms property management with AI",
+        "Cuts operational costs",
+        "Empowers employees across Europe"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/heimstaden",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Heimstaden Transforms Real Estate Management with AI",
+          "summary": "Heimstaden uses OpenAI's ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+          "keyPoints": [
+            "Transforms property management with AI",
+            "Cuts operational costs",
+            "Empowers employees across Europe"
+          ]
+        },
+        "fr": {
+          "title": "Heimstaden transforme la gestion immobilière avec l'IA",
+          "summary": "Heimstaden utilise ChatGPT Enterprise et Codex d'OpenAI pour transformer la gestion immobilière, réduire les coûts et responsabiliser ses employés à travers l'Europe.",
+          "keyPoints": [
+            "Transforme la gestion immobilière grâce à l'IA",
+            "Réduit les coûts opérationnels",
+            "Responsabilise les employés à travers l'Europe"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-236d7cfd9d3961",
       "title": "Context as Infrastructure in Agentic Systems",
@@ -663,132 +780,15 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-4dcdf16e79c32d",
-      "title": "ProSearch: Benchmarking Multi-Constraint Protocol Retrieval",
-      "summary": "ProSearch is a benchmark for multi-constraint protocol retrieval in experimental science, containing 1,515 queries across six domains to evaluate retrieval systems against complex dependencies.",
-      "keyPoints": [
-        "Introduces ProSearch benchmark with 1,515 queries across six science domains.",
-        "Evaluates 19 representative retrievers on multi-constraint matching.",
-        "Shows top retriever achieves nDCG@10 of 0.290, improving to 0.474 with reranking."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41396",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ProSearch: Benchmarking Multi-Constraint Protocol Retrieval",
-          "summary": "ProSearch is a benchmark for multi-constraint protocol retrieval in experimental science, containing 1,515 queries across six domains to evaluate retrieval systems against complex dependencies.",
-          "keyPoints": [
-            "Introduces ProSearch benchmark with 1,515 queries across six science domains.",
-            "Evaluates 19 representative retrievers on multi-constraint matching.",
-            "Shows top retriever achieves nDCG@10 of 0.290, improving to 0.474 with reranking."
-          ]
-        },
-        "fr": {
-          "title": "ProSearch : évaluation comparative de la recherche de protocoles à contraintes multiples",
-          "summary": "ProSearch est un banc d'essai pour la recherche de protocoles à contraintes multiples en science expérimentale, contenant 1 515 requêtes dans six domaines pour évaluer les systèmes de recherche.",
-          "keyPoints": [
-            "Introduit le benchmark ProSearch avec 1 515 requêtes dans six domaines scientifiques.",
-            "Évalue 19 récupérateurs représentatifs sur l'appariement de contraintes multiples.",
-            "Montre que le meilleur récupérateur atteint un nDCG@10 de 0,290."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-460c7f8023ad20",
-      "title": "Distilling Knowledge from Search for Quantum LDPC Codes",
-      "summary": "GraphMP is a learning-based message-passing decoder for quantum low-density parity-check codes that transfers across code families and sizes. A decoder model factory uses knowledge distillation from search trajectories.",
-      "keyPoints": [
-        "Introduces GraphMP, a scalable message-passing decoder for quantum codes.",
-        "Uses a decoder model factory to train successive models via knowledge distillation.",
-        "Proposes a coupled quantum-classical architecture for rapid decoding and learning."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41398",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Distilling Knowledge from Search for Quantum LDPC Codes",
-          "summary": "GraphMP is a learning-based message-passing decoder for quantum low-density parity-check codes that transfers across code families and sizes. A decoder model factory uses knowledge distillation from search trajectories.",
-          "keyPoints": [
-            "Introduces GraphMP, a scalable message-passing decoder for quantum codes.",
-            "Uses a decoder model factory to train successive models via knowledge distillation.",
-            "Proposes a coupled quantum-classical architecture for rapid decoding and learning."
-          ]
-        },
-        "fr": {
-          "title": "Distillation de connaissances de la recherche pour les codes LDPC quantiques",
-          "summary": "GraphMP est un décodeur à passage de messages basé sur l'apprentissage pour les codes de parité à faible densité quantiques. Une fabrique de modèles de décodeurs utilise la distillation de connaissances.",
-          "keyPoints": [
-            "Présente GraphMP, un décodeur évolutif à passage de messages pour codes quantiques.",
-            "Utilise une fabrique de modèles de décodeurs via la distillation de connaissances.",
-            "Propose une architecture quantique-classique couplée pour le décodage rapide."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-cafbd63bb323e1",
-      "title": "When Safety Checks Become Privacy Risks: Privacy-Preserving LLM Auditing",
-      "summary": "This work proposes a privacy-preserving paradigm for LLM agent safety auditing that separates delegated audit computation from plaintext access. SealCall achieves high accuracy while encrypting audit inputs.",
-      "keyPoints": [
-        "Proposes a privacy-preserving auditing paradigm for LLM agent safety.",
-        "Separates audit computation from plaintext access using encryption.",
-        "SealCall framework achieves 0.840 mean F1 score on evaluated candidates."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41401",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "When Safety Checks Become Privacy Risks: Privacy-Preserving LLM Auditing",
-          "summary": "This work proposes a privacy-preserving paradigm for LLM agent safety auditing that separates delegated audit computation from plaintext access. SealCall achieves high accuracy while encrypting audit inputs.",
-          "keyPoints": [
-            "Proposes a privacy-preserving auditing paradigm for LLM agent safety.",
-            "Separates audit computation from plaintext access using encryption.",
-            "SealCall framework achieves 0.840 mean F1 score on evaluated candidates."
-          ]
-        },
-        "fr": {
-          "title": "Quand les contrôles de sécurité posent des risques de confidentialité : audit LLM",
-          "summary": "Ce travail propose un paradigme préservant la confidentialité pour l'audit de sécurité des agents LLM qui sépare le calcul d'audit délégué de l'accès en texte clair. SealCall atteint une grande précision.",
-          "keyPoints": [
-            "Propose un paradigme d'audit préservant la confidentialité pour les agents LLM.",
-            "Sépare le calcul d'audit de l'accès en texte clair en utilisant le chiffrement.",
-            "Le cadre SealCall atteint un score F1 moyen de 0,840 sur les candidats évalués."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 327,
+    "itemsCollected": 32,
     "itemsPublished": 20,
-    "newItems": 20,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 3,
+    "candidates": 3,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
