@@ -1,76 +1,76 @@
 {
-  "generatedAt": "2026-11-02T21:43:13.452Z",
+  "generatedAt": "2026-11-03T06:50:46.125Z",
   "items": [
     {
-      "id": "feed-c45a0b6d7de18a",
-      "title": "Google AI Updates in October 2026",
-      "summary": "Google announced its latest AI updates and news in October 2026.",
+      "id": "feed-236d7cfd9d3961",
+      "title": "Context as Infrastructure in Agentic Systems",
+      "summary": "Retrieval-augmented generation is evolving into agentic loops, which solve accuracy but introduce context problems like repeating queries and filling windows with unused passages. The missing layer is knowledge compilation, where LLMs enrich documents with navigation hierarchies and other structural artifacts. A navigation tree of claim-evidence leaves cuts query tokens by an average of 38% and decision latency significantly.",
       "keyPoints": [
-        "Google shared its latest AI news in October 2026",
-        "Updates cover technological advancements in AI",
-        "Announcements were detailed on the Google AI Blog"
+        "Agentic RAG harnesses achieve high accuracy on benchmarks without compiled or vector indexes.",
+        "Knowledge compilation with claim-evidence leaves cuts query tokens by an average of 38%.",
+        "RAGFlow provides an open-source pipeline implementing these disciplined stations."
       ],
       "category": "Modèles",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "publishedAt": "2026-11-02T17:45:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.width-1300.png",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41172",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Google AI Updates in October 2026",
-          "summary": "Google announced its latest AI updates and news in October 2026.",
+          "title": "Context as Infrastructure in Agentic Systems",
+          "summary": "Retrieval-augmented generation is evolving into agentic loops, which solve accuracy but introduce context problems like repeating queries and filling windows with unused passages. The missing layer is knowledge compilation, where LLMs enrich documents with navigation hierarchies and other structural artifacts. A navigation tree of claim-evidence leaves cuts query tokens by an average of 38% and decision latency significantly.",
           "keyPoints": [
-            "Google shared its latest AI news in October 2026",
-            "Updates cover technological advancements in AI",
-            "Announcements were detailed on the Google AI Blog"
+            "Agentic RAG harnesses achieve high accuracy on benchmarks without compiled or vector indexes.",
+            "Knowledge compilation with claim-evidence leaves cuts query tokens by an average of 38%.",
+            "RAGFlow provides an open-source pipeline implementing these disciplined stations."
           ]
         },
         "fr": {
-          "title": "Mises à jour de l'IA Google en octobre 2026",
-          "summary": "Google a annoncé ses dernières actualités et mises à jour en matière d'intelligence artificielle en octobre 2026.",
+          "title": "Le contexte comme infrastructure dans les systèmes agentiques",
+          "summary": "La génération augmentée par récupération évolue vers des boucles agentiques, résolvant la précision mais créant des problèmes de contexte. La couche manquante est la compilation des connaissances, où les LLM enrichissent les documents avec des structures hiérarchiques. Un arbre de navigation avec des paires preuve-affirmation réduit les jetons de requête de 38% en moyenne.",
           "keyPoints": [
-            "Google a partagé ses dernières actualités en IA en octobre 2026",
-            "Les mises à jour concernent les avancées technologiques en IA",
-            "Les annonces ont été détaillées sur le blog Google AI"
+            "Les boucles agentiques atteignent une haute précision sur les benchmarks.",
+            "La compilation des connaissances réduit les jetons de requête de 38% en moyenne.",
+            "RAGFlow propose un pipeline open source mettant en œuvre ces fonctions."
           ]
         }
       },
       "quality": {
-        "confidence": 0.8,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-5d33ed0c66ace5",
-      "title": "Introducing the Grid Protectors Program",
-      "summary": "OpenAI announces the Grid Protectors Program to collaborate with utilities, supporting future compute campus grid reliability and protecting consumer electricity costs.",
+      "id": "feed-bca108e4c77bd8",
+      "title": "OpenAI Increases Security Bug Bounty Rewards",
+      "summary": "OpenAI is raising its Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "keyPoints": [
-        "Program works directly with utilities",
-        "Supports future compute campuses",
-        "Helps protect consumer electricity costs"
+        "OpenAI raises Security Bug Bounty rewards.",
+        "New bonuses introduced for report quality and loyalty.",
+        "Aimed at independent security researchers."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/grid-protectors-program",
-      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "publishedAt": "2026-11-02T18:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Introducing the Grid Protectors Program",
-          "summary": "OpenAI announces the Grid Protectors Program to collaborate with utilities, supporting future compute campus grid reliability and protecting consumer electricity costs.",
+          "title": "OpenAI Increases Security Bug Bounty Rewards",
+          "summary": "OpenAI is raising its Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
           "keyPoints": [
-            "Program works directly with utilities",
-            "Supports future compute campuses",
-            "Helps protect consumer electricity costs"
+            "OpenAI raises Security Bug Bounty rewards.",
+            "New bonuses introduced for report quality and loyalty.",
+            "Aimed at independent security researchers."
           ]
         },
         "fr": {
-          "title": "Présentation du programme Grid Protectors",
-          "summary": "OpenAI annonce le programme Grid Protectors pour collaborer avec les services publics, soutenant la fiabilité du réseau des futurs campus de calcul et protégeant les coûts d'électricité des consommateurs.",
+          "title": "OpenAI augmente les récompenses pour les bugs",
+          "summary": "OpenAI augmente ses récompenses pour les primes de bogue de sécurité et introduit des bonus de qualité de rapport, de fidélité et de campagne prioritaire pour les chercheurs en sécurité indépendants.",
           "keyPoints": [
-            "Le programme collabore avec les services publics",
-            "Soutient les futurs campus de calcul",
-            "Aide à protéger les coûts d'électricité des consommateurs"
+            "Augmentation des récompenses pour les bugs de sécurité.",
+            "Introduction de bonus de qualité et de fidélité.",
+            "Destiné aux chercheurs en sécurité indépendants."
           ]
         }
       },
@@ -80,75 +80,75 @@
       }
     },
     {
-      "id": "feed-1b296d8bb11508",
-      "title": "Speeding up planning decisions with AI",
-      "summary": "Google DeepMind and the UK government are working together to reduce planning assessment times using artificial intelligence.",
+      "id": "feed-138ef7afe6187d",
+      "title": "Calibrated Few-Shot Defect Detection With System One Models",
+      "summary": "This paper examines structured decision models like Jev and Clef-Flash for manufacturing defect detection using as few as two reference images per class at inference. The authors contribute a k-shot learning framework, an agentic text refinement approach, and a probability calibration method, outperforming CLIP across multiple manufacturing case studies.",
       "keyPoints": [
-        "Collaboration between Google DeepMind and UK government",
-        "Focuses on speeding up planning decisions",
-        "Aims to reduce planning assessment times"
+        "Models like Jev and Clef-Flash perform k-shot defect detection with only two reference images.",
+        "Agentic text refinement and calibration improve accuracy and reliability over CLIP.",
+        "Replication code and an R decisions package are provided to support reproducibility."
       ],
       "category": "Modèles",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-      "publishedAt": "2026-10-30T14:18:30.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/Nm8KA22MQpfxdDUFgJTo8zlz4aMcmoQ-iAg3-8c66LGHXMCjk8D3tosCXqVI4rebDEAXwYbb9gJFSSinALwXmxNOxnjmFc80sKkAhHi4M2SceZye=w1440-h810-n-nu",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41199",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Speeding up planning decisions with AI",
-          "summary": "Google DeepMind and the UK government are working together to reduce planning assessment times using artificial intelligence.",
+          "title": "Calibrated Few-Shot Defect Detection With System One Models",
+          "summary": "This paper examines structured decision models like Jev and Clef-Flash for manufacturing defect detection using as few as two reference images per class at inference. The authors contribute a k-shot learning framework, an agentic text refinement approach, and a probability calibration method, outperforming CLIP across multiple manufacturing case studies.",
           "keyPoints": [
-            "Collaboration between Google DeepMind and UK government",
-            "Focuses on speeding up planning decisions",
-            "Aims to reduce planning assessment times"
+            "Models like Jev and Clef-Flash perform k-shot defect detection with only two reference images.",
+            "Agentic text refinement and calibration improve accuracy and reliability over CLIP.",
+            "Replication code and an R decisions package are provided to support reproducibility."
           ]
         },
         "fr": {
-          "title": "Accélérer les décisions d'urbanisme grâce à l'IA",
-          "summary": "Google DeepMind et le gouvernement britannique s'associent pour réduire les délais d'évaluation des dossiers d'urbanisme à l'aide de l'intelligence artificielle.",
+          "title": "Détection de défauts par apprentissage few-shot calibré",
+          "summary": "Cet article examine des modèles de décision structurés comme Jev et Clef-Flash pour la détection de défauts industriels en utilisant seulement deux images de référence par classe. Les auteurs proposent un cadre d'apprentissage k-shot, une approche de raffinement textuel agentique et une méthode de calibration des probabilités.",
           "keyPoints": [
-            "Collaboration entre Google DeepMind et le gouvernement britannique",
-            "Met l'accent sur l'accélération des décisions d'urbanisme",
-            "vise à réduire les temps d'évaluation des plans"
+            "Les modèles Jev et Clef-Flash surpassent CLIP avec seulement deux images de référence.",
+            "Le raffinement textuel agentique améliore la précision des classifications.",
+            "Le code de réplication et un package R sont fournis pour la reproductibilité."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-5a014341bc3fc0",
-      "title": "Introducing LifeVal",
-      "summary": "OpenAI introduces LifeVal, a new benchmark designed to measure how effectively AI assists people with everyday tasks, including finding childcare, managing finances, and handling government paperwork.",
+      "id": "feed-0d297090385ad5",
+      "title": "OpenAI Prepares Next Security Sprint with Cathedral Systems",
+      "summary": "OpenAI is preparing its next internal security sprint in collaboration with Cathedral Systems to test and strengthen its defenses using AI.",
       "keyPoints": [
-        "LifeVal measures AI assistance in everyday tasks",
-        "Covers tasks like finding childcare and managing finances",
-        "Evaluates handling of government paperwork"
+        "OpenAI is organizing a new internal security sprint.",
+        "Partnership with Cathedral Systems for defense testing.",
+        "Uses AI to strengthen security measures."
       ],
-      "category": "Modèles",
+      "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/lifeval",
-      "publishedAt": "2026-11-02T09:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "publishedAt": "2026-11-02T18:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Introducing LifeVal",
-          "summary": "OpenAI introduces LifeVal, a new benchmark designed to measure how effectively AI assists people with everyday tasks, including finding childcare, managing finances, and handling government paperwork.",
+          "title": "OpenAI Prepares Next Security Sprint with Cathedral Systems",
+          "summary": "OpenAI is preparing its next internal security sprint in collaboration with Cathedral Systems to test and strengthen its defenses using AI.",
           "keyPoints": [
-            "LifeVal measures AI assistance in everyday tasks",
-            "Covers tasks like finding childcare and managing finances",
-            "Evaluates handling of government paperwork"
+            "OpenAI is organizing a new internal security sprint.",
+            "Partnership with Cathedral Systems for defense testing.",
+            "Uses AI to strengthen security measures."
           ]
         },
         "fr": {
-          "title": "Présentation de LifeVal",
-          "summary": "OpenAI présente LifeVal, un nouveau benchmark conçu pour mesurer l'efficacité avec laquelle l'IA aide les gens dans leurs tâches quotidiennes, telles que la recherche de garde d'enfants, la gestion des finances et les démarches administratives.",
+          "title": "OpenAI prépare son prochain sprint de sécurité",
+          "summary": "OpenAI prépare son prochain sprint de sécurité interne avec Cathedral Systems pour tester et renforcer ses défenses à l'aide de l'intelligence artificielle.",
           "keyPoints": [
-            "LifeVal mesure l'aide de l'IA dans les tâches quotidiennes",
-            "Couvre des tâches comme la garde d'enfants et la gestion financière",
-            "Évalue la gestion des formalités administratives"
+            "Organisation d'un nouveau sprint de sécurité interne.",
+            "Collaboration avec Cathedral Systems pour les tests de défense.",
+            "Utilisation de l'IA pour renforcer la sécurité."
           ]
         }
       },
@@ -158,36 +158,153 @@
       }
     },
     {
-      "id": "feed-4094d4340f9e66",
-      "title": "Qodo builds context into AI code review with Codex",
-      "summary": "Qodo integrates company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "id": "feed-7fabdedeeb4e90",
+      "title": "Benchmarking Image Editing and Evolving Image Models",
+      "summary": "To address the limitations of aggregate scores in image editing, the authors introduce WeGenEditBench, containing 2,740 instances, and WeGenEvoStudio, a multi-agent harness for recursive self-improvement. Experiments demonstrate substantial targeted performance gains across multiple image generation and editing models.",
       "keyPoints": [
-        "Qodo integrates company knowledge and coding standards",
-        "Works with Codex for AI code review",
-        "Helps developers catch P0 issues before opening a pull request"
+        "WeGenEditBench evaluates single-image, text-intensive, and multi-reference editing.",
+        "WeGenEvoStudio provides a multi-agent harness for recursive self-improvement.",
+        "Targeted evolution experiments show significant gains for models like FLUX.2 and Qwen-Image-Edit."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41210",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Benchmarking Image Editing and Evolving Image Models",
+          "summary": "To address the limitations of aggregate scores in image editing, the authors introduce WeGenEditBench, containing 2,740 instances, and WeGenEvoStudio, a multi-agent harness for recursive self-improvement. Experiments demonstrate substantial targeted performance gains across multiple image generation and editing models.",
+          "keyPoints": [
+            "WeGenEditBench evaluates single-image, text-intensive, and multi-reference editing.",
+            "WeGenEvoStudio provides a multi-agent harness for recursive self-improvement.",
+            "Targeted evolution experiments show significant gains for models like FLUX.2 and Qwen-Image-Edit."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation et évolution des modèles d'édition d'images",
+          "summary": "Pour répondre aux limites des scores globaux en édition d'images, les auteurs présentent WeGenEditBench, contenant 2 740 instances, et WeGenEvoStudio, un ensemble multi-agent pour l'auto-amélioration récursive. Les expériences démontrent des gains de performance ciblés substantiels.",
+          "keyPoints": [
+            "WeGenEditBench évalue l'édition d'images simples, textuelles et multi-références.",
+            "WeGenEvoStudio offre un cadre multi-agent pour l'auto-amélioration récursive.",
+            "Des gains notables sont démontrés pour des modèles comme FLUX.2 et Qwen-Image-Edit."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-277870ffc8d715",
+      "title": "Scaling Git at OpenAI with Pando",
+      "summary": "An exploration of how OpenAI built Pando, a Git-compatible backend designed to handle the massive software development scale enabled by Codex.",
+      "keyPoints": [
+        "OpenAI developed a custom backend named Pando.",
+        "Pando is Git-compatible.",
+        "Designed to support large-scale development driven by Codex."
       ],
       "category": "Outils",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/qodo-codex-plugin",
+      "sourceUrl": "https://openai.com/index/scaling-git-at-openai",
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Scaling Git at OpenAI with Pando",
+          "summary": "An exploration of how OpenAI built Pando, a Git-compatible backend designed to handle the massive software development scale enabled by Codex.",
+          "keyPoints": [
+            "OpenAI developed a custom backend named Pando.",
+            "Pando is Git-compatible.",
+            "Designed to support large-scale development driven by Codex."
+          ]
+        },
+        "fr": {
+          "title": "Mise à l'échelle de Git chez OpenAI avec Pando",
+          "summary": "Une présentation de la façon dont OpenAI a construit Pando, un backend compatible Git conçu pour répondre à l'échelle de développement permise par Codex.",
+          "keyPoints": [
+            "Création d'un backend personnalisé nommé Pando.",
+            "Compatibilité complète avec Git.",
+            "Conçu pour gérer le développement à grande échelle via Codex."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a7bf14fe26346b",
+      "title": "Coarse3D: Controllable Sparse Structure Generation for Image-to-3D",
+      "summary": "Coarse3D addresses limitations in coarse-to-fine 3D generation by producing orientation-controllable and structurally faithful voxel geometry from unposed images. It introduces a first-frame anchored canonical space, a dual-tower DiT, and spatial-prior guided attention to enhance sparse structure quality.",
+      "keyPoints": [
+        "Coarse3D generates controllable and faithful voxel geometry from unposed images.",
+        "Features a first-frame anchored canonical space and a dual-tower DiT architecture.",
+        "Significantly improves sparse structure quality and final 3D generation performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41231",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Coarse3D: Controllable Sparse Structure Generation for Image-to-3D",
+          "summary": "Coarse3D addresses limitations in coarse-to-fine 3D generation by producing orientation-controllable and structurally faithful voxel geometry from unposed images. It introduces a first-frame anchored canonical space, a dual-tower DiT, and spatial-prior guided attention to enhance sparse structure quality.",
+          "keyPoints": [
+            "Coarse3D generates controllable and faithful voxel geometry from unposed images.",
+            "Features a first-frame anchored canonical space and a dual-tower DiT architecture.",
+            "Significantly improves sparse structure quality and final 3D generation performance."
+          ]
+        },
+        "fr": {
+          "title": "Coarse3D : Génération de structures éparses pour l'image vers 3D",
+          "summary": "Coarse3D résout les limites de la génération 3D en produisant une géométrie de voxels contrôlable et fidèle à partir d'images non posées. Il introduit un espace canonique ancré sur la première trame, un DiT à double tour et une attention guidée par des a priori spatiaux.",
+          "keyPoints": [
+            "Coarse3D génère des géométries de voxels fidèles à partir d'images non posées.",
+            "Intègre un espace canonique ancré et une architecture DiT à double tour.",
+            "Améliore nettement la qualité des structures éparses et la génération 3D finale."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-945f879ef3a469",
+      "title": "OpenAI Appoints Dan Driscoll for National Security",
+      "summary": "OpenAI has appointed Dan Driscoll as Senior Counselor for National Security Modernization to advise on responsible AI, cyber resilience, and cooperation with U.S. allies.",
+      "keyPoints": [
+        "Dan Driscoll joins OpenAI as Senior Counselor.",
+        "Focuses on national security modernization and responsible AI.",
+        "Aims to advise on cyber resilience and alliances with U.S. allies."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/dan-driscoll-joins-openai",
       "publishedAt": "2026-11-02T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Qodo builds context into AI code review with Codex",
-          "summary": "Qodo integrates company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+          "title": "OpenAI Appoints Dan Driscoll for National Security",
+          "summary": "OpenAI has appointed Dan Driscoll as Senior Counselor for National Security Modernization to advise on responsible AI, cyber resilience, and cooperation with U.S. allies.",
           "keyPoints": [
-            "Qodo integrates company knowledge and coding standards",
-            "Works with Codex for AI code review",
-            "Helps developers catch P0 issues before opening a pull request"
+            "Dan Driscoll joins OpenAI as Senior Counselor.",
+            "Focuses on national security modernization and responsible AI.",
+            "Aims to advise on cyber resilience and alliances with U.S. allies."
           ]
         },
         "fr": {
-          "title": "Qodo intègre le contexte dans la revue de code IA avec Codex",
-          "summary": "Qodo intègre la connaissance de l'entreprise et les normes de codage dans Codex, aidant les développeurs à détecter les problèmes P0 dans les dépôts avant d'ouvrir une demande de tirage.",
+          "title": "OpenAI nomme Dan Driscoll à la sécurité nationale",
+          "summary": "OpenAI a nommé Dan Driscoll au poste de conseiller principal pour la modernisation de la sécurité nationale afin de conseiller sur l'IA responsable, la cyberrésilience et la collaboration avec les alliés des États-Unis.",
           "keyPoints": [
-            "Qodo intègre les connaissances de l'entreprise et les normes de code",
-            "Fonctionne avec Codex pour la révision de code par IA",
-            "Aide à détecter les problèmes P0 avant la demande de fusion"
+            "Dan Driscoll rejoint OpenAI en tant que conseiller principal.",
+            "Accent mis sur la sécurité nationale et l'IA responsable.",
+            "Conseils sur la cyberrésilience et la collaboration alliée."
           ]
         }
       },
@@ -197,426 +314,270 @@
       }
     },
     {
-      "id": "feed-0d4dbc3f227f24",
-      "title": "Understanding Large Language Models as Numerical Optimizers",
-      "summary": "This paper investigates how large language models (LLMs) function as numerical optimizers. The authors developed an evaluation framework to test LLMs on convex optimization, fractional programming, and constrained projection problems. Results show LLMs can produce near-optimal solutions, but reliability drops with higher problem dimensions. An iterative refinement mechanism substantially improves validity, though persistent errors indicate the need for hybrid approaches combining LLM reasoning with deterministic verification.",
+      "id": "feed-602a355a81f881",
+      "title": "ANGLER: Benchmarking Web Agent Security with Adaptive Attacks",
+      "summary": "To better evaluate web agent vulnerabilities against injected malicious content, the authors introduce REEF, a verifier-grounded benchmark covering 9 websites. They also present ANGLER, an adaptive near-miss-guided lure evolution framework that increases attack success rates and degrades benign task performance.",
       "keyPoints": [
-        "Evaluated LLMs on numerical optimization problems across various dimensions.",
-        "Iterative refinement significantly improves reliability and valid solution ranges.",
-        "Hybrid approaches combining LLM reasoning with deterministic solvers are recommended."
+        "REEF provides a verifier-grounded benchmark for web agent security testing.",
+        "ANGLER uses adaptive near-miss guidance to mutate LLM-based attacks.",
+        "Attacks generated by ANGLER significantly reduce web agent success rates."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37932",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.41272",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Understanding Large Language Models as Numerical Optimizers",
-          "summary": "This paper investigates how large language models (LLMs) function as numerical optimizers. The authors developed an evaluation framework to test LLMs on convex optimization, fractional programming, and constrained projection problems. Results show LLMs can produce near-optimal solutions, but reliability drops with higher problem dimensions. An iterative refinement mechanism substantially improves validity, though persistent errors indicate the need for hybrid approaches combining LLM reasoning with deterministic verification.",
+          "title": "ANGLER: Benchmarking Web Agent Security with Adaptive Attacks",
+          "summary": "To better evaluate web agent vulnerabilities against injected malicious content, the authors introduce REEF, a verifier-grounded benchmark covering 9 websites. They also present ANGLER, an adaptive near-miss-guided lure evolution framework that increases attack success rates and degrades benign task performance.",
           "keyPoints": [
-            "Evaluated LLMs on numerical optimization problems across various dimensions.",
-            "Iterative refinement significantly improves reliability and valid solution ranges.",
-            "Hybrid approaches combining LLM reasoning with deterministic solvers are recommended."
+            "REEF provides a verifier-grounded benchmark for web agent security testing.",
+            "ANGLER uses adaptive near-miss guidance to mutate LLM-based attacks.",
+            "Attacks generated by ANGLER significantly reduce web agent success rates."
           ]
         },
         "fr": {
-          "title": "Comprendre les grands modèles de langage comme optimiseurs numériques",
-          "summary": "Cet article étudie la manière dont les grands modèles de langage (LLM) agissent comme des optimiseurs numériques. Les auteurs ont développé un cadre d'évaluation pour tester les LLM sur des problèmes d'optimisation convexe, de programmation fractionnaire et de projection contrainte. Les résultats montrent que les LLM peuvent produire des solutions quasi optimales, mais la fiabilité diminue avec des dimensions élevées. Un mécanisme de raffinement itératif améliore considérablement la validité.",
+          "title": "ANGLER : Évaluation de la sécurité des agents web",
+          "summary": "Pour évaluer les vulnérabilités des agents web face à du contenu malveillant, les auteurs présentent REEF, un benchmark basé sur 9 sites web. Ils introduisent également ANGLER, un cadre d'évolution adaptatif pour les attaques par hameçonnage guidées par les quasi-échecs.",
           "keyPoints": [
-            "Évaluation des LLM sur des problèmes d'optimisation numérique à différentes dimensions.",
-            "Le raffinement itératif améliore considérablement la fiabilité et les plages de solutions valides.",
-            "Des approches hybrides combinant le raisonnement des LLM et des solveurs déterministes sont recommandées."
+            "REEF propose un banc d'essai pour tester la sécurité des agents web.",
+            "ANGLER utilise des guidages par quasi-échec pour faire évoluer les attaques.",
+            "Les attaques d'ANGLER réduisent considérablement le taux de réussite des agents."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-6884a6e823f1b5",
-      "title": "SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning",
-      "summary": "The authors introduce SkillMem, a framework that represents reusable skills as small external latent memories for latent multi-agent systems. Using a role-conditioned cross-attention reader, SkillMem guides different agents based on their roles and hidden states. Evaluated across six benchmarks and Qwen3 models from 4B to 14B parameters, SkillMem reduces total storage by over 38x and achieves up to a 4.23x end-to-end inference speedup.",
+      "id": "feed-96f8932650dbfb",
+      "title": "In-Model Context Compression with Agentic Soft Tokens",
+      "summary": "The paper introduces Agentic Soft-Token Compression (ASTC), a training-free method that uses soft tokens within LLM agents for long-horizon tasks. ASTC utilizes native recurrent dynamics to carry absorbed context forward, reducing later-layer computation and matching or exceeding uncompressed agent accuracy with fewer attention pairs.",
       "keyPoints": [
-        "SkillMem uses small external latent memories to store reusable skills for multi-agent systems.",
-        "Employs a role-conditioned cross-attention reader to guide agents during reasoning.",
-        "Reduces total storage by over 38x and delivers up to a 4.23x inference speedup across benchmarks."
+        "ASTC is a training-free soft-token compression method for long-horizon LLM agents.",
+        "Uses native recurrent dynamics from hybrid GDN-attention architectures.",
+        "Reduces attention pairs by up to 50.68% while maintaining uncompressed accuracy."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37935",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.41291",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning",
-          "summary": "The authors introduce SkillMem, a framework that represents reusable skills as small external latent memories for latent multi-agent systems. Using a role-conditioned cross-attention reader, SkillMem guides different agents based on their roles and hidden states. Evaluated across six benchmarks and Qwen3 models from 4B to 14B parameters, SkillMem reduces total storage by over 38x and achieves up to a 4.23x end-to-end inference speedup.",
+          "title": "In-Model Context Compression with Agentic Soft Tokens",
+          "summary": "The paper introduces Agentic Soft-Token Compression (ASTC), a training-free method that uses soft tokens within LLM agents for long-horizon tasks. ASTC utilizes native recurrent dynamics to carry absorbed context forward, reducing later-layer computation and matching or exceeding uncompressed agent accuracy with fewer attention pairs.",
           "keyPoints": [
-            "SkillMem uses small external latent memories to store reusable skills for multi-agent systems.",
-            "Employs a role-conditioned cross-attention reader to guide agents during reasoning.",
-            "Reduces total storage by over 38x and delivers up to a 4.23x inference speedup across benchmarks."
+            "ASTC is a training-free soft-token compression method for long-horizon LLM agents.",
+            "Uses native recurrent dynamics from hybrid GDN-attention architectures.",
+            "Reduces attention pairs by up to 50.68% while maintaining uncompressed accuracy."
           ]
         },
         "fr": {
-          "title": "SkillMem : Mémoire de compétences externe et compacte pour le raisonnement multi-agent",
-          "summary": "Les auteurs présentent SkillMem, un cadre qui représente les compétences réutilisables sous forme de petites mémoires latentes externes pour les systèmes multi-agents latents. À l'aide d'un lecteur d'attention croisée conditionné par les rôles, SkillMem guide différents agents en fonction de leurs rôles et états cachés. Évalué sur six benchmarks et des modèles Qwen3 de 4B à 14B paramètres, SkillMem réduit le stockage total de plus de 38x.",
+          "title": "Compression de contexte par jetons souples agentiques",
+          "summary": "L'article présente l'ASTC (Agentic Soft-Token Compression), une méthode sans entraînement utilisant des jetons souples au sein des agents LLM pour des tâches à long horizon. L'ASTC utilise la dynamique récurrente native pour propager le contexte absorbé, réduisant le calcul tout en maintenant la précision.",
           "keyPoints": [
-            "SkillMem utilise de petites mémoires latentes externes pour stocker des compétences réutilisables.",
-            "Utilise un lecteur d'attention croisée conditionné par le rôle pour guider les agents.",
-            "Réduit le stockage total de plus de 38x et accélère l'inférence jusqu'à 4,23x."
+            "L'ASTC est une méthode de compression par jetons souples sans entraînement.",
+            "Exploite la dynamique récurrente native des architectures hybrides.",
+            "Réduit les paires d'attention jusqu'à 50,68 % tout en préservant la précision."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-c4b2d8a4c70c67",
-      "title": "GAUSS: Simulator for LLM Inference Serving",
-      "summary": "GAUSS is a workload-aware analytical and Monte-Carlo simulator designed to predict the full distributions of time-to-first-token and time-between-tokens, along with sustainable request rates for LLM inference. By pairing phase-specific latency surfaces with a Lindley-recurrence queueing model and ensemble Monte-Carlo sampling, GAUSS captures latency tails and helps operators evaluate routing policies, workloads, and hardware configurations that have never been deployed.",
+      "id": "feed-c786e910d0d323",
+      "title": "ART of PIV: Agentic Real-Time Particle Image Velocimetry",
+      "summary": "We introduce ART of PIV, an agentic framework that automates pipeline choices for particle image velocimetry to handle varying flow conditions in real time. It reduces average end-point error by 12.2-22.4% relative to fixed estimators and improves simulated local velocity regulation costs.",
       "keyPoints": [
-        "GAUSS predicts full latency distributions (TTFT and TBT) for LLM inference serving.",
-        "Uses calibrated phase-specific latency surfaces combined with ensemble Monte-Carlo sampling.",
-        "Helps operators analyze un-deployed workloads, routing policies, and hardware configurations."
+        "Automates pipeline configuration for each image pair dynamically.",
+        "Reduces average end-point error by 12.2 to 22.4 percent.",
+        "Demonstrated in simulation and physical water channel tasks."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.37989",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.41304",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "GAUSS: Simulator for LLM Inference Serving",
-          "summary": "GAUSS is a workload-aware analytical and Monte-Carlo simulator designed to predict the full distributions of time-to-first-token and time-between-tokens, along with sustainable request rates for LLM inference. By pairing phase-specific latency surfaces with a Lindley-recurrence queueing model and ensemble Monte-Carlo sampling, GAUSS captures latency tails and helps operators evaluate routing policies, workloads, and hardware configurations that have never been deployed.",
+          "title": "ART of PIV: Agentic Real-Time Particle Image Velocimetry",
+          "summary": "We introduce ART of PIV, an agentic framework that automates pipeline choices for particle image velocimetry to handle varying flow conditions in real time. It reduces average end-point error by 12.2-22.4% relative to fixed estimators and improves simulated local velocity regulation costs.",
           "keyPoints": [
-            "GAUSS predicts full latency distributions (TTFT and TBT) for LLM inference serving.",
-            "Uses calibrated phase-specific latency surfaces combined with ensemble Monte-Carlo sampling.",
-            "Helps operators analyze un-deployed workloads, routing policies, and hardware configurations."
+            "Automates pipeline configuration for each image pair dynamically.",
+            "Reduces average end-point error by 12.2 to 22.4 percent.",
+            "Demonstrated in simulation and physical water channel tasks."
           ]
         },
         "fr": {
-          "title": "GAUSS : Simulateur pour le service d'inférence de LLM",
-          "summary": "GAUSS est un simulateur analytique et de Monte-Carlo adapté aux charges de travail, conçu pour prédire les distributions complètes du temps jusqu'au premier jeton et du temps entre les jetons pour l'inférence de LLM. En associant des surfaces de latence spécifiques à chaque phase à un modèle de file d'attente à récurrence de Lindley et à un échantillonnage d'ensemble de Monte-Carlo, GAUSS capture les queues de latence.",
+          "title": "ART of PIV : vélocimétrie d'images de particules agentique en temps réel",
+          "summary": "Nous présentons ART of PIV, un cadre agentique qui automatise les choix de pipeline pour la vélocimétrie d'images de particules afin de gérer les conditions d'écoulement variables en temps réel. Il réduit l'erreur moyenne de point final et améliore les coûts de régulation.",
           "keyPoints": [
-            "GAUSS prédit les distributions complètes de latence pour le service d'inférence de LLM.",
-            "Utilise des surfaces de latence par phase calibrées avec un échantillonnage de Monte-Carlo.",
-            "Aide les opérateurs à analyser les charges de travail et politiques de routage non déployées."
+            "Automatise dynamiquement la configuration du pipeline pour chaque paire d'images.",
+            "Réduit l'erreur moyenne de point final de 12,2 à 22,4 pour cent.",
+            "Démontré en simulation et dans un canal d'eau physique."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-e314bdfc948afa",
-      "title": "Algorithmic Bias from the Perspectives of Healthcare Professionals",
-      "summary": "This study explores algorithmic bias in healthcare information systems through quantitative survey data and qualitative comments from healthcare professionals in various roles. The findings indicate that opinions on the causes of bias, algorithm assessment criteria, perceived fairness, and mitigation approaches depend significantly on professional roles, tasks, and algorithm characteristics. Further research is emphasized to ensure fairness and equality in healthcare.",
+      "id": "feed-b20c538b570f46",
+      "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense",
+      "summary": "ERASE is an on-policy self-distillation method protecting against multimodal indirect prompt injection by erasing injected regions in place. It records near-zero attack success while retaining task utility close to undefended clean inputs.",
       "keyPoints": [
-        "Investigates algorithmic bias in healthcare information systems using survey and interview data.",
-        "Shows that professional roles and tasks shape perceptions of fairness and bias causes.",
-        "Highlights the need for ongoing research to ensure fairness and equality in medical AI applications."
+        "Proposes ERASE, an on-policy self-distillation defense method.",
+        "Achieves near-zero observed attack success across modalities.",
+        "Retains task utility close to undefended clean-input levels."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41307",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense",
+          "summary": "ERASE is an on-policy self-distillation method protecting against multimodal indirect prompt injection by erasing injected regions in place. It records near-zero attack success while retaining task utility close to undefended clean inputs.",
+          "keyPoints": [
+            "Proposes ERASE, an on-policy self-distillation defense method.",
+            "Achieves near-zero observed attack success across modalities.",
+            "Retains task utility close to undefended clean-input levels."
+          ]
+        },
+        "fr": {
+          "title": "Effacer la région injectée : défense contre l'injection de prompts multimodaux",
+          "summary": "ERASE est une méthode d'auto-distillation en politique qui protège contre l'injection indirecte de invites multimodales en effaçant les régions injectées sur place. Elle enregistre un succès d'attaque presque nul tout en conservant l'utilité des tâches.",
+          "keyPoints": [
+            "Propose ERASE, une méthode de défense par auto-distillation en politique.",
+            "Atteint un succès d'attaque observé proche de zéro à travers les modalités.",
+            "Conserve une utilité de tâche proche des niveaux d'entrée propres non défendus."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2b74846eed866b",
+      "title": "GenDSR: Transferring Representations for Dynamic Spatial Reasoning",
+      "summary": "GenDSR transfers intermediate representations from video generation models into vision-language models for dynamic spatial reasoning. By using raw and delta branches with task-conditioned gates, it achieves 67.2% on DSR-Bench.",
+      "keyPoints": [
+        "Transfers spatiotemporal representations from video generation models.",
+        "Constructs raw and delta branches to capture context and temporal variation.",
+        "Achieves 67.2 percent on DSR-Bench, setting a new state of the art."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41314",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "GenDSR: Transferring Representations for Dynamic Spatial Reasoning",
+          "summary": "GenDSR transfers intermediate representations from video generation models into vision-language models for dynamic spatial reasoning. By using raw and delta branches with task-conditioned gates, it achieves 67.2% on DSR-Bench.",
+          "keyPoints": [
+            "Transfers spatiotemporal representations from video generation models.",
+            "Constructs raw and delta branches to capture context and temporal variation.",
+            "Achieves 67.2 percent on DSR-Bench, setting a new state of the art."
+          ]
+        },
+        "fr": {
+          "title": "GenDSR : transfert de représentations pour le raisonnement spatial dynamique",
+          "summary": "GenDSR transfère les représentations intermédiaires des modèles de génération vidéo vers les modèles vision-langage pour le raisonnement spatial dynamique. En utilisant des branches brutes et delta, il atteint 67,2 % sur DSR-Bench.",
+          "keyPoints": [
+            "Transfère des représentations spatiotemporelles de modèles de génération vidéo.",
+            "Construit des branches brutes et delta pour capturer le contexte et la variation temporelle.",
+            "Atteint 67,2 pour cent sur DSR-Bench, établissant un nouvel état de l'art."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2a31068759513b",
+      "title": "Transferring Peptide-Target Interaction Patterns to Small Molecules",
+      "summary": "PIFT is a framework that transfers peptide-target interaction patterns to small molecules through joint guidance of diffusion and flow matching. It maps interfaces into a shared space to improve interface recovery and docking performance.",
+      "keyPoints": [
+        "Introduces PIFT for target-conditioned interaction space mapping.",
+        "Uses joint sampling-time guidance of diffusion and flow matching.",
+        "Improves interface recovery and docking performance for drug discovery."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41322",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Transferring Peptide-Target Interaction Patterns to Small Molecules",
+          "summary": "PIFT is a framework that transfers peptide-target interaction patterns to small molecules through joint guidance of diffusion and flow matching. It maps interfaces into a shared space to improve interface recovery and docking performance.",
+          "keyPoints": [
+            "Introduces PIFT for target-conditioned interaction space mapping.",
+            "Uses joint sampling-time guidance of diffusion and flow matching.",
+            "Improves interface recovery and docking performance for drug discovery."
+          ]
+        },
+        "fr": {
+          "title": "Transfert de motifs d'interaction peptide-cible vers de petites molécules",
+          "summary": "PIFT est un cadre qui transfère des motifs d'interaction peptide-cible vers de petites molécules grâce à une guidance conjointe de diffusion et de correspondance de flux. Il cartographie les interfaces dans un espace partagé.",
+          "keyPoints": [
+            "Introduit PIFT pour la cartographie d'espaces d'interaction conditionnés par la cible.",
+            "Utilise une guidance conjointe de diffusion et de correspondance de flux.",
+            "Améliore la récupération d'interface et les performances d'amarrage."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-397d16cbf667dc",
+      "title": "Aggregator Complexity Does Not Improve Gastric WSI Classification",
+      "summary": "Evaluating multiple-instance learning aggregators on over 5,000 gastric slides from five hospitals, researchers show that complex aggregators do not improve cross-hospital discrimination when using foundation-model features.",
+      "keyPoints": [
+        "Uses 5,036 gastric slides across five hospitals for evaluation.",
+        "Compares multiple-instance learning aggregators on foundation-model features.",
+        "Shows complex aggregators do not improve discrimination over simpler global pooling."
       ],
       "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38006",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.41328",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Algorithmic Bias from the Perspectives of Healthcare Professionals",
-          "summary": "This study explores algorithmic bias in healthcare information systems through quantitative survey data and qualitative comments from healthcare professionals in various roles. The findings indicate that opinions on the causes of bias, algorithm assessment criteria, perceived fairness, and mitigation approaches depend significantly on professional roles, tasks, and algorithm characteristics. Further research is emphasized to ensure fairness and equality in healthcare.",
+          "title": "Aggregator Complexity Does Not Improve Gastric WSI Classification",
+          "summary": "Evaluating multiple-instance learning aggregators on over 5,000 gastric slides from five hospitals, researchers show that complex aggregators do not improve cross-hospital discrimination when using foundation-model features.",
           "keyPoints": [
-            "Investigates algorithmic bias in healthcare information systems using survey and interview data.",
-            "Shows that professional roles and tasks shape perceptions of fairness and bias causes.",
-            "Highlights the need for ongoing research to ensure fairness and equality in medical AI applications."
+            "Uses 5,036 gastric slides across five hospitals for evaluation.",
+            "Compares multiple-instance learning aggregators on foundation-model features.",
+            "Shows complex aggregators do not improve discrimination over simpler global pooling."
           ]
         },
         "fr": {
-          "title": "Biais algorithmique du point de vue des professionnels de la santé",
-          "summary": "Cette étude explore le biais algorithmique dans les systèmes d'information de santé grâce à des données d'enquête quantitative et des commentaires qualitatifs de professionnels de la santé occupant divers rôles. Les résultats indiquent que les opinions sur les causes des biais, les critères d'évaluation et la perception de l'équité dépendent des rôles professionnels et des tâches.",
+          "title": "La complexité des agrégateurs n'améliore pas la classification WSI gastrique",
+          "summary": "En évaluant des agrégateurs d'apprentissage à instances multiples sur plus de 5 000 lames gastriques de cinq hôpitaux, des chercheurs montrent que les agrégateurs complexes n'améliorent pas la discrimination inter-hôpitaux.",
           "keyPoints": [
-            "Étudie le biais algorithmique dans les systèmes de santé à l'aide d'enquêtes et d'entretiens.",
-            "Montre que les rôles professionnels influencent la perception de l'équité et des causes de biais.",
-            "Souligne la nécessité de recherches continues pour garantir l'équité dans les applications de santé."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-98417e767f015c",
-      "title": "Assessing Language Models for Scientific Applications: Inertial Confinement Fusion",
-      "summary": "The authors evaluate language models on scientific applications using an expert-curated benchmark of 250 inertial confinement fusion (ICF) questions. They compare closed-source and open-source models with Prospero, a domain-adapted and fine-tuned model for ICF. Prospero improved its aggregate score by 10.7 percentage points, though frontier models still exhibited critical physics errors in numerical calculations, indicating that benchmark gains alone do not prove scientific reliability.",
-      "keyPoints": [
-        "Created an expert-curated benchmark of 250 questions for inertial confinement fusion.",
-        "Prospero, a specialized ICF model, improved its aggregate score by 10.7 percentage points.",
-        "Frontier models achieved high scores but still suffered from critical physics and calculation errors."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38024",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Assessing Language Models for Scientific Applications: Inertial Confinement Fusion",
-          "summary": "The authors evaluate language models on scientific applications using an expert-curated benchmark of 250 inertial confinement fusion (ICF) questions. They compare closed-source and open-source models with Prospero, a domain-adapted and fine-tuned model for ICF. Prospero improved its aggregate score by 10.7 percentage points, though frontier models still exhibited critical physics errors in numerical calculations, indicating that benchmark gains alone do not prove scientific reliability.",
-          "keyPoints": [
-            "Created an expert-curated benchmark of 250 questions for inertial confinement fusion.",
-            "Prospero, a specialized ICF model, improved its aggregate score by 10.7 percentage points.",
-            "Frontier models achieved high scores but still suffered from critical physics and calculation errors."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation des modèles de langage pour les applications scientifiques : Fusion par confinement inertiel",
-          "summary": "Les auteurs évaluent les modèles de langage pour des applications scientifiques à l'aide d'un benchmark de 250 questions sur la fusion par confinement inertiel (FCI). Ils comparent des modèles propriétaires et open source avec Prospero, un modèle spécialisé pour la FCI. Prospero a amélioré son score global de 10,7 points de pourcentage, bien que les modèles de pointe présentent encore des erreurs de physique critiques.",
-          "keyPoints": [
-            "Création d'un benchmark d'experts de 250 questions sur la fusion par confinement inertiel.",
-            "Prospero, un modèle spécialisé, a amélioré son score global de 10,7 points de pourcentage.",
-            "Les modèles de pointe affichent de bons scores mais souffrent d'erreurs physiques et de calcul."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-58daaf289fa773",
-      "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting",
-      "summary": "This paper presents a framework for mental health chatbots that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to model inference. By dynamically constructing prompts based on emotional and risk insights, the approach improves contextual relevance, empathy, and safety. Experiments across multiple strategies and prompt variants show that the proposed prompt engineering approaches outperform DSFT and RLAIF by 1.8% and 1.1% respectively.",
-      "keyPoints": [
-        "Integrates sentiment and depression analysis with a rule-based filter before model inference.",
-        "Dynamically constructs prompts based on emotional and risk metrics to enhance empathy and safety.",
-        "Outperforms DSFT and RLAIF approaches by 1.8% and 1.1% in evaluations."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38044",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting",
-          "summary": "This paper presents a framework for mental health chatbots that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to model inference. By dynamically constructing prompts based on emotional and risk insights, the approach improves contextual relevance, empathy, and safety. Experiments across multiple strategies and prompt variants show that the proposed prompt engineering approaches outperform DSFT and RLAIF by 1.8% and 1.1% respectively.",
-          "keyPoints": [
-            "Integrates sentiment and depression analysis with a rule-based filter before model inference.",
-            "Dynamically constructs prompts based on emotional and risk metrics to enhance empathy and safety.",
-            "Outperforms DSFT and RLAIF approaches by 1.8% and 1.1% in evaluations."
-          ]
-        },
-        "fr": {
-          "title": "PromptSense : Chatbot de santé mentale sensible au sentiment avec prompt dynamique",
-          "summary": "Cet article présente un cadre pour les chatbots de santé mentale qui intègre une analyse des sentiments et de la dépression avec un mécanisme de filtrage basé sur des règles avant l'inférence. En construisant dynamiquement des invites basées sur des données émotionnelles, l'approche améliore la pertinence contextuelle, l'empathie et la sécurité. Les expériences montrent que cette approche surpasse DSFT et RLAIF de 1,8 % et 1,1 %.",
-          "keyPoints": [
-            "Intègre l'analyse des sentiments et de la dépression avec un filtre à règles avant inférence.",
-            "Construit dynamiquement des invites basées sur des mesures émotionnelles et de risque.",
-            "Surpasse les approches DSFT et RLAIF de 1,8 % et 1,1 % lors des évaluations."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8e0cd83e8282f0",
-      "title": "Evaluating Causal Reasoning in LLMs: Challenges of Procedural Generation",
-      "summary": "This study examines whether large language models genuinely perform formal causal reasoning when evaluated on datasets generated by CLadder. The authors identify superficial and highly predictive patterns embedded by the CLadder generator, noting that simple models like random forests also perform well. Furthermore, commercial LLM performance remains extremely brittle when critical text sections are removed, indicating they exploit superficial dataset patterns rather than complex causal reasoning.",
-      "keyPoints": [
-        "Investigates the validity of LLM causal reasoning evaluations using the CLadder benchmark.",
-        "Discovers that simple models (random forests) perform well on CLadder datasets due to superficial patterns.",
-        "Shows that removing critical text sections has almost no effect on commercial LLM performance."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38100",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evaluating Causal Reasoning in LLMs: Challenges of Procedural Generation",
-          "summary": "This study examines whether large language models genuinely perform formal causal reasoning when evaluated on datasets generated by CLadder. The authors identify superficial and highly predictive patterns embedded by the CLadder generator, noting that simple models like random forests also perform well. Furthermore, commercial LLM performance remains extremely brittle when critical text sections are removed, indicating they exploit superficial dataset patterns rather than complex causal reasoning.",
-          "keyPoints": [
-            "Investigates the validity of LLM causal reasoning evaluations using the CLadder benchmark.",
-            "Discovers that simple models (random forests) perform well on CLadder datasets due to superficial patterns.",
-            "Shows that removing critical text sections has almost no effect on commercial LLM performance."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation du raisonnement causal dans les LLM : Défis de la génération procédurale",
-          "summary": "Cette étude examine si les grands modèles de langage effectuent réellement un raisonnement causal formel lorsqu'ils sont évalués sur des ensembles de données générés par CLadder. Les auteurs identifient des motifs superficiels intégrés par le générateur CLadder, notant que des modèles simples comme les forêts aléatoires réussissent également. De plus, la performance des LLM commerciaux reste extrêmement fragile lorsque des sections de texte critiques sont supprimées.",
-          "keyPoints": [
-            "Étudie la validité des évaluations du raisonnement causal des LLM avec le benchmark CLadder.",
-            "Découvre que des modèles simples réussissent bien en raison de motifs superficiels.",
-            "Montre que la suppression de sections textuelles critiques n'a presque aucun effet sur les performances."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9faf06e69cb489",
-      "title": "AI-Driven Digital Twin Framework for Warehouse Logistics Automation Optimization",
-      "summary": "The authors present an AI-driven framework that integrates a reinforcement learning agent within a FlexSim-based Digital Twin environment to optimize real-time warehouse slotting. The agent adapts to streaming data in a simulated four-zone warehouse to reduce picking times and increase throughput. Experimental results demonstrate a 29.66% reduction in average picking time, a 35.42% increase in throughput, and an 18.54% decrease in travel distance.",
-      "keyPoints": [
-        "Integrates a reinforcement learning agent within a FlexSim Digital Twin environment for logistics.",
-        "Optimizes real-time product placement (slotting) in a simulated four-zone warehouse layout.",
-        "Achieved a 29.66% reduction in picking time, a 35.42% increase in throughput, and an 18.54% distance reduction."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38101",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AI-Driven Digital Twin Framework for Warehouse Logistics Automation Optimization",
-          "summary": "The authors present an AI-driven framework that integrates a reinforcement learning agent within a FlexSim-based Digital Twin environment to optimize real-time warehouse slotting. The agent adapts to streaming data in a simulated four-zone warehouse to reduce picking times and increase throughput. Experimental results demonstrate a 29.66% reduction in average picking time, a 35.42% increase in throughput, and an 18.54% decrease in travel distance.",
-          "keyPoints": [
-            "Integrates a reinforcement learning agent within a FlexSim Digital Twin environment for logistics.",
-            "Optimizes real-time product placement (slotting) in a simulated four-zone warehouse layout.",
-            "Achieved a 29.66% reduction in picking time, a 35.42% increase in throughput, and an 18.54% distance reduction."
-          ]
-        },
-        "fr": {
-          "title": "Cadre de jumeau numérique piloté par l'IA pour l'optimisation de la logistique d'entrepôt",
-          "summary": "Les auteurs présentent un cadre piloté par l'IA qui intègre un agent d'apprentissage par renforcement dans un environnement de jumeau numérique basé sur FlexSim pour optimiser le placement des produits en entrepôt. L'agent s'adapte aux flux de données dans un entrepôt simulé à quatre zones pour réduire les temps de prélèvement. Les résultats expérimentaux démontrent une réduction de 29,66 % du temps de prélèvement moyen et une augmentation de 35,42 % du débit.",
-          "keyPoints": [
-            "Intègre un agent d'apprentissage par renforcement dans un jumeau numérique FlexSim.",
-            "Optimise le placement en temps réel des produits dans un agencement d'entrepôt à quatre zones.",
-            "Réduit le temps de prélèvement de 29,66 % et augmente le débit de 35,42 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-16f997daece3d6",
-      "title": "Performance-Driven Challenge Adaptation in Virtual Reality Firefighter Training",
-      "summary": "To address limitations in fixed-scenario VR firefighter training, the authors present ProACT, a performance-driven adaptive training system. ProACT regulates scenario difficulty through closed-loop interactions between trainee performance and simulated fire dynamics using global scene-level adjustments and local object-level flammability updates. Evaluations demonstrate improvements in both objective training performance and subjective user experience over baseline systems.",
-      "keyPoints": [
-        "Introduces ProACT, an adaptive VR firefighter training system that regulates scenario difficulty.",
-        "Combines global scene-level fire spread dynamics with local object-level flammability updates.",
-        "Improves both objective trainee performance and subjective user experience compared to baselines."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38117",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Performance-Driven Challenge Adaptation in Virtual Reality Firefighter Training",
-          "summary": "To address limitations in fixed-scenario VR firefighter training, the authors present ProACT, a performance-driven adaptive training system. ProACT regulates scenario difficulty through closed-loop interactions between trainee performance and simulated fire dynamics using global scene-level adjustments and local object-level flammability updates. Evaluations demonstrate improvements in both objective training performance and subjective user experience over baseline systems.",
-          "keyPoints": [
-            "Introduces ProACT, an adaptive VR firefighter training system that regulates scenario difficulty.",
-            "Combines global scene-level fire spread dynamics with local object-level flammability updates.",
-            "Improves both objective trainee performance and subjective user experience compared to baselines."
-          ]
-        },
-        "fr": {
-          "title": "Adaptation de la difficulté en réalité virtuelle pour la formation des pompiers",
-          "summary": "Pour répondre aux limites des scénarios fixes en réalité virtuelle pour la formation des pompiers, les auteurs présentent ProACT, un système d'entraînement adaptatif basé sur les performances. ProACT régule la difficulté des scénarios grâce à des interactions en boucle fermée entre les performances du stagiaire et la dynamique du feu simulée. Les évaluations démontrent des améliorations des performances objectives et de l'expérience utilisateur.",
-          "keyPoints": [
-            "Présente ProACT, un système d'entraînement VR adaptatif qui régule la difficulté des scénarios.",
-            "Combine la dynamique globale de propagation du feu et des mises à jour locales d'inflammabilité.",
-            "Améliore les performances objectives et l'expérience utilisateur par rapport aux systèmes de base."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-45f867d7bb1864",
-      "title": "Post-Training Large Language Models with LLMON for Execution Control",
-      "summary": "This paper introduces LLMON (LLM Object Notation), a post-training methodology that separates instructions from passive data in LLMs to prevent prompt injection and ensure secure execution control. Using a 4.6B token structured corpus, the authors fine-tuned two Granite-4.1 base models (3B and 8B). Results show that LLMON-structured supervision reduces indirect prompt-injection attack success rates from 53-100% down to 0.02-5.6% while preserving general capabilities without architectural modifications.",
-      "keyPoints": [
-        "Introduces LLMON to separate executable instructions from passive data in LLM prompts.",
-        "Trained on a large-scale structured corpus of 4.6B tokens using supervised fine-tuning and RL.",
-        "Reduces indirect prompt-injection attack success rates from 53-100% to 0.02-5.6%."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38120",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Post-Training Large Language Models with LLMON for Execution Control",
-          "summary": "This paper introduces LLMON (LLM Object Notation), a post-training methodology that separates instructions from passive data in LLMs to prevent prompt injection and ensure secure execution control. Using a 4.6B token structured corpus, the authors fine-tuned two Granite-4.1 base models (3B and 8B). Results show that LLMON-structured supervision reduces indirect prompt-injection attack success rates from 53-100% down to 0.02-5.6% while preserving general capabilities without architectural modifications.",
-          "keyPoints": [
-            "Introduces LLMON to separate executable instructions from passive data in LLM prompts.",
-            "Trained on a large-scale structured corpus of 4.6B tokens using supervised fine-tuning and RL.",
-            "Reduces indirect prompt-injection attack success rates from 53-100% to 0.02-5.6%."
-          ]
-        },
-        "fr": {
-          "title": "Post-entraînement de grands modèles de langage avec LLMON pour le contrôle d'exécution",
-          "summary": "Cet article présente LLMON (LLM Object Notation), une méthodologie de post-entraînement qui sépare les instructions des données passives dans les LLM afin de prévenir les injections de invites et d'assurer le contrôle d'exécution. À l'aide d'un corpus structuré de 4,6 milliards de jetons, les auteurs ont affiné deux modèles de base Granite-4.1. Les résultats montrent que la supervision structurée par LLMON réduit les taux de réussite des attaques par injection de 53-100% à 0,02-5,6%.",
-          "keyPoints": [
-            "Présente LLMON pour séparer les instructions exécutables des données passives dans les invites de LLM.",
-            "Entraîné sur un corpus structuré à grande échelle de 4,6 milliards de jetons.",
-            "Réduit les taux de réussite des attaques par injection indirecte de 53-100% à 0,02-5,6%."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-de3c25a6f7c316",
-      "title": "Decompose, Don't Expand: Capability-Independent AI Systems by Construction",
-      "summary": "This paper examines whether to expand AI models or decompose tasks when a task is too hard. The authors claim that many tasks are deterministic with small generative cores. Decomposing tasks yields parity by construction, flattening the performance curve across model sizes without task-specific training or fine-tuning. This design discipline is demonstrated across physics setup, motion retargeting, object-model editing, and Web-CLI tools.",
-      "keyPoints": [
-        "Decomposing tasks into deterministic solutions and generative residue creates parity by construction.",
-        "Nine models tested showed flat performance curves on decomposed sub-tasks across a 30-fold parameter range.",
-        "The approach applies across diverse domains like physics setup, motion retargeting, and object-model editing."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38144",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Decompose, Don't Expand: Capability-Independent AI Systems by Construction",
-          "summary": "This paper examines whether to expand AI models or decompose tasks when a task is too hard. The authors claim that many tasks are deterministic with small generative cores. Decomposing tasks yields parity by construction, flattening the performance curve across model sizes without task-specific training or fine-tuning. This design discipline is demonstrated across physics setup, motion retargeting, object-model editing, and Web-CLI tools.",
-          "keyPoints": [
-            "Decomposing tasks into deterministic solutions and generative residue creates parity by construction.",
-            "Nine models tested showed flat performance curves on decomposed sub-tasks across a 30-fold parameter range.",
-            "The approach applies across diverse domains like physics setup, motion retargeting, and object-model editing."
-          ]
-        },
-        "fr": {
-          "title": "Décomposer, ne pas étendre : Systèmes d'IA indépendants des capacités",
-          "summary": "Cet article examine s'il faut étendre les modèles d'IA ou décomposer les tâches lorsqu'une tâche est trop difficile. Les auteurs affirment que de nombreuses tâches sont déterministes avec de petits noyaux génératifs. La décomposition des tâches produit une parité par construction, aplatissant la courbe de performance entre les tailles de modèle sans entraînement spécifique ni réglage fin. Cette discipline de conception est démontrée dans la configuration physique, le reciblage de mouvement, l'édition de modèles d'objets et les outils Web-CLI.",
-          "keyPoints": [
-            "La décomposition des tâches en solutions déterministes et résidu génératif crée une parité par construction.",
-            "Neuf modèles testés ont montré des courbes de performance plates sur des sous-tâches décomposées sur une plage de paramètres de trente fois.",
-            "L'approche s'applique à divers domaines tels que la configuration physique, le reciblage de mouvement et l'édition de modèles d'objets."
+            "Utilise 5 036 lames gastriques de cinq hôpitaux pour l'évaluation.",
+            "Compare des agrégateurs d'apprentissage à instances multiples.",
+            "Montre que les agrégateurs complexes n'améliorent pas la discrimination."
           ]
         }
       },
@@ -626,153 +587,192 @@
       }
     },
     {
-      "id": "feed-e89db84d8075f2",
-      "title": "SkillCT: A Multidimensional Benchmark for Agent Skill Assessment",
-      "summary": "SkillCT is a benchmark that broadens agent skill assessment from downstream utility to a multidimensional characterization of quality. It evaluates skills across nine complementary dimensions spanning static, dynamic, and human-assisted assessments. Additionally, the authors propose an execution-free quality evaluation baseline that predicts multidimensional quality profiles by retrieving reference skills without execution.",
+      "id": "feed-0669e16aee4a25",
+      "title": "Pinching Antennas for ISAC: Waveguide Architectures and Solutions",
+      "summary": "This article reviews pinching antenna systems (PASS) for integrated sensing and communication in 6G wireless systems, examining single, multi, and segmented waveguide architectures and trade-offs.",
       "keyPoints": [
-        "SkillCT evaluates skills across nine dimensions spanning static, dynamic, and human-assisted assessments.",
-        "An execution-free quality evaluation baseline predicts quality profiles by retrieving similar reference skills without execution.",
-        "SkillCT-guided optimization improves downstream task success and execution efficiency."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38147",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SkillCT: A Multidimensional Benchmark for Agent Skill Assessment",
-          "summary": "SkillCT is a benchmark that broadens agent skill assessment from downstream utility to a multidimensional characterization of quality. It evaluates skills across nine complementary dimensions spanning static, dynamic, and human-assisted assessments. Additionally, the authors propose an execution-free quality evaluation baseline that predicts multidimensional quality profiles by retrieving reference skills without execution.",
-          "keyPoints": [
-            "SkillCT evaluates skills across nine dimensions spanning static, dynamic, and human-assisted assessments.",
-            "An execution-free quality evaluation baseline predicts quality profiles by retrieving similar reference skills without execution.",
-            "SkillCT-guided optimization improves downstream task success and execution efficiency."
-          ]
-        },
-        "fr": {
-          "title": "SkillCT : Un benchmark multidimensionnel pour l'évaluation des compétences d'agents",
-          "summary": "SkillCT est un benchmark qui élargit l'évaluation des compétences des agents, passant de l'utilité en aval à une caractérisation multidimensionnelle de la qualité. Il évalue les compétences à travers neuf dimensions complémentaires englobant des évaluations statiques, dynamiques et assistées par l'homme. De plus, les auteurs proposent une base d'évaluation de la qualité sans exécution qui prédit les profils de qualité multidimensionnels en récupérant des compétences de référence sans exécution.",
-          "keyPoints": [
-            "SkillCT évalue les compétences à travers neuf dimensions couvrant des évaluations statiques, dynamiques et assistées par l'homme.",
-            "Une base d'évaluation de la qualité sans exécution prédit les profils de qualité en récupérant des compétences de référence similaires.",
-            "L'optimisation guidée par SkillCT améliore le succès des tâches en aval et l'efficacité de l'exécution."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2afa3a43b93c92",
-      "title": "BridgeRouter: Gain-Aware Instance Routing over Cross-Modal Bridges",
-      "summary": "BridgeRouter formulates multi-bridge transfer as an instance-level algorithm-selection problem over a portfolio of frozen cross-modal pathways. Using anchor-relative gain prediction, it routes each instance to the pathway with the largest predicted gain over a validation-selected Single Best Solver. Evaluations on EEG-based freezing-of-gait and sleep classification demonstrate notable improvements over baseline single best solvers.",
-      "keyPoints": [
-        "BridgeRouter treats multi-bridge transfer as an instance-level algorithm-selection problem over frozen pathways.",
-        "It uses a lightweight MLP to predict route-specific gains from target-modality representations.",
-        "Evaluations show significant balanced accuracy improvements on FOG and sleep classification tasks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38152",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "BridgeRouter: Gain-Aware Instance Routing over Cross-Modal Bridges",
-          "summary": "BridgeRouter formulates multi-bridge transfer as an instance-level algorithm-selection problem over a portfolio of frozen cross-modal pathways. Using anchor-relative gain prediction, it routes each instance to the pathway with the largest predicted gain over a validation-selected Single Best Solver. Evaluations on EEG-based freezing-of-gait and sleep classification demonstrate notable improvements over baseline single best solvers.",
-          "keyPoints": [
-            "BridgeRouter treats multi-bridge transfer as an instance-level algorithm-selection problem over frozen pathways.",
-            "It uses a lightweight MLP to predict route-specific gains from target-modality representations.",
-            "Evaluations show significant balanced accuracy improvements on FOG and sleep classification tasks."
-          ]
-        },
-        "fr": {
-          "title": "BridgeRouter : Routage d'instances conscient du gain sur ponts cross-modaux",
-          "summary": "BridgeRouter formule le transfert multi-pont comme un problème de sélection d'algorithme au niveau des instances sur un portefeuille de voies inter-modales gelées. En utilisant la prédiction de gain relative à l'ancre, il achemine chaque instance vers la voie ayant le plus grand gain prédit par rapport à un meilleur solveur unique sélectionné par validation. Les évaluations sur la classification du sommeil et le blocage de la marche basés sur l'EEG démontrent des améliorations notables.",
-          "keyPoints": [
-            "BridgeRouter traite le transfert multi-pont comme un problème de sélection d'algorithme au niveau des instances sur des voies gelées.",
-            "Il utilise un MLP léger pour prédire les gains spécifiques aux routes à partir des représentations de la modalité cible.",
-            "Les évaluations montrent des améliorations significatives de la précision équilibrée sur les tâches de FOG et de classification du sommeil."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d6ef8265c0f077",
-      "title": "DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms",
-      "summary": "DecompGym is a benchmark of 81 instances from nine problem families designed to evaluate how coding agents implement Benders decomposition and column generation algorithms. Evaluating 12 models, the authors find that reflection turns 66% of retries into successes compared to 39% for independent regeneration. The study highlights that coding agents need checks on how solvers reach their answers and feedback locating errors.",
-      "keyPoints": [
-        "DecompGym contains 81 instances across nine problem families to evaluate LLM coding agents on decomposition algorithms.",
-        "Reflection turns 66% of retries into successes, outperforming independent regeneration.",
-        "Agents require checks on how solvers reach their answers and specific error-locating feedback."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38175",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DecompGym: Benchmarking LLM Agents on Designing Decomposition Algorithms",
-          "summary": "DecompGym is a benchmark of 81 instances from nine problem families designed to evaluate how coding agents implement Benders decomposition and column generation algorithms. Evaluating 12 models, the authors find that reflection turns 66% of retries into successes compared to 39% for independent regeneration. The study highlights that coding agents need checks on how solvers reach their answers and feedback locating errors.",
-          "keyPoints": [
-            "DecompGym contains 81 instances across nine problem families to evaluate LLM coding agents on decomposition algorithms.",
-            "Reflection turns 66% of retries into successes, outperforming independent regeneration.",
-            "Agents require checks on how solvers reach their answers and specific error-locating feedback."
-          ]
-        },
-        "fr": {
-          "title": "DecompGym : Évaluation d'agents LLM sur la conception d'algorithmes de décomposition",
-          "summary": "DecompGym est un benchmark de 81 instances provenant de neuf familles de problèmes conçu pour évaluer comment les agents de codage implémentent la décomposition de Benders et les algorithmes de génération de colonnes. En évaluant 12 modèles, les auteurs constatent que la réflexion transforme 66 % des nouvelles tentatives en succès, contre 39 % pour la régénération indépendante. L'étude souligne que les agents de codage ont besoin de contrôles et d'un retour localisant les erreurs.",
-          "keyPoints": [
-            "DecompGym contient 81 instances à travers neuf familles de problèmes pour évaluer les agents de codage LLM.",
-            "La réflexion transforme 66 % des nouvelles tentatives en succès, surpassant la régénération indépendante.",
-            "Les agents nécessitent des contrôles sur la manière dont les solveurs atteignent leurs réponses et un retour localisant les erreurs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1fa8b55c3c17a2",
-      "title": "Bottle-SKU and ProDMM for Shampoo Bottle Surface Defect Detection",
-      "summary": "The authors introduce Bottle-SKU, a large-scale multi-SKU benchmark containing 13,119 images across 48 bottle SKUs for shampoo bottle surface defect detection. To address SKU-specific appearance variation, they propose Prototype-Guided Dynamic Domain Modulation (ProDMM). Experiments on Bottle-SKU and GC10-DET-SKU demonstrate the effectiveness of prototype-guided domain conditioning for industrial defect detection.",
-      "keyPoints": [
-        "Bottle-SKU provides 13,119 images and 48 bottle SKUs with instance-level defect annotations for industrial detection.",
-        "ProDMM constructs visual prototypes and dynamically modulates features to handle SKU-specific appearance variations.",
-        "Experiments confirm the effectiveness of prototype-guided domain conditioning on industrial defect datasets."
+        "Reviews PASS-enabled ISAC architectures for 6G systems.",
+        "Analyzes single, multi, and segmented waveguide configurations.",
+        "Demonstrates joint segment selection and beamforming using reinforcement learning."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.38194",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.41380",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Bottle-SKU and ProDMM for Shampoo Bottle Surface Defect Detection",
-          "summary": "The authors introduce Bottle-SKU, a large-scale multi-SKU benchmark containing 13,119 images across 48 bottle SKUs for shampoo bottle surface defect detection. To address SKU-specific appearance variation, they propose Prototype-Guided Dynamic Domain Modulation (ProDMM). Experiments on Bottle-SKU and GC10-DET-SKU demonstrate the effectiveness of prototype-guided domain conditioning for industrial defect detection.",
+          "title": "Pinching Antennas for ISAC: Waveguide Architectures and Solutions",
+          "summary": "This article reviews pinching antenna systems (PASS) for integrated sensing and communication in 6G wireless systems, examining single, multi, and segmented waveguide architectures and trade-offs.",
           "keyPoints": [
-            "Bottle-SKU provides 13,119 images and 48 bottle SKUs with instance-level defect annotations for industrial detection.",
-            "ProDMM constructs visual prototypes and dynamically modulates features to handle SKU-specific appearance variations.",
-            "Experiments confirm the effectiveness of prototype-guided domain conditioning on industrial defect datasets."
+            "Reviews PASS-enabled ISAC architectures for 6G systems.",
+            "Analyzes single, multi, and segmented waveguide configurations.",
+            "Demonstrates joint segment selection and beamforming using reinforcement learning."
           ]
         },
         "fr": {
-          "title": "Bottle-SKU et ProDMM pour la détection de défauts de surface de bouteilles de shampooing",
-          "summary": "Les auteurs présentent Bottle-SKU, un benchmark multi-SKU à grande échelle contenant 13 119 images à travers 48 SKU de bouteilles pour la détection de défauts de surface. Pour répondre aux variations d'apparence spécifiques aux SKU, ils proposent la modulation de domaine dynamique guidée par prototype (ProDMM). Des expériences sur Bottle-SKU et GC10-DET-SKU démontrent l'efficacité de cette approche.",
+          "title": "Antennes à pincement pour ISAC : architectures de guides d'ondes et solutions",
+          "summary": "Cet article examine les systèmes d'antennes à pincement pour la détection et la communication intégrées dans les systèmes sans fil 6G, en analysant les architectures de guides d'ondes.",
           "keyPoints": [
-            "Bottle-SKU fournit 13 119 images et 48 SKU de bouteilles avec des annotations de défauts au niveau des instances.",
-            "ProDMM construit des prototypes visuels et module dynamiquement les caractéristiques pour gérer les variations de SKU.",
-            "Les expériences confirment l'efficacité du conditionnement de domaine guidé par prototype sur des ensembles de données industriels."
+            "Passe en revue les architectures ISAC basées sur PASS pour les systèmes 6G.",
+            "Analyse les configurations de guides d'ondes simples, multiples et segmentés.",
+            "Démontre la sélection conjointe de segments par apprentissage par renforcement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-315c05332fa961",
+      "title": "Biologically Inspired Signed-Dyadic Coding for Mandarin Keyword Spotting",
+      "summary": "Inspired by predictive processing, Predictive Signed-Dyadic Coding (PG) transmits acoustic events only when residuals exceed thresholds, achieving 90.00% accuracy while reducing SRAM reads and inference cycles.",
+      "keyPoints": [
+        "Proposes Predictive Signed-Dyadic Coding based on predictive processing.",
+        "Reaches 90.00% accuracy on Mandarin keyword spotting.",
+        "Reduces mean SRAM reads by 33.87% and inference cycles by 32.77%."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41381",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Biologically Inspired Signed-Dyadic Coding for Mandarin Keyword Spotting",
+          "summary": "Inspired by predictive processing, Predictive Signed-Dyadic Coding (PG) transmits acoustic events only when residuals exceed thresholds, achieving 90.00% accuracy while reducing SRAM reads and inference cycles.",
+          "keyPoints": [
+            "Proposes Predictive Signed-Dyadic Coding based on predictive processing.",
+            "Reaches 90.00% accuracy on Mandarin keyword spotting.",
+            "Reduces mean SRAM reads by 33.87% and inference cycles by 32.77%."
+          ]
+        },
+        "fr": {
+          "title": "Codage dyadique signé d'inspiration biologique pour la reconnaissance de mots-clés",
+          "summary": "Inspiré par le traitement prédictif, le codage dyadique signé prédictif transmet des événements acoustiques uniquement lorsque les résidus dépassent des seuils, atteignant 90,00 % de précision.",
+          "keyPoints": [
+            "Propose un codage prédictif dyadique signé basé sur le traitement prédictif.",
+            "Atteint 90,00 % de précision sur la reconnaissance de mots-clés en mandarin.",
+            "Réduit les lectures SRAM de 33,87 % et les cycles d'inférence de 32,77 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4dcdf16e79c32d",
+      "title": "ProSearch: Benchmarking Multi-Constraint Protocol Retrieval",
+      "summary": "ProSearch is a benchmark for multi-constraint protocol retrieval in experimental science, containing 1,515 queries across six domains to evaluate retrieval systems against complex dependencies.",
+      "keyPoints": [
+        "Introduces ProSearch benchmark with 1,515 queries across six science domains.",
+        "Evaluates 19 representative retrievers on multi-constraint matching.",
+        "Shows top retriever achieves nDCG@10 of 0.290, improving to 0.474 with reranking."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41396",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ProSearch: Benchmarking Multi-Constraint Protocol Retrieval",
+          "summary": "ProSearch is a benchmark for multi-constraint protocol retrieval in experimental science, containing 1,515 queries across six domains to evaluate retrieval systems against complex dependencies.",
+          "keyPoints": [
+            "Introduces ProSearch benchmark with 1,515 queries across six science domains.",
+            "Evaluates 19 representative retrievers on multi-constraint matching.",
+            "Shows top retriever achieves nDCG@10 of 0.290, improving to 0.474 with reranking."
+          ]
+        },
+        "fr": {
+          "title": "ProSearch : évaluation comparative de la recherche de protocoles à contraintes multiples",
+          "summary": "ProSearch est un banc d'essai pour la recherche de protocoles à contraintes multiples en science expérimentale, contenant 1 515 requêtes dans six domaines pour évaluer les systèmes de recherche.",
+          "keyPoints": [
+            "Introduit le benchmark ProSearch avec 1 515 requêtes dans six domaines scientifiques.",
+            "Évalue 19 récupérateurs représentatifs sur l'appariement de contraintes multiples.",
+            "Montre que le meilleur récupérateur atteint un nDCG@10 de 0,290."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-460c7f8023ad20",
+      "title": "Distilling Knowledge from Search for Quantum LDPC Codes",
+      "summary": "GraphMP is a learning-based message-passing decoder for quantum low-density parity-check codes that transfers across code families and sizes. A decoder model factory uses knowledge distillation from search trajectories.",
+      "keyPoints": [
+        "Introduces GraphMP, a scalable message-passing decoder for quantum codes.",
+        "Uses a decoder model factory to train successive models via knowledge distillation.",
+        "Proposes a coupled quantum-classical architecture for rapid decoding and learning."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41398",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Distilling Knowledge from Search for Quantum LDPC Codes",
+          "summary": "GraphMP is a learning-based message-passing decoder for quantum low-density parity-check codes that transfers across code families and sizes. A decoder model factory uses knowledge distillation from search trajectories.",
+          "keyPoints": [
+            "Introduces GraphMP, a scalable message-passing decoder for quantum codes.",
+            "Uses a decoder model factory to train successive models via knowledge distillation.",
+            "Proposes a coupled quantum-classical architecture for rapid decoding and learning."
+          ]
+        },
+        "fr": {
+          "title": "Distillation de connaissances de la recherche pour les codes LDPC quantiques",
+          "summary": "GraphMP est un décodeur à passage de messages basé sur l'apprentissage pour les codes de parité à faible densité quantiques. Une fabrique de modèles de décodeurs utilise la distillation de connaissances.",
+          "keyPoints": [
+            "Présente GraphMP, un décodeur évolutif à passage de messages pour codes quantiques.",
+            "Utilise une fabrique de modèles de décodeurs via la distillation de connaissances.",
+            "Propose une architecture quantique-classique couplée pour le décodage rapide."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cafbd63bb323e1",
+      "title": "When Safety Checks Become Privacy Risks: Privacy-Preserving LLM Auditing",
+      "summary": "This work proposes a privacy-preserving paradigm for LLM agent safety auditing that separates delegated audit computation from plaintext access. SealCall achieves high accuracy while encrypting audit inputs.",
+      "keyPoints": [
+        "Proposes a privacy-preserving auditing paradigm for LLM agent safety.",
+        "Separates audit computation from plaintext access using encryption.",
+        "SealCall framework achieves 0.840 mean F1 score on evaluated candidates."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2610.41401",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "When Safety Checks Become Privacy Risks: Privacy-Preserving LLM Auditing",
+          "summary": "This work proposes a privacy-preserving paradigm for LLM agent safety auditing that separates delegated audit computation from plaintext access. SealCall achieves high accuracy while encrypting audit inputs.",
+          "keyPoints": [
+            "Proposes a privacy-preserving auditing paradigm for LLM agent safety.",
+            "Separates audit computation from plaintext access using encryption.",
+            "SealCall framework achieves 0.840 mean F1 score on evaluated candidates."
+          ]
+        },
+        "fr": {
+          "title": "Quand les contrôles de sécurité posent des risques de confidentialité : audit LLM",
+          "summary": "Ce travail propose un paradigme préservant la confidentialité pour l'audit de sécurité des agents LLM qui sépare le calcul d'audit délégué de l'accès en texte clair. SealCall atteint une grande précision.",
+          "keyPoints": [
+            "Propose un paradigme d'audit préservant la confidentialité pour les agents LLM.",
+            "Sépare le calcul d'audit de l'accès en texte clair en utilisant le chiffrement.",
+            "Le cadre SealCall atteint un score F1 moyen de 0,840 sur les candidats évalués."
           ]
         }
       },
@@ -784,11 +784,11 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 28,
+    "itemsCollected": 327,
     "itemsPublished": 20,
-    "newItems": 5,
-    "candidates": 5,
-    "batches": 1,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
