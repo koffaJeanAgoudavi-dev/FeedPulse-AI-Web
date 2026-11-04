@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-11-04T06:26:08.675Z",
+  "generatedAt": "2026-11-04T19:47:31.229Z",
   "items": [
+    {
+      "id": "feed-1be4fdd8e6ca80",
+      "title": "OpenAI to Acquire Pierre Computer Company",
+      "summary": "OpenAI has announced it will acquire Pierre Computer Company, aiming to expand the tools available in Codex for building, understanding, and reviewing code.",
+      "keyPoints": [
+        "OpenAI is acquiring Pierre Computer Company",
+        "The acquisition expands Codex's capabilities",
+        "Focuses on building, understanding, and reviewing code"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-pierre",
+      "publishedAt": "2026-11-04T14:30:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI to Acquire Pierre Computer Company",
+          "summary": "OpenAI has announced it will acquire Pierre Computer Company, aiming to expand the tools available in Codex for building, understanding, and reviewing code.",
+          "keyPoints": [
+            "OpenAI is acquiring Pierre Computer Company",
+            "The acquisition expands Codex's capabilities",
+            "Focuses on building, understanding, and reviewing code"
+          ]
+        },
+        "fr": {
+          "title": "OpenAI va acquérir Pierre Computer Company",
+          "summary": "OpenAI a annoncé l'acquisition de Pierre Computer Company afin d'élargir les outils de Codex pour la création, la compréhension et la révision de code.",
+          "keyPoints": [
+            "OpenAI rachète Pierre Computer Company",
+            "L'acquisition élargit les outils de Codex",
+            "Axé sur la création, la compréhension et la révision de code"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a3433e936d2c04",
+      "title": "Daybreak Red Available in AWS GovCloud",
+      "summary": "Daybreak Red is now accessible to approved customers in AWS GovCloud (US-East) via Amazon Bedrock, providing GPT-5.6 Cyber for authorized cybersecurity work.",
+      "keyPoints": [
+        "Daybreak Red launches in AWS GovCloud (US-East)",
+        "Available via Amazon Bedrock for approved customers",
+        "Provides GPT-5.6 Cyber for authorized cybersecurity tasks"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "publishedAt": "2026-11-04T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Daybreak Red Available in AWS GovCloud",
+          "summary": "Daybreak Red is now accessible to approved customers in AWS GovCloud (US-East) via Amazon Bedrock, providing GPT-5.6 Cyber for authorized cybersecurity work.",
+          "keyPoints": [
+            "Daybreak Red launches in AWS GovCloud (US-East)",
+            "Available via Amazon Bedrock for approved customers",
+            "Provides GPT-5.6 Cyber for authorized cybersecurity tasks"
+          ]
+        },
+        "fr": {
+          "title": "Daybreak Red disponible dans AWS GovCloud",
+          "summary": "Daybreak Red est désormais accessible aux clients approuvés dans AWS GovCloud (US-East) via Amazon Bedrock, offrant GPT-5.6 Cyber pour des tâches de cybersécurité autorisées.",
+          "keyPoints": [
+            "Daybreak Red arrive dans AWS GovCloud (US-East)",
+            "Disponible via Amazon Bedrock pour les clients approuvés",
+            "Fournit GPT-5.6 Cyber pour la cybersécurité autorisée"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-34e7d62615202d",
       "title": "Cisco defends at machine speed with OpenAI",
@@ -702,92 +780,14 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-2b74846eed866b",
-      "title": "GenDSR: Transferring Representations for Dynamic Spatial Reasoning",
-      "summary": "GenDSR transfers intermediate representations from video generation models into vision-language models for dynamic spatial reasoning. By using raw and delta branches with task-conditioned gates, it achieves 67.2% on DSR-Bench.",
-      "keyPoints": [
-        "Transfers spatiotemporal representations from video generation models.",
-        "Constructs raw and delta branches to capture context and temporal variation.",
-        "Achieves 67.2 percent on DSR-Bench, setting a new state of the art."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41314",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GenDSR: Transferring Representations for Dynamic Spatial Reasoning",
-          "summary": "GenDSR transfers intermediate representations from video generation models into vision-language models for dynamic spatial reasoning. By using raw and delta branches with task-conditioned gates, it achieves 67.2% on DSR-Bench.",
-          "keyPoints": [
-            "Transfers spatiotemporal representations from video generation models.",
-            "Constructs raw and delta branches to capture context and temporal variation.",
-            "Achieves 67.2 percent on DSR-Bench, setting a new state of the art."
-          ]
-        },
-        "fr": {
-          "title": "GenDSR : transfert de représentations pour le raisonnement spatial dynamique",
-          "summary": "GenDSR transfère les représentations intermédiaires des modèles de génération vidéo vers les modèles vision-langage pour le raisonnement spatial dynamique. En utilisant des branches brutes et delta, il atteint 67,2 % sur DSR-Bench.",
-          "keyPoints": [
-            "Transfère des représentations spatiotemporelles de modèles de génération vidéo.",
-            "Construit des branches brutes et delta pour capturer le contexte et la variation temporelle.",
-            "Atteint 67,2 pour cent sur DSR-Bench, établissant un nouvel état de l'art."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2a31068759513b",
-      "title": "Transferring Peptide-Target Interaction Patterns to Small Molecules",
-      "summary": "PIFT is a framework that transfers peptide-target interaction patterns to small molecules through joint guidance of diffusion and flow matching. It maps interfaces into a shared space to improve interface recovery and docking performance.",
-      "keyPoints": [
-        "Introduces PIFT for target-conditioned interaction space mapping.",
-        "Uses joint sampling-time guidance of diffusion and flow matching.",
-        "Improves interface recovery and docking performance for drug discovery."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41322",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Transferring Peptide-Target Interaction Patterns to Small Molecules",
-          "summary": "PIFT is a framework that transfers peptide-target interaction patterns to small molecules through joint guidance of diffusion and flow matching. It maps interfaces into a shared space to improve interface recovery and docking performance.",
-          "keyPoints": [
-            "Introduces PIFT for target-conditioned interaction space mapping.",
-            "Uses joint sampling-time guidance of diffusion and flow matching.",
-            "Improves interface recovery and docking performance for drug discovery."
-          ]
-        },
-        "fr": {
-          "title": "Transfert de motifs d'interaction peptide-cible vers de petites molécules",
-          "summary": "PIFT est un cadre qui transfère des motifs d'interaction peptide-cible vers de petites molécules grâce à une guidance conjointe de diffusion et de correspondance de flux. Il cartographie les interfaces dans un espace partagé.",
-          "keyPoints": [
-            "Introduit PIFT pour la cartographie d'espaces d'interaction conditionnés par la cible.",
-            "Utilise une guidance conjointe de diffusion et de correspondance de flux.",
-            "Améliore la récupération d'interface et les performances d'amarrage."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 35,
+    "itemsCollected": 33,
     "itemsPublished": 20,
-    "newItems": 3,
-    "candidates": 3,
+    "newItems": 2,
+    "candidates": 2,
     "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
