@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-11-03T19:30:08.617Z",
+  "generatedAt": "2026-11-04T06:26:08.675Z",
   "items": [
+    {
+      "id": "feed-34e7d62615202d",
+      "title": "Cisco defends at machine speed with OpenAI",
+      "summary": "Cisco is combining network intelligence with OpenAI models to strengthen enterprise security and build more adaptive defenses.",
+      "keyPoints": [
+        "Cisco combines network intelligence with OpenAI models",
+        "The collaboration strengthens enterprise security",
+        "It aims to build more adaptive defenses"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/cisco-cyber",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Cisco defends at machine speed with OpenAI",
+          "summary": "Cisco is combining network intelligence with OpenAI models to strengthen enterprise security and build more adaptive defenses.",
+          "keyPoints": [
+            "Cisco combines network intelligence with OpenAI models",
+            "The collaboration strengthens enterprise security",
+            "It aims to build more adaptive defenses"
+          ]
+        },
+        "fr": {
+          "title": "Cisco se défend à la vitesse de la machine avec OpenAI",
+          "summary": "Cisco associe l'intelligence réseau aux modèles d'OpenAI pour renforcer la sécurité des entreprises et bâtir des défenses plus adaptatives.",
+          "keyPoints": [
+            "Cisco associe l'intelligence réseau aux modèles d'OpenAI",
+            "Le partenariat renforce la sécurité des entreprises",
+            "Il vise à construire des défenses plus adaptatives"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-019edb616369c3",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "summary": "Jill Hazelbaker is joining OpenAI as Chief Corporate Affairs Officer, taking charge of the company’s global communications and corporate positioning.",
+      "keyPoints": [
+        "Jill Hazelbaker joins OpenAI",
+        "Appointed as Chief Corporate Affairs Officer",
+        "Will lead global communications and corporate positioning"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+          "summary": "Jill Hazelbaker is joining OpenAI as Chief Corporate Affairs Officer, taking charge of the company’s global communications and corporate positioning.",
+          "keyPoints": [
+            "Jill Hazelbaker joins OpenAI",
+            "Appointed as Chief Corporate Affairs Officer",
+            "Will lead global communications and corporate positioning"
+          ]
+        },
+        "fr": {
+          "title": "OpenAI nomme Jill Hazelbaker directrice des affaires institutionnelles",
+          "summary": "Jill Hazelbaker rejoint OpenAI en tant que directrice des affaires institutionnelles et dirigera la communication mondiale ainsi que le positionnement de l'entreprise.",
+          "keyPoints": [
+            "Jill Hazelbaker rejoint OpenAI",
+            "Nommée directrice des affaires institutionnelles",
+            "Dirigera la communication mondiale et le positionnement"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-16681fd606d5f6",
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to AI users, tracking how frequently free trials converted into paid subscriptions.",
+      "keyPoints": [
+        "Evernote used ChatGPT Ads to reach AI users",
+        "Introduced its note-taking app to new audiences",
+        "Tracked conversion from free trials to paid subscriptions"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/ads/customers/evernote",
+      "publishedAt": "2026-10-28T19:40:49.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evernote turns AI-driven discovery into paid subscriptions",
+          "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to AI users, tracking how frequently free trials converted into paid subscriptions.",
+          "keyPoints": [
+            "Evernote used ChatGPT Ads to reach AI users",
+            "Introduced its note-taking app to new audiences",
+            "Tracked conversion from free trials to paid subscriptions"
+          ]
+        },
+        "fr": {
+          "title": "Evernote convertit la découverte par l'IA en abonnements payants",
+          "summary": "Evernote a utilisé les publicités ChatGPT pour présenter son application de notes aux utilisateurs d'IA et a suivi la conversion des essais gratuits en abonnements.",
+          "keyPoints": [
+            "Evernote a utilisé les publicités ChatGPT pour toucher les utilisateurs d'IA",
+            "A présenté son application de notes à de nouveaux publics",
+            "A suivi la conversion des essais gratuits en abonnements payants"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-da38bc69716356",
       "title": "Agentic Cheminformatics with Google Antigravity",
@@ -663,128 +780,11 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-397d16cbf667dc",
-      "title": "Aggregator Complexity Does Not Improve Gastric WSI Classification",
-      "summary": "Evaluating multiple-instance learning aggregators on over 5,000 gastric slides from five hospitals, researchers show that complex aggregators do not improve cross-hospital discrimination when using foundation-model features.",
-      "keyPoints": [
-        "Uses 5,036 gastric slides across five hospitals for evaluation.",
-        "Compares multiple-instance learning aggregators on foundation-model features.",
-        "Shows complex aggregators do not improve discrimination over simpler global pooling."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41328",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Aggregator Complexity Does Not Improve Gastric WSI Classification",
-          "summary": "Evaluating multiple-instance learning aggregators on over 5,000 gastric slides from five hospitals, researchers show that complex aggregators do not improve cross-hospital discrimination when using foundation-model features.",
-          "keyPoints": [
-            "Uses 5,036 gastric slides across five hospitals for evaluation.",
-            "Compares multiple-instance learning aggregators on foundation-model features.",
-            "Shows complex aggregators do not improve discrimination over simpler global pooling."
-          ]
-        },
-        "fr": {
-          "title": "La complexité des agrégateurs n'améliore pas la classification WSI gastrique",
-          "summary": "En évaluant des agrégateurs d'apprentissage à instances multiples sur plus de 5 000 lames gastriques de cinq hôpitaux, des chercheurs montrent que les agrégateurs complexes n'améliorent pas la discrimination inter-hôpitaux.",
-          "keyPoints": [
-            "Utilise 5 036 lames gastriques de cinq hôpitaux pour l'évaluation.",
-            "Compare des agrégateurs d'apprentissage à instances multiples.",
-            "Montre que les agrégateurs complexes n'améliorent pas la discrimination."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0669e16aee4a25",
-      "title": "Pinching Antennas for ISAC: Waveguide Architectures and Solutions",
-      "summary": "This article reviews pinching antenna systems (PASS) for integrated sensing and communication in 6G wireless systems, examining single, multi, and segmented waveguide architectures and trade-offs.",
-      "keyPoints": [
-        "Reviews PASS-enabled ISAC architectures for 6G systems.",
-        "Analyzes single, multi, and segmented waveguide configurations.",
-        "Demonstrates joint segment selection and beamforming using reinforcement learning."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41380",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Pinching Antennas for ISAC: Waveguide Architectures and Solutions",
-          "summary": "This article reviews pinching antenna systems (PASS) for integrated sensing and communication in 6G wireless systems, examining single, multi, and segmented waveguide architectures and trade-offs.",
-          "keyPoints": [
-            "Reviews PASS-enabled ISAC architectures for 6G systems.",
-            "Analyzes single, multi, and segmented waveguide configurations.",
-            "Demonstrates joint segment selection and beamforming using reinforcement learning."
-          ]
-        },
-        "fr": {
-          "title": "Antennes à pincement pour ISAC : architectures de guides d'ondes et solutions",
-          "summary": "Cet article examine les systèmes d'antennes à pincement pour la détection et la communication intégrées dans les systèmes sans fil 6G, en analysant les architectures de guides d'ondes.",
-          "keyPoints": [
-            "Passe en revue les architectures ISAC basées sur PASS pour les systèmes 6G.",
-            "Analyse les configurations de guides d'ondes simples, multiples et segmentés.",
-            "Démontre la sélection conjointe de segments par apprentissage par renforcement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-315c05332fa961",
-      "title": "Biologically Inspired Signed-Dyadic Coding for Mandarin Keyword Spotting",
-      "summary": "Inspired by predictive processing, Predictive Signed-Dyadic Coding (PG) transmits acoustic events only when residuals exceed thresholds, achieving 90.00% accuracy while reducing SRAM reads and inference cycles.",
-      "keyPoints": [
-        "Proposes Predictive Signed-Dyadic Coding based on predictive processing.",
-        "Reaches 90.00% accuracy on Mandarin keyword spotting.",
-        "Reduces mean SRAM reads by 33.87% and inference cycles by 32.77%."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41381",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Biologically Inspired Signed-Dyadic Coding for Mandarin Keyword Spotting",
-          "summary": "Inspired by predictive processing, Predictive Signed-Dyadic Coding (PG) transmits acoustic events only when residuals exceed thresholds, achieving 90.00% accuracy while reducing SRAM reads and inference cycles.",
-          "keyPoints": [
-            "Proposes Predictive Signed-Dyadic Coding based on predictive processing.",
-            "Reaches 90.00% accuracy on Mandarin keyword spotting.",
-            "Reduces mean SRAM reads by 33.87% and inference cycles by 32.77%."
-          ]
-        },
-        "fr": {
-          "title": "Codage dyadique signé d'inspiration biologique pour la reconnaissance de mots-clés",
-          "summary": "Inspiré par le traitement prédictif, le codage dyadique signé prédictif transmet des événements acoustiques uniquement lorsque les résidus dépassent des seuils, atteignant 90,00 % de précision.",
-          "keyPoints": [
-            "Propose un codage prédictif dyadique signé basé sur le traitement prédictif.",
-            "Atteint 90,00 % de précision sur la reconnaissance de mots-clés en mandarin.",
-            "Réduit les lectures SRAM de 33,87 % et les cycles d'inférence de 32,77 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 32,
+    "itemsCollected": 35,
     "itemsPublished": 20,
     "newItems": 3,
     "candidates": 3,
