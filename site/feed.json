@@ -1,76 +1,76 @@
 {
-  "generatedAt": "2026-11-04T19:47:31.229Z",
+  "generatedAt": "2026-11-05T06:50:16.007Z",
   "items": [
     {
-      "id": "feed-1be4fdd8e6ca80",
-      "title": "OpenAI to Acquire Pierre Computer Company",
-      "summary": "OpenAI has announced it will acquire Pierre Computer Company, aiming to expand the tools available in Codex for building, understanding, and reviewing code.",
+      "id": "feed-f846b630bec3a5",
+      "title": "Evidence-Gated Authority in LLM Review Institutions",
+      "summary": "This paper investigates how to determine when an LLM reviewer should have binding authority over an upstream agent's decision. By comparing broad override authority with an evidence gate requiring proof of a constraint violation, the authors show that interface design heavily impacts performance, though it remains model-dependent.",
       "keyPoints": [
-        "OpenAI is acquiring Pierre Computer Company",
-        "The acquisition expands Codex's capabilities",
-        "Focuses on building, understanding, and reviewing code"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-to-acquire-pierre",
-      "publishedAt": "2026-11-04T14:30:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI to Acquire Pierre Computer Company",
-          "summary": "OpenAI has announced it will acquire Pierre Computer Company, aiming to expand the tools available in Codex for building, understanding, and reviewing code.",
-          "keyPoints": [
-            "OpenAI is acquiring Pierre Computer Company",
-            "The acquisition expands Codex's capabilities",
-            "Focuses on building, understanding, and reviewing code"
-          ]
-        },
-        "fr": {
-          "title": "OpenAI va acquérir Pierre Computer Company",
-          "summary": "OpenAI a annoncé l'acquisition de Pierre Computer Company afin d'élargir les outils de Codex pour la création, la compréhension et la révision de code.",
-          "keyPoints": [
-            "OpenAI rachète Pierre Computer Company",
-            "L'acquisition élargit les outils de Codex",
-            "Axé sur la création, la compréhension et la révision de code"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a3433e936d2c04",
-      "title": "Daybreak Red Available in AWS GovCloud",
-      "summary": "Daybreak Red is now accessible to approved customers in AWS GovCloud (US-East) via Amazon Bedrock, providing GPT-5.6 Cyber for authorized cybersecurity work.",
-      "keyPoints": [
-        "Daybreak Red launches in AWS GovCloud (US-East)",
-        "Available via Amazon Bedrock for approved customers",
-        "Provides GPT-5.6 Cyber for authorized cybersecurity tasks"
+        "Evaluates evidence gates versus broad override authority for multi-agent LLM systems.",
+        "Demonstrates that a mechanical record of constraint violations reduces the corruption of correct proposals.",
+        "Shows that interface design changes reviewer behavior, but remains dependent on the underlying model."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "publishedAt": "2026-11-04T07:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05390",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Daybreak Red Available in AWS GovCloud",
-          "summary": "Daybreak Red is now accessible to approved customers in AWS GovCloud (US-East) via Amazon Bedrock, providing GPT-5.6 Cyber for authorized cybersecurity work.",
+          "title": "Evidence-Gated Authority in LLM Review Institutions",
+          "summary": "This paper investigates how to determine when an LLM reviewer should have binding authority over an upstream agent's decision. By comparing broad override authority with an evidence gate requiring proof of a constraint violation, the authors show that interface design heavily impacts performance, though it remains model-dependent.",
           "keyPoints": [
-            "Daybreak Red launches in AWS GovCloud (US-East)",
-            "Available via Amazon Bedrock for approved customers",
-            "Provides GPT-5.6 Cyber for authorized cybersecurity tasks"
+            "Evaluates evidence gates versus broad override authority for multi-agent LLM systems.",
+            "Demonstrates that a mechanical record of constraint violations reduces the corruption of correct proposals.",
+            "Shows that interface design changes reviewer behavior, but remains dependent on the underlying model."
           ]
         },
         "fr": {
-          "title": "Daybreak Red disponible dans AWS GovCloud",
-          "summary": "Daybreak Red est désormais accessible aux clients approuvés dans AWS GovCloud (US-East) via Amazon Bedrock, offrant GPT-5.6 Cyber pour des tâches de cybersécurité autorisées.",
+          "title": "Autorité conditionnée par des preuves dans les revues par LLM",
+          "summary": "Cet article examine comment déterminer le moment où un réviseur LLM dispose d'une autorité exécutoire sur la décision d'un agent amont. En comparant une large autorité de contournement à un sas de preuve exigeant une violation de contrainte, les auteurs montrent que la conception de l'interface influence les performances.",
           "keyPoints": [
-            "Daybreak Red arrive dans AWS GovCloud (US-East)",
-            "Disponible via Amazon Bedrock pour les clients approuvés",
-            "Fournit GPT-5.6 Cyber pour la cybersécurité autorisée"
+            "Évalue les sas de preuve par rapport à une large autorité de contournement pour les systèmes multi-agents.",
+            "Démontre qu'un enregistrement mécanique réduit la corruption des propositions correctes.",
+            "Montre que la conception de l'interface modifie le comportement du réviseur selon le modèle."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fbaa86a829ad59",
+      "title": "OpenAI Pipeline Patches Linux Kernel Vulnerabilities",
+      "summary": "OpenAI built an autonomous pipeline that successfully found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "keyPoints": [
+        "An autonomous pipeline was developed by OpenAI.",
+        "The system targeted local privilege-escalation vulnerabilities in the Linux kernel.",
+        "It successfully found, validated, and generated patches for 948 vulnerabilities."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI Pipeline Patches Linux Kernel Vulnerabilities",
+          "summary": "OpenAI built an autonomous pipeline that successfully found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "keyPoints": [
+            "An autonomous pipeline was developed by OpenAI.",
+            "The system targeted local privilege-escalation vulnerabilities in the Linux kernel.",
+            "It successfully found, validated, and generated patches for 948 vulnerabilities."
+          ]
+        },
+        "fr": {
+          "title": "Un pipeline d'OpenAI corrige des vulnérabilités du noyau Linux",
+          "summary": "OpenAI a construit un pipeline autonome qui a découvert, validé et généré des correctifs pour 948 vulnérabilités d'escalade de privilèges locaux dans le noyau Linux.",
+          "keyPoints": [
+            "Un pipeline autonome a été conçu par OpenAI.",
+            "Le système ciblait les vulnérabilités d'escalade de privilèges locaux dans le noyau Linux.",
+            "Il a trouvé, validé et généré des correctifs pour 948 vulnérabilités."
           ]
         }
       },
@@ -80,192 +80,75 @@
       }
     },
     {
-      "id": "feed-34e7d62615202d",
-      "title": "Cisco defends at machine speed with OpenAI",
-      "summary": "Cisco is combining network intelligence with OpenAI models to strengthen enterprise security and build more adaptive defenses.",
+      "id": "feed-fb43f0f2d5d925",
+      "title": "Agent Harness Awareness: Verified Telemetry for Tool Agents",
+      "summary": "The authors introduce Agent Harness Awareness, a trust-separated design where hosts supply verified state snapshots to tools before consequential actions. Tests across multiple models show that verified tool-health states significantly reduce observable policy regret and improve task completion rates.",
       "keyPoints": [
-        "Cisco combines network intelligence with OpenAI models",
-        "The collaboration strengthens enterprise security",
-        "It aims to build more adaptive defenses"
+        "Introduces Agent Harness Awareness to resolve operational blindness in tool-using agents.",
+        "Supplies small, fresh, verified state snapshots before executing actions.",
+        "Demonstrated significant reduction in policy regret and improved single-dispatch completion rates."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/cisco-cyber",
-      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05391",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Cisco defends at machine speed with OpenAI",
-          "summary": "Cisco is combining network intelligence with OpenAI models to strengthen enterprise security and build more adaptive defenses.",
+          "title": "Agent Harness Awareness: Verified Telemetry for Tool Agents",
+          "summary": "The authors introduce Agent Harness Awareness, a trust-separated design where hosts supply verified state snapshots to tools before consequential actions. Tests across multiple models show that verified tool-health states significantly reduce observable policy regret and improve task completion rates.",
           "keyPoints": [
-            "Cisco combines network intelligence with OpenAI models",
-            "The collaboration strengthens enterprise security",
-            "It aims to build more adaptive defenses"
+            "Introduces Agent Harness Awareness to resolve operational blindness in tool-using agents.",
+            "Supplies small, fresh, verified state snapshots before executing actions.",
+            "Demonstrated significant reduction in policy regret and improved single-dispatch completion rates."
           ]
         },
         "fr": {
-          "title": "Cisco se défend à la vitesse de la machine avec OpenAI",
-          "summary": "Cisco associe l'intelligence réseau aux modèles d'OpenAI pour renforcer la sécurité des entreprises et bâtir des défenses plus adaptatives.",
+          "title": "Conscience des harnais d'agents : Télémétrie vérifiée",
+          "summary": "Les auteurs présentent l'« Agent Harness Awareness », une conception à confiance séparée où l'hôte fournit des instantanés d'état vérifiés avant les actions. Des tests sur plusieurs modèles montrent que ces états de santé réduisent considérablement les regrets et améliorent l'achèvement des tâches.",
           "keyPoints": [
-            "Cisco associe l'intelligence réseau aux modèles d'OpenAI",
-            "Le partenariat renforce la sécurité des entreprises",
-            "Il vise à construire des défenses plus adaptatives"
+            "Introduit l'Agent Harness Awareness pour résoudre l'cécité opérationnelle des agents.",
+            "Fournit des instantanés d'état vérifiés avant l'exécution d'actions consécutives.",
+            "Démontre une réduction des regrets politiques et une amélioration des taux de réussite."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-019edb616369c3",
-      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "summary": "Jill Hazelbaker is joining OpenAI as Chief Corporate Affairs Officer, taking charge of the company’s global communications and corporate positioning.",
+      "id": "feed-295354ff422b0d",
+      "title": "Introducing Images 2.6 with Faster Generation and API Controls",
+      "summary": "OpenAI has announced Images 2.6, bringing faster image generation, GIF creation capabilities, more precise editing tools, and new API controls across ChatGPT, Codex, and the API.",
       "keyPoints": [
-        "Jill Hazelbaker joins OpenAI",
-        "Appointed as Chief Corporate Affairs Officer",
-        "Will lead global communications and corporate positioning"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-          "summary": "Jill Hazelbaker is joining OpenAI as Chief Corporate Affairs Officer, taking charge of the company’s global communications and corporate positioning.",
-          "keyPoints": [
-            "Jill Hazelbaker joins OpenAI",
-            "Appointed as Chief Corporate Affairs Officer",
-            "Will lead global communications and corporate positioning"
-          ]
-        },
-        "fr": {
-          "title": "OpenAI nomme Jill Hazelbaker directrice des affaires institutionnelles",
-          "summary": "Jill Hazelbaker rejoint OpenAI en tant que directrice des affaires institutionnelles et dirigera la communication mondiale ainsi que le positionnement de l'entreprise.",
-          "keyPoints": [
-            "Jill Hazelbaker rejoint OpenAI",
-            "Nommée directrice des affaires institutionnelles",
-            "Dirigera la communication mondiale et le positionnement"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-16681fd606d5f6",
-      "title": "Evernote turns AI-driven discovery into paid subscriptions",
-      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to AI users, tracking how frequently free trials converted into paid subscriptions.",
-      "keyPoints": [
-        "Evernote used ChatGPT Ads to reach AI users",
-        "Introduced its note-taking app to new audiences",
-        "Tracked conversion from free trials to paid subscriptions"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/ads/customers/evernote",
-      "publishedAt": "2026-10-28T19:40:49.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evernote turns AI-driven discovery into paid subscriptions",
-          "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to AI users, tracking how frequently free trials converted into paid subscriptions.",
-          "keyPoints": [
-            "Evernote used ChatGPT Ads to reach AI users",
-            "Introduced its note-taking app to new audiences",
-            "Tracked conversion from free trials to paid subscriptions"
-          ]
-        },
-        "fr": {
-          "title": "Evernote convertit la découverte par l'IA en abonnements payants",
-          "summary": "Evernote a utilisé les publicités ChatGPT pour présenter son application de notes aux utilisateurs d'IA et a suivi la conversion des essais gratuits en abonnements.",
-          "keyPoints": [
-            "Evernote a utilisé les publicités ChatGPT pour toucher les utilisateurs d'IA",
-            "A présenté son application de notes à de nouveaux publics",
-            "A suivi la conversion des essais gratuits en abonnements payants"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-da38bc69716356",
-      "title": "Agentic Cheminformatics with Google Antigravity",
-      "summary": "Google introduces Google Antigravity and Cheminformatics Skills designed to accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-      "keyPoints": [
-        "Accelerates drug discovery workflows",
-        "Searches compounds efficiently",
-        "Proposes novel rigidified macrocycles"
-      ],
-      "category": "Outils",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "publishedAt": "2026-11-03T17:01:49.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/xPSpWQxbjrJMyHBI5jfRNm0AND2P0itnDlVpkJnKY-TkfZDR90Apc8tYmitx1ocedXUHJtQNi1v17fnN_aEyz5Iw7Zge1vblv0DMp_mgxt7E8Wjmwg=w1440",
-      "translations": {
-        "en": {
-          "title": "Agentic Cheminformatics with Google Antigravity",
-          "summary": "Google introduces Google Antigravity and Cheminformatics Skills designed to accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-          "keyPoints": [
-            "Accelerates drug discovery workflows",
-            "Searches compounds efficiently",
-            "Proposes novel rigidified macrocycles"
-          ]
-        },
-        "fr": {
-          "title": "Chiminformatique agentique avec Google Antigravity",
-          "summary": "Google présente Google Antigravity et ses compétences en chiminformatique pour accélérer les flux de découverte de médicaments, rechercher des composés et proposer de nouveaux macrocycles rigidifiés.",
-          "keyPoints": [
-            "Accélère les flux de découverte de médicaments",
-            "Recherche efficacement des composés",
-            "Propose de nouveaux macrocycles rigidifiés"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-25493a43cba550",
-      "title": "Accelerating Engineering for the Physical World",
-      "summary": "ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "keyPoints": [
-        "Accelerates CAD design workflows",
-        "Improves PCB design processes",
-        "Enhances engineering simulations"
+        "Images 2.6 introduces faster image generation and GIF creation.",
+        "Features more precise editing capabilities.",
+        "Brings new API controls across ChatGPT, Codex, and the API."
       ],
       "category": "Outils",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/introducing-images-2-6",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Accelerating Engineering for the Physical World",
-          "summary": "ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+          "title": "Introducing Images 2.6 with Faster Generation and API Controls",
+          "summary": "OpenAI has announced Images 2.6, bringing faster image generation, GIF creation capabilities, more precise editing tools, and new API controls across ChatGPT, Codex, and the API.",
           "keyPoints": [
-            "Accelerates CAD design workflows",
-            "Improves PCB design processes",
-            "Enhances engineering simulations"
+            "Images 2.6 introduces faster image generation and GIF creation.",
+            "Features more precise editing capabilities.",
+            "Brings new API controls across ChatGPT, Codex, and the API."
           ]
         },
         "fr": {
-          "title": "Accélérer l'ingénierie pour le monde physique",
-          "summary": "ChatGPT and Codex aident les ingénieurs à accélérer la conception CAO, la conception de circuits imprimés (PCB), la simulation et d'autres flux de travail dans le monde physique.",
+          "title": "Lancement d'Images 2.6 : Génération rapide et contrôles API",
+          "summary": "OpenAI a annoncé Images 2.6, apportant une génération d'images plus rapide, la création de GIF, des outils d'édition plus précis et de nouvelles commandes API pour ChatGPT, Codex et l'API.",
           "keyPoints": [
-            "Accélère les flux de conception CAO",
-            "Améliore les processus de conception de PCB",
-            "Optimise les simulations d'ingénierie"
+            "Images 2.6 introduit une génération d'images et de GIF plus rapide.",
+            "Intègre des capacités d'édition plus précises.",
+            "Apporte de nouveaux contrôles API sur ChatGPT, Codex et l'API."
           ]
         }
       },
@@ -275,75 +158,36 @@
       }
     },
     {
-      "id": "feed-fc87a45dcfbf03",
-      "title": "Heimstaden Transforms Real Estate Management with AI",
-      "summary": "Heimstaden uses OpenAI's ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "id": "feed-e7906e0264c0ef",
+      "title": "Uncertainty-Aware Resource Orchestration for Agentic AI",
+      "summary": "Agentic AI pipelines feature unpredictable resource demands that challenge traditional cloud schedulers. To solve this, researchers propose Conformal Reservation for Orchestration (CRO), an online algorithm utilizing conformal prediction to provide distribution-free resource allocations.",
       "keyPoints": [
-        "Transforms property management with AI",
-        "Cuts operational costs",
-        "Empowers employees across Europe"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/heimstaden",
-      "publishedAt": "2026-11-03T08:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Heimstaden Transforms Real Estate Management with AI",
-          "summary": "Heimstaden uses OpenAI's ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-          "keyPoints": [
-            "Transforms property management with AI",
-            "Cuts operational costs",
-            "Empowers employees across Europe"
-          ]
-        },
-        "fr": {
-          "title": "Heimstaden transforme la gestion immobilière avec l'IA",
-          "summary": "Heimstaden utilise ChatGPT Enterprise et Codex d'OpenAI pour transformer la gestion immobilière, réduire les coûts et responsabiliser ses employés à travers l'Europe.",
-          "keyPoints": [
-            "Transforme la gestion immobilière grâce à l'IA",
-            "Réduit les coûts opérationnels",
-            "Responsabilise les employés à travers l'Europe"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-236d7cfd9d3961",
-      "title": "Context as Infrastructure in Agentic Systems",
-      "summary": "Retrieval-augmented generation is evolving into agentic loops, which solve accuracy but introduce context problems like repeating queries and filling windows with unused passages. The missing layer is knowledge compilation, where LLMs enrich documents with navigation hierarchies and other structural artifacts. A navigation tree of claim-evidence leaves cuts query tokens by an average of 38% and decision latency significantly.",
-      "keyPoints": [
-        "Agentic RAG harnesses achieve high accuracy on benchmarks without compiled or vector indexes.",
-        "Knowledge compilation with claim-evidence leaves cuts query tokens by an average of 38%.",
-        "RAGFlow provides an open-source pipeline implementing these disciplined stations."
+        "Agentic pipelines exhibit heavy-tailed and multi-modal random resource demands.",
+        "Traditional orchestrators struggle due to unknown, non-stationary runtime profiles.",
+        "Introduces CRO, an online algorithm providing finite-sample guarantees via conformal prediction."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41172",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.05392",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Context as Infrastructure in Agentic Systems",
-          "summary": "Retrieval-augmented generation is evolving into agentic loops, which solve accuracy but introduce context problems like repeating queries and filling windows with unused passages. The missing layer is knowledge compilation, where LLMs enrich documents with navigation hierarchies and other structural artifacts. A navigation tree of claim-evidence leaves cuts query tokens by an average of 38% and decision latency significantly.",
+          "title": "Uncertainty-Aware Resource Orchestration for Agentic AI",
+          "summary": "Agentic AI pipelines feature unpredictable resource demands that challenge traditional cloud schedulers. To solve this, researchers propose Conformal Reservation for Orchestration (CRO), an online algorithm utilizing conformal prediction to provide distribution-free resource allocations.",
           "keyPoints": [
-            "Agentic RAG harnesses achieve high accuracy on benchmarks without compiled or vector indexes.",
-            "Knowledge compilation with claim-evidence leaves cuts query tokens by an average of 38%.",
-            "RAGFlow provides an open-source pipeline implementing these disciplined stations."
+            "Agentic pipelines exhibit heavy-tailed and multi-modal random resource demands.",
+            "Traditional orchestrators struggle due to unknown, non-stationary runtime profiles.",
+            "Introduces CRO, an online algorithm providing finite-sample guarantees via conformal prediction."
           ]
         },
         "fr": {
-          "title": "Le contexte comme infrastructure dans les systèmes agentiques",
-          "summary": "La génération augmentée par récupération évolue vers des boucles agentiques, résolvant la précision mais créant des problèmes de contexte. La couche manquante est la compilation des connaissances, où les LLM enrichissent les documents avec des structures hiérarchiques. Un arbre de navigation avec des paires preuve-affirmation réduit les jetons de requête de 38% en moyenne.",
+          "title": "Ordonnancement de ressources tenant compte de l'incertitude",
+          "summary": "Les pipelines d'IA agentique présentent des demandes de ressources imprévisibles. Pour y remédier, les chercheurs proposent le Conformal Reservation for Orchestration (CRO), un algorithme en ligne utilisant la prédiction conforme pour garantir des allocations de ressources sans hypothèse de distribution.",
           "keyPoints": [
-            "Les boucles agentiques atteignent une haute précision sur les benchmarks.",
-            "La compilation des connaissances réduit les jetons de requête de 38% en moyenne.",
-            "RAGFlow propose un pipeline open source mettant en œuvre ces fonctions."
+            "Les pipelines agentiques affichent des demandes de ressources aléatoires et multimodales.",
+            "Les planificateurs traditionnels échouent en raison de profils d'exécution non stationnaires.",
+            "Propose CRO, un algorithme en ligne fournissant des garanties d'allocation par prédiction conforme."
           ]
         }
       },
@@ -353,36 +197,36 @@
       }
     },
     {
-      "id": "feed-bca108e4c77bd8",
-      "title": "OpenAI Increases Security Bug Bounty Rewards",
-      "summary": "OpenAI is raising its Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "id": "feed-981785a0155030",
+      "title": "DevRev Implements GPT-6.1 Sol for Enterprise Self-Service",
+      "summary": "DevRev is leveraging OpenAI's GPT-6.1 Sol to power its Computer and Operator systems, aiming to balance reasoning, speed, and cost for enterprise customer service applications.",
       "keyPoints": [
-        "OpenAI raises Security Bug Bounty rewards.",
-        "New bonuses introduced for report quality and loyalty.",
-        "Aimed at independent security researchers."
+        "DevRev integrates GPT-6.1 Sol for enterprise service applications.",
+        "Powers the Computer and Operator systems.",
+        "Focuses on balancing reasoning capabilities, speed, and cost."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/devrev-enterprise-self-service",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Increases Security Bug Bounty Rewards",
-          "summary": "OpenAI is raising its Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+          "title": "DevRev Implements GPT-6.1 Sol for Enterprise Self-Service",
+          "summary": "DevRev is leveraging OpenAI's GPT-6.1 Sol to power its Computer and Operator systems, aiming to balance reasoning, speed, and cost for enterprise customer service applications.",
           "keyPoints": [
-            "OpenAI raises Security Bug Bounty rewards.",
-            "New bonuses introduced for report quality and loyalty.",
-            "Aimed at independent security researchers."
+            "DevRev integrates GPT-6.1 Sol for enterprise service applications.",
+            "Powers the Computer and Operator systems.",
+            "Focuses on balancing reasoning capabilities, speed, and cost."
           ]
         },
         "fr": {
-          "title": "OpenAI augmente les récompenses pour les bugs",
-          "summary": "OpenAI augmente ses récompenses pour les primes de bogue de sécurité et introduit des bonus de qualité de rapport, de fidélité et de campagne prioritaire pour les chercheurs en sécurité indépendants.",
+          "title": "DevRev intègre GPT-6.1 Sol pour le service client d'entreprise",
+          "summary": "DevRev utilise GPT-6.1 Sol d'OpenAI pour alimenter ses systèmes Computer and Operator, cherchant à équilibrer le raisonnement, la vitesse et le coût pour les applications de service d'entreprise.",
           "keyPoints": [
-            "Augmentation des récompenses pour les bugs de sécurité.",
-            "Introduction de bonus de qualité et de fidélité.",
-            "Destiné aux chercheurs en sécurité indépendants."
+            "DevRev intègre GPT-6.1 Sol pour ses applications de service d'entreprise.",
+            "Alimente les systèmes Computer et Operator.",
+            "Se concentre sur l'équilibre entre les capacités de raisonnement, la vitesse et le coût."
           ]
         }
       },
@@ -392,36 +236,36 @@
       }
     },
     {
-      "id": "feed-138ef7afe6187d",
-      "title": "Calibrated Few-Shot Defect Detection With System One Models",
-      "summary": "This paper examines structured decision models like Jev and Clef-Flash for manufacturing defect detection using as few as two reference images per class at inference. The authors contribute a k-shot learning framework, an agentic text refinement approach, and a probability calibration method, outperforming CLIP across multiple manufacturing case studies.",
+      "id": "feed-48da68b7227da4",
+      "title": "Challenge-Aware Knowledge Recruitment for Medical Multi-Agents",
+      "summary": "To address reasoning limitations in medical LLMs, researchers propose challenge-aware adaptive recruitment, where an external challenger monitors reasoning traces to trigger targeted knowledge retrieval or specialist recruitment.",
       "keyPoints": [
-        "Models like Jev and Clef-Flash perform k-shot defect detection with only two reference images.",
-        "Agentic text refinement and calibration improve accuracy and reliability over CLIP.",
-        "Replication code and an R decisions package are provided to support reproducibility."
+        "Proposes challenge-aware adaptive recruitment to fix gaps in medical multi-agent reasoning.",
+        "An external challenger inspects reasoning traces to identify factual or expertise gaps.",
+        "Outperforms upfront retrieval and improves accuracy across multiple medical benchmark datasets."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41199",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.05393",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Calibrated Few-Shot Defect Detection With System One Models",
-          "summary": "This paper examines structured decision models like Jev and Clef-Flash for manufacturing defect detection using as few as two reference images per class at inference. The authors contribute a k-shot learning framework, an agentic text refinement approach, and a probability calibration method, outperforming CLIP across multiple manufacturing case studies.",
+          "title": "Challenge-Aware Knowledge Recruitment for Medical Multi-Agents",
+          "summary": "To address reasoning limitations in medical LLMs, researchers propose challenge-aware adaptive recruitment, where an external challenger monitors reasoning traces to trigger targeted knowledge retrieval or specialist recruitment.",
           "keyPoints": [
-            "Models like Jev and Clef-Flash perform k-shot defect detection with only two reference images.",
-            "Agentic text refinement and calibration improve accuracy and reliability over CLIP.",
-            "Replication code and an R decisions package are provided to support reproducibility."
+            "Proposes challenge-aware adaptive recruitment to fix gaps in medical multi-agent reasoning.",
+            "An external challenger inspects reasoning traces to identify factual or expertise gaps.",
+            "Outperforms upfront retrieval and improves accuracy across multiple medical benchmark datasets."
           ]
         },
         "fr": {
-          "title": "Détection de défauts par apprentissage few-shot calibré",
-          "summary": "Cet article examine des modèles de décision structurés comme Jev et Clef-Flash pour la détection de défauts industriels en utilisant seulement deux images de référence par classe. Les auteurs proposent un cadre d'apprentissage k-shot, une approche de raffinement textuel agentique et une méthode de calibration des probabilités.",
+          "title": "Recrutement de connaissances adaptatif pour agents médicaux",
+          "summary": "Pour contrer les limites de raisonnement des LLM médicaux, les chercheurs proposent un recrutement adaptatif conscient des défis, où un contestataire externe surveille les traces de raisonnement pour déclencher des récupérations ciblées.",
           "keyPoints": [
-            "Les modèles Jev et Clef-Flash surpassent CLIP avec seulement deux images de référence.",
-            "Le raffinement textuel agentique améliore la précision des classifications.",
-            "Le code de réplication et un package R sont fournis pour la reproductibilité."
+            "Propose un recrutement adaptatif pour combler les lacunes dans le raisonnement médical multi-agent.",
+            "Un contestataire externe analyse les traces de raisonnement pour identifier les lacunes d'expertise.",
+            "Surpasse la récupération initiale et améliore la précision sur plusieurs ensembles de données."
           ]
         }
       },
@@ -431,36 +275,153 @@
       }
     },
     {
-      "id": "feed-0d297090385ad5",
-      "title": "OpenAI Prepares Next Security Sprint with Cathedral Systems",
-      "summary": "OpenAI is preparing its next internal security sprint in collaboration with Cathedral Systems to test and strengthen its defenses using AI.",
+      "id": "feed-abdb707b0a55ae",
+      "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
+      "summary": "This study derives a closed-form feasibility condition for tiered LLM inference cascades, mapping when routing queries from edge devices to datacenters is practical based on costs and signal qualities.",
       "keyPoints": [
-        "OpenAI is organizing a new internal security sprint.",
-        "Partnership with Cathedral Systems for defense testing.",
-        "Uses AI to strengthen security measures."
+        "Analyzes tiered inference cascades across local devices and datacenters.",
+        "Derives a closed-form feasibility condition using a binary test and architecture cost ratio.",
+        "Shows how cost billing structures invert the feasibility criteria for cascades."
       ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05394",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Prepares Next Security Sprint with Cathedral Systems",
-          "summary": "OpenAI is preparing its next internal security sprint in collaboration with Cathedral Systems to test and strengthen its defenses using AI.",
+          "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
+          "summary": "This study derives a closed-form feasibility condition for tiered LLM inference cascades, mapping when routing queries from edge devices to datacenters is practical based on costs and signal qualities.",
           "keyPoints": [
-            "OpenAI is organizing a new internal security sprint.",
-            "Partnership with Cathedral Systems for defense testing.",
-            "Uses AI to strengthen security measures."
+            "Analyzes tiered inference cascades across local devices and datacenters.",
+            "Derives a closed-form feasibility condition using a binary test and architecture cost ratio.",
+            "Shows how cost billing structures invert the feasibility criteria for cascades."
           ]
         },
         "fr": {
-          "title": "OpenAI prépare son prochain sprint de sécurité",
-          "summary": "OpenAI prépare son prochain sprint de sécurité interne avec Cathedral Systems pour tester et renforcer ses défenses à l'aide de l'intelligence artificielle.",
+          "title": "Condition de faisabilité pour l'inférence hiérarchisée par LLM",
+          "summary": "Cette étude établit une condition de faisabilité pour les cascades d'inférence de LLM hiérarchisées, déterminant quand il est pertinent d'acheminer des requêtes d'appareils périphériques vers des centres de données.",
           "keyPoints": [
-            "Organisation d'un nouveau sprint de sécurité interne.",
-            "Collaboration avec Cathedral Systems pour les tests de défense.",
-            "Utilisation de l'IA pour renforcer la sécurité."
+            "Analyse les cascades d'inférence hiérarchisées entre les appareils locaux et les centres de données.",
+            "Dérive une condition de faisabilité sous forme close en utilisant un test binaire.",
+            "Montre comment les structures de facturation des coûts inversent les critères de faisabilité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4ced9b5daa264e",
+      "title": "Benchmarking Experience Lifecycles for Robust Long-Lived Agents",
+      "summary": "The authors introduce ReScopeBench to benchmark experience lifecycles in evolving environments across 18 interactive environments, highlighting challenges agents face in maintaining and reusing accumulated experience.",
+      "keyPoints": [
+        "Introduces ReScopeBench to study experience lifecycles across interactive environments.",
+        "Distinguishes structural experience from rule experience in long-lived agents.",
+        "Finds that agents struggle to keep their retained experience current as environments change."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05450",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Benchmarking Experience Lifecycles for Robust Long-Lived Agents",
+          "summary": "The authors introduce ReScopeBench to benchmark experience lifecycles in evolving environments across 18 interactive environments, highlighting challenges agents face in maintaining and reusing accumulated experience.",
+          "keyPoints": [
+            "Introduces ReScopeBench to study experience lifecycles across interactive environments.",
+            "Distinguishes structural experience from rule experience in long-lived agents.",
+            "Finds that agents struggle to keep their retained experience current as environments change."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation des cycles de vie de l'expérience pour agents robustes",
+          "summary": "Les auteurs présentent ReScopeBench pour évaluer les cycles de vie de l'expérience dans des environnements évolutifs, mettant en évidence les difficultés des agents à maintenir et réutiliser leurs connaissances.",
+          "keyPoints": [
+            "Introduit ReScopeBench pour étudier les cycles de vie de l'expérience interactive.",
+            "Distingue l'expérience structurelle de l'expérience de règles chez les agents persistants.",
+            "Constate que les agents ont du mal à actualiser leur expérience face aux changements."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9e109f910ff861",
+      "title": "Evaluating LLMs in Scientific Literature Reviews Against a Benchmark",
+      "summary": "Testing six AI tools against a 102-article scientific review corpus, this study finds that LLMs assist with discovery and interpretation, particularly with institutional library access, but cannot fully replace expert judgment.",
+      "keyPoints": [
+        "Assesses six AI tools across four literature review stages using a 102-article benchmark.",
+        "Institutional library access significantly improved article discovery rates for tested tools.",
+        "Found that LLMs assist discovery and interpretation but cannot replace expert evaluation."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05459",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evaluating LLMs in Scientific Literature Reviews Against a Benchmark",
+          "summary": "Testing six AI tools against a 102-article scientific review corpus, this study finds that LLMs assist with discovery and interpretation, particularly with institutional library access, but cannot fully replace expert judgment.",
+          "keyPoints": [
+            "Assesses six AI tools across four literature review stages using a 102-article benchmark.",
+            "Institutional library access significantly improved article discovery rates for tested tools.",
+            "Found that LLMs assist discovery and interpretation but cannot replace expert evaluation."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation des LLM dans les revues de littérature scientifique",
+          "summary": "Testant six outils d'IA sur un corpus de 102 articles, cette étude montre que les LLM aident à la découverte et à l'interprétation, en particulier avec l'accès aux bibliothèques institutionnelles, mais ne remplacent pas le jugement d'experts.",
+          "keyPoints": [
+            "Évalue six outils d'IA à travers quatre étapes de revue de littérature.",
+            "L'accès aux bibliothèques institutionnelles a amélioré la découverte d'articles.",
+            "Conclut que les LLM ne peuvent pas remplacer l'évaluation experte de la recherche."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-bbb7f69db5deba",
+      "title": "SlackBench: Benchmarking Agents on Collaborative Projects",
+      "summary": "SlackBench is a new benchmark designed to evaluate AI agents on realistic research and engineering workflows involving multi-party communication and evolving repository states. Grounded in academic research projects, the benchmark features 140 queries that test agentic search, abstention, and summarization across conversations, code, and documents. Testing across 33 frontier models showed that the best systems score around 80%, leaving substantial room for improvement.",
+      "keyPoints": [
+        "Evaluates AI agents on multi-party collaborative workflows and joint reasoning.",
+        "Contains 140 queries spanning search, goal-directed summarization, and circumstance inference.",
+        "Frontier models achieved scores up to roughly 80%, highlighting significant room for improvement."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05512",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SlackBench: Benchmarking Agents on Collaborative Projects",
+          "summary": "SlackBench is a new benchmark designed to evaluate AI agents on realistic research and engineering workflows involving multi-party communication and evolving repository states. Grounded in academic research projects, the benchmark features 140 queries that test agentic search, abstention, and summarization across conversations, code, and documents. Testing across 33 frontier models showed that the best systems score around 80%, leaving substantial room for improvement.",
+          "keyPoints": [
+            "Evaluates AI agents on multi-party collaborative workflows and joint reasoning.",
+            "Contains 140 queries spanning search, goal-directed summarization, and circumstance inference.",
+            "Frontier models achieved scores up to roughly 80%, highlighting significant room for improvement."
+          ]
+        },
+        "fr": {
+          "title": "SlackBench : évaluation d'agents sur des projets collaboratifs",
+          "summary": "SlackBench est un nouveau benchmark conçu pour évaluer les agents IA sur des flux de travail de recherche et d'ingénierie réalistes impliquant une communication multipartite et des états de référentiel évolutifs. Fondé sur des projets de recherche académique, le benchmark propose 140 requêtes testant la recherche agentique, l'abstention et la synthèse à travers des conversations, du code et des documents. Des tests sur 33 modèles de pointe ont montré que les meilleurs systèmes obtiennent environ 80 % de réussite.",
+          "keyPoints": [
+            "Évalue les agents IA sur des flux de travail collaboratifs multipartites et le raisonnement conjoint.",
+            "Contient 140 requêtes couvrant la recherche, la synthèse orientée vers les objectifs et l'inférence de circonstances.",
+            "Les modèles de pointe ont atteint des scores avoisinant 80 %, laissant une marge de progression importante."
           ]
         }
       },
@@ -470,75 +431,192 @@
       }
     },
     {
-      "id": "feed-7fabdedeeb4e90",
-      "title": "Benchmarking Image Editing and Evolving Image Models",
-      "summary": "To address the limitations of aggregate scores in image editing, the authors introduce WeGenEditBench, containing 2,740 instances, and WeGenEvoStudio, a multi-agent harness for recursive self-improvement. Experiments demonstrate substantial targeted performance gains across multiple image generation and editing models.",
+      "id": "feed-d00df6c93ac002",
+      "title": "MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion",
+      "summary": "MA-SafeDiffuser is introduced as a multi-agent extension of SafeDiffuser, equipping diffusion-based trajectory planners with finite-time diffusion invariance guarantees for joint-agent safety specifications. The framework formalizes joint safe sets, derives constrained denoising procedures with provable invariance, and addresses local traps using liveness control barrier functions. Empirical evaluations in a multi-agent Maze2D domain show that it reduces violations while maintaining planning quality.",
       "keyPoints": [
-        "WeGenEditBench evaluates single-image, text-intensive, and multi-reference editing.",
-        "WeGenEvoStudio provides a multi-agent harness for recursive self-improvement.",
-        "Targeted evolution experiments show significant gains for models like FLUX.2 and Qwen-Image-Edit."
+        "Extends SafeDiffuser for multi-agent planning with finite-time diffusion invariance guarantees.",
+        "Implements centralized and decentralized constrained denoising procedures.",
+        "Reduces violation counts in a multi-agent Maze2D domain while preserving planning quality."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41210",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.05524",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Benchmarking Image Editing and Evolving Image Models",
-          "summary": "To address the limitations of aggregate scores in image editing, the authors introduce WeGenEditBench, containing 2,740 instances, and WeGenEvoStudio, a multi-agent harness for recursive self-improvement. Experiments demonstrate substantial targeted performance gains across multiple image generation and editing models.",
+          "title": "MA-SafeDiffuser: Safe Multi-Agent Planning with Diffusion",
+          "summary": "MA-SafeDiffuser is introduced as a multi-agent extension of SafeDiffuser, equipping diffusion-based trajectory planners with finite-time diffusion invariance guarantees for joint-agent safety specifications. The framework formalizes joint safe sets, derives constrained denoising procedures with provable invariance, and addresses local traps using liveness control barrier functions. Empirical evaluations in a multi-agent Maze2D domain show that it reduces violations while maintaining planning quality.",
           "keyPoints": [
-            "WeGenEditBench evaluates single-image, text-intensive, and multi-reference editing.",
-            "WeGenEvoStudio provides a multi-agent harness for recursive self-improvement.",
-            "Targeted evolution experiments show significant gains for models like FLUX.2 and Qwen-Image-Edit."
+            "Extends SafeDiffuser for multi-agent planning with finite-time diffusion invariance guarantees.",
+            "Implements centralized and decentralized constrained denoising procedures.",
+            "Reduces violation counts in a multi-agent Maze2D domain while preserving planning quality."
           ]
         },
         "fr": {
-          "title": "Évaluation et évolution des modèles d'édition d'images",
-          "summary": "Pour répondre aux limites des scores globaux en édition d'images, les auteurs présentent WeGenEditBench, contenant 2 740 instances, et WeGenEvoStudio, un ensemble multi-agent pour l'auto-amélioration récursive. Les expériences démontrent des gains de performance ciblés substantiels.",
+          "title": "MA-SafeDiffuser : Planification multi-agent sécurisée par diffusion",
+          "summary": "MA-SafeDiffuser est présenté comme une extension multi-agent de SafeDiffuser, dotant les planificateurs de trajectoire basés sur la diffusion de garanties d'invariance à temps fini pour les spécifications de sécurité inter-agents. Le cadre formalise des ensembles sûrs conjoints, dérive des procédures de débruitage contraintes avec une invariance prouvable, et traite les pièges locaux à l'aide de fonctions de barrière de contrôle de vivacité. Des évaluations empiriques montrent une réduction des violations.",
           "keyPoints": [
-            "WeGenEditBench évalue l'édition d'images simples, textuelles et multi-références.",
-            "WeGenEvoStudio offre un cadre multi-agent pour l'auto-amélioration récursive.",
-            "Des gains notables sont démontrés pour des modèles comme FLUX.2 et Qwen-Image-Edit."
+            "Étend SafeDiffuser pour la planification multi-agent avec des garanties d'invariance par diffusion.",
+            "Met en œuvre des procédures de débruitage contraintes centralisées et décentralisées.",
+            "Réduit les violations dans un domaine Maze2D multi-agent tout en préservant la qualité de planification."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-277870ffc8d715",
-      "title": "Scaling Git at OpenAI with Pando",
-      "summary": "An exploration of how OpenAI built Pando, a Git-compatible backend designed to handle the massive software development scale enabled by Codex.",
+      "id": "feed-f6365caf171c45",
+      "title": "Efficient Whole Page Ranking with One-Pass Inference",
+      "summary": "The paper introduces Multi-Item Scoring (MIS), a prefix-aware non-autoregressive framework designed to bridge the quality-efficiency gap in industrial whole-page ranking. MIS incorporates global candidate interactions and sequential context into efficient multi-item scoring. Experiments on KuaiRand-1K and RL4RS demonstrate faster CPU decoding compared to autoregressive baselines, while online evaluations on a social video platform improve business metrics and reduce CPU consumption.",
       "keyPoints": [
-        "OpenAI developed a custom backend named Pando.",
-        "Pando is Git-compatible.",
-        "Designed to support large-scale development driven by Codex."
+        "Proposes Multi-Item Scoring (MIS) to capture sequential dependencies in non-autoregressive ranking.",
+        "Achieves significantly faster CPU decoding compared to autoregressive baselines on benchmark datasets.",
+        "Improves watch time and realization metrics while reducing CPU consumption in a large-scale randomized evaluation."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05542",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Efficient Whole Page Ranking with One-Pass Inference",
+          "summary": "The paper introduces Multi-Item Scoring (MIS), a prefix-aware non-autoregressive framework designed to bridge the quality-efficiency gap in industrial whole-page ranking. MIS incorporates global candidate interactions and sequential context into efficient multi-item scoring. Experiments on KuaiRand-1K and RL4RS demonstrate faster CPU decoding compared to autoregressive baselines, while online evaluations on a social video platform improve business metrics and reduce CPU consumption.",
+          "keyPoints": [
+            "Proposes Multi-Item Scoring (MIS) to capture sequential dependencies in non-autoregressive ranking.",
+            "Achieves significantly faster CPU decoding compared to autoregressive baselines on benchmark datasets.",
+            "Improves watch time and realization metrics while reducing CPU consumption in a large-scale randomized evaluation."
+          ]
+        },
+        "fr": {
+          "title": "Classement de page entière efficace avec inférence en un passage",
+          "summary": "L'article présente le Multi-Item Scoring (MIS), un cadre non autorégressif conscient des préfixes conçu pour combler l'écart de qualité et d'efficacité dans le classement industriel de pages entières. MIS intègre des interactions mondiales entre candidats et un contexte séquentiel. Des expériences démontrent un décodage CPU plus rapide par rapport aux références autorégressives, tandis que des évaluations en ligne améliorent les métriques métier et réduisent la consommation CPU.",
+          "keyPoints": [
+            "Propose le Multi-Item Scoring (MIS) pour capturer les dépendances séquentielles dans le classement non autorégressif.",
+            "Atteint un décodage CPU nettement plus rapide par rapport aux références autorégressives.",
+            "Améliore les métriques d'engagement tout en réduisant la consommation CPU lors d'une évaluation à grande échelle."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2101b19f66c970",
+      "title": "Iterated Creation and Revision of Data Science Projects by LLMs",
+      "summary": "This study evaluates how agentic AI models complete end-to-end data science projects and how feedback improves their output over three rounds. Using 49 writer-grader model pairs across seven models, the authors found that initial submission success rates and average scores increased significantly after feedback and revision. The utility of the improvement loops depended heavily on the specific model pairings and assigned roles.",
+      "keyPoints": [
+        "Evaluates 49 writer-grader model pairs across seven developers completing data science projects.",
+        "Average scores across successful submissions increased from 59% to 76% following feedback rounds.",
+        "The effectiveness of improvement loops varied substantially depending on the specific model roles."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05548",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Iterated Creation and Revision of Data Science Projects by LLMs",
+          "summary": "This study evaluates how agentic AI models complete end-to-end data science projects and how feedback improves their output over three rounds. Using 49 writer-grader model pairs across seven models, the authors found that initial submission success rates and average scores increased significantly after feedback and revision. The utility of the improvement loops depended heavily on the specific model pairings and assigned roles.",
+          "keyPoints": [
+            "Evaluates 49 writer-grader model pairs across seven developers completing data science projects.",
+            "Average scores across successful submissions increased from 59% to 76% following feedback rounds.",
+            "The effectiveness of improvement loops varied substantially depending on the specific model roles."
+          ]
+        },
+        "fr": {
+          "title": "Création et révision itératives de projets de science des données par des LLM",
+          "summary": "Cette étude évalue la manière dont les modèles d'IA agentiques réalisent des projets de science des données de bout en bout et comment les retours améliorent leurs résultats sur trois cycles. En utilisant 49 paires de modèles rédacteur-évaluateur, les auteurs ont constaté que les scores moyens augmentaient considérablement après les rétroactions. L'utilité de ces boucles d'amélioration dépend fortement des associations de modèles spécifiques.",
+          "keyPoints": [
+            "Évalue 49 paires de modèles rédacteur-évaluateur à travers sept développeurs pour des projets de science des données.",
+            "Les scores moyens des soumissions réussies sont passés de 59 % à 76 % après les cycles de rétroaction.",
+            "L'efficacité des boucles d'amélioration varie considérablement selon les rôles spécifiques des modèles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-050db25f92e6ec",
+      "title": "Understanding Generative AI Transparency Needs Across Stakeholders",
+      "summary": "Drawing on a global survey of 400 end-users, AI builders, and policymakers, this study examines how different stakeholders experience and understand generative AI transparency. While all groups share similar core definitions focused on accuracy and privacy, gaps between perceived availability and importance are substantially larger for end-users than builders. Only 28% of end-users feel current practices meet their needs well, prompting arguments for pluralistic transparency infrastructures.",
+      "keyPoints": [
+        "Surveys 400 end-users, AI builders, and policymakers regarding generative AI transparency needs.",
+        "Reveals large gaps between transparency feature importance and availability, particularly for end-users.",
+        "Finds that only 28% of end-users report that current transparency practices reflect their needs very well."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05549",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Understanding Generative AI Transparency Needs Across Stakeholders",
+          "summary": "Drawing on a global survey of 400 end-users, AI builders, and policymakers, this study examines how different stakeholders experience and understand generative AI transparency. While all groups share similar core definitions focused on accuracy and privacy, gaps between perceived availability and importance are substantially larger for end-users than builders. Only 28% of end-users feel current practices meet their needs well, prompting arguments for pluralistic transparency infrastructures.",
+          "keyPoints": [
+            "Surveys 400 end-users, AI builders, and policymakers regarding generative AI transparency needs.",
+            "Reveals large gaps between transparency feature importance and availability, particularly for end-users.",
+            "Finds that only 28% of end-users report that current transparency practices reflect their needs very well."
+          ]
+        },
+        "fr": {
+          "title": "Comprendre les besoins de transparence en IA générative selon les parties prenantes",
+          "summary": "S'appuyant sur une enquête mondiale menée auprès de 400 utilisateurs finaux, concepteurs d'IA et décideurs politiques, cette étude examine la perception de la transparence. Bien que les groupes partagent des définitions axées sur la précision et la confidentialité, les écarts entre disponibilité perçue et importance sont plus importants pour les utilisateurs finaux. Seuls 28 % de ces derniers estiment que les pratiques actuelles répondent bien à leurs besoins.",
+          "keyPoints": [
+            "Enquête auprès de 400 utilisateurs finaux, concepteurs d'IA et décideurs politiques.",
+            "Révèle de grands écarts entre l'importance des fonctionnalités de transparence et leur disponibilité pour les utilisateurs.",
+            "Indique que seuls 28 % des utilisateurs finaux trouvent que les pratiques actuelles reflètent bien leurs besoins."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9ec66997e4c67d",
+      "title": "VirtualTrialHarness: Coordinating Operationalization of Virtual Trials",
+      "summary": "VirtualTrialHarness (VTHarness) is introduced as an agent framework that coordinates virtual trial operationalization by selecting reusable procedural skills and maintaining consistent study decisions through explicit contracts. Evaluated across complex synthetic environments and clinical datasets, VTHarness successfully matched reference cohort outputs in 95.1% of workflows after requirement clarification, improving upon standard retrieval baselines.",
+      "keyPoints": [
+        "Introduces VTHarness, an agent framework coordinating virtual trial protocol operationalization.",
+        "Uses reusable procedural skills and explicit contracts to maintain consistent clinical decisions.",
+        "Successfully produced reference-matched cohort outputs in 95.1% of workflows after requirement clarification."
       ],
       "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/scaling-git-at-openai",
-      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05551",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Scaling Git at OpenAI with Pando",
-          "summary": "An exploration of how OpenAI built Pando, a Git-compatible backend designed to handle the massive software development scale enabled by Codex.",
+          "title": "VirtualTrialHarness: Coordinating Operationalization of Virtual Trials",
+          "summary": "VirtualTrialHarness (VTHarness) is introduced as an agent framework that coordinates virtual trial operationalization by selecting reusable procedural skills and maintaining consistent study decisions through explicit contracts. Evaluated across complex synthetic environments and clinical datasets, VTHarness successfully matched reference cohort outputs in 95.1% of workflows after requirement clarification, improving upon standard retrieval baselines.",
           "keyPoints": [
-            "OpenAI developed a custom backend named Pando.",
-            "Pando is Git-compatible.",
-            "Designed to support large-scale development driven by Codex."
+            "Introduces VTHarness, an agent framework coordinating virtual trial protocol operationalization.",
+            "Uses reusable procedural skills and explicit contracts to maintain consistent clinical decisions.",
+            "Successfully produced reference-matched cohort outputs in 95.1% of workflows after requirement clarification."
           ]
         },
         "fr": {
-          "title": "Mise à l'échelle de Git chez OpenAI avec Pando",
-          "summary": "Une présentation de la façon dont OpenAI a construit Pando, un backend compatible Git conçu pour répondre à l'échelle de développement permise par Codex.",
+          "title": "VirtualTrialHarness : Coordination de l'opérationnalisation d'essais virtuels",
+          "summary": "VirtualTrialHarness (VTHarness) est présenté comme un cadre d'agents coordonnant l'opérationnalisation d'essais virtuels en sélectionnant des compétences procédurales réutilisables et en maintenant des décisions cohérentes via des contrats explicites. Évalué sur des environnements synthétiques et des jeux de données cliniques, VTHarness a généré avec succès les cohortes requises dans 95,1 % des flux de travail après clarification des exigences.",
           "keyPoints": [
-            "Création d'un backend personnalisé nommé Pando.",
-            "Compatibilité complète avec Git.",
-            "Conçu pour gérer le développement à grande échelle via Codex."
+            "Présente VTHarness, un cadre d'agents pour l'opérationnalisation de protocoles d'essais cliniques virtuels.",
+            "Utilise des compétences procédurales réutilisables et des contrats explicites pour des décisions cohérentes.",
+            "A atteint un taux de correspondance de 95,1 % sur les cohortes requises après clarification des exigences."
           ]
         }
       },
@@ -548,75 +626,114 @@
       }
     },
     {
-      "id": "feed-a7bf14fe26346b",
-      "title": "Coarse3D: Controllable Sparse Structure Generation for Image-to-3D",
-      "summary": "Coarse3D addresses limitations in coarse-to-fine 3D generation by producing orientation-controllable and structurally faithful voxel geometry from unposed images. It introduces a first-frame anchored canonical space, a dual-tower DiT, and spatial-prior guided attention to enhance sparse structure quality.",
+      "id": "feed-a0ba445070c2b1",
+      "title": "AGORA: Reliability-Aware Aggregation of LLM Judges via IRT",
+      "summary": "The paper introduces AGORA (Aggregation Of Reliability-weighted Assessments), an item-response-theory aggregator designed to evaluate LLM judges without requiring human labels. AGORA places every item on a latent quality scale and models each judge using sensitivity parameters and rating thresholds. Experiments across three benchmarks show that AGORA matches or exceeds traditional models, particularly as evaluation sets shrink to a few hundred items.",
       "keyPoints": [
-        "Coarse3D generates controllable and faithful voxel geometry from unposed images.",
-        "Features a first-frame anchored canonical space and a dual-tower DiT architecture.",
-        "Significantly improves sparse structure quality and final 3D generation performance."
+        "Proposes AGORA, an item-response-theory aggregator for label-free LLM judge reliability weighting.",
+        "Learns judge sensitivity and rating thresholds jointly from all items without human labels.",
+        "Outperforms or matches baseline models, demonstrating significant advantages on smaller evaluation sets."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41231",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.05556",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Coarse3D: Controllable Sparse Structure Generation for Image-to-3D",
-          "summary": "Coarse3D addresses limitations in coarse-to-fine 3D generation by producing orientation-controllable and structurally faithful voxel geometry from unposed images. It introduces a first-frame anchored canonical space, a dual-tower DiT, and spatial-prior guided attention to enhance sparse structure quality.",
+          "title": "AGORA: Reliability-Aware Aggregation of LLM Judges via IRT",
+          "summary": "The paper introduces AGORA (Aggregation Of Reliability-weighted Assessments), an item-response-theory aggregator designed to evaluate LLM judges without requiring human labels. AGORA places every item on a latent quality scale and models each judge using sensitivity parameters and rating thresholds. Experiments across three benchmarks show that AGORA matches or exceeds traditional models, particularly as evaluation sets shrink to a few hundred items.",
           "keyPoints": [
-            "Coarse3D generates controllable and faithful voxel geometry from unposed images.",
-            "Features a first-frame anchored canonical space and a dual-tower DiT architecture.",
-            "Significantly improves sparse structure quality and final 3D generation performance."
+            "Proposes AGORA, an item-response-theory aggregator for label-free LLM judge reliability weighting.",
+            "Learns judge sensitivity and rating thresholds jointly from all items without human labels.",
+            "Outperforms or matches baseline models, demonstrating significant advantages on smaller evaluation sets."
           ]
         },
         "fr": {
-          "title": "Coarse3D : Génération de structures éparses pour l'image vers 3D",
-          "summary": "Coarse3D résout les limites de la génération 3D en produisant une géométrie de voxels contrôlable et fidèle à partir d'images non posées. Il introduit un espace canonique ancré sur la première trame, un DiT à double tour et une attention guidée par des a priori spatiaux.",
+          "title": "AGORA : Agrégation de juges LLM basée sur la théorie de la réponse à l'item",
+          "summary": "L'article présente AGORA, un agrégateur basé sur la théorie de la réponse à l'item conçu pour évaluer les juges LLM sans nécessiter d'étiquettes humaines. AGORA place chaque item sur une échelle de qualité latente et modélise chaque juge à l'aide de paramètres de sensibilité. Des expériences menées sur trois benchmarks montrent qu'AGORA égale ou dépasse les modèles traditionnels, en particulier lorsque les ensembles d'évaluation se réduisent.",
           "keyPoints": [
-            "Coarse3D génère des géométries de voxels fidèles à partir d'images non posées.",
-            "Intègre un espace canonique ancré et une architecture DiT à double tour.",
-            "Améliore nettement la qualité des structures éparses et la génération 3D finale."
+            "Propose AGORA, un agrégateur pour la pondération de la fiabilité des juges LLM sans étiquettes humaines.",
+            "Apprend conjointement la sensibilité des juges et les seuils de notation à partir de tous les items.",
+            "Surpasse ou égale les modèles de référence, offrant des avantages marqués sur les petits ensembles d'évaluation."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-945f879ef3a469",
-      "title": "OpenAI Appoints Dan Driscoll for National Security",
-      "summary": "OpenAI has appointed Dan Driscoll as Senior Counselor for National Security Modernization to advise on responsible AI, cyber resilience, and cooperation with U.S. allies.",
+      "id": "feed-495042ca0e78bb",
+      "title": "BrainBind: Bridging Synchronized EEG and fMRI via Video Embeddings",
+      "summary": "BrainBind is a framework that maps synchronized EEG and fMRI recordings during long-form naturalistic video viewing into frozen video embedding spaces, treating them as common visual-semantic references. Evaluated on the CineBrain dataset across multiple configurations, the system exhibits distinct retrieval profiles and demonstrates how complementary modalities capture narrative context and stimulus identity.",
       "keyPoints": [
-        "Dan Driscoll joins OpenAI as Senior Counselor.",
-        "Focuses on national security modernization and responsible AI.",
-        "Aims to advise on cyber resilience and alliances with U.S. allies."
+        "Presents BrainBind to map synchronized EEG and fMRI into common video embedding spaces.",
+        "Evaluated on the CineBrain dataset using various system configurations and anchors.",
+        "Demonstrates distinct retrieval profiles reflecting complementary temporal and spatial neural scales."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05581",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "BrainBind: Bridging Synchronized EEG and fMRI via Video Embeddings",
+          "summary": "BrainBind is a framework that maps synchronized EEG and fMRI recordings during long-form naturalistic video viewing into frozen video embedding spaces, treating them as common visual-semantic references. Evaluated on the CineBrain dataset across multiple configurations, the system exhibits distinct retrieval profiles and demonstrates how complementary modalities capture narrative context and stimulus identity.",
+          "keyPoints": [
+            "Presents BrainBind to map synchronized EEG and fMRI into common video embedding spaces.",
+            "Evaluated on the CineBrain dataset using various system configurations and anchors.",
+            "Demonstrates distinct retrieval profiles reflecting complementary temporal and spatial neural scales."
+          ]
+        },
+        "fr": {
+          "title": "BrainBind : Relier EEG et fMRI synchronisés via des représentations vidéo",
+          "summary": "BrainBind est un cadre qui met en correspondance des enregistrements EEG et fMRI synchronisés lors du visionnage de vidéos naturalistes dans des espaces d'incorporation vidéo figés, les traitant comme des références visuo-sémantiques communes. Évalué sur le jeu de données CineBrain à travers de multiples configurations, le système présente des profils de récupération distincts démontrant la complémentarité des modalités.",
+          "keyPoints": [
+            "Présente BrainBind pour cartographier EEG et fMRI synchronisés dans des espaces d'incorporation vidéo.",
+            "Évalué sur le jeu de données CineBrain en utilisant différentes configurations.",
+            "Démontre des profils de récupération distincts reflétant des échelles neuronales complémentaires."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-833e9eaf617aca",
+      "title": "Anduin: A Sybil-Resistant Agentic Marketplace Reputation System",
+      "summary": "Anduin addresses the challenge of selecting AI service providers in permissionless onchain markets by proposing a Sybil-resistant reputation system based on payment histories. Modeling payment flows as a bipartite graph between buyers and providers, the authors introduce three rating algorithms. Evaluated against simulated adversaries across 16 blockchains and millions of transactions, the method proves significantly harder to manipulate than standard collaborative filtering.",
+      "keyPoints": [
+        "Proposes Anduin, a Sybil-resistant reputation system for autonomous onchain agent marketplaces.",
+        "Derives provider ratings from transaction payment flows modeled as a bipartite graph.",
+        "Demonstrates superior resistance to adversarial manipulation compared to standard collaborative filtering rules."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/dan-driscoll-joins-openai",
-      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.05586",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Appoints Dan Driscoll for National Security",
-          "summary": "OpenAI has appointed Dan Driscoll as Senior Counselor for National Security Modernization to advise on responsible AI, cyber resilience, and cooperation with U.S. allies.",
+          "title": "Anduin: A Sybil-Resistant Agentic Marketplace Reputation System",
+          "summary": "Anduin addresses the challenge of selecting AI service providers in permissionless onchain markets by proposing a Sybil-resistant reputation system based on payment histories. Modeling payment flows as a bipartite graph between buyers and providers, the authors introduce three rating algorithms. Evaluated against simulated adversaries across 16 blockchains and millions of transactions, the method proves significantly harder to manipulate than standard collaborative filtering.",
           "keyPoints": [
-            "Dan Driscoll joins OpenAI as Senior Counselor.",
-            "Focuses on national security modernization and responsible AI.",
-            "Aims to advise on cyber resilience and alliances with U.S. allies."
+            "Proposes Anduin, a Sybil-resistant reputation system for autonomous onchain agent marketplaces.",
+            "Derives provider ratings from transaction payment flows modeled as a bipartite graph.",
+            "Demonstrates superior resistance to adversarial manipulation compared to standard collaborative filtering rules."
           ]
         },
         "fr": {
-          "title": "OpenAI nomme Dan Driscoll à la sécurité nationale",
-          "summary": "OpenAI a nommé Dan Driscoll au poste de conseiller principal pour la modernisation de la sécurité nationale afin de conseiller sur l'IA responsable, la cyberrésilience et la collaboration avec les alliés des États-Unis.",
+          "title": "Anduin : Un système de réputation pour marché d'agents résistant aux Sybils",
+          "summary": "Anduin relève le défi de la sélection de fournisseurs de services d'IA sur les marchés onchain sans permission en proposant un système de réputation résistant aux attaques Sybil basé sur l'historique des paiements. Modélisant les flux de paiements sous forme de graphe biparti, les auteurs introduisent trois algorithmes de notation évalués sur 16 blockchains et des millions de transactions.",
           "keyPoints": [
-            "Dan Driscoll rejoint OpenAI en tant que conseiller principal.",
-            "Accent mis sur la sécurité nationale et l'IA responsable.",
-            "Conseils sur la cyberrésilience et la collaboration alliée."
+            "Propose Anduin, un système de réputation résistant aux Sybils pour les marchés d'agents onchain.",
+            "Dérive les notes des fournisseurs à partir des flux de paiement modélisés en graphe biparti.",
+            "Démontre une résistance accrue aux manipulations contradictoires par rapport au filtrage collaboratif."
           ]
         }
       },
@@ -626,169 +743,52 @@
       }
     },
     {
-      "id": "feed-602a355a81f881",
-      "title": "ANGLER: Benchmarking Web Agent Security with Adaptive Attacks",
-      "summary": "To better evaluate web agent vulnerabilities against injected malicious content, the authors introduce REEF, a verifier-grounded benchmark covering 9 websites. They also present ANGLER, an adaptive near-miss-guided lure evolution framework that increases attack success rates and degrades benign task performance.",
+      "id": "feed-dc227284433ba8",
+      "title": "Verified but Vacuous: Three Failure Surfaces in LLM Code Generation",
+      "summary": "This paper argues that reporting a single verification number for LLM-generated code collapses three distinct failure surfaces: verifier acceptance (Surface A), syntactic specification binding (Surface B), and semantic specification fidelity (Surface C). Empirical demonstrations using Dafny-as-intermediate-representation pipelines on Python and Rust benchmarks reveal that high verifier acceptance rates frequently occur alongside low certificate binding or failure on hidden tests.",
       "keyPoints": [
-        "REEF provides a verifier-grounded benchmark for web agent security testing.",
-        "ANGLER uses adaptive near-miss guidance to mutate LLM-based attacks.",
-        "Attacks generated by ANGLER significantly reduce web agent success rates."
+        "Identifies three distinct failure surfaces in LLM-driven verified code generation pipelines.",
+        "Demonstrates that high verifier acceptance rates can coexist with minimal specification binding.",
+        "Shows that structurally verified samples still experience failures on hidden tests across Rust benchmarks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41272",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.05590",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ANGLER: Benchmarking Web Agent Security with Adaptive Attacks",
-          "summary": "To better evaluate web agent vulnerabilities against injected malicious content, the authors introduce REEF, a verifier-grounded benchmark covering 9 websites. They also present ANGLER, an adaptive near-miss-guided lure evolution framework that increases attack success rates and degrades benign task performance.",
+          "title": "Verified but Vacuous: Three Failure Surfaces in LLM Code Generation",
+          "summary": "This paper argues that reporting a single verification number for LLM-generated code collapses three distinct failure surfaces: verifier acceptance (Surface A), syntactic specification binding (Surface B), and semantic specification fidelity (Surface C). Empirical demonstrations using Dafny-as-intermediate-representation pipelines on Python and Rust benchmarks reveal that high verifier acceptance rates frequently occur alongside low certificate binding or failure on hidden tests.",
           "keyPoints": [
-            "REEF provides a verifier-grounded benchmark for web agent security testing.",
-            "ANGLER uses adaptive near-miss guidance to mutate LLM-based attacks.",
-            "Attacks generated by ANGLER significantly reduce web agent success rates."
+            "Identifies three distinct failure surfaces in LLM-driven verified code generation pipelines.",
+            "Demonstrates that high verifier acceptance rates can coexist with minimal specification binding.",
+            "Shows that structurally verified samples still experience failures on hidden tests across Rust benchmarks."
           ]
         },
         "fr": {
-          "title": "ANGLER : Évaluation de la sécurité des agents web",
-          "summary": "Pour évaluer les vulnérabilités des agents web face à du contenu malveillant, les auteurs présentent REEF, un benchmark basé sur 9 sites web. Ils introduisent également ANGLER, un cadre d'évolution adaptatif pour les attaques par hameçonnage guidées par les quasi-échecs.",
+          "title": "Vérifié mais vacueux : Trois surfaces d'échec dans la génération de code par LLM",
+          "summary": "Cet article soutient que rapporter un unique chiffre de vérification pour du code généré par LLM masque trois surfaces d'échec distinctes : l'acceptation par le vérificateur (Surface A), la liaison syntaxique de la spécification (Surface B) et la fidélité sémantique (Surface C). Des démonstrations empiriques utilisant des pipelines intermédiaires en Python et Rust révèlent que des taux d'acceptation élevés coexistent souvent avec de faibles liaisons de certificats.",
           "keyPoints": [
-            "REEF propose un banc d'essai pour tester la sécurité des agents web.",
-            "ANGLER utilise des guidages par quasi-échec pour faire évoluer les attaques.",
-            "Les attaques d'ANGLER réduisent considérablement le taux de réussite des agents."
+            "Identifie trois surfaces d'échec distinctes dans les pipelines de génération de code vérifié par LLM.",
+            "Démontre que des taux d'acceptation élevés peuvent coexister avec une liaison de spécification minime.",
+            "Montre que des échantillons structurellement vérifiés échouent tout de même sur des tests cachés en Rust."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-96f8932650dbfb",
-      "title": "In-Model Context Compression with Agentic Soft Tokens",
-      "summary": "The paper introduces Agentic Soft-Token Compression (ASTC), a training-free method that uses soft tokens within LLM agents for long-horizon tasks. ASTC utilizes native recurrent dynamics to carry absorbed context forward, reducing later-layer computation and matching or exceeding uncompressed agent accuracy with fewer attention pairs.",
-      "keyPoints": [
-        "ASTC is a training-free soft-token compression method for long-horizon LLM agents.",
-        "Uses native recurrent dynamics from hybrid GDN-attention architectures.",
-        "Reduces attention pairs by up to 50.68% while maintaining uncompressed accuracy."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41291",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "In-Model Context Compression with Agentic Soft Tokens",
-          "summary": "The paper introduces Agentic Soft-Token Compression (ASTC), a training-free method that uses soft tokens within LLM agents for long-horizon tasks. ASTC utilizes native recurrent dynamics to carry absorbed context forward, reducing later-layer computation and matching or exceeding uncompressed agent accuracy with fewer attention pairs.",
-          "keyPoints": [
-            "ASTC is a training-free soft-token compression method for long-horizon LLM agents.",
-            "Uses native recurrent dynamics from hybrid GDN-attention architectures.",
-            "Reduces attention pairs by up to 50.68% while maintaining uncompressed accuracy."
-          ]
-        },
-        "fr": {
-          "title": "Compression de contexte par jetons souples agentiques",
-          "summary": "L'article présente l'ASTC (Agentic Soft-Token Compression), une méthode sans entraînement utilisant des jetons souples au sein des agents LLM pour des tâches à long horizon. L'ASTC utilise la dynamique récurrente native pour propager le contexte absorbé, réduisant le calcul tout en maintenant la précision.",
-          "keyPoints": [
-            "L'ASTC est une méthode de compression par jetons souples sans entraînement.",
-            "Exploite la dynamique récurrente native des architectures hybrides.",
-            "Réduit les paires d'attention jusqu'à 50,68 % tout en préservant la précision."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c786e910d0d323",
-      "title": "ART of PIV: Agentic Real-Time Particle Image Velocimetry",
-      "summary": "We introduce ART of PIV, an agentic framework that automates pipeline choices for particle image velocimetry to handle varying flow conditions in real time. It reduces average end-point error by 12.2-22.4% relative to fixed estimators and improves simulated local velocity regulation costs.",
-      "keyPoints": [
-        "Automates pipeline configuration for each image pair dynamically.",
-        "Reduces average end-point error by 12.2 to 22.4 percent.",
-        "Demonstrated in simulation and physical water channel tasks."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41304",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ART of PIV: Agentic Real-Time Particle Image Velocimetry",
-          "summary": "We introduce ART of PIV, an agentic framework that automates pipeline choices for particle image velocimetry to handle varying flow conditions in real time. It reduces average end-point error by 12.2-22.4% relative to fixed estimators and improves simulated local velocity regulation costs.",
-          "keyPoints": [
-            "Automates pipeline configuration for each image pair dynamically.",
-            "Reduces average end-point error by 12.2 to 22.4 percent.",
-            "Demonstrated in simulation and physical water channel tasks."
-          ]
-        },
-        "fr": {
-          "title": "ART of PIV : vélocimétrie d'images de particules agentique en temps réel",
-          "summary": "Nous présentons ART of PIV, un cadre agentique qui automatise les choix de pipeline pour la vélocimétrie d'images de particules afin de gérer les conditions d'écoulement variables en temps réel. Il réduit l'erreur moyenne de point final et améliore les coûts de régulation.",
-          "keyPoints": [
-            "Automatise dynamiquement la configuration du pipeline pour chaque paire d'images.",
-            "Réduit l'erreur moyenne de point final de 12,2 à 22,4 pour cent.",
-            "Démontré en simulation et dans un canal d'eau physique."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b20c538b570f46",
-      "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense",
-      "summary": "ERASE is an on-policy self-distillation method protecting against multimodal indirect prompt injection by erasing injected regions in place. It records near-zero attack success while retaining task utility close to undefended clean inputs.",
-      "keyPoints": [
-        "Proposes ERASE, an on-policy self-distillation defense method.",
-        "Achieves near-zero observed attack success across modalities.",
-        "Retains task utility close to undefended clean-input levels."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2610.41307",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense",
-          "summary": "ERASE is an on-policy self-distillation method protecting against multimodal indirect prompt injection by erasing injected regions in place. It records near-zero attack success while retaining task utility close to undefended clean inputs.",
-          "keyPoints": [
-            "Proposes ERASE, an on-policy self-distillation defense method.",
-            "Achieves near-zero observed attack success across modalities.",
-            "Retains task utility close to undefended clean-input levels."
-          ]
-        },
-        "fr": {
-          "title": "Effacer la région injectée : défense contre l'injection de prompts multimodaux",
-          "summary": "ERASE est une méthode d'auto-distillation en politique qui protège contre l'injection indirecte de invites multimodales en effaçant les régions injectées sur place. Elle enregistre un succès d'attaque presque nul tout en conservant l'utilité des tâches.",
-          "keyPoints": [
-            "Propose ERASE, une méthode de défense par auto-distillation en politique.",
-            "Atteint un succès d'attaque observé proche de zéro à travers les modalités.",
-            "Conserve une utilité de tâche proche des niveaux d'entrée propres non défendus."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 33,
+    "itemsCollected": 391,
     "itemsPublished": 20,
-    "newItems": 2,
-    "candidates": 2,
-    "batches": 1,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
