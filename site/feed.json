@@ -1,76 +1,37 @@
 {
-  "generatedAt": "2026-11-06T06:50:49.086Z",
+  "generatedAt": "2026-11-06T19:26:32.902Z",
   "items": [
     {
-      "id": "feed-c96e5195afc57b",
-      "title": "Formalizing Inverse Problems with AI and Lean",
-      "summary": "Researchers describe AutoIP, a Lean library where classical linear regularization theory and functional analysis are autoformalized by AI agents. Reviewers compare formal statements to natural-language counterparts, discovering that risks lie in statements rather than proofs.",
+      "id": "feed-a0a44ed09dc9a1",
+      "title": "OpenAI Partners with Hacktron",
+      "summary": "OpenAI has partnered with Hacktron to identify vulnerabilities, test third-party service connections, and enhance its AI safety defenses.",
       "keyPoints": [
-        "AutoIP is a Lean library autoformalizing classical linear regularization theory using AI agents.",
-        "Human reviewers focus on verifying formal statements against natural-language counterparts without reading proofs.",
-        "Simple automated tests on statements successfully exposed problems even within established literature."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.06962",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Formalizing Inverse Problems with AI and Lean",
-          "summary": "Researchers describe AutoIP, a Lean library where classical linear regularization theory and functional analysis are autoformalized by AI agents. Reviewers compare formal statements to natural-language counterparts, discovering that risks lie in statements rather than proofs.",
-          "keyPoints": [
-            "AutoIP is a Lean library autoformalizing classical linear regularization theory using AI agents.",
-            "Human reviewers focus on verifying formal statements against natural-language counterparts without reading proofs.",
-            "Simple automated tests on statements successfully exposed problems even within established literature."
-          ]
-        },
-        "fr": {
-          "title": "Formalisation des problèmes inverses avec l'IA et Lean",
-          "summary": "Des chercheurs décrivent AutoIP, une bibliothèque Lean où la théorie de la régularisation linéaire classique et l'analyse fonctionnelle sont auto-formalisées par des agents IA. Les relecteurs comparent les énoncés formels à leurs homologues en langage naturel.",
-          "keyPoints": [
-            "AutoIP est une bibliothèque Lean qui auto-formalisme la théorie de la régularisation linéaire à l'aide d'agents IA.",
-            "Les réviseurs humains se concentrent sur la vérification des énoncés formels sans lire les preuves.",
-            "Des tests automatisés simples sur les énoncés ont permis d'exposer des problèmes dans la littérature établie."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-bbd492caba72ca",
-      "title": "Cult.fit Builds Operational Muscle with Codex",
-      "summary": "Cult.fit is utilizing OpenAI's Codex to help cross-functional teams build tools more efficiently, accelerate workflows, and transform how daily work operations are executed.",
-      "keyPoints": [
-        "Cult.fit uses Codex across multiple functions to build internal tools.",
-        "The technology helps teams move faster in their daily operations.",
-        "Codex is changing how work gets done within the organization."
+        "OpenAI collaborates with Hacktron",
+        "Focuses on finding vulnerabilities and testing connections",
+        "Aims to strengthen frontier AI defenses"
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/cultfit-builds-with-codex",
-      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/partnering-with-hacktron",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Cult.fit Builds Operational Muscle with Codex",
-          "summary": "Cult.fit is utilizing OpenAI's Codex to help cross-functional teams build tools more efficiently, accelerate workflows, and transform how daily work operations are executed.",
+          "title": "OpenAI Partners with Hacktron",
+          "summary": "OpenAI has partnered with Hacktron to identify vulnerabilities, test third-party service connections, and enhance its AI safety defenses.",
           "keyPoints": [
-            "Cult.fit uses Codex across multiple functions to build internal tools.",
-            "The technology helps teams move faster in their daily operations.",
-            "Codex is changing how work gets done within the organization."
+            "OpenAI collaborates with Hacktron",
+            "Focuses on finding vulnerabilities and testing connections",
+            "Aims to strengthen frontier AI defenses"
           ]
         },
         "fr": {
-          "title": "Cult.fit renforce ses capacités opérationnelles avec Codex",
-          "summary": "Cult.fit utilise Codex d'OpenAI pour aider les équipes pluridisciplinaires à créer des outils, à progresser plus rapidement et à transformer la manière dont le travail est exécuté.",
+          "title": "OpenAI s'associe à Hacktron",
+          "summary": "OpenAI s'associe à Hacktron pour identifier des vulnérabilités, tester les connexions de services tiers et renforcer ses défenses en IA.",
           "keyPoints": [
-            "Cult.fit utilise Codex dans toutes ses fonctions pour développer des outils.",
-            "La technologie aide les équipes à progresser plus rapidement.",
-            "Codex modifie la façon dont le travail est effectué au sein de l'organisation."
+            "Partenariat entre OpenAI et Hacktron",
+            "Accent sur la recherche de vulnérabilités et de connexions",
+            "Objectif de renforcer les défenses de l'IA"
           ]
         }
       },
@@ -80,36 +41,36 @@
       }
     },
     {
-      "id": "feed-ca3a1f59a13e89",
-      "title": "KDASO for Automated Skill Optimization in Liability Adjudication",
-      "summary": "Researchers propose Knowledge-Data Dual-Driven Automated Skill Optimization (KDASO) to solve limitations in liability adjudication tasks using LLMs, such as stale skill libraries and context budget overflows.",
+      "id": "feed-428a0ceb14f776",
+      "title": "Goal Revelation in AI Power and Safety",
+      "summary": "Researchers explore the bridge between information-theoretic empowerment and capability-based human power, proposing a satisfaction floor to monitor user power and mitigate AI alignment failure modes.",
       "keyPoints": [
-        "KDASO addresses stale skill libraries, execution gaps, and context budget issues in LLMs.",
-        "It continuously evolves skill collections via neighborhood-conditioned induction and execution-aligned refinement.",
-        "Experiments show significant performance gains and high transferability across various legal and reasoning tasks."
+        "Examines information-theoretic empowerment and human power",
+        "Identifies potential failure modes in agent goal maximization",
+        "Proposes a satisfaction floor metric from interaction logs"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.06972",
+      "sourceUrl": "https://arxiv.org/abs/2611.07247",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "KDASO for Automated Skill Optimization in Liability Adjudication",
-          "summary": "Researchers propose Knowledge-Data Dual-Driven Automated Skill Optimization (KDASO) to solve limitations in liability adjudication tasks using LLMs, such as stale skill libraries and context budget overflows.",
+          "title": "Goal Revelation in AI Power and Safety",
+          "summary": "Researchers explore the bridge between information-theoretic empowerment and capability-based human power, proposing a satisfaction floor to monitor user power and mitigate AI alignment failure modes.",
           "keyPoints": [
-            "KDASO addresses stale skill libraries, execution gaps, and context budget issues in LLMs.",
-            "It continuously evolves skill collections via neighborhood-conditioned induction and execution-aligned refinement.",
-            "Experiments show significant performance gains and high transferability across various legal and reasoning tasks."
+            "Examines information-theoretic empowerment and human power",
+            "Identifies potential failure modes in agent goal maximization",
+            "Proposes a satisfaction floor metric from interaction logs"
           ]
         },
         "fr": {
-          "title": "KDASO pour l'optimisation automatisée des compétences en arbitrage",
-          "summary": "Des chercheurs proposent KDASO pour résoudre les limites des tâches d'arbitrage de responsabilité utilisant les LLM, telles que les bibliothèques de compétences obsolètes et les dépassements de budget contextuel.",
+          "title": "Révélation d'objectifs dans le pouvoir et la sécurité de l'IA",
+          "summary": "Des chercheurs explorent le lien entre l'autonomisation théorique de l'information et le pouvoir humain, proposant un seuil de satisfaction pour surveiller l'utilisateur.",
           "keyPoints": [
-            "KDASO résout les problèmes de bibliothèques obsolètes et d'écarts d'exécution dans les LLM.",
-            "Il fait évoluer continuellement les compétences via une induction et un raffinement adaptés.",
-            "Les expériences démontrent des gains de performance significatifs et une forte transférabilité."
+            "Examine l'autonomisation et le pouvoir humain",
+            "Identifie des modes de défaillance potentiels",
+            "Propose un seuil de satisfaction basé sur les journaux"
           ]
         }
       },
@@ -119,36 +80,36 @@
       }
     },
     {
-      "id": "feed-616c68177b707e",
-      "title": "Australian Universities Prepare AI-Native Graduates",
-      "summary": "Australian universities are expanding student access to ChatGPT and integrating artificial intelligence into their teaching and learning curricula to prepare graduates for an AI-enabled workforce.",
+      "id": "feed-5f721228af3682",
+      "title": "OpenAI Introduces BioBasicsBench",
+      "summary": "OpenAI presents BioBasicsBench, a benchmark consisting of 100 tasks designed to evaluate how AI agents interpret raw experimental data and manage everyday wet-lab science.",
       "keyPoints": [
-        "Australian universities are expanding student access to ChatGPT.",
-        "AI is being integrated into teaching and learning environments.",
-        "The initiative aims to prepare students for an AI-enabled workforce."
+        "Introduction of BioBasicsBench by OpenAI",
+        "Features 100 tasks for wet-lab science evaluation",
+        "Measures raw experimental data interpretation"
       ],
-      "category": "Business",
+      "category": "Outils",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Australian Universities Prepare AI-Native Graduates",
-          "summary": "Australian universities are expanding student access to ChatGPT and integrating artificial intelligence into their teaching and learning curricula to prepare graduates for an AI-enabled workforce.",
+          "title": "OpenAI Introduces BioBasicsBench",
+          "summary": "OpenAI presents BioBasicsBench, a benchmark consisting of 100 tasks designed to evaluate how AI agents interpret raw experimental data and manage everyday wet-lab science.",
           "keyPoints": [
-            "Australian universities are expanding student access to ChatGPT.",
-            "AI is being integrated into teaching and learning environments.",
-            "The initiative aims to prepare students for an AI-enabled workforce."
+            "Introduction of BioBasicsBench by OpenAI",
+            "Features 100 tasks for wet-lab science evaluation",
+            "Measures raw experimental data interpretation"
           ]
         },
         "fr": {
-          "title": "Les universités australiennes forment des diplômés natifs de l'IA",
-          "summary": "Les universités australiennes élargissent l'accès à ChatGPT pour les étudiants et intègrent l'intelligence artificielle dans l'enseignement et l'apprentissage afin de préparer la main-d'œuvre de demain.",
+          "title": "OpenAI lance BioBasicsBench",
+          "summary": "OpenAI présente BioBasicsBench, un benchmark de 100 tâches évaluant la capacité des agents d'IA à interpréter des données expérimentales et la science de laboratoire.",
           "keyPoints": [
-            "Les universités australiennes élargissent l'accès à ChatGPT.",
-            "L'IA est intégrée dans les programmes d'enseignement et d'apprentissage.",
-            "L'objectif est de préparer les étudiants à une main-d'œuvre axée sur l'IA."
+            "Lancement de BioBasicsBench par OpenAI",
+            "Comprend 100 tâches d'évaluation",
+            "Mesure l'interprétation de données expérimentales"
           ]
         }
       },
@@ -158,36 +119,36 @@
       }
     },
     {
-      "id": "feed-2173f7bc6c09b4",
-      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
-      "summary": "BlockLock maintains shared batched prefill while pinning the numerical path of protected requests for reproducible LLM inference. It provides two modes that preserve bitwise outputs while improving throughput and latency.",
+      "id": "feed-43fe88b25001f5",
+      "title": "Ranking Port Impacts from Tropical Cyclones",
+      "summary": "A two-stage recommendation framework is proposed to predict and rank port impacts from impending tropical cyclones using historical data and machine learning.",
       "keyPoints": [
-        "BlockLock keeps shared batched prefill and fixes request geometry for reproducible LLM inference.",
-        "It features two modes (BlockLock-Rows and BlockLock-Pack) to preserve target output bitwise.",
-        "BlockLock-Rows reduces latency and improves throughput significantly compared to baseline methods."
+        "Two-stage recommendation system for tropical cyclones",
+        "Tests multiple representations of port-cyclone interactions",
+        "Wide & Deep Learning closely matches observed port rankings"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.06977",
+      "sourceUrl": "https://arxiv.org/abs/2611.07296",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
-          "summary": "BlockLock maintains shared batched prefill while pinning the numerical path of protected requests for reproducible LLM inference. It provides two modes that preserve bitwise outputs while improving throughput and latency.",
+          "title": "Ranking Port Impacts from Tropical Cyclones",
+          "summary": "A two-stage recommendation framework is proposed to predict and rank port impacts from impending tropical cyclones using historical data and machine learning.",
           "keyPoints": [
-            "BlockLock keeps shared batched prefill and fixes request geometry for reproducible LLM inference.",
-            "It features two modes (BlockLock-Rows and BlockLock-Pack) to preserve target output bitwise.",
-            "BlockLock-Rows reduces latency and improves throughput significantly compared to baseline methods."
+            "Two-stage recommendation system for tropical cyclones",
+            "Tests multiple representations of port-cyclone interactions",
+            "Wide & Deep Learning closely matches observed port rankings"
           ]
         },
         "fr": {
-          "title": "BlockLock : Inférence LLM reproductible avec géométrie de lot fixe",
-          "summary": "BlockLock maintient un pré-remplissage groupé partagé tout en épinglant le chemin numérique des requêtes protégées pour une inférence LLM reproductible. Ses deux modes préservent les bits de sortie tout en améliorant les performances.",
+          "title": "Classement des impacts portuaires des cyclones",
+          "summary": "Un cadre de recommandation en deux étapes est proposé pour prédire et classer les impacts portuaires des cyclones tropicaux à l'aide de l'apprentissage automatique.",
           "keyPoints": [
-            "BlockLock conserve le pré-remplissage groupé partagé pour l'inférence LLM reproductible.",
-            "Il propose deux modes pour préserver les bits de sortie de la cible.",
-            "BlockLock-Rows réduit la latence et améliore considérablement le débit par rapport aux méthodes de référence."
+            "Système de recommandation en deux étapes",
+            "Compare plusieurs représentations d'interactions",
+            "Le modèle Wide & Deep Learning s'accorde le mieux"
           ]
         }
       },
@@ -197,587 +158,626 @@
       }
     },
     {
-      "id": "feed-14e90e72d3401d",
-      "title": "GPT-6 Cyber: Advancing Aligned Cybersecurity Agents",
-      "summary": "OpenAI introduces GPT-6 Cyber, a specialized cybersecurity model designed to discover exploitable vulnerabilities and develop fixes while operating strictly within an authorized scope.",
+      "id": "feed-9676afc47cb10f",
+      "title": "EnvOpt: Automated Optimization for Agent Environments",
+      "summary": "EnvOpt is introduced as an automated optimization method for stationary agent environments, significantly reducing agent costs while improving success rates across multiple models.",
       "keyPoints": [
-        "OpenAI introduces GPT-6 Cyber for cybersecurity applications.",
-        "The model finds exploitable vulnerabilities and develops software fixes.",
-        "It is specifically trained to stay strictly within an authorized operational scope."
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-cyber",
-      "publishedAt": "2026-11-05T09:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GPT-6 Cyber: Advancing Aligned Cybersecurity Agents",
-          "summary": "OpenAI introduces GPT-6 Cyber, a specialized cybersecurity model designed to discover exploitable vulnerabilities and develop fixes while operating strictly within an authorized scope.",
-          "keyPoints": [
-            "OpenAI introduces GPT-6 Cyber for cybersecurity applications.",
-            "The model finds exploitable vulnerabilities and develops software fixes.",
-            "It is specifically trained to stay strictly within an authorized operational scope."
-          ]
-        },
-        "fr": {
-          "title": "GPT-6 Cyber : Avancée pour les agents de cybersécurité alignés",
-          "summary": "OpenAI présente GPT-6 Cyber, un modèle de cybersécurité conçu pour identifier les vulnérabilités exploitables et développer des correctifs tout en respectant un cadre autorisé.",
-          "keyPoints": [
-            "OpenAI présente GPT-6 Cyber pour des applications de cybersécurité.",
-            "Le modèle trouve des vulnérabilités exploitables et élabore des correctifs.",
-            "Il est entraîné pour rester strictement dans le périmètre autorisé."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f145415baaf53e",
-      "title": "FlexFloor: Resource-Efficient RL Post-Training via Elastic Expert Parallelism",
-      "summary": "FlexFloor is a system that enables earlier resource release during synchronous response generation in mixture-of-experts models, enhancing reinforcement learning post-training efficiency without sacrificing reward.",
-      "keyPoints": [
-        "FlexFloor addresses computational bottlenecks during reinforcement learning post-training.",
-        "It jointly adapts response scheduling and active worker groups to release resources earlier.",
-        "FlexFloor increases response generation throughput and token generation efficiency significantly."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.06984",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "FlexFloor: Resource-Efficient RL Post-Training via Elastic Expert Parallelism",
-          "summary": "FlexFloor is a system that enables earlier resource release during synchronous response generation in mixture-of-experts models, enhancing reinforcement learning post-training efficiency without sacrificing reward.",
-          "keyPoints": [
-            "FlexFloor addresses computational bottlenecks during reinforcement learning post-training.",
-            "It jointly adapts response scheduling and active worker groups to release resources earlier.",
-            "FlexFloor increases response generation throughput and token generation efficiency significantly."
-          ]
-        },
-        "fr": {
-          "title": "FlexFloor : Post-entraînement RL efficace via parallélisme d'experts élastique",
-          "summary": "FlexFloor est un système permettant une libération anticipée des ressources lors de la génération de réponses synchrones dans les modèles de mélange d'experts, améliorant l'efficacité du post-entraînement.",
-          "keyPoints": [
-            "FlexFloor résout les goulots d'étranglement de calcul lors du post-entraînement par renforcement.",
-            "Il adapte conjointement la planification des réponses et les groupes de travailleurs actifs.",
-            "FlexFloor augmente considérablement le débit de génération de réponses et l'efficacité des jetons."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-db9792e954d447",
-      "title": "Merge Builds Product and Business Tools with OpenAI Technology",
-      "summary": "Merge integrates GPT-6 Astra, ChatGPT, and Codex to review product code, support marketing initiatives, plan executive dinners, and prepare sales updates across its teams.",
-      "keyPoints": [
-        "Merge uses GPT-6 Astra, ChatGPT, and Codex for internal workflows.",
-        "Teams leverage the AI tools to review code and support marketing efforts.",
-        "Internal teams also use AI to plan executive dinners and prepare sales updates."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/merge-builds-with-openai",
-      "publishedAt": "2026-11-05T08:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Merge Builds Product and Business Tools with OpenAI Technology",
-          "summary": "Merge integrates GPT-6 Astra, ChatGPT, and Codex to review product code, support marketing initiatives, plan executive dinners, and prepare sales updates across its teams.",
-          "keyPoints": [
-            "Merge uses GPT-6 Astra, ChatGPT, and Codex for internal workflows.",
-            "Teams leverage the AI tools to review code and support marketing efforts.",
-            "Internal teams also use AI to plan executive dinners and prepare sales updates."
-          ]
-        },
-        "fr": {
-          "title": "Merge crée des outils produits et commerciaux avec la technologie OpenAI",
-          "summary": "Merge intègre GPT-6 Astra, ChatGPT et Codex pour examiner le code produit, soutenir le marketing, planifier des dîners de direction et préparer des rapports de vente.",
-          "keyPoints": [
-            "Merge utilise GPT-6 Astra, ChatGPT et Codex pour les flux de travail internes.",
-            "Les équipes exploitent l'IA pour examiner le code et soutenir le marketing.",
-            "Les outils aident également à la planification de dîners et à la préparation des ventes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-62aa0e581fddff",
-      "title": "The Two-Ledger Model for Transaction-Grain AI Cost Accounting",
-      "summary": "Researchers propose the Two-Ledger Model to resolve cost accounting mismatches in multi-agent AI systems by joining a settlement ledger with an attribution ledger built on OpenTelemetry telemetry.",
-      "keyPoints": [
-        "The Two-Ledger Model joins billing data with invocation-grain usage records.",
-        "A correlation spine assigns records to business transactions to track precise AI costs.",
-        "Simulations show high cost coverage, error flagging capabilities, and lower transaction costs."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.06989",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "The Two-Ledger Model for Transaction-Grain AI Cost Accounting",
-          "summary": "Researchers propose the Two-Ledger Model to resolve cost accounting mismatches in multi-agent AI systems by joining a settlement ledger with an attribution ledger built on OpenTelemetry telemetry.",
-          "keyPoints": [
-            "The Two-Ledger Model joins billing data with invocation-grain usage records.",
-            "A correlation spine assigns records to business transactions to track precise AI costs.",
-            "Simulations show high cost coverage, error flagging capabilities, and lower transaction costs."
-          ]
-        },
-        "fr": {
-          "title": "Le modèle à double registre pour la comptabilité des coûts d'IA",
-          "summary": "Des chercheurs proposent le modèle à double registre pour résoudre les inadéquations de comptabilité des coûts dans les systèmes d'IA multi-agents en combinant des données de facturation et d'utilisation.",
-          "keyPoints": [
-            "Le modèle à double registre associe des données de facturation aux registres d'utilisation.",
-            "Une structure de corrélation attribue chaque enregistrement aux transactions commerciales.",
-            "Les simulations démontrent une couverture des coûts élevée et une réduction des frais."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-25fa4dd18ec78a",
-      "title": "OpenAI Sets New Standards for Responsible AI Infrastructure",
-      "summary": "OpenAI launches its National Community Compact and Compute Campus Policy Blueprint to guide responsible AI infrastructure development, protect local resources, and generate local jobs.",
-      "keyPoints": [
-        "OpenAI introduces a National Community Compact and Compute Campus Policy Blueprint.",
-        "The initiative aims to guide responsible development of AI infrastructure.",
-        "Policies are designed to protect local resources and create local jobs."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "publishedAt": "2026-11-05T02:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI Sets New Standards for Responsible AI Infrastructure",
-          "summary": "OpenAI launches its National Community Compact and Compute Campus Policy Blueprint to guide responsible AI infrastructure development, protect local resources, and generate local jobs.",
-          "keyPoints": [
-            "OpenAI introduces a National Community Compact and Compute Campus Policy Blueprint.",
-            "The initiative aims to guide responsible development of AI infrastructure.",
-            "Policies are designed to protect local resources and create local jobs."
-          ]
-        },
-        "fr": {
-          "title": "OpenAI établit de nouvelles normes pour une infrastructure d'IA responsable",
-          "summary": "OpenAI lance son pacte communautaire national et sa directive politique sur les campus de calcul pour guider le développement responsable des infrastructures d'IA et protéger les ressources locales.",
-          "keyPoints": [
-            "OpenAI introduit un pacte communautaire national et un plan politique pour les campus.",
-            "L'initiative vise à guider le développement responsable des infrastructures d'IA.",
-            "Les mesures sont conçues pour protéger les ressources locales et créer des emplois."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d37a69f2f16a8e",
-      "title": "Autonomous AI Agents Diverge From Human Preferences in Proofs",
-      "summary": "Using simulated collaboration across nine major human collaborations in Lean, researchers examined how AI proof-making preferences differ from humans. The study found AI agents are more attracted to explicitly marked gaps and surprising proof bodies while showing an aversion to dense proof centers and complex goals.",
-      "keyPoints": [
-        "AI agents are strongly drawn to explicitly marked gaps.",
-        "Agents show aversion to densely connected proof centers and complex goals.",
-        "Study used simulated collaboration across 4.7M definitions in Lean."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.06995",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Autonomous AI Agents Diverge From Human Preferences in Proofs",
-          "summary": "Using simulated collaboration across nine major human collaborations in Lean, researchers examined how AI proof-making preferences differ from humans. The study found AI agents are more attracted to explicitly marked gaps and surprising proof bodies while showing an aversion to dense proof centers and complex goals.",
-          "keyPoints": [
-            "AI agents are strongly drawn to explicitly marked gaps.",
-            "Agents show aversion to densely connected proof centers and complex goals.",
-            "Study used simulated collaboration across 4.7M definitions in Lean."
-          ]
-        },
-        "fr": {
-          "title": "Les agents IA autonomes divergent des préférences humaines",
-          "summary": "À l'aide d'une collaboration simulée sur neuf projets majeurs en Lean, des chercheurs ont examiné les différences de préférences lors de la construction de preuves. L'étude montre que les agents IA sont attirés par les lacunes marquées et régularisent les corps de preuves surprenants.",
-          "keyPoints": [
-            "Les agents IA sont fortement attirés par les lacunes explicites.",
-            "Les agents évitent les centres de preuve denses et complexes.",
-            "L'étude s'appuie sur 4,7 millions de définitions en Lean."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2d1d326185a626",
-      "title": "Flipsnack Grows Product Signups with ChatGPT Ads",
-      "summary": "Flipsnack utilized ChatGPT Ads campaigns to drive user trials of its product, successfully increasing registrations while simultaneously lowering the overall cost per signup.",
-      "keyPoints": [
-        "Flipsnack used ChatGPT Ads to target product signups.",
-        "The campaign successfully grew registrations.",
-        "The cost per signup was lowered."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/ads/customers/flipsnack",
-      "publishedAt": "2026-11-05T00:45:15.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Flipsnack Grows Product Signups with ChatGPT Ads",
-          "summary": "Flipsnack utilized ChatGPT Ads campaigns to drive user trials of its product, successfully increasing registrations while simultaneously lowering the overall cost per signup.",
-          "keyPoints": [
-            "Flipsnack used ChatGPT Ads to target product signups.",
-            "The campaign successfully grew registrations.",
-            "The cost per signup was lowered."
-          ]
-        },
-        "fr": {
-          "title": "Flipsnack augmente ses inscriptions grâce aux publicités ChatGPT",
-          "summary": "Flipsnack a utilisé les campagnes publicitaires ChatGPT pour encourager l'essai de son produit, augmentant les inscriptions tout en réduisant le coût par inscription.",
-          "keyPoints": [
-            "Flipsnack a utilisé les publicités ChatGPT pour stimuler les inscriptions.",
-            "La campagne a accru le nombre d'enregistrements.",
-            "Le coût par inscription a été réduit."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a67cb9c83dfc13",
-      "title": "Trust Responsive Runtime Authorization for Agentic AI",
-      "summary": "Researchers empirically characterized the Trust Responsive Authorization Policy (TRAP) for agentic AI, mapping an Authorization Readiness Score to discrete levels. TRAP restricts authority immediately upon abrupt degradation and re-escalates sooner after recovery compared to symmetric policies.",
-      "keyPoints": [
-        "TRAP maps an Authorization Readiness Score to operational authority.",
-        "Under abrupt degradation, TRAP restricts authority at onset.",
-        "Recovery behavior and stability depend heavily on degradation patterns."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.06996",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Trust Responsive Runtime Authorization for Agentic AI",
-          "summary": "Researchers empirically characterized the Trust Responsive Authorization Policy (TRAP) for agentic AI, mapping an Authorization Readiness Score to discrete levels. TRAP restricts authority immediately upon abrupt degradation and re-escalates sooner after recovery compared to symmetric policies.",
-          "keyPoints": [
-            "TRAP maps an Authorization Readiness Score to operational authority.",
-            "Under abrupt degradation, TRAP restricts authority at onset.",
-            "Recovery behavior and stability depend heavily on degradation patterns."
-          ]
-        },
-        "fr": {
-          "title": "Autorisation d'exécution réactive de la confiance pour l'IA",
-          "summary": "Des chercheurs ont caractérisé la politique d'autorisation réactive de la confiance (TRAP), qui cartographie un score de préparation en niveaux d'autorisation. TRAP restreint immédiatement l'autorité en cas de dégradation brutale par rapport aux politiques symétriques.",
-          "keyPoints": [
-            "TRAP associe un score de préparation à l'autorité opérationnelle.",
-            "En cas de dégradation brutale, TRAP restreint l'accès immédiatement.",
-            "Le comportement de récupération dépend des schémas de dégradation."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a8e215d1c3fca6",
-      "title": "Franklin Templeton Uses OpenAI for Investment Research",
-      "summary": "Franklin Templeton is developing artificial intelligence workflows to assist portfolio managers with comparing research views and examining investment risks, beginning with equity research.",
-      "keyPoints": [
-        "Franklin Templeton is developing AI workflows with OpenAI.",
-        "The initiative starts with equity research applications.",
-        "Workflows help portfolio managers compare research views and risks."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/franklin-templeton",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Franklin Templeton Uses OpenAI for Investment Research",
-          "summary": "Franklin Templeton is developing artificial intelligence workflows to assist portfolio managers with comparing research views and examining investment risks, beginning with equity research.",
-          "keyPoints": [
-            "Franklin Templeton is developing AI workflows with OpenAI.",
-            "The initiative starts with equity research applications.",
-            "Workflows help portfolio managers compare research views and risks."
-          ]
-        },
-        "fr": {
-          "title": "Franklin Templeton utilise OpenAI pour la recherche d'investissement",
-          "summary": "Franklin Templeton développe des flux de travail en IA pour aider les gestionnaires de portefeuille à comparer les points de vue et à examiner les risques d'investissement, en commençant par la recherche sur actions.",
-          "keyPoints": [
-            "Franklin Templeton développe des flux de travail IA avec OpenAI.",
-            "L'initiative débute par la recherche sur les actions.",
-            "Les outils aident à comparer les perspectives et les risques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6bcd57996b1f8a",
-      "title": "Adapting the Process of Adaptation in AI Evolution",
-      "summary": "A theoretical framework compares Darwinian, Lamarckian, and agent-directed evolution in AI. While agent-directed evolution accelerates adaptation, misspecified evaluation targets can cause agents to converge toward the wrong behavior, presenting ongoing AI safety challenges.",
-      "keyPoints": [
-        "Framework compares Darwinian, Lamarckian, and agent-directed evolution.",
-        "Agent-directed evolution can accelerate adaptation significantly.",
-        "Misspecified targets can drive convergence toward incorrect behaviors."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07048",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Adapting the Process of Adaptation in AI Evolution",
-          "summary": "A theoretical framework compares Darwinian, Lamarckian, and agent-directed evolution in AI. While agent-directed evolution accelerates adaptation, misspecified evaluation targets can cause agents to converge toward the wrong behavior, presenting ongoing AI safety challenges.",
-          "keyPoints": [
-            "Framework compares Darwinian, Lamarckian, and agent-directed evolution.",
-            "Agent-directed evolution can accelerate adaptation significantly.",
-            "Misspecified targets can drive convergence toward incorrect behaviors."
-          ]
-        },
-        "fr": {
-          "title": "Adapter le processus d'adaptation dans l'évolution de l'IA",
-          "summary": "Un cadre théorique compare l'évolution darwinienne, lamarckienne et dirigée par les agents en IA. Si l'évolution dirigée accélère l'adaptation, des objectifs mal spécifiés peuvent amener les agents vers des comportements erronés.",
-          "keyPoints": [
-            "Le cadre compare les évolutions darwinienne, lamarckienne et par agent.",
-            "L'évolution dirigée par l'agent accélère l'adaptation.",
-            "Des cibles mal spécifiées posent de réels défis pour la sécurité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e4ba57732a4477",
-      "title": "Closed-Loop Agent Evaluation: Layered Measurement",
-      "summary": "Researchers propose closed-loop evaluation for deployed AI agents, modeling performance estimation under biased raters and censored outcomes across four levels of analysis. Using the SharpInsight business agent as a case, evidence-and-rule judgment proved more reliable than holistic scoring.",
-      "keyPoints": [
-        "Closed-loop evaluation covers four analytical levels for deployed agents.",
-        "Uses inner and outer loops to audit evidence and drive agent improvement.",
-        "Evidence-and-rule judgment outperformed holistic scoring in reliability."
+        "Proposes EnvOpt for stationary environment optimization",
+        "Reduces agent operational costs significantly",
+        "Demonstrated improvements across several benchmarks"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07051",
+      "sourceUrl": "https://arxiv.org/abs/2611.07372",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Closed-Loop Agent Evaluation: Layered Measurement",
-          "summary": "Researchers propose closed-loop evaluation for deployed AI agents, modeling performance estimation under biased raters and censored outcomes across four levels of analysis. Using the SharpInsight business agent as a case, evidence-and-rule judgment proved more reliable than holistic scoring.",
+          "title": "EnvOpt: Automated Optimization for Agent Environments",
+          "summary": "EnvOpt is introduced as an automated optimization method for stationary agent environments, significantly reducing agent costs while improving success rates across multiple models.",
           "keyPoints": [
-            "Closed-loop evaluation covers four analytical levels for deployed agents.",
-            "Uses inner and outer loops to audit evidence and drive agent improvement.",
-            "Evidence-and-rule judgment outperformed holistic scoring in reliability."
+            "Proposes EnvOpt for stationary environment optimization",
+            "Reduces agent operational costs significantly",
+            "Demonstrated improvements across several benchmarks"
           ]
         },
         "fr": {
-          "title": "Évaluation d'agents en boucle fermée : mesure multicouche",
-          "summary": "Les chercheurs proposent une évaluation en boucle fermée pour les agents déployés, modélisant l'estimation des performances sur quatre niveaux d'analyse. Le jugement fondé sur des règles s'est avéré plus fiable que la notation globale.",
+          "title": "EnvOpt : Optimisation automatisée pour les environnements",
+          "summary": "EnvOpt est présenté comme une méthode d'optimisation automatisée pour les environnements d'agents stationnaires, réduisant les coûts tout en améliorant les taux de réussite.",
           "keyPoints": [
-            "L'évaluation en boucle fermée couvre quatre niveaux d'analyse.",
-            "Des boucles internes et externes auditent les preuves et améliorent l'agent.",
-            "Le jugement fondé sur des règles surpasse la notation globale."
+            "Présentation d'EnvOpt pour les environnements stationnaires",
+            "Réduit considérablement les coûts des agents",
+            "Améliorations démontrées sur plusieurs benchmarks"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-a47dad607e0fe9",
-      "title": "Cooperative MARL via Epigraph-Form Guided Exploration",
-      "summary": "The paper introduces EFXPLORER, a constrained exploration framework for cooperative multi-agent reinforcement learning that maximizes exploration objectives while preserving established task performance through an epigraph reformulation.",
+      "id": "feed-8038b228ad5a26",
+      "title": "FINCOSMOS: Financial Agent Open-World Evaluation",
+      "summary": "FINCOSMOS is an open-world evaluation paradigm designed to test language agents performing financial work without closed-world constraints, revealing common failures.",
       "keyPoints": [
-        "Introduces EFXPLORER for cooperative multi-agent reinforcement learning.",
-        "Uses an epigraph reformulation with adaptive exploration budgets.",
-        "Outperforms baselines on SMAX, VMAS, and MPE benchmark suites."
+        "Introduces FINCOSMOS for financial agents",
+        "Evaluates agents in an open-world setting",
+        "Identifies unverified data and strategy failures"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07066",
+      "sourceUrl": "https://arxiv.org/abs/2611.07464",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Cooperative MARL via Epigraph-Form Guided Exploration",
-          "summary": "The paper introduces EFXPLORER, a constrained exploration framework for cooperative multi-agent reinforcement learning that maximizes exploration objectives while preserving established task performance through an epigraph reformulation.",
+          "title": "FINCOSMOS: Financial Agent Open-World Evaluation",
+          "summary": "FINCOSMOS is an open-world evaluation paradigm designed to test language agents performing financial work without closed-world constraints, revealing common failures.",
           "keyPoints": [
-            "Introduces EFXPLORER for cooperative multi-agent reinforcement learning.",
-            "Uses an epigraph reformulation with adaptive exploration budgets.",
-            "Outperforms baselines on SMAX, VMAS, and MPE benchmark suites."
+            "Introduces FINCOSMOS for financial agents",
+            "Evaluates agents in an open-world setting",
+            "Identifies unverified data and strategy failures"
           ]
         },
         "fr": {
-          "title": "Apprentissage par renforcement multi-agent coopératif via EFXPLORER",
-          "summary": "L'article présente EFXPLORER, un cadre d'exploration contrainte pour l'apprentissage par renforcement multi-agent coopératif qui maximise l'exploration tout en préservant les performances des tâches grâce à une reformulation en épigraphe.",
+          "title": "FINCOSMOS : Évaluation en monde ouvert pour agents financiers",
+          "summary": "FINCOSMOS est un paradigme d'évaluation en monde ouvert pour tester les agents linguistiques effectuant des tâches financières sans contraintes fermées.",
           "keyPoints": [
-            "Présente EFXPLORER pour l'apprentissage multi-agent coopératif.",
-            "Utilise une reformulation en épigraphe avec des budgets adaptatifs.",
-            "Surpasse les références sur les environnements SMAX, VMAS et MPE."
+            "Introduction de FINCOSMOS pour la finance",
+            "Évalue les agents en environnement ouvert",
+            "Met en lumière les échecs de stratégie"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-c8010e54f7a167",
-      "title": "Cross-Agent LLM-to-Dafny Formalization and Verification Risks",
-      "summary": "Evaluating cross-agent formalization where a Specifier translates criteria and an Implementer writes Dafny methods, researchers found that verification success does not guarantee genuine independent reasoning. Agreement rates remained low, with strong models often dominated by contradictions.",
+      "id": "feed-6f9c13c1ac0187",
+      "title": "SAVeR^2: Safety Alignment for Large Reasoning Models",
+      "summary": "SAVeR^2 is a safety alignment method for large reasoning models that decomposes safety objectives into verifiable rewards and eliminates the safety tax on reasoning.",
       "keyPoints": [
-        "Tested cross-agent formalization across clinical trial documents.",
-        "Verification success does not guarantee independent cross-agent agreement.",
-        "Strongest configurations still suffered from direct contradictions."
+        "Proposes SAVeR^2 for safety alignment",
+        "Decomposes safety into fine-grained rewards",
+        "Eliminates the safety tax without harming reasoning"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07073",
+      "sourceUrl": "https://arxiv.org/abs/2611.07482",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Cross-Agent LLM-to-Dafny Formalization and Verification Risks",
-          "summary": "Evaluating cross-agent formalization where a Specifier translates criteria and an Implementer writes Dafny methods, researchers found that verification success does not guarantee genuine independent reasoning. Agreement rates remained low, with strong models often dominated by contradictions.",
+          "title": "SAVeR^2: Safety Alignment for Large Reasoning Models",
+          "summary": "SAVeR^2 is a safety alignment method for large reasoning models that decomposes safety objectives into verifiable rewards and eliminates the safety tax on reasoning.",
           "keyPoints": [
-            "Tested cross-agent formalization across clinical trial documents.",
-            "Verification success does not guarantee independent cross-agent agreement.",
-            "Strongest configurations still suffered from direct contradictions."
+            "Proposes SAVeR^2 for safety alignment",
+            "Decomposes safety into fine-grained rewards",
+            "Eliminates the safety tax without harming reasoning"
           ]
         },
         "fr": {
-          "title": "Formalisation LLM vers Dafny inter-agents et risques de vérification",
-          "summary": "En évaluant la formalisation inter-agents où un spécificateur traduit des critères et un implémenteur écrit des méthodes Dafny, les chercheurs ont découvert que le succès de la vérification ne garantit pas un raisonnement indépendant.",
+          "title": "SAVeR^2 : Alignement de sécurité pour grands modèles de raisonnement",
+          "summary": "SAVeR^2 est une méthode d'alignement de sécurité qui décompose les objectifs en récompenses vérifiables et élimine la taxe de sécurité sur le raisonnement.",
           "keyPoints": [
-            "Évaluation de la formalisation inter-agents sur des essais cliniques.",
-            "Le succès de la vérification ne garantit pas un accord indépendant.",
-            "Les configurations les plus fortes souffrent de contradictions directes."
+            "Proposition de SAVeR^2 pour l'alignement",
+            "Décompose la sécurité en récompenses fines",
+            "Élimine la taxe de sécurité sans nuire au raisonnement"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-4c861a74d24931",
-      "title": "Synthesizing Symbolic Models of Human and Machine Reasoning",
-      "summary": "Researchers introduce Behavior-Conditioned Symbolic Synthesis (BCSS) to scale symbolic modeling and automatically search for interpretable programs reproducing reasoning behavior. Analysis reveals shared signatures of oversimplification and satisficing between humans and machines.",
+      "id": "feed-1ef9e7f0384b9f",
+      "title": "DelegateEval: Evaluating Personal External Service Agents",
+      "summary": "DelegateEval is proposed as a platform-level evaluation framework to assess personal external service agents across eight dimensions of service delivery and governance.",
       "keyPoints": [
-        "Introduces Behavior-Conditioned Symbolic Synthesis (BCSS) for modeling reasoning.",
-        "BCSS automates search for interpretable, deterministic symbolic programs.",
-        "Reveals shared oversimplification and satisficing traits in humans and AI."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07088",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Synthesizing Symbolic Models of Human and Machine Reasoning",
-          "summary": "Researchers introduce Behavior-Conditioned Symbolic Synthesis (BCSS) to scale symbolic modeling and automatically search for interpretable programs reproducing reasoning behavior. Analysis reveals shared signatures of oversimplification and satisficing between humans and machines.",
-          "keyPoints": [
-            "Introduces Behavior-Conditioned Symbolic Synthesis (BCSS) for modeling reasoning.",
-            "BCSS automates search for interpretable, deterministic symbolic programs.",
-            "Reveals shared oversimplification and satisficing traits in humans and AI."
-          ]
-        },
-        "fr": {
-          "title": "Synthèse de modèles symboliques du raisonnement humain et machine",
-          "summary": "Les chercheurs présentent BCSS pour automatiser la recherche de programmes symboliques interprétables reproduisant le comportement de raisonnement. L'analyse révèle des traits partagés de simplification excessive entre l'humain et l'IA.",
-          "keyPoints": [
-            "Introduction de BCSS pour modéliser le comportement de raisonnement.",
-            "BCSS automatise la recherche de programmes symboliques interprétables.",
-            "Met en lumière des signatures partagées de simplification entre humains et IA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c8d7e925447125",
-      "title": "PromptOps: Iterative Prompt Optimization for LLM Judges",
-      "summary": "To address judge drift where LLM-as-a-Judge systems degrade over time, researchers introduce PromptOps, a closed-loop framework for monitoring and iteratively recalibrating LLM judges using multiple prompt optimization methods.",
-      "keyPoints": [
-        "Introduces PromptOps framework to tackle LLM judge drift.",
-        "Supports iterative recalibration using five optimization methods.",
-        "Demonstrates that effective judge maintenance is context-dependent."
+        "Defines personal external service agents",
+        "Introduces DelegateEval framework across 8 dimensions",
+        "Assesses creation, delivery quality, and governance"
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07123",
+      "sourceUrl": "https://arxiv.org/abs/2611.07508",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "PromptOps: Iterative Prompt Optimization for LLM Judges",
-          "summary": "To address judge drift where LLM-as-a-Judge systems degrade over time, researchers introduce PromptOps, a closed-loop framework for monitoring and iteratively recalibrating LLM judges using multiple prompt optimization methods.",
+          "title": "DelegateEval: Evaluating Personal External Service Agents",
+          "summary": "DelegateEval is proposed as a platform-level evaluation framework to assess personal external service agents across eight dimensions of service delivery and governance.",
           "keyPoints": [
-            "Introduces PromptOps framework to tackle LLM judge drift.",
-            "Supports iterative recalibration using five optimization methods.",
-            "Demonstrates that effective judge maintenance is context-dependent."
+            "Defines personal external service agents",
+            "Introduces DelegateEval framework across 8 dimensions",
+            "Assesses creation, delivery quality, and governance"
           ]
         },
         "fr": {
-          "title": "PromptOps : optimisation itérative de prompts pour juges LLM",
-          "summary": "Pour contrer la dérive des juges LLM au fil du temps, les chercheurs présentent PromptOps, un cadre en boucle fermée pour surveiller et recalibrer de manière itérative les évaluateurs à l'aide de plusieurs méthodes d'optimisation.",
+          "title": "DelegateEval : Évaluation des agents de services externes",
+          "summary": "DelegateEval est un cadre d'évaluation au niveau des plateformes pour évaluer les agents de services externes personnels à travers huit dimensions.",
           "keyPoints": [
-            "Présentation de PromptOps pour traiter la dérive des juges LLM.",
-            "Permet le recalibrage itératif avec diverses méthodes d'optimisation.",
-            "Démontre que la maintenance des juges dépend du contexte."
+            "Définit les agents de services externes personnels",
+            "Présente le cadre DelegateEval en 8 dimensions",
+            "Évalue la création, la qualité et la gouvernance"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f735bb5fe1d690",
+      "title": "Graph Learning for Train Rescheduling under Disruptions",
+      "summary": "A rolling-horizon distributionally robust model uses graph learning-assisted logic-based Benders decomposition to optimize train rescheduling under disruptions.",
+      "keyPoints": [
+        "Develops a distributionally robust train rescheduling model",
+        "Uses GNN-LBBD to coordinate routing and scheduling",
+        "Reduces total completion delay compared to other methods"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07520",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Graph Learning for Train Rescheduling under Disruptions",
+          "summary": "A rolling-horizon distributionally robust model uses graph learning-assisted logic-based Benders decomposition to optimize train rescheduling under disruptions.",
+          "keyPoints": [
+            "Develops a distributionally robust train rescheduling model",
+            "Uses GNN-LBBD to coordinate routing and scheduling",
+            "Reduces total completion delay compared to other methods"
+          ]
+        },
+        "fr": {
+          "title": "Apprentissage par graphe pour la replanification des trains",
+          "summary": "Un modèle robuste utilise une décomposition de Benders assistée par apprentissage par graphe pour optimiser la replanification des trains en cas de perturbations.",
+          "keyPoints": [
+            "Développe un modèle robuste de replanification",
+            "Utilise GNN-LBBD pour coordonner le routage",
+            "Réduit le retard total par rapport aux méthodes classiques"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-418006ee56680f",
+      "title": "Goal-Branching LaCAM for Multi-Agent Pathfinding",
+      "summary": "Goal-Branching is introduced for LaCAM to treat temporary goals as search branches, significantly improving solving success and speed in dense multi-agent pathfinding.",
+      "keyPoints": [
+        "Proposes Goal-Branching for LaCAM pathfinding",
+        "Improves success rates on dense maze and room maps",
+        "Finds solutions significantly faster while preserving completeness"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07528",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Goal-Branching LaCAM for Multi-Agent Pathfinding",
+          "summary": "Goal-Branching is introduced for LaCAM to treat temporary goals as search branches, significantly improving solving success and speed in dense multi-agent pathfinding.",
+          "keyPoints": [
+            "Proposes Goal-Branching for LaCAM pathfinding",
+            "Improves success rates on dense maze and room maps",
+            "Finds solutions significantly faster while preserving completeness"
+          ]
+        },
+        "fr": {
+          "title": "Goal-Branching LaCAM pour la recherche de chemins multi-agents",
+          "summary": "Goal-Branching est introduit pour LaCAM afin de traiter les objectifs temporaires comme des branches de recherche, améliorant la vitesse en milieu dense.",
+          "keyPoints": [
+            "Propose Goal-Branching pour la recherche de chemins",
+            "Améliore les taux de réussite sur cartes denses",
+            "Trouve des solutions beaucoup plus rapidement"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-175ef865f46acc",
+      "title": "CST-Bench: Benchmarking Counterfactual Spatial Transition Reasoning",
+      "summary": "Spatial reasoning in multimodal large language models mostly focuses on static scenes. To address changes from interventions, researchers introduce CST-Bench with 7,082 examples across 6 intervention types and 12 transformation operators. They also propose CT-OPSD to guide a teacher model and distill counterfactual state transitions into a student model.",
+      "keyPoints": [
+        "CST-Bench contains 7,082 examples covering 6 intervention types and 12 transformation operators.",
+        "General-purpose MLLMs often fail under counterfactual interventions.",
+        "CT-OPSD uses annotations to guide teacher models and distill reasoning into student models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07541",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "CST-Bench: Benchmarking Counterfactual Spatial Transition Reasoning",
+          "summary": "Spatial reasoning in multimodal large language models mostly focuses on static scenes. To address changes from interventions, researchers introduce CST-Bench with 7,082 examples across 6 intervention types and 12 transformation operators. They also propose CT-OPSD to guide a teacher model and distill counterfactual state transitions into a student model.",
+          "keyPoints": [
+            "CST-Bench contains 7,082 examples covering 6 intervention types and 12 transformation operators.",
+            "General-purpose MLLMs often fail under counterfactual interventions.",
+            "CT-OPSD uses annotations to guide teacher models and distill reasoning into student models."
+          ]
+        },
+        "fr": {
+          "title": "CST-Bench : Évaluation du raisonnement de transition spatiale contrefactuelle",
+          "summary": "Le raisonnement spatial dans les grands modèles de langage multimodaux se concentre principalement sur les scènes statiques. Pour traiter les changements dus aux interventions, les chercheurs présentent CST-Bench avec 7 082 exemples répartis sur 6 types d'intervention et 12 opérateurs de transformation. Ils proposent également CT-OPSD pour guider un modèle enseignant et distiller les transitions d'état contrefactuelles dans un modèle étudiant.",
+          "keyPoints": [
+            "CST-Bench contient 7 082 exemples couvrant 6 types d'intervention et 12 opérateurs de transformation.",
+            "Les MLLM à usage général échouent souvent sous l'effet d'interventions contrefactuelles.",
+            "CT-OPSD utilise des annotations pour guider les modèles enseignants et distiller le raisonnement dans des modèles étudiants."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ff40942fae52f0",
+      "title": "FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLMs",
+      "summary": "Long-context inference hits memory capacity walls in LLM serving. FlashOffloading is a host-DRAM-centric inference architecture that fully offloads the KV cache in prefill and decode phases. Tested with GLM-5.2 and speculative decoding on an Ascend910C platform, it improves prefill throughput up to 1.38x and decode throughput up to 1.91x.",
+      "keyPoints": [
+        "FlashOffloading offloads the KV cache to host DRAM during both prefill and decode phases.",
+        "It improves prefill throughput by up to 1.38x and decode throughput by up to 1.91x under a 30 ms TPOT constraint.",
+        "The architecture is integrated into an open-source serving framework on GitHub."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07542",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLMs",
+          "summary": "Long-context inference hits memory capacity walls in LLM serving. FlashOffloading is a host-DRAM-centric inference architecture that fully offloads the KV cache in prefill and decode phases. Tested with GLM-5.2 and speculative decoding on an Ascend910C platform, it improves prefill throughput up to 1.38x and decode throughput up to 1.91x.",
+          "keyPoints": [
+            "FlashOffloading offloads the KV cache to host DRAM during both prefill and decode phases.",
+            "It improves prefill throughput by up to 1.38x and decode throughput by up to 1.91x under a 30 ms TPOT constraint.",
+            "The architecture is integrated into an open-source serving framework on GitHub."
+          ]
+        },
+        "fr": {
+          "title": "FlashOffloading : Déchargement du cache KV à faible latence pour LLM à long contexte",
+          "summary": "L'inférence à long contexte se heurte aux limites de la mémoire dans le service des LLM. FlashOffloading est une architecture d'inférence centrée sur la DRAM hôte qui décharge entièrement le cache KV lors des phases de pré-remplissage et de décodage. Testé avec GLM-5.2 sur une plateforme Ascend910C, il améliore le débit de pré-remplissage jusqu'à 1,38x et le débit de décodage jusqu'à 1,91x.",
+          "keyPoints": [
+            "FlashOffloading décharge le cache KV vers la DRAM de l'hôte pendant les phases de pré-remplissage et de décodage.",
+            "Il améliore le débit de pré-remplissage jusqu'à 1,38x et le débit de décodage jusqu'à 1,91x sous une contrainte TPOT de 30 ms.",
+            "L'architecture est intégrée dans un framework de service open-source sur GitHub."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4c20970a6e6b82",
+      "title": "FedAbA: Basis-Consistent Federated LoRA under Heterogeneous Ranks",
+      "summary": "Federated fine-tuning with low-rank adaptation faces basis inconsistency issues when clients have heterogeneous ranks. This work introduces FedAbA, a framework that aligns each client's local basis to the global reference basis before aggregation. Experiments show FedAbA outperforms representative baselines, particularly under strong rank heterogeneity.",
+      "keyPoints": [
+        "FedAbA solves basis inconsistency in federated LoRA under heterogeneous client capacities.",
+        "It extracts local bases, aligns them to global references, and constructs consistent matrix update reconstructions.",
+        "Experiments show FedAbA outperforms baseline methods under strong rank heterogeneity."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07598",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "FedAbA: Basis-Consistent Federated LoRA under Heterogeneous Ranks",
+          "summary": "Federated fine-tuning with low-rank adaptation faces basis inconsistency issues when clients have heterogeneous ranks. This work introduces FedAbA, a framework that aligns each client's local basis to the global reference basis before aggregation. Experiments show FedAbA outperforms representative baselines, particularly under strong rank heterogeneity.",
+          "keyPoints": [
+            "FedAbA solves basis inconsistency in federated LoRA under heterogeneous client capacities.",
+            "It extracts local bases, aligns them to global references, and constructs consistent matrix update reconstructions.",
+            "Experiments show FedAbA outperforms baseline methods under strong rank heterogeneity."
+          ]
+        },
+        "fr": {
+          "title": "FedAbA : LoRA fédérée cohérente sur les bases avec des rangs hétérogènes",
+          "summary": "L'ajustement fin fédéré avec adaptation de bas rang présente des problèmes d'incohérence de base lorsque les clients ont des rangs hétérogènes. Ce travail présente FedAbA, un cadre qui aligne la base locale de chaque client sur la base de référence globale avant l'agrégation. Les expériences montrent que FedAbA surpasse les bases de référence, en particulier sous une forte hétérogénéité de rangs.",
+          "keyPoints": [
+            "FedAbA résout l'incohérence de base dans la LoRA fédérée sous des capacités client hétérogènes.",
+            "Il extrait les bases locales, les aligne sur des références globales et reconstruit des mises à jour de matrices cohérentes.",
+            "Les expériences montrent que FedAbA surpasse les méthodes de référence sous une forte hétérogénéité de rangs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2f23e6948f988b",
+      "title": "Embedding-Space Fingerprinting of LoRA Fine-Tunes and Domains",
+      "summary": "This paper investigates whether a classifier can recover the training data domain of a LoRA fine-tune using only model artifacts. Testing 36 fine-tunes across 18 datasets, researchers found domain recoverability reaches 64% from black-box outputs, 61% from gray-box activations, and 42% from white-box weights.",
+      "keyPoints": [
+        "Researchers tested 36 LoRA fine-tunes across 18 public datasets in five domains using one base model.",
+        "Domain recovery accuracy reached 64% from black-box outputs and 61% from gray-box activations.",
+        "White-box weight statistics reached 42% accuracy in identifying the training data domain."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07610",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Embedding-Space Fingerprinting of LoRA Fine-Tunes and Domains",
+          "summary": "This paper investigates whether a classifier can recover the training data domain of a LoRA fine-tune using only model artifacts. Testing 36 fine-tunes across 18 datasets, researchers found domain recoverability reaches 64% from black-box outputs, 61% from gray-box activations, and 42% from white-box weights.",
+          "keyPoints": [
+            "Researchers tested 36 LoRA fine-tunes across 18 public datasets in five domains using one base model.",
+            "Domain recovery accuracy reached 64% from black-box outputs and 61% from gray-box activations.",
+            "White-box weight statistics reached 42% accuracy in identifying the training data domain."
+          ]
+        },
+        "fr": {
+          "title": "Empreinte digitale dans l'espace d'intégration des ajustements LoRA et des domaines",
+          "summary": "Cet article étudie si un classificateur peut récupérer le domaine des données d'entraînement d'un ajustement LoRA en utilisant uniquement les artefacts du modèle. En testant 36 ajustements sur 18 ensembles de données, les chercheurs ont constaté que la récupérabilité du domaine atteint 64 % à partir des sorties de type boîte noire.",
+          "keyPoints": [
+            "Les chercheurs ont testé 36 ajustements LoRA sur 18 ensembles de données publics dans cinq domaines.",
+            "La précision de récupération du domaine a atteint 64 % à partir des sorties de type boîte noire et 61 % pour les activations.",
+            "Les statistiques de poids de type boîte blanche ont atteint une précision de 42 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c8753503fff574",
+      "title": "Beneath the Surface: Evaluating Agent Harness Evolution and RSI",
+      "summary": "Agent harness evolution enables recursive self-improvement without updating model weights. Evaluating sixteen evolved agents across tasks reveals that all gained new tasks while losing old ones, and highest-scoring agents did not yield the largest mean improvement. The study introduces EvoAudit to improve select, analyze, mutate, and gate steps.",
+      "keyPoints": [
+        "All sixteen evolved agents gained previously uncovered tasks while losing previously covered ones.",
+        "Higher benchmark scores and reliability gains frequently resulted in increased deployment costs.",
+        "EvoAudit introduces revisions to select, analyze, mutate, and gate steps to improve performance."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07624",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Beneath the Surface: Evaluating Agent Harness Evolution and RSI",
+          "summary": "Agent harness evolution enables recursive self-improvement without updating model weights. Evaluating sixteen evolved agents across tasks reveals that all gained new tasks while losing old ones, and highest-scoring agents did not yield the largest mean improvement. The study introduces EvoAudit to improve select, analyze, mutate, and gate steps.",
+          "keyPoints": [
+            "All sixteen evolved agents gained previously uncovered tasks while losing previously covered ones.",
+            "Higher benchmark scores and reliability gains frequently resulted in increased deployment costs.",
+            "EvoAudit introduces revisions to select, analyze, mutate, and gate steps to improve performance."
+          ]
+        },
+        "fr": {
+          "title": "Sous la surface : Évaluation de l'évolution des harnais d'agents et de l'auto-amélioration",
+          "summary": "L'évolution des harnais d'agents permet une auto-amélioration récursive sans mettre à jour les poids des modèles. L'évaluation de seize agents évolués révèle qu'ils ont tous gagné de nouvelles tâches tout en en perdant d'anciens, et que les scores les plus élevés n'ont pas produit la plus grande amélioration moyenne. L'étude présente EvoAudit.",
+          "keyPoints": [
+            "Les seize agents évolués ont gagné de nouvelles tâches tout en perdant des tâches précédemment couvertes.",
+            "Des scores de référence plus élevés et des gains de fiabilité ont souvent augmenté les coûts de déploiement.",
+            "EvoAudit apporte des révisions aux étapes de sélection, d'analyse, de mutation et de filtrage."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8a418d022687ee",
+      "title": "Redacting Personal Data: A Comparison of Regex, Presidio and Hybrid PII Redactors",
+      "summary": "This paper compares four PII redaction designs for LLM pipelines using 100 synthetic resumes. While pure regex ran at a 0.20 ms median latency it caught only 88.9% of PII, whereas Presidio, hybrid, and fast hybrid designs caught 100% of PII and preserved all business terms, with the fast hybrid achieving a 13.48 ms median latency.",
+      "keyPoints": [
+        "Four redaction designs (regex, Presidio, hybrid, and fast hybrid) were evaluated on 100 synthetic resumes.",
+        "Pure regex missed unknown names and caught only 88.9% of PII.",
+        "Presidio, hybrid, and fast hybrid designs achieved 100% PII detection while maintaining all business terms."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07633",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Redacting Personal Data: A Comparison of Regex, Presidio and Hybrid PII Redactors",
+          "summary": "This paper compares four PII redaction designs for LLM pipelines using 100 synthetic resumes. While pure regex ran at a 0.20 ms median latency it caught only 88.9% of PII, whereas Presidio, hybrid, and fast hybrid designs caught 100% of PII and preserved all business terms, with the fast hybrid achieving a 13.48 ms median latency.",
+          "keyPoints": [
+            "Four redaction designs (regex, Presidio, hybrid, and fast hybrid) were evaluated on 100 synthetic resumes.",
+            "Pure regex missed unknown names and caught only 88.9% of PII.",
+            "Presidio, hybrid, and fast hybrid designs achieved 100% PII detection while maintaining all business terms."
+          ]
+        },
+        "fr": {
+          "title": "Rédaction de données personnelles : Comparaison de Regex, Presidio et de designs hybrides",
+          "summary": "Cet article compare quatre conceptions de rédaction de PII pour les pipelines de LLM à l'aide de 100 CV synthétiques. Alors que le regex pur présentait une latence médiane de 0,20 ms mais n'a capturé que 88,9 % des PII, les designs Presidio, hybride et hybride rapide ont capturé 100 % des PII et préservé tous les termes commerciaux.",
+          "keyPoints": [
+            "Quatre designs de rédaction (regex, Presidio, hybride et hybride rapide) ont été évalués sur 100 CV synthétiques.",
+            "Le regex pur a raté les noms inconnus et n'a capturé que 88,9 % des PII.",
+            "Les designs Presidio, hybride et hybride rapide ont atteint une détection de 100 % des PII."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fb93af68fa2fc1",
+      "title": "Skillware: Modular Standard for Deterministic Capability Execution in Agents",
+      "summary": "Current autonomous systems rely on prompt engineering that burns context windows and causes unpredictable failures. Skillware introduces an open architectural framework and registry that equips agents with versioned software bundles containing typed JSON contracts, deterministic Python code, and unit tests, significantly cutting token usage and costs.",
+      "keyPoints": [
+        "Skillware separates agent goals from execution using modular software capability bundles.",
+        "Each bundle combines typed JSON input contracts, deterministic Python code, and unit tests.",
+        "Small local models equipped with Skillware outperformed unequipped frontier models while cutting token usage and costs."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07652",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Skillware: Modular Standard for Deterministic Capability Execution in Agents",
+          "summary": "Current autonomous systems rely on prompt engineering that burns context windows and causes unpredictable failures. Skillware introduces an open architectural framework and registry that equips agents with versioned software bundles containing typed JSON contracts, deterministic Python code, and unit tests, significantly cutting token usage and costs.",
+          "keyPoints": [
+            "Skillware separates agent goals from execution using modular software capability bundles.",
+            "Each bundle combines typed JSON input contracts, deterministic Python code, and unit tests.",
+            "Small local models equipped with Skillware outperformed unequipped frontier models while cutting token usage and costs."
+          ]
+        },
+        "fr": {
+          "title": "Skillware : Standard modulaire pour l'exécution de capacités déterministes dans les agents",
+          "summary": "Les systèmes autonomes actuels reposent sur l'ingénierie des invites qui consomme les fenêtres de contexte et provoque des pannes. Skillware introduit un cadre architectural ouvert et un registre qui équipe les agents de progiciels versionnés contenant des contrats JSON, du code Python déterministe et des tests unitaires, réduisant considérablement l'utilisation des jetons.",
+          "keyPoints": [
+            "Skillware sépare les objectifs des agents de l'exécution à l'aide de bundles logiciels modulaires.",
+            "Chaque bundle combine des contrats d'entrée JSON typés, du code Python déterministe et des tests unitaires.",
+            "De petits modèles locaux équipés de Skillware ont surpassé les modèles frontières non équipés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1576b56d3f7dbe",
+      "title": "PharmAgents2: Autonomous End-to-End Drug Discovery System",
+      "summary": "PharmAgents2 is an autonomous system for end-to-end drug discovery combining knowledge-enhanced decision-making with large-scale exploration. Tested on PharmAgents-Bench v0.1 and real-world studies, it successfully identified novel inhibitor scaffolds and confirmed binding targets experimentally, functioning as a virtual pharmaceutical company.",
+      "keyPoints": [
+        "PharmAgents2 combines Paper2Skill and Self-Scaling Discovery for autonomous drug discovery.",
+        "It achieved top process scores on PharmAgents-Bench v0.1 across multiple decision scenarios.",
+        "Real-world studies identified novel inhibitor scaffolds and target interactions confirmed by experiments."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07653",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "PharmAgents2: Autonomous End-to-End Drug Discovery System",
+          "summary": "PharmAgents2 is an autonomous system for end-to-end drug discovery combining knowledge-enhanced decision-making with large-scale exploration. Tested on PharmAgents-Bench v0.1 and real-world studies, it successfully identified novel inhibitor scaffolds and confirmed binding targets experimentally, functioning as a virtual pharmaceutical company.",
+          "keyPoints": [
+            "PharmAgents2 combines Paper2Skill and Self-Scaling Discovery for autonomous drug discovery.",
+            "It achieved top process scores on PharmAgents-Bench v0.1 across multiple decision scenarios.",
+            "Real-world studies identified novel inhibitor scaffolds and target interactions confirmed by experiments."
+          ]
+        },
+        "fr": {
+          "title": "PharmAgents2 : Système autonome de découverte de médicaments de bout en bout",
+          "summary": "PharmAgents2 est un système autonome de découverte de médicaments de bout en bout combinant prise de décision améliorée par les connaissances et exploration à grande échelle. Testé sur PharmAgents-Bench v0.1 et dans des études réelles, il a identifié avec succès de nouveaux échafaudages d'inhibiteurs et confirmé des cibles de liaison expérimentalement.",
+          "keyPoints": [
+            "PharmAgents2 combine Paper2Skill et Self-Scaling Discovery pour la découverte autonome de médicaments.",
+            "Il a obtenu les meilleurs scores de processus sur PharmAgents-Bench v0.1 à travers plusieurs scénarios.",
+            "Des études réelles ont permis d'identifier de nouveaux échafaudages d'inhibiteurs confirmés par des expériences."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cbc856aa32d133",
+      "title": "Empirical Information Design for Multi-Agent LLM Economies",
+      "summary": "This paper investigates information-sharing policies in multi-agent LLM systems using empirical information design. Evaluating ten frontier LLMs in trade, bargaining, and double auctions, researchers found that finer information disclosure yields highly model-dependent results, sometimes reducing realized gains or triggering market breakdowns.",
+      "keyPoints": [
+        "Empirical information design compares disclosure policies across economic markets populated by LLM agents.",
+        "Ten frontier LLMs were evaluated in multi-resource trade, bilateral bargaining, and double auctions.",
+        "Finer information disclosure produced highly model-dependent results, occasionally causing market breakdowns."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07667",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Empirical Information Design for Multi-Agent LLM Economies",
+          "summary": "This paper investigates information-sharing policies in multi-agent LLM systems using empirical information design. Evaluating ten frontier LLMs in trade, bargaining, and double auctions, researchers found that finer information disclosure yields highly model-dependent results, sometimes reducing realized gains or triggering market breakdowns.",
+          "keyPoints": [
+            "Empirical information design compares disclosure policies across economic markets populated by LLM agents.",
+            "Ten frontier LLMs were evaluated in multi-resource trade, bilateral bargaining, and double auctions.",
+            "Finer information disclosure produced highly model-dependent results, occasionally causing market breakdowns."
+          ]
+        },
+        "fr": {
+          "title": "Conception d'information empirique pour les économies de LLM multi-agents",
+          "summary": "Cet article étudie les politiques de partage d'informations dans les systèmes LLM multi-agents en utilisant la conception d'information empirique. En évaluant dix LLM frontières dans le commerce, la négociation et les enchères doubles, les chercheurs ont constaté que la divulgation d'informations plus précises produit des résultats fortement dépendants des modèles.",
+          "keyPoints": [
+            "La conception d'information empirique compare les politiques de divulgation dans les marchés économiques.",
+            "Dix LLM frontières ont été évalués dans le commerce, la négociation bilatérale et les doubles enchères.",
+            "Une divulgation d'informations plus fine a produit des résultats dépendants des modèles, causant parfois des pannes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-6da74d982fe142",
+      "title": "MCPHallu: Benchmarking Hallucinations in Model Context Protocol Agents",
+      "summary": "MCPHallu evaluates hallucination-prone agent failures in Model Context Protocol environments across reasoning, execution, and memory axes. Testing fourteen frontier LLM agents on 358 tasks, researchers found an average score of 0.642, with failures heavily concentrated on unreachable goals where performance dropped significantly.",
+      "keyPoints": [
+        "MCPHallu is a benchmark containing 358 tasks across five capability domains for MCP agents.",
+        "It evaluates agents across reasoning, execution, and memory axes on 36 production MCP servers.",
+        "Tested agents achieved an average score of 0.642, dropping to 0.458 on unreachable goal tasks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.07689",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MCPHallu: Benchmarking Hallucinations in Model Context Protocol Agents",
+          "summary": "MCPHallu evaluates hallucination-prone agent failures in Model Context Protocol environments across reasoning, execution, and memory axes. Testing fourteen frontier LLM agents on 358 tasks, researchers found an average score of 0.642, with failures heavily concentrated on unreachable goals where performance dropped significantly.",
+          "keyPoints": [
+            "MCPHallu is a benchmark containing 358 tasks across five capability domains for MCP agents.",
+            "It evaluates agents across reasoning, execution, and memory axes on 36 production MCP servers.",
+            "Tested agents achieved an average score of 0.642, dropping to 0.458 on unreachable goal tasks."
+          ]
+        },
+        "fr": {
+          "title": "MCPHallu : Évaluation des hallucinations dans les agents du protocole de contexte de modèle",
+          "summary": "MCPHallu évaluant les échecs d'agents sujets aux hallucinations dans les environnements du protocole de contexte de modèle (MCP) selon les axes de raisonnement, d'exécution et de mémoire. En testant quatorze agents LLM sur 358 tâches, les chercheurs ont trouvé un score moyen de 0,642, les échecs étant concentrés sur les objectifs inatteignables.",
+          "keyPoints": [
+            "MCPHallu est un benchmark contenant 358 tâches à travers cinq domaines pour les agents MCP.",
+            "Il évalue les agents selon les axes de raisonnement, d'exécution et de mémoire sur 36 serveurs MCP de production.",
+            "Les agents testés ont obtenu un score moyen de 0,642, chutant à 0,458 sur les tâches à objectifs inatteignables."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
