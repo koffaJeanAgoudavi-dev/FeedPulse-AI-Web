@@ -1,6 +1,162 @@
 {
-  "generatedAt": "2026-11-09T06:34:31.695Z",
+  "generatedAt": "2026-11-09T22:23:28.479Z",
   "items": [
+    {
+      "id": "feed-caa9073cefb437",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "summary": "ChatGPT Enterprise is now accessible via the AWS Marketplace, enabling organizations to streamline procurement using their current AWS purchasing and billing connections.",
+      "keyPoints": [
+        "ChatGPT Enterprise is now in AWS Marketplace",
+        "Helps organizations simplify procurement",
+        "Uses existing AWS purchasing and billing relationships"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "publishedAt": "2026-11-09T19:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "summary": "ChatGPT Enterprise is now accessible via the AWS Marketplace, enabling organizations to streamline procurement using their current AWS purchasing and billing connections.",
+          "keyPoints": [
+            "ChatGPT Enterprise is now in AWS Marketplace",
+            "Helps organizations simplify procurement",
+            "Uses existing AWS purchasing and billing relationships"
+          ]
+        },
+        "fr": {
+          "title": "ChatGPT Enterprise disponible dans l'AWS Marketplace",
+          "summary": "ChatGPT Enterprise est désormais accessible via l'AWS Marketplace, permettant aux organisations de simplifier leurs achats grâce à leurs relations de facturation AWS existantes.",
+          "keyPoints": [
+            "ChatGPT Enterprise est disponible sur l'AWS Marketplace",
+            "Aide les organisations à simplifier les achats",
+            "Utilise les relations de facturation et d'achat AWS existantes"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-952d2516af2e90",
+      "title": "Control Room: Tracking and stopping model workloads",
+      "summary": "OpenAI introduces Control Room, a central system designed to track model workloads across its research infrastructure and quickly halt them when safety or security issues emerge.",
+      "keyPoints": [
+        "Control Room tracks model workloads in research infrastructure",
+        "Central system built by OpenAI",
+        "Can rapidly stop workloads for safety or security concerns"
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/control-room",
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Control Room: Tracking and stopping model workloads",
+          "summary": "OpenAI introduces Control Room, a central system designed to track model workloads across its research infrastructure and quickly halt them when safety or security issues emerge.",
+          "keyPoints": [
+            "Control Room tracks model workloads in research infrastructure",
+            "Central system built by OpenAI",
+            "Can rapidly stop workloads for safety or security concerns"
+          ]
+        },
+        "fr": {
+          "title": "Control Room : Suivi et arrêt des charges de travail",
+          "summary": "OpenAI présente Control Room, un système central conçu pour suivre les charges de travail des modèles à travers son infrastructure de recherche et les arrêter rapidement en cas de problème.",
+          "keyPoints": [
+            "Control Room suit les charges de travail de recherche",
+            "Système central développé par OpenAI",
+            "Peut arrêter rapidement les charges pour des raisons de sécurité"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-02e9abf47eaf3f",
+      "title": "CodeRabbit scales agentic software development",
+      "summary": "CodeRabbit leverages OpenAI models to oversee and trust AI-generated code while utilizing Codex to multiply software output by 20 times with the same engineering team.",
+      "keyPoints": [
+        "CodeRabbit uses OpenAI models for AI-generated code",
+        "Employs Codex to ship software 20 times faster",
+        "Maintains the same engineering team size"
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/coderabbit-codex-daybreak",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "CodeRabbit scales agentic software development",
+          "summary": "CodeRabbit leverages OpenAI models to oversee and trust AI-generated code while utilizing Codex to multiply software output by 20 times with the same engineering team.",
+          "keyPoints": [
+            "CodeRabbit uses OpenAI models for AI-generated code",
+            "Employs Codex to ship software 20 times faster",
+            "Maintains the same engineering team size"
+          ]
+        },
+        "fr": {
+          "title": "CodeRabbit développe le développement logiciel agentique",
+          "summary": "CodeRabbit utilise les modèles OpenAI pour régir le code généré par IA et Codex pour livrer 20 fois plus de logiciels avec la même équipe d'ingénierie.",
+          "keyPoints": [
+            "CodeRabbit utilise les modèles OpenAI pour le code généré par IA",
+            "Utilise Codex pour livrer les logiciels 20 fois plus",
+            "Conserve la même équipe d'ingénierie"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2e34e84f0999c6",
+      "title": "Kuken Industries searches 70 years of drawings",
+      "summary": "Kuken Industries utilizes the OpenAI API to search 70 years of cooling tower drawings, allowing engineers to locate repair documents in 4.5 minutes instead of nearly an hour.",
+      "keyPoints": [
+        "Kuken Industries uses the OpenAI API",
+        "Searches 70 years of cooling tower drawings",
+        "Reduces search time for repairs from nearly an hour to 4.5 minutes"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/kuken",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Kuken Industries searches 70 years of drawings",
+          "summary": "Kuken Industries utilizes the OpenAI API to search 70 years of cooling tower drawings, allowing engineers to locate repair documents in 4.5 minutes instead of nearly an hour.",
+          "keyPoints": [
+            "Kuken Industries uses the OpenAI API",
+            "Searches 70 years of cooling tower drawings",
+            "Reduces search time for repairs from nearly an hour to 4.5 minutes"
+          ]
+        },
+        "fr": {
+          "title": "Kuken Industries recherche 70 ans de dessins techniques",
+          "summary": "Kuken Industries utilise l'API OpenAI pour parcourir 70 ans de dessins de tours de refroidissement, permettant aux ingénieurs de trouver un plan de réparation en 4,5 minutes au lieu d'une heure.",
+          "keyPoints": [
+            "Kuken Industries utilise l'API OpenAI",
+            "Parcourt 70 ans de dessins de tours de refroidissement",
+            "Réduit le temps de recherche à 4,5 minutes au lieu de près d'une heure"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-a0a44ed09dc9a1",
       "title": "OpenAI Partners with Hacktron",
@@ -624,173 +780,17 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-fb93af68fa2fc1",
-      "title": "Skillware: Modular Standard for Deterministic Capability Execution in Agents",
-      "summary": "Current autonomous systems rely on prompt engineering that burns context windows and causes unpredictable failures. Skillware introduces an open architectural framework and registry that equips agents with versioned software bundles containing typed JSON contracts, deterministic Python code, and unit tests, significantly cutting token usage and costs.",
-      "keyPoints": [
-        "Skillware separates agent goals from execution using modular software capability bundles.",
-        "Each bundle combines typed JSON input contracts, deterministic Python code, and unit tests.",
-        "Small local models equipped with Skillware outperformed unequipped frontier models while cutting token usage and costs."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07652",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Skillware: Modular Standard for Deterministic Capability Execution in Agents",
-          "summary": "Current autonomous systems rely on prompt engineering that burns context windows and causes unpredictable failures. Skillware introduces an open architectural framework and registry that equips agents with versioned software bundles containing typed JSON contracts, deterministic Python code, and unit tests, significantly cutting token usage and costs.",
-          "keyPoints": [
-            "Skillware separates agent goals from execution using modular software capability bundles.",
-            "Each bundle combines typed JSON input contracts, deterministic Python code, and unit tests.",
-            "Small local models equipped with Skillware outperformed unequipped frontier models while cutting token usage and costs."
-          ]
-        },
-        "fr": {
-          "title": "Skillware : Standard modulaire pour l'exécution de capacités déterministes dans les agents",
-          "summary": "Les systèmes autonomes actuels reposent sur l'ingénierie des invites qui consomme les fenêtres de contexte et provoque des pannes. Skillware introduit un cadre architectural ouvert et un registre qui équipe les agents de progiciels versionnés contenant des contrats JSON, du code Python déterministe et des tests unitaires, réduisant considérablement l'utilisation des jetons.",
-          "keyPoints": [
-            "Skillware sépare les objectifs des agents de l'exécution à l'aide de bundles logiciels modulaires.",
-            "Chaque bundle combine des contrats d'entrée JSON typés, du code Python déterministe et des tests unitaires.",
-            "De petits modèles locaux équipés de Skillware ont surpassé les modèles frontières non équipés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-1576b56d3f7dbe",
-      "title": "PharmAgents2: Autonomous End-to-End Drug Discovery System",
-      "summary": "PharmAgents2 is an autonomous system for end-to-end drug discovery combining knowledge-enhanced decision-making with large-scale exploration. Tested on PharmAgents-Bench v0.1 and real-world studies, it successfully identified novel inhibitor scaffolds and confirmed binding targets experimentally, functioning as a virtual pharmaceutical company.",
-      "keyPoints": [
-        "PharmAgents2 combines Paper2Skill and Self-Scaling Discovery for autonomous drug discovery.",
-        "It achieved top process scores on PharmAgents-Bench v0.1 across multiple decision scenarios.",
-        "Real-world studies identified novel inhibitor scaffolds and target interactions confirmed by experiments."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07653",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "PharmAgents2: Autonomous End-to-End Drug Discovery System",
-          "summary": "PharmAgents2 is an autonomous system for end-to-end drug discovery combining knowledge-enhanced decision-making with large-scale exploration. Tested on PharmAgents-Bench v0.1 and real-world studies, it successfully identified novel inhibitor scaffolds and confirmed binding targets experimentally, functioning as a virtual pharmaceutical company.",
-          "keyPoints": [
-            "PharmAgents2 combines Paper2Skill and Self-Scaling Discovery for autonomous drug discovery.",
-            "It achieved top process scores on PharmAgents-Bench v0.1 across multiple decision scenarios.",
-            "Real-world studies identified novel inhibitor scaffolds and target interactions confirmed by experiments."
-          ]
-        },
-        "fr": {
-          "title": "PharmAgents2 : Système autonome de découverte de médicaments de bout en bout",
-          "summary": "PharmAgents2 est un système autonome de découverte de médicaments de bout en bout combinant prise de décision améliorée par les connaissances et exploration à grande échelle. Testé sur PharmAgents-Bench v0.1 et dans des études réelles, il a identifié avec succès de nouveaux échafaudages d'inhibiteurs et confirmé des cibles de liaison expérimentalement.",
-          "keyPoints": [
-            "PharmAgents2 combine Paper2Skill et Self-Scaling Discovery pour la découverte autonome de médicaments.",
-            "Il a obtenu les meilleurs scores de processus sur PharmAgents-Bench v0.1 à travers plusieurs scénarios.",
-            "Des études réelles ont permis d'identifier de nouveaux échafaudages d'inhibiteurs confirmés par des expériences."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-cbc856aa32d133",
-      "title": "Empirical Information Design for Multi-Agent LLM Economies",
-      "summary": "This paper investigates information-sharing policies in multi-agent LLM systems using empirical information design. Evaluating ten frontier LLMs in trade, bargaining, and double auctions, researchers found that finer information disclosure yields highly model-dependent results, sometimes reducing realized gains or triggering market breakdowns.",
-      "keyPoints": [
-        "Empirical information design compares disclosure policies across economic markets populated by LLM agents.",
-        "Ten frontier LLMs were evaluated in multi-resource trade, bilateral bargaining, and double auctions.",
-        "Finer information disclosure produced highly model-dependent results, occasionally causing market breakdowns."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07667",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Empirical Information Design for Multi-Agent LLM Economies",
-          "summary": "This paper investigates information-sharing policies in multi-agent LLM systems using empirical information design. Evaluating ten frontier LLMs in trade, bargaining, and double auctions, researchers found that finer information disclosure yields highly model-dependent results, sometimes reducing realized gains or triggering market breakdowns.",
-          "keyPoints": [
-            "Empirical information design compares disclosure policies across economic markets populated by LLM agents.",
-            "Ten frontier LLMs were evaluated in multi-resource trade, bilateral bargaining, and double auctions.",
-            "Finer information disclosure produced highly model-dependent results, occasionally causing market breakdowns."
-          ]
-        },
-        "fr": {
-          "title": "Conception d'information empirique pour les économies de LLM multi-agents",
-          "summary": "Cet article étudie les politiques de partage d'informations dans les systèmes LLM multi-agents en utilisant la conception d'information empirique. En évaluant dix LLM frontières dans le commerce, la négociation et les enchères doubles, les chercheurs ont constaté que la divulgation d'informations plus précises produit des résultats fortement dépendants des modèles.",
-          "keyPoints": [
-            "La conception d'information empirique compare les politiques de divulgation dans les marchés économiques.",
-            "Dix LLM frontières ont été évalués dans le commerce, la négociation bilatérale et les doubles enchères.",
-            "Une divulgation d'informations plus fine a produit des résultats dépendants des modèles, causant parfois des pannes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6da74d982fe142",
-      "title": "MCPHallu: Benchmarking Hallucinations in Model Context Protocol Agents",
-      "summary": "MCPHallu evaluates hallucination-prone agent failures in Model Context Protocol environments across reasoning, execution, and memory axes. Testing fourteen frontier LLM agents on 358 tasks, researchers found an average score of 0.642, with failures heavily concentrated on unreachable goals where performance dropped significantly.",
-      "keyPoints": [
-        "MCPHallu is a benchmark containing 358 tasks across five capability domains for MCP agents.",
-        "It evaluates agents across reasoning, execution, and memory axes on 36 production MCP servers.",
-        "Tested agents achieved an average score of 0.642, dropping to 0.458 on unreachable goal tasks."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07689",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MCPHallu: Benchmarking Hallucinations in Model Context Protocol Agents",
-          "summary": "MCPHallu evaluates hallucination-prone agent failures in Model Context Protocol environments across reasoning, execution, and memory axes. Testing fourteen frontier LLM agents on 358 tasks, researchers found an average score of 0.642, with failures heavily concentrated on unreachable goals where performance dropped significantly.",
-          "keyPoints": [
-            "MCPHallu is a benchmark containing 358 tasks across five capability domains for MCP agents.",
-            "It evaluates agents across reasoning, execution, and memory axes on 36 production MCP servers.",
-            "Tested agents achieved an average score of 0.642, dropping to 0.458 on unreachable goal tasks."
-          ]
-        },
-        "fr": {
-          "title": "MCPHallu : Évaluation des hallucinations dans les agents du protocole de contexte de modèle",
-          "summary": "MCPHallu évaluant les échecs d'agents sujets aux hallucinations dans les environnements du protocole de contexte de modèle (MCP) selon les axes de raisonnement, d'exécution et de mémoire. En testant quatorze agents LLM sur 358 tâches, les chercheurs ont trouvé un score moyen de 0,642, les échecs étant concentrés sur les objectifs inatteignables.",
-          "keyPoints": [
-            "MCPHallu est un benchmark contenant 358 tâches à travers cinq domaines pour les agents MCP.",
-            "Il évalue les agents selon les axes de raisonnement, d'exécution et de mémoire sur 36 serveurs MCP de production.",
-            "Les agents testés ont obtenu un score moyen de 0,642, chutant à 0,458 sur les tâches à objectifs inatteignables."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 35,
+    "itemsCollected": 34,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 4,
+    "candidates": 4,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
