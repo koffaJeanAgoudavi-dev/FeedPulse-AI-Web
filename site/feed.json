@@ -1,6 +1,357 @@
 {
-  "generatedAt": "2026-11-10T07:21:05.215Z",
+  "generatedAt": "2026-11-10T19:45:34.019Z",
   "items": [
+    {
+      "id": "feed-c0101f36ad82bf",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "summary": "Gemini Intelligence is rolling out to more devices with expanded capabilities designed to help users accomplish more.",
+      "keyPoints": [
+        "Gemini Intelligence is expanding to more devices.",
+        "New features provide expanded capabilities.",
+        "Updates help users do more across platforms."
+      ],
+      "category": "Modèles",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "publishedAt": "2026-11-10T19:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27_Hero_2784x156.width-1300.jpg",
+      "translations": {
+        "en": {
+          "title": "Gemini Intelligence: New features, on more devices",
+          "summary": "Gemini Intelligence is rolling out to more devices with expanded capabilities designed to help users accomplish more.",
+          "keyPoints": [
+            "Gemini Intelligence is expanding to more devices.",
+            "New features provide expanded capabilities.",
+            "Updates help users do more across platforms."
+          ]
+        },
+        "fr": {
+          "title": "Gemini Intelligence : Nouvelles fonctionnalités",
+          "summary": "Gemini Intelligence se déploie sur un plus grand nombre d'appareils avec des fonctionnalités étendues pour en faire plus.",
+          "keyPoints": [
+            "Gemini Intelligence s'étend à de nouveaux appareils.",
+            "De nouvelles capacités élargies sont proposées.",
+            "Les mises à jour aident les utilisateurs au quotidien."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f321c904268bce",
+      "title": "Introducing AlphaProof Code for complex software",
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption, marking a breakthrough in software verification.",
+      "keyPoints": [
+        "AlphaProof Code agents wrote three million lines of proofs.",
+        "Proofs were written in Lean.",
+        "Used to verify Signal’s core encryption."
+      ],
+      "category": "Modèles",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "publishedAt": "2026-11-10T12:02:28.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/PHIZgiGejgu8shHsJV9pVfWv7Kr5rTj-e2yIj73c8LkDKBnTTAr2r28DN9aZd1vLDjCnd1Wi2qOD0t8bPpNN-3DfmbEgxj0TE-TttqVbpdoOD1xmFQk=w1440-h810-n-nu",
+      "translations": {
+        "en": {
+          "title": "Introducing AlphaProof Code for complex software",
+          "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption, marking a breakthrough in software verification.",
+          "keyPoints": [
+            "AlphaProof Code agents wrote three million lines of proofs.",
+            "Proofs were written in Lean.",
+            "Used to verify Signal’s core encryption."
+          ]
+        },
+        "fr": {
+          "title": "Présentation d'AlphaProof Code pour les logiciels",
+          "summary": "Les agents AlphaProof Code ont écrit trois millions de lignes de preuves en Lean pour vérifier le chiffrement de Signal.",
+          "keyPoints": [
+            "Les agents AlphaProof Code ont écrit trois millions de lignes de preuves.",
+            "Les preuves ont été rédigées en Lean.",
+            "Permet de vérifier le chiffrement principal de Signal."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0f0020abcf7332",
+      "title": "Helping caregivers use AI in everyday life",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities to help build practical AI skills.",
+      "keyPoints": [
+        "OpenAI Academy offers free ChatGPT workshops.",
+        "Workshops target caregivers in five U.S. cities.",
+        "Aims to build practical AI skills for everyday life."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Helping caregivers use AI in everyday life",
+          "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities to help build practical AI skills.",
+          "keyPoints": [
+            "OpenAI Academy offers free ChatGPT workshops.",
+            "Workshops target caregivers in five U.S. cities.",
+            "Aims to build practical AI skills for everyday life."
+          ]
+        },
+        "fr": {
+          "title": "Aider les aidants à utiliser l'IA au quotidien",
+          "summary": "L'OpenAI Academy propose des ateliers ChatGPT pratiques et gratuits aux aidants dans cinq villes américaines.",
+          "keyPoints": [
+            "L'OpenAI Academy propose des ateliers ChatGPT gratuits.",
+            "Destiné aux aidants dans cinq villes américaines.",
+            "Aide à développer des compétences pratiques en IA."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-59a8a5dd3afc53",
+      "title": "Google and Adobe partnership integration",
+      "summary": "Google and Adobe are integrating creative and productivity tools, allowing users to edit PDFs in Drive and use Adobe AI in Gemini.",
+      "keyPoints": [
+        "Google and Adobe partner to integrate tools.",
+        "Users can edit PDFs in Google Drive.",
+        "Adobe AI is integrated into Gemini."
+      ],
+      "category": "Business",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-1440x810.png",
+      "translations": {
+        "en": {
+          "title": "Google and Adobe partnership integration",
+          "summary": "Google and Adobe are integrating creative and productivity tools, allowing users to edit PDFs in Drive and use Adobe AI in Gemini.",
+          "keyPoints": [
+            "Google and Adobe partner to integrate tools.",
+            "Users can edit PDFs in Google Drive.",
+            "Adobe AI is integrated into Gemini."
+          ]
+        },
+        "fr": {
+          "title": "Intégration du partenariat entre Google et Adobe",
+          "summary": "Google et Adobe intègrent leurs outils pour modifier des PDF dans Drive et utiliser l'IA d'Adobe dans Gemini.",
+          "keyPoints": [
+            "Partenariat entre Google et Adobe pour intégrer les outils.",
+            "Modification de PDF possible dans Google Drive.",
+            "Intégration de l'IA Adobe dans Gemini."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8827aad4505e69",
+      "title": "Gemini Robotics 2.5 accelerates real-world dexterity",
+      "summary": "Google DeepMind's vision-language-action model enhances robot dexterity, reliability, and safety in real-world environments.",
+      "keyPoints": [
+        "Gemini Robotics 2.5 accelerates real-world physical intelligence.",
+        "It is a vision-language-action model.",
+        "Enhances robot dexterity, reliability, and safety."
+      ],
+      "category": "Modèles",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "publishedAt": "2026-11-09T19:51:47.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/1p0vcWGLECMy9qInQW-1AumUwO5fa37wyJ66G0eO8H14BurbFkN7NkKAXbjXYXZ9tS034NyZ9ByuQk8ptQ24dLcMBeg6o_fHMmauBZJ7KAXdM5NHFQ=w1440-h810-n-nu",
+      "translations": {
+        "en": {
+          "title": "Gemini Robotics 2.5 accelerates real-world dexterity",
+          "summary": "Google DeepMind's vision-language-action model enhances robot dexterity, reliability, and safety in real-world environments.",
+          "keyPoints": [
+            "Gemini Robotics 2.5 accelerates real-world physical intelligence.",
+            "It is a vision-language-action model.",
+            "Enhances robot dexterity, reliability, and safety."
+          ]
+        },
+        "fr": {
+          "title": "Gemini Robotics 2.5 accélère la dextérité robotique",
+          "summary": "Le modèle vision-langage-action de Google DeepMind améliore la dextérité, la fiabilité et la sécurité des robots.",
+          "keyPoints": [
+            "Gemini Robotics 2.5 accélère l'intelligence physique réelle.",
+            "Modèle basé sur la vision, le langage et l'action.",
+            "Améliore la dextérité, la fiabilité et la sécurité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-991ad48e8559b2",
+      "title": "Introducing Businesses in ChatGPT",
+      "summary": "Manage business information, get insights on visibility, and turn interest into action directly within ChatGPT.",
+      "keyPoints": [
+        "Manage business information inside ChatGPT.",
+        "Get insights about how your business appears.",
+        "Turn customer interest into action."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-businesses-chatgpt",
+      "publishedAt": "2026-11-10T10:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing Businesses in ChatGPT",
+          "summary": "Manage business information, get insights on visibility, and turn interest into action directly within ChatGPT.",
+          "keyPoints": [
+            "Manage business information inside ChatGPT.",
+            "Get insights about how your business appears.",
+            "Turn customer interest into action."
+          ]
+        },
+        "fr": {
+          "title": "Présentation des entreprises dans ChatGPT",
+          "summary": "Gérez vos informations professionnelles, obtenez des analyses sur votre visibilité et convertissez l'intérêt en action dans ChatGPT.",
+          "keyPoints": [
+            "Gérez vos informations professionnelles dans ChatGPT.",
+            "Obtenez des analyses sur la visibilité de votre entreprise.",
+            "Transformez l'intérêt des clients en actions concrètes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ef83b8dc18b160",
+      "title": "Google Cloud launches Gemini for healthcare",
+      "summary": "Google Cloud launches Gemini for healthcare to unify clinical data, automate workflows, and reduce administrative burnout.",
+      "keyPoints": [
+        "Google Cloud launches Gemini for healthcare.",
+        "Designed to unify clinical data and automate workflows.",
+        "Helps reduce administrative burnout."
+      ],
+      "category": "Modèles",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "publishedAt": "2026-11-10T13:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-1440x810.png",
+      "translations": {
+        "en": {
+          "title": "Google Cloud launches Gemini for healthcare",
+          "summary": "Google Cloud launches Gemini for healthcare to unify clinical data, automate workflows, and reduce administrative burnout.",
+          "keyPoints": [
+            "Google Cloud launches Gemini for healthcare.",
+            "Designed to unify clinical data and automate workflows.",
+            "Helps reduce administrative burnout."
+          ]
+        },
+        "fr": {
+          "title": "Google Cloud lance Gemini pour la santé",
+          "summary": "Google Cloud lance Gemini pour la santé afin d'unifier les données cliniques, d'automatiser les flux et de réduire l'épuisement.",
+          "keyPoints": [
+            "Google Cloud lance Gemini pour le secteur de la santé.",
+            "Unifie les données cliniques et automatise les flux de travail.",
+            "Aura pour effet de réduire la charge administrative."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-69d4d9d74efa01",
+      "title": "Closing the AI guidance gap in education",
+      "summary": "New ThinkYoung research and OpenAI EMEA education partnerships focus on supporting teachers, AI literacy, and independent learning.",
+      "keyPoints": [
+        "New ThinkYoung research on education and AI.",
+        "OpenAI EMEA education partnerships support teachers.",
+        "Aims to improve AI literacy and independent learning."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Closing the AI guidance gap in education",
+          "summary": "New ThinkYoung research and OpenAI EMEA education partnerships focus on supporting teachers, AI literacy, and independent learning.",
+          "keyPoints": [
+            "New ThinkYoung research on education and AI.",
+            "OpenAI EMEA education partnerships support teachers.",
+            "Aims to improve AI literacy and independent learning."
+          ]
+        },
+        "fr": {
+          "title": "Combler le fossé de l'orientation en IA en éducation",
+          "summary": "Une recherche de ThinkYoung et les partenariats d'OpenAI soutiennent les enseignants, l'alphabétisation en IA et l'apprentissage.",
+          "keyPoints": [
+            "Nouvelle recherche de ThinkYoung sur l'éducation.",
+            "Partenariats éducatifs d'OpenAI dans la région EMEA.",
+            "Soutien aux enseignants et alphabétisation numérique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f3fc54cd1d78c1",
+      "title": "AI's effect on freelance work",
+      "summary": "Research from OpenAI and Upwork reveals shifting demand for freelance work, new skill combinations, and larger budgets for AI projects.",
+      "keyPoints": [
+        "Joint research from OpenAI and Upwork.",
+        "Identifies shifting demand and new skill combinations.",
+        "Shows larger budgets and more hours for AI-related projects."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/ai-effect-on-freelance-work",
+      "publishedAt": "2026-11-10T07:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AI's effect on freelance work",
+          "summary": "Research from OpenAI and Upwork reveals shifting demand for freelance work, new skill combinations, and larger budgets for AI projects.",
+          "keyPoints": [
+            "Joint research from OpenAI and Upwork.",
+            "Identifies shifting demand and new skill combinations.",
+            "Shows larger budgets and more hours for AI-related projects."
+          ]
+        },
+        "fr": {
+          "title": "L'effet de l'IA sur le travail indépendant",
+          "summary": "Une recherche d'OpenAI et Upwork montre une évolution de la demande freelance, de nouvelles compétences et des budgets accrus.",
+          "keyPoints": [
+            "Recherche conjointe menée par OpenAI et Upwork.",
+            "Met en lumière de nouvelles combinaisons de compétences.",
+            "Indique des budgets plus importants pour les projets d'IA."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-caa9073cefb437",
       "title": "ChatGPT Enterprise now available in AWS Marketplace",
@@ -429,368 +780,17 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-1ef9e7f0384b9f",
-      "title": "DelegateEval: Evaluating Personal External Service Agents",
-      "summary": "DelegateEval is proposed as a platform-level evaluation framework to assess personal external service agents across eight dimensions of service delivery and governance.",
-      "keyPoints": [
-        "Defines personal external service agents",
-        "Introduces DelegateEval framework across 8 dimensions",
-        "Assesses creation, delivery quality, and governance"
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07508",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DelegateEval: Evaluating Personal External Service Agents",
-          "summary": "DelegateEval is proposed as a platform-level evaluation framework to assess personal external service agents across eight dimensions of service delivery and governance.",
-          "keyPoints": [
-            "Defines personal external service agents",
-            "Introduces DelegateEval framework across 8 dimensions",
-            "Assesses creation, delivery quality, and governance"
-          ]
-        },
-        "fr": {
-          "title": "DelegateEval : Évaluation des agents de services externes",
-          "summary": "DelegateEval est un cadre d'évaluation au niveau des plateformes pour évaluer les agents de services externes personnels à travers huit dimensions.",
-          "keyPoints": [
-            "Définit les agents de services externes personnels",
-            "Présente le cadre DelegateEval en 8 dimensions",
-            "Évalue la création, la qualité et la gouvernance"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f735bb5fe1d690",
-      "title": "Graph Learning for Train Rescheduling under Disruptions",
-      "summary": "A rolling-horizon distributionally robust model uses graph learning-assisted logic-based Benders decomposition to optimize train rescheduling under disruptions.",
-      "keyPoints": [
-        "Develops a distributionally robust train rescheduling model",
-        "Uses GNN-LBBD to coordinate routing and scheduling",
-        "Reduces total completion delay compared to other methods"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07520",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Graph Learning for Train Rescheduling under Disruptions",
-          "summary": "A rolling-horizon distributionally robust model uses graph learning-assisted logic-based Benders decomposition to optimize train rescheduling under disruptions.",
-          "keyPoints": [
-            "Develops a distributionally robust train rescheduling model",
-            "Uses GNN-LBBD to coordinate routing and scheduling",
-            "Reduces total completion delay compared to other methods"
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage par graphe pour la replanification des trains",
-          "summary": "Un modèle robuste utilise une décomposition de Benders assistée par apprentissage par graphe pour optimiser la replanification des trains en cas de perturbations.",
-          "keyPoints": [
-            "Développe un modèle robuste de replanification",
-            "Utilise GNN-LBBD pour coordonner le routage",
-            "Réduit le retard total par rapport aux méthodes classiques"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-418006ee56680f",
-      "title": "Goal-Branching LaCAM for Multi-Agent Pathfinding",
-      "summary": "Goal-Branching is introduced for LaCAM to treat temporary goals as search branches, significantly improving solving success and speed in dense multi-agent pathfinding.",
-      "keyPoints": [
-        "Proposes Goal-Branching for LaCAM pathfinding",
-        "Improves success rates on dense maze and room maps",
-        "Finds solutions significantly faster while preserving completeness"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07528",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Goal-Branching LaCAM for Multi-Agent Pathfinding",
-          "summary": "Goal-Branching is introduced for LaCAM to treat temporary goals as search branches, significantly improving solving success and speed in dense multi-agent pathfinding.",
-          "keyPoints": [
-            "Proposes Goal-Branching for LaCAM pathfinding",
-            "Improves success rates on dense maze and room maps",
-            "Finds solutions significantly faster while preserving completeness"
-          ]
-        },
-        "fr": {
-          "title": "Goal-Branching LaCAM pour la recherche de chemins multi-agents",
-          "summary": "Goal-Branching est introduit pour LaCAM afin de traiter les objectifs temporaires comme des branches de recherche, améliorant la vitesse en milieu dense.",
-          "keyPoints": [
-            "Propose Goal-Branching pour la recherche de chemins",
-            "Améliore les taux de réussite sur cartes denses",
-            "Trouve des solutions beaucoup plus rapidement"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-175ef865f46acc",
-      "title": "CST-Bench: Benchmarking Counterfactual Spatial Transition Reasoning",
-      "summary": "Spatial reasoning in multimodal large language models mostly focuses on static scenes. To address changes from interventions, researchers introduce CST-Bench with 7,082 examples across 6 intervention types and 12 transformation operators. They also propose CT-OPSD to guide a teacher model and distill counterfactual state transitions into a student model.",
-      "keyPoints": [
-        "CST-Bench contains 7,082 examples covering 6 intervention types and 12 transformation operators.",
-        "General-purpose MLLMs often fail under counterfactual interventions.",
-        "CT-OPSD uses annotations to guide teacher models and distill reasoning into student models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07541",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "CST-Bench: Benchmarking Counterfactual Spatial Transition Reasoning",
-          "summary": "Spatial reasoning in multimodal large language models mostly focuses on static scenes. To address changes from interventions, researchers introduce CST-Bench with 7,082 examples across 6 intervention types and 12 transformation operators. They also propose CT-OPSD to guide a teacher model and distill counterfactual state transitions into a student model.",
-          "keyPoints": [
-            "CST-Bench contains 7,082 examples covering 6 intervention types and 12 transformation operators.",
-            "General-purpose MLLMs often fail under counterfactual interventions.",
-            "CT-OPSD uses annotations to guide teacher models and distill reasoning into student models."
-          ]
-        },
-        "fr": {
-          "title": "CST-Bench : Évaluation du raisonnement de transition spatiale contrefactuelle",
-          "summary": "Le raisonnement spatial dans les grands modèles de langage multimodaux se concentre principalement sur les scènes statiques. Pour traiter les changements dus aux interventions, les chercheurs présentent CST-Bench avec 7 082 exemples répartis sur 6 types d'intervention et 12 opérateurs de transformation. Ils proposent également CT-OPSD pour guider un modèle enseignant et distiller les transitions d'état contrefactuelles dans un modèle étudiant.",
-          "keyPoints": [
-            "CST-Bench contient 7 082 exemples couvrant 6 types d'intervention et 12 opérateurs de transformation.",
-            "Les MLLM à usage général échouent souvent sous l'effet d'interventions contrefactuelles.",
-            "CT-OPSD utilise des annotations pour guider les modèles enseignants et distiller le raisonnement dans des modèles étudiants."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ff40942fae52f0",
-      "title": "FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLMs",
-      "summary": "Long-context inference hits memory capacity walls in LLM serving. FlashOffloading is a host-DRAM-centric inference architecture that fully offloads the KV cache in prefill and decode phases. Tested with GLM-5.2 and speculative decoding on an Ascend910C platform, it improves prefill throughput up to 1.38x and decode throughput up to 1.91x.",
-      "keyPoints": [
-        "FlashOffloading offloads the KV cache to host DRAM during both prefill and decode phases.",
-        "It improves prefill throughput by up to 1.38x and decode throughput by up to 1.91x under a 30 ms TPOT constraint.",
-        "The architecture is integrated into an open-source serving framework on GitHub."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07542",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLMs",
-          "summary": "Long-context inference hits memory capacity walls in LLM serving. FlashOffloading is a host-DRAM-centric inference architecture that fully offloads the KV cache in prefill and decode phases. Tested with GLM-5.2 and speculative decoding on an Ascend910C platform, it improves prefill throughput up to 1.38x and decode throughput up to 1.91x.",
-          "keyPoints": [
-            "FlashOffloading offloads the KV cache to host DRAM during both prefill and decode phases.",
-            "It improves prefill throughput by up to 1.38x and decode throughput by up to 1.91x under a 30 ms TPOT constraint.",
-            "The architecture is integrated into an open-source serving framework on GitHub."
-          ]
-        },
-        "fr": {
-          "title": "FlashOffloading : Déchargement du cache KV à faible latence pour LLM à long contexte",
-          "summary": "L'inférence à long contexte se heurte aux limites de la mémoire dans le service des LLM. FlashOffloading est une architecture d'inférence centrée sur la DRAM hôte qui décharge entièrement le cache KV lors des phases de pré-remplissage et de décodage. Testé avec GLM-5.2 sur une plateforme Ascend910C, il améliore le débit de pré-remplissage jusqu'à 1,38x et le débit de décodage jusqu'à 1,91x.",
-          "keyPoints": [
-            "FlashOffloading décharge le cache KV vers la DRAM de l'hôte pendant les phases de pré-remplissage et de décodage.",
-            "Il améliore le débit de pré-remplissage jusqu'à 1,38x et le débit de décodage jusqu'à 1,91x sous une contrainte TPOT de 30 ms.",
-            "L'architecture est intégrée dans un framework de service open-source sur GitHub."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4c20970a6e6b82",
-      "title": "FedAbA: Basis-Consistent Federated LoRA under Heterogeneous Ranks",
-      "summary": "Federated fine-tuning with low-rank adaptation faces basis inconsistency issues when clients have heterogeneous ranks. This work introduces FedAbA, a framework that aligns each client's local basis to the global reference basis before aggregation. Experiments show FedAbA outperforms representative baselines, particularly under strong rank heterogeneity.",
-      "keyPoints": [
-        "FedAbA solves basis inconsistency in federated LoRA under heterogeneous client capacities.",
-        "It extracts local bases, aligns them to global references, and constructs consistent matrix update reconstructions.",
-        "Experiments show FedAbA outperforms baseline methods under strong rank heterogeneity."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07598",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "FedAbA: Basis-Consistent Federated LoRA under Heterogeneous Ranks",
-          "summary": "Federated fine-tuning with low-rank adaptation faces basis inconsistency issues when clients have heterogeneous ranks. This work introduces FedAbA, a framework that aligns each client's local basis to the global reference basis before aggregation. Experiments show FedAbA outperforms representative baselines, particularly under strong rank heterogeneity.",
-          "keyPoints": [
-            "FedAbA solves basis inconsistency in federated LoRA under heterogeneous client capacities.",
-            "It extracts local bases, aligns them to global references, and constructs consistent matrix update reconstructions.",
-            "Experiments show FedAbA outperforms baseline methods under strong rank heterogeneity."
-          ]
-        },
-        "fr": {
-          "title": "FedAbA : LoRA fédérée cohérente sur les bases avec des rangs hétérogènes",
-          "summary": "L'ajustement fin fédéré avec adaptation de bas rang présente des problèmes d'incohérence de base lorsque les clients ont des rangs hétérogènes. Ce travail présente FedAbA, un cadre qui aligne la base locale de chaque client sur la base de référence globale avant l'agrégation. Les expériences montrent que FedAbA surpasse les bases de référence, en particulier sous une forte hétérogénéité de rangs.",
-          "keyPoints": [
-            "FedAbA résout l'incohérence de base dans la LoRA fédérée sous des capacités client hétérogènes.",
-            "Il extrait les bases locales, les aligne sur des références globales et reconstruit des mises à jour de matrices cohérentes.",
-            "Les expériences montrent que FedAbA surpasse les méthodes de référence sous une forte hétérogénéité de rangs."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2f23e6948f988b",
-      "title": "Embedding-Space Fingerprinting of LoRA Fine-Tunes and Domains",
-      "summary": "This paper investigates whether a classifier can recover the training data domain of a LoRA fine-tune using only model artifacts. Testing 36 fine-tunes across 18 datasets, researchers found domain recoverability reaches 64% from black-box outputs, 61% from gray-box activations, and 42% from white-box weights.",
-      "keyPoints": [
-        "Researchers tested 36 LoRA fine-tunes across 18 public datasets in five domains using one base model.",
-        "Domain recovery accuracy reached 64% from black-box outputs and 61% from gray-box activations.",
-        "White-box weight statistics reached 42% accuracy in identifying the training data domain."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07610",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Embedding-Space Fingerprinting of LoRA Fine-Tunes and Domains",
-          "summary": "This paper investigates whether a classifier can recover the training data domain of a LoRA fine-tune using only model artifacts. Testing 36 fine-tunes across 18 datasets, researchers found domain recoverability reaches 64% from black-box outputs, 61% from gray-box activations, and 42% from white-box weights.",
-          "keyPoints": [
-            "Researchers tested 36 LoRA fine-tunes across 18 public datasets in five domains using one base model.",
-            "Domain recovery accuracy reached 64% from black-box outputs and 61% from gray-box activations.",
-            "White-box weight statistics reached 42% accuracy in identifying the training data domain."
-          ]
-        },
-        "fr": {
-          "title": "Empreinte digitale dans l'espace d'intégration des ajustements LoRA et des domaines",
-          "summary": "Cet article étudie si un classificateur peut récupérer le domaine des données d'entraînement d'un ajustement LoRA en utilisant uniquement les artefacts du modèle. En testant 36 ajustements sur 18 ensembles de données, les chercheurs ont constaté que la récupérabilité du domaine atteint 64 % à partir des sorties de type boîte noire.",
-          "keyPoints": [
-            "Les chercheurs ont testé 36 ajustements LoRA sur 18 ensembles de données publics dans cinq domaines.",
-            "La précision de récupération du domaine a atteint 64 % à partir des sorties de type boîte noire et 61 % pour les activations.",
-            "Les statistiques de poids de type boîte blanche ont atteint une précision de 42 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c8753503fff574",
-      "title": "Beneath the Surface: Evaluating Agent Harness Evolution and RSI",
-      "summary": "Agent harness evolution enables recursive self-improvement without updating model weights. Evaluating sixteen evolved agents across tasks reveals that all gained new tasks while losing old ones, and highest-scoring agents did not yield the largest mean improvement. The study introduces EvoAudit to improve select, analyze, mutate, and gate steps.",
-      "keyPoints": [
-        "All sixteen evolved agents gained previously uncovered tasks while losing previously covered ones.",
-        "Higher benchmark scores and reliability gains frequently resulted in increased deployment costs.",
-        "EvoAudit introduces revisions to select, analyze, mutate, and gate steps to improve performance."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07624",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Beneath the Surface: Evaluating Agent Harness Evolution and RSI",
-          "summary": "Agent harness evolution enables recursive self-improvement without updating model weights. Evaluating sixteen evolved agents across tasks reveals that all gained new tasks while losing old ones, and highest-scoring agents did not yield the largest mean improvement. The study introduces EvoAudit to improve select, analyze, mutate, and gate steps.",
-          "keyPoints": [
-            "All sixteen evolved agents gained previously uncovered tasks while losing previously covered ones.",
-            "Higher benchmark scores and reliability gains frequently resulted in increased deployment costs.",
-            "EvoAudit introduces revisions to select, analyze, mutate, and gate steps to improve performance."
-          ]
-        },
-        "fr": {
-          "title": "Sous la surface : Évaluation de l'évolution des harnais d'agents et de l'auto-amélioration",
-          "summary": "L'évolution des harnais d'agents permet une auto-amélioration récursive sans mettre à jour les poids des modèles. L'évaluation de seize agents évolués révèle qu'ils ont tous gagné de nouvelles tâches tout en en perdant d'anciens, et que les scores les plus élevés n'ont pas produit la plus grande amélioration moyenne. L'étude présente EvoAudit.",
-          "keyPoints": [
-            "Les seize agents évolués ont gagné de nouvelles tâches tout en perdant des tâches précédemment couvertes.",
-            "Des scores de référence plus élevés et des gains de fiabilité ont souvent augmenté les coûts de déploiement.",
-            "EvoAudit apporte des révisions aux étapes de sélection, d'analyse, de mutation et de filtrage."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8a418d022687ee",
-      "title": "Redacting Personal Data: A Comparison of Regex, Presidio and Hybrid PII Redactors",
-      "summary": "This paper compares four PII redaction designs for LLM pipelines using 100 synthetic resumes. While pure regex ran at a 0.20 ms median latency it caught only 88.9% of PII, whereas Presidio, hybrid, and fast hybrid designs caught 100% of PII and preserved all business terms, with the fast hybrid achieving a 13.48 ms median latency.",
-      "keyPoints": [
-        "Four redaction designs (regex, Presidio, hybrid, and fast hybrid) were evaluated on 100 synthetic resumes.",
-        "Pure regex missed unknown names and caught only 88.9% of PII.",
-        "Presidio, hybrid, and fast hybrid designs achieved 100% PII detection while maintaining all business terms."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07633",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Redacting Personal Data: A Comparison of Regex, Presidio and Hybrid PII Redactors",
-          "summary": "This paper compares four PII redaction designs for LLM pipelines using 100 synthetic resumes. While pure regex ran at a 0.20 ms median latency it caught only 88.9% of PII, whereas Presidio, hybrid, and fast hybrid designs caught 100% of PII and preserved all business terms, with the fast hybrid achieving a 13.48 ms median latency.",
-          "keyPoints": [
-            "Four redaction designs (regex, Presidio, hybrid, and fast hybrid) were evaluated on 100 synthetic resumes.",
-            "Pure regex missed unknown names and caught only 88.9% of PII.",
-            "Presidio, hybrid, and fast hybrid designs achieved 100% PII detection while maintaining all business terms."
-          ]
-        },
-        "fr": {
-          "title": "Rédaction de données personnelles : Comparaison de Regex, Presidio et de designs hybrides",
-          "summary": "Cet article compare quatre conceptions de rédaction de PII pour les pipelines de LLM à l'aide de 100 CV synthétiques. Alors que le regex pur présentait une latence médiane de 0,20 ms mais n'a capturé que 88,9 % des PII, les designs Presidio, hybride et hybride rapide ont capturé 100 % des PII et préservé tous les termes commerciaux.",
-          "keyPoints": [
-            "Quatre designs de rédaction (regex, Presidio, hybride et hybride rapide) ont été évalués sur 100 CV synthétiques.",
-            "Le regex pur a raté les noms inconnus et n'a capturé que 88,9 % des PII.",
-            "Les designs Presidio, hybride et hybride rapide ont atteint une détection de 100 % des PII."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 31,
+    "itemsCollected": 38,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 9,
+    "candidates": 9,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
