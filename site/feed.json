@@ -1,37 +1,154 @@
 {
-  "generatedAt": "2026-11-11T06:26:28.324Z",
+  "generatedAt": "2026-11-11T19:39:14.080Z",
   "items": [
     {
-      "id": "feed-65b96c238445cd",
-      "title": "Gilbert + Tobin Rethinks the Business of Law with AI",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, discusses the integration of AI in the legal business.",
+      "id": "feed-c06fca3b9549fb",
+      "title": "Gemini Decisions API Released for Multimodal Decisions",
+      "summary": "Google AI Blog introduces the Gemini Decisions API, powered by the Gemini Decision model, designed for fast and calibrated multimodal decisions.",
       "keyPoints": [
-        "Features insights from Sam Nickless, CEO of Gilbert + Tobin.",
-        "Explores how AI is transforming the business of law.",
-        "Discusses strategic decisions around legal tech adoption."
+        "Powered by the Gemini Decision model",
+        "Focuses on fast and calibrated decisions",
+        "Supports multimodal inputs"
+      ],
+      "category": "Outils",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+      "translations": {
+        "en": {
+          "title": "Gemini Decisions API Released for Multimodal Decisions",
+          "summary": "Google AI Blog introduces the Gemini Decisions API, powered by the Gemini Decision model, designed for fast and calibrated multimodal decisions.",
+          "keyPoints": [
+            "Powered by the Gemini Decision model",
+            "Focuses on fast and calibrated decisions",
+            "Supports multimodal inputs"
+          ]
+        },
+        "fr": {
+          "title": "Sortie de l'API Gemini Decisions pour la prise de décision",
+          "summary": "Le blog Google AI présente l'API Gemini Decisions, propulsée par le modèle Gemini Decision, conçue pour des décisions multimodales rapides et calibrées.",
+          "keyPoints": [
+            "Propulsé par le modèle Gemini Decision",
+            "Axé sur des décisions rapides et calibrées",
+            "Prend en charge les entrées multimodales"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-833534b672b8da",
+      "title": "AlphaGenome 2 Unveiled to Decipher DNA and Disease",
+      "summary": "Google DeepMind introduces AlphaGenome 2, predicting how DNA sequences and their variations impact specific human cell types to better understand diseases.",
+      "keyPoints": [
+        "Focuses on predicting DNA sequence impacts",
+        "Analyzes human cell types and variations",
+        "Aims to improve disease understanding"
+      ],
+      "category": "Modèles",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "publishedAt": "2026-11-11T15:00:15.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/7eOcEXEyA41RlNbAgNmBUQLy34StN16i5xFpfAZ5hUxQmBQKZDYd3vVlnIbl_eK-4azSQ9QJBmi3wm2leu9zY0gflvcLBD5Vwdkmb6q9D1uwtfj-5A=w1440-h810-n-nu",
+      "translations": {
+        "en": {
+          "title": "AlphaGenome 2 Unveiled to Decipher DNA and Disease",
+          "summary": "Google DeepMind introduces AlphaGenome 2, predicting how DNA sequences and their variations impact specific human cell types to better understand diseases.",
+          "keyPoints": [
+            "Focuses on predicting DNA sequence impacts",
+            "Analyzes human cell types and variations",
+            "Aims to improve disease understanding"
+          ]
+        },
+        "fr": {
+          "title": "AlphaGenome 2 dévoilé pour décrypter l'ADN et les maladies",
+          "summary": "Google DeepMind présente AlphaGenome 2, qui prédit l'impact des séquences d'ADN et de leurs variations sur des types de cellules humaines spécifiques.",
+          "keyPoints": [
+            "Se concentre sur la prédiction des impacts de l'ADN",
+            "Analyse les types de cellules humaines et leurs variations",
+            "Vise à améliorer la compréhension des maladies"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c5f0f5d9acc63e",
+      "title": "TrustMod-SM Benchmark Evaluates LLM Content Moderation",
+      "summary": "Researchers introduce TrustMod-SM, a benchmark with roughly 29,000 instances to evaluate LLM trustworthiness across five dimensions in social media content moderation.",
+      "keyPoints": [
+        "Contains roughly 29,000 instances across eight datasets",
+        "Evaluates five dimensions including fairness and safety",
+        "Tests 16 open-weight models and one closed frontier model"
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12970",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "TrustMod-SM Benchmark Evaluates LLM Content Moderation",
+          "summary": "Researchers introduce TrustMod-SM, a benchmark with roughly 29,000 instances to evaluate LLM trustworthiness across five dimensions in social media content moderation.",
+          "keyPoints": [
+            "Contains roughly 29,000 instances across eight datasets",
+            "Evaluates five dimensions including fairness and safety",
+            "Tests 16 open-weight models and one closed frontier model"
+          ]
+        },
+        "fr": {
+          "title": "Le benchmark TrustMod-SM évalue la modération des LLM",
+          "summary": "Des chercheurs présentent TrustMod-SM, un benchmark d'environ 29 000 instances pour évaluer la fiabilité des LLM dans la modération de contenu sur les réseaux sociaux.",
+          "keyPoints": [
+            "Contient environ 29 000 instances sur huit ensembles de données",
+            "Évalue cinq dimensions dont l'équité et la sécurité",
+            "Teste 16 modèles à poids ouverts et un modèle frontalier fermé"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-55ff14dc421312",
+      "title": "JioStar Chief Architect on AI Discovery at Scale",
+      "summary": "JioStar's Vijay Seshadri discusses AI discovery at a 500 million user scale, sharing lessons on evaluations, guardrails, and production deployment.",
+      "keyPoints": [
+        "Discusses AI discovery at 500M-user scale",
+        "Shares lessons on evaluations and guardrails",
+        "Covers taking AI into production environments"
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/jiostar-vijay-seshadri",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Gilbert + Tobin Rethinks the Business of Law with AI",
-          "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, discusses the integration of AI in the legal business.",
+          "title": "JioStar Chief Architect on AI Discovery at Scale",
+          "summary": "JioStar's Vijay Seshadri discusses AI discovery at a 500 million user scale, sharing lessons on evaluations, guardrails, and production deployment.",
           "keyPoints": [
-            "Features insights from Sam Nickless, CEO of Gilbert + Tobin.",
-            "Explores how AI is transforming the business of law.",
-            "Discusses strategic decisions around legal tech adoption."
+            "Discusses AI discovery at 500M-user scale",
+            "Shares lessons on evaluations and guardrails",
+            "Covers taking AI into production environments"
           ]
         },
         "fr": {
-          "title": "Gilbert + Tobin repense le secteur juridique avec l'IA",
-          "summary": "Une conversation avec Sam Nickless, associé et directeur général de Gilbert + Tobin, aborde l'intégration de l'IA dans les activités juridiques.",
+          "title": "L'architecte en chef de JioStar sur la découverte IA à grande échelle",
+          "summary": "Vijay Seshadri de JioStar discute de la découverte d'IA à l'échelle de 500 millions d'utilisateurs, partageant des leçons sur les évaluations et les garde-fous.",
           "keyPoints": [
-            "Présente les perspectives de Sam Nickless, PDG de Gilbert + Tobin.",
-            "Explore la manière dont l'IA transforme le secteur juridique.",
-            "Discute des choix stratégiques liés à l'adoption de la technologie."
+            "Discute de la découverte d'IA à l'échelle de 500M d'utilisateurs",
+            "Partage des leçons sur les évaluations et les garde-fous",
+            "Aborde le passage de l'IA en production"
           ]
         }
       },
@@ -41,36 +158,75 @@
       }
     },
     {
-      "id": "feed-f6365915535226",
-      "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
-      "summary": "Researchers demonstrate closed-loop autonomous synchrotron X-ray experiments on nanoparticle superlattices using coding-agent infrastructure, evaluating decision provenance and cognitive labor division across experiments.",
+      "id": "feed-eac4d84ef94997",
+      "title": "Tabletop: Google Labs Experiment for Group Collaboration",
+      "summary": "Google Labs introduces Tabletop, a customizable and collaborative space for groups to build interactive itineraries, polls, and brackets together.",
       "keyPoints": [
-        "Demonstrates autonomous synchrotron X-ray experiments using coding agents.",
-        "Analyzes human-agent and agent-agent transcripts to reconstruct decision provenance.",
-        "Shows that 61-67% of messages involved interpretation or judgment."
+        "New Google Labs experiment for group collaboration",
+        "Build interactive itineraries, polls, and brackets",
+        "Waitlist is currently open for interested users"
+      ],
+      "category": "Outils",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1566.max-1440x810.jpg",
+      "translations": {
+        "en": {
+          "title": "Tabletop: Google Labs Experiment for Group Collaboration",
+          "summary": "Google Labs introduces Tabletop, a customizable and collaborative space for groups to build interactive itineraries, polls, and brackets together.",
+          "keyPoints": [
+            "New Google Labs experiment for group collaboration",
+            "Build interactive itineraries, polls, and brackets",
+            "Waitlist is currently open for interested users"
+          ]
+        },
+        "fr": {
+          "title": "Tabletop : une expérience Google Labs pour la collaboration",
+          "summary": "Google Labs présente Tabletop, un espace personnalisable et collaboratif permettant aux groupes de créer ensemble des itinéraires interactifs et des sondages.",
+          "keyPoints": [
+            "Nouvelle expérience Google Labs pour la collaboration",
+            "Permet de créer des itinéraires et des sondages interactifs",
+            "Une liste d'attente est actuellement ouverte"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f89329e5049b38",
+      "title": "ZeroPoint: Lightweight Energy-Based Decision Model",
+      "summary": "Researchers propose ZeroPoint, an energy-based model that treats the empty answer as a zero-energy state to enable reliable option selection and abstention.",
+      "keyPoints": [
+        "Proposes ZeroPoint for energy-based decision models",
+        "Uses an empty answer state with energy zero as reference",
+        "Combines option selection and abstention in standard inference"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12933",
+      "sourceUrl": "https://arxiv.org/abs/2611.12992",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
-          "summary": "Researchers demonstrate closed-loop autonomous synchrotron X-ray experiments on nanoparticle superlattices using coding-agent infrastructure, evaluating decision provenance and cognitive labor division across experiments.",
+          "title": "ZeroPoint: Lightweight Energy-Based Decision Model",
+          "summary": "Researchers propose ZeroPoint, an energy-based model that treats the empty answer as a zero-energy state to enable reliable option selection and abstention.",
           "keyPoints": [
-            "Demonstrates autonomous synchrotron X-ray experiments using coding agents.",
-            "Analyzes human-agent and agent-agent transcripts to reconstruct decision provenance.",
-            "Shows that 61-67% of messages involved interpretation or judgment."
+            "Proposes ZeroPoint for energy-based decision models",
+            "Uses an empty answer state with energy zero as reference",
+            "Combines option selection and abstention in standard inference"
           ]
         },
         "fr": {
-          "title": "Équipes humain-agent auditables pour l'expérimentation aux rayons X",
-          "summary": "Des chercheurs démontrent des expériences autonomes en boucle fermée de rayons X par synchrotron sur des superréseaux de nanoparticules en utilisant une infrastructure d'agents de codage.",
+          "title": "ZeroPoint : modèle de décision énergétique léger",
+          "summary": "Des chercheurs proposent ZeroPoint, un modèle énergétique qui traite la réponse vide comme un état d'énergie nulle pour permettre la sélection et l'abstention.",
           "keyPoints": [
-            "Démontre des expériences de rayons X autonomes par synchrotron via des agents.",
-            "Analyse les transcriptions pour reconstituer la traçabilité des décisions.",
-            "Montre que 61 à 67 % des messages impliquaient de l'interprétation ou du jugement."
+            "Propose ZeroPoint pour les modèles de décision énergétiques",
+            "Utilise un état de réponse vide à énergie nulle comme référence",
+            "Combine sélection d'options et abstention dans l'inférence"
           ]
         }
       },
@@ -80,36 +236,36 @@
       }
     },
     {
-      "id": "feed-ac94b61a25ade5",
-      "title": "ChatGPT Plus for Veterans and Servicemembers",
-      "summary": "Over 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus to help them prepare for civilian careers.",
+      "id": "feed-9092d5eb66f295",
+      "title": "Singapore Airlines Enhances Operations with OpenAI",
+      "summary": "Singapore Airlines leverages OpenAI models and APIs to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "keyPoints": [
-        "More than 20,000 veterans have claimed a free year of ChatGPT Plus.",
-        "Aims to assist transitioning service members in preparing for civilian careers.",
-        "Announced via OpenAI News."
+        "Uses OpenAI models and APIs for customer support",
+        "Improves travel discovery and employee productivity",
+        "Doubled CSAT performance for the Kris chatbot"
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "publishedAt": "2026-11-11T08:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/singapore-airlines-travel-work",
+      "publishedAt": "2026-11-10T08:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ChatGPT Plus for Veterans and Servicemembers",
-          "summary": "Over 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus to help them prepare for civilian careers.",
+          "title": "Singapore Airlines Enhances Operations with OpenAI",
+          "summary": "Singapore Airlines leverages OpenAI models and APIs to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
           "keyPoints": [
-            "More than 20,000 veterans have claimed a free year of ChatGPT Plus.",
-            "Aims to assist transitioning service members in preparing for civilian careers.",
-            "Announced via OpenAI News."
+            "Uses OpenAI models and APIs for customer support",
+            "Improves travel discovery and employee productivity",
+            "Doubled CSAT performance for the Kris chatbot"
           ]
         },
         "fr": {
-          "title": "ChatGPT Plus pour les vétérans et militaires",
-          "summary": "Plus de 20 000 vétérans et militaires en transition ont bénéficié d'une année gratuite de ChatGPT Plus pour préparer leur reconversion civile.",
+          "title": "Singapore Airlines améliore ses services avec OpenAI",
+          "summary": "Singapore Airlines utilise les modèles et API d'OpenAI pour améliorer le support client, la recherche de voyages et la productivité, doublant le CSAT de son chatbot.",
           "keyPoints": [
-            "Plus de 20 000 vétérans ont réclamé une année gratuite de ChatGPT Plus.",
-            "Destiné à aider les militaires en transition pour leur carrière civile.",
-            "Annoncé par OpenAI News."
+            "Utilise les modèles et API d'OpenAI pour le support client",
+            "Améliore la découverte de voyages et la productivité",
+            "A doublé le score CSAT de son chatbot Kris"
           ]
         }
       },
@@ -119,75 +275,36 @@
       }
     },
     {
-      "id": "feed-70b6e0e37bdecc",
-      "title": "EarthRecord: Multimodal Agents for Four Decades of Satellite Imagery",
-      "summary": "Introducing EarthRecord, a benchmark built on four decades of multi-sensor satellite imagery, to evaluate multimodal agents on complex land-change analysis tasks.",
+      "id": "feed-8e8e851f9ac38a",
+      "title": "Google Arts & Culture Launches Dr. Esther Mahlangu Archive",
+      "summary": "An online archive celebrating the life and artistic legacy of Dr. Esther Mahlangu has been launched on Google Arts & Culture.",
       "keyPoints": [
-        "Presents EarthRecord benchmark using 56 sites over 40 years of data.",
-        "Tests twelve multimodal agents across 238 land-change questions.",
-        "Reveals leading agents falter when answers require direct mapping from imagery."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12934",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "EarthRecord: Multimodal Agents for Four Decades of Satellite Imagery",
-          "summary": "Introducing EarthRecord, a benchmark built on four decades of multi-sensor satellite imagery, to evaluate multimodal agents on complex land-change analysis tasks.",
-          "keyPoints": [
-            "Presents EarthRecord benchmark using 56 sites over 40 years of data.",
-            "Tests twelve multimodal agents across 238 land-change questions.",
-            "Reveals leading agents falter when answers require direct mapping from imagery."
-          ]
-        },
-        "fr": {
-          "title": "EarthRecord : Agents multimodaux pour quatre décennies d'imagerie",
-          "summary": "Présentation d'EarthRecord, un benchmark basé sur quatre décennies d'imagerie satellite multi-capteurs pour évaluer les agents multimodaux sur l'analyse des changements terrestres.",
-          "keyPoints": [
-            "Présente le benchmark EarthRecord utilisant 56 sites sur 40 ans de données.",
-            "Évalue douze agents multimodaux à travers 238 questions sur les changements terrestres.",
-            "Révèle que les principaux agents peinent sur la cartographie directe par imagerie."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-37e4452e64c861",
-      "title": "Cogent and OpenAI Build Cyber Defense Factories for Enterprises",
-      "summary": "Cogent combines OpenAI models with enterprise context to automatically remediate vulnerabilities using autonomous agents.",
-      "keyPoints": [
-        "Cogent integrates OpenAI models with enterprise context.",
-        "Aims to automatically remediate cybersecurity vulnerabilities.",
-        "Deploys automated agents for enterprise cyber defense."
+        "Features the life and art of Dr. Esther Mahlangu",
+        "Hosted online on Google Arts & Culture",
+        "Highlights her artistic legacy and outreach"
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/cogent-security",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
-      "imageUrl": "",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Esther_Mahlangu_SS.width-1300.png",
       "translations": {
         "en": {
-          "title": "Cogent and OpenAI Build Cyber Defense Factories for Enterprises",
-          "summary": "Cogent combines OpenAI models with enterprise context to automatically remediate vulnerabilities using autonomous agents.",
+          "title": "Google Arts & Culture Launches Dr. Esther Mahlangu Archive",
+          "summary": "An online archive celebrating the life and artistic legacy of Dr. Esther Mahlangu has been launched on Google Arts & Culture.",
           "keyPoints": [
-            "Cogent integrates OpenAI models with enterprise context.",
-            "Aims to automatically remediate cybersecurity vulnerabilities.",
-            "Deploys automated agents for enterprise cyber defense."
+            "Features the life and art of Dr. Esther Mahlangu",
+            "Hosted online on Google Arts & Culture",
+            "Highlights her artistic legacy and outreach"
           ]
         },
         "fr": {
-          "title": "Cogent et OpenAI créent des usines de cyberdéfense pour les entreprises",
-          "summary": "Cogent associe les modèles d'OpenAI au contexte des entreprises pour remédier automatiquement aux vulnérabilités grâce à des agents.",
+          "title": "Google Arts & Culture lance les archives d'Esther Mahlangu",
+          "summary": "De nouvelles archives en ligne consacrées à la vie et à l'héritage artistique du Dr Esther Mahlangu sont désormais disponibles sur Google Arts & Culture.",
           "keyPoints": [
-            "Cogent intègre les modèles d'OpenAI avec le contexte d'entreprise.",
-            "Permet de remédier automatiquement aux vulnérabilités de sécurité.",
-            "Déploie des agents autonomes pour la cyberdéfense des entreprises."
+            "Présente la vie et l'art du Dr Esther Mahlangu",
+            "Hébergé en ligne sur Google Arts & Culture",
+            "Met en valeur son héritage artistique"
           ]
         }
       },
@@ -197,36 +314,36 @@
       }
     },
     {
-      "id": "feed-e5cd4cd10b4ff8",
-      "title": "TopicScope: Sparse Autoencoders for Topic Monitoring in LLMs",
-      "summary": "Researchers introduce TopicScope, a framework using sparse autoencoders (SAEs) to train causal topic classifiers that monitor topics token by token during language model generation.",
+      "id": "feed-43ae09e5aee3b3",
+      "title": "MedScope-4B Teaches Medical VLMs to Report Image Facts",
+      "summary": "Researchers introduce MedScope-4B, using counterfactual lesion erasure to train medical vision-language models to report only what the image actually shows.",
       "keyPoints": [
-        "Introduces TopicScope for token-level topic monitoring during generation.",
-        "Evaluated on Gemma-3 1B and 4B models using prefill hidden states.",
-        "Shows classifiers are robust to text perturbations and asides."
+        "Addresses medical VLM hallucination of named findings",
+        "Uses counterfactual lesion erasure without manual annotation",
+        "Achieves high evidence sensitivity gap scores on internal cases"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12935",
+      "sourceUrl": "https://arxiv.org/abs/2611.13006",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "TopicScope: Sparse Autoencoders for Topic Monitoring in LLMs",
-          "summary": "Researchers introduce TopicScope, a framework using sparse autoencoders (SAEs) to train causal topic classifiers that monitor topics token by token during language model generation.",
+          "title": "MedScope-4B Teaches Medical VLMs to Report Image Facts",
+          "summary": "Researchers introduce MedScope-4B, using counterfactual lesion erasure to train medical vision-language models to report only what the image actually shows.",
           "keyPoints": [
-            "Introduces TopicScope for token-level topic monitoring during generation.",
-            "Evaluated on Gemma-3 1B and 4B models using prefill hidden states.",
-            "Shows classifiers are robust to text perturbations and asides."
+            "Addresses medical VLM hallucination of named findings",
+            "Uses counterfactual lesion erasure without manual annotation",
+            "Achieves high evidence sensitivity gap scores on internal cases"
           ]
         },
         "fr": {
-          "title": "TopicScope : Auto-encodeurs parcimonieux pour le suivi de sujets",
-          "summary": "Les chercheurs présentent TopicScope, un cadre utilisant des auto-encodeurs parcimonieux (SAE) pour entraîner des classifieurs de sujets causaux token par token.",
+          "title": "MedScope-4B apprend aux VLM médicaux à rapporter l'image",
+          "summary": "Des chercheurs présentent MedScope-4B, utilisant l'effacement contrefactuel pour entraîner les modèles de vision médicale à rapporter uniquement ce que montre l'image.",
           "keyPoints": [
-            "Introduit TopicScope pour le suivi des sujets au niveau des tokens.",
-            "Évalué sur les modèles Gemma-3 1B et 4B en utilisant les états cachés de pré-remplissage.",
-            "Démontre la robustesse des classifieurs face aux perturbations textuelles."
+            "Traite les hallucinations des VLM médicaux",
+            "Utilise l'effacement contrefactuel des lésions",
+            "Atteint des scores élevés de sensibilité aux preuves"
           ]
         }
       },
@@ -236,36 +353,36 @@
       }
     },
     {
-      "id": "feed-4bd6d8fca0727c",
-      "title": "LandslideFM: Foundation Model for Unified Landslide Understanding",
-      "summary": "LandslideFM is a novel foundation model connecting visual perception tasks with contextual interpretation of landslides, supported by a semi-supervised learning framework and a new benchmark.",
+      "id": "feed-590f86c72f2f70",
+      "title": "Ask2Decide Benchmark Evaluates LLM Planning and Clarification",
+      "summary": "Researchers introduce Ask2Decide, a benchmark of 43 planning tasks evaluating whether LLM agents ask for missing information necessary to make sound decisions.",
       "keyPoints": [
-        "Proposes LandslideFM, a unified foundation model for landslide perception.",
-        "Uses Source-Agreement Graduated Trust semi-supervised learning framework.",
-        "Introduces LandslideVL, a new benchmark combining imagery and textual prompts."
+        "Introduces the Ask2Decide benchmark with 43 planning tasks",
+        "Evaluates agent ability to ask for missing critical information",
+        "Finds that obtaining missing info remains a major planning bottleneck"
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12936",
+      "sourceUrl": "https://arxiv.org/abs/2611.13015",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LandslideFM: Foundation Model for Unified Landslide Understanding",
-          "summary": "LandslideFM is a novel foundation model connecting visual perception tasks with contextual interpretation of landslides, supported by a semi-supervised learning framework and a new benchmark.",
+          "title": "Ask2Decide Benchmark Evaluates LLM Planning and Clarification",
+          "summary": "Researchers introduce Ask2Decide, a benchmark of 43 planning tasks evaluating whether LLM agents ask for missing information necessary to make sound decisions.",
           "keyPoints": [
-            "Proposes LandslideFM, a unified foundation model for landslide perception.",
-            "Uses Source-Agreement Graduated Trust semi-supervised learning framework.",
-            "Introduces LandslideVL, a new benchmark combining imagery and textual prompts."
+            "Introduces the Ask2Decide benchmark with 43 planning tasks",
+            "Evaluates agent ability to ask for missing critical information",
+            "Finds that obtaining missing info remains a major planning bottleneck"
           ]
         },
         "fr": {
-          "title": "LandslideFM : Modèle de fondation pour la perception des glissements",
-          "summary": "LandslideFM est un nouveau modèle de fondation reliant les tâches de perception visuelle à l'interprétation contextuelle des glissements de terrain.",
+          "title": "Le benchmark Ask2Decide évalue la planification des LLM",
+          "summary": "Des chercheurs présentent Ask2Decide, un benchmark de 43 tâches évaluant si les agents LLM demandent les informations manquantes nécessaires à leurs décisions.",
           "keyPoints": [
-            "Propose LandslideFM, un modèle de fondation unifié pour les glissements de terrain.",
-            "Utilise un cadre d'apprentissage semi-supervisé basé sur la confiance graduée.",
-            "Introduit LandslideVL, un nouveau benchmark combinant images et invites textuelles."
+            "Introduit le benchmark Ask2Decide de 43 tâches de planification",
+            "Évalue la capacité des agents à demander des informations manquantes",
+            "Montre que l'obtention d'informations reste un goulot d'étranglement"
           ]
         }
       },
@@ -275,36 +392,36 @@
       }
     },
     {
-      "id": "feed-e15dfd244ed580",
-      "title": "Tracing Psychometric Inference in Large Language Models",
-      "summary": "Researchers investigate whether large language models internally represent psychological constructs or merely mimic them, using a cross-persona paradigm across 14 model variants.",
+      "id": "feed-d3effae8f8a7d7",
+      "title": "Multi-Future Drafting for Tree-Verified Speculative Decoding",
+      "summary": "The authors propose Multi-Future Drafting (MFD) to resolve issues with chimera creation in tree-verified speculative decoding. Using $K$ learned mode embeddings and a mixture DDTree, MFD achieves up to 7.8 times speedup on Qwen targets while eliminating chimeras.",
       "keyPoints": [
-        "Examines internal representation of psychological constructs in 14 LLM variants.",
-        "Finds geometry aligned with human matrices in larger instruct variants.",
-        "Identifies a readout attenuation gap between internal probes and output behavior."
+        "Standard product-ranked trees create chimeras that make up 27-33% of a 64-node tree.",
+        "MFD uses $K$ learned mode embeddings and a mixture DDTree to draft coherent blocks losslessly.",
+        "Achieves up to 7.8x speedup on Qwen targets at batch size 1."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12937",
+      "sourceUrl": "https://arxiv.org/abs/2611.13017",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Tracing Psychometric Inference in Large Language Models",
-          "summary": "Researchers investigate whether large language models internally represent psychological constructs or merely mimic them, using a cross-persona paradigm across 14 model variants.",
+          "title": "Multi-Future Drafting for Tree-Verified Speculative Decoding",
+          "summary": "The authors propose Multi-Future Drafting (MFD) to resolve issues with chimera creation in tree-verified speculative decoding. Using $K$ learned mode embeddings and a mixture DDTree, MFD achieves up to 7.8 times speedup on Qwen targets while eliminating chimeras.",
           "keyPoints": [
-            "Examines internal representation of psychological constructs in 14 LLM variants.",
-            "Finds geometry aligned with human matrices in larger instruct variants.",
-            "Identifies a readout attenuation gap between internal probes and output behavior."
+            "Standard product-ranked trees create chimeras that make up 27-33% of a 64-node tree.",
+            "MFD uses $K$ learned mode embeddings and a mixture DDTree to draft coherent blocks losslessly.",
+            "Achieves up to 7.8x speedup on Qwen targets at batch size 1."
           ]
         },
         "fr": {
-          "title": "Suivi de l'inférence psychométrique dans les grands modèles de langue",
-          "summary": "Des chercheurs examinent si les grands modèles de langue représentent en interne des construits psychologiques ou s'ils se contentent de les imiter.",
+          "title": "Multi-Future Drafting pour le décodage spéculatif vérifié par arbre",
+          "summary": "Les auteurs proposent le Multi-Future Drafting (MFD) pour résoudre les problèmes de création de chimères dans le décodage spéculatif vérifié par arbre. En utilisant $K$ plongements de mode appris et un DDTree de mélange, le MFD atteint jusqu'à 7,8 fois d'accélération sur des cibles Qwen.",
           "keyPoints": [
-            "Examine la représentation interne de construits psychologiques sur 14 variantes de LLM.",
-            "Trouve une géométrie alignée avec les matrices humaines dans les variantes instruites.",
-            "Identifie un écart d'atténuation de lecture entre sondes internes et comportement."
+            "Les arbres standards classés par produit créent des chimères représentant 27 à 33 % d'un arbre à 64 nœuds.",
+            "Le MFD utilise $K$ plongements de mode et un DDTree de mélange pour générer des blocs cohérents sans perte.",
+            "Atteint jusqu'à 7,8x d'accélération sur les cibles Qwen pour une taille de lot de 1."
           ]
         }
       },
@@ -314,477 +431,360 @@
       }
     },
     {
-      "id": "feed-4ce35f7b37fafd",
-      "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
-      "summary": "A study on how multimodal input and graph visualizations improve knowledge graph question answering in large vision-language models across 1,500 questions.",
+      "id": "feed-562cf6a6dfb403",
+      "title": "ChipOmni: A General-Purpose AI Agent for Electronic Design Automation",
+      "summary": "ChipOmni is a knowledge-enhanced, context-evolving AI agent framework for Electronic Design Automation (EDA). It integrates multimodal understanding, dynamic planning, and multi-agent collaboration to autonomously manage engineering workflows from specifications to physical layouts.",
       "keyPoints": [
-        "Compares text-only prompting with text-plus-graph visualizations.",
-        "Finds graph images yield an average gain of 1.85 F1 points.",
-        "Shows performance is sensitive to graph layout and cognitive constraints."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12938",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
-          "summary": "A study on how multimodal input and graph visualizations improve knowledge graph question answering in large vision-language models across 1,500 questions.",
-          "keyPoints": [
-            "Compares text-only prompting with text-plus-graph visualizations.",
-            "Finds graph images yield an average gain of 1.85 F1 points.",
-            "Shows performance is sensitive to graph layout and cognitive constraints."
-          ]
-        },
-        "fr": {
-          "title": "Visualisations de graphes dans les invites pour les questions-réponses",
-          "summary": "Une étude examine comment les entrées multimodales et les visualisations de graphes améliorent la réponse aux questions sur les graphes de connaissances.",
-          "keyPoints": [
-            "Compare les invites textuelles aux visualisations textuelles et graphiques.",
-            "Constate un gain moyen de 1,85 point F1 grâce aux images de graphes.",
-            "Montre que les performances dépendent de la disposition des graphes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d5c99bc6d6e5d9",
-      "title": "Reinforcement Learning for Cancer Chemotherapy Treatment Control",
-      "summary": "This research study explores reinforcement learning techniques, including online and offline approaches, to generate optimal dynamic treatment regimens for cancer chemotherapy using real clinical data.",
-      "keyPoints": [
-        "Focuses on reinforcement learning for personalized cancer chemotherapy.",
-        "Implements an offline reinforcement learning approach on human colon cancer data.",
-        "Uses conservative Q-learning and model-based offline policy optimization algorithms."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12940",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Reinforcement Learning for Cancer Chemotherapy Treatment Control",
-          "summary": "This research study explores reinforcement learning techniques, including online and offline approaches, to generate optimal dynamic treatment regimens for cancer chemotherapy using real clinical data.",
-          "keyPoints": [
-            "Focuses on reinforcement learning for personalized cancer chemotherapy.",
-            "Implements an offline reinforcement learning approach on human colon cancer data.",
-            "Uses conservative Q-learning and model-based offline policy optimization algorithms."
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage par renforcement pour le contrôle de chimiothérapies",
-          "summary": "Cette étude explore les techniques d'apprentissage par renforcement, en ligne et hors ligne, pour générer des régimes de traitement dynamiques optimaux pour la chimiothérapie du cancer.",
-          "keyPoints": [
-            "Se concentre sur l'apprentissage par renforcement pour la chimiothérapie personnalisée.",
-            "Met en œuvre une approche d'apprentissage par renforcement hors ligne sur des données cliniques.",
-            "Utilise le Q-learning conservateur et des algorithmes d'optimisation de politique."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-166bd6fc93935b",
-      "title": "AI Governance Should Prioritize Control and Knowledge Boundaries",
-      "summary": "The rapid growth of autonomous AI agents highlights an urgent need for effective governance. Researchers propose the competence circuit framework, breaking down real-world impacts into intelligence discovery, procedural know-how, and direct control. The study demonstrates that intelligence-driven speedups are limited and that fast takeoffs usually rely on rapid knowledge acquisition or control attainment. Consequently, safety levers should focus on restricting control and enforcing knowledge boundaries rather than solely limiting intelligence.",
-      "keyPoints": [
-        "Proposes the competence circuit framework: IKC + KC + C to analyze agent real-world impact.",
-        "Shows that intelligence-driven speedup is strictly capped regardless of task difficulty.",
-        "Argues that restricting control and enforcing knowledge boundaries are more effective safety levers."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12941",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AI Governance Should Prioritize Control and Knowledge Boundaries",
-          "summary": "The rapid growth of autonomous AI agents highlights an urgent need for effective governance. Researchers propose the competence circuit framework, breaking down real-world impacts into intelligence discovery, procedural know-how, and direct control. The study demonstrates that intelligence-driven speedups are limited and that fast takeoffs usually rely on rapid knowledge acquisition or control attainment. Consequently, safety levers should focus on restricting control and enforcing knowledge boundaries rather than solely limiting intelligence.",
-          "keyPoints": [
-            "Proposes the competence circuit framework: IKC + KC + C to analyze agent real-world impact.",
-            "Shows that intelligence-driven speedup is strictly capped regardless of task difficulty.",
-            "Argues that restricting control and enforcing knowledge boundaries are more effective safety levers."
-          ]
-        },
-        "fr": {
-          "title": "La gouvernance de l'IA doit privilégier le contrôle et les limites",
-          "summary": "La prolifération rapide d'agents IA autonomes rend urgente la gouvernance de ces systèmes. Les chercheurs proposent le circuit de compétence, décomposant l'impact réel en découverte médiée par l'intelligence, savoir-faire procédural et contrôle direct. L'étude démontre que les accélérations pilotées par l'intelligence sont limitées et que les décollages rapides reposent sur l'acquisition de connaissances ou le contrôle. Par conséquent, la sécurité doit cibler le contrôle et les frontières des connaissances.",
-          "keyPoints": [
-            "Propose le cadre du circuit de compétence : IKC + KC + C pour analyser l'impact réel.",
-            "Montre que l'accélération liée à l'intelligence est plafonnée quelle que soit la tâche.",
-            "Soutient que restreindre le contrôle et imposer des limites de connaissances sont de meilleurs leviers."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4d203c940610d8",
-      "title": "Tabular Foundation Models vs Tuned Gradient Boosting for Churn",
-      "summary": "A profit- and calibration-aware evaluation compares tabular foundation models against Optuna-tuned gradient-boosted trees on telecom churn datasets. The evaluation separates ranking performance, expected maximum profit, and threshold policy probabilities. Results show that TabPFN-3.5 earns significantly more expected maximum profit than tuned GBDTs on specific datasets, though licensing restrictions remain a barrier to production use.",
-      "keyPoints": [
-        "Compares TabPFN models and TabICL v2 against tuned GBDTs across five telecom churn datasets.",
-        "TabPFN-3.5 achieves significantly higher expected maximum profit on Cell2Cell and Iranian datasets.",
-        "Weights licensing (License v1.0) currently prevents production deployment of TabPFN-3.5."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12942",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Tabular Foundation Models vs Tuned Gradient Boosting for Churn",
-          "summary": "A profit- and calibration-aware evaluation compares tabular foundation models against Optuna-tuned gradient-boosted trees on telecom churn datasets. The evaluation separates ranking performance, expected maximum profit, and threshold policy probabilities. Results show that TabPFN-3.5 earns significantly more expected maximum profit than tuned GBDTs on specific datasets, though licensing restrictions remain a barrier to production use.",
-          "keyPoints": [
-            "Compares TabPFN models and TabICL v2 against tuned GBDTs across five telecom churn datasets.",
-            "TabPFN-3.5 achieves significantly higher expected maximum profit on Cell2Cell and Iranian datasets.",
-            "Weights licensing (License v1.0) currently prevents production deployment of TabPFN-3.5."
-          ]
-        },
-        "fr": {
-          "title": "Modèles tabulaires de fondation contre gradient boosting pour le churn",
-          "summary": "Une évaluation axée sur le profit et la calibration compare des modèles de fondation tabulaires à des arbres de gradient boosting optimisés sur des jeux de données de résiliation télécom. L'évaluation distingue le classement, le profit maximum espéré et les politiques de seuil. Les résultats montrent que TabPFN-3.5 génère un profit supérieur sur certains ensembles, bien que les licences de poids freinent son adoption.",
-          "keyPoints": [
-            "Compare les modèles TabPFN et TabICL v2 à des GBDT optimisés sur cinq jeux de données de churn.",
-            "TabPFN-3.5 obtient un profit maximum espéré significativement plus élevé sur Cell2Cell et Iran.",
-            "La licence des poids (v1.0) constitue le principal obstacle à l'utilisation en production."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-79262989e25661",
-      "title": "SetPrint: Black-Box LLM Fingerprinting via Response Changes",
-      "summary": "Black-box LLM fingerprinting aims to determine if a target model derives from a source model using only output responses. The authors introduce SetPrint, a training-free method that jointly captures within-set relations and between-set correspondence from perturbed query responses. Evaluated on LeaFBench, SetPrint consistently outperforms existing training-free black-box fingerprinting methods.",
-      "keyPoints": [
-        "Introduces SetPrint, a training-free method for black-box LLM fingerprinting.",
-        "Jointly captures within-set response relations and between-set correspondence under perturbation.",
-        "Consistently outperforms existing training-free fingerprinting methods on LeaFBench."
+        "ChipOmni unifies multimodal understanding, dynamic planning, and verification-driven tool interaction.",
+        "Successfully solves all 30 AnalogCoder-Pro tasks and improves baseline measures.",
+        "Advances a RISC-V specification to a micro-SoC GDSII layout without human intervention."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12950",
+      "sourceUrl": "https://arxiv.org/abs/2611.13020",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "SetPrint: Black-Box LLM Fingerprinting via Response Changes",
-          "summary": "Black-box LLM fingerprinting aims to determine if a target model derives from a source model using only output responses. The authors introduce SetPrint, a training-free method that jointly captures within-set relations and between-set correspondence from perturbed query responses. Evaluated on LeaFBench, SetPrint consistently outperforms existing training-free black-box fingerprinting methods.",
+          "title": "ChipOmni: A General-Purpose AI Agent for Electronic Design Automation",
+          "summary": "ChipOmni is a knowledge-enhanced, context-evolving AI agent framework for Electronic Design Automation (EDA). It integrates multimodal understanding, dynamic planning, and multi-agent collaboration to autonomously manage engineering workflows from specifications to physical layouts.",
           "keyPoints": [
-            "Introduces SetPrint, a training-free method for black-box LLM fingerprinting.",
-            "Jointly captures within-set response relations and between-set correspondence under perturbation.",
-            "Consistently outperforms existing training-free fingerprinting methods on LeaFBench."
+            "ChipOmni unifies multimodal understanding, dynamic planning, and verification-driven tool interaction.",
+            "Successfully solves all 30 AnalogCoder-Pro tasks and improves baseline measures.",
+            "Advances a RISC-V specification to a micro-SoC GDSII layout without human intervention."
           ]
         },
         "fr": {
-          "title": "SetPrint : empreinte de LLM en boîte noire via les variations",
-          "summary": "L'empreinte de LLM en boîte noire vise à déterminer si un modèle cible provient d'un modèle source en observant uniquement les réponses. Les auteurs présentent SetPrint, une méthode sans entraînement qui capture conjointement les relations intra-ensemble et la correspondance inter-ensemble de réponses à des requêtes perturbées. Évalué sur LeaFBench, SetPrint surpasse les méthodes existantes.",
+          "title": "ChipOmni : Un agent IA polyvalent pour l'automatisation de la conception électronique",
+          "summary": "ChipOmni est un cadre d'agent IA enrichi par les connaissances et à contexte évolutif pour l'automatisation de la conception électronique (EDA). Il intègre la compréhension multimodale et la planification dynamique pour gérer les flux de travail.",
           "keyPoints": [
-            "Présente SetPrint, une méthode sans entraînement pour l'empreinte de LLM en boîte noire.",
-            "Capture les relations intra-ensemble et la correspondance inter-ensemble sous perturbation.",
-            "Surpasse systématiquement les méthodes existantes sans entraînement sur LeaFBench."
+            "ChipOmni intègre la compréhension multimodale, la planification dynamique et l'interaction pilotée par la vérification.",
+            "Résout avec succès les 30 tâches d'AnalogCoder-Pro et améliore les mesures de référence.",
+            "Fait progresser une spécification RISC-V jusqu'à une disposition GDSII de micro-SoC sans intervention humaine."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-0fbc0028d8bb64",
-      "title": "Evaluating Cost-Success Trade-offs in Enterprise Agent Architectures",
-      "summary": "Enterprise standard operating procedures are increasingly executed by language model agents, yet comparative architecture data remains scarce. Evaluating four designs across 13 enterprise workflows, researchers find no universal best architecture and note that added structure must be justified by success gains. Furthermore, implementation quality often outweighs the choice between single-agent and multi-agent systems.",
+      "id": "feed-1c427b1010bf37",
+      "title": "Understanding-First AI Engineering for Human Comprehension",
+      "summary": "The paper introduces understanding-first AI engineering, treating purpose-specific human understanding as a first-class design principle. It provides a reference architecture and candidate architectural patterns to support explanation, participation, and collective governance.",
       "keyPoints": [
-        "Compares four agent architecture designs across 13 enterprise standard operating procedures.",
-        "Shows coordinated arms spend significantly more tokens and latency for small gains.",
-        "Demonstrates that implementation quality outweighs the single- versus multi-agent choice."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12953",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evaluating Cost-Success Trade-offs in Enterprise Agent Architectures",
-          "summary": "Enterprise standard operating procedures are increasingly executed by language model agents, yet comparative architecture data remains scarce. Evaluating four designs across 13 enterprise workflows, researchers find no universal best architecture and note that added structure must be justified by success gains. Furthermore, implementation quality often outweighs the choice between single-agent and multi-agent systems.",
-          "keyPoints": [
-            "Compares four agent architecture designs across 13 enterprise standard operating procedures.",
-            "Shows coordinated arms spend significantly more tokens and latency for small gains.",
-            "Demonstrates that implementation quality outweighs the single- versus multi-agent choice."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation des compromis coûts-succès des architectures d'agents",
-          "summary": "Les procédures opérationnelles standard des entreprises sont de plus en plus exécutées par des agents de modèles de langage, mais les données comparatives manquent. En évaluant quatre conceptions sur 13 flux de travail, les chercheurs constatent qu'aucun modèle n'est universellement supérieur et que le coût doit être justifié. De plus, la qualité de mise en œuvre l'emporte souvent sur le choix du système.",
-          "keyPoints": [
-            "Compare quatre architectures d'agents sur 13 procédures opérationnelles standard.",
-            "Montre que les structures coordonnées consomment plus de jetons et de latence pour de petits gains.",
-            "Démontre que la qualité d'implémentation surpasse le choix entre un ou plusieurs agents."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-42385628bfce3c",
-      "title": "Physics2Weight: Generating Neural Networks Directly from Physics Laws",
-      "summary": "Physics2Weight (PtW) extends weight-space programming to solve partial differential equations by directly generating neural network weights and editing architectures based on physical laws. Combining physics-constrained prompting and iterative weight refinement, PtW achieves lower solution errors than conventional physics-informed neural networks on four PDEs, while revealing limitations in handling nonlinear equations.",
-      "keyPoints": [
-        "Introduces Physics2Weight to generate network weights from physical laws using LLMs.",
-        "Uses physics-constrained prompting and architecture editing without gradient-based optimization.",
-        "Achieves lower solution errors than traditional PINNs on four tested PDEs."
+        "Treats purpose-specific human understanding as a core design principle for requirements and operation.",
+        "Organizes understanding into reflective agency, effective action, collective governance, and epistemic value.",
+        "Proposes a reference architecture and five candidate architectural patterns."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12954",
+      "sourceUrl": "https://arxiv.org/abs/2611.13022",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Physics2Weight: Generating Neural Networks Directly from Physics Laws",
-          "summary": "Physics2Weight (PtW) extends weight-space programming to solve partial differential equations by directly generating neural network weights and editing architectures based on physical laws. Combining physics-constrained prompting and iterative weight refinement, PtW achieves lower solution errors than conventional physics-informed neural networks on four PDEs, while revealing limitations in handling nonlinear equations.",
+          "title": "Understanding-First AI Engineering for Human Comprehension",
+          "summary": "The paper introduces understanding-first AI engineering, treating purpose-specific human understanding as a first-class design principle. It provides a reference architecture and candidate architectural patterns to support explanation, participation, and collective governance.",
           "keyPoints": [
-            "Introduces Physics2Weight to generate network weights from physical laws using LLMs.",
-            "Uses physics-constrained prompting and architecture editing without gradient-based optimization.",
-            "Achieves lower solution errors than traditional PINNs on four tested PDEs."
+            "Treats purpose-specific human understanding as a core design principle for requirements and operation.",
+            "Organizes understanding into reflective agency, effective action, collective governance, and epistemic value.",
+            "Proposes a reference architecture and five candidate architectural patterns."
           ]
         },
         "fr": {
-          "title": "Physics2Weight : génération de réseaux de neurones par les lois physiques",
-          "summary": "Physics2Weight (PtW) étend la programmation dans l'espace des poids pour résoudre des équations aux dérivées partielles en générant directement des poids et en modifiant des architectures à partir de lois physiques. En combinant guidage physique et raffinement itératif, PtW obtient des erreurs moindres que les réseaux informés par la physique sur quatre équations, tout en montrant des limites sur les équations non linéaires.",
+          "title": "Ingénierie de l'IA axée sur la compréhension humaine",
+          "summary": "L'article présente l'ingénierie de l'IA axée sur la compréhension, traitant la compréhension humaine comme un principe de conception fondamental. Il propose une architecture de référence et des modèles architecturaux pour soutenir l'explication et la gouvernance.",
           "keyPoints": [
-            "Présente Physics2Weight pour générer des poids de réseaux à partir de lois physiques via des LLM.",
-            "Utilise un guidage physique et l'édition d'architecture sans optimisation par gradient.",
-            "Atteint des erreurs plus faibles que les PINNs traditionnels sur quatre EDP testées."
+            "Traite la compréhension humaine spécifique comme un principe de conception central.",
+            "Organise la compréhension en quatre rationalités : agence réflexive, action efficace, gouvernance collective et valeur épistémique.",
+            "Propose une architecture de référence et cinq modèles architecturaux candidats."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-11ff5c368060fa",
-      "title": "Embodied Science Agents for Autonomous Experimental Design",
-      "summary": "Current self-driving laboratories often separate linguistic planning from physical grounding, hindering embodied intuition. To overcome this paradox, researchers introduce the Embodied Science Agent (ESA), unifying digital intelligence with physical embodiment through cognitive, experimental, and embodied learnability. Validated in wastewater treatment experiments, ESA successfully reduced residual dye concentration and improved solution transmittance significantly.",
+      "id": "feed-3b417cccfa2da3",
+      "title": "GRAP: Gender Rubric-Aware Probing for Analyzing Gender Bias in LLMs",
+      "summary": "GRAP is a framework that uses a lightweight logistic probe to identify the most discriminative bias dimensions from responses scored across 10 rubric dimensions. It operates task-agnostically on open-ended instruction following to address limitations in fixed-format probing.",
       "keyPoints": [
-        "Introduces Embodied Science Agent to bridge linguistic planning and physical grounding.",
-        "Unifies digital intelligence with physical embodiment via cognitive, experimental, and embodied learnability.",
-        "Validated in wastewater treatment, raising solution transmittance from 82% to 99.7%."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12958",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Embodied Science Agents for Autonomous Experimental Design",
-          "summary": "Current self-driving laboratories often separate linguistic planning from physical grounding, hindering embodied intuition. To overcome this paradox, researchers introduce the Embodied Science Agent (ESA), unifying digital intelligence with physical embodiment through cognitive, experimental, and embodied learnability. Validated in wastewater treatment experiments, ESA successfully reduced residual dye concentration and improved solution transmittance significantly.",
-          "keyPoints": [
-            "Introduces Embodied Science Agent to bridge linguistic planning and physical grounding.",
-            "Unifies digital intelligence with physical embodiment via cognitive, experimental, and embodied learnability.",
-            "Validated in wastewater treatment, raising solution transmittance from 82% to 99.7%."
-          ]
-        },
-        "fr": {
-          "title": "Agents scientifiques incarnés pour la conception expérimentale",
-          "summary": "Les laboratoires autonomes actuels séparent souvent la planification linguistique de l'ancrage physique. Pour surmonter ce paradoxe, les chercheurs présentent l'Agent Scientifique Incarné (ESA), unifiant l'intelligence numérique et l'incarnation physique grâce à l'apprenabilité cognitive, expérimentale et incarnée. Validé dans des expériences de traitement des eaux, l'ESA a réduit la concentration de colorant résiduel.",
-          "keyPoints": [
-            "Présente l'Agent Scientifique Incarné pour relier planification linguistique et ancrage physique.",
-            "Unifie l'intelligence numérique et physique via l'apprenabilité cognitive et incarnée.",
-            "Validé en traitement des eaux, augmentant la transmittance de la solution de 82 % à 99,7 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-70a1c94dccfacb",
-      "title": "Causal Evidence for Adaptive Reallocation in Agent Communication",
-      "summary": "Researchers test the impact of monitoring a visible channel on communication protocols learned by agents without supervision. Online partial coverage increases shadow-route shares while task accuracy and frozen message contributions remain stable. Complete coverage removes selective migration without halting communication, supporting the adaptive reallocation of joint message-route codes rather than open-world route discovery.",
-      "keyPoints": [
-        "Examines agent communication protocols under partial and complete channel monitoring.",
-        "Shows partial coverage increases shadow-route shares while task accuracy remains stable.",
-        "Supports adaptive reallocation of joint message-route codes rather than emergent encryption."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12959",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Causal Evidence for Adaptive Reallocation in Agent Communication",
-          "summary": "Researchers test the impact of monitoring a visible channel on communication protocols learned by agents without supervision. Online partial coverage increases shadow-route shares while task accuracy and frozen message contributions remain stable. Complete coverage removes selective migration without halting communication, supporting the adaptive reallocation of joint message-route codes rather than open-world route discovery.",
-          "keyPoints": [
-            "Examines agent communication protocols under partial and complete channel monitoring.",
-            "Shows partial coverage increases shadow-route shares while task accuracy remains stable.",
-            "Supports adaptive reallocation of joint message-route codes rather than emergent encryption."
-          ]
-        },
-        "fr": {
-          "title": "Preuve causale d'une réallocation adaptative dans la communication d'agents",
-          "summary": "Les chercheurs testent l'impact de la surveillance d'un canal visible sur les protocoles de communication appris par des agents. La couverture partielle en ligne augmente la part des routes fantômes tandis que la précision des tâches reste stable. Une couverture complète supprime la migration sélective sans arrêter la communication, soutenant la réallocation adaptative de codes de messages conjoints.",
-          "keyPoints": [
-            "Examine les protocoles de communication d'agents sous surveillance partielle et complète.",
-            "Montre que la couverture partielle augmente les routes fantômes avec une précision stable.",
-            "Soutient la réallocation adaptative de codes conjoints plutôt qu'un chiffrement émergent."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0c5bac16983858",
-      "title": "IIT Patna Teams Score High in ICPR 2026 TVRID Privacy Competition",
-      "summary": "The ICPR 2026 TVRID competition evaluates privacy-aware person re-identification from top-view RGB-depth cameras using anthropometric shape and depth sensing instead of frontal appearances. Two teams from IIT Patna secured top-10 finishes among 31 ranked participants. Their methodologies demonstrated exceptional performance on Depth and RGB tracks, highlighting the importance of depth representation for privacy preservation.",
-      "keyPoints": [
-        "Evaluates privacy-preserving person re-identification using top-view RGB-depth cameras.",
-        "Two IIT Patna teams ranked in the top 10 among 31 participants.",
-        "Methodologies achieved high mAP and CMC@1 scores, proving the value of depth representation."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12960",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "IIT Patna Teams Score High in ICPR 2026 TVRID Privacy Competition",
-          "summary": "The ICPR 2026 TVRID competition evaluates privacy-aware person re-identification from top-view RGB-depth cameras using anthropometric shape and depth sensing instead of frontal appearances. Two teams from IIT Patna secured top-10 finishes among 31 ranked participants. Their methodologies demonstrated exceptional performance on Depth and RGB tracks, highlighting the importance of depth representation for privacy preservation.",
-          "keyPoints": [
-            "Evaluates privacy-preserving person re-identification using top-view RGB-depth cameras.",
-            "Two IIT Patna teams ranked in the top 10 among 31 participants.",
-            "Methodologies achieved high mAP and CMC@1 scores, proving the value of depth representation."
-          ]
-        },
-        "fr": {
-          "title": "Des équipes de l'IIT Patna brillent au concours ICPR 2026 TVRID",
-          "summary": "Le concours ICPR 2026 TVRID évalue la ré-identification de personnes respectueuse de la vie privée à partir de caméras zénithales RVB-profondeur. Deux équipes de l'IIT Patna se sont classées dans le top 10 sur 31 participants. Leurs méthodologies ont affiché d'excellentes performances sur les pistes Profondeur et RVB, soulignant l'importance de la représentation en profondeur.",
-          "keyPoints": [
-            "Évalue la ré-identification de personnes respectueuse de la vie privée avec des caméras zénithales.",
-            "Deux équipes de l'IIT Patna se classent dans le top 10 sur 31 participants.",
-            "Les méthodes atteignent des scores élevés, prouvant l'utilité de la représentation en profondeur."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-eee3ea9eef5dfa",
-      "title": "RBLA+: Efficient Rank-Specific LoRA Adapter Extraction for FL",
-      "summary": "Federated fine-tuning with low-rank adaptation allows clients to use different LoRA ranks based on communication budgets and local needs. To address the computational and approximation trade-offs of rank-specific extraction methods, the authors propose RBLA+. This approach uses compact QR and core-SVD decomposition to minimize Frobenius error for extracted updates without forming dense updates, improving accuracy across vision and language tasks.",
-      "keyPoints": [
-        "Proposes RBLA+ for efficient rank-specific LoRA adapter extraction in federated learning.",
-        "Uses compact QR and core-SVD decomposition to minimize Frobenius error without dense updates.",
-        "Improves accuracy over baseline RBLA across various vision and language tasks."
+        "Overcomes limitations of fixed-format tasks and raw group-level scoring in LLM bias analysis.",
+        "Uses a lightweight logistic probe to identify discriminative bias dimensions across 10 rubric dimensions.",
+        "Operates in a task-agnostic manner on open-ended instruction following."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12961",
+      "sourceUrl": "https://arxiv.org/abs/2611.13024",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "RBLA+: Efficient Rank-Specific LoRA Adapter Extraction for FL",
-          "summary": "Federated fine-tuning with low-rank adaptation allows clients to use different LoRA ranks based on communication budgets and local needs. To address the computational and approximation trade-offs of rank-specific extraction methods, the authors propose RBLA+. This approach uses compact QR and core-SVD decomposition to minimize Frobenius error for extracted updates without forming dense updates, improving accuracy across vision and language tasks.",
+          "title": "GRAP: Gender Rubric-Aware Probing for Analyzing Gender Bias in LLMs",
+          "summary": "GRAP is a framework that uses a lightweight logistic probe to identify the most discriminative bias dimensions from responses scored across 10 rubric dimensions. It operates task-agnostically on open-ended instruction following to address limitations in fixed-format probing.",
           "keyPoints": [
-            "Proposes RBLA+ for efficient rank-specific LoRA adapter extraction in federated learning.",
-            "Uses compact QR and core-SVD decomposition to minimize Frobenius error without dense updates.",
-            "Improves accuracy over baseline RBLA across various vision and language tasks."
+            "Overcomes limitations of fixed-format tasks and raw group-level scoring in LLM bias analysis.",
+            "Uses a lightweight logistic probe to identify discriminative bias dimensions across 10 rubric dimensions.",
+            "Operates in a task-agnostic manner on open-ended instruction following."
           ]
         },
         "fr": {
-          "title": "RBLA+ : extraction efficace d'adaptateurs LoRA par rang en apprentissage fédéré",
-          "summary": "L'affinage fédéré avec adaptation de bas rang permet aux clients d'utiliser différents rangs LoRA selon leurs budgets. Pour résoudre les compromis des méthodes d'extraction, les auteurs proposent RBLA+. Cette approche utilise une décomposition QR et SVD de cœur compacte pour minimiser l'erreur de Frobenius sans former de mises à jour denses, améliorant la précision en vision et en traitement du langage.",
+          "title": "GRAP : Sondage sensible aux rubriques de genre pour analyser les biais dans les LLM",
+          "summary": "GRAP est un cadre qui utilise une sonde logique légère pour identifier les dimensions de biais les plus discriminantes à partir de réponses évaluées sur 10 dimensions de rubricage. Il fonctionne de manière agnostique par rapport aux tâches.",
           "keyPoints": [
-            "Propose RBLA+ pour l'extraction efficace d'adaptateurs LoRA par rang en apprentissage fédéré.",
-            "Utilise des décompositions compactes pour minimiser l'erreur de Frobenius sans mises à jour denses.",
-            "Améliore la précision par rapport à RBLA sur des tâches de vision et de langage."
+            "Surmonte les limites des tâches à format fixe et de l'évaluation brute par groupe.",
+            "Utilise une sonde logique légère pour identifier les dimensions de biais à travers 10 rubriques.",
+            "Fonctionne de manière agnostique sur le suivi d'instructions ouvertes."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-57eb4041ab8bc9",
-      "title": "BuySideFlow: A Point-in-Time Benchmark for Investment Research Agents",
-      "summary": "Ensuring point-in-time validity is a major challenge when using large language models for financial analysis. BuySideFlow is a new benchmark featuring 408 practitioner-derived Chinese-language tasks across equities, funds, fixed income, and macroeconomics. Evaluating nine agent configurations reveals frequent point-in-time violations among runs that pass basic result checks, proving that output agreement does not guarantee temporal validity.",
+      "id": "feed-f18918152d7fe6",
+      "title": "APS-VLA: Action-Guided Token Pruning for Vision-Language-Action Models",
+      "summary": "APS-VLA is a modular framework for efficient vision-language-action models that learns visual token selection from robot demonstrations while keeping the backbone frozen. It reduces mean inference latency and achieves speedups on robotics platforms.",
       "keyPoints": [
-        "Introduces BuySideFlow, a benchmark of 408 tasks for LLM agents in investment research.",
-        "Covers equities, funds, fixed income, and macroeconomics using a production financial database.",
-        "Reveals frequent point-in-time violations even in runs passing standard result checks."
+        "Uses a lightweight Decision Influence Estimator conditioned on visual observations, language, and proprioception.",
+        "Combines action supervision with an auxiliary visual transition objective during training.",
+        "Reduces mean policy inference latency from 137.25 to 93.25 ms on real-world dual-arm platforms."
       ],
-      "category": "Business",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12966",
+      "sourceUrl": "https://arxiv.org/abs/2611.13030",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "BuySideFlow: A Point-in-Time Benchmark for Investment Research Agents",
-          "summary": "Ensuring point-in-time validity is a major challenge when using large language models for financial analysis. BuySideFlow is a new benchmark featuring 408 practitioner-derived Chinese-language tasks across equities, funds, fixed income, and macroeconomics. Evaluating nine agent configurations reveals frequent point-in-time violations among runs that pass basic result checks, proving that output agreement does not guarantee temporal validity.",
+          "title": "APS-VLA: Action-Guided Token Pruning for Vision-Language-Action Models",
+          "summary": "APS-VLA is a modular framework for efficient vision-language-action models that learns visual token selection from robot demonstrations while keeping the backbone frozen. It reduces mean inference latency and achieves speedups on robotics platforms.",
           "keyPoints": [
-            "Introduces BuySideFlow, a benchmark of 408 tasks for LLM agents in investment research.",
-            "Covers equities, funds, fixed income, and macroeconomics using a production financial database.",
-            "Reveals frequent point-in-time violations even in runs passing standard result checks."
+            "Uses a lightweight Decision Influence Estimator conditioned on visual observations, language, and proprioception.",
+            "Combines action supervision with an auxiliary visual transition objective during training.",
+            "Reduces mean policy inference latency from 137.25 to 93.25 ms on real-world dual-arm platforms."
           ]
         },
         "fr": {
-          "title": "BuySideFlow : un benchmark temporel pour les agents en recherche financière",
-          "summary": "Garantir la validité temporelle est un défi majeur lors de l'utilisation de modèles de langage pour l'analyse financière. BuySideFlow est un nouveau benchmark de 408 tâches en chinois couvrant actions, fonds, obligations et macroéconomie. L'évaluation de neuf configurations d'agents révèle de fréquentes violations temporelles parmi les exécutions réussies, prouvant que l'accord des résultats ne garantit pas la validité.",
+          "title": "APS-VLA : Élagage de jetons guidé par l'action pour les modèles vision-langage-action",
+          "summary": "APS-VLA est un cadre modulaire pour les modèles vision-langage-action efficaces qui apprend la sélection de jetons visuels à partir de démonstrations de robots tout en gardant le réseau gelé. Il réduit la latence d'inférence moyenne.",
           "keyPoints": [
-            "Présente BuySideFlow, un benchmark de 408 tâches pour les agents IA en recherche d'investissement.",
-            "Couvre les actions, les fonds, le revenu fixe et la macroéconomie via une base de données financière.",
-            "Révèle de fréquentes violations temporelles malgré la réussite des vérifications de résultats."
+            "Utilise un estimateur d'influence de décision léger conditionné par les observations visuelles et le langage.",
+            "Combine la supervision des actions avec un objectif de transition visuelle auxiliaire.",
+            "Réduit la latence moyenne d'inférence de 137,25 à 93,25 ms sur des plateformes robotiques réelles."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ad61c26b9250b8",
+      "title": "A Human-in-the-Loop Framework for Checking AI-Produced Research Results",
+      "summary": "The authors propose a domain-independent, human-in-the-loop framework for checking AI-generated research results, combining validated agent tools, fidelity audits, human decision points, and dialog attribution reports.",
+      "keyPoints": [
+        "Addresses massive volumes of AI-generated research results requiring verification.",
+        "Proposes a framework combining agent tools, fidelity audits, fixed human decision points, and dialog attribution.",
+        "Implemented automatically for mathematics (Wolfram, MATLAB, Lean) and statistics (Python, R)."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.13042",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "A Human-in-the-Loop Framework for Checking AI-Produced Research Results",
+          "summary": "The authors propose a domain-independent, human-in-the-loop framework for checking AI-generated research results, combining validated agent tools, fidelity audits, human decision points, and dialog attribution reports.",
+          "keyPoints": [
+            "Addresses massive volumes of AI-generated research results requiring verification.",
+            "Proposes a framework combining agent tools, fidelity audits, fixed human decision points, and dialog attribution.",
+            "Implemented automatically for mathematics (Wolfram, MATLAB, Lean) and statistics (Python, R)."
+          ]
+        },
+        "fr": {
+          "title": "Un cadre centré sur l'humain pour la vérification de résultats de recherche par IA",
+          "summary": "Les auteurs proposent un cadre indépendant du domaine et centré sur l'humain pour vérifier les résultats de recherche générés par l'IA, combinant des outils d'agents validés, des audits de fidélité et des points de décision humains.",
+          "keyPoints": [
+            "Répond aux volumes massifs de résultats de recherche générés par l'IA nécessitant une vérification.",
+            "Propose un cadre combinant outils d'agents, audits de fidélité et points de décision humains.",
+            "Implémenté automatiquement pour les mathématiques et les statistiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-68a33b38bedced",
+      "title": "Elicitation of Parameters in a Multi-Criteria Sorting Model",
+      "summary": "This work provides a rigorous direct elicitation procedure for the parameters of the basic Non-Compensatory Sorting (NCS) model with two categories and no vetoes, utilizing graph exploration algorithms and dichotomy.",
+      "keyPoints": [
+        "Focuses on direct elicitation for the basic Non-Compensatory Sorting (NCS) model parameters.",
+        "Proposes questioning algorithms for sufficient coalitions using graph exploration like depth-first search.",
+        "Uses dichotomy for eliciting the limit profile and evaluates algorithms by simulation."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.13062",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Elicitation of Parameters in a Multi-Criteria Sorting Model",
+          "summary": "This work provides a rigorous direct elicitation procedure for the parameters of the basic Non-Compensatory Sorting (NCS) model with two categories and no vetoes, utilizing graph exploration algorithms and dichotomy.",
+          "keyPoints": [
+            "Focuses on direct elicitation for the basic Non-Compensatory Sorting (NCS) model parameters.",
+            "Proposes questioning algorithms for sufficient coalitions using graph exploration like depth-first search.",
+            "Uses dichotomy for eliciting the limit profile and evaluates algorithms by simulation."
+          ]
+        },
+        "fr": {
+          "title": "Élicitation des paramètres d'un modèle de tri multicritère",
+          "summary": "Ce travail fournit une procédure d'élicitation directe rigoureuse pour les paramètres du modèle de tri non compensatoire de base (NCS) à deux catégories, en utilisant des algorithmes d'exploration de graphes et la dichotomie.",
+          "keyPoints": [
+            "Se concentre sur l'élicitation directe pour les paramètres du modèle NCS de base.",
+            "Propose des algorithmes de questionnement pour les coalitions suffisantes basés sur la recherche en profondeur.",
+            "Utilise la dichotomie pour éliciter le profil limite et évalue les algorithmes par simulation."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2998649c91ffeb",
+      "title": "Building World Models from Intrinsic Motivation and Reinforcement Learning",
+      "summary": "The authors integrate 24 intrinsic objectives into a model-based reinforcement learning framework to study how intrinsic motivation interacts with world-model representation learning for downstream control tasks.",
+      "keyPoints": [
+        "Integrates 24 intrinsic objectives across curiosity, entropy, and competency into model-based RL.",
+        "Evaluates world models through zero-shot, few-shot, and multi-task control in various environments.",
+        "Finds that curiosity-driven exploration with observation reconstruction yields the strongest aggregate family profile."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.13113",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Building World Models from Intrinsic Motivation and Reinforcement Learning",
+          "summary": "The authors integrate 24 intrinsic objectives into a model-based reinforcement learning framework to study how intrinsic motivation interacts with world-model representation learning for downstream control tasks.",
+          "keyPoints": [
+            "Integrates 24 intrinsic objectives across curiosity, entropy, and competency into model-based RL.",
+            "Evaluates world models through zero-shot, few-shot, and multi-task control in various environments.",
+            "Finds that curiosity-driven exploration with observation reconstruction yields the strongest aggregate family profile."
+          ]
+        },
+        "fr": {
+          "title": "Construction de modèles du monde à partir de la motivation intrinsèque",
+          "summary": "Les auteurs intègrent 24 objectifs intrinsèques dans un cadre d'apprentissage par renforcement basé sur un modèle pour étudier comment la motivation intrinsèque interagit avec l'apprentissage de représentation pour le contrôle.",
+          "keyPoints": [
+            "Intègre 24 objectifs intrinsèques couvrant la curiosité, l'entropie et la compétence.",
+            "Évalue les modèles du monde via un contrôle zéro-shot, few-shot et multi-tâches.",
+            "Montre que l'exploration guidée par la curiosité avec reconstruction d'observations donne le meilleur profil."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-6c8a440eb9d2f3",
+      "title": "Activation-Guided Graph Retrieval for Cognitive Memory in LLMs",
+      "summary": "The paper specifies an activation-conditioned memory availability architecture for long-lived AI systems, where request and goal cues seed an authorized memory graph and a typed evidence graph is reconstructed before generation.",
+      "keyPoints": [
+        "Introduces activation-conditioned memory availability as an operator alongside query-relevance retrieval.",
+        "Specifies an architecture with authorized memory graphs, traversal frontiers, and evidence reconstruction.",
+        "Defines implementation costs, failure conditions, and a reproducible evaluation protocol without benchmark measurements."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.13127",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Activation-Guided Graph Retrieval for Cognitive Memory in LLMs",
+          "summary": "The paper specifies an activation-conditioned memory availability architecture for long-lived AI systems, where request and goal cues seed an authorized memory graph and a typed evidence graph is reconstructed before generation.",
+          "keyPoints": [
+            "Introduces activation-conditioned memory availability as an operator alongside query-relevance retrieval.",
+            "Specifies an architecture with authorized memory graphs, traversal frontiers, and evidence reconstruction.",
+            "Defines implementation costs, failure conditions, and a reproducible evaluation protocol without benchmark measurements."
+          ]
+        },
+        "fr": {
+          "title": "Récupération de graphes guidée par l'activation pour la mémoire cognitive dans les LLM",
+          "summary": "L'article spécifie une architecture de disponibilité de la mémoire conditionnée par l'activation pour les systèmes d'IA à long terme, où les indices de requête amorcent un graphe de mémoire autorisé.",
+          "keyPoints": [
+            "Introduit la disponibilité de la mémoire conditionnée par l'activation comme opérateur de récupération.",
+            "Spécifie une architecture avec des graphes de mémoire autorisés et une reconstruction de preuves.",
+            "Définit les coûts de mise en œuvre, les conditions d'échec et un protocole d'évaluation reproductible."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0cfdd789bfa4af",
+      "title": "Measurement Limits of LLM Reasoning Failure Taxonomies",
+      "summary": "This study demonstrates that reported fractions of LLM reasoning failure categories, such as Compositional Collapse, are largely artifacts of measurement procedures, prompt variations, and classifier test orders rather than objective model traits.",
+      "keyPoints": [
+        "Shows that 50.1% of failures carry evidence for multiple categories, making results dependent on classification order.",
+        "Finds low human agreement on specific failure categories like Collapse despite high agreement on answer correctness.",
+        "Recommends four cheap checks before comparing failure-mode rates across models."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.13140",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Measurement Limits of LLM Reasoning Failure Taxonomies",
+          "summary": "This study demonstrates that reported fractions of LLM reasoning failure categories, such as Compositional Collapse, are largely artifacts of measurement procedures, prompt variations, and classifier test orders rather than objective model traits.",
+          "keyPoints": [
+            "Shows that 50.1% of failures carry evidence for multiple categories, making results dependent on classification order.",
+            "Finds low human agreement on specific failure categories like Collapse despite high agreement on answer correctness.",
+            "Recommends four cheap checks before comparing failure-mode rates across models."
+          ]
+        },
+        "fr": {
+          "title": "Limites de mesure des taxonomies d'échec de raisonnement des LLM",
+          "summary": "Cette étude démontre que les proportions rapportées de catégories d'échec de raisonnement des LLM, telles que l'effondrement compositionnel, dépendent fortement des procédures de mesure et des invites plutôt que de traits intrinsèques.",
+          "keyPoints": [
+            "Montre que 50,1 % des échecs présentent des preuves pour plusieurs catégories, dépendant de l'ordre de test.",
+            "Met en évidence un faible accord humain sur les catégories d'échec spécifiques malgré un accord sur l'exactitude.",
+            "Recommande quatre vérifications simples avant de comparer les taux de modes d'échec entre modèles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 421,
+    "itemsCollected": 424,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
