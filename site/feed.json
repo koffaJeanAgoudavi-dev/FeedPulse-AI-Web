@@ -1,388 +1,37 @@
 {
-  "generatedAt": "2026-11-10T19:45:34.019Z",
+  "generatedAt": "2026-11-11T06:26:28.324Z",
   "items": [
     {
-      "id": "feed-c0101f36ad82bf",
-      "title": "Gemini Intelligence: New features, on more devices",
-      "summary": "Gemini Intelligence is rolling out to more devices with expanded capabilities designed to help users accomplish more.",
+      "id": "feed-65b96c238445cd",
+      "title": "Gilbert + Tobin Rethinks the Business of Law with AI",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, discusses the integration of AI in the legal business.",
       "keyPoints": [
-        "Gemini Intelligence is expanding to more devices.",
-        "New features provide expanded capabilities.",
-        "Updates help users do more across platforms."
-      ],
-      "category": "Modèles",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "publishedAt": "2026-11-10T19:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27_Hero_2784x156.width-1300.jpg",
-      "translations": {
-        "en": {
-          "title": "Gemini Intelligence: New features, on more devices",
-          "summary": "Gemini Intelligence is rolling out to more devices with expanded capabilities designed to help users accomplish more.",
-          "keyPoints": [
-            "Gemini Intelligence is expanding to more devices.",
-            "New features provide expanded capabilities.",
-            "Updates help users do more across platforms."
-          ]
-        },
-        "fr": {
-          "title": "Gemini Intelligence : Nouvelles fonctionnalités",
-          "summary": "Gemini Intelligence se déploie sur un plus grand nombre d'appareils avec des fonctionnalités étendues pour en faire plus.",
-          "keyPoints": [
-            "Gemini Intelligence s'étend à de nouveaux appareils.",
-            "De nouvelles capacités élargies sont proposées.",
-            "Les mises à jour aident les utilisateurs au quotidien."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f321c904268bce",
-      "title": "Introducing AlphaProof Code for complex software",
-      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption, marking a breakthrough in software verification.",
-      "keyPoints": [
-        "AlphaProof Code agents wrote three million lines of proofs.",
-        "Proofs were written in Lean.",
-        "Used to verify Signal’s core encryption."
-      ],
-      "category": "Modèles",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "publishedAt": "2026-11-10T12:02:28.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/PHIZgiGejgu8shHsJV9pVfWv7Kr5rTj-e2yIj73c8LkDKBnTTAr2r28DN9aZd1vLDjCnd1Wi2qOD0t8bPpNN-3DfmbEgxj0TE-TttqVbpdoOD1xmFQk=w1440-h810-n-nu",
-      "translations": {
-        "en": {
-          "title": "Introducing AlphaProof Code for complex software",
-          "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption, marking a breakthrough in software verification.",
-          "keyPoints": [
-            "AlphaProof Code agents wrote three million lines of proofs.",
-            "Proofs were written in Lean.",
-            "Used to verify Signal’s core encryption."
-          ]
-        },
-        "fr": {
-          "title": "Présentation d'AlphaProof Code pour les logiciels",
-          "summary": "Les agents AlphaProof Code ont écrit trois millions de lignes de preuves en Lean pour vérifier le chiffrement de Signal.",
-          "keyPoints": [
-            "Les agents AlphaProof Code ont écrit trois millions de lignes de preuves.",
-            "Les preuves ont été rédigées en Lean.",
-            "Permet de vérifier le chiffrement principal de Signal."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0f0020abcf7332",
-      "title": "Helping caregivers use AI in everyday life",
-      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities to help build practical AI skills.",
-      "keyPoints": [
-        "OpenAI Academy offers free ChatGPT workshops.",
-        "Workshops target caregivers in five U.S. cities.",
-        "Aims to build practical AI skills for everyday life."
+        "Features insights from Sam Nickless, CEO of Gilbert + Tobin.",
+        "Explores how AI is transforming the business of law.",
+        "Discusses strategic decisions around legal tech adoption."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Helping caregivers use AI in everyday life",
-          "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities to help build practical AI skills.",
+          "title": "Gilbert + Tobin Rethinks the Business of Law with AI",
+          "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin, discusses the integration of AI in the legal business.",
           "keyPoints": [
-            "OpenAI Academy offers free ChatGPT workshops.",
-            "Workshops target caregivers in five U.S. cities.",
-            "Aims to build practical AI skills for everyday life."
+            "Features insights from Sam Nickless, CEO of Gilbert + Tobin.",
+            "Explores how AI is transforming the business of law.",
+            "Discusses strategic decisions around legal tech adoption."
           ]
         },
         "fr": {
-          "title": "Aider les aidants à utiliser l'IA au quotidien",
-          "summary": "L'OpenAI Academy propose des ateliers ChatGPT pratiques et gratuits aux aidants dans cinq villes américaines.",
+          "title": "Gilbert + Tobin repense le secteur juridique avec l'IA",
+          "summary": "Une conversation avec Sam Nickless, associé et directeur général de Gilbert + Tobin, aborde l'intégration de l'IA dans les activités juridiques.",
           "keyPoints": [
-            "L'OpenAI Academy propose des ateliers ChatGPT gratuits.",
-            "Destiné aux aidants dans cinq villes américaines.",
-            "Aide à développer des compétences pratiques en IA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-59a8a5dd3afc53",
-      "title": "Google and Adobe partnership integration",
-      "summary": "Google and Adobe are integrating creative and productivity tools, allowing users to edit PDFs in Drive and use Adobe AI in Gemini.",
-      "keyPoints": [
-        "Google and Adobe partner to integrate tools.",
-        "Users can edit PDFs in Google Drive.",
-        "Adobe AI is integrated into Gemini."
-      ],
-      "category": "Business",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-1440x810.png",
-      "translations": {
-        "en": {
-          "title": "Google and Adobe partnership integration",
-          "summary": "Google and Adobe are integrating creative and productivity tools, allowing users to edit PDFs in Drive and use Adobe AI in Gemini.",
-          "keyPoints": [
-            "Google and Adobe partner to integrate tools.",
-            "Users can edit PDFs in Google Drive.",
-            "Adobe AI is integrated into Gemini."
-          ]
-        },
-        "fr": {
-          "title": "Intégration du partenariat entre Google et Adobe",
-          "summary": "Google et Adobe intègrent leurs outils pour modifier des PDF dans Drive et utiliser l'IA d'Adobe dans Gemini.",
-          "keyPoints": [
-            "Partenariat entre Google et Adobe pour intégrer les outils.",
-            "Modification de PDF possible dans Google Drive.",
-            "Intégration de l'IA Adobe dans Gemini."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8827aad4505e69",
-      "title": "Gemini Robotics 2.5 accelerates real-world dexterity",
-      "summary": "Google DeepMind's vision-language-action model enhances robot dexterity, reliability, and safety in real-world environments.",
-      "keyPoints": [
-        "Gemini Robotics 2.5 accelerates real-world physical intelligence.",
-        "It is a vision-language-action model.",
-        "Enhances robot dexterity, reliability, and safety."
-      ],
-      "category": "Modèles",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "publishedAt": "2026-11-09T19:51:47.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/1p0vcWGLECMy9qInQW-1AumUwO5fa37wyJ66G0eO8H14BurbFkN7NkKAXbjXYXZ9tS034NyZ9ByuQk8ptQ24dLcMBeg6o_fHMmauBZJ7KAXdM5NHFQ=w1440-h810-n-nu",
-      "translations": {
-        "en": {
-          "title": "Gemini Robotics 2.5 accelerates real-world dexterity",
-          "summary": "Google DeepMind's vision-language-action model enhances robot dexterity, reliability, and safety in real-world environments.",
-          "keyPoints": [
-            "Gemini Robotics 2.5 accelerates real-world physical intelligence.",
-            "It is a vision-language-action model.",
-            "Enhances robot dexterity, reliability, and safety."
-          ]
-        },
-        "fr": {
-          "title": "Gemini Robotics 2.5 accélère la dextérité robotique",
-          "summary": "Le modèle vision-langage-action de Google DeepMind améliore la dextérité, la fiabilité et la sécurité des robots.",
-          "keyPoints": [
-            "Gemini Robotics 2.5 accélère l'intelligence physique réelle.",
-            "Modèle basé sur la vision, le langage et l'action.",
-            "Améliore la dextérité, la fiabilité et la sécurité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-991ad48e8559b2",
-      "title": "Introducing Businesses in ChatGPT",
-      "summary": "Manage business information, get insights on visibility, and turn interest into action directly within ChatGPT.",
-      "keyPoints": [
-        "Manage business information inside ChatGPT.",
-        "Get insights about how your business appears.",
-        "Turn customer interest into action."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-businesses-chatgpt",
-      "publishedAt": "2026-11-10T10:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Introducing Businesses in ChatGPT",
-          "summary": "Manage business information, get insights on visibility, and turn interest into action directly within ChatGPT.",
-          "keyPoints": [
-            "Manage business information inside ChatGPT.",
-            "Get insights about how your business appears.",
-            "Turn customer interest into action."
-          ]
-        },
-        "fr": {
-          "title": "Présentation des entreprises dans ChatGPT",
-          "summary": "Gérez vos informations professionnelles, obtenez des analyses sur votre visibilité et convertissez l'intérêt en action dans ChatGPT.",
-          "keyPoints": [
-            "Gérez vos informations professionnelles dans ChatGPT.",
-            "Obtenez des analyses sur la visibilité de votre entreprise.",
-            "Transformez l'intérêt des clients en actions concrètes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ef83b8dc18b160",
-      "title": "Google Cloud launches Gemini for healthcare",
-      "summary": "Google Cloud launches Gemini for healthcare to unify clinical data, automate workflows, and reduce administrative burnout.",
-      "keyPoints": [
-        "Google Cloud launches Gemini for healthcare.",
-        "Designed to unify clinical data and automate workflows.",
-        "Helps reduce administrative burnout."
-      ],
-      "category": "Modèles",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-      "publishedAt": "2026-11-10T13:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-1440x810.png",
-      "translations": {
-        "en": {
-          "title": "Google Cloud launches Gemini for healthcare",
-          "summary": "Google Cloud launches Gemini for healthcare to unify clinical data, automate workflows, and reduce administrative burnout.",
-          "keyPoints": [
-            "Google Cloud launches Gemini for healthcare.",
-            "Designed to unify clinical data and automate workflows.",
-            "Helps reduce administrative burnout."
-          ]
-        },
-        "fr": {
-          "title": "Google Cloud lance Gemini pour la santé",
-          "summary": "Google Cloud lance Gemini pour la santé afin d'unifier les données cliniques, d'automatiser les flux et de réduire l'épuisement.",
-          "keyPoints": [
-            "Google Cloud lance Gemini pour le secteur de la santé.",
-            "Unifie les données cliniques et automatise les flux de travail.",
-            "Aura pour effet de réduire la charge administrative."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-69d4d9d74efa01",
-      "title": "Closing the AI guidance gap in education",
-      "summary": "New ThinkYoung research and OpenAI EMEA education partnerships focus on supporting teachers, AI literacy, and independent learning.",
-      "keyPoints": [
-        "New ThinkYoung research on education and AI.",
-        "OpenAI EMEA education partnerships support teachers.",
-        "Aims to improve AI literacy and independent learning."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Closing the AI guidance gap in education",
-          "summary": "New ThinkYoung research and OpenAI EMEA education partnerships focus on supporting teachers, AI literacy, and independent learning.",
-          "keyPoints": [
-            "New ThinkYoung research on education and AI.",
-            "OpenAI EMEA education partnerships support teachers.",
-            "Aims to improve AI literacy and independent learning."
-          ]
-        },
-        "fr": {
-          "title": "Combler le fossé de l'orientation en IA en éducation",
-          "summary": "Une recherche de ThinkYoung et les partenariats d'OpenAI soutiennent les enseignants, l'alphabétisation en IA et l'apprentissage.",
-          "keyPoints": [
-            "Nouvelle recherche de ThinkYoung sur l'éducation.",
-            "Partenariats éducatifs d'OpenAI dans la région EMEA.",
-            "Soutien aux enseignants et alphabétisation numérique."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f3fc54cd1d78c1",
-      "title": "AI's effect on freelance work",
-      "summary": "Research from OpenAI and Upwork reveals shifting demand for freelance work, new skill combinations, and larger budgets for AI projects.",
-      "keyPoints": [
-        "Joint research from OpenAI and Upwork.",
-        "Identifies shifting demand and new skill combinations.",
-        "Shows larger budgets and more hours for AI-related projects."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/ai-effect-on-freelance-work",
-      "publishedAt": "2026-11-10T07:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AI's effect on freelance work",
-          "summary": "Research from OpenAI and Upwork reveals shifting demand for freelance work, new skill combinations, and larger budgets for AI projects.",
-          "keyPoints": [
-            "Joint research from OpenAI and Upwork.",
-            "Identifies shifting demand and new skill combinations.",
-            "Shows larger budgets and more hours for AI-related projects."
-          ]
-        },
-        "fr": {
-          "title": "L'effet de l'IA sur le travail indépendant",
-          "summary": "Une recherche d'OpenAI et Upwork montre une évolution de la demande freelance, de nouvelles compétences et des budgets accrus.",
-          "keyPoints": [
-            "Recherche conjointe menée par OpenAI et Upwork.",
-            "Met en lumière de nouvelles combinaisons de compétences.",
-            "Indique des budgets plus importants pour les projets d'IA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-caa9073cefb437",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "summary": "ChatGPT Enterprise is now accessible via the AWS Marketplace, enabling organizations to streamline procurement using their current AWS purchasing and billing connections.",
-      "keyPoints": [
-        "ChatGPT Enterprise is now in AWS Marketplace",
-        "Helps organizations simplify procurement",
-        "Uses existing AWS purchasing and billing relationships"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "publishedAt": "2026-11-09T19:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ChatGPT Enterprise now available in AWS Marketplace",
-          "summary": "ChatGPT Enterprise is now accessible via the AWS Marketplace, enabling organizations to streamline procurement using their current AWS purchasing and billing connections.",
-          "keyPoints": [
-            "ChatGPT Enterprise is now in AWS Marketplace",
-            "Helps organizations simplify procurement",
-            "Uses existing AWS purchasing and billing relationships"
-          ]
-        },
-        "fr": {
-          "title": "ChatGPT Enterprise disponible dans l'AWS Marketplace",
-          "summary": "ChatGPT Enterprise est désormais accessible via l'AWS Marketplace, permettant aux organisations de simplifier leurs achats grâce à leurs relations de facturation AWS existantes.",
-          "keyPoints": [
-            "ChatGPT Enterprise est disponible sur l'AWS Marketplace",
-            "Aide les organisations à simplifier les achats",
-            "Utilise les relations de facturation et d'achat AWS existantes"
+            "Présente les perspectives de Sam Nickless, PDG de Gilbert + Tobin.",
+            "Explore la manière dont l'IA transforme le secteur juridique.",
+            "Discute des choix stratégiques liés à l'adoption de la technologie."
           ]
         }
       },
@@ -392,192 +41,36 @@
       }
     },
     {
-      "id": "feed-952d2516af2e90",
-      "title": "Control Room: Tracking and stopping model workloads",
-      "summary": "OpenAI introduces Control Room, a central system designed to track model workloads across its research infrastructure and quickly halt them when safety or security issues emerge.",
+      "id": "feed-f6365915535226",
+      "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+      "summary": "Researchers demonstrate closed-loop autonomous synchrotron X-ray experiments on nanoparticle superlattices using coding-agent infrastructure, evaluating decision provenance and cognitive labor division across experiments.",
       "keyPoints": [
-        "Control Room tracks model workloads in research infrastructure",
-        "Central system built by OpenAI",
-        "Can rapidly stop workloads for safety or security concerns"
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/control-room",
-      "publishedAt": "2026-11-09T13:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Control Room: Tracking and stopping model workloads",
-          "summary": "OpenAI introduces Control Room, a central system designed to track model workloads across its research infrastructure and quickly halt them when safety or security issues emerge.",
-          "keyPoints": [
-            "Control Room tracks model workloads in research infrastructure",
-            "Central system built by OpenAI",
-            "Can rapidly stop workloads for safety or security concerns"
-          ]
-        },
-        "fr": {
-          "title": "Control Room : Suivi et arrêt des charges de travail",
-          "summary": "OpenAI présente Control Room, un système central conçu pour suivre les charges de travail des modèles à travers son infrastructure de recherche et les arrêter rapidement en cas de problème.",
-          "keyPoints": [
-            "Control Room suit les charges de travail de recherche",
-            "Système central développé par OpenAI",
-            "Peut arrêter rapidement les charges pour des raisons de sécurité"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-02e9abf47eaf3f",
-      "title": "CodeRabbit scales agentic software development",
-      "summary": "CodeRabbit leverages OpenAI models to oversee and trust AI-generated code while utilizing Codex to multiply software output by 20 times with the same engineering team.",
-      "keyPoints": [
-        "CodeRabbit uses OpenAI models for AI-generated code",
-        "Employs Codex to ship software 20 times faster",
-        "Maintains the same engineering team size"
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/coderabbit-codex-daybreak",
-      "publishedAt": "2026-11-09T08:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "CodeRabbit scales agentic software development",
-          "summary": "CodeRabbit leverages OpenAI models to oversee and trust AI-generated code while utilizing Codex to multiply software output by 20 times with the same engineering team.",
-          "keyPoints": [
-            "CodeRabbit uses OpenAI models for AI-generated code",
-            "Employs Codex to ship software 20 times faster",
-            "Maintains the same engineering team size"
-          ]
-        },
-        "fr": {
-          "title": "CodeRabbit développe le développement logiciel agentique",
-          "summary": "CodeRabbit utilise les modèles OpenAI pour régir le code généré par IA et Codex pour livrer 20 fois plus de logiciels avec la même équipe d'ingénierie.",
-          "keyPoints": [
-            "CodeRabbit utilise les modèles OpenAI pour le code généré par IA",
-            "Utilise Codex pour livrer les logiciels 20 fois plus",
-            "Conserve la même équipe d'ingénierie"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2e34e84f0999c6",
-      "title": "Kuken Industries searches 70 years of drawings",
-      "summary": "Kuken Industries utilizes the OpenAI API to search 70 years of cooling tower drawings, allowing engineers to locate repair documents in 4.5 minutes instead of nearly an hour.",
-      "keyPoints": [
-        "Kuken Industries uses the OpenAI API",
-        "Searches 70 years of cooling tower drawings",
-        "Reduces search time for repairs from nearly an hour to 4.5 minutes"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/kuken",
-      "publishedAt": "2026-11-09T08:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Kuken Industries searches 70 years of drawings",
-          "summary": "Kuken Industries utilizes the OpenAI API to search 70 years of cooling tower drawings, allowing engineers to locate repair documents in 4.5 minutes instead of nearly an hour.",
-          "keyPoints": [
-            "Kuken Industries uses the OpenAI API",
-            "Searches 70 years of cooling tower drawings",
-            "Reduces search time for repairs from nearly an hour to 4.5 minutes"
-          ]
-        },
-        "fr": {
-          "title": "Kuken Industries recherche 70 ans de dessins techniques",
-          "summary": "Kuken Industries utilise l'API OpenAI pour parcourir 70 ans de dessins de tours de refroidissement, permettant aux ingénieurs de trouver un plan de réparation en 4,5 minutes au lieu d'une heure.",
-          "keyPoints": [
-            "Kuken Industries utilise l'API OpenAI",
-            "Parcourt 70 ans de dessins de tours de refroidissement",
-            "Réduit le temps de recherche à 4,5 minutes au lieu de près d'une heure"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a0a44ed09dc9a1",
-      "title": "OpenAI Partners with Hacktron",
-      "summary": "OpenAI has partnered with Hacktron to identify vulnerabilities, test third-party service connections, and enhance its AI safety defenses.",
-      "keyPoints": [
-        "OpenAI collaborates with Hacktron",
-        "Focuses on finding vulnerabilities and testing connections",
-        "Aims to strengthen frontier AI defenses"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/partnering-with-hacktron",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI Partners with Hacktron",
-          "summary": "OpenAI has partnered with Hacktron to identify vulnerabilities, test third-party service connections, and enhance its AI safety defenses.",
-          "keyPoints": [
-            "OpenAI collaborates with Hacktron",
-            "Focuses on finding vulnerabilities and testing connections",
-            "Aims to strengthen frontier AI defenses"
-          ]
-        },
-        "fr": {
-          "title": "OpenAI s'associe à Hacktron",
-          "summary": "OpenAI s'associe à Hacktron pour identifier des vulnérabilités, tester les connexions de services tiers et renforcer ses défenses en IA.",
-          "keyPoints": [
-            "Partenariat entre OpenAI et Hacktron",
-            "Accent sur la recherche de vulnérabilités et de connexions",
-            "Objectif de renforcer les défenses de l'IA"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-428a0ceb14f776",
-      "title": "Goal Revelation in AI Power and Safety",
-      "summary": "Researchers explore the bridge between information-theoretic empowerment and capability-based human power, proposing a satisfaction floor to monitor user power and mitigate AI alignment failure modes.",
-      "keyPoints": [
-        "Examines information-theoretic empowerment and human power",
-        "Identifies potential failure modes in agent goal maximization",
-        "Proposes a satisfaction floor metric from interaction logs"
+        "Demonstrates autonomous synchrotron X-ray experiments using coding agents.",
+        "Analyzes human-agent and agent-agent transcripts to reconstruct decision provenance.",
+        "Shows that 61-67% of messages involved interpretation or judgment."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07247",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.12933",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Goal Revelation in AI Power and Safety",
-          "summary": "Researchers explore the bridge between information-theoretic empowerment and capability-based human power, proposing a satisfaction floor to monitor user power and mitigate AI alignment failure modes.",
+          "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+          "summary": "Researchers demonstrate closed-loop autonomous synchrotron X-ray experiments on nanoparticle superlattices using coding-agent infrastructure, evaluating decision provenance and cognitive labor division across experiments.",
           "keyPoints": [
-            "Examines information-theoretic empowerment and human power",
-            "Identifies potential failure modes in agent goal maximization",
-            "Proposes a satisfaction floor metric from interaction logs"
+            "Demonstrates autonomous synchrotron X-ray experiments using coding agents.",
+            "Analyzes human-agent and agent-agent transcripts to reconstruct decision provenance.",
+            "Shows that 61-67% of messages involved interpretation or judgment."
           ]
         },
         "fr": {
-          "title": "Révélation d'objectifs dans le pouvoir et la sécurité de l'IA",
-          "summary": "Des chercheurs explorent le lien entre l'autonomisation théorique de l'information et le pouvoir humain, proposant un seuil de satisfaction pour surveiller l'utilisateur.",
+          "title": "Équipes humain-agent auditables pour l'expérimentation aux rayons X",
+          "summary": "Des chercheurs démontrent des expériences autonomes en boucle fermée de rayons X par synchrotron sur des superréseaux de nanoparticules en utilisant une infrastructure d'agents de codage.",
           "keyPoints": [
-            "Examine l'autonomisation et le pouvoir humain",
-            "Identifie des modes de défaillance potentiels",
-            "Propose un seuil de satisfaction basé sur les journaux"
+            "Démontre des expériences de rayons X autonomes par synchrotron via des agents.",
+            "Analyse les transcriptions pour reconstituer la traçabilité des décisions.",
+            "Montre que 61 à 67 % des messages impliquaient de l'interprétation ou du jugement."
           ]
         }
       },
@@ -587,36 +80,36 @@
       }
     },
     {
-      "id": "feed-5f721228af3682",
-      "title": "OpenAI Introduces BioBasicsBench",
-      "summary": "OpenAI presents BioBasicsBench, a benchmark consisting of 100 tasks designed to evaluate how AI agents interpret raw experimental data and manage everyday wet-lab science.",
+      "id": "feed-ac94b61a25ade5",
+      "title": "ChatGPT Plus for Veterans and Servicemembers",
+      "summary": "Over 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus to help them prepare for civilian careers.",
       "keyPoints": [
-        "Introduction of BioBasicsBench by OpenAI",
-        "Features 100 tasks for wet-lab science evaluation",
-        "Measures raw experimental data interpretation"
+        "More than 20,000 veterans have claimed a free year of ChatGPT Plus.",
+        "Aims to assist transitioning service members in preparing for civilian careers.",
+        "Announced via OpenAI News."
       ],
-      "category": "Outils",
+      "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "publishedAt": "2026-11-11T08:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Introduces BioBasicsBench",
-          "summary": "OpenAI presents BioBasicsBench, a benchmark consisting of 100 tasks designed to evaluate how AI agents interpret raw experimental data and manage everyday wet-lab science.",
+          "title": "ChatGPT Plus for Veterans and Servicemembers",
+          "summary": "Over 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus to help them prepare for civilian careers.",
           "keyPoints": [
-            "Introduction of BioBasicsBench by OpenAI",
-            "Features 100 tasks for wet-lab science evaluation",
-            "Measures raw experimental data interpretation"
+            "More than 20,000 veterans have claimed a free year of ChatGPT Plus.",
+            "Aims to assist transitioning service members in preparing for civilian careers.",
+            "Announced via OpenAI News."
           ]
         },
         "fr": {
-          "title": "OpenAI lance BioBasicsBench",
-          "summary": "OpenAI présente BioBasicsBench, un benchmark de 100 tâches évaluant la capacité des agents d'IA à interpréter des données expérimentales et la science de laboratoire.",
+          "title": "ChatGPT Plus pour les vétérans et militaires",
+          "summary": "Plus de 20 000 vétérans et militaires en transition ont bénéficié d'une année gratuite de ChatGPT Plus pour préparer leur reconversion civile.",
           "keyPoints": [
-            "Lancement de BioBasicsBench par OpenAI",
-            "Comprend 100 tâches d'évaluation",
-            "Mesure l'interprétation de données expérimentales"
+            "Plus de 20 000 vétérans ont réclamé une année gratuite de ChatGPT Plus.",
+            "Destiné à aider les militaires en transition pour leur carrière civile.",
+            "Annoncé par OpenAI News."
           ]
         }
       },
@@ -626,36 +119,36 @@
       }
     },
     {
-      "id": "feed-43fe88b25001f5",
-      "title": "Ranking Port Impacts from Tropical Cyclones",
-      "summary": "A two-stage recommendation framework is proposed to predict and rank port impacts from impending tropical cyclones using historical data and machine learning.",
+      "id": "feed-70b6e0e37bdecc",
+      "title": "EarthRecord: Multimodal Agents for Four Decades of Satellite Imagery",
+      "summary": "Introducing EarthRecord, a benchmark built on four decades of multi-sensor satellite imagery, to evaluate multimodal agents on complex land-change analysis tasks.",
       "keyPoints": [
-        "Two-stage recommendation system for tropical cyclones",
-        "Tests multiple representations of port-cyclone interactions",
-        "Wide & Deep Learning closely matches observed port rankings"
+        "Presents EarthRecord benchmark using 56 sites over 40 years of data.",
+        "Tests twelve multimodal agents across 238 land-change questions.",
+        "Reveals leading agents falter when answers require direct mapping from imagery."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07296",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.12934",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Ranking Port Impacts from Tropical Cyclones",
-          "summary": "A two-stage recommendation framework is proposed to predict and rank port impacts from impending tropical cyclones using historical data and machine learning.",
+          "title": "EarthRecord: Multimodal Agents for Four Decades of Satellite Imagery",
+          "summary": "Introducing EarthRecord, a benchmark built on four decades of multi-sensor satellite imagery, to evaluate multimodal agents on complex land-change analysis tasks.",
           "keyPoints": [
-            "Two-stage recommendation system for tropical cyclones",
-            "Tests multiple representations of port-cyclone interactions",
-            "Wide & Deep Learning closely matches observed port rankings"
+            "Presents EarthRecord benchmark using 56 sites over 40 years of data.",
+            "Tests twelve multimodal agents across 238 land-change questions.",
+            "Reveals leading agents falter when answers require direct mapping from imagery."
           ]
         },
         "fr": {
-          "title": "Classement des impacts portuaires des cyclones",
-          "summary": "Un cadre de recommandation en deux étapes est proposé pour prédire et classer les impacts portuaires des cyclones tropicaux à l'aide de l'apprentissage automatique.",
+          "title": "EarthRecord : Agents multimodaux pour quatre décennies d'imagerie",
+          "summary": "Présentation d'EarthRecord, un benchmark basé sur quatre décennies d'imagerie satellite multi-capteurs pour évaluer les agents multimodaux sur l'analyse des changements terrestres.",
           "keyPoints": [
-            "Système de recommandation en deux étapes",
-            "Compare plusieurs représentations d'interactions",
-            "Le modèle Wide & Deep Learning s'accorde le mieux"
+            "Présente le benchmark EarthRecord utilisant 56 sites sur 40 ans de données.",
+            "Évalue douze agents multimodaux à travers 238 questions sur les changements terrestres.",
+            "Révèle que les principaux agents peinent sur la cartographie directe par imagerie."
           ]
         }
       },
@@ -665,130 +158,637 @@
       }
     },
     {
-      "id": "feed-9676afc47cb10f",
-      "title": "EnvOpt: Automated Optimization for Agent Environments",
-      "summary": "EnvOpt is introduced as an automated optimization method for stationary agent environments, significantly reducing agent costs while improving success rates across multiple models.",
+      "id": "feed-37e4452e64c861",
+      "title": "Cogent and OpenAI Build Cyber Defense Factories for Enterprises",
+      "summary": "Cogent combines OpenAI models with enterprise context to automatically remediate vulnerabilities using autonomous agents.",
       "keyPoints": [
-        "Proposes EnvOpt for stationary environment optimization",
-        "Reduces agent operational costs significantly",
-        "Demonstrated improvements across several benchmarks"
+        "Cogent integrates OpenAI models with enterprise context.",
+        "Aims to automatically remediate cybersecurity vulnerabilities.",
+        "Deploys automated agents for enterprise cyber defense."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/cogent-security",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Cogent and OpenAI Build Cyber Defense Factories for Enterprises",
+          "summary": "Cogent combines OpenAI models with enterprise context to automatically remediate vulnerabilities using autonomous agents.",
+          "keyPoints": [
+            "Cogent integrates OpenAI models with enterprise context.",
+            "Aims to automatically remediate cybersecurity vulnerabilities.",
+            "Deploys automated agents for enterprise cyber defense."
+          ]
+        },
+        "fr": {
+          "title": "Cogent et OpenAI créent des usines de cyberdéfense pour les entreprises",
+          "summary": "Cogent associe les modèles d'OpenAI au contexte des entreprises pour remédier automatiquement aux vulnérabilités grâce à des agents.",
+          "keyPoints": [
+            "Cogent intègre les modèles d'OpenAI avec le contexte d'entreprise.",
+            "Permet de remédier automatiquement aux vulnérabilités de sécurité.",
+            "Déploie des agents autonomes pour la cyberdéfense des entreprises."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e5cd4cd10b4ff8",
+      "title": "TopicScope: Sparse Autoencoders for Topic Monitoring in LLMs",
+      "summary": "Researchers introduce TopicScope, a framework using sparse autoencoders (SAEs) to train causal topic classifiers that monitor topics token by token during language model generation.",
+      "keyPoints": [
+        "Introduces TopicScope for token-level topic monitoring during generation.",
+        "Evaluated on Gemma-3 1B and 4B models using prefill hidden states.",
+        "Shows classifiers are robust to text perturbations and asides."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12935",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "TopicScope: Sparse Autoencoders for Topic Monitoring in LLMs",
+          "summary": "Researchers introduce TopicScope, a framework using sparse autoencoders (SAEs) to train causal topic classifiers that monitor topics token by token during language model generation.",
+          "keyPoints": [
+            "Introduces TopicScope for token-level topic monitoring during generation.",
+            "Evaluated on Gemma-3 1B and 4B models using prefill hidden states.",
+            "Shows classifiers are robust to text perturbations and asides."
+          ]
+        },
+        "fr": {
+          "title": "TopicScope : Auto-encodeurs parcimonieux pour le suivi de sujets",
+          "summary": "Les chercheurs présentent TopicScope, un cadre utilisant des auto-encodeurs parcimonieux (SAE) pour entraîner des classifieurs de sujets causaux token par token.",
+          "keyPoints": [
+            "Introduit TopicScope pour le suivi des sujets au niveau des tokens.",
+            "Évalué sur les modèles Gemma-3 1B et 4B en utilisant les états cachés de pré-remplissage.",
+            "Démontre la robustesse des classifieurs face aux perturbations textuelles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4bd6d8fca0727c",
+      "title": "LandslideFM: Foundation Model for Unified Landslide Understanding",
+      "summary": "LandslideFM is a novel foundation model connecting visual perception tasks with contextual interpretation of landslides, supported by a semi-supervised learning framework and a new benchmark.",
+      "keyPoints": [
+        "Proposes LandslideFM, a unified foundation model for landslide perception.",
+        "Uses Source-Agreement Graduated Trust semi-supervised learning framework.",
+        "Introduces LandslideVL, a new benchmark combining imagery and textual prompts."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12936",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LandslideFM: Foundation Model for Unified Landslide Understanding",
+          "summary": "LandslideFM is a novel foundation model connecting visual perception tasks with contextual interpretation of landslides, supported by a semi-supervised learning framework and a new benchmark.",
+          "keyPoints": [
+            "Proposes LandslideFM, a unified foundation model for landslide perception.",
+            "Uses Source-Agreement Graduated Trust semi-supervised learning framework.",
+            "Introduces LandslideVL, a new benchmark combining imagery and textual prompts."
+          ]
+        },
+        "fr": {
+          "title": "LandslideFM : Modèle de fondation pour la perception des glissements",
+          "summary": "LandslideFM est un nouveau modèle de fondation reliant les tâches de perception visuelle à l'interprétation contextuelle des glissements de terrain.",
+          "keyPoints": [
+            "Propose LandslideFM, un modèle de fondation unifié pour les glissements de terrain.",
+            "Utilise un cadre d'apprentissage semi-supervisé basé sur la confiance graduée.",
+            "Introduit LandslideVL, un nouveau benchmark combinant images et invites textuelles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e15dfd244ed580",
+      "title": "Tracing Psychometric Inference in Large Language Models",
+      "summary": "Researchers investigate whether large language models internally represent psychological constructs or merely mimic them, using a cross-persona paradigm across 14 model variants.",
+      "keyPoints": [
+        "Examines internal representation of psychological constructs in 14 LLM variants.",
+        "Finds geometry aligned with human matrices in larger instruct variants.",
+        "Identifies a readout attenuation gap between internal probes and output behavior."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12937",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Tracing Psychometric Inference in Large Language Models",
+          "summary": "Researchers investigate whether large language models internally represent psychological constructs or merely mimic them, using a cross-persona paradigm across 14 model variants.",
+          "keyPoints": [
+            "Examines internal representation of psychological constructs in 14 LLM variants.",
+            "Finds geometry aligned with human matrices in larger instruct variants.",
+            "Identifies a readout attenuation gap between internal probes and output behavior."
+          ]
+        },
+        "fr": {
+          "title": "Suivi de l'inférence psychométrique dans les grands modèles de langue",
+          "summary": "Des chercheurs examinent si les grands modèles de langue représentent en interne des construits psychologiques ou s'ils se contentent de les imiter.",
+          "keyPoints": [
+            "Examine la représentation interne de construits psychologiques sur 14 variantes de LLM.",
+            "Trouve une géométrie alignée avec les matrices humaines dans les variantes instruites.",
+            "Identifie un écart d'atténuation de lecture entre sondes internes et comportement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4ce35f7b37fafd",
+      "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
+      "summary": "A study on how multimodal input and graph visualizations improve knowledge graph question answering in large vision-language models across 1,500 questions.",
+      "keyPoints": [
+        "Compares text-only prompting with text-plus-graph visualizations.",
+        "Finds graph images yield an average gain of 1.85 F1 points.",
+        "Shows performance is sensitive to graph layout and cognitive constraints."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12938",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
+          "summary": "A study on how multimodal input and graph visualizations improve knowledge graph question answering in large vision-language models across 1,500 questions.",
+          "keyPoints": [
+            "Compares text-only prompting with text-plus-graph visualizations.",
+            "Finds graph images yield an average gain of 1.85 F1 points.",
+            "Shows performance is sensitive to graph layout and cognitive constraints."
+          ]
+        },
+        "fr": {
+          "title": "Visualisations de graphes dans les invites pour les questions-réponses",
+          "summary": "Une étude examine comment les entrées multimodales et les visualisations de graphes améliorent la réponse aux questions sur les graphes de connaissances.",
+          "keyPoints": [
+            "Compare les invites textuelles aux visualisations textuelles et graphiques.",
+            "Constate un gain moyen de 1,85 point F1 grâce aux images de graphes.",
+            "Montre que les performances dépendent de la disposition des graphes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d5c99bc6d6e5d9",
+      "title": "Reinforcement Learning for Cancer Chemotherapy Treatment Control",
+      "summary": "This research study explores reinforcement learning techniques, including online and offline approaches, to generate optimal dynamic treatment regimens for cancer chemotherapy using real clinical data.",
+      "keyPoints": [
+        "Focuses on reinforcement learning for personalized cancer chemotherapy.",
+        "Implements an offline reinforcement learning approach on human colon cancer data.",
+        "Uses conservative Q-learning and model-based offline policy optimization algorithms."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12940",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Reinforcement Learning for Cancer Chemotherapy Treatment Control",
+          "summary": "This research study explores reinforcement learning techniques, including online and offline approaches, to generate optimal dynamic treatment regimens for cancer chemotherapy using real clinical data.",
+          "keyPoints": [
+            "Focuses on reinforcement learning for personalized cancer chemotherapy.",
+            "Implements an offline reinforcement learning approach on human colon cancer data.",
+            "Uses conservative Q-learning and model-based offline policy optimization algorithms."
+          ]
+        },
+        "fr": {
+          "title": "Apprentissage par renforcement pour le contrôle de chimiothérapies",
+          "summary": "Cette étude explore les techniques d'apprentissage par renforcement, en ligne et hors ligne, pour générer des régimes de traitement dynamiques optimaux pour la chimiothérapie du cancer.",
+          "keyPoints": [
+            "Se concentre sur l'apprentissage par renforcement pour la chimiothérapie personnalisée.",
+            "Met en œuvre une approche d'apprentissage par renforcement hors ligne sur des données cliniques.",
+            "Utilise le Q-learning conservateur et des algorithmes d'optimisation de politique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-166bd6fc93935b",
+      "title": "AI Governance Should Prioritize Control and Knowledge Boundaries",
+      "summary": "The rapid growth of autonomous AI agents highlights an urgent need for effective governance. Researchers propose the competence circuit framework, breaking down real-world impacts into intelligence discovery, procedural know-how, and direct control. The study demonstrates that intelligence-driven speedups are limited and that fast takeoffs usually rely on rapid knowledge acquisition or control attainment. Consequently, safety levers should focus on restricting control and enforcing knowledge boundaries rather than solely limiting intelligence.",
+      "keyPoints": [
+        "Proposes the competence circuit framework: IKC + KC + C to analyze agent real-world impact.",
+        "Shows that intelligence-driven speedup is strictly capped regardless of task difficulty.",
+        "Argues that restricting control and enforcing knowledge boundaries are more effective safety levers."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12941",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AI Governance Should Prioritize Control and Knowledge Boundaries",
+          "summary": "The rapid growth of autonomous AI agents highlights an urgent need for effective governance. Researchers propose the competence circuit framework, breaking down real-world impacts into intelligence discovery, procedural know-how, and direct control. The study demonstrates that intelligence-driven speedups are limited and that fast takeoffs usually rely on rapid knowledge acquisition or control attainment. Consequently, safety levers should focus on restricting control and enforcing knowledge boundaries rather than solely limiting intelligence.",
+          "keyPoints": [
+            "Proposes the competence circuit framework: IKC + KC + C to analyze agent real-world impact.",
+            "Shows that intelligence-driven speedup is strictly capped regardless of task difficulty.",
+            "Argues that restricting control and enforcing knowledge boundaries are more effective safety levers."
+          ]
+        },
+        "fr": {
+          "title": "La gouvernance de l'IA doit privilégier le contrôle et les limites",
+          "summary": "La prolifération rapide d'agents IA autonomes rend urgente la gouvernance de ces systèmes. Les chercheurs proposent le circuit de compétence, décomposant l'impact réel en découverte médiée par l'intelligence, savoir-faire procédural et contrôle direct. L'étude démontre que les accélérations pilotées par l'intelligence sont limitées et que les décollages rapides reposent sur l'acquisition de connaissances ou le contrôle. Par conséquent, la sécurité doit cibler le contrôle et les frontières des connaissances.",
+          "keyPoints": [
+            "Propose le cadre du circuit de compétence : IKC + KC + C pour analyser l'impact réel.",
+            "Montre que l'accélération liée à l'intelligence est plafonnée quelle que soit la tâche.",
+            "Soutient que restreindre le contrôle et imposer des limites de connaissances sont de meilleurs leviers."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4d203c940610d8",
+      "title": "Tabular Foundation Models vs Tuned Gradient Boosting for Churn",
+      "summary": "A profit- and calibration-aware evaluation compares tabular foundation models against Optuna-tuned gradient-boosted trees on telecom churn datasets. The evaluation separates ranking performance, expected maximum profit, and threshold policy probabilities. Results show that TabPFN-3.5 earns significantly more expected maximum profit than tuned GBDTs on specific datasets, though licensing restrictions remain a barrier to production use.",
+      "keyPoints": [
+        "Compares TabPFN models and TabICL v2 against tuned GBDTs across five telecom churn datasets.",
+        "TabPFN-3.5 achieves significantly higher expected maximum profit on Cell2Cell and Iranian datasets.",
+        "Weights licensing (License v1.0) currently prevents production deployment of TabPFN-3.5."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12942",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Tabular Foundation Models vs Tuned Gradient Boosting for Churn",
+          "summary": "A profit- and calibration-aware evaluation compares tabular foundation models against Optuna-tuned gradient-boosted trees on telecom churn datasets. The evaluation separates ranking performance, expected maximum profit, and threshold policy probabilities. Results show that TabPFN-3.5 earns significantly more expected maximum profit than tuned GBDTs on specific datasets, though licensing restrictions remain a barrier to production use.",
+          "keyPoints": [
+            "Compares TabPFN models and TabICL v2 against tuned GBDTs across five telecom churn datasets.",
+            "TabPFN-3.5 achieves significantly higher expected maximum profit on Cell2Cell and Iranian datasets.",
+            "Weights licensing (License v1.0) currently prevents production deployment of TabPFN-3.5."
+          ]
+        },
+        "fr": {
+          "title": "Modèles tabulaires de fondation contre gradient boosting pour le churn",
+          "summary": "Une évaluation axée sur le profit et la calibration compare des modèles de fondation tabulaires à des arbres de gradient boosting optimisés sur des jeux de données de résiliation télécom. L'évaluation distingue le classement, le profit maximum espéré et les politiques de seuil. Les résultats montrent que TabPFN-3.5 génère un profit supérieur sur certains ensembles, bien que les licences de poids freinent son adoption.",
+          "keyPoints": [
+            "Compare les modèles TabPFN et TabICL v2 à des GBDT optimisés sur cinq jeux de données de churn.",
+            "TabPFN-3.5 obtient un profit maximum espéré significativement plus élevé sur Cell2Cell et Iran.",
+            "La licence des poids (v1.0) constitue le principal obstacle à l'utilisation en production."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-79262989e25661",
+      "title": "SetPrint: Black-Box LLM Fingerprinting via Response Changes",
+      "summary": "Black-box LLM fingerprinting aims to determine if a target model derives from a source model using only output responses. The authors introduce SetPrint, a training-free method that jointly captures within-set relations and between-set correspondence from perturbed query responses. Evaluated on LeaFBench, SetPrint consistently outperforms existing training-free black-box fingerprinting methods.",
+      "keyPoints": [
+        "Introduces SetPrint, a training-free method for black-box LLM fingerprinting.",
+        "Jointly captures within-set response relations and between-set correspondence under perturbation.",
+        "Consistently outperforms existing training-free fingerprinting methods on LeaFBench."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07372",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.12950",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "EnvOpt: Automated Optimization for Agent Environments",
-          "summary": "EnvOpt is introduced as an automated optimization method for stationary agent environments, significantly reducing agent costs while improving success rates across multiple models.",
+          "title": "SetPrint: Black-Box LLM Fingerprinting via Response Changes",
+          "summary": "Black-box LLM fingerprinting aims to determine if a target model derives from a source model using only output responses. The authors introduce SetPrint, a training-free method that jointly captures within-set relations and between-set correspondence from perturbed query responses. Evaluated on LeaFBench, SetPrint consistently outperforms existing training-free black-box fingerprinting methods.",
           "keyPoints": [
-            "Proposes EnvOpt for stationary environment optimization",
-            "Reduces agent operational costs significantly",
-            "Demonstrated improvements across several benchmarks"
+            "Introduces SetPrint, a training-free method for black-box LLM fingerprinting.",
+            "Jointly captures within-set response relations and between-set correspondence under perturbation.",
+            "Consistently outperforms existing training-free fingerprinting methods on LeaFBench."
           ]
         },
         "fr": {
-          "title": "EnvOpt : Optimisation automatisée pour les environnements",
-          "summary": "EnvOpt est présenté comme une méthode d'optimisation automatisée pour les environnements d'agents stationnaires, réduisant les coûts tout en améliorant les taux de réussite.",
+          "title": "SetPrint : empreinte de LLM en boîte noire via les variations",
+          "summary": "L'empreinte de LLM en boîte noire vise à déterminer si un modèle cible provient d'un modèle source en observant uniquement les réponses. Les auteurs présentent SetPrint, une méthode sans entraînement qui capture conjointement les relations intra-ensemble et la correspondance inter-ensemble de réponses à des requêtes perturbées. Évalué sur LeaFBench, SetPrint surpasse les méthodes existantes.",
           "keyPoints": [
-            "Présentation d'EnvOpt pour les environnements stationnaires",
-            "Réduit considérablement les coûts des agents",
-            "Améliorations démontrées sur plusieurs benchmarks"
+            "Présente SetPrint, une méthode sans entraînement pour l'empreinte de LLM en boîte noire.",
+            "Capture les relations intra-ensemble et la correspondance inter-ensemble sous perturbation.",
+            "Surpasse systématiquement les méthodes existantes sans entraînement sur LeaFBench."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-8038b228ad5a26",
-      "title": "FINCOSMOS: Financial Agent Open-World Evaluation",
-      "summary": "FINCOSMOS is an open-world evaluation paradigm designed to test language agents performing financial work without closed-world constraints, revealing common failures.",
+      "id": "feed-0fbc0028d8bb64",
+      "title": "Evaluating Cost-Success Trade-offs in Enterprise Agent Architectures",
+      "summary": "Enterprise standard operating procedures are increasingly executed by language model agents, yet comparative architecture data remains scarce. Evaluating four designs across 13 enterprise workflows, researchers find no universal best architecture and note that added structure must be justified by success gains. Furthermore, implementation quality often outweighs the choice between single-agent and multi-agent systems.",
       "keyPoints": [
-        "Introduces FINCOSMOS for financial agents",
-        "Evaluates agents in an open-world setting",
-        "Identifies unverified data and strategy failures"
+        "Compares four agent architecture designs across 13 enterprise standard operating procedures.",
+        "Shows coordinated arms spend significantly more tokens and latency for small gains.",
+        "Demonstrates that implementation quality outweighs the single- versus multi-agent choice."
       ],
-      "category": "Modèles",
+      "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07464",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.12953",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "FINCOSMOS: Financial Agent Open-World Evaluation",
-          "summary": "FINCOSMOS is an open-world evaluation paradigm designed to test language agents performing financial work without closed-world constraints, revealing common failures.",
+          "title": "Evaluating Cost-Success Trade-offs in Enterprise Agent Architectures",
+          "summary": "Enterprise standard operating procedures are increasingly executed by language model agents, yet comparative architecture data remains scarce. Evaluating four designs across 13 enterprise workflows, researchers find no universal best architecture and note that added structure must be justified by success gains. Furthermore, implementation quality often outweighs the choice between single-agent and multi-agent systems.",
           "keyPoints": [
-            "Introduces FINCOSMOS for financial agents",
-            "Evaluates agents in an open-world setting",
-            "Identifies unverified data and strategy failures"
+            "Compares four agent architecture designs across 13 enterprise standard operating procedures.",
+            "Shows coordinated arms spend significantly more tokens and latency for small gains.",
+            "Demonstrates that implementation quality outweighs the single- versus multi-agent choice."
           ]
         },
         "fr": {
-          "title": "FINCOSMOS : Évaluation en monde ouvert pour agents financiers",
-          "summary": "FINCOSMOS est un paradigme d'évaluation en monde ouvert pour tester les agents linguistiques effectuant des tâches financières sans contraintes fermées.",
+          "title": "Évaluation des compromis coûts-succès des architectures d'agents",
+          "summary": "Les procédures opérationnelles standard des entreprises sont de plus en plus exécutées par des agents de modèles de langage, mais les données comparatives manquent. En évaluant quatre conceptions sur 13 flux de travail, les chercheurs constatent qu'aucun modèle n'est universellement supérieur et que le coût doit être justifié. De plus, la qualité de mise en œuvre l'emporte souvent sur le choix du système.",
           "keyPoints": [
-            "Introduction de FINCOSMOS pour la finance",
-            "Évalue les agents en environnement ouvert",
-            "Met en lumière les échecs de stratégie"
+            "Compare quatre architectures d'agents sur 13 procédures opérationnelles standard.",
+            "Montre que les structures coordonnées consomment plus de jetons et de latence pour de petits gains.",
+            "Démontre que la qualité d'implémentation surpasse le choix entre un ou plusieurs agents."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-6f9c13c1ac0187",
-      "title": "SAVeR^2: Safety Alignment for Large Reasoning Models",
-      "summary": "SAVeR^2 is a safety alignment method for large reasoning models that decomposes safety objectives into verifiable rewards and eliminates the safety tax on reasoning.",
+      "id": "feed-42385628bfce3c",
+      "title": "Physics2Weight: Generating Neural Networks Directly from Physics Laws",
+      "summary": "Physics2Weight (PtW) extends weight-space programming to solve partial differential equations by directly generating neural network weights and editing architectures based on physical laws. Combining physics-constrained prompting and iterative weight refinement, PtW achieves lower solution errors than conventional physics-informed neural networks on four PDEs, while revealing limitations in handling nonlinear equations.",
       "keyPoints": [
-        "Proposes SAVeR^2 for safety alignment",
-        "Decomposes safety into fine-grained rewards",
-        "Eliminates the safety tax without harming reasoning"
+        "Introduces Physics2Weight to generate network weights from physical laws using LLMs.",
+        "Uses physics-constrained prompting and architecture editing without gradient-based optimization.",
+        "Achieves lower solution errors than traditional PINNs on four tested PDEs."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.07482",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.12954",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "SAVeR^2: Safety Alignment for Large Reasoning Models",
-          "summary": "SAVeR^2 is a safety alignment method for large reasoning models that decomposes safety objectives into verifiable rewards and eliminates the safety tax on reasoning.",
+          "title": "Physics2Weight: Generating Neural Networks Directly from Physics Laws",
+          "summary": "Physics2Weight (PtW) extends weight-space programming to solve partial differential equations by directly generating neural network weights and editing architectures based on physical laws. Combining physics-constrained prompting and iterative weight refinement, PtW achieves lower solution errors than conventional physics-informed neural networks on four PDEs, while revealing limitations in handling nonlinear equations.",
           "keyPoints": [
-            "Proposes SAVeR^2 for safety alignment",
-            "Decomposes safety into fine-grained rewards",
-            "Eliminates the safety tax without harming reasoning"
+            "Introduces Physics2Weight to generate network weights from physical laws using LLMs.",
+            "Uses physics-constrained prompting and architecture editing without gradient-based optimization.",
+            "Achieves lower solution errors than traditional PINNs on four tested PDEs."
           ]
         },
         "fr": {
-          "title": "SAVeR^2 : Alignement de sécurité pour grands modèles de raisonnement",
-          "summary": "SAVeR^2 est une méthode d'alignement de sécurité qui décompose les objectifs en récompenses vérifiables et élimine la taxe de sécurité sur le raisonnement.",
+          "title": "Physics2Weight : génération de réseaux de neurones par les lois physiques",
+          "summary": "Physics2Weight (PtW) étend la programmation dans l'espace des poids pour résoudre des équations aux dérivées partielles en générant directement des poids et en modifiant des architectures à partir de lois physiques. En combinant guidage physique et raffinement itératif, PtW obtient des erreurs moindres que les réseaux informés par la physique sur quatre équations, tout en montrant des limites sur les équations non linéaires.",
           "keyPoints": [
-            "Proposition de SAVeR^2 pour l'alignement",
-            "Décompose la sécurité en récompenses fines",
-            "Élimine la taxe de sécurité sans nuire au raisonnement"
+            "Présente Physics2Weight pour générer des poids de réseaux à partir de lois physiques via des LLM.",
+            "Utilise un guidage physique et l'édition d'architecture sans optimisation par gradient.",
+            "Atteint des erreurs plus faibles que les PINNs traditionnels sur quatre EDP testées."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-11ff5c368060fa",
+      "title": "Embodied Science Agents for Autonomous Experimental Design",
+      "summary": "Current self-driving laboratories often separate linguistic planning from physical grounding, hindering embodied intuition. To overcome this paradox, researchers introduce the Embodied Science Agent (ESA), unifying digital intelligence with physical embodiment through cognitive, experimental, and embodied learnability. Validated in wastewater treatment experiments, ESA successfully reduced residual dye concentration and improved solution transmittance significantly.",
+      "keyPoints": [
+        "Introduces Embodied Science Agent to bridge linguistic planning and physical grounding.",
+        "Unifies digital intelligence with physical embodiment via cognitive, experimental, and embodied learnability.",
+        "Validated in wastewater treatment, raising solution transmittance from 82% to 99.7%."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12958",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Embodied Science Agents for Autonomous Experimental Design",
+          "summary": "Current self-driving laboratories often separate linguistic planning from physical grounding, hindering embodied intuition. To overcome this paradox, researchers introduce the Embodied Science Agent (ESA), unifying digital intelligence with physical embodiment through cognitive, experimental, and embodied learnability. Validated in wastewater treatment experiments, ESA successfully reduced residual dye concentration and improved solution transmittance significantly.",
+          "keyPoints": [
+            "Introduces Embodied Science Agent to bridge linguistic planning and physical grounding.",
+            "Unifies digital intelligence with physical embodiment via cognitive, experimental, and embodied learnability.",
+            "Validated in wastewater treatment, raising solution transmittance from 82% to 99.7%."
+          ]
+        },
+        "fr": {
+          "title": "Agents scientifiques incarnés pour la conception expérimentale",
+          "summary": "Les laboratoires autonomes actuels séparent souvent la planification linguistique de l'ancrage physique. Pour surmonter ce paradoxe, les chercheurs présentent l'Agent Scientifique Incarné (ESA), unifiant l'intelligence numérique et l'incarnation physique grâce à l'apprenabilité cognitive, expérimentale et incarnée. Validé dans des expériences de traitement des eaux, l'ESA a réduit la concentration de colorant résiduel.",
+          "keyPoints": [
+            "Présente l'Agent Scientifique Incarné pour relier planification linguistique et ancrage physique.",
+            "Unifie l'intelligence numérique et physique via l'apprenabilité cognitive et incarnée.",
+            "Validé en traitement des eaux, augmentant la transmittance de la solution de 82 % à 99,7 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-70a1c94dccfacb",
+      "title": "Causal Evidence for Adaptive Reallocation in Agent Communication",
+      "summary": "Researchers test the impact of monitoring a visible channel on communication protocols learned by agents without supervision. Online partial coverage increases shadow-route shares while task accuracy and frozen message contributions remain stable. Complete coverage removes selective migration without halting communication, supporting the adaptive reallocation of joint message-route codes rather than open-world route discovery.",
+      "keyPoints": [
+        "Examines agent communication protocols under partial and complete channel monitoring.",
+        "Shows partial coverage increases shadow-route shares while task accuracy remains stable.",
+        "Supports adaptive reallocation of joint message-route codes rather than emergent encryption."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12959",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Causal Evidence for Adaptive Reallocation in Agent Communication",
+          "summary": "Researchers test the impact of monitoring a visible channel on communication protocols learned by agents without supervision. Online partial coverage increases shadow-route shares while task accuracy and frozen message contributions remain stable. Complete coverage removes selective migration without halting communication, supporting the adaptive reallocation of joint message-route codes rather than open-world route discovery.",
+          "keyPoints": [
+            "Examines agent communication protocols under partial and complete channel monitoring.",
+            "Shows partial coverage increases shadow-route shares while task accuracy remains stable.",
+            "Supports adaptive reallocation of joint message-route codes rather than emergent encryption."
+          ]
+        },
+        "fr": {
+          "title": "Preuve causale d'une réallocation adaptative dans la communication d'agents",
+          "summary": "Les chercheurs testent l'impact de la surveillance d'un canal visible sur les protocoles de communication appris par des agents. La couverture partielle en ligne augmente la part des routes fantômes tandis que la précision des tâches reste stable. Une couverture complète supprime la migration sélective sans arrêter la communication, soutenant la réallocation adaptative de codes de messages conjoints.",
+          "keyPoints": [
+            "Examine les protocoles de communication d'agents sous surveillance partielle et complète.",
+            "Montre que la couverture partielle augmente les routes fantômes avec une précision stable.",
+            "Soutient la réallocation adaptative de codes conjoints plutôt qu'un chiffrement émergent."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0c5bac16983858",
+      "title": "IIT Patna Teams Score High in ICPR 2026 TVRID Privacy Competition",
+      "summary": "The ICPR 2026 TVRID competition evaluates privacy-aware person re-identification from top-view RGB-depth cameras using anthropometric shape and depth sensing instead of frontal appearances. Two teams from IIT Patna secured top-10 finishes among 31 ranked participants. Their methodologies demonstrated exceptional performance on Depth and RGB tracks, highlighting the importance of depth representation for privacy preservation.",
+      "keyPoints": [
+        "Evaluates privacy-preserving person re-identification using top-view RGB-depth cameras.",
+        "Two IIT Patna teams ranked in the top 10 among 31 participants.",
+        "Methodologies achieved high mAP and CMC@1 scores, proving the value of depth representation."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12960",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "IIT Patna Teams Score High in ICPR 2026 TVRID Privacy Competition",
+          "summary": "The ICPR 2026 TVRID competition evaluates privacy-aware person re-identification from top-view RGB-depth cameras using anthropometric shape and depth sensing instead of frontal appearances. Two teams from IIT Patna secured top-10 finishes among 31 ranked participants. Their methodologies demonstrated exceptional performance on Depth and RGB tracks, highlighting the importance of depth representation for privacy preservation.",
+          "keyPoints": [
+            "Evaluates privacy-preserving person re-identification using top-view RGB-depth cameras.",
+            "Two IIT Patna teams ranked in the top 10 among 31 participants.",
+            "Methodologies achieved high mAP and CMC@1 scores, proving the value of depth representation."
+          ]
+        },
+        "fr": {
+          "title": "Des équipes de l'IIT Patna brillent au concours ICPR 2026 TVRID",
+          "summary": "Le concours ICPR 2026 TVRID évalue la ré-identification de personnes respectueuse de la vie privée à partir de caméras zénithales RVB-profondeur. Deux équipes de l'IIT Patna se sont classées dans le top 10 sur 31 participants. Leurs méthodologies ont affiché d'excellentes performances sur les pistes Profondeur et RVB, soulignant l'importance de la représentation en profondeur.",
+          "keyPoints": [
+            "Évalue la ré-identification de personnes respectueuse de la vie privée avec des caméras zénithales.",
+            "Deux équipes de l'IIT Patna se classent dans le top 10 sur 31 participants.",
+            "Les méthodes atteignent des scores élevés, prouvant l'utilité de la représentation en profondeur."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-eee3ea9eef5dfa",
+      "title": "RBLA+: Efficient Rank-Specific LoRA Adapter Extraction for FL",
+      "summary": "Federated fine-tuning with low-rank adaptation allows clients to use different LoRA ranks based on communication budgets and local needs. To address the computational and approximation trade-offs of rank-specific extraction methods, the authors propose RBLA+. This approach uses compact QR and core-SVD decomposition to minimize Frobenius error for extracted updates without forming dense updates, improving accuracy across vision and language tasks.",
+      "keyPoints": [
+        "Proposes RBLA+ for efficient rank-specific LoRA adapter extraction in federated learning.",
+        "Uses compact QR and core-SVD decomposition to minimize Frobenius error without dense updates.",
+        "Improves accuracy over baseline RBLA across various vision and language tasks."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12961",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "RBLA+: Efficient Rank-Specific LoRA Adapter Extraction for FL",
+          "summary": "Federated fine-tuning with low-rank adaptation allows clients to use different LoRA ranks based on communication budgets and local needs. To address the computational and approximation trade-offs of rank-specific extraction methods, the authors propose RBLA+. This approach uses compact QR and core-SVD decomposition to minimize Frobenius error for extracted updates without forming dense updates, improving accuracy across vision and language tasks.",
+          "keyPoints": [
+            "Proposes RBLA+ for efficient rank-specific LoRA adapter extraction in federated learning.",
+            "Uses compact QR and core-SVD decomposition to minimize Frobenius error without dense updates.",
+            "Improves accuracy over baseline RBLA across various vision and language tasks."
+          ]
+        },
+        "fr": {
+          "title": "RBLA+ : extraction efficace d'adaptateurs LoRA par rang en apprentissage fédéré",
+          "summary": "L'affinage fédéré avec adaptation de bas rang permet aux clients d'utiliser différents rangs LoRA selon leurs budgets. Pour résoudre les compromis des méthodes d'extraction, les auteurs proposent RBLA+. Cette approche utilise une décomposition QR et SVD de cœur compacte pour minimiser l'erreur de Frobenius sans former de mises à jour denses, améliorant la précision en vision et en traitement du langage.",
+          "keyPoints": [
+            "Propose RBLA+ pour l'extraction efficace d'adaptateurs LoRA par rang en apprentissage fédéré.",
+            "Utilise des décompositions compactes pour minimiser l'erreur de Frobenius sans mises à jour denses.",
+            "Améliore la précision par rapport à RBLA sur des tâches de vision et de langage."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-57eb4041ab8bc9",
+      "title": "BuySideFlow: A Point-in-Time Benchmark for Investment Research Agents",
+      "summary": "Ensuring point-in-time validity is a major challenge when using large language models for financial analysis. BuySideFlow is a new benchmark featuring 408 practitioner-derived Chinese-language tasks across equities, funds, fixed income, and macroeconomics. Evaluating nine agent configurations reveals frequent point-in-time violations among runs that pass basic result checks, proving that output agreement does not guarantee temporal validity.",
+      "keyPoints": [
+        "Introduces BuySideFlow, a benchmark of 408 tasks for LLM agents in investment research.",
+        "Covers equities, funds, fixed income, and macroeconomics using a production financial database.",
+        "Reveals frequent point-in-time violations even in runs passing standard result checks."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.12966",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "BuySideFlow: A Point-in-Time Benchmark for Investment Research Agents",
+          "summary": "Ensuring point-in-time validity is a major challenge when using large language models for financial analysis. BuySideFlow is a new benchmark featuring 408 practitioner-derived Chinese-language tasks across equities, funds, fixed income, and macroeconomics. Evaluating nine agent configurations reveals frequent point-in-time violations among runs that pass basic result checks, proving that output agreement does not guarantee temporal validity.",
+          "keyPoints": [
+            "Introduces BuySideFlow, a benchmark of 408 tasks for LLM agents in investment research.",
+            "Covers equities, funds, fixed income, and macroeconomics using a production financial database.",
+            "Reveals frequent point-in-time violations even in runs passing standard result checks."
+          ]
+        },
+        "fr": {
+          "title": "BuySideFlow : un benchmark temporel pour les agents en recherche financière",
+          "summary": "Garantir la validité temporelle est un défi majeur lors de l'utilisation de modèles de langage pour l'analyse financière. BuySideFlow est un nouveau benchmark de 408 tâches en chinois couvrant actions, fonds, obligations et macroéconomie. L'évaluation de neuf configurations d'agents révèle de fréquentes violations temporelles parmi les exécutions réussies, prouvant que l'accord des résultats ne garantit pas la validité.",
+          "keyPoints": [
+            "Présente BuySideFlow, un benchmark de 408 tâches pour les agents IA en recherche d'investissement.",
+            "Couvre les actions, les fonds, le revenu fixe et la macroéconomie via une base de données financière.",
+            "Révèle de fréquentes violations temporelles malgré la réussite des vérifications de résultats."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 38,
+    "itemsCollected": 421,
     "itemsPublished": 20,
-    "newItems": 9,
-    "candidates": 9,
-    "batches": 1,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
