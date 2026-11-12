@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-11-12T07:14:13.754Z",
+  "generatedAt": "2026-11-12T19:55:56.639Z",
   "items": [
+    {
+      "id": "feed-f19cddd04797ae",
+      "title": "Google Search upgraded with Gemini 4 Hydrogen",
+      "summary": "Google is bringing Gemini 4 Hydrogen to Google Search globally, aiming to provide more helpful, visual, and intuitive responses to users.",
+      "keyPoints": [
+        "Gemini 4 Hydrogen is integrated into Google Search",
+        "The rollout is global",
+        "Responses are designed to be more helpful, visual, and intuitive"
+      ],
+      "category": "Modèles",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.width-1300.png",
+      "translations": {
+        "en": {
+          "title": "Google Search upgraded with Gemini 4 Hydrogen",
+          "summary": "Google is bringing Gemini 4 Hydrogen to Google Search globally, aiming to provide more helpful, visual, and intuitive responses to users.",
+          "keyPoints": [
+            "Gemini 4 Hydrogen is integrated into Google Search",
+            "The rollout is global",
+            "Responses are designed to be more helpful, visual, and intuitive"
+          ]
+        },
+        "fr": {
+          "title": "Google Search mis à jour avec Gemini 4 Hydrogen",
+          "summary": "Google intègre Gemini 4 Hydrogen dans Google Search à l'échelle mondiale pour offrir des réponses plus utiles, visuelles et intuitives.",
+          "keyPoints": [
+            "Gemini 4 Hydrogen est intégré à Google Search",
+            "Le déploiement est mondial",
+            "Les réponses se veulent plus utiles, visuelles et intuitives"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4922ca6fb0dd92",
+      "title": "Holiday Extras rebuilds applications using Codex",
+      "summary": "Holiday Extras is utilizing Codex to transform customer expertise into better applications, achieve higher booking conversions, and unlock new growth possibilities.",
+      "keyPoints": [
+        "Holiday Extras uses Codex for development",
+        "The company is turning customer expertise into better apps",
+        "The integration drives higher booking conversion and growth"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "publishedAt": "2026-11-12T09:30:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Holiday Extras rebuilds applications using Codex",
+          "summary": "Holiday Extras is utilizing Codex to transform customer expertise into better applications, achieve higher booking conversions, and unlock new growth possibilities.",
+          "keyPoints": [
+            "Holiday Extras uses Codex for development",
+            "The company is turning customer expertise into better apps",
+            "The integration drives higher booking conversion and growth"
+          ]
+        },
+        "fr": {
+          "title": "Holiday Extras réinvente ses applications avec Codex",
+          "summary": "Holiday Extras utilise Codex pour transformer l'expertise client en de meilleures applications, augmenter les conversions de réservation et stimuler la croissance.",
+          "keyPoints": [
+            "Holiday Extras utilise Codex pour le développement",
+            "L'entreprise transforme l'expertise client en meilleures applications",
+            "L'intégration permet d'améliorer les conversions de réservation et la croissance"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d7c1da8cb7dc41",
+      "title": "OpenAI commits $2M for AI and children's safety",
+      "summary": "OpenAI is committing $2 million to support research on AI and children's safety, funding shared tools to measure risks and opportunities for young people.",
+      "keyPoints": [
+        "OpenAI commits $2 million for research",
+        "Focus is placed on AI and children's safety",
+        "Funding supports shared tools to measure youth risks and opportunities"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/children-first-declaration",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI commits $2M for AI and children's safety",
+          "summary": "OpenAI is committing $2 million to support research on AI and children's safety, funding shared tools to measure risks and opportunities for young people.",
+          "keyPoints": [
+            "OpenAI commits $2 million for research",
+            "Focus is placed on AI and children's safety",
+            "Funding supports shared tools to measure youth risks and opportunities"
+          ]
+        },
+        "fr": {
+          "title": "OpenAI engage 2 M$ pour la sécurité des enfants",
+          "summary": "OpenAI consacre 2 millions de dollars à la recherche sur l'intelligence artificielle et la sécurité des enfants, soutenant des outils partagés pour mesurer les risques.",
+          "keyPoints": [
+            "OpenAI s'engage à hauteur de 2 millions de dollars pour la recherche",
+            "L'accent est mis sur l'IA et la sécurité des enfants",
+            "Le financement soutient des outils partagés pour mesurer les risques et opportunités des jeunes"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-c06fca3b9549fb",
       "title": "Gemini Decisions API Released for Multimodal Decisions",
@@ -663,134 +780,17 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-2998649c91ffeb",
-      "title": "Building World Models from Intrinsic Motivation and Reinforcement Learning",
-      "summary": "The authors integrate 24 intrinsic objectives into a model-based reinforcement learning framework to study how intrinsic motivation interacts with world-model representation learning for downstream control tasks.",
-      "keyPoints": [
-        "Integrates 24 intrinsic objectives across curiosity, entropy, and competency into model-based RL.",
-        "Evaluates world models through zero-shot, few-shot, and multi-task control in various environments.",
-        "Finds that curiosity-driven exploration with observation reconstruction yields the strongest aggregate family profile."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13113",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Building World Models from Intrinsic Motivation and Reinforcement Learning",
-          "summary": "The authors integrate 24 intrinsic objectives into a model-based reinforcement learning framework to study how intrinsic motivation interacts with world-model representation learning for downstream control tasks.",
-          "keyPoints": [
-            "Integrates 24 intrinsic objectives across curiosity, entropy, and competency into model-based RL.",
-            "Evaluates world models through zero-shot, few-shot, and multi-task control in various environments.",
-            "Finds that curiosity-driven exploration with observation reconstruction yields the strongest aggregate family profile."
-          ]
-        },
-        "fr": {
-          "title": "Construction de modèles du monde à partir de la motivation intrinsèque",
-          "summary": "Les auteurs intègrent 24 objectifs intrinsèques dans un cadre d'apprentissage par renforcement basé sur un modèle pour étudier comment la motivation intrinsèque interagit avec l'apprentissage de représentation pour le contrôle.",
-          "keyPoints": [
-            "Intègre 24 objectifs intrinsèques couvrant la curiosité, l'entropie et la compétence.",
-            "Évalue les modèles du monde via un contrôle zéro-shot, few-shot et multi-tâches.",
-            "Montre que l'exploration guidée par la curiosité avec reconstruction d'observations donne le meilleur profil."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6c8a440eb9d2f3",
-      "title": "Activation-Guided Graph Retrieval for Cognitive Memory in LLMs",
-      "summary": "The paper specifies an activation-conditioned memory availability architecture for long-lived AI systems, where request and goal cues seed an authorized memory graph and a typed evidence graph is reconstructed before generation.",
-      "keyPoints": [
-        "Introduces activation-conditioned memory availability as an operator alongside query-relevance retrieval.",
-        "Specifies an architecture with authorized memory graphs, traversal frontiers, and evidence reconstruction.",
-        "Defines implementation costs, failure conditions, and a reproducible evaluation protocol without benchmark measurements."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13127",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Activation-Guided Graph Retrieval for Cognitive Memory in LLMs",
-          "summary": "The paper specifies an activation-conditioned memory availability architecture for long-lived AI systems, where request and goal cues seed an authorized memory graph and a typed evidence graph is reconstructed before generation.",
-          "keyPoints": [
-            "Introduces activation-conditioned memory availability as an operator alongside query-relevance retrieval.",
-            "Specifies an architecture with authorized memory graphs, traversal frontiers, and evidence reconstruction.",
-            "Defines implementation costs, failure conditions, and a reproducible evaluation protocol without benchmark measurements."
-          ]
-        },
-        "fr": {
-          "title": "Récupération de graphes guidée par l'activation pour la mémoire cognitive dans les LLM",
-          "summary": "L'article spécifie une architecture de disponibilité de la mémoire conditionnée par l'activation pour les systèmes d'IA à long terme, où les indices de requête amorcent un graphe de mémoire autorisé.",
-          "keyPoints": [
-            "Introduit la disponibilité de la mémoire conditionnée par l'activation comme opérateur de récupération.",
-            "Spécifie une architecture avec des graphes de mémoire autorisés et une reconstruction de preuves.",
-            "Définit les coûts de mise en œuvre, les conditions d'échec et un protocole d'évaluation reproductible."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0cfdd789bfa4af",
-      "title": "Measurement Limits of LLM Reasoning Failure Taxonomies",
-      "summary": "This study demonstrates that reported fractions of LLM reasoning failure categories, such as Compositional Collapse, are largely artifacts of measurement procedures, prompt variations, and classifier test orders rather than objective model traits.",
-      "keyPoints": [
-        "Shows that 50.1% of failures carry evidence for multiple categories, making results dependent on classification order.",
-        "Finds low human agreement on specific failure categories like Collapse despite high agreement on answer correctness.",
-        "Recommends four cheap checks before comparing failure-mode rates across models."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13140",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Measurement Limits of LLM Reasoning Failure Taxonomies",
-          "summary": "This study demonstrates that reported fractions of LLM reasoning failure categories, such as Compositional Collapse, are largely artifacts of measurement procedures, prompt variations, and classifier test orders rather than objective model traits.",
-          "keyPoints": [
-            "Shows that 50.1% of failures carry evidence for multiple categories, making results dependent on classification order.",
-            "Finds low human agreement on specific failure categories like Collapse despite high agreement on answer correctness.",
-            "Recommends four cheap checks before comparing failure-mode rates across models."
-          ]
-        },
-        "fr": {
-          "title": "Limites de mesure des taxonomies d'échec de raisonnement des LLM",
-          "summary": "Cette étude démontre que les proportions rapportées de catégories d'échec de raisonnement des LLM, telles que l'effondrement compositionnel, dépendent fortement des procédures de mesure et des invites plutôt que de traits intrinsèques.",
-          "keyPoints": [
-            "Montre que 50,1 % des échecs présentent des preuves pour plusieurs catégories, dépendant de l'ordre de test.",
-            "Met en évidence un faible accord humain sur les catégories d'échec spécifiques malgré un accord sur l'exactitude.",
-            "Recommande quatre vérifications simples avant de comparer les taux de modes d'échec entre modèles."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 39,
+    "itemsCollected": 40,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 3,
+    "candidates": 3,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
