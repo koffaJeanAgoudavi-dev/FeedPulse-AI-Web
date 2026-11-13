@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-11-12T19:55:56.639Z",
+  "generatedAt": "2026-11-13T06:47:51.882Z",
   "items": [
+    {
+      "id": "feed-67672a694e389b",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "summary": "Amplitude uses OpenAI models to power its proactive product agent, Wave, which identifies features to build, assists teams in shipping changes through coding agents, and measures impact.",
+      "keyPoints": [
+        "Amplitude built Wave, a proactive product agent, primarily on OpenAI models.",
+        "Wave helps identify what to build and assists teams in shipping changes.",
+        "The agent is also used to measure the impact of product improvements."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/amplitude",
+      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "summary": "Amplitude uses OpenAI models to power its proactive product agent, Wave, which identifies features to build, assists teams in shipping changes through coding agents, and measures impact.",
+          "keyPoints": [
+            "Amplitude built Wave, a proactive product agent, primarily on OpenAI models.",
+            "Wave helps identify what to build and assists teams in shipping changes.",
+            "The agent is also used to measure the impact of product improvements."
+          ]
+        },
+        "fr": {
+          "title": "Comment Amplitude lance des améliorations en 1 à 2 jours avec OpenAI",
+          "summary": "Amplitude s'appuie sur les modèles d'OpenAI pour alimenter son agent produit Wave, qui identifie les fonctionnalités à créer, aide les équipes à déployer des modifications et mesure l'impact.",
+          "keyPoints": [
+            "Amplitude a conçu Wave, un agent produit proactif, principalement grâce aux modèles OpenAI.",
+            "Wave aide à identifier les besoins de développement et assiste les équipes lors des lancements.",
+            "L'agent permet également de mesurer l'impact des améliorations apportées."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b9840fd67063a3",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "summary": "Gondola, a platform helping creatives get credit and hired, doubled its revenue as Codex increased its lead engineer's output by 50% and ChatGPT streamlined daily operations.",
+      "keyPoints": [
+        "Gondola helps creatives secure credit and get hired.",
+        "Codex increased the lead engineer's output by 50%.",
+        "ChatGPT simplifies daily work, contributing to doubled revenue."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/gondola",
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "summary": "Gondola, a platform helping creatives get credit and hired, doubled its revenue as Codex increased its lead engineer's output by 50% and ChatGPT streamlined daily operations.",
+          "keyPoints": [
+            "Gondola helps creatives secure credit and get hired.",
+            "Codex increased the lead engineer's output by 50%.",
+            "ChatGPT simplifies daily work, contributing to doubled revenue."
+          ]
+        },
+        "fr": {
+          "title": "Gondola double ses revenus grâce à Codex",
+          "summary": "Gondola aide les créateurs à être crédités et embauchés. L'utilisation de Codex a augmenté la productivité de son ingénieur principal de 50 %, tandis que ChatGPT simplifie le travail quotidien.",
+          "keyPoints": [
+            "Gondola aide les créateurs à obtenir de la reconnaissance et à trouver du travail.",
+            "Codex a permis d'augmenter de 50 % la productivité de l'ingénieur principal.",
+            "ChatGPT simplifie les tâches quotidiennes et participe au doublement du chiffre d'affaires."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-f19cddd04797ae",
       "title": "Google Search upgraded with Gemini 4 Hydrogen",
@@ -702,92 +780,14 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-ad61c26b9250b8",
-      "title": "A Human-in-the-Loop Framework for Checking AI-Produced Research Results",
-      "summary": "The authors propose a domain-independent, human-in-the-loop framework for checking AI-generated research results, combining validated agent tools, fidelity audits, human decision points, and dialog attribution reports.",
-      "keyPoints": [
-        "Addresses massive volumes of AI-generated research results requiring verification.",
-        "Proposes a framework combining agent tools, fidelity audits, fixed human decision points, and dialog attribution.",
-        "Implemented automatically for mathematics (Wolfram, MATLAB, Lean) and statistics (Python, R)."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13042",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "A Human-in-the-Loop Framework for Checking AI-Produced Research Results",
-          "summary": "The authors propose a domain-independent, human-in-the-loop framework for checking AI-generated research results, combining validated agent tools, fidelity audits, human decision points, and dialog attribution reports.",
-          "keyPoints": [
-            "Addresses massive volumes of AI-generated research results requiring verification.",
-            "Proposes a framework combining agent tools, fidelity audits, fixed human decision points, and dialog attribution.",
-            "Implemented automatically for mathematics (Wolfram, MATLAB, Lean) and statistics (Python, R)."
-          ]
-        },
-        "fr": {
-          "title": "Un cadre centré sur l'humain pour la vérification de résultats de recherche par IA",
-          "summary": "Les auteurs proposent un cadre indépendant du domaine et centré sur l'humain pour vérifier les résultats de recherche générés par l'IA, combinant des outils d'agents validés, des audits de fidélité et des points de décision humains.",
-          "keyPoints": [
-            "Répond aux volumes massifs de résultats de recherche générés par l'IA nécessitant une vérification.",
-            "Propose un cadre combinant outils d'agents, audits de fidélité et points de décision humains.",
-            "Implémenté automatiquement pour les mathématiques et les statistiques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-68a33b38bedced",
-      "title": "Elicitation of Parameters in a Multi-Criteria Sorting Model",
-      "summary": "This work provides a rigorous direct elicitation procedure for the parameters of the basic Non-Compensatory Sorting (NCS) model with two categories and no vetoes, utilizing graph exploration algorithms and dichotomy.",
-      "keyPoints": [
-        "Focuses on direct elicitation for the basic Non-Compensatory Sorting (NCS) model parameters.",
-        "Proposes questioning algorithms for sufficient coalitions using graph exploration like depth-first search.",
-        "Uses dichotomy for eliciting the limit profile and evaluates algorithms by simulation."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13062",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Elicitation of Parameters in a Multi-Criteria Sorting Model",
-          "summary": "This work provides a rigorous direct elicitation procedure for the parameters of the basic Non-Compensatory Sorting (NCS) model with two categories and no vetoes, utilizing graph exploration algorithms and dichotomy.",
-          "keyPoints": [
-            "Focuses on direct elicitation for the basic Non-Compensatory Sorting (NCS) model parameters.",
-            "Proposes questioning algorithms for sufficient coalitions using graph exploration like depth-first search.",
-            "Uses dichotomy for eliciting the limit profile and evaluates algorithms by simulation."
-          ]
-        },
-        "fr": {
-          "title": "Élicitation des paramètres d'un modèle de tri multicritère",
-          "summary": "Ce travail fournit une procédure d'élicitation directe rigoureuse pour les paramètres du modèle de tri non compensatoire de base (NCS) à deux catégories, en utilisant des algorithmes d'exploration de graphes et la dichotomie.",
-          "keyPoints": [
-            "Se concentre sur l'élicitation directe pour les paramètres du modèle NCS de base.",
-            "Propose des algorithmes de questionnement pour les coalitions suffisantes basés sur la recherche en profondeur.",
-            "Utilise la dichotomie pour éliciter le profil limite et évalue les algorithmes par simulation."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 40,
+    "itemsCollected": 39,
     "itemsPublished": 20,
-    "newItems": 3,
-    "candidates": 3,
+    "newItems": 2,
+    "candidates": 2,
     "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
