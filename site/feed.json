@@ -1,6 +1,85 @@
 {
-  "generatedAt": "2026-11-13T06:47:51.882Z",
+  "generatedAt": "2026-11-13T19:44:24.095Z",
   "items": [
+    {
+      "id": "feed-7d4d71d056da02",
+      "title": "Introducing ChatGPT Wallet",
+      "summary": "OpenAI has introduced ChatGPT Wallet, a secure method allowing agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "keyPoints": [
+        "Enables secure purchases for agents in ChatGPT Work, Codex, and dots",
+        "Requires user approval for transactions",
+        "Utilizes existing card protections"
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "publishedAt": "2026-11-13T15:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing ChatGPT Wallet",
+          "summary": "OpenAI has introduced ChatGPT Wallet, a secure method allowing agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "keyPoints": [
+            "Enables secure purchases for agents in ChatGPT Work, Codex, and dots",
+            "Requires user approval for transactions",
+            "Utilizes existing card protections"
+          ]
+        },
+        "fr": {
+          "title": "Présentation de ChatGPT Wallet",
+          "summary": "OpenAI a présenté ChatGPT Wallet, un moyen sécurisé permettant aux agents de ChatGPT Work, Codex et dots d'effectuer des achats avec l'approbation de l'utilisateur et les protections de carte existantes.",
+          "keyPoints": [
+            "Permet des achats sécurisés pour les agents dans ChatGPT Work, Codex et dots",
+            "Nécessite l'approbation de l'utilisateur pour les transactions",
+            "Utilise les protections de carte existantes"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d0f9bf46fa9dba",
+      "title": "Opening datasets behind AI weather models",
+      "summary": "Google DeepMind is opening foundational precipitation and geostationary satellite datasets to observe the planet clearly, supporting their AI weather models.",
+      "keyPoints": [
+        "Releases datasets behind AI weather models",
+        "Includes foundational precipitation data",
+        "Includes geostationary satellite datasets for planetary observation"
+      ],
+      "category": "Open Source",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "publishedAt": "2026-11-10T11:13:04.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/EyHOPdy1RZC6ksZ50GThErLowPjtqkzgITH_CSP2Rh4UbsF4muddzfQ0id_Qro5VhuMNYIg9Sxk8ukt7gFVRbLsC4m47HUj07fAAGbhHm1se-h4N=w1440-h810-n-nu",
+      "translations": {
+        "en": {
+          "title": "Opening datasets behind AI weather models",
+          "sourceUrl": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+          "summary": "Google DeepMind is opening foundational precipitation and geostationary satellite datasets to observe the planet clearly, supporting their AI weather models.",
+          "keyPoints": [
+            "Releases datasets behind AI weather models",
+            "Includes foundational precipitation data",
+            "Includes geostationary satellite datasets for planetary observation"
+          ]
+        },
+        "fr": {
+          "title": "Ouverture des jeux de données météo IA",
+          "summary": "Google DeepMind ouvre des jeux de données fondamentaux sur les précipitations et les satellites géostationnaires pour observer clairement la planète, soutenant ainsi ses modèles météorologiques d'IA.",
+          "keyPoints": [
+            "Publication des jeux de données derrière les modèles météo d'IA",
+            "Comprend des données de précipitations fondamentales",
+            "Comprend des jeux de données de satellites géostationnaires"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-67672a694e389b",
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
@@ -702,89 +781,11 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-3b417cccfa2da3",
-      "title": "GRAP: Gender Rubric-Aware Probing for Analyzing Gender Bias in LLMs",
-      "summary": "GRAP is a framework that uses a lightweight logistic probe to identify the most discriminative bias dimensions from responses scored across 10 rubric dimensions. It operates task-agnostically on open-ended instruction following to address limitations in fixed-format probing.",
-      "keyPoints": [
-        "Overcomes limitations of fixed-format tasks and raw group-level scoring in LLM bias analysis.",
-        "Uses a lightweight logistic probe to identify discriminative bias dimensions across 10 rubric dimensions.",
-        "Operates in a task-agnostic manner on open-ended instruction following."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13024",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "GRAP: Gender Rubric-Aware Probing for Analyzing Gender Bias in LLMs",
-          "summary": "GRAP is a framework that uses a lightweight logistic probe to identify the most discriminative bias dimensions from responses scored across 10 rubric dimensions. It operates task-agnostically on open-ended instruction following to address limitations in fixed-format probing.",
-          "keyPoints": [
-            "Overcomes limitations of fixed-format tasks and raw group-level scoring in LLM bias analysis.",
-            "Uses a lightweight logistic probe to identify discriminative bias dimensions across 10 rubric dimensions.",
-            "Operates in a task-agnostic manner on open-ended instruction following."
-          ]
-        },
-        "fr": {
-          "title": "GRAP : Sondage sensible aux rubriques de genre pour analyser les biais dans les LLM",
-          "summary": "GRAP est un cadre qui utilise une sonde logique légère pour identifier les dimensions de biais les plus discriminantes à partir de réponses évaluées sur 10 dimensions de rubricage. Il fonctionne de manière agnostique par rapport aux tâches.",
-          "keyPoints": [
-            "Surmonte les limites des tâches à format fixe et de l'évaluation brute par groupe.",
-            "Utilise une sonde logique légère pour identifier les dimensions de biais à travers 10 rubriques.",
-            "Fonctionne de manière agnostique sur le suivi d'instructions ouvertes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f18918152d7fe6",
-      "title": "APS-VLA: Action-Guided Token Pruning for Vision-Language-Action Models",
-      "summary": "APS-VLA is a modular framework for efficient vision-language-action models that learns visual token selection from robot demonstrations while keeping the backbone frozen. It reduces mean inference latency and achieves speedups on robotics platforms.",
-      "keyPoints": [
-        "Uses a lightweight Decision Influence Estimator conditioned on visual observations, language, and proprioception.",
-        "Combines action supervision with an auxiliary visual transition objective during training.",
-        "Reduces mean policy inference latency from 137.25 to 93.25 ms on real-world dual-arm platforms."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13030",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "APS-VLA: Action-Guided Token Pruning for Vision-Language-Action Models",
-          "summary": "APS-VLA is a modular framework for efficient vision-language-action models that learns visual token selection from robot demonstrations while keeping the backbone frozen. It reduces mean inference latency and achieves speedups on robotics platforms.",
-          "keyPoints": [
-            "Uses a lightweight Decision Influence Estimator conditioned on visual observations, language, and proprioception.",
-            "Combines action supervision with an auxiliary visual transition objective during training.",
-            "Reduces mean policy inference latency from 137.25 to 93.25 ms on real-world dual-arm platforms."
-          ]
-        },
-        "fr": {
-          "title": "APS-VLA : Élagage de jetons guidé par l'action pour les modèles vision-langage-action",
-          "summary": "APS-VLA est un cadre modulaire pour les modèles vision-langage-action efficaces qui apprend la sélection de jetons visuels à partir de démonstrations de robots tout en gardant le réseau gelé. Il réduit la latence d'inférence moyenne.",
-          "keyPoints": [
-            "Utilise un estimateur d'influence de décision léger conditionné par les observations visuelles et le langage.",
-            "Combine la supervision des actions avec un objectif de transition visuelle auxiliaire.",
-            "Réduit la latence moyenne d'inférence de 137,25 à 93,25 ms sur des plateformes robotiques réelles."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 39,
+    "itemsCollected": 41,
     "itemsPublished": 20,
     "newItems": 2,
     "candidates": 2,
