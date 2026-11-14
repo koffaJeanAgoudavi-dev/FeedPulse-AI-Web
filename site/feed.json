@@ -1,779 +1,778 @@
 {
-  "generatedAt": "2026-11-13T19:44:24.095Z",
+  "generatedAt": "2026-11-14T06:26:58.692Z",
   "items": [
     {
-      "id": "feed-7d4d71d056da02",
-      "title": "Introducing ChatGPT Wallet",
-      "summary": "OpenAI has introduced ChatGPT Wallet, a secure method allowing agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "id": "feed-a9c0a0c8a7adff",
+      "title": "Zugwise: Domain-Aware Game Reconstruction for Chess Sheets",
+      "summary": "Zugwise repurposes computer-chess machinery to digitize handwritten chess scoresheets by framing the task as game reconstruction rather than simple handwriting recognition. The system uses an absurdity detector, backward search, and a Needleman-Wunsch merge with the second player's sheet to catch silent errors and run efficiently in the browser.",
       "keyPoints": [
-        "Enables secure purchases for agents in ChatGPT Work, Codex, and dots",
-        "Requires user approval for transactions",
-        "Utilizes existing card protections"
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
-      "publishedAt": "2026-11-13T15:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Introducing ChatGPT Wallet",
-          "summary": "OpenAI has introduced ChatGPT Wallet, a secure method allowing agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-          "keyPoints": [
-            "Enables secure purchases for agents in ChatGPT Work, Codex, and dots",
-            "Requires user approval for transactions",
-            "Utilizes existing card protections"
-          ]
-        },
-        "fr": {
-          "title": "Présentation de ChatGPT Wallet",
-          "summary": "OpenAI a présenté ChatGPT Wallet, un moyen sécurisé permettant aux agents de ChatGPT Work, Codex et dots d'effectuer des achats avec l'approbation de l'utilisateur et les protections de carte existantes.",
-          "keyPoints": [
-            "Permet des achats sécurisés pour les agents dans ChatGPT Work, Codex et dots",
-            "Nécessite l'approbation de l'utilisateur pour les transactions",
-            "Utilise les protections de carte existantes"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d0f9bf46fa9dba",
-      "title": "Opening datasets behind AI weather models",
-      "summary": "Google DeepMind is opening foundational precipitation and geostationary satellite datasets to observe the planet clearly, supporting their AI weather models.",
-      "keyPoints": [
-        "Releases datasets behind AI weather models",
-        "Includes foundational precipitation data",
-        "Includes geostationary satellite datasets for planetary observation"
-      ],
-      "category": "Open Source",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-      "publishedAt": "2026-11-10T11:13:04.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/EyHOPdy1RZC6ksZ50GThErLowPjtqkzgITH_CSP2Rh4UbsF4muddzfQ0id_Qro5VhuMNYIg9Sxk8ukt7gFVRbLsC4m47HUj07fAAGbhHm1se-h4N=w1440-h810-n-nu",
-      "translations": {
-        "en": {
-          "title": "Opening datasets behind AI weather models",
-          "sourceUrl": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-          "summary": "Google DeepMind is opening foundational precipitation and geostationary satellite datasets to observe the planet clearly, supporting their AI weather models.",
-          "keyPoints": [
-            "Releases datasets behind AI weather models",
-            "Includes foundational precipitation data",
-            "Includes geostationary satellite datasets for planetary observation"
-          ]
-        },
-        "fr": {
-          "title": "Ouverture des jeux de données météo IA",
-          "summary": "Google DeepMind ouvre des jeux de données fondamentaux sur les précipitations et les satellites géostationnaires pour observer clairement la planète, soutenant ainsi ses modèles météorologiques d'IA.",
-          "keyPoints": [
-            "Publication des jeux de données derrière les modèles météo d'IA",
-            "Comprend des données de précipitations fondamentales",
-            "Comprend des jeux de données de satellites géostationnaires"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-67672a694e389b",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "summary": "Amplitude uses OpenAI models to power its proactive product agent, Wave, which identifies features to build, assists teams in shipping changes through coding agents, and measures impact.",
-      "keyPoints": [
-        "Amplitude built Wave, a proactive product agent, primarily on OpenAI models.",
-        "Wave helps identify what to build and assists teams in shipping changes.",
-        "The agent is also used to measure the impact of product improvements."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/business/customer-stories/amplitude",
-      "publishedAt": "2026-11-12T20:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-          "summary": "Amplitude uses OpenAI models to power its proactive product agent, Wave, which identifies features to build, assists teams in shipping changes through coding agents, and measures impact.",
-          "keyPoints": [
-            "Amplitude built Wave, a proactive product agent, primarily on OpenAI models.",
-            "Wave helps identify what to build and assists teams in shipping changes.",
-            "The agent is also used to measure the impact of product improvements."
-          ]
-        },
-        "fr": {
-          "title": "Comment Amplitude lance des améliorations en 1 à 2 jours avec OpenAI",
-          "summary": "Amplitude s'appuie sur les modèles d'OpenAI pour alimenter son agent produit Wave, qui identifie les fonctionnalités à créer, aide les équipes à déployer des modifications et mesure l'impact.",
-          "keyPoints": [
-            "Amplitude a conçu Wave, un agent produit proactif, principalement grâce aux modèles OpenAI.",
-            "Wave aide à identifier les besoins de développement et assiste les équipes lors des lancements.",
-            "L'agent permet également de mesurer l'impact des améliorations apportées."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b9840fd67063a3",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "summary": "Gondola, a platform helping creatives get credit and hired, doubled its revenue as Codex increased its lead engineer's output by 50% and ChatGPT streamlined daily operations.",
-      "keyPoints": [
-        "Gondola helps creatives secure credit and get hired.",
-        "Codex increased the lead engineer's output by 50%.",
-        "ChatGPT simplifies daily work, contributing to doubled revenue."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/business/customer-stories/gondola",
-      "publishedAt": "2026-11-12T12:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Gondola doubles revenue as its team builds more with Codex",
-          "summary": "Gondola, a platform helping creatives get credit and hired, doubled its revenue as Codex increased its lead engineer's output by 50% and ChatGPT streamlined daily operations.",
-          "keyPoints": [
-            "Gondola helps creatives secure credit and get hired.",
-            "Codex increased the lead engineer's output by 50%.",
-            "ChatGPT simplifies daily work, contributing to doubled revenue."
-          ]
-        },
-        "fr": {
-          "title": "Gondola double ses revenus grâce à Codex",
-          "summary": "Gondola aide les créateurs à être crédités et embauchés. L'utilisation de Codex a augmenté la productivité de son ingénieur principal de 50 %, tandis que ChatGPT simplifie le travail quotidien.",
-          "keyPoints": [
-            "Gondola aide les créateurs à obtenir de la reconnaissance et à trouver du travail.",
-            "Codex a permis d'augmenter de 50 % la productivité de l'ingénieur principal.",
-            "ChatGPT simplifie les tâches quotidiennes et participe au doublement du chiffre d'affaires."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f19cddd04797ae",
-      "title": "Google Search upgraded with Gemini 4 Hydrogen",
-      "summary": "Google is bringing Gemini 4 Hydrogen to Google Search globally, aiming to provide more helpful, visual, and intuitive responses to users.",
-      "keyPoints": [
-        "Gemini 4 Hydrogen is integrated into Google Search",
-        "The rollout is global",
-        "Responses are designed to be more helpful, visual, and intuitive"
-      ],
-      "category": "Modèles",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "publishedAt": "2026-11-12T18:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.width-1300.png",
-      "translations": {
-        "en": {
-          "title": "Google Search upgraded with Gemini 4 Hydrogen",
-          "summary": "Google is bringing Gemini 4 Hydrogen to Google Search globally, aiming to provide more helpful, visual, and intuitive responses to users.",
-          "keyPoints": [
-            "Gemini 4 Hydrogen is integrated into Google Search",
-            "The rollout is global",
-            "Responses are designed to be more helpful, visual, and intuitive"
-          ]
-        },
-        "fr": {
-          "title": "Google Search mis à jour avec Gemini 4 Hydrogen",
-          "summary": "Google intègre Gemini 4 Hydrogen dans Google Search à l'échelle mondiale pour offrir des réponses plus utiles, visuelles et intuitives.",
-          "keyPoints": [
-            "Gemini 4 Hydrogen est intégré à Google Search",
-            "Le déploiement est mondial",
-            "Les réponses se veulent plus utiles, visuelles et intuitives"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-4922ca6fb0dd92",
-      "title": "Holiday Extras rebuilds applications using Codex",
-      "summary": "Holiday Extras is utilizing Codex to transform customer expertise into better applications, achieve higher booking conversions, and unlock new growth possibilities.",
-      "keyPoints": [
-        "Holiday Extras uses Codex for development",
-        "The company is turning customer expertise into better apps",
-        "The integration drives higher booking conversion and growth"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "publishedAt": "2026-11-12T09:30:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Holiday Extras rebuilds applications using Codex",
-          "summary": "Holiday Extras is utilizing Codex to transform customer expertise into better applications, achieve higher booking conversions, and unlock new growth possibilities.",
-          "keyPoints": [
-            "Holiday Extras uses Codex for development",
-            "The company is turning customer expertise into better apps",
-            "The integration drives higher booking conversion and growth"
-          ]
-        },
-        "fr": {
-          "title": "Holiday Extras réinvente ses applications avec Codex",
-          "summary": "Holiday Extras utilise Codex pour transformer l'expertise client en de meilleures applications, augmenter les conversions de réservation et stimuler la croissance.",
-          "keyPoints": [
-            "Holiday Extras utilise Codex pour le développement",
-            "L'entreprise transforme l'expertise client en meilleures applications",
-            "L'intégration permet d'améliorer les conversions de réservation et la croissance"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d7c1da8cb7dc41",
-      "title": "OpenAI commits $2M for AI and children's safety",
-      "summary": "OpenAI is committing $2 million to support research on AI and children's safety, funding shared tools to measure risks and opportunities for young people.",
-      "keyPoints": [
-        "OpenAI commits $2 million for research",
-        "Focus is placed on AI and children's safety",
-        "Funding supports shared tools to measure youth risks and opportunities"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/children-first-declaration",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "OpenAI commits $2M for AI and children's safety",
-          "summary": "OpenAI is committing $2 million to support research on AI and children's safety, funding shared tools to measure risks and opportunities for young people.",
-          "keyPoints": [
-            "OpenAI commits $2 million for research",
-            "Focus is placed on AI and children's safety",
-            "Funding supports shared tools to measure youth risks and opportunities"
-          ]
-        },
-        "fr": {
-          "title": "OpenAI engage 2 M$ pour la sécurité des enfants",
-          "summary": "OpenAI consacre 2 millions de dollars à la recherche sur l'intelligence artificielle et la sécurité des enfants, soutenant des outils partagés pour mesurer les risques.",
-          "keyPoints": [
-            "OpenAI s'engage à hauteur de 2 millions de dollars pour la recherche",
-            "L'accent est mis sur l'IA et la sécurité des enfants",
-            "Le financement soutient des outils partagés pour mesurer les risques et opportunités des jeunes"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c06fca3b9549fb",
-      "title": "Gemini Decisions API Released for Multimodal Decisions",
-      "summary": "Google AI Blog introduces the Gemini Decisions API, powered by the Gemini Decision model, designed for fast and calibrated multimodal decisions.",
-      "keyPoints": [
-        "Powered by the Gemini Decision model",
-        "Focuses on fast and calibrated decisions",
-        "Supports multimodal inputs"
-      ],
-      "category": "Outils",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "publishedAt": "2026-11-11T18:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
-      "translations": {
-        "en": {
-          "title": "Gemini Decisions API Released for Multimodal Decisions",
-          "summary": "Google AI Blog introduces the Gemini Decisions API, powered by the Gemini Decision model, designed for fast and calibrated multimodal decisions.",
-          "keyPoints": [
-            "Powered by the Gemini Decision model",
-            "Focuses on fast and calibrated decisions",
-            "Supports multimodal inputs"
-          ]
-        },
-        "fr": {
-          "title": "Sortie de l'API Gemini Decisions pour la prise de décision",
-          "summary": "Le blog Google AI présente l'API Gemini Decisions, propulsée par le modèle Gemini Decision, conçue pour des décisions multimodales rapides et calibrées.",
-          "keyPoints": [
-            "Propulsé par le modèle Gemini Decision",
-            "Axé sur des décisions rapides et calibrées",
-            "Prend en charge les entrées multimodales"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-833534b672b8da",
-      "title": "AlphaGenome 2 Unveiled to Decipher DNA and Disease",
-      "summary": "Google DeepMind introduces AlphaGenome 2, predicting how DNA sequences and their variations impact specific human cell types to better understand diseases.",
-      "keyPoints": [
-        "Focuses on predicting DNA sequence impacts",
-        "Analyzes human cell types and variations",
-        "Aims to improve disease understanding"
-      ],
-      "category": "Modèles",
-      "sourceName": "Google DeepMind Blog",
-      "sourceUrl": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "publishedAt": "2026-11-11T15:00:15.000Z",
-      "imageUrl": "https://lh3.googleusercontent.com/7eOcEXEyA41RlNbAgNmBUQLy34StN16i5xFpfAZ5hUxQmBQKZDYd3vVlnIbl_eK-4azSQ9QJBmi3wm2leu9zY0gflvcLBD5Vwdkmb6q9D1uwtfj-5A=w1440-h810-n-nu",
-      "translations": {
-        "en": {
-          "title": "AlphaGenome 2 Unveiled to Decipher DNA and Disease",
-          "summary": "Google DeepMind introduces AlphaGenome 2, predicting how DNA sequences and their variations impact specific human cell types to better understand diseases.",
-          "keyPoints": [
-            "Focuses on predicting DNA sequence impacts",
-            "Analyzes human cell types and variations",
-            "Aims to improve disease understanding"
-          ]
-        },
-        "fr": {
-          "title": "AlphaGenome 2 dévoilé pour décrypter l'ADN et les maladies",
-          "summary": "Google DeepMind présente AlphaGenome 2, qui prédit l'impact des séquences d'ADN et de leurs variations sur des types de cellules humaines spécifiques.",
-          "keyPoints": [
-            "Se concentre sur la prédiction des impacts de l'ADN",
-            "Analyse les types de cellules humaines et leurs variations",
-            "Vise à améliorer la compréhension des maladies"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c5f0f5d9acc63e",
-      "title": "TrustMod-SM Benchmark Evaluates LLM Content Moderation",
-      "summary": "Researchers introduce TrustMod-SM, a benchmark with roughly 29,000 instances to evaluate LLM trustworthiness across five dimensions in social media content moderation.",
-      "keyPoints": [
-        "Contains roughly 29,000 instances across eight datasets",
-        "Evaluates five dimensions including fairness and safety",
-        "Tests 16 open-weight models and one closed frontier model"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12970",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "TrustMod-SM Benchmark Evaluates LLM Content Moderation",
-          "summary": "Researchers introduce TrustMod-SM, a benchmark with roughly 29,000 instances to evaluate LLM trustworthiness across five dimensions in social media content moderation.",
-          "keyPoints": [
-            "Contains roughly 29,000 instances across eight datasets",
-            "Evaluates five dimensions including fairness and safety",
-            "Tests 16 open-weight models and one closed frontier model"
-          ]
-        },
-        "fr": {
-          "title": "Le benchmark TrustMod-SM évalue la modération des LLM",
-          "summary": "Des chercheurs présentent TrustMod-SM, un benchmark d'environ 29 000 instances pour évaluer la fiabilité des LLM dans la modération de contenu sur les réseaux sociaux.",
-          "keyPoints": [
-            "Contient environ 29 000 instances sur huit ensembles de données",
-            "Évalue cinq dimensions dont l'équité et la sécurité",
-            "Teste 16 modèles à poids ouverts et un modèle frontalier fermé"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-55ff14dc421312",
-      "title": "JioStar Chief Architect on AI Discovery at Scale",
-      "summary": "JioStar's Vijay Seshadri discusses AI discovery at a 500 million user scale, sharing lessons on evaluations, guardrails, and production deployment.",
-      "keyPoints": [
-        "Discusses AI discovery at 500M-user scale",
-        "Shares lessons on evaluations and guardrails",
-        "Covers taking AI into production environments"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/jiostar-vijay-seshadri",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "JioStar Chief Architect on AI Discovery at Scale",
-          "summary": "JioStar's Vijay Seshadri discusses AI discovery at a 500 million user scale, sharing lessons on evaluations, guardrails, and production deployment.",
-          "keyPoints": [
-            "Discusses AI discovery at 500M-user scale",
-            "Shares lessons on evaluations and guardrails",
-            "Covers taking AI into production environments"
-          ]
-        },
-        "fr": {
-          "title": "L'architecte en chef de JioStar sur la découverte IA à grande échelle",
-          "summary": "Vijay Seshadri de JioStar discute de la découverte d'IA à l'échelle de 500 millions d'utilisateurs, partageant des leçons sur les évaluations et les garde-fous.",
-          "keyPoints": [
-            "Discute de la découverte d'IA à l'échelle de 500M d'utilisateurs",
-            "Partage des leçons sur les évaluations et les garde-fous",
-            "Aborde le passage de l'IA en production"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-eac4d84ef94997",
-      "title": "Tabletop: Google Labs Experiment for Group Collaboration",
-      "summary": "Google Labs introduces Tabletop, a customizable and collaborative space for groups to build interactive itineraries, polls, and brackets together.",
-      "keyPoints": [
-        "New Google Labs experiment for group collaboration",
-        "Build interactive itineraries, polls, and brackets",
-        "Waitlist is currently open for interested users"
-      ],
-      "category": "Outils",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "publishedAt": "2026-11-11T16:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1566.max-1440x810.jpg",
-      "translations": {
-        "en": {
-          "title": "Tabletop: Google Labs Experiment for Group Collaboration",
-          "summary": "Google Labs introduces Tabletop, a customizable and collaborative space for groups to build interactive itineraries, polls, and brackets together.",
-          "keyPoints": [
-            "New Google Labs experiment for group collaboration",
-            "Build interactive itineraries, polls, and brackets",
-            "Waitlist is currently open for interested users"
-          ]
-        },
-        "fr": {
-          "title": "Tabletop : une expérience Google Labs pour la collaboration",
-          "summary": "Google Labs présente Tabletop, un espace personnalisable et collaboratif permettant aux groupes de créer ensemble des itinéraires interactifs et des sondages.",
-          "keyPoints": [
-            "Nouvelle expérience Google Labs pour la collaboration",
-            "Permet de créer des itinéraires et des sondages interactifs",
-            "Une liste d'attente est actuellement ouverte"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-f89329e5049b38",
-      "title": "ZeroPoint: Lightweight Energy-Based Decision Model",
-      "summary": "Researchers propose ZeroPoint, an energy-based model that treats the empty answer as a zero-energy state to enable reliable option selection and abstention.",
-      "keyPoints": [
-        "Proposes ZeroPoint for energy-based decision models",
-        "Uses an empty answer state with energy zero as reference",
-        "Combines option selection and abstention in standard inference"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.12992",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ZeroPoint: Lightweight Energy-Based Decision Model",
-          "summary": "Researchers propose ZeroPoint, an energy-based model that treats the empty answer as a zero-energy state to enable reliable option selection and abstention.",
-          "keyPoints": [
-            "Proposes ZeroPoint for energy-based decision models",
-            "Uses an empty answer state with energy zero as reference",
-            "Combines option selection and abstention in standard inference"
-          ]
-        },
-        "fr": {
-          "title": "ZeroPoint : modèle de décision énergétique léger",
-          "summary": "Des chercheurs proposent ZeroPoint, un modèle énergétique qui traite la réponse vide comme un état d'énergie nulle pour permettre la sélection et l'abstention.",
-          "keyPoints": [
-            "Propose ZeroPoint pour les modèles de décision énergétiques",
-            "Utilise un état de réponse vide à énergie nulle comme référence",
-            "Combine sélection d'options et abstention dans l'inférence"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9092d5eb66f295",
-      "title": "Singapore Airlines Enhances Operations with OpenAI",
-      "summary": "Singapore Airlines leverages OpenAI models and APIs to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-      "keyPoints": [
-        "Uses OpenAI models and APIs for customer support",
-        "Improves travel discovery and employee productivity",
-        "Doubled CSAT performance for the Kris chatbot"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/singapore-airlines-travel-work",
-      "publishedAt": "2026-11-10T08:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Singapore Airlines Enhances Operations with OpenAI",
-          "summary": "Singapore Airlines leverages OpenAI models and APIs to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-          "keyPoints": [
-            "Uses OpenAI models and APIs for customer support",
-            "Improves travel discovery and employee productivity",
-            "Doubled CSAT performance for the Kris chatbot"
-          ]
-        },
-        "fr": {
-          "title": "Singapore Airlines améliore ses services avec OpenAI",
-          "summary": "Singapore Airlines utilise les modèles et API d'OpenAI pour améliorer le support client, la recherche de voyages et la productivité, doublant le CSAT de son chatbot.",
-          "keyPoints": [
-            "Utilise les modèles et API d'OpenAI pour le support client",
-            "Améliore la découverte de voyages et la productivité",
-            "A doublé le score CSAT de son chatbot Kris"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8e8e851f9ac38a",
-      "title": "Google Arts & Culture Launches Dr. Esther Mahlangu Archive",
-      "summary": "An online archive celebrating the life and artistic legacy of Dr. Esther Mahlangu has been launched on Google Arts & Culture.",
-      "keyPoints": [
-        "Features the life and art of Dr. Esther Mahlangu",
-        "Hosted online on Google Arts & Culture",
-        "Highlights her artistic legacy and outreach"
-      ],
-      "category": "Business",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Esther_Mahlangu_SS.width-1300.png",
-      "translations": {
-        "en": {
-          "title": "Google Arts & Culture Launches Dr. Esther Mahlangu Archive",
-          "summary": "An online archive celebrating the life and artistic legacy of Dr. Esther Mahlangu has been launched on Google Arts & Culture.",
-          "keyPoints": [
-            "Features the life and art of Dr. Esther Mahlangu",
-            "Hosted online on Google Arts & Culture",
-            "Highlights her artistic legacy and outreach"
-          ]
-        },
-        "fr": {
-          "title": "Google Arts & Culture lance les archives d'Esther Mahlangu",
-          "summary": "De nouvelles archives en ligne consacrées à la vie et à l'héritage artistique du Dr Esther Mahlangu sont désormais disponibles sur Google Arts & Culture.",
-          "keyPoints": [
-            "Présente la vie et l'art du Dr Esther Mahlangu",
-            "Hébergé en ligne sur Google Arts & Culture",
-            "Met en valeur son héritage artistique"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-43ae09e5aee3b3",
-      "title": "MedScope-4B Teaches Medical VLMs to Report Image Facts",
-      "summary": "Researchers introduce MedScope-4B, using counterfactual lesion erasure to train medical vision-language models to report only what the image actually shows.",
-      "keyPoints": [
-        "Addresses medical VLM hallucination of named findings",
-        "Uses counterfactual lesion erasure without manual annotation",
-        "Achieves high evidence sensitivity gap scores on internal cases"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13006",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MedScope-4B Teaches Medical VLMs to Report Image Facts",
-          "summary": "Researchers introduce MedScope-4B, using counterfactual lesion erasure to train medical vision-language models to report only what the image actually shows.",
-          "keyPoints": [
-            "Addresses medical VLM hallucination of named findings",
-            "Uses counterfactual lesion erasure without manual annotation",
-            "Achieves high evidence sensitivity gap scores on internal cases"
-          ]
-        },
-        "fr": {
-          "title": "MedScope-4B apprend aux VLM médicaux à rapporter l'image",
-          "summary": "Des chercheurs présentent MedScope-4B, utilisant l'effacement contrefactuel pour entraîner les modèles de vision médicale à rapporter uniquement ce que montre l'image.",
-          "keyPoints": [
-            "Traite les hallucinations des VLM médicaux",
-            "Utilise l'effacement contrefactuel des lésions",
-            "Atteint des scores élevés de sensibilité aux preuves"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-590f86c72f2f70",
-      "title": "Ask2Decide Benchmark Evaluates LLM Planning and Clarification",
-      "summary": "Researchers introduce Ask2Decide, a benchmark of 43 planning tasks evaluating whether LLM agents ask for missing information necessary to make sound decisions.",
-      "keyPoints": [
-        "Introduces the Ask2Decide benchmark with 43 planning tasks",
-        "Evaluates agent ability to ask for missing critical information",
-        "Finds that obtaining missing info remains a major planning bottleneck"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13015",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Ask2Decide Benchmark Evaluates LLM Planning and Clarification",
-          "summary": "Researchers introduce Ask2Decide, a benchmark of 43 planning tasks evaluating whether LLM agents ask for missing information necessary to make sound decisions.",
-          "keyPoints": [
-            "Introduces the Ask2Decide benchmark with 43 planning tasks",
-            "Evaluates agent ability to ask for missing critical information",
-            "Finds that obtaining missing info remains a major planning bottleneck"
-          ]
-        },
-        "fr": {
-          "title": "Le benchmark Ask2Decide évalue la planification des LLM",
-          "summary": "Des chercheurs présentent Ask2Decide, un benchmark de 43 tâches évaluant si les agents LLM demandent les informations manquantes nécessaires à leurs décisions.",
-          "keyPoints": [
-            "Introduit le benchmark Ask2Decide de 43 tâches de planification",
-            "Évalue la capacité des agents à demander des informations manquantes",
-            "Montre que l'obtention d'informations reste un goulot d'étranglement"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d3effae8f8a7d7",
-      "title": "Multi-Future Drafting for Tree-Verified Speculative Decoding",
-      "summary": "The authors propose Multi-Future Drafting (MFD) to resolve issues with chimera creation in tree-verified speculative decoding. Using $K$ learned mode embeddings and a mixture DDTree, MFD achieves up to 7.8 times speedup on Qwen targets while eliminating chimeras.",
-      "keyPoints": [
-        "Standard product-ranked trees create chimeras that make up 27-33% of a 64-node tree.",
-        "MFD uses $K$ learned mode embeddings and a mixture DDTree to draft coherent blocks losslessly.",
-        "Achieves up to 7.8x speedup on Qwen targets at batch size 1."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13017",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Multi-Future Drafting for Tree-Verified Speculative Decoding",
-          "summary": "The authors propose Multi-Future Drafting (MFD) to resolve issues with chimera creation in tree-verified speculative decoding. Using $K$ learned mode embeddings and a mixture DDTree, MFD achieves up to 7.8 times speedup on Qwen targets while eliminating chimeras.",
-          "keyPoints": [
-            "Standard product-ranked trees create chimeras that make up 27-33% of a 64-node tree.",
-            "MFD uses $K$ learned mode embeddings and a mixture DDTree to draft coherent blocks losslessly.",
-            "Achieves up to 7.8x speedup on Qwen targets at batch size 1."
-          ]
-        },
-        "fr": {
-          "title": "Multi-Future Drafting pour le décodage spéculatif vérifié par arbre",
-          "summary": "Les auteurs proposent le Multi-Future Drafting (MFD) pour résoudre les problèmes de création de chimères dans le décodage spéculatif vérifié par arbre. En utilisant $K$ plongements de mode appris et un DDTree de mélange, le MFD atteint jusqu'à 7,8 fois d'accélération sur des cibles Qwen.",
-          "keyPoints": [
-            "Les arbres standards classés par produit créent des chimères représentant 27 à 33 % d'un arbre à 64 nœuds.",
-            "Le MFD utilise $K$ plongements de mode et un DDTree de mélange pour générer des blocs cohérents sans perte.",
-            "Atteint jusqu'à 7,8x d'accélération sur les cibles Qwen pour une taille de lot de 1."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-562cf6a6dfb403",
-      "title": "ChipOmni: A General-Purpose AI Agent for Electronic Design Automation",
-      "summary": "ChipOmni is a knowledge-enhanced, context-evolving AI agent framework for Electronic Design Automation (EDA). It integrates multimodal understanding, dynamic planning, and multi-agent collaboration to autonomously manage engineering workflows from specifications to physical layouts.",
-      "keyPoints": [
-        "ChipOmni unifies multimodal understanding, dynamic planning, and verification-driven tool interaction.",
-        "Successfully solves all 30 AnalogCoder-Pro tasks and improves baseline measures.",
-        "Advances a RISC-V specification to a micro-SoC GDSII layout without human intervention."
+        "Repurposes computer-chess machinery to identify plausible human writing rather than just legality.",
+        "Combines an absurdity detector, backward search, and second-player sheet merging to catch silent errors.",
+        "Runs entirely in the browser as a free, private, and offline-capable tool."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13020",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.14544",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ChipOmni: A General-Purpose AI Agent for Electronic Design Automation",
-          "summary": "ChipOmni is a knowledge-enhanced, context-evolving AI agent framework for Electronic Design Automation (EDA). It integrates multimodal understanding, dynamic planning, and multi-agent collaboration to autonomously manage engineering workflows from specifications to physical layouts.",
+          "title": "Zugwise: Domain-Aware Game Reconstruction for Chess Sheets",
+          "summary": "Zugwise repurposes computer-chess machinery to digitize handwritten chess scoresheets by framing the task as game reconstruction rather than simple handwriting recognition. The system uses an absurdity detector, backward search, and a Needleman-Wunsch merge with the second player's sheet to catch silent errors and run efficiently in the browser.",
           "keyPoints": [
-            "ChipOmni unifies multimodal understanding, dynamic planning, and verification-driven tool interaction.",
-            "Successfully solves all 30 AnalogCoder-Pro tasks and improves baseline measures.",
-            "Advances a RISC-V specification to a micro-SoC GDSII layout without human intervention."
+            "Repurposes computer-chess machinery to identify plausible human writing rather than just legality.",
+            "Combines an absurdity detector, backward search, and second-player sheet merging to catch silent errors.",
+            "Runs entirely in the browser as a free, private, and offline-capable tool."
           ]
         },
         "fr": {
-          "title": "ChipOmni : Un agent IA polyvalent pour l'automatisation de la conception électronique",
-          "summary": "ChipOmni est un cadre d'agent IA enrichi par les connaissances et à contexte évolutif pour l'automatisation de la conception électronique (EDA). Il intègre la compréhension multimodale et la planification dynamique pour gérer les flux de travail.",
+          "title": "Zugwise : reconstruction de parties pour feuilles d'échecs",
+          "summary": "Zugwise réutilise des mécanismes d'échecs informatiques pour numériser des feuilles de match manuscrites en posant le problème comme une reconstruction de partie. Le système intègre un détecteur d'absurdité et une fusion pour corriger les erreurs silencieuses directement dans le navigateur.",
           "keyPoints": [
-            "ChipOmni intègre la compréhension multimodale, la planification dynamique et l'interaction pilotée par la vérification.",
-            "Résout avec succès les 30 tâches d'AnalogCoder-Pro et améliore les mesures de référence.",
-            "Fait progresser une spécification RISC-V jusqu'à une disposition GDSII de micro-SoC sans intervention humaine."
+            "Réutilise des outils d'échecs informatiques pour identifier l'écriture humaine plausible.",
+            "Combine un détecteur d'absurdité et une fusion de feuilles pour détecter les erreurs silencieuses.",
+            "Fonctionne entièrement dans le navigateur de manière gratuite, privée et hors ligne."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-1c427b1010bf37",
-      "title": "Understanding-First AI Engineering for Human Comprehension",
-      "summary": "The paper introduces understanding-first AI engineering, treating purpose-specific human understanding as a first-class design principle. It provides a reference architecture and candidate architectural patterns to support explanation, participation, and collective governance.",
+      "id": "feed-a99dfdd20d85ac",
+      "title": "Shield Helps Technicians Hand Off Legacy Portal Work",
+      "summary": "Shield utilizes OpenAI technology to assist IT technicians in handing off tasks within legacy portals. Its Forge agents autonomously navigate systems so that human technicians can concentrate on complex issues requiring specialized judgment.",
       "keyPoints": [
-        "Treats purpose-specific human understanding as a core design principle for requirements and operation.",
-        "Organizes understanding into reflective agency, effective action, collective governance, and epistemic value.",
-        "Proposes a reference architecture and five candidate architectural patterns."
+        "Shield uses OpenAI to streamline task handoffs in legacy IT portals.",
+        "Forge agents navigate complex systems automatically.",
+        "Allows technicians to focus on issues requiring human judgment."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/shield",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Shield Helps Technicians Hand Off Legacy Portal Work",
+          "summary": "Shield utilizes OpenAI technology to assist IT technicians in handing off tasks within legacy portals. Its Forge agents autonomously navigate systems so that human technicians can concentrate on complex issues requiring specialized judgment.",
+          "keyPoints": [
+            "Shield uses OpenAI to streamline task handoffs in legacy IT portals.",
+            "Forge agents navigate complex systems automatically.",
+            "Allows technicians to focus on issues requiring human judgment."
+          ]
+        },
+        "fr": {
+          "title": "Shield aide les techniciens à déléguer le travail",
+          "summary": "Shield utilise la technologie d'OpenAI pour aider les techniciens informatiques à déléguer des tâches dans des portails obsolètes. Ses agents Forge naviguent dans les systèmes afin que les techniciens se concentrent sur les problèmes complexes.",
+          "keyPoints": [
+            "Shield exploite OpenAI pour fluidifier la transition des tâches informatiques.",
+            "Les agents Forge naviguent automatiquement dans les systèmes hérités.",
+            "Permet aux techniciens de se concentrer sur les cas nécessitant du jugement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c44ac57feedcf6",
+      "title": "Cleaning an Agent's History Hurts When Errors Persist",
+      "summary": "Tool-using language-model agents often accumulate mistakes in their histories. Research shows that compacting or editing history to look clean while the physical world still contains the error can leave an agent worse off than retaining unedited history.",
+      "keyPoints": [
+        "Agent history cleaning methods can negatively impact recovery if the world holds the error.",
+        "Truthful notes beside preserved errors raised task recovery rates in benchmarks.",
+        "Completed corrective actions without matching world changes lowered overall success."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14654",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Cleaning an Agent's History Hurts When Errors Persist",
+          "summary": "Tool-using language-model agents often accumulate mistakes in their histories. Research shows that compacting or editing history to look clean while the physical world still contains the error can leave an agent worse off than retaining unedited history.",
+          "keyPoints": [
+            "Agent history cleaning methods can negatively impact recovery if the world holds the error.",
+            "Truthful notes beside preserved errors raised task recovery rates in benchmarks.",
+            "Completed corrective actions without matching world changes lowered overall success."
+          ]
+        },
+        "fr": {
+          "title": "Nettoyer l'historique d'un agent nuit si l'erreur persiste",
+          "summary": "Les agents linguistiques accumulent des erreurs dans leurs historiques. Modifier l'historique pour le rendre propre alors que le monde réel contient toujours l'erreur peut s'avérer plus préjudiciable que de ne rien changer.",
+          "keyPoints": [
+            "Le nettoyage d'historique peut nuire si le monde extérieur conserve l'erreur.",
+            "Des notes véridiques à côté des erreurs préservées améliorent le taux de récupération.",
+            "Les actions correctives achevées sans modification du monde diminuent le succès global."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a0b5c798ba3b66",
+      "title": "Together Compiler for Continual AI Inference Optimization",
+      "summary": "Together Compiler (TKCC) is an agent loop designed for continual AI inference optimization. By utilizing a Tiered Persistent Engine and a cost model for parallelism configurations, TKCC outperforms optimized hand-written Megakernels and frontier open source engines.",
+      "keyPoints": [
+        "Introduces a continual agent loop for AI inference optimization called Together Compiler (TKCC).",
+        "Uses a Tiered Persistent Engine to decouple engine launch overheads from forward pass computation.",
+        "Outperforms optimized Megakernels and open source engines on benchmark workloads."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.13022",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.14681",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Understanding-First AI Engineering for Human Comprehension",
-          "summary": "The paper introduces understanding-first AI engineering, treating purpose-specific human understanding as a first-class design principle. It provides a reference architecture and candidate architectural patterns to support explanation, participation, and collective governance.",
+          "title": "Together Compiler for Continual AI Inference Optimization",
+          "summary": "Together Compiler (TKCC) is an agent loop designed for continual AI inference optimization. By utilizing a Tiered Persistent Engine and a cost model for parallelism configurations, TKCC outperforms optimized hand-written Megakernels and frontier open source engines.",
           "keyPoints": [
-            "Treats purpose-specific human understanding as a core design principle for requirements and operation.",
-            "Organizes understanding into reflective agency, effective action, collective governance, and epistemic value.",
-            "Proposes a reference architecture and five candidate architectural patterns."
+            "Introduces a continual agent loop for AI inference optimization called Together Compiler (TKCC).",
+            "Uses a Tiered Persistent Engine to decouple engine launch overheads from forward pass computation.",
+            "Outperforms optimized Megakernels and open source engines on benchmark workloads."
           ]
         },
         "fr": {
-          "title": "Ingénierie de l'IA axée sur la compréhension humaine",
-          "summary": "L'article présente l'ingénierie de l'IA axée sur la compréhension, traitant la compréhension humaine comme un principe de conception fondamental. Il propose une architecture de référence et des modèles architecturaux pour soutenir l'explication et la gouvernance.",
+          "title": "Together Compiler pour l'optimisation continue de l'inférence",
+          "summary": "Together Compiler (TKCC) est une boucle d'agents conçue pour l'optimisation continue de l'inférence par IA. En combinant un moteur persistant hiérarchisé et un modèle de coût, TKCC surpasse les méganoyaux écrits à la main et les moteurs ouverts.",
           "keyPoints": [
-            "Traite la compréhension humaine spécifique comme un principe de conception central.",
-            "Organise la compréhension en quatre rationalités : agence réflexive, action efficace, gouvernance collective et valeur épistémique.",
-            "Propose une architecture de référence et cinq modèles architecturaux candidats."
+            "Présente TKCC, une boucle d'agents continue pour optimiser l'inférence.",
+            "Sépare les surcoûts de lancement et le calcul grâce à un moteur persistant hiérarchisé.",
+            "Surpasse les méganoyaux optimisés et les moteurs open source sur divers bancs d'essai."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-15e8418a00dbc2",
+      "title": "Semantic Priors in Partially-Identified Causal Discovery",
+      "summary": "Observational causal discovery often leaves directions unstable, prompting the use of Large Language Models for semantic guidance. A new framework analyzes allocation, admission, and retention decisions, identifying calibration size and reference adequacy as primary limitations.",
+      "keyPoints": [
+        "Evaluates LLM semantic information use in observational causal discovery tasks.",
+        "Examines semantic allocation, admission criteria, and downstream causal graph retention.",
+        "Identifies calibration size and reference adequacy as key methodological limitations."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14736",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Semantic Priors in Partially-Identified Causal Discovery",
+          "summary": "Observational causal discovery often leaves directions unstable, prompting the use of Large Language Models for semantic guidance. A new framework analyzes allocation, admission, and retention decisions, identifying calibration size and reference adequacy as primary limitations.",
+          "keyPoints": [
+            "Evaluates LLM semantic information use in observational causal discovery tasks.",
+            "Examines semantic allocation, admission criteria, and downstream causal graph retention.",
+            "Identifies calibration size and reference adequacy as key methodological limitations."
+          ]
+        },
+        "fr": {
+          "title": "Priors sémantiques dans la découverte causale partiellement identifiée",
+          "summary": "La découverte causale laisse souvent des directions instables, incitant à l'usage de grands modèles de langage pour guider l'analyse. Un nouveau cadre étudie les décisions d'allocation, d'admission et de rétention, pointant les limites de calibrage.",
+          "keyPoints": [
+            "Évalue l'utilisation sémantique des LLM dans la découverte causale observationnelle.",
+            "Analyse l'allocation sémantique, l'admission et la rétention des graphes causaux.",
+            "Identifie la taille de calibration et l'adéquation des références comme limites clés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cd1f1a3b900c46",
+      "title": "SynthCorp: Platform for Creating Data Agent Benchmarks",
+      "summary": "SynthCorp is a platform that automatically generates customizable corporate data estates and analytical benchmarks by simulating business events over time. The platform creates verifiable gold programs and tasks without requiring manual annotation.",
+      "keyPoints": [
+        "Simulates business events to create customizable corporate data estates and evaluation benchmarks.",
+        "Generates relational databases, document stores, and data catalogs with execution logs.",
+        "Derives verified gold programs automatically from simulation logs without manual annotation."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14765",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SynthCorp: Platform for Creating Data Agent Benchmarks",
+          "summary": "SynthCorp is a platform that automatically generates customizable corporate data estates and analytical benchmarks by simulating business events over time. The platform creates verifiable gold programs and tasks without requiring manual annotation.",
+          "keyPoints": [
+            "Simulates business events to create customizable corporate data estates and evaluation benchmarks.",
+            "Generates relational databases, document stores, and data catalogs with execution logs.",
+            "Derives verified gold programs automatically from simulation logs without manual annotation."
+          ]
+        },
+        "fr": {
+          "title": "SynthCorp : Plateforme de benchmarks pour agents de données",
+          "summary": "SynthCorp est une plateforme qui génère automatiquement des patrimoines de données d'entreprise et des benchmarks analytiques en simulant des événements commerciaux. Elle produit des programmes de référence vérifiés sans annotation manuelle.",
+          "keyPoints": [
+            "Simule des événements commerciaux pour créer des environnements de données et des benchmarks.",
+            "Génère des bases relationnelles, des catalogues et des journaux de simulation.",
+            "Dérive des programmes de référence vérifiés directement à partir des journaux de simulation."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-49296ad60c9ab2",
+      "title": "Rational Use of Time for Social Coordination in Humans and AI",
+      "summary": "Using a cooperative card game called The Mind, researchers study how humans and AI systems use implicit temporal cues like pause duration for social coordination. Results indicate humans and frontier models use probabilistic timing strategies, though current models struggle to adapt.",
+      "keyPoints": [
+        "Studies social coordination through time duration cues using a cooperative card game task.",
+        "Compares human behavior against computer-use agents and standard text-prompted LLMs.",
+        "Shows humans and frontier models infer intent via timing, though AI lacks adaptive partner learning."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14766",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Rational Use of Time for Social Coordination in Humans and AI",
+          "summary": "Using a cooperative card game called The Mind, researchers study how humans and AI systems use implicit temporal cues like pause duration for social coordination. Results indicate humans and frontier models use probabilistic timing strategies, though current models struggle to adapt.",
+          "keyPoints": [
+            "Studies social coordination through time duration cues using a cooperative card game task.",
+            "Compares human behavior against computer-use agents and standard text-prompted LLMs.",
+            "Shows humans and frontier models infer intent via timing, though AI lacks adaptive partner learning."
+          ]
+        },
+        "fr": {
+          "title": "Usage rationnel du temps pour la coordination sociale",
+          "summary": "À l'aide du jeu The Mind, les chercheurs étudient comment les humains et l'IA utilisent des indices temporels implicites pour la coordination sociale. L'étude montre que si les modèles captent ces signaux, ils peinent à s'adapter dynamiquement.",
+          "keyPoints": [
+            "Étudie la coordination sociale à travers des indices temporels dans un jeu de cartes.",
+            "Compare les comportements humains à des agents informatiques et des LLM textuels.",
+            "Montre que les modèles infèrent l'intention via le timing mais manquent d'adaptation."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-36459f304a2d52",
+      "title": "Leaderboard Hacking: Vulnerabilities in Model Evaluations",
+      "summary": "Arena-style language model rankings rely on pairwise comparisons and Bradley-Terry aggregation. However, research reveals these leaderboards are vulnerable to strategic voting, prompting, and nomination attacks that can drastically boost model ranks.",
+      "keyPoints": [
+        "Demonstrates that preference-based model evaluations are vulnerable to manipulation strategies.",
+        "Identifies strategic voting, strategic prompting, and strategic nomination as primary attack vectors.",
+        "Shows that these attacks can boost a model's rank by up to 45 places on public leaderboards."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14769",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Leaderboard Hacking: Vulnerabilities in Model Evaluations",
+          "summary": "Arena-style language model rankings rely on pairwise comparisons and Bradley-Terry aggregation. However, research reveals these leaderboards are vulnerable to strategic voting, prompting, and nomination attacks that can drastically boost model ranks.",
+          "keyPoints": [
+            "Demonstrates that preference-based model evaluations are vulnerable to manipulation strategies.",
+            "Identifies strategic voting, strategic prompting, and strategic nomination as primary attack vectors.",
+            "Shows that these attacks can boost a model's rank by up to 45 places on public leaderboards."
+          ]
+        },
+        "fr": {
+          "title": "Piratage de classements : vulnérabilités des évaluations",
+          "summary": "Les classements de modèles de langage basés sur des comparaisons par paires sont vulnérables à des manipulations stratégiques. Des attaques par vote, incitation ou nomination ciblée peuvent considérablement gonfler le rang d'un modèle.",
+          "keyPoints": [
+            "Met en évidence la vulnérabilité des évaluations basées sur les préférences face à la manipulation.",
+            "Identifie le vote stratégique, le prompt stratégique et la nomination comme vecteurs d'attaque.",
+            "Montre que ces attaques combinées peuvent élever un modèle de plusieurs dizaines de places."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-e8ad9ae41ba74f",
+      "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+      "summary": "To address the unreliability of determinized Vision-Language Model predictions, researchers propose computing confidence-based Minimal Belief Sets (MBS). This approach leverages underlying token distributions to maintain tractable, robust probabilistic states for downstream decision-making.",
+      "keyPoints": [
+        "Addresses uncertainty in pretrained perception models by avoiding single best-guess states.",
+        "Introduces confidence-based Minimal Belief Sets (MBS) to keep probability distributions tractable.",
+        "Presents the PRaVaSS algorithm for polynomial complexity state estimation with correctness guarantees."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14781",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+          "summary": "To address the unreliability of determinized Vision-Language Model predictions, researchers propose computing confidence-based Minimal Belief Sets (MBS). This approach leverages underlying token distributions to maintain tractable, robust probabilistic states for downstream decision-making.",
+          "keyPoints": [
+            "Addresses uncertainty in pretrained perception models by avoiding single best-guess states.",
+            "Introduces confidence-based Minimal Belief Sets (MBS) to keep probability distributions tractable.",
+            "Presents the PRaVaSS algorithm for polynomial complexity state estimation with correctness guarantees."
+          ]
+        },
+        "fr": {
+          "title": "Estimation d'état robuste à partir de la perception pré-entraînée",
+          "summary": "Pour contrer l'incertitude des modèles de vision-langage, les chercheurs proposent de calculer des ensembles de croyance minimale (MBS) basés sur la confiance. Cette méthode préserve des états probabilistes gérables pour la prise de décision.",
+          "keyPoints": [
+            "Traite l'incertitude des modèles de perception sans s'en remettre à une hypothèse unique.",
+            "Utilise des ensembles de croyance minimale (MBS) pour maintenir la faisabilité de calcul.",
+            "Propose l'algorithme PRaVaSS pour une estimation d'état efficace et garantie."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ba68d014b0c0b5",
+      "title": "Evaluating Proof-Step Verification for Open-Weight Models",
+      "summary": "Proof-step verification uses LLM judges to certify or decline typed solver steps across reasoning datasets. While certification significantly raises answer precision, it drops coverage and exposes challenges with invalid proof constructions and low inter-auditor agreement.",
+      "keyPoints": [
+        "Evaluates certify-or-decline proof-step verification pipelines on open-weight reasoning models.",
+        "Shows certification raises answer precision significantly while reducing task coverage.",
+        "Identifies execution failures and near-zero chance-corrected agreement between auditor pairs."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14794",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evaluating Proof-Step Verification for Open-Weight Models",
+          "summary": "Proof-step verification uses LLM judges to certify or decline typed solver steps across reasoning datasets. While certification significantly raises answer precision, it drops coverage and exposes challenges with invalid proof constructions and low inter-auditor agreement.",
+          "keyPoints": [
+            "Evaluates certify-or-decline proof-step verification pipelines on open-weight reasoning models.",
+            "Shows certification raises answer precision significantly while reducing task coverage.",
+            "Identifies execution failures and near-zero chance-corrected agreement between auditor pairs."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation de la vérification par étape de preuve pour modèles ouverts",
+          "summary": "La vérification par étape de preuve utilise des LLM pour certifier ou rejeter les réponses de solveurs. Si la certification accroît la précision des réponses correctes, elle réduit la couverture et révèle des limites de consensus entre auditeurs.",
+          "keyPoints": [
+            "Évalue les pipelines de vérification de preuves sur des modèles de raisonnement ouverts.",
+            "Montre que la certification améliore la précision au détriment de la couverture globale.",
+            "Identifie des échecs d'exécution et un accord quasi nul entre paires d'auditeurs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4acd1d67dd2a51",
+      "title": "GenPFN: An In-Context Tabular Foundation Model Approach for Engineering Datasets",
+      "summary": "GenPFN is a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted Network classifier to augment small engineering datasets. Evaluated across fourteen problems, it achieves higher class satisfaction and lower realism distance than tested adversarial, variational-autoencoder, and diffusion generators, while reducing validation mean squared error.",
+      "keyPoints": [
+        "GenPFN uses a fixed-weight TabPFN classifier and Gaussian noise to interpolate and refine candidate designs.",
+        "Outperforms tested VAE, adversarial, and diffusion generators in class satisfaction and realism distance.",
+        "Reduces estimated AutoGluon validation mean squared error by 62.1% relative to context-only training."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14804",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "GenPFN: An In-Context Tabular Foundation Model Approach for Engineering Datasets",
+          "summary": "GenPFN is a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted Network classifier to augment small engineering datasets. Evaluated across fourteen problems, it achieves higher class satisfaction and lower realism distance than tested adversarial, variational-autoencoder, and diffusion generators, while reducing validation mean squared error.",
+          "keyPoints": [
+            "GenPFN uses a fixed-weight TabPFN classifier and Gaussian noise to interpolate and refine candidate designs.",
+            "Outperforms tested VAE, adversarial, and diffusion generators in class satisfaction and realism distance.",
+            "Reduces estimated AutoGluon validation mean squared error by 62.1% relative to context-only training."
+          ]
+        },
+        "fr": {
+          "title": "GenPFN : une approche de modèle de fondation tabulaire pour les ensembles de données",
+          "summary": "GenPFN est un générateur de candidats sans entraînement guidé par un classifieur TabPFN pré-entraîné pour augmenter les petits ensembles de données d'ingénierie. Évalué sur quatorze problèmes, il surpasse les générateurs adversariaux, VAE et par diffusion testés.",
+          "keyPoints": [
+            "GenPFN utilise un classifieur TabPFN à poids fixes et du bruit gaussien pour raffiner les conceptions.",
+            "Surpasse les générateurs VAE, adversariaux et par diffusion en termes de satisfaction de classe.",
+            "Réduit l'erreur quadratique moyenne de validation estimée d'AutoGluon de 62,1 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-eef01a785311fe",
+      "title": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+      "summary": "AutoAssumption formalizes ML algorithms as proof graphs with explicit assumptions checked in Lean. By relaxing assumptions, the harness discovers state-of-the-art algorithms for KV-cache eviction and weight pruning, matching open-source AlphaEvolve implementations with a lower standard deviation.",
+      "keyPoints": [
+        "Formalizes 89 algorithms as proof graphs with explicit assumptions checked in Lean.",
+        "AutoAssumption relaxes published assumptions to re-derive and discover state-of-the-art algorithms.",
+        "Scores within a point of OpenEvolve with a lower standard deviation across repeats."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14844",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+          "summary": "AutoAssumption formalizes ML algorithms as proof graphs with explicit assumptions checked in Lean. By relaxing assumptions, the harness discovers state-of-the-art algorithms for KV-cache eviction and weight pruning, matching open-source AlphaEvolve implementations with a lower standard deviation.",
+          "keyPoints": [
+            "Formalizes 89 algorithms as proof graphs with explicit assumptions checked in Lean.",
+            "AutoAssumption relaxes published assumptions to re-derive and discover state-of-the-art algorithms.",
+            "Scores within a point of OpenEvolve with a lower standard deviation across repeats."
+          ]
+        },
+        "fr": {
+          "title": "AutoAssumption : la recherche d'hypothèses découvre des algorithmes de systèmes ML",
+          "summary": "AutoAssumption formalise les algorithmes ML sous forme de graphes de preuves avec des hypothèses explicites vérifiées dans Lean. En relâchant les hypothèses, le système découvre des algorithmes de pointe pour l'éviction du cache KV et l'élagage des poids.",
+          "keyPoints": [
+            "Formalise 89 algorithmes sous forme de graphes de preuves vérifiés dans Lean.",
+            "Relâche les hypothèses publiées pour redériver et découvrir des algorithmes de pointe.",
+            "Atteint des scores comparables à OpenEvolve avec un écart-type plus faible."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1c17e7e3955e40",
+      "title": "Open Challenges and Opportunities in Human-Agent Systems",
+      "summary": "This paper examines how foundations from the Autonomous Agents and Multi-Agent Systems community inform human-agent interaction. It organizes computational approaches around understanding others and deciding how to interact under uncertainty and interdependence.",
+      "keyPoints": [
+        "Focuses on interactions from individual partnerships to teams with differing roles and objectives.",
+        "Uses Theory of Mind, belief-desire-intention architectures, and recursive reasoning for mental states.",
+        "Frames human interaction as an ongoing decision problem shaped by uncertainty and conflicting objectives."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14846",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Open Challenges and Opportunities in Human-Agent Systems",
+          "summary": "This paper examines how foundations from the Autonomous Agents and Multi-Agent Systems community inform human-agent interaction. It organizes computational approaches around understanding others and deciding how to interact under uncertainty and interdependence.",
+          "keyPoints": [
+            "Focuses on interactions from individual partnerships to teams with differing roles and objectives.",
+            "Uses Theory of Mind, belief-desire-intention architectures, and recursive reasoning for mental states.",
+            "Frames human interaction as an ongoing decision problem shaped by uncertainty and conflicting objectives."
+          ]
+        },
+        "fr": {
+          "title": "Défis et opportunités ouverts dans les systèmes humain-agent",
+          "summary": "Cet article examine comment les fondements de la communauté des agents autonomes éclairent l'interaction humain-agent. Il organise les approches computationnelles autour de la compréhension d'autrui et de la prise de décision sous incertitude.",
+          "keyPoints": [
+            "Se concentre sur les interactions allant des partenariats individuels aux équipes.",
+            "Mobilise la théorie de l'esprit et les architectures croyance-désir-intention.",
+            "Traite l'interaction humaine comme un problème de décision continu façonné par l'incertitude."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f6b938cfe6ea28",
+      "title": "Effective Teacher Support for Reasoning Distillation",
+      "summary": "The authors propose distilling language models from the teacher's highest-probability vocabulary fraction rather than the full vocabulary. Retaining 0.01% support cuts training step time by 38% and peak memory by 24% without observed MMLU-Pro degradation.",
+      "keyPoints": [
+        "Distills from the teacher's highest-probability vocabulary fraction, sweeping support from 100% to 0.01%.",
+        "Retaining 0.01% support causes no observed MMLU-Pro degradation in tested Qwen3 settings.",
+        "Cuts training step time by 38% and peak memory by 24% at 0.01% support."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14850",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Effective Teacher Support for Reasoning Distillation",
+          "summary": "The authors propose distilling language models from the teacher's highest-probability vocabulary fraction rather than the full vocabulary. Retaining 0.01% support cuts training step time by 38% and peak memory by 24% without observed MMLU-Pro degradation.",
+          "keyPoints": [
+            "Distills from the teacher's highest-probability vocabulary fraction, sweeping support from 100% to 0.01%.",
+            "Retaining 0.01% support causes no observed MMLU-Pro degradation in tested Qwen3 settings.",
+            "Cuts training step time by 38% and peak memory by 24% at 0.01% support."
+          ]
+        },
+        "fr": {
+          "title": "Support enseignant efficace pour la distillation du raisonnement",
+          "summary": "Les auteurs proposent de distiller les modèles de langage à partir de la fraction du vocabulaire du professeur ayant la plus forte probabilité. Conserver un support de 0,01 % réduit le temps d'entraînement de 38 % sans dégradation de MMLU-Pro.",
+          "keyPoints": [
+            "Distille à partir de la fraction du vocabulaire la plus probable du professeur.",
+            "Conserver 0,01 % du support n'entraîne aucune dégradation observable sur MMLU-Pro.",
+            "Réduit le temps d'étape d'entraînement de 38 % et la mémoire de pic de 24 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-dfd668c04c09b0",
+      "title": "Can an AI Agent Be Epistemically Akratic? Higher-Order Evidence & Limits",
+      "summary": "This paper investigates whether AI agents can exhibit epistemic akrasia when evaluating their own reasoning. It challenges the assumption that bringing an agent's beliefs into agreement with self-assessments necessarily improves its self-correction capabilities.",
+      "keyPoints": [
+        "Examines the challenge of higher-order evidence and self-correction limitations in AI agents.",
+        "Argues that retaining conclusions judged unjustified can reflect proper epistemic competence.",
+        "Challenges the assumption that aligning beliefs with self-assessments always fixes mistakes."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14889",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Can an AI Agent Be Epistemically Akratic? Higher-Order Evidence & Limits",
+          "summary": "This paper investigates whether AI agents can exhibit epistemic akrasia when evaluating their own reasoning. It challenges the assumption that bringing an agent's beliefs into agreement with self-assessments necessarily improves its self-correction capabilities.",
+          "keyPoints": [
+            "Examines the challenge of higher-order evidence and self-correction limitations in AI agents.",
+            "Argues that retaining conclusions judged unjustified can reflect proper epistemic competence.",
+            "Challenges the assumption that aligning beliefs with self-assessments always fixes mistakes."
+          ]
+        },
+        "fr": {
+          "title": "Un agent IA peut-il être épistémiquement akratique ? Preuves d'ordre supérieur",
+          "summary": "Cet article étudie si les agents IA peuvent faire preuve d'akrasie épistémique lors de l'évaluation de leur propre raisonnement. Il remet en question l'idée selon laquelle aligner les croyances d'un agent sur ses auto-évaluations améliore ses corrections.",
+          "keyPoints": [
+            "Examine le défi des preuves d'ordre supérieur et des limites d'auto-correction.",
+            "Soutient que retenir des conclusions jugées injustifiées peut refléter une compétence épistémique.",
+            "Conteste l'hypothèse selon laquelle l'alignement des croyances élimine les erreurs."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ffa1f59686fc24",
+      "title": "MuEdit: An Efficient Multi-Task Editing Method for Knowledge Conflicts",
+      "summary": "MuEdit addresses inter-domain null-space misalignment in sequential large language model editing. By combining conflict-aware ordering and dynamic low-rank approximation, it outperforms existing baselines across heterogeneous domains.",
+      "keyPoints": [
+        "Traces sequential editing failure to inter-domain null-space misalignment and shrinking common null spaces.",
+        "Introduces the Conflict Index to quantify geometric interference between tasks.",
+        "Uses conflict-aware ordering and dynamic low-rank approximation to enable conflict-free updates."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14910",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MuEdit: An Efficient Multi-Task Editing Method for Knowledge Conflicts",
+          "summary": "MuEdit addresses inter-domain null-space misalignment in sequential large language model editing. By combining conflict-aware ordering and dynamic low-rank approximation, it outperforms existing baselines across heterogeneous domains.",
+          "keyPoints": [
+            "Traces sequential editing failure to inter-domain null-space misalignment and shrinking common null spaces.",
+            "Introduces the Conflict Index to quantify geometric interference between tasks.",
+            "Uses conflict-aware ordering and dynamic low-rank approximation to enable conflict-free updates."
+          ]
+        },
+        "fr": {
+          "title": "MuEdit : Une méthode d'édition multi-tâches efficace pour les conflits de connaissances",
+          "summary": "MuEdit résout le désalignement de l'espace nul inter-domaine dans l'édition séquentielle de grands modèles de langage. En combinant un tri sensible aux conflits et une approximation de faible rang, il surpasse les bases existantes.",
+          "keyPoints": [
+            "Analyse l'échec de l'édition séquentielle face au désalignement de l'espace nul.",
+            "Introduit l'indice de conflit pour quantifier l'interférence géométrique entre les tâches.",
+            "Utilise un tri sensible aux conflits et une approximation de faible rang dynamique."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2551474761e055",
+      "title": "Edge-Native Multimodal RAG: Hardware-Aware Quantization for Consumer GPUs",
+      "summary": "This paper presents an edge-native multimodal retrieval-augmented generation framework optimized for consumer Turing hardware. By coupling NormalFloat 4-bit quantization with Florence-2, it achieves visual reasoning with minimal VRAM overhead.",
+      "keyPoints": [
+        "Compares GPTQ and NF4 quantization, finding NF4 maintains robust long-term context performance.",
+        "Couples NF4 with a decoupled Florence-2 vision integration, achieving visual reasoning with 430 MB VRAM overhead.",
+        "Structured few-shot prompting restores mathematical accuracy from 35.0% to 92.0% across trials."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14924",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Edge-Native Multimodal RAG: Hardware-Aware Quantization for Consumer GPUs",
+          "summary": "This paper presents an edge-native multimodal retrieval-augmented generation framework optimized for consumer Turing hardware. By coupling NormalFloat 4-bit quantization with Florence-2, it achieves visual reasoning with minimal VRAM overhead.",
+          "keyPoints": [
+            "Compares GPTQ and NF4 quantization, finding NF4 maintains robust long-term context performance.",
+            "Couples NF4 with a decoupled Florence-2 vision integration, achieving visual reasoning with 430 MB VRAM overhead.",
+            "Structured few-shot prompting restores mathematical accuracy from 35.0% to 92.0% across trials."
+          ]
+        },
+        "fr": {
+          "title": "RAG multimodal natif pour la périphérie : Quantification pour GPU grand public",
+          "summary": "Cet article présente un cadre RAG multimodal optimisé pour le matériel Turing grand public. En associant la quantification NF4 à Florence-2, il permet un raisonnement visuel avec un surcoût de VRAM minimal.",
+          "keyPoints": [
+            "Compare la quantification GPTQ et NF4, montrant la robustesse de NF4 sur contexte long.",
+            "Associe NF4 à une intégration visuelle Florence-2 avec un surcoût de 430 Mo de VRAM.",
+            "Le prompt de type few-shot structuré restaure la précision mathématique de 35,0 % à 92,0 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4879cee224c947",
+      "title": "Provably Optimal HBT Legalization in Seconds Using Certified Optima",
+      "summary": "This paper introduces GEO-Exact, an exact solver for hybrid bonding terminal legalization in 3D ICs, backed by independent dual certificates proving optimality. The solver outperforms heuristic baselines and reveals true algorithmic headroom.",
+      "keyPoints": [
+        "Builds an open benchmark of 21 design instances with reconstructed baselines and exact solvers.",
+        "GEO-Exact proves assignment optimality with a relative primal-dual gap under 8.2 x 10^-16.",
+        "Runs about an order of magnitude faster than density-guided heuristics while exposing true headroom."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14928",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Provably Optimal HBT Legalization in Seconds Using Certified Optima",
+          "summary": "This paper introduces GEO-Exact, an exact solver for hybrid bonding terminal legalization in 3D ICs, backed by independent dual certificates proving optimality. The solver outperforms heuristic baselines and reveals true algorithmic headroom.",
+          "keyPoints": [
+            "Builds an open benchmark of 21 design instances with reconstructed baselines and exact solvers.",
+            "GEO-Exact proves assignment optimality with a relative primal-dual gap under 8.2 x 10^-16.",
+            "Runs about an order of magnitude faster than density-guided heuristics while exposing true headroom."
+          ]
+        },
+        "fr": {
+          "title": "Légalisation HBT prouvée optimale en quelques secondes grâce à des optima certifiés",
+          "summary": "Cet article présente GEO-Exact, un solveur exact pour la légalisation des terminaux de liaison hybride dans les circuits 3D, validé par des certificats duaux. Le solveur surpasse les références heuristiques et évalue les marges de progression.",
+          "keyPoints": [
+            "Constitue un benchmark ouvert de 21 instances de conception avec des solveurs exacts.",
+            "GEO-Exact prouve l'optimalité de l'affectation avec un écart primal-dual minime.",
+            "Fonctionne environ dix fois plus vite que les heuristiques guidées par la densité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-4718e767aa3d93",
+      "title": "Emergent Vision-Shaped Thinking in Text-Only Reasoning via Multimodal Training",
+      "summary": "The authors investigate whether multimodal training shapes text-only model reasoning. Using causal ablations across multiple configurations, they identify emergent vision-shaped thinking where text-only models recruit vision-induced representations.",
+      "keyPoints": [
+        "Tests causal ablations across 10 multimodal configurations from 6 model families.",
+        "Identifies a vision-language axis in hidden-state space that affects spatial-imagery tasks.",
+        "Reveals emergent vision-shaped thinking in text-only reasoning without assuming an image-like format."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14942",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Emergent Vision-Shaped Thinking in Text-Only Reasoning via Multimodal Training",
+          "summary": "The authors investigate whether multimodal training shapes text-only model reasoning. Using causal ablations across multiple configurations, they identify emergent vision-shaped thinking where text-only models recruit vision-induced representations.",
+          "keyPoints": [
+            "Tests causal ablations across 10 multimodal configurations from 6 model families.",
+            "Identifies a vision-language axis in hidden-state space that affects spatial-imagery tasks.",
+            "Reveals emergent vision-shaped thinking in text-only reasoning without assuming an image-like format."
+          ]
+        },
+        "fr": {
+          "title": "Pensée façonnée par la vision dans le raisonnement textuel via l'entraînement multimodal",
+          "summary": "Les auteurs étudient si l'entraînement multimodal façonne le raisonnement des modèles textuels. Par des ablations causales, ils identifient une pensée façonnée par la vision où les modèles textuels exploitent des représentations visuelles.",
+          "keyPoints": [
+            "Teste des ablations causales sur 10 configurations multimodales issues de 6 familles de modèles.",
+            "Identifie un axe vision-langage dans l'espace des états cachés influençant les tâches spatiales.",
+            "Révèle une pensée façonnée par la vision dans le raisonnement purement textuel."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-17f1101ae69fb7",
+      "title": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
+      "summary": "RSI-PDEbench is a benchmark of 1,001 cases across 42 equation templates for evaluating self-improving LLM agents in solving partial differential equations. The recursive self-improving agent harness, RSI-PDE, improves pass rates while reducing model calls.",
+      "keyPoints": [
+        "Includes 1,001 cases across 42 equation templates with Full, Noisy, and Hard-OOD settings.",
+        "RSI-PDE recursively refines equation candidates, coefficients, and solvers using residual loss feedback.",
+        "Improves average pass rates by 106.5% to 181.9% over single-run baselines while cutting model calls."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.14949",
+      "publishedAt": "2026-11-14T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
+          "summary": "RSI-PDEbench is a benchmark of 1,001 cases across 42 equation templates for evaluating self-improving LLM agents in solving partial differential equations. The recursive self-improving agent harness, RSI-PDE, improves pass rates while reducing model calls.",
+          "keyPoints": [
+            "Includes 1,001 cases across 42 equation templates with Full, Noisy, and Hard-OOD settings.",
+            "RSI-PDE recursively refines equation candidates, coefficients, and solvers using residual loss feedback.",
+            "Improves average pass rates by 106.5% to 181.9% over single-run baselines while cutting model calls."
+          ]
+        },
+        "fr": {
+          "title": "RSI-PDEbench : un banc d'essai pour agents auto-améliorants dans la résolution d'EDP",
+          "summary": "RSI-PDEbench est un banc d'essai de 1001 cas pour évaluer des agents LLM auto-améliorants dans la résolution d'équations aux dérivées partielles. Le système RSI-PDE améliore les taux de réussite tout en réduisant les appels aux modèles.",
+          "keyPoints": [
+            "Comprend 1001 cas répartis sur 42 modèles d'équations avec des configurations variées.",
+            "RSI-PDE affine récursivement les candidats et les solveurs à l'aide de rétroactions de perte résiduelle.",
+            "Améliore les taux de réussite de 106,5 % à 181,9 % par rapport aux bases de référence."
           ]
         }
       },
@@ -785,11 +784,11 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 41,
+    "itemsCollected": 579,
     "itemsPublished": 20,
-    "newItems": 2,
-    "candidates": 2,
-    "batches": 1,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
