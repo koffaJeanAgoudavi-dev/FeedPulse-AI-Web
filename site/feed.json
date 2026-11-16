@@ -1,232 +1,427 @@
 {
-  "generatedAt": "2026-11-16T06:33:16.168Z",
+  "generatedAt": "2026-11-16T22:05:57.570Z",
   "items": [
     {
-      "id": "feed-f5dc4cd120b456",
-      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-      "summary": "This paper investigates how hard-filtering in LLM memory systems—deleting facts classified as stale—can degrade downstream accuracy when resolver errors mistakenly drop query-critical facts. The authors show that false-drop causes greater degradation than false-keep, and propose treating deletion as cost-sensitive or defaulting to label-free retention when validation is unavailable.",
+      "id": "feed-2d7a5d6b20fff3",
+      "title": "Expanding ChatGPT Access for Academic Researchers Worldwide",
+      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program to provide 200,000 researchers worldwide with free access to frontier models.",
       "keyPoints": [
-        "Hard-filtering of stale facts can reduce downstream accuracy due to resolver errors.",
-        "False-drop errors cause significantly greater degradation than false-keep errors.",
-        "The authors recommend treating deletion as cost-sensitive and validating query-critical false-drop risks."
+        "Program expanded globally",
+        "200,000 researchers receive free access",
+        "Access granted to frontier models"
       ],
       "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17338",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-          "summary": "This paper investigates how hard-filtering in LLM memory systems—deleting facts classified as stale—can degrade downstream accuracy when resolver errors mistakenly drop query-critical facts. The authors show that false-drop causes greater degradation than false-keep, and propose treating deletion as cost-sensitive or defaulting to label-free retention when validation is unavailable.",
-          "keyPoints": [
-            "Hard-filtering of stale facts can reduce downstream accuracy due to resolver errors.",
-            "False-drop errors cause significantly greater degradation than false-keep errors.",
-            "The authors recommend treating deletion as cost-sensitive and validating query-critical false-drop risks."
-          ]
-        },
-        "fr": {
-          "title": "Quand les agents LLM doivent-ils oublier ? Filtrage de la mémoire",
-          "summary": "Cet article examine comment le filtrage strict dans les systèmes de mémoire des LLM peut réduire la précision en aval lorsque des erreurs suppriment des faits critiques. Les auteurs montrent qu'un faux abandon provoque une dégradation plus importante qu'un faux maintien.",
-          "keyPoints": [
-            "Le filtrage strict des faits obsolètes peut nuire à la précision en aval.",
-            "Les erreurs de faux abandon causent une dégradation plus importante que les faux maintien.",
-            "Les auteurs recommandent de traiter la suppression comme sensible aux coûts."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2e8f421d2ee2a3",
-      "title": "A Step Toward Defining the Standard Model on a Lattice",
-      "summary": "An exploration of a candidate nonperturbative lattice definition of the Standard Model, detailing how GPT-6 Astra assisted researchers in turning the theoretical idea into a comprehensive proof.",
-      "keyPoints": [
-        "Explores a candidate nonperturbative lattice definition of the Standard Model.",
-        "Demonstrates the use of GPT-6 Astra to help develop a detailed proof.",
-        "Highlights practical applications of advanced AI in theoretical physics research."
-      ],
-      "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "publishedAt": "2026-11-15T22:00:01.000Z",
+      "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "A Step Toward Defining the Standard Model on a Lattice",
-          "summary": "An exploration of a candidate nonperturbative lattice definition of the Standard Model, detailing how GPT-6 Astra assisted researchers in turning the theoretical idea into a comprehensive proof.",
+          "title": "Expanding ChatGPT Access for Academic Researchers Worldwide",
+          "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program to provide 200,000 researchers worldwide with free access to frontier models.",
           "keyPoints": [
-            "Explores a candidate nonperturbative lattice definition of the Standard Model.",
-            "Demonstrates the use of GPT-6 Astra to help develop a detailed proof.",
-            "Highlights practical applications of advanced AI in theoretical physics research."
+            "Program expanded globally",
+            "200,000 researchers receive free access",
+            "Access granted to frontier models"
           ]
         },
         "fr": {
-          "title": "Un pas vers la définition du Modèle Standard sur un réseau",
-          "summary": "Une exploration d'une définition non perturbative sur réseau candidate du Modèle Standard, détaillant comment GPT-6 Astra a aidé les chercheurs à transformer l'idée théorique en une preuve détaillée.",
+          "title": "Élargissement de l'accès à ChatGPT pour les chercheurs",
+          "summary": "OpenAI élargit son programme ChatGPT pour les chercheurs universitaires afin d'offrir à 200 000 chercheurs du monde entier un accès gratuit à ses modèles de pointe.",
           "keyPoints": [
-            "Explore une définition candidate non perturbative sur réseau du Modèle Standard.",
-            "Démontre l'utilisation de GPT-6 Astra pour aider à développer une preuve détaillée.",
-            "Met en lumière les applications pratiques de l'IA avancée en physique théorique."
+            "Élargissement mondial du programme",
+            "200 000 chercheurs bénéficient d'un accès gratuit",
+            "Accès aux modèles de pointe"
           ]
         }
       },
       "quality": {
-        "confidence": 0.9,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-5b66b471dda6a3",
-      "title": "A Practitioner-Facing Audit of Hallucination Detectors on Small LLMs",
-      "summary": "This study presents a reproducible one-GPU audit of four hallucination detectors on small, 4-bit quantized on-device LLMs. The results reveal poor cross-model ranking transfer, showing that simple lexical baselines perform comparably to complex sampling-based consistency detectors under bootstrap confidence intervals.",
+      "id": "feed-dfc32ad6652396",
+      "title": "New Ask Maps Features for Holiday Travel and Preparation",
+      "summary": "Google Maps is introducing new Ask Maps features to help users plan holiday road trips, get route tips, find local appointments, and search saved lists.",
       "keyPoints": [
-        "Audits four hallucination detectors across small 4-bit quantized on-device models.",
-        "Finds poor cross-model ranking transfer with inverted detector rankings.",
-        "Shows simple lexical baselines match sampling-based consistency methods."
+        "Plan holiday road trips easily",
+        "Get route tips and local appointments",
+        "Search through saved lists"
+      ],
+      "category": "Outils",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "publishedAt": "2026-11-16T14:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.width-1300.png",
+      "translations": {
+        "en": {
+          "title": "New Ask Maps Features for Holiday Travel and Preparation",
+          "summary": "Google Maps is introducing new Ask Maps features to help users plan holiday road trips, get route tips, find local appointments, and search saved lists.",
+          "keyPoints": [
+            "Plan holiday road trips easily",
+            "Get route tips and local appointments",
+            "Search through saved lists"
+          ]
+        },
+        "fr": {
+          "title": "Nouvelles fonctionnalités Ask Maps pour les voyages",
+          "summary": "Google Maps introduit de nouvelles fonctionnalités Ask Maps pour aider à planifier les voyages de vacances, obtenir des conseils d'itinéraires et rechercher des listes enregistrées.",
+          "keyPoints": [
+            "Planification de trajets routiers de vacances",
+            "Conseils d'itinéraires et rendez-vous locaux",
+            "Recherche dans les listes enregistrées"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8a5c1a78f21f4e",
+      "title": "Learn then Bet: Interpretable Rules for Reliable Agents",
+      "summary": "Researchers introduce LeBet, a statistical learning framework that derives a monitor from sufficient conditions to improve reliable autonomous agent intervention.",
+      "keyPoints": [
+        "Introduces LeBet statistical learning framework",
+        "Saves 34.46% of tokens on SWE-bench Lite",
+        "Improves output precision and controls false positives"
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17339",
+      "sourceUrl": "https://arxiv.org/abs/2611.17662",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "A Practitioner-Facing Audit of Hallucination Detectors on Small LLMs",
-          "summary": "This study presents a reproducible one-GPU audit of four hallucination detectors on small, 4-bit quantized on-device LLMs. The results reveal poor cross-model ranking transfer, showing that simple lexical baselines perform comparably to complex sampling-based consistency detectors under bootstrap confidence intervals.",
+          "title": "Learn then Bet: Interpretable Rules for Reliable Agents",
+          "summary": "Researchers introduce LeBet, a statistical learning framework that derives a monitor from sufficient conditions to improve reliable autonomous agent intervention.",
           "keyPoints": [
-            "Audits four hallucination detectors across small 4-bit quantized on-device models.",
-            "Finds poor cross-model ranking transfer with inverted detector rankings.",
-            "Shows simple lexical baselines match sampling-based consistency methods."
+            "Introduces LeBet statistical learning framework",
+            "Saves 34.46% of tokens on SWE-bench Lite",
+            "Improves output precision and controls false positives"
           ]
         },
         "fr": {
-          "title": "Audit des détecteurs d'hallucination sur les petits LLM",
-          "summary": "Cette étude présente un audit reproductible sur un seul GPU de quatre détecteurs d'hallucination sur de petits LLM quantifiés à 4 bits. Les résultats révèlent un faible transfert de classement inter-modèle.",
+          "title": "Apprendre puis parier : règles pour agents fiables",
+          "summary": "Des chercheurs présentent LeBet, un cadre d'apprentissage statistique pour dériver un moniteur améliorant l'intervention des agents autonomes.",
           "keyPoints": [
-            "Audite quatre détecteurs d'hallucination sur de petits modèles sur appareil.",
-            "Met en évidence un faible transfert de classement inter-modèle.",
-            "Montre que les bases lexicales simples rivalisent avec les méthodes par échantillonnage."
+            "Introduction du cadre d'apprentissage LeBet",
+            "Économie de 34,46 % de jetons sur SWE-bench Lite",
+            "Amélioration de la précision et contrôle des faux positifs"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-33b95c2112c46e",
-      "title": "Introducing the New OpenAI Science Blog",
-      "summary": "OpenAI has launched a dedicated science blog to share new findings, practical methodologies, and firsthand accounts from researchers leveraging artificial intelligence to accelerate scientific discovery.",
+      "id": "feed-dd659f011024f0",
+      "title": "Strengthening Online Child Sexual Abuse Prevention Tools",
+      "summary": "OpenAI announces new tools, practical guidance, and partnerships aimed at preventing, detecting, and responding to online child sexual exploitation and abuse.",
       "keyPoints": [
-        "OpenAI launches a new science blog dedicated to research applications.",
-        "Shares new findings and practical methodologies from AI researchers.",
-        "Highlights firsthand accounts of AI advancing scientific discovery."
+        "New tools introduced for child safety",
+        "Practical guidance and partnerships established",
+        "Focus on preventing and detecting abuse"
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/our-new-blog-for-science",
-      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/strengthening-online-child-safety",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Introducing the New OpenAI Science Blog",
-          "summary": "OpenAI has launched a dedicated science blog to share new findings, practical methodologies, and firsthand accounts from researchers leveraging artificial intelligence to accelerate scientific discovery.",
+          "title": "Strengthening Online Child Sexual Abuse Prevention Tools",
+          "summary": "OpenAI announces new tools, practical guidance, and partnerships aimed at preventing, detecting, and responding to online child sexual exploitation and abuse.",
           "keyPoints": [
-            "OpenAI launches a new science blog dedicated to research applications.",
-            "Shares new findings and practical methodologies from AI researchers.",
-            "Highlights firsthand accounts of AI advancing scientific discovery."
+            "New tools introduced for child safety",
+            "Practical guidance and partnerships established",
+            "Focus on preventing and detecting abuse"
           ]
         },
         "fr": {
-          "title": "Présentation du nouveau blog scientifique d'OpenAI",
-          "summary": "OpenAI a lancé un blog scientifique dédié pour partager de nouvelles découvertes, des méthodes pratiques et des témoignages de chercheurs utilisant l'intelligence artificielle pour accélérer la découverte scientifique.",
+          "title": "Renforcement des outils contre l'exploitation des enfants",
+          "summary": "OpenAI annonce de nouveaux outils, des conseils pratiques et des partenariats pour prévenir, détecter et contrer l'exploitation et les abus sexuels d'enfants en ligne.",
           "keyPoints": [
-            "OpenAI lance un nouveau blog scientifique dédié à la recherche.",
-            "Partage de nouvelles découvertes et méthodologies pratiques.",
-            "Met en avant les contributions de l'IA à la découverte scientifique."
+            "Nouveaux outils pour la sécurité des enfants",
+            "Mise en place de conseils pratiques et partenariats",
+            "Accent sur la prévention et la détection des abus"
           ]
         }
       },
       "quality": {
-        "confidence": 0.9,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-e6b637328ef210",
-      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
-      "summary": "To address the challenge of managing a growing pool of task-specific LoRA adapters without retraining, this paper introduces LoRAWeaver. The training-free method routes adapters by matching adapter-conditioned query representations against task prototypes using cosine similarity.",
+      "id": "feed-bb14b9e7844b57",
+      "title": "Diagnostic Benchmark for Multimodal Time Series Forecasting",
+      "summary": "Researchers introduce a real-world diagnostic benchmark covering 1,762 text-window pairs to evaluate how pretrained models use aligned or conflicting text history.",
       "keyPoints": [
-        "Introduces LoRAWeaver for training-free directional adapter routing.",
-        "Matches query representations against task prototypes using cosine similarity.",
-        "Outperforms training-free baselines and approaches trained encoder performance."
+        "New benchmark with 1,762 text-window pairs",
+        "Evaluates ten pretrained models zero-shot",
+        "Reduces MASE using a training-free revision rule"
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17340",
+      "sourceUrl": "https://arxiv.org/abs/2611.17680",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
-          "summary": "To address the challenge of managing a growing pool of task-specific LoRA adapters without retraining, this paper introduces LoRAWeaver. The training-free method routes adapters by matching adapter-conditioned query representations against task prototypes using cosine similarity.",
+          "title": "Diagnostic Benchmark for Multimodal Time Series Forecasting",
+          "summary": "Researchers introduce a real-world diagnostic benchmark covering 1,762 text-window pairs to evaluate how pretrained models use aligned or conflicting text history.",
           "keyPoints": [
-            "Introduces LoRAWeaver for training-free directional adapter routing.",
-            "Matches query representations against task prototypes using cosine similarity.",
-            "Outperforms training-free baselines and approaches trained encoder performance."
+            "New benchmark with 1,762 text-window pairs",
+            "Evaluates ten pretrained models zero-shot",
+            "Reduces MASE using a training-free revision rule"
           ]
         },
         "fr": {
-          "title": "LoRAWeaver : Routage d'adaptateurs directionnels dans l'espace LoRA",
-          "summary": "Pour relever le défi de la gestion d'une réserve croissante d'adaptateurs LoRA sans réentraînement, cet article présente LoRAWeaver. La méthode sans entraînement sélectionne les adaptateurs par similarité cosinus.",
+          "title": "Jalon diagnostic pour la prévision de séries temporelles",
+          "summary": "Les chercheurs présentent un banc d'essai diagnostique de 1 762 paires texte-fenêtre pour évaluer l'utilisation de textes alignés ou conflictuels par les modèles.",
           "keyPoints": [
-            "Introduit LoRAWeaver pour le routage directionnel d'adaptateurs sans entraînement.",
-            "Compare les représentations de requêtes aux prototypes de tâches via la similarité cosinus.",
-            "Surpasse les bases de référence sans entraînement sur divers benchmarks."
+            "Nouveau banc d'essai de 1 762 paires texte-fenêtre",
+            "Évaluation zero-shot de dix modèles pré-entraînés",
+            "Réduction du MASE grâce à une règle de révision"
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-5cc536aed4b9c9",
-      "title": "Tabular Population Priors for EHR Medication Set Prediction",
-      "summary": "This paper proposes replacing traditional patient-level nearest neighbor retrieval with a tabular population prior ranked medication candidate approach for EHR medication prediction. Evaluated on MIMIC-IV admissions, this drop-in replacement significantly improves F1 and Jaccard scores without adding LLM calls.",
+      "id": "feed-d91fd06de7b877",
+      "title": "Science at the Frontier: How Scientists Use ChatGPT",
+      "summary": "An exploration of how more than 1,800 scientists utilize ChatGPT in their research, detailing daily workflows, reported productivity, and expectations for discovery.",
       "keyPoints": [
-        "Proposes tabular population priors for electronic health record medication prediction.",
-        "Replaces patient-level nearest neighbor retrieval with a sparse co-occurrence table.",
-        "Improves F1 and Jaccard metrics on MIMIC-IV admissions without extra LLM calls."
+        "Survey of over 1,800 scientists",
+        "Examines daily research workflows",
+        "Reports on productivity and discovery expectations"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/science-at-the-frontier",
+      "publishedAt": "2026-11-16T12:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Science at the Frontier: How Scientists Use ChatGPT",
+          "summary": "An exploration of how more than 1,800 scientists utilize ChatGPT in their research, detailing daily workflows, reported productivity, and expectations for discovery.",
+          "keyPoints": [
+            "Survey of over 1,800 scientists",
+            "Examines daily research workflows",
+            "Reports on productivity and discovery expectations"
+          ]
+        },
+        "fr": {
+          "title": "La science à l'avant-garde : l'utilisation de ChatGPT",
+          "summary": "Une exploration montrant comment plus de 1 800 scientifiques utilisent ChatGPT dans leurs recherches, avec des détails sur les flux de travail et la productivité.",
+          "keyPoints": [
+            "Étude menée auprès de plus de 1 800 scientifiques",
+            "Examen des flux de travail de recherche quotidiens",
+            "Rapports sur la productivité et les attentes de découverte"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-5ac702919025cd",
+      "title": "OCTAVE: Benchmark for End-to-End HTML5 Game Generation",
+      "summary": "OCTAVE is a new benchmark organized around eight capability dimensions featuring 180 tasks and 1,800 evaluation requirements for HTML5 game generation.",
+      "keyPoints": [
+        "Covers eight capability dimensions",
+        "Includes 180 tasks and 1,800 evaluation requirements",
+        "Evaluates completeness and richness of generated games"
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.17681",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OCTAVE: Benchmark for End-to-End HTML5 Game Generation",
+          "summary": "OCTAVE is a new benchmark organized around eight capability dimensions featuring 180 tasks and 1,800 evaluation requirements for HTML5 game generation.",
+          "keyPoints": [
+            "Covers eight capability dimensions",
+            "Includes 180 tasks and 1,800 evaluation requirements",
+            "Evaluates completeness and richness of generated games"
+          ]
+        },
+        "fr": {
+          "title": "OCTAVE : Jalon pour la génération de jeux HTML5",
+          "summary": "OCTAVE est un nouveau banc d'essai organisé autour de huit dimensions de capacités, comprenant 180 tâches et 1 800 critères d'évaluation pour les jeux HTML5.",
+          "keyPoints": [
+            "Couvre huit dimensions de capacités",
+            "Comprend 180 tâches et 1 800 critères d'évaluation",
+            "Évalue l'exhaustivité et la richesse des jeux"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ff7833693fa2a0",
+      "title": "LVMH’s Media Division Announces Strategic OpenAI Partnership",
+      "summary": "LVMH’s Media Division and OpenAI have announced a strategic partnership to support journalism using AI and enhance publication accessibility through ChatGPT.",
+      "keyPoints": [
+        "Partnership between LVMH Media Division and OpenAI",
+        "Aims to support journalism with AI",
+        "Improves publication accessibility via ChatGPT"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/lvmh-media-division-partnership",
+      "publishedAt": "2026-11-16T09:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "LVMH’s Media Division Announces Strategic OpenAI Partnership",
+          "summary": "LVMH’s Media Division and OpenAI have announced a strategic partnership to support journalism using AI and enhance publication accessibility through ChatGPT.",
+          "keyPoints": [
+            "Partnership between LVMH Media Division and OpenAI",
+            "Aims to support journalism with AI",
+            "Improves publication accessibility via ChatGPT"
+          ]
+        },
+        "fr": {
+          "title": "Partenariat stratégique entre LVMH Media et OpenAI",
+          "summary": "La division média de LVMH et OpenAI annoncent un partenariat pour soutenir le journalisme grâce à l'IA et rendre les publications accessibles via ChatGPT.",
+          "keyPoints": [
+            "Partenariat entre la division média de LVMH et OpenAI",
+            "Soutien au journalisme par le biais de l'IA",
+            "Accessibilité accrue des publications via ChatGPT"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-eec451ca8d6e69",
+      "title": "Co-Sight Harness: Reliable Long-Horizon Business Agents",
+      "summary": "Researchers present Co-Sight Harness, a method that uses externalized control assets and deterministic enforcement to make long-horizon business agents reliable.",
+      "keyPoints": [
+        "Uses versioned control assets outside the model",
+        "Enforced by state machines and acceptance gates",
+        "Raises unattended workflow completion to 100% on Domain A"
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.17696",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Co-Sight Harness: Reliable Long-Horizon Business Agents",
+          "summary": "Researchers present Co-Sight Harness, a method that uses externalized control assets and deterministic enforcement to make long-horizon business agents reliable.",
+          "keyPoints": [
+            "Uses versioned control assets outside the model",
+            "Enforced by state machines and acceptance gates",
+            "Raises unattended workflow completion to 100% on Domain A"
+          ]
+        },
+        "fr": {
+          "title": "Co-Sight Harness : Agents commerciaux à long terme fiables",
+          "summary": "Les chercheurs présentent Co-Sight Harness, une méthode externe de contrôle et d'application déterministe pour fiabiliser les agents commerciaux complexes.",
+          "keyPoints": [
+            "Utilise des actifs de contrôle externalisés",
+            "Appliqué par des machines à états et des barrières",
+            "Hausse de la complétion sans surveillance à 100 %"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9fe6d2ae73e55f",
+      "title": "OpenAI Begins First Phase of Embedded Assessments",
+      "summary": "OpenAI initiates embedded assessments with Apollo Research, METR, Transluce, and Goodfire to independently evaluate alignment, safeguards, and monitoring.",
+      "keyPoints": [
+        "Initial phase of embedded assessments started",
+        "Partners include Apollo Research, METR, Transluce, Goodfire",
+        "Independent evaluation of model alignment and safeguards"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "OpenAI Begins First Phase of Embedded Assessments",
+          "summary": "OpenAI initiates embedded assessments with Apollo Research, METR, Transluce, and Goodfire to independently evaluate alignment, safeguards, and monitoring.",
+          "keyPoints": [
+            "Initial phase of embedded assessments started",
+            "Partners include Apollo Research, METR, Transluce, Goodfire",
+            "Independent evaluation of model alignment and safeguards"
+          ]
+        },
+        "fr": {
+          "title": "OpenAI lance sa première phase d'évaluations intégrées",
+          "summary": "OpenAI entame des évaluations intégrées avec Apollo Research, METR, Transluce et Goodfire pour évaluer l'alignement, les mesures de sécurité et la surveillance.",
+          "keyPoints": [
+            "Lancement d'une première phase d'évaluations intégrées",
+            "Partenariat avec Apollo Research, METR, Transluce, Goodfire",
+            "Évaluation indépendante de l'alignement et de la sécurité"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8e257d66526dc5",
+      "title": "ChlCast: High-Resolution AI Chlorophyll-a Forecasting",
+      "summary": "Researchers introduce ChlCast, an AI model that generates daily surface chlorophyll-a forecasts over a 10-day horizon at approximately 4-km resolution between 60°S and 60°N. ChlCast significantly reduces errors compared to operational global biogeochemical forecasting systems and preserves coastal gradients.",
+      "keyPoints": [
+        "Covers latitudes between 60°S and 60°N at 4-km resolution.",
+        "Reduces MAE and RMSE compared to operational Copernicus forecasting systems.",
+        "Retains coastal gradients and localized concentration maxima."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17341",
+      "sourceUrl": "https://arxiv.org/abs/2611.17704",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Tabular Population Priors for EHR Medication Set Prediction",
-          "summary": "This paper proposes replacing traditional patient-level nearest neighbor retrieval with a tabular population prior ranked medication candidate approach for EHR medication prediction. Evaluated on MIMIC-IV admissions, this drop-in replacement significantly improves F1 and Jaccard scores without adding LLM calls.",
+          "title": "ChlCast: High-Resolution AI Chlorophyll-a Forecasting",
+          "summary": "Researchers introduce ChlCast, an AI model that generates daily surface chlorophyll-a forecasts over a 10-day horizon at approximately 4-km resolution between 60°S and 60°N. ChlCast significantly reduces errors compared to operational global biogeochemical forecasting systems and preserves coastal gradients.",
           "keyPoints": [
-            "Proposes tabular population priors for electronic health record medication prediction.",
-            "Replaces patient-level nearest neighbor retrieval with a sparse co-occurrence table.",
-            "Improves F1 and Jaccard metrics on MIMIC-IV admissions without extra LLM calls."
+            "Covers latitudes between 60°S and 60°N at 4-km resolution.",
+            "Reduces MAE and RMSE compared to operational Copernicus forecasting systems.",
+            "Retains coastal gradients and localized concentration maxima."
           ]
         },
         "fr": {
-          "title": "Priors de population tabulaires pour la prédiction de médicaments",
-          "summary": "Cet article propose de remplacer la recherche traditionnelle par une approche basée sur des priors de population tabulaires pour la prédiction de médicaments dans les dossiers médicaux électroniques.",
+          "title": "ChlCast : Prévision d'chlorophylle-a par IA à haute résolution",
+          "summary": "Des chercheurs présentent ChlCast, un modèle d'IA qui génère des prévisions quotidiennes de chlorophylle-a de surface sur un horizon de 10 jours à environ 4 km de résolution entre 60°S et 60°N. ChlCast réduit considérablement les erreurs par rapport aux systèmes opérationnels.",
           "keyPoints": [
-            "Propose des priors de population tabulaires pour la prédiction médicamenteuse.",
-            "Remplace la recherche par les plus proches voisins par une table de co-occurrence.",
-            "Améliore les scores F1 et Jaccard sur les admissions MIMIC-IV sans appels LLM supplémentaires."
+            "Couvre les latitudes entre 60°S et 60°N avec une résolution de 4 km.",
+            "Réduit l'erreur absolue moyenne et l'erreur quadratique moyenne par rapport au système Copernicus.",
+            "Préserve les gradients côtiers et les maxima de concentration localisés."
           ]
         }
       },
@@ -236,36 +431,36 @@
       }
     },
     {
-      "id": "feed-5da9a95de14e59",
-      "title": "An Operationalization of Opaque Serial Depth in AI Models",
-      "summary": "As architectural shifts threaten AI monitorability, this paper operationalizes NLS depth as a proxy for unverbalized serial cognition. The measure can be evaluated from architecture and training configs alone, and correlates strongly with layer count across open-weight models.",
+      "id": "feed-21e886491b30cf",
+      "title": "ChatGPT for Healthcare Expands with New Capabilities",
+      "summary": "OpenAI introduces computer-use agents, improved clinical answers, and new healthcare plugins designed to work across software and enhance healthcare workflows.",
       "keyPoints": [
-        "Operationalizes NLS depth as a proxy for unverbalized serial model cognition.",
-        "Can be adjudicated before training using architecture and configuration details.",
-        "Correlates strongly with layer count across various open-weight models."
+        "Introduces computer-use agents for healthcare.",
+        "Delivers improved clinical answers.",
+        "Includes new healthcare plugins for software integration."
       ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17495",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "publishedAt": "2026-11-16T06:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "An Operationalization of Opaque Serial Depth in AI Models",
-          "summary": "As architectural shifts threaten AI monitorability, this paper operationalizes NLS depth as a proxy for unverbalized serial cognition. The measure can be evaluated from architecture and training configs alone, and correlates strongly with layer count across open-weight models.",
+          "title": "ChatGPT for Healthcare Expands with New Capabilities",
+          "summary": "OpenAI introduces computer-use agents, improved clinical answers, and new healthcare plugins designed to work across software and enhance healthcare workflows.",
           "keyPoints": [
-            "Operationalizes NLS depth as a proxy for unverbalized serial model cognition.",
-            "Can be adjudicated before training using architecture and configuration details.",
-            "Correlates strongly with layer count across various open-weight models."
+            "Introduces computer-use agents for healthcare.",
+            "Delivers improved clinical answers.",
+            "Includes new healthcare plugins for software integration."
           ]
         },
         "fr": {
-          "title": "Opérationnalisation de la profondeur sérielle opaque dans les modèles d'IA",
-          "summary": "Alors que les évolutions architecturales menacent la contrôlabilité de l'IA, cet article opérationnalise la profondeur NLS comme un indicateur de la cognition sérielle non verbalisée.",
+          "title": "ChatGPT pour la santé s'enrichit de nouvelles fonctionnalités",
+          "summary": "OpenAI présente des agents capables d'utiliser l'ordinateur, des réponses cliniques améliorées et de nouveaux plugins de santé conçus pour fonctionner à travers les logiciels.",
           "keyPoints": [
-            "Opérationnalise la profondeur NLS comme proxy de la cognition sérielle non verbalisée.",
-            "Peut être évaluée avant l'entraînement à partir de la configuration seule.",
-            "Montre une forte corrélation avec le nombre de couches dans les modèles ouverts."
+            "Introduit des agents d'utilisation informatique pour la santé.",
+            "Fournit des réponses cliniques améliorées.",
+            "Intègre de nouveaux plugins de santé pour les logiciels."
           ]
         }
       },
@@ -275,36 +470,36 @@
       }
     },
     {
-      "id": "feed-c0fb3abdbf393e",
-      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
-      "summary": "This paper evaluates MXFP8 and MXFP6 microscaling formats for industrial recommendation and ranking inference on AMD MI350X hardware. The selective use of native 6-bit GEMMs achieves significant kernel speedups without breaching strict normalized entropy quality thresholds.",
+      "id": "feed-619525edf219ee",
+      "title": "Cross-Linguistic Acoustic Biomarkers of Cognitive Impairment",
+      "summary": "A cross-linguistic and cross-task acoustic analysis across four languages reveals that temporal features robustly capture timing disruption, while speech rate and pitch exhibit task and language dependencies.",
       "keyPoints": [
-        "Evaluates MXFP8 and MXFP6 formats for industrial recommendation and ranking inference.",
-        "Achieves native MXFP6 GEMM speedups without sacrificing model quality.",
-        "Demonstrates end-to-end throughput gains on production ads ranking models."
+        "Analyzed conversational and structured speech across Spanish, Mandarin, English, and Japanese.",
+        "Temporal features remained robustly consistent across all datasets and tasks.",
+        "Pitch and speech rate showed strong language-specific and task-dependent patterns."
       ],
-      "category": "Outils",
+      "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17501",
+      "sourceUrl": "https://arxiv.org/abs/2611.17710",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Advancing Quantization for R&R Models with Microscaling Formats",
-          "summary": "This paper evaluates MXFP8 and MXFP6 microscaling formats for industrial recommendation and ranking inference on AMD MI350X hardware. The selective use of native 6-bit GEMMs achieves significant kernel speedups without breaching strict normalized entropy quality thresholds.",
+          "title": "Cross-Linguistic Acoustic Biomarkers of Cognitive Impairment",
+          "summary": "A cross-linguistic and cross-task acoustic analysis across four languages reveals that temporal features robustly capture timing disruption, while speech rate and pitch exhibit task and language dependencies.",
           "keyPoints": [
-            "Evaluates MXFP8 and MXFP6 formats for industrial recommendation and ranking inference.",
-            "Achieves native MXFP6 GEMM speedups without sacrificing model quality.",
-            "Demonstrates end-to-end throughput gains on production ads ranking models."
+            "Analyzed conversational and structured speech across Spanish, Mandarin, English, and Japanese.",
+            "Temporal features remained robustly consistent across all datasets and tasks.",
+            "Pitch and speech rate showed strong language-specific and task-dependent patterns."
           ]
         },
         "fr": {
-          "title": "Avancées de la quantification pour les modèles R&R avec formats MX",
-          "summary": "Cet article évalue les formats microscaling MXFP8 et MXFP6 pour l'inférence industrielle de recommandation et de classement sur matériel AMD MI350X.",
+          "title": "Biomarqueurs acoustiques interlinguistiques des troubles cognitifs",
+          "summary": "Une analyse acoustique interlinguistique et inter-tâches menée dans quatre langues révèle que les caractéristiques temporelles capturent solidement les perturbations, tandis que le débit et la hauteur vocale dépendent des tâches et des langues.",
           "keyPoints": [
-            "Évalue les formats MXFP8 et MXFP6 pour l'inférence industrielle.",
-            "Permet des accélérations de noyaux GEMM natifs MXFP6 sans perte de qualité.",
-            "Démontre des gains de débit de bout en bout sur des modèles de production."
+            "Étude menée en espagnol, mandarin, anglais et japonais.",
+            "Les caractéristiques temporelles restent robustes dans tous les ensembles de données.",
+            "La hauteur et le débit de parole montrent de fortes dépendances linguistiques."
           ]
         }
       },
@@ -314,36 +509,36 @@
       }
     },
     {
-      "id": "feed-963bbe19ff67ab",
-      "title": "Framing Effects and Internal State Interventions on LLM Collusive Behavior",
-      "summary": "Using market simulations based on litigation transcripts, this study tests how behavioral economics framing and internal state interventions affect collusive behavior in Gemma 3 12B. The findings show that loss and blame framing can either increase participation or induce vigilance depending on whether text prompts or internal states are altered.",
+      "id": "feed-60f3c7381bc61e",
+      "title": "The King’s Trust and OpenAI Launch £1m Partnership",
+      "summary": "The King’s Trust and OpenAI have launched a £1m partnership aimed at helping up to 25,000 young people across the UK acquire practical AI skills for the workplace.",
       "keyPoints": [
-        "Examines collusive behavior in an LLM agent using market simulations.",
-        "Varies counterparty requests using gain, loss, blame, and credit frames.",
-        "Shows internal state interventions at layer 22 can significantly alter agent decisions."
+        "Involves a £1m partnership between The King’s Trust and OpenAI.",
+        "Targeting up to 25,000 young people in the UK.",
+        "Focuses on building practical AI workplace skills."
       ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17515",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/the-kings-trust-and-openai",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Framing Effects and Internal State Interventions on LLM Collusive Behavior",
-          "summary": "Using market simulations based on litigation transcripts, this study tests how behavioral economics framing and internal state interventions affect collusive behavior in Gemma 3 12B. The findings show that loss and blame framing can either increase participation or induce vigilance depending on whether text prompts or internal states are altered.",
+          "title": "The King’s Trust and OpenAI Launch £1m Partnership",
+          "summary": "The King’s Trust and OpenAI have launched a £1m partnership aimed at helping up to 25,000 young people across the UK acquire practical AI skills for the workplace.",
           "keyPoints": [
-            "Examines collusive behavior in an LLM agent using market simulations.",
-            "Varies counterparty requests using gain, loss, blame, and credit frames.",
-            "Shows internal state interventions at layer 22 can significantly alter agent decisions."
+            "Involves a £1m partnership between The King’s Trust and OpenAI.",
+            "Targeting up to 25,000 young people in the UK.",
+            "Focuses on building practical AI workplace skills."
           ]
         },
         "fr": {
-          "title": "Effets de cadrage et interventions sur le comportement collusoire des LLM",
-          "summary": "À l'aide de simulations de marché, cette étude analyse comment le cadrage et les interventions sur l'état interne affectent le comportement collusoire de Gemma 3 12B.",
+          "title": "The King's Trust et OpenAI lancent un partenariat d'un million de livres",
+          "summary": "The King's Trust et OpenAI lancent un partenariat d'un million de livres sterling pour aider jusqu'à 25 000 jeunes au Royaume-Uni à acquérir des compétences pratiques en IA.",
           "keyPoints": [
-            "Étudie le comportement collusoire d'un agent LLM via des simulations de marché.",
-            "Varie les requêtes des contreparties selon différents cadres psychologiques.",
-            "Montre que des interventions sur l'état interne modifient les décisions de l'agent."
+            "Partenariat d'un million de livres entre The King's Trust et OpenAI.",
+            "Cible jusqu'à 25 000 jeunes au Royaume-Uni.",
+            "Axé sur le développement de compétences pratiques en IA pour le travail."
           ]
         }
       },
@@ -353,36 +548,36 @@
       }
     },
     {
-      "id": "feed-f50e63d8425077",
-      "title": "Model Annealing: Data-Efficient Learning Through Review and Consolidation",
-      "summary": "This paper introduces model annealing, a data-efficient training approach that spends remaining budgets on review and consolidation by relearning from a network's own history of saved states and adversarial dreams. Across multiple architectures, the technique improves top-1 accuracy, calibration, and robustness.",
+      "id": "feed-eb4235b75bfce8",
+      "title": "Federated Soft Poly-Level Learning Over Distributed Networks",
+      "summary": "Researchers propose a Federated Poly-Level Learning framework to solve multi-level optimization problems involving four or more hierarchical levels across distributed nodes with guaranteed convergence.",
       "keyPoints": [
-        "Introduces model annealing to improve data-efficient learning through review.",
-        "Utilizes a memory of past model states and adversarial dreams for relearning.",
-        "Improves top-1 accuracy, calibration, and robustness across multiple architectures."
+        "Addresses poly-level optimization involving four or more hierarchical levels.",
+        "Proposes a Federated Poly-Level Learning (FPLL) framework utilizing L-cuts.",
+        "Features adjustable parameters for balancing complexity and performance."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17524",
+      "sourceUrl": "https://arxiv.org/abs/2611.17722",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Model Annealing: Data-Efficient Learning Through Review and Consolidation",
-          "summary": "This paper introduces model annealing, a data-efficient training approach that spends remaining budgets on review and consolidation by relearning from a network's own history of saved states and adversarial dreams. Across multiple architectures, the technique improves top-1 accuracy, calibration, and robustness.",
+          "title": "Federated Soft Poly-Level Learning Over Distributed Networks",
+          "summary": "Researchers propose a Federated Poly-Level Learning framework to solve multi-level optimization problems involving four or more hierarchical levels across distributed nodes with guaranteed convergence.",
           "keyPoints": [
-            "Introduces model annealing to improve data-efficient learning through review.",
-            "Utilizes a memory of past model states and adversarial dreams for relearning.",
-            "Improves top-1 accuracy, calibration, and robustness across multiple architectures."
+            "Addresses poly-level optimization involving four or more hierarchical levels.",
+            "Proposes a Federated Poly-Level Learning (FPLL) framework utilizing L-cuts.",
+            "Features adjustable parameters for balancing complexity and performance."
           ]
         },
         "fr": {
-          "title": "Recuit de modèle : Apprentissage efficace par révision et consolidation",
-          "summary": "Cet article présente le recuit de modèle, une approche d'entraînement efficace qui consacre les budgets restants à la révision et à la consolidation en réapprenant à partir de l'historique du réseau.",
+          "title": "Apprentissage poly-niveau fédéré et souple sur réseaux distribués",
+          "summary": "Des chercheurs proposent un cadre d'apprentissage poly-niveau fédéré pour résoudre des problèmes d'optimisation multi-niveaux comportant quatre niveaux hiérarchiques ou plus sur des nœuds distribués.",
           "keyPoints": [
-            "Introduit le recuit de modèle pour un apprentissage efficace à partir de données.",
-            "Utilise une mémoire des états passés du modèle et des rêves contradictoires.",
-            "Améliore la précision top-1, la calibration et la robustesse de plusieurs architectures."
+            "Traite l'optimisation poly-niveau avec quatre niveaux ou plus.",
+            "Propose un cadre FPLL utilisant des coupes L pour la relaxation.",
+            "Offre des paramètres ajustables pour équilibrer complexité et performance."
           ]
         }
       },
@@ -392,399 +587,204 @@
       }
     },
     {
-      "id": "feed-b5369aae986855",
-      "title": "Astrocyte Biocomputing in Neural Networks",
-      "summary": "Recent research reveals that astrocytes, accounting for about 50% of brain cells, may act as conductors of neural networks, playing critical roles in learning, memory, and information processing. Applying these biological insights to brain-inspired machine learning yields algorithms that outperform neurocentric models.",
+      "id": "feed-3d4aeac88b69ac",
+      "title": "How Holiday Extras Uses AI Dots for Automation",
+      "summary": "At Holiday Extras, autonomous AI dots deliver unprompted launch reports, flag missed issues, and help staff prepare for upcoming meetings during their commutes.",
       "keyPoints": [
-        "Astrocytes constitute about 50% of brain cells and do not emit electrical signals.",
-        "A model mimicking simultaneous synapse modulation enables faster training and noise robustness.",
-        "Rhythmic sharing algorithms prevent catastrophic forgetting and improve anomaly detection."
+        "Dots deliver launch reports unprompted.",
+        "System flags issues that people might otherwise miss.",
+        "Assists with meeting preparation during commutes."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Holiday Extras Uses AI Dots for Automation",
+          "summary": "At Holiday Extras, autonomous AI dots deliver unprompted launch reports, flag missed issues, and help staff prepare for upcoming meetings during their commutes.",
+          "keyPoints": [
+            "Dots deliver launch reports unprompted.",
+            "System flags issues that people might otherwise miss.",
+            "Assists with meeting preparation during commutes."
+          ]
+        },
+        "fr": {
+          "title": "Comment Holiday Extras utilise des 'dots' IA pour l'automatisation",
+          "summary": "Chez Holiday Extras, des dots d'IA autonomes fournissent des rapports de lancement spontanés, signalent des problèmes et aident à préparer les réunions pendant le trajet.",
+          "keyPoints": [
+            "Les dots fournissent des rapports de lancement sans intervention.",
+            "Le système signale les problèmes manqués par les humains.",
+            "Aide à préparer les réunions à venir."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-fe749e12033c8d",
+      "title": "A Spectral Framework for Universal Proxy Regularization in Model Merging",
+      "summary": "A spectral framework is proposed to analyze universal proxy regularization in model merging, establishing parameter interference bounds based on spectral coverage and leakage.",
+      "keyPoints": [
+        "Characterizes universal proxy regularization through spectral coverage and leakage.",
+        "Derives a unified parameter interference bound for better spectral alignment.",
+        "Proves a three-way hierarchy among different regularization instantiations."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17532",
+      "sourceUrl": "https://arxiv.org/abs/2611.17728",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Astrocyte Biocomputing in Neural Networks",
-          "summary": "Recent research reveals that astrocytes, accounting for about 50% of brain cells, may act as conductors of neural networks, playing critical roles in learning, memory, and information processing. Applying these biological insights to brain-inspired machine learning yields algorithms that outperform neurocentric models.",
+          "title": "A Spectral Framework for Universal Proxy Regularization in Model Merging",
+          "summary": "A spectral framework is proposed to analyze universal proxy regularization in model merging, establishing parameter interference bounds based on spectral coverage and leakage.",
           "keyPoints": [
-            "Astrocytes constitute about 50% of brain cells and do not emit electrical signals.",
-            "A model mimicking simultaneous synapse modulation enables faster training and noise robustness.",
-            "Rhythmic sharing algorithms prevent catastrophic forgetting and improve anomaly detection."
+            "Characterizes universal proxy regularization through spectral coverage and leakage.",
+            "Derives a unified parameter interference bound for better spectral alignment.",
+            "Proves a three-way hierarchy among different regularization instantiations."
           ]
         },
         "fr": {
-          "title": "Biocomputation astrocitaire dans les réseaux de neurones",
-          "summary": "Des recherches récentes révèlent que les astrocytes, représentant environ 50 % des cellules cérébrales, agissent comme des chefs d'orchestre des réseaux neuronaux, jouant un rôle clé dans l'apprentissage et la mémoire. L'application de ces principes au machine learning surpasse les modèles neurocentriques.",
+          "title": "Cadre spectral pour la régularisation par proxy universel dans la fusion",
+          "summary": "Un cadre spectral est proposé pour analyser la régularisation par proxy universel dans la fusion de modèles, établissant des limites d'interférence basées sur la couverture spectrale.",
           "keyPoints": [
-            "Les astrocytes représentent environ 50 % des cellules du cerveau et n'émettent pas de signaux électriques.",
-            "Un modèle imitant la modulation synaptique simultanée accélère l'entraînement et renforce la robustesse.",
-            "Les algorithmes de partage rythmique préviennent l'oubli catastrophique et améliorent la détection d'anomalies."
+            "Caractérise la régularisation par proxy via la couverture spectrale et la fuite.",
+            "Dérive une borne d'interférence des paramètres unifiée.",
+            "Prouve une hiérarchie à trois voies entre différentes instantiations."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-d6f2a3136b4179",
-      "title": "Verifiable pXRD Crystal Structure Determination with LLMs",
-      "summary": "This paper introduces pXRD-Bench to evaluate autonomous crystal-structure determination from powder X-ray diffraction using LLM agents. By combining agentic search, forward-simulated profile agreement, and a reflexive evolution framework, the approach improves structural recovery and handles experimental multiphase patterns.",
+      "id": "feed-c3d9d3fc175d75",
+      "title": "Knowledge After Collapse: Context and Wording Shape Factual Accessibility",
+      "summary": "The study introduces Knowledge Answer Divergence (KAD) to evaluate language models after accepting false corrections, showing that context, cue-placement, and wording heavily influence factual recovery.",
       "keyPoints": [
-        "pXRD-Bench consists of 200 simulated single-phase problems across various structural distribution shifts.",
-        "Agent adaptation raises selected structural recovery from 27% to 69% using verifier-guided inference.",
-        "A reflexive evolution framework improves average profile agreement on measured solid-state synthesis patterns."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17539",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Verifiable pXRD Crystal Structure Determination with LLMs",
-          "summary": "This paper introduces pXRD-Bench to evaluate autonomous crystal-structure determination from powder X-ray diffraction using LLM agents. By combining agentic search, forward-simulated profile agreement, and a reflexive evolution framework, the approach improves structural recovery and handles experimental multiphase patterns.",
-          "keyPoints": [
-            "pXRD-Bench consists of 200 simulated single-phase problems across various structural distribution shifts.",
-            "Agent adaptation raises selected structural recovery from 27% to 69% using verifier-guided inference.",
-            "A reflexive evolution framework improves average profile agreement on measured solid-state synthesis patterns."
-          ]
-        },
-        "fr": {
-          "title": "Détermination de structures pXRD vérifiables par agents LLM",
-          "summary": "Cet article présente pXRD-Bench pour évaluer la détermination autonome de structures cristallines à partir de diffraction des rayons X sur poudres à l'aide d'agents LLM. En combinant la recherche agentique et un cadre d'évolution réflexif, l'approche améliore la récupération structurelle.",
-          "keyPoints": [
-            "pXRD-Bench comprend 200 problèmes monophasés simulés couvrant divers décalages de distribution.",
-            "L'adaptation des agents fait passer la récupération structurelle de 27 % à 69 % grâce à l'inférence guidée.",
-            "Un cadre d'évolution réflexif améliore l'accord de profil moyen sur des échantillons synthétisés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-199bb42cf667d7",
-      "title": "AI-Voyager: Human-AI Civic Reasoning System",
-      "summary": "AI-Voyager is a public-interest system designed for human-AI civic reasoning, enabling people to contest and shape rules governing artificial intelligence. By integrating thousands of governance documents with bounded agentic search, the system assists users in drafting revisions and verifying statements against official text.",
-      "keyPoints": [
-        "The architecture indexes 3,653 governance documents from various government levels with page tracking.",
-        "It reached 83.0% macro recall on 360 new questions requiring relevant document retrieval.",
-        "A study with 24 participants showed how citizens interact with AI bills and propose rule revisions."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17564",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AI-Voyager: Human-AI Civic Reasoning System",
-          "summary": "AI-Voyager is a public-interest system designed for human-AI civic reasoning, enabling people to contest and shape rules governing artificial intelligence. By integrating thousands of governance documents with bounded agentic search, the system assists users in drafting revisions and verifying statements against official text.",
-          "keyPoints": [
-            "The architecture indexes 3,653 governance documents from various government levels with page tracking.",
-            "It reached 83.0% macro recall on 360 new questions requiring relevant document retrieval.",
-            "A study with 24 participants showed how citizens interact with AI bills and propose rule revisions."
-          ]
-        },
-        "fr": {
-          "title": "AI-Voyager : Système de raisonnement civique Humain-IA",
-          "summary": "AI-Voyager est un système d'intérêt public pour le raisonnement civique humain-IA, permettant aux citoyens de contester et façonner les règles régissant l'IA. En combinant des milliers de documents de gouvernance avec une recherche agentique, le système aide à la révision de textes.",
-          "keyPoints": [
-            "L'architecture indexe 3 653 documents de gouvernance de différents niveaux gouvernementaux.",
-            "Le système atteint un rappel macro de 83,0 % sur 360 nouvelles questions nécessitant une recherche documentaire.",
-            "Une étude auprès de 24 participants a montré comment les citoyens interagissent avec les lois sur l'IA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-6e7825326e83b1",
-      "title": "An Exact Finite Atlas of Representation, Payoff, and Cost",
-      "summary": "This study examines the relationship between information quantity and decision value by enumerating all admissible representations and binary action rules in a uniform four-state world. The exact finite atlas demonstrates how action constraints, counting rules, and cost assumptions impact performance comparisons.",
-      "keyPoints": [
-        "A representation retaining fewer bits of world information can sometimes yield a higher payoff than a more informative one.",
-        "If a representation preserves existing distinctions and adds new ones, its zero-cost payoff cannot decrease.",
-        "Results provide a reproducible worked model illustrating distinctions between information quantity and decision value."
+        "Introduces Knowledge Answer Divergence (KAD) for event-conditioned evaluation.",
+        "Demonstrates that neutral-history branches improve correct responses significantly.",
+        "Shows model sensitivity to cue-placement and pressure template wording."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17583",
+      "sourceUrl": "https://arxiv.org/abs/2611.17763",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "An Exact Finite Atlas of Representation, Payoff, and Cost",
-          "summary": "This study examines the relationship between information quantity and decision value by enumerating all admissible representations and binary action rules in a uniform four-state world. The exact finite atlas demonstrates how action constraints, counting rules, and cost assumptions impact performance comparisons.",
+          "title": "Knowledge After Collapse: Context and Wording Shape Factual Accessibility",
+          "summary": "The study introduces Knowledge Answer Divergence (KAD) to evaluate language models after accepting false corrections, showing that context, cue-placement, and wording heavily influence factual recovery.",
           "keyPoints": [
-            "A representation retaining fewer bits of world information can sometimes yield a higher payoff than a more informative one.",
-            "If a representation preserves existing distinctions and adds new ones, its zero-cost payoff cannot decrease.",
-            "Results provide a reproducible worked model illustrating distinctions between information quantity and decision value."
+            "Introduces Knowledge Answer Divergence (KAD) for event-conditioned evaluation.",
+            "Demonstrates that neutral-history branches improve correct responses significantly.",
+            "Shows model sensitivity to cue-placement and pressure template wording."
           ]
         },
         "fr": {
-          "title": "Atlas fini exact de la représentation, du gain et du coût",
-          "summary": "Cette étude examine la relation entre la quantité d'information et la valeur de décision en énumérant toutes les représentations admissibles dans un monde à quatre états. Cet atlas fini exact démontre l'impact des contraintes d'action et des coûts sur les performances.",
+          "title": "Connaissance après effondrement : le contexte et la formulation façonnent l'accès",
+          "summary": "L'étude introduit la divergence des réponses de connaissance (KAD) pour évaluer les modèles de langage après l'acceptation de fausses corrections, montrant l'impact du contexte et de la formulation.",
           "keyPoints": [
-            "Une représentation conservant moins d'bits d'information peut parfois offrir un meilleur gain qu'une autre plus riche.",
-            "Si une représentation préserve les distinctions existantes et en ajoute, son gain à coût nul ne peut diminuer.",
-            "Les résultats fournissent un modèle reproductible illustrant la distinction entre information et valeur de décision."
+            "Introduit le protocole KAD pour l'évaluation conditionnée par les événements.",
+            "Montre que l'historique neutre améliore considérablement les réponses correctes.",
+            "Met en évidence la sensibilité des modèles à la formulation des instructions."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     },
     {
-      "id": "feed-b715b2affb8796",
-      "title": "Untangling Coordination and Test-Time Compute in Multi-Agent LLMs",
-      "summary": "Evaluating multi-agent language models often confounds coordination with sample multiplicity and inference compute. By synthesizing 516 unique configurations across nine evaluations, this study shows that multi-agent accuracy frequently equals or falls below properly matched single-pass baselines.",
+      "id": "feed-402a0286b8bd0b",
+      "title": "Certified Improvements to Thomson-Problem Using LLM Agents",
+      "summary": "Researchers report new certified configurations for the Thomson problem at N = 912, 1382, and 2502 using a search pipeline built with large language model agents.",
       "keyPoints": [
-        "Multi-agent accuracy averages -0.042 below baselines matched on sample count or resource budget.",
-        "Multi-agent systems perform equally or worse than baselines in 74% of comparable contrasts.",
-        "Positive returns in multi-agent setups require partitioned evidence, external verification, or error diversity."
+        "Found improved configurations for N = 912, 1382, and 2502 with exact arithmetic certification.",
+        "Pipeline built and executed using large language model agents like Claude.",
+        "Outlines three key practices for computational discovery with LLM agents."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.17776",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Certified Improvements to Thomson-Problem Using LLM Agents",
+          "summary": "Researchers report new certified configurations for the Thomson problem at N = 912, 1382, and 2502 using a search pipeline built with large language model agents.",
+          "keyPoints": [
+            "Found improved configurations for N = 912, 1382, and 2502 with exact arithmetic certification.",
+            "Pipeline built and executed using large language model agents like Claude.",
+            "Outlines three key practices for computational discovery with LLM agents."
+          ]
+        },
+        "fr": {
+          "title": "Améliorations certifiées du problème de Thomson via des agents LLM",
+          "summary": "Des chercheurs rapportent de nouvelles configurations certifiées pour le problème de Thomson pour N = 912, 1382 et 2502 à l'aide d'un pipeline de recherche construit avec des agents de grands modèles de langage.",
+          "keyPoints": [
+            "Nouvelles configurations pour N = 912, 1382 et 2502 certifiées par arithmétique exacte.",
+            " Pipeline développé et exécuté à l'aide d'agents de modèles de langage (Claude).",
+            "Établit trois pratiques pour la découverte computationnelle avec des agents IA."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ca24fd9faebeba",
+      "title": "TReC: Evaluating Move-Induced State Changes in Go",
+      "summary": "Researchers introduce Transition Representation Consistency (TReC) to evaluate move-induced state changes in instruction-conditioned Go by measuring cosine similarity between embedding changes.",
+      "keyPoints": [
+        "Introduces Transition Representation Consistency (TReC) metric.",
+        "Evaluates board-state embedding changes using cosine similarity.",
+        "Shows weak rank correlation between coordinate distance and TReC."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17610",
+      "sourceUrl": "https://arxiv.org/abs/2611.17781",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Untangling Coordination and Test-Time Compute in Multi-Agent LLMs",
-          "summary": "Evaluating multi-agent language models often confounds coordination with sample multiplicity and inference compute. By synthesizing 516 unique configurations across nine evaluations, this study shows that multi-agent accuracy frequently equals or falls below properly matched single-pass baselines.",
+          "title": "TReC: Evaluating Move-Induced State Changes in Go",
+          "summary": "Researchers introduce Transition Representation Consistency (TReC) to evaluate move-induced state changes in instruction-conditioned Go by measuring cosine similarity between embedding changes.",
           "keyPoints": [
-            "Multi-agent accuracy averages -0.042 below baselines matched on sample count or resource budget.",
-            "Multi-agent systems perform equally or worse than baselines in 74% of comparable contrasts.",
-            "Positive returns in multi-agent setups require partitioned evidence, external verification, or error diversity."
+            "Introduces Transition Representation Consistency (TReC) metric.",
+            "Evaluates board-state embedding changes using cosine similarity.",
+            "Shows weak rank correlation between coordinate distance and TReC."
           ]
         },
         "fr": {
-          "title": "Démêler la coordination et le calcul chez les LLM multi-agents",
-          "summary": "L'évaluation des modèles de langage multi-agents confond souvent la coordination avec la multiplicité des échantillons. En synthétisant 516 configurations, cette étude montre que la précision multi-agents est souvent égale ou inférieure à des lignes de base comparables.",
+          "title": "TReC : Évaluation des changements d'état induits par les coups au jeu de Go",
+          "summary": "Des chercheurs présentent le TReC pour évaluer les changements d'état induits par les coups au Go en mesurant la similarité cosinus entre les modifications des représentations de l'état du plateau.",
           "keyPoints": [
-            "La précision multi-agents est en moyenne inférieure de 0,042 par rapport aux budgets de ressources équivalents.",
-            "Les systèmes multi-agents font jeu égal ou inférieur aux lignes de base dans 74 % des cas comparables.",
-            "Les retours positifs nécessitent des preuves partagées, une vérification externe ou de la diversité d'erreurs."
+            "Introduit la métrique TReC pour le jeu de Go.",
+            "Utilise la similarité cosinus pour comparer les changements d'intégration d'état.",
+            "Démontre une faible corrélation de rang entre la distance de coordonnée et le TReC."
           ]
         }
       },
       "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-04234be9f8573e",
-      "title": "LLM-Guided Cluster Lifecycle Management",
-      "summary": "This work explores using large language models to manage the lifecycle of evolving behavioral clusters without hardcoded thresholds or periodic re-clustering. Tested across three public datasets, the LLM-driven policy achieves superior F1 scores while making fewer interventions than traditional heuristics.",
-      "keyPoints": [
-        "The LLM decides per cluster whether to split, merge, retire, create, or take no action.",
-        "A richness-conditioned policy shifts input modalities from statistics to semantics as label richness increases.",
-        "The proposed approach obtains the highest F1 score on all three evaluated public datasets."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17616",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "LLM-Guided Cluster Lifecycle Management",
-          "summary": "This work explores using large language models to manage the lifecycle of evolving behavioral clusters without hardcoded thresholds or periodic re-clustering. Tested across three public datasets, the LLM-driven policy achieves superior F1 scores while making fewer interventions than traditional heuristics.",
-          "keyPoints": [
-            "The LLM decides per cluster whether to split, merge, retire, create, or take no action.",
-            "A richness-conditioned policy shifts input modalities from statistics to semantics as label richness increases.",
-            "The proposed approach obtains the highest F1 score on all three evaluated public datasets."
-          ]
-        },
-        "fr": {
-          "title": "Gestion du cycle de vie des clusters guidée par LLM",
-          "summary": "Ce travail explore l'utilisation de grands modèles de langage pour gérer le cycle de vie de clusters comportementaux sans seuils codés en dur. Testée sur trois jeux de données, la politique pilotée par LLM obtient de meilleurs scores F1 avec moins d'interventions.",
-          "keyPoints": [
-            "Le LLM décide par cluster de diviser, fusionner, supprimer, créer ou ne rien faire.",
-            "Une politique adaptée fait basculer la modalité des statistiques vers la sémantique selon la richesse des labels.",
-            "L'approche proposée obtient le meilleur score F1 sur les trois jeux de données publics évalués."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0e4a08dbe6ed38",
-      "title": "Safety Side Effects of Preventative Persona Steering",
-      "summary": "Persona vectors can suppress traits like sycophancy and hallucination via inference subtraction or preventative fine-tuning steering. An empirical audit across three models shows that while preventative steering preserves general capabilities like MMLU, it alters refusal behavior and safety performance.",
-      "keyPoints": [
-        "Preventative steering avoids encoding undesirable traits in weights by adding vectors during fine-tuning.",
-        "Auditing three models reveals that preventative steering changes model refusal behavior significantly.",
-        "Results demonstrate that steering methods must be evaluated across multiple safety benchmarks beyond capability."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17620",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Safety Side Effects of Preventative Persona Steering",
-          "summary": "Persona vectors can suppress traits like sycophancy and hallucination via inference subtraction or preventative fine-tuning steering. An empirical audit across three models shows that while preventative steering preserves general capabilities like MMLU, it alters refusal behavior and safety performance.",
-          "keyPoints": [
-            "Preventative steering avoids encoding undesirable traits in weights by adding vectors during fine-tuning.",
-            "Auditing three models reveals that preventative steering changes model refusal behavior significantly.",
-            "Results demonstrate that steering methods must be evaluated across multiple safety benchmarks beyond capability."
-          ]
-        },
-        "fr": {
-          "title": "Effets secondaires de sécurité du pilotage préventif de persona",
-          "summary": "Les vecteurs de persona peuvent supprimer des comportements indésirables comme la sycophanterie. Un audit empirique sur trois modèles montre que si le pilotage préventif préserve les capacités générales, il modifie le comportement de refus et la sécurité.",
-          "keyPoints": [
-            "Le pilotage préventif évite d'encoder les traits indésirables en ajoutant des vecteurs lors du fine-tuning.",
-            "L'audit de trois modèles révèle que ce pilotage modifie sensiblement le comportement de refus.",
-            "Les résultats montrent que les méthodes de pilotage doivent être évaluées sur plusieurs critères de sécurité."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-db119966b06bc1",
-      "title": "AscendGYM: Cost-Aware Kernel Optimization for Ascend NPUs",
-      "summary": "AscendGYM is a cost-aware kernel optimization benchmark designed for real-world workloads on Ascend NPUs. Featuring 48 kernels across three difficulty levels, it introduces the Speedup-Token Score metric to evaluate performance gains relative to token optimization costs.",
-      "keyPoints": [
-        "Includes 48 kernels paired with test cases collected from real-world training and inference tasks.",
-        "Supports model evaluation and model-harness evaluation modes with a complete execution environment.",
-        "Proposes the Speedup-Token Score (STS) to evaluate practical kernel optimization under budget limits."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17621",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AscendGYM: Cost-Aware Kernel Optimization for Ascend NPUs",
-          "summary": "AscendGYM is a cost-aware kernel optimization benchmark designed for real-world workloads on Ascend NPUs. Featuring 48 kernels across three difficulty levels, it introduces the Speedup-Token Score metric to evaluate performance gains relative to token optimization costs.",
-          "keyPoints": [
-            "Includes 48 kernels paired with test cases collected from real-world training and inference tasks.",
-            "Supports model evaluation and model-harness evaluation modes with a complete execution environment.",
-            "Proposes the Speedup-Token Score (STS) to evaluate practical kernel optimization under budget limits."
-          ]
-        },
-        "fr": {
-          "title": "AscendGYM : Benchmark d'optimisation de noyaux pour NPUs Ascend",
-          "summary": "AscendGYM est un benchmark d'optimisation de noyaux pour les charges de travail réelles sur NPUs Ascend. Comprenant 48 noyaux, il introduit la métrique Speedup-Token Score pour évaluer les gains de performance par rapport au coût en jetons.",
-          "keyPoints": [
-            "Intègre 48 noyaux associés à des cas de test issus de tâches d'entraînement et d'inférence réelles.",
-            "Prend en charge l'évaluation de modèles et de harnais avec un environnement d'exécution complet.",
-            "Propose le score Speedup-Token (STS) pour évaluer l'optimisation sous contrainte budgétaire."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7f91f504d57986",
-      "title": "Generated Evaluation Suites as Diversity-Driven Search",
-      "summary": "This paper analyzes evaluation suites generated through diversity-driven search by injecting controlled defects into agent benchmarks. The findings reveal that evaluation archives should be scored per cell and publish coverage as a first-class property to properly detect real agent regressions.",
-      "keyPoints": [
-        "Injecting 7 controlled defects into a benchmark agent reveals coverage ceilings and detection limits.",
-        "Defects split into trace-aligned regimes, where per-cell scoring works, and behavioral trace-orthogonal ones.",
-        "Evaluation archives should avoid global mean pass rates and instead score per cell with explicit coverage."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17632",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Generated Evaluation Suites as Diversity-Driven Search",
-          "summary": "This paper analyzes evaluation suites generated through diversity-driven search by injecting controlled defects into agent benchmarks. The findings reveal that evaluation archives should be scored per cell and publish coverage as a first-class property to properly detect real agent regressions.",
-          "keyPoints": [
-            "Injecting 7 controlled defects into a benchmark agent reveals coverage ceilings and detection limits.",
-            "Defects split into trace-aligned regimes, where per-cell scoring works, and behavioral trace-orthogonal ones.",
-            "Evaluation archives should avoid global mean pass rates and instead score per cell with explicit coverage."
-          ]
-        },
-        "fr": {
-          "title": "Suites d'évaluation générées comme recherche guidée par la diversité",
-          "summary": "Cet article analyse les suites d'évaluation générées par recherche guidée en injectant des défauts contrôlés dans des benchmarks. Les résultats montrent que les archives d'évaluation doivent être notées par cellule pour détecter les régressions.",
-          "keyPoints": [
-            "L'injection de 7 défauts contrôlés révèle des plafonds de couverture et des limites de détection.",
-            "Les défauts se divisent en régimes alignés sur les traces et en régimes comportementaux orthogonaux.",
-            "Les archives d'évaluation devraient éviter les taux de réussite globaux et noter par cellule."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2058b8ffe8f15f",
-      "title": "What LLM Agents See vs. What Users Say",
-      "summary": "This research investigates whether LLM agents rely more on tool outputs or user statements when executing critical actions like cancellations or deletions. Using presupposition theory, the study shows that lookup ambiguities often lead agents to act prematurely unless competing records are listed or checked.",
-      "keyPoints": [
-        "When lookups return ambiguous records, agents often execute actions without asking first.",
-        "Listing competing records or checking user-provided specific details helps prevent incorrect writes.",
-        "Newest Claude and GPT models examined open counted second records but refrain from acting incorrectly."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17639",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "What LLM Agents See vs. What Users Say",
-          "summary": "This research investigates whether LLM agents rely more on tool outputs or user statements when executing critical actions like cancellations or deletions. Using presupposition theory, the study shows that lookup ambiguities often lead agents to act prematurely unless competing records are listed or checked.",
-          "keyPoints": [
-            "When lookups return ambiguous records, agents often execute actions without asking first.",
-            "Listing competing records or checking user-provided specific details helps prevent incorrect writes.",
-            "Newest Claude and GPT models examined open counted second records but refrain from acting incorrectly."
-          ]
-        },
-        "fr": {
-          "title": "Ce que voient les agents LLM et ce que disent les utilisateurs",
-          "summary": "Cette recherche examine si les agents LLM se fient davantage aux outils ou aux déclarations des utilisateurs lors d'actions critiques. L'étude montre que les ambiguïtés de recherche poussent souvent les agents à agir prématurément sans vérification.",
-          "keyPoints": [
-            "Face à des enregistrements ambigus, les agents exécutent souvent des actions sans demander confirmation.",
-            "Lister les enregistrements concurrents ou vérifier les détails fournis évite les erreurs d'écriture.",
-            "Les modèles Claude et GPT récents ouvrent les enregistrements multiples mais évitent les actions incorrectes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
+        "confidence": 0.95,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 320,
+    "itemsCollected": 325,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
