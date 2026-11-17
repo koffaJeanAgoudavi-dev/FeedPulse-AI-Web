@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-11-16T22:05:57.570Z",
+  "generatedAt": "2026-11-17T07:56:51.064Z",
   "items": [
+    {
+      "id": "feed-0e7f690aa4ff22",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "summary": "OpenAI is collaborating with NATO and allied cyber agencies to assist trusted defenders in identifying vulnerabilities, testing fixes, and safeguarding essential systems.",
+      "keyPoints": [
+        "Working with NATO and allied cyber agencies",
+        "Helping trusted defenders find vulnerabilities",
+        "Assisting in testing fixes and protecting essential systems"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "summary": "OpenAI is collaborating with NATO and allied cyber agencies to assist trusted defenders in identifying vulnerabilities, testing fixes, and safeguarding essential systems.",
+          "keyPoints": [
+            "Working with NATO and allied cyber agencies",
+            "Helping trusted defenders find vulnerabilities",
+            "Assisting in testing fixes and protecting essential systems"
+          ]
+        },
+        "fr": {
+          "title": "Renforcer la cyberdéfense de l'OTAN et des alliés avec l'IA",
+          "summary": "OpenAI collabore avec l'OTAN et les agences cyber alliées pour aider les défenseurs de confiance à trouver des vulnérabilités, tester des correctifs et protéger les systèmes essentiels.",
+          "keyPoints": [
+            "Collaboration avec l'OTAN et les agences cyber alliées",
+            "Aide aux défenseurs pour identifier les vulnérabilités",
+            "Soutien pour tester les correctifs et protéger les systèmes"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b82b64ef90f76e",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "summary": "Revolut utilizes OpenAI models and Codex to reduce coding time by 30 to 60 percent, scale financial crime investigations, and drive innovation while maintaining security standards.",
+      "keyPoints": [
+        "Cuts coding time by 30–60% using OpenAI models and Codex",
+        "Scales financial crime investigations",
+        "Innovates without compromising security"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/revolut",
+      "publishedAt": "2026-11-16T09:30:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Revolut raises ambition without lowering the bar",
+          "summary": "Revolut utilizes OpenAI models and Codex to reduce coding time by 30 to 60 percent, scale financial crime investigations, and drive innovation while maintaining security standards.",
+          "keyPoints": [
+            "Cuts coding time by 30–60% using OpenAI models and Codex",
+            "Scales financial crime investigations",
+            "Innovates without compromising security"
+          ]
+        },
+        "fr": {
+          "title": "Comment Revolut élève ses ambitions sans baisser ses exigences",
+          "summary": "Revolut utilise les modèles d'OpenAI et Codex pour réduire le temps de codage de 30 à 60 %, étendre les enquêtes sur la criminalité financière et innover sans compromettre la sécurité.",
+          "keyPoints": [
+            "Réduit le temps de codage de 30 à 60 % avec Codex",
+            "Étend les enquêtes sur la criminalité financière",
+            "Innove sans compromettre la sécurité"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-2d7a5d6b20fff3",
       "title": "Expanding ChatGPT Access for Academic Researchers Worldwide",
@@ -702,93 +780,15 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-402a0286b8bd0b",
-      "title": "Certified Improvements to Thomson-Problem Using LLM Agents",
-      "summary": "Researchers report new certified configurations for the Thomson problem at N = 912, 1382, and 2502 using a search pipeline built with large language model agents.",
-      "keyPoints": [
-        "Found improved configurations for N = 912, 1382, and 2502 with exact arithmetic certification.",
-        "Pipeline built and executed using large language model agents like Claude.",
-        "Outlines three key practices for computational discovery with LLM agents."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17776",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Certified Improvements to Thomson-Problem Using LLM Agents",
-          "summary": "Researchers report new certified configurations for the Thomson problem at N = 912, 1382, and 2502 using a search pipeline built with large language model agents.",
-          "keyPoints": [
-            "Found improved configurations for N = 912, 1382, and 2502 with exact arithmetic certification.",
-            "Pipeline built and executed using large language model agents like Claude.",
-            "Outlines three key practices for computational discovery with LLM agents."
-          ]
-        },
-        "fr": {
-          "title": "Améliorations certifiées du problème de Thomson via des agents LLM",
-          "summary": "Des chercheurs rapportent de nouvelles configurations certifiées pour le problème de Thomson pour N = 912, 1382 et 2502 à l'aide d'un pipeline de recherche construit avec des agents de grands modèles de langage.",
-          "keyPoints": [
-            "Nouvelles configurations pour N = 912, 1382 et 2502 certifiées par arithmétique exacte.",
-            " Pipeline développé et exécuté à l'aide d'agents de modèles de langage (Claude).",
-            "Établit trois pratiques pour la découverte computationnelle avec des agents IA."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-ca24fd9faebeba",
-      "title": "TReC: Evaluating Move-Induced State Changes in Go",
-      "summary": "Researchers introduce Transition Representation Consistency (TReC) to evaluate move-induced state changes in instruction-conditioned Go by measuring cosine similarity between embedding changes.",
-      "keyPoints": [
-        "Introduces Transition Representation Consistency (TReC) metric.",
-        "Evaluates board-state embedding changes using cosine similarity.",
-        "Shows weak rank correlation between coordinate distance and TReC."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17781",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "TReC: Evaluating Move-Induced State Changes in Go",
-          "summary": "Researchers introduce Transition Representation Consistency (TReC) to evaluate move-induced state changes in instruction-conditioned Go by measuring cosine similarity between embedding changes.",
-          "keyPoints": [
-            "Introduces Transition Representation Consistency (TReC) metric.",
-            "Evaluates board-state embedding changes using cosine similarity.",
-            "Shows weak rank correlation between coordinate distance and TReC."
-          ]
-        },
-        "fr": {
-          "title": "TReC : Évaluation des changements d'état induits par les coups au jeu de Go",
-          "summary": "Des chercheurs présentent le TReC pour évaluer les changements d'état induits par les coups au Go en mesurant la similarité cosinus entre les modifications des représentations de l'état du plateau.",
-          "keyPoints": [
-            "Introduit la métrique TReC pour le jeu de Go.",
-            "Utilise la similarité cosinus pour comparer les changements d'intégration d'état.",
-            "Démontre une faible corrélation de rang entre la distance de coordonnée et le TReC."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 325,
+    "itemsCollected": 47,
     "itemsPublished": 20,
-    "newItems": 20,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 2,
+    "candidates": 2,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
