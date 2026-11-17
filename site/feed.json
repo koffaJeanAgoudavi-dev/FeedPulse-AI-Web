@@ -1,6 +1,201 @@
 {
-  "generatedAt": "2026-11-17T07:56:51.064Z",
+  "generatedAt": "2026-11-17T20:57:14.676Z",
   "items": [
+    {
+      "id": "feed-8f6af8c44a4a1b",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "summary": "OpenAI introduces GPT-6.2 Astra and Sol, offering improved professional outputs, coding, computer use, and efficiency at a lower cost across ChatGPT Work, Codex, and the API.",
+      "keyPoints": [
+        "Includes GPT-6.2 Astra and Sol models",
+        "Delivers better professional outputs, coding, and computer use",
+        "Offers higher efficiency at a lower cost across ChatGPT Work, Codex, and the API"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "summary": "OpenAI introduces GPT-6.2 Astra and Sol, offering improved professional outputs, coding, computer use, and efficiency at a lower cost across ChatGPT Work, Codex, and the API.",
+          "keyPoints": [
+            "Includes GPT-6.2 Astra and Sol models",
+            "Delivers better professional outputs, coding, and computer use",
+            "Offers higher efficiency at a lower cost across ChatGPT Work, Codex, and the API"
+          ]
+        },
+        "fr": {
+          "title": "Présentation de GPT-6.2 Astra et Sol",
+          "summary": "OpenAI présente GPT-6.2 Astra et Sol, offrant de meilleurs résultats professionnels, du codage, une utilisation de l'ordinateur et une efficacité accrue à moindre coût sur ChatGPT Work, Codex et l'API.",
+          "keyPoints": [
+            "Introduction des modèles GPT-6.2 Astra et Sol",
+            "Amélioration des performances professionnelles, du codage et de l'usage informatique",
+            "Efficacité accrue à moindre coût sur ChatGPT Work, Codex et l'API"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b451aff394adbb",
+      "title": "Put Gemini to work for you",
+      "summary": "Tasks in Gemini is now free in six countries, rolling out new features starting in the U.S. along with deeper Google Workspace integration.",
+      "keyPoints": [
+        "Tasks in Gemini is now free of charge in six countries",
+        "New features are launching starting in the U.S.",
+        "Features deeper Google Workspace integration to assist users"
+      ],
+      "category": "Outils",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+      "translations": {
+        "en": {
+          "title": "Put Gemini to work for you",
+          "summary": "Tasks in Gemini is now free in six countries, rolling out new features starting in the U.S. along with deeper Google Workspace integration.",
+          "keyPoints": [
+            "Tasks in Gemini is now free of charge in six countries",
+            "New features are launching starting in the U.S.",
+            "Features deeper Google Workspace integration to assist users"
+          ]
+        },
+        "fr": {
+          "title": "Mettez Gemini au travail pour vous",
+          "summary": "Tasks in Gemini est désormais gratuit dans six pays, avec de nouvelles fonctionnalités lancées aux États-Unis et une intégration plus poussée de Google Workspace.",
+          "keyPoints": [
+            "Tasks in Gemini est gratuit dans six pays",
+            "De nouvelles fonctionnalités débutent aux États-Unis",
+            "Intégration plus poussée de Google Workspace pour accomplir des tâches"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3b3be741a87f5e",
+      "title": "Introducing OpenAI for Chile",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, develop public-sector skills, and help local startups build AI applications.",
+      "keyPoints": [
+        "Partnership between OpenAI and the Government of Chile",
+        "Focuses on supporting responsible AI adoption",
+        "Aims to build public-sector skills and help local startups develop AI applications"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-openai-for-chile",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing OpenAI for Chile",
+          "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, develop public-sector skills, and help local startups build AI applications.",
+          "keyPoints": [
+            "Partnership between OpenAI and the Government of Chile",
+            "Focuses on supporting responsible AI adoption",
+            "Aims to build public-sector skills and help local startups develop AI applications"
+          ]
+        },
+        "fr": {
+          "title": "Présentation d'OpenAI pour le Chili",
+          "summary": "OpenAI et le gouvernement du Chili s'associent pour soutenir l'adoption responsable de l'IA, renforcer les compétences du secteur public et aider les startups locales à développer des applications d'IA.",
+          "keyPoints": [
+            "Partenariat entre OpenAI et le gouvernement du Chili",
+            "Soutien à l'adoption responsable de l'IA",
+            "Développement des compétences du secteur public et aide aux startups locales"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b43ef08ac3ed4f",
+      "title": "Astra for Law leads in legal intelligence",
+      "summary": "Astra for Law ranked first in a launch evaluation covering 24 areas of law, and is now available for access requests from all ChatGPT Enterprise customers.",
+      "keyPoints": [
+        "Ranked first in a launch evaluation spanning 24 areas of law",
+        "Specializes in legal intelligence",
+        "Available for access requests from all ChatGPT Enterprise customers"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/astra-law-6-2",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Astra for Law leads in legal intelligence",
+          "summary": "Astra for Law ranked first in a launch evaluation covering 24 areas of law, and is now available for access requests from all ChatGPT Enterprise customers.",
+          "keyPoints": [
+            "Ranked first in a launch evaluation spanning 24 areas of law",
+            "Specializes in legal intelligence",
+            "Available for access requests from all ChatGPT Enterprise customers"
+          ]
+        },
+        "fr": {
+          "title": "Astra for Law en tête de l'intelligence juridique",
+          "summary": "Astra for Law s'est classé premier lors d'une évaluation de lancement couvrant 24 domaines juridiques, et tous les clients ChatGPT Enterprise peuvent désormais demander y accéder.",
+          "keyPoints": [
+            "Classé premier dans une évaluation portant sur 24 domaines du droit",
+            "Axé sur l'intelligence juridique",
+            "Accessible sur demande pour tous les clients ChatGPT Enterprise"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-35bcc4b3dafe10",
+      "title": "ChatGPT Ads increases its market presence",
+      "summary": "Aleph has been selected as ChatGPT Ads' exclusive reseller across 44 countries, providing local invoicing, in-person support, and market expertise to brands and agencies.",
+      "keyPoints": [
+        "Aleph selected as exclusive reseller in 44 countries",
+        "Provides local invoicing and in-person support",
+        "Offers local market expertise to brands and agencies"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ChatGPT Ads increases its market presence",
+          "summary": "Aleph has been selected as ChatGPT Ads' exclusive reseller across 44 countries, providing local invoicing, in-person support, and market expertise to brands and agencies.",
+          "keyPoints": [
+            "Aleph selected as exclusive reseller in 44 countries",
+            "Provides local invoicing and in-person support",
+            "Offers local market expertise to brands and agencies"
+          ]
+        },
+        "fr": {
+          "title": "ChatGPT Ads accroit sa présence sur le marché",
+          "summary": "Aleph est choisi comme revendeur exclusif de ChatGPT Ads dans 44 pays pour offrir facturation locale, support en personne et expertise du marché aux marques et agences.",
+          "keyPoints": [
+            "Aleph désigné revendeur exclusif dans 44 pays",
+            "Fournit une facturation locale et un support en personne",
+            "Offre une expertise du marché local aux marques et agences"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-0e7f690aa4ff22",
       "title": "Strengthening NATO and allied cyber defenses with AI",
@@ -585,209 +780,14 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-60f3c7381bc61e",
-      "title": "The King’s Trust and OpenAI Launch £1m Partnership",
-      "summary": "The King’s Trust and OpenAI have launched a £1m partnership aimed at helping up to 25,000 young people across the UK acquire practical AI skills for the workplace.",
-      "keyPoints": [
-        "Involves a £1m partnership between The King’s Trust and OpenAI.",
-        "Targeting up to 25,000 young people in the UK.",
-        "Focuses on building practical AI workplace skills."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/the-kings-trust-and-openai",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "The King’s Trust and OpenAI Launch £1m Partnership",
-          "summary": "The King’s Trust and OpenAI have launched a £1m partnership aimed at helping up to 25,000 young people across the UK acquire practical AI skills for the workplace.",
-          "keyPoints": [
-            "Involves a £1m partnership between The King’s Trust and OpenAI.",
-            "Targeting up to 25,000 young people in the UK.",
-            "Focuses on building practical AI workplace skills."
-          ]
-        },
-        "fr": {
-          "title": "The King's Trust et OpenAI lancent un partenariat d'un million de livres",
-          "summary": "The King's Trust et OpenAI lancent un partenariat d'un million de livres sterling pour aider jusqu'à 25 000 jeunes au Royaume-Uni à acquérir des compétences pratiques en IA.",
-          "keyPoints": [
-            "Partenariat d'un million de livres entre The King's Trust et OpenAI.",
-            "Cible jusqu'à 25 000 jeunes au Royaume-Uni.",
-            "Axé sur le développement de compétences pratiques en IA pour le travail."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-eb4235b75bfce8",
-      "title": "Federated Soft Poly-Level Learning Over Distributed Networks",
-      "summary": "Researchers propose a Federated Poly-Level Learning framework to solve multi-level optimization problems involving four or more hierarchical levels across distributed nodes with guaranteed convergence.",
-      "keyPoints": [
-        "Addresses poly-level optimization involving four or more hierarchical levels.",
-        "Proposes a Federated Poly-Level Learning (FPLL) framework utilizing L-cuts.",
-        "Features adjustable parameters for balancing complexity and performance."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17722",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Federated Soft Poly-Level Learning Over Distributed Networks",
-          "summary": "Researchers propose a Federated Poly-Level Learning framework to solve multi-level optimization problems involving four or more hierarchical levels across distributed nodes with guaranteed convergence.",
-          "keyPoints": [
-            "Addresses poly-level optimization involving four or more hierarchical levels.",
-            "Proposes a Federated Poly-Level Learning (FPLL) framework utilizing L-cuts.",
-            "Features adjustable parameters for balancing complexity and performance."
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage poly-niveau fédéré et souple sur réseaux distribués",
-          "summary": "Des chercheurs proposent un cadre d'apprentissage poly-niveau fédéré pour résoudre des problèmes d'optimisation multi-niveaux comportant quatre niveaux hiérarchiques ou plus sur des nœuds distribués.",
-          "keyPoints": [
-            "Traite l'optimisation poly-niveau avec quatre niveaux ou plus.",
-            "Propose un cadre FPLL utilisant des coupes L pour la relaxation.",
-            "Offre des paramètres ajustables pour équilibrer complexité et performance."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-3d4aeac88b69ac",
-      "title": "How Holiday Extras Uses AI Dots for Automation",
-      "summary": "At Holiday Extras, autonomous AI dots deliver unprompted launch reports, flag missed issues, and help staff prepare for upcoming meetings during their commutes.",
-      "keyPoints": [
-        "Dots deliver launch reports unprompted.",
-        "System flags issues that people might otherwise miss.",
-        "Assists with meeting preparation during commutes."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/business/customer-stories/holiday-extras-dots",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How Holiday Extras Uses AI Dots for Automation",
-          "summary": "At Holiday Extras, autonomous AI dots deliver unprompted launch reports, flag missed issues, and help staff prepare for upcoming meetings during their commutes.",
-          "keyPoints": [
-            "Dots deliver launch reports unprompted.",
-            "System flags issues that people might otherwise miss.",
-            "Assists with meeting preparation during commutes."
-          ]
-        },
-        "fr": {
-          "title": "Comment Holiday Extras utilise des 'dots' IA pour l'automatisation",
-          "summary": "Chez Holiday Extras, des dots d'IA autonomes fournissent des rapports de lancement spontanés, signalent des problèmes et aident à préparer les réunions pendant le trajet.",
-          "keyPoints": [
-            "Les dots fournissent des rapports de lancement sans intervention.",
-            "Le système signale les problèmes manqués par les humains.",
-            "Aide à préparer les réunions à venir."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-fe749e12033c8d",
-      "title": "A Spectral Framework for Universal Proxy Regularization in Model Merging",
-      "summary": "A spectral framework is proposed to analyze universal proxy regularization in model merging, establishing parameter interference bounds based on spectral coverage and leakage.",
-      "keyPoints": [
-        "Characterizes universal proxy regularization through spectral coverage and leakage.",
-        "Derives a unified parameter interference bound for better spectral alignment.",
-        "Proves a three-way hierarchy among different regularization instantiations."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17728",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "A Spectral Framework for Universal Proxy Regularization in Model Merging",
-          "summary": "A spectral framework is proposed to analyze universal proxy regularization in model merging, establishing parameter interference bounds based on spectral coverage and leakage.",
-          "keyPoints": [
-            "Characterizes universal proxy regularization through spectral coverage and leakage.",
-            "Derives a unified parameter interference bound for better spectral alignment.",
-            "Proves a three-way hierarchy among different regularization instantiations."
-          ]
-        },
-        "fr": {
-          "title": "Cadre spectral pour la régularisation par proxy universel dans la fusion",
-          "summary": "Un cadre spectral est proposé pour analyser la régularisation par proxy universel dans la fusion de modèles, établissant des limites d'interférence basées sur la couverture spectrale.",
-          "keyPoints": [
-            "Caractérise la régularisation par proxy via la couverture spectrale et la fuite.",
-            "Dérive une borne d'interférence des paramètres unifiée.",
-            "Prouve une hiérarchie à trois voies entre différentes instantiations."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c3d9d3fc175d75",
-      "title": "Knowledge After Collapse: Context and Wording Shape Factual Accessibility",
-      "summary": "The study introduces Knowledge Answer Divergence (KAD) to evaluate language models after accepting false corrections, showing that context, cue-placement, and wording heavily influence factual recovery.",
-      "keyPoints": [
-        "Introduces Knowledge Answer Divergence (KAD) for event-conditioned evaluation.",
-        "Demonstrates that neutral-history branches improve correct responses significantly.",
-        "Shows model sensitivity to cue-placement and pressure template wording."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17763",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Knowledge After Collapse: Context and Wording Shape Factual Accessibility",
-          "summary": "The study introduces Knowledge Answer Divergence (KAD) to evaluate language models after accepting false corrections, showing that context, cue-placement, and wording heavily influence factual recovery.",
-          "keyPoints": [
-            "Introduces Knowledge Answer Divergence (KAD) for event-conditioned evaluation.",
-            "Demonstrates that neutral-history branches improve correct responses significantly.",
-            "Shows model sensitivity to cue-placement and pressure template wording."
-          ]
-        },
-        "fr": {
-          "title": "Connaissance après effondrement : le contexte et la formulation façonnent l'accès",
-          "summary": "L'étude introduit la divergence des réponses de connaissance (KAD) pour évaluer les modèles de langage après l'acceptation de fausses corrections, montrant l'impact du contexte et de la formulation.",
-          "keyPoints": [
-            "Introduit le protocole KAD pour l'évaluation conditionnée par les événements.",
-            "Montre que l'historique neutre améliore considérablement les réponses correctes.",
-            "Met en évidence la sensibilité des modèles à la formulation des instructions."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 47,
+    "itemsCollected": 42,
     "itemsPublished": 20,
-    "newItems": 2,
-    "candidates": 2,
+    "newItems": 5,
+    "candidates": 5,
     "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
