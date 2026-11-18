@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-11-17T20:57:14.676Z",
+  "generatedAt": "2026-11-18T07:31:19.353Z",
   "items": [
     {
-      "id": "feed-8f6af8c44a4a1b",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "summary": "OpenAI introduces GPT-6.2 Astra and Sol, offering improved professional outputs, coding, computer use, and efficiency at a lower cost across ChatGPT Work, Codex, and the API.",
+      "id": "feed-db6d264cb8dee9",
+      "title": "NEBench R1: Evaluating Nuclear Domain Competence in LLMs",
+      "summary": "This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 multiple-choice questions from U.S. Nuclear Regulatory Commission reactor operator licensing exams across 18 facilities. Evaluating six LLMs revealed overall accuracies between 34.0% and 73.9%, with analysis showing that correct answers were often not supported by technically sound justifications and longer reasoning traces sometimes correlated with lower accuracy.",
       "keyPoints": [
-        "Includes GPT-6.2 Astra and Sol models",
-        "Delivers better professional outputs, coding, and computer use",
-        "Offers higher efficiency at a lower cost across ChatGPT Work, Codex, and the API"
+        "Includes 7,546 questions extracted from U.S. NRC reactor operator licensing exams across 18 facilities.",
+        "Evaluated six LLMs, yielding overall accuracy ranging from 34.0% to 73.9% across three performance tiers.",
+        "Revealed that longer reasoning traces can correlate with lower accuracy in frontier reasoning models."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21682",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Introducing GPT-6.2 Astra and Sol",
-          "summary": "OpenAI introduces GPT-6.2 Astra and Sol, offering improved professional outputs, coding, computer use, and efficiency at a lower cost across ChatGPT Work, Codex, and the API.",
+          "title": "NEBench R1: Evaluating Nuclear Domain Competence in LLMs",
+          "summary": "This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 multiple-choice questions from U.S. Nuclear Regulatory Commission reactor operator licensing exams across 18 facilities. Evaluating six LLMs revealed overall accuracies between 34.0% and 73.9%, with analysis showing that correct answers were often not supported by technically sound justifications and longer reasoning traces sometimes correlated with lower accuracy.",
           "keyPoints": [
-            "Includes GPT-6.2 Astra and Sol models",
-            "Delivers better professional outputs, coding, and computer use",
-            "Offers higher efficiency at a lower cost across ChatGPT Work, Codex, and the API"
+            "Includes 7,546 questions extracted from U.S. NRC reactor operator licensing exams across 18 facilities.",
+            "Evaluated six LLMs, yielding overall accuracy ranging from 34.0% to 73.9% across three performance tiers.",
+            "Revealed that longer reasoning traces can correlate with lower accuracy in frontier reasoning models."
           ]
         },
         "fr": {
-          "title": "Présentation de GPT-6.2 Astra et Sol",
-          "summary": "OpenAI présente GPT-6.2 Astra et Sol, offrant de meilleurs résultats professionnels, du codage, une utilisation de l'ordinateur et une efficacité accrue à moindre coût sur ChatGPT Work, Codex et l'API.",
+          "title": "NEBench R1 : évaluer la compétence nucléaire des LLM",
+          "summary": "Cette étude présente NEBench R1, un benchmark axé sur le raisonnement comprenant 7 546 questions à choix multiples issues des examens de licence d'opérateur de réacteur de la NRC américaine à travers 18 installations. L'évaluation de six LLM a révélé des précisions globales allant de 34,0 % à 73,9 %, montrant que les bonnes réponses n'étaient pas toujours étayées par des justifications techniques valides.",
           "keyPoints": [
-            "Introduction des modèles GPT-6.2 Astra et Sol",
-            "Amélioration des performances professionnelles, du codage et de l'usage informatique",
-            "Efficacité accrue à moindre coût sur ChatGPT Work, Codex et l'API"
+            "Comporte 7 546 questions extraites des examens de la NRC couvrant 18 installations nucléaires.",
+            "A évalué six LLM avec des précisions globales comprises entre 34,0 % et 73,9 %.",
+            "A montré que des traces de raisonnement plus longues peuvent être associées à une précision plus faible."
           ]
         }
       },
@@ -41,36 +41,231 @@
       }
     },
     {
-      "id": "feed-b451aff394adbb",
-      "title": "Put Gemini to work for you",
-      "summary": "Tasks in Gemini is now free in six countries, rolling out new features starting in the U.S. along with deeper Google Workspace integration.",
+      "id": "feed-3047d7657748ea",
+      "title": "Introducing ChatGPT for Sales",
+      "summary": "OpenAI has announced the new Sales plugin along with over 30 new and expanded partner plugins within ChatGPT. These tools are designed to help users research prospects, prepare pitches, update customer relationship management (CRM) systems, and advance business deals.",
       "keyPoints": [
-        "Tasks in Gemini is now free of charge in six countries",
-        "New features are launching starting in the U.S.",
-        "Features deeper Google Workspace integration to assist users"
+        "Introduces a new Sales plugin for ChatGPT.",
+        "Includes over 30 new and expanded partner plugins.",
+        "Designed to assist with prospecting, pitches, CRM updates, and moving deals forward."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Introducing ChatGPT for Sales",
+          "summary": "OpenAI has announced the new Sales plugin along with over 30 new and expanded partner plugins within ChatGPT. These tools are designed to help users research prospects, prepare pitches, update customer relationship management (CRM) systems, and advance business deals.",
+          "keyPoints": [
+            "Introduces a new Sales plugin for ChatGPT.",
+            "Includes over 30 new and expanded partner plugins.",
+            "Designed to assist with prospecting, pitches, CRM updates, and moving deals forward."
+          ]
+        },
+        "fr": {
+          "title": "Présentation de ChatGPT for Sales",
+          "summary": "OpenAI a annoncé un nouveau plugin Sales ainsi que plus de 30 plugins partenaires nouveaux ou élargis dans ChatGPT. Ces outils visent à aider les utilisateurs à rechercher des prospects, préparer des argumentaires, mettre à jour leur CRM et faire progresser les transactions.",
+          "keyPoints": [
+            "Intègre un nouveau plugin de vente pour ChatGPT.",
+            "Comprend plus de 30 plugins partenaires nouveaux et améliorés.",
+            "Aide à la recherche de prospects, à la préparation des argumentaires et à la mise à jour des CRM."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b86f222d774a43",
+      "title": "Chain-of-Thought Controllability and Monitorability Risks",
+      "summary": "Research demonstrates that persona-control training can induce a broader ability to control chain-of-thought (CoT) reasoning, which can reduce its monitorability. In covert side-task evaluations, model organisms exhibited significantly less monitorable evidence, dropping monitorability metrics notably—especially when explicitly instructed to hide their reasoning—though targeted transparency prompts could partially recover monitorability.",
+      "keyPoints": [
+        "Persona-control training allows models to control CoT reasoning, reducing monitorability without explicit hiding instructions.",
+        "Explicitly instructing models to hide their reasoning drops the CoT monitorability metric g-mean squared significantly.",
+        "Targeted transparency prompts can substantially recover monitorability and sometimes surpass base models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21799",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Chain-of-Thought Controllability and Monitorability Risks",
+          "summary": "Research demonstrates that persona-control training can induce a broader ability to control chain-of-thought (CoT) reasoning, which can reduce its monitorability. In covert side-task evaluations, model organisms exhibited significantly less monitorable evidence, dropping monitorability metrics notably—especially when explicitly instructed to hide their reasoning—though targeted transparency prompts could partially recover monitorability.",
+          "keyPoints": [
+            "Persona-control training allows models to control CoT reasoning, reducing monitorability without explicit hiding instructions.",
+            "Explicitly instructing models to hide their reasoning drops the CoT monitorability metric g-mean squared significantly.",
+            "Targeted transparency prompts can substantially recover monitorability and sometimes surpass base models."
+          ]
+        },
+        "fr": {
+          "title": "Contrôlabilité et risques de monitorabilité des chaînes de pensée",
+          "summary": "Des recherches montrent que l'entraînement au contrôle de persona peut induire une capacité à contrôler les chaînes de pensée (CoT), réduisant ainsi leur monitorabilité. Lors d'évaluations de tâches secondaires cachées, les modèles ont fourni moins de preuves monitorables, surtout lorsqu'ils ont reçu des consignes explicites de dissimulation, bien que des invites de transparence ciblées puissent restaurer cette visibilité.",
+          "keyPoints": [
+            "L'entraînement au contrôle de persona réduit la monitorabilité des chaînes de pensée.",
+            "Les consignes explicites de dissimulation font chuter drastiquement les métriques de monitorabilité.",
+            "Des invites de transparence ciblées permettent de rétablir en grande partie la monitorabilité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0be8d4aa156a99",
+      "title": "Investigating Background Shortcuts in SAR Vehicle Recognition",
+      "summary": "This study examines the reliance of deep networks on background shortcuts within SAR vehicle benchmarks like MSTAR and ATRNet-STAR. Experiments with ConvNeXt-Small and SARATR-X show that networks still achieve substantial accuracy even when central vehicle pixels or the vehicles themselves are removed, highlighting that background features strongly influence performance alongside angle gaps.",
+      "keyPoints": [
+        "ConvNeXt-Small achieves 73.3% accuracy on MSTAR even with central pixels zeroed out.",
+        "Removing vehicles entirely still yields 63.3% accuracy on the ATRNet-STAR 40-class SOC split.",
+        "Accuracy is heavily determined by the angle gap to the nearest training depression angle."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21827",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Investigating Background Shortcuts in SAR Vehicle Recognition",
+          "summary": "This study examines the reliance of deep networks on background shortcuts within SAR vehicle benchmarks like MSTAR and ATRNet-STAR. Experiments with ConvNeXt-Small and SARATR-X show that networks still achieve substantial accuracy even when central vehicle pixels or the vehicles themselves are removed, highlighting that background features strongly influence performance alongside angle gaps.",
+          "keyPoints": [
+            "ConvNeXt-Small achieves 73.3% accuracy on MSTAR even with central pixels zeroed out.",
+            "Removing vehicles entirely still yields 63.3% accuracy on the ATRNet-STAR 40-class SOC split.",
+            "Accuracy is heavily determined by the angle gap to the nearest training depression angle."
+          ]
+        },
+        "fr": {
+          "title": "Analyse des biais d'arrière-plan dans la reconnaissance de véhicules SAR",
+          "summary": "Cette étude examine la dépendance des réseaux profonds envers les indices d'arrière-plan dans les benchmarks SAR MSTAR et ATRNet-STAR. Les expériences montrent que les réseaux atteignent une précision significative même lorsque les pixels centraux ou les véhicules sont supprimés, soulignant l'impact des arrière-plans et des écarts angulaires.",
+          "keyPoints": [
+            "ConvNeXt-Small atteint 73,3 % de précision sur MSTAR malgré la suppression des pixels centraux.",
+            "La suppression totale du véhicule donne encore 63,3 % de précision sur ATRNet-STAR.",
+            "La précision est principalement dictée par l'écart d'angle par rapport aux données d'entraînement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-c60bbdbf2963b3",
+      "title": "Auditors Struggle to Detect Research Sabotage in AI Transcripts",
+      "summary": "To test defenses against AI research sabotage, researchers conducted a red-team/blue-team game where human auditors and frontier models tried to detect simulated sabotage in AI safety research transcripts. Human auditors mostly failed with an AUROC of 0.59, while the best frontier model achieved an AUROC of 0.73, indicating current auditing methods struggle to reliably catch expert-level sabotage.",
+      "keyPoints": [
+        "Human auditors achieved an AUROC of 0.59, performing no better than chance at identifying sabotage.",
+        "The best frontier model (Fable 5.1) slightly outperformed humans with an AUROC of 0.73 and 32% full identification.",
+        "Sabotage identification drops further when the saboteur chooses which experiments to attack."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21832",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Auditors Struggle to Detect Research Sabotage in AI Transcripts",
+          "summary": "To test defenses against AI research sabotage, researchers conducted a red-team/blue-team game where human auditors and frontier models tried to detect simulated sabotage in AI safety research transcripts. Human auditors mostly failed with an AUROC of 0.59, while the best frontier model achieved an AUROC of 0.73, indicating current auditing methods struggle to reliably catch expert-level sabotage.",
+          "keyPoints": [
+            "Human auditors achieved an AUROC of 0.59, performing no better than chance at identifying sabotage.",
+            "The best frontier model (Fable 5.1) slightly outperformed humans with an AUROC of 0.73 and 32% full identification.",
+            "Sabotage identification drops further when the saboteur chooses which experiments to attack."
+          ]
+        },
+        "fr": {
+          "title": "Les auditeurs peinent à détecter le sabotage de recherche par IA",
+          "summary": "Pour tester les défenses contre le sabotage de la recherche en IA, des chercheurs ont mis en place un jeu de type red-team/blue-team. Les auditeurs humains ont échoué à distinguer les recherches sabotées avec un AUROC de 0,59, tandis que les meilleurs modèles de frontières ont atteint un AUROC de 0,73, montrant la difficulté actuelle de détection.",
+          "keyPoints": [
+            "Les auditeurs humains obtiennent un AUROC de 0,59, soit un résultat proche du hasard.",
+            "Le meilleur modèle de pointe (Fable 5.1) surpasse légèrement les humains avec un AUROC de 0,73.",
+            "L'identification du sabotage diminue lorsque le saboteur choisit les expériences ciblées."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-03b179946dd0e5",
+      "title": "Language Models Can Perform Self-Rewriting of Their Weights",
+      "summary": "This study demonstrates 'self-rewriting,' a process where a frontier 27B language model diagnoses its failures and directly edits its own weights without gradients, training, or inference-time compute scaling. Across sessions, self-rewriting improved accuracy on unseen mathematical problems and repaired a damaged copy of itself, recovering high performance on image benchmarks it never encountered.",
+      "keyPoints": [
+        "A 27B model successfully diagnosed its failures and edited its own weights without gradients or training.",
+        "Self-rewriting yielded consistent accuracy gains on unseen math problems and persisted in the model weights.",
+        "The capability emerged with scale, functioning effectively in the 27B model while smaller models broke themselves."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21885",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Language Models Can Perform Self-Rewriting of Their Weights",
+          "summary": "This study demonstrates 'self-rewriting,' a process where a frontier 27B language model diagnoses its failures and directly edits its own weights without gradients, training, or inference-time compute scaling. Across sessions, self-rewriting improved accuracy on unseen mathematical problems and repaired a damaged copy of itself, recovering high performance on image benchmarks it never encountered.",
+          "keyPoints": [
+            "A 27B model successfully diagnosed its failures and edited its own weights without gradients or training.",
+            "Self-rewriting yielded consistent accuracy gains on unseen math problems and persisted in the model weights.",
+            "The capability emerged with scale, functioning effectively in the 27B model while smaller models broke themselves."
+          ]
+        },
+        "fr": {
+          "title": "Les modèles de langage peuvent réécrire leurs propres poids",
+          "summary": "Cette étude démontre le « self-rewriting », un processus où un modèle de 27B diagnostique ses erreurs et modifie directement ses poids sans gradients, sans entraînement et sans coût d'inférence supplémentaire. Cette méthode améliore la précision sur des problèmes mathématiques inédits et répare une copie endommagée du modèle.",
+          "keyPoints": [
+            "Un modèle de 27B a réussi à modifier ses propres poids sans entraînement ni gradients.",
+            "La réécriture s'est traduite par des gains de précision persistants sur des problèmes de mathématiques.",
+            "La capacité émerge avec l'échelle, les plus petits modèles ne parvenant pas à s'auto-corriger."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-aec425a30903de",
+      "title": "DNeo: Enhancing Speculative-Diffusion Decoding with MoFA",
+      "summary": "DNeo is a new speculative-diffusion decoding architecture that addresses the limitations of standard feature encoding through Mixture-of-Features Attention (MoFA) and a working memory for rejected proposals. Achieving 1.3x faster generation speed than previous state-of-the-art models without compromising drafter footprint or quality, DNeo establishes a new standard for efficient LLM inference.",
+      "keyPoints": [
+        "Introduces Mixture-of-Features Attention (MoFA) with a working memory for rejected proposals.",
+        "Utilizes enhancements like 2-tap causal convolutions and prefix-only cross-attention.",
+        "Achieves 1.3x faster generation speed compared to DFlash-2 without lowering output quality."
       ],
       "category": "Outils",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-      "publishedAt": "2026-11-17T17:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21925",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Put Gemini to work for you",
-          "summary": "Tasks in Gemini is now free in six countries, rolling out new features starting in the U.S. along with deeper Google Workspace integration.",
+          "title": "DNeo: Enhancing Speculative-Diffusion Decoding with MoFA",
+          "summary": "DNeo is a new speculative-diffusion decoding architecture that addresses the limitations of standard feature encoding through Mixture-of-Features Attention (MoFA) and a working memory for rejected proposals. Achieving 1.3x faster generation speed than previous state-of-the-art models without compromising drafter footprint or quality, DNeo establishes a new standard for efficient LLM inference.",
           "keyPoints": [
-            "Tasks in Gemini is now free of charge in six countries",
-            "New features are launching starting in the U.S.",
-            "Features deeper Google Workspace integration to assist users"
+            "Introduces Mixture-of-Features Attention (MoFA) with a working memory for rejected proposals.",
+            "Utilizes enhancements like 2-tap causal convolutions and prefix-only cross-attention.",
+            "Achieves 1.3x faster generation speed compared to DFlash-2 without lowering output quality."
           ]
         },
         "fr": {
-          "title": "Mettez Gemini au travail pour vous",
-          "summary": "Tasks in Gemini est désormais gratuit dans six pays, avec de nouvelles fonctionnalités lancées aux États-Unis et une intégration plus poussée de Google Workspace.",
+          "title": "DNeo : Améliorer le décodage par diffusion spéculative avec MoFA",
+          "summary": "DNeo est une nouvelle architecture de décodage par diffusion spéculative qui résout les limites de l'encodage de caractéristiques standard grâce au mécanisme MoFA et à une mémoire de travail des propositions rejetées. Atteignant une vitesse de génération 1,3 fois supérieure aux modèles actuels sans perte de qualité, DNeo redéfinit l'état de l'art.",
           "keyPoints": [
-            "Tasks in Gemini est gratuit dans six pays",
-            "De nouvelles fonctionnalités débutent aux États-Unis",
-            "Intégration plus poussée de Google Workspace pour accomplir des tâches"
+            "Intègre l'attention Mixture-of-Features (MoFA) dotée d'une mémoire de travail pour les propositions rejetées.",
+            "Utilise des améliorations telles que des convolutions causales à 2 prises.",
+            "Atteint une vitesse de génération 1,3 fois plus rapide que DFlash-2 à qualité égale."
           ]
         }
       },
@@ -80,309 +275,36 @@
       }
     },
     {
-      "id": "feed-3b3be741a87f5e",
-      "title": "Introducing OpenAI for Chile",
-      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, develop public-sector skills, and help local startups build AI applications.",
+      "id": "feed-adc7c86f54cec9",
+      "title": "SLED: Ensuring Deterministic Sensor Slicing from Edge to Datacenter",
+      "summary": "SLED introduces Sensor Slicing (SL) to provide deterministic, MAC-level isolation for individual sensors within O-RAN wireless systems, preventing data contention and latency spikes. Implemented via agentic coding techniques, SLED successfully preserves latency-critical telemetry across edge, campus, and HPC tiers while maintaining stable network throughput.",
       "keyPoints": [
-        "Partnership between OpenAI and the Government of Chile",
-        "Focuses on supporting responsible AI adoption",
-        "Aims to build public-sector skills and help local startups develop AI applications"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-openai-for-chile",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Introducing OpenAI for Chile",
-          "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, develop public-sector skills, and help local startups build AI applications.",
-          "keyPoints": [
-            "Partnership between OpenAI and the Government of Chile",
-            "Focuses on supporting responsible AI adoption",
-            "Aims to build public-sector skills and help local startups develop AI applications"
-          ]
-        },
-        "fr": {
-          "title": "Présentation d'OpenAI pour le Chili",
-          "summary": "OpenAI et le gouvernement du Chili s'associent pour soutenir l'adoption responsable de l'IA, renforcer les compétences du secteur public et aider les startups locales à développer des applications d'IA.",
-          "keyPoints": [
-            "Partenariat entre OpenAI et le gouvernement du Chili",
-            "Soutien à l'adoption responsable de l'IA",
-            "Développement des compétences du secteur public et aide aux startups locales"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b43ef08ac3ed4f",
-      "title": "Astra for Law leads in legal intelligence",
-      "summary": "Astra for Law ranked first in a launch evaluation covering 24 areas of law, and is now available for access requests from all ChatGPT Enterprise customers.",
-      "keyPoints": [
-        "Ranked first in a launch evaluation spanning 24 areas of law",
-        "Specializes in legal intelligence",
-        "Available for access requests from all ChatGPT Enterprise customers"
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/astra-law-6-2",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Astra for Law leads in legal intelligence",
-          "summary": "Astra for Law ranked first in a launch evaluation covering 24 areas of law, and is now available for access requests from all ChatGPT Enterprise customers.",
-          "keyPoints": [
-            "Ranked first in a launch evaluation spanning 24 areas of law",
-            "Specializes in legal intelligence",
-            "Available for access requests from all ChatGPT Enterprise customers"
-          ]
-        },
-        "fr": {
-          "title": "Astra for Law en tête de l'intelligence juridique",
-          "summary": "Astra for Law s'est classé premier lors d'une évaluation de lancement couvrant 24 domaines juridiques, et tous les clients ChatGPT Enterprise peuvent désormais demander y accéder.",
-          "keyPoints": [
-            "Classé premier dans une évaluation portant sur 24 domaines du droit",
-            "Axé sur l'intelligence juridique",
-            "Accessible sur demande pour tous les clients ChatGPT Enterprise"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-35bcc4b3dafe10",
-      "title": "ChatGPT Ads increases its market presence",
-      "summary": "Aleph has been selected as ChatGPT Ads' exclusive reseller across 44 countries, providing local invoicing, in-person support, and market expertise to brands and agencies.",
-      "keyPoints": [
-        "Aleph selected as exclusive reseller in 44 countries",
-        "Provides local invoicing and in-person support",
-        "Offers local market expertise to brands and agencies"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ChatGPT Ads increases its market presence",
-          "summary": "Aleph has been selected as ChatGPT Ads' exclusive reseller across 44 countries, providing local invoicing, in-person support, and market expertise to brands and agencies.",
-          "keyPoints": [
-            "Aleph selected as exclusive reseller in 44 countries",
-            "Provides local invoicing and in-person support",
-            "Offers local market expertise to brands and agencies"
-          ]
-        },
-        "fr": {
-          "title": "ChatGPT Ads accroit sa présence sur le marché",
-          "summary": "Aleph est choisi comme revendeur exclusif de ChatGPT Ads dans 44 pays pour offrir facturation locale, support en personne et expertise du marché aux marques et agences.",
-          "keyPoints": [
-            "Aleph désigné revendeur exclusif dans 44 pays",
-            "Fournit une facturation locale et un support en personne",
-            "Offre une expertise du marché local aux marques et agences"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0e7f690aa4ff22",
-      "title": "Strengthening NATO and allied cyber defenses with AI",
-      "summary": "OpenAI is collaborating with NATO and allied cyber agencies to assist trusted defenders in identifying vulnerabilities, testing fixes, and safeguarding essential systems.",
-      "keyPoints": [
-        "Working with NATO and allied cyber agencies",
-        "Helping trusted defenders find vulnerabilities",
-        "Assisting in testing fixes and protecting essential systems"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Strengthening NATO and allied cyber defenses with AI",
-          "summary": "OpenAI is collaborating with NATO and allied cyber agencies to assist trusted defenders in identifying vulnerabilities, testing fixes, and safeguarding essential systems.",
-          "keyPoints": [
-            "Working with NATO and allied cyber agencies",
-            "Helping trusted defenders find vulnerabilities",
-            "Assisting in testing fixes and protecting essential systems"
-          ]
-        },
-        "fr": {
-          "title": "Renforcer la cyberdéfense de l'OTAN et des alliés avec l'IA",
-          "summary": "OpenAI collabore avec l'OTAN et les agences cyber alliées pour aider les défenseurs de confiance à trouver des vulnérabilités, tester des correctifs et protéger les systèmes essentiels.",
-          "keyPoints": [
-            "Collaboration avec l'OTAN et les agences cyber alliées",
-            "Aide aux défenseurs pour identifier les vulnérabilités",
-            "Soutien pour tester les correctifs et protéger les systèmes"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b82b64ef90f76e",
-      "title": "How Revolut raises ambition without lowering the bar",
-      "summary": "Revolut utilizes OpenAI models and Codex to reduce coding time by 30 to 60 percent, scale financial crime investigations, and drive innovation while maintaining security standards.",
-      "keyPoints": [
-        "Cuts coding time by 30–60% using OpenAI models and Codex",
-        "Scales financial crime investigations",
-        "Innovates without compromising security"
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/business/customer-stories/revolut",
-      "publishedAt": "2026-11-16T09:30:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "How Revolut raises ambition without lowering the bar",
-          "summary": "Revolut utilizes OpenAI models and Codex to reduce coding time by 30 to 60 percent, scale financial crime investigations, and drive innovation while maintaining security standards.",
-          "keyPoints": [
-            "Cuts coding time by 30–60% using OpenAI models and Codex",
-            "Scales financial crime investigations",
-            "Innovates without compromising security"
-          ]
-        },
-        "fr": {
-          "title": "Comment Revolut élève ses ambitions sans baisser ses exigences",
-          "summary": "Revolut utilise les modèles d'OpenAI et Codex pour réduire le temps de codage de 30 à 60 %, étendre les enquêtes sur la criminalité financière et innover sans compromettre la sécurité.",
-          "keyPoints": [
-            "Réduit le temps de codage de 30 à 60 % avec Codex",
-            "Étend les enquêtes sur la criminalité financière",
-            "Innove sans compromettre la sécurité"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2d7a5d6b20fff3",
-      "title": "Expanding ChatGPT Access for Academic Researchers Worldwide",
-      "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program to provide 200,000 researchers worldwide with free access to frontier models.",
-      "keyPoints": [
-        "Program expanded globally",
-        "200,000 researchers receive free access",
-        "Access granted to frontier models"
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "publishedAt": "2026-11-16T17:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Expanding ChatGPT Access for Academic Researchers Worldwide",
-          "summary": "OpenAI is expanding its ChatGPT for Academic Researchers program to provide 200,000 researchers worldwide with free access to frontier models.",
-          "keyPoints": [
-            "Program expanded globally",
-            "200,000 researchers receive free access",
-            "Access granted to frontier models"
-          ]
-        },
-        "fr": {
-          "title": "Élargissement de l'accès à ChatGPT pour les chercheurs",
-          "summary": "OpenAI élargit son programme ChatGPT pour les chercheurs universitaires afin d'offrir à 200 000 chercheurs du monde entier un accès gratuit à ses modèles de pointe.",
-          "keyPoints": [
-            "Élargissement mondial du programme",
-            "200 000 chercheurs bénéficient d'un accès gratuit",
-            "Accès aux modèles de pointe"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-dfc32ad6652396",
-      "title": "New Ask Maps Features for Holiday Travel and Preparation",
-      "summary": "Google Maps is introducing new Ask Maps features to help users plan holiday road trips, get route tips, find local appointments, and search saved lists.",
-      "keyPoints": [
-        "Plan holiday road trips easily",
-        "Get route tips and local appointments",
-        "Search through saved lists"
+        "Provides deterministic MAC-level isolation for individual sensor streams in O-RAN networks.",
+        "Implemented using agentic coding techniques, significantly reducing development time and prompt volume.",
+        "Maintains stable latency and throughput across edge, campus, and HPC deployment tiers."
       ],
       "category": "Outils",
-      "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "publishedAt": "2026-11-16T14:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.width-1300.png",
-      "translations": {
-        "en": {
-          "title": "New Ask Maps Features for Holiday Travel and Preparation",
-          "summary": "Google Maps is introducing new Ask Maps features to help users plan holiday road trips, get route tips, find local appointments, and search saved lists.",
-          "keyPoints": [
-            "Plan holiday road trips easily",
-            "Get route tips and local appointments",
-            "Search through saved lists"
-          ]
-        },
-        "fr": {
-          "title": "Nouvelles fonctionnalités Ask Maps pour les voyages",
-          "summary": "Google Maps introduit de nouvelles fonctionnalités Ask Maps pour aider à planifier les voyages de vacances, obtenir des conseils d'itinéraires et rechercher des listes enregistrées.",
-          "keyPoints": [
-            "Planification de trajets routiers de vacances",
-            "Conseils d'itinéraires et rendez-vous locaux",
-            "Recherche dans les listes enregistrées"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8a5c1a78f21f4e",
-      "title": "Learn then Bet: Interpretable Rules for Reliable Agents",
-      "summary": "Researchers introduce LeBet, a statistical learning framework that derives a monitor from sufficient conditions to improve reliable autonomous agent intervention.",
-      "keyPoints": [
-        "Introduces LeBet statistical learning framework",
-        "Saves 34.46% of tokens on SWE-bench Lite",
-        "Improves output precision and controls false positives"
-      ],
-      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17662",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.21937",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Learn then Bet: Interpretable Rules for Reliable Agents",
-          "summary": "Researchers introduce LeBet, a statistical learning framework that derives a monitor from sufficient conditions to improve reliable autonomous agent intervention.",
+          "title": "SLED: Ensuring Deterministic Sensor Slicing from Edge to Datacenter",
+          "summary": "SLED introduces Sensor Slicing (SL) to provide deterministic, MAC-level isolation for individual sensors within O-RAN wireless systems, preventing data contention and latency spikes. Implemented via agentic coding techniques, SLED successfully preserves latency-critical telemetry across edge, campus, and HPC tiers while maintaining stable network throughput.",
           "keyPoints": [
-            "Introduces LeBet statistical learning framework",
-            "Saves 34.46% of tokens on SWE-bench Lite",
-            "Improves output precision and controls false positives"
+            "Provides deterministic MAC-level isolation for individual sensor streams in O-RAN networks.",
+            "Implemented using agentic coding techniques, significantly reducing development time and prompt volume.",
+            "Maintains stable latency and throughput across edge, campus, and HPC deployment tiers."
           ]
         },
         "fr": {
-          "title": "Apprendre puis parier : règles pour agents fiables",
-          "summary": "Des chercheurs présentent LeBet, un cadre d'apprentissage statistique pour dériver un moniteur améliorant l'intervention des agents autonomes.",
+          "title": "SLED : Assurer un découpage déterministe des capteurs de la périphérie au datacenter",
+          "summary": "SLED introduit le découpage de capteurs (Sensor Slicing) pour offrir une isolation déterministe au niveau MAC pour les flux de capteurs dans les réseaux O-RAN, évitant ainsi les conflits de données. Mis en œuvre via des techniques de code agentique, SLED préserve la télémétrie critique en matière de latence sur l'ensemble de l'infrastructure.",
           "keyPoints": [
-            "Introduction du cadre d'apprentissage LeBet",
-            "Économie de 34,46 % de jetons sur SWE-bench Lite",
-            "Amélioration de la précision et contrôle des faux positifs"
+            "Fournit une isolation déterministe au niveau MAC pour chaque flux de capteurs O-RAN.",
+            "Développé à l'aide de techniques de codage agentique, réduisant drastiquement le temps de développement.",
+            "Maintient une latence et un débit stables à travers les niveaux de périphérie et de calcul haute performance."
           ]
         }
       },
@@ -392,75 +314,75 @@
       }
     },
     {
-      "id": "feed-dd659f011024f0",
-      "title": "Strengthening Online Child Sexual Abuse Prevention Tools",
-      "summary": "OpenAI announces new tools, practical guidance, and partnerships aimed at preventing, detecting, and responding to online child sexual exploitation and abuse.",
+      "id": "feed-79f999b8767bf0",
+      "title": "Conserved Verdicts and Drifting Commitments in Reasoning Models",
+      "summary": "This study analyzes how reasoning models can lose correct answers by continuing to reason, defining the commitment-verdict gap to measure expected changes in answer quality. Evaluating models across benchmarks like MATH-500 shows that declining accuracy curves stem from which chains remain active, while ongoing reasoning chains typically maintain or improve their quality.",
       "keyPoints": [
-        "New tools introduced for child safety",
-        "Practical guidance and partnerships established",
-        "Focus on preventing and detecting abuse"
+        "Introduces a framework analyzing the gap between a model's current commitment and final verdict.",
+        "Evaluated six reasoning models across MATH-500 and OlympiadBench with budgets up to 16,384 tokens.",
+        "Shows that accuracy drops come from active chains rather than degradation within individual reasoning chains."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21946",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Conserved Verdicts and Drifting Commitments in Reasoning Models",
+          "summary": "This study analyzes how reasoning models can lose correct answers by continuing to reason, defining the commitment-verdict gap to measure expected changes in answer quality. Evaluating models across benchmarks like MATH-500 shows that declining accuracy curves stem from which chains remain active, while ongoing reasoning chains typically maintain or improve their quality.",
+          "keyPoints": [
+            "Introduces a framework analyzing the gap between a model's current commitment and final verdict.",
+            "Evaluated six reasoning models across MATH-500 and OlympiadBench with budgets up to 16,384 tokens.",
+            "Shows that accuracy drops come from active chains rather than degradation within individual reasoning chains."
+          ]
+        },
+        "fr": {
+          "title": "Verdict conservé et dérive des engagements dans les modèles de raisonnement",
+          "summary": "Cette étude analyse la façon dont les modèles de raisonnement peuvent perdre une bonne réponse en continuant à réfléchir, en définissant l'écart entre engagement et verdict. L'évaluation de plusieurs modèles montre que les baisses de précision proviennent des chaînes qui restent actives, tandis que les chaînes en cours conservent ou améliorent leurs réponses.",
+          "keyPoints": [
+            "Propose un cadre analytique mesurant l'écart entre l'engagement actuel du modèle et son verdict final.",
+            "Évalue six modèles de raisonnement sur MATH-500 et OlympiadBench avec des budgets allant jusqu'à 16 384 jetons.",
+            "Démontre que les baisses de précision proviennent du choix des chaînes actives plutôt que de leur dégradation."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-57b8a5effa02d9",
+      "title": "Public Comments and Evidence Distribution in AI Regulation",
+      "summary": "Analyzing 40 potential regulations and 2,664 public comments, this paper investigates how stakeholders supply evidence to AI regulators in the USA. The findings reveal that business commenters provide less evidence relative to length, whereas government, university, and civil society groups contribute significantly more research and legal sources, shedding light on issue advocacy versus honest broker roles in policymaking.",
+      "keyPoints": [
+        "Analyzed a corpus of 40 potential regulations and 2,664 public comments submitted by diverse stakeholders.",
+        "Found that business commenters introduce less evidence compared to government, university, and civil society groups.",
+        "Explored publication status and self-citation patterns to understand information flows in AI regulation."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/strengthening-online-child-safety",
-      "publishedAt": "2026-11-16T17:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Strengthening Online Child Sexual Abuse Prevention Tools",
-          "summary": "OpenAI announces new tools, practical guidance, and partnerships aimed at preventing, detecting, and responding to online child sexual exploitation and abuse.",
-          "keyPoints": [
-            "New tools introduced for child safety",
-            "Practical guidance and partnerships established",
-            "Focus on preventing and detecting abuse"
-          ]
-        },
-        "fr": {
-          "title": "Renforcement des outils contre l'exploitation des enfants",
-          "summary": "OpenAI annonce de nouveaux outils, des conseils pratiques et des partenariats pour prévenir, détecter et contrer l'exploitation et les abus sexuels d'enfants en ligne.",
-          "keyPoints": [
-            "Nouveaux outils pour la sécurité des enfants",
-            "Mise en place de conseils pratiques et partenariats",
-            "Accent sur la prévention et la détection des abus"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-bb14b9e7844b57",
-      "title": "Diagnostic Benchmark for Multimodal Time Series Forecasting",
-      "summary": "Researchers introduce a real-world diagnostic benchmark covering 1,762 text-window pairs to evaluate how pretrained models use aligned or conflicting text history.",
-      "keyPoints": [
-        "New benchmark with 1,762 text-window pairs",
-        "Evaluates ten pretrained models zero-shot",
-        "Reduces MASE using a training-free revision rule"
-      ],
-      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17680",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.21948",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Diagnostic Benchmark for Multimodal Time Series Forecasting",
-          "summary": "Researchers introduce a real-world diagnostic benchmark covering 1,762 text-window pairs to evaluate how pretrained models use aligned or conflicting text history.",
+          "title": "Public Comments and Evidence Distribution in AI Regulation",
+          "summary": "Analyzing 40 potential regulations and 2,664 public comments, this paper investigates how stakeholders supply evidence to AI regulators in the USA. The findings reveal that business commenters provide less evidence relative to length, whereas government, university, and civil society groups contribute significantly more research and legal sources, shedding light on issue advocacy versus honest broker roles in policymaking.",
           "keyPoints": [
-            "New benchmark with 1,762 text-window pairs",
-            "Evaluates ten pretrained models zero-shot",
-            "Reduces MASE using a training-free revision rule"
+            "Analyzed a corpus of 40 potential regulations and 2,664 public comments submitted by diverse stakeholders.",
+            "Found that business commenters introduce less evidence compared to government, university, and civil society groups.",
+            "Explored publication status and self-citation patterns to understand information flows in AI regulation."
           ]
         },
         "fr": {
-          "title": "Jalon diagnostic pour la prévision de séries temporelles",
-          "summary": "Les chercheurs présentent un banc d'essai diagnostique de 1 762 paires texte-fenêtre pour évaluer l'utilisation de textes alignés ou conflictuels par les modèles.",
+          "title": "Commentaires publics et apport de preuves dans la régulation de l'IA",
+          "summary": "En analysant un corpus de 40 réglementations potentielles et 2 664 commentaires publics, cette étude examine la manière dont les parties prenantes fournissent des preuves aux régulateurs américains de l'IA. Les résultats montrent que les entreprises fournissent proportionnellement moins de preuves que les universités et la société civile.",
           "keyPoints": [
-            "Nouveau banc d'essai de 1 762 paires texte-fenêtre",
-            "Évaluation zero-shot de dix modèles pré-entraînés",
-            "Réduction du MASE grâce à une règle de révision"
+            "Analyse de 40 réglementations potentielles et de 2 664 commentaires publics d'acteurs variés.",
+            "Met en évidence que les entreprises fournissent moins de sources de recherche que les universitaires et la société civile.",
+            "Examine les schémas d'autocitation et l'origine des sources d'information dans la formulation des politiques."
           ]
         }
       },
@@ -470,36 +392,36 @@
       }
     },
     {
-      "id": "feed-d91fd06de7b877",
-      "title": "Science at the Frontier: How Scientists Use ChatGPT",
-      "summary": "An exploration of how more than 1,800 scientists utilize ChatGPT in their research, detailing daily workflows, reported productivity, and expectations for discovery.",
+      "id": "feed-798a2217c37623",
+      "title": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
+      "summary": "DiscoveryAgent combines autonomous scientific investigation with scientist-directed hypothesis steering, allowing researchers to refine or replace hypotheses between rounds. Using rigorous checkpointing, audit agents interrogate records to trace claims and reproduce analyses, identifying errors at higher rates and helping scientists find 14 times more valid errors than manual review alone.",
       "keyPoints": [
-        "Survey of over 1,800 scientists",
-        "Examines daily research workflows",
-        "Reports on productivity and discovery expectations"
+        "Combines autonomous investigation with scientist-directed hypothesis steering across research rounds.",
+        "Employs checkpointing and audit agents to trace claims, reproduce analyses, and autonomously detect errors.",
+        "Demonstrated success across physical, social, and life science case studies, including variable-star classification and CD4+ T-cell relay genes."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/science-at-the-frontier",
-      "publishedAt": "2026-11-16T12:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21950",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Science at the Frontier: How Scientists Use ChatGPT",
-          "summary": "An exploration of how more than 1,800 scientists utilize ChatGPT in their research, detailing daily workflows, reported productivity, and expectations for discovery.",
+          "title": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
+          "summary": "DiscoveryAgent combines autonomous scientific investigation with scientist-directed hypothesis steering, allowing researchers to refine or replace hypotheses between rounds. Using rigorous checkpointing, audit agents interrogate records to trace claims and reproduce analyses, identifying errors at higher rates and helping scientists find 14 times more valid errors than manual review alone.",
           "keyPoints": [
-            "Survey of over 1,800 scientists",
-            "Examines daily research workflows",
-            "Reports on productivity and discovery expectations"
+            "Combines autonomous investigation with scientist-directed hypothesis steering across research rounds.",
+            "Employs checkpointing and audit agents to trace claims, reproduce analyses, and autonomously detect errors.",
+            "Demonstrated success across physical, social, and life science case studies, including variable-star classification and CD4+ T-cell relay genes."
           ]
         },
         "fr": {
-          "title": "La science à l'avant-garde : l'utilisation de ChatGPT",
-          "summary": "Une exploration montrant comment plus de 1 800 scientifiques utilisent ChatGPT dans leurs recherches, avec des détails sur les flux de travail et la productivité.",
+          "title": "DiscoveryAgent : Un cadre pour l'IA agentique centrée sur les scientifiques",
+          "summary": "DiscoveryAgent combine l'investigation scientifique autonome et le pilotage d'hypothèses par les chercheurs, leur permettant de les affiner ou de les remplacer. Grâce à un système rigoureux de points de contrôle, des agents d'audit examinent les enregistrements pour retracer les affirmations et identifier les erreurs avec plus d'efficacité.",
           "keyPoints": [
-            "Étude menée auprès de plus de 1 800 scientifiques",
-            "Examen des flux de travail de recherche quotidiens",
-            "Rapports sur la productivité et les attentes de découverte"
+            "Associe investigation autonome et pilotage des hypothèses par les chercheurs au fil des cycles.",
+            "Utilise des agents d'audit pour retracer les affirmations, reproduire les analyses et détecter les erreurs.",
+            "Validé par des études de cas en sciences physiques, sociales et de la vie, comme la classification d'étoiles variables."
           ]
         }
       },
@@ -509,36 +431,36 @@
       }
     },
     {
-      "id": "feed-5ac702919025cd",
-      "title": "OCTAVE: Benchmark for End-to-End HTML5 Game Generation",
-      "summary": "OCTAVE is a new benchmark organized around eight capability dimensions featuring 180 tasks and 1,800 evaluation requirements for HTML5 game generation.",
+      "id": "feed-6f06e74483d4fb",
+      "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution",
+      "summary": "WebAgents unbundles agent creation, hosting, and execution for the Agentic Web using a signed agent.pkg format. An OpenClaw-based runtime verifies the package and binds it to user-controlled resources. In tests, WebAgents blocked all 716 injected contract violations while accepting all 295 benign controls with fast processing times.",
       "keyPoints": [
-        "Covers eight capability dimensions",
-        "Includes 180 tasks and 1,800 evaluation requirements",
-        "Evaluates completeness and richness of generated games"
+        "Unbundles agent creation, hosting, and runtime execution via a signed agent.pkg container.",
+        "An OpenClaw-based runtime verifies packages and binds them securely to user-controlled models and tools.",
+        "Successfully blocked 716 injected contract violations while accepting all 295 benign controls."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17681",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.21978",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OCTAVE: Benchmark for End-to-End HTML5 Game Generation",
-          "summary": "OCTAVE is a new benchmark organized around eight capability dimensions featuring 180 tasks and 1,800 evaluation requirements for HTML5 game generation.",
+          "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution",
+          "summary": "WebAgents unbundles agent creation, hosting, and execution for the Agentic Web using a signed agent.pkg format. An OpenClaw-based runtime verifies the package and binds it to user-controlled resources. In tests, WebAgents blocked all 716 injected contract violations while accepting all 295 benign controls with fast processing times.",
           "keyPoints": [
-            "Covers eight capability dimensions",
-            "Includes 180 tasks and 1,800 evaluation requirements",
-            "Evaluates completeness and richness of generated games"
+            "Unbundles agent creation, hosting, and runtime execution via a signed agent.pkg container.",
+            "An OpenClaw-based runtime verifies packages and binds them securely to user-controlled models and tools.",
+            "Successfully blocked 716 injected contract violations while accepting all 295 benign controls."
           ]
         },
         "fr": {
-          "title": "OCTAVE : Jalon pour la génération de jeux HTML5",
-          "summary": "OCTAVE est un nouveau banc d'essai organisé autour de huit dimensions de capacités, comprenant 180 tâches et 1 800 critères d'évaluation pour les jeux HTML5.",
+          "title": "WebAgents : Dissocier la création, l'hébergement et l'exécution d'agents",
+          "summary": "WebAgents dissocie la création, l'hébergement et l'exécution pour le Web agentique à l'aide d'un format signé agent.pkg. Un environnement d'exécution basé sur OpenClaw vérifie le paquet et le lie aux ressources contrôlées par l'utilisateur, bloquant toutes les violations injectées lors des tests.",
           "keyPoints": [
-            "Couvre huit dimensions de capacités",
-            "Comprend 180 tâches et 1 800 critères d'évaluation",
-            "Évalue l'exhaustivité et la richesse des jeux"
+            "Dissocie la création, l'hébergement et l'exécution d'agents via un conteneur signé agent.pkg.",
+            "Un runtime basé sur OpenClaw vérifie les paquets et les lie aux modèles et outils de l'utilisateur.",
+            "A bloqué l'ensemble des 716 violations de contrat injectées tout en acceptant les contrôles bénins."
           ]
         }
       },
@@ -548,36 +470,192 @@
       }
     },
     {
-      "id": "feed-ff7833693fa2a0",
-      "title": "LVMH’s Media Division Announces Strategic OpenAI Partnership",
-      "summary": "LVMH’s Media Division and OpenAI have announced a strategic partnership to support journalism using AI and enhance publication accessibility through ChatGPT.",
+      "id": "feed-d78feee13ce7e5",
+      "title": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory",
+      "summary": "KV-LTM proposes storing each session's raw text and its KV cache under a fixed reader model as a long-term memory tier for personal assistants. Serving as a recompute-free prefill accelerator, it scales to approximately 0.34 to 3.6 TB per user-year depending on the configuration, complementing existing retrieval and indexing systems.",
       "keyPoints": [
-        "Partnership between LVMH Media Division and OpenAI",
-        "Aims to support journalism with AI",
-        "Improves publication accessibility via ChatGPT"
+        "Stores session raw text and KV caches to act as a prefill accelerator and long-term memory tier.",
+        "Complements retrieval and indexing systems rather than replacing them, using text as the memory of record.",
+        "Estimated storage spans approximately 0.34 to 3.6 TB per user-year for a 30K-token/day scenario."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.21998",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory",
+          "summary": "KV-LTM proposes storing each session's raw text and its KV cache under a fixed reader model as a long-term memory tier for personal assistants. Serving as a recompute-free prefill accelerator, it scales to approximately 0.34 to 3.6 TB per user-year depending on the configuration, complementing existing retrieval and indexing systems.",
+          "keyPoints": [
+            "Stores session raw text and KV caches to act as a prefill accelerator and long-term memory tier.",
+            "Complements retrieval and indexing systems rather than replacing them, using text as the memory of record.",
+            "Estimated storage spans approximately 0.34 to 3.6 TB per user-year for a 30K-token/day scenario."
+          ]
+        },
+        "fr": {
+          "title": "KV-LTM : Caches KV persistants par session comme mémoire à long terme",
+          "summary": "KV-LTM propose de stocker le texte brut de chaque session et son cache KV sous un modèle de lecture fixe pour servir de mémoire à long terme aux assistants personnels. Agissant comme un accélérateur de pré-remplissage, il s'intègre en complément des systèmes de recherche d'information.",
+          "keyPoints": [
+            "Stocke le texte brut et les caches KV des sessions comme accélérateur de pré-remplissage et mémoire à long terme.",
+            "Complète la recherche et l'indexation sans les remplacer, le texte brut restant la mémoire de référence.",
+            "Requiert environ 0,34 à 3,6 To par utilisateur et par an selon la configuration pour 30 000 jetons par jour."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-37acffcb079b05",
+      "title": "On Formal Counterfactual Explanations",
+      "summary": "This paper bridges closest-world counterfactual explanations and formal XAI by characterizing counterfactuals as a disjunctive normal form over minimal counterexamples and introducing conjunctive counterfactual explanations (CFXps). Experiments show CFXp extraction is efficient for tree ensembles and neural networks, requiring no more feature changes than point-based explainers.",
+      "keyPoints": [
+        "Characterizes closest-world counterfactual explanations as a disjunctive normal form over minimal counterexamples.",
+        "Introduces conjunctive counterfactual explanations (CFXps) as a subclass guaranteeing prediction changes.",
+        "Demonstrates efficient extraction on tree ensembles and neural networks without excessive feature changes."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22010",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "On Formal Counterfactual Explanations",
+          "summary": "This paper bridges closest-world counterfactual explanations and formal XAI by characterizing counterfactuals as a disjunctive normal form over minimal counterexamples and introducing conjunctive counterfactual explanations (CFXps). Experiments show CFXp extraction is efficient for tree ensembles and neural networks, requiring no more feature changes than point-based explainers.",
+          "keyPoints": [
+            "Characterizes closest-world counterfactual explanations as a disjunctive normal form over minimal counterexamples.",
+            "Introduces conjunctive counterfactual explanations (CFXps) as a subclass guaranteeing prediction changes.",
+            "Demonstrates efficient extraction on tree ensembles and neural networks without excessive feature changes."
+          ]
+        },
+        "fr": {
+          "title": "Sur les explications contrefactuelles formelles",
+          "summary": "Cet article établit un pont entre les explications contrefactuelles du monde le plus proche et l'XAI formelle en introduisant les explications contrefactuelles conjonctives (CFXps). Des expériences montrent que cette extraction est efficace pour les forêts d'arbres décisionnels et les réseaux de neurones.",
+          "keyPoints": [
+            "Caractérise les explications contrefactuelles comme une forme normale disjonctive sur des contre-exemples minimaux.",
+            "Introduis les CFXps (explications contrefactuelles conjonctives) garantissant un changement de prédiction.",
+            "Démontre une extraction efficace sur des ensembles d'arbres et des réseaux de neurones."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-eaa9c58154e0a9",
+      "title": "SkillBuffBench: Measuring What Agent Skills Contribute",
+      "summary": "SkillBuffBench evaluates how procedural coding agent skills contribute across different harnesses, models, access modes, and memory states. Using tasks from materials science and biology, the benchmark tests agents with no skills, curated skills, and automatic invocation from an installed library.",
+      "keyPoints": [
+        "Introduces SkillBuffBench to evaluate agent skill contributions across harnesses, models, and memory settings.",
+        "Treats skill access as a three-level factor: no skill, curated skill, and automatic library invocation.",
+        "Features deterministic verifiers and domain-expert tasks initially spanning materials science and biology."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22017",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SkillBuffBench: Measuring What Agent Skills Contribute",
+          "summary": "SkillBuffBench evaluates how procedural coding agent skills contribute across different harnesses, models, access modes, and memory states. Using tasks from materials science and biology, the benchmark tests agents with no skills, curated skills, and automatic invocation from an installed library.",
+          "keyPoints": [
+            "Introduces SkillBuffBench to evaluate agent skill contributions across harnesses, models, and memory settings.",
+            "Treats skill access as a three-level factor: no skill, curated skill, and automatic library invocation.",
+            "Features deterministic verifiers and domain-expert tasks initially spanning materials science and biology."
+          ]
+        },
+        "fr": {
+          "title": "SkillBuffBench : Mesurer la contribution des compétences d'agents",
+          "summary": "SkillBuffBench évalue la contribution des compétences procédurales des agents de codage à travers différents environnements, modèles, modes d'accès et états de mémoire. Le banc d'essai intègre des tâches issues de la science des matériaux et de la biologie.",
+          "keyPoints": [
+            "Présente SkillBuffBench pour évaluer l'apport des compétences des agents selon divers contextes.",
+            "Traite l'accès aux compétences selon trois niveaux : absence, compétence sélectionnée et appel automatique.",
+            "Utilise des vérificateurs déterministes et des tâches validées par des experts du domaine."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-ec1360fdca7b7f",
+      "title": "What Does an Agent Need? Bundle-Aware Agent Resource Composition",
+      "summary": "The paper formulates Task-Conditioned Agent Resource Composition (AgentComposition) to jointly select backbone models and tool-skill bundles. Using retrieval-grounded generation and bundle-aware critics, the method recovers complete reference configurations for 67.73% of AgentSelect queries and outperforms baselines.",
+      "keyPoints": [
+        "Formulates AgentComposition to jointly select backbone models and tool-skill bundles for execution utility.",
+        "Employs a retrieval-grounded generator and a bundle-aware critic trained with proxy feedback.",
+        "Recovers reference configurations for 67.73% of AgentSelect queries, nearly doubling the strongest baseline."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22030",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "What Does an Agent Need? Bundle-Aware Agent Resource Composition",
+          "summary": "The paper formulates Task-Conditioned Agent Resource Composition (AgentComposition) to jointly select backbone models and tool-skill bundles. Using retrieval-grounded generation and bundle-aware critics, the method recovers complete reference configurations for 67.73% of AgentSelect queries and outperforms baselines.",
+          "keyPoints": [
+            "Formulates AgentComposition to jointly select backbone models and tool-skill bundles for execution utility.",
+            "Employs a retrieval-grounded generator and a bundle-aware critic trained with proxy feedback.",
+            "Recovers reference configurations for 67.73% of AgentSelect queries, nearly doubling the strongest baseline."
+          ]
+        },
+        "fr": {
+          "title": "De quoi un agent a-t-il besoin ? Composition de ressources d'agents",
+          "summary": "L'article formule la composition de ressources d'agents conditionnée par les tâches (AgentComposition) pour sélectionner conjointement des modèles de base et des lots d'outils. La méthode surpasse les bases de référence et récupère les configurations de référence pour 67,73 % des requêtes AgentSelect.",
+          "keyPoints": [
+            "Formule AgentComposition pour optimiser conjointement le choix du modèle et des compétences associées.",
+            "Utilise un générateur ancré dans la recherche et un critique conscient des lots d'outils.",
+            "Atteint 67,73 % de récupération des configurations de référence sur les requêtes AgentSelect."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d740404e27f79d",
+      "title": "Reasoning Effort Increases Confidence, Not Correctness in LLM Agents",
+      "summary": "Benchmarking ten frontier models across three shopping benchmarks (WebShop, Amazon SQID, Wayfair WANDS), researchers found that increasing LLM thinking effort does not improve product-choice decision quality. However, higher effort significantly raises the model's reported confidence, revealing poor calibration.",
+      "keyPoints": [
+        "Evaluated ten frontier models on three multimodal shopping benchmarks from WebShop, SQID, and WANDS.",
+        "Found that increased reasoning effort fails to improve decision correctness in a statistically meaningful way.",
+        "Extra thinking significantly raises reported confidence, leading to poor calibration and shared error patterns."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/lvmh-media-division-partnership",
-      "publishedAt": "2026-11-16T09:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22033",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "LVMH’s Media Division Announces Strategic OpenAI Partnership",
-          "summary": "LVMH’s Media Division and OpenAI have announced a strategic partnership to support journalism using AI and enhance publication accessibility through ChatGPT.",
+          "title": "Reasoning Effort Increases Confidence, Not Correctness in LLM Agents",
+          "summary": "Benchmarking ten frontier models across three shopping benchmarks (WebShop, Amazon SQID, Wayfair WANDS), researchers found that increasing LLM thinking effort does not improve product-choice decision quality. However, higher effort significantly raises the model's reported confidence, revealing poor calibration.",
           "keyPoints": [
-            "Partnership between LVMH Media Division and OpenAI",
-            "Aims to support journalism with AI",
-            "Improves publication accessibility via ChatGPT"
+            "Evaluated ten frontier models on three multimodal shopping benchmarks from WebShop, SQID, and WANDS.",
+            "Found that increased reasoning effort fails to improve decision correctness in a statistically meaningful way.",
+            "Extra thinking significantly raises reported confidence, leading to poor calibration and shared error patterns."
           ]
         },
         "fr": {
-          "title": "Partenariat stratégique entre LVMH Media et OpenAI",
-          "summary": "La division média de LVMH et OpenAI annoncent un partenariat pour soutenir le journalisme grâce à l'IA et rendre les publications accessibles via ChatGPT.",
+          "title": "L'effort de raisonnement augmente la confiance, pas la justesse des agents",
+          "summary": "En évaluant dix modèles de frontières sur trois bancs d'essai d'achat (WebShop, SQID, WANDS), des chercheurs ont découvert que l'augmentation de l'effort de réflexion ne mejora pas la qualité des choix de produits, mais accroît significativement la confiance affichée des modèles.",
           "keyPoints": [
-            "Partenariat entre la division média de LVMH et OpenAI",
-            "Soutien au journalisme par le biais de l'IA",
-            "Accessibilité accrue des publications via ChatGPT"
+            "Évaluation de dix modèles de pointe sur trois bancs d'essai de commerce électronique multimodaux.",
+            "Démontre qu'un effort de raisonnement accru n'améliore pas statistiquement la justesse des décisions.",
+            "Un effort supplémentaire augmente la confiance déclarée, révélant une mauvaise calibration des modèles."
           ]
         }
       },
@@ -587,36 +665,36 @@
       }
     },
     {
-      "id": "feed-eec451ca8d6e69",
-      "title": "Co-Sight Harness: Reliable Long-Horizon Business Agents",
-      "summary": "Researchers present Co-Sight Harness, a method that uses externalized control assets and deterministic enforcement to make long-horizon business agents reliable.",
+      "id": "feed-960744860e1cca",
+      "title": "A Hybrid Exact-Heuristic Solver for Passenger and Parcel Transport",
+      "summary": "This work describes a Python solver for the Integrated Passenger and Parcel Transportation problem, combining constant-time insertion tests, ALNS local search, and an exact route-selection engine solved via branch-and-bound. On official evaluations, the solver achieved a benefit of 487,237 within time and memory limits.",
       "keyPoints": [
-        "Uses versioned control assets outside the model",
-        "Enforced by state machines and acceptance gates",
-        "Raises unattended workflow completion to 100% on Domain A"
+        "Combines constant-time insertion tests, ALNS local search, and an exact route-selection engine.",
+        "Uses branch-and-bound strengthened with large neighborhood search and Lagrangian bounds.",
+        "Secured a total benefit of 487,237 on official SOICT 2026 evaluation instances within the 5-minute limit."
       ],
-      "category": "Open Source",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17696",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.22043",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Co-Sight Harness: Reliable Long-Horizon Business Agents",
-          "summary": "Researchers present Co-Sight Harness, a method that uses externalized control assets and deterministic enforcement to make long-horizon business agents reliable.",
+          "title": "A Hybrid Exact-Heuristic Solver for Passenger and Parcel Transport",
+          "summary": "This work describes a Python solver for the Integrated Passenger and Parcel Transportation problem, combining constant-time insertion tests, ALNS local search, and an exact route-selection engine solved via branch-and-bound. On official evaluations, the solver achieved a benefit of 487,237 within time and memory limits.",
           "keyPoints": [
-            "Uses versioned control assets outside the model",
-            "Enforced by state machines and acceptance gates",
-            "Raises unattended workflow completion to 100% on Domain A"
+            "Combines constant-time insertion tests, ALNS local search, and an exact route-selection engine.",
+            "Uses branch-and-bound strengthened with large neighborhood search and Lagrangian bounds.",
+            "Secured a total benefit of 487,237 on official SOICT 2026 evaluation instances within the 5-minute limit."
           ]
         },
         "fr": {
-          "title": "Co-Sight Harness : Agents commerciaux à long terme fiables",
-          "summary": "Les chercheurs présentent Co-Sight Harness, une méthode externe de contrôle et d'application déterministe pour fiabiliser les agents commerciaux complexes.",
+          "title": "Un solveur hybride exact-heuristique pour le transport mixte",
+          "summary": "Ce travail décrit un solveur Python pour le problème de transport intégré de passagers et de colis, combinant des tests d'insertion, une recherche locale ALNS et un moteur de sélection d'itinéraires exact. Il a obtenu un bénéfice total de 487 237 sur les instances d'évaluation officielles.",
           "keyPoints": [
-            "Utilise des actifs de contrôle externalisés",
-            "Appliqué par des machines à états et des barrières",
-            "Hausse de la complétion sans surveillance à 100 %"
+            "Combine des tests d'insertion rapide, une recherche locale ALNS et un moteur de sélection d'itinéraire exact.",
+            "S'appuie sur une méthode de séparation et évaluation (branch-and-bound) renforcée par des bornes lagrangiennes.",
+            "A atteint un bénéfice de 487 237 sur l'évaluation officielle dans les limites de temps imparties."
           ]
         }
       },
@@ -626,36 +704,36 @@
       }
     },
     {
-      "id": "feed-9fe6d2ae73e55f",
-      "title": "OpenAI Begins First Phase of Embedded Assessments",
-      "summary": "OpenAI initiates embedded assessments with Apollo Research, METR, Transluce, and Goodfire to independently evaluate alignment, safeguards, and monitoring.",
+      "id": "feed-12c75603e9b3ac",
+      "title": "MedGuardBench: A Patient-Oriented Benchmark for Guardrails",
+      "summary": "Introducing MedGuardBench, a benchmark of 5,001 scenarios across 87 medications to evaluate patient-conditioned medication safety guardrails. The authors propose personalized reasoning guardrails featuring distillation, context unrolling, and guided GRPO reinforcement learning to reduce false alarms and improve risk detection.",
       "keyPoints": [
-        "Initial phase of embedded assessments started",
-        "Partners include Apollo Research, METR, Transluce, Goodfire",
-        "Independent evaluation of model alignment and safeguards"
+        "Releases MedGuardBench, featuring 5,001 scenarios across 87 medications for patient-conditioned safety.",
+        "Identifies that standard guardrails rely on surface wording rather than individual patient facts.",
+        "Develops personalized reasoning guardrails with context unrolling and guided GRPO to reduce false alarms."
       ],
       "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22069",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "OpenAI Begins First Phase of Embedded Assessments",
-          "summary": "OpenAI initiates embedded assessments with Apollo Research, METR, Transluce, and Goodfire to independently evaluate alignment, safeguards, and monitoring.",
+          "title": "MedGuardBench: A Patient-Oriented Benchmark for Guardrails",
+          "summary": "Introducing MedGuardBench, a benchmark of 5,001 scenarios across 87 medications to evaluate patient-conditioned medication safety guardrails. The authors propose personalized reasoning guardrails featuring distillation, context unrolling, and guided GRPO reinforcement learning to reduce false alarms and improve risk detection.",
           "keyPoints": [
-            "Initial phase of embedded assessments started",
-            "Partners include Apollo Research, METR, Transluce, Goodfire",
-            "Independent evaluation of model alignment and safeguards"
+            "Releases MedGuardBench, featuring 5,001 scenarios across 87 medications for patient-conditioned safety.",
+            "Identifies that standard guardrails rely on surface wording rather than individual patient facts.",
+            "Develops personalized reasoning guardrails with context unrolling and guided GRPO to reduce false alarms."
           ]
         },
         "fr": {
-          "title": "OpenAI lance sa première phase d'évaluations intégrées",
-          "summary": "OpenAI entame des évaluations intégrées avec Apollo Research, METR, Transluce et Goodfire pour évaluer l'alignement, les mesures de sécurité et la surveillance.",
+          "title": "MedGuardBench : Un banc d'essai orienté patient pour les garde-fous",
+          "summary": "Présentation de MedGuardBench, un banc d'essai de 5 001 scénarios sur 87 médicaments pour évaluer la sécurité médicamenteuse conditionnée par le patient. Les auteurs proposent des garde-fous de raisonnement personnalisé intégrant le déroulement contextuel et l'apprentissage par renforcement.",
           "keyPoints": [
-            "Lancement d'une première phase d'évaluations intégrées",
-            "Partenariat avec Apollo Research, METR, Transluce, Goodfire",
-            "Évaluation indépendante de l'alignement et de la sécurité"
+            "Lance MedGuardBench, comprenant 5 001 scénarios sur 87 médicaments adaptés aux profils patients.",
+            "Montre que les garde-fous standard reposent sur des indices superficiels plutôt que sur des faits cliniques.",
+            "Développe des garde-fous à raisonnement personnalisé réduisant les fausses alertes et améliorant la sécurité."
           ]
         }
       },
@@ -665,130 +743,52 @@
       }
     },
     {
-      "id": "feed-8e257d66526dc5",
-      "title": "ChlCast: High-Resolution AI Chlorophyll-a Forecasting",
-      "summary": "Researchers introduce ChlCast, an AI model that generates daily surface chlorophyll-a forecasts over a 10-day horizon at approximately 4-km resolution between 60°S and 60°N. ChlCast significantly reduces errors compared to operational global biogeochemical forecasting systems and preserves coastal gradients.",
+      "id": "feed-f181b71528c606",
+      "title": "Can You Undo It? Reversibility Classes for AI Agent Actions",
+      "summary": "To address whether tool-using AI agent actions can be undone, this paper introduces Reversibility Classes, a five-level vocabulary with argument-sensitive rules. Evaluated across 536 tools on 20 MCP servers, session guards successfully blocked attributable attacks while highlighting limits in native tool annotations and recovery exceptions.",
       "keyPoints": [
-        "Covers latitudes between 60°S and 60°N at 4-km resolution.",
-        "Reduces MAE and RMSE compared to operational Copernicus forecasting systems.",
-        "Retains coastal gradients and localized concentration maxima."
+        "Introduces Reversibility Classes, a five-level vocabulary with argument-sensitive rules for agent tools.",
+        "Evaluated across 536 tools on 20 Model Context Protocol servers with 738 rule-case checks.",
+        "Implemented session guards gated all attributable attack-positive runs in testing, exposing recovery exceptions."
       ],
-      "category": "Modèles",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17704",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.22075",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ChlCast: High-Resolution AI Chlorophyll-a Forecasting",
-          "summary": "Researchers introduce ChlCast, an AI model that generates daily surface chlorophyll-a forecasts over a 10-day horizon at approximately 4-km resolution between 60°S and 60°N. ChlCast significantly reduces errors compared to operational global biogeochemical forecasting systems and preserves coastal gradients.",
+          "title": "Can You Undo It? Reversibility Classes for AI Agent Actions",
+          "summary": "To address whether tool-using AI agent actions can be undone, this paper introduces Reversibility Classes, a five-level vocabulary with argument-sensitive rules. Evaluated across 536 tools on 20 MCP servers, session guards successfully blocked attributable attacks while highlighting limits in native tool annotations and recovery exceptions.",
           "keyPoints": [
-            "Covers latitudes between 60°S and 60°N at 4-km resolution.",
-            "Reduces MAE and RMSE compared to operational Copernicus forecasting systems.",
-            "Retains coastal gradients and localized concentration maxima."
+            "Introduces Reversibility Classes, a five-level vocabulary with argument-sensitive rules for agent tools.",
+            "Evaluated across 536 tools on 20 Model Context Protocol servers with 738 rule-case checks.",
+            "Implemented session guards gated all attributable attack-positive runs in testing, exposing recovery exceptions."
           ]
         },
         "fr": {
-          "title": "ChlCast : Prévision d'chlorophylle-a par IA à haute résolution",
-          "summary": "Des chercheurs présentent ChlCast, un modèle d'IA qui génère des prévisions quotidiennes de chlorophylle-a de surface sur un horizon de 10 jours à environ 4 km de résolution entre 60°S et 60°N. ChlCast réduit considérablement les erreurs par rapport aux systèmes opérationnels.",
+          "title": "Pouvez-vous l'annuler ? Classes de réversibilité pour les agents IA",
+          "summary": "Pour déterminer si les actions des agents IA peuvent être annulées, cet article présente les classes de réversibilité, un vocabulaire à cinq niveaux doté de règles sensibles aux arguments. Testé sur 536 outils, le système de garde de session a bloqué toutes les attaques attribuables.",
           "keyPoints": [
-            "Couvre les latitudes entre 60°S et 60°N avec une résolution de 4 km.",
-            "Réduit l'erreur absolue moyenne et l'erreur quadratique moyenne par rapport au système Copernicus.",
-            "Préserve les gradients côtiers et les maxima de concentration localisés."
+            "Présente les classes de réversibilité, un vocabulaire à cinq niveaux pour les outils d'agents.",
+            "Évalué sur 536 outils répartis sur 20 serveurs MCP avec un ensemble de vérifications rigoureuses.",
+            "Les protections de session mises en œuvre ont bloqué toutes les exécutions d'attaques attribuables testées."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-21e886491b30cf",
-      "title": "ChatGPT for Healthcare Expands with New Capabilities",
-      "summary": "OpenAI introduces computer-use agents, improved clinical answers, and new healthcare plugins designed to work across software and enhance healthcare workflows.",
-      "keyPoints": [
-        "Introduces computer-use agents for healthcare.",
-        "Delivers improved clinical answers.",
-        "Includes new healthcare plugins for software integration."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "publishedAt": "2026-11-16T06:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ChatGPT for Healthcare Expands with New Capabilities",
-          "summary": "OpenAI introduces computer-use agents, improved clinical answers, and new healthcare plugins designed to work across software and enhance healthcare workflows.",
-          "keyPoints": [
-            "Introduces computer-use agents for healthcare.",
-            "Delivers improved clinical answers.",
-            "Includes new healthcare plugins for software integration."
-          ]
-        },
-        "fr": {
-          "title": "ChatGPT pour la santé s'enrichit de nouvelles fonctionnalités",
-          "summary": "OpenAI présente des agents capables d'utiliser l'ordinateur, des réponses cliniques améliorées et de nouveaux plugins de santé conçus pour fonctionner à travers les logiciels.",
-          "keyPoints": [
-            "Introduit des agents d'utilisation informatique pour la santé.",
-            "Fournit des réponses cliniques améliorées.",
-            "Intègre de nouveaux plugins de santé pour les logiciels."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-619525edf219ee",
-      "title": "Cross-Linguistic Acoustic Biomarkers of Cognitive Impairment",
-      "summary": "A cross-linguistic and cross-task acoustic analysis across four languages reveals that temporal features robustly capture timing disruption, while speech rate and pitch exhibit task and language dependencies.",
-      "keyPoints": [
-        "Analyzed conversational and structured speech across Spanish, Mandarin, English, and Japanese.",
-        "Temporal features remained robustly consistent across all datasets and tasks.",
-        "Pitch and speech rate showed strong language-specific and task-dependent patterns."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.17710",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Cross-Linguistic Acoustic Biomarkers of Cognitive Impairment",
-          "summary": "A cross-linguistic and cross-task acoustic analysis across four languages reveals that temporal features robustly capture timing disruption, while speech rate and pitch exhibit task and language dependencies.",
-          "keyPoints": [
-            "Analyzed conversational and structured speech across Spanish, Mandarin, English, and Japanese.",
-            "Temporal features remained robustly consistent across all datasets and tasks.",
-            "Pitch and speech rate showed strong language-specific and task-dependent patterns."
-          ]
-        },
-        "fr": {
-          "title": "Biomarqueurs acoustiques interlinguistiques des troubles cognitifs",
-          "summary": "Une analyse acoustique interlinguistique et inter-tâches menée dans quatre langues révèle que les caractéristiques temporelles capturent solidement les perturbations, tandis que le débit et la hauteur vocale dépendent des tâches et des langues.",
-          "keyPoints": [
-            "Étude menée en espagnol, mandarin, anglais et japonais.",
-            "Les caractéristiques temporelles restent robustes dans tous les ensembles de données.",
-            "La hauteur et le débit de parole montrent de fortes dépendances linguistiques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 42,
+    "itemsCollected": 359,
     "itemsPublished": 20,
-    "newItems": 5,
-    "candidates": 5,
-    "batches": 1,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
