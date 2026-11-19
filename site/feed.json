@@ -1,427 +1,37 @@
 {
-  "generatedAt": "2026-11-18T20:33:59.574Z",
+  "generatedAt": "2026-11-19T07:28:57.521Z",
   "items": [
     {
-      "id": "feed-7e648ae5ea5ce5",
-      "title": "RegimeCouncil for Memory Conflict Governance in LLM Agents",
-      "summary": "Language agents struggle with stale long-term memories and delayed feedback when updating stored facts. Existing systems force a choice between local and global policy scopes. Researchers introduce RegimeCouncil, a lightweight paired-evidence router that arbitrates between local and global advisors online without retraining the LLM, outperforming fixed policies across benchmarks.",
+      "id": "feed-78f824e6b73ec3",
+      "title": "When Lower Harm Misleads: Auditing Concept Corrections",
+      "summary": "This paper evaluates concept corrections in medical imaging, demonstrating that lower correction harm does not always signal a better model unless evaluated alongside useful gain, absolute risk, and the starting prediction.",
       "keyPoints": [
-        "Formulates online memory scope choice as memory conflict governance under hidden validity and delayed feedback.",
-        "Proposes RegimeCouncil, a paired-evidence router combining Local and Global Advisors with a Meta Governor.",
-        "Outperforms better fixed-scope policies by 5.2-7.3 points on primary disagreement episodes across datasets."
+        "Introduces a reproducible correction audit to separate harm, useful gain, and starting predictions.",
+        "Tests findings on three breast-ultrasound sources and CUB datasets.",
+        "Shows lower harm only indicates superior corrections when combined with useful gain and absolute risk."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22113",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.22084",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "RegimeCouncil for Memory Conflict Governance in LLM Agents",
-          "summary": "Language agents struggle with stale long-term memories and delayed feedback when updating stored facts. Existing systems force a choice between local and global policy scopes. Researchers introduce RegimeCouncil, a lightweight paired-evidence router that arbitrates between local and global advisors online without retraining the LLM, outperforming fixed policies across benchmarks.",
+          "title": "When Lower Harm Misleads: Auditing Concept Corrections",
+          "summary": "This paper evaluates concept corrections in medical imaging, demonstrating that lower correction harm does not always signal a better model unless evaluated alongside useful gain, absolute risk, and the starting prediction.",
           "keyPoints": [
-            "Formulates online memory scope choice as memory conflict governance under hidden validity and delayed feedback.",
-            "Proposes RegimeCouncil, a paired-evidence router combining Local and Global Advisors with a Meta Governor.",
-            "Outperforms better fixed-scope policies by 5.2-7.3 points on primary disagreement episodes across datasets."
+            "Introduces a reproducible correction audit to separate harm, useful gain, and starting predictions.",
+            "Tests findings on three breast-ultrasound sources and CUB datasets.",
+            "Shows lower harm only indicates superior corrections when combined with useful gain and absolute risk."
           ]
         },
         "fr": {
-          "title": "RegimeCouncil pour la gouvernance des conflits de mémoire dans les agents LLM",
-          "summary": "Les agents linguistiques peinent avec des mémoires à long terme obsolètes et des retours retardés. Les chercheurs présentent RegimeCouncil, un routeur de preuves appariées léger qui arbitre en ligne entre des conseillers locaux et globaux sans réentraîner le LLM, surpassant les politiques fixes.",
+          "title": "Quand une moindre nuisance induit en erreur",
+          "summary": "Cet article évalue les corrections de concepts en imagerie médicale, démontrant qu'une moindre nuisance ne garantit pas un meilleur modèle si elle n'est pas analysée avec le gain utile et le point de départ.",
           "keyPoints": [
-            "Formule le choix de la portée de la mémoire comme une gouvernance des conflits sous rétroaction retardée.",
-            "Propose RegimeCouncil, un routeur de preuves appariées combinant des conseillers locaux et globaux.",
-            "Surpasse les politiques à portée fixe de 5,2 à 7,3 points sur les épisodes de désaccord principaux."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-21137627d4b88f",
-      "title": "Xing 4: Advancing Agentic Models on Domestic Chips and Frameworks",
-      "summary": "The Xing 4 series extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend hardware. The approach uses MindSpore HyperParallel for pretraining a 285B-parameter model on 8,192 Ascend 910C cards, and introduces TeleGym for unified agent execution and policy optimization.",
-      "keyPoints": [
-        "Xing 4 extends TeleChat via architecture design and training infrastructure improvements on Ascend.",
-        "Pretrains a 285B-parameter model using MindSpore HyperParallel across 8,192 Ascend 910C cards.",
-        "Introduces TeleGym, a unified agent execution platform connecting evaluation and trajectory construction."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22115",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Xing 4: Advancing Agentic Models on Domestic Chips and Frameworks",
-          "summary": "The Xing 4 series extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend hardware. The approach uses MindSpore HyperParallel for pretraining a 285B-parameter model on 8,192 Ascend 910C cards, and introduces TeleGym for unified agent execution and policy optimization.",
-          "keyPoints": [
-            "Xing 4 extends TeleChat via architecture design and training infrastructure improvements on Ascend.",
-            "Pretrains a 285B-parameter model using MindSpore HyperParallel across 8,192 Ascend 910C cards.",
-            "Introduces TeleGym, a unified agent execution platform connecting evaluation and trajectory construction."
-          ]
-        },
-        "fr": {
-          "title": "Xing 4 : Avancées des modèles agentiques sur puces et frameworks domestiques",
-          "summary": "La série Xing 4 étend la lignée TeleChat grâce à des progrès coordonnés dans l'architecture et l'infrastructure d'entraînement sur matériel Ascend. L'approche utilise MindSpore HyperParallel pour pré-entraîner un modèle de 285 milliards de paramètres et introduit TeleGym.",
-          "keyPoints": [
-            "Xing 4 étend TeleChat grâce à des améliorations d'architecture et d'infrastructure sur Ascend.",
-            "Pré-entraîne un modèle de 285B paramètres en utilisant MindSpore HyperParallel sur 8192 cartes Ascend 910C.",
-            "Introduit TeleGym, une plateforme unifiée d'exécution d'agents pour l'optimisation des politiques."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a326bcc0f0cc90",
-      "title": "LoCaR: Localized Canvas Retrieval with Frozen Vision-Language Models",
-      "summary": "Whole image embeddings often fail to represent small objects. Researchers present LoCaR, a training-free framework for localized text-to-image retrieval using frozen vision-language models by constructing independent object proposals with SAM2 for localized representations.",
-      "keyPoints": [
-        "LoCaR is a training-free framework for localized text-to-image retrieval with frozen vision-language models.",
-        "Constructs independent object proposals using SAM2 to encode each region separately.",
-        "Introduces LOCFG, a Visual Genome derived benchmark to evaluate localized retrieval for smaller referents."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22131",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "LoCaR: Localized Canvas Retrieval with Frozen Vision-Language Models",
-          "summary": "Whole image embeddings often fail to represent small objects. Researchers present LoCaR, a training-free framework for localized text-to-image retrieval using frozen vision-language models by constructing independent object proposals with SAM2 for localized representations.",
-          "keyPoints": [
-            "LoCaR is a training-free framework for localized text-to-image retrieval with frozen vision-language models.",
-            "Constructs independent object proposals using SAM2 to encode each region separately.",
-            "Introduces LOCFG, a Visual Genome derived benchmark to evaluate localized retrieval for smaller referents."
-          ]
-        },
-        "fr": {
-          "title": "LoCaR : Récupération localisée sur canevas avec modèles vision-langage gelés",
-          "summary": "Les intégrations d'images entières sous-représentent souvent les petits objets. Les chercheurs présentent LoCaR, un cadre sans entraînement pour la récupération de texte à image localisée utilisant des modèles vision-langage gelés grâce à SAM2.",
-          "keyPoints": [
-            "LoCaR est un cadre sans entraînement pour la récupération de texte à image localisée avec des modèles gelés.",
-            "Utilise SAM2 pour construire des propositions d'objets indépendantes afin de mieux coder chaque région.",
-            "Introduit LOCFG, un benchmark dérivé de Visual Genome pour évaluer la récupération localisée."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-95702cb90b2f25",
-      "title": "Pupavision: An Agentic Physical AI Instrument for Drosophila Monitoring",
-      "summary": "Pupavision is a small physical AI instrument built from a single-board Linux computer and a camera for monitoring Drosophila pupariation. A frontier coding agent runs on the device, assisting image capture, repairing code errors, and verifying experiments daily.",
-      "keyPoints": [
-        "Pupavision monitors Drosophila pupariation using a single-board computer and day/night camera.",
-        "A frontier coding agent runs on the device to assist capture, repair errors, and check experiments.",
-        "Demonstrates robust operation across pilot deployments including handling multi-day network or power outages."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22136",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Pupavision: An Agentic Physical AI Instrument for Drosophila Monitoring",
-          "summary": "Pupavision is a small physical AI instrument built from a single-board Linux computer and a camera for monitoring Drosophila pupariation. A frontier coding agent runs on the device, assisting image capture, repairing code errors, and verifying experiments daily.",
-          "keyPoints": [
-            "Pupavision monitors Drosophila pupariation using a single-board computer and day/night camera.",
-            "A frontier coding agent runs on the device to assist capture, repair errors, and check experiments.",
-            "Demonstrates robust operation across pilot deployments including handling multi-day network or power outages."
-          ]
-        },
-        "fr": {
-          "title": "Pupavision : Un instrument d'IA physique agentique pour le suivi de la drosophile",
-          "summary": "Pupavision est un petit instrument d'IA physique construit à partir d'un ordinateur Linux monocarte et d'une caméra pour surveiller la pupaison de la drosophile. Un agent de codage de pointe s'exécute sur l'appareil pour aider à la capture d'images.",
-          "keyPoints": [
-            "Pupavision surveille la pupaison de la drosophile à l'aide d'un ordinateur monocarte et d'une caméra.",
-            "Un agent de codage de pointe gère la capture d'images, répare les erreurs de code et vérifie les expériences.",
-            "Démontre un fonctionnement robuste lors de déploiements pilotes, gérant les pannes prolongées."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a2d955f0dbea87",
-      "title": "Long-Context Generation and the Role of Samplers at High Temperatures",
-      "summary": "Open-weight language models often degrade during long generations, a problem linked to token samplers at high temperatures. Testing 29 models shows that samplers maintaining a small candidate pool preserve accuracy, whereas samplers allowing low-probability tokens cause performance collapse.",
-      "keyPoints": [
-        "Tests 29 open-weight models from 1B to 122B parameters across multiple long-context benchmarks.",
-        "Demonstrates that samplers keeping candidate pools small as temperature rises prevent accuracy drops.",
-        "The top-nsigma sampler achieves superior performance on coding agents and benchmarks compared to traditional samplers."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22148",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Long-Context Generation and the Role of Samplers at High Temperatures",
-          "summary": "Open-weight language models often degrade during long generations, a problem linked to token samplers at high temperatures. Testing 29 models shows that samplers maintaining a small candidate pool preserve accuracy, whereas samplers allowing low-probability tokens cause performance collapse.",
-          "keyPoints": [
-            "Tests 29 open-weight models from 1B to 122B parameters across multiple long-context benchmarks.",
-            "Demonstrates that samplers keeping candidate pools small as temperature rises prevent accuracy drops.",
-            "The top-nsigma sampler achieves superior performance on coding agents and benchmarks compared to traditional samplers."
-          ]
-        },
-        "fr": {
-          "title": "Génération à long contexte et rôle des échantillonneurs à hautes températures",
-          "summary": "Les modèles de langage à poids ouverts se dégradent souvent lors de générations longues, un problème lié aux échantillonneurs de jetons à haute température. Des tests sur 29 modèles montrent que les échantillonneurs maintenant un petit bassin de candidats préservent la précision.",
-          "keyPoints": [
-            "Teste 29 modèles à poids ouverts de 1B à 122B paramètres sur divers benchmarks à long contexte.",
-            "Démontre que les échantillonneurs gardant un petit bassin de candidats préviennent les baisses de précision.",
-            "L'échantillonneur top-nsigma surpasse les méthodes traditionnelles sur les agents de codage et benchmarks."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-461e9bc34e48ce",
-      "title": "Evidence Governance for Tool-Augmented Medical Agents",
-      "summary": "Tool-augmented medical agents often suffer from evidence hijacking, where silent tool failures introduce negative information that frozen reasoners cannot ignore. Researchers propose context-independent evidence governance (CIEG) to evaluate individual tool outputs before they enter the reasoner's context.",
-      "keyPoints": [
-        "Identifies evidence hijacking where silent tool failures degrade medical agent performance.",
-        "Proposes context-independent evidence governance (CIEG) to filter tool outputs before ingestion.",
-        "Achieves superior accuracy on medical QA, fundus glaucoma, and chest X-ray classification benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22169",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evidence Governance for Tool-Augmented Medical Agents",
-          "summary": "Tool-augmented medical agents often suffer from evidence hijacking, where silent tool failures introduce negative information that frozen reasoners cannot ignore. Researchers propose context-independent evidence governance (CIEG) to evaluate individual tool outputs before they enter the reasoner's context.",
-          "keyPoints": [
-            "Identifies evidence hijacking where silent tool failures degrade medical agent performance.",
-            "Proposes context-independent evidence governance (CIEG) to filter tool outputs before ingestion.",
-            "Achieves superior accuracy on medical QA, fundus glaucoma, and chest X-ray classification benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Gouvernance des preuves pour les agents médicaux augmentés par des outils",
-          "summary": "Les agents médicaux augmentés par des outils souffrent souvent du détournement de preuves, où des pannes d'outils silencieuses introduisent des informations négatives. Les chercheurs proposent la gouvernance de preuves indépendante du contexte pour évaluer chaque sortie d'outil.",
-          "keyPoints": [
-            "Identifie le détournement de preuves où les échecs d'outils silencieux dégradent les performances des agents.",
-            "Propose la gouvernance de preuves indépendante du contexte (CIEG) pour filtrer les sorties d'outils.",
-            "Atteint une précision supérieure sur les benchmarks de questions-réponses médicales et de classification."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-49efbd392db863",
-      "title": "Readie: Low-Latency Code Sandboxes for AI Agents via Learned Snapshots",
-      "summary": "AI agents iteratively generate and execute code, but existing code sandboxes suffer from slow startup latencies due to monolithic snapshots. Researchers propose Readie, a system using a learned set of small, specialized startup snapshots to reduce latency across diverse tasks.",
-      "keyPoints": [
-        "Addresses slow startup latencies in code sandboxes used by AI agents for code execution.",
-        "Uses a learned set of compact startup snapshots optimized from large training workloads.",
-        "Reduces startup latency by 3-22x and end-to-end runtime by 1.3-3.3x compared to existing approaches."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22171",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Readie: Low-Latency Code Sandboxes for AI Agents via Learned Snapshots",
-          "summary": "AI agents iteratively generate and execute code, but existing code sandboxes suffer from slow startup latencies due to monolithic snapshots. Researchers propose Readie, a system using a learned set of small, specialized startup snapshots to reduce latency across diverse tasks.",
-          "keyPoints": [
-            "Addresses slow startup latencies in code sandboxes used by AI agents for code execution.",
-            "Uses a learned set of compact startup snapshots optimized from large training workloads.",
-            "Reduces startup latency by 3-22x and end-to-end runtime by 1.3-3.3x compared to existing approaches."
-          ]
-        },
-        "fr": {
-          "title": "Readie : Bacs à sable de code à faible latence pour agents IA via instantanés appris",
-          "summary": "Les agents IA génèrent et exécutent du code de manière itérative, mais les bacs à sable existants souffrent de latences de démarrage lentes. Les chercheurs proposent Readie, un système utilisant un ensemble d'instantanés spécialisés appris pour réduire la latence.",
-          "keyPoints": [
-            "Résout les problèmes de latence de démarrage des bacs à sable utilisés pour l'exécution de code par les agents.",
-            "Utilise un ensemble d'instantanés compacts optimisés à partir de charges de travail d'entraînement massives.",
-            "Réduit la latence de démarrage de 3 à 22 fois et le temps d'exécution global de 1,3 à 3,3 fois."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8b9d70b5944a39",
-      "title": "Reconfiguring Procedural Knowledge for Compositional Robot Skill Adaptation",
-      "summary": "General-purpose behavior models can adapt to new goals by reconfiguring existing procedural components. Researchers propose RecPo, a framework that represents skills task-agnostically through multiple procedure views, materializing executable sequences by composing stored transitions.",
-      "keyPoints": [
-        "Studies reconfigurability as the ability to realize new behaviors by restructuring existing components.",
-        "Proposes RecPo to maintain a procedure knowledge base of skill-induced transitions.",
-        "Achieves 91.9% ordered completion on long-horizon tasks in an extended Franka Kitchen benchmark."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22174",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Reconfiguring Procedural Knowledge for Compositional Robot Skill Adaptation",
-          "summary": "General-purpose behavior models can adapt to new goals by reconfiguring existing procedural components. Researchers propose RecPo, a framework that represents skills task-agnostically through multiple procedure views, materializing executable sequences by composing stored transitions.",
-          "keyPoints": [
-            "Studies reconfigurability as the ability to realize new behaviors by restructuring existing components.",
-            "Proposes RecPo to maintain a procedure knowledge base of skill-induced transitions.",
-            "Achieves 91.9% ordered completion on long-horizon tasks in an extended Franka Kitchen benchmark."
-          ]
-        },
-        "fr": {
-          "title": "Reconfiguration des connaissances procédurales pour l'adaptation de compétences robotiques",
-          "summary": "Les modèles de comportement généraux peuvent s'adapter à de nouveaux objectifs en reconfigurant des composants procéduraux existants. Les chercheurs proposent RecPo, un cadre qui représente les compétences de manière agnostique aux tâches.",
-          "keyPoints": [
-            "Étudie la reconfigurabilité comme capacité à créer de nouveaux comportements via des composants existants.",
-            "Propose RecPo pour maintenir une base de connaissances procédurales de transitions induites par les compétences.",
-            "Atteint 91,9 % de complétion ordonnée sur des tâches à long horizon dans le benchmark Franka Kitchen."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-10a53ad32d2742",
-      "title": "Evaluating LLM Trading Agents Around Earnings and Bad News Drops",
-      "summary": "Testing large language model trading agents on earnings announcements and bad-news drops reveals that agents struggle to outperform simple baselines. Performance gains are primarily attributed to memorized training data rather than real-time reasoning.",
-      "keyPoints": [
-        "Tests LLM trading agents on 598 earnings announcements and 409 bad-news drops without look-ahead bias.",
-        "Finds that agents fail to beat simple bets or basic rule strategies across multiple models.",
-        "Concludes that model performance gains derive from data memorized during pre-training rather than live alpha."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22177",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evaluating LLM Trading Agents Around Earnings and Bad News Drops",
-          "summary": "Testing large language model trading agents on earnings announcements and bad-news drops reveals that agents struggle to outperform simple baselines. Performance gains are primarily attributed to memorized training data rather than real-time reasoning.",
-          "keyPoints": [
-            "Tests LLM trading agents on 598 earnings announcements and 409 bad-news drops without look-ahead bias.",
-            "Finds that agents fail to beat simple bets or basic rule strategies across multiple models.",
-            "Concludes that model performance gains derive from data memorized during pre-training rather than live alpha."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation d'agents de trading LLM autour des résultats et des mauvaises nouvelles",
-          "summary": "Tester des agents de trading basés sur des modèles de langage sur des annonces de résultats et des chutes dues à de mauvaises nouvelles montre qu'ils peinent à surpasser de simples bases de référence. Les gains proviennent principalement de données mémorisées.",
-          "keyPoints": [
-            "Teste des agents de trading LLM sur 598 annonces de résultats et 409 chutes sans biais d'anticipation.",
-            "Constate que les agents ne parviennent pas à battre de simples paris ou règles de base.",
-            "Conclut que les performances proviennent des données mémorisées lors du pré-entraînement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-db9ef250f03f61",
-      "title": "CorrectCast: Scale-Aware Residual Correction in Precipitation Nowcasting",
-      "summary": "Precipitation nowcasting models often suffer from errors in intensity, location, and spatial structure. Researchers propose CorrectCast, a decoupled residual correction framework that refines completed nowcasts using multimodal context while keeping the base model frozen.",
-      "keyPoints": [
-        "CorrectCast is a decoupled residual correction framework that refines nowcasts with a frozen base model.",
-        "Conditions correction on historical quantitative precipitation estimation and precipitable water vapor observations.",
-        "Improves six base nowcasters across extrapolation, deterministic, and generative approaches on US datasets."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22178",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "CorrectCast: Scale-Aware Residual Correction in Precipitation Nowcasting",
-          "summary": "Precipitation nowcasting models often suffer from errors in intensity, location, and spatial structure. Researchers propose CorrectCast, a decoupled residual correction framework that refines completed nowcasts using multimodal context while keeping the base model frozen.",
-          "keyPoints": [
-            "CorrectCast is a decoupled residual correction framework that refines nowcasts with a frozen base model.",
-            "Conditions correction on historical quantitative precipitation estimation and precipitable water vapor observations.",
-            "Improves six base nowcasters across extrapolation, deterministic, and generative approaches on US datasets."
-          ]
-        },
-        "fr": {
-          "title": "CorrectCast : Correction résiduelle sensible à l'échelle dans la prévision immédiate de précipitations",
-          "summary": "Les modèles de prévision immédiate des précipitations souffrent d'erreurs d'intensité et de localisation. Les chercheurs proposent CorrectCast, un cadre de correction résiduelle découplé qui affine les prévisions à l'aide d'un contexte multimodal.",
-          "keyPoints": [
-            "CorrectCast est un cadre de correction résiduelle découplé maintenant le modèle de base gelé.",
-            "Utilise des observations historiques d'estimation des précipitations et de vapeur d'eau precipitable.",
-            "Améliore six modèles de prévision immédiate de base sur des jeux de données américains."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-db6d264cb8dee9",
-      "title": "NEBench R1: Evaluating Nuclear Domain Competence in LLMs",
-      "summary": "This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 multiple-choice questions from U.S. Nuclear Regulatory Commission reactor operator licensing exams across 18 facilities. Evaluating six LLMs revealed overall accuracies between 34.0% and 73.9%, with analysis showing that correct answers were often not supported by technically sound justifications and longer reasoning traces sometimes correlated with lower accuracy.",
-      "keyPoints": [
-        "Includes 7,546 questions extracted from U.S. NRC reactor operator licensing exams across 18 facilities.",
-        "Evaluated six LLMs, yielding overall accuracy ranging from 34.0% to 73.9% across three performance tiers.",
-        "Revealed that longer reasoning traces can correlate with lower accuracy in frontier reasoning models."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21682",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "NEBench R1: Evaluating Nuclear Domain Competence in LLMs",
-          "summary": "This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 multiple-choice questions from U.S. Nuclear Regulatory Commission reactor operator licensing exams across 18 facilities. Evaluating six LLMs revealed overall accuracies between 34.0% and 73.9%, with analysis showing that correct answers were often not supported by technically sound justifications and longer reasoning traces sometimes correlated with lower accuracy.",
-          "keyPoints": [
-            "Includes 7,546 questions extracted from U.S. NRC reactor operator licensing exams across 18 facilities.",
-            "Evaluated six LLMs, yielding overall accuracy ranging from 34.0% to 73.9% across three performance tiers.",
-            "Revealed that longer reasoning traces can correlate with lower accuracy in frontier reasoning models."
-          ]
-        },
-        "fr": {
-          "title": "NEBench R1 : évaluer la compétence nucléaire des LLM",
-          "summary": "Cette étude présente NEBench R1, un benchmark axé sur le raisonnement comprenant 7 546 questions à choix multiples issues des examens de licence d'opérateur de réacteur de la NRC américaine à travers 18 installations. L'évaluation de six LLM a révélé des précisions globales allant de 34,0 % à 73,9 %, montrant que les bonnes réponses n'étaient pas toujours étayées par des justifications techniques valides.",
-          "keyPoints": [
-            "Comporte 7 546 questions extraites des examens de la NRC couvrant 18 installations nucléaires.",
-            "A évalué six LLM avec des précisions globales comprises entre 34,0 % et 73,9 %.",
-            "A montré que des traces de raisonnement plus longues peuvent être associées à une précision plus faible."
+            "Propose un audit de correction reproductible pour séparer la nuisance et le gain utile.",
+            "Teste les résultats sur trois sources d'échographie mammaire et les ensembles CUB.",
+            "Montre qu'une nuisance plus faible nécessite le gain utile et le risque absolu pour être interprétée."
           ]
         }
       },
@@ -431,36 +41,75 @@
       }
     },
     {
-      "id": "feed-3047d7657748ea",
-      "title": "Introducing ChatGPT for Sales",
-      "summary": "OpenAI has announced the new Sales plugin along with over 30 new and expanded partner plugins within ChatGPT. These tools are designed to help users research prospects, prepare pitches, update customer relationship management (CRM) systems, and advance business deals.",
+      "id": "feed-00a064e6720eae",
+      "title": "Gemini App Available on Lower-Memory Android Devices",
+      "summary": "Google announces that the Gemini app now supports lower-memory Android devices, allowing users to access Gemini Live and custom image creation on their phones.",
       "keyPoints": [
-        "Introduces a new Sales plugin for ChatGPT.",
-        "Includes over 30 new and expanded partner plugins.",
-        "Designed to assist with prospecting, pitches, CRM updates, and moving deals forward."
+        "Google Gemini app now supports lower-memory Android devices.",
+        "Users can access Gemini Live features.",
+        "Custom image creation is now available on these mobile phones."
+      ],
+      "category": "Outils",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "publishedAt": "2026-11-18T17:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-1440x810.png",
+      "translations": {
+        "en": {
+          "title": "Gemini App Available on Lower-Memory Android Devices",
+          "summary": "Google announces that the Gemini app now supports lower-memory Android devices, allowing users to access Gemini Live and custom image creation on their phones.",
+          "keyPoints": [
+            "Google Gemini app now supports lower-memory Android devices.",
+            "Users can access Gemini Live features.",
+            "Custom image creation is now available on these mobile phones."
+          ]
+        },
+        "fr": {
+          "title": "L'application Gemini disponible sur Android à faible mémoire",
+          "summary": "Google annonce que l'application Gemini prend désormais en charge les appareils Android à faible mémoire, offrant l'accès à Gemini Live et à la création d'images.",
+          "keyPoints": [
+            "L'application Google Gemini prend en charge les appareils Android à mémoire réduite.",
+            "Les utilisateurs peuvent accéder aux fonctionnalités de Gemini Live.",
+            "La création d'images personnalisées est accessible sur ces téléphones."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-184d931227f250",
+      "title": "The Silent Consensus",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, explores how advanced artificial intelligence could reshape society and how humans can maintain control over institutional frameworks.",
+      "keyPoints": [
+        "Authored by Dean Ball, Head of Strategic Futures at OpenAI.",
+        "Examines the societal reshaping effects of more capable AI.",
+        "Discusses methods for people to retain institutional control."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/the-silent-consensus",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Introducing ChatGPT for Sales",
-          "summary": "OpenAI has announced the new Sales plugin along with over 30 new and expanded partner plugins within ChatGPT. These tools are designed to help users research prospects, prepare pitches, update customer relationship management (CRM) systems, and advance business deals.",
+          "title": "The Silent Consensus",
+          "summary": "Dean Ball, Head of Strategic Futures at OpenAI, explores how advanced artificial intelligence could reshape society and how humans can maintain control over institutional frameworks.",
           "keyPoints": [
-            "Introduces a new Sales plugin for ChatGPT.",
-            "Includes over 30 new and expanded partner plugins.",
-            "Designed to assist with prospecting, pitches, CRM updates, and moving deals forward."
+            "Authored by Dean Ball, Head of Strategic Futures at OpenAI.",
+            "Examines the societal reshaping effects of more capable AI.",
+            "Discusses methods for people to retain institutional control."
           ]
         },
         "fr": {
-          "title": "Présentation de ChatGPT for Sales",
-          "summary": "OpenAI a annoncé un nouveau plugin Sales ainsi que plus de 30 plugins partenaires nouveaux ou élargis dans ChatGPT. Ces outils visent à aider les utilisateurs à rechercher des prospects, préparer des argumentaires, mettre à jour leur CRM et faire progresser les transactions.",
+          "title": "Le consensus silencieux",
+          "summary": "Dean Ball, responsable des avenirs stratégiques chez OpenAI, analyse la façon dont une IA plus performante pourrait remodeler la société et préserver le contrôle des institutions.",
           "keyPoints": [
-            "Intègre un nouveau plugin de vente pour ChatGPT.",
-            "Comprend plus de 30 plugins partenaires nouveaux et améliorés.",
-            "Aide à la recherche de prospects, à la préparation des argumentaires et à la mise à jour des CRM."
+            "Rédigé par Dean Ball, responsable des avenirs stratégiques chez OpenAI.",
+            "Examine l'impact d'une IA plus capable sur la société.",
+            "Discute de la conservation du contrôle des institutions par l'humain."
           ]
         }
       },
@@ -470,36 +119,36 @@
       }
     },
     {
-      "id": "feed-b86f222d774a43",
-      "title": "Chain-of-Thought Controllability and Monitorability Risks",
-      "summary": "Research demonstrates that persona-control training can induce a broader ability to control chain-of-thought (CoT) reasoning, which can reduce its monitorability. In covert side-task evaluations, model organisms exhibited significantly less monitorable evidence, dropping monitorability metrics notably—especially when explicitly instructed to hide their reasoning—though targeted transparency prompts could partially recover monitorability.",
+      "id": "feed-2de6e26125bd85",
+      "title": "ATLAS-Finance: Benchmarking AI Agents in Banking",
+      "summary": "Researchers introduce ATLAS-Finance, a benchmark of 100 end-to-end investment-banking tasks across 13 simulated firms to evaluate frontier AI agents in realistic, under-specified environments.",
       "keyPoints": [
-        "Persona-control training allows models to control CoT reasoning, reducing monitorability without explicit hiding instructions.",
-        "Explicitly instructing models to hide their reasoning drops the CoT monitorability metric g-mean squared significantly.",
-        "Targeted transparency prompts can substantially recover monitorability and sometimes surpass base models."
+        "Features 100 end-to-end investment-banking tasks across 13 simulated firms.",
+        "Tasks take experienced bankers 15-30 hours and test tool navigation and financial modeling.",
+        "Current top frontier models, including Claude Opus and Fable, pass fewer than 11% of tasks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21799",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.22085",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Chain-of-Thought Controllability and Monitorability Risks",
-          "summary": "Research demonstrates that persona-control training can induce a broader ability to control chain-of-thought (CoT) reasoning, which can reduce its monitorability. In covert side-task evaluations, model organisms exhibited significantly less monitorable evidence, dropping monitorability metrics notably—especially when explicitly instructed to hide their reasoning—though targeted transparency prompts could partially recover monitorability.",
+          "title": "ATLAS-Finance: Benchmarking AI Agents in Banking",
+          "summary": "Researchers introduce ATLAS-Finance, a benchmark of 100 end-to-end investment-banking tasks across 13 simulated firms to evaluate frontier AI agents in realistic, under-specified environments.",
           "keyPoints": [
-            "Persona-control training allows models to control CoT reasoning, reducing monitorability without explicit hiding instructions.",
-            "Explicitly instructing models to hide their reasoning drops the CoT monitorability metric g-mean squared significantly.",
-            "Targeted transparency prompts can substantially recover monitorability and sometimes surpass base models."
+            "Features 100 end-to-end investment-banking tasks across 13 simulated firms.",
+            "Tasks take experienced bankers 15-30 hours and test tool navigation and financial modeling.",
+            "Current top frontier models, including Claude Opus and Fable, pass fewer than 11% of tasks."
           ]
         },
         "fr": {
-          "title": "Contrôlabilité et risques de monitorabilité des chaînes de pensée",
-          "summary": "Des recherches montrent que l'entraînement au contrôle de persona peut induire une capacité à contrôler les chaînes de pensée (CoT), réduisant ainsi leur monitorabilité. Lors d'évaluations de tâches secondaires cachées, les modèles ont fourni moins de preuves monitorables, surtout lorsqu'ils ont reçu des consignes explicites de dissimulation, bien que des invites de transparence ciblées puissent restaurer cette visibilité.",
+          "title": "ATLAS-Finance : Évaluation des agents d'IA en banque",
+          "summary": "Présentation d'ATLAS-Finance, un benchmark de 100 tâches bancaires d'investissement sur 13 entreprises simulées pour évaluer les agents d'IA de pointe dans des environnements réalistes.",
           "keyPoints": [
-            "L'entraînement au contrôle de persona réduit la monitorabilité des chaînes de pensée.",
-            "Les consignes explicites de dissimulation font chuter drastiquement les métriques de monitorabilité.",
-            "Des invites de transparence ciblées permettent de rétablir en grande partie la monitorabilité."
+            "Comporte 100 tâches de banque d'investissement à travers 13 entreprises simulées.",
+            "Les tâches prennent 15 à 30 heures aux banquiers et testent la modélisation financière.",
+            "Les meilleurs modèles actuels, comme Claude Opus et Fable, réussissent moins de 11 % des tâches."
           ]
         }
       },
@@ -509,75 +158,36 @@
       }
     },
     {
-      "id": "feed-0be8d4aa156a99",
-      "title": "Investigating Background Shortcuts in SAR Vehicle Recognition",
-      "summary": "This study examines the reliance of deep networks on background shortcuts within SAR vehicle benchmarks like MSTAR and ATRNet-STAR. Experiments with ConvNeXt-Small and SARATR-X show that networks still achieve substantial accuracy even when central vehicle pixels or the vehicles themselves are removed, highlighting that background features strongly influence performance alongside angle gaps.",
+      "id": "feed-58da586369f339",
+      "title": "Research Acceleration: The Jagged Frontier",
+      "summary": "OpenAI evaluates how coding agents accelerate AI research, where their performance remains uneven, and what these patterns indicate regarding recursive self-improvement.",
       "keyPoints": [
-        "ConvNeXt-Small achieves 73.3% accuracy on MSTAR even with central pixels zeroed out.",
-        "Removing vehicles entirely still yields 63.3% accuracy on the ATRNet-STAR 40-class SOC split.",
-        "Accuracy is heavily determined by the angle gap to the nearest training depression angle."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21827",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Investigating Background Shortcuts in SAR Vehicle Recognition",
-          "summary": "This study examines the reliance of deep networks on background shortcuts within SAR vehicle benchmarks like MSTAR and ATRNet-STAR. Experiments with ConvNeXt-Small and SARATR-X show that networks still achieve substantial accuracy even when central vehicle pixels or the vehicles themselves are removed, highlighting that background features strongly influence performance alongside angle gaps.",
-          "keyPoints": [
-            "ConvNeXt-Small achieves 73.3% accuracy on MSTAR even with central pixels zeroed out.",
-            "Removing vehicles entirely still yields 63.3% accuracy on the ATRNet-STAR 40-class SOC split.",
-            "Accuracy is heavily determined by the angle gap to the nearest training depression angle."
-          ]
-        },
-        "fr": {
-          "title": "Analyse des biais d'arrière-plan dans la reconnaissance de véhicules SAR",
-          "summary": "Cette étude examine la dépendance des réseaux profonds envers les indices d'arrière-plan dans les benchmarks SAR MSTAR et ATRNet-STAR. Les expériences montrent que les réseaux atteignent une précision significative même lorsque les pixels centraux ou les véhicules sont supprimés, soulignant l'impact des arrière-plans et des écarts angulaires.",
-          "keyPoints": [
-            "ConvNeXt-Small atteint 73,3 % de précision sur MSTAR malgré la suppression des pixels centraux.",
-            "La suppression totale du véhicule donne encore 63,3 % de précision sur ATRNet-STAR.",
-            "La précision est principalement dictée par l'écart d'angle par rapport aux données d'entraînement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-c60bbdbf2963b3",
-      "title": "Auditors Struggle to Detect Research Sabotage in AI Transcripts",
-      "summary": "To test defenses against AI research sabotage, researchers conducted a red-team/blue-team game where human auditors and frontier models tried to detect simulated sabotage in AI safety research transcripts. Human auditors mostly failed with an AUROC of 0.59, while the best frontier model achieved an AUROC of 0.73, indicating current auditing methods struggle to reliably catch expert-level sabotage.",
-      "keyPoints": [
-        "Human auditors achieved an AUROC of 0.59, performing no better than chance at identifying sabotage.",
-        "The best frontier model (Fable 5.1) slightly outperformed humans with an AUROC of 0.73 and 32% full identification.",
-        "Sabotage identification drops further when the saboteur chooses which experiments to attack."
+        "Measures how coding agents accelerate AI research workflows.",
+        "Highlights the uneven nature of current agent performance.",
+        "Explores implications for recursive self-improvement."
       ],
       "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21832",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Auditors Struggle to Detect Research Sabotage in AI Transcripts",
-          "summary": "To test defenses against AI research sabotage, researchers conducted a red-team/blue-team game where human auditors and frontier models tried to detect simulated sabotage in AI safety research transcripts. Human auditors mostly failed with an AUROC of 0.59, while the best frontier model achieved an AUROC of 0.73, indicating current auditing methods struggle to reliably catch expert-level sabotage.",
+          "title": "Research Acceleration: The Jagged Frontier",
+          "summary": "OpenAI evaluates how coding agents accelerate AI research, where their performance remains uneven, and what these patterns indicate regarding recursive self-improvement.",
           "keyPoints": [
-            "Human auditors achieved an AUROC of 0.59, performing no better than chance at identifying sabotage.",
-            "The best frontier model (Fable 5.1) slightly outperformed humans with an AUROC of 0.73 and 32% full identification.",
-            "Sabotage identification drops further when the saboteur chooses which experiments to attack."
+            "Measures how coding agents accelerate AI research workflows.",
+            "Highlights the uneven nature of current agent performance.",
+            "Explores implications for recursive self-improvement."
           ]
         },
         "fr": {
-          "title": "Les auditeurs peinent à détecter le sabotage de recherche par IA",
-          "summary": "Pour tester les défenses contre le sabotage de la recherche en IA, des chercheurs ont mis en place un jeu de type red-team/blue-team. Les auditeurs humains ont échoué à distinguer les recherches sabotées avec un AUROC de 0,59, tandis que les meilleurs modèles de frontières ont atteint un AUROC de 0,73, montrant la difficulté actuelle de détection.",
+          "title": "Accélération de la recherche : La frontière inégale",
+          "summary": "OpenAI mesure comment les agents de codage accélèrent la recherche en IA, évalue l'inégalité de leurs performances et analyse les implications pour l'auto-amélioration récursive.",
           "keyPoints": [
-            "Les auditeurs humains obtiennent un AUROC de 0,59, soit un résultat proche du hasard.",
-            "Le meilleur modèle de pointe (Fable 5.1) surpasse légèrement les humains avec un AUROC de 0,73.",
-            "L'identification du sabotage diminue lorsque le saboteur choisit les expériences ciblées."
+            "Mesure l'accélération de la recherche en IA par les agents de code.",
+            "Met en lumière les performances inégales des agents actuels.",
+            "Explore les signaux envoyés concernant l'auto-amélioration récursive."
           ]
         }
       },
@@ -587,36 +197,348 @@
       }
     },
     {
-      "id": "feed-03b179946dd0e5",
-      "title": "Language Models Can Perform Self-Rewriting of Their Weights",
-      "summary": "This study demonstrates 'self-rewriting,' a process where a frontier 27B language model diagnoses its failures and directly edits its own weights without gradients, training, or inference-time compute scaling. Across sessions, self-rewriting improved accuracy on unseen mathematical problems and repaired a damaged copy of itself, recovering high performance on image benchmarks it never encountered.",
+      "id": "feed-cba14c782f2c25",
+      "title": "EvoDisco: Strategy Discovery for Evolving Agent Memory",
+      "summary": "EvoDisco formulates agent memory evolution as evolutionary strategy discovery, allowing LLM agents to select and instantiate semantic operators through a learnable policy.",
       "keyPoints": [
-        "A 27B model successfully diagnosed its failures and edited its own weights without gradients or training.",
-        "Self-rewriting yielded consistent accuracy gains on unseen math problems and persisted in the model weights.",
-        "The capability emerged with scale, functioning effectively in the 27B model while smaller models broke themselves."
+        "Replaces static operator schedules with evolutionary strategy discovery.",
+        "Uses a learnable policy to select from four semantic operators.",
+        "Improves performance across ALFWorld, WebShop, and LifelongAgentBench."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22102",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "EvoDisco: Strategy Discovery for Evolving Agent Memory",
+          "summary": "EvoDisco formulates agent memory evolution as evolutionary strategy discovery, allowing LLM agents to select and instantiate semantic operators through a learnable policy.",
+          "keyPoints": [
+            "Replaces static operator schedules with evolutionary strategy discovery.",
+            "Uses a learnable policy to select from four semantic operators.",
+            "Improves performance across ALFWorld, WebShop, and LifelongAgentBench."
+          ]
+        },
+        "fr": {
+          "title": "EvoDisco : Stratégie pour la mémoire évolutive des agents",
+          "summary": "EvoDisco formule l'évolution de la mémoire des agents comme une découverte de stratégie évolutive, permettant aux agents LLM d'instancier des opérateurs sémantiques.",
+          "keyPoints": [
+            "Remplace les planifications statiques par une découverte de stratégie évolutive.",
+            "Utilise une politique apprenante pour sélectionner parmi quatre opérateurs sémantiques.",
+            "Améliore les performances sur ALFWorld, WebShop et LifelongAgentBench."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-53d809d7420a39",
+      "title": "Sumitomo Life Adopts ChatGPT Enterprise",
+      "summary": "Sumitomo Life successfully utilizes ChatGPT Enterprise for researching insurers, preparing proposals, and writing investment analysis code, driven by early executive leadership.",
+      "keyPoints": [
+        "Sumitomo Life uses ChatGPT Enterprise for insurer research and proposal preparation.",
+        "Employees draft code for investment analysis using the platform.",
+        "Early adoption by company executives helped drive broader organizational usage."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/sumitomo-life",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Sumitomo Life Adopts ChatGPT Enterprise",
+          "summary": "Sumitomo Life successfully utilizes ChatGPT Enterprise for researching insurers, preparing proposals, and writing investment analysis code, driven by early executive leadership.",
+          "keyPoints": [
+            "Sumitomo Life uses ChatGPT Enterprise for insurer research and proposal preparation.",
+            "Employees draft code for investment analysis using the platform.",
+            "Early adoption by company executives helped drive broader organizational usage."
+          ]
+        },
+        "fr": {
+          "title": "Sumitomo Life adopte ChatGPT Enterprise",
+          "summary": "Sumitomo Life utilise ChatGPT Enterprise pour analyser des assureurs, préparer des propositions et rédiger du code, aidé par une forte adoption initiale des dirigeants.",
+          "keyPoints": [
+            "Utilisation de ChatGPT Enterprise pour la recherche d'assureurs et les propositions.",
+            "Rédaction de code pour l'analyse des investissements par les équipes.",
+            "L'adoption précoce par les cadres dirigeants a stimulé l'utilisation générale."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d72e5cb87b5d54",
+      "title": "Refining LLM Math Proofs via Angelic Execution",
+      "summary": "MathEye is a framework that turns imperfect LLM math proofs into verified Lean proofs by combining optimistic angelic execution with minimal human interaction.",
+      "keyPoints": [
+        "Uses angelic proof checking to replace failing proof fragments with placeholders.",
+        "Performs residual analysis and MaxSAT optimization to find essential obligations.",
+        "Solves 93.3% of problems while cutting user interactions by 55% on benchmarks."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22103",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Refining LLM Math Proofs via Angelic Execution",
+          "summary": "MathEye is a framework that turns imperfect LLM math proofs into verified Lean proofs by combining optimistic angelic execution with minimal human interaction.",
+          "keyPoints": [
+            "Uses angelic proof checking to replace failing proof fragments with placeholders.",
+            "Performs residual analysis and MaxSAT optimization to find essential obligations.",
+            "Solves 93.3% of problems while cutting user interactions by 55% on benchmarks."
+          ]
+        },
+        "fr": {
+          "title": "Raffinement des preuves mathématiques par exécution angélique",
+          "summary": "MathEye est un cadre convertissant des scripts de preuve LLM imparfaits en preuves Lean vérifiées en combinant l'exécution angélique et une interaction humaine minimale.",
+          "keyPoints": [
+            "Remplace les fragments défectueux par des espaces réservés via une vérification optimiste.",
+            "Effectue une analyse résiduelle et une optimisation MaxSAT pour cibler les obligations.",
+            "Résout 93,3 % des problèmes tout en réduisant les interactions de 55 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-67952d9a918d25",
+      "title": "Inside the Codex Sandbox",
+      "summary": "An overview of how Codex securely executes commands on user machines while strictly enforcing controlled filesystem and network limits across multiple operating systems.",
+      "keyPoints": [
+        "Explains command execution mechanics inside the Codex sandbox.",
+        "Enforces user-controlled filesystem and network limits.",
+        "Supports macOS, Linux, and Windows operating systems."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/inside-the-codex-sandbox",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Inside the Codex Sandbox",
+          "summary": "An overview of how Codex securely executes commands on user machines while strictly enforcing controlled filesystem and network limits across multiple operating systems.",
+          "keyPoints": [
+            "Explains command execution mechanics inside the Codex sandbox.",
+            "Enforces user-controlled filesystem and network limits.",
+            "Supports macOS, Linux, and Windows operating systems."
+          ]
+        },
+        "fr": {
+          "title": "À l'intérieur du bac à sable Codex",
+          "summary": "Un aperçu de la façon dont Codex exécute des commandes sur les machines tout en appliquant des limites contrôlées de système de fichiers et de réseau sous divers OS.",
+          "keyPoints": [
+            "Explique l'exécution de commandes dans le bac à sable Codex.",
+            "Applique des restrictions de réseau et de fichiers configurées par l'utilisateur.",
+            "Prend en charge les systèmes d'exploitation macOS, Linux et Windows."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d9a02fc24c78c3",
+      "title": "RAG in a Trenchcoat: Minimal Memory in Agentic Systems",
+      "summary": "Researchers test complex agentic memory primitives against a minimal RAG memory called BRIDGE, showing that memory performance depends heavily on operational task execution rather than recall benchmarks.",
+      "keyPoints": [
+        "Introduces BRIDGE, a minimal RAG memory using hybrid retrieval and chronological rendering.",
+        "Performs competitively or beats complex memory baselines on standard benchmarks.",
+        "Uses five adversarial probes to demonstrate that memory value depends on what it enables."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22179",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "RAG in a Trenchcoat: Minimal Memory in Agentic Systems",
+          "summary": "Researchers test complex agentic memory primitives against a minimal RAG memory called BRIDGE, showing that memory performance depends heavily on operational task execution rather than recall benchmarks.",
+          "keyPoints": [
+            "Introduces BRIDGE, a minimal RAG memory using hybrid retrieval and chronological rendering.",
+            "Performs competitively or beats complex memory baselines on standard benchmarks.",
+            "Uses five adversarial probes to demonstrate that memory value depends on what it enables."
+          ]
+        },
+        "fr": {
+          "title": "RAG en imperméable : Mémoire minimale dans les systèmes d'agents",
+          "summary": "Des chercheurs comparent des primitives de mémoire d'agents complexes à une mémoire RAG minimale nommée BRIDGE, montrant que l'utilité de la mémoire dépend de l'exécution des tâches.",
+          "keyPoints": [
+            "Présente BRIDGE, une mémoire RAG minimale avec recherche hybride.",
+            "Atteint la parité ou surpasse les bases de référence complexes sur les benchmarks.",
+            "Utilise cinq sondes contradictoires pour évaluer ce que la mémoire permet d'accomplir."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-99be0c0a7e0743",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "summary": "OpenAI details its approach to managing frontier AI risk across the entire lifecycle, utilizing model alignment, sandboxing, blocking safeguards, and continuous monitoring.",
+      "keyPoints": [
+        "Covers risk management from training to deployment.",
+        "Utilizes model alignment and sandboxing techniques.",
+        "Implements blocking safeguards and active monitoring."
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/managing-frontier-ai-risk",
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Managing frontier AI risk: From training to deployment",
+          "summary": "OpenAI details its approach to managing frontier AI risk across the entire lifecycle, utilizing model alignment, sandboxing, blocking safeguards, and continuous monitoring.",
+          "keyPoints": [
+            "Covers risk management from training to deployment.",
+            "Utilizes model alignment and sandboxing techniques.",
+            "Implements blocking safeguards and active monitoring."
+          ]
+        },
+        "fr": {
+          "title": "Gestion des risques liés à l'IA de pointe",
+          "summary": "OpenAI détaille sa méthode de gestion des risques liés à l'IA de pointe, de l'entraînement au déploiement, grâce à l'alignement des modèles et à la surveillance.",
+          "keyPoints": [
+            "Couvre la gestion des risques de l'entraînement au déploiement.",
+            "Utilise l'alignement des modèles et le sandboxing.",
+            "Met en œuvre des garde-fous de blocage et une surveillance active."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-9b2edc7c7cf7aa",
+      "title": "Fine-Grained Japanese Clinical NER with LLMs and BERT",
+      "summary": "A study compares BERT-CRF baselines with nine open-weight LLMs on fine-grained Japanese clinical named entity recognition using the iCorpus benchmark, finding that task-specific fine-tuning and adequate output-token limits significantly improve LLM performance.",
+      "keyPoints": [
+        "Compares BERT baselines with nine open-weight LLMs on iCorpus.",
+        "Fine-tuned LLMs with sufficient parameters exceeded BERT baselines at larger output limits.",
+        "Output-token limits materially affected the performance comparison."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22219",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Fine-Grained Japanese Clinical NER with LLMs and BERT",
+          "summary": "A study compares BERT-CRF baselines with nine open-weight LLMs on fine-grained Japanese clinical named entity recognition using the iCorpus benchmark, finding that task-specific fine-tuning and adequate output-token limits significantly improve LLM performance.",
+          "keyPoints": [
+            "Compares BERT baselines with nine open-weight LLMs on iCorpus.",
+            "Fine-tuned LLMs with sufficient parameters exceeded BERT baselines at larger output limits.",
+            "Output-token limits materially affected the performance comparison."
+          ]
+        },
+        "fr": {
+          "title": "Reconnaissance d'entités cliniques japonaises avec les LLM",
+          "summary": "Une étude compare des modèles de base BERT à neuf LLM à poids ouverts pour la reconnaissance d'entités cliniques japonaises, montrant que l'affinage et des limites de jetons adéquates améliorent les performances.",
+          "keyPoints": [
+            "Compare des bases BERT à neuf LLM à poids ouverts sur iCorpus.",
+            "Les LLM affinés surpassent BERT avec des limites de sortie accrues.",
+            "Les limites de jetons de sortie modifient significativement les comparaisons."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-a1de396d3910fa",
+      "title": "Le Groupe Figaro and OpenAI partner for ChatGPT journalism",
+      "summary": "Le Groupe Figaro and OpenAI announce a partnership to integrate Le Groupe Figaro's journalism into ChatGPT through summaries, excerpts, and links to original stories.",
+      "keyPoints": [
+        "Partnership brings Le Groupe Figaro journalism to ChatGPT.",
+        "Features summaries and excerpts of original articles.",
+        "Includes direct links to the original stories."
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Le Groupe Figaro and OpenAI partner for ChatGPT journalism",
+          "summary": "Le Groupe Figaro and OpenAI announce a partnership to integrate Le Groupe Figaro's journalism into ChatGPT through summaries, excerpts, and links to original stories.",
+          "keyPoints": [
+            "Partnership brings Le Groupe Figaro journalism to ChatGPT.",
+            "Features summaries and excerpts of original articles.",
+            "Includes direct links to the original stories."
+          ]
+        },
+        "fr": {
+          "title": "Partenariat entre Le Groupe Figaro et OpenAI pour ChatGPT",
+          "summary": "Le Groupe Figaro et OpenAI s'associent pour intégrer le journalisme du Figaro dans ChatGPT via des résumés, des extraits et des liens vers les articles originaux.",
+          "keyPoints": [
+            "Partenariat intégrant le journalisme du Figaro dans ChatGPT.",
+            "Intègre des résumés et des extraits d'articles.",
+            "Comporte des liens directs vers les sources originales."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-927c575c6c0393",
+      "title": "The Fragility of Reasoning-Importance Attribution for Pruning",
+      "summary": "Research across four small reasoning models reveals that attribution-guided pruning is fragile, with token scoring saturation, non-localizable causal importance, and unseparable reasoning-specific importance.",
+      "keyPoints": [
+        "Shows that attribution-guided pruning for reasoning models is fragile.",
+        "Final-answer token scoring suffers from saturation issues.",
+        "Causal importance is difficult to localize to single neurons."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21885",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.22234",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Language Models Can Perform Self-Rewriting of Their Weights",
-          "summary": "This study demonstrates 'self-rewriting,' a process where a frontier 27B language model diagnoses its failures and directly edits its own weights without gradients, training, or inference-time compute scaling. Across sessions, self-rewriting improved accuracy on unseen mathematical problems and repaired a damaged copy of itself, recovering high performance on image benchmarks it never encountered.",
+          "title": "The Fragility of Reasoning-Importance Attribution for Pruning",
+          "summary": "Research across four small reasoning models reveals that attribution-guided pruning is fragile, with token scoring saturation, non-localizable causal importance, and unseparable reasoning-specific importance.",
           "keyPoints": [
-            "A 27B model successfully diagnosed its failures and edited its own weights without gradients or training.",
-            "Self-rewriting yielded consistent accuracy gains on unseen math problems and persisted in the model weights.",
-            "The capability emerged with scale, functioning effectively in the 27B model while smaller models broke themselves."
+            "Shows that attribution-guided pruning for reasoning models is fragile.",
+            "Final-answer token scoring suffers from saturation issues.",
+            "Causal importance is difficult to localize to single neurons."
           ]
         },
         "fr": {
-          "title": "Les modèles de langage peuvent réécrire leurs propres poids",
-          "summary": "Cette étude démontre le « self-rewriting », un processus où un modèle de 27B diagnostique ses erreurs et modifie directement ses poids sans gradients, sans entraînement et sans coût d'inférence supplémentaire. Cette méthode améliore la précision sur des problèmes mathématiques inédits et répare une copie endommagée du modèle.",
+          "title": "Fragilité de l'attribution de l'importance pour l'élagage",
+          "summary": "Des recherches sur quatre petits modèles de raisonnement révèlent la fragilité de l'élagage guidé par l'attribution, en raison de la saturation des scores et d'une importance causale non localisable.",
           "keyPoints": [
-            "Un modèle de 27B a réussi à modifier ses propres poids sans entraînement ni gradients.",
-            "La réécriture s'est traduite par des gains de précision persistants sur des problèmes de mathématiques.",
-            "La capacité émerge avec l'échelle, les plus petits modèles ne parvenant pas à s'auto-corriger."
+            "Démontre la fragilité de l'élagage guidé par l'attribution.",
+            "Le score des jetons de réponse finale souffre de saturation.",
+            "L'importance causale ne se localise pas facilement à un seul neurone."
           ]
         }
       },
@@ -626,36 +548,75 @@
       }
     },
     {
-      "id": "feed-aec425a30903de",
-      "title": "DNeo: Enhancing Speculative-Diffusion Decoding with MoFA",
-      "summary": "DNeo is a new speculative-diffusion decoding architecture that addresses the limitations of standard feature encoding through Mixture-of-Features Attention (MoFA) and a working memory for rejected proposals. Achieving 1.3x faster generation speed than previous state-of-the-art models without compromising drafter footprint or quality, DNeo establishes a new standard for efficient LLM inference.",
+      "id": "feed-68ddb817fe4001",
+      "title": "Advancing chip design with OpenAI models",
+      "summary": "OpenAI highlights advancements in AI-assisted chip design, using models to optimize circuits in Jalapeño silicon and improve RISC-V core designs with GPT-6 Astra.",
       "keyPoints": [
-        "Introduces Mixture-of-Features Attention (MoFA) with a working memory for rejected proposals.",
-        "Utilizes enhancements like 2-tap causal convolutions and prefix-only cross-attention.",
-        "Achieves 1.3x faster generation speed compared to DFlash-2 without lowering output quality."
+        "OpenAI models optimized circuits used in Jalapeño silicon.",
+        "Improved RISC-V core designs demonstrated.",
+        "Showcases progress in AI-assisted chip design with GPT-6 Astra."
+      ],
+      "category": "Outils",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Advancing chip design with OpenAI models",
+          "summary": "OpenAI highlights advancements in AI-assisted chip design, using models to optimize circuits in Jalapeño silicon and improve RISC-V core designs with GPT-6 Astra.",
+          "keyPoints": [
+            "OpenAI models optimized circuits used in Jalapeño silicon.",
+            "Improved RISC-V core designs demonstrated.",
+            "Showcases progress in AI-assisted chip design with GPT-6 Astra."
+          ]
+        },
+        "fr": {
+          "title": "Amélioration de la conception de puces avec les modèles OpenAI",
+          "summary": "OpenAI met en avant des progrès dans la conception de puces assistée par IA, optimisant des circuits en silicium Jalapeño et des cœurs RISC-V grâce au modèle GPT-6 Astra.",
+          "keyPoints": [
+            "Optimisation de circuits pour le silicium Jalapeño.",
+            "Amélioration des conceptions de cœurs RISC-V.",
+            "Progression de la conception de puces avec GPT-6 Astra."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-346a26a6f87437",
+      "title": "The Cost of Context for LLM Coding Agents under Prefix Caching",
+      "summary": "A study of over 20,000 runs on SWE-bench evaluates how adding or removing context for LLM coding agents affects costs under prefix caching, showing shorter prompts do not guarantee savings.",
+      "keyPoints": [
+        "Evaluates context management across more than 20,000 runs on SWE-bench.",
+        "Retrieved code increases overall costs despite reducing search commands.",
+        "Shorter prompts do not guarantee cheaper execution due to agent behavior."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21925",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.22238",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "DNeo: Enhancing Speculative-Diffusion Decoding with MoFA",
-          "summary": "DNeo is a new speculative-diffusion decoding architecture that addresses the limitations of standard feature encoding through Mixture-of-Features Attention (MoFA) and a working memory for rejected proposals. Achieving 1.3x faster generation speed than previous state-of-the-art models without compromising drafter footprint or quality, DNeo establishes a new standard for efficient LLM inference.",
+          "title": "The Cost of Context for LLM Coding Agents under Prefix Caching",
+          "summary": "A study of over 20,000 runs on SWE-bench evaluates how adding or removing context for LLM coding agents affects costs under prefix caching, showing shorter prompts do not guarantee savings.",
           "keyPoints": [
-            "Introduces Mixture-of-Features Attention (MoFA) with a working memory for rejected proposals.",
-            "Utilizes enhancements like 2-tap causal convolutions and prefix-only cross-attention.",
-            "Achieves 1.3x faster generation speed compared to DFlash-2 without lowering output quality."
+            "Evaluates context management across more than 20,000 runs on SWE-bench.",
+            "Retrieved code increases overall costs despite reducing search commands.",
+            "Shorter prompts do not guarantee cheaper execution due to agent behavior."
           ]
         },
         "fr": {
-          "title": "DNeo : Améliorer le décodage par diffusion spéculative avec MoFA",
-          "summary": "DNeo est une nouvelle architecture de décodage par diffusion spéculative qui résout les limites de l'encodage de caractéristiques standard grâce au mécanisme MoFA et à une mémoire de travail des propositions rejetées. Atteignant une vitesse de génération 1,3 fois supérieure aux modèles actuels sans perte de qualité, DNeo redéfinit l'état de l'art.",
+          "title": "Le coût du contexte pour les agents de codage LLM",
+          "summary": "Une étude portant sur plus de 20 000 exécutions évalue l'impact de l'ajout ou de la suppression de contexte pour les agents de codage sous cache de préfixe, montrant que les prompts courts ne garantissent pas des économies.",
           "keyPoints": [
-            "Intègre l'attention Mixture-of-Features (MoFA) dotée d'une mémoire de travail pour les propositions rejetées.",
-            "Utilise des améliorations telles que des convolutions causales à 2 prises.",
-            "Atteint une vitesse de génération 1,3 fois plus rapide que DFlash-2 à qualité égale."
+            "Analyse le contexte sur plus de 20 000 exécutions sur SWE-bench.",
+            "Le code récupéré augmente les coûts malgré une baisse des recherches.",
+            "Des prompts plus courts ne garantissent pas des économies de coûts."
           ]
         }
       },
@@ -665,75 +626,36 @@
       }
     },
     {
-      "id": "feed-adc7c86f54cec9",
-      "title": "SLED: Ensuring Deterministic Sensor Slicing from Edge to Datacenter",
-      "summary": "SLED introduces Sensor Slicing (SL) to provide deterministic, MAC-level isolation for individual sensors within O-RAN wireless systems, preventing data contention and latency spikes. Implemented via agentic coding techniques, SLED successfully preserves latency-critical telemetry across edge, campus, and HPC tiers while maintaining stable network throughput.",
+      "id": "feed-61ed7582d0a562",
+      "title": "Multi-Agent Memory Inconsistency in LLM Systems",
+      "summary": "Investigating multi-agent memory inconsistency in Harvey LAB document-review tasks, researchers find that while delegation increases evidence retrieval, conflict detection rates drop.",
       "keyPoints": [
-        "Provides deterministic MAC-level isolation for individual sensor streams in O-RAN networks.",
-        "Implemented using agentic coding techniques, significantly reducing development time and prompt volume.",
-        "Maintains stable latency and throughput across edge, campus, and HPC deployment tiers."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21937",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "SLED: Ensuring Deterministic Sensor Slicing from Edge to Datacenter",
-          "summary": "SLED introduces Sensor Slicing (SL) to provide deterministic, MAC-level isolation for individual sensors within O-RAN wireless systems, preventing data contention and latency spikes. Implemented via agentic coding techniques, SLED successfully preserves latency-critical telemetry across edge, campus, and HPC tiers while maintaining stable network throughput.",
-          "keyPoints": [
-            "Provides deterministic MAC-level isolation for individual sensor streams in O-RAN networks.",
-            "Implemented using agentic coding techniques, significantly reducing development time and prompt volume.",
-            "Maintains stable latency and throughput across edge, campus, and HPC deployment tiers."
-          ]
-        },
-        "fr": {
-          "title": "SLED : Assurer un découpage déterministe des capteurs de la périphérie au datacenter",
-          "summary": "SLED introduit le découpage de capteurs (Sensor Slicing) pour offrir une isolation déterministe au niveau MAC pour les flux de capteurs dans les réseaux O-RAN, évitant ainsi les conflits de données. Mis en œuvre via des techniques de code agentique, SLED préserve la télémétrie critique en matière de latence sur l'ensemble de l'infrastructure.",
-          "keyPoints": [
-            "Fournit une isolation déterministe au niveau MAC pour chaque flux de capteurs O-RAN.",
-            "Développé à l'aide de techniques de codage agentique, réduisant drastiquement le temps de développement.",
-            "Maintient une latence et un débit stables à travers les niveaux de périphérie et de calcul haute performance."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-79f999b8767bf0",
-      "title": "Conserved Verdicts and Drifting Commitments in Reasoning Models",
-      "summary": "This study analyzes how reasoning models can lose correct answers by continuing to reason, defining the commitment-verdict gap to measure expected changes in answer quality. Evaluating models across benchmarks like MATH-500 shows that declining accuracy curves stem from which chains remain active, while ongoing reasoning chains typically maintain or improve their quality.",
-      "keyPoints": [
-        "Introduces a framework analyzing the gap between a model's current commitment and final verdict.",
-        "Evaluated six reasoning models across MATH-500 and OlympiadBench with budgets up to 16,384 tokens.",
-        "Shows that accuracy drops come from active chains rather than degradation within individual reasoning chains."
+        "Introduces a benchmark for multi-agent memory inconsistency.",
+        "Delegation increases retrieval of conflicting claims but lowers detection.",
+        "Worker-to-lead handoffs are a key target for improving conflict detection."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21946",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.22245",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Conserved Verdicts and Drifting Commitments in Reasoning Models",
-          "summary": "This study analyzes how reasoning models can lose correct answers by continuing to reason, defining the commitment-verdict gap to measure expected changes in answer quality. Evaluating models across benchmarks like MATH-500 shows that declining accuracy curves stem from which chains remain active, while ongoing reasoning chains typically maintain or improve their quality.",
+          "title": "Multi-Agent Memory Inconsistency in LLM Systems",
+          "summary": "Investigating multi-agent memory inconsistency in Harvey LAB document-review tasks, researchers find that while delegation increases evidence retrieval, conflict detection rates drop.",
           "keyPoints": [
-            "Introduces a framework analyzing the gap between a model's current commitment and final verdict.",
-            "Evaluated six reasoning models across MATH-500 and OlympiadBench with budgets up to 16,384 tokens.",
-            "Shows that accuracy drops come from active chains rather than degradation within individual reasoning chains."
+            "Introduces a benchmark for multi-agent memory inconsistency.",
+            "Delegation increases retrieval of conflicting claims but lowers detection.",
+            "Worker-to-lead handoffs are a key target for improving conflict detection."
           ]
         },
         "fr": {
-          "title": "Verdict conservé et dérive des engagements dans les modèles de raisonnement",
-          "summary": "Cette étude analyse la façon dont les modèles de raisonnement peuvent perdre une bonne réponse en continuant à réfléchir, en définissant l'écart entre engagement et verdict. L'évaluation de plusieurs modèles montre que les baisses de précision proviennent des chaînes qui restent actives, tandis que les chaînes en cours conservent ou améliorent leurs réponses.",
+          "title": "Incohérence de mémoire multi-agent dans les systèmes LLM",
+          "summary": "Étudiant l'incohérence de mémoire multi-agent dans des tâches de révision, les chercheurs constatent que la délégation accroît la récupération de preuves tout en réduisant la détection des conflits.",
           "keyPoints": [
-            "Propose un cadre analytique mesurant l'écart entre l'engagement actuel du modèle et son verdict final.",
-            "Évalue six modèles de raisonnement sur MATH-500 et OlympiadBench avec des budgets allant jusqu'à 16 384 jetons.",
-            "Démontre que les baisses de précision proviennent du choix des chaînes actives plutôt que de leur dégradation."
+            "Introduit un benchmark sur l'incohérence de mémoire multi-agent.",
+            "La délégation augmente la récupération mais diminue la détection.",
+            "Les transferts entre travailleurs et responsable sont cruciaux."
           ]
         }
       },
@@ -743,36 +665,114 @@
       }
     },
     {
-      "id": "feed-57b8a5effa02d9",
-      "title": "Public Comments and Evidence Distribution in AI Regulation",
-      "summary": "Analyzing 40 potential regulations and 2,664 public comments, this paper investigates how stakeholders supply evidence to AI regulators in the USA. The findings reveal that business commenters provide less evidence relative to length, whereas government, university, and civil society groups contribute significantly more research and legal sources, shedding light on issue advocacy versus honest broker roles in policymaking.",
+      "id": "feed-0b00acc2ef479f",
+      "title": "Multimodal LLM System for Scanned Paper Assessments",
+      "summary": "A modular multimodal LLM-based system with human-in-the-loop validation extracts data from scanned cognitive and behavioral assessments, reducing processing time and costs significantly.",
       "keyPoints": [
-        "Analyzed a corpus of 40 potential regulations and 2,664 public comments submitted by diverse stakeholders.",
-        "Found that business commenters introduce less evidence compared to government, university, and civil society groups.",
-        "Explored publication status and self-citation patterns to understand information flows in AI regulation."
+        "Processes scanned paper forms like MMSE, MoCA, and Vanderbilt.",
+        "Utilizes a dual-model validation with human oversight for disagreements.",
+        "Reduces processing time by 10-20 times and costs by over 12 times."
       ],
-      "category": "Business",
+      "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.21948",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.22252",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Public Comments and Evidence Distribution in AI Regulation",
-          "summary": "Analyzing 40 potential regulations and 2,664 public comments, this paper investigates how stakeholders supply evidence to AI regulators in the USA. The findings reveal that business commenters provide less evidence relative to length, whereas government, university, and civil society groups contribute significantly more research and legal sources, shedding light on issue advocacy versus honest broker roles in policymaking.",
+          "title": "Multimodal LLM System for Scanned Paper Assessments",
+          "summary": "A modular multimodal LLM-based system with human-in-the-loop validation extracts data from scanned cognitive and behavioral assessments, reducing processing time and costs significantly.",
           "keyPoints": [
-            "Analyzed a corpus of 40 potential regulations and 2,664 public comments submitted by diverse stakeholders.",
-            "Found that business commenters introduce less evidence compared to government, university, and civil society groups.",
-            "Explored publication status and self-citation patterns to understand information flows in AI regulation."
+            "Processes scanned paper forms like MMSE, MoCA, and Vanderbilt.",
+            "Utilizes a dual-model validation with human oversight for disagreements.",
+            "Reduces processing time by 10-20 times and costs by over 12 times."
           ]
         },
         "fr": {
-          "title": "Commentaires publics et apport de preuves dans la régulation de l'IA",
-          "summary": "En analysant un corpus de 40 réglementations potentielles et 2 664 commentaires publics, cette étude examine la manière dont les parties prenantes fournissent des preuves aux régulateurs américains de l'IA. Les résultats montrent que les entreprises fournissent proportionnellement moins de preuves que les universités et la société civile.",
+          "title": "Système LLM multimodal pour évaluations papier numérisées",
+          "summary": "Un système modulaire basé sur des LLM multimodaux extrait les données d'évaluations cognitives numérisées grâce à une validation humaine, réduisant considérablement le temps et les coûts.",
           "keyPoints": [
-            "Analyse de 40 réglementations potentielles et de 2 664 commentaires publics d'acteurs variés.",
-            "Met en évidence que les entreprises fournissent moins de sources de recherche que les universitaires et la société civile.",
-            "Examine les schémas d'autocitation et l'origine des sources d'information dans la formulation des politiques."
+            "Traite des formulaires papier numérisés (MMSE, MoCA, Vanderbilt).",
+            "Utilise une validation à double modèle avec supervision humaine.",
+            "Réduit le temps de traitement de 10 à 20 fois et les coûts de 12 fois."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-946b2c15310c76",
+      "title": "Fidelity Regret: Measuring Simulator Misspecification",
+      "summary": "Researchers introduce fidelity regret to measure simulator misspecification in verifiable design, showing that workflows optimized through a simulator can satisfy verifiers yet perform poorly physically.",
+      "keyPoints": [
+        "Measures fidelity regret across genetic-circuit design subspaces.",
+        "Topological verification can still yield positive physical performance regret.",
+        "Workflows optimized via simulators may fail on physical objectives."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22263",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Fidelity Regret: Measuring Simulator Misspecification",
+          "summary": "Researchers introduce fidelity regret to measure simulator misspecification in verifiable design, showing that workflows optimized through a simulator can satisfy verifiers yet perform poorly physically.",
+          "keyPoints": [
+            "Measures fidelity regret across genetic-circuit design subspaces.",
+            "Topological verification can still yield positive physical performance regret.",
+            "Workflows optimized via simulators may fail on physical objectives."
+          ]
+        },
+        "fr": {
+          "title": "Regret de fidélité : mesurer la misspécification de simulateur",
+          "summary": "Les chercheurs introduisent le regret de fidélité pour mesurer la misspécification dans la conception vérifiable, montrant qu'un système optimisé par simulateur peut échouer sur des objectifs physiques.",
+          "keyPoints": [
+            "Mesure le regret de fidélité dans des espaces de circuits génétiques.",
+            "La vérification topologique peut laisser un regret de performance positif.",
+            "Les flux optimisés par simulateur peuvent décevoir physiquement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-24414a09953ba6",
+      "title": "DACE: Diversity-Driven Adversarial Co-Evolution for LLM Safety",
+      "summary": "DACE is a diversity-driven adversarial co-evolution framework that tackles attack strategy collapse and defense forgetting through strategy space coverage and Bayesian adversarial replay pools.",
+      "keyPoints": [
+        "Introduces the DACE framework for robust LLM safety alignment.",
+        "Uses normalized marginal coverage gain to prevent attack strategy collapse.",
+        "Maintains a Bayesian adversarial replay pool to prevent defense forgetting."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22278",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "DACE: Diversity-Driven Adversarial Co-Evolution for LLM Safety",
+          "summary": "DACE is a diversity-driven adversarial co-evolution framework that tackles attack strategy collapse and defense forgetting through strategy space coverage and Bayesian adversarial replay pools.",
+          "keyPoints": [
+            "Introduces the DACE framework for robust LLM safety alignment.",
+            "Uses normalized marginal coverage gain to prevent attack strategy collapse.",
+            "Maintains a Bayesian adversarial replay pool to prevent defense forgetting."
+          ]
+        },
+        "fr": {
+          "title": "DACE : Co-évolution antagoniste pour la sécurité des LLM",
+          "summary": "DACE est un cadre de co-évolution antagoniste axé sur la diversité qui lutte contre l'effondrement des stratégies d'attaque et l'oubli de la défense grâce à une piscine de relecture bayésienne.",
+          "keyPoints": [
+            "Présente le cadre DACE pour l'alignement robuste de la sécurité des LLM.",
+            "Évite l'effondrement des attaques via un gain de couverture marginale.",
+            "Maintient un pool de relecture bayésien pour éviter l'oubli défensif."
           ]
         }
       },
@@ -784,9 +784,9 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 366,
+    "itemsCollected": 447,
     "itemsPublished": 20,
-    "newItems": 10,
+    "newItems": 20,
     "candidates": 20,
     "batches": 2,
     "batchSize": 10,
