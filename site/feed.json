@@ -1,76 +1,37 @@
 {
-  "generatedAt": "2026-11-19T07:28:57.521Z",
+  "generatedAt": "2026-11-19T20:39:48.866Z",
   "items": [
     {
-      "id": "feed-78f824e6b73ec3",
-      "title": "When Lower Harm Misleads: Auditing Concept Corrections",
-      "summary": "This paper evaluates concept corrections in medical imaging, demonstrating that lower correction harm does not always signal a better model unless evaluated alongside useful gain, absolute risk, and the starting prediction.",
+      "id": "feed-1b3aafed7dd5d4",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "summary": "Tool Retrieval is now available in preview in the Gemini API, enabling agents to access hundreds of tools while using fewer tokens.",
       "keyPoints": [
-        "Introduces a reproducible correction audit to separate harm, useful gain, and starting predictions.",
-        "Tests findings on three breast-ultrasound sources and CUB datasets.",
-        "Shows lower harm only indicates superior corrections when combined with useful gain and absolute risk."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22084",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "When Lower Harm Misleads: Auditing Concept Corrections",
-          "summary": "This paper evaluates concept corrections in medical imaging, demonstrating that lower correction harm does not always signal a better model unless evaluated alongside useful gain, absolute risk, and the starting prediction.",
-          "keyPoints": [
-            "Introduces a reproducible correction audit to separate harm, useful gain, and starting predictions.",
-            "Tests findings on three breast-ultrasound sources and CUB datasets.",
-            "Shows lower harm only indicates superior corrections when combined with useful gain and absolute risk."
-          ]
-        },
-        "fr": {
-          "title": "Quand une moindre nuisance induit en erreur",
-          "summary": "Cet article évalue les corrections de concepts en imagerie médicale, démontrant qu'une moindre nuisance ne garantit pas un meilleur modèle si elle n'est pas analysée avec le gain utile et le point de départ.",
-          "keyPoints": [
-            "Propose un audit de correction reproductible pour séparer la nuisance et le gain utile.",
-            "Teste les résultats sur trois sources d'échographie mammaire et les ensembles CUB.",
-            "Montre qu'une nuisance plus faible nécessite le gain utile et le risque absolu pour être interprétée."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-00a064e6720eae",
-      "title": "Gemini App Available on Lower-Memory Android Devices",
-      "summary": "Google announces that the Gemini app now supports lower-memory Android devices, allowing users to access Gemini Live and custom image creation on their phones.",
-      "keyPoints": [
-        "Google Gemini app now supports lower-memory Android devices.",
-        "Users can access Gemini Live features.",
-        "Custom image creation is now available on these mobile phones."
+        "Tool Retrieval is now in preview in the Gemini API.",
+        "It gives agents access to hundreds of tools.",
+        "The feature helps agents use fewer tokens."
       ],
       "category": "Outils",
       "sourceName": "Google AI Blog",
-      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "publishedAt": "2026-11-18T17:00:00.000Z",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-1440x810.png",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "publishedAt": "2026-11-19T18:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.width-1300.png",
       "translations": {
         "en": {
-          "title": "Gemini App Available on Lower-Memory Android Devices",
-          "summary": "Google announces that the Gemini app now supports lower-memory Android devices, allowing users to access Gemini Live and custom image creation on their phones.",
+          "title": "Introducing Tool Retrieval in the Gemini API",
+          "summary": "Tool Retrieval is now available in preview in the Gemini API, enabling agents to access hundreds of tools while using fewer tokens.",
           "keyPoints": [
-            "Google Gemini app now supports lower-memory Android devices.",
-            "Users can access Gemini Live features.",
-            "Custom image creation is now available on these mobile phones."
+            "Tool Retrieval is now in preview in the Gemini API.",
+            "It gives agents access to hundreds of tools.",
+            "The feature helps agents use fewer tokens."
           ]
         },
         "fr": {
-          "title": "L'application Gemini disponible sur Android à faible mémoire",
-          "summary": "Google annonce que l'application Gemini prend désormais en charge les appareils Android à faible mémoire, offrant l'accès à Gemini Live et à la création d'images.",
+          "title": "Introduction de la récupération d'outils dans l'API Gemini",
+          "summary": "La récupération d'outils est désormais en version préliminaire dans l'API Gemini, permettant aux agents d'accéder à des centaines d'outils tout en utilisant moins de jetons.",
           "keyPoints": [
-            "L'application Google Gemini prend en charge les appareils Android à mémoire réduite.",
-            "Les utilisateurs peuvent accéder aux fonctionnalités de Gemini Live.",
-            "La création d'images personnalisées est accessible sur ces téléphones."
+            "La récupération d'outils est en version préliminaire dans l'API Gemini.",
+            "Elle donne aux agents accès à des centaines d'outils.",
+            "La fonctionnalité aide à utiliser moins de jetons."
           ]
         }
       },
@@ -80,36 +41,36 @@
       }
     },
     {
-      "id": "feed-184d931227f250",
-      "title": "The Silent Consensus",
-      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, explores how advanced artificial intelligence could reshape society and how humans can maintain control over institutional frameworks.",
+      "id": "feed-9342dbf934e428",
+      "title": "How OpenAI's Performance Factory Keeps ChatGPT Fast",
+      "summary": "OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to keep ChatGPT fast.",
       "keyPoints": [
-        "Authored by Dean Ball, Head of Strategic Futures at OpenAI.",
-        "Examines the societal reshaping effects of more capable AI.",
-        "Discusses methods for people to retain institutional control."
+        "OpenAI created the Performance Factory to maintain ChatGPT's speed.",
+        "The system uses Codex-powered workflows.",
+        "It identifies and resolves performance issues automatically."
       ],
       "category": "Business",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/the-silent-consensus",
-      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The Silent Consensus",
-          "summary": "Dean Ball, Head of Strategic Futures at OpenAI, explores how advanced artificial intelligence could reshape society and how humans can maintain control over institutional frameworks.",
+          "title": "How OpenAI's Performance Factory Keeps ChatGPT Fast",
+          "summary": "OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to keep ChatGPT fast.",
           "keyPoints": [
-            "Authored by Dean Ball, Head of Strategic Futures at OpenAI.",
-            "Examines the societal reshaping effects of more capable AI.",
-            "Discusses methods for people to retain institutional control."
+            "OpenAI created the Performance Factory to maintain ChatGPT's speed.",
+            "The system uses Codex-powered workflows.",
+            "It identifies and resolves performance issues automatically."
           ]
         },
         "fr": {
-          "title": "Le consensus silencieux",
-          "summary": "Dean Ball, responsable des avenirs stratégiques chez OpenAI, analyse la façon dont une IA plus performante pourrait remodeler la société et préserver le contrôle des institutions.",
+          "title": "Comment la Performance Factory d'OpenAI maintient la rapidité de ChatGPT",
+          "summary": "OpenAI a conçu la Performance Factory, un système de flux de travail alimenté par Codex qui détecte et corrige les problèmes de performance pour maintenir ChatGPT rapide.",
           "keyPoints": [
-            "Rédigé par Dean Ball, responsable des avenirs stratégiques chez OpenAI.",
-            "Examine l'impact d'une IA plus capable sur la société.",
-            "Discute de la conservation du contrôle des institutions par l'humain."
+            "OpenAI a créé la Performance Factory pour maintenir la vitesse de ChatGPT.",
+            "Le système utilise des flux de travail alimentés par Codex.",
+            "Il identifie et résout les problèmes de performance."
           ]
         }
       },
@@ -119,36 +80,36 @@
       }
     },
     {
-      "id": "feed-2de6e26125bd85",
-      "title": "ATLAS-Finance: Benchmarking AI Agents in Banking",
-      "summary": "Researchers introduce ATLAS-Finance, a benchmark of 100 end-to-end investment-banking tasks across 13 simulated firms to evaluate frontier AI agents in realistic, under-specified environments.",
+      "id": "feed-5827e59ad924e0",
+      "title": "SeasonRainBench: Global Seasonal Precipitation Benchmark",
+      "summary": "SeasonRainBench is the first global benchmark for monthly precipitation forecasts 1-5 months ahead, featuring 310,944 simulated months from 52 climate models. The authors introduce a model that outperforms operational approaches in ACC, CRPS, anomaly strength, and rain-belt position.",
       "keyPoints": [
-        "Features 100 end-to-end investment-banking tasks across 13 simulated firms.",
-        "Tasks take experienced bankers 15-30 hours and test tool navigation and financial modeling.",
-        "Current top frontier models, including Claude Opus and Fable, pass fewer than 11% of tasks."
+        "SeasonRainBench is the first global benchmark for monthly precipitation forecasts 1-5 months ahead.",
+        "It includes 310,944 simulated months from 52 climate models and pairs satellite data with predictors.",
+        "The proposed model improves ACC, CRPS, anomaly strength, and rain-belt position over traditional methods."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22085",
+      "sourceUrl": "https://arxiv.org/abs/2611.22281",
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ATLAS-Finance: Benchmarking AI Agents in Banking",
-          "summary": "Researchers introduce ATLAS-Finance, a benchmark of 100 end-to-end investment-banking tasks across 13 simulated firms to evaluate frontier AI agents in realistic, under-specified environments.",
+          "title": "SeasonRainBench: Global Seasonal Precipitation Benchmark",
+          "summary": "SeasonRainBench is the first global benchmark for monthly precipitation forecasts 1-5 months ahead, featuring 310,944 simulated months from 52 climate models. The authors introduce a model that outperforms operational approaches in ACC, CRPS, anomaly strength, and rain-belt position.",
           "keyPoints": [
-            "Features 100 end-to-end investment-banking tasks across 13 simulated firms.",
-            "Tasks take experienced bankers 15-30 hours and test tool navigation and financial modeling.",
-            "Current top frontier models, including Claude Opus and Fable, pass fewer than 11% of tasks."
+            "SeasonRainBench is the first global benchmark for monthly precipitation forecasts 1-5 months ahead.",
+            "It includes 310,944 simulated months from 52 climate models and pairs satellite data with predictors.",
+            "The proposed model improves ACC, CRPS, anomaly strength, and rain-belt position over traditional methods."
           ]
         },
         "fr": {
-          "title": "ATLAS-Finance : Évaluation des agents d'IA en banque",
-          "summary": "Présentation d'ATLAS-Finance, un benchmark de 100 tâches bancaires d'investissement sur 13 entreprises simulées pour évaluer les agents d'IA de pointe dans des environnements réalistes.",
+          "title": "SeasonRainBench : Référence mondiale pour les précipitations saisonnières",
+          "summary": "SeasonRainBench est le premier benchmark mondial pour les prévisions de précipitations mensuelles à 1-5 mois, comprenant 310 944 mois simulés de 52 modèles climatiques. Les auteurs présentent un modèle qui surpasse les approches opérationnelles.",
           "keyPoints": [
-            "Comporte 100 tâches de banque d'investissement à travers 13 entreprises simulées.",
-            "Les tâches prennent 15 à 30 heures aux banquiers et testent la modélisation financière.",
-            "Les meilleurs modèles actuels, comme Claude Opus et Fable, réussissent moins de 11 % des tâches."
+            "SeasonRainBench est le premier benchmark mondial pour les prévisions de précipitations à 1-5 mois.",
+            "Il intègre 310 944 mois simulés issus de 52 modèles climatiques.",
+            "Le modèle proposé améliore l'ACC, le CRPS, la force des anomalies et la position de la ceinture de pluie."
           ]
         }
       },
@@ -158,36 +119,36 @@
       }
     },
     {
-      "id": "feed-58da586369f339",
-      "title": "Research Acceleration: The Jagged Frontier",
-      "summary": "OpenAI evaluates how coding agents accelerate AI research, where their performance remains uneven, and what these patterns indicate regarding recursive self-improvement.",
+      "id": "feed-d47c74f9a7ce43",
+      "title": "Walter Isaacson on Curiosity and Creativity in the AI Age",
+      "summary": "Walter Isaacson joins Google to discuss how history's greatest innovators inspire creativity and human judgment in the age of artificial intelligence.",
       "keyPoints": [
-        "Measures how coding agents accelerate AI research workflows.",
-        "Highlights the uneven nature of current agent performance.",
-        "Explores implications for recursive self-improvement."
+        "Walter Isaacson joined Google for a discussion episode.",
+        "The conversation focuses on history's greatest innovators.",
+        "Topics include human judgment and creativity in the AI age."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "publishedAt": "2026-11-18T08:00:00.000Z",
-      "imageUrl": "",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-1440x810.jpg",
       "translations": {
         "en": {
-          "title": "Research Acceleration: The Jagged Frontier",
-          "summary": "OpenAI evaluates how coding agents accelerate AI research, where their performance remains uneven, and what these patterns indicate regarding recursive self-improvement.",
+          "title": "Walter Isaacson on Curiosity and Creativity in the AI Age",
+          "summary": "Walter Isaacson joins Google to discuss how history's greatest innovators inspire creativity and human judgment in the age of artificial intelligence.",
           "keyPoints": [
-            "Measures how coding agents accelerate AI research workflows.",
-            "Highlights the uneven nature of current agent performance.",
-            "Explores implications for recursive self-improvement."
+            "Walter Isaacson joined Google for a discussion episode.",
+            "The conversation focuses on history's greatest innovators.",
+            "Topics include human judgment and creativity in the AI age."
           ]
         },
         "fr": {
-          "title": "Accélération de la recherche : La frontière inégale",
-          "summary": "OpenAI mesure comment les agents de codage accélèrent la recherche en IA, évalue l'inégalité de leurs performances et analyse les implications pour l'auto-amélioration récursive.",
+          "title": "Walter Isaacson sur la curiosité et la créativité à l'ère de l'IA",
+          "summary": "Walter Isaacson rejoint Google pour discuter de la manière dont les plus grands innovateurs de l'histoire inspirent la créativité et le jugement humain à l'ère de l'IA.",
           "keyPoints": [
-            "Mesure l'accélération de la recherche en IA par les agents de code.",
-            "Met en lumière les performances inégales des agents actuels.",
-            "Explore les signaux envoyés concernant l'auto-amélioration récursive."
+            "Walter Isaacson a rejoint Google pour un épisode de discussion.",
+            "L'entretien s'intéresse aux plus grands innovateurs de l'histoire.",
+            "Il explore le jugement humain et la créativité à l'ère de l'intelligence artificielle."
           ]
         }
       },
@@ -197,36 +158,36 @@
       }
     },
     {
-      "id": "feed-cba14c782f2c25",
-      "title": "EvoDisco: Strategy Discovery for Evolving Agent Memory",
-      "summary": "EvoDisco formulates agent memory evolution as evolutionary strategy discovery, allowing LLM agents to select and instantiate semantic operators through a learnable policy.",
+      "id": "feed-1297c3f1e2cebd",
+      "title": "Physics-Constrained Rectified Flow for Climate Downscaling",
+      "summary": "Physics-Constrained Rectified Flow (PC-RF) is introduced as a conditional flow-matching downscaler targeting wind divergence, negative precipitation, and mass drift. Experiments show specific error metrics reaching zero with projections, while perceptual scores remain comparable to unconstrained baselines.",
       "keyPoints": [
-        "Replaces static operator schedules with evolutionary strategy discovery.",
-        "Uses a learnable policy to select from four semantic operators.",
-        "Improves performance across ALFWorld, WebShop, and LifelongAgentBench."
+        "PC-RF is a conditional flow-matching downscaler with physics constraints.",
+        "Projections can drive non-negativity violation and mass-conservation errors to zero.",
+        "Perceptual scores show no clear advantage over unconstrained baselines at a matched budget."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22102",
+      "sourceUrl": "https://arxiv.org/abs/2611.22283",
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "EvoDisco: Strategy Discovery for Evolving Agent Memory",
-          "summary": "EvoDisco formulates agent memory evolution as evolutionary strategy discovery, allowing LLM agents to select and instantiate semantic operators through a learnable policy.",
+          "title": "Physics-Constrained Rectified Flow for Climate Downscaling",
+          "summary": "Physics-Constrained Rectified Flow (PC-RF) is introduced as a conditional flow-matching downscaler targeting wind divergence, negative precipitation, and mass drift. Experiments show specific error metrics reaching zero with projections, while perceptual scores remain comparable to unconstrained baselines.",
           "keyPoints": [
-            "Replaces static operator schedules with evolutionary strategy discovery.",
-            "Uses a learnable policy to select from four semantic operators.",
-            "Improves performance across ALFWorld, WebShop, and LifelongAgentBench."
+            "PC-RF is a conditional flow-matching downscaler with physics constraints.",
+            "Projections can drive non-negativity violation and mass-conservation errors to zero.",
+            "Perceptual scores show no clear advantage over unconstrained baselines at a matched budget."
           ]
         },
         "fr": {
-          "title": "EvoDisco : Stratégie pour la mémoire évolutive des agents",
-          "summary": "EvoDisco formule l'évolution de la mémoire des agents comme une découverte de stratégie évolutive, permettant aux agents LLM d'instancier des opérateurs sémantiques.",
+          "title": "Flux rectifié contraint par la physique pour la descente d'échelle climatique",
+          "summary": "Le flux rectifié contraint par la physique (PC-RF) est présenté comme un générateur de descente d'échelle ciblant la divergence du vent, les précipitations négatives et la dérive de masse. Les expériences montrent l'annulation de certaines erreurs.",
           "keyPoints": [
-            "Remplace les planifications statiques par une découverte de stratégie évolutive.",
-            "Utilise une politique apprenante pour sélectionner parmi quatre opérateurs sémantiques.",
-            "Améliore les performances sur ALFWorld, WebShop et LifelongAgentBench."
+            "Le PC-RF est un modèle de descente d'échelle à flux conditionnel contraint par la physique.",
+            "Les projections permettent d'annuler les erreurs de non-négativité et de conservation de la masse.",
+            "Les scores perceptuels restent comparables aux modèles de base non contraints."
           ]
         }
       },
@@ -236,36 +197,387 @@
       }
     },
     {
-      "id": "feed-53d809d7420a39",
-      "title": "Sumitomo Life Adopts ChatGPT Enterprise",
-      "summary": "Sumitomo Life successfully utilizes ChatGPT Enterprise for researching insurers, preparing proposals, and writing investment analysis code, driven by early executive leadership.",
+      "id": "feed-76d037565d7e4c",
+      "title": "Learning Regions of Attraction for Transverse Feedback Linearization",
+      "summary": "This work explores learning constrained regions of attraction for transverse feedback linearization under controller singularities using fitted value iteration. Tested on unicycles and a planar quadrotor, the approach covers significantly larger portions of the simulated region of attraction than baseline methods.",
       "keyPoints": [
-        "Sumitomo Life uses ChatGPT Enterprise for insurer research and proposal preparation.",
-        "Employees draft code for investment analysis using the platform.",
-        "Early adoption by company executives helped drive broader organizational usage."
+        "Addresses regions of attraction for transverse feedback linearization under controller singularities.",
+        "Decomposes the Zubov value function into a quadratic cost-to-go and a learned safety value function.",
+        "Outperforms baseline quadratic costs and PINN solvers on unicycle and quadrotor simulations."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22286",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Learning Regions of Attraction for Transverse Feedback Linearization",
+          "summary": "This work explores learning constrained regions of attraction for transverse feedback linearization under controller singularities using fitted value iteration. Tested on unicycles and a planar quadrotor, the approach covers significantly larger portions of the simulated region of attraction than baseline methods.",
+          "keyPoints": [
+            "Addresses regions of attraction for transverse feedback linearization under controller singularities.",
+            "Decomposes the Zubov value function into a quadratic cost-to-go and a learned safety value function.",
+            "Outperforms baseline quadratic costs and PINN solvers on unicycle and quadrotor simulations."
+          ]
+        },
+        "fr": {
+          "title": "Apprentissage des régions d'attraction pour la linéarisation par retour transversal",
+          "summary": "Ce travail explore l'apprentissage de régions d'attraction contraintes pour la linéarisation par retour transversal en présence de singularités de contrôle. L'approche surpasse les méthodes de référence sur des simulations de monocycles et de quadrotors.",
+          "keyPoints": [
+            "Étudie les régions d'attraction en présence de singularités de contrôle.",
+            "Décompose la fonction de valeur de Zubov en un coût quadratique et une fonction de valeur de sécurité apprise.",
+            "Couvre de plus grandes portions de la région d'attraction que les solveurs PINN."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-f3f5e8f906dec8",
+      "title": "ConfGuard: Physics-Grounded Monitor for LLM Maintenance Agents",
+      "summary": "ConfGuard is a reference monitor designed for predictive-maintenance LLM agents. It uses conformal monitoring and degradation physics to defend against prompt injections and sensor perturbations, successfully reducing attacker reach in tests.",
+      "keyPoints": [
+        "ConfGuard acts as a physics-grounded reference monitor for predictive-maintenance LLM agents.",
+        "It tests predictions against asset degradation physics using conformal monitoring.",
+        "Experiments show it cuts a covert attacker's reach while maintaining low escalation rates on clean data."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22288",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "ConfGuard: Physics-Grounded Monitor for LLM Maintenance Agents",
+          "summary": "ConfGuard is a reference monitor designed for predictive-maintenance LLM agents. It uses conformal monitoring and degradation physics to defend against prompt injections and sensor perturbations, successfully reducing attacker reach in tests.",
+          "keyPoints": [
+            "ConfGuard acts as a physics-grounded reference monitor for predictive-maintenance LLM agents.",
+            "It tests predictions against asset degradation physics using conformal monitoring.",
+            "Experiments show it cuts a covert attacker's reach while maintaining low escalation rates on clean data."
+          ]
+        },
+        "fr": {
+          "title": "ConfGuard : Moniteur fondé sur la physique pour agents de maintenance",
+          "summary": "ConfGuard est un moniteur de référence conçu pour les agents LLM de maintenance prédictive. Il utilise la surveillance conforme et la physique de la dégradation pour contrer les injections et les perturbations de capteurs.",
+          "keyPoints": [
+            "ConfGuard est un moniteur de référence fondé sur la physique pour les agents LLM.",
+            "Il teste les prédictions par rapport à la physique de dégradation des actifs.",
+            "Les tests montrent une réduction significative de l'impact des attaques furtives."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-963208f2928587",
+      "title": "SpecSearch: Hardware-Aware Efficient Speculative Decoding",
+      "summary": "SpecSearch is a hardware-aware search engine that optimizes speculative decoding configurations across workloads and GPU types using an analytical cost model and a Jev-based predictor, improving inference throughput without requiring deployment-GPU calibration.",
+      "keyPoints": [
+        "SpecSearch optimizes speculative decoding strategy, draft length, and precision across GPUs.",
+        "It uses an analytical cost model and a Jev-based predictor for configuration selection.",
+        "It eliminates the need for held-out GPU calibration while retaining high throughput gains."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22296",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "SpecSearch: Hardware-Aware Efficient Speculative Decoding",
+          "summary": "SpecSearch is a hardware-aware search engine that optimizes speculative decoding configurations across workloads and GPU types using an analytical cost model and a Jev-based predictor, improving inference throughput without requiring deployment-GPU calibration.",
+          "keyPoints": [
+            "SpecSearch optimizes speculative decoding strategy, draft length, and precision across GPUs.",
+            "It uses an analytical cost model and a Jev-based predictor for configuration selection.",
+            "It eliminates the need for held-out GPU calibration while retaining high throughput gains."
+          ]
+        },
+        "fr": {
+          "title": "SpecSearch : Décodage spéculatif efficace et conscient du matériel",
+          "summary": "SpecSearch est un moteur de recherche conscient du matériel qui optimise les configurations de décodage spéculatif à l'aide d'un modèle de coût analytique et d'un prédicteur basé sur Jev, améliorant le débit d'inférence.",
+          "keyPoints": [
+            "SpecSearch optimise la stratégie de décodage, la longueur du brouillon et la précision.",
+            "Il intègre un modèle de coût analytique pour capturer les contraintes de mémoire et de calcul.",
+            "Il élimine le besoin de calibration sur le GPU de déploiement tout en maintenant un débit élevé."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b455dd6256c2c0",
+      "title": "Streaming On-Policy Distillation: Decoupling Three Clocks",
+      "summary": "Streaming on-policy distillation decouples response completion, supervision delivery, and parameter updates to manage supervision budgets and staleness during training. Experiments on GSM8K show reductions in early performance gaps.",
+      "keyPoints": [
+        "Streaming OPD decouples response generation, supervision delivery, and parameter updates.",
+        "A consumption protocol controls supervision quantity, coverage, and version lag across training.",
+        "GSM8K experiments distilling Qwen3-4B into Qwen3-0.6B demonstrate improved early accuracy consistency."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22298",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Streaming On-Policy Distillation: Decoupling Three Clocks",
+          "summary": "Streaming on-policy distillation decouples response completion, supervision delivery, and parameter updates to manage supervision budgets and staleness during training. Experiments on GSM8K show reductions in early performance gaps.",
+          "keyPoints": [
+            "Streaming OPD decouples response generation, supervision delivery, and parameter updates.",
+            "A consumption protocol controls supervision quantity, coverage, and version lag across training.",
+            "GSM8K experiments distilling Qwen3-4B into Qwen3-0.6B demonstrate improved early accuracy consistency."
+          ]
+        },
+        "fr": {
+          "title": "Distillation en politique en flux continu : Dissociation de trois horloges",
+          "summary": "La distillation en politique en flux continu dissocie l'achèvement des réponses, la livraison de la supervision et la mise à jour des paramètres pour gérer les budgets d'apprentissage. Des expériences sur GSM8K montrent une réduction des écarts initiaux.",
+          "keyPoints": [
+            "La méthode dissocie la génération, la livraison de la supervision et les mises à jour.",
+            "Un protocole de consommation gère les budgets et le décalage de version.",
+            "Des tests sur GSM8K illustrent une réduction de l'écart de performance initial."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1ab67f281b20c1",
+      "title": "Harnesses That Improve Themselves: A Framework for Agent Harnesses",
+      "summary": "This paper presents a unifying framework for self-improving agent harnesses, pairing four editable runtime components with a four-stage loop that diagnoses failures, proposes patches, and validates updates. Experiments on SWE-bench Lite demonstrate superior performance over prompt reflection.",
+      "keyPoints": [
+        "Proposes a unifying framework for self-improving agent runtime harnesses.",
+        "Features four editable components and a loop for diagnosing failures and proposing patches.",
+        "Evaluated on SWE-bench Lite, showing gains over prompt reflection at lower token costs."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22299",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Harnesses That Improve Themselves: A Framework for Agent Harnesses",
+          "summary": "This paper presents a unifying framework for self-improving agent harnesses, pairing four editable runtime components with a four-stage loop that diagnoses failures, proposes patches, and validates updates. Experiments on SWE-bench Lite demonstrate superior performance over prompt reflection.",
+          "keyPoints": [
+            "Proposes a unifying framework for self-improving agent runtime harnesses.",
+            "Features four editable components and a loop for diagnosing failures and proposing patches.",
+            "Evaluated on SWE-bench Lite, showing gains over prompt reflection at lower token costs."
+          ]
+        },
+        "fr": {
+          "title": "Harnais s'améliorant eux-mêmes : Un cadre pour les agents autonomes",
+          "summary": "Cet article présente un cadre unifié pour les harnais d'agents s'améliorant eux-mêmes, combinant quatre composants d'exécution modifiables avec une boucle en quatre étapes pour diagnostiquer les pannes et valider des correctifs.",
+          "keyPoints": [
+            "Propose un cadre architectural pour les harnais d'agents s'améliorant d'eux-mêmes.",
+            "Associe quatre composants d'exécution modifiables à une boucle de correction et de validation.",
+            "Validé sur SWE-bench Lite, surpassant la réflexion par invite à coût réduit."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-03fb7e648f048b",
+      "title": "MCTS Is Counting the Wrong Thing for LLM Reasoning",
+      "summary": "Monte Carlo tree search often yields modest gains in LLM reasoning due to an overlooked bottleneck: standard UCT assigns independent visit counts to textual branches, causing count fragmentation. The authors introduce Learned Pseudo-Count MCTS (LPC-MCTS), using a Coin-Flipping Network head to estimate representation coverage and share evidence across related branches. Experiments on mathematical-reasoning and search benchmarks show that LPC-MCTS consistently outperforms standard MCTS baselines.",
+      "keyPoints": [
+        "Standard UCT count fragmentation impairs exploration efficiency in LLM reasoning.",
+        "LPC-MCTS introduces a Coin-Flipping Network head to share exploration evidence across related branches.",
+        "Applying LPC-MCTS improves accuracy across mathematical benchmarks on Qwen models."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22301",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MCTS Is Counting the Wrong Thing for LLM Reasoning",
+          "summary": "Monte Carlo tree search often yields modest gains in LLM reasoning due to an overlooked bottleneck: standard UCT assigns independent visit counts to textual branches, causing count fragmentation. The authors introduce Learned Pseudo-Count MCTS (LPC-MCTS), using a Coin-Flipping Network head to estimate representation coverage and share evidence across related branches. Experiments on mathematical-reasoning and search benchmarks show that LPC-MCTS consistently outperforms standard MCTS baselines.",
+          "keyPoints": [
+            "Standard UCT count fragmentation impairs exploration efficiency in LLM reasoning.",
+            "LPC-MCTS introduces a Coin-Flipping Network head to share exploration evidence across related branches.",
+            "Applying LPC-MCTS improves accuracy across mathematical benchmarks on Qwen models."
+          ]
+        },
+        "fr": {
+          "title": "MCTS compte la mauvaise chose pour le raisonnement des LLM",
+          "summary": "La recherche arborescente de Monte-Carlo offre des gains modestes pour le raisonnement des LLM en raison d'un goulet d'étranglement : l'UCT standard attribue des comptes de visite indépendants aux branches textuelles. Les auteurs présentent le LPC-MCTS, qui utilise un réseau de pile ou face pour estimer la couverture des représentations et partager des preuves. Les expériences montrent que cela améliore l'efficacité de l'exploration.",
+          "keyPoints": [
+            "La fragmentation des comptes UCT nuit à l'efficacité de l'exploration dans le raisonnement des LLM.",
+            "Le LPC-MCTS utilise un réseau de pile ou face pour partager les preuves d'exploration entre branches.",
+            "L'application du LPC-MCTS améliore la précision sur plusieurs benchmarks mathématiques."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-dbf4187972c9ed",
+      "title": "Learning to Edit IFC Building Models with Verifiable Checkers",
+      "summary": "Editing building information models in the IFC schema requires propagating changes while preserving unrelated entities. The authors present IfcGym, a CodeAct environment with verifiable checkers, and IfcEdit, which uses supervised fine-tuning and GRPO to train models. On IfcEditBench, the final student model achieves 86.78% strict success, outperforming previous prompted models.",
+      "keyPoints": [
+        "IfcGym provides an environment with four checkers to verify IFC model validity and intent.",
+        "IfcEdit combines supervised fine-tuning and GRPO using strict success as a reward.",
+        "The resulting student model achieves high strict success rates across complex testing tasks."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22307",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Learning to Edit IFC Building Models with Verifiable Checkers",
+          "summary": "Editing building information models in the IFC schema requires propagating changes while preserving unrelated entities. The authors present IfcGym, a CodeAct environment with verifiable checkers, and IfcEdit, which uses supervised fine-tuning and GRPO to train models. On IfcEditBench, the final student model achieves 86.78% strict success, outperforming previous prompted models.",
+          "keyPoints": [
+            "IfcGym provides an environment with four checkers to verify IFC model validity and intent.",
+            "IfcEdit combines supervised fine-tuning and GRPO using strict success as a reward.",
+            "The resulting student model achieves high strict success rates across complex testing tasks."
+          ]
+        },
+        "fr": {
+          "title": "Apprentissage de l'édition de modèles de bâtiments IFC avec des vérificateurs",
+          "summary": "L'édition de modèles d'information du bâtiment au format IFC nécessite de propager les modifications tout en préservant les entités indépendantes. Les auteurs présentent IfcGym, un environnement doté de vérificateurs, et IfcEdit, qui utilise un apprentissage supervisé et le GRPO. Sur IfcEditBench, le modèle étudiant atteint un taux de réussite strict élevé.",
+          "keyPoints": [
+            "IfcGym fournit un environnement avec quatre vérificateurs pour valider l'intention et la structure IFC.",
+            "IfcEdit combine un réglage fin supervisé et le GRPO en utilisant le succès strict comme récompense.",
+            "Le modèle étudiant dépasse les performances des modèles incités précédents sur les tâches d'édition."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-cb527e2b278302",
+      "title": "Efficient Wide-Beam Generative Retrieval with Trie-Head",
+      "summary": "Generative retrieval predicts catalog entries as semantic identifiers using trie-constrained beam search, but wide beams introduce high serving costs. The authors present Trie-Head, a model-native output interface storing the identifier trie as GPU tensors to reduce CPU-GPU coordination. Combined with shared-context attention in SGLang, the system significantly improves closed-loop throughput compared to baseline approaches.",
+      "keyPoints": [
+        "Trie-Head stores identifier tries as GPU tensors to avoid Python callback overhead.",
+        "Shared-context attention reuses prompt key/value blocks across beams.",
+        "The combined system improves closed-loop throughput significantly over baselines."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22309",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Efficient Wide-Beam Generative Retrieval with Trie-Head",
+          "summary": "Generative retrieval predicts catalog entries as semantic identifiers using trie-constrained beam search, but wide beams introduce high serving costs. The authors present Trie-Head, a model-native output interface storing the identifier trie as GPU tensors to reduce CPU-GPU coordination. Combined with shared-context attention in SGLang, the system significantly improves closed-loop throughput compared to baseline approaches.",
+          "keyPoints": [
+            "Trie-Head stores identifier tries as GPU tensors to avoid Python callback overhead.",
+            "Shared-context attention reuses prompt key/value blocks across beams.",
+            "The combined system improves closed-loop throughput significantly over baselines."
+          ]
+        },
+        "fr": {
+          "title": "Récupération générative à faisceau large efficace avec Trie-Head",
+          "summary": "La récupération générative prédit des entrées de catalogue sous forme d'identifiants sémantiques, mais les faisceaux larges entraînent des coûts élevés. Les auteurs présentent Trie-Head, une interface de sortie native stockant le trie sous forme de tenseurs GPU pour réduire la coordination CPU-GPU. Combiné avec l'attention à contexte partagé dans SGLang, le système améliore nettement le débit.",
+          "keyPoints": [
+            "Trie-Head stocke le trie d'identifiants en tant que tenseurs GPU pour éviter les surcoûts.",
+            "L'attention à contexte partagé réutilise les blocs de clés et valeurs de l'invite.",
+            "Le système combiné améliore considérablement le débit en boucle fermée par rapport aux bases."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-397b2a917fce78",
+      "title": "EviDARL: Evidence-Centric Dual-Agent Reasoning for Multi-Table QA",
+      "summary": "Multi-table question answering requires multi-hop reasoning over complex table relationships and dispersed evidence. The authors introduce EviDA, a dual-agent framework comprising an Evidence Construction Agent and a Reasoning and Answering Agent. They also introduce EviDARL, combining fine-grained rewards with alternating reinforcement learning to improve collaboration and performance on multi-table benchmarks.",
+      "keyPoints": [
+        "EviDA features an Evidence Construction Agent and a Reasoning and Answering Agent.",
+        "EviDARL uses alternating reinforcement learning to optimize each agent in turn.",
+        "Experiments on MMQA and TQA-Bench demonstrate substantial performance improvements."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22310",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "EviDARL: Evidence-Centric Dual-Agent Reasoning for Multi-Table QA",
+          "summary": "Multi-table question answering requires multi-hop reasoning over complex table relationships and dispersed evidence. The authors introduce EviDA, a dual-agent framework comprising an Evidence Construction Agent and a Reasoning and Answering Agent. They also introduce EviDARL, combining fine-grained rewards with alternating reinforcement learning to improve collaboration and performance on multi-table benchmarks.",
+          "keyPoints": [
+            "EviDA features an Evidence Construction Agent and a Reasoning and Answering Agent.",
+            "EviDARL uses alternating reinforcement learning to optimize each agent in turn.",
+            "Experiments on MMQA and TQA-Bench demonstrate substantial performance improvements."
+          ]
+        },
+        "fr": {
+          "title": "EviDARL : Raisonnement à double agent centré sur les preuves pour le QA multi-table",
+          "summary": "La réponse aux questions multi-tables nécessite un raisonnement à plusieurs sauts sur des relations complexes. Les auteurs présentent EviDA, un cadre à double agent comprenant un agent de construction de preuves et un agent de raisonnement. Ils introduisent EviDARL, combinant des récompenses fines et un apprentissage par renforcement alterné pour améliorer la collaboration.",
+          "keyPoints": [
+            "EviDA comprend un agent de construction de preuves et un agent de raisonnement et de réponse.",
+            "EviDARL utilise un apprentissage par renforcement alterné pour optimiser chaque agent tour à tour.",
+            "Les expériences sur MMQA et TQA-Bench démontrent des améliorations de performance substantielles."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-133805c90694cb",
+      "title": "Multistage Contextual Optimization for Vehicle Repositioning",
+      "summary": "Ride-hailing platforms reposition idle vehicles to balance spatial supply and demand through prediction-driven multistage models. The authors formulate a multistage linear program using a macroscopic fundamental diagram and develop a contextual optimization approach that trains the prediction model using decision performance. A parallel block evaluation algorithm recovers serial trajectories efficiently, yielding higher business benefits than baseline predictors on New York City data.",
+      "keyPoints": [
+        "The approach formulates a multistage linear program with a macroscopic fundamental diagram.",
+        "A parallel block evaluation algorithm speeds up training and limits gradient error.",
+        "Evaluations on New York City ride-hailing data yield superior business benefits over baseline methods."
       ],
       "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/business/customer-stories/sumitomo-life",
-      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22330",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Sumitomo Life Adopts ChatGPT Enterprise",
-          "summary": "Sumitomo Life successfully utilizes ChatGPT Enterprise for researching insurers, preparing proposals, and writing investment analysis code, driven by early executive leadership.",
+          "title": "Multistage Contextual Optimization for Vehicle Repositioning",
+          "summary": "Ride-hailing platforms reposition idle vehicles to balance spatial supply and demand through prediction-driven multistage models. The authors formulate a multistage linear program using a macroscopic fundamental diagram and develop a contextual optimization approach that trains the prediction model using decision performance. A parallel block evaluation algorithm recovers serial trajectories efficiently, yielding higher business benefits than baseline predictors on New York City data.",
           "keyPoints": [
-            "Sumitomo Life uses ChatGPT Enterprise for insurer research and proposal preparation.",
-            "Employees draft code for investment analysis using the platform.",
-            "Early adoption by company executives helped drive broader organizational usage."
+            "The approach formulates a multistage linear program with a macroscopic fundamental diagram.",
+            "A parallel block evaluation algorithm speeds up training and limits gradient error.",
+            "Evaluations on New York City ride-hailing data yield superior business benefits over baseline methods."
           ]
         },
         "fr": {
-          "title": "Sumitomo Life adopte ChatGPT Enterprise",
-          "summary": "Sumitomo Life utilise ChatGPT Enterprise pour analyser des assureurs, préparer des propositions et rédiger du code, aidé par une forte adoption initiale des dirigeants.",
+          "title": "Optimisation contextuelle multietape pour le repositionnement de véhicules",
+          "summary": "Les plateformes de transport avec chauffeur repositionnent les véhicules inactifs pour équilibrer l'offre et la demande. Les auteurs formulent un programme linéaire multietape et développent une approche d'optimisation contextuelle qui entraîne le modèle de prédiction. Un algorithme d'évaluation par blocs parallèles permet de récupérer les trajectoires efficacement et surpasse les bases sur des données de New York.",
           "keyPoints": [
-            "Utilisation de ChatGPT Enterprise pour la recherche d'assureurs et les propositions.",
-            "Rédaction de code pour l'analyse des investissements par les équipes.",
-            "L'adoption précoce par les cadres dirigeants a stimulé l'utilisation générale."
+            "L'approche formule un programme linéaire multietape avec un diagramme fondamental macroscopique.",
+            "Un algorithme d'évaluation par blocs parallèles accélère l'entraînement et limite l'erreur de gradient.",
+            "Les évaluations sur les données de New York montrent de meilleurs bénéfices commerciaux que les bases."
           ]
         }
       },
@@ -275,36 +587,153 @@
       }
     },
     {
-      "id": "feed-d72e5cb87b5d54",
-      "title": "Refining LLM Math Proofs via Angelic Execution",
-      "summary": "MathEye is a framework that turns imperfect LLM math proofs into verified Lean proofs by combining optimistic angelic execution with minimal human interaction.",
+      "id": "feed-d94aa30cfbc5aa",
+      "title": "Reliable Evaluation of AI Agents for Investment Research",
+      "summary": "Evaluating AI agents for investment research is challenging because output quality does not always reflect execution quality. The authors propose a domain-oriented evaluation framework distinguishing outcome quality from execution quality using task-specific criteria, deterministic validators, and independent language model judges. Numerical results show the framework can distinguish performance differences and identify evaluation reliability issues.",
       "keyPoints": [
-        "Uses angelic proof checking to replace failing proof fragments with placeholders.",
-        "Performs residual analysis and MaxSAT optimization to find essential obligations.",
-        "Solves 93.3% of problems while cutting user interactions by 55% on benchmarks."
+        "The framework distinguishes outcome quality from execution quality for investment research agents.",
+        "It incorporates task-specific criteria, deterministic validators, and independent LLM judges.",
+        "Results demonstrate the framework's capability to assess performance and spot reliability issues."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22338",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Reliable Evaluation of AI Agents for Investment Research",
+          "summary": "Evaluating AI agents for investment research is challenging because output quality does not always reflect execution quality. The authors propose a domain-oriented evaluation framework distinguishing outcome quality from execution quality using task-specific criteria, deterministic validators, and independent language model judges. Numerical results show the framework can distinguish performance differences and identify evaluation reliability issues.",
+          "keyPoints": [
+            "The framework distinguishes outcome quality from execution quality for investment research agents.",
+            "It incorporates task-specific criteria, deterministic validators, and independent LLM judges.",
+            "Results demonstrate the framework's capability to assess performance and spot reliability issues."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation fiable d'agents IA pour la recherche en investissement",
+          "summary": "L'évaluation d'agents IA pour la recherche en investissement est complexe car la qualité de la sortie ne reflète pas toujours l'exécution. Les auteurs proposent un cadre d'évaluation orienté domaine qui distingue la qualité des résultats de celle de l'exécution grâce à des critères spécifiques et des validateurs. Les résultats numériques montrent que le cadre identifie les différences de performance.",
+          "keyPoints": [
+            "Le cadre distingue la qualité des résultats de celle de l'exécution pour les agents financiers.",
+            "Il intègre des critères spécifiques aux tâches, des validateurs déterministes et des juges LLM.",
+            "Les résultats démontrent la capacité à évaluer la performance et à repérer les problèmes de fiabilité."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2881cbbb894ca0",
+      "title": "HealthCLBench: Evaluating Context Learning in Health Conversations",
+      "summary": "Complex health conversations require responses grounded in individual patient information and valid evidence. The authors introduce HealthCLBench, comprising 328 controlled clusters, 1,103 cases, and 4,931 rubric criteria to evaluate context learning in medical dialogues. Evaluations across multiple general-purpose models show that full-context scores significantly outperform those relying on the current question alone.",
+      "keyPoints": [
+        "HealthCLBench evaluates context learning across medical consultations and health management cases.",
+        "The benchmark features hundreds of controlled clusters and thousands of annotated rubric criteria.",
+        "Tests across various models indicate that full-context inputs yield much higher scores than queries alone."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22362",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "HealthCLBench: Evaluating Context Learning in Health Conversations",
+          "summary": "Complex health conversations require responses grounded in individual patient information and valid evidence. The authors introduce HealthCLBench, comprising 328 controlled clusters, 1,103 cases, and 4,931 rubric criteria to evaluate context learning in medical dialogues. Evaluations across multiple general-purpose models show that full-context scores significantly outperform those relying on the current question alone.",
+          "keyPoints": [
+            "HealthCLBench evaluates context learning across medical consultations and health management cases.",
+            "The benchmark features hundreds of controlled clusters and thousands of annotated rubric criteria.",
+            "Tests across various models indicate that full-context inputs yield much higher scores than queries alone."
+          ]
+        },
+        "fr": {
+          "title": "HealthCLBench : Évaluation de l'apprentissage contextuel dans les conversations de santé",
+          "summary": "Les conversations de santé complexes nécessitent des réponses fondées sur des informations individuelles. Les auteurs présentent HealthCLBench, comprenant 328 grappes contrôlées, 1 103 cas et 4 931 critères pour évaluer l'apprentissage contextuel dans les dialogues médicaux. Les évaluations montrent que l'utilisation du contexte complet surpasse nettement les requêtes isolées.",
+          "keyPoints": [
+            "HealthCLBench évalue l'apprentissage contextuel dans les consultations médicales et la gestion de la santé.",
+            "Le benchmark comprend des centaines de grappes contrôlées et des milliers de critères annotés.",
+            "Les tests sur divers modèles indiquent que le contexte complet améliore fortement les scores."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0ab709692aac8d",
+      "title": "How Waiting Control Changes Cooperative Recovery in Robotics",
+      "summary": "Changing the holding reference during a fixed-duration wait can reverse the ranking of visual recovery methods in robotic tasks. The authors introduce AuditEmbodied, a paired execution and trajectory evaluation framework to study holding reference sensitivity. Experiments demonstrate that holding reference acts as an explicit evaluation condition that substantially impacts visual recovery performance.",
+      "keyPoints": [
+        "AuditEmbodied evaluates how holding references and waiting durations affect visual recovery methods.",
+        "Trajectory analysis localizes performance separation primarily to grasp formation.",
+        "Gradual position reanchoring improves completion rates and reduces recovery times."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.22368",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "How Waiting Control Changes Cooperative Recovery in Robotics",
+          "summary": "Changing the holding reference during a fixed-duration wait can reverse the ranking of visual recovery methods in robotic tasks. The authors introduce AuditEmbodied, a paired execution and trajectory evaluation framework to study holding reference sensitivity. Experiments demonstrate that holding reference acts as an explicit evaluation condition that substantially impacts visual recovery performance.",
+          "keyPoints": [
+            "AuditEmbodied evaluates how holding references and waiting durations affect visual recovery methods.",
+            "Trajectory analysis localizes performance separation primarily to grasp formation.",
+            "Gradual position reanchoring improves completion rates and reduces recovery times."
+          ]
+        },
+        "fr": {
+          "title": "Comment le contrôle de l'attente modifie la reprise coopérative en robotique",
+          "summary": "Modifier la référence de maintien lors d'une attente peut inverser le classement des méthodes de récupération visuelle. Les auteurs introduisent AuditEmbodied, un cadre d'évaluation pour étudier la sensibilité des références de maintien. Les expériences démontrent que la référence de maintien est une condition d'évaluation explicite qui impacte la performance.",
+          "keyPoints": [
+            "AuditEmbodied évalue l'effet des références de maintien et de la durée d'attente sur la récupération.",
+            "L'analyse des trajectoires localise la séparation des performances principalement lors de la saisie.",
+            "Le réancrage progressif de la position améliore les taux de réussite et réduit les temps de récupération."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d8cec651c7d366",
+      "title": "AutoE2E: Language Free End-to-End Autonomy for ADAS and Robotaxis",
+      "summary": "AutoE2E is an open-source end-to-end driving model developed by the Autoware Foundation Robotaxi Working Group. It features a temporal bird's-eye-view architecture combining multi-camera perception, HD-map information, and route conditioning to predict future vehicle motion. The v1.0 release provides checkpoints, code, and an inspection dashboard, achieving an average displacement error of 0.745 m on the KITScenes benchmark.",
+      "keyPoints": [
+        "AutoE2E combines multi-camera perception, HD maps, and temporal feature fusion in an open-source model.",
+        "The v1.0 release includes model checkpoints, training code, and an inspection dashboard.",
+        "The model achieves competitive displacement errors on the KITScenes validation benchmark."
       ],
       "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22103",
+      "sourceUrl": "https://arxiv.org/abs/2611.22374",
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Refining LLM Math Proofs via Angelic Execution",
-          "summary": "MathEye is a framework that turns imperfect LLM math proofs into verified Lean proofs by combining optimistic angelic execution with minimal human interaction.",
+          "title": "AutoE2E: Language Free End-to-End Autonomy for ADAS and Robotaxis",
+          "summary": "AutoE2E is an open-source end-to-end driving model developed by the Autoware Foundation Robotaxi Working Group. It features a temporal bird's-eye-view architecture combining multi-camera perception, HD-map information, and route conditioning to predict future vehicle motion. The v1.0 release provides checkpoints, code, and an inspection dashboard, achieving an average displacement error of 0.745 m on the KITScenes benchmark.",
           "keyPoints": [
-            "Uses angelic proof checking to replace failing proof fragments with placeholders.",
-            "Performs residual analysis and MaxSAT optimization to find essential obligations.",
-            "Solves 93.3% of problems while cutting user interactions by 55% on benchmarks."
+            "AutoE2E combines multi-camera perception, HD maps, and temporal feature fusion in an open-source model.",
+            "The v1.0 release includes model checkpoints, training code, and an inspection dashboard.",
+            "The model achieves competitive displacement errors on the KITScenes validation benchmark."
           ]
         },
         "fr": {
-          "title": "Raffinement des preuves mathématiques par exécution angélique",
-          "summary": "MathEye est un cadre convertissant des scripts de preuve LLM imparfaits en preuves Lean vérifiées en combinant l'exécution angélique et une interaction humaine minimale.",
+          "title": "AutoE2E : Autonomie de bout en bout sans langage pour l'ADAS et les Robotaxis",
+          "summary": "AutoE2E est un modèle de conduite de bout en bout open source développé par l'Autoware Foundation Robotaxi Working Group. Il intègre une architecture temporelle vue du ciel combinant perception multi-caméras et cartes HD. La version v1.0 fournit des points de contrôle, du code et un tableau de bord d'inspection, atteignant une erreur de déplacement satisfaisante sur KITScenes.",
           "keyPoints": [
-            "Remplace les fragments défectueux par des espaces réservés via une vérification optimiste.",
-            "Effectue une analyse résiduelle et une optimisation MaxSAT pour cibler les obligations.",
-            "Résout 93,3 % des problèmes tout en réduisant les interactions de 55 %."
+            "AutoE2E combine perception multi-caméras, cartes HD et fusion de caractéristiques temporelles.",
+            "La version v1.0 comprend des points de contrôle, du code d'entraînement et un tableau de bord.",
+            "Le modèle atteint des erreurs de déplacement compétitives sur le benchmark de validation KITScenes."
           ]
         }
       },
@@ -314,465 +743,36 @@
       }
     },
     {
-      "id": "feed-67952d9a918d25",
-      "title": "Inside the Codex Sandbox",
-      "summary": "An overview of how Codex securely executes commands on user machines while strictly enforcing controlled filesystem and network limits across multiple operating systems.",
+      "id": "feed-72df8dea957dac",
+      "title": "Symbolic Abstraction Refinement for Probabilistic Timed Automata",
+      "summary": "Verifying probabilistic timed automata involves computing maximum or minimum reachability probabilities across symbolic states. Traditional verification splits regions repeatedly, causing a cascade of graph reconstructions. The authors present SYMAR, which makes the value function symbolic to avoid splitting previously generated states, using heuristic forward search and partial-refinement backups to keep sub-region counts lean.",
       "keyPoints": [
-        "Explains command execution mechanics inside the Codex sandbox.",
-        "Enforces user-controlled filesystem and network limits.",
-        "Supports macOS, Linux, and Windows operating systems."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/inside-the-codex-sandbox",
-      "publishedAt": "2026-11-18T08:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Inside the Codex Sandbox",
-          "summary": "An overview of how Codex securely executes commands on user machines while strictly enforcing controlled filesystem and network limits across multiple operating systems.",
-          "keyPoints": [
-            "Explains command execution mechanics inside the Codex sandbox.",
-            "Enforces user-controlled filesystem and network limits.",
-            "Supports macOS, Linux, and Windows operating systems."
-          ]
-        },
-        "fr": {
-          "title": "À l'intérieur du bac à sable Codex",
-          "summary": "Un aperçu de la façon dont Codex exécute des commandes sur les machines tout en appliquant des limites contrôlées de système de fichiers et de réseau sous divers OS.",
-          "keyPoints": [
-            "Explique l'exécution de commandes dans le bac à sable Codex.",
-            "Applique des restrictions de réseau et de fichiers configurées par l'utilisateur.",
-            "Prend en charge les systèmes d'exploitation macOS, Linux et Windows."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d9a02fc24c78c3",
-      "title": "RAG in a Trenchcoat: Minimal Memory in Agentic Systems",
-      "summary": "Researchers test complex agentic memory primitives against a minimal RAG memory called BRIDGE, showing that memory performance depends heavily on operational task execution rather than recall benchmarks.",
-      "keyPoints": [
-        "Introduces BRIDGE, a minimal RAG memory using hybrid retrieval and chronological rendering.",
-        "Performs competitively or beats complex memory baselines on standard benchmarks.",
-        "Uses five adversarial probes to demonstrate that memory value depends on what it enables."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22179",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "RAG in a Trenchcoat: Minimal Memory in Agentic Systems",
-          "summary": "Researchers test complex agentic memory primitives against a minimal RAG memory called BRIDGE, showing that memory performance depends heavily on operational task execution rather than recall benchmarks.",
-          "keyPoints": [
-            "Introduces BRIDGE, a minimal RAG memory using hybrid retrieval and chronological rendering.",
-            "Performs competitively or beats complex memory baselines on standard benchmarks.",
-            "Uses five adversarial probes to demonstrate that memory value depends on what it enables."
-          ]
-        },
-        "fr": {
-          "title": "RAG en imperméable : Mémoire minimale dans les systèmes d'agents",
-          "summary": "Des chercheurs comparent des primitives de mémoire d'agents complexes à une mémoire RAG minimale nommée BRIDGE, montrant que l'utilité de la mémoire dépend de l'exécution des tâches.",
-          "keyPoints": [
-            "Présente BRIDGE, une mémoire RAG minimale avec recherche hybride.",
-            "Atteint la parité ou surpasse les bases de référence complexes sur les benchmarks.",
-            "Utilise cinq sondes contradictoires pour évaluer ce que la mémoire permet d'accomplir."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-99be0c0a7e0743",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "summary": "OpenAI details its approach to managing frontier AI risk across the entire lifecycle, utilizing model alignment, sandboxing, blocking safeguards, and continuous monitoring.",
-      "keyPoints": [
-        "Covers risk management from training to deployment.",
-        "Utilizes model alignment and sandboxing techniques.",
-        "Implements blocking safeguards and active monitoring."
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/managing-frontier-ai-risk",
-      "publishedAt": "2026-11-18T06:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Managing frontier AI risk: From training to deployment",
-          "summary": "OpenAI details its approach to managing frontier AI risk across the entire lifecycle, utilizing model alignment, sandboxing, blocking safeguards, and continuous monitoring.",
-          "keyPoints": [
-            "Covers risk management from training to deployment.",
-            "Utilizes model alignment and sandboxing techniques.",
-            "Implements blocking safeguards and active monitoring."
-          ]
-        },
-        "fr": {
-          "title": "Gestion des risques liés à l'IA de pointe",
-          "summary": "OpenAI détaille sa méthode de gestion des risques liés à l'IA de pointe, de l'entraînement au déploiement, grâce à l'alignement des modèles et à la surveillance.",
-          "keyPoints": [
-            "Couvre la gestion des risques de l'entraînement au déploiement.",
-            "Utilise l'alignement des modèles et le sandboxing.",
-            "Met en œuvre des garde-fous de blocage et une surveillance active."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9b2edc7c7cf7aa",
-      "title": "Fine-Grained Japanese Clinical NER with LLMs and BERT",
-      "summary": "A study compares BERT-CRF baselines with nine open-weight LLMs on fine-grained Japanese clinical named entity recognition using the iCorpus benchmark, finding that task-specific fine-tuning and adequate output-token limits significantly improve LLM performance.",
-      "keyPoints": [
-        "Compares BERT baselines with nine open-weight LLMs on iCorpus.",
-        "Fine-tuned LLMs with sufficient parameters exceeded BERT baselines at larger output limits.",
-        "Output-token limits materially affected the performance comparison."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22219",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Fine-Grained Japanese Clinical NER with LLMs and BERT",
-          "summary": "A study compares BERT-CRF baselines with nine open-weight LLMs on fine-grained Japanese clinical named entity recognition using the iCorpus benchmark, finding that task-specific fine-tuning and adequate output-token limits significantly improve LLM performance.",
-          "keyPoints": [
-            "Compares BERT baselines with nine open-weight LLMs on iCorpus.",
-            "Fine-tuned LLMs with sufficient parameters exceeded BERT baselines at larger output limits.",
-            "Output-token limits materially affected the performance comparison."
-          ]
-        },
-        "fr": {
-          "title": "Reconnaissance d'entités cliniques japonaises avec les LLM",
-          "summary": "Une étude compare des modèles de base BERT à neuf LLM à poids ouverts pour la reconnaissance d'entités cliniques japonaises, montrant que l'affinage et des limites de jetons adéquates améliorent les performances.",
-          "keyPoints": [
-            "Compare des bases BERT à neuf LLM à poids ouverts sur iCorpus.",
-            "Les LLM affinés surpassent BERT avec des limites de sortie accrues.",
-            "Les limites de jetons de sortie modifient significativement les comparaisons."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-a1de396d3910fa",
-      "title": "Le Groupe Figaro and OpenAI partner for ChatGPT journalism",
-      "summary": "Le Groupe Figaro and OpenAI announce a partnership to integrate Le Groupe Figaro's journalism into ChatGPT through summaries, excerpts, and links to original stories.",
-      "keyPoints": [
-        "Partnership brings Le Groupe Figaro journalism to ChatGPT.",
-        "Features summaries and excerpts of original articles.",
-        "Includes direct links to the original stories."
-      ],
-      "category": "Business",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Le Groupe Figaro and OpenAI partner for ChatGPT journalism",
-          "summary": "Le Groupe Figaro and OpenAI announce a partnership to integrate Le Groupe Figaro's journalism into ChatGPT through summaries, excerpts, and links to original stories.",
-          "keyPoints": [
-            "Partnership brings Le Groupe Figaro journalism to ChatGPT.",
-            "Features summaries and excerpts of original articles.",
-            "Includes direct links to the original stories."
-          ]
-        },
-        "fr": {
-          "title": "Partenariat entre Le Groupe Figaro et OpenAI pour ChatGPT",
-          "summary": "Le Groupe Figaro et OpenAI s'associent pour intégrer le journalisme du Figaro dans ChatGPT via des résumés, des extraits et des liens vers les articles originaux.",
-          "keyPoints": [
-            "Partenariat intégrant le journalisme du Figaro dans ChatGPT.",
-            "Intègre des résumés et des extraits d'articles.",
-            "Comporte des liens directs vers les sources originales."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-927c575c6c0393",
-      "title": "The Fragility of Reasoning-Importance Attribution for Pruning",
-      "summary": "Research across four small reasoning models reveals that attribution-guided pruning is fragile, with token scoring saturation, non-localizable causal importance, and unseparable reasoning-specific importance.",
-      "keyPoints": [
-        "Shows that attribution-guided pruning for reasoning models is fragile.",
-        "Final-answer token scoring suffers from saturation issues.",
-        "Causal importance is difficult to localize to single neurons."
+        "SYMAR makes the value function symbolic to prevent splitting previously generated states.",
+        "It avoids reconstructing incoming transitions across the stochastic game state graph.",
+        "Heuristic forward search and partial-refinement backups help confine computational effort."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22234",
+      "sourceUrl": "https://arxiv.org/abs/2611.22404",
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "The Fragility of Reasoning-Importance Attribution for Pruning",
-          "summary": "Research across four small reasoning models reveals that attribution-guided pruning is fragile, with token scoring saturation, non-localizable causal importance, and unseparable reasoning-specific importance.",
+          "title": "Symbolic Abstraction Refinement for Probabilistic Timed Automata",
+          "summary": "Verifying probabilistic timed automata involves computing maximum or minimum reachability probabilities across symbolic states. Traditional verification splits regions repeatedly, causing a cascade of graph reconstructions. The authors present SYMAR, which makes the value function symbolic to avoid splitting previously generated states, using heuristic forward search and partial-refinement backups to keep sub-region counts lean.",
           "keyPoints": [
-            "Shows that attribution-guided pruning for reasoning models is fragile.",
-            "Final-answer token scoring suffers from saturation issues.",
-            "Causal importance is difficult to localize to single neurons."
+            "SYMAR makes the value function symbolic to prevent splitting previously generated states.",
+            "It avoids reconstructing incoming transitions across the stochastic game state graph.",
+            "Heuristic forward search and partial-refinement backups help confine computational effort."
           ]
         },
         "fr": {
-          "title": "Fragilité de l'attribution de l'importance pour l'élagage",
-          "summary": "Des recherches sur quatre petits modèles de raisonnement révèlent la fragilité de l'élagage guidé par l'attribution, en raison de la saturation des scores et d'une importance causale non localisable.",
+          "title": "Raffinement d'abstraction symbolique pour les automates temporisés probabilistes",
+          "summary": "La vérification d'automates temporisés probabilistes implique le calcul de probabilités d'atteignabilité. La vérification traditionnelle divise les régions de manière répétée, provoquant des reconstructions de graphes. Les auteurs présentent SYMAR, qui rend la fonction de valeur symbolique pour éviter de diviser les états générés précédemment à l'aide d'une recherche heuristique.",
           "keyPoints": [
-            "Démontre la fragilité de l'élagage guidé par l'attribution.",
-            "Le score des jetons de réponse finale souffre de saturation.",
-            "L'importance causale ne se localise pas facilement à un seul neurone."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-68ddb817fe4001",
-      "title": "Advancing chip design with OpenAI models",
-      "summary": "OpenAI highlights advancements in AI-assisted chip design, using models to optimize circuits in Jalapeño silicon and improve RISC-V core designs with GPT-6 Astra.",
-      "keyPoints": [
-        "OpenAI models optimized circuits used in Jalapeño silicon.",
-        "Improved RISC-V core designs demonstrated.",
-        "Showcases progress in AI-assisted chip design with GPT-6 Astra."
-      ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Advancing chip design with OpenAI models",
-          "summary": "OpenAI highlights advancements in AI-assisted chip design, using models to optimize circuits in Jalapeño silicon and improve RISC-V core designs with GPT-6 Astra.",
-          "keyPoints": [
-            "OpenAI models optimized circuits used in Jalapeño silicon.",
-            "Improved RISC-V core designs demonstrated.",
-            "Showcases progress in AI-assisted chip design with GPT-6 Astra."
-          ]
-        },
-        "fr": {
-          "title": "Amélioration de la conception de puces avec les modèles OpenAI",
-          "summary": "OpenAI met en avant des progrès dans la conception de puces assistée par IA, optimisant des circuits en silicium Jalapeño et des cœurs RISC-V grâce au modèle GPT-6 Astra.",
-          "keyPoints": [
-            "Optimisation de circuits pour le silicium Jalapeño.",
-            "Amélioration des conceptions de cœurs RISC-V.",
-            "Progression de la conception de puces avec GPT-6 Astra."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-346a26a6f87437",
-      "title": "The Cost of Context for LLM Coding Agents under Prefix Caching",
-      "summary": "A study of over 20,000 runs on SWE-bench evaluates how adding or removing context for LLM coding agents affects costs under prefix caching, showing shorter prompts do not guarantee savings.",
-      "keyPoints": [
-        "Evaluates context management across more than 20,000 runs on SWE-bench.",
-        "Retrieved code increases overall costs despite reducing search commands.",
-        "Shorter prompts do not guarantee cheaper execution due to agent behavior."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22238",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "The Cost of Context for LLM Coding Agents under Prefix Caching",
-          "summary": "A study of over 20,000 runs on SWE-bench evaluates how adding or removing context for LLM coding agents affects costs under prefix caching, showing shorter prompts do not guarantee savings.",
-          "keyPoints": [
-            "Evaluates context management across more than 20,000 runs on SWE-bench.",
-            "Retrieved code increases overall costs despite reducing search commands.",
-            "Shorter prompts do not guarantee cheaper execution due to agent behavior."
-          ]
-        },
-        "fr": {
-          "title": "Le coût du contexte pour les agents de codage LLM",
-          "summary": "Une étude portant sur plus de 20 000 exécutions évalue l'impact de l'ajout ou de la suppression de contexte pour les agents de codage sous cache de préfixe, montrant que les prompts courts ne garantissent pas des économies.",
-          "keyPoints": [
-            "Analyse le contexte sur plus de 20 000 exécutions sur SWE-bench.",
-            "Le code récupéré augmente les coûts malgré une baisse des recherches.",
-            "Des prompts plus courts ne garantissent pas des économies de coûts."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-61ed7582d0a562",
-      "title": "Multi-Agent Memory Inconsistency in LLM Systems",
-      "summary": "Investigating multi-agent memory inconsistency in Harvey LAB document-review tasks, researchers find that while delegation increases evidence retrieval, conflict detection rates drop.",
-      "keyPoints": [
-        "Introduces a benchmark for multi-agent memory inconsistency.",
-        "Delegation increases retrieval of conflicting claims but lowers detection.",
-        "Worker-to-lead handoffs are a key target for improving conflict detection."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22245",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Multi-Agent Memory Inconsistency in LLM Systems",
-          "summary": "Investigating multi-agent memory inconsistency in Harvey LAB document-review tasks, researchers find that while delegation increases evidence retrieval, conflict detection rates drop.",
-          "keyPoints": [
-            "Introduces a benchmark for multi-agent memory inconsistency.",
-            "Delegation increases retrieval of conflicting claims but lowers detection.",
-            "Worker-to-lead handoffs are a key target for improving conflict detection."
-          ]
-        },
-        "fr": {
-          "title": "Incohérence de mémoire multi-agent dans les systèmes LLM",
-          "summary": "Étudiant l'incohérence de mémoire multi-agent dans des tâches de révision, les chercheurs constatent que la délégation accroît la récupération de preuves tout en réduisant la détection des conflits.",
-          "keyPoints": [
-            "Introduit un benchmark sur l'incohérence de mémoire multi-agent.",
-            "La délégation augmente la récupération mais diminue la détection.",
-            "Les transferts entre travailleurs et responsable sont cruciaux."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-0b00acc2ef479f",
-      "title": "Multimodal LLM System for Scanned Paper Assessments",
-      "summary": "A modular multimodal LLM-based system with human-in-the-loop validation extracts data from scanned cognitive and behavioral assessments, reducing processing time and costs significantly.",
-      "keyPoints": [
-        "Processes scanned paper forms like MMSE, MoCA, and Vanderbilt.",
-        "Utilizes a dual-model validation with human oversight for disagreements.",
-        "Reduces processing time by 10-20 times and costs by over 12 times."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22252",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Multimodal LLM System for Scanned Paper Assessments",
-          "summary": "A modular multimodal LLM-based system with human-in-the-loop validation extracts data from scanned cognitive and behavioral assessments, reducing processing time and costs significantly.",
-          "keyPoints": [
-            "Processes scanned paper forms like MMSE, MoCA, and Vanderbilt.",
-            "Utilizes a dual-model validation with human oversight for disagreements.",
-            "Reduces processing time by 10-20 times and costs by over 12 times."
-          ]
-        },
-        "fr": {
-          "title": "Système LLM multimodal pour évaluations papier numérisées",
-          "summary": "Un système modulaire basé sur des LLM multimodaux extrait les données d'évaluations cognitives numérisées grâce à une validation humaine, réduisant considérablement le temps et les coûts.",
-          "keyPoints": [
-            "Traite des formulaires papier numérisés (MMSE, MoCA, Vanderbilt).",
-            "Utilise une validation à double modèle avec supervision humaine.",
-            "Réduit le temps de traitement de 10 à 20 fois et les coûts de 12 fois."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-946b2c15310c76",
-      "title": "Fidelity Regret: Measuring Simulator Misspecification",
-      "summary": "Researchers introduce fidelity regret to measure simulator misspecification in verifiable design, showing that workflows optimized through a simulator can satisfy verifiers yet perform poorly physically.",
-      "keyPoints": [
-        "Measures fidelity regret across genetic-circuit design subspaces.",
-        "Topological verification can still yield positive physical performance regret.",
-        "Workflows optimized via simulators may fail on physical objectives."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22263",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Fidelity Regret: Measuring Simulator Misspecification",
-          "summary": "Researchers introduce fidelity regret to measure simulator misspecification in verifiable design, showing that workflows optimized through a simulator can satisfy verifiers yet perform poorly physically.",
-          "keyPoints": [
-            "Measures fidelity regret across genetic-circuit design subspaces.",
-            "Topological verification can still yield positive physical performance regret.",
-            "Workflows optimized via simulators may fail on physical objectives."
-          ]
-        },
-        "fr": {
-          "title": "Regret de fidélité : mesurer la misspécification de simulateur",
-          "summary": "Les chercheurs introduisent le regret de fidélité pour mesurer la misspécification dans la conception vérifiable, montrant qu'un système optimisé par simulateur peut échouer sur des objectifs physiques.",
-          "keyPoints": [
-            "Mesure le regret de fidélité dans des espaces de circuits génétiques.",
-            "La vérification topologique peut laisser un regret de performance positif.",
-            "Les flux optimisés par simulateur peuvent décevoir physiquement."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-24414a09953ba6",
-      "title": "DACE: Diversity-Driven Adversarial Co-Evolution for LLM Safety",
-      "summary": "DACE is a diversity-driven adversarial co-evolution framework that tackles attack strategy collapse and defense forgetting through strategy space coverage and Bayesian adversarial replay pools.",
-      "keyPoints": [
-        "Introduces the DACE framework for robust LLM safety alignment.",
-        "Uses normalized marginal coverage gain to prevent attack strategy collapse.",
-        "Maintains a Bayesian adversarial replay pool to prevent defense forgetting."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.22278",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "DACE: Diversity-Driven Adversarial Co-Evolution for LLM Safety",
-          "summary": "DACE is a diversity-driven adversarial co-evolution framework that tackles attack strategy collapse and defense forgetting through strategy space coverage and Bayesian adversarial replay pools.",
-          "keyPoints": [
-            "Introduces the DACE framework for robust LLM safety alignment.",
-            "Uses normalized marginal coverage gain to prevent attack strategy collapse.",
-            "Maintains a Bayesian adversarial replay pool to prevent defense forgetting."
-          ]
-        },
-        "fr": {
-          "title": "DACE : Co-évolution antagoniste pour la sécurité des LLM",
-          "summary": "DACE est un cadre de co-évolution antagoniste axé sur la diversité qui lutte contre l'effondrement des stratégies d'attaque et l'oubli de la défense grâce à une piscine de relecture bayésienne.",
-          "keyPoints": [
-            "Présente le cadre DACE pour l'alignement robuste de la sécurité des LLM.",
-            "Évite l'effondrement des attaques via un gain de couverture marginale.",
-            "Maintient un pool de relecture bayésien pour éviter l'oubli défensif."
+            "SYMAR rend la fonction de valeur symbolique pour éviter la division des états passés.",
+            "Il évite de reconstruire les transitions entrantes dans le graphe d'état du jeu stochastique.",
+            "Une recherche heuristique vers l'avant et des sauvegardes de raffinement limitent l'effort de calcul."
           ]
         }
       },
@@ -784,7 +784,7 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 447,
+    "itemsCollected": 444,
     "itemsPublished": 20,
     "newItems": 20,
     "candidates": 20,
