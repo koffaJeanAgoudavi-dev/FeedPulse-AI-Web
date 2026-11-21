@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-11-20T20:23:29.058Z",
+  "generatedAt": "2026-11-21T07:11:51.050Z",
   "items": [
+    {
+      "id": "feed-8145fefb47ff1c",
+      "title": "Hebbia Sees Improvements in Financial Research with GPT-6 Astra",
+      "summary": "Hebbia tested GPT-6 Astra for financial research, with prerelease evaluations showing gains in source coverage, citation relevance, and presentation quality.",
+      "keyPoints": [
+        "Hebbia tested GPT-6 Astra for financial research",
+        "Prerelease evaluations showed gains in source coverage",
+        "Improvements were also seen in citation relevance and presentation quality"
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/hebbia",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/70gWqYyqb096it9EoD7OqI/5df8cad1c7fdf2a4e942c3183a10f405/hebbia-smoked-depth-social.png?w=1600&amp;h=900&amp;fit=fill",
+      "translations": {
+        "en": {
+          "title": "Hebbia Sees Improvements in Financial Research with GPT-6 Astra",
+          "summary": "Hebbia tested GPT-6 Astra for financial research, with prerelease evaluations showing gains in source coverage, citation relevance, and presentation quality.",
+          "keyPoints": [
+            "Hebbia tested GPT-6 Astra for financial research",
+            "Prerelease evaluations showed gains in source coverage",
+            "Improvements were also seen in citation relevance and presentation quality"
+          ]
+        },
+        "fr": {
+          "title": "Hebbia constate des améliorations en recherche financière avec GPT-6 Astra",
+          "summary": "Hebbia a testé GPT-6 Astra pour la recherche financière. Ses évaluations pré-commercialisation ont révélé des gains en matière de couverture des sources, de pertinence des citations et de qualité de présentation.",
+          "keyPoints": [
+            "Hebbia a testé GPT-6 Astra pour la recherche financière",
+            "Les évaluations pré-commercialisation ont montré des gains de couverture des sources",
+            "Des améliorations ont été constatées dans la pertinence des citations et la qualité de présentation"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-7ad44f990f0c53",
       "title": "Combatting adversarial distillation",
@@ -741,54 +780,15 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-7515b378357476",
-      "title": "Evaluating Invariance Training with Certified Answer-Changing Controls",
-      "summary": "Invariance training aims to make neural algorithmic reasoners robust to answer-preserving input changes. The authors evaluate whether this training causes a loss of sensitivity to answer-changing edits on minimum spanning trees of synthetic graphs. Using certified bridge attachments and weight edits as controls, they find that certain invariance objectives lower response to answer-changing controls, indicating trade-offs that standard accuracy metrics may miss.",
-      "keyPoints": [
-        "The study investigates whether invariance training reduces sensitivity to answer-changing edits in neural graph algorithms.",
-        "Certified bridge attachments and weight edits are introduced as controls for evaluation.",
-        "Results show that invariance objectives can lower response to answer-changing controls while maintaining base accuracy."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23907",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evaluating Invariance Training with Certified Answer-Changing Controls",
-          "summary": "Invariance training aims to make neural algorithmic reasoners robust to answer-preserving input changes. The authors evaluate whether this training causes a loss of sensitivity to answer-changing edits on minimum spanning trees of synthetic graphs. Using certified bridge attachments and weight edits as controls, they find that certain invariance objectives lower response to answer-changing controls, indicating trade-offs that standard accuracy metrics may miss.",
-          "keyPoints": [
-            "The study investigates whether invariance training reduces sensitivity to answer-changing edits in neural graph algorithms.",
-            "Certified bridge attachments and weight edits are introduced as controls for evaluation.",
-            "Results show that invariance objectives can lower response to answer-changing controls while maintaining base accuracy."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation de l'entraînement à l'invariance avec des contrôles de changement de réponse certifiés",
-          "summary": "L'entraînement à l'invariance vise à rendre les raisonneurs algorithmiques neuronaux robustes aux modifications d'entrée préservant les réponses. Les auteurs évaluent si cet entraînement entraîne une perte de sensibilité aux modifications modifiant les réponses sur des graphes synthétiques, montrant que certains objectifs d'invariance réduisent la réactivité aux contrôles.",
-          "keyPoints": [
-            "L'étude examine si l'entraînement à l'invariance réduit la sensibilité aux modifications de graphes.",
-            "Des fixations de ponts et des modifications de poids certifiées sont utilisées comme contrôles.",
-            "Les résultats montrent que l'invariance peut réduire la sensibilité aux contrôles malgré une précision stable."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 408,
+    "itemsCollected": 47,
     "itemsPublished": 20,
-    "newItems": 20,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 1,
+    "candidates": 1,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
