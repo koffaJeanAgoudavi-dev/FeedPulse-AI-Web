@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-11-22T06:51:41.380Z",
+  "generatedAt": "2026-11-22T19:42:33.305Z",
   "items": [
+    {
+      "id": "feed-1a10f1676d46fc",
+      "title": "Perplexity and Intelligence",
+      "summary": "An exploration of how perplexity measures progress in AI models and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "keyPoints": [
+        "Explores how perplexity measures progress in AI models.",
+        "Discusses its potential to help developers establish a shared evaluation approach.",
+        "Focuses on evaluating emerging AI capabilities."
+      ],
+      "category": "Modèles",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/perplexity-and-intelligence",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&amp;h=900&amp;fit=fill",
+      "translations": {
+        "en": {
+          "title": "Perplexity and Intelligence",
+          "summary": "An exploration of how perplexity measures progress in AI models and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+          "keyPoints": [
+            "Explores how perplexity measures progress in AI models.",
+            "Discusses its potential to help developers establish a shared evaluation approach.",
+            "Focuses on evaluating emerging AI capabilities."
+          ]
+        },
+        "fr": {
+          "title": "Perplexité et intelligence",
+          "summary": "Une exploration de la manière dont la perplexité mesure les progrès des modèles d'IA et de la façon dont elle pourrait aider les développeurs à établir une approche partagée pour évaluer les capacités émergentes.",
+          "keyPoints": [
+            "Explore comment la perplexité mesure les progrès des modèles d'IA.",
+            "Discute de son aide potentielle pour établir une approche d'évaluation partagée.",
+            "Se concentre sur l'évaluation des capacités émergentes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.9,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-8145fefb47ff1c",
       "title": "Hebbia Sees Improvements in Financial Research with GPT-6 Astra",
@@ -741,56 +780,17 @@
         "confidence": 0.95,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-5b50eb5a2bb27d",
-      "title": "EVA-RSI: Recursive Self-Improvement of Video Evaluators for Temporal Quality",
-      "summary": "Video evaluators often miss motion defects, limiting generated video quality. The authors introduce EVA-RSI, a multi-agent recursive self-improvement framework that constructs a fixed proxy exam using controlled edits like temporal reversal and frame dropping. Using an LLM agent per dimension coordinated by a leader and Nash bargaining, EVA-RSI improves motion evaluation, achieving top scores on public benchmark dynamics subsets.",
-      "keyPoints": [
-        "EVA-RSI uses controlled video edits like temporal reversal to provide supervision without human annotation.",
-        "A multi-agent framework coordinates improvements across dimensions using Nash bargaining rules.",
-        "The resulting evaluator achieves top scores on public benchmark dynamics subsets and increases generated motion."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23890",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "EVA-RSI: Recursive Self-Improvement of Video Evaluators for Temporal Quality",
-          "summary": "Video evaluators often miss motion defects, limiting generated video quality. The authors introduce EVA-RSI, a multi-agent recursive self-improvement framework that constructs a fixed proxy exam using controlled edits like temporal reversal and frame dropping. Using an LLM agent per dimension coordinated by a leader and Nash bargaining, EVA-RSI improves motion evaluation, achieving top scores on public benchmark dynamics subsets.",
-          "keyPoints": [
-            "EVA-RSI uses controlled video edits like temporal reversal to provide supervision without human annotation.",
-            "A multi-agent framework coordinates improvements across dimensions using Nash bargaining rules.",
-            "The resulting evaluator achieves top scores on public benchmark dynamics subsets and increases generated motion."
-          ]
-        },
-        "fr": {
-          "title": "EVA-RSI : Auto-amélioration récursive d'évaluateurs vidéo pour la qualité temporelle",
-          "summary": "Les évaluateurs vidéo manquent souvent de précision sur les défauts de mouvement. Les auteurs présentent EVA-RSI, un cadre d'auto-amélioration récursive multi-agent qui utilise des modifications contrôlées de vidéos comme l'inversion temporelle pour fournir une supervision. EVA-RSI améliore l'évaluation des mouvements et obtient les meilleurs scores sur les benchmarks.",
-          "keyPoints": [
-            "EVA-RSI utilise des modifications vidéo contrôlées pour assurer la supervision sans annotation humaine.",
-            "Un cadre multi-agent coordonne les améliorations à l'aide de règles de négociation de Nash.",
-            "L'évaluateur atteint les scores les plus élevés sur les sous-ensembles de benchmarks publics."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 47,
+    "itemsCollected": 48,
     "itemsPublished": 20,
-    "newItems": 0,
-    "candidates": 0,
-    "batches": 0,
+    "newItems": 1,
+    "candidates": 1,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
-    "status": "no-new-items"
+    "status": "updated"
   }
 }
