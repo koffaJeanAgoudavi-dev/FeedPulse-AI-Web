@@ -1,154 +1,37 @@
 {
-  "generatedAt": "2026-11-22T19:42:33.305Z",
+  "generatedAt": "2026-11-23T07:42:21.482Z",
   "items": [
     {
-      "id": "feed-1a10f1676d46fc",
-      "title": "Perplexity and Intelligence",
-      "summary": "An exploration of how perplexity measures progress in AI models and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "id": "feed-cd02a86f341630",
+      "title": "How AI Team Size and Formation Shape Brainstorming",
+      "summary": "Researchers studied human-AI brainstorming teams with 168 participants, crossing AI partnership sizes (one vs. two) with behavioral formations (average human behavior vs. customized). Two-AI rooms posted more ideas to the shared board, but human-authored ideas dropped substantially. With one AI partner, an average-calibrated AI led to the highest posting volume, an effect that vanished with two AIs.",
       "keyPoints": [
-        "Explores how perplexity measures progress in AI models.",
-        "Discusses its potential to help developers establish a shared evaluation approach.",
-        "Focuses on evaluating emerging AI capabilities."
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/perplexity-and-intelligence",
-      "publishedAt": "2026-11-22T00:00:00.000Z",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&amp;h=900&amp;fit=fill",
-      "translations": {
-        "en": {
-          "title": "Perplexity and Intelligence",
-          "summary": "An exploration of how perplexity measures progress in AI models and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-          "keyPoints": [
-            "Explores how perplexity measures progress in AI models.",
-            "Discusses its potential to help developers establish a shared evaluation approach.",
-            "Focuses on evaluating emerging AI capabilities."
-          ]
-        },
-        "fr": {
-          "title": "Perplexité et intelligence",
-          "summary": "Une exploration de la manière dont la perplexité mesure les progrès des modèles d'IA et de la façon dont elle pourrait aider les développeurs à établir une approche partagée pour évaluer les capacités émergentes.",
-          "keyPoints": [
-            "Explore comment la perplexité mesure les progrès des modèles d'IA.",
-            "Discute de son aide potentielle pour établir une approche d'évaluation partagée.",
-            "Se concentre sur l'évaluation des capacités émergentes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.9,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8145fefb47ff1c",
-      "title": "Hebbia Sees Improvements in Financial Research with GPT-6 Astra",
-      "summary": "Hebbia tested GPT-6 Astra for financial research, with prerelease evaluations showing gains in source coverage, citation relevance, and presentation quality.",
-      "keyPoints": [
-        "Hebbia tested GPT-6 Astra for financial research",
-        "Prerelease evaluations showed gains in source coverage",
-        "Improvements were also seen in citation relevance and presentation quality"
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/business/customer-stories/hebbia",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/70gWqYyqb096it9EoD7OqI/5df8cad1c7fdf2a4e942c3183a10f405/hebbia-smoked-depth-social.png?w=1600&amp;h=900&amp;fit=fill",
-      "translations": {
-        "en": {
-          "title": "Hebbia Sees Improvements in Financial Research with GPT-6 Astra",
-          "summary": "Hebbia tested GPT-6 Astra for financial research, with prerelease evaluations showing gains in source coverage, citation relevance, and presentation quality.",
-          "keyPoints": [
-            "Hebbia tested GPT-6 Astra for financial research",
-            "Prerelease evaluations showed gains in source coverage",
-            "Improvements were also seen in citation relevance and presentation quality"
-          ]
-        },
-        "fr": {
-          "title": "Hebbia constate des améliorations en recherche financière avec GPT-6 Astra",
-          "summary": "Hebbia a testé GPT-6 Astra pour la recherche financière. Ses évaluations pré-commercialisation ont révélé des gains en matière de couverture des sources, de pertinence des citations et de qualité de présentation.",
-          "keyPoints": [
-            "Hebbia a testé GPT-6 Astra pour la recherche financière",
-            "Les évaluations pré-commercialisation ont montré des gains de couverture des sources",
-            "Des améliorations ont été constatées dans la pertinence des citations et la qualité de présentation"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7ad44f990f0c53",
-      "title": "Combatting adversarial distillation",
-      "summary": "OpenAI presents a layered approach to counter adversarial distillation, integrating model training, safeguards, detection, and enforcement mechanisms to safeguard against capability extraction.",
-      "keyPoints": [
-        "Combines model training and safeguards",
-        "Uses detection and enforcement measures",
-        "Aims to protect against capability extraction"
-      ],
-      "category": "Modèles",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/combatting-adversarial-distillation",
-      "publishedAt": "2026-11-20T10:00:00.000Z",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&amp;h=900&amp;fit=fill",
-      "translations": {
-        "en": {
-          "title": "Combatting adversarial distillation",
-          "summary": "OpenAI presents a layered approach to counter adversarial distillation, integrating model training, safeguards, detection, and enforcement mechanisms to safeguard against capability extraction.",
-          "keyPoints": [
-            "Combines model training and safeguards",
-            "Uses detection and enforcement measures",
-            "Aims to protect against capability extraction"
-          ]
-        },
-        "fr": {
-          "title": "Lutte contre la distillation contradictoire",
-          "summary": "OpenAI présente une approche multicouche pour contrer la distillation contradictoire, intégrant l'entraînement des modèles, des protections, la détection et l'application pour prémunir contre l'extraction de capacités.",
-          "keyPoints": [
-            "Combine l'entraînement des modèles et des protections",
-            "Utilise des mesures de détection et d'application",
-            "Vise à protéger contre l'extraction de capacités"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-72221e3fbd71e4",
-      "title": "Receiver-Conditioned Clarification for Multi-Agent Food Assistance",
-      "summary": "A receiver-conditioned clarification framework is introduced for multi-agent food assistance to preserve shared premise identities and propagate consistent interpretations across dependent agents under shared budgets.",
-      "keyPoints": [
-        "Addresses uncertainty propagation in agent handoffs",
-        "Introduces receiver-conditioned clarification at inference time",
-        "Connects clarification to jointly supported resource and nutrition plans"
+        "Tested AI partnership size and formation in a brainstorming experiment with 168 participants.",
+        "Two-AI rooms increased total board posts but substantially reduced human-authored ideas.",
+        "Single-agent results did not generalize to multi-agent teams."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23572",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26663",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Receiver-Conditioned Clarification for Multi-Agent Food Assistance",
-          "summary": "A receiver-conditioned clarification framework is introduced for multi-agent food assistance to preserve shared premise identities and propagate consistent interpretations across dependent agents under shared budgets.",
+          "title": "How AI Team Size and Formation Shape Brainstorming",
+          "summary": "Researchers studied human-AI brainstorming teams with 168 participants, crossing AI partnership sizes (one vs. two) with behavioral formations (average human behavior vs. customized). Two-AI rooms posted more ideas to the shared board, but human-authored ideas dropped substantially. With one AI partner, an average-calibrated AI led to the highest posting volume, an effect that vanished with two AIs.",
           "keyPoints": [
-            "Addresses uncertainty propagation in agent handoffs",
-            "Introduces receiver-conditioned clarification at inference time",
-            "Connects clarification to jointly supported resource and nutrition plans"
+            "Tested AI partnership size and formation in a brainstorming experiment with 168 participants.",
+            "Two-AI rooms increased total board posts but substantially reduced human-authored ideas.",
+            "Single-agent results did not generalize to multi-agent teams."
           ]
         },
         "fr": {
-          "title": "Clarification conditionnée par le récepteur pour l'aide alimentaire multi-agent",
-          "summary": "Un cadre de clarification conditionné par le récepteur est introduit pour l'aide alimentaire multi-agent afin de préserver les identités de prémisses partagées et de propager des interprétations cohérentes.",
+          "title": "Impact de la taille et de la formation des équipes d'IA",
+          "summary": "Des chercheurs ont étudie des équipes de brainstorming humain-IA avec 168 participants, en croisant la taille du partenariat (un contre deux) et la formation comportementale. Les salles à deux IA ont publié plus d'idées, mais les contributions humaines ont chuté. Avec une seule IA, la formation calibrée sur la moyenne humaine a maximisé les publications.",
           "keyPoints": [
-            "Traite la propagation de l'incertitude lors des transferts d'agents",
-            "Introduit une clarification conditionnée par le récepteur à l'inférence",
-            "Relie la clarification à des plans conjoints de ressources et de nutrition"
+            "Expérience menée sur le brainstorming avec 168 participants et différentes configurations d'IA.",
+            "Les salles à deux IA augmentent les publications globales mais réduisent les idées humaines.",
+            "Les résultats obtenus avec un seul agent ne se généralisent pas aux équipes multi-agents."
           ]
         }
       },
@@ -158,75 +41,36 @@
       }
     },
     {
-      "id": "feed-c1a2af93db54bf",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "summary": "MedChemBench is introduced to evaluate how effectively AI models interpret molecular structures, reason from experimental evidence, and select compounds in early-stage drug discovery.",
+      "id": "feed-585cc50ff28683",
+      "title": "Synthesizing CTI Knowledge Graphs via Generation by Simulation",
+      "summary": "The authors study an alternative paradigm for synthesizing relational training data like knowledge graphs using language models: generation by simulation. Instead of describing an artifact directly, an agent proposes intent and a deterministic referee resolves outcomes against an explicit world model. They instantiate this for cyber threat intelligence knowledge graphs and prove referential closure, causal grounding, and identifier stability.",
       "keyPoints": [
-        "Evaluates AI interpretation of molecular structures",
-        "Tests reasoning from experimental evidence",
-        "Focuses on compound selection in early drug discovery"
+        "Introduces generation by simulation to make coherence a property of construction for knowledge graphs.",
+        "Instantiated for STIX 2.1 cyber threat intelligence knowledge graphs using three engines.",
+        "Proves mathematical guarantees including referential closure and causal grounding."
       ],
-      "category": "Outils",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-medchembench",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&amp;h=900&amp;fit=fill",
-      "translations": {
-        "en": {
-          "title": "Can AI help scientists identify promising drug candidates?",
-          "summary": "MedChemBench is introduced to evaluate how effectively AI models interpret molecular structures, reason from experimental evidence, and select compounds in early-stage drug discovery.",
-          "keyPoints": [
-            "Evaluates AI interpretation of molecular structures",
-            "Tests reasoning from experimental evidence",
-            "Focuses on compound selection in early drug discovery"
-          ]
-        },
-        "fr": {
-          "title": "L'IA peut-elle aider les scientifiques à identifier des candidats médicaments ?",
-          "summary": "MedChemBench est présenté pour évaluer l'efficacité des modèles d'IA dans l'interprétation des structures moléculaires, le raisonnement sur des preuves expérimentales et la sélection de composés.",
-          "keyPoints": [
-            "Évalue l'interprétation des structures moléculaires par l'IA",
-            "Teste le raisonnement à partir de preuves expérimentales",
-            "Se concentre sur la sélection de composés en phase précoce"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-2fb42fa5fa3e98",
-      "title": "ARISE: Practical Self-Evolving Memory for Enterprise Agents",
-      "summary": "ARISE is a practical memory architecture enabling enterprise LLM agents to evolve from past failures without modifying model weights, workflows, or tools by maintaining retrievable micro memories and macro rules.",
-      "keyPoints": [
-        "Proposes Agent Refinement through Iterative Self-Evaluation",
-        "Evolves memory from failures without updating model weights",
-        "Outperforms baseline models on enterprise workflow domains"
-      ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23588",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26717",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "ARISE: Practical Self-Evolving Memory for Enterprise Agents",
-          "summary": "ARISE is a practical memory architecture enabling enterprise LLM agents to evolve from past failures without modifying model weights, workflows, or tools by maintaining retrievable micro memories and macro rules.",
+          "title": "Synthesizing CTI Knowledge Graphs via Generation by Simulation",
+          "summary": "The authors study an alternative paradigm for synthesizing relational training data like knowledge graphs using language models: generation by simulation. Instead of describing an artifact directly, an agent proposes intent and a deterministic referee resolves outcomes against an explicit world model. They instantiate this for cyber threat intelligence knowledge graphs and prove referential closure, causal grounding, and identifier stability.",
           "keyPoints": [
-            "Proposes Agent Refinement through Iterative Self-Evaluation",
-            "Evolves memory from failures without updating model weights",
-            "Outperforms baseline models on enterprise workflow domains"
+            "Introduces generation by simulation to make coherence a property of construction for knowledge graphs.",
+            "Instantiated for STIX 2.1 cyber threat intelligence knowledge graphs using three engines.",
+            "Proves mathematical guarantees including referential closure and causal grounding."
           ]
         },
         "fr": {
-          "title": "ARISE : Mémoire auto-évolutive pratique pour les agents d'entreprise",
-          "summary": "ARISE est une architecture de mémoire pratique permettant aux agents LLM d'entreprise d'évoluer à partir d'échecs passés sans modifier les poids des modèles, les flux de travail ou les outils.",
+          "title": "Synthèse de graphes de connaissances CTI par simulation",
+          "summary": "Les auteurs étudient un paradigme alternatif pour synthétiser des données relationnelles par IA : la génération par simulation. Plutôt que de décrire directement un artefact, un agent propose une intention et un arbitre déterministe résout les résultats. Cette approche est appliquée aux graphes de connaissances en cybermenaces.",
           "keyPoints": [
-            "Propose le raffinement d'agent par auto-évaluation itérative",
-            "Fait évoluer la mémoire à partir des échecs sans changer les poids",
-            "Surpasse les modèles de base sur des domaines de flux d'entreprise"
+            "Introduit la génération par simulation pour garantir la cohérence par la construction.",
+            "Appliqué aux graphes de renseignement sur les cybermenaces au format STIX 2.1.",
+            "Démontre des garanties mathématiques incluant la fermeture référentielle et l'ancrage causal."
           ]
         }
       },
@@ -236,36 +80,75 @@
       }
     },
     {
-      "id": "feed-63f3fb83f78838",
-      "title": "RefinementGuard: Translation Validation for Hidden Agent-Tool Execution",
-      "summary": "RefinementGuard provides translation validation for hidden, effectful agent-tool lowerings, utilizing artifact-bound, fail-closed runtime admission based on explicit parent-operation obligations.",
+      "id": "feed-2ffd747d4cc718",
+      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset",
+      "summary": "To address the scarcity of realistic preference data for tool-calling agents, the authors introduce TOUMAII, a large-scale tool-calling preference dataset containing approximately 4.5 million validated preference pairs. They also release TOUMAII-Gen, a synthetic data generation pipeline that produces preference datasets with natural model-generated tool-calling failure modes.",
       "keyPoints": [
-        "Introduces validation for hidden parallel tool executions",
-        "Uses artifact-bound, fail-closed runtime admission",
-        "Evaluated on bug localization and patch validation contracts"
+        "Releases TOUMAII, featuring ~4.5M validated preference pairs for tool-calling.",
+        "Includes TOUMAII-Gen, a synthetic pipeline producing data with natural failure modes.",
+        "Demonstrates performance parity when fine-tuning a 3-billion-parameter model."
+      ],
+      "category": "Open Source",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.26722",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset",
+          "summary": "To address the scarcity of realistic preference data for tool-calling agents, the authors introduce TOUMAII, a large-scale tool-calling preference dataset containing approximately 4.5 million validated preference pairs. They also release TOUMAII-Gen, a synthetic data generation pipeline that produces preference datasets with natural model-generated tool-calling failure modes.",
+          "keyPoints": [
+            "Releases TOUMAII, featuring ~4.5M validated preference pairs for tool-calling.",
+            "Includes TOUMAII-Gen, a synthetic pipeline producing data with natural failure modes.",
+            "Demonstrates performance parity when fine-tuning a 3-billion-parameter model."
+          ]
+        },
+        "fr": {
+          "title": "TOUMAII : Un jeu de données de préférence d'appel d'outils",
+          "summary": "Pour pallier le manque de données de préférence pour les agents d'appel d'outils, les auteurs présentent TOUMAII, un jeu de données contenant environ 4,5 millions de paires validées. Ils publient également TOUMAII-Gen, un pipeline de génération synthétique intégrant des modes d'échec naturels.",
+          "keyPoints": [
+            "Publication de TOUMAII avec environ 4,5 millions de paires de préférences validées.",
+            "Intègre TOUMAII-Gen, un pipeline synthétique pour les modes d'échec d'appel d'outils.",
+            "Permet d'atteindre des performances équivalentes sur un modèle de 3 milliards de paramètres."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-461a81e08dcc75",
+      "title": "ChatAtom: Multi-Agent LLM System for Molecular Dynamics",
+      "summary": "ChatAtom is a multi-agent large language model system designed to translate natural-language requests into complete molecular dynamics (MD) simulation workflows without requiring manual script writing. It coordinates specialized agents for orchestration, script generation, high-performance computing dispatch, and analysis via an interactive browser interface.",
+      "keyPoints": [
+        "Translates natural language requests into complete molecular dynamics simulation workflows.",
+        "Employs specialized agents with generator-reviewer pairs for scripting and visualization.",
+        "Features a browser interface streaming thermodynamic data and rendered simulation frames."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23611",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26782",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "RefinementGuard: Translation Validation for Hidden Agent-Tool Execution",
-          "summary": "RefinementGuard provides translation validation for hidden, effectful agent-tool lowerings, utilizing artifact-bound, fail-closed runtime admission based on explicit parent-operation obligations.",
+          "title": "ChatAtom: Multi-Agent LLM System for Molecular Dynamics",
+          "summary": "ChatAtom is a multi-agent large language model system designed to translate natural-language requests into complete molecular dynamics (MD) simulation workflows without requiring manual script writing. It coordinates specialized agents for orchestration, script generation, high-performance computing dispatch, and analysis via an interactive browser interface.",
           "keyPoints": [
-            "Introduces validation for hidden parallel tool executions",
-            "Uses artifact-bound, fail-closed runtime admission",
-            "Evaluated on bug localization and patch validation contracts"
+            "Translates natural language requests into complete molecular dynamics simulation workflows.",
+            "Employs specialized agents with generator-reviewer pairs for scripting and visualization.",
+            "Features a browser interface streaming thermodynamic data and rendered simulation frames."
           ]
         },
         "fr": {
-          "title": "RefinementGuard : Validation de traduction pour l'exécution cachée d'agents",
-          "summary": "RefinementGuard fournit une validation de traduction pour les abaissements d'outils cachés et effectifs, en utilisant une admission à l'exécution fermée en cas d'échec.",
+          "title": "ChatAtom : Système multi-agent LLM pour la dynamique moléculaire",
+          "summary": "ChatAtom est un système LLM multi-agent qui traduit des requêtes en langage naturel en flux de simulation de dynamique moléculaire complets, sans écriture manuelle de scripts. Il coordonne des agents spécialisés pour l'orchestration, la génération de scripts et l'analyse via une interface de navigateur.",
           "keyPoints": [
-            "Introduit la validation pour les exécutions d'outils parallèles cachés",
-            "Utilise une admission à l'exécution liée aux artéfacts",
-            "Évalué sur des contrats de localisation de bugs et de validation"
+            "Traduit le langage naturel en flux complets de simulation de dynamique moléculaire.",
+            "Utilise des agents spécialisés avec des paires générateur-réviseur pour les scripts.",
+            "Intègre une interface de navigateur affichant les données thermodynamiques en temps réel."
           ]
         }
       },
@@ -275,36 +158,36 @@
       }
     },
     {
-      "id": "feed-c049de1db537d6",
-      "title": "Searching the Pareto Front: Multi-Objective Retrieval for Modalities",
-      "summary": "Multi-objective retrieval based on Pareto optimality is evaluated as an alternative to multimodal foundation models for heterogeneous scientific datasets, preserving modality-specific distance structures.",
+      "id": "feed-ba63b857128142",
+      "title": "HERMES: Interpretable Tumor Immune Microenvironment Reasoning",
+      "summary": "The authors present HERMES (H&E-mIF Reasoning with Multimodal Evidence Supervision), an R1-style multimodal large language model that reasons jointly over paired H&E and mIF images. Trained with a process reward checking every stated quantity against cell-level ground truth, the 4B model achieves an average accuracy of 84.5% across four colorectal cancer TIME tasks.",
       "keyPoints": [
-        "Compares late fusion with multimodal foundation models",
-        "Applies multi-objective optimization using Pareto optimality",
-        "Improves fidelity and preserves modality-specific distance structures"
+        "HERMES reasons jointly over paired H&E and multiplex immunofluorescence images.",
+        "Trained with a process reward checking stated quantities against cell-level ground truth.",
+        "Reaches an average accuracy of 84.5% across four colorectal cancer TIME tasks."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23639",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26794",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Searching the Pareto Front: Multi-Objective Retrieval for Modalities",
-          "summary": "Multi-objective retrieval based on Pareto optimality is evaluated as an alternative to multimodal foundation models for heterogeneous scientific datasets, preserving modality-specific distance structures.",
+          "title": "HERMES: Interpretable Tumor Immune Microenvironment Reasoning",
+          "summary": "The authors present HERMES (H&E-mIF Reasoning with Multimodal Evidence Supervision), an R1-style multimodal large language model that reasons jointly over paired H&E and mIF images. Trained with a process reward checking every stated quantity against cell-level ground truth, the 4B model achieves an average accuracy of 84.5% across four colorectal cancer TIME tasks.",
           "keyPoints": [
-            "Compares late fusion with multimodal foundation models",
-            "Applies multi-objective optimization using Pareto optimality",
-            "Improves fidelity and preserves modality-specific distance structures"
+            "HERMES reasons jointly over paired H&E and multiplex immunofluorescence images.",
+            "Trained with a process reward checking stated quantities against cell-level ground truth.",
+            "Reaches an average accuracy of 84.5% across four colorectal cancer TIME tasks."
           ]
         },
         "fr": {
-          "title": "Recherche sur le front de Pareto : Récupération multi-objectif",
-          "summary": "La récupération multi-objectif basée sur l'optimalité de Pareto est évaluée comme alternative aux modèles de fondation multimodaux pour les ensembles de données scientifiques hétérogènes.",
+          "title": "HERMES : Raisonnement interprétable sur le microenvironnement tumoral",
+          "summary": "Les auteurs présentent HERMES, un modèle multimodal de type R1 raisonnant conjointement sur des images H&E et mIF associées. Entraîné avec une récompense de processus vérifiant chaque quantité par rapport à la vérité terrain cellulaire, le modèle de 4 milliards de paramètres atteint 84,5 % de précision.",
           "keyPoints": [
-            "Compare la fusion tardive aux modèles de fondation multimodaux",
-            "Applique l'optimisation multi-objectif via l'optimalité de Pareto",
-            "Améliore la fidélité et préserve les structures de distance spécifiques"
+            "HERMES raisonne conjointement sur des images H&E et immunofluorescence multiplexée.",
+            "Utilise une récompense de processus validant les quantités par rapport à la vérité terrain.",
+            "Atteint une précision moyenne de 84,5 % sur quatre tâches TIME de cancer colorectal."
           ]
         }
       },
@@ -314,36 +197,153 @@
       }
     },
     {
-      "id": "feed-e2dca3baf6f62a",
-      "title": "Evaluating Governed LLM-Driven ML Experimentation",
-      "summary": "A governed harness and control plane are proposed to evaluate LLM-driven machine learning experimentation processes, tracking trial lifecycles and logging records to an append-only ledger.",
+      "id": "feed-9e7d1b0c4460f6",
+      "title": "Memorization and Generalization in Generative Models via AM",
+      "summary": "This thesis explores generative model intelligence through Associative Memory (AM), where patterns are stored as energy minima and retrieved via attractor dynamics. The author shows that diffusion models behave as AMs, where spurious states emerge as training data grows, acting as the foundation for creative and generative capabilities.",
       "keyPoints": [
-        "Proposes evaluating ML experimentation processes and outcomes",
-        "Uses a control plane and append-only ledger for governance",
-        "Tracks metrics like invalid-action rates and provenance completeness"
+        "Explores generative model mechanisms using Associative Memory and attractor dynamics.",
+        "Demonstrates that diffusion models form distinct basins of attraction around training samples.",
+        "Shows how spurious states emerge as training data scales, driving generative capability."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.26797",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Memorization and Generalization in Generative Models via AM",
+          "summary": "This thesis explores generative model intelligence through Associative Memory (AM), where patterns are stored as energy minima and retrieved via attractor dynamics. The author shows that diffusion models behave as AMs, where spurious states emerge as training data grows, acting as the foundation for creative and generative capabilities.",
+          "keyPoints": [
+            "Explores generative model mechanisms using Associative Memory and attractor dynamics.",
+            "Demonstrates that diffusion models form distinct basins of attraction around training samples.",
+            "Shows how spurious states emerge as training data scales, driving generative capability."
+          ]
+        },
+        "fr": {
+          "title": "Mémorisation et généralisation dans les modèles génératifs",
+          "summary": "Cette thèse explore l'intelligence des modèles génératifs à travers la mémoire associative, où les motifs sont stockés sous forme de minima énergétiques. L'auteur montre que les modèles de diffusion se comportent comme des mémoires associatives, et que l'apparition d'états parasites favorise la généricité.",
+          "keyPoints": [
+            "Explore les mécanismes des modèles génératifs via la mémoire associative.",
+            "Démontre que les modèles de diffusion forment des bassins d'attraction autour des échantillons.",
+            "Explique comment l'émergence d'états parasites soutient les capacités génératives."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-03465724b88b0c",
+      "title": "Benchmarking Normative-Descriptive Calibration in LLMs",
+      "summary": "The authors introduce normative-descriptive calibration to measure how LLMs distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Using the Normative-Descriptive Calibration Benchmark (NDCB) across six LLMs, they find that models like Claude Sonnet 4.6 and Opus 4.6 separate the framings strongly, while others show negative or neutral separation.",
+      "keyPoints": [
+        "Introduces normative-descriptive calibration for LLMs in socially consequential settings.",
+        "Evaluates 697 matched-pair scenarios across six domains using the new NDCB benchmark.",
+        "Shows distinct behavioral differences across models regarding descriptive and normative prompts."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.26870",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Benchmarking Normative-Descriptive Calibration in LLMs",
+          "summary": "The authors introduce normative-descriptive calibration to measure how LLMs distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Using the Normative-Descriptive Calibration Benchmark (NDCB) across six LLMs, they find that models like Claude Sonnet 4.6 and Opus 4.6 separate the framings strongly, while others show negative or neutral separation.",
+          "keyPoints": [
+            "Introduces normative-descriptive calibration for LLMs in socially consequential settings.",
+            "Evaluates 697 matched-pair scenarios across six domains using the new NDCB benchmark.",
+            "Shows distinct behavioral differences across models regarding descriptive and normative prompts."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation de la calibration normative et descriptive des LLM",
+          "summary": "Les auteurs introduisent la calibration normative-descriptive pour mesurer la distinction faite par les LLM entre raisonnement normatif et descriptif. À l'aide du benchmark NDCB sur six modèles, ils constatent que certains séparent nettement ces cadres, tandis que d'autres affichent des comportements neutres ou négatifs.",
+          "keyPoints": [
+            "Introduit la calibration normative-descriptive pour les LLM dans des contextes sociaux.",
+            "Évalue 697 scénarios appariés dans six domaines via le benchmark NDCB.",
+            "Met en évidence de fortes variations de comportement selon les modèles testés."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d255db050aaeae",
+      "title": "Robust Partial-Edit Deepfake Localization Analysis",
+      "summary": "This work presents an edit- and generator-conditioned analysis of Segment-Aware Localization (SAL) using WavLM-Large and XLS-R representations on speech deepfake datasets. The authors find that deletion is the hardest editing operation to localize, and that performance varies heavily across different generators, indicating aggregate scores can mask localized weaknesses.",
+      "keyPoints": [
+        "Presents an edit- and generator-conditioned analysis for partial-edit deepfake localization.",
+        "Evaluates WavLM-Large and XLS-R representations on VoiceCraft and SSR-Speech subsets.",
+        "Identifies deletion operations as the most challenging condition for localization systems."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.26903",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Robust Partial-Edit Deepfake Localization Analysis",
+          "summary": "This work presents an edit- and generator-conditioned analysis of Segment-Aware Localization (SAL) using WavLM-Large and XLS-R representations on speech deepfake datasets. The authors find that deletion is the hardest editing operation to localize, and that performance varies heavily across different generators, indicating aggregate scores can mask localized weaknesses.",
+          "keyPoints": [
+            "Presents an edit- and generator-conditioned analysis for partial-edit deepfake localization.",
+            "Evaluates WavLM-Large and XLS-R representations on VoiceCraft and SSR-Speech subsets.",
+            "Identifies deletion operations as the most challenging condition for localization systems."
+          ]
+        },
+        "fr": {
+          "title": "Analyse de la localisation robuste de deepfakes modifiés",
+          "summary": "Ce travail présente une analyse conditionnée par les types d'édition et de générateurs pour la localisation de modifications partielles de deepfakes vocaux. Les auteurs montrent que la suppression est l'opération la plus difficile à localiser et que les performances varient selon les générateurs.",
+          "keyPoints": [
+            "Présente une analyse conditionnée des modifications pour la localisation de deepfakes.",
+            "Évalue les représentations WavLM-Large et XLS-R sur les sous-ensembles VoiceCraft et SSR-Speech.",
+            "Identifie les opérations de suppression comme le défi majeur pour les systèmes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-7afd1e283c6656",
+      "title": "BudgetPV: Budget-Aware Theorem Proving with LLMs",
+      "summary": "BudgetPV is an agentic budget-aware predict-and-verify system designed to allocate computation across unresolved subgoals and heterogeneous LLM solvers. By using a cross-solver predictor trained with specific classification objectives, BudgetPV achieves computation savings compared to uniform allocation while solving the same number of subgoals.",
+      "keyPoints": [
+        "Introduces BudgetPV for budget-aware compute allocation across heterogeneous LLM theorem solvers.",
+        "Uses a cross-solver predictor trained with dual objectives for initial and later allocation stages.",
+        "Demonstrates significant computation savings over uniform allocation on standard benchmarks."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23678",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26906",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Evaluating Governed LLM-Driven ML Experimentation",
-          "summary": "A governed harness and control plane are proposed to evaluate LLM-driven machine learning experimentation processes, tracking trial lifecycles and logging records to an append-only ledger.",
+          "title": "BudgetPV: Budget-Aware Theorem Proving with LLMs",
+          "summary": "BudgetPV is an agentic budget-aware predict-and-verify system designed to allocate computation across unresolved subgoals and heterogeneous LLM solvers. By using a cross-solver predictor trained with specific classification objectives, BudgetPV achieves computation savings compared to uniform allocation while solving the same number of subgoals.",
           "keyPoints": [
-            "Proposes evaluating ML experimentation processes and outcomes",
-            "Uses a control plane and append-only ledger for governance",
-            "Tracks metrics like invalid-action rates and provenance completeness"
+            "Introduces BudgetPV for budget-aware compute allocation across heterogeneous LLM theorem solvers.",
+            "Uses a cross-solver predictor trained with dual objectives for initial and later allocation stages.",
+            "Demonstrates significant computation savings over uniform allocation on standard benchmarks."
           ]
         },
         "fr": {
-          "title": "Évaluation de l'expérimentation ML dirigée par LLM et gouvernée",
-          "summary": "Un système de contrôle et un plan de contrôle sont proposés pour évaluer les processus d'expérimentation d'apprentissage automatique pilotés par LLM.",
+          "title": "BudgetPV : Démonstration de théorèmes optimisée par budget",
+          "summary": "BudgetPV est un système agentique d'allocation budgétaire et de vérification pour répartir les calculs entre des solveurs LLM hétérogènes. Grâce à un prédicteur multi-solveur entraîné avec des objectifs spécifiques, BudgetPV réalise des économies de calcul par rapport à une allocation uniforme.",
           "keyPoints": [
-            "Propose d'évaluer les processus et résultats d'expérimentation ML",
-            "Utilise un plan de contrôle et un registre inscriptible pour la gouvernance",
-            "Suit des métriques telles que les taux d'actions invalides"
+            "Présente BudgetPV pour l'allocation de calcul entre solveurs LLM hétérogènes.",
+            "Utilise un prédicteur entraîné avec de nouveaux objectifs pour les différentes phases.",
+            "Démontre des économies de calcul notables par rapport à une allocation uniforme."
           ]
         }
       },
@@ -353,75 +353,36 @@
       }
     },
     {
-      "id": "feed-fd56d4b2e51d01",
-      "title": "Auditable Clinical Support with Decision Agents",
-      "summary": "Decision2Care is presented as a text-free decision agent for acutely ill patients that assigns probabilities to EHR actions while maintaining an auditable record of options and rules.",
+      "id": "feed-9727016a4ca8e9",
+      "title": "AstronautBench: Measuring Agent Self-Improvement",
+      "summary": "AstronautBench measures LLM agent self-improvement across episodes using three perspectives: what the agent knows, whether its evidence supports that knowledge, and its task progress in an embodied environment based on Outer Wilds. Baselines with GPT-6.1 Sol and Gemini 4 Argon planners show that these three metrics do not always move together.",
       "keyPoints": [
-        "Performs clinical work-ups without generating free text",
-        "Achieves high diagnostic accuracy in emergency admissions",
-        "Provides fully auditable records of options and probabilities"
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23700",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Auditable Clinical Support with Decision Agents",
-          "summary": "Decision2Care is presented as a text-free decision agent for acutely ill patients that assigns probabilities to EHR actions while maintaining an auditable record of options and rules.",
-          "keyPoints": [
-            "Performs clinical work-ups without generating free text",
-            "Achieves high diagnostic accuracy in emergency admissions",
-            "Provides fully auditable records of options and probabilities"
-          ]
-        },
-        "fr": {
-          "title": "Support clinique auditable avec des agents de décision",
-          "summary": "Decision2Care est présenté comme un agent de décision sans texte pour les patients gravement malades, attribuant des probabilités aux actions tout en conservant un dossier auditable.",
-          "keyPoints": [
-            "Effectue des bilans cliniques sans générer de texte libre",
-            "Atteint une haute précision diagnostique lors d'admissions d'urgence",
-            "Fournit des enregistrements auditables des options et probabilités"
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9919842f8d32cc",
-      "title": "KnowMe Paper Radar: Lightweight Discovery of Promising Papers",
-      "summary": "KnowMe Paper Radar is introduced as a lightweight discovery tool combining topical relevance, author histories, and institutional context to generate personalized reading priorities for researchers.",
-      "keyPoints": [
-        "Combines multiple evidence sources for reading priorities",
-        "Exposes score components and supporting data sources",
-        "Supports literature-informed recursive self-improvement workflows"
+        "Introduces AstronautBench to evaluate agent self-improvement across episodes in Outer Wilds.",
+        "Measures knowledge, evidence support, and world progress independently.",
+        "Demonstrates that single evaluation metrics provide an incomplete picture of agent learning."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23702",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26910",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "KnowMe Paper Radar: Lightweight Discovery of Promising Papers",
-          "summary": "KnowMe Paper Radar is introduced as a lightweight discovery tool combining topical relevance, author histories, and institutional context to generate personalized reading priorities for researchers.",
+          "title": "AstronautBench: Measuring Agent Self-Improvement",
+          "summary": "AstronautBench measures LLM agent self-improvement across episodes using three perspectives: what the agent knows, whether its evidence supports that knowledge, and its task progress in an embodied environment based on Outer Wilds. Baselines with GPT-6.1 Sol and Gemini 4 Argon planners show that these three metrics do not always move together.",
           "keyPoints": [
-            "Combines multiple evidence sources for reading priorities",
-            "Exposes score components and supporting data sources",
-            "Supports literature-informed recursive self-improvement workflows"
+            "Introduces AstronautBench to evaluate agent self-improvement across episodes in Outer Wilds.",
+            "Measures knowledge, evidence support, and world progress independently.",
+            "Demonstrates that single evaluation metrics provide an incomplete picture of agent learning."
           ]
         },
         "fr": {
-          "title": "KnowMe Paper Radar : Découverte légère d'articles prometteurs",
-          "summary": "KnowMe Paper Radar est présenté comme un outil de découverte léger combinant pertinence thématique, historiques d'auteurs et contexte institutionnel pour générer des priorités de lecture.",
+          "title": "AstronautBench : Mesurer l'auto-amélioration des agents",
+          "summary": "AstronautBench mesure l'auto-amélioration des agents LLM à travers des épisodes selon trois axes : les connaissances, le support des preuves et la progression dans un environnement inspiré d'Outer Wilds. Les tests montrent que ces trois mesures n'évoluent pas nécessairement de concert.",
           "keyPoints": [
-            "Combine plusieurs sources de preuves pour les priorités de lecture",
-            "Expose les composants de score et les sources de données",
-            "Prend en charge les flux de travail d'auto-amélioration récursive"
+            "Introduit AstronautBench pour évaluer l'auto-amélioration des agents dans Outer Wilds.",
+            "Mesure indépendamment les connaissances, les preuves et la progression dans le monde.",
+            "Démontre qu'une métrique unique offre une vision incomplète de l'apprentissage."
           ]
         }
       },
@@ -431,36 +392,36 @@
       }
     },
     {
-      "id": "feed-c577376bfed50a",
-      "title": "Modeling LLM Reasoning Dynamics with Structural Representations",
-      "summary": "T/E/S combines text, local events, and activity spans to model language-model reasoning dynamics, improving continuation prediction and reducing inference CPU time.",
+      "id": "feed-dae9992927e484",
+      "title": "Self-Evolving LLM Agent for EDA Scripting",
+      "summary": "ZhuLong-SE is an execution-grounded LLM agent designed to overcome challenges in EDA scripting, such as sparse documentation and silent failures. By incorporating API retrieval, sandbox execution, and a three-tier memory store governed by ground-truth anchoring and disconfirmation filtering, it achieves a 92.4% pass@1 rate on the EDA-Eval-PyAether benchmark and outperforms human-crafted baselines on disjoint tests.",
       "keyPoints": [
-        "Combines text, local events, and activity spans for reasoning",
-        "Improves next-outcome prediction across multiple tasks",
-        "Reduces mean inference CPU time significantly via structural bounds"
+        "ZhuLong-SE learns reusable knowledge from prior task traces using governed cross-task self-evolution.",
+        "It achieves 92.4% pass@1 on the 158-task EDA-Eval-PyAether benchmark with self-evolution disabled.",
+        "On a harder instance-disjoint test set, its self-evolution surpasses a human-crafted-experience baseline by 2.5 percentage points."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23749",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26912",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Modeling LLM Reasoning Dynamics with Structural Representations",
-          "summary": "T/E/S combines text, local events, and activity spans to model language-model reasoning dynamics, improving continuation prediction and reducing inference CPU time.",
+          "title": "Self-Evolving LLM Agent for EDA Scripting",
+          "summary": "ZhuLong-SE is an execution-grounded LLM agent designed to overcome challenges in EDA scripting, such as sparse documentation and silent failures. By incorporating API retrieval, sandbox execution, and a three-tier memory store governed by ground-truth anchoring and disconfirmation filtering, it achieves a 92.4% pass@1 rate on the EDA-Eval-PyAether benchmark and outperforms human-crafted baselines on disjoint tests.",
           "keyPoints": [
-            "Combines text, local events, and activity spans for reasoning",
-            "Improves next-outcome prediction across multiple tasks",
-            "Reduces mean inference CPU time significantly via structural bounds"
+            "ZhuLong-SE learns reusable knowledge from prior task traces using governed cross-task self-evolution.",
+            "It achieves 92.4% pass@1 on the 158-task EDA-Eval-PyAether benchmark with self-evolution disabled.",
+            "On a harder instance-disjoint test set, its self-evolution surpasses a human-crafted-experience baseline by 2.5 percentage points."
           ]
         },
         "fr": {
-          "title": "Modélisation de la dynamique de raisonnement des LLM",
-          "summary": "T/E/S combine du texte, des événements locaux et des périodes d'activité pour modéliser la dynamique de raisonnement des modèles de langage, améliorant la prédiction.",
+          "title": "Agent LLM auto-évolutif pour les scripts EDA",
+          "summary": "ZhuLong-SE est un agent LLM ancré dans l'exécution conçu pour surmonter les difficultés des scripts EDA, telles que la documentation éparse. En intégrant la récupération d'API, l'exécution en bac à sable et un stockage en mémoire à trois niveaux, il atteint un taux de réussite de 92,4 % sur le benchmark EDA-Eval-PyAether et surpasse les références humaines.",
           "keyPoints": [
-            "Combine texte, événements locaux et périodes d'activité",
-            "Améliore la prédiction des résultats suivants sur plusieurs tâches",
-            "Réduit considérablement le temps CPU d'inférence moyen"
+            "ZhuLong-SE apprend des traces de tâches antérieures grâce à une auto-évolution inter-tâches encadrée.",
+            "Il atteint 92,4 % de réussite sur le benchmark EDA-Eval-PyAether de 158 tâches avec l'auto-évolution désactivée.",
+            "Sur un ensemble de test disjoint plus difficile, son auto-évolution dépasse une référence conçue par l'homme de 2,5 points de pourcentage."
           ]
         }
       },
@@ -470,325 +431,364 @@
       }
     },
     {
-      "id": "feed-017489cfad28fb",
-      "title": "AnyS1: A Domain-General System-1 Framework for LLM Agents",
-      "summary": "Autonomous LLM agents often incur high costs and latency by using large System-2 models for every step. The authors introduce AnyS1, a framework that converts human-authored procedural skills into a shared source of decision points. By training a single calibrated 4B pointer System-1, workflows can resolve routine decisions in one forward pass while falling back to System-2 when confidence is low, cutting episode costs by 75-91% and model-call time by 63-92%.",
+      "id": "feed-14beffb876731c",
+      "title": "Self-Similar Organization of Information in Language",
+      "summary": "Researchers developed a theory for the organization of predictive information in text based on scaling behavior. By observing scaling collapse in long documents, they showed that predictive information has a self-similar structure across length scales, providing quantitative support for the idea that conditioning on more distant text reveals new structure to LLMs.",
       "keyPoints": [
-        "AnyS1 turns human procedural skills into grounded enumerable decisions across over 1,000 public skills.",
-        "A calibrated 4B pointer System-1 handles routine decisions in a single forward pass.",
-        "It cuts episode costs by 75-91% and model-call time by 63-92% while maintaining task reliability."
+        "A theory is developed for predictive information organization based on scaling behavior in language.",
+        "Scaling collapse is observed in long text documents, demonstrating a self-similar structure across length scales.",
+        "The findings support the observation that conditioning on distant text reveals new structure to large language models."
       ],
-      "category": "Modèles",
+      "category": "Open Source",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23751",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26935",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "AnyS1: A Domain-General System-1 Framework for LLM Agents",
-          "summary": "Autonomous LLM agents often incur high costs and latency by using large System-2 models for every step. The authors introduce AnyS1, a framework that converts human-authored procedural skills into a shared source of decision points. By training a single calibrated 4B pointer System-1, workflows can resolve routine decisions in one forward pass while falling back to System-2 when confidence is low, cutting episode costs by 75-91% and model-call time by 63-92%.",
+          "title": "Self-Similar Organization of Information in Language",
+          "summary": "Researchers developed a theory for the organization of predictive information in text based on scaling behavior. By observing scaling collapse in long documents, they showed that predictive information has a self-similar structure across length scales, providing quantitative support for the idea that conditioning on more distant text reveals new structure to LLMs.",
           "keyPoints": [
-            "AnyS1 turns human procedural skills into grounded enumerable decisions across over 1,000 public skills.",
-            "A calibrated 4B pointer System-1 handles routine decisions in a single forward pass.",
-            "It cuts episode costs by 75-91% and model-call time by 63-92% while maintaining task reliability."
+            "A theory is developed for predictive information organization based on scaling behavior in language.",
+            "Scaling collapse is observed in long text documents, demonstrating a self-similar structure across length scales.",
+            "The findings support the observation that conditioning on distant text reveals new structure to large language models."
           ]
         },
         "fr": {
-          "title": "AnyS1 : Un cadre System-1 généraliste pour les agents LLM",
-          "summary": "Les agents LLM autonomes entraînent des coûts et une latence élevés en utilisant des modèles System-2 pour chaque étape. Les auteurs présentent AnyS1, un cadre qui transforme des compétences procédurales en une source partagée de points de décision. En entraînant un System-1 calibré de 4B, les flux de travail résolvent les décisions de routine en un passage tout en basculant vers System-2 en cas de faible confiance, réduisant les coûts de 75-91 %.",
+          "title": "Organisation autosimilaire de l'information dans le langage",
+          "summary": "Des chercheurs ont développé une théorie sur l'organisation de l'information prédictive dans le texte basée sur le comportement d'échelle. En observant l'effondrement d'échelle dans de longs documents, ils ont démontré que l'information prédictive possède une structure autosimilaire.",
           "keyPoints": [
-            "AnyS1 convertit des compétences procédurales humaines en décisions énumérées ancrées.",
-            "Un System-1 calibré de 4B gère les décisions de routine en un seul passage vers l'avant.",
-            "Il réduit les coûts d'épisode de 75-91 % et le temps d'appel du modèle de 63-92 %."
+            "Une théorie est développée pour l'organisation de l'information prédictive basée sur le comportement d'échelle dans le langage.",
+            "L'effondrement d'échelle est observé dans de longs documents textuels, démontrant une structure autosimilaire.",
+            "Ces résultats soutiennent l'observation selon laquelle le conditionnement sur du texte distant révèle de nouvelles structures aux grands modèles de langage."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-9c9590ca9d452c",
-      "title": "Continual Tool-Space Extension Learning for Multimodal Agents",
-      "summary": "Integrating specialist vision models into already trained multimodal agents is challenging due to the need to learn new tools efficiently while retaining existing ones. This work proposes COTEX, a continual tool-space extension learning method that adds new tools at adapter-level cost. COTEX uses orthogonal constraints and verified tool-use trajectories to improve performance on ten vision-language benchmarks with minimal impact on existing tools.",
+      "id": "feed-8c1854f784a023",
+      "title": "CodeReviewBench: An Automated Benchmark for Software Factories",
+      "summary": "CodeReviewBench evaluates software factory AI agents using revealed developer preferences mined daily from the public GitHub event stream. Covering over 500K judged PRs across 18 tools, it tracks whether developers act on bot suggestions to determine usefulness, aligning with real-world product updates and vendor releases.",
       "keyPoints": [
-        "COTEX introduces continual tool-space extension learning for multimodal agents at adapter-level cost.",
-        "It locates parameter directions for tool triggers and tool choices using orthogonal constraints.",
-        "Experiments show gains on ten vision-language benchmarks with at most a 0.3-point drop on existing tools."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23810",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Continual Tool-Space Extension Learning for Multimodal Agents",
-          "summary": "Integrating specialist vision models into already trained multimodal agents is challenging due to the need to learn new tools efficiently while retaining existing ones. This work proposes COTEX, a continual tool-space extension learning method that adds new tools at adapter-level cost. COTEX uses orthogonal constraints and verified tool-use trajectories to improve performance on ten vision-language benchmarks with minimal impact on existing tools.",
-          "keyPoints": [
-            "COTEX introduces continual tool-space extension learning for multimodal agents at adapter-level cost.",
-            "It locates parameter directions for tool triggers and tool choices using orthogonal constraints.",
-            "Experiments show gains on ten vision-language benchmarks with at most a 0.3-point drop on existing tools."
-          ]
-        },
-        "fr": {
-          "title": "Apprentissage d'extension continue de l'espace d'outils pour agents multimodaux",
-          "summary": "L'intégration de modèles de vision spécialisés dans des agents multimodaux déjà entraînés pose des difficultés pour apprendre de tout nouveaux outils tout en conservant les anciens. Ce travail propose COTEX, une méthode d'extension continue qui ajoute de nouveaux outils à un coût d'adaptateur efficace. COTEX utilise des contraintes orthogonales et améliore dix benchmarks vision-langage avec un impact minime.",
-          "keyPoints": [
-            "COTEX introduit l'apprentissage d'extension continue de l'espace d'outils au niveau des adaptateurs.",
-            "Il utilise des contraintes orthogonales pour séparer le déclenchement et le choix des outils.",
-            "Les expériences montrent des gains sur dix benchmarks vision-langage avec une baisse maximale de 0,3 point."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-e7264247c8d50e",
-      "title": "Metrics-in-the-Loop: Complexity Feedback Reshapes Agent-Written Code",
-      "summary": "Coding agents write long autonomous codebases guided primarily by passing tests, which can allow complexity and coverage gaps to accumulate. The authors introduce metrics-in-the-loop, an inference-time intervention that injects cheap code metrics into the agent's context. Experiments show that this complexity feedback significantly reduces erosion and complexity concentration without affecting the correctness of the code.",
-      "keyPoints": [
-        "Metrics-in-the-loop injects automated code complexity and test coverage feedback into agent contexts during execution.",
-        "The approach gives coding agents the opportunity to refactor code or strengthen tests before continuing.",
-        "Experiments demonstrate that complexity feedback significantly reduces code erosion without harming correctness."
+        "CodeReviewBench uses revealed developer preferences as a signal, mining public GitHub event streams daily.",
+        "The benchmark encompasses over 500,000 judged pull requests across 18 tools.",
+        "Developer preferences are validated against an independent offline benchmark, matching precision rankings and product updates."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23817",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26942",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Metrics-in-the-Loop: Complexity Feedback Reshapes Agent-Written Code",
-          "summary": "Coding agents write long autonomous codebases guided primarily by passing tests, which can allow complexity and coverage gaps to accumulate. The authors introduce metrics-in-the-loop, an inference-time intervention that injects cheap code metrics into the agent's context. Experiments show that this complexity feedback significantly reduces erosion and complexity concentration without affecting the correctness of the code.",
+          "title": "CodeReviewBench: An Automated Benchmark for Software Factories",
+          "summary": "CodeReviewBench evaluates software factory AI agents using revealed developer preferences mined daily from the public GitHub event stream. Covering over 500K judged PRs across 18 tools, it tracks whether developers act on bot suggestions to determine usefulness, aligning with real-world product updates and vendor releases.",
           "keyPoints": [
-            "Metrics-in-the-loop injects automated code complexity and test coverage feedback into agent contexts during execution.",
-            "The approach gives coding agents the opportunity to refactor code or strengthen tests before continuing.",
-            "Experiments demonstrate that complexity feedback significantly reduces code erosion without harming correctness."
+            "CodeReviewBench uses revealed developer preferences as a signal, mining public GitHub event streams daily.",
+            "The benchmark encompasses over 500,000 judged pull requests across 18 tools.",
+            "Developer preferences are validated against an independent offline benchmark, matching precision rankings and product updates."
           ]
         },
         "fr": {
-          "title": "Metrics-in-the-Loop : Le retour de complexité façonne le code des agents",
-          "summary": "Les agents de codage écrivent de vastes bases de code guidés par les tests réussis, ce qui peut laisser s'accumuler des lacunes de complexité. Les auteurs introduisent metrics-in-the-loop, une intervention qui injecte des métriques de code dans le contexte de l'agent. Les expériences montrent que ce retour réduit considérablement l'érosion du code sans affecter son exactitude.",
+          "title": "CodeReviewBench : Un benchmark automatisé pour l'usine logicielle",
+          "summary": "CodeReviewBench évalue les agents IA d'usine logicielle en utilisant les préférences des développeurs extraites quotidiennement du flux d'événements GitHub public. Couvrant plus de 500 000 PR évaluées sur 18 outils, il suit l'utilité des suggestions de bots.",
           "keyPoints": [
-            "Metrics-in-the-loop injecte des retours de complexité et de couverture de test dans le contexte de l'agent.",
-            "Il permet aux agents de refactoriser le code ou de renforcer les tests en cours de route.",
-            "Les expériences démontrent une réduction significative de l'érosion du code sans nuire à l'exactitude."
+            "CodeReviewBench utilise les préférences des développeurs comme signal en extrayant quotidiennement les flux d'événements GitHub.",
+            "Le benchmark comprend plus de 500 000 demandes de tirage (PR) évaluées sur 18 outils.",
+            "Les préférences des développeurs sont validées par rapport à un benchmark hors ligne indépendant."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-042c74e7b67151",
-      "title": "Evidence-Based Credit Assignment for Search-Augmented Language Models",
-      "summary": "Outcome supervision in search-augmented language models assigns identical credit to every search regardless of whether it retrieved useful information. The authors present Evidence-based Credit Assignment (ECA), which augments outcome rewards with an auxiliary training signal measuring how retrieved documents improve reference answer likelihood. Across seven Search QA benchmarks, ECA-Horizon improves strict macro exact match over outcome-only baselines.",
+      "id": "feed-7674d7520cee73",
+      "title": "Runtime Governance for Tool-Using AI Agents via OPCP",
+      "summary": "The Open Process Control Plane (OPCP) mediates capability calls and records uncertain outcomes for tool-using AI agents, separating proposals from business-controlled authority. Evaluations across 2,400 fault episodes and multiple configurations show it recovers after definite refusal without cross-supplier duplication, though persistent runtime state and supplier idempotency are required.",
       "keyPoints": [
-        "ECA isolates the utility of retrieved passages from surface variations in generated thoughts or queries.",
-        "The framework compares ECA-Step and ECA-Horizon return formulations paired with cross-fold group normalization.",
-        "ECA-Horizon improves strict macro exact match over outcome-only baselines across multiple Search QA benchmarks."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23824",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evidence-Based Credit Assignment for Search-Augmented Language Models",
-          "summary": "Outcome supervision in search-augmented language models assigns identical credit to every search regardless of whether it retrieved useful information. The authors present Evidence-based Credit Assignment (ECA), which augments outcome rewards with an auxiliary training signal measuring how retrieved documents improve reference answer likelihood. Across seven Search QA benchmarks, ECA-Horizon improves strict macro exact match over outcome-only baselines.",
-          "keyPoints": [
-            "ECA isolates the utility of retrieved passages from surface variations in generated thoughts or queries.",
-            "The framework compares ECA-Step and ECA-Horizon return formulations paired with cross-fold group normalization.",
-            "ECA-Horizon improves strict macro exact match over outcome-only baselines across multiple Search QA benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "Attribution de crédit fondée sur les preuves pour modèles de langage augmentés",
-          "summary": "La supervision des résultats dans les modèles de langage augmentés par recherche attribue un crédit identique à chaque recherche. Les auteurs présentent l'attribution de crédit fondée sur les preuves (ECA), qui complète les récompenses de fin de parcours par un signal mesurant l'utilité des documents récupérés. Sur sept benchmarks, ECA-Horizon améliore les performances par rapport aux bases de référence.",
-          "keyPoints": [
-            "ECA isole l'utilité des passages récupérés des variations superficielles des requêtes.",
-            "Le cadre compare les formulations de rendement ECA-Step et ECA-Horizon avec normalisation de groupe.",
-            "ECA-Horizon améliore les scores de correspondance exacte par rapport aux bases de référence."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-cef683fb81f631",
-      "title": "A System 1 Decision Model for Medical MCQs Using Frozen Language Models",
-      "summary": "The authors explore a System 1 single-pass model for answering medical multiple-choice questions using frozen language models. By training two projection heads and a temperature parameter on top of frozen models like Qwen3-8B using contrastive loss, they achieve a cheap, fast baseline on MedMCQA, raising accuracy significantly above random chance while discussing the limitations of validation versus test gains.",
-      "keyPoints": [
-        "A System 1 model maps questions and options to a shared space using frozen language models and trained projection heads.",
-        "The method achieves 46.0% accuracy on MedMCQA using Qwen3-8B, serving as a cheap and fast baseline.",
-        "The study notes that validation gains were roughly 1.7 to 2 times the test gains."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23832",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "A System 1 Decision Model for Medical MCQs Using Frozen Language Models",
-          "summary": "The authors explore a System 1 single-pass model for answering medical multiple-choice questions using frozen language models. By training two projection heads and a temperature parameter on top of frozen models like Qwen3-8B using contrastive loss, they achieve a cheap, fast baseline on MedMCQA, raising accuracy significantly above random chance while discussing the limitations of validation versus test gains.",
-          "keyPoints": [
-            "A System 1 model maps questions and options to a shared space using frozen language models and trained projection heads.",
-            "The method achieves 46.0% accuracy on MedMCQA using Qwen3-8B, serving as a cheap and fast baseline.",
-            "The study notes that validation gains were roughly 1.7 to 2 times the test gains."
-          ]
-        },
-        "fr": {
-          "title": "Un modèle de décision System 1 pour QCM médicaux avec modèles figés",
-          "summary": "Les auteurs explorent un modèle System 1 en un seul passage pour répondre à des questions à choix multiples médicales en utilisant des modèles de langage figés. En entraînant deux têtes de projection sur Qwen3-8B avec une perte contrastive, ils atteignent une base de référence économique et rapide sur MedMCQA, tout en discutant des limites des gains de validation par rapport aux tests.",
-          "keyPoints": [
-            "Un modèle System 1 projette questions et options dans un espace partagé via des têtes entraînées.",
-            "La méthode atteint 46,0 % de précision sur MedMCQA avec Qwen3-8B comme référence rapide.",
-            "L'étude relève que les gains de validation étaient d'environ 1,7 à 2 fois supérieurs aux gains de test."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 0.95,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-179f51cdd0a153",
-      "title": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback",
-      "summary": "RoboBuilder is a benchmark where coding agents co-design a robot's hardware and program from standard parts and 3D-printed components, with simulations tested on a physical course. Because simulation alone is insufficient, agents learn from measurements and real failure videos. Feedback from physical failures allows agents to redesign robots and remove 72% of early-level failures, measuring progress toward engineering real machines.",
-      "keyPoints": [
-        "RoboBuilder evaluates coding agents on co-designing physical and simulated robot hardware and programs.",
-        "Agents use real-world video feedback to diagnose physical failures and redesign mechanisms.",
-        "Incorporating real-world video feedback removes 72% of level-1 and level-2 failures."
+        "OPCP acts as an execution boundary separating agent proposals from business-controlled authority and supplier selection.",
+        "Evaluations covered 2,400 fault episodes across four policies and 19,000 timed calls across 19 configurations without evaluating language models.",
+        "Best-score routing at 128 suppliers showed a median latency of 1.411 ms compared to 0.261 ms for pinned routing."
       ],
       "category": "Outils",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23855",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26966",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback",
-          "summary": "RoboBuilder is a benchmark where coding agents co-design a robot's hardware and program from standard parts and 3D-printed components, with simulations tested on a physical course. Because simulation alone is insufficient, agents learn from measurements and real failure videos. Feedback from physical failures allows agents to redesign robots and remove 72% of early-level failures, measuring progress toward engineering real machines.",
+          "title": "Runtime Governance for Tool-Using AI Agents via OPCP",
+          "summary": "The Open Process Control Plane (OPCP) mediates capability calls and records uncertain outcomes for tool-using AI agents, separating proposals from business-controlled authority. Evaluations across 2,400 fault episodes and multiple configurations show it recovers after definite refusal without cross-supplier duplication, though persistent runtime state and supplier idempotency are required.",
           "keyPoints": [
-            "RoboBuilder evaluates coding agents on co-designing physical and simulated robot hardware and programs.",
-            "Agents use real-world video feedback to diagnose physical failures and redesign mechanisms.",
-            "Incorporating real-world video feedback removes 72% of level-1 and level-2 failures."
+            "OPCP acts as an execution boundary separating agent proposals from business-controlled authority and supplier selection.",
+            "Evaluations covered 2,400 fault episodes across four policies and 19,000 timed calls across 19 configurations without evaluating language models.",
+            "Best-score routing at 128 suppliers showed a median latency of 1.411 ms compared to 0.261 ms for pinned routing."
           ]
         },
         "fr": {
-          "title": "RoboBuilder : Co-conception de robots par agents avec retour vidéo réel",
-          "summary": "RoboBuilder est un benchmark où des agents de codage co-conçoivent le matériel et le programme de robots à partir de pièces standard et imprimées en 3D, testés sur un parcours physique. Les agents apprennent à partir de mesures et de vidéos de pannes réelles pour améliorer leurs conceptions, éliminant ainsi 72 % des échecs initiaux.",
+          "title": "Gouvernance d'exécution pour agents IA utilisant des outils",
+          "summary": "L'Open Process Control Plane (OPCP) médie les appels de capacité et enregistre les résultats incertains pour les agents IA utilisant des outils. Des évaluations sur 2 400 épisodes de pannes démontrent une récupération après un refus net sans duplication inter-fournisseur.",
           "keyPoints": [
-            "RoboBuilder évalue la co-conception par des agents de matériel et de logiciels robotiques.",
-            "Les agents utilisent des retours vidéo du monde réel pour diagnostiquer les pannes physiques.",
-            "L'intégration de retours vidéo réels supprime 72 % des échecs de niveau 1 et 2."
+            "L'OPCP sert de frontière d'exécution séparant les propositions d'agents de l'autorité contrôlée par l'entreprise.",
+            "Les évaluations ont couvert 2 400 épisodes de pannes et 19 000 appels minutés sans évaluer de modèles de langage.",
+            "Le routage par meilleur score avec 128 fournisseurs a affiché une latence médiane de 1,411 ms."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-20f4c8715b64ad",
-      "title": "Decision Coverage and Underspecified Decision Completion in NL Querying",
-      "summary": "Large language models translate natural language questions into executable programs, but often adopt hidden assumptions when questions admit multiple interpretations, a behavior termed Underspecified Decision Completion (UDC). To diagnose this, the authors introduce Grounded Code Generation (GCG), a protocol separating decision identification, resolution, and code translation. Evaluations on BIRD-Pandas indicate that the primary difficulty lies in recognizing which questions require clarification.",
+      "id": "feed-b3dd5830b7fd02",
+      "title": "FrameCheck: Preventing Unsupported LLM Financial Narratives",
+      "summary": "LLM financial drafts often contain unsupported framing, adding unsupplied judgments and causes despite accurate numbers. FrameCheck is a plug-in that sits between the LLM and human review, using professional examples and rule-based removal to eliminate unsupported framing and bring judgment rates close to professional 10-K filers.",
       "keyPoints": [
-        "Underspecified Decision Completion occurs when LLMs silently adopt assumptions on ambiguous natural language questions.",
-        "Grounded Code Generation (GCG) isolates decision identification, evidence resolution, and code translation.",
-        "Evaluations show that main difficulties stem from recognizing which clarification questions need to be asked."
+        "FrameCheck addresses unsupported framing in LLM-drafted financial reports without requiring additional model calls.",
+        "It guides drafts with professional examples, flags unwarranted judgments, and removes them through deterministic rules.",
+        "Experiments across 17 open LLMs and 3M drafts show FrameCheck successfully removes nearly all unsupported framing."
       ],
-      "category": "Modèles",
+      "category": "Business",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23864",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26968",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Decision Coverage and Underspecified Decision Completion in NL Querying",
-          "summary": "Large language models translate natural language questions into executable programs, but often adopt hidden assumptions when questions admit multiple interpretations, a behavior termed Underspecified Decision Completion (UDC). To diagnose this, the authors introduce Grounded Code Generation (GCG), a protocol separating decision identification, resolution, and code translation. Evaluations on BIRD-Pandas indicate that the primary difficulty lies in recognizing which questions require clarification.",
+          "title": "FrameCheck: Preventing Unsupported LLM Financial Narratives",
+          "summary": "LLM financial drafts often contain unsupported framing, adding unsupplied judgments and causes despite accurate numbers. FrameCheck is a plug-in that sits between the LLM and human review, using professional examples and rule-based removal to eliminate unsupported framing and bring judgment rates close to professional 10-K filers.",
           "keyPoints": [
-            "Underspecified Decision Completion occurs when LLMs silently adopt assumptions on ambiguous natural language questions.",
-            "Grounded Code Generation (GCG) isolates decision identification, evidence resolution, and code translation.",
-            "Evaluations show that main difficulties stem from recognizing which clarification questions need to be asked."
+            "FrameCheck addresses unsupported framing in LLM-drafted financial reports without requiring additional model calls.",
+            "It guides drafts with professional examples, flags unwarranted judgments, and removes them through deterministic rules.",
+            "Experiments across 17 open LLMs and 3M drafts show FrameCheck successfully removes nearly all unsupported framing."
           ]
         },
         "fr": {
-          "title": "Couverture de décision et complétion indéterminée dans les requêtes en langage naturel",
-          "summary": "Les grands modèles de langage traduisent des questions en langage naturel en programmes exécutables, mais adoptent souvent des hypothèses implicites face à des interprétations multiples, un comportement nommé UDC. Pour diagnostiquer cela, les auteurs introduisent GCG, un protocole séparant l'identification des décisions, leur résolution et la traduction du code.",
+          "title": "FrameCheck : Prévenir les récits financiers non soutenus des LLM",
+          "summary": "Les brouillons financiers des LLM contiennent souvent des cadrages non soutenus, ajoutant des jugements non fournis malgré des chiffres exacts. FrameCheck est un module complémentaire qui supprime ces biais grâce à des règles et des exemples professionnels.",
           "keyPoints": [
-            "L'UDC se produit lorsque les LLM adoptent silencieusement des hypothèses sur des questions ambiguës.",
-            "Grounded Code Generation (GCG) isole l'identification des décisions et la traduction du code.",
-            "Les évaluations montrent que la difficulté principale réside dans l'identification des questions à poser."
+            "FrameCheck traite le cadrage non soutenu dans les rapports financiers générés par LLM sans appels de modèle supplémentaires.",
+            "Il guide les brouillons avec des exemples professionnels et supprime les jugements injustifiés par des règles.",
+            "Des expériences sur 17 LLM ouverts et 3 millions de brouillons montrent que FrameCheck élimine presque tout le cadrage non soutenu."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
         "needsReview": false
       }
     },
     {
-      "id": "feed-b702bef09893bd",
-      "title": "Risk-Controlled Correction for Frozen Multimodal Models under Missing Modalities",
-      "summary": "Deployed multimodal predictors can encounter missing modalities after weights are frozen. The authors show that correctable error portions are characterized by the Bayes gap and propose GUARD (Gated Utility-Aware Recalibration for Deployment). GUARD leaves the deployed predictor unchanged, estimates candidate corrections via retrieval, and uses conformal risk control to bound the marginal probability of error tolerance violations.",
+      "id": "feed-14dcac9f333a38",
+      "title": "ToRA: Near-Free Streaming Safety Checks for Local LLMs",
+      "summary": "ToRA introduces an adapter that runs a second safety model as an extra row in a local LLM generator's decode step, sharing weights and the KV cache. Tested on Qwen3-0.6B, ToRA matches or beats dedicated streaming guards with under 4% added latency per token.",
       "keyPoints": [
-        "The correctable error from missing modalities is characterized by the Bayes gap.",
-        "GUARD estimates candidate corrections via retrieval and calibrates thresholds using conformal risk control.",
-        "Under exchangeability, GUARD bounds the marginal probability that correction loss exceeds a preset tolerance."
+        "ToRA runs an extra model row sharing weights and KV cache to perform streaming safety checks.",
+        "On Qwen3-0.6B, it achieves higher F1 scores than dedicated streaming guards on 12 of 17 benchmarks.",
+        "It detects 11.8 more unsafe responses than a hidden-state probe while adding under 4% latency per token."
       ],
       "category": "Modèles",
       "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.23886",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.26975",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
       "imageUrl": "",
       "translations": {
         "en": {
-          "title": "Risk-Controlled Correction for Frozen Multimodal Models under Missing Modalities",
-          "summary": "Deployed multimodal predictors can encounter missing modalities after weights are frozen. The authors show that correctable error portions are characterized by the Bayes gap and propose GUARD (Gated Utility-Aware Recalibration for Deployment). GUARD leaves the deployed predictor unchanged, estimates candidate corrections via retrieval, and uses conformal risk control to bound the marginal probability of error tolerance violations.",
+          "title": "ToRA: Near-Free Streaming Safety Checks for Local LLMs",
+          "summary": "ToRA introduces an adapter that runs a second safety model as an extra row in a local LLM generator's decode step, sharing weights and the KV cache. Tested on Qwen3-0.6B, ToRA matches or beats dedicated streaming guards with under 4% added latency per token.",
           "keyPoints": [
-            "The correctable error from missing modalities is characterized by the Bayes gap.",
-            "GUARD estimates candidate corrections via retrieval and calibrates thresholds using conformal risk control.",
-            "Under exchangeability, GUARD bounds the marginal probability that correction loss exceeds a preset tolerance."
+            "ToRA runs an extra model row sharing weights and KV cache to perform streaming safety checks.",
+            "On Qwen3-0.6B, it achieves higher F1 scores than dedicated streaming guards on 12 of 17 benchmarks.",
+            "It detects 11.8 more unsafe responses than a hidden-state probe while adding under 4% latency per token."
           ]
         },
         "fr": {
-          "title": "Correction contrôlée par le risque pour modèles multimodaux figés avec modalités manquantes",
-          "summary": "Les prédicteurs multimodaux déployés peuvent faire face à des modalités manquantes après le figement des poids. Les auteurs montrent que les erreurs corrigibles sont caractérisées par l'écart de Bayes et proposent GUARD. GUARD estime des corrections candidates sans modifier le prédicteur déployé et utilise un contrôle du risque conforme.",
+          "title": "ToRA : Contrôles de sécurité en continu quasi gratuits pour LLM locaux",
+          "summary": "ToRA introduit un adaptateur qui exécute un second modèle de sécurité comme ligne supplémentaire dans l'étape de décodage d'un LLM local, partageant les poids et le cache KV. Testé sur Qwen3-0.6B, ToRA égale ou dépasse les gardes de streaming dédiés.",
           "keyPoints": [
-            "L'erreur corrigible due à des modalités manquantes est caractérisée par l'écart de Bayes.",
-            "GUARD estime des corrections candidates et calibre des seuils via un contrôle du risque conforme.",
-            "Sous échangeabilité, GUARD limite la probabilité marginale que la perte de correction dépasse un seuil."
+            "ToRA exécute une ligne de modèle supplémentaire partageant les poids et le cache KV pour la sécurité en continu.",
+            "Sur Qwen3-0.6B, il surpasse les gardes dédiés en termes de score F1 sur 12 benchmarks sur 17.",
+            "Il détecte 11,8 réponses non sécurisées de plus qu'une sonde d'état caché avec moins de 4 % de latence ajoutée par jeton."
           ]
         }
       },
       "quality": {
-        "confidence": 0.95,
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-14a959238623f2",
+      "title": "MixFold: Sub-4-Bit Mixed-Precision LLM Inference on Mobile NPUs",
+      "summary": "MixFold enables sub-4-bit mixed-precision LLM inference on mobile NPUs using output-channel grouping aligned with matrix-unit tiles. Tested on the Qualcomm Snapdragon 8 Elite Gen 5 NPU, MixFold achieves comparable or higher accuracy than llama.cpp formats while decoding 1.16-1.41 times faster and yielding higher energy efficiency.",
+      "keyPoints": [
+        "MixFold executes 3-bit and 2-bit weights using native integer operations without expanding wider during decoding.",
+        "It assigns datatypes to output-channel groups aligned with matrix-unit tiles for fine-grained precision.",
+        "On the Qualcomm Hexagon NPU, it decodes 1.16-1.41x faster and generates 1.5-4.3x more tokens per joule."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.26976",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MixFold: Sub-4-Bit Mixed-Precision LLM Inference on Mobile NPUs",
+          "summary": "MixFold enables sub-4-bit mixed-precision LLM inference on mobile NPUs using output-channel grouping aligned with matrix-unit tiles. Tested on the Qualcomm Snapdragon 8 Elite Gen 5 NPU, MixFold achieves comparable or higher accuracy than llama.cpp formats while decoding 1.16-1.41 times faster and yielding higher energy efficiency.",
+          "keyPoints": [
+            "MixFold executes 3-bit and 2-bit weights using native integer operations without expanding wider during decoding.",
+            "It assigns datatypes to output-channel groups aligned with matrix-unit tiles for fine-grained precision.",
+            "On the Qualcomm Hexagon NPU, it decodes 1.16-1.41x faster and generates 1.5-4.3x more tokens per joule."
+          ]
+        },
+        "fr": {
+          "title": "MixFold : Inférence LLM en précision mixte sous 4 bits sur NPU mobiles",
+          "summary": "MixFold permet l'inférence LLM en précision mixte sous 4 bits sur les NPU mobiles en utilisant un regroupement de canaux de sortie aligné sur les tuiles d'unités matricielles. Testé sur le NPU Qualcomm Snapdragon 8 Elite Gen 5, MixFold accélère le décodage.",
+          "keyPoints": [
+            "MixFold exécute des poids de 3 et 2 bits à l'aide d'opérations entières natives sans expansion de largeur.",
+            "Il attribue des types de données aux groupes de canaux de sortie alignés sur les tuiles d'unités matricielles.",
+            "Sur le NPU Qualcomm Hexagon, il décode 1,16 à 1,41 fois plus vite et génère plus de jetons par joule."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-902a2dfd566a09",
+      "title": "Evaluating Verification Accuracy in Letter-of-Credit Processing",
+      "summary": "Researchers evaluate letter-of-credit (LC) document examination requirement by requirement using a fine-tuned 9B parser and a deterministic verifier. Tested on 345 real LC cases, the parser detects 93% of atomic requirements and correctly verifies 82% of evaluable requirements, outperforming tool-using agents and few-shot prompting approaches.",
+      "keyPoints": [
+        "A language model converts letter-of-credit requirements into atomic conditions, verified via a deterministic verifier.",
+        "The on-premises 9B parser was fine-tuned exclusively on synthetic pairs derived from templates and public documents.",
+        "Across 345 real LC cases, the parser correctly verifies 82% of evaluable requirements, outperforming traditional tool agents."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.26988",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Evaluating Verification Accuracy in Letter-of-Credit Processing",
+          "summary": "Researchers evaluate letter-of-credit (LC) document examination requirement by requirement using a fine-tuned 9B parser and a deterministic verifier. Tested on 345 real LC cases, the parser detects 93% of atomic requirements and correctly verifies 82% of evaluable requirements, outperforming tool-using agents and few-shot prompting approaches.",
+          "keyPoints": [
+            "A language model converts letter-of-credit requirements into atomic conditions, verified via a deterministic verifier.",
+            "The on-premises 9B parser was fine-tuned exclusively on synthetic pairs derived from templates and public documents.",
+            "Across 345 real LC cases, the parser correctly verifies 82% of evaluable requirements, outperforming traditional tool agents."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation de la précision de vérification pour les lettres de crédit",
+          "summary": "Les chercheurs évaluent l'examen des documents de lettres de crédit (LC) exigence par exigence à l'aide d'un parseur 9B affiné et d'un vérificateur déterministe. Testé sur 345 cas réels de LC, le parseur détecte 93 % des exigences atomiques et en vérifie correctement 82 %.",
+          "keyPoints": [
+            "Un modèle de langage convertit les exigences de lettres de crédit en conditions atomiques vérifiées de manière déterministe.",
+            "Le parseur 9B sur site a été affiné uniquement sur des paires synthétiques issues de modèles et de documents publics.",
+            "Sur 345 cas de LC réels, le parseur vérifie correctement 82 % des exigences évaluables, surpassant les agents d'outils."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-91a05cc21f3ef9",
+      "title": "Reward Integrity in Adversarial RL for LLM Guardrails",
+      "summary": "This study examines reward fidelity in adversarial reinforcement learning loops used for red-teaming financial-services language-model guardrails. Evaluating decision models such as TypeSafe Jev and Laya against logged Opus judgments reveals that post-training significantly improves agreement and highlights the risk of false wins.",
+      "keyPoints": [
+        "The research investigates reward fidelity and false wins in adversarial reinforcement learning red-teaming loops.",
+        "TypeSafe Jev checks for the presence of prescribed personally identifiable information (PII) in attack inputs.",
+        "Post-training markedly improves decision models like Laya in agreeing with reference judge outcomes."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.26998",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Reward Integrity in Adversarial RL for LLM Guardrails",
+          "summary": "This study examines reward fidelity in adversarial reinforcement learning loops used for red-teaming financial-services language-model guardrails. Evaluating decision models such as TypeSafe Jev and Laya against logged Opus judgments reveals that post-training significantly improves agreement and highlights the risk of false wins.",
+          "keyPoints": [
+            "The research investigates reward fidelity and false wins in adversarial reinforcement learning red-teaming loops.",
+            "TypeSafe Jev checks for the presence of prescribed personally identifiable information (PII) in attack inputs.",
+            "Post-training markedly improves decision models like Laya in agreeing with reference judge outcomes."
+          ]
+        },
+        "fr": {
+          "title": "Intégrité des récompenses dans l'apprentissage par renforcement contradictoire",
+          "summary": "Cette étude examine la fidélité des récompenses dans les boucles d'apprentissage par renforcement contradictoire pour tester les garde-fous des LLM financiers. L'évaluation de modèles de décision comme TypeSafe Jev et Laya montre que le post-entraînement améliore l'accord.",
+          "keyPoints": [
+            "La recherche étudie la fidélité des récompenses et les faux succès dans les boucles d'apprentissage contradictoire.",
+            "TypeSafe Jev vérifie la présence d'informations personnelles identifiables (PII) prescrites dans les entrées d'attaque.",
+            "Le post-entraînement améliore nettement l'accord des modèles de décision tels que Laya avec les jugements de référence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d024ff698ac69c",
+      "title": "Scalable Evaluation of Medical AI Using Practice Recommendations",
+      "summary": "An automated pipeline extracts clinical criteria from practice recommendations to generate 3,200 scenarios across 436 BMJ Best Practice monographs. Using a clinician-calibrated autorater, the study shows that AI assistance with web search and multi-sample synthesis significantly raises primary care physician adherence from 50.5% to 70.0%.",
+      "keyPoints": [
+        "An automated pipeline extracts structured clinical criteria to generate 3,200 evaluation scenarios across care continuums.",
+        "A clinician-calibrated autorater grades responses using a 4-point rubric stratifying deviations by clinical severity.",
+        "In a study with 9 primary care physicians across 200 scenarios, AI assistance raised clinical adherence from 50.5% to 70.0%."
+      ],
+      "category": "Business",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27007",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Scalable Evaluation of Medical AI Using Practice Recommendations",
+          "summary": "An automated pipeline extracts clinical criteria from practice recommendations to generate 3,200 scenarios across 436 BMJ Best Practice monographs. Using a clinician-calibrated autorater, the study shows that AI assistance with web search and multi-sample synthesis significantly raises primary care physician adherence from 50.5% to 70.0%.",
+          "keyPoints": [
+            "An automated pipeline extracts structured clinical criteria to generate 3,200 evaluation scenarios across care continuums.",
+            "A clinician-calibrated autorater grades responses using a 4-point rubric stratifying deviations by clinical severity.",
+            "In a study with 9 primary care physicians across 200 scenarios, AI assistance raised clinical adherence from 50.5% to 70.0%."
+          ]
+        },
+        "fr": {
+          "title": "Évaluation évolutive de l'IA médicale via des recommandations cliniques",
+          "summary": "Un pipeline automatisé extrait des critères cliniques de recommandations pratiques pour générer 3 200 scénarios à travers 436 monographies BMJ Best Practice. À l'aide d'un évaluateur automatique, l'étude montre que l'assistance IA avec recherche web améliore l'adhésion des médecins.",
+          "keyPoints": [
+            "Un pipeline automatisé extrait des critères cliniques structurés pour générer 3 200 scénarios d'évaluation.",
+            "Un évaluateur automatique calibré par des cliniciens note les réponses sur une grille à 4 points.",
+            "Dans une étude menée auprès de 9 médecins, l'assistance de l'IA a fait passer l'adhésion clinique de 50,5 % à 70,0 %."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
         "needsReview": false
       }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 48,
+    "itemsCollected": 392,
     "itemsPublished": 20,
-    "newItems": 1,
-    "candidates": 1,
-    "batches": 1,
+    "newItems": 20,
+    "candidates": 20,
+    "batches": 2,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
