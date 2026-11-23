@@ -1,6 +1,396 @@
 {
-  "generatedAt": "2026-11-23T07:42:21.482Z",
+  "generatedAt": "2026-11-23T23:55:36.014Z",
   "items": [
+    {
+      "id": "feed-0e28a904d1414b",
+      "title": "RelaxQAT: Continuous Relaxation for Quantization-Aware Training",
+      "summary": "Low-bit quantization presents significant challenges due to limited levels and flat loss surfaces. To address this, researchers propose RelaxQAT, a continuous relaxation method that dynamically alters the bitwidth during model training. Experiments demonstrate up to 6.3% accuracy gains on vision tasks and up to 7.7% on natural language tasks compared to leading QAT methods.",
+      "keyPoints": [
+        "Introduces RelaxQAT for continuous bitwidth alteration during training.",
+        "Addresses flat quantization loss surfaces and low-bit challenges.",
+        "Achieves up to 6.3% vision and 7.7% NLP accuracy gains."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27056",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "RelaxQAT: Continuous Relaxation for Quantization-Aware Training",
+          "summary": "Low-bit quantization presents significant challenges due to limited levels and flat loss surfaces. To address this, researchers propose RelaxQAT, a continuous relaxation method that dynamically alters the bitwidth during model training. Experiments demonstrate up to 6.3% accuracy gains on vision tasks and up to 7.7% on natural language tasks compared to leading QAT methods.",
+          "keyPoints": [
+            "Introduces RelaxQAT for continuous bitwidth alteration during training.",
+            "Addresses flat quantization loss surfaces and low-bit challenges.",
+            "Achieves up to 6.3% vision and 7.7% NLP accuracy gains."
+          ]
+        },
+        "fr": {
+          "title": "RelaxQAT : Relaxation continue pour l'entraînement conscient de la quantification",
+          "summary": "La quantification à faible nombre de bits pose des problèmes majeurs en raison de surfaces de perte plates. Les chercheurs proposent RelaxQAT, une méthode de relaxation continue qui modifie progressivement la largeur de bits pendant l'entraînement. Les expériences montrent des gains de précision allant jusqu'à 6,3 % en vision et 7,7 % en traitement du langage.",
+          "keyPoints": [
+            "Présente RelaxQAT pour modifier continuellement la largeur de bits.",
+            "Résout les difficultés liées aux surfaces de perte de quantification.",
+            "Atteint jusqu'à 6,3 % de gains en vision et 7,7 % en NLP."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b2bcfcb184e5d5",
+      "title": "Dynamic Token Merging for Efficient Vision-Language Models",
+      "summary": "Dynamic Token Merging (DTM) is extended to vision-language models and decoder-only architectures as a general token deletion framework. Applying DTM to T5Gemma 2 and Gemma 3 reduces visual tokens and computational overhead while retaining high performance across multiple complex vision-language benchmarks.",
+      "keyPoints": [
+        "Extends Dynamic Token Merging to vision and decoder-only models.",
+        "Reduces computational overhead while maintaining high benchmark accuracy.",
+        "Shows significant efficiency gains on document, chart, and text-reading tasks."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27064",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Dynamic Token Merging for Efficient Vision-Language Models",
+          "summary": "Dynamic Token Merging (DTM) is extended to vision-language models and decoder-only architectures as a general token deletion framework. Applying DTM to T5Gemma 2 and Gemma 3 reduces visual tokens and computational overhead while retaining high performance across multiple complex vision-language benchmarks.",
+          "keyPoints": [
+            "Extends Dynamic Token Merging to vision and decoder-only models.",
+            "Reduces computational overhead while maintaining high benchmark accuracy.",
+            "Shows significant efficiency gains on document, chart, and text-reading tasks."
+          ]
+        },
+        "fr": {
+          "title": "Fusion dynamique de jetons pour des modèles vision-langage efficaces",
+          "summary": "La fusion dynamique de jetons (DTM) est étendue aux modèles vision-langage et aux architectures à décodeur unique comme cadre général de suppression de jetons. Son application à T5Gemma 2 et Gemma 3 réduit les jetons visuels tout en préservant les performances sur de nombreux benchmarks.",
+          "keyPoints": [
+            "Étend la fusion dynamique de jetons aux modèles visuels et de décodage.",
+            "Réduit la charge de calcul tout en maintenant une haute précision.",
+            "Montre des gains d'efficacité sur les tâches de lecture de graphiques et de documents."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0f525672fc51ab",
+      "title": "Decision Models As General-Purpose Process Reward Models",
+      "summary": "The authors introduce DM-PRM, a method that transforms general-purpose decision models into process reward models zero-shot, without requiring step labels, fine-tuning, or critics. Plugging into policy-gradient methods, DM-PRM significantly improves success rates on benchmarks like ALFWorld and WebShop compared to existing critic-based baselines.",
+      "keyPoints": [
+        "Introduces DM-PRM to turn decision models into process reward models zero-shot.",
+        "Requires no step labels, fine-tuning, or learned critics.",
+        "Boosts GRPO and outperforms state-of-the-art baselines on ALFWorld and WebShop."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27068",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Decision Models As General-Purpose Process Reward Models",
+          "summary": "The authors introduce DM-PRM, a method that transforms general-purpose decision models into process reward models zero-shot, without requiring step labels, fine-tuning, or critics. Plugging into policy-gradient methods, DM-PRM significantly improves success rates on benchmarks like ALFWorld and WebShop compared to existing critic-based baselines.",
+          "keyPoints": [
+            "Introduces DM-PRM to turn decision models into process reward models zero-shot.",
+            "Requires no step labels, fine-tuning, or learned critics.",
+            "Boosts GRPO and outperforms state-of-the-art baselines on ALFWorld and WebShop."
+          ]
+        },
+        "fr": {
+          "title": "Les modèles de décision comme modèles de récompense de processus",
+          "summary": "Les auteurs présentent DM-PRM, une méthode qui transforme les modèles de décision généraux en modèles de récompense de processus sans étiquettes d'étape ni réglage fin. Intégré aux méthodes de gradient de politique, DM-PRM améliore nettement les taux de réussite sur ALFWorld et WebShop.",
+          "keyPoints": [
+            "Introduit DM-PRM pour convertir des modèles de décision en zero-shot.",
+            "Ne nécessite aucune étiquette d'étape ni critique entraîné.",
+            "Améliore les performances sur ALFWorld et WebShop par rapport aux méthodes de référence."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-8762f2953cbd8c",
+      "title": "Spatial Reasoning through Weight-Space Programming and LoRA",
+      "summary": "Researchers evaluated weight-space programming and low-rank adaptation (LoRA) for spatial reasoning tasks using Qwen3.5-0.8B. While weight edits improved baseline performance modestly without harming other skills, supervised LoRA adaptation produced much larger target accuracy gains but caused interference and performance drops on neighboring tasks.",
+      "keyPoints": [
+        "Compares weight-space programming with gradient-based LoRA adaptation.",
+        "Public weight patches provided moderate gains while preserving other skills.",
+        "Trained LoRA adapters achieved high target accuracy but caused cross-task interference."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27089",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Spatial Reasoning through Weight-Space Programming and LoRA",
+          "summary": "Researchers evaluated weight-space programming and low-rank adaptation (LoRA) for spatial reasoning tasks using Qwen3.5-0.8B. While weight edits improved baseline performance modestly without harming other skills, supervised LoRA adaptation produced much larger target accuracy gains but caused interference and performance drops on neighboring tasks.",
+          "keyPoints": [
+            "Compares weight-space programming with gradient-based LoRA adaptation.",
+            "Public weight patches provided moderate gains while preserving other skills.",
+            "Trained LoRA adapters achieved high target accuracy but caused cross-task interference."
+          ]
+        },
+        "fr": {
+          "title": "Raisonnement spatial par programmation dans l'espace des poids et LoRA",
+          "summary": "Les chercheurs ont évalué la programmation de l'espace des poids et l'adaptation LoRA pour des tâches de raisonnement spatial. Alors que les modifications de poids préservaient les compétences annexes, l'adaptation supervisée LoRA offrait de grands gains ciblés mais causait des interférences sur d'autres tâches.",
+          "keyPoints": [
+            "Compare la programmation de l'espace des poids et l'adaptation LoRA.",
+            "Les correctifs de poids publics préservent les compétences voisines.",
+            "Les adaptateurs LoRA entraînés maximisent la précision cible mais créent des interférences."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d95460d7c4e585",
+      "title": "Quantifying Chain-of-Thought Faithfulness and Efficiency in LLMs",
+      "summary": "This paper operationalizes chain-of-thought (CoT) faithfulness and efficiency by representing reasoning as a semantic reasoning graph and decomposing predictive dependence. Findings reveal that answer-level unfaithfulness correlates with predictive uncertainty, and that accuracy and brevity alone provide incomplete assessments of reasoning quality.",
+      "keyPoints": [
+        "Represents chain-of-thought as a semantic reasoning graph to measure metrics.",
+        "Shows unfaithfulness consistently associates with higher predictive uncertainty.",
+        "Demonstrates that accuracy and brevity offer incomplete evaluations of reasoning."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27100",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Quantifying Chain-of-Thought Faithfulness and Efficiency in LLMs",
+          "summary": "This paper operationalizes chain-of-thought (CoT) faithfulness and efficiency by representing reasoning as a semantic reasoning graph and decomposing predictive dependence. Findings reveal that answer-level unfaithfulness correlates with predictive uncertainty, and that accuracy and brevity alone provide incomplete assessments of reasoning quality.",
+          "keyPoints": [
+            "Represents chain-of-thought as a semantic reasoning graph to measure metrics.",
+            "Shows unfaithfulness consistently associates with higher predictive uncertainty.",
+            "Demonstrates that accuracy and brevity offer incomplete evaluations of reasoning."
+          ]
+        },
+        "fr": {
+          "title": "Quantification de la fidélité et de l'efficacité de la chaîne de pensée",
+          "summary": "Cet article formalise la fidélité et l'efficacité des chaînes de pensée en représentant le raisonnement sous forme de graphe sémantique. Les résultats montrent que le manque de fidélité est corrélé à l'incertitude prédictive, et que la précision seule ne suffit pas pour évaluer la qualité du raisonnement.",
+          "keyPoints": [
+            "Représente la chaîne de pensée par un graphe de raisonnement sémantique.",
+            "Relie le manque de fidélité à une plus grande incertitude prédictive.",
+            "Indique que la précision et la concision ne suffisent pas pour évaluer le raisonnement."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-b6b5f90ee0597f",
+      "title": "CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?",
+      "summary": "CoEvoBench evaluates LLMs as researchers co-evolving both the model and harness of target agents across five domains within a 24-hour budget. While frontier models successfully make initial improvements, results indicate they cannot yet autonomously translate feedback from an improved system into subsequent recursive iterations.",
+      "keyPoints": [
+        "Introduces CoEvoBench to measure LLMs co-evolving agent models and harnesses.",
+        "Tests researchers over a 24-hour budget across five agentic domains.",
+        "Finds current LLMs make strong first improvements but struggle with recursive cycles."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27116",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?",
+          "summary": "CoEvoBench evaluates LLMs as researchers co-evolving both the model and harness of target agents across five domains within a 24-hour budget. While frontier models successfully make initial improvements, results indicate they cannot yet autonomously translate feedback from an improved system into subsequent recursive iterations.",
+          "keyPoints": [
+            "Introduces CoEvoBench to measure LLMs co-evolving agent models and harnesses.",
+            "Tests researchers over a 24-hour budget across five agentic domains.",
+            "Finds current LLMs make strong first improvements but struggle with recursive cycles."
+          ]
+        },
+        "fr": {
+          "title": "CoEvoBench : Les LLM peuvent-ils piloter la co-évolution des agents ?",
+          "summary": "CoEvoBench évalue les LLM en tant que chercheurs co-évoluant le modèle et le harnais d'agents cibles dans cinq domaines. Bien que les modèles de pointe réussissent de premières améliorations, ils ne parviennent pas encore à automatiser les itérations récursives suivantes.",
+          "keyPoints": [
+            "Introduit CoEvoBench pour évaluer la co-évolution des modèles et harnais d'agents.",
+            "Teste les capacités de recherche sur un budget de 24 heures.",
+            "Montre que les LLM actuels peinent à enchaîner les cycles de co-évolution récursive."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-5e769584a5310a",
+      "title": "Portable Active Recovery for Vision-Inertial Drones Under Outages",
+      "summary": "Addressing position-dependent visual outages where standard hovering fails, researchers introduce a portable recovery module for quadrotors that requires zero retraining. Operating via telemetry alone, the module improves worst-condition completion rates significantly across a comprehensive 48-scene benchmark.",
+      "keyPoints": [
+        "Introduces a portable active recovery module for position-dependent visual outages.",
+        "Attaches to host controllers with zero retraining and uses deployable telemetry.",
+        "Outperforms baseline methods on a 48-scene flight benchmark."
+      ],
+      "category": "Outils",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27121",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Portable Active Recovery for Vision-Inertial Drones Under Outages",
+          "summary": "Addressing position-dependent visual outages where standard hovering fails, researchers introduce a portable recovery module for quadrotors that requires zero retraining. Operating via telemetry alone, the module improves worst-condition completion rates significantly across a comprehensive 48-scene benchmark.",
+          "keyPoints": [
+            "Introduces a portable active recovery module for position-dependent visual outages.",
+            "Attaches to host controllers with zero retraining and uses deployable telemetry.",
+            "Outperforms baseline methods on a 48-scene flight benchmark."
+          ]
+        },
+        "fr": {
+          "title": "Récupération active portable pour drones face aux pannes visuelles",
+          "summary": "Face aux pannes visuelles dépendantes de la position où le vol stationnaire échoue, les chercheurs présentent un module de récupération portable pour quadricoptères sans réentraînement. Utilisant uniquement la télémétrie, le module améliore nettement les taux de réussite en conditions difficiles.",
+          "keyPoints": [
+            "Propose un module de récupération active pour pannes visuelles positionnelles.",
+            "S'intègre sans réentraînement et exploite les données de télémétrie.",
+            "Surpasse les méthodes de référence sur un benchmark de vol à 48 scènes."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-2f38fb0d4970ca",
+      "title": "Understanding Learning Dynamics of On-Policy Distillation Failures",
+      "summary": "On-policy distillation (OPD) can suffer from training instability, response length explosion, and spurious agreement. This paper investigates these dynamics by tracing failure mechanisms, showing how mismatched states disrupt learning and steer students toward unreliable states.",
+      "keyPoints": [
+        "Investigates instabilities and failures in on-policy distillation (OPD).",
+        "Traces learning dynamics and analyzes mismatched student-teacher states.",
+        "Explains how training on mismatched states leads to repetitive generations."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27125",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Understanding Learning Dynamics of On-Policy Distillation Failures",
+          "summary": "On-policy distillation (OPD) can suffer from training instability, response length explosion, and spurious agreement. This paper investigates these dynamics by tracing failure mechanisms, showing how mismatched states disrupt learning and steer students toward unreliable states.",
+          "keyPoints": [
+            "Investigates instabilities and failures in on-policy distillation (OPD).",
+            "Traces learning dynamics and analyzes mismatched student-teacher states.",
+            "Explains how training on mismatched states leads to repetitive generations."
+          ]
+        },
+        "fr": {
+          "title": "Dynamique d'apprentissage et échecs de la distillation en politique",
+          "summary": "La distillation en politique (OPD) peut souffrir d'instabilités d'entraînement et d'accords fallacieux. Cet article étudie ces dynamiques en retraçant les mécanismes d'échec, démontrant comment les états inadaptés perturbent l'apprentissage et poussent le modèle vers des comportements répétitifs.",
+          "keyPoints": [
+            "Étudie les instabilités de la distillation en politique (OPD).",
+            "Analyse les états mal assortis entre l'étudiant et l'enseignant.",
+            "Explique comment ces écarts mènent à des générations répétitives."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-0dc04413cef3cd",
+      "title": "MAPES: Multi-Value Alignment Pipeline via Expert Specialization",
+      "summary": "MAPES is a multi-value alignment paradigm designed to handle competing human values in LLMs by treating conflict resolution as a core concern. It decomposes supervision into value-specific experts in isolated subspaces and recomposes them via preference-aware merging and harmonization, outperforming standard baseline methods.",
+      "keyPoints": [
+        "Proposes MAPES to resolve competing human values during LLM alignment.",
+        "Decomposes supervision into value-specific experts in isolated subspaces.",
+        "Recomposes models using preference-aware merging and harmonization stages."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27133",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "MAPES: Multi-Value Alignment Pipeline via Expert Specialization",
+          "summary": "MAPES is a multi-value alignment paradigm designed to handle competing human values in LLMs by treating conflict resolution as a core concern. It decomposes supervision into value-specific experts in isolated subspaces and recomposes them via preference-aware merging and harmonization, outperforming standard baseline methods.",
+          "keyPoints": [
+            "Proposes MAPES to resolve competing human values during LLM alignment.",
+            "Decomposes supervision into value-specific experts in isolated subspaces.",
+            "Recomposes models using preference-aware merging and harmonization stages."
+          ]
+        },
+        "fr": {
+          "title": "MAPES : Pipeline d'alignement multi-valeurs par spécialisation d'experts",
+          "summary": "MAPES est un paradigme d'alignement multi-valeurs conçu pour gérer des valeurs humaines concurrentes dans les LLM. Il décompose la supervision en experts spécialisés dans des sous-espaces isolés puis les recompose via une fusion et une harmonisation conscientes des préférences.",
+          "keyPoints": [
+            "Propose MAPES pour résoudre les conflits de valeurs lors de l'alignement.",
+            "Décompose la supervision en experts spécifiques dans des sous-espaces.",
+            "Recompose les modèles via une fusion et une harmonisation adaptées."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-413135b2b55fdc",
+      "title": "Analyzing Double Counting in LLM Evidence Fusion",
+      "summary": "Language models fusing reports from shared sources can suffer from evidence double counting. Researchers build a graded-dependence exact reference framework to evaluate model rule compliance and posterior gains, testing various receiver configurations across thousands of synthetic worlds.",
+      "keyPoints": [
+        "Examines evidence double counting in LLM retrieval and agent consensus.",
+        "Builds a graded-dependence exact reference to price rules and measure risk.",
+        "Evaluates multiple model configurations across thousands of test scenarios."
+      ],
+      "category": "Modèles",
+      "sourceName": "arXiv cs.AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27138",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "imageUrl": "",
+      "translations": {
+        "en": {
+          "title": "Analyzing Double Counting in LLM Evidence Fusion",
+          "summary": "Language models fusing reports from shared sources can suffer from evidence double counting. Researchers build a graded-dependence exact reference framework to evaluate model rule compliance and posterior gains, testing various receiver configurations across thousands of synthetic worlds.",
+          "keyPoints": [
+            "Examines evidence double counting in LLM retrieval and agent consensus.",
+            "Builds a graded-dependence exact reference to price rules and measure risk.",
+            "Evaluates multiple model configurations across thousands of test scenarios."
+          ]
+        },
+        "fr": {
+          "title": "Analyse du double comptage dans la fusion de preuves par les LLM",
+          "summary": "Les grands modèles de langage fusionnant des rapports issus de sources partagées risquent de compter double les preuves. Les chercheurs construient un cadre de référence exact à dépendance graduée pour évaluer la conformité des règles et les gains a posteriori des modèles.",
+          "keyPoints": [
+            "Examine le double comptage de preuves dans le consensus des agents LLM.",
+            "Construit un cadre de référence exact pour évaluer les risques.",
+            "Évalue plusieurs configurations de modèles sur des milliers de scénarios."
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 0.95,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-cd02a86f341630",
       "title": "How AI Team Size and Formation Shape Brainstorming",
@@ -390,403 +780,13 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-dae9992927e484",
-      "title": "Self-Evolving LLM Agent for EDA Scripting",
-      "summary": "ZhuLong-SE is an execution-grounded LLM agent designed to overcome challenges in EDA scripting, such as sparse documentation and silent failures. By incorporating API retrieval, sandbox execution, and a three-tier memory store governed by ground-truth anchoring and disconfirmation filtering, it achieves a 92.4% pass@1 rate on the EDA-Eval-PyAether benchmark and outperforms human-crafted baselines on disjoint tests.",
-      "keyPoints": [
-        "ZhuLong-SE learns reusable knowledge from prior task traces using governed cross-task self-evolution.",
-        "It achieves 92.4% pass@1 on the 158-task EDA-Eval-PyAether benchmark with self-evolution disabled.",
-        "On a harder instance-disjoint test set, its self-evolution surpasses a human-crafted-experience baseline by 2.5 percentage points."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26912",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Self-Evolving LLM Agent for EDA Scripting",
-          "summary": "ZhuLong-SE is an execution-grounded LLM agent designed to overcome challenges in EDA scripting, such as sparse documentation and silent failures. By incorporating API retrieval, sandbox execution, and a three-tier memory store governed by ground-truth anchoring and disconfirmation filtering, it achieves a 92.4% pass@1 rate on the EDA-Eval-PyAether benchmark and outperforms human-crafted baselines on disjoint tests.",
-          "keyPoints": [
-            "ZhuLong-SE learns reusable knowledge from prior task traces using governed cross-task self-evolution.",
-            "It achieves 92.4% pass@1 on the 158-task EDA-Eval-PyAether benchmark with self-evolution disabled.",
-            "On a harder instance-disjoint test set, its self-evolution surpasses a human-crafted-experience baseline by 2.5 percentage points."
-          ]
-        },
-        "fr": {
-          "title": "Agent LLM auto-évolutif pour les scripts EDA",
-          "summary": "ZhuLong-SE est un agent LLM ancré dans l'exécution conçu pour surmonter les difficultés des scripts EDA, telles que la documentation éparse. En intégrant la récupération d'API, l'exécution en bac à sable et un stockage en mémoire à trois niveaux, il atteint un taux de réussite de 92,4 % sur le benchmark EDA-Eval-PyAether et surpasse les références humaines.",
-          "keyPoints": [
-            "ZhuLong-SE apprend des traces de tâches antérieures grâce à une auto-évolution inter-tâches encadrée.",
-            "Il atteint 92,4 % de réussite sur le benchmark EDA-Eval-PyAether de 158 tâches avec l'auto-évolution désactivée.",
-            "Sur un ensemble de test disjoint plus difficile, son auto-évolution dépasse une référence conçue par l'homme de 2,5 points de pourcentage."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-14beffb876731c",
-      "title": "Self-Similar Organization of Information in Language",
-      "summary": "Researchers developed a theory for the organization of predictive information in text based on scaling behavior. By observing scaling collapse in long documents, they showed that predictive information has a self-similar structure across length scales, providing quantitative support for the idea that conditioning on more distant text reveals new structure to LLMs.",
-      "keyPoints": [
-        "A theory is developed for predictive information organization based on scaling behavior in language.",
-        "Scaling collapse is observed in long text documents, demonstrating a self-similar structure across length scales.",
-        "The findings support the observation that conditioning on distant text reveals new structure to large language models."
-      ],
-      "category": "Open Source",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26935",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Self-Similar Organization of Information in Language",
-          "summary": "Researchers developed a theory for the organization of predictive information in text based on scaling behavior. By observing scaling collapse in long documents, they showed that predictive information has a self-similar structure across length scales, providing quantitative support for the idea that conditioning on more distant text reveals new structure to LLMs.",
-          "keyPoints": [
-            "A theory is developed for predictive information organization based on scaling behavior in language.",
-            "Scaling collapse is observed in long text documents, demonstrating a self-similar structure across length scales.",
-            "The findings support the observation that conditioning on distant text reveals new structure to large language models."
-          ]
-        },
-        "fr": {
-          "title": "Organisation autosimilaire de l'information dans le langage",
-          "summary": "Des chercheurs ont développé une théorie sur l'organisation de l'information prédictive dans le texte basée sur le comportement d'échelle. En observant l'effondrement d'échelle dans de longs documents, ils ont démontré que l'information prédictive possède une structure autosimilaire.",
-          "keyPoints": [
-            "Une théorie est développée pour l'organisation de l'information prédictive basée sur le comportement d'échelle dans le langage.",
-            "L'effondrement d'échelle est observé dans de longs documents textuels, démontrant une structure autosimilaire.",
-            "Ces résultats soutiennent l'observation selon laquelle le conditionnement sur du texte distant révèle de nouvelles structures aux grands modèles de langage."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-8c1854f784a023",
-      "title": "CodeReviewBench: An Automated Benchmark for Software Factories",
-      "summary": "CodeReviewBench evaluates software factory AI agents using revealed developer preferences mined daily from the public GitHub event stream. Covering over 500K judged PRs across 18 tools, it tracks whether developers act on bot suggestions to determine usefulness, aligning with real-world product updates and vendor releases.",
-      "keyPoints": [
-        "CodeReviewBench uses revealed developer preferences as a signal, mining public GitHub event streams daily.",
-        "The benchmark encompasses over 500,000 judged pull requests across 18 tools.",
-        "Developer preferences are validated against an independent offline benchmark, matching precision rankings and product updates."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26942",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "CodeReviewBench: An Automated Benchmark for Software Factories",
-          "summary": "CodeReviewBench evaluates software factory AI agents using revealed developer preferences mined daily from the public GitHub event stream. Covering over 500K judged PRs across 18 tools, it tracks whether developers act on bot suggestions to determine usefulness, aligning with real-world product updates and vendor releases.",
-          "keyPoints": [
-            "CodeReviewBench uses revealed developer preferences as a signal, mining public GitHub event streams daily.",
-            "The benchmark encompasses over 500,000 judged pull requests across 18 tools.",
-            "Developer preferences are validated against an independent offline benchmark, matching precision rankings and product updates."
-          ]
-        },
-        "fr": {
-          "title": "CodeReviewBench : Un benchmark automatisé pour l'usine logicielle",
-          "summary": "CodeReviewBench évalue les agents IA d'usine logicielle en utilisant les préférences des développeurs extraites quotidiennement du flux d'événements GitHub public. Couvrant plus de 500 000 PR évaluées sur 18 outils, il suit l'utilité des suggestions de bots.",
-          "keyPoints": [
-            "CodeReviewBench utilise les préférences des développeurs comme signal en extrayant quotidiennement les flux d'événements GitHub.",
-            "Le benchmark comprend plus de 500 000 demandes de tirage (PR) évaluées sur 18 outils.",
-            "Les préférences des développeurs sont validées par rapport à un benchmark hors ligne indépendant."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7674d7520cee73",
-      "title": "Runtime Governance for Tool-Using AI Agents via OPCP",
-      "summary": "The Open Process Control Plane (OPCP) mediates capability calls and records uncertain outcomes for tool-using AI agents, separating proposals from business-controlled authority. Evaluations across 2,400 fault episodes and multiple configurations show it recovers after definite refusal without cross-supplier duplication, though persistent runtime state and supplier idempotency are required.",
-      "keyPoints": [
-        "OPCP acts as an execution boundary separating agent proposals from business-controlled authority and supplier selection.",
-        "Evaluations covered 2,400 fault episodes across four policies and 19,000 timed calls across 19 configurations without evaluating language models.",
-        "Best-score routing at 128 suppliers showed a median latency of 1.411 ms compared to 0.261 ms for pinned routing."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26966",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Runtime Governance for Tool-Using AI Agents via OPCP",
-          "summary": "The Open Process Control Plane (OPCP) mediates capability calls and records uncertain outcomes for tool-using AI agents, separating proposals from business-controlled authority. Evaluations across 2,400 fault episodes and multiple configurations show it recovers after definite refusal without cross-supplier duplication, though persistent runtime state and supplier idempotency are required.",
-          "keyPoints": [
-            "OPCP acts as an execution boundary separating agent proposals from business-controlled authority and supplier selection.",
-            "Evaluations covered 2,400 fault episodes across four policies and 19,000 timed calls across 19 configurations without evaluating language models.",
-            "Best-score routing at 128 suppliers showed a median latency of 1.411 ms compared to 0.261 ms for pinned routing."
-          ]
-        },
-        "fr": {
-          "title": "Gouvernance d'exécution pour agents IA utilisant des outils",
-          "summary": "L'Open Process Control Plane (OPCP) médie les appels de capacité et enregistre les résultats incertains pour les agents IA utilisant des outils. Des évaluations sur 2 400 épisodes de pannes démontrent une récupération après un refus net sans duplication inter-fournisseur.",
-          "keyPoints": [
-            "L'OPCP sert de frontière d'exécution séparant les propositions d'agents de l'autorité contrôlée par l'entreprise.",
-            "Les évaluations ont couvert 2 400 épisodes de pannes et 19 000 appels minutés sans évaluer de modèles de langage.",
-            "Le routage par meilleur score avec 128 fournisseurs a affiché une latence médiane de 1,411 ms."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-b3dd5830b7fd02",
-      "title": "FrameCheck: Preventing Unsupported LLM Financial Narratives",
-      "summary": "LLM financial drafts often contain unsupported framing, adding unsupplied judgments and causes despite accurate numbers. FrameCheck is a plug-in that sits between the LLM and human review, using professional examples and rule-based removal to eliminate unsupported framing and bring judgment rates close to professional 10-K filers.",
-      "keyPoints": [
-        "FrameCheck addresses unsupported framing in LLM-drafted financial reports without requiring additional model calls.",
-        "It guides drafts with professional examples, flags unwarranted judgments, and removes them through deterministic rules.",
-        "Experiments across 17 open LLMs and 3M drafts show FrameCheck successfully removes nearly all unsupported framing."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26968",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "FrameCheck: Preventing Unsupported LLM Financial Narratives",
-          "summary": "LLM financial drafts often contain unsupported framing, adding unsupplied judgments and causes despite accurate numbers. FrameCheck is a plug-in that sits between the LLM and human review, using professional examples and rule-based removal to eliminate unsupported framing and bring judgment rates close to professional 10-K filers.",
-          "keyPoints": [
-            "FrameCheck addresses unsupported framing in LLM-drafted financial reports without requiring additional model calls.",
-            "It guides drafts with professional examples, flags unwarranted judgments, and removes them through deterministic rules.",
-            "Experiments across 17 open LLMs and 3M drafts show FrameCheck successfully removes nearly all unsupported framing."
-          ]
-        },
-        "fr": {
-          "title": "FrameCheck : Prévenir les récits financiers non soutenus des LLM",
-          "summary": "Les brouillons financiers des LLM contiennent souvent des cadrages non soutenus, ajoutant des jugements non fournis malgré des chiffres exacts. FrameCheck est un module complémentaire qui supprime ces biais grâce à des règles et des exemples professionnels.",
-          "keyPoints": [
-            "FrameCheck traite le cadrage non soutenu dans les rapports financiers générés par LLM sans appels de modèle supplémentaires.",
-            "Il guide les brouillons avec des exemples professionnels et supprime les jugements injustifiés par des règles.",
-            "Des expériences sur 17 LLM ouverts et 3 millions de brouillons montrent que FrameCheck élimine presque tout le cadrage non soutenu."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-14dcac9f333a38",
-      "title": "ToRA: Near-Free Streaming Safety Checks for Local LLMs",
-      "summary": "ToRA introduces an adapter that runs a second safety model as an extra row in a local LLM generator's decode step, sharing weights and the KV cache. Tested on Qwen3-0.6B, ToRA matches or beats dedicated streaming guards with under 4% added latency per token.",
-      "keyPoints": [
-        "ToRA runs an extra model row sharing weights and KV cache to perform streaming safety checks.",
-        "On Qwen3-0.6B, it achieves higher F1 scores than dedicated streaming guards on 12 of 17 benchmarks.",
-        "It detects 11.8 more unsafe responses than a hidden-state probe while adding under 4% latency per token."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26975",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "ToRA: Near-Free Streaming Safety Checks for Local LLMs",
-          "summary": "ToRA introduces an adapter that runs a second safety model as an extra row in a local LLM generator's decode step, sharing weights and the KV cache. Tested on Qwen3-0.6B, ToRA matches or beats dedicated streaming guards with under 4% added latency per token.",
-          "keyPoints": [
-            "ToRA runs an extra model row sharing weights and KV cache to perform streaming safety checks.",
-            "On Qwen3-0.6B, it achieves higher F1 scores than dedicated streaming guards on 12 of 17 benchmarks.",
-            "It detects 11.8 more unsafe responses than a hidden-state probe while adding under 4% latency per token."
-          ]
-        },
-        "fr": {
-          "title": "ToRA : Contrôles de sécurité en continu quasi gratuits pour LLM locaux",
-          "summary": "ToRA introduit un adaptateur qui exécute un second modèle de sécurité comme ligne supplémentaire dans l'étape de décodage d'un LLM local, partageant les poids et le cache KV. Testé sur Qwen3-0.6B, ToRA égale ou dépasse les gardes de streaming dédiés.",
-          "keyPoints": [
-            "ToRA exécute une ligne de modèle supplémentaire partageant les poids et le cache KV pour la sécurité en continu.",
-            "Sur Qwen3-0.6B, il surpasse les gardes dédiés en termes de score F1 sur 12 benchmarks sur 17.",
-            "Il détecte 11,8 réponses non sécurisées de plus qu'une sonde d'état caché avec moins de 4 % de latence ajoutée par jeton."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-14a959238623f2",
-      "title": "MixFold: Sub-4-Bit Mixed-Precision LLM Inference on Mobile NPUs",
-      "summary": "MixFold enables sub-4-bit mixed-precision LLM inference on mobile NPUs using output-channel grouping aligned with matrix-unit tiles. Tested on the Qualcomm Snapdragon 8 Elite Gen 5 NPU, MixFold achieves comparable or higher accuracy than llama.cpp formats while decoding 1.16-1.41 times faster and yielding higher energy efficiency.",
-      "keyPoints": [
-        "MixFold executes 3-bit and 2-bit weights using native integer operations without expanding wider during decoding.",
-        "It assigns datatypes to output-channel groups aligned with matrix-unit tiles for fine-grained precision.",
-        "On the Qualcomm Hexagon NPU, it decodes 1.16-1.41x faster and generates 1.5-4.3x more tokens per joule."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26976",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "MixFold: Sub-4-Bit Mixed-Precision LLM Inference on Mobile NPUs",
-          "summary": "MixFold enables sub-4-bit mixed-precision LLM inference on mobile NPUs using output-channel grouping aligned with matrix-unit tiles. Tested on the Qualcomm Snapdragon 8 Elite Gen 5 NPU, MixFold achieves comparable or higher accuracy than llama.cpp formats while decoding 1.16-1.41 times faster and yielding higher energy efficiency.",
-          "keyPoints": [
-            "MixFold executes 3-bit and 2-bit weights using native integer operations without expanding wider during decoding.",
-            "It assigns datatypes to output-channel groups aligned with matrix-unit tiles for fine-grained precision.",
-            "On the Qualcomm Hexagon NPU, it decodes 1.16-1.41x faster and generates 1.5-4.3x more tokens per joule."
-          ]
-        },
-        "fr": {
-          "title": "MixFold : Inférence LLM en précision mixte sous 4 bits sur NPU mobiles",
-          "summary": "MixFold permet l'inférence LLM en précision mixte sous 4 bits sur les NPU mobiles en utilisant un regroupement de canaux de sortie aligné sur les tuiles d'unités matricielles. Testé sur le NPU Qualcomm Snapdragon 8 Elite Gen 5, MixFold accélère le décodage.",
-          "keyPoints": [
-            "MixFold exécute des poids de 3 et 2 bits à l'aide d'opérations entières natives sans expansion de largeur.",
-            "Il attribue des types de données aux groupes de canaux de sortie alignés sur les tuiles d'unités matricielles.",
-            "Sur le NPU Qualcomm Hexagon, il décode 1,16 à 1,41 fois plus vite et génère plus de jetons par joule."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-902a2dfd566a09",
-      "title": "Evaluating Verification Accuracy in Letter-of-Credit Processing",
-      "summary": "Researchers evaluate letter-of-credit (LC) document examination requirement by requirement using a fine-tuned 9B parser and a deterministic verifier. Tested on 345 real LC cases, the parser detects 93% of atomic requirements and correctly verifies 82% of evaluable requirements, outperforming tool-using agents and few-shot prompting approaches.",
-      "keyPoints": [
-        "A language model converts letter-of-credit requirements into atomic conditions, verified via a deterministic verifier.",
-        "The on-premises 9B parser was fine-tuned exclusively on synthetic pairs derived from templates and public documents.",
-        "Across 345 real LC cases, the parser correctly verifies 82% of evaluable requirements, outperforming traditional tool agents."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26988",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Evaluating Verification Accuracy in Letter-of-Credit Processing",
-          "summary": "Researchers evaluate letter-of-credit (LC) document examination requirement by requirement using a fine-tuned 9B parser and a deterministic verifier. Tested on 345 real LC cases, the parser detects 93% of atomic requirements and correctly verifies 82% of evaluable requirements, outperforming tool-using agents and few-shot prompting approaches.",
-          "keyPoints": [
-            "A language model converts letter-of-credit requirements into atomic conditions, verified via a deterministic verifier.",
-            "The on-premises 9B parser was fine-tuned exclusively on synthetic pairs derived from templates and public documents.",
-            "Across 345 real LC cases, the parser correctly verifies 82% of evaluable requirements, outperforming traditional tool agents."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation de la précision de vérification pour les lettres de crédit",
-          "summary": "Les chercheurs évaluent l'examen des documents de lettres de crédit (LC) exigence par exigence à l'aide d'un parseur 9B affiné et d'un vérificateur déterministe. Testé sur 345 cas réels de LC, le parseur détecte 93 % des exigences atomiques et en vérifie correctement 82 %.",
-          "keyPoints": [
-            "Un modèle de langage convertit les exigences de lettres de crédit en conditions atomiques vérifiées de manière déterministe.",
-            "Le parseur 9B sur site a été affiné uniquement sur des paires synthétiques issues de modèles et de documents publics.",
-            "Sur 345 cas de LC réels, le parseur vérifie correctement 82 % des exigences évaluables, surpassant les agents d'outils."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-91a05cc21f3ef9",
-      "title": "Reward Integrity in Adversarial RL for LLM Guardrails",
-      "summary": "This study examines reward fidelity in adversarial reinforcement learning loops used for red-teaming financial-services language-model guardrails. Evaluating decision models such as TypeSafe Jev and Laya against logged Opus judgments reveals that post-training significantly improves agreement and highlights the risk of false wins.",
-      "keyPoints": [
-        "The research investigates reward fidelity and false wins in adversarial reinforcement learning red-teaming loops.",
-        "TypeSafe Jev checks for the presence of prescribed personally identifiable information (PII) in attack inputs.",
-        "Post-training markedly improves decision models like Laya in agreeing with reference judge outcomes."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26998",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Reward Integrity in Adversarial RL for LLM Guardrails",
-          "summary": "This study examines reward fidelity in adversarial reinforcement learning loops used for red-teaming financial-services language-model guardrails. Evaluating decision models such as TypeSafe Jev and Laya against logged Opus judgments reveals that post-training significantly improves agreement and highlights the risk of false wins.",
-          "keyPoints": [
-            "The research investigates reward fidelity and false wins in adversarial reinforcement learning red-teaming loops.",
-            "TypeSafe Jev checks for the presence of prescribed personally identifiable information (PII) in attack inputs.",
-            "Post-training markedly improves decision models like Laya in agreeing with reference judge outcomes."
-          ]
-        },
-        "fr": {
-          "title": "Intégrité des récompenses dans l'apprentissage par renforcement contradictoire",
-          "summary": "Cette étude examine la fidélité des récompenses dans les boucles d'apprentissage par renforcement contradictoire pour tester les garde-fous des LLM financiers. L'évaluation de modèles de décision comme TypeSafe Jev et Laya montre que le post-entraînement améliore l'accord.",
-          "keyPoints": [
-            "La recherche étudie la fidélité des récompenses et les faux succès dans les boucles d'apprentissage contradictoire.",
-            "TypeSafe Jev vérifie la présence d'informations personnelles identifiables (PII) prescrites dans les entrées d'attaque.",
-            "Le post-entraînement améliore nettement l'accord des modèles de décision tels que Laya avec les jugements de référence."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d024ff698ac69c",
-      "title": "Scalable Evaluation of Medical AI Using Practice Recommendations",
-      "summary": "An automated pipeline extracts clinical criteria from practice recommendations to generate 3,200 scenarios across 436 BMJ Best Practice monographs. Using a clinician-calibrated autorater, the study shows that AI assistance with web search and multi-sample synthesis significantly raises primary care physician adherence from 50.5% to 70.0%.",
-      "keyPoints": [
-        "An automated pipeline extracts structured clinical criteria to generate 3,200 evaluation scenarios across care continuums.",
-        "A clinician-calibrated autorater grades responses using a 4-point rubric stratifying deviations by clinical severity.",
-        "In a study with 9 primary care physicians across 200 scenarios, AI assistance raised clinical adherence from 50.5% to 70.0%."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.27007",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Scalable Evaluation of Medical AI Using Practice Recommendations",
-          "summary": "An automated pipeline extracts clinical criteria from practice recommendations to generate 3,200 scenarios across 436 BMJ Best Practice monographs. Using a clinician-calibrated autorater, the study shows that AI assistance with web search and multi-sample synthesis significantly raises primary care physician adherence from 50.5% to 70.0%.",
-          "keyPoints": [
-            "An automated pipeline extracts structured clinical criteria to generate 3,200 evaluation scenarios across care continuums.",
-            "A clinician-calibrated autorater grades responses using a 4-point rubric stratifying deviations by clinical severity.",
-            "In a study with 9 primary care physicians across 200 scenarios, AI assistance raised clinical adherence from 50.5% to 70.0%."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation évolutive de l'IA médicale via des recommandations cliniques",
-          "summary": "Un pipeline automatisé extrait des critères cliniques de recommandations pratiques pour générer 3 200 scénarios à travers 436 monographies BMJ Best Practice. À l'aide d'un évaluateur automatique, l'étude montre que l'assistance IA avec recherche web améliore l'adhésion des médecins.",
-          "keyPoints": [
-            "Un pipeline automatisé extrait des critères cliniques structurés pour générer 3 200 scénarios d'évaluation.",
-            "Un évaluateur automatique calibré par des cliniciens note les réponses sur une grille à 4 points.",
-            "Dans une étude menée auprès de 9 médecins, l'assistance de l'IA a fait passer l'adhésion clinique de 50,5 % à 70,0 %."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
     "itemsCollected": 392,
     "itemsPublished": 20,
-    "newItems": 20,
+    "newItems": 10,
     "candidates": 20,
     "batches": 2,
     "batchSize": 10,
