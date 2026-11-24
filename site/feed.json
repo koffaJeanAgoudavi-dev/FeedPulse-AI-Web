@@ -1,6 +1,201 @@
 {
-  "generatedAt": "2026-11-23T23:55:36.014Z",
+  "generatedAt": "2026-11-24T09:56:45.189Z",
   "items": [
+    {
+      "id": "feed-b0689cf87ab570",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "summary": "OpenAI and Cisco have introduced Shirudo, an open-source runtime for Linux designed to help teams protect running systems while rolling out patches.",
+      "keyPoints": [
+        "Introduced by OpenAI and Cisco",
+        "Open-source runtime for Linux",
+        "Protects running systems during patching"
+      ],
+      "category": "Open Source",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-shirudo",
+      "publishedAt": "2026-11-23T21:20:00.000Z",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&amp;h=900&amp;fit=fill",
+      "translations": {
+        "en": {
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "summary": "OpenAI and Cisco have introduced Shirudo, an open-source runtime for Linux designed to help teams protect running systems while rolling out patches.",
+          "keyPoints": [
+            "Introduced by OpenAI and Cisco",
+            "Open-source runtime for Linux",
+            "Protects running systems during patching"
+          ]
+        },
+        "fr": {
+          "title": "OpenAI et Cisco présentent Shirudo",
+          "summary": "OpenAI et Cisco ont présenté Shirudo, un runtime open-source pour Linux conçu pour aider les équipes à protéger les systèmes en cours d'exécution lors du déploiement de correctifs.",
+          "keyPoints": [
+            "Présenté par OpenAI et Cisco",
+            "Runtime open-source pour Linux",
+            "Protège les systèmes en cours d'exécution"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-d6fdac3c20f42b",
+      "title": "A more tailored Google Search that's uniquely yours",
+      "summary": "Users can get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "keyPoints": [
+        "Provides more tailored Search responses",
+        "Requires secure opt-in",
+        "Connects Google Wallet, Drive, and Gemini to Personal Intelligence"
+      ],
+      "category": "Outils",
+      "sourceName": "Google AI Blog",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "publishedAt": "2026-11-23T17:00:00.000Z",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.width-1300.png",
+      "translations": {
+        "en": {
+          "title": "A more tailored Google Search that's uniquely yours",
+          "summary": "Users can get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+          "keyPoints": [
+            "Provides more tailored Search responses",
+            "Requires secure opt-in",
+            "Connects Google Wallet, Drive, and Gemini to Personal Intelligence"
+          ]
+        },
+        "fr": {
+          "title": "Une recherche Google plus personnalisée",
+          "summary": "Les utilisateurs peuvent obtenir des réponses de recherche plus utiles en choisissant de connecter en toute sécurité Google Wallet, Drive et l'application Gemini à Personal Intelligence en mode IA.",
+          "keyPoints": [
+            "Fournit des réponses de recherche plus personnalisées",
+            "Nécessite une inscription sécurisée",
+            "Connecte Google Wallet, Drive et Gemini"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-3ffa5c39e01e34",
+      "title": "Finding faster quantum algorithms with agents",
+      "summary": "Google DeepMind is using agent teams and formal verification to improve quantum algorithms for fusion and chemistry applications.",
+      "keyPoints": [
+        "Uses agent teams for discovery",
+        "Employs formal verification methods",
+        "Targets quantum algorithms for fusion and chemistry"
+      ],
+      "category": "Modèles",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "publishedAt": "2026-11-23T16:59:40.000Z",
+      "imageUrl": "https://lh3.googleusercontent.com/ppTuFPcwer2JwP-NysiQGW7mZrWpEmV6QsV_YD6IJn-skKzS1jTbtLbietmjpGkVxUOZBn3jQaCKfzcJVVR1FvvS-3QglWPDyh520ZSF7tvsHtdy=w1440-h810-n-nu",
+      "translations": {
+        "en": {
+          "title": "Finding faster quantum algorithms with agents",
+          "summary": "Google DeepMind is using agent teams and formal verification to improve quantum algorithms for fusion and chemistry applications.",
+          "keyPoints": [
+            "Uses agent teams for discovery",
+            "Employs formal verification methods",
+            "Targets quantum algorithms for fusion and chemistry"
+          ]
+        },
+        "fr": {
+          "title": "Trouver des algorithmes quantiques plus rapides",
+          "summary": "Google DeepMind utilise des équipes d'agents et la vérification formelle pour améliorer les algorithmes quantiques destinés à la fusion et à la chimie.",
+          "keyPoints": [
+            "Utilise des équipes d'agents pour la découverte",
+            "Emploie des méthodes de vérification formelle",
+            "Cible les algorithmes pour la fusion et la chimie"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-10878202550bbb",
+      "title": "Connected intelligence for in-house legal teams",
+      "summary": "OpenAI's Stacey Wang, Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI helps in-house legal teams connect context, build workflows, and optimize outside counsel.",
+      "keyPoints": [
+        "Features experts from OpenAI, LECG, and Cooley",
+        "Connects business context for legal teams",
+        "Builds reusable workflows and optimizes outside counsel"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/40q0vnGDp1zwWuJrVjXtu6/79ebb13b84e11ce1711a27adfd6ffafe/connected-intelligence-for-in-house-legal-cover.png?w=1600&amp;h=900&amp;fit=fill",
+      "translations": {
+        "en": {
+          "title": "Connected intelligence for in-house legal teams",
+          "summary": "OpenAI's Stacey Wang, Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI helps in-house legal teams connect context, build workflows, and optimize outside counsel.",
+          "keyPoints": [
+            "Features experts from OpenAI, LECG, and Cooley",
+            "Connects business context for legal teams",
+            "Builds reusable workflows and optimizes outside counsel"
+          ]
+        },
+        "fr": {
+          "title": "Intelligence connectée pour les juristes internes",
+          "summary": "Stacey Wang et Craig Bruney d'OpenAI, Mary O'Carroll de LECG et Richard Segal de Cooley explorent comment l'IA aide les équipes juridiques internes à connecter le contexte et à créer des flux de travail.",
+          "keyPoints": [
+            "Présente des experts d'OpenAI, LECG et Cooley",
+            "Connecte le contexte commercial pour les équipes juridiques",
+            "Crée des flux de travail réutilisables"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
+    {
+      "id": "feed-1259b534687dd8",
+      "title": "Richpanel automates 50% of support with AI",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, while using GPT-6 Luna for conversations, helping companies automate 50% of support in 30 days.",
+      "keyPoints": [
+        "Automates 50% of support in 30 days",
+        "Uses GPT-6 Astra and GPT-6.1 Sol for tools and procedures",
+        "Uses GPT-6 Luna for customer conversations"
+      ],
+      "category": "Business",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4aVhQ1EicxWg7i6lIkBrLQ/cdabc180f7e5f780dbb43c302e7163d8/richpanel-social.png?w=1600&amp;h=900&amp;fit=fill",
+      "translations": {
+        "en": {
+          "title": "Richpanel automates 50% of support with AI",
+          "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, while using GPT-6 Luna for conversations, helping companies automate 50% of support in 30 days.",
+          "keyPoints": [
+            "Automates 50% of support in 30 days",
+            "Uses GPT-6 Astra and GPT-6.1 Sol for tools and procedures",
+            "Uses GPT-6 Luna for customer conversations"
+          ]
+        },
+        "fr": {
+          "title": "Richpanel automatise 50 % du support avec l'IA",
+          "summary": "Richpanel utilise GPT-6 Astra et GPT-6.1 Sol pour doter ses agents de support d'outils et de procédures, et GPT-6 Luna pour leurs conversations, aidant les entreprises à automatiser 50 % du support en 30 jours.",
+          "keyPoints": [
+            "Automatise 50 % du support en 30 jours",
+            "Utilise GPT-6 Astra et GPT-6.1 Sol pour les outils",
+            "Utilise GPT-6 Luna pour les conversations"
+          ]
+        }
+      },
+      "quality": {
+        "confidence": 1,
+        "needsReview": false
+      }
+    },
     {
       "id": "feed-0e28a904d1414b",
       "title": "RelaxQAT: Continuous Relaxation for Quantization-Aware Training",
@@ -585,210 +780,15 @@
         "confidence": 1,
         "needsReview": false
       }
-    },
-    {
-      "id": "feed-9e7d1b0c4460f6",
-      "title": "Memorization and Generalization in Generative Models via AM",
-      "summary": "This thesis explores generative model intelligence through Associative Memory (AM), where patterns are stored as energy minima and retrieved via attractor dynamics. The author shows that diffusion models behave as AMs, where spurious states emerge as training data grows, acting as the foundation for creative and generative capabilities.",
-      "keyPoints": [
-        "Explores generative model mechanisms using Associative Memory and attractor dynamics.",
-        "Demonstrates that diffusion models form distinct basins of attraction around training samples.",
-        "Shows how spurious states emerge as training data scales, driving generative capability."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26797",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Memorization and Generalization in Generative Models via AM",
-          "summary": "This thesis explores generative model intelligence through Associative Memory (AM), where patterns are stored as energy minima and retrieved via attractor dynamics. The author shows that diffusion models behave as AMs, where spurious states emerge as training data grows, acting as the foundation for creative and generative capabilities.",
-          "keyPoints": [
-            "Explores generative model mechanisms using Associative Memory and attractor dynamics.",
-            "Demonstrates that diffusion models form distinct basins of attraction around training samples.",
-            "Shows how spurious states emerge as training data scales, driving generative capability."
-          ]
-        },
-        "fr": {
-          "title": "Mémorisation et généralisation dans les modèles génératifs",
-          "summary": "Cette thèse explore l'intelligence des modèles génératifs à travers la mémoire associative, où les motifs sont stockés sous forme de minima énergétiques. L'auteur montre que les modèles de diffusion se comportent comme des mémoires associatives, et que l'apparition d'états parasites favorise la généricité.",
-          "keyPoints": [
-            "Explore les mécanismes des modèles génératifs via la mémoire associative.",
-            "Démontre que les modèles de diffusion forment des bassins d'attraction autour des échantillons.",
-            "Explique comment l'émergence d'états parasites soutient les capacités génératives."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-03465724b88b0c",
-      "title": "Benchmarking Normative-Descriptive Calibration in LLMs",
-      "summary": "The authors introduce normative-descriptive calibration to measure how LLMs distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Using the Normative-Descriptive Calibration Benchmark (NDCB) across six LLMs, they find that models like Claude Sonnet 4.6 and Opus 4.6 separate the framings strongly, while others show negative or neutral separation.",
-      "keyPoints": [
-        "Introduces normative-descriptive calibration for LLMs in socially consequential settings.",
-        "Evaluates 697 matched-pair scenarios across six domains using the new NDCB benchmark.",
-        "Shows distinct behavioral differences across models regarding descriptive and normative prompts."
-      ],
-      "category": "Business",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26870",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Benchmarking Normative-Descriptive Calibration in LLMs",
-          "summary": "The authors introduce normative-descriptive calibration to measure how LLMs distinguish between normative reasoning (what should happen) and descriptive reasoning (what is likely to happen). Using the Normative-Descriptive Calibration Benchmark (NDCB) across six LLMs, they find that models like Claude Sonnet 4.6 and Opus 4.6 separate the framings strongly, while others show negative or neutral separation.",
-          "keyPoints": [
-            "Introduces normative-descriptive calibration for LLMs in socially consequential settings.",
-            "Evaluates 697 matched-pair scenarios across six domains using the new NDCB benchmark.",
-            "Shows distinct behavioral differences across models regarding descriptive and normative prompts."
-          ]
-        },
-        "fr": {
-          "title": "Évaluation de la calibration normative et descriptive des LLM",
-          "summary": "Les auteurs introduisent la calibration normative-descriptive pour mesurer la distinction faite par les LLM entre raisonnement normatif et descriptif. À l'aide du benchmark NDCB sur six modèles, ils constatent que certains séparent nettement ces cadres, tandis que d'autres affichent des comportements neutres ou négatifs.",
-          "keyPoints": [
-            "Introduit la calibration normative-descriptive pour les LLM dans des contextes sociaux.",
-            "Évalue 697 scénarios appariés dans six domaines via le benchmark NDCB.",
-            "Met en évidence de fortes variations de comportement selon les modèles testés."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-d255db050aaeae",
-      "title": "Robust Partial-Edit Deepfake Localization Analysis",
-      "summary": "This work presents an edit- and generator-conditioned analysis of Segment-Aware Localization (SAL) using WavLM-Large and XLS-R representations on speech deepfake datasets. The authors find that deletion is the hardest editing operation to localize, and that performance varies heavily across different generators, indicating aggregate scores can mask localized weaknesses.",
-      "keyPoints": [
-        "Presents an edit- and generator-conditioned analysis for partial-edit deepfake localization.",
-        "Evaluates WavLM-Large and XLS-R representations on VoiceCraft and SSR-Speech subsets.",
-        "Identifies deletion operations as the most challenging condition for localization systems."
-      ],
-      "category": "Modèles",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26903",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "Robust Partial-Edit Deepfake Localization Analysis",
-          "summary": "This work presents an edit- and generator-conditioned analysis of Segment-Aware Localization (SAL) using WavLM-Large and XLS-R representations on speech deepfake datasets. The authors find that deletion is the hardest editing operation to localize, and that performance varies heavily across different generators, indicating aggregate scores can mask localized weaknesses.",
-          "keyPoints": [
-            "Presents an edit- and generator-conditioned analysis for partial-edit deepfake localization.",
-            "Evaluates WavLM-Large and XLS-R representations on VoiceCraft and SSR-Speech subsets.",
-            "Identifies deletion operations as the most challenging condition for localization systems."
-          ]
-        },
-        "fr": {
-          "title": "Analyse de la localisation robuste de deepfakes modifiés",
-          "summary": "Ce travail présente une analyse conditionnée par les types d'édition et de générateurs pour la localisation de modifications partielles de deepfakes vocaux. Les auteurs montrent que la suppression est l'opération la plus difficile à localiser et que les performances varient selon les générateurs.",
-          "keyPoints": [
-            "Présente une analyse conditionnée des modifications pour la localisation de deepfakes.",
-            "Évalue les représentations WavLM-Large et XLS-R sur les sous-ensembles VoiceCraft et SSR-Speech.",
-            "Identifie les opérations de suppression comme le défi majeur pour les systèmes."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-7afd1e283c6656",
-      "title": "BudgetPV: Budget-Aware Theorem Proving with LLMs",
-      "summary": "BudgetPV is an agentic budget-aware predict-and-verify system designed to allocate computation across unresolved subgoals and heterogeneous LLM solvers. By using a cross-solver predictor trained with specific classification objectives, BudgetPV achieves computation savings compared to uniform allocation while solving the same number of subgoals.",
-      "keyPoints": [
-        "Introduces BudgetPV for budget-aware compute allocation across heterogeneous LLM theorem solvers.",
-        "Uses a cross-solver predictor trained with dual objectives for initial and later allocation stages.",
-        "Demonstrates significant computation savings over uniform allocation on standard benchmarks."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26906",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "BudgetPV: Budget-Aware Theorem Proving with LLMs",
-          "summary": "BudgetPV is an agentic budget-aware predict-and-verify system designed to allocate computation across unresolved subgoals and heterogeneous LLM solvers. By using a cross-solver predictor trained with specific classification objectives, BudgetPV achieves computation savings compared to uniform allocation while solving the same number of subgoals.",
-          "keyPoints": [
-            "Introduces BudgetPV for budget-aware compute allocation across heterogeneous LLM theorem solvers.",
-            "Uses a cross-solver predictor trained with dual objectives for initial and later allocation stages.",
-            "Demonstrates significant computation savings over uniform allocation on standard benchmarks."
-          ]
-        },
-        "fr": {
-          "title": "BudgetPV : Démonstration de théorèmes optimisée par budget",
-          "summary": "BudgetPV est un système agentique d'allocation budgétaire et de vérification pour répartir les calculs entre des solveurs LLM hétérogènes. Grâce à un prédicteur multi-solveur entraîné avec des objectifs spécifiques, BudgetPV réalise des économies de calcul par rapport à une allocation uniforme.",
-          "keyPoints": [
-            "Présente BudgetPV pour l'allocation de calcul entre solveurs LLM hétérogènes.",
-            "Utilise un prédicteur entraîné avec de nouveaux objectifs pour les différentes phases.",
-            "Démontre des économies de calcul notables par rapport à une allocation uniforme."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
-    },
-    {
-      "id": "feed-9727016a4ca8e9",
-      "title": "AstronautBench: Measuring Agent Self-Improvement",
-      "summary": "AstronautBench measures LLM agent self-improvement across episodes using three perspectives: what the agent knows, whether its evidence supports that knowledge, and its task progress in an embodied environment based on Outer Wilds. Baselines with GPT-6.1 Sol and Gemini 4 Argon planners show that these three metrics do not always move together.",
-      "keyPoints": [
-        "Introduces AstronautBench to evaluate agent self-improvement across episodes in Outer Wilds.",
-        "Measures knowledge, evidence support, and world progress independently.",
-        "Demonstrates that single evaluation metrics provide an incomplete picture of agent learning."
-      ],
-      "category": "Outils",
-      "sourceName": "arXiv cs.AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.26910",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "imageUrl": "",
-      "translations": {
-        "en": {
-          "title": "AstronautBench: Measuring Agent Self-Improvement",
-          "summary": "AstronautBench measures LLM agent self-improvement across episodes using three perspectives: what the agent knows, whether its evidence supports that knowledge, and its task progress in an embodied environment based on Outer Wilds. Baselines with GPT-6.1 Sol and Gemini 4 Argon planners show that these three metrics do not always move together.",
-          "keyPoints": [
-            "Introduces AstronautBench to evaluate agent self-improvement across episodes in Outer Wilds.",
-            "Measures knowledge, evidence support, and world progress independently.",
-            "Demonstrates that single evaluation metrics provide an incomplete picture of agent learning."
-          ]
-        },
-        "fr": {
-          "title": "AstronautBench : Mesurer l'auto-amélioration des agents",
-          "summary": "AstronautBench mesure l'auto-amélioration des agents LLM à travers des épisodes selon trois axes : les connaissances, le support des preuves et la progression dans un environnement inspiré d'Outer Wilds. Les tests montrent que ces trois mesures n'évoluent pas nécessairement de concert.",
-          "keyPoints": [
-            "Introduit AstronautBench pour évaluer l'auto-amélioration des agents dans Outer Wilds.",
-            "Mesure indépendamment les connaissances, les preuves et la progression dans le monde.",
-            "Démontre qu'une métrique unique offre une vision incomplète de l'apprentissage."
-          ]
-        }
-      },
-      "quality": {
-        "confidence": 1,
-        "needsReview": false
-      }
     }
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 392,
+    "itemsCollected": 37,
     "itemsPublished": 20,
-    "newItems": 10,
-    "candidates": 20,
-    "batches": 2,
+    "newItems": 5,
+    "candidates": 5,
+    "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
     "status": "updated"
