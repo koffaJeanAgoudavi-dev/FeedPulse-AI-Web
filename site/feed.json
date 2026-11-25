@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:38:17.207Z",
+  "generatedAt": "2026-11-25T21:43:36.292Z",
   "items": [
     {
       "id": "feed-b0689cf87ab570",
@@ -784,10 +784,10 @@
   ],
   "meta": {
     "sourcesChecked": 5,
-    "itemsCollected": 34,
+    "itemsCollected": 30,
     "itemsPublished": 20,
     "newItems": 0,
-    "candidates": 5,
+    "candidates": 6,
     "batches": 1,
     "batchSize": 10,
     "model": "gemini-3.5-flash-lite",
